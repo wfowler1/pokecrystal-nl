@@ -4628,10 +4628,10 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ret
 
 String_11a2cf:
-	db "YES@"
+	db "JA@" ; "YES@"
 
 String_11a2d3:
-	db "NO@"
+	db "NEE@" ; "NO@"
 
 MenuHeader_11a2d6: ; unreferenced
 	db MENU_BACKUP_TILES ; flags
