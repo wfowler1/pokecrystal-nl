@@ -113,10 +113,10 @@ DrawPokedexSearchResultsWindow:
 
 .esults_D
 ; (SEARCH R)
-	db   "ESULTS"
+	db   "en" ; "ESULTS"
 	next ""
 ; (### FOUN)
-	next "D!@"
+	next "nden@" ; "D!@"
 
 DrawDexEntryScreenRightEdge:
 	ldh a, [hBGMapAddress]
