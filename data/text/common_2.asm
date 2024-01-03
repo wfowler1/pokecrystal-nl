@@ -664,8 +664,8 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Ben je een jongen" ; "Are you a boy?"
+	line "of een meisje?" ; "Or are you a girl?"
 	done
 
 Text_BattleEffectActivate::
