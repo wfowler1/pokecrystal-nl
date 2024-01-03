@@ -1,117 +1,121 @@
 NurseMornText:
-	text "Good morning!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Goedemorgen!" ; "Good morning!"
+	line "Welkom in ons" ; "Welcome to our"
+	cont "#MON CENTRUM." ; "#MON CENTER."
 	done
 
 NurseDayText:
-	text "Hello!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Hallo!" ; "Hello!"
+	line "Welkom in ons" ; "Welcome to our"
+	cont "#MON CENTRUM." ; "#MON CENTER."
 	done
 
 NurseNiteText:
-	text "Good evening!"
-	line "You're out late."
+	text "Goedenavond!" ; "Good evening!"
+	line "Je bent laat" ; "You're out late."
+	cont "buiten."
 
-	para "Welcome to our"
-	line "#MON CENTER."
+	para "Welkom in ons" ; "Welcome to our"
+	line "#MON CENTRUM." ; "#MON CENTER."
 	done
 
 PokeComNurseMornText:
-	text "Good morning!"
+	text "Goedemorgen!" ; "Good morning!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Dis is de #-" ; "This is the #-"
+	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "CENTRUM--of de" ; "CENTER--or the"
+	line "#COM CENTRUM." ; "#COM CENTER."
 	done
 
 PokeComNurseDayText:
-	text "Hello!"
+	text "Hallo!" ; "Hello!"
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Dis is de #-" ; "This is the #-"
+	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "CENTRUM--of de" ; "CENTER--or the"
+	line "#COM CENTRUM." ; "#COM CENTER."
 	done
 
 PokeComNurseNiteText:
-	text "Good to see you"
-	line "working so late."
+	text "Het is leuk je te" ; "Good to see you"
+	line "zien zo laat" ; "working so late."
+	line "werken."
 
-	para "This is the #-"
-	line "MON COMMUNICATION"
+	para "Dis is de #-" ; "This is the #-"
+	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "CENTRUM--of de" ; "CENTER--or the"
+	line "#COM CENTRUM." ; "#COM CENTER."
 	done
 
 NurseAskHealText:
-	text "We can heal your"
-	line "#MON to perfect"
-	cont "health."
+	text "We zullen je #-" ; "We can heal your"
+	line "MON volledig" ; #MON to perfect"
+	cont "genezen." ; "health."
 
-	para "Shall we heal your"
-	line "#MON?"
+	para "Wil je dat we je" ; "Shall we heal your"
+	line "#MON genezen?" ; "#MON?"
 	done
 
 NurseTakePokemonText:
-	text "OK, may I see your"
-	line "#MON?"
+	text "Oké, geef me je" ; "OK, may I see your"
+	line "#MON even." ; "#MON?"
 	done
 
 NurseReturnPokemonText:
-	text "Thank you for"
-	line "waiting."
+	text "Dank je vel voor" ; "Thank you for"
+	line "het wachten." ; "waiting."
 
-	para "Your #MON are"
-	line "fully healed."
+	para "Je #MON zijn" ; "Your #MON are"
+	line "volledig genezen." ; "fully healed."
 	done
 
 NurseGoodbyeText:
-	text "We hope to see you"
-	line "again."
+	text "Kom snel terug!" ; "We hope to see you"
+	; line "again."
 	done
 
 ; not used
-	text "We hope to see you"
-	line "again."
+	text "Kom snel terug!" ; "We hope to see you"
+	; line "again."
 	done
 
 NursePokerusText:
-	text "Your #MON"
-	line "appear to be"
+	text "Je #MON zijn" ; "Your #MON"
+	line "besmet met kleine" ; "appear to be"
+	line "levensvormen."
 
-	para "infected by tiny"
-	line "life forms."
+	; para "infected by tiny"
+	; line "life forms."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Je #MON zijn" ; "Your #MON are"
+	line "gezonde en lijken" ; "healthy and seem"
+	cont "goed." ; "to be fine."
 
-	para "But we can't tell"
-	line "you anything more"
+	para "Maar meer weten we" ; "But we can't tell"
+	line "hier in het" ; "you anything more"
 
-	para "at a #MON"
-	line "CENTER."
+	para "#MON CENTRUM" ; "at a #MON"
+	line "niet." ; "CENTER."
 	done
 
 PokeComNursePokerusText:
-	text "Your #MON"
-	line "appear to be"
+	text "Je #MON zijn" ; "Your #MON"
+	line "besmet met kleine" ; "appear to be"
+	line "levensvormen."
 
-	para "infected by tiny"
-	line "life forms."
+	; para "infected by tiny"
+	; line "life forms."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Je #MON zijn" ; "Your #MON are"
+	line "gezonde en lijken" ; "healthy and seem"
+	cont "goed." ; "to be fine."
 
-	para "But we can't tell"
-	line "you anything more."
+	para "Maar meer weten we" ; "But we can't tell"
+	line "niet." ; "you anything more"
 	done
 
 DifficultBookshelfText:
@@ -203,8 +207,10 @@ TrashCanText:
 	done
 
 PokecenterSignText:
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Je #MON" ; "Heal Your #MON!"
+	line "genezen!" ; "#MON CENTER"
+	
+	para "#MON CENTRUM"
 	done
 
 MartSignText:
