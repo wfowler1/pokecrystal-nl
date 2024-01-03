@@ -1050,11 +1050,11 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "SUN@"
-.Mon:    db "MON@"
-.Tues:   db "TUES@"
-.Wednes: db "WEDNES@"
-.Thurs:  db "THURS@"
-.Fri:    db "FRI@"
-.Satur:  db "SATUR@"
-.Day:    db "DAY@"
+.Sun:    db "ZON@" ; "SUN@"
+.Mon:    db "MAAN@" ; "MON@"
+.Tues:   db "DINS@" ; "TUES@"
+.Wednes: db "WOENS@" ; "WEDNES@"
+.Thurs:  db "DONDER@" ; "THURS@"
+.Fri:    db "VRIJ@" ; "FRI@"
+.Satur:  db "ZATER@" ; "SATUR@"
+.Day:    db "DAG@" ; "DAY@"

@@ -2923,13 +2923,13 @@ pushc
 setcharmap ascii
 
 Unknown_1196b8:
-	db "Mon"
-	db "Tue"
-	db "Wed"
-	db "Thu"
-	db "Fri"
-	db "Sat"
-	db "Sun"
+	db "ma." ; "Mon"
+	db "di." ; "Tue"
+	db "wo." ; "Wed"
+	db "do." ; "Thu"
+	db "vr." ; "Fri"
+	db "za." ; "Sat"
+	db "zo." ; "Sun"
 
 popc
 

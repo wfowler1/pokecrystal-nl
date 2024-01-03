@@ -348,15 +348,15 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "ZON@" ; "SUN@"
+	db "MAAN@" ; "MON@"
+	db "DINS@" ; "TUES@"
+	db "WOENS@" ; "WEDNES@"
+	db "DONDER@" ; "THURS@"
+	db "VRIJ@" ; "FRI@"
+	db "ZATER@" ; "SATUR@"
 .Day:
-	db "DAY@"
+	db "DAG@" ; "DAY@"
 
 ClearTilemapEtc:
 	xor a
