@@ -9,87 +9,92 @@ _EggPhotoText::
 	done
 
 _NameRaterHelloText::
-	text "Hello, hello! I'm"
-	line "the NAME RATER."
+	text "Hallo! Ik ben de" ; "Hello, hello! I'm"
+	line "NAAM-BEOORDELAAR." ; "the NAME RATER."
 
-	para "I rate the names"
-	line "of #MON."
+	para "Ik beoordeel de" ; "I rate the names"
+	line "namen van je" ; "of #MON."
+	cont "#MON."
 
-	para "Would you like me"
-	line "to rate names?"
+	para "Moet ik een naam" ; "Would you like me"
+	line "beoordelen?" ; "to rate names?"
 	done
 
 _NameRaterWhichMonText::
-	text "Which #MON's"
-	line "nickname should I"
-	cont "rate for you?"
+	text "Welke #MON-" ; "Which #MON's"
+	line "bijnaam moet ik" ; "nickname should I"
+	cont "beoordelen?" ; "rate for you?"
 	prompt
 
 _NameRaterBetterNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "…"
-	line "That's a fairly"
-	cont "decent name."
+	line "Dat is geen" ; "That's a fairly"
+	cont "slechte naam." ; "decent name."
 
-	para "But, how about a"
-	line "slightly better"
-	cont "nickname?"
+	para "Maar bedenk een" ; "But, how about a"
+	line "betere bijnaam!" ; "slightly better"
+	; cont "nickname?"
 
-	para "Want me to give it"
-	line "a better name?"
+	para "Moet het een" ; "Want me to give it"
+	line "nieuwe naam" ; "a better name?"
+	cont "krigen?"
 	done
 
 _NameRaterWhatNameText::
-	text "All right. What"
-	line "name should we"
-	cont "give it, then?"
+	text "Oké. Welke naam" ; "All right. What"
+	line "wil je geven?" ; "name should we"
+	; cont "give it, then?"
 	prompt
 
 _NameRaterFinishedText::
-	text "That's a better"
-	line "name than before!"
+	text "Deze naam is" ; "That's a better"
+	line "beter!" ; "name than before!"
 
-	para "Well done!"
+	para "Goed gedaan!" ; "Well done!"
 	done
 
 _NameRaterComeAgainText::
-	text "OK, then. Come"
-	line "again sometime."
+	text "Oké, dan. Kom een" ; "OK, then. Come"
+	line "keertje nog eens." ; "again sometime."
 	done
 
 _NameRaterPerfectNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "?"
-	line "What a great name!"
-	cont "It's perfect."
+	line "Het is een" ; "What a great name!"
+	cont "geweldige naam!" ; "It's perfect."
+	cont "Het is perfect."
 
-	para "Treat @"
+	para "Zorg goed voor" ; "Treat @"
+	line "@"
 	text_ram wStringBuffer1
-	text_start
-	line "with loving care."
+	text "." ; "with loving care."
 	done
 
 _NameRaterEggText::
-	text "Whoa… That's just"
-	line "an EGG."
+	text "Hm… Het is maar" ; "Whoa… That's just"
+	line "een EI." ; "an EGG."
 	done
 
 _NameRaterSameNameText::
-	text "It might look the"
-	line "same as before,"
+	text "Misschien lijkt" ; "It might look the"
+	line "het hetzelfde als" ; "same as before,"
+	cont "de oude naam,"
 
-	para "but this new name"
-	line "is much better!"
+	para "maar dit is veel" ; "but this new name"
+	line "beter." ; "is much better!"
 
-	para "Well done!"
+	para "Goed gedaan!" ; "Well done!"
 	done
 
 _NameRaterNamedText::
-	text "All right. This"
-	line "#MON is now"
-	cont "named @"
+	text "Oké, de nieuwe" ; "All right. This"
+	line "naam van deze" ; "#MON is now"
+	cont "#MON is" ; "named @"
+	cont "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
