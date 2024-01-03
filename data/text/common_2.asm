@@ -214,38 +214,38 @@ _ReceivedTMHMText::
 	prompt
 
 _MysteryGiftCanceledText::
-	text "The link has been"
-	line "cancelled."
+	text "De koppeling is" ; "The link has been"
+	line "geannuleerd." ; "cancelled."
 	prompt
 
 _MysteryGiftCommErrorText::
-	text "Communication"
-	line "error."
+	text "Communicatie fout." ; "Communication"
+	; line "error."
 	prompt
 
 _RetrieveMysteryGiftText::
-	text "Must retrieve GIFT"
-	line "at #MON CENTER."
+	text "Ontvang je CADEAU" ; "Must retrieve GIFT"
+	line "op #MON CENTRUM" ; "at #MON CENTER."
 	prompt
 
 _YourFriendIsNotReadyText::
-	text "Your friend isn't"
-	line "ready."
+	text "Je vriend is er" ; "Your friend isn't"
+	line "niet klaar voor." ; "ready."
 	prompt
 
 _MysteryGiftFiveADayText::
-	text "Sorry--only five"
-	line "GIFTS a day."
+	text "Sorry--alleen vijf" ; "Sorry--only five"
+	line "CADEAUS per dag." ; "GIFTS a day."
 	prompt
 
 _MysteryGiftOneADayText::
-	text "Sorry. One GIFT"
-	line "a day per person."
+	text "Sorry. Één CADEAU" ; "Sorry. One GIFT"
+	line "per dag per mens." ; "a day per person."
 	prompt
 
 _MysteryGiftSentText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " stuurt" ; " sent"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
@@ -253,13 +253,14 @@ _MysteryGiftSentText::
 
 _MysteryGiftSentHomeText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " stuurt" ; " sent"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "to @"
+	line "naar het huis van"
+	cont "@" ; "to @"
 	text_ram wMysteryGiftPlayerName
-	text "'s home."
+	text "." ; "'s home."
 	prompt
 
 _NameCardReceivedCardText::
@@ -283,8 +284,8 @@ _NameCardNotRegisteredCardText::
 	prompt
 
 _NameCardLinkCancelledText::
-	text "The link has been"
-	line "cancelled."
+	text "De koppeling is" ; "The link has been"
+	line "geannuleerd." ; "cancelled."
 	prompt
 
 _NameCardLinkCommErrorText::
