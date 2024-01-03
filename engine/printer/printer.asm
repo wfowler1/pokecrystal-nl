@@ -575,7 +575,7 @@ PlacePrinterStatusString:
 	hlcoord 1, 7
 	ld a, BANK(GBPrinterStrings)
 	call PlaceFarString
-	hlcoord 2, 15
+	hlcoord 1, 15
 	ld de, String_PressBToCancel
 	call PlaceString
 	ld a, $1
