@@ -287,8 +287,8 @@ BicycleDesc:
 	next "for fast movement.@"
 
 MoonStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Ontwikkelt sommige" ; "Evolves certain"
+	next "soorten #MON.@" ; "kinds of #MON.@"
 
 AntidoteDesc:
 	db   "Cures poisoned"
@@ -343,16 +343,16 @@ MaxElixerDesc:
 	next "PP of one #MON.@"
 
 FireStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Ontwikkelt sommige" ; "Evolves certain"
+	next "soorten #MON.@" ; "kinds of #MON.@"
 
 ThunderStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Ontwikkelt sommige" ; "Evolves certain"
+	next "soorten #MON.@" ; "kinds of #MON.@"
 
 WaterStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Ontwikkelt sommige" ; "Evolves certain"
+	next "soorten #MON.@" ; "kinds of #MON.@"
 
 TeruSama2Desc:
 	db   "?@"
@@ -390,8 +390,8 @@ XAccuracyDesc:
 	next "(1 BTL)@"
 
 LeafStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Ontwikkelt sommige" ; "Evolves certain"
+	next "soorten #MON.@" ; "kinds of #MON.@"
 
 MetalPowderDesc:
 	db   "Raises DEFENSE of"
@@ -591,7 +591,8 @@ MintBerryDesc:
 	next "for sleep. (HOLD)@"
 
 RedApricornDesc:
-	db   "A red APRICORN.@"
+	db   "Een roode" ; "A red APRICORN.@"
+	next "ABRIKHORN.@"
 
 TinyMushroomDesc:
 	db   "An ordinary mush-"
@@ -606,7 +607,8 @@ SilverPowderDesc:
 	next "moves. (HOLD)@"
 
 BluApricornDesc:
-	db   "A blue APRICORN.@"
+	db   "Een blauwe" ; "A blue APRICORN.@"
+	next "ABRIKHORN.@"
 
 TeruSama6Desc:
 	db   "?@"
@@ -616,10 +618,12 @@ AmuletCoinDesc:
 	next "earnings. (HOLD)@"
 
 YlwApricornDesc:
-	db   "A yellow APRICORN.@"
+	db   "Een gele" ; "A yellow APRICORN.@"
+	next "ABRIKHORN.@"
 
 GrnApricornDesc:
-	db   "A green APRICORN.@"
+	db   "Een groene" ; "A green APRICORN.@"
+	next "ABRIKHORN.@"
 
 CleanseTagDesc:
 	db   "Helps repel wild"
@@ -634,22 +638,23 @@ TwistedSpoonDesc:
 	next "type moves. (HOLD)@"
 
 WhtApricornDesc:
-	db   "A white APRICORN.@"
+	db   "Een witte" ; "A white APRICORN.@"
+	next "ABRIKHORN.@"
 
 BlackbeltDesc:
 	db   "Boosts fighting-"
 	next "type moves. (HOLD)@"
 
 BlkApricornDesc:
-	db   "A black APRICORN."
-	next "@"
+	db   "Een zwarte" ; "A black APRICORN.@"
+	next "ABRIKHORN.@"
 
 TeruSama7Desc:
 	db   "?@"
 
 PnkApricornDesc:
-	db   "A pink APRICORN."
-	next "@"
+	db   "Een roze"; "A pink APRICORN.@"
+	next "ABRIKHORN.@"
 
 BlackGlassesDesc:
 	db   "Powers up dark-"
@@ -905,8 +910,8 @@ GorgeousBoxDesc:
 	next "what's inside.@"
 
 SunStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Ontwikkelt sommige" ; "Evolves certain"
+	next "soorten #MON.@" ; "kinds of #MON.@"
 
 PolkadotBowDesc:
 	db   "Powers up normal-"
