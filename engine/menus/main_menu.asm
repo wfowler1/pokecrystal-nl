@@ -65,14 +65,14 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
-	db "MOBILE@"
-	db "MOBILE STUDIUM@"
+	db "VOORTZETTEN@" ; "CONTINUE@"
+	db "NIEUW SPEL@" ; "NEW GAME@"
+	db "OPTIES@" ; "OPTION@"
+	db "GEHEIME CADEAU@" ; "MYSTERY GIFT@"
+	db "MOBIEL@" ; "MOBILE@"
+	db "MOBIEL STADIUM@" ; "MOBILE STUDIUM@"
 if DEF(_DEBUG)
-	db "DEBUG ROOM@"
+	db "DEBUGKAMER@" ; "DEBUG ROOM@"
 endc
 
 .Jumptable:
@@ -326,7 +326,9 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "KLOK NIET" ; "TIME NOT SET@"
+	next "INGESTELD"
+	db "@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
