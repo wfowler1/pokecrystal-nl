@@ -157,19 +157,20 @@ _OakTimeWokeUpText::
 	text "<……><……><……><……><……><……>"
 	line "<……><……><……><……><……><……>"
 
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
+	para "Zzz… Hm? Wat…?" ; "Zzz… Hm? Wha…?"
+	line "Je maakte me" ; "You woke me up!"
+	cont "wakker! Kunt je"
 
-	para "Will you check the"
-	line "clock for me?"
+	para "mij vertellen hoe" ; "Will you check the"
+	line "laat het is?" ; "clock for me?"
 	prompt
 
 _OakTimeWhatTimeIsItText::
-	text "What time is it?"
+	text "Hoe laat is het?" ; "What time is it?"
 	done
 
 _OakTimeWhatHoursText::
-	text "What?@"
+	text "Wat?@" ; "What?@"
 	text_end
 
 _OakTimeHoursQuestionMarkText::
@@ -177,11 +178,11 @@ _OakTimeHoursQuestionMarkText::
 	done
 
 _OakTimeHowManyMinutesText::
-	text "How many minutes?"
+	text "Hoeveel minuten?" ; "How many minutes?"
 	done
 
 _OakTimeWhoaMinutesText::
-	text "Whoa!@"
+	text "Wauw!@" ; "Whoa!@"
 	text_end
 
 _OakTimeMinutesQuestionMarkText::
@@ -190,27 +191,28 @@ _OakTimeMinutesQuestionMarkText::
 
 _OakTimeOversleptText::
 	text "!"
-	line "I overslept!"
+	line "Ik heb me ver-" ; "I overslept!"
+	cont "slapen!"
 	done
 
 _OakTimeYikesText::
 	text "!"
-	line "Yikes! I over-"
-	cont "slept!"
+	line "Oh oh! Ik heb me" ; "Yikes! I over-"
+	cont "verslapen!" ; "slept!"
 	done
 
 _OakTimeSoDarkText::
 	text "!"
-	line "No wonder it's so"
-	cont "dark!"
+	line "Geen wonder dat" ; "No wonder it's so"
+	cont "het zo donker is!" ; "dark!"
 	done
 
 _OakTimeWhatDayIsItText::
-	text "What day is it?"
+	text "Welke dag is het?" ; "What day is it?"
 	done
 
 _OakTimeIsItText::
-	text ", is it?"
+	text ", toch?" ; ", is it?"
 	done
 
 ; Mobile Adapter
