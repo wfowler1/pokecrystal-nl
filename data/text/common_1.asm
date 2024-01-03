@@ -1,30 +1,29 @@
 _FruitBearingTreeText::
-	text "It's a fruit-"
-	line "bearing tree."
+	text "Het is een" ; "It's a fruit-"
+	line "fruitboom." ; "bearing tree."
 	done
 
 _HeyItsFruitText::
-	text "Hey! It's"
+	text "Hé! Dit is een" ; "Hey! It's"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _ObtainedFruitText::
-	text "Obtained"
-	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text_start
+	line "ontvangen!" ; "Obtained"
 	done
 
 _FruitPackIsFullText::
-	text "But the PACK is"
-	line "full…"
+	text "Maar de TAS is" ; "But the PACK is"
+	line "vol…" ; "full…"
 	done
 
 _NothingHereText::
-	text "There's nothing"
-	line "here…"
+	text "Hier is niets…" ; "There's nothing"
+	; line "here…" ; "here…"
 	done
 
 _WhichApricornText::
