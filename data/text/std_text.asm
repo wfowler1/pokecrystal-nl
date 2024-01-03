@@ -42,7 +42,7 @@ PokeComNurseDayText:
 PokeComNurseNiteText:
 	text "Het is leuk je te" ; "Good to see you"
 	line "zien zo laat" ; "working so late."
-	line "werken."
+	cont "werken."
 
 	para "Dis is de #-" ; "This is the #-"
 	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
@@ -86,7 +86,7 @@ NurseGoodbyeText:
 NursePokerusText:
 	text "Je #MON zijn" ; "Your #MON"
 	line "besmet met kleine" ; "appear to be"
-	line "levensvormen."
+	cont "levensvormen."
 
 	; para "infected by tiny"
 	; line "life forms."
@@ -105,7 +105,7 @@ NursePokerusText:
 PokeComNursePokerusText:
 	text "Je #MON zijn" ; "Your #MON"
 	line "besmet met kleine" ; "appear to be"
-	line "levensvormen."
+	cont "levensvormen."
 
 	; para "infected by tiny"
 	; line "life forms."
