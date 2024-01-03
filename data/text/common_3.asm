@@ -185,35 +185,35 @@ _MobileBattleRemainingTimeText::
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Would you like to"
-	line "save the game?"
+	text "Wil je het spel" ; "Would you like to"
+	line "opslaan?" ; "save the game?"
 	done
 
 _SavingDontTurnOffThePowerText::
-	text "SAVING… DON'T TURN"
-	line "OFF THE POWER."
+	text "SCHRIJVEN… ZET DE" ; "SAVING… DON'T TURN"
+	line "KRACHT NIET UIT." ; "OFF THE POWER."
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> saved"
-	line "the game."
+	text "<PLAYER> de" ; "<PLAYER> saved"
+	line "voortgang schrift." ; "the game."
 	done
 
 _AlreadyASaveFileText::
-	text "There is already a"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "Er is al een op-" ; "There is already a"
+	line "slagbestand. Het" ; "save file. Is it"
+	cont "overschrijf?" ; "OK to overwrite?"
 	done
 
 _AnotherSaveFileText::
-	text "There is another"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "Er is nog een op-" ; "There is another"
+	line "slagbestand. Het" ; "save file. Is it"
+	cont "overschrijf?" ; "OK to overwrite?"
 	done
 
 _SaveFileCorruptedText::
-	text "The save file is"
-	line "corrupted!"
+	text "Het opslagbestand" ; "The save file is"
+	line "is beschadigd!" ; "corrupted!"
 	prompt
 
 _ChangeBoxSaveText::
