@@ -102,32 +102,32 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next " CHECKING LINK...@"
-GBPrinterString_Transmitting: next "  TRANSMITTING...@"
-GBPrinterString_Printing: next "    PRINTING...@"
+GBPrinterString_CheckingLink: next "CONTROLEREN LINK…@" ; " CHECKING LINK...@"
+GBPrinterString_Transmitting: next "    VERZENDEN…@" ; "  TRANSMITTING...@"
+GBPrinterString_Printing: next "    AFDRUKKEN…@" ; "    PRINTING...@"
 GBPrinterString_PrinterError1:
-	db   " Printer Error 1"
+	db   "  Drukker Fout 1" ; " Printer Error 1"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Lees het Game Boy" ; "Check the Game Boy"
+	next "Printer Handboek." ; "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError2:
-	db   " Printer Error 2"
+	db   "  Drukker Fout 2" ; " Printer Error 2"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Lees het Game Boy" ; "Check the Game Boy"
+	next "Printer Handboek." ; "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError3:
-	db   " Printer Error 3"
+	db   "  Drukker Fout 3" ; " Printer Error 3"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Lees het Game Boy" ; "Check the Game Boy"
+	next "Printer Handboek." ; "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError4:
-	db   " Printer Error 4"
+	db   "  Drukker Fout 4" ; " Printer Error 4"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Lees het Game Boy" ; "Check the Game Boy"
+	next "Printer Handboek." ; "Printer Manual."
 	db   "@"
 
 PrintPartyMonPage1:
@@ -329,7 +329,7 @@ PrintParty_OTString:
 	db "OT/@"
 
 PrintParty_MoveString:
-	db "MOVE@"
+	db "ACTIE@" ; "MOVE@"
 
 PrintParty_IDNoString:
 	db "<ID>№.@"
