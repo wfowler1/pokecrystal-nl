@@ -188,49 +188,49 @@ StartMenu::
 
 .PokedexString:  db "#DEX@"
 .PartyString:    db "#MON@"
-.PackString:     db "PACK@"
+.PackString:     db "TAS@" ; "PACK@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "SAVE@"
-.OptionString:   db "OPTION@"
-.ExitString:     db "EXIT@"
-.PokegearString: db "<POKE>GEAR@"
-.QuitString:     db "QUIT@"
+.SaveString:     db "SPAREN@" ; "SAVE@"
+.OptionString:   db "OPTIES@" ; "OPTION@"
+.ExitString:     db "UITGANG@" ; "EXIT@"
+.PokegearString: db "<POKE>COM@" ; "<POKE>GEAR@"
+.QuitString:     db "STOP@" ; "QUIT@"
 
 .PokedexDesc:
-	db   "#MON"
+	db   "#MON-" ; "#MON"
 	next "database@"
 
 .PartyDesc:
-	db   "Party <PKMN>"
-	next "status@"
+	db   "Partij <PKMN>" ; "Party <PKMN>"
+	next "staat@" ; "status@"
 
 .PackDesc:
-	db   "Contains"
+	db   "Bevat" ; "Contains"
 	next "items@"
 
 .PokegearDesc:
-	db   "Trainer's"
-	next "key device@"
+	db   "Belangrijk" ; "Trainer's"
+	next "apparaat@" ; "key device@"
 
 .StatusDesc:
-	db   "Your own"
+	db   "Eigen" ; "Your own"
 	next "status@"
 
 .SaveDesc:
-	db   "Save your"
-	next "progress@"
+	db   "Bewaar je" ; "Save your"
+	next "voortgang@" ; "progress@"
 
 .OptionDesc:
-	db   "Change"
-	next "settings@"
+	db   "Verander" ; "Change"
+	next "instelling@" ; "settings@"
 
 .ExitDesc:
-	db   "Close this"
+	db   "Sluit dit" ; "Close this"
 	next "menu@"
 
 .QuitDesc:
-	db   "Quit and"
-	next "be judged.@"
+	db   "Stop en" ; "Quit and"
+	next "beoordeel@" ; "be judged.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]
