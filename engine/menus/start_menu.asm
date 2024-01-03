@@ -214,7 +214,7 @@ StartMenu::
 
 .StatusDesc:
 	db   "Eigen" ; "Your own"
-	next "status@"
+	next "staat@" ; "status@"
 
 .SaveDesc:
 	db   "Bewaar je" ; "Save your"
