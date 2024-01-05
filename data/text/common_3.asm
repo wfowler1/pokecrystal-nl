@@ -195,8 +195,8 @@ _SavingDontTurnOffThePowerText::
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> de" ; "<PLAYER> saved"
-	line "voortgang schrift." ; "the game."
+	text "<PLAYER> heeft het" ; "<PLAYER> saved"
+	line "spel opgeslaad." ; "the game."
 	done
 
 _AlreadyASaveFileText::

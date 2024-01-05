@@ -1,7 +1,7 @@
 DecorationNames:
 ; entries correspond to constants/deco_constants.asm
 	list_start DecorationNames
-	li "ANNUL" ; "CANCEL"
+	li "UITGAAN" ; "CANCEL"
 	li "WEGDOEN" ; "PUT IT AWAY"
 	li "BOOMPLANT" ; "MAGNAPLANT"
 	li "TROPISCHEPLANT" ; "TROPICPLANT"

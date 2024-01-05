@@ -67,7 +67,7 @@ _PlayerDecorationMenu:
 .game:     db "SPELCOMPUTER@" ; "GAME CONSOLE@"
 .ornament: db "ORNAMENT@"
 .big_doll: db "GROTE POP@" ; "BIG DOLL@"
-.exit:     db "UITGANG@" ; "EXIT@"
+.exit:     db "UITGAAN@" ; "EXIT@"
 
 .FindCategoriesWithOwnedDecos:
 	xor a

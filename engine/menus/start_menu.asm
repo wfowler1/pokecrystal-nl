@@ -190,11 +190,11 @@ StartMenu::
 .PartyString:    db "#MON@"
 .PackString:     db "TAS@" ; "PACK@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "SPAREN@" ; "SAVE@"
+.SaveString:     db "OPSLAAN" ; "SAVE@"
 .OptionString:   db "OPTIES@" ; "OPTION@"
-.ExitString:     db "UITGANG@" ; "EXIT@"
+.ExitString:     db "UITGAAN@" ; "EXIT@"
 .PokegearString: db "<POKE>COM@" ; "<POKE>GEAR@"
-.QuitString:     db "STOP@" ; "QUIT@"
+.QuitString:     db "STOPPEN@" ; "QUIT@"
 
 .PokedexDesc:
 	db   "#MON-" ; "#MON"
@@ -217,7 +217,7 @@ StartMenu::
 	next "staat@" ; "status@"
 
 .SaveDesc:
-	db   "Bewaar je" ; "Save your"
+	db   "Slaat op" ; "Save your"
 	next "voortgang@" ; "progress@"
 
 .OptionDesc:
