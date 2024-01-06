@@ -37,14 +37,13 @@ _NameRaterBetterNameText::
 	line "betere bijnaam!" ; "slightly better"
 	; cont "nickname?"
 
-	para "Moet het een" ; "Want me to give it"
-	line "nieuwe naam" ; "a better name?"
-	cont "krigen?"
+	para "Moet ik het een" ; "Want me to give it"
+	line "nieuwe naam geven?" ; "a better name?"
 	done
 
 _NameRaterWhatNameText::
 	text "Oké. Welke naam" ; "All right. What"
-	line "wil je geven?" ; "name should we"
+	line "wil je het geven?" ; "name should we"
 	; cont "give it, then?"
 	prompt
 

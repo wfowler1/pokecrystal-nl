@@ -158,10 +158,11 @@ _OakTimeWokeUpText::
 
 	para "Zzz… Hm? Wat…?" ; "Zzz… Hm? Wha…?"
 	line "Je maakte me" ; "You woke me up!"
-	cont "wakker! Kunt je"
+	cont "wakker!"
 
-	para "mij vertellen hoe" ; "Will you check the"
-	line "laat het is?" ; "clock for me?"
+	para "Kunt je mij ver-" ; "Will you check the"
+	line "tellen hoe laat" ; "clock for me?"
+	cont "het is?"
 	prompt
 
 _OakTimeWhatTimeIsItText::
