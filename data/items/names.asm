@@ -25,7 +25,7 @@ ItemNames::
 	li "DONDERSTEEN" ; "THUNDERSTONE"
 	li "WATERSTEEN" ; "WATER STONE"
 	li "TERU-SAMA"
-	li "RP PLUS" ; "HP UP" raakpunten
+	li "EP-PLUS" ; "HP UP"
 	li "PROTEÏNE" ; "PROTEIN"
 	li "IJZER" ; "IRON"
 	li "CARBON" ; "CARBOS" 
