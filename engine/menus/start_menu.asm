@@ -190,7 +190,7 @@ StartMenu::
 .PartyString:    db "#MON@"
 .PackString:     db "TAS@" ; "PACK@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "OPSLAAN" ; "SAVE@"
+.SaveString:     db "OPSLAAN@" ; "SAVE@"
 .OptionString:   db "OPTIES@" ; "OPTION@"
 .ExitString:     db "UITGAAN@" ; "EXIT@"
 .PokegearString: db "<POKE>COM@" ; "<POKE>GEAR@"
