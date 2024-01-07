@@ -109,36 +109,39 @@ RuinsOfAlphOmanyteChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphOmanyteChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Patronen ges-" ; "Patterns appeared"
+	line "chreefde op de" ; "on the walls…"
+	cont "muur…"
 	done
 
 RuinsOfAlphOmanyteChamberUnownText: ; unreferenced
-	text "It's UNOWN text!"
+	text "Het is tekst" ; "It's UNOWN text!"
+	line "van UNOWN!"
 	done
 
 RuinsOfAlphOmanyteChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Patronen ges-" ; "Patterns appeared"
+	line "chreefde op de" ; "on the walls…"
+	cont "muur…"
 	done
 
 RuinsOfAlphOmanyteChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text "Er zit een groot" ; "There's a big hole"
+	line "gat in de muur!" ; "in the wall!"
 	done
 
 RuinsOfAlphOmanyteChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
+	text "Het is een replica" ; "It's a replica of"
+	line "van een oude #-" ; "an ancient #-"
 	cont "MON."
 	done
 
 RuinsOfAlphOmanyteChamberDescriptionText:
-	text "This #MON"
-	line "drifted in the"
+	text "Deze #MON" ; "This #MON"
+	line "drijfde in de zee" ; "drifted in the"
 
-	para "sea by twisting"
-	line "its ten tentacles."
+	para "door draaien zijn" ; "sea by twisting"
+	line "tien tentakels." ; "its ten tentacles."
 	done
 
 RuinsOfAlphOmanyteChamber_MapEvents:
