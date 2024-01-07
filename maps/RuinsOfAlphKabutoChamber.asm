@@ -190,9 +190,10 @@ RuinsOfAlphKabutoChamberScientistHoleText:
 	text "Oh! Hier is een" ; "Ah! Here's another"
 	line "andere groot gat!" ; "huge hole!"
 
-	para "Het is groot genoeg" ; "It's big enough to"
-	line "voor een mens om" ; "go through!"
-	cont "erin te gaan!"
+	para "Het is groot" ; "It's big enough to"
+	line "genoeg voor een" ; "go through!"
+	cont "mens om erin te"
+	cont "gaan!"
 	done
 
 RuinsOfAlphKabutoChamberScientistTremorText:
