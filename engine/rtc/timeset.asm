@@ -707,7 +707,7 @@ GetTimeOfDayString:
 	ret
 
 .nite_string: db "NACH@" ; "NITE@"
-.morn_string: db "MORG@" ; "MORN@"
+.morn_string: db "OCHT@" ; "MORN@"
 .day_string:  db "DAG@" ; "DAY@"
 
 AdjustHourForAMorPM:
