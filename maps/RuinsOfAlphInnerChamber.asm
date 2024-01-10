@@ -40,37 +40,37 @@ RuinsOfAlphInnerChamberStatue:
 	jumptext RuinsOfAlphInnerChamberStatueText
 
 RuinsOfAlphStrangePresenceText:
-	text "There is a strange"
-	line "presence here…"
+	text "Er is hier een" ; "There is a strange"
+	line "vreemd gevoel…" ; "presence here…"
 	done
 
 RuinsOfAlphInnerChamberFisherText:
-	text "This is a big"
-	line "room, but there's"
-	cont "nothing here."
+	text "Deze is een grote" ; "This is a big"
+	line "kamer, maar hier" ; "room, but there's"
+	cont "is niets." ; "nothing here."
 	done
 
 RuinsOfAlphInnerChamberTeacherText:
-	text "This place has a"
-	line "mystical quality"
-	cont "to it."
+	text "Er is iets" ; "This place has a"
+	line "mystieks aan" ; "mystical quality"
+	cont "deze plaats." ; "to it."
 
-	para "It feels sort of"
-	line "ethereal even."
+	para "Het lijkt bijna" ; "It feels sort of"
+	line "etherisch." ; "ethereal even."
 	done
 
 RuinsOfAlphInnerChamberGrampsText:
-	text "Ancient buildings"
-	line "are often tombs of"
-	cont "kings."
+	text "Oude gebouwen zijn" ; "Ancient buildings"
+	line "vaak graftombes" ; "are often tombs of"
+	cont "voor koningen." ; "kings."
 
-	para "Like the pyramids,"
-	line "for instance."
+	para "Zoals de piramides" ; "Like the pyramids,"
+	line "bijvoorbeeld." ; "for instance."
 	done
 
 RuinsOfAlphInnerChamberStatueText:
-	text "It's a replica of"
-	line "an ancient #-"
+	text "Het is een replica" ; "It's a replica of"
+	line "van een oude #-" ; "an ancient #-"
 	cont "MON."
 	done
 

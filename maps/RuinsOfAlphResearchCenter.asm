@@ -189,202 +189,210 @@ RuinsOfAlphResearchCenterLeavesPlayerMovement:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Done!"
+	text "Afgerond!" ; "Done!"
 
-	para "I modified your"
-	line "#DEX."
+	para "Ik heb je #DEX" ; "I modified your"
+	line "geüpgraded." ; "#DEX."
 
-	para "I added an"
-	line "optional #DEX"
+	para "Het heeft nu een" ; "I added an"
+	line "nieuwe modus voor" ; "optional #DEX"
+	line "UNOWN-gegevens."
 
-	para "to store UNOWN"
-	line "data."
+	; para "to store UNOWN"
+	; line "data."
 
-	para "It records them in"
-	line "the sequence that"
-	cont "they were caught."
+	para "Het ordent ze in" ; "It records them in"
+	line "de volgorde waarin" ; "the sequence that"
+	cont "ze zijn gevangen." ; "they were caught."
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #DEX"
-	line "was upgraded."
+	text "De #DEX" ; "<PLAYER>'s #DEX"
+	line "is geüpgraded."
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The UNOWN you"
-	line "catch will all be"
-	cont "recorded."
+	text "De UNOWN dat je" ; "The UNOWN you"
+	line "gevangt zal wordt" ; "catch will all be"
+	cont "opgenomen." ; "recorded."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "Je kunt zien hoe-" ; "Check to see how"
+	line "veel soorten er" ; "many kinds exist."
+	cont "bestaan."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "You caught all the"
-	line "UNOWN variations?"
+	text "Gevangte je alle-" ; "You caught all the"
+	line "maal de soorten" ; "UNOWN variations?"
+	cont "UNOWN?"
 
-	para "That's a great"
-	line "achievement!"
+	para "Die is een grote" ; "That's a great"
+	line "prestatie!" ; "achievement!"
 
-	para "I've set up the"
-	line "printer here for"
-	cont "handling UNOWN."
+	para "Er is hier een" ; "I've set up the"
+	line "printer voor" ; "printer here for"
+	cont "UNOWN." ; "handling UNOWN."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Gebruikt het op" ; "Feel free to use"
+	line "elk moment." ; "it anytime."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text:
-	text "The RUINS are"
-	line "about 1500 years"
-	cont "old."
+	text "De RUÏNES zijn" ; "The RUINS are"
+	line "ongeveer 1500 jaar" ; "about 1500 years"
+	cont "oud." ; "old."
 
-	para "But it's not known"
-	line "why they were"
-	cont "built--or by whom."
+	para "Maar we weten niet" ; "But it's not known"
+	line "waarom, of wie" ; "why they were"
+	cont "bouwde ze." ; "built--or by whom."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
-	text "I wonder how many"
-	line "kinds of #MON"
-	cont "are in the RUINS?"
+	text "Ik vraag me af" ; "I wonder how many"
+	line "hoeveel soorten" ; "kinds of #MON"
+	cont "#MON er in de" ; "are in the RUINS?"
+	cont "RUÏNES wonen?"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#MON appeared"
-	line "in the RUINS?"
+	text "#MON lijken" ; "#MON appeared"
+	line "in de RUÏNES?" ; "in the RUINS?"
 
-	para "That's incredible"
-	line "news!"
+	para "Dat is ongeloof-" ; "That's incredible"
+	line "lijk nieuws!" ; "news!"
 
-	para "We'll need to"
-	line "investigate this."
+	para "We moeten het" ; "We'll need to"
+	line "onderzoeken." ; "investigate this."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text "Our investigation,"
-	line "with your help, is"
+	text "Dankzij je werk," ; "Our investigation,"
+	line "ons onderzoek meer" ; "with your help, is"
 
-	para "giving us insight"
-	line "into the RUINS."
+	para "kennis over de" ; "giving us insight"
+	line "RUÏNES aan het" ; "into the RUINS."
+	cont "onthullen."
 
-	para "The RUINS appear"
-	line "to have been built"
+	para "De RUÏNES lijken" ; "The RUINS appear"
+	line "te zijn gebouwd" ; "to have been built"
 
-	para "as a habitat for"
-	line "#MON."
+	para "een leefgebied" ; "as a habitat for"
+	line "voor #MON." ; "#MON."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
-	text "There are odd pat-"
-	line "terns drawn on the"
+	text "Er zijn vreemde" ; "There are odd pat-"
+	line "patronen op de" ; "terns drawn on the"
 
-	para "walls of the"
-	line "RUINS."
+	para "muren van de" ; "walls of the"
+	line "RUÏNES." ; "RUINS."
 
-	para "They must be the"
-	line "keys for unravel-"
-	cont "ing the mystery"
-	cont "of the RUINS."
+	para "Zij moeten de ant-" ; "They must be the"
+	line "woorden zijn op" ; "keys for unravel-"
+	cont "het mysterie van" ; "ing the mystery"
+	cont "de RUÏNES." ; "of the RUINS."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
-	text "The strange #-"
-	line "MON you saw in the"
-	cont "RUINS?"
+	text "De vreemde #MON" ; "The strange #-"
+	line "die je in de" ; "MON you saw in the"
+	; cont "RUINS?"
 
-	para "They appear to be"
-	line "very much like the"
+	para "RUÏNES zag lijken" ; "They appear to be"
+	line "net zoals de" ; "very much like the"
 
-	para "drawings on the"
-	line "walls there."
+	para "patronen op de" ; "drawings on the"
+	line "muren daar." ; "walls there."
 
 	para "Hmm…"
 
-	para "That must mean"
-	line "there are many"
-	cont "kinds of them…"
+	para "Er moeten veel" ; "That must mean"
+	line "verschillende" ; "there are many"
+	cont "soorten zijn." ; "kinds of them…"
 	done
 
 RuinsOfAlphResearchCenterUnusedText1: ; unreferenced
-	text "We think something"
-	line "caused the cryptic"
+	text "We denken iets" ; "We think something"
+	line "veroorzaakte de" ; "caused the cryptic"
 
-	para "patterns to appear"
-	line "in the RUINS."
+	para "cryptisch patronen" ; "patterns to appear"
+	line "in de RUÏNES ver-" ; "in the RUINS."
+	cont "schijnen."
 
-	para "We've focused our"
-	line "studies on that."
+	para "We richten ons" ; "We've focused our"
+	line "onderzoek daarop." ; "studies on that."
 	done
 
 RuinsOfAlphResearchCenterUnusedText2: ; unreferenced
-	text "According to my"
-	line "research…"
+	text "Mijn onderzoek" ; "According to my"
+	line "zegt…" ; "research…"
 
-	para "Those mysterious"
-	line "patterns appeared"
+	para "De mysterisch pat-" ; "Those mysterious"
+	line "ronen lijken toen" ; "patterns appeared"
 
-	para "when the #COM"
-	line "CENTER was built."
+	para "de #COM CENTRUM" ; "when the #COM"
+	line "gebouwkt." ; "CENTER was built."
 
-	para "It must mean that"
-	line "radio waves have"
+	para "Het betekent dat" ; "It must mean that"
+	line "radiogolven in" ; "radio waves have"
 
-	para "some sort of a"
-	line "link…"
+	para "zekere zin verwand" ; "some sort of a"
+	line "zijn." ; "link…"
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
-	text "Why did those"
-	line "ancient patterns"
+	text "Waarom de oude" ; "Why did those"
+	line "patronen nu ze" ; "ancient patterns"
 
-	para "appear on the wall"
-	line "now?"
+	para "lijken op de" ; "appear on the wall"
+	line "muren?" ; "now?"
 
-	para "The mystery"
-	line "deepens…"
+	para "Een andere" ; "The mystery"
+	line "mysterie…" ; "deepens…"
 	done
 
 RuinsOfAlphResearchCenterComputerText:
-	text "RUINS OF ALPH"
+	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
 
-	para "Exploration"
-	line "Year 10"
+	para "Onderzoeksjaar 10" ; "Exploration"
+	; line "Year 10"
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mystery #MON"
-	line "Name: UNOWN"
+	text "Mysterie #MON" ; "Mystery #MON"
+	line "Naam: UNOWN" ; "Name: UNOWN"
 
-	para "A total of {d:NUM_UNOWN}"
-	line "kinds found."
+	para "{d:NUM_UNOWN} soorten" ; "A total of {d:NUM_UNOWN}"
+	line "ontdekt." ; "kinds found."
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "This doesn't seem"
-	line "to work yet."
+	text "Dit werkt" ; "This doesn't seem"
+	line "nog niet." ; "to work yet."
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:
-	text "UNOWN may be"
-	line "printed out."
+	text "Je mag UNOWN" ; "UNOWN may be"
+	line "afgedrukken." ; "printed out."
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "It's a photo of"
-	line "the RESEARCH"
+	text "Het is een foto" ; "It's a photo of"
+	line "van de oprichter" ;  "the RESEARCH"
 
-	para "CENTER'S founder,"
-	line "PROF.SILKTREE."
+	para "van de ONDERZOEK-" ; "CENTER'S founder,"
+	line "SCENTRUM," ; "PROF.SILKTREE."
+	cont "PROF. SILKTREE."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "There are many"
-	line "academic books."
+	text "Er light veel" ; "There are many"
+	line "academische" ; "academic books."
+	cont "boeken."
 
-	para "Ancient Ruins…"
-	line "Mysteries of the"
-	cont "Ancients…"
+	para "Oude RUÏNES…" ; "Ancient Ruins…"
+	line "Mysteries van de" ; "Mysteries of the"
+	cont "Ouden…" ; "Ancients…"
 	done
 
 RuinsOfAlphResearchCenter_MapEvents:
