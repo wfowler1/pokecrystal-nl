@@ -103,7 +103,7 @@ ItemNames::
 	li "RZ.ABRIKHORN" ; "PNK APRICORN"
 	li "ZWARTE BRIL" ; "BLACKGLASSES"
 	li "SLOWPOKESTRT" ; "SLOWPOKETAIL"
-	li "ROZE LINT" ; "PINK BOW"
+	li "ZIJDEN SJAAL" ; "PINK BOW" was replaced by SILK SCARF in Gen III. Using that here instead.
 	li "PREI STOK" ; "STICK"
 	li "ROOKBAL" ; "SMOKE BALL"
 	li "EEUWIG IJS" ; "NEVERMELTICE"
