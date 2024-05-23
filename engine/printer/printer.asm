@@ -71,9 +71,9 @@ PrintDexEntry:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], 4 ; vblank mode that calls AskSerial
+	ld [hl], VBLANK_SERIAL
 
-	ld a, 8 ; 16 rows
+	ld a, 16 / 2
 	ld [wPrinterQueueLength], a
 	call Printer_ResetJoypadRegisters
 	call SendScreenToPrinter
@@ -90,7 +90,7 @@ PrintDexEntry:
 	ld [wPrinterMargins], a
 	farcall PrintPage2
 	call Printer_ResetJoypadRegisters
-	ld a, 4
+	ld a, 8 / 2
 	ld [wPrinterQueueLength], a
 	call SendScreenToPrinter
 
@@ -146,7 +146,7 @@ PrintPCBox:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], 4 ; vblank mode that calls AskSerial
+	ld [hl], VBLANK_SERIAL
 
 	xor a
 	ldh [hBGMapMode], a
@@ -227,7 +227,7 @@ PrintUnownStamp:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], 4 ; vblank mode that calls AskSerial
+	ld [hl], VBLANK_SERIAL
 
 	xor a
 	ldh [hBGMapMode], a
@@ -302,7 +302,7 @@ PrintMail:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], 4 ; vblank mode that calls AskSerial
+	ld [hl], VBLANK_SERIAL
 
 	ld a, 18 / 2
 	ld [wPrinterQueueLength], a
@@ -345,7 +345,7 @@ PrintPartymon:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], 4 ; vblank mode that calls AskSerial
+	ld [hl], VBLANK_SERIAL
 
 	ld a, 16 / 2
 	ld [wPrinterQueueLength], a
@@ -403,7 +403,7 @@ _PrintDiploma:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], 4 ; vblank mode that calls AskSerial
+	ld [hl], VBLANK_SERIAL
 
 	ln a, 1, 0 ; to be loaded to wPrinterMargins
 	call Printer_PrepareTilemapForPrint
