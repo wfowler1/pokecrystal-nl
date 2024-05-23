@@ -208,7 +208,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 
 RuinsOfAlphResearchCenterDexUpgradedText:
 	text "De #DEX" ; "<PLAYER>'s #DEX"
-	line "is geüpgraded."
+	line "is geüpgraded." ; "was upgraded."
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:

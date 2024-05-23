@@ -1745,7 +1745,7 @@ Pokedex_DisplayModeDescription:
 
 .OldMode:
 	db   "NATIONAAL #DEX" ; "<PK><MN> are listed by"
-	next "Vermeld op nummer.@"
+	next "Vermeld op nummer.@" ; "official type.@"
 
 .ABCMode:
 	db   "<PK><MN> vermeld" ; "<PK><MN> are listed"
@@ -1775,7 +1775,7 @@ Pokedex_DisplayChangingModesMessage:
 	ret
 
 String_ChangingModesPleaseWait:
-	db   "Modusverandering." ; " ; "Changing modes."
+	db   "Modusverandering." ; "Changing modes."
 	next "Even geduld aub.@" ; "Please wait.@"
 
 Pokedex_UpdateSearchMonType:

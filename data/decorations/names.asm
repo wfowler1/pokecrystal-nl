@@ -16,7 +16,7 @@ DecorationNames:
 	li "SURF PIKACHU POP" ; "SURF PIKACHU DOLL"
 	li " BED"
 	li " TAPIJT" ; " CARPET"
-	li "-POSTER"
+	li "-POSTER" ; " POSTER"
 	li "-POP" ; " DOLL"
 	li "GROTE " ; "BIG "
 	li "GEVEDERD" ; "FEATHERY"
