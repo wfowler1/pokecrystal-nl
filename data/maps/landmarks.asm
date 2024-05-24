@@ -150,7 +150,7 @@ LavRadioTowerName:   db "KANTO<BSP>RADIO TOREN@" ; "LAV<BSP>RADIO TOWER@"
 SilphCoName:         db "SILPH CO.@" ; unreferenced
 SafariZoneName:      db "SAFARI ZONE@" ; unreferenced
 SeafoamIslandsName:  db "ZEESCHUIM<BSP>EILAND@" ; "SEAFOAM<BSP>ISLANDS@"
-PokemonMansionName:  db "#MON<BSP>HERENHUIS@" ; unreferenced
+PokemonMansionName:  db "#MON<BSP>HERENHUIS@" ; "#MON<BSP>MANSION@" ; unreferenced
 CeruleanCaveName:    db "AZUUR GROT@" ; "CERULEAN<BSP>CAVE@" ; unreferenced
 Route1Name:          db "ROUTE 1@"
 Route2Name:          db "ROUTE 2@"
@@ -202,7 +202,7 @@ DarkCaveName:        db "DUISTERE<BSP>GROT@" ; "DARK CAVE@"
 IlexForestName:      db "WOUD VAN<BSP>ILEX@" ; "ILEX<BSP>FOREST@"
 BurnedTowerName:     db "VERBRANDE<BSP>TOREN@" ; "BURNED<BSP>TOWER@"
 FastShipName:        db "SNELLE<BSP>BOOT@" ; "FAST SHIP@"
-ViridianForestName:  db "VIRIDIAN<BSP>FOREST@" ; unreferenced
+ViridianForestName:  db "GROENE<BSP>WOUD@" ; "VIRIDIAN<BSP>FOREST@" ; unreferenced
 DiglettsCaveName:    db "GROT VAN<BSP>DIGLETT@" ; "DIGLETT's<BSP>CAVE@"
 TohjoFallsName:      db "TOHJO<BSP>WATERVALLEN@" ; "TOHJO FALLS@"
 UndergroundName:     db "ONDERGROND@" ; "UNDERGROUND@"
