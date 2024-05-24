@@ -209,7 +209,7 @@ SuperNerdStanAfterBattleText:
 
 	para "Het is allemaal" ; "It's all one big"
 	line "een groot myst-" ; "mystery…"
-	cont "erie."
+	cont "erie…"
 	done
 
 PsychicNathanSeenText:
@@ -233,7 +233,7 @@ RuinsOfAlphOutsideMysteryChamberSignText:
 
 RuinsOfAlphSignText:
 	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
-	line "BEZOEKERS WELKOM" ; "VISITORS WELCOME"
+	line "WELKOM BEZOEKERS!" ; "VISITORS WELCOME"
 	done
 
 RuinsOfAlphResearchCenterSignText:

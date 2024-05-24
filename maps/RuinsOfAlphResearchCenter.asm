@@ -196,7 +196,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 
 	para "Het heeft nu een" ; "I added an"
 	line "nieuwe modus voor" ; "optional #DEX"
-	line "UNOWN-gegevens."
+	cont "UNOWN-gegevens."
 
 	; para "to store UNOWN"
 	; line "data."
