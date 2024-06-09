@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "KAART@"
 
 .No:
 	writetext GuideGentNoText
@@ -334,214 +334,212 @@ CherrygroveCity_RivalExitsStageLeft:
 	step_end
 
 GuideGentIntroText:
-	text "You're a rookie"
-	line "trainer, aren't"
-	cont "you? I can tell!"
+	text "Je bent een be-"
+	line "ginnende trainer,"
+	cont "zeker? Ik zie het!"
 
-	para "That's OK! Every-"
-	line "one is a rookie"
-	cont "at some point!"
+	para "Niks mis mee!-"
+	line "iedereen is ooit"
+	cont "een beginner!"
 
-	para "If you'd like, I"
-	line "can teach you a"
-	cont "few things."
+	para "Als je wil, kan ik"
+	line "je wat dingen"
+	cont "leren."
 	done
 
 GuideGentTourText1:
-	text "OK, then!"
-	line "Follow me!"
+	text "OK, dan!"
+	line "Volg mij!"
 	done
 
 GuideGentPokecenterText:
-	text "This is a #MON"
-	line "CENTER. They heal"
+	text "Dit is een"
+	line "#MONCENTRUM."
 
-	para "your #MON in no"
-	line "time at all."
+	para "Zij genezen je"
+	line "#MON heel snel."
 
-	para "You'll be relying"
-	line "on them a lot, so"
+	para "Je gaat er veel"
+	line "gebruik van maken,"
 
-	para "you better learn"
-	line "about them."
+	para "dus leer ze goed"
+	line "kennen."
 	done
 
 GuideGentMartText:
-	text "This is a #MON"
-	line "MART."
+	text "Dit is een"
+	line "#MONMARKT."
 
-	para "They sell BALLS"
-	line "for catching wild"
+	para "Zij hebben BALLEN"
+	line "voor wilde #MON"
 
-	para "#MON and other"
-	line "useful items."
+	para "en andere handige"
+	line "spullen."
 	done
 
 GuideGentRoute30Text:
-	text "ROUTE 30 is out"
-	line "this way."
+	text "ROUTE 30 is die"
+	line "kant op."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Trainers vechten"
+	line "daar met hun"
 
-	para "prized #MON"
-	line "there."
+	para "#MON tegen"
+	line "elkaar."
 	done
 
 GuideGentSeaText:
-	text "This is the sea,"
-	line "as you can see."
+	text "Dit is de zee,"
+	line "het is me wad."
 
-	para "Some #MON are"
-	line "found only in"
-	cont "water."
+	para "Sommige #MON"
+	line "vind je alleen in"
+	cont "het water."
 	done
 
 GuideGentGiftText:
-	text "Here…"
+	text "Kijk…"
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "Dit is mijn huis!"
+	line "Bedankt voor je"
+	cont "gezelschap."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Ik heb een klein-"
+	line "igheidje voor je."
 	done
 
 GotMapCardText:
 	text "<PLAYER>'s #GEAR"
-	line "now has a MAP!"
+	line "heeft een KAART!"
 	done
 
 GuideGentPokegearText:
-	text "#GEAR becomes"
-	line "more useful as you"
-	cont "add CARDS."
+	text "#GEAR wordt"
+	line "nuttiger als je"
+	cont "functies toevoegt."
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "Veel succes op je"
+	line "reis!"
 	done
 
 GuideGentNoText:
-	text "Oh… It's something"
-	line "I enjoy doing…"
+	text "Oh… Ik vind het"
+	line "leuk om te doen…"
 
-	para "Fine. Come see me"
-	line "when you like."
+	para "Prima. Kom maar"
+	line "langs als je wil."
 	done
 
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "Je hebt een #-"
+	line "MON uit het lab."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Wat zonde. Een"
+	line "watje zoals jij."
 
 	para "<……> <……> <……>"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Hoor je niet wat"
+	line "ik zeg?"
 
-	para "Well, I too, have"
-	line "a good #MON."
+	para "Nou, ik heb ook"
+	line "een goede #MON."
 
-	para "I'll show you"
-	line "what I mean!"
+	para "Ik laat je zien"
+	line "wat ik bedoel!"
 	done
 
 RivalCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Humph. Ben je blij"
+	line "dat je won?"
 	done
 
 CherrygroveRivalText_YouLost:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Ik heet ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ik ga de beste"
+	line "#MON-trainer"
+	cont "ter wereld worden."
 	done
 
 RivalCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Humph. Wat een"
+	line "tijdsverspilling."
 	done
 
 CherrygroveRivalText_YouWon:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Ik heet ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ik ga de beste"
+	line "#MON-trainer"
+	cont "ter wereld worden."
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Did you talk to"
-	line "the old man by the"
-	cont "#MON CENTER?"
+	text "Heb je de oude man"
+	line "bij het #MON-"
+	cont "CENTRUM gesproken?"
 
-	para "He'll put a MAP of"
-	line "JOHTO on your"
+	para "Hij stopt de kaart"
+	line "van JOHTO in je"
 	cont "#GEAR."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#MON, going"
-	cont "anywhere is fun."
+	text "Als je met #MON"
+	line "bent, is iedere"
+	cont "reis leuk."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "MR.#MON's huis"
+	line "is nog een stukje"
+	cont "verderop."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "Ik vocht met de"
+	line "trainers op de"
+	cont "weg."
 
-	para "My #MON lost."
-	line "They're a mess! I"
+	para "Ik verloor. Mijn"
+	line "#MON zijn gewond!"
 
-	para "must take them to"
-	line "a #MON CENTER."
+	para "Ze moeten naar een"
+	line "#MONCENTRUM."
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #MON I caught"
-	line "had an item."
+	text "Een #MON die ik"
+	line "ving had wat vast."
 
-	para "I think it's"
-	line "MYSTIC WATER."
+	para "Het was denk ik"
+	line "MYSTIEK WATER."
 
-	para "I don't need it,"
-	line "so do you want it?"
+	para "Ik hoef het niet,"
+	line "wil jij het?"
 	done
 
 MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
+	text "Ik ga maar weer"
+	line "vissen, denk ik."
 	done
 
 CherrygroveCitySignText:
 	text "CHERRYGROVE CITY"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "Stad van schattige,"
+	line "geurende bloemen."
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "HUIS VAN GIDSGOZER"
 	done
 
 CherrygroveCity_MapEvents:

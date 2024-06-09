@@ -247,155 +247,155 @@ DudeMovementData2b:
 	step_end
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
+	text "#MON verstoppen"
+	line "in gras. Wie weet"
 
-	para "knows when they'll"
-	line "pop out…"
+	para "wanneer ze omhoog-"
+	line "springen…"
 	done
 
 CatchingTutorialIntroText:
-	text "I've seen you a"
-	line "couple times. How"
+	text "Ik zag je al een"
+	line "paar keer. Hoeveel"
 
-	para "many #MON have"
-	line "you caught?"
+	para "#MON heb je"
+	line "gevangen?"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Wil je dat ik laat"
+	line "zien hoe je een"
+	cont "#MON vangt?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "Dat is dus hoe het"
+	line "moet."
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Als je ze eerst"
+	line "verzwakt, vang je"
+	cont "#MON sneller."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. Oke, prima."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "Maarre, als je"
+	line "#MON wil vang-"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "en, moet je veel"
+	line "rondlopen."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Huh? Moet ik laten"
+	line "zien hoe je"
+	cont "#MON vangt?"
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
+	text "Yo. Hoe gaat het"
+	line "met je #MON?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "Als ze zwak zijn"
+	line "en niet kunnen"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "vechten, blijf uit"
+	line "het gras."
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "Zie je de richels?"
+	line "Het is eng om er"
+	cont "af te springen."
 
-	para "But you can go to"
-	line "NEW BARK without"
+	para "Maar je komt dan"
+	line "in NEW BARK zonder"
 
-	para "walking through"
-	line "the grass."
+	para "door het gras te"
+	line "lopen."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Ik wilde even uit-"
+	line "rusten, dus heb"
 
-	para "to record my"
-	line "progress."
+	para "mijn voortgang"
+	line "opgeslagen."
 	done
 
 Route29CooltrainerMText_WaitingForDay: ; unreferenced
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ik wacht op"
+	line "#MON die"
 
-	para "appear only in the"
-	line "daytime."
+	para "alleen overdag"
+	line "verschijnen."
 	done
 
 Route29CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ik wacht op"
+	line "#MON die"
 
-	para "appear only at"
-	line "night."
+	para "alleen in de nacht"
+	line "verschijnen."
 	done
 
 Route29CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ik wacht op"
+	line "#MON die"
 
-	para "appear only in the"
-	line "morning."
+	para "alleen in de och-"
+	line "tend verschijnen."
 	done
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "TUSCANY: Dit is"
+	line "denk ik de eerste"
 
-	para "the first time"
-	line "we've met?"
+	para "keer dat we elkaar"
+	line "ontmoeten?"
 
-	para "Please allow me to"
-	line "introduce myself."
+	para "Laat me mijzelf"
+	line "voorstellen."
 
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "Ik ben TUSCANY van"
+	line "Dinsdag."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Ter introductie,"
+	line "accepteer alsje-"
 
-	para "accept this gift,"
-	line "a PINK BOW."
+	para "blieft dit cadeau,"
+	line "een ROZE STRIK."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "TUSCANY: Is hij"
+	line "niet hartstikke"
+	cont "schattig?"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Hij versterkt"
+	line "normaal-aanvallen."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Je hebt er vast"
+	line "wel iets aan."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "TUSCANY: Heb je"
+	line "MONICA ontmoet,"
+	cont "mijn grote zus?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "Of mijn jonge"
+	line "broertje, WESLEY?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Ik ben de tweede"
+	line "van zeven kinderen"
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "TUSCANY: Het is"
+	line "geen dinsdag. Dat"
+	cont "is spijtig…"
 	done
 
 Route29Sign1Text:

@@ -211,176 +211,176 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+	text "Oh, <PLAYER>…! de"
+	line "buurman, PROF."
 
-	para "ELM, was looking"
-	line "for you."
+	para "ELM, was naar je"
+	line "op zoek."
 
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
+	para "Hij zei dat je"
+	line "iets voor hem kon"
+	cont "doen."
 
-	para "Oh! I almost for-"
-	line "got! Your #MON"
+	para "Oh! Bijna ver-"
+	line "geten! Je #MON"
 
-	para "GEAR is back from"
-	line "the repair shop."
+	para "GEAR is terug van"
+	line "de reparateur."
 
-	para "Here you go!"
+	para "Alsjeblieft!"
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "#MON GEAR, of"
+	line "gewoon #GEAR."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Hij is essentieel"
+	line "om een goede trai-"
+	cont "ner te worden."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "Oh, de dag van de"
+	line "week ontbreekt."
 
-	para "You mustn't forget"
-	line "that!"
+	para "Dat moet je niet"
+	line "vergeten!"
 	done
 
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "Is het nu zomer-"
+	line "tijd?"
 	done
 
 ComeHomeForDSTText:
-	text "Come home to"
-	line "adjust your clock"
+	text "Thuis kun je de"
+	line "tijd veranderen"
 
-	para "for Daylight"
-	line "Saving Time."
+	para "tussen zomer- en"
+	line "wintertijd."
 
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "Trouwens weet je"
+	line "hoe je de TELEFOON"
+	cont "gebruikt?"
 	done
 
 KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
+	text "Je zet toch de"
+	line "#GEAR aan"
 
-	para "on and select the"
-	line "PHONE icon?"
+	para "en selecteert het"
+	line "TELEFOON-icoon?"
 	done
 
 DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Ik lees de hand-"
+	line "leiding voor je."
 
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	para "Zet de #GEAR"
+	line "aan en kies het"
+	cont "TELEFOON-icoon."
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Telefoonnummers"
+	line "worden bewaard."
 
-	para "Just choose a name"
-	line "you want to call."
+	para "Selecteer gewoon"
+	line "wie je wil bellen."
 
-	para "Gee, isn't that"
-	line "convenient?"
+	para "Joh, is dat niet"
+	line "handig?"
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
-	line "ing for you."
+	text "PROF.ELM wacht op"
+	line "je."
 
-	para "Hurry up, baby!"
+	para "Schiet op, schat!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "So, what was PROF."
-	line "ELM's errand?"
+	text "Welke klus had had"
+	line "PROF. ELM??"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Dat klinkt als een"
+	line "uitdaging."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Maar je kunt trots"
+	line "zijn dat mensen op"
+	cont "je rekenen."
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, doe het!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Ik sta helemaal"
+	line "achter je!"
 	done
 
 NeighborMornIntroText:
-	text "Good morning,"
+	text "Goedemorgen,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Ik ben op bezoek!"
 	done
 
 NeighborDayIntroText:
-	text "Hello, <PLAY_G>!"
-	line "I'm visiting!"
+	text "Hallo, <PLAY_G>!"
+	line "Ik ben op bezoek!"
 	done
 
 NeighborNiteIntroText:
-	text "Good evening,"
+	text "Goedenavond,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Ik ben op bezoek!"
 	done
 
 NeighborText:
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G>, heb"
+	line "je het gehoord?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "Mijn dochter is"
+	line "vastberaden om"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "PROF. ELM's assi-"
+	line "stent te worden."
 
-	para "She really loves"
+	para "Ze houdt echt van"
 	line "#MON!"
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "Haar specialiteit!"
 
-	para "CINNABAR VOLCANO"
+	para "CINNABAR VULKAAN-"
 	line "BURGER!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "De goot is brand-"
+	line "schoon. Mam maakt"
+	cont "graag schoon."
 	done
 
 PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "Eens zien wat er"
+	line "in de koelkast zit"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "VERS WATER en"
+	line "lekkere LIMONADE!"
 	done
 
 PlayersHouse1FTVText:
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "Er is een film op"
+	line "TV: Sterren vullen"
 
-	para "sky as two boys"
-	line "ride on a train…"
+	para "de lucht terwijl"
+	line "een trein rijdt"
 
-	para "I'd better get"
-	line "rolling too!"
+	para "Ik moet ook maar"
+	line "eens gaan!"
 	done
 
 PlayersHouse1F_MapEvents:
