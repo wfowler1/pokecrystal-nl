@@ -1,4 +1,4 @@
-# Pokémon Kristal
+# Pokémon Kristallen Editie
 
 This is a work-in-progress Dutch translation of the [Pokémon Crystal Disassembly](https://github.com/pret/pokecrystal) by [pret](https://pret.github.io/).
 
