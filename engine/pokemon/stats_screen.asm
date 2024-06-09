@@ -707,13 +707,13 @@ LoadPinkPage:
 	db "OK @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "ERV PUNTEN@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "VOOR LEVEL@"
 
 .ToStr:
-	db "TO@"
+	db "TE @"
 
 .PkrsStr:
 	db "#RUS@"
@@ -755,13 +755,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "OBJECT@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "AANVAL@"
 
 LoadBluePage:
 	call .PlaceOTInfo

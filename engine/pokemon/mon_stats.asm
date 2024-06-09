@@ -114,11 +114,11 @@ PrintTempMonStats:
 	ret
 
 .StatNames:
-	db   "AANVAL" ; "ATTACK"
-	next "VER" ; "DEFENSE"
-	next "SPCL.AAN" ; "SPCL.ATK"
-	next "SPCL.VER" ; "SPCL.DEF"
-	next "SNELHEID" ; "SPEED"
+	db   "AANVAL"
+	next "VERDEDIG"
+	next "SPCL.AANV"
+	next "SPCL.VERD"
+	next "SNELHEID"
 	next "@"
 
 GetGender:
@@ -429,10 +429,10 @@ PlaceNonFaintStatus:
 	ret
 
 SlpString: db "SLP@"
-PsnString: db "GIF@" ; "PSN@"
+PsnString: db "PSN@"
 BrnString: db "BRN@"
-FrzString: db "BEV@" ; "FRZ@"
-ParString: db "VLM@" ; "PAR@"
+FrzString: db "FRZ@"
+ParString: db "PAR@"
 
 ListMoves:
 ; List moves at hl, spaced every [wListMovesLineSpacing] tiles.

@@ -110,7 +110,7 @@ PlacePartyNicknames:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "ANNULEER@"
 
 PlacePartyHPBar:
 	xor a
@@ -341,10 +341,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "KAN@"
 
 .string_not_able
-	db "NOT ABLE@"
+	db "KAN NIET@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -423,9 +423,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "KAN@"
 .string_not_able
-	db "NOT ABLE@"
+	db "KAN NIET@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -467,13 +467,13 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db "♂…MALE@"
+	db "♂…MAN@"
 
 .female
-	db "♀…FEMALE@"
+	db "♀…VROUW@"
 
 .unknown
-	db "…UNKNOWN@"
+	db "…ONBEKEND@"
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]
@@ -746,31 +746,31 @@ PartyMenuStrings:
 	dw ToWhichPKMNString
 
 ChooseAMonString:
-	db "Choose a #MON.@"
+	db "Kies een #MON.@"
 
 UseOnWhichPKMNString:
-	db "Use on which <PK><MN>?@"
+	db "Op welke <PK><MN>?@"
 
 WhichPKMNString:
-	db "Which <PK><MN>?@"
+	db "Welke <PK><MN>?@"
 
 TeachWhichPKMNString:
-	db "Teach which <PK><MN>?@"
+	db "Leer welke <PK><MN>?@"
 
 MoveToWhereString:
-	db "Move to where?@"
+	db "Verplaats naar?@"
 
 ChooseAFemalePKMNString: ; unreferenced
-	db "Choose a ♀<PK><MN>.@"
+	db "Kies een ♀<PK><MN>.@"
 
 ChooseAMalePKMNString: ; unreferenced
-	db "Choose a ♂<PK><MN>.@"
+	db "Kies een ♂<PK><MN>.@"
 
 ToWhichPKMNString:
-	db "To which <PK><MN>?@"
+	db "Naar welke <PK><MN>?@"
 
 YouHaveNoPKMNString:
-	db "You have no <PK><MN>!@"
+	db "Je hebt geen <PK><MN>!@"
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]
