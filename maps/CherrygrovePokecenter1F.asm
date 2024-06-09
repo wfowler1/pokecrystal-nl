@@ -35,35 +35,35 @@ CherrygrovePokecenter1FTeacherScript:
 	end
 
 CherrygrovePokecenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+	text "Het is geweldig."
+	line "Ik kan gratis"
 
-	para "of #MON, and"
-	line "it's all free."
+	para "zoveel #MON als"
+	line "ik wil bewaren."
 	done
 
 CherrygrovePokecenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "De PC is gratis"
+	line "te gebruiken voor"
+	cont "iedere trainer."
 	done
 
 CherrygrovePokecenter1FTeacherText:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "Het COMMUNICATIE-"
+	line "CENTRUM boven is"
+	cont "net nieuw, maar"
 
-	para "But they're still"
-	line "finishing it up."
+	para "het is nog niet"
+	line "af."
 	done
 
 CherrygrovePokecenter1FTeacherText_CommCenterOpen:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "Het COMMUNICATIE-"
+	line "CENTRUM boven is"
+	cont "net nieuw."
 
-	para "I traded #MON"
-	line "there already!"
+	para "Ik heb er al een"
+	line "#MON geruild!"
 	done
 
 CherrygrovePokecenter1F_MapEvents:

@@ -260,531 +260,526 @@ ItemDescriptions:
 	assert_table_length $ff
 
 MasterBallDesc:
-	db   "The best BALL. It"
-	next "never misses.@"
+	db   "De beste BAL. Mist"
+	next "nooit.@"
 
 UltraBallDesc:
-	db   "A BALL with a high"
-	next "rate of success.@"
+	db   "Een BAL met hoge"
+	next "succeskans.@"
 
 BrightpowderDesc:
-	db   "Lowers the foe's"
-	next "accuracy. (HOLD)@"
+	db   "Verlaagt precisie"
+	next "van vijand. (HOLD)@"
 
 GreatBallDesc:
-	db   "A BALL with a de-"
-	next "cent success rate.@"
+	db   "Een BAL met rede-"
+	next "lijke succeskans.@"
 
 PokeBallDesc:
-	db   "An item for catch-"
-	next "ing #MON.@"
+	db   "Om #MON mee te"
+	next "vangen.@"
 
 TeruSama1Desc:
 	db   "?@"
 
 BicycleDesc:
-	db   "A collapsible bike"
-	next "for fast movement.@"
+	db   "Opvouwfiets om"
+	next "snel te bewegen.@"
 
 MoonStoneDesc:
-	db   "Ontwikkelt sommige" ; "Evolves certain"
-	next "soorten #MON.@" ; "kinds of #MON.@"
+	db   "Evolueert speci-"
+	next "fieke #MON.@"
 
 AntidoteDesc:
-	db   "Cures poisoned"
+	db   "Heelt vergiftigde"
 	next "#MON.@"
 
 BurnHealDesc:
-	db   "Heals burned"
+	db   "Geneest verbrande"
 	next "#MON.@"
 
 IceHealDesc:
-	db   "Defrosts frozen"
+	db   "Ontdooit bevroren"
 	next "#MON.@"
 
 AwakeningDesc:
-	db   "Awakens sleeping"
+	db   "Ontwaakt slapende"
 	next "#MON.@"
 
 ParlyzHealDesc:
-	db   "Heals paralyzed"
+	db   "Geneest verlamde"
 	next "#MON.@"
 
 FullRestoreDesc:
-	db   "Fully restores HP"
-	next "& status.@"
+	db   "Herstelt volledig"
+	next "HP & status.@"
 
 MaxPotionDesc:
-	db   "Fully restores"
-	next "#MON HP.@"
+	db   "Herstelt volledig"
+	next "HP #MON.@"
 
 HyperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 200.@"
+	db   "Herstelt #MON"
+	next "met 200 HP.@"
 
 SuperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Herstelt #MON"
+	next "met 50 HP.@"
 
 PotionDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Herstelt #MON"
+	next "met 20 HP.@"
 
 EscapeRopeDesc:
-	db   "Use for escaping"
-	next "from caves, etc.@"
+	db   "Om te ontsnappen"
+	next "uit grotten, enz.@"
 
 RepelDesc:
-	db   "Repels weak #-"
-	next "MON for 100 steps.@"
+db   "Verjaag zwakke #-"
+next "MON 200 stappen.@"
 
 MaxElixerDesc:
-	db   "Fully restores the"
-	next "PP of one #MON.@"
+	db   "Herstel PP van een"
+	next "#MON volledig.@"
 
 FireStoneDesc:
-	db   "Ontwikkelt sommige" ; "Evolves certain"
-	next "soorten #MON.@" ; "kinds of #MON.@"
+db   "Evolueert speci-"
+next "fieke #MON.@"
 
 ThunderStoneDesc:
-	db   "Ontwikkelt sommige" ; "Evolves certain"
-	next "soorten #MON.@" ; "kinds of #MON.@"
+db   "Evolueert speci-"
+next "fieke #MON.@"
 
 WaterStoneDesc:
-	db   "Ontwikkelt sommige" ; "Evolves certain"
-	next "soorten #MON.@" ; "kinds of #MON.@"
+db   "Evolueert speci-"
+next "fieke #MON.@"
 
 TeruSama2Desc:
 	db   "?@"
 
 HPUpDesc:
-	db   "Raises the HP of"
-	next "one #MON.@"
+	db   "Verhoogt HP van"
+	next "een #MON.@"
 
 ProteinDesc:
-	db   "Raises ATTACK of"
-	next "one #MON.@"
+	db   "Verhoogt AANVAL"
+	next "van een #MON.@"
 
 IronDesc:
-	db   "Raises DEFENSE of"
-	next "one #MON.@"
+	db   "Verhoogt VERDEDI-"
+	next "GING van #MON.@"
 
 CarbosDesc:
-	db   "Raises SPEED of"
-	next "one #MON.@"
+	db   "Verhoogt SNELHEID"
+	next "van een #MON.@"
 
 LuckyPunchDesc:
-	db   "Ups critical hit"
-	next "ratio of CHANSEY.@"
+	db   "Hoge kritieke klap"
+	next "ratio van CHANSEY.@"
 
 CalciumDesc:
-	db   "Ups SPECIAL stats"
-	next "of one #MON.@"
+	db   "Verhoogt SPECIALE"
+	next "stats van #MON.@"
 
 RareCandyDesc:
-	db   "Raises level of a"
-	next "#MON by one.@"
+	db   "Verhoogt level van"
+	next "#MON een keer.@"
 
 XAccuracyDesc:
-	db   "Raises accuracy."
+	db   "Verhoogt precisie."
 	next "(1 BTL)@"
 
 LeafStoneDesc:
-	db   "Ontwikkelt sommige" ; "Evolves certain"
-	next "soorten #MON.@" ; "kinds of #MON.@"
+db   "Evolueert speci-"
+next "fieke #MON.@"
 
 MetalPowderDesc:
-	db   "Raises DEFENSE of"
-	next "DITTO. (HOLD)@"
+	db   "Verhoogt VERDEDI-"
+	next "GING DITTO. (VAST)@"
 
 NuggetDesc:
-	db   "Made of pure gold."
-	next "Sell high.@"
+	db   "Van puur goud."
+	next "Veel geld waard.@"
 
 PokeDollDesc:
-	db   "Use to escape from"
-	next "a wild #MON.@"
+	db   "Om te ontsnappen"
+	next "van wilde #MON.@"
 
 FullHealDesc:
-	db   "Eliminates all"
-	next "status problems.@"
+	db   "Verwijdert alle"
+	next "statusproblemen.@"
 
 ReviveDesc:
-	db   "Restores a fainted"
-	next "#MON to 1/2 HP.@"
+	db   "Breng #MON"
+	next "terug met 1/2 HP.@"
 
 MaxReviveDesc:
-	db   "Fully restores a"
-	next "fainted #MON.@"
+	db   "Breng #MON"
+	next "terug met vol HP.@"
 
 GuardSpecDesc:
-	db   "Prevents stats"
-	next "reduction. (1 BTL)@"
+	db   "Voorkomt lagere"
+	next "stats. (1 BTL)@"
 
 SuperRepelDesc:
-	db   "Repels weak #-"
-	next "MON for 200 steps.@"
+	db   "Verjaag zwakke #-"
+	next "MON 200 stappen.@"
 
 MaxRepelDesc:
-	db   "Repels weak #-"
-	next "MON for 250 steps.@"
+db   "Verjaag zwakke #-"
+next "MON 250 stappen.@"
 
 DireHitDesc:
-	db   "Ups critical hit"
-	next "ratio. (1 BTL)@"
+	db   "Verhoog kritieke"
+	next "klap-ratio (1 BTL)@"
 
 TeruSama3Desc:
 	db   "?@"
 
 FreshWaterDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Herstel HP van"
+	next "#MON met 50.@"
 
 SodaPopDesc:
-	db   "Restores #MON"
-	next "HP by 60.@"
+db   "Herstel HP van"
+next "#MON met 60.@"
 
 LemonadeDesc:
-	db   "Restores #MON"
-	next "HP by 80.@"
+db   "Herstel HP van"
+next "#MON met 80.@"
 
 XAttackDesc:
-	db   "Raises ATTACK."
+	db   "Verhoogt AANVAL."
 	next "(1 BTL)@"
 
 TeruSama4Desc:
 	db   "?@"
 
 XDefendDesc:
-	db   "Raises DEFENSE."
-	next "(1 BTL)@"
+	db   "Verhoog VERDEDI-."
+	next "GING (1 BTL)@"
 
 XSpeedDesc:
-	db   "Raises SPEED."
+	db   "Verhoogt SNELHEID."
 	next "(1 BTL)@"
 
 XSpecialDesc:
-	db   "Raises SPECIAL"
-	next "ATTACK. (1 BTL)@"
+	db   "Verhoogt SPECIALE"
+	next "AANVAL. (1 BTL)@"
 
 CoinCaseDesc:
-	db   "Holds up to 9,999"
-	next "game coins.@"
+	db   "Passen 9.999"
+	next "spelmunten in.@"
 
 ItemfinderDesc:
-	db   "Checks for unseen"
-	next "items in the area.@"
+	db   "Zoekt verborgen"
+	next "voorwerpen.@"
 
 TeruSama5Desc:
 	db   "?@"
 
 ExpShareDesc:
-	db   "Shares battle EXP."
-	next "Points. (HOLD)@"
+	db   "Deel gevechts-EXP-"
+	next "punten. (VAST)@"
 
 OldRodDesc:
-	db   "Use by water to"
-	next "fish for #MON.@"
+	db   "Gebruik bij water"
+	next "om te vissen.@"
 
 GoodRodDesc:
-	db   "A good ROD for"
-	next "catching #MON.@"
+	db   "Een goede HENGEL"
+	next "om te vissen.@"
 
 SilverLeafDesc:
-	db   "A strange, silver-"
-	next "colored leaf.@"
+	db   "Vreemd, zilver-"
+	next "kleurig blad.@"
 
 SuperRodDesc:
-	db   "The best ROD for"
-	next "catching #MON.@"
+	db   "Beste HENGEL om"
+	next "mee te vissen.@"
 
 PPUpDesc:
-	db   "Raises max PP of"
-	next "a selected move.@"
+	db   "Verhoogt max. PP"
+	next "van een aanval.@"
 
 EtherDesc:
-	db   "Restores PP of one"
-	next "move by 10.@"
+	db   "Herstelt PP van"
+	next "aanval met 10.@"
 
 MaxEtherDesc:
-	db   "Fully restores PP"
-	next "of one move.@"
+	db   "Herstelt PP van"
+	next "aanval volledig.@"
 
 ElixerDesc:
-	db   "Restores PP of all"
-	next "moves by 10.@"
+	db   "10 PP voor alle"
+	next "aanvallen.@"
 
 RedScaleDesc:
-	db   "A scale from the"
-	next "red GYARADOS.@"
+	db   "Schub van een"
+	next "rode GYARADOS.@"
 
 SecretPotionDesc:
-	db   "Fully heals any"
-	next "#MON.@"
+	db   "Geneest #MON"
+	next "volledig.@"
 
 SSTicketDesc:
-	db   "A ticket for the"
+	db   "Kaartje voor de"
 	next "S.S.AQUA.@"
 
 MysteryEggDesc:
-	db   "An EGG obtained"
-	next "from MR.#MON.@"
+	db   "EI gekregen van"
+	next "MR.#MON.@"
 
 ClearBellDesc:
-	db   "Makes a gentle"
-	next "ringing.@"
+	db   "Maakt een fijn"
+	next "geluid.@"
 
 SilverWingDesc:
-	db   "A strange, silver-"
-	next "colored feather.@"
+	db   "Vreemde, zilver-"
+	next "kleurige veer.@"
 
 MoomooMilkDesc:
-	db   "Restores #MON"
-	next "HP by 100.@"
+	db   "Herstelt #MON"
+	next "met 100 HP.@"
 
 QuickClawDesc:
-	db   "Raises 1st strike"
-	next "ratio. (HOLD)@"
+	db   "Soms val je eerst"
+	next "aan. (VAST)@"
 
 PsnCureBerryDesc:
-	db   "A self-cure for"
-	next "poison. (HOLD)@"
+	db   "Genees automatisch"
+	next "gif. (VAST)@"
 
 GoldLeafDesc:
-	db   "A strange, gold-"
-	next "colored leaf.@"
+	db   "Vreemd, goud-"
+	next "gekleurd blad.@"
 
 SoftSandDesc:
-	db   "Powers up ground-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt grond-"
+	next "aanvallen. (VAST)@"
 
 SharpBeakDesc:
-	db   "Powers up flying-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt vlieg-"
+	next "aanvallen. (VAST)@"
 
 PrzCureBerryDesc:
-	db   "A self-cure for"
-	next "paralysis. (HOLD)@"
+	db   "Genees automatisch"
+	next "verlamming (VAST)@"
 
 BurntBerryDesc:
-	db   "A self-cure for"
-	next "freezing. (HOLD)@"
+	db   "Genees automatisch"
+	next "bevriezing. (VAST)@"
 
 IceBerryDesc:
-	db   "A self-heal for a"
-	next "burn. (HOLD)@"
+	db   "Zelfgenezer voor"
+	next "brandwond. (VAST)@"
 
 PoisonBarbDesc:
-	db   "Powers up poison-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt gif-"
+	next "aanvallen. (VAST)@"
 
 KingsRockDesc:
-	db   "May make the foe"
-	next "flinch. (HOLD)@"
+	db   "Vijand schrikt"
+	next "mogelijk. (VAST)@"
 
 BitterBerryDesc:
-	db   "A self-cure for"
-	next "confusion. (HOLD)@"
+	db   "Genees automatisch"
+	next "verwarring. (VAST)@"
 
 MintBerryDesc:
-	db   "A self-awakening"
-	next "for sleep. (HOLD)@"
+	db   "Genees automatisch"
+	next "slaap. (VAST)@"
 
 RedApricornDesc:
-	db   "Een roode" ; "A red APRICORN.@"
-	next "ABRIKHORN.@"
+	db   "Rode APRICORN.@"
 
 TinyMushroomDesc:
-	db   "An ordinary mush-"
-	next "room. Sell low.@"
+	db   "Een gewone padde-"
+	next "stoel. Weinig waard.@"
 
 BigMushroomDesc:
-	db   "A rare mushroom."
-	next "Sell high.@"
+	db   "Zeldzame padde-"
+	next "stoel. Veel waard.@"
 
 SilverPowderDesc:
-	db   "Powers up bug-type"
-	next "moves. (HOLD)@"
+	db   "Versterkg insect-"
+	next "aanvallen. (VAST)@"
 
 BluApricornDesc:
-	db   "Een blauwe" ; "A blue APRICORN.@"
-	next "ABRIKHORN.@"
+	db   "Blauwe APRICORN.@"
 
 TeruSama6Desc:
 	db   "?@"
 
 AmuletCoinDesc:
-	db   "Doubles monetary"
-	next "earnings. (HOLD)@"
+	db   "Verdubbelt geld-"
+	next "winst. (VAST)@"
 
 YlwApricornDesc:
-	db   "Een gele" ; "A yellow APRICORN.@"
-	next "ABRIKHORN.@"
+	db   "Gele APRICORN.@"
 
 GrnApricornDesc:
-	db   "Een groene" ; "A green APRICORN.@"
-	next "ABRIKHORN.@"
+	db   "Groene APRICORN.@"
 
 CleanseTagDesc:
-	db   "Helps repel wild"
-	next "#MON. (HOLD)@"
+	db   "Verjaagt wilde"
+	next "#MON. (VAST)@"
 
 MysticWaterDesc:
-	db   "Powers up water-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt water-"
+	next "aanvallen. (VAST)@"
 
 TwistedSpoonDesc:
-	db   "Powers up psychic-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt mentaal-"
+	next "aanvallen. (VAST)@"
 
 WhtApricornDesc:
-	db   "Een witte" ; "A white APRICORN.@"
-	next "ABRIKHORN.@"
+	db   "Witte APRICORN.@"
 
 BlackbeltDesc:
-	db   "Boosts fighting-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt vecht-"
+	next "aanvallen. (VAST)@"
 
 BlkApricornDesc:
-	db   "Een zwarte" ; "A black APRICORN.@"
-	next "ABRIKHORN.@"
+	db   "Zwarte APRICORN."
+	next "@"
 
 TeruSama7Desc:
 	db   "?@"
 
 PnkApricornDesc:
-	db   "Een roze"; "A pink APRICORN.@"
-	next "ABRIKHORN.@"
+	db   "Roze APRICORN."
+	next "@"
 
 BlackGlassesDesc:
-	db   "Powers up dark-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt duister-"
+	next "aanvallen. (VAST)@"
 
 SlowpokeTailDesc:
-	db   "Very tasty. Sell"
-	next "high.@"
+	db   "Smaakt lekker."
+	next "Veel waard.@"
 
 PinkBowDesc:
-	db   "Powers up normal-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt normaal-"
+	next "aanvallen. (VAST)@"
 
 StickDesc:
-	db   "An ordinary stick."
-	next "Sell low.@"
+	db   "Gewone stock."
+	next "Weinig waard.@"
 
 SmokeBallDesc:
-	db   "Escape from wild"
-	next "#MON. (HOLD)@"
+	db   "Vlucht van wilde"
+	next "#MON. (VAST)@"
 
 NeverMeltIceDesc:
-	db   "Powers up ice-type"
-	next "moves. (HOLD)@"
+	db   "Versterkt ijs-"
+	next "aanvallen. (HOLD)@"
 
 MagnetDesc:
-	db   "Boosts electric-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt schok-"
+	next "aanvallen. (VAST)@"
 
 MiracleBerryDesc:
-	db   "Cures all status"
-	next "problems. (HOLD)@"
+	db   "Verhelpt status-"
+	next "effecten. (VAST)@"
 
 PearlDesc:
-	db   "A beautiful pearl."
-	next "Sell low.@"
+	db   "Prachtige parel."
+	next "Weinig waard.@"
 
 BigPearlDesc:
-	db   "A big, beautiful"
-	next "pearl. Sell high.@"
+	db   "Grote, prachtige"
+	next "parel. Veel waard.@"
 
 EverStoneDesc:
-	db   "Stops evolution."
-	next "(HOLD)@"
+	db   "Stopt evolutie."
+	next "(VAST)@"
 
 SpellTagDesc:
-	db   "Powers up ghost-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt spook-"
+	next "aanvallen. (VAST)@"
 
 RageCandyBarDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "HERSTELT #MON"
+	next "HP met 20.@"
 
 GSBallDesc:
-	db   "The mysterious"
-	next "BALL.@"
+	db   "De mysterieuze"
+	next "BAL.@"
 
 BlueCardDesc:
-	db   "Card to save"
-	next "points.@"
+	db   "kaart om punten"
+	next "te sparen.@"
 
 MiracleSeedDesc:
-	db   "Powers up grass-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt gras-"
+	next "aanvallen. (VAST)@"
 
 ThickClubDesc:
-	db   "A bone of some"
-	next "sort. Sell low.@"
+	db   "Een soort bot."
+	next "Weinig waard.@"
 
 FocusBandDesc:
-	db   "May prevent faint-"
-	next "ing. (HOLD)@"
+	db   "Voorkomt soms"
+	next "flauwvallen (VAST)@"
 
 TeruSama8Desc:
 	db   "?@"
 
 EnergyPowderDesc:
-	db   "Restores #MON"
-	next "HP by 50. Bitter.@"
+	db   "Herstelt #MON"
+	next "HP met 50. Bitter.@"
 
 EnergyRootDesc:
-	db   "Restores #MON"
-	next "HP by 200. Bitter.@"
+	db   "Herstelt #MON"
+	next "HP met 200. Bitter.@"
 
 HealPowderDesc:
-	db   "Cures all status"
-	next "problems. Bitter.@"
+	db   "Geneest status-"
+	next "problemen. Bitter.@"
 
 RevivalHerbDesc:
-	db   "Revives fainted"
-	next "#MON. Bitter.@"
+	db   "Geneest flauw-"
+	next "vallen. Bitter.@"
 
 HardStoneDesc:
-	db   "Powers up rock-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt rots-"
+	next "aanvallen. (VAST)@"
 
 LuckyEggDesc:
-	db   "Earns extra EXP."
-	next "points. (HOLD)@"
+	db   "Verdien extra ERV."
+	next "punten. (VAST)@"
 
 CardKeyDesc:
-	db   "Opens shutters in"
-	next "the RADIO TOWER.@"
+	db   "Opent deuren in"
+	next "de RADIOTOREN.@"
 
 MachinePartDesc:
-	db   "A machine part for"
-	next "the POWER PLANT.@"
+	db   "Onderdeel uit de"
+	next "STROOMCENTRALE.@"
 
 EggTicketDesc:
-	db   "May use at Golden-"
-	next "rod trade corner.@"
+	db   "Gebruik in Golden-"
+	next "rod-ruilhoek.@"
 
 LostItemDesc:
-	db   "The # DOLL lost"
-	next "by the COPYCAT.@"
+	db   "#POP ontvreemd"
+	next "door de NA-APER.@"
 
 StardustDesc:
-	db   "Pretty, red sand."
-	next "Sell high.@"
+	db   "Mooi, rood zand."
+	next "Veel waard.@"
 
 StarPieceDesc:
-	db   "A hunk of red gem."
-	next "Sell very high.@"
+	db   "Stuk rood juweel."
+	next "Heel veel waard.@"
 
 BasementKeyDesc:
-	db   "Opens doors.@"
+	db   "Opent deuren.@"
 
 PassDesc:
-	db   "A ticket for the"
-	next "MAGNET TRAIN.@"
+	db   "Kaartje voor de"
+	next "MAGNEETTREIN.@"
 
 TeruSama9Desc:
 	db   "?@"
@@ -796,16 +791,16 @@ TeruSama11Desc:
 	db   "?@"
 
 CharcoalDesc:
-	db   "Powers up fire-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt vuur-"
+	next "aanvallen. (VAST)@"
 
 BerryJuiceDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Herstelt #MON"
+	next "HP met 20.@"
 
 ScopeLensDesc:
-	db   "Raises critical"
-	next "hit ratio. (HOLD)@"
+	db   "Verhoogt kritieke"
+	next "klap ratio. (VAST)@"
 
 TeruSama12Desc:
 	db   "?@"
@@ -814,19 +809,19 @@ TeruSama13Desc:
 	db   "?@"
 
 MetalCoatDesc:
-	db   "Powers up steel-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt staal-"
+	next "aanvallen. (VAST)@"
 
 DragonFangDesc:
-	db   "Powers up dragon-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt draak-"
+	next "aanvallen. (VAST)@"
 
 TeruSama14Desc:
 	db   "?@"
 
 LeftoversDesc:
-	db   "Restores HP during"
-	next "battle. (HOLD)@"
+	db   "Herstelt tijdens"
+	next "gevecht HP. (VAST)@"
 
 TeruSama15Desc:
 	db   "?@"
@@ -838,16 +833,16 @@ TeruSama17Desc:
 	db   "?@"
 
 MysteryBerryDesc:
-	db   "A self-restore"
-	next "for PP. (HOLD)@"
+	db   "Herstelt tijdens"
+	next "gevecht PP. (VAST)@"
 
 DragonScaleDesc:
-	db   "A rare dragon-type"
-	next "item.@"
+	db   "Zeldzaam draak-"
+	next "voorwerp.@"
 
 BerserkGeneDesc:
-	db   "Boosts ATTACK but"
-	next "causes confusion.@"
+	db   "Verhoogt aanval"
+	next "maar verwart.@"
 
 TeruSama18Desc:
 	db   "?@"
@@ -859,136 +854,136 @@ TeruSama20Desc:
 	db   "?@"
 
 SacredAshDesc:
-	db   "Fully revives all"
-	next "fainted #MON.@"
+	db   "Alle verslagen"
+	next "#MON terug.@"
 
 HeavyBallDesc:
-	db   "A BALL for catch-"
-	next "ing heavy #MON.@"
+	db   "BAL voor vangen"
+	next "zware #MON.@"
 
 FlowerMailDesc:
-	db   "Flower-print MAIL."
-	next "(HOLD)@"
+	db   "POST met bloemen-."
+	next "print (VAST)@"
 
 LevelBallDesc:
-	db   "A BALL for lower-"
-	next "level #MON.@"
+	db   "BAL voor vangen"
+	next "zwakkere #MON.@"
 
 LureBallDesc:
-	db   "A BALL for #MON"
-	next "hooked by a ROD.@"
+	db   "BAL voor vangen"
+	next "opgeviste #MON.@"
 
 FastBallDesc:
-	db   "A BALL for catch-"
-	next "ing fast #MON.@"
+	db   "BAL voor vangen"
+	next "snelle #MON.@"
 
 TeruSama21Desc:
 	db   "?@"
 
 LightBallDesc:
-	db   "An odd, electrical"
-	next "orb. (HOLD)@"
+	db   "Vreemde, elektrische"
+	next "bol. (HOLD)@"
 
 FriendBallDesc:
-	db   "A BALL that makes"
-	next "#MON friendly.@"
+	db   "BAL die #MON"
+	next "vriendelijk maakt.@"
 
 MoonBallDesc:
-	db   "A BALL for MOON"
-	next "STONE evolvers.@"
+	db   "BAL voor evoluties"
+	next "van MAANSTEEN.@"
 
 LoveBallDesc:
-	db   "For catching the"
-	next "opposite gender.@"
+	db   "Voor vangen van"
+	next "ander geslacht.@"
 
 NormalBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+	db   "Maak open en zie"
+	next "wat er in zit.@"
 
 GorgeousBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+	db   "Maak open en zie"
+	next "wat er in zit.@"
 
 SunStoneDesc:
-	db   "Ontwikkelt sommige" ; "Evolves certain"
-	next "soorten #MON.@" ; "kinds of #MON.@"
+db   "Evolueert speci-"
+next "fieke #MON.@"
 
 PolkadotBowDesc:
-	db   "Powers up normal-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt normale"
+	next "aanvallen. (VAST)@"
 
 TeruSama22Desc:
 	db   "?@"
 
 UpGradeDesc:
-	db   "A mysterious box"
-	next "made by SILPH CO.@"
+	db   "Mysterieuze doos"
+	next "van SILPH CO.@"
 
 BerryDesc:
-	db   "A self-restore"
-	next "item. (10HP, HOLD)@"
+	db   "Herstelt 10 HP van"
+	next "#MON. (VAST)@"
 
 GoldBerryDesc:
-	db   "A self-restore"
-	next "item. (30HP, HOLD)@"
+	db   "Herstelt 30 HP van"
+	next "#MON. (VAST)@"
 
 SquirtBottleDesc:
-	db   "A bottle used for"
-	next "watering plants.@"
+	db   "Gieter om planten"
+	next "water te geven.@"
 
 TeruSama23Desc:
 	db   "?@"
 
 ParkBallDesc:
-	db   "The Bug-Catching"
-	next "Contest BALL.@"
+	db   "Wedstrijdbal van"
+	next "Insectenwedstrijd.@"
 
 RainbowWingDesc:
-	db   "A mystical feather"
-	next "of rainbow colors.@"
+	db   "Mystieke veer met"
+	next "regenboogkleuren.@"
 
 TeruSama24Desc:
 	db   "?@"
 
 BrickPieceDesc:
-	db   "A rare chunk of"
-	next "tile.@"
+	db   "Zeldzaam stuk"
+	next "tegel.@"
 
 SurfMailDesc:
-	db   "LAPRAS-print MAIL."
-	next "(HOLD)@"
+	db   "POST met LAPRAS-."
+	next "afdruk (VAST)@"
 
 LiteBlueMailDesc:
-	db   "DRATINI-print"
-	next "MAIL. (HOLD)@"
+	db   "Post met DRATINI-"
+	next "afdruk. (VAST)@"
 
 PortraitMailDesc:
-	db   "MAIL featuring the"
-	next "holder's likeness.@"
+	db   "POST met portret"
+	next "van drager.@"
 
 LovelyMailDesc:
-	db   "Heart-print MAIL."
-	next "(HOLD)@"
+	db   "POST met hart-."
+	next "afdruk (VAST)@"
 
 EonMailDesc:
-	db   "EEVEE-print MAIL."
-	next "(HOLD)@"
+	db   "Post met EEVEE-."
+	next "afdruk (VAST)@"
 
 MorphMailDesc:
-	db   "DITTO-print MAIL."
-	next "(HOLD)@"
+	db   "Post met DITTO-."
+	next "afdruk (VAST)@"
 
 BlueSkyMailDesc:
-	db   "Sky-print MAIL."
-	next "(HOLD)@"
+	db   "Post met LUCHT-."
+	next "afdruk (VAST)@"
 
 MusicMailDesc:
-	db   "NATU-print MAIL."
-	next "(HOLD)@"
+	db   "Post met NATU-"
+	next "afdruk (vast)@"
 
 MirageMailDesc:
-	db   "MEW-print MAIL."
-	next "(HOLD)@"
+	db   "Post met MEW-."
+	next "afdruk (VAST)@"
 
 TeruSama25Desc:
 	db   "?@"
