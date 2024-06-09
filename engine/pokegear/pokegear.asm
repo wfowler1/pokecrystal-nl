@@ -320,7 +320,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db " SWITCH▶@"
+	db " WISSEL▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -1248,9 +1248,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "BEL"
+	next "WIS"
+	next "TERUG"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1261,8 +1261,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "BEL"
+	next "TERUG"
 	db   "@"
 
 .CallCancelJumptable:
@@ -2539,8 +2539,7 @@ Pokedex_GetArea:
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .male
-	assert PAL_OW_RED + 1 == PAL_OW_BLUE
-	inc c
+	inc c ; PAL_OW_BLUE
 .male
 	ld a, c
 	ld [hli], a ; attributes
