@@ -256,9 +256,9 @@ TrainerCard_PrintTopHalfOfCard:
 	ret
 
 .Name_Money:
-	db   "NAAM/" ; "NAME/"
+	db   "NAAM"
 	next ""
-	next "GELD@" ; "MONEY@"
+	next "GELD@"
 
 .ID_No:
 	db $27, $28, -1 ; ID NO
@@ -294,13 +294,13 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 
 .Dex_PlayTime:
 	db   "#DEX"
-	next "SPEL DUUR@" ; "PLAY TIME@"
+	next "SPEELTIJD@"
 
 .Unused: ; unreferenced
 	db "@"
 
 .Badges:
-	db "MEDAILLE▶@" ; "  BADGES▶@"
+	db "  BADGES▶@"
 
 .StatusTilemap:
 	db $29, $2a, $2b, $2c, $2d, -1

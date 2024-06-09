@@ -75,21 +75,21 @@ _Option:
 	ret
 
 StringOptions:
-	db "TEKST SNELHEID<LF>" ; "TEXT SPEED<LF>"
-	db "     :<LF>" ; "        :<LF>"
-	db "STRIJD ANIMATIE<LF>" ; "BATTLE SCENE<LF>"
-	db "     :<LF>" ; "        :<LF>"
-	db "STRIJD STIJL<LF>" ; "BATTLE STYLE<LF>"
-	db "     :<LF>" ; "        :<LF>"
-	db "GELUID<LF>" ; "SOUND<LF>"
-	db "     :<LF>" ; "        :<LF>"
-	db "AFDRUK<LF>" ; "PRINT<LF>"
-	db "     :<LF>" ; "        :<LF>"
-	db "MENU UITLEG<LF>" ; "MENU ACCOUNT<LF>"
-	db "     :<LF>" ; "        :<LF>"
-	db "GRENS<LF>" ; "FRAME<LF>"
-	db "     :STIJL<LF>" ; "        :TYPE<LF>"
-	db "UITGAAN@" ; "CANCEL@"
+	db "SNELHEID TEKST<LF>"
+	db "        :<LF>"
+	db "ANIMATIE<LF>"
+	db "        :<LF>"
+	db "VECHTSTIJL<LF>"
+	db "        :<LF>"
+	db "GELUID<LF>"
+	db "        :<LF>"
+	db "PRINT<LF>"
+	db "        :<LF>"
+	db "MENU-ACCOUNT<LF>"
+	db "        :<LF>"
+	db "RAND<LF>"
+	db "        :TYPE<LF>"
+	db "ANNULEER@"
 
 GetOptionPointer:
 	jumptable .Pointers, wJumptableIndex
@@ -152,7 +152,7 @@ Options_TextSpeed:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 8, 3
+	hlcoord 11, 3
 	call PlaceString
 	and a
 	ret
@@ -163,9 +163,9 @@ Options_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "SNEL    @" ; "FAST@"
-.Mid:  db "MEDIUM  @" ; "MID @"
-.Slow: db "LANGZAAM@" ; "SLOW@"
+.Fast: db "SNEL  @"
+.Mid:  db "MIDDEL@"
+.Slow: db "TRAAG @"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
@@ -222,13 +222,13 @@ Options_BattleScene:
 	ld de, .Off
 
 .Display:
-	hlcoord 8, 5
+	hlcoord 11, 5
 	call PlaceString
 	and a
 	ret
 
-.On:  db "AAN@" ; "ON @"
-.Off: db "UIT@" ;."OFF@"
+.On:  db "AAN @"
+.Off: db "UIT@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -260,13 +260,13 @@ Options_BattleStyle:
 	ld de, .Set
 
 .Display:
-	hlcoord 8, 7
+	hlcoord 11, 7
 	call PlaceString
 	and a
 	ret
 
-.Shift: db "KEUZE @" ; "SHIFT@"
-.Set:   db "HOUDEN@" ; "SET  @"
+.Shift: db "WISSEL@"
+.Set:   db "VAST  @"
 
 Options_Sound:
 	ld hl, wOptions
@@ -305,7 +305,7 @@ Options_Sound:
 	ld de, .Stereo
 
 .Display:
-	hlcoord 8, 9
+	hlcoord 11, 9
 	call PlaceString
 	and a
 	ret
@@ -359,7 +359,7 @@ Options_Print:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 8, 11
+	hlcoord 11, 11
 	call PlaceString
 	and a
 	ret
@@ -372,11 +372,11 @@ Options_Print:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "HEEL LICHT @" ; "LIGHTEST@"
-.Lighter:  db "LICHT      @" ; "LIGHTER @"
-.Normal:   db "NORMAAL    @" ; "NORMAL  @"
-.Darker:   db "DONKER     @" ; "DARKER  @"
-.Darkest:  db "HEEL DONKER@" ; "DARKEST @"
+.Lightest: db "LICHTST @"
+.Lighter:  db "LICHTER @"
+.Normal:   db "NORMAAL @"
+.Darker:   db "DIMMER  @"
+.Darkest:  db "DIMST   @"
 
 GetPrinterSetting:
 ; converts GBPRINTER_* value in a to OPT_PRINT_* value in c,
@@ -445,13 +445,13 @@ Options_MenuAccount:
 	ld de, .On
 
 .Display:
-	hlcoord 8, 13
+	hlcoord 11, 13
 	call PlaceString
 	and a
 	ret
 
-.Off: db "UIT@" ; "OFF@"
-.On:  db "AAN@" ; "ON @"
+.Off: db "UIT@"
+.On:  db "AAN @"
 
 Options_Frame:
 	ld hl, wTextboxFrame
@@ -477,7 +477,7 @@ Options_Frame:
 	ld [hl], a
 UpdateFrame:
 	ld a, [wTextboxFrame]
-	hlcoord 14, 15 ; where on the screen the number is drawn
+	hlcoord 16, 15 ; where on the screen the number is drawn
 	add "1"
 	ld [hl], a
 	call LoadFontsExtra
