@@ -537,7 +537,6 @@ LinkTimeout:
 	xor a
 	ld [hld], a
 	ld [hl], a
-	assert VBLANK_NORMAL == 0
 	ldh [hVBlank], a
 	push de
 	hlcoord 0, 12
@@ -2213,8 +2212,7 @@ endc
 	call DelayFrames
 	xor a
 	ldh [hVBlank], a
-	assert LINK_TIMECAPSULE == 1
-	inc a
+	inc a ; LINK_TIMECAPSULE
 	ld [wLinkMode], a
 	ret
 
@@ -2287,7 +2285,7 @@ SetBitsForTimeCapsuleRequest:
 	ldh [rSC], a
 	ld a, (1 << rSC_ON) | (0 << rSC_CLOCK)
 	ldh [rSC], a
-	xor a ; LINK_NULL
+	xor a ; LINK_TIMECAPSULE - 1
 	ld [wPlayerLinkAction], a
 	ld [wChosenCableClubRoom], a
 	ret
@@ -2381,7 +2379,7 @@ CheckLinkTimeout_Receptionist:
 	xor a
 	ld [hl], a
 	call WaitBGMap
-	ld a, VBLANK_SOUND_ONLY
+	ld a, $2
 	ldh [hVBlank], a
 	call DelayFrame
 	call DelayFrame
@@ -2403,7 +2401,7 @@ CheckLinkTimeout_Gen2:
 	xor a
 	ld [hl], a
 	call WaitBGMap
-	ld a, VBLANK_SOUND_ONLY
+	ld a, $2
 	ldh [hVBlank], a
 	call DelayFrame
 	call DelayFrame
@@ -2631,7 +2629,7 @@ Link_EnsureSync:
 	add $d0
 	ld [wLinkPlayerSyncBuffer], a
 	ld [wLinkPlayerSyncBuffer + 1], a
-	ld a, VBLANK_SOUND_ONLY
+	ld a, $2
 	ldh [hVBlank], a
 	call DelayFrame
 	call DelayFrame

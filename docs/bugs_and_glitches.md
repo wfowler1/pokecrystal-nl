@@ -408,7 +408,7 @@ This makes the Berserk Gene use the regular confusion duration (2–5 turns).
 
 **Fix:**
 
-First, edit [wram.asm](https://github.com/pret/pokecrystal/blob/master/ram/wram.asm):
+First, edit [wram.asm](https://github.com/pret/pokecrystal/blob/master/wram.asm):
 
 ```diff
  wTurnEnded:: db
@@ -1556,7 +1556,7 @@ To select a move in battle, you have to press and release the Up or Down buttons
 -; BUG: Credits sequence changes move selection menu behavior (see docs/bugs_and_glitches.md)
  	ldh a, [hVBlank]
  	push af
- 	ld a, VBLANK_CREDITS
+ 	ld a, $5
  	ldh [hVBlank], a
 +	ldh a, [hInMenu]
 +	push af

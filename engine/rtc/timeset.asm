@@ -298,7 +298,7 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
-	db "uur@" ; "o'clock@"
+	db "uur@"
 
 OakTimeWhatHoursText:
 	; What?@ @
@@ -506,7 +506,7 @@ SetDayOfWeek:
 	ret
 
 .WeekdayStrings:
-; entries correspond to wCurDay constants (see constants/ram_constants.asm)
+; entries correspond to wCurDay constants (see constants/wram_constants.asm)
 	dw .Sunday
 	dw .Monday
 	dw .Tuesday
@@ -516,13 +516,13 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db " ZONDAG@" ; " SUNDAY@"
-.Monday:    db " MAANDAG@" ; " MONDAY@"
-.Tuesday:   db " DINSDAG@" ; " TUESDAY@"
-.Wednesday: db "WOENSDAG@" ; "WEDNESDAY@"
-.Thursday:  db "DONDERDAG@" ; "THURSDAY@"
-.Friday:    db " VRIJDAG@" ; " FRIDAY@"
-.Saturday:  db "ZATERDAG@" ; "SATURDAY@"
+.Sunday:    db " ZONDAG@"
+.Monday:    db "MAANDAG@"
+.Tuesday:   db "DINSDAG@"
+.Wednesday: db "WOENSDAG@"
+.Thursday:  db "DONDERDAG@"
+.Friday:    db " VRIJDAG@"
+.Saturday:  db "ZATERDAG@"
 
 .OakTimeWhatDayIsItText:
 	text_far _OakTimeWhatDayIsItText
@@ -706,9 +706,9 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
-.nite_string: db "NACH@" ; "NITE@"
-.morn_string: db "OCHT@" ; "MORN@"
-.day_string:  db "DAG@" ; "DAY@"
+.nite_string: db "NCHT@"
+.morn_string: db "OCHT@"
+.day_string:  db "DAG @"
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value

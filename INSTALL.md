@@ -111,13 +111,13 @@ If you want to compile and install **rgbds** yourself instead, then follow the [
 To install the software required for **pokecrystal**:
 
 ```bash
-pkg install make clang git sed
+sudo apt install make clang git sed
 ```
 
 To install **rgbds**:
 
 ```bash
-pkg install rgbds
+sudo apt install rgbds
 ```
 
 If you want to compile and install **rgbds** yourself instead, then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 0.7.0** from source.

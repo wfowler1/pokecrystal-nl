@@ -108,39 +108,36 @@ RuinsOfAlphAerodactylChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphAerodactylChamberWallPatternLeftText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphAerodactylChamberUnownText: ; unreferenced
-	text "Het is tekst" ; "It's UNOWN text!"
-	line "van UNOWN!"
+	text "It's UNOWN text!"
 	done
 
 RuinsOfAlphAerodactylChamberWallPatternRightText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:
-	text "Er zit een groot" ; "There's a big hole"
-	line "gat in de muur!" ; "in the wall!"
+	text "There's a big hole"
+	line "in the wall!"
 	done
 
 RuinsOfAlphAerodactylChamberAncientReplicaText:
-	text "Het is een replica" ; "It's a replica of"
-	line "van een oude #-" ; "an ancient #-"
+	text "It's a replica of"
+	line "an ancient #-"
 	cont "MON."
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:
-	text "Deze vliegende" ; "This flying #-"
-	line "#MON vielte" ; "MON attacked its"
+	text "This flying #-"
+	line "MON attacked its"
 
-	para "zijn prooi aan met" ; "prey with saw-like"
-	line "tanden als zagen." ; "fangs."
+	para "prey with saw-like"
+	line "fangs."
 	done
 
 RuinsOfAlphAerodactylChamber_MapEvents:

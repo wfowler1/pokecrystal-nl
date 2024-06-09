@@ -76,7 +76,7 @@ Credits::
 ; BUG: Credits sequence changes move selection menu behavior (see docs/bugs_and_glitches.md)
 	ldh a, [hVBlank]
 	push af
-	ld a, VBLANK_CREDITS
+	ld a, $5
 	ldh [hVBlank], a
 	ld a, TRUE
 	ldh [hInMenu], a

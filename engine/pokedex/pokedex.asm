@@ -423,9 +423,9 @@ Pokedex_ReinitDexEntryScreen:
 DexEntryScreen_ArrowCursorData:
 	db D_RIGHT | D_LEFT, 4
 	dwcoord 1, 17  ; PAGE
-	dwcoord 5, 17  ; AREA
-	dwcoord 9, 17 ; CRY
-	dwcoord 14, 17 ; PRNT
+	dwcoord 6, 17  ; AREA
+	dwcoord 11, 17 ; CRY
+	dwcoord 15, 17 ; PRNT
 
 DexEntryScreen_MenuActionJumptable:
 	dw Pokedex_Page
@@ -1128,11 +1128,9 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "GEZ", -1 ; "GEZIEN"
-	; db "SEEN", -1
+	db "SEEN", -1
 String_OWN:
-	db "BEZ", -1 ; "BBEZITTEN"
-	; db "OWN", -1
+	db "OWN", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
 	; fallthrough
@@ -1174,14 +1172,11 @@ Pokedex_DrawDexEntryScreenBG:
 .Number: ; unreferenced
 	db $5c, $5d, -1 ; No.
 .Height:
-	db "HT.  ???m", -1 ; HT  ?'??"
-	; db "HT  ?", $5e, "??", $5f, -1 ; HT  ?'??"
+	db "HT  ?", $5e, "??", $5f, -1 ; HT  ?'??"
 .Weight:
-	db "GEW  ???kg", -1
-	; db "WT   ???lb", -1
+	db "WT   ???lb", -1
 .MenuItems:
-	db $3b, " PAG GEB KREE DRUK ", -1
-	; db $3b, " PAGE AREA CRY PRNT", -1
+	db $3b, " PAGE AREA CRY PRNT", -1
 
 Pokedex_DrawOptionScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1206,17 +1201,16 @@ Pokedex_DrawOptionScreenBG:
 	ret
 
 .Title:
-	db $3b, " MODUS ", $3c, -1
-	; db $3b, " OPTION ", $3c, -1
+	db $3b, " OPTION ", $3c, -1
 
 .Modes:
-	db   "JOHTO" ; "NEW #DEX MODE"
-	next "NATIONAAL" ; "OLD #DEX MODE"
-	next "ALFABETISCHE" ; "A to Z MODE"
+	db   "NEW #DEX MODE"
+	next "OLD #DEX MODE"
+	next "A to Z MODE"
 	db   "@"
 
 .UnownMode:
-	db "UNOWN LIJST@" ; "UNOWN MODE@"
+	db "UNOWN MODE@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1241,8 +1235,7 @@ Pokedex_DrawSearchScreenBG:
 	ret
 
 .Title:
-	db $3b, " ZOEKEN ", $3c, -1
-	; db $3b, " SEARCH ", $3c, -1
+	db $3b, " SEARCH ", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1
@@ -1253,8 +1246,8 @@ Pokedex_DrawSearchScreenBG:
 	db   "@"
 
 .Menu:
-	db   "ZOEK BEGINNEN!!" ; "BEGIN SEARCH!!"
-	next "UITGAAN" ; "CANCEL"
+	db   "BEGIN SEARCH!!"
+	next "CANCEL"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:
@@ -1288,9 +1281,9 @@ Pokedex_DrawSearchResultsScreenBG:
 	ret
 
 .BottomWindowText:
-	db   "Resultaten" ; "SEARCH RESULTS"
-	next "TYPE" ; "  TYPE"
-	next "    gevonden" ; "    FOUND!"
+	db   "SEARCH RESULTS"
+	next "  TYPE"
+	next "    FOUND!"
 	db   "@"
 
 Pokedex_PlaceSearchResultsTypeStrings:
@@ -1740,20 +1733,20 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NewMode:
-	db   "JOHTO #DEX" ; "<PK><MN> are listed by"
-	next "Evoluties samen.@" ; "evolution type.@"
+	db   "<PK><MN> are listed by"
+	next "evolution type.@"
 
 .OldMode:
-	db   "NATIONAAL #DEX" ; "<PK><MN> are listed by"
-	next "Vermeld op nummer.@" ; "official type.@"
+	db   "<PK><MN> are listed by"
+	next "official type.@"
 
 .ABCMode:
-	db   "<PK><MN> vermeld" ; "<PK><MN> are listed"
-	next "alfabetisch.@" ; "alphabetically.@"
+	db   "<PK><MN> are listed"
+	next "alphabetically.@"
 
 .UnownMode:
-	db   "UNOWN vermeld op" ; "UNOWN are listed"
-	next "volgorde gevangen.@" ; "in catching order.@"
+	db   "UNOWN are listed"
+	next "in catching order.@"
 
 Pokedex_DisplayChangingModesMessage:
 	xor a
@@ -1775,8 +1768,8 @@ Pokedex_DisplayChangingModesMessage:
 	ret
 
 String_ChangingModesPleaseWait:
-	db   "Modusverandering." ; "Changing modes."
-	next "Even geduld aub.@" ; "Please wait.@"
+	db   "Changing modes."
+	next "Please wait.@"
 
 Pokedex_UpdateSearchMonType:
 	ld a, [wDexArrowCursorPosIndex]
@@ -1975,8 +1968,8 @@ Pokedex_DisplayTypeNotFoundMessage:
 	ret
 
 .TypeNotFound:
-	db   "Het opgegeven type" ; "The specified type"
-	next "is niet gevonden.@" ; "was not found.@"
+	db   "The specified type"
+	next "was not found.@"
 
 Pokedex_UpdateCursorOAM:
 	ld a, [wCurDexMode]

@@ -624,8 +624,7 @@ ParsePlayerAction:
 	jr nz, .locked_in
 	xor a
 	ld [wMoveSelectionMenuType], a
-	assert POUND == 1
-	inc a
+	inc a ; POUND
 	ld [wFXAnimID], a
 	call MoveSelectionScreen
 	push af
@@ -1654,9 +1653,9 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Your@"
+	db "Jouw@"
 .Enemy:
-	db "Enemy@"
+	db "Vijand@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -3827,8 +3826,7 @@ TryToRunAwayFromBattle:
 	cp BATTLEACTION_FORFEIT
 	ld a, DRAW
 	jr z, .fled
-	assert DRAW - 1 == LOSE
-	dec a
+	dec a ; LOSE
 .fled
 	ld b, a
 	ld a, [wBattleResult]
@@ -3866,9 +3864,9 @@ InitBattleMon:
 	ld a, MON_SPECIES
 	call GetPartyParamLocation
 	ld de, wBattleMonSpecies
-	ld bc, MON_OT_ID
+	ld bc, MON_ID
 	call CopyBytes
-	ld bc, MON_DVS - MON_OT_ID
+	ld bc, MON_DVS - MON_ID
 	add hl, bc
 	ld de, wBattleMonDVs
 	ld bc, MON_POKERUS - MON_DVS
@@ -3952,9 +3950,9 @@ InitEnemyMon:
 	ld hl, wOTPartyMon1Species
 	call GetPartyLocation
 	ld de, wEnemyMonSpecies
-	ld bc, MON_OT_ID
+	ld bc, MON_ID
 	call CopyBytes
-	ld bc, MON_DVS - MON_OT_ID
+	ld bc, MON_DVS - MON_ID
 	add hl, bc
 	ld de, wEnemyMonDVs
 	ld bc, MON_POKERUS - MON_DVS
@@ -7076,7 +7074,7 @@ GiveExperiencePoints:
 	call Divide
 ; Boost Experience for traded Pokemon
 	pop bc
-	ld hl, MON_OT_ID
+	ld hl, MON_ID
 	add hl, bc
 	ld a, [wPlayerID]
 	cp [hl]

@@ -102,32 +102,32 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next "CONTROLEREN LINK…@" ; " CHECKING LINK...@"
-GBPrinterString_Transmitting: next "    VERZENDEN…@" ; "  TRANSMITTING...@"
-GBPrinterString_Printing: next "    AFDRUKKEN…@" ; "    PRINTING...@"
+GBPrinterString_CheckingLink: next " CHECKING LINK...@"
+GBPrinterString_Transmitting: next "  TRANSMITTING...@"
+GBPrinterString_Printing: next "    PRINTING...@"
 GBPrinterString_PrinterError1:
-	db   "  Drukker Fout 1" ; " Printer Error 1"
+	db   " Printer Error 1"
 	next ""
-	next "Lees het Game Boy" ; "Check the Game Boy"
-	next "Printer Handboek." ; "Printer Manual."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError2:
-	db   "  Drukker Fout 2" ; " Printer Error 2"
+	db   " Printer Error 2"
 	next ""
-	next "Lees het Game Boy" ; "Check the Game Boy"
-	next "Printer Handboek." ; "Printer Manual."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError3:
-	db   "  Drukker Fout 3" ; " Printer Error 3"
+	db   " Printer Error 3"
 	next ""
-	next "Lees het Game Boy" ; "Check the Game Boy"
-	next "Printer Handboek." ; "Printer Manual."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError4:
-	db   "  Drukker Fout 4" ; " Printer Error 4"
+	db   " Printer Error 4"
 	next ""
-	next "Lees het Game Boy" ; "Check the Game Boy"
-	next "Printer Handboek." ; "Printer Manual."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 
 PrintPartyMonPage1:
@@ -329,17 +329,17 @@ PrintParty_OTString:
 	db "OT/@"
 
 PrintParty_MoveString:
-	db "ACTIE@" ; "MOVE@"
+	db "MOVE@"
 
 PrintParty_IDNoString:
 	db "<ID>№.@"
 
 PrintParty_StatsString:
-	db   "AANVAL" ; "ATTACK"
-	next "VER" ; "DEFENSE"
-	next "SPCL.AAN" ; "SPCL.ATK"
-	next "SPCL.VER" ; "SPCL.DEF"
-	next "SNELHEID" ; "SPEED"
+	db   "ATTACK"
+	next "DEFENSE"
+	next "SPCL.ATK"
+	next "SPCL.DEF"
+	next "SPEED"
 	db   "@"
 
 PrintParty_NoMoveString:

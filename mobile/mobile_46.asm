@@ -2923,13 +2923,13 @@ pushc
 setcharmap ascii
 
 Unknown_1196b8:
-	db "ma." ; "Mon"
-	db "di." ; "Tue"
-	db "wo." ; "Wed"
-	db "do." ; "Thu"
-	db "vr." ; "Fri"
-	db "za." ; "Sat"
-	db "zo." ; "Sun"
+	db "Mon"
+	db "Tue"
+	db "Wed"
+	db "Thu"
+	db "Fri"
+	db "Sat"
+	db "Sun"
 
 popc
 
@@ -3871,27 +3871,27 @@ String_119d07:
 	db "   ▼@"
 
 Strings_L10ToL100:
-	db " N:10 @@" ; " L:10 @@"
-	db " N:20 @@" ; " L:20 @@"
-	db " N:30 @@" ; " L:30 @@"
-	db " N:40 @@" ; " L:40 @@"
-	db " N:50 @@" ; " L:50 @@"
-	db " N:60 @@" ; " L:60 @@"
-	db " N:70 @@" ; " L:70 @@"
-	db " N:80 @@" ; " L:80 @@"
-	db " N:90 @@" ; " L:90 @@"
-	db " N:100 @@" ; " L:100@@"
-	db "UITGAAN@@" ; "CANCEL@@"
+	db " L:10 @@"
+	db " L:20 @@"
+	db " L:30 @@"
+	db " L:40 @@"
+	db " L:50 @@"
+	db " L:60 @@"
+	db " L:70 @@"
+	db " L:80 @@"
+	db " L:90 @@"
+	db " L:100@@"
+	db "CANCEL@@"
 
 Strings_Ll0ToL40:
-	db " N:10 @@" ; " L:10 @@"
-	db " N:20 @@" ; " L:20 @@"
-	db " N:30 @@" ; " L:30 @@"
-	db " N:40 @@" ; " L:40 @@"
-	db "UITGAAN@@" ; "CANCEL@@"
+	db " L:10 @@"
+	db " L:20 @@"
+	db " L:30 @@"
+	db " L:40 @@"
+	db "CANCEL@@"
 
 BattleTowerCancelString: ; unreferenced
-	db "UITGAAN@" ; "CANCEL@@"
+	db "CANCEL@"
 
 BattleTower_LevelCheck:
 	ldh a, [rSVBK]
@@ -4628,10 +4628,10 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ret
 
 String_11a2cf:
-	db "JA@" ; "YES@"
+	db "YES@"
 
 String_11a2d3:
-	db "NEE@" ; "NO@"
+	db "NO@"
 
 MenuHeader_11a2d6: ; unreferenced
 	db MENU_BACKUP_TILES ; flags
@@ -5422,8 +5422,8 @@ Function11a9f4: ; unreferenced
 	ret
 
 Text_SaveFileWillBeSent:
-	text "OPSLAANBESTAND wordt" ; "SAVE FILE will be"
-	line "verzonden." ; "sent."
+	text "SAVE FILE will be"
+	line "sent."
 	done
 
 Text_SentSaveFileReadingNews:

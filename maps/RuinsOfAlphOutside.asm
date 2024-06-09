@@ -148,73 +148,68 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Is die een #-" ; "Hm? That's a #-"
-	line "DEX? Meg ik het" ; "DEX, isn't it?"
-	cont "alsjeblieft lenen?" ; "May I see it?"
+	text "Hm? That's a #-"
+	line "DEX, isn't it?"
+	cont "May I see it?"
 
-	para "Er zijn heel veel" ; "There are so many"
-	line "verschillende" ; "kinds of #MON."
-	cont "soorten POKéMON."
+	para "There are so many"
+	line "kinds of #MON."
 
-	para "Maar… Wat is dit?" ; "Hm? What's this?"
+	para "Hm? What's this?"
 
-	para "Wat is deze #-" ; "What is this"
-	line "MON?" ; "#MON?"
+	para "What is this"
+	line "#MON?"
 
-	para "Het lijkt op de" ; "It looks like the"
-	line "vreemde tekens" ; "strange writing on"
+	para "It looks like the"
+	line "strange writing on"
 
-	para "op de muren van" ; "the walls of the"
-	line "de RUÏNES." ; "RUINS."
+	para "the walls of the"
+	line "RUINS."
 
-	para "Als die tekeningen" ; "If those drawings"
-	line "zijn eigenlijk" ; "are really #-"
-	cont "#MON, er zouden" ; "MON, there should"
-	cont "veel meer moet" ; "be many more."
-	cont "zijn."
+	para "If those drawings"
+	line "are really #-"
+	cont "MON, there should"
+	cont "be many more."
 
-	para "Weet ik! Laat mij" ; "I know! Let me up-"
-	line "je #DEX upgrad-" ; "grade your #-"
-	cont "en. Kom met mij" ; "DEX. Follow me."
-	cont "mee."
+	para "I know! Let me up-"
+	line "grade your #-"
+	cont "DEX. Follow me."
 	done
 
 SuperNerdStanSeenText:
-	text "Wat wil jij? Ik" ; "What do you want?"
-	line "ben aan het stu-" ; "I'm studying--"
-	cont "deren--ga weg!" ; "don't disturb me!"
+	text "What do you want?"
+	line "I'm studying--"
+	cont "don't disturb me!"
 	done
 
 SuperNerdStanBeatenText:
 	text "Sorry…"
-	line "Ik voel me ge-" ; "I'm frustrated by"
-	line "frustreerd omdat"
+	line "I'm frustrated by"
 
-	para "ons gebrek aan" ; "our lack of real"
-	line "begrip…" ; "understanding…"
+	para "our lack of real"
+	line "understanding…"
 	done
 
 SuperNerdStanAfterBattleText:
-	text "De RUÏNES zijn" ; "The RUINS are from"
-	line "ongeveer 1500 jaar" ; "about 1500 years"
-	cont "oud." ; "ago."
+	text "The RUINS are from"
+	line "about 1500 years"
+	cont "ago."
 
-	para "We weten niet wie" ; "Nobody knows who"
-	line "ze gebouwde heeft." ; "built them."
+	para "Nobody knows who"
+	line "built them."
 
-	para "We weten niet ook" ; "It's also not"
-	line "als de #MON" ; "known if the #-"
-	cont "beelden hebben" ; "MON statues have"
-	cont "betekenis." ; "any meaning."
+	para "It's also not"
+	line "known if the #-"
+	cont "MON statues have"
+	cont "any meaning."
 
-	para "Het is allemaal" ; "It's all one big"
-	line "een groot myst-" ; "mystery…"
-	cont "erie…"
+	para "It's all one big"
+	line "mystery…"
 	done
 
 PsychicNathanSeenText:
-	text "Hmm… Deze is een" ; "Hmmm… This is a"
-	line "vreemd plek." ; "strange place."
+	text "Hmmm… This is a"
+	line "strange place."
 	done
 
 PsychicNathanBeatenText:
@@ -222,70 +217,65 @@ PsychicNathanBeatenText:
 	done
 
 PsychicNathanAfterBattleText:
-	text "Ik denk hier" ; "I like thinking"
-	line "graag." ; "here."
+	text "I like thinking"
+	line "here."
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERIE STENEN" ; "MYSTERY STONE"
-	line "PANELEN KAMER" ; "PANEL CHAMBER"
+	text "MYSTERY STONE"
+	line "PANEL CHAMBER"
 	done
 
 RuinsOfAlphSignText:
-	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
-	line "WELKOM BEZOEKERS!" ; "VISITORS WELCOME"
+	text "RUINS OF ALPH"
+	line "VISITORS WELCOME"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
-	line "ONDERZOEKSCENTRUM" ; "RESEARCH CENTER"
+	text "RUINS OF ALPH"
+	line "RESEARCH CENTER"
 
-	para "DE EXPERTS OP DE" ; "THE AUTHORITY ON"
-	line "RUÏNES VAN ALF" ; "THE RUINS OF ALPH"
+	para "THE AUTHORITY ON"
+	line "THE RUINS OF ALPH"
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "Terwijl we de" ; "While exploring"
-	line "RUÏNES verkenden," ; "the RUINS, we"
+	text "While exploring"
+	line "the RUINS, we"
 
-	para "merkten plotseling" ; "suddenly noticed"
-	line "we een vreemd" ; "an odd presence."
-	cont "gevoel op."
+	para "suddenly noticed"
+	line "an odd presence."
 
-	para "We werden allemaal" ; "We all got scared"
-	line "bang en we renden" ; "and ran away."
-	cont "weg."
+	para "We all got scared"
+	line "and ran away."
 
-	para "Je moet ook voor-" ; "You should be"
-	line "zichtig zijn." ; "careful too."
+	para "You should be"
+	line "careful too."
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "De RUÏNES verber-" ; "The RUINS hide a"
-	line "gen een groot" ; "huge secret!"
-	cont "geheim!"
+	text "The RUINS hide a"
+	line "huge secret!"
 
-	para "…Ik denk…" ; "…I think…"
+	para "…I think…"
 	done
 
 RuinsOfAlphOutsideYoungster1Text:
-	text "Er zijn veel" ; "There are many"
-	line "soorten UNOWN, dus" ; "kinds of UNOWN, so"
+	text "There are many"
+	line "kinds of UNOWN, so"
 
-	para "we gebruiken ze" ; "we use them for"
-	line "voor geheime ber-" ; "our secret codes."
-	cont "ichten."
+	para "we use them for"
+	line "our secret codes."
 	done
 
 RuinsOfAlphOutsideYoungster2Text:
-	text "V… O… O… R…" ; "A… H… E… A… D…"
+	text "A… H… E… A… D…"
 	line "Hmm…"
 
-	para "Wat?" ; "What?"
+	para "What?"
 
-	para "Ik ben dit bericht" ; "I'm decoding this"
-	line "aan het ontcijf-" ; "message!"
-	cont "eren!"
+	para "I'm decoding this"
+	line "message!"
 	done
 
 RuinsOfAlphOutside_MapEvents:

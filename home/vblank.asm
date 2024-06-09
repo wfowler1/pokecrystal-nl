@@ -13,11 +13,11 @@ VBlank::
 	push hl
 
 	ldh a, [hVBlank]
-	maskbits NUM_VBLANK_HANDLERS
+	and 7
 
 	ld e, a
 	ld d, 0
-	ld hl, VBlankHandlers
+	ld hl, .VBlanks
 	add hl, de
 	add hl, de
 	ld a, [hli]
@@ -34,20 +34,17 @@ VBlank::
 	pop af
 	reti
 
-VBlankHandlers:
-; entries correspond to VBLANK_* constants (see constants/ram_constants.asm)
-	table_width 2, VBlankHandlers
-	dw VBlank_Normal
-	dw VBlank_Cutscene
-	dw VBlank_SoundOnly
-	dw VBlank_CutsceneCGB
-	dw VBlank_Serial
-	dw VBlank_Credits
-	dw VBlank_DMATransfer
-	dw VBlank_Normal ; unused
-	assert_table_length NUM_VBLANK_HANDLERS
+.VBlanks:
+	dw VBlank0
+	dw VBlank1
+	dw VBlank2
+	dw VBlank3
+	dw VBlank4
+	dw VBlank5
+	dw VBlank6
+	dw VBlank0 ; just in case
 
-VBlank_Normal::
+VBlank0::
 ; normal operation
 
 ; rng
@@ -147,7 +144,7 @@ VBlank_Normal::
 
 	ret
 
-VBlank_SoundOnly::
+VBlank2::
 ; sound only
 
 	ldh a, [hROMBank]
@@ -164,7 +161,7 @@ VBlank_SoundOnly::
 	ld [wVBlankOccurred], a
 	ret
 
-VBlank_Cutscene::
+VBlank1::
 ; scx, scy
 ; palettes
 ; bg map
@@ -248,7 +245,7 @@ UpdatePals::
 	and a
 	ret
 
-VBlank_CutsceneCGB::
+VBlank3::
 ; scx, scy
 ; palettes
 ; bg map
@@ -312,7 +309,7 @@ VBlank_CutsceneCGB::
 	ldh [rIF], a
 	ret
 
-VBlank_Serial::
+VBlank4::
 ; bg map
 ; tiles
 ; oam
@@ -343,12 +340,13 @@ VBlank_Serial::
 	rst Bankswitch
 	ret
 
-VBlank_Credits::
+VBlank5::
 ; scx
 ; palettes
 ; bg map
 ; tiles
 ; joypad
+;
 
 	ldh a, [hROMBank]
 	ldh [hROMBankBackup], a
@@ -390,7 +388,7 @@ VBlank_Credits::
 	ldh [rIE], a
 	ret
 
-VBlank_DMATransfer::
+VBlank6::
 ; palettes
 ; tiles
 ; dma transfer

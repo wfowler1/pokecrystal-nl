@@ -25,8 +25,8 @@ RuinsOfAlphAerodactylItemRoomAncientReplica:
 	jumptext RuinsOfAlphAerodactylItemRoomAncientReplicaText
 
 RuinsOfAlphAerodactylItemRoomAncientReplicaText:
-	text "Het is een replica" ; "It's a replica of"
-	line "van een oude #-" ; "an ancient #-"
+	text "It's a replica of"
+	line "an ancient #-"
 	cont "MON."
 	done
 

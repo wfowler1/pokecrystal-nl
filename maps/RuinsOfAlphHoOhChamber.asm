@@ -109,39 +109,36 @@ RuinsOfAlphHoOhChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphHoOhChamberWallPatternLeftText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphHoOhChamberUnownText: ; unreferenced
-	text "Het is tekst" ; "It's UNOWN text!"
-	line "van UNOWN!"
+	text "It's UNOWN text!"
 	done
 
 RuinsOfAlphHoOhChamberWallPatternRightText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphHoOhChamberWallHoleText:
-	text "Er zit een groot" ; "There's a big hole"
-	line "gat in de muur!" ; "in the wall!"
+	text "There's a big hole"
+	line "in the wall!"
 	done
 
 RuinsOfAlphHoOhChamberAncientReplicaText:
-	text "Het is een replica" ; "It's a replica of"
-	line "van een oude #-" ; "an ancient #-"
+	text "It's a replica of"
+	line "an ancient #-"
 	cont "MON."
 	done
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "Een #MON dat" ; "A #MON that"
-	line "vloogde sierlijk" ; "flew gracefully on"
+	text "A #MON that"
+	line "flew gracefully on"
 
-	para "op regenboog-" ; "rainbow-colored"
-	line "kleurige vleugels." ; "wings."
+	para "rainbow-colored"
+	line "wings."
 	done
 
 RuinsOfAlphHoOhChamber_MapEvents:

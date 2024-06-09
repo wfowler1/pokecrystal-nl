@@ -1,17 +1,18 @@
-# Pokémon Kristal
+# Pokémon Crystal [![Build Status][ci-badge]][ci]
 
-This is a work-in-progress Dutch translation of the [Pokémon Crystal Disassembly](https://github.com/pret/pokecrystal) by [pret](https://pret.github.io/).
+This is a disassembly of Pokémon Crystal.
 
-This is NOT meant to be a direct 1:1 translation of the English version, but a localization which might have released in 2001. Therefore the exact phrasing of certain lines may be different, but the overall meaning and message should be the same.
+It builds the following ROMs:
+
+- Pokemon - Crystal Version (UE) (V1.0) [C][!].gbc `sha1: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133`
+- Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc `sha1: f2f52230b536214ef7c9924f483392993e226cfb`
+- Pokemon - Crystal Version (A) [C][!].gbc `sha1: a0fc810f1d4e124434f7be2c989ab5b5892ddf36`
+- CRYSTAL_ps3_010328d.bin `sha1: c60d57a24bbe8ecf7cba54ab3f90669f97bd330d`
+- CRYSTAL_ps3_us_revise_010710d.bin `sha1: 391ae86b1d5a26db712ffe6c28bbf2a1f804c3c4`
+- CGBBYTE1.784.patch `sha1: a25517f60ca0e887d39ec698aa56a0040532a4b3`
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
-## Intentional translation differences
-
-Although this isn't intended as a direct translation of the English version, there are cases where things are intentionally changed from their original meaning. This is usually done to update terminology to match later generations more closely.
-* The "PINK BOW" and "POLKADOT BOW" items have been renamed to "ZIJDEN SJAAL" (SILK SCARF) to match later generations. Aside from the names, these items behaved identically.
-* The "OLD POKéDEX" is now referred to as "NATIONAAL POKéDEX" to match later generations.
-* The "NEW POKéDEX" is now referred to as "JOHTO POKéDEX" to match later generations.
 
 ## See also
 
@@ -20,7 +21,7 @@ Although this isn't intended as a direct translation of the English version, the
 - [**Wiki**][wiki] (includes [tutorials][tutorials])
 - [**Symbols**][symbols]
 
-You can find the pret team on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
 
 For other pret projects, see [pret.github.io](https://pret.github.io/).
 

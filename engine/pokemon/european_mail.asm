@@ -6,20 +6,16 @@ ParseMailLanguage:
 	cp "E"
 	ret nz
 	ld a, [hli]
-	assert MAIL_LANG_ENGLISH + 1 == MAIL_LANG_FRENCH
-	inc c
+	inc c ; MAIL_LANG_FRENCH
 	cp "F"
 	ret z
-	assert MAIL_LANG_FRENCH + 1 == MAIL_LANG_GERMAN
-	inc c
+	inc c ; MAIL_LANG_GERMAN
 	cp "G"
 	ret z
-	assert MAIL_LANG_GERMAN + 1 == MAIL_LANG_ITALIAN
-	inc c
+	inc c ; MAIL_LANG_ITALIAN
 	cp "I"
 	ret z
-	assert MAIL_LANG_ITALIAN + 1 == MAIL_LANG_SPANISH
-	inc c
+	inc c ; MAIL_LANG_SPANISH
 	cp "S"
 	ret z
 	ld c, MAIL_LANG_ENGLISH

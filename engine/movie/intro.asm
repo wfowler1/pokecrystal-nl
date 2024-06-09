@@ -45,10 +45,9 @@ CrystalIntro:
 	ret
 
 .InitRAMAddrs:
-	assert VBLANK_NORMAL == 0
 	xor a
 	ldh [hVBlank], a
-	ld a, TRUE
+	ld a, $1
 	ldh [hInMenu], a
 	xor a
 	ldh [hMapAnims], a

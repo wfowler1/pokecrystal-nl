@@ -71,9 +71,9 @@ PrintDexEntry:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], VBLANK_SERIAL
+	ld [hl], 4 ; vblank mode that calls AskSerial
 
-	ld a, 16 / 2
+	ld a, 8 ; 16 rows
 	ld [wPrinterQueueLength], a
 	call Printer_ResetJoypadRegisters
 	call SendScreenToPrinter
@@ -90,7 +90,7 @@ PrintDexEntry:
 	ld [wPrinterMargins], a
 	farcall PrintPage2
 	call Printer_ResetJoypadRegisters
-	ld a, 8 / 2
+	ld a, 4
 	ld [wPrinterQueueLength], a
 	call SendScreenToPrinter
 
@@ -146,7 +146,7 @@ PrintPCBox:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], VBLANK_SERIAL
+	ld [hl], 4 ; vblank mode that calls AskSerial
 
 	xor a
 	ldh [hBGMapMode], a
@@ -227,7 +227,7 @@ PrintUnownStamp:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], VBLANK_SERIAL
+	ld [hl], 4 ; vblank mode that calls AskSerial
 
 	xor a
 	ldh [hBGMapMode], a
@@ -302,7 +302,7 @@ PrintMail:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], VBLANK_SERIAL
+	ld [hl], 4 ; vblank mode that calls AskSerial
 
 	ld a, 18 / 2
 	ld [wPrinterQueueLength], a
@@ -345,7 +345,7 @@ PrintPartymon:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], VBLANK_SERIAL
+	ld [hl], 4 ; vblank mode that calls AskSerial
 
 	ld a, 16 / 2
 	ld [wPrinterQueueLength], a
@@ -403,7 +403,7 @@ _PrintDiploma:
 	ld hl, hVBlank
 	ld a, [hl]
 	push af
-	ld [hl], VBLANK_SERIAL
+	ld [hl], 4 ; vblank mode that calls AskSerial
 
 	ln a, 1, 0 ; to be loaded to wPrinterMargins
 	call Printer_PrepareTilemapForPrint
@@ -575,7 +575,7 @@ PlacePrinterStatusString:
 	hlcoord 1, 7
 	ld a, BANK(GBPrinterStrings)
 	call PlaceFarString
-	hlcoord 1, 15
+	hlcoord 2, 15
 	ld de, String_PressBToCancel
 	call PlaceString
 	ld a, $1
@@ -618,7 +618,7 @@ PlacePrinterStatusStringBorderless: ; unreferenced
 	ret
 
 String_PressBToCancel:
-	db "Druk op B: Uitgaan@" ; "Press B to Cancel@"
+	db "Press B to Cancel@"
 
 PrinterStatusStringPointers:
 	dw GBPrinterString_Null ; @
@@ -667,7 +667,7 @@ PrintPCBox_Page1:
 	ret
 
 .String_PokemonList:
-	db "#MON LIJST@" ; "#MON LIST@"
+	db "#MON LIST@"
 
 PrintPCBox_Page2:
 	hlcoord 0, 0
