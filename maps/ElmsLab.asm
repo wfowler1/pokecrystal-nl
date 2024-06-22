@@ -725,647 +725,645 @@ AfterChikoritaMovement:
 
 ElmText_Intro:
 	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	line "Daar ben je!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "Ik wil je om een"
+	line "gunst vragen."
 
-	para "I'm conducting new"
-	line "#MON research"
+	para "Ik werk op het mo-"
+	line "ment aan nieuw"
 
-	para "right now. I was"
-	line "wondering if you"
+	para "#MON-onder-"
+	line "zoek. Hopelijk kun"
 
-	para "could help me with"
-	line "it, <PLAY_G>."
+	para "je daarbij helpen,"
+	line "<PLAY_G>."
 
-	para "You see…"
+	para "Het zit zo…"
 
-	para "I'm writing a"
-	line "paper that I want"
+	para "Ik schrijf een"
+	line "paper die ik wil"
 
-	para "to present at a"
-	line "conference."
+	para "presenteren op een"
+	line "conferentie."
 
-	para "But there are some"
-	line "things I don't"
+	para "Maar ik snap denk"
+	line "ik nog niet alles"
 
-	para "quite understand"
-	line "yet."
+	para "waar het over"
+	line "gaat."
 
-	para "So!"
+	para "Dus!"
 
-	para "I'd like you to"
-	line "raise a #MON"
+	para "Ik wil dat je een"
+	line "#MON opvoedt"
 
-	para "that I recently"
-	line "caught."
+	para "die ik recent heb"
+	line "gevangen."
 	done
 
 ElmText_Accepted:
-	text "Thanks, <PLAY_G>!"
+	text "Bedankt, <PLAY_G>!"
 
-	para "You're a great"
-	line "help!"
+	para "Je helpt me hier"
+	line "ontzettend mee!"
 	done
 
 ElmText_Refused:
-	text "But… Please, I"
-	line "need your help!"
+	text "Maar… Alsjeblieft,"
+	line "ik reken op je!"
 	done
 
 ElmText_ResearchAmbitions:
-	text "When I announce my"
-	line "findings, I'm sure"
+	text "Als mijn vondsten"
+	line "zijn gepubliceerd,"
 
-	para "we'll delve a bit"
-	line "deeper into the"
+	para "duiken we nog wat"
+	line "dieper in de vele"
 
-	para "many mysteries of"
+	para "mysteries van"
 	line "#MON."
 
-	para "You can count on"
-	line "it!"
+	para "Reken daar maar"
+	line "op!"
 	done
 
 ElmText_GotAnEmail:
-	text "Oh, hey! I got an"
-	line "e-mail!"
+	text "Oh, hé! Ik kreeg"
+	line "een e-mail!"
 
 	para "<……><……><……>"
 	line "Hm… Uh-huh…"
 
-	para "Okay…"
+	para "Oke…"
 	done
 
 ElmText_MissionFromMrPokemon:
-	text "Hey, listen."
+	text "He, luister."
 
-	para "I have an acquain-"
-	line "tance called MR."
+	para "Ik heb een kennis,"
+	line "hij heet MR."
 	cont "#MON."
 
-	para "He keeps finding"
-	line "weird things and"
+	para "Hij ontdekt steeds"
+	line "rare dingen en"
 
-	para "raving about his"
-	line "discoveries."
+	para "deelt dan zijn"
+	line "ontdekkingen."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "Hoe dan ook, ik"
+	line "kreeg mail van hem"
 
-	para "saying that this"
-	line "time it's real."
+	para "waarin staat dat"
+	line "het nu menens is."
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "Fascinerend, maar"
+	line "we zijn druk met"
 
-	para "with our #MON"
-	line "research…"
+	para "ons #MON-"
+	line "onderzoek…"
 
-	para "Wait!"
+	para "Wacht!"
 
-	para "I know!"
+	para "Ik heb een idee!"
 
-	para "<PLAY_G>, can you"
-	line "go in our place?"
+	para "<PLAY_G>, kan jij"
+	line "voor ons gaan?"
 	done
 
 ElmText_ChooseAPokemon:
-	text "I want you to"
-	line "raise one of the"
+	text "Ik wil dat je een"
+	line "van de #MON in"
 
-	para "#MON contained"
-	line "in these BALLS."
+	para "deze BALLEN voor"
+	line "mij opvoedt."
 
-	para "You'll be that"
-	line "#MON's first"
-	cont "partner, <PLAY_G>!"
+	para "Je wordt de eerste"
+	line "partner van deze"
+	cont "#MON, <PLAY_G>!"
 
-	para "Go on. Pick one!"
+	para "Toe maar. Kies!"
 	done
 
 ElmText_LetYourMonBattleIt:
-	text "If a wild #MON"
-	line "appears, let your"
-	cont "#MON battle it!"
+	text "Als wilde #MON"
+	line "opduiken, laat je"
+	cont "#MON vechten!"
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
-	line "are you going?"
+	text "ELM: Wacht! Waar"
+	line "ga je heen?"
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
-	cont "fire #MON?"
+	text "ELM: Je kiest"
+	line "CYNDAQUIL, de"
+	cont "vuur-#MON?"
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
-	line "TOTODILE, the"
-	cont "water #MON?"
+	text "ELM: Wil je"
+	line "TOTODILE, de"
+	cont "water-#MON?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
-	line "CHIKORITA, the"
-	cont "grass #MON?"
+	text "ELM: Dus, het is"
+	line "CHIKORITA, de"
+	cont "grass-#MON?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
-	line "carefully."
+	text "ELM: Denk er goed"
+	line "over na."
 
-	para "Your partner is"
-	line "important."
+	para "Je partner is"
+	line "belangrijk."
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "ELM: Ik vind"
+	line "dat ook een gewel-"
+	cont "dige #MON!"
 	done
 
 ReceivedStarterText:
-	text "<PLAYER> received"
+	text "<PLAYER> koos"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ElmDirectionsText1:
-	text "MR.#MON lives a"
-	line "little bit beyond"
+	text "MR.#MON woont"
+	line "iets verderop in"
 
-	para "CHERRYGROVE, the"
-	line "next city over."
+	para "CHERRYGROVE, de"
+	line "stad hiernaast."
 
-	para "It's almost a"
-	line "direct route"
+	para "Het is bijna een"
+	line "rechte weg er"
 
-	para "there, so you"
-	line "can't miss it."
+	para "naartoe, dus je"
+	line "vindt het zo."
 
-	para "But just in case,"
-	line "here's my phone"
+	para "Voor de zekerheid,"
+	line "dit is m'n nummer"
 
-	para "number. Call me if"
-	line "anything comes up!"
+	para "Bel me als er iets"
+	line "is!"
 	done
 
 ElmDirectionsText2:
-	text "If your #MON is"
-	line "hurt, you should"
+	text "Als je #MON be-"
+	line "zeerd is, gebruik"
 
-	para "heal it with this"
-	line "machine."
+	para "deze machine om 'm"
+	line "te genezen."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Gebruik hem gerust"
+	line "zo vaak je wil."
 	done
 
 ElmDirectionsText3:
-	text "<PLAY_G>, I'm"
-	line "counting on you!"
+	text "<PLAY_G>, ik"
+	line "reken op je!"
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
-	line "phone number."
+	text "<PLAYER> kreeg ELM's"
+	line "telefoonnummer."
 	done
 
 ElmDescribesMrPokemonText:
-	text "MR.#MON goes"
-	line "everywhere and"
-	cont "finds rarities."
+	text "MR.#MON komt"
+	line "overal en vindt"
+	cont "eigenaardigheden."
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful…"
+	para "Helaas zijn ze"
+	line "slechts zelden"
+	cont "echt nuttig…"
 	done
 
 ElmPokeBallText:
-	text "It contains a"
-	line "#MON caught by"
+	text "Bevat een #MON"
+	line "gevangen door"
 	cont "PROF.ELM."
 	done
 
 ElmsLabHealingMachineText1:
-	text "I wonder what this"
-	line "does?"
+	text "Wat zou dit ding"
+	line "doen?"
 	done
 
 ElmsLabHealingMachineText2:
-	text "Would you like to"
-	line "heal your #MON?"
+	text "Wil je jouw"
+	line "#MON genezen?"
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, this"
-	line "is terrible…"
+	text "ELM: <PLAY_G>, het"
+	line "is afschuwelijk…"
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "Oh, ja, wat was de"
+	line "ontdekking van"
+	cont "MR.#MON?"
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
+	text "<PLAYER> gaf"
+	line "MYSTERIE-EI aan"
 	cont "PROF.ELM."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "ELM: Dit?"
 	done
 
 ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	text "Naar… Is het een"
+	line "#MON EI?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Zo ja, dan is dit"
+	line "groot nieuws!"
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "ELM: Wat?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "PROF.OAK gaf je"
+	line "een #DEX?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAY_G>, echt"
+	line "waar? D-dat is"
+	cont "geweldig!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Hij ziet als geen"
+	line "ander of mensen"
+	cont "potentie hebben"
+	cont "als trainers."
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	para "Wauw, <PLAY_G>. Je"
+	line "hebt het wellicht"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "in je om KAMPIOEN"
+	line "te worden."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Je lijkt ook goed"
+	line "op te schieten met"
+	cont "jouw #MON."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "Overweeg de"
+	line "#MON GYM-uit-"
+	cont "daging te doen."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "De eerste GYM is"
+	line "is verderop in"
+	cont "VIOLET CITY."
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAY_G>. The"
-	line "road to the"
+	text "…<PLAY_G>. Het"
+	line "pad om kampioen te"
 
-	para "championship will"
-	line "be a long one."
+	para "worden is een"
+	line "lastige."
 
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "Praat voor je gaat,"
+	line "ook nog even met"
+	cont "je moeder."
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
-	line "up! I'll call if"
+	text "ELM: Geef niet op!"
+	line "Ik bel je als ik"
 
-	para "I learn anything"
-	line "about that EGG!"
+	para "iets te weten komt"
+	line "over dat EI!"
 	done
 
 ElmAideHasEggText:
 	text "ELM: <PLAY_G>?"
-	line "Didn't you meet my"
-	cont "assistant?"
+	line "Heb je gesproken"
+	cont "met m'n assistent?"
 
-	para "He should have met"
-	line "you with the EGG"
+	para "Hij zou naar je"
+	line "komen met het EI"
 
-	para "at VIOLET CITY's"
+	para "in VIOLET CITY's"
 	line "#MON CENTER."
 
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "Je hebt hem vast"
+	line "gemist, probeer"
+	cont "'m daar te vinden."
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
-	line "EGG changed any?"
+	text "ELM: He, is dat"
+	line "EI nog veranderd?"
 	done
 
 ElmThoughtEggHatchedText:
-	text "<PLAY_G>? I thought"
-	line "the EGG hatched."
+	text "<PLAY_G>? Kwam het"
+	line "EI uit? Ja toch?"
 
-	para "Where is the"
+	para "Waar is de"
 	line "#MON?"
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAY_G>, you"
-	line "look great!"
+	text "ELM: <PLAY_G>, je"
+	line "ziet er goed uit!"
 	done
 
 ShowElmTogepiText2:
-	text "What?"
-	line "That #MON!?!"
+	text "Wat?"
+	line "Die #MON!?!"
 	done
 
 ShowElmTogepiText3:
-	text "The EGG hatched!"
-	line "So, #MON are"
-	cont "born from EGGS…"
+	text "Het EI kwam uit!"
+	line "Dus, #MON komen"
+	cont "uit EIEREN…"
 
-	para "No, perhaps not"
-	line "all #MON are."
+	para "Nee, wellicht niet"
+	line "alle #MON."
 
-	para "Wow, there's still"
-	line "a lot of research"
-	cont "to be done."
+	para "Wauw, er is nog"
+	line "steeds een hoop te"
+	cont "onderzoeken."
 	done
 
 ElmGiveEverstoneText1:
-	text "Thanks, <PLAY_G>!"
-	line "You're helping"
+	text "Bedankt, <PLAY_G>!"
+	line "Je helpt geheimen"
 
-	para "unravel #MON"
-	line "mysteries for us!"
+	para "bij #MON te"
+	line "ontrafelen!"
 
-	para "I want you to have"
-	line "this as a token of"
-	cont "our appreciation."
+	para "Neem dit maar als"
+	line "blijk van onze"
+	cont "waardering."
 	done
 
 ElmGiveEverstoneText2:
-	text "That's an"
-	line "EVERSTONE."
+	text "Dat is een"
+	line "ALTIJDSTEEN."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Sommige soorten"
+	line "#MON evolueren"
 
-	para "when they grow to"
-	line "certain levels."
+	para "als ze een bepaald"
+	line "niveau bereiken."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	para "Een #MON met"
+	line "een ALTIJDSTEEN"
+	cont "evolueert niet."
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve."
+	para "Geef hem aan  een"
+	line "#MON die je niet"
+	cont "wil evolueren."
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAY_G>, I'll"
-	line "call you if any-"
-	cont "thing comes up."
+	text "ELM: <PLAY_G>, ik"
+	line "bel als er iets is."
 	done
 
 AideText_AfterTheft:
-	text "…sigh… That"
-	line "stolen #MON."
+	text "…zucht… Die"
+	line "gestolen #MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Hoe zou het met"
+	line "hen gaan?"
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "Ze zeggen dat een"
+	line "#MON opgevoed"
 
-	para "person turns bad"
-	line "itself."
+	para "door een slecht"
+	line "persoon ook"
+	cont "slecht wordt."
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Hi, <PLAY_G>!"
-	line "Thanks to you, my"
+	text "ELM: He, <PLAY_G>!"
+	line "Dankzij jou gaat"
 
-	para "research is going"
-	line "great!"
+	para "mijn onderzoek"
+	line "geweldig!"
 
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Neem dit als blijk"
+	line "van mijn"
+	cont "waardering."
 	done
 
 ElmGiveMasterBallText2:
-	text "The MASTER BALL is"
-	line "the best!"
+	text "De MEESTERBAL is"
+	line "de beste!"
 
-	para "It's the ultimate"
-	line "BALL! It'll catch"
+	para "Het is de ultieme"
+	line "BAL! Hij vangt"
 
-	para "any #MON with-"
-	line "out fail."
+	para "iedere #MON"
+	line "zonder problemen."
 
-	para "It's given only to"
-	line "recognized #MON"
-	cont "researchers."
+	para "Alleen erkende"
+	line "#MON-onderzoe-"
+	cont "kers krijgen dit."
 
-	para "I think you can"
-	line "make much better"
+	para "Jij kan er vast"
+	line "meer mee dan ik"
 
-	para "use of it than I"
-	line "can, <PLAY_G>!"
+	para "kan, <PLAY_G>!"
 	done
 
 ElmGiveTicketText1:
 	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	line "Daar ben je!"
 
-	para "I called because I"
-	line "have something for"
-	cont "you."
+	para "Ik belde omdat ik"
+	line "iets aan je wil"
+	cont "geven."
 
-	para "See? It's an"
+	para "Hier, het is een"
 	line "S.S.TICKET."
 
-	para "Now you can catch"
-	line "#MON in KANTO."
+	para "Nu kun je #MON"
+	line "in KANTO vangen."
 	done
 
 ElmGiveTicketText2:
-	text "The ship departs"
-	line "from OLIVINE CITY."
+	text "Het schip vertrekt"
+	line "uit OLIVINE CITY."
 
-	para "But you knew that"
-	line "already, <PLAY_G>."
+	para "Maar dat wist je"
+	line "al, <PLAY_G>."
 
-	para "After all, you've"
-	line "traveled all over"
-	cont "with your #MON."
+	para "Je bent immers al"
+	line "overal geweest met"
+	cont "jouw #MON."
 
-	para "Give my regards to"
+	para "Doe de groeten aan"
 	line "PROF.OAK in KANTO!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
-	text "It's the #MON"
-	line "EGG being studied"
-	cont "by PROF.ELM."
+	text "Het #MON-ei dat"
+	line "PROF.ELM bestu-"
+	cont "deert."
 	done
 
 AideText_GiveYouPotion:
-	text "<PLAY_G>, I want"
-	line "you to have this"
-	cont "for your errand."
+	text "<PLAY_G>, ik wil"
+	line "je dit geven voor"
+	cont "je klusje."
 	done
 
 AideText_AlwaysBusy:
-	text "There are only two"
-	line "of us, so we're"
-	cont "always busy."
+	text "We zijn met twee,"
+	line "dus we hebben het"
+	cont "altijd druk."
 	done
 
 AideText_TheftTestimony:
-	text "There was a loud"
-	line "noise outside…"
+	text "Ik hoorde buiten"
+	line "ineens herrie…"
 
-	para "When we went to"
-	line "look, someone"
-	cont "stole a #MON."
+	para "Toen we gingen"
+	line "kijken, was een"
+	cont "#MON gestolen."
 
-	para "It's unbelievable"
-	line "that anyone would"
-	cont "do that!"
+	para "Ongelofelijk dat"
+	line "iemand dat zou"
+	cont "doen!"
 
-	para "…sigh… That"
-	line "stolen #MON."
+	para "…zucht… Die"
+	line "gestolen #MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Hoe zou het er mee"
+	line "gaan."
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "Men zegt dat een"
+	line "#MON opgevoed door"
 
-	para "person turns bad"
-	line "itself."
+	para "een slecht iemand"
+	line "ook slecht wordt."
 	done
 
 AideText_GiveYouBalls:
 	text "<PLAY_G>!"
 
-	para "Use these on your"
-	line "#DEX quest!"
+	para "Gebruik deze op je"
+	line "#DEX-missie!"
 	done
 
 AideText_ExplainBalls:
-	text "To add to your"
-	line "#DEX, you have"
-	cont "to catch #MON."
+	text "Je moet #MON"
+	line "vangen om ze in je"
+	cont "#DEX te krijgen."
 
-	para "Throw # BALLS"
-	line "at wild #MON"
-	cont "to get them."
+	para "Gooi #BALLEN"
+	line "naar wilde #MON"
+	cont "om ze te vangen."
 	done
 
 ElmsLabOfficerText1:
-	text "I heard a #MON"
-	line "was stolen here…"
+	text "Ik hoorde dat een"
+	line "#MON is gejat…"
 
-	para "I was just getting"
-	line "some information"
-	cont "from PROF.ELM."
+	para "Ik hoorde er net"
+	line "over van PROF.ELM"
 
-	para "Apparently, it was"
-	line "a young male with"
-	cont "long, red hair…"
+	para "Kennelijk was het"
+	line "een jongeman met"
+	cont "lang, rood haar…"
 
-	para "What?"
+	para "Wat?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "Heb je gevochten"
+	line "met zo iemand?"
 
-	para "Did you happen to"
-	line "get his name?"
+	para "Heb je zijn naam"
+	line "ook gehoord?"
 	done
 
 ElmsLabOfficerText2:
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "OK! Dus hij heet"
+	line "<RIVAL>."
 
-	para "Thanks for helping"
-	line "my investigation!"
+	para "Bedankt voor je"
+	line "hulp!"
 	done
 
 ElmsLabWindowText1:
-	text "The window's open."
+	text "Het raam is open."
 
-	para "A pleasant breeze"
-	line "is blowing in."
+	para "Een fijn briesje"
+	line "waait naar binnen."
 	done
 
 ElmsLabWindowText2:
-	text "He broke in"
-	line "through here!"
+	text "Hij brak hier"
+	line "naar binnen!"
 	done
 
 ElmsLabTravelTip1Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende"
+	line "een boek."
 
-	para "Travel Tip 1:"
+	para "Reistip 1:"
 
-	para "Press START to"
-	line "open the MENU."
+	para "Druk op START voor"
+	line "het MENU."
 	done
 
 ElmsLabTravelTip2Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende"
+	line "een boek."
 
-	para "Travel Tip 2:"
+	para "Reistip 2:"
 
-	para "Record your trip"
-	line "with SAVE!"
+	para "Leg je reis vast"
+	line "met OPSLAAN!"
 	done
 
 ElmsLabTravelTip3Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende"
+	line "een boek."
 
-	para "Travel Tip 3:"
+	para "Reistip 3:"
 
-	para "Open your PACK and"
-	line "press SELECT to"
-	cont "move items."
+	para "Open je TAS en"
+	line "druk op SELECT om"
+	cont "te verplaatsen."
 	done
 
 ElmsLabTravelTip4Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende"
+	line "een boek."
 
-	para "Travel Tip 4:"
+	para "Reistip 4:"
 
-	para "Check your #MON"
-	line "moves. Press the"
+	para "Check je #MON-"
+	line "aanvallen. Druk op"
 
-	para "A Button to switch"
-	line "moves."
+	para "A om de plek te"
+	line "veranderen."
 	done
 
 ElmsLabTrashcanText:
-	text "The wrapper from"
-	line "the snack PROF.ELM"
-	cont "ate is in there…"
+	text "De verpakking van"
+	line "de snack die PROF."
+	cont "ELM at ligt hier."
 	done
 
 ElmsLabPCText:
 	text "OBSERVATIONS ON"
 	line "#MON EVOLUTION"
 
-	para "…It says on the"
-	line "screen…"
+	para "…Op het scherm"
+	line "staat…"
 	done
 
 ElmsLab_MapEvents:

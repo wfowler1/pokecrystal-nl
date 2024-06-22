@@ -109,9 +109,8 @@ RuinsOfAlphHoOhChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphHoOhChamberWallPatternLeftText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patronen versche-" ; "Patterns appeared"
+	line "nen op de muren…" ; "on the walls…"
 	done
 
 RuinsOfAlphHoOhChamberUnownText: ; unreferenced
@@ -120,9 +119,8 @@ RuinsOfAlphHoOhChamberUnownText: ; unreferenced
 	done
 
 RuinsOfAlphHoOhChamberWallPatternRightText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patronen versche-" ; "Patterns appeared"
+	line "nen op de muren…" ; "on the walls…"
 	done
 
 RuinsOfAlphHoOhChamberWallHoleText:
@@ -137,10 +135,10 @@ RuinsOfAlphHoOhChamberAncientReplicaText:
 	done
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "Een #MON dat" ; "A #MON that"
-	line "vloogde sierlijk" ; "flew gracefully on"
+	text "Een #MON die" ; "A #MON that"
+	line "sierlijk vloog" ; "flew gracefully on"
 
-	para "op regenboog-" ; "rainbow-colored"
+	para "met regenboog-" ; "rainbow-colored"
 	line "kleurige vleugels." ; "wings."
 	done
 

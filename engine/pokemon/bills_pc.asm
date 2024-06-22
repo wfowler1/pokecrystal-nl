@@ -487,10 +487,10 @@ BillsPC_Withdraw:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "WITHDRAW@"
+	db "HAAL@"
 	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "VRIJ@"
+	db "TERUG@"
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -2200,22 +2200,22 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
-PCString_ChooseaPKMN: db "Choose a <PK><MN>.@"
-PCString_WhatsUp: db "What's up?@"
-PCString_ReleasePKMN: db "Release <PK><MN>?@"
-PCString_MoveToWhere: db "Move to where?@"
-PCString_ItsYourLastPKMN: db "It's your last <PK><MN>!@"
-PCString_TheresNoRoom: db "There's no room!@"
-PCString_NoMoreUsablePKMN: db "No more usable <PK><MN>!@"
-PCString_RemoveMail: db "Remove MAIL.@"
-PCString_ReleasedPKMN: db "Released <PK><MN>.@"
-PCString_Bye: db "Bye,@"
-PCString_Stored: db "Stored @"
-PCString_Got: db "Got @"
+PCString_ChooseaPKMN: db "Kies <PK><MN>.@"
+PCString_WhatsUp: db "Wat is er?@"
+PCString_ReleasePKMN: db "Laat <PK><MN> vrij?@"
+PCString_MoveToWhere: db "Waarheen?@"
+PCString_ItsYourLastPKMN: db "Is laatste <PK><MN>!@"
+PCString_TheresNoRoom: db "Geen ruimte!@"
+PCString_NoMoreUsablePKMN: db "Geen bruikbare <PK><MN>!@"
+PCString_RemoveMail: db "Verwijder POST.@"
+PCString_ReleasedPKMN: db "<PK><MN> vrijgelaten.@"
+PCString_Bye: db "Doei,@"
+PCString_Stored: db "Bewaard @"
+PCString_Got: db "Kreeg @"
 PCString_Non: db "Non.@" ; unreferenced
-PCString_BoxFull: db "The BOX is full.@"
-PCString_PartyFull: db "The party's full!@"
-PCString_NoReleasingEGGS: db "No releasing EGGS!@"
+PCString_BoxFull: db "De BOX is vol.@"
+PCString_PartyFull: db "Team is VOL!@"
+PCString_NoReleasingEGGS: db "Kan niet met EI!@"
 
 _ChangeBox:
 	call LoadStandardMenuHeader
@@ -2381,7 +2381,7 @@ BillsPC_PrintBoxName:
 	ret
 
 .Current:
-	db "CURRENT@"
+	db "HUIDIGE@"
 
 BillsPC_ChangeBoxSubmenu:
 	ld hl, .MenuHeader
@@ -2471,7 +2471,7 @@ BillsPC_PlaceChooseABoxString:
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
-	db "Choose a BOX.@"
+	db "Kies een BOX.@"
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp

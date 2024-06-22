@@ -69,7 +69,7 @@ UsedMoveText_CheckObedience:
 	ld a, [wAlreadyDisobeyed]
 	and a
 	jr z, .GetMoveNameText
-; print "instead,"
+; print "in plaats van,"
 	ld hl, .UsedInsteadText
 	ret
 

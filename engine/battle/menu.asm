@@ -42,10 +42,10 @@ BattleMenuHeader:
 	dbw BANK(@), NULL
 
 .Text:
-	db "FIGHT@"
+	db "VECHT @"
 	db "<PKMN>@"
-	db "PACK@"
-	db "RUN@"
+	db "TAS@"
+	db "REN@"
 
 SafariBattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -62,9 +62,9 @@ SafariBattleMenuHeader:
 
 .Text:
 	db "サファりボール×　　@" ; "SAFARI BALL×  @"
-	db "エサをなげる@" ; "THROW BAIT"
-	db "いしをなげる@" ; "THROW ROCK"
-	db "にげる@" ; "RUN"
+	db "エサをなげる@" ; "GOOI VOER"
+	db "いしをなげる@" ; "GOOI STEEN"
+	db "にげる@" ; "REN"
 
 .PrintSafariBallsRemaining:
 	hlcoord 17, 13
@@ -87,10 +87,10 @@ ContestBattleMenuHeader:
 	dba .PrintParkBallsRemaining
 
 .Text:
-	db "FIGHT@"
+	db "VECHT @"
 	db "<PKMN>@"
-	db "PARKBALL×  @"
-	db "RUN@"
+	db "PARKBAL×  @"
+	db "REN@"
 
 .PrintParkBallsRemaining:
 	hlcoord 13, 16

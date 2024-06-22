@@ -187,88 +187,88 @@ NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "Wauw, je #GEAR"
+	line "is indrukwekkend!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "Heeft je moeder"
+	line "die gehaald?"
 	done
 
 Text_WaitPlayer:
-	text "Wait, <PLAY_G>!"
+	text "Wacht, <PLAY_G>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
+	text "Wat denk je dat je"
+	line "aan het doen bent?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
+	text "Het is gevaarlijk"
+	line "te gaan zonder een"
 	cont "#MON!"
 
-	para "Wild #MON"
-	line "jump out of the"
+	para "Wilde #MON"
+	line "springen uit het"
 
-	para "grass on the way"
-	line "to the next town."
+	para "gras richting het"
+	line "volgende dorp."
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "Oh! Je #MON is"
+	line "aandoenlijk! Had"
+	cont "ik er maar een!"
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "He, <PLAY_G>!"
+	line "Ga je weer?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Vertel ook even"
+	line "je moeder dat je"
+	cont "vertrekt."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
+	text "Bel je moeder op"
+	line "je #GEAR om haar"
 
-	para "let her know how"
-	line "you're doing."
+	para "te laten weten"
+	line "hoe het gaat."
 	done
 
 Text_ElmDiscoveredNewMon:
 	text "Yo, <PLAYER>!"
 
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
+	para "Ik hoor dat ELM"
+	line "een nieuwe #MON"
+	cont "heeft ontdekt."
 	done
 
 NewBarkTownRivalText1:
 	text "<……>"
 
-	para "So this is the"
-	line "famous ELM #MON"
+	para "Dut dit is het be-"
+	line "kende ELM #MON"
 	cont "LAB…"
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "…Waar staar"
+	line "jij naar?"
 	done
 
 NewBarkTownSignText:
 	text "NEW BARK TOWN"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "Het dorp waar de"
+	line "wind van een nieuw"
+	cont "begin waait"
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "<PLAYER>'s Huis"
 	done
 
 NewBarkTownElmsLabSignText:
@@ -276,7 +276,7 @@ NewBarkTownElmsLabSignText:
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "ELM'S HOUSE"
+	text "ELM'S HUIS"
 	done
 
 NewBarkTown_MapEvents:

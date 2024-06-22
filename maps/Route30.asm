@@ -261,38 +261,38 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Ga, RATTATA!"
 
 	para "TACKLE!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "Wat? Dit is een"
+	line "groot gevecht!"
+	cont "Laat me met rust!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #MON."
+	text "Ik heb net ver-"
+	line "loren, ik zoek nu"
+	cont "nieuwe #MON."
 
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	para "Wacht! Jij ziet er"
+	line "zwak uit! Kom,,"
+	cont "laten we knokken!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost again!"
-	line "Doggone it!"
+	text "Ack! Weer mis!"
+	line "Potverdriedubbels!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
+	text "Heb ik meer"
+	line "#MON nodig om"
 
-	para "order to battle"
-	line "better?"
+	para "beter te kunnen"
+	line "vechten?"
 
 	para "No! I'm sticking"
 	line "with this one no"

@@ -1,99 +1,99 @@
 BattleText:: ; used only for BANK(BattleText)
 
 BattleText_PlayerPickedUpPayDayMoney:
-	text "<PLAYER> picked up"
-	line "¥@"
+	text "<PLAYER> pikte"
+	line "¥ op@"
 	text_decimal wPayDayMoney, 3, 6
 	text "!"
 	prompt
 
 WildPokemonAppearedText:
-	text "Wild @"
+	text "Wilde @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "appeared!"
+	line "verscheen!"
 	prompt
 
 HookedPokemonAttackedText:
-	text "The hooked"
+	text "De opgeviste"
 	line "@"
 	text_ram wEnemyMonNickname
 	text_start
-	cont "attacked!"
+	cont "viel aan!"
 	prompt
 
 PokemonFellFromTreeText:
 	text_ram wEnemyMonNickname
-	text " fell"
-	line "out of the tree!"
+	text " viel"
+	line "uit de boom!"
 	prompt
 
 WildCelebiAppearedText:
-	text "Wild @"
+	text "Wilde @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "appeared!"
+	line "verscheen!"
 	prompt
 
 WantsToBattleText::
 	text "<ENEMY>"
-	line "wants to battle!"
+	line "wil vechten!"
 	prompt
 
 BattleText_WildFled:
-	text "Wild @"
+	text "Wilde @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fled!"
+	line "vluchtte!"
 	prompt
 
 BattleText_EnemyFled:
-	text "Enemy @"
+	text "Vijand @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fled!"
+	line "vluchtte!"
 	prompt
 
 HurtByPoisonText:
 	text "<USER>"
-	line "is hurt by poison!"
+	line "lijdt onder gif!"
 	prompt
 
 HurtByBurnText:
 	text "<USER>'s"
-	line "hurt by its burn!"
+	line "is verbrand!"
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED saps"
+	text "LEECH SEED zuigt"
 	line "<USER>!"
 	prompt
 
 HasANightmareText:
 	text "<USER>"
-	line "has a NIGHTMARE!"
+	line "heeft NACHTMERRIE!"
 	prompt
 
 HurtByCurseText:
 	text "<USER>'s"
-	line "hurt by the CURSE!"
+	line "lijdt onder vloek!"
 	prompt
 
 SandstormHitsText:
-	text "The SANDSTORM hits"
+	text "De ZANDSTORM raakt"
 	line "<USER>!"
 	prompt
 
 PerishCountText:
 	text "<USER>'s"
-	line "PERISH count is @"
+	line "STERF-telling is @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BattleText_TargetRecoveredWithItem:
 	text "<TARGET>"
-	line "recovered with"
+	line "herstelde met"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -101,7 +101,7 @@ BattleText_TargetRecoveredWithItem:
 
 BattleText_UserRecoveredPPUsing:
 	text "<USER>"
-	line "recovered PP using"
+	line "herstelde PP door"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -109,186 +109,191 @@ BattleText_UserRecoveredPPUsing:
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
-	line "was hit by FUTURE"
-	cont "SIGHT!"
+	line "werd geraakt door"
+	cont "TOEKOMSTZICHT!"
 	prompt
 
 BattleText_SafeguardFaded:
 	text "<USER>'s"
-	line "SAFEGUARD faded!"
+	line "BESCHERMING!"
+	cont "verdween!"
 	prompt
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1
 	text " #MON's"
-	line "LIGHT SCREEN fell!"
+	line "LICHTSCHERM!"
+	cont "verdween!"
 	prompt
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1
 	text " #MON's"
-	line "REFLECT faded!"
+	line "SPIEGEL verdween!"
 	prompt
 
 BattleText_RainContinuesToFall:
-	text "Rain continues to"
-	line "fall."
+	text "Regen blijft neer-"
+	line "vallen."
 	prompt
 
 BattleText_TheSunlightIsStrong:
-	text "The sunlight is"
-	line "strong."
+	text "De zon schijnt"
+	line "hard."
 	prompt
 
 BattleText_TheSandstormRages:
-	text "The SANDSTORM"
-	line "rages."
+	text "De ZANDSTORM"
+	line "woedt."
 	prompt
 
 BattleText_TheRainStopped:
-	text "The rain stopped."
+	text "De regen stopte."
 	prompt
 
 BattleText_TheSunlightFaded:
-	text "The sunlight"
-	line "faded."
+	text "Het zonlicht"
+	line "verdween."
 	prompt
 
 BattleText_TheSandstormSubsided:
-	text "The SANDSTORM"
-	line "subsided."
+	text "De ZANDSTORM"
+	line "zakte."
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "Enemy @"
+	text "Vijand @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fainted!"
+	line "viel flauw!"
 	prompt
 
 GotMoneyForWinningText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> kreeg ¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "for winning!"
+	line "voor de winst!"
 	prompt
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "was defeated!"
+	line "was verslagen!"
 	prompt
 
 TiedAgainstText:
-	text "Tied against"
+	text "Gelijkspel tegen"
 	line "<ENEMY>!"
 	prompt
 
 SentSomeToMomText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> kreeg ¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "for winning!"
-	cont "Sent some to MOM!"
+	line "voor de winst!"
+	cont "Beetje naar MAM!"
 	prompt
 
 SentHalfToMomText:
-	text "Sent half to MOM!"
+	text "Helft naar MAM!"
 	prompt
 
 SentAllToMomText:
-	text "Sent all to MOM!"
+	text "Alles naar MAM!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced
-	text "<RIVAL>: Huh? I"
-	line "should've chosen"
-	cont "your #MON!"
+	text "<RIVAL>: Huh? Ik"
+	line "had jouw #MON"
+	cont "moeten kiezen!"
 	prompt
 
 BattleText_MonFainted:
 	text_ram wBattleMonNickname
 	text_start
-	line "fainted!"
+	line "viel flauw!"
 	prompt
 
 BattleText_UseNextMon:
-	text "Use next #MON?"
+	text "Gebruik volgende"
+	line "#MON?"
 	done
 
 UnusedRivalWinText: ; unreferenced
-	text "<RIVAL>: Yes!"
-	line "I guess I chose a"
-	cont "good #MON!"
+	text "<RIVAL>: Ja!"
+	line "Zo te zien koos ik"
+	cont "een goede #MON!"
 	prompt
 
 LostAgainstText:
-	text "Lost against"
+	text "Verloor van"
 	line "<ENEMY>!"
 	prompt
 
 BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text "<ENEMY>"
-	line "is about to use"
+	line "kiest hierna"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "."
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Wisselt <PLAYER>"
+	line "van #MON?"
 	done
 
 BattleText_EnemySentOut:
 	text "<ENEMY>"
-	line "sent out"
+	line "stuurde"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "!"
 	done
 
 BattleText_TheresNoWillToBattle:
-	text "There's no will to"
-	line "battle!"
+	text "Er is geen wil om"
+	line "te vechten!"
 	prompt
 
 BattleText_AnEGGCantBattle:
-	text "An EGG can't"
-	line "battle!"
+	text "Een EI kan niet"
+	line "vechten!"
 	prompt
 
 BattleText_CantEscape2:
-	text "Can't escape!"
+	text "Kan niet"
+	line "ontsnappen!"
 	prompt
 
 BattleText_TheresNoEscapeFromTrainerBattle:
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Nee! Je kunt niet"
+	line "rennen bij een"
+	cont "trainergevecht!"
 	prompt
 
 BattleText_GotAwaySafely:
-	text "Got away safely!"
+	text "Veilig gevlucht!"
 	prompt
 
 BattleText_UserFledUsingAStringBuffer1:
 	text "<USER>"
-	line "fled using a"
+	line "vluchtte met een"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 BattleText_CantEscape:
-	text "Can't escape!"
+	text "Kan niet"
+	line "ontsnappen!"
 	prompt
 
 BattleText_UserHurtBySpikes:
-	text "<USER>'s"
-	line "hurt by SPIKES!"
+	text "<USER> is ge-"
+	line "raakt door STEKELS!"
 	prompt
 
 RecoveredUsingText:
 	text "<TARGET>"
-	line "recovered using a"
+	line "herstelde met een"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -299,50 +304,50 @@ BattleText_UsersStringBuffer1Activated:
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "activated!"
+	cont "activeerde!"
 	prompt
 
 BattleText_ItemsCantBeUsedHere:
-	text "Items can't be"
-	line "used here."
+	text "Voorwerpen kun"
+	line "je hier niks mee."
 	prompt
 
 BattleText_MonIsAlreadyOut:
 	text_ram wBattleMonNickname
 	text_start
-	line "is already out."
+	line "is al uit de bal."
 	prompt
 
 BattleText_MonCantBeRecalled:
 	text_ram wBattleMonNickname
 	text_start
-	line "can't be recalled!"
+	line "kan niet terug!"
 	prompt
 
 BattleText_TheresNoPPLeftForThisMove:
-	text "There's no PP left"
-	line "for this move!"
+	text "Er is geen PP meer"
+	line "voor deze aanval!"
 	prompt
 
 BattleText_TheMoveIsDisabled:
-	text "The move is"
-	line "DISABLED!"
+	text "De aanval is"
+	line "UITGESCHAKELD!"
 	prompt
 
 BattleText_MonHasNoMovesLeft:
 	text_ram wBattleMonNickname
 	text_start
-	line "has no moves left!"
+	line "kan niks meer!"
 	done
 
 BattleText_TargetsEncoreEnded:
 	text "<TARGET>'s"
-	line "ENCORE ended!"
+	line "TOEGIFT eindigde!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
-	text " grew to"
+	text " groeide naar"
 	line "level @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
@@ -352,80 +357,81 @@ BattleText_StringBuffer1GrewToLevel:
 	text_end ; unreferenced
 
 BattleText_WildMonIsEating:
-	text "Wild @"
+	text "Wilde @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "is eating!"
+	line "is aan het eten!"
 	prompt
 
 BattleText_WildMonIsAngry:
-	text "Wild @"
+	text "Wilde @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "is angry!"
+	line "is boos!"
 	prompt
 
 FastAsleepText:
 	text "<USER>"
-	line "is fast asleep!"
+	line "is diep in slaap!"
 	prompt
 
 WokeUpText:
 	text "<USER>"
-	line "woke up!"
+	line "werd wakker!"
 	prompt
 
 FrozenSolidText:
 	text "<USER>"
-	line "is frozen solid!"
+	line "is bevroren!"
 	prompt
 
 FlinchedText:
 	text "<USER>"
-	line "flinched!"
+	line "deinsde achteruit!"
 	prompt
 
 MustRechargeText:
 	text "<USER>"
-	line "must recharge!"
+	line "moet opladen!"
 	prompt
 
 DisabledNoMoreText:
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER> is niet"
+	line "meer UITGE-"
+	cont "SCHAKELD!"
 	prompt
 
 IsConfusedText:
 	text "<USER>"
-	line "is confused!"
+	line "is verward!"
 	prompt
 
 HurtItselfText:
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Deed zichzelf pijn"
+	line "door verwarring!"
 	prompt
 
 ConfusedNoMoreText:
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER> is"
+	line "niet meer verward!"
 	prompt
 
 BecameConfusedText:
 	text "<TARGET>"
-	line "became confused!"
+	line "raakte verward!"
 	prompt
 
 BattleText_ItemHealedConfusion:
-	text "A @"
+	text "Een @"
 	text_ram wStringBuffer1
-	text " rid"
+	text "haalde verwarring"
 	line "<TARGET>"
-	cont "of its confusion."
+	cont "weg."
 	prompt
 
 AlreadyConfusedText:
 	text "<TARGET>'s"
-	line "already confused!"
+	line "is al verward!"
 	prompt
 
 BattleText_UsersHurtByStringBuffer1:
@@ -438,7 +444,7 @@ BattleText_UsersHurtByStringBuffer1:
 
 BattleText_UserWasReleasedFromStringBuffer1:
 	text "<USER>"
-	line "was released from"
+	line "werd verlost van"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -446,45 +452,45 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>"
-	line "used BIND on"
+	line "gebruikte BIND op"
 	cont "<TARGET>!"
 	prompt
 
 WhirlpoolTrapText:
 	text "<TARGET>"
-	line "was trapped!"
+	line "zit in de val!"
 	prompt
 
 FireSpinTrapText:
 	text "<TARGET>"
-	line "was trapped!"
+	line "zit in de val!"
 	prompt
 
 WrappedByText:
 	text "<TARGET>"
-	line "was WRAPPED by"
+	line "is VERWIKKELD door"
 	cont "<USER>!"
 	prompt
 
 ClampedByText:
 	text "<TARGET>"
-	line "was CLAMPED by"
+	line "is GEKLEMD door"
 	cont "<USER>!"
 	prompt
 
 StoringEnergyText:
 	text "<USER>"
-	line "is storing energy!"
+	line "bewaart energie!"
 	prompt
 
 UnleashedEnergyText:
 	text "<USER>"
-	line "unleashed energy!"
+	line "liet energie los!"
 	prompt
 
 HungOnText:
 	text "<TARGET>"
-	line "hung on with"
+	line "bleef hangen met"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -492,19 +498,19 @@ HungOnText:
 
 EnduredText:
 	text "<TARGET>"
-	line "ENDURED the hit!"
+	line "VERDROEG de klap!"
 	prompt
 
 InLoveWithText:
 	text "<USER>"
-	line "is in love with"
+	line "is verliefd op"
 	cont "<TARGET>!"
 	prompt
 
 InfatuationText:
-	text "<USER>'s"
-	line "infatuation kept"
-	cont "it from attacking!"
+	text "<USER> was"
+	line "te verliefd om aan"
+	cont "te vallen!"
 	prompt
 
 DisabledMoveText:
@@ -512,316 +518,316 @@ DisabledMoveText:
 	line "@"
 	text_ram wStringBuffer1
 	text " is"
-	cont "DISABLED!"
+	cont "UITGESCHAKELD!"
 	prompt
 
 LoafingAroundText:
 	text_ram wBattleMonNickname
-	text " is"
-	line "loafing around."
+	text " slentert"
+	line "wat rond."
 	prompt
 
 BeganToNapText:
 	text_ram wBattleMonNickname
-	text " began"
-	line "to nap!"
+	text " begon"
+	line "te dutten!"
 	prompt
 
 WontObeyText:
 	text_ram wBattleMonNickname
-	text " won't"
-	line "obey!"
+	text " wil niet"
+	line "luisteren!"
 	prompt
 
 TurnedAwayText:
 	text_ram wBattleMonNickname
-	text " turned"
-	line "away!"
+	text " draaide"
+	line "zich weg!"
 	prompt
 
 IgnoredOrdersText:
 	text_ram wBattleMonNickname
-	text " ignored"
+	text " negeerde"
 	line "orders!"
 	prompt
 
 IgnoredSleepingText:
 	text_ram wBattleMonNickname
-	text " ignored"
-	line "orders…sleeping!"
+	text " negeerde"
+	line "orders…en sliep!"
 	prompt
 
 NoPPLeftText:
-	text "But no PP is left"
-	line "for the move!"
+	text "Er is geen PP meer"
+	line "voor de aanval!"
 	prompt
 
 HasNoPPLeftText:
 	text "<USER>"
-	line "has no PP left for"
-	cont "@"
+	line "heeft geen PP meer"
+	cont "voor @"
 	text_ram wStringBuffer2
 	text "!"
 	prompt
 
 WentToSleepText:
 	text "<USER>"
-	line "went to sleep!"
+	line "viel in slaap!"
 	done
 
 RestedText:
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "viel in slaap en"
+	cont "werd gezond!"
 	done
 
 RegainedHealthText:
 	text "<USER>"
-	line "regained health!"
+	line "werd weer gezond!"
 	prompt
 
 AttackMissedText:
 	text "<USER>'s"
-	line "attack missed!"
+	line "aanval mistte!"
 	prompt
 
 AttackMissed2Text:
 	text "<USER>'s"
-	line "attack missed!"
+	line "aanval mistte!"
 	prompt
 
 CrashedText:
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "ging door en"
+	cont "botste!"
 	prompt
 
 UnaffectedText:
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET> is"
+	line "onaangetast!"
 	prompt
 
 DoesntAffectText:
-	text "It doesn't affect"
-	line "<TARGET>!"
+	text "Heeft geen invloed"
+	line "op <TARGET>!"
 	prompt
 
 CriticalHitText:
-	text "A critical hit!"
+	text "Een kritieke klap!"
 	prompt
 
 OneHitKOText:
-	text "It's a one-hit KO!"
+	text "In één klap KO!"
 	prompt
 
 SuperEffectiveText:
-	text "It's super-"
-	line "effective!"
+	text "Het is super"
+	line "effectief!"
 	prompt
 
 NotVeryEffectiveText:
-	text "It's not very"
-	line "effective…"
+	text "Het is niet heel"
+	line "effectief…"
 	prompt
 
 TookDownWithItText:
 	text "<TARGET>"
-	line "took down with it,"
+	line "nam met zich mee,"
 	cont "<USER>!"
 	prompt
 
 RageBuildingText:
 	text "<USER>'s"
-	line "RAGE is building!"
+	line "WOEDE bouwt op!"
 	prompt
 
 GotAnEncoreText:
 	text "<TARGET>"
-	line "got an ENCORE!"
+	line "kreeg een TOEGIFT!"
 	prompt
 
 SharedPainText:
-	text "The battlers"
-	line "shared pain!"
+	text "De vechters"
+	line "deelden pijn!"
 	prompt
 
 TookAimText:
 	text "<USER>"
-	line "took aim!"
+	line "richtte!"
 	prompt
 
 SketchedText:
 	text "<USER>"
-	line "SKETCHED"
+	line "SCHETSTE"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 DestinyBondEffectText:
-	text "<USER>'s"
-	line "trying to take its"
-	cont "opponent with it!"
+	text "<USER>"
+	line "probeert de vijand"
+	cont "mee te nemen!"
 	prompt
 
 SpiteEffectText:
 	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer1
-	text " was"
-	cont "reduced by @"
+	text " werd"
+	cont "verlaagd met @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BellChimedText:
-	text "A bell chimed!"
+	text "Een bel luidde!"
 	line ""
 	prompt
 
 FellAsleepText:
 	text "<TARGET>"
-	line "fell asleep!"
+	line "viel in slaap!"
 	prompt
 
 AlreadyAsleepText:
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>"
+	line "slaapt al!"
 	prompt
 
 WasPoisonedText:
 	text "<TARGET>"
-	line "was poisoned!"
+	line "werd vergiftigd!"
 	prompt
 
 BadlyPoisonedText:
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET> werd"
+	line "flink vergiftigd!"
 	prompt
 
 AlreadyPoisonedText:
-	text "<TARGET>'s"
-	line "already poisoned!"
+	text "<TARGET> is"
+	line "al vergiftigd!"
 	prompt
 
 SuckedHealthText:
-	text "Sucked health from"
+	text "Zoog leven van"
 	line "<TARGET>!"
 	prompt
 
 DreamEatenText:
 	text "<TARGET>'s"
-	line "dream was eaten!"
+	line "droom was gegeten!"
 	prompt
 
 WasBurnedText:
 	text "<TARGET>"
-	line "was burned!"
+	line "werd verbrand!"
 	prompt
 
 DefrostedOpponentText:
 	text "<TARGET>"
-	line "was defrosted!"
+	line "werd ontdooid!"
 	prompt
 
 WasFrozenText:
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "werd bevroren!"
 	prompt
 
 WontRiseAnymoreText:
 	text "<USER>'s"
 	line "@"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "rise anymore!"
+	text " kan"
+	cont "niet hoger!"
 	prompt
 
 WontDropAnymoreText:
 	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "drop anymore!"
+	text " kan"
+	cont "niet lager!"
 	prompt
 
 FledFromBattleText::
 	text "<USER>"
-	line "fled from battle!"
+	line "vluchtte!"
 	prompt
 
 FledInFearText:
 	text "<TARGET>"
-	line "fled in fear!"
+	line "vluchtte in angst!"
 	prompt
 
 BlownAwayText:
 	text "<TARGET>"
-	line "was blown away!"
+	line "werd weggeblazen!"
 	prompt
 
 PlayerHitTimesText:
-	text "Hit @"
+	text "Raakte @"
 	text_decimal wPlayerDamageTaken, 1, 1
-	text " times!"
+	text " keer!"
 	prompt
 
 EnemyHitTimesText:
-	text "Hit @"
+	text "Raakte @"
 	text_decimal wEnemyDamageTaken, 1, 1
-	text " times!"
+	text " keer!"
 	prompt
 
 MistText:
-	text "<USER>'s"
-	line "shrouded in MIST!"
+	text "<USER> is"
+	line "omhuld door MIST!"
 	prompt
 
 ProtectedByMistText:
-	text "<TARGET>'s"
-	line "protected by MIST."
+	text "<TARGET> is"
+	line "omhuld door MIST."
 	prompt
 
 GettingPumpedText:
 	text_pause
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "raakt enthousiast!"
 	prompt
 
 RecoilText:
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "<USER> raakte"
+	line "ook zichzelf!"
 	prompt
 
 MadeSubstituteText:
-	text "<USER>"
-	line "made a SUBSTITUTE!"
+	text "<USER> maakte"
+	line "een VERVANGER!"
 	prompt
 
 HasSubstituteText:
-	text "<USER>"
-	line "has a SUBSTITUTE!"
+	text "<USER> heeft"
+	line "een VERVANGER!"
 	prompt
 
 TooWeakSubText:
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Te zwak om VER-"
+	line "VANGER te maken!"
 	prompt
 
 SubTookDamageText:
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "VERVANGER ving"
+	line "schade op voor"
 	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
 	text "<TARGET>'s"
-	line "SUBSTITUTE faded!"
+	line "VERVANGER verging!"
 	prompt
 
 MimicLearnedMoveText:
 	text "<USER>"
-	line "learned"
+	line "leerde"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -829,43 +835,44 @@ MimicLearnedMoveText:
 
 WasSeededText:
 	text "<TARGET>"
-	line "was seeded!"
+	line "werd bezaaid!"
 	prompt
 
 EvadedText:
 	text "<TARGET>"
-	line "evaded the attack!"
+	line "vermeed de aanval!"
 	prompt
 
 WasDisabledText:
 	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer1
-	text " was"
-	cont "DISABLED!"
+	text " werd"
+	cont "UITGESCHAKELD!"
 	prompt
 
 CoinsScatteredText:
-	text "Coins scattered"
-	line "everywhere!"
+	text "Munten overal"
+	line "neergeworpen!"
 	prompt
 
 TransformedTypeText:
 	text "<USER>"
-	line "transformed into"
-	cont "the @"
+	line "transformeerde in"
+	cont "de @"
 	text_ram wStringBuffer1
 	text "-type!"
 	prompt
 
 EliminatedStatsText:
-	text "All stat changes"
-	line "were eliminated!"
+	text "Alle wijzigingen"
+	line "in statistieken"
+	cont "verdwenen!"
 	prompt
 
 TransformedText:
 	text "<USER>"
-	line "TRANSFORMED into"
+	line "TRANSFORMEERDE in"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -873,159 +880,160 @@ TransformedText:
 
 LightScreenEffectText:
 	text "<USER>'s"
-	line "SPCL.DEF rose!"
+	line "SPCL.DEF omhoog!"
 	prompt
 
 ReflectEffectText:
 	text "<USER>'s"
-	line "DEFENSE rose!"
+	line "DEFENSE omhoog!"
 	prompt
 
 NothingHappenedText:
-	text "But nothing"
-	line "happened."
+	text "Maar er gebeurde"
+	line "niks."
 	prompt
 
 ButItFailedText:
-	text "But it failed!"
+	text "Maar het mislukte!"
 	prompt
 
 ItFailedText:
-	text "It failed!"
+	text "Het mislukte!"
 	prompt
 
 DidntAffect1Text:
-	text "It didn't affect"
+	text "Het deed niks bij"
 	line "<TARGET>!"
 	prompt
 
 DidntAffect2Text:
-	text "It didn't affect"
+	text "Het deed niks bij"
 	line "<TARGET>!"
 	prompt
 
 HPIsFullText:
 	text "<USER>'s"
-	line "HP is full!"
+	line "HP zit vol!"
 	prompt
 
 DraggedOutText:
-	text "<USER>"
-	line "was dragged out!"
+	text "<USER> werd naar"
+	line "buiten gesleept!"
 	prompt
 
 ParalyzedText:
-	text "<TARGET>'s"
-	line "paralyzed! Maybe"
-	cont "it can't attack!"
+	text "<TARGET> is"
+	line "verlamd! Misschien"
+	cont "kan hij niks!"
 	prompt
 
 FullyParalyzedText:
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER> is"
+	line "volledig verlamd!"
 	prompt
 
 AlreadyParalyzedText:
-	text "<TARGET>'s"
-	line "already paralyzed!"
+	text "<TARGET> is"
+	line "al verlamd!"
 	prompt
 
 ProtectedByText:
-	text "<TARGET>'s"
-	line "protected by"
+	text "<TARGET> is"
+	line "beschermd door"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 MirrorMoveFailedText:
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "De SPIEGELAANVAL"
+	next "mislukte!"
 	prompt
 
 StoleText:
 	text "<USER>"
-	line "stole @"
+	line "stal @"
 	text_ram wStringBuffer1
 	text_start
-	cont "from its foe!"
+	cont "van tegenstander!"
 	prompt
 
 CantEscapeNowText:
-	text "<TARGET>"
-	line "can't escape now!"
+	text "<TARGET> kan nu"
+	line "niet ontsnappen!"
 	prompt
 
 StartedNightmareText:
 	text "<TARGET>"
-	line "started to have a"
-	cont "NIGHTMARE!"
+	line "begon een NACHT-"
+	cont "MERRIE te krijgen!"
 	prompt
 
 WasDefrostedText:
 	text "<USER>"
-	line "was defrosted!"
+	line "werd ontdooid!"
 	prompt
 
 PutACurseText:
 	text "<USER>"
-	line "cut its own HP and"
+	line "halveerde eigen HP"
 
-	para "put a CURSE on"
+	para "en vervloekte"
 	line "<TARGET>!"
 	prompt
 
 ProtectedItselfText:
 	text "<USER>"
-	line "PROTECTED itself!"
+	line "BEHOEDDE zichzelf!"
 	prompt
 
 ProtectingItselfText:
-	text "<TARGET>'s"
-	line "PROTECTING itself!"
+	text "<TARGET>"
+	line "BEHOEDT zichzelf!"
 	done
 
 SpikesText:
-	text "SPIKES scattered"
-	line "all around"
+	text "STEKELS uitge-"
+	line "strooid rond"
 	cont "<TARGET>!"
 	prompt
 
 IdentifiedText:
 	text "<USER>"
-	line "identified"
+	line "identificeerde"
 	cont "<TARGET>!"
 	prompt
 
 StartPerishText:
-	text "Both #MON will"
-	line "faint in 3 turns!"
+	text "Beide vallen in 3"
+	line "beurten flauw!"
 	prompt
 
 SandstormBrewedText:
-	text "A SANDSTORM"
-	line "brewed!"
+	text "Een SANDSTORM"
+	line "woedt!"
 	prompt
 
 BracedItselfText:
 	text "<USER>"
-	line "braced itself!"
+	line "zette zich schrap!"
 	prompt
 
 FellInLoveText:
 	text "<TARGET>"
-	line "fell in love!"
+	line "werd verliefd!"
 	prompt
 
 CoveredByVeilText:
-	text "<USER>'s"
-	line "covered by a veil!"
+	text "<USER> is"
+	line "bedekt door een"
+	cont "sluier!"
 	prompt
 
 SafeguardProtectText:
 	text "<TARGET>"
-	line "is protected by"
-	cont "SAFEGUARD!"
+	line "wordt beschermd"
+	cont "door BESCHERMING!"
 	prompt
 
 MagnitudeText:
@@ -1036,73 +1044,73 @@ MagnitudeText:
 
 ReleasedByText:
 	text "<USER>"
-	line "was released by"
-	cont "<TARGET>!"
+	line "werd vrijgelaten"
+	cont "door <TARGET>!"
 	prompt
 
 ShedLeechSeedText:
-	text "<USER>"
-	line "shed LEECH SEED!"
+	text "<USER> schudde"
+	line "LEECH SEED af!"
 	prompt
 
 BlewSpikesText:
 	text "<USER>"
-	line "blew away SPIKES!"
+	line "blies STEKELS weg!"
 	prompt
 
 DownpourText:
-	text "A downpour"
-	line "started!"
+	text "Een stortbui"
+	line "is begonnen!"
 	prompt
 
 SunGotBrightText:
-	text "The sunlight got"
-	line "bright!"
+	text "Het zonlicht is"
+	line "fel geworden!"
 	prompt
 
 BellyDrumText:
-	text "<USER>"
-	line "cut its HP and"
-	cont "maximized ATTACK!"
+	text "<USER> verlaag-"
+	line "de eigen HP voor"
+	cont "maximale AANVAL!"
 	prompt
 
 CopiedStatsText:
 	text "<USER>"
-	line "copied the stat"
+	line "kopieerde de stat-"
 
-	para "changes of"
+	para "verandering van"
 	line "<TARGET>!"
 	prompt
 
 ForesawAttackText:
-	text "<USER>"
-	line "foresaw an attack!"
+	text "<USER> voorzag"
+	line "een aanval!"
 	prompt
 
 BeatUpAttackText:
 	text_ram wStringBuffer1
 	text "'s"
-	line "attack!"
+	line "aanval!"
 	done
 
 PresentFailedText:
 	text "<TARGET>"
-	line "refused the gift!"
+	line "weigerde 't cadeau!"
 	prompt
 
 IgnoredOrders2Text:
 	text "<USER>"
-	line "ignored orders!"
+	line "negeerde orders!"
 	prompt
 
 BattleText_LinkErrorBattleCanceled:
-	text "Link error…"
+	text "Linkfout…"
 
-	para "The battle has"
-	line "been canceled…"
+	para "Het gevecht is"
+	line "geannuleerd…"
 	prompt
 
 BattleText_NoTimeLeftToday: ; unreferenced
-	text "There is no time"
-	line "left today!"
+	text "Er is vandaag geen"
+	line "tijd meer!"
 	done

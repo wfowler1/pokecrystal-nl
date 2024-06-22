@@ -169,83 +169,83 @@ Route46FruitTree2:
 	fruittree FRUITTREE_ROUTE_46_2
 
 HikerBaileySeenText:
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #MON!"
+	text "Oke! Ik laat je"
+	line "de kracht zien van"
+	cont "berg-#MON!"
 	done
 
 HikerBaileyBeatenText:
-	text "Mercy! You showed"
-	line "me your power!"
+	text "Genade! Je liet me"
+	line "jouw kracht zien!"
 	done
 
 HikerBaileyAfterBattleText:
-	text "It's over. I don't"
-	line "mind. We HIKERS"
-	cont "are like that."
+	text "Het is voorbij."
+	line "Prima hoor. Zo"
+	cont "zijn wandelaars."
 	done
 
 CamperTedSeenText:
-	text "I'm raising #-"
-	line "MON too!"
+	text "Ik voed ook #-"
+	line "MON op!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Wil je met mij"
+	line "vechten?"
 	done
 
 CamperTedBeatenText:
-	text "Wha…?"
+	text "Wa…?"
 	done
 
 CamperTedAfterBattleText:
-	text "I did my best but"
-	line "came up short."
+	text "Ik deed mijn best"
+	line "en faalde toch."
 
-	para "No excuses--I"
-	line "admit I lost."
+	para "Geen smoesjes--Ik"
+	line "verloor van je."
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #MON"
-	line "too!"
+	text "Ik voed ook #-"
+	line "MON op!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Wil je met mij"
+	line "vechten?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, rats!"
+	text "Oh, drommels!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "I've been to many"
-	line "GYMS, but the GYM"
+	text "Ik ben in veel"
+	line "geweest, maar die"
 
-	para "in GOLDENROD is my"
-	line "favorite."
+	para "in GOLDENROD is"
+	line "mijn favoriet."
 
-	para "It's filled with"
-	line "pretty flowers!"
+	para "Hij staat vol met"
+	line "mooie bloemen!"
 	done
 
 PicnickerErin2BeatenText:
-	text "Aww… I keep losing"
-	line "all the time!"
+	text "Aww… Ik blijf maar"
+	line "steeds verliezen!"
 
-	para "I'll just have to"
-	line "try harder!"
+	para "Ik moet meer mijn"
+	line "best gaan doen!"
 
-	para "Anyway, thanks for"
-	line "battling me again"
+	para "Hoe dan ook, be-"
+	line "dankt dat je weer"
 
-	para "and again. Here's"
-	line "that present from"
-	cont "the other time."
+	para "wilde vechten. En"
+	line "hier is dat cadeau"
+	cont "van laatst."
 	done
 
 Route46SignText:
 	text "ROUTE 46"
-	line "MOUNTAIN RD. AHEAD"
+	line "BERGPAD NABIJ"
 	done
 
 Route46_MapEvents:
