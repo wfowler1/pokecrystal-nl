@@ -28,7 +28,7 @@ ItemNames::
 	li "EP-PLUS" ; "HP UP"
 	li "PROTEÏNE" ; "PROTEIN"
 	li "IJZER" ; "IRON"
-	li "CARBON" ; "CARBOS" 
+	li "CARBON" ; "CARBOS"
 	li "GELUKVUIST" ; "LUCKY PUNCH"
 	li "CALCIUM"
 	li "SCHAARSSNOEP" ; "RARE CANDY"
