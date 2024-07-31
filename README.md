@@ -1,4 +1,4 @@
-# Pokémon Kristal
+# Pokémon Kristal-Editie
 
 This is a work-in-progress Dutch translation of the [Pokémon Crystal Disassembly](https://github.com/pret/pokecrystal) by [pret](https://pret.github.io/).
 
@@ -28,5 +28,3 @@ For other pret projects, see [pret.github.io](https://pret.github.io/).
 [wiki]: https://github.com/pret/pokecrystal/wiki
 [tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
 [symbols]: https://github.com/pret/pokecrystal/tree/symbols
-[ci]: https://github.com/pret/pokecrystal/actions
-[ci-badge]: https://github.com/pret/pokecrystal/actions/workflows/main.yml/badge.svg
