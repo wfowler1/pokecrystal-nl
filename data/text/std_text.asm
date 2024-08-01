@@ -1,287 +1,284 @@
 NurseMornText:
 	text "Goedemorgen!" ; "Good morning!"
-	line "Welkom in ons" ; "Welcome to our"
-	cont "#MON CENTRUM." ; "#MON CENTER."
+	line "Welkom bij ons" ; "Welcome to our"
+	cont "#MONCENTRUM." ; "#MON CENTER."
 	done
 
 NurseDayText:
 	text "Hallo!" ; "Hello!"
-	line "Welkom in ons" ; "Welcome to our"
-	cont "#MON CENTRUM." ; "#MON CENTER."
+	line "Welkom bij ons" ; "Welcome to our"
+	cont "#MONCENTRUM." ; "#MON CENTER."
 	done
 
 NurseNiteText:
 	text "Goedenavond!" ; "Good evening!"
-	line "Je bent laat" ; "You're out late."
-	cont "buiten."
+	line "Het is al laat." ; "You're out late."
 
-	para "Welkom in ons" ; "Welcome to our"
-	line "#MON CENTRUM." ; "#MON CENTER."
+	para "Welkom bij ons" ; "Welcome to our"
+	line "#MONCENTRUM." ; "#MON CENTER."
 	done
 
 PokeComNurseMornText:
 	text "Goedemorgen!" ; "Good morning!"
 
-	para "Dis is de #-" ; "This is the #-"
+	para "Dit is het #-" ; "This is the #-"
 	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
 
-	para "CENTRUM--of de" ; "CENTER--or the"
-	line "#COM CENTRUM." ; "#COM CENTER."
+	para "CENTRUM--of het" ; "CENTER--or the"
+	line "#COMCENTRUM." ; "#COM CENTER."
 	done
 
 PokeComNurseDayText:
 	text "Hallo!" ; "Hello!"
 
-	para "Dis is de #-" ; "This is the #-"
+	para "Dit is het #-" ; "This is the #-"
 	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
 
-	para "CENTRUM--of de" ; "CENTER--or the"
-	line "#COM CENTRUM." ; "#COM CENTER."
+	para "CENTRUM--of het" ; "CENTER--or the"
+	line "#COMCENTRUM." ; "#COM CENTER."
 	done
 
 PokeComNurseNiteText:
-	text "Het is leuk je te" ; "Good to see you"
-	line "zien zo laat" ; "working so late."
-	cont "werken."
+	text "Goed je te zien" ; "Good to see you"
+	line "laat bezig nog." ; "working so late."
 
-	para "Dis is de #-" ; "This is the #-"
+	para "Dit is het #-" ; "This is the #-"
 	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
 
-	para "CENTRUM--of de" ; "CENTER--or the"
-	line "#COM CENTRUM." ; "#COM CENTER."
+	para "CENTRUM--of het" ; "CENTER--or the"
+	line "#COMCENTRUM." ; "#COM CENTER."
 	done
 
 NurseAskHealText:
-	text "We zullen je #-" ; "We can heal your"
-	line "MON volledig" ; #MON to perfect"
+	text "We kunnen je #-" ; "We can heal your"
+	line "MON weer helemaal" ; #MON to perfect"
 	cont "genezen." ; "health."
 
-	para "Wil je dat we je" ; "Shall we heal your"
+	para "Zal ik je" ; "Shall we heal your"
 	line "#MON genezen?" ; "#MON?"
 	done
 
 NurseTakePokemonText:
-	text "Oké, geef me je" ; "OK, may I see your"
-	line "#MON even." ; "#MON?"
+	text "Oké, mag ik je" ; "OK, may I see your"
+	line "#MON zien?" ; "#MON?"
 	done
 
 NurseReturnPokemonText:
-	text "Dank je vel voor" ; "Thank you for"
-	line "het wachten." ; "waiting."
+	text "Bedankt voor het" ; "Thank you for"
+	line "wachten." ; "waiting."
 
 	para "Je #MON zijn" ; "Your #MON are"
-	line "volledig genezen." ; "fully healed."
+	line "helemaal genezen." ; "fully healed."
 	done
 
 NurseGoodbyeText:
-	text "Kom snel terug!" ; "We hope to see you"
-	; line "again."
+	text "We hopen je weer" ; "We hope to see you"
+	line "te zien." ; "again."
 	done
 
 ; not used
-	text "Kom snel terug!" ; "We hope to see you"
-	; line "again."
+	text "We hopen je weer" ; "We hope to see you"
+	line "te zien." ; "again."
 	done
 
 NursePokerusText:
-	text "Je #MON zijn" ; "Your #MON"
-	line "besmet met kleine" ; "appear to be"
-	cont "levensvormen."
+	text "Je #MON" ; "Your #MON"
+	line "lijken te zijn" ; "appear to be"
 
-	; para "infected by tiny"
-	; line "life forms."
+	para "besmet met kleine" ; "infected by tiny"
+	line "levensvormen." ; "life forms."
 
 	para "Je #MON zijn" ; "Your #MON are"
-	line "gezonde en lijken" ; "healthy and seem"
-	cont "goed." ; "to be fine."
+	line "gezond en lijken" ; "healthy and seem"
+	cont "prima in orde." ; "to be fine."
 
-	para "Maar meer weten we" ; "But we can't tell"
-	line "hier in het" ; "you anything more"
+	para "Maar meer kunnen" ; "But we can't tell"
+	line "we niet zeggen in" ; "you anything more"
 
-	para "#MON CENTRUM" ; "at a #MON"
-	line "niet." ; "CENTER."
+	para "een #MON-" ; "at a #MON"
+	line "CENTRUM." ; "CENTER."
 	done
 
 PokeComNursePokerusText:
 	text "Je #MON zijn" ; "Your #MON"
-	line "besmet met kleine" ; "appear to be"
-	cont "levensvormen."
-
-	; para "infected by tiny"
-	; line "life forms."
+	line "lijken te zijn" ; "appear to be"
+	
+	para "besmet met kleine"
+	line "levensvormen."
 
 	para "Je #MON zijn" ; "Your #MON are"
-	line "gezonde en lijken" ; "healthy and seem"
-	cont "goed." ; "to be fine."
+	line "gezond en lijken" ; "healthy and seem"
+	cont "prima in orde." ; "to be fine."
 
-	para "Maar meer weten we" ; "But we can't tell"
-	line "niet." ; "you anything more"
+	para "Maar meer kunnen" ; "But we can't tell"
+	line "we niet zeggen." ; "you anything more"
 	done
 
 DifficultBookshelfText:
-	text "It's full of"
-	line "difficult books."
+	text "Hij staat vol met" ; "It's full of"
+	line "moeilijke boeken." ; "difficult books."
 	done
 
 PictureBookshelfText:
-	text "A whole collection"
-	line "of #MON picture"
-	cont "books!"
+	text "Een verzameling" ; "A whole collection"
+	line "#MON kinder-" ; "of #MON picture"
+	cont "boeken!" ; "books!"
 	done
 
 MagazineBookshelfText:
-	text "#MON magazines…"
-	line "#MON PAL,"
+	text "#MON-" ; "#MON magazines…"
+	line "tijdschriften…"
+	cont "#MON PAL,"
 
-	para "#MON HANDBOOK,"
+	para "#MON-HANBOEK," ; "#MON HANDBOOK,"
 	line "#MON GRAPH…"
 	done
 
 TeamRocketOathText:
-	text "TEAM ROCKET OATH"
+	text "TEAM ROCKET-EED" ; "TEAM ROCKET OATH"
 
-	para "Steal #MON for"
-	line "profit!"
+	para "Steel #MON" ; "Steal #MON for"
+	line "voor geld!" ; "profit!"
 
-	para "Exploit #MON"
-	line "for profit!"
+	para "Misbruik #MON" ; "Exploit #MON"
+	line "voor geld!" ; "for profit!"
 
-	para "All #MON exist"
-	line "for the glory of"
+	para "#MON bestaan" ; "All #MON exist"
+	line "voor de glorie van" ; "for the glory of"
 	cont "TEAM ROCKET!"
 	done
 
 IncenseBurnerText:
-	text "What is this?"
+	text "Wat is dit?" ; "What is this?"
 
-	para "Oh, it's an"
-	line "incense burner!"
+	para "Oh, het is een" ; "Oh, it's an"
+	line "wierrookhouder!" ; "incense burner!"
 	done
 
 MerchandiseShelfText:
-	text "Lots of #MON"
+	text "Heel veel #MON" ; "Lots of #MON"
 	line "merchandise!"
 	done
 
 LookTownMapText:
-	text "It's the TOWN MAP."
+	text "Het is een" ; "It's the TOWN MAP."
+	line "REGIOKAART."
 	done
 
 WindowText:
-	text "My reflection!"
-	line "Lookin' good!"
+	text "Mijn spiegelbeeld!" ; "My reflection!"
+	line "Ziet er goed uit!" ; "Lookin' good!"
 	done
 
 TVText:
-	text "It's a TV."
+	text "Het is een TV." ; "It's a TV."
 	done
 
 HomepageText:
-	text "#MON JOURNAL"
-	line "HOME PAGE…"
+	text "#MON DAGBOEK" ; "#MON JOURNAL"
+	line "INHOUD…" ; "HOME PAGE…"
 
-	para "It hasn't been"
-	line "updated…"
+	para "Het is niet" ; "It hasn't been"
+	line "bijgewerkt…" ; "updated…"
 	done
 
 ; not used
 	text "#MON RADIO!"
 
-	para "Call in with your"
-	line "requests now!"
+	para "Bel nu met je" ; "Call in with your"
+	line "verzoekjes!" ; "requests now!"
 	done
 
 TrashCanText:
-	text "There's nothing in"
-	line "here…"
+	text "Er staat niks" ; "There's nothing in"
+	line "in…" ; "here…"
 	done
 
 ; not used
-	text "A #MON may be"
-	line "able to move this."
+	text "Een #MON kan" ; "A #MON may be"
+	line "dit wellicht" ; "able to move this."
+	cont "duwen."
 	done
 
 ; not used
-	text "Maybe a #MON"
-	line "can break this."
+	text "Kan een #MON" ; "Maybe a #MON"
+	line "dit breken?" ; "can break this."
 	done
 
 PokecenterSignText:
-	text "Je #MON" ; "Heal Your #MON!"
-	line "genezen!" ; "#MON CENTER"
-	
-	para "#MON CENTRUM"
+	text "Genees je #MON!" ; "Heal Your #MON!"
+	line "#MONCENTRUM" ; "#MON CENTER"
 	done
 
 MartSignText:
-	text "For All Your"
-	line "#MON Needs"
+	text "Voor al je" ; "For All Your"
+	line "#MON-spullen" ; "#MON Needs"
 
-	para "#MON MART"
+	para "PKMN-SUPERMARKT" ; "#MON MART"
 	done
 
 ContestResults_ReadyToJudgeText:
-	text "We will now judge"
-	line "the #MON you've"
-	cont "caught."
+	text "We beoordelen de" ; "We will now judge"
+	line "#MON die je" ; "the #MON you've"
+	cont "hebt gevangen." ; "caught."
 
 	para "<……>"
 	line "<……>"
 
-	para "We have chosen the"
-	line "winners!"
+	para "We hebben de win-" ; "We have chosen the"
+	line "naars gekozen!" ; "winners!"
 
-	para "Are you ready for"
-	line "this?"
+	para "Ben je hier klaar" ; "Are you ready for"
+	line "voor?" ; "this?"
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>, the No.@"
+	text "<PLAYER>, de Nr.@" ; "<PLAYER>, the No.@"
 	text_ram wStringBuffer3
 	text_start
-	line "finisher, wins"
+	line "finisher, wint" ; "finisher, wins"
 	cont "@"
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 ReceivedItemText:
-	text "<PLAYER> received"
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 ContestResults_JoinUsNextTimeText:
-	text "Please join us for"
-	line "the next Contest!"
+	text "Graag tot de vol-" ; "Please join us for"
+	line "gende Wedstrijd!" ; "the next Contest!"
 	done
 
 ContestResults_ConsolationPrizeText:
-	text "Everyone else gets"
-	line "a BERRY as a con-"
-	cont "solation prize!"
+	text "De rest krijgt een" ; "Everyone else gets"
+	line "BES als troost-" ; "a BERRY as a con-"
+	cont "prijs!" ; "solation prize!"
 	done
 
 ContestResults_DidNotWinText:
-	text "We hope you do"
-	line "better next time."
+	text "Hopelijk volgende" ; "We hope you do"
+	line "keer beter." ; "better next time."
 	done
 
 ContestResults_ReturnPartyText:
-	text "We'll return the"
-	line "#MON we kept"
+	text "We geven jouw weer" ; "We'll return the"
+	line "#MON terug" ; "#MON we kept"
 
-	para "for you."
-	line "Here you go!"
+	para "aan jou." ; "for you."
+	line "Alsjeblieft!" ; "Here you go!"
 	done
 
 ContestResults_PartyFullText:
-	text "Your party's full,"
-	line "so the #MON was"
+	text "Your team zit vol," ; "Your party's full,"
+	line "Dus de #MON is" ; "so the #MON was"
 
-	para "sent to your BOX"
-	line "in BILL's PC."
+	para "gestuurd naar je" ; "sent to your BOX"
+	line "DOOS in BILL's PC." ; "in BILL's PC."
 	done
 
 GymStatue_CityGymText:
@@ -291,104 +288,104 @@ GymStatue_CityGymText:
 	done
 
 GymStatue_WinningTrainersText:
-	text "LEADER: @"
+	text "LEIDER: @" ; "LEADER: @"
 	text_ram wStringBuffer4
 	text_start
-	para "WINNING TRAINERS:"
+	para "WINNENDE TRAINERS:" ; "WINNING TRAINERS:"
 	line "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:
-	text "Welcome to the"
-	line "GAME CORNER."
+	text "Welkom in de" ; "Welcome to the"
+	line "SPEELHOEK." ; "GAME CORNER."
 	done
 
 CoinVendor_NoCoinCaseText:
-	text "Do you need game"
-	line "coins?"
+	text "Heb je speelmunten" ; "Do you need game"
+	line "nodig?" ; "coins?"
 
-	para "Oh, you don't have"
-	line "a COIN CASE for"
-	cont "your coins."
+	para "Oh, je hebt geen" ; "Oh, you don't have"
+	line "MUNTENZAK voor" ; "a COIN CASE for"
+	cont "je munten." ; "your coins."
 	done
 
 CoinVendor_IntroText:
-	text "Do you need some"
-	line "game coins?"
+	text "Heb je speelmunten" ; "Do you need some"
+	line "nodig?" ; "game coins?"
 
-	para "It costs ¥1000 for"
-	line "50 coins. Do you"
-	cont "want some?"
+	para "Het is ¥1000 voor" ; "It costs ¥1000 for"
+	line "50 munten. Wil je" ; "50 coins. Do you"
+	cont "een paar?" ; "want some?"
 	done
 
 CoinVendor_Buy50CoinsText:
-	text "Thank you!"
-	line "Here are 50 coins."
+	text "Dankje!" ; "Thank you!"
+	line "Hier, 50 munten." ; "Here are 50 coins."
 	done
 
 CoinVendor_Buy500CoinsText:
-	text "Thank you! Here"
-	line "are 500 coins."
+	text "Dankje! Hier" ; "Thank you! Here"
+	line "heb je 500 munten." ; "are 500 coins."
 	done
 
 CoinVendor_NotEnoughMoneyText:
-	text "You don't have"
-	line "enough money."
+	text "Je hebt niet" ; "You don't have"
+	line "genoeg geld." ; "enough money."
 	done
 
 CoinVendor_CoinCaseFullText:
-	text "Whoops! Your COIN"
-	line "CASE is full."
+	text "Oeps! Je MUNTEN-" ; "Whoops! Your COIN"
+	line "ZAK zit vol." ; "CASE is full."
 	done
 
 CoinVendor_CancelText:
-	text "No coins for you?"
-	line "Come again!"
+	text "Geen munten dus?" ; "No coins for you?"
+	line "Tot ziens!" ; "Come again!"
 	done
 
 BugContestPrizeNoRoomText:
-	text "Oh? Your PACK is"
-	line "full."
+	text "Oh? Je RUGZAK zit" ; "Oh? Your PACK is"
+	line "vol." ; "full."
 
-	para "We'll keep this"
-	line "for you today, so"
+	para "We bewaren dit" ; "We'll keep this"
+	line "vandaag voor je," ; "for you today, so"
 
-	para "come back when you"
-	line "make room for it."
+	para "kom maar als je" ; "come back when you"
+	line "plek hebt gemaakt." ; "make room for it."
 	done
 
 HappinessText3:
-	text "Wow! You and your"
-	line "#MON are really"
-	cont "close!"
+	text "Wauw! Jij en je" ; "Wow! You and your"
+	line "#MON zijn heel" ; "#MON are really"
+	cont "hecht!" ; "close!"
 	done
 
 HappinessText2:
-	text "#MON get more"
-	line "friendly if you"
+	text "#MON worden" ; "#MON get more"
+	line "vriendelijker als" ; "friendly if you"
 
-	para "spend time with"
-	line "them."
+	para "samen tijd" ; "spend time with"
+	line "spendeert." ; "them."
 	done
 
 HappinessText1:
-	text "You haven't tamed"
-	line "your #MON."
+	text "Je hebt je #MON" ; "You haven't tamed"
+	line "niet getemd." ; "your #MON."
 
-	para "If you aren't"
-	line "nice, it'll pout."
+	para "Als je niet aardig" ; "If you aren't"
+	line "doet, zeurt ie." ; "nice, it'll pout."
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> registered"
+	text "<PLAYER> registreert" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "'s nummer." ; "'s number."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> registered"
+	text "<PLAYER> registreert" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3
-	text "'s number."
+	text "'s nummer." ; "'s number."
 	done

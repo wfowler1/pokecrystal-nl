@@ -1,452 +1,456 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Oké, wat was ook" ; "Now, what did you"
+	line "alweer je naam?" ; "say your name was?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, ben je" ; " ; "<PLAYER>, are you"
+	line "er klaar voor?" ; "ready?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Jouw #MON-" ; "Your very own"
+	line "verhaal gaat" ; "#MON story is"
+	cont "nu beginnen." ; "about to unfold."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Er volgen leuke" ; "You'll face fun"
+	line "dingen en lastige" ; "times and tough"
+	cont "uitdagingen." ; "challenges."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "Een wereld vol" ; "A world of dreams"
+	line "dromen en avontuur" ; "and adventures"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "met #MON" ; "with #MON"
+	line "wacht op je! Kom!" ; "awaits! Let's go!"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Ik zie je later" ; "I'll be seeing you"
+	line "weer!" ; "later!"
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time"
-	line "may be wrong."
+	text "Wellicht staat de" ; "The clock's time"
+	line "klok verkeerd." ; "may be wrong."
 
-	para "Please reset the"
-	line "time."
+	para "Stel de tijd" ; "Please reset the"
+	line "opnieuw in." ; "time."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Set with the"
-	line "Control Pad."
+	text "Stel in met de" ; "Set with the"
+	line "richtingstoetsen." ; "Control Pad."
 
-	para "Confirm: A Button"
-	line "Cancel:  B Button"
+	para "Bevestig: A-knop" ; "Confirm: A Button"
+	line "Annuleer:  B-knop" ; "Cancel:  B Button"
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?"
+	text "Is dit OK?" ; "Is this OK?"
 	done
 
 _ClockHasResetText::
-	text "The clock has been"
-	line "reset."
+	text "De klok is" ; "The clock has been"
+	line "gereset." ; "reset."
 	done
 
 _LinkTimeoutText::
-	text "Too much time has"
-	line "elapsed. Please"
-	cont "try again."
+	text "Er is teveel tijd" ; "Too much time has"
+	line "gepasseerd. Pro-" ; "elapsed. Please"
+	cont "beer nog eens." ; "try again."
 	prompt
 
 _LinkTradeCantBattleText::
-	text "If you trade that"
-	line "#MON, you won't"
-	cont "be able to battle."
+	text "Als je die #MON" ; "If you trade that"
+	line "ruilt, kun je niet" ; "#MON, you won't"
+	cont "vechten." ; "be able to battle."
 	prompt
 
 _LinkAbnormalMonText::
-	text "Your friend's"
-	line "@"
+	text "De @" ; "Your friend's"
+	; line "@"
 	text_ram wStringBuffer1
-	text " appears"
-	cont "to be abnormal!"
+	text_start
+	line "van je vriend" ; text " appears"
+	cont "is abnormaal!" ; "to be abnormal!"
 	prompt
 
 _LinkAskTradeForText::
-	text "Trade @"
+	text "Ruil @" ; "Trade @"
 	text_ram wBufferTrademonNickname
 	text_start
-	line "for @"
+	line "voor @" ; "for @"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _MobileBattleMustPickThreeMonText::
-	text "To enter a mobile"
-	line "battle, you must"
+	text "Voor een mobiel" ; "To enter a mobile"
+	line "gevecht moet je" ; "battle, you must"
 
-	para "pick a team of"
-	line "three #MON."
+	para "een team van drie" ; "pick a team of"
+	line "#MON kiezen." ; "three #MON."
 
-	para "Is that OK?"
+	para "Is dat goed?" ; "Is that OK?"
 	done
 
 _MobileBattleMoreInfoText::
-	text "Need more info on"
-	line "mobile battles?"
+	text "Wil je meer info" ; "Need more info on"
+	line "over gevechten?" ; "mobile battles?"
 	done
 
 _MobileBattleRulesText::
-	text "For a mobile"
-	line "battle, choose"
-	cont "three #MON."
+	text "Bij een gevecht" ; "For a mobile"
+	line "selecteer je" ; "battle, choose"
+	cont "drie #MON." ; "three #MON."
 
-	para "The maximum daily"
-	line "play time is ten"
+	para "De maximum speel-" ; "The maximum daily"
+	line "tijd is tien" ; "play time is ten"
 
-	para "minutes for each"
-	line "linked player."
+	para "minuten voor elke" ; "minutes for each"
+	line "gelinkte speler." ; "linked player."
 
-	para "If a battle isn't"
-	line "finished within"
+	para "Duurt een gevecht" ; "If a battle isn't"
+	line "te lang, dan wint" ; "finished within"
 
-	para "the time limit,"
-	line "the player with"
+	para "de speler met de" ; "the time limit,"
+	line "meeste resterende" ; "the player with"
 
-	para "the fewest fainted"
-	line "#MON wins."
+	para "#MON in" ; "the fewest fainted"
+	line "het team." ; "#MON wins."
 
-	para "If tied, the team"
-	line "that lost the"
+	para "Bij gelijkspel" ; "If tied, the team"
+	line "wint het team dat" ; "that lost the"
 
-	para "least amount of HP"
-	line "wins."
+	para "het minste schade" ; "least amount of HP"
+	line "kreeg." ; "wins."
 	done
 
 _WouldYouLikeToMobileBattleText::
-	text "Today's remaining"
-	line "time is @"
+	text "De resterende tijd" ; "Today's remaining"
+	line "vandaag is @" ; "time is @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 
-	para "Would you like to"
-	line "battle?"
+	para "Wil je gaan" ; "Would you like to"
+	line "vechten?" ; "battle?"
 	done
 
 _WantAQuickMobileBattleText::
-	text "There are only @"
+	text "Er zijn nog maar @" ; "There are only @"
 	text_decimal wStringBuffer2, 1, 2
 	text_start
-	line "min. left today."
+	line "min. over vandaag." ; "min. left today."
 
-	para "Want a quick"
-	line "battle?"
+	para "Wil je een snel" ; "Want a quick"
+	line "gevecht?" ; "battle?"
 	done
 
 _WantToRushThroughAMobileBattleText::
-	text "There is only"
-	line "1 min. left today!"
+	text "Er is vandaag nog" ; "There is only"
+	line "1 minuut over!" ; "1 min. left today!"
 
-	para "Want to rush"
-	line "through a battle?"
+	para "Wil je haastend" ; "Want to rush"
+	line "de strijd aan?" ; "through a battle?"
 	done
 
 _PleaseTryAgainTomorrowText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "Er is nog minder" ; "There is less than"
+	line "dan een minuut!" ; "1 min. left today!"
 
-	para "Please try again"
-	line "tomorrow."
+	para "Probeer morgen" ; "Please try again"
+	line "nog eens." ; "tomorrow."
 	done
 
 _TryAgainUsingSameSettingsText::
-	text "Try again using"
-	line "the same settings?"
+	text "Opnieuw met zelf-" ; "Try again using"
+	line "de instellingen?" ; "the same settings?"
 	done
 
 _MobileBattleLessThanOneMinuteLeftText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "Minder dan 1 min." ; "There is less than"
+	line "over vandaag!" ; "1 min. left today!"
 	done
 
 _MobileBattleNoTimeLeftForLinkingText::
-	text "No time left for"
-	line "linking today."
+	text "Geen tijd om van-" ; "No time left for"
+	line "daag te linken." ; "linking today."
 	done
 
 _PickThreeMonForMobileBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Kies drie #MON" ; "Pick three #MON"
+	line "voor gevecht." ; "for battle."
 	done
 
 _MobileBattleRemainingTimeText::
-	text "Today's remaining"
-	line "time is @"
+	text "Resterende tijd" ; "Today's remaining"
+	line "vandaag is @" ; "time is @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Wil je het spel" ; "Would you like to"
+	text "Wil je de game" ; "Would you like to"
 	line "opslaan?" ; "save the game?"
 	done
 
 _SavingDontTurnOffThePowerText::
-	text "SCHRIJVEN… ZET DE" ; "SAVING… DON'T TURN"
-	line "KRACHT NIET UIT." ; "OFF THE POWER."
+	text "OPSLAAN… NIET" ; "SAVING… DON'T TURN"
+	line "UITSCHAKELEN." ; "OFF THE POWER."
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> heeft het" ; "<PLAYER> saved"
-	line "spel opgeslaad." ; "the game."
+	text "<PLAYER> sloeg" ; "<PLAYER> saved"
+	line "het spel op." ; "the game."
 	done
 
 _AlreadyASaveFileText::
 	text "Er is al een op-" ; "There is already a"
-	line "slagbestand. Het" ; "save file. Is it"
-	cont "overschrijf?" ; "OK to overwrite?"
+	line "slagbestand. OK om" ; "save file. Is it"
+	cont "te overschrijven?" ; "OK to overwrite?"
 	done
 
 _AnotherSaveFileText::
 	text "Er is nog een op-" ; "There is another"
-	line "slagbestand. Het" ; "save file. Is it"
-	cont "overschrijf?" ; "OK to overwrite?"
+	line "slagbestand. OK om" ; "save file. Is it"
+	cont "te overschrijven?" ; "OK to overwrite?"
 	done
 
 _SaveFileCorruptedText::
 	text "Het opslagbestand" ; "The save file is"
-	line "is beschadigd!" ; "corrupted!"
+	line "is gecorrumpeerd!" ; "corrupted!"
 	prompt
 
 _ChangeBoxSaveText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved. OK?"
+	text "Als je wisselt van" ; "When you change a"
+	line "#MON-BOX wordt" ; "#MON BOX, data"
+	cont "data bewaard. OK?" ; "will be saved. OK?"
 	done
 
 _MoveMonWOMailSaveText::
-	text "Each time you move"
-	line "a #MON, data"
-	cont "will be saved. OK?"
+	text "Als je een #MON" ; "Each time you move"
+	line "verplaatst, wordt" ; "a #MON, data"
+	cont "opgeslagen. OK?" ; "will be saved. OK?"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
-	text "The window save"
-	line "area was exceeded."
+	text "'Window save area'" ; "The window save"
+	line "overschreden." ; "area was exceeded."
 	done
 
 _WindowPoppingErrorText::
-	text "No windows avail-"
-	line "able for popping."
+	text "Geen vensters be-" ; "No windows avail-"
+	line "schikbaar voor pops" ; "able for popping."
 	done
 
 _CorruptedEventText:: ; unreferenced
-	text "Corrupted event!"
+	text "Corrupt evenement!" ; "Corrupted event!"
 	prompt
 
 _ObjectEventText::
-	text "Object event"
+	text "Object-evenement" ; "Object event"
 	done
 
 _BGEventText::
-	text "BG event"
+	text "BG-evenement" ; "BG event"
 	done
 
 _CoordinatesEventText::
-	text "Coordinates event"
+	text "Coordineert event" ; "Coordinates event"
 	done
 
 _ReceivedItemText::
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> put the"
+	text "<PLAYER> stopt de" ; "<PLAYER> put the"
 	line "@"
 	text_ram wStringBuffer1
 	text " in"
-	cont "the @"
+	cont "de @" ; "the @"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PocketIsFullText::
-	text "The @"
+	text "De @" ; "The @"
 	text_ram wStringBuffer3
 	text_start
-	line "is full…"
+	line "is vol…" ; "is full…"
 	prompt
 
 _SeerSeeAllText::
-	text "I see all."
-	line "I know all…"
+	text "Ik zie alles." ; "I see all."
+	line "Ik weet alles…" ; "I know all…"
 
-	para "Certainly, I know"
-	line "of your #MON!"
+	para "Uiteraard weet ik" ; "Certainly, I know"
+	line "van jouw #MON!" ; "of your #MON!"
 	done
 
 _SeerCantTellAThingText::
-	text "Whaaaat? I can't"
-	line "tell a thing!"
+	text "Waaaaat? Ik kan" ; "Whaaaat? I can't"
+	line "niks zeggen!" ; "tell a thing!"
 
-	para "How could I not"
-	line "know of this?"
+	para "Hoe kan ik hier" ; "How could I not"
+	line "niks van weten?" ; "know of this?"
 	done
 
 _SeerNameLocationText::
-	text "Hm… I see you met"
+	text "Hm… Ik zie dat je" ; "Hm… I see you met"
 	line "@"
 	text_ram wSeerNickname
-	text " here:"
+	text " hier" ; " here:"
+	cont "zag:"
 	cont "@"
 	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
 
 _SeerTimeLevelText::
-	text "The time was"
+	text "De tijd was" ; "The time was"
 	line "@"
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Its level was @"
+	para "Het niveau was @" ; "Its level was @"
 	text_ram wSeerCaughtLevelString
 	text "!"
 
-	para "Am I good or what?"
+	para "Ik ben goed he?" ; "Am I good or what?"
 	prompt
 
 _SeerTradeText::
 	text "Hm… @"
 	text_ram wSeerNickname
 	text_start
-	line "came from @"
+	line "kwam van @" ; "came from @"
 	text_ram wSeerOT
 	text_start
-	cont "in a trade?"
+	cont "bij een ruil?" ; "in a trade?"
 
 	para "@"
 	text_ram wSeerCaughtLocation
 	text_start
-	line "was where @"
+	line "was waar @" ; "was where @"
 	text_ram wSeerOT
 	text_start
-	cont "met @"
+	cont "@" ; "met @"
 	text_ram wSeerNickname
-	text "!"
+	text " ont-" ; "!"
+	cont "moette!"
 	prompt
 
 _SeerNoLocationText::
-	text "What!? Incredible!"
+	text "Wat!? Bizar!" ; "What!? Incredible!"
 
-	para "I don't understand"
-	line "how, but it is"
+	para "Ik snap niet hoe," ; "I don't understand"
+	line "maar het is" ; "how, but it is"
 
-	para "incredible!"
-	line "You are special."
+	para "onvoorstelbaar!" ; "incredible!"
+	line "Jij bent speciaal." ; "You are special."
 
-	para "I can't tell where"
-	line "you met it, but it"
-	cont "was at level @"
+	para "Ik weet niet waar" ; "I can't tell where"
+	line "je het ontmoette," ; "you met it, but it"
+	cont "maar het was" ; "was at level @"
+	cont "niveau @"
 	text_ram wSeerCaughtLevelString
 	text "."
 
-	para "Am I good or what?"
+	para "Ik ben goed he?" ; "Am I good or what?"
 	prompt
 
 _SeerEggText::
-	text "Hey!"
+	text "Hé!" ; "Hey!"
 
-	para "That's an EGG!"
+	para "Dat is een EGG!" ; "That's an EGG!"
 
-	para "You can't say that"
-	line "you've met it yet…"
+	para "Strikt gezien heb" ; "You can't say that"
+	line "die niet ontmoet…" ; "you've met it yet…"
 	done
 
 _SeerDoNothingText::
-	text "Fufufu! I saw that"
-	line "you'd do nothing!"
+	text "Fufufu! Ik zag dat" ; "Fufufu! I saw that"
+	line "je niks zou doen!" ; "you'd do nothing!"
 	done
 
 _SeerMoreCareText::
-	text "Incidentally…"
+	text "Incidenteel…" ; "Incidentally…"
 
-	para "It would be wise"
-	line "to raise your"
+	para "Het zou wijs zijn" ; "It would be wise"
+	line "je #MON met wat" ; "to raise your"
 
-	para "#MON with a"
-	line "little more care."
+	para "meer zorg op te" ; "#MON with a"
+	line "voeden." ; "little more care."
 	done
 
 _SeerMoreConfidentText::
-	text "Incidentally…"
+	text "Incidenteel…" ; "Incidentally…"
 
-	para "It seems to have"
-	line "grown a little."
+	para "Het is een klein" ; "It seems to have"
+	line "beetje geroeid." ; "grown a little."
 
 	para "@"
 	text_ram wSeerNickname
-	text " seems"
-	line "to be becoming"
-	cont "more confident."
+	text " lijkt" ; " seems"
+	line "meer vertrouwen te" ; "to be becoming"
+	cont "krijgen." ; "more confident."
 	done
 
 _SeerMuchStrengthText::
-	text "Incidentally…"
+	text "Incidenteel…" ; "Incidentally…"
 
 	para "@"
 	text_ram wSeerNickname
-	text " has"
-	line "grown. It's gained"
-	cont "much strength."
+	text " is" ; " has"
+	line "gegroeid en nu" ; "grown. It's gained"
+	cont "veel sterker." ; "much strength."
 	done
 
 _SeerMightyText::
-	text "Incidentally…"
+	text "Incidenteel…" ; "Incidentally…"
 
-	para "It certainly has"
-	line "grown mighty!"
+	para "Het is een machtig" ; "It certainly has"
+	line "wezen geworden!" ; "grown mighty!"
 
-	para "This @"
+	para "Deze @" ; "This @"
 	text_ram wSeerNickname
 	text_start
-	line "must have come"
+	line "heeft vele ge-" ; "must have come"
 
-	para "through numerous"
-	line "#MON battles."
+	para "gevechten gestre-" ; "through numerous"
+	line "den." ; "#MON battles."
 
-	para "It looks brimming"
-	line "with confidence."
+	para "Het zelfvertrouwen" ; "It looks brimming"
+	line "straalt er van af." ; "with confidence."
 	done
 
 _SeerImpressedText::
-	text "Incidentally…"
+	text "Incidenteel…" ; "Incidentally…"
 
-	para "I'm impressed by"
-	line "your dedication."
+	para "Je toewijding is" ; "I'm impressed by"
+	line "indrukwekkend." ; "your dedication."
 
-	para "It's been a long"
-	line "time since I've"
+	para "Het is lang sinds" ; "It's been a long"
+	line "ik een #MON zag" ; "time since I've"
 
-	para "seen a #MON as"
-	line "mighty as this"
-	cont "@"
+	para "die zo machtig" ; "seen a #MON as"
+	line "was @" ; "mighty as this"
+	; cont "@"
 	text_ram wSeerNickname
 	text "."
 
-	para "I'm sure that"
-	line "seeing @"
+	para "Iedereen zou" ; "I'm sure that"
+	line "@" ; "seeing @"
 	text_ram wSeerNickname
 	text_start
 
-	para "in battle would"
-	line "excite anyone."
+	para "graag in een ge-" ; "in battle would"
+	line "vecht zien." ; "excite anyone."
 	done
 
 _CongratulationsYourPokemonText::
-	text "Congratulations!"
-	line "Your @"
+	text "Gefeliciteerd!" ; "Congratulations!"
+	line "Je @" ; "Your @"
 	text_ram wStringBuffer2
 	text_end
 
@@ -455,28 +459,28 @@ _CongratulationsYourPokemonText::
 _EvolvedIntoText::
 	text_start
 
-	para "evolved into"
+	para "evolueerde in" ; "evolved into"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	done
 
-_StoppedEvolvingText::
+_StoppedEvolvingText:: ; TODO: String too long
 	text "Huh? @"
 	text_ram wStringBuffer2
 	text_start
-	line "stopped evolving!"
+	line "stopte de evolutie!" ; "stopped evolving!"
 	prompt
 
 _EvolvingText::
-	text "What? @"
+	text "Wat? @" ; "What? @"
 	text_ram wStringBuffer2
 	text_start
-	line "is evolving!"
+	line "evolueert!" ; "is evolving!"
 	done
 
 _MartHowManyText::
-	text "How many?"
+	text "Hoeveel?" ; "How many?"
 	done
 
 _MartFinalPriceText::
@@ -484,28 +488,28 @@ _MartFinalPriceText::
 	text " @"
 	text_ram wStringBuffer2
 	text "(S)"
-	line "will be ¥@"
+	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbShopLadyIntroText::
-	text "Hello, dear."
+	text "Hallo, schat." ; "Hello, dear."
 
-	para "I sell inexpensive"
-	line "herbal medicine."
+	para "Ik heb goedkope" ; "I sell inexpensive"
+	line "kruidenmedicijnen." ; "herbal medicine."
 
-	para "They're good, but"
-	line "a trifle bitter."
+	para "Ze werken goed," ; "They're good, but"
+	line "maar zijn bitter." ; "a trifle bitter."
 
-	para "Your #MON may"
-	line "not like them."
+	para "Je #MON vindt" ; "Your #MON may"
+	line "ze wellicht vies." ; "not like them."
 
 	para "Hehehehe…"
 	done
 
 _HerbalLadyHowManyText::
-	text "How many?"
+	text "Hoeveel?" ; "How many?"
 	done
 
 _HerbalLadyFinalPriceText::
@@ -513,82 +517,83 @@ _HerbalLadyFinalPriceText::
 	text " @"
 	text_ram wStringBuffer2
 	text "(S)"
-	line "will be ¥@"
+	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbalLadyThanksText::
-	text "Thank you, dear."
+	text "Dankje, schat." ; "Thank you, dear."
 	line "Hehehehe…"
 	done
 
 _HerbalLadyPackFullText::
-	text "Oh? Your PACK is"
-	line "full, dear."
+	text "Oh? Je TAS is" ; "Oh? Your PACK is"
+	line "vol, schat." ; "full, dear."
 	done
 
 _HerbalLadyNoMoneyText::
-	text "Hehehe… You don't"
-	line "have the money."
+	text "Hehehe… Je hebt" ; "Hehehe… You don't"
+	line "niet genoeg geld." ; "have the money."
 	done
 
 _HerbalLadyComeAgainText::
-	text "Come again, dear."
+	text "Tot snel, schat." ; "Come again, dear."
 	line "Hehehehe…"
 	done
 
 _BargainShopIntroText::
-	text "Hiya! Care to see"
-	line "some bargains?"
+	text "Hoihoi! Wil je wat" ; "Hiya! Care to see"
+	line "koopjes zien?" ; "some bargains?"
 
-	para "I sell rare items"
-	line "that nobody else"
+	para "Ik heb zeldzaam" ; "I sell rare items"
+	line "spul dat je ner-" ; "that nobody else"
 
-	para "carries--but only"
-	line "one of each item."
+	para "gens vindt--maar" ; "carries--but only"
+	line "eentje van elk." ; "one of each item."
 	done
 
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " costs"
+	text " kost" ; " costs"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text ". Want it?"
+	text ". Wil je" ; ". Want it?"
+	cont "het?"
 	done
 
 _BargainShopThanksText::
-	text "Thanks."
+	text "Bedankt." ; "Thanks."
 	done
 
 _BargainShopPackFullText::
-	text "Uh-oh, your PACK"
-	line "is chock-full."
+	text "Uh-oh, je TAS" ; "Uh-oh, your PACK"
+	line "zit tjokvol." ; "is chock-full."
 	done
 
 _BargainShopSoldOutText::
-	text "You bought that"
-	line "already. I'm all"
-	cont "sold out of it."
+	text "Je hebt dat al" ; "You bought that"
+	line "gekocht. Ik hebl" ; "already. I'm all"
+	cont "niet meer." ; "sold out of it."
 	done
 
 _BargainShopNoFundsText::
-	text "Uh-oh, you're"
-	line "short on funds."
+	text "Uh-oh, je heb te" ; "Uh-oh, you're"
+	line "weinig geld." ; "short on funds."
 	done
 
 _BargainShopComeAgainText::
-	text "Come by again"
-	line "sometime."
+	text "Kom nog eens" ; "Come by again"
+	line "langs." ; "sometime."
 	done
 
 _PharmacyIntroText::
-	text "What's up? Need"
-	line "some medicine?"
+	text "Wat is er? Heb je" ; "What's up? Need"
+	line "medicijnen nodig?" ; "some medicine?"
 	done
 
 _PharmacyHowManyText::
-	text "How many?"
+	text "Hoeveel?" ; "How many?"
 	done
 
 _PharmacyFinalPriceText::
@@ -596,94 +601,94 @@ _PharmacyFinalPriceText::
 	text " @"
 	text_ram wStringBuffer2
 	text "(S)"
-	line "will cost ¥@"
+	line "kost je ¥@" ; "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _PharmacyThanksText::
-	text "Thanks much!"
+	text "Veel dank!" ; "Thanks much!"
 	done
 
 _PharmacyPackFullText::
-	text "You don't have any"
-	line "more space."
+	text "Je hebt geen" ; "You don't have any"
+	line "plek meer." ; "more space."
 	done
 
 _PharmacyNoMoneyText::
-	text "Huh? That's not"
-	line "enough money."
+	text "Huh? Dat is te" ; "Huh? That's not"
+	line "weinig geld." ; "enough money."
 	done
 
 _PharmacyComeAgainText::
-	text "All right."
-	line "See you around."
+	text "Oké." ; "All right."
+	line "Tot later weer." ; "See you around."
 	done
 
 _NothingToSellText::
-	text "You don't have"
-	line "anything to sell."
+	text "Je hebt niks om te" ; "You don't have"
+	line "verkopen." ; "anything to sell."
 	prompt
 
 _MartSellHowManyText::
-	text "How many?"
+	text "Hoeveel?" ; "How many?"
 	done
 
 _MartSellPriceText::
-	text "I can pay you"
+	text "Ik kan je" ; "I can pay you"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text "."
+	text " betalen." ; "."
 
-	para "Is that OK?"
+	para "Is dat OK?" ; "Is that OK?"
 	done
 
 _MartWelcomeText::
-	text "Welcome! How may I"
-	line "help you?"
+	text "Welkom! Hoe kan ik" ; "Welcome! How may I"
+	line "je helpen?" ; "help you?"
 	done
 
 _MartThanksText::
-	text "Here you are."
-	line "Thank you!"
+	text "Hier is het." ; "Here you are."
+	line "Dankjewel!" ; "Thank you!"
 	done
 
 _MartNoMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Je hebt te weinig" ; "You don't have"
+	line "geld." ; "enough money."
 	done
 
 _MartPackFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Je kunt geen spul-" ; "You can't carry"
+	line "len meer dragen." ; "any more items."
 	done
 
 _MartCantBuyText::
-	text "Sorry, I can't buy"
-	line "that from you."
+	text "Sorry, dat kan ik" ; "Sorry, I can't buy"
+	line "niet van je kopen." ; "that from you."
 	prompt
 
 _MartComeAgainText::
-	text "Please come again!"
+	text "Kom snel weer!" ; "Please come again!"
 	done
 
 _MartAskMoreText::
-	text "Can I do anything"
-	line "else for you?"
+	text "Kan ik nog iets" ; "Can I do anything"
+	line "voor je doen?" ; "else for you?"
 	done
 
 _MartBoughtText::
-	text "Got ¥@"
+	text "Heb ¥@" ; "Got ¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text " for"
+	text " voor" ; " for"
 	line "@"
 	text_ram wStringBuffer2
 	text "(S)."
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Bet how many"
-	line "coins?"
+	text "Hoeveel munten" ; "Bet how many"
+	line "wedden?" ; "coins?"
 	done
 
 _SlotsStartText::
@@ -691,71 +696,71 @@ _SlotsStartText::
 	done
 
 _SlotsNotEnoughCoinsText::
-	text "Not enough"
-	line "coins."
+	text "Te weinig" ; "Not enough"
+	line "munten." ; "coins."
 	prompt
 
 _SlotsRanOutOfCoinsText::
-	text "Darn… Ran out of"
-	line "coins…"
+	text "Verdorie… Geen" ; "Darn… Ran out of"
+	line "munten meer…" ; "coins…"
 	done
 
 _SlotsPlayAgainText::
-	text "Play again?"
+	text "Weer spelen?" ; "Play again?"
 	done
 
 _SlotsLinedUpText::
-	text "lined up!"
+	text "op een rij!" ; "lined up!"
 	line "Won @"
 	text_ram wStringBuffer2
-	text " coins!"
+	text " munten!" ; " coins!"
 	done
 
 _SlotsDarnText::
-	text "Darn!"
+	text "Verdorie!" ; "Darn!"
 	done
 
 _MobileStadiumEntryText::
-	text "Data for use in"
-	line "the MOBILE STADIUM"
+	text "Data voor gebruik" ; "Data for use in"
+	line "in MOBILE STADIUM" ; "the MOBILE STADIUM"
 
-	para "of the N64 #MON"
-	line "STADIUM 2 can be"
-	cont "read here."
+	para "van #MON" ; "of the N64 #MON"
+	line "STADIUM 2 kan hier" ; "STADIUM 2 can be"
+	cont "worden gelezen." ; "read here."
 
-	para "Read the data?"
+	para "Lees de data?" ; "Read the data?"
 	done
 
 _MobileStadiumSuccessText::
-	text "Data transfer is"
-	line "complete."
+	text "Dataverplaatsing" ; "Data transfer is"
+	line "voltooid." ; "complete."
 
-	para "We hope you enjoy"
+	para "Veel plezier met" ; "We hope you enjoy"
 	line "MOBILE STADIUM"
 
-	para "battles in the N64"
+	para "gevechten in" ; "battles in the N64"
 	line "#MON STADIUM 2."
 
 	para ""
 	done
 
 _MainMenuTimeUnknownText::
-	text "Clock time unknown"
+	text "Kloktijd onbekend" ; "Clock time unknown"
 	done
 
 _DeleteSavedLoginPasswordText::
-	text "Delete the saved"
-	line "LOG-IN PASSWORD?"
+	text "Wis opgeslagen" ; "Delete the saved"
+	line "LOG-IN WACHTWOORD?" ; "LOG-IN PASSWORD?"
 	done
 
 _DeletedTheLoginPasswordText::
-	text "Deleted the LOG-IN"
-	line "PASSWORD."
+	text "LOG-IN WACHTWOORD" ; "Deleted the LOG-IN"
+	line "gewist." ; "PASSWORD."
 	done
 
 _MobilePickThreeMonForBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Kies drie #MON" ; "Pick three #MON"
+	line "voor gevecht." ; "for battle."
 	prompt
 
 _MobileUseTheseThreeMonText::
@@ -763,128 +768,128 @@ _MobileUseTheseThreeMonText::
 	text ","
 	line "@"
 	text_ram wMobileParticipant2Nickname
-	text " and"
+	text " en" ; " and"
 	cont "@"
 	text_ram wMobileParticipant3Nickname
 	text "."
 
-	para "Use these three?"
+	para "Gebruik deze drie?" ; "Use these three?"
 	done
 
 _MobileOnlyThreeMonMayEnterText::
-	text "Only three #MON"
-	line "may enter."
+	text "Plek voor maar" ; "Only three #MON"
+	line "drie #MON." ; "may enter."
 	prompt
 
 _MobileCardFolderIntro1Text::
-	text "The CARD FOLDER"
-	line "stores your and"
+	text "De KAARTMAP" ; "The CARD FOLDER"
+	line "bewaart KAARTEN" ; "stores your and"
 
-	para "your friends'"
-	line "CARDS."
+	para "afkomstig van je" ; "your friends'"
+	line "vrienden." ; "CARDS."
 
-	para "A CARD contains"
-	line "information like"
+	para "Een KAART bevat" ; "A CARD contains"
+	line "informatie zoals" ; "information like"
 
-	para "the person's name,"
-	line "phone number and"
-	cont "profile."
+	para "een naam, tele-," ; "the person's name,"
+	line "foonnummer en" ; "phone number and"
+	cont "profiel." ; "profile."
 
 	para ""
 	done
 
 _MobileCardFolderIntro2Text::
-	text "This is your CARD."
+	text "Dit is jouw KAART." ; "This is your CARD."
 
-	para "Once you've"
-	line "entered your phone"
+	para "Na het delen van" ; "Once you've"
+	line "je telefoonnummer," ; "entered your phone"
 
-	para "number, you can"
-	line "trade CARDS with"
-	cont "your friends."
+	para "kun je KAARTEN" ; "number, you can"
+	line "ruilen met je" ; "trade CARDS with"
+	cont "vrienden." ; "your friends."
 
 	para ""
 	done
 
 _MobileCardFolderIntro3Text::
-	text "If you have your"
-	line "friend's CARD, you"
+	text "Als je de KAART" ; "If you have your"
+	line "van een vriend" ; "friend's CARD, you"
 
-	para "can use it to make"
-	line "a call from a"
+	para "hebt, kun je el-" ; "can use it to make"
+	line "kaar bellen op de" ; "a call from a"
 
-	para "mobile phone on"
-	line "the 2nd floor of a"
-	cont "#MON CENTER."
+	para "eerste verdieping" ; "mobile phone on"
+	line "van een" ; "the 2nd floor of a"
+	cont "#MONCENTRUM." ; "#MON CENTER."
 
 	para ""
 	done
 
 _MobileCardFolderIntro4Text::
-	text "To safely store"
-	line "your collection of"
+	text "Om je collectie" ; "To safely store"
+	line "kaarten veilig te" ; "your collection of"
 
-	para "CARDS, you must"
-	line "set a PASSCODE for"
-	cont "your CARD FOLDER."
+	para "bewaren moet je" ; "CARDS, you must"
+	line "WACHTWOORD voor je" ; "set a PASSCODE for"
+	cont "KAARTMAP kiezen." ; "your CARD FOLDER."
 
 	para ""
 	done
 
 _MobileCardFolderAskDeleteText::
-	text "If the CARD FOLDER"
-	line "is deleted, all"
+	text "Verwijder je de" ; "If the CARD FOLDER"
+	line "KAARTMAP, dan raak" ; "is deleted, all"
 
-	para "its CARDS and the"
-	line "PASSCODE will also"
-	cont "be deleted."
+	para "je de KAARTEN en" ; "its CARDS and the"
+	line "je WACHTWOORD ook" ; "PASSCODE will also"
+	cont "kwijt." ; "be deleted."
 
-	para "Beware--a deleted"
-	line "CARD FOLDER can't"
-	cont "be restored."
+	para "Pas op-een gewiste" ; "Beware--a deleted"
+	line "KAARTMAP is niet" ; "CARD FOLDER can't"
+	cont "te herstellen." ; "be restored."
 
-	para "Want to delete"
-	line "your CARD FOLDER?"
+	para "Wil je jouw KAART-" ; "Want to delete"
+	line "MAP verwijderen?" ; "your CARD FOLDER?"
 	done
 
 _MobileCardFolderDeleteAreYouSureText::
-	text "Are you sure you"
-	line "want to delete it?"
+	text "Weet je zeker dat" ; "Are you sure you"
+	line "je hem wil wissen?" ; "want to delete it?"
 	done
 
 _MobileCardFolderDeletedText::
-	text "The CARD FOLDER"
-	line "has been deleted."
+	text "De KAARTMAP" ; "The CARD FOLDER"
+	line "is verwijderd." ; "has been deleted."
 
 	para ""
 	done
 
 _MobileCardFolderAskOpenOldText::
-	text "There is an older"
-	line "CARD FOLDER from a"
-	cont "previous journey."
+	text "Er is een oudere" ; "There is an older"
+	line "KAARTMAP van een" ; "CARD FOLDER from a"
+	cont "eerdere reis." ; "previous journey."
 
-	para "Do you want to"
-	line "open it?"
+	para "Wil je deze" ; "Do you want to"
+	line "open maken?" ; "open it?"
 	done
 
 _MobileCardFolderAskDeleteOldText::
-	text "Delete the old"
-	line "CARD FOLDER?"
+	text "Verwijder de oude" ; "Delete the old"
+	line "KAARTMAP?" ; "CARD FOLDER?"
 	done
 
 _MobileCardFolderFinishRegisteringCardsText::
-	text "Finish registering"
-	line "CARDS?"
+	text "Klaar met opslaan" ; "Finish registering"
+	line "van KAARTEN?" ; "CARDS?"
 	done
 
 _PhoneWrongNumberText::
-	text "Huh? Sorry, wrong"
-	line "number!"
+	text "Huh? Sorry, fout" ; "Huh? Sorry, wrong"
+	line "nummer!" ; "number!"
 	done
 
 _PhoneClickText::
-	text "Click!"
+	text "Klik!" ; "Click!"
 	done
 
 _PhoneEllipseText::
@@ -892,17 +897,17 @@ _PhoneEllipseText::
 	done
 
 _PhoneOutOfAreaText::
-	text "That number is out"
-	line "of the area."
+	text "Dat nummer is" ; "That number is out"
+	line "buiten bereik." ; "of the area."
 	done
 
 _PhoneJustTalkToThemText::
-	text "Just go talk to"
-	line "that person!"
+	text "Ga gewoon met ze" ; "Just go talk to"
+	line "praten!" ; "that person!"
 	done
 
 _PhoneThankYouText::
-	text "Thank you!"
+	text "Bedankt!" ; "Thank you!"
 	done
 
 _SpaceSpaceColonText:: ; unreferenced
@@ -910,32 +915,32 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Password OK."
-	line "Select CONTINUE &"
-	cont "reset settings."
+	text "Wachtwoord OK." ; "Password OK."
+	line "Kies VERDER &" ; "Select CONTINUE &"
+	cont "reset instellingen" ; "reset settings."
 	prompt
 
 _PasswordWrongText::
-	text "Wrong password!"
+	text "Fout wachtwoord!" ; "Wrong password!"
 	prompt
 
 _PasswordAskResetClockText::
-	text "Reset the clock?"
+	text "Reset de klok?" ; "Reset the clock?"
 	done
 
 _PasswordAskEnterText::
-	text "Please enter the"
-	line "password."
+	text "Voer het wacht-" ; "Please enter the"
+	line "woord in." ; "password."
 	done
 
 _ClearAllSaveDataText::
-	text "Clear all save"
+	text "Wis alle opslag-" ; "Clear all save"
 	line "data?"
 	done
 
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " learned"
+	text " leerde" ; " learned"
 	line "@"
 	text_ram wStringBuffer2
 	text "!@"
@@ -946,12 +951,12 @@ _LearnedMoveText::
 	text_end ; unreferenced
 
 _MoveAskForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Welke aanval wordt" ; "Which move should"
+	next "vergeten?" ; "be forgotten?"
 	done
 
 _StopLearningMoveText::
-	text "Stop learning"
+	text "Stop met leren van" ; "Stop learning"
 	line "@"
 	text_ram wStringBuffer2
 	text "?"
@@ -960,7 +965,7 @@ _StopLearningMoveText::
 _DidNotLearnMoveText::
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "did not learn"
+	line "leerde niet" ; "did not learn"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
@@ -969,26 +974,27 @@ _DidNotLearnMoveText::
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer
 	text " is"
-	line "trying to learn"
+	line "probeert" ; "trying to learn"
 	cont "@"
 	text_ram wStringBuffer2
-	text "."
+	text " te" ; "."
+	cont "leren."
 
-	para "But @"
+	para "Maar @" ; "But @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "can't learn more"
-	cont "than four moves."
+	line "kan maximaal vier" ; "can't learn more"
+	cont "aanvallen leren." ; "than four moves."
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Verwijder een oude" ; "Delete an older"
+	line "aanval voor" ; "move to make room"
+	cont "@"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 Text_MoveForgetCount::
-	text "1, 2 and…@"
+	text "1, 2 en…@" ; "1, 2 and…@"
 	text_pause
 	text_end
 
@@ -1001,7 +1007,7 @@ _MoveForgotText::
 
 	para "@"
 	text_ram wMonOrItemNameBuffer
-	text " forgot"
+	text " vergat" ; " forgot"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
@@ -1010,43 +1016,43 @@ _MoveForgotText::
 	prompt
 
 _MoveCantForgetHMText::
-	text "HM moves can't be"
-	line "forgotten now."
+	text "HM-aanvallen zijn" ; "HM moves can't be"
+	line "niet te vergeten." ; "forgotten now."
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
-	text "Play with three"
-	line "coins?"
+	text "Speel met drie" ; "Play with three"
+	line "munten?" ; "coins?"
 	done
 
 _CardFlipNotEnoughCoinsText::
-	text "Not enough coins…"
+	text "Te weinig munten…" ; "Not enough coins…"
 	prompt
 
 _CardFlipChooseACardText::
-	text "Choose a card."
+	text "Kies een kaart." ; "Choose a card."
 	done
 
 _CardFlipPlaceYourBetText::
-	text "Place your bet."
+	text "Zet geld in." ; "Place your bet."
 	done
 
 _CardFlipPlayAgainText::
-	text "Want to play"
-	line "again?"
+	text "Nog een keer" ; "Want to play"
+	line "spelen?" ; "again?"
 	done
 
 _CardFlipShuffledText::
-	text "The cards have"
-	line "been shuffled."
+	text "De kaarten zijn" ; "The cards have"
+	line "geschud." ; "been shuffled."
 	prompt
 
 _CardFlipYeahText::
-	text "Yeah!"
+	text "Jaaa!" ; "Yeah!"
 	done
 
 _CardFlipDarnText::
-	text "Darn…"
+	text "Verdorie…" ; "Darn…"
 	done
 
 _GearTodayText::
@@ -1060,165 +1066,165 @@ _GearEllipseText::
 	done
 
 _GearOutOfServiceText::
-	text "You're out of the"
-	line "service area."
+	text "Je bent buiten het" ; "You're out of the"
+	line "gebruiksgebied." ; "service area."
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Whom do you want"
-	line "to call?"
+	text "Met wie wil" ; "Whom do you want"
+	line "je bellen?" ; "to call?"
 	done
 
 _PokegearPressButtonText::
-	text "Press any button"
-	line "to exit."
+	text "Druk op een knop" ; "Press any button"
+	line "om te sluiten." ; "to exit."
 	done
 
 _PokegearAskDeleteText::
-	text "Delete this stored"
-	line "phone number?"
+	text "Verwijder dit" ; "Delete this stored"
+	line "bewaarde nummer?" ; "phone number?"
 	done
 
 _BuenaAskWhichPrizeText::
-	text "Which prize would"
-	line "you like?"
+	text "Welke prijs wil" ; "Which prize would"
+	line "je hebben?" ; "you like?"
 	done
 
 _BuenaIsThatRightText::
 	text_ram wStringBuffer1
 	text "?"
-	line "Is that right?"
+	line "Is dat hem?" ; "Is that right?"
 	done
 
 _BuenaHereYouGoText::
-	text "Here you go!"
+	text "Alsjeblieft!" ; "Here you go!"
 
 	para ""
 	done
 
 _BuenaNotEnoughPointsText::
-	text "You don't have"
-	line "enough points."
+	text "Je hebt te" ; "You don't have"
+	line "weinig punten." ; "enough points."
 
 	para ""
 	done
 
 _BuenaNoRoomText::
-	text "You have no room"
-	line "for it."
+	text "Je hebt er geen" ; "You have no room"
+	line "plek voor." ; "for it."
 
 	para ""
 	done
 
 _BuenaComeAgainText::
-	text "Oh. Please come"
-	line "back again!"
+	text "Oh. Kom alsje-" ; "Oh. Please come"
+	line "blieft nog eens!" ; "back again!"
 	done
 
 _BTExcuseMeText::
-	text "Excuse me!"
+	text "Pardon!" ; "Excuse me!"
 
 	para ""
 	done
 
 _ExcuseMeYoureNotReadyText::
-	text "Excuse me."
-	line "You're not ready."
+	text "Sorry. Je bent er" ; "Excuse me."
+	line "niet klaar voor." ; "You're not ready."
 
 	para ""
 	done
 
 _BattleTowerReturnWhenReadyText::
-	text "Please return when"
-	line "you're ready."
+	text "Kom weer terug als" ; "Please return when"
+	line "bent voorbereid." ; "you're ready."
 	done
 
 _NeedAtLeastThreeMonText::
-	text "You need at least"
-	line "three #MON."
+	text "Neem minstens drie" ; "You need at least"
+	line "#MON mee." ; "three #MON."
 
 	para ""
 	done
 
 _EggDoesNotQualifyText::
-	text "Sorry, an EGG"
-	line "doesn't qualify."
+	text "Sorry, een EI" ; "Sorry, an EGG"
+	line "kwalificeert niet." ; "doesn't qualify."
 
 	para ""
 	done
 
 _OnlyThreeMonMayBeEnteredText::
-	text "Only three #MON"
-	line "may be entered."
+	text "Slechts drie" ; "Only three #MON"
+	line "#MON mogen mee." ; "may be entered."
 
 	para ""
 	done
 
 _TheMonMustAllBeDifferentKindsText::
-	text "The @"
+	text "De @" ; "The @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "must all be"
-	cont "different kinds."
+	line "moeten elk andere" ; "must all be"
+	cont "types hebben." ; "different kinds."
 
 	para ""
 	done
 
 _TheMonMustNotHoldTheSameItemsText::
-	text "The @"
+	text "De @" ; "The @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "must not hold the"
-	cont "same items."
+	line "mogen geen iden-" ; "must not hold the"
+	cont "tieke voorwerpen." ; "same items."
 
 	para ""
 	done
 
 _YouCantTakeAnEggText::
-	text "You can't take an"
-	line "EGG!"
+	text "Een EI mag niet" ; "You can't take an"
+	line "met je mee!" ; "EGG!"
 
 	para ""
 	done
 
 _BallDodgedText::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Hij ontweek de" ; "It dodged the"
+	line "geworpen BAL!" ; "thrown BALL!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Deze #MON" ; "This #MON"
+	line "is niet te vangen!" ; "can't be caught!"
 	prompt
 
 _BallMissedText::
-	text "You missed the"
+	text "Je mistte de" ; "You missed the"
 	line "#MON!"
 	prompt
 
 _BallBrokeFreeText::
-	text "Oh no! The #MON"
-	line "broke free!"
+	text "Oh nee! De #MON" ; "Oh no! The #MON"
+	line "brak los!" ; "broke free!"
 	prompt
 
 _BallAppearedCaughtText::
-	text "Aww! It appeared"
-	line "to be caught!"
+	text "Aww! Het leek" ; "Aww! It appeared"
+	line "te zijn gelukt!" ; "to be caught!"
 	prompt
 
 _BallAlmostHadItText::
 	text "Aargh!"
-	line "Almost had it!"
+	line "Bijna gelukt!" ; "Almost had it!"
 	prompt
 
 _BallSoCloseText::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Verdraaid! Zo" ; "Shoot! It was so"
+	line "dichtbij ook!" ; "close too!"
 	prompt
 
 Text_BallCaught::
-	text "Gotcha! @"
+	text "Hebbes! @" ; "Gotcha! @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "was caught!@"
+	line "was gevangen!@" ; "was caught!@"
 	sound_caught_mon
 	text_end
 
@@ -1232,15 +1238,15 @@ _WaitButtonText::
 
 _BallSentToPCText::
 	text_ram wMonOrItemNameBuffer
-	text " was"
-	line "sent to BILL's PC."
+	text " ging" ; " was"
+	line "naar BILL's PC." ; "sent to BILL's PC."
 	prompt
 
 _NewDexDataText::
 	text_ram wEnemyMonNickname
 	text "'s data"
-	line "was newly added to"
-	cont "the #DEX.@"
+	line "werd toegevoegd" ; "was newly added to"
+	cont "aan de #DEX.@" ; "the #DEX.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -1248,7 +1254,7 @@ _NewDexDataText::
 	text_end ; unreferenced
 
 _AskGiveNicknameText::
-	text "Give a nickname to"
+	text "Geef een naam aan" ; "Give a nickname to"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"
@@ -1259,50 +1265,50 @@ _ItemStatRoseText::
 	text "'s"
 	line "@"
 	text_ram wStringBuffer2
-	text " rose."
+	text " steeg." ; " rose."
 	prompt
 
 _ItemCantUseOnMonText::
-	text "That can't be used"
-	line "on this #MON."
+	text "Niet te gebruiken" ; "That can't be used"
+	line "op deze #MON." ; "on this #MON."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
-	line "earlier is still"
-	cont "in effect."
+	text "De VERJAAG die je" ; "The REPEL used"
+	line "eerder gebruikte" ; "earlier is still"
+	cont "werkt nog." ; "in effect."
 	prompt
 
 _PlayedFluteText::
-	text "Played the #"
+	text "Speelde de #" ; "Played the #"
 	line "FLUTE."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Nou, wat een leuk" ; "Now, that's a"
+	line "leuk deuntje!" ; "catchy tune!"
 	prompt
 
 _FluteWakeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Slapende #MON" ; "All sleeping"
+	line "werden wakker." ; "#MON woke up."
 	prompt
 
 Text_PlayedPokeFlute::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> speelde" ; "<PLAYER> played the"
+	line "de #FLUIT.@" ; "# FLUTE.@"
 	text_promptbutton
 	text_end
 
 	text_end ; unreferenced
 
 _BlueCardBalanceText::
-	text "You now have"
+	text "Je hebt nu" ; "You now have"
 	line "@"
 	text_decimal wBlueCardBalance, 1, 2
-	text " points."
+	text " punten." ; " points."
 	done
 
 _CoinCaseCountText::
-	text "Coins:"
+	text "Munten:" ; "Coins:"
 	line "@"
 	text_decimal wCoins, 2, 4
 	text_end
@@ -1310,217 +1316,218 @@ _CoinCaseCountText::
 	text_end ; unreferenced
 
 _RaiseThePPOfWhichMoveText::
-	text "Raise the PP of"
-	line "which move?"
+	text "Verhoog AP van" ; "Raise the PP of"
+	line "welke aanval?" ; "which move?"
 	done
 
 _RestoreThePPOfWhichMoveText::
-	text "Restore the PP of"
-	line "which move?"
+	text "Herstel AP van" ; "Restore the PP of"
+	line "welke aanval?" ; "which move?"
 	done
 
 _PPIsMaxedOutText::
 	text_ram wStringBuffer2
-	text "'s PP"
-	line "is maxed out."
+	text "'s AP" ; "'s PP"
+	line "is op zijn hoogst." ; "is maxed out."
 	prompt
 
 _PPsIncreasedText::
 	text_ram wStringBuffer2
-	text "'s PP"
-	line "increased."
+	text "'s AP" ; "'s PP"
+	line "is verhoogd." ; "increased."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "AP was hersteld." ; "PP was restored."
 	prompt
 
 _SentTrophyHomeText::
-	text "There was a trophy"
-	line "inside!@"
+	text "Er zat een" ; "There was a trophy"
+	line "trofee in!@" ; "inside!@"
 	sound_dex_fanfare_50_79
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " sent the"
-	line "trophy home."
+	text " zond de trofee" ; " sent the"
+	line "naar huis." ; "trophy home."
 	prompt
 
 _ItemLooksBitterText::
-	text "It looks bitter…"
+	text "Lijkt best bitter…" ; "It looks bitter…"
 	prompt
 
 _ItemCantUseOnEggText::
-	text "That can't be used"
-	line "on an EGG."
+	text "Dat werkt niet" ; "That can't be used"
+	line "op een EI." ; "on an EGG."
 	prompt
 
 _ItemOakWarningText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	line "Dit is niet het" ; "This isn't the"
+	cont "moment daarvoor!" ; "time to use that!"
 	prompt
 
 _ItemBelongsToSomeoneElseText::
-	text "That belongs to"
-	line "someone else!"
+	text "Dat is van iemand" ; "That belongs to"
+	line "anders!" ; "someone else!"
 	prompt
 
 _ItemWontHaveEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Het zal geen" ; "It won't have any"
+	line "effect hebben." ; "effect."
 	prompt
 
 _BallBlockedText::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "De trainer" ; "The trainer"
+	line "blokkeerde de BAL!" ; "blocked the BALL!"
 	prompt
 
 _BallDontBeAThiefText::
-	text "Don't be a thief!"
+	text "Niet stelen!" ; "Don't be a thief!"
 	prompt
 
 _NoCyclingText::
-	text "Cycling isn't"
-	line "allowed here."
+	text "Fietsen is hier" ; "Cycling isn't"
+	line "niet toegestaan." ; "allowed here."
 	prompt
 
 _ItemCantGetOnText::
-	text "Can't get on your"
+	text "Kunt nu niet op je" ; "Can't get on your"
 	line "@"
 	text_ram wStringBuffer1
-	text " now."
+	text " stappen." ; " now."
 	prompt
 
 _BallBoxFullText::
-	text "The #MON BOX"
-	line "is full. That"
-	cont "can't be used now."
+	text "De #MON DOOS" ; "The #MON BOX"
+	line "is vol. Dat kun je" ; "is full. That"
+	cont "nu niet gebruiken." ; "can't be used now."
 	prompt
 
 _ItemUsedText::
-	text "<PLAYER> used the@"
+	text "<PLAYER> gebruikte@" ; "<PLAYER> used the@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _ItemGotOnText::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> ging op de@" ; "<PLAYER> got on the@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _ItemGotOffText::
-	text "<PLAYER> got off@"
+	text "<PLAYER> stapte van@" ; "<PLAYER> got off@"
 	text_low
-	text "the @"
+	text "de @" ; "the @"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _KnowsMoveText::
 	text_ram wStringBuffer1
-	text " knows"
+	text " kent" ; " knows"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _MoveKnowsOneText::
-	text "That #MON knows"
-	line "only one move."
+	text "Die #MON kent" ; "That #MON knows"
+	line "een enkele aanval." ; "only one move."
 	done
 
 _AskDeleteMoveText::
-	text "Oh, make it forget"
+	text "Oh, wil je" ; "Oh, make it forget"
 	line "@"
 	text_ram wStringBuffer1
-	text "?"
+	text " ver-" ; "?"
+	cont "geten?"
 	done
 
 _DeleterForgotMoveText::
-	text "Done! Your #MON"
-	line "forgot the move."
+	text "Klaar! Je #MON" ; "Done! Your #MON"
+	line "vergat de aanval." ; "forgot the move."
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
-	line "know any moves!"
+	text "Een EI kent geen" ; "An EGG doesn't"
+	line "aanvallen!" ; "know any moves!"
 	done
 
 _DeleterNoComeAgainText::
-	text "No? Come visit me"
-	line "again."
+	text "Nee? Bezoek me" ; "No? Come visit me"
+	line "later weer." ; "again."
 	done
 
 _DeleterAskWhichMoveText::
-	text "Which move should"
-	line "it forget, then?"
+	text "Welke aanval moet" ; "Which move should"
+	line "worden vergeten?" ; "it forget, then?"
 	prompt
 
 _DeleterIntroText::
-	text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER."
+	text "Um… Oh, ja, Ik ben" ; "Um… Oh, yes, I'm"
+	line "de AANVALWISSER." ; "the MOVE DELETER."
 
-	para "I can make #MON"
-	line "forget moves."
+	para "Ik wis aanvallen" ; "I can make #MON"
+	line "van je #MON." ; "forget moves."
 
-	para "Shall I make a"
-	line "#MON forget?"
+	para "Moet ik helpen een" ; "Shall I make a"
+	line "aanval te wissen?" ; "#MON forget?"
 	done
 
 _DeleterAskWhichMonText::
-	text "Which #MON?"
+	text "Welke #MON?" ; "Which #MON?"
 	prompt
 
 _DSTIsThatOKText::
-	text " DST,"
-	line "is that OK?"
+	text " ZMR," ; " DST,"
+	line "is dat OK?" ; "is that OK?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "is dat OK?" ; "is that OK?"
 	done
 
 _TimesetAskDSTText::
-	text "Do you want to"
-	line "switch to Daylight"
-	cont "Saving Time?"
+	text "Wil je wisselen" ; "Do you want to"
+	line "naar de Zomer-" ; "switch to Daylight"
+	cont "tijd?" ; "Saving Time?"
 	done
 
 _TimesetDSTText::
-	text "I set the clock"
-	line "forward by one"
-	cont "hour."
+	text "Ik heb de klok één" ; "I set the clock"
+	line "uur voor je" ; "forward by one"
+	cont "vooruitgezet." ; "hour."
 	prompt
 
 _TimesetAskNotDSTText::
-	text "Is Daylight Saving"
-	line "Time over?"
+	text "Is de Wintertijd" ; "Is Daylight Saving"
+	line "aangebroken?" ; "Time over?"
 	done
 
 _TimesetNotDSTText::
-	text "I put the clock"
-	line "back one hour."
+	text "De klok is één uur" ; "I put the clock"
+	line "achteruitgezet." ; "back one hour."
 	prompt
 
 _TimesetAskAdjustDSTText::
-	text "Do you want to"
-	line "adjust your clock"
+	text "Wil je de klok" ; "Do you want to"
+	line "aanpassen" ; "adjust your clock"
 
-	para "for Daylight"
-	line "Saving Time?"
+	para "voor de Zomer-" ; "for Daylight"
+	line "tijd?" ; "Saving Time?"
 	done
 
 _MomLostGearBookletText::
-	text "I lost the in-"
-	line "struction booklet"
-	cont "for the #GEAR."
+	text "Ik ben de hand-" ; "I lost the in-"
+	line "leiding van de" ; "struction booklet"
+	cont "#GEAR kwijt." ; "for the #GEAR."
 
-	para "Come back again in"
-	line "a while."
+	para "Kom over een" ; "Come back again in"
+	line "tijdje terug." ; "a while."
 	prompt
