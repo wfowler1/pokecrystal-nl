@@ -85,8 +85,8 @@ SandstormHitsText:
 	prompt
 
 PerishCountText:
-	text "<USER>'s"
-	line "STERF-telling is @" ; "PERISH count is @"
+	text "<USER>'s STERF-"
+	line "telling is @" ; "PERISH count is @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
@@ -169,10 +169,11 @@ BattleText_EnemyMonFainted:
 	prompt
 
 GotMoneyForWinningText:
-	text "<PLAYER> kreeg ¥@" ; "<PLAYER> got ¥@"
+	text "<PLAYER> kreeg" ; "<PLAYER> got ¥@"
+	line "¥@"
 	text_decimal wBattleReward, 3, 6
-	text_start
-	line "voor de winst!" ; "for winning!"
+	text " voor de" ; text_start
+	cont "winst!" ; "for winning!"
 	prompt
 
 BattleText_EnemyWasDefeated:
@@ -186,10 +187,11 @@ TiedAgainstText:
 	prompt
 
 SentSomeToMomText:
-	text "<PLAYER> kreeg ¥@" ; "<PLAYER> got ¥@"
+	text "<PLAYER> kreeg" ; "<PLAYER> got ¥@"
+	line "¥@"
 	text_decimal wBattleReward, 3, 6
-	text_start
-	line "voor de winst!" ; "for winning!"
+	text "voor de" ; text_start
+	cont "winst!" ; "for winning!"
 	cont "Beetje naar MAM!" ; "Sent some to MOM!"
 	prompt
 
@@ -424,8 +426,9 @@ BecameConfusedText:
 BattleText_ItemHealedConfusion:
 	text "Een @" ; "A @"
 	text_ram wStringBuffer1
-	text "haalde verwarring" ; " rid"
-	line "<TARGET> weg." ; "<TARGET>"
+	text_start
+	line "haalde verwarring" ; " rid"
+	cont "<TARGET> weg." ; "<TARGET>"
 	; cont "of its confusion."
 	prompt
 
