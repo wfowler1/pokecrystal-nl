@@ -278,7 +278,7 @@ ContestResults_PartyFullText:
 	line "Dus de #MON is" ; "so the #MON was"
 
 	para "gestuurd naar je" ; "sent to your BOX"
-	line "DOOS in BILL's PC." ; "in BILL's PC."
+	line "BOX in BILL's PC." ; "in BILL's PC."
 	done
 
 GymStatue_CityGymText:

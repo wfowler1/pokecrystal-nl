@@ -82,7 +82,7 @@ _BillsPC:
 .strings
 	db "HAAL <PK><MN>@" ; "WITHDRAW <PK><MN>@"
 	db "STORT <PK><MN>@" ; "DEPOSIT <PK><MN>@"
-	db "WISSEL DOOS@" ; "CHANGE BOX@"
+	db "WISSEL BOX@" ; "CHANGE BOX@"
 	db "VERPLAATS <PK><MN>@" ; "MOVE <PK><MN> W/O MAIL@"
 	db "WEG!@" ; "SEE YA!@"
 

@@ -262,7 +262,7 @@ SetDefaultBoxNames:
 	ret
 
 .Box:
-	db "DOOS@" ; "BOX@"
+	db "BOX@"
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet

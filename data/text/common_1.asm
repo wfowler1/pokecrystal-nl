@@ -1226,7 +1226,7 @@ _DoesntConcernABoyText:: ; unreferenced
 	done
 
 _TheBoxIsFullText:: ; unreferenced
-	text "De DOOS is vol!" ; "The BOX is full!"
+	text "De BOX is vol!" ; "The BOX is full!"
 	done
 
 ; Mobile Adapter

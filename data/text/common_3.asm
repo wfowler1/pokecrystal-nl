@@ -1400,7 +1400,7 @@ _ItemCantGetOnText::
 	prompt
 
 _BallBoxFullText::
-	text "De #MON DOOS" ; "The #MON BOX"
+	text "De #MON BOX" ; "The #MON BOX"
 	line "is vol. Dat kun je" ; "is full. That"
 	cont "nu niet gebruiken." ; "can't be used now."
 	prompt
