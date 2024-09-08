@@ -13,16 +13,16 @@ GuideGentsHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 GuideGentsHouseGuideGentText:
-	text "When I was a wee"
-	line "lad, I was a hot-"
-	cont "shot trainer!"
+	text "Toen ik een jochie" ; "When I was a wee"
+	line "was, was ik een" ; "lad, I was a hot-"
+	cont "trainer!" ; "shot trainer!"
 
-	para "Here's a word of"
-	line "advice: Catch lots"
-	cont "of #MON!"
+	para "Hier wat advies:" ; "Here's a word of"
+	line "vang heel veel" ; "advice: Catch lots"
+	cont "#MON!" ; "of #MON!"
 
-	para "Treat them all"
-	line "with kindness!"
+	para "Behandel ze" ; "Treat them all"
+	line "goed!" ; "with kindness!"
 	done
 
 GuideGentsHouse_MapEvents:

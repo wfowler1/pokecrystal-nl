@@ -25,18 +25,18 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
-	line "rience in battle"
+	text "#MON krijgen" ; "#MON gain expe-"
+	line "ervaring in ge-" ; "rience in battle"
 
-	para "and change their"
-	line "form."
+	para "vechten en veran-" ; "and change their"
+	line "deren van vorm." ; "form."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON change?"
+	text "#MON-evolutie?" ; "#MON change?"
 
-	para "I would be shocked"
-	line "if one did that!"
+	para "Ik zou me kapot" ; "I would be shocked"
+	line "schrikken!" ; "if one did that!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

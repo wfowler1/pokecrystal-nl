@@ -334,214 +334,215 @@ CherrygroveCity_RivalExitsStageLeft:
 	step_end
 
 GuideGentIntroText:
-	text "You're a rookie"
-	line "trainer, aren't"
-	cont "you? I can tell!"
+	text "Je bent een be-" ; "You're a rookie"
+	line "ginnende trainer," ; "trainer, aren't"
+	cont "zeker? Ik zie het!" ; "you? I can tell!"
 
-	para "That's OK! Every-"
-	line "one is a rookie"
-	cont "at some point!"
+	para "Niks mis mee!-" ; "That's OK! Every-"
+	line "iedereen is ooit" ; "one is a rookie"
+	cont "een beginner!" ; "at some point!"
 
-	para "If you'd like, I"
-	line "can teach you a"
-	cont "few things."
+	para "Als je wil, kan ik" ; "If you'd like, I"
+	line "je wat dingen" ; "can teach you a"
+	cont "leren." ; "few things."
 	done
 
 GuideGentTourText1:
-	text "OK, then!"
-	line "Follow me!"
+	text "OK, dan!" ; "OK, then!"
+	line "Volg mij!" ; "Follow me!"
 	done
 
 GuideGentPokecenterText:
-	text "This is a #MON"
-	line "CENTER. They heal"
+	text "Dit is een" ; "This is a #MON"
+	line "#MONCENTRUM." ; "CENTER. They heal"
 
-	para "your #MON in no"
-	line "time at all."
+	para "Zij genezen je" ; "your #MON in no"
+	line "#MON heel snel." ; "time at all."
 
-	para "You'll be relying"
-	line "on them a lot, so"
+	para "Je gaat er veel" ; "You'll be relying"
+	line "gebruik van maken," ; "on them a lot, so"
 
-	para "you better learn"
-	line "about them."
+	para "dus leer ze goed" ; "you better learn"
+	line "kennen." ; "about them."
 	done
 
 GuideGentMartText:
-	text "This is a #MON"
-	line "MART."
+	text "Dit is een" ; "This is a #MON"
+	line "#MONMARKT." ; "MART."
 
-	para "They sell BALLS"
-	line "for catching wild"
+	para "Zij hebben BALLEN" ; "They sell BALLS"
+	line "voor wilde #MON" ; "for catching wild"
 
-	para "#MON and other"
-	line "useful items."
+	para "en andere handige" ; "#MON and other"
+	line "spullen." ; "useful items."
 	done
 
 GuideGentRoute30Text:
-	text "ROUTE 30 is out"
-	line "this way."
+	text "ROUTE 30 is die" ; "ROUTE 30 is out"
+	line "kant op." ; "this way."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Trainers vechten" ; "Trainers will be"
+	line "daar met hun" ; "battling their"
 
-	para "prized #MON"
-	line "there."
+	para "#MON tegen" ; "prized #MON"
+	line "elkaar." ; "there."
 	done
 
 GuideGentSeaText:
-	text "This is the sea,"
-	line "as you can see."
+	text "Dit is de zee," ; "This is the sea,"
+	line "het is me wad." ; "as you can see."
 
-	para "Some #MON are"
-	line "found only in"
-	cont "water."
+	para "Sommige #MON" ; "Some #MON are"
+	line "vind je alleen in" ; "found only in"
+	cont "het water." ; "water."
 	done
 
 GuideGentGiftText:
-	text "Here…"
+	text "Kijk…" ; "Here…"
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "Dit is mijn huis!" ; "It's my house!"
+	line "Bedankt voor je" ; "Thanks for your"
+	cont "gezelschap." ; "company."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Ik heb een klein-" ; "Let me give you a"
+	line "igheidje voor je." ; "small gift."
 	done
 
 GotMapCardText:
-	text "<PLAYER>'s #GEAR"
-	line "now has a MAP!"
+	text "<PLAYER>'s #GEAR" ; "<PLAYER>'s #GEAR"
+	line "heeft een KAART!" ; "now has a MAP!"
 	done
 
 GuideGentPokegearText:
-	text "#GEAR becomes"
-	line "more useful as you"
-	cont "add CARDS."
+	text "#GEAR wordt" ; "#GEAR becomes"
+	line "nuttiger als je" ; "more useful as you"
+	cont "functies toevoegt." ; "add CARDS."
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "Veel succes op je" ; "I wish you luck on"
+	line "reis!" ; "your journey!"
 	done
 
 GuideGentNoText:
-	text "Oh… It's something"
-	line "I enjoy doing…"
+	text "Oh… Ik vind het" ; "Oh… It's something"
+	line "leuk om te doen…" ; "I enjoy doing…"
 
-	para "Fine. Come see me"
-	line "when you like."
+	para "Prima. Kom maar" ; "Fine. Come see me"
+	line "langs als je wil." ; "when you like."
 	done
 
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "Je hebt een #-" ; "You got a #MON"
+	line "MON uit het lab." ; "at the LAB."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Wat zonde. Een" ; "What a waste."
+	line "watje zoals jij." ; "A wimp like you."
 
 	para "<……> <……> <……>"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Hoor je niet wat" ; "Don't you get what"
+	line "ik zeg?" ; "I'm saying?"
 
-	para "Well, I too, have"
-	line "a good #MON."
+	para "Nou, ik heb ook" ; "Well, I too, have"
+	line "een goede #MON." ; "a good #MON."
 
-	para "I'll show you"
-	line "what I mean!"
+	para "Ik laat je zien" ; "I'll show you"
+	line "wat ik bedoel!" ; "what I mean!"
 	done
 
 RivalCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Humph. Ben je blij" ; "Humph. Are you"
+	line "dat je won?" ; "happy you won?"
 	done
 
 CherrygroveRivalText_YouLost:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Ik heet ???." ; "My name's ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ik ga de beste" ; "I'm going to be"
+	line "#MON-trainer" ; "the world's great-"
+	cont "ter wereld worden." ; "est #MON"
+	; cont "trainer."
 	done
 
 RivalCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Humph. Wat een" ; "Humph. That was a"
+	line "tijdsverspilling." ; "waste of time."
 	done
 
 CherrygroveRivalText_YouWon:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Ik heet ???." ; "My name's ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ik ga de beste" ; "I'm going to be"
+	line "#MON-trainer" ; "the world's great-"
+	cont "ter wereld worden." ; "est #MON"
+	; cont "trainer."
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Did you talk to"
-	line "the old man by the"
-	cont "#MON CENTER?"
+	text "Heb je de oude man" ; "Did you talk to"
+	line "bij het #MON-" ; "the old man by the"
+	cont "CENTRUM gesproken?" ; "#MON CENTER?"
 
-	para "He'll put a MAP of"
-	line "JOHTO on your"
+	para "Hij stopt de kaart" ; "He'll put a MAP of"
+	line "van JOHTO in je" ; "JOHTO on your"
 	cont "#GEAR."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#MON, going"
-	cont "anywhere is fun."
+	text "Als je met #MON" ; "When you're with"
+	line "bent, is iedere" ; "#MON, going"
+	cont "reis leuk." ; "anywhere is fun."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "MR.#MON's huis" ; "MR.#MON's house"
+	line "is nog een stukje" ; "is still farther"
+	cont "verderop." ; "up ahead."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "Ik vocht met de" ; "I battled the"
+	line "trainers op de" ; "trainers on the"
+	cont "weg." ; "road."
 
-	para "My #MON lost."
-	line "They're a mess! I"
+	para "Ik verloor. Mijn" ; "My #MON lost."
+	line "#MON zijn ge-" ; "They're a mess! I"
+	cont "wond!"
 
-	para "must take them to"
-	line "a #MON CENTER."
+	para "Ze moeten naar een" ; "must take them to"
+	line "#MONCENTRUM." ; "a #MON CENTER."
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #MON I caught"
-	line "had an item."
+	text "Een #MON die ik" ; "A #MON I caught"
+	line "ving had wat vast." ; "had an item."
 
-	para "I think it's"
-	line "MYSTIC WATER."
+	para "Het was denk ik" ; "I think it's"
+	line "MYSTIEKWATER." ; "MYSTIC WATER."
 
-	para "I don't need it,"
-	line "so do you want it?"
+	para "Ik hoef het niet," ; "I don't need it,"
+	line "wil jij het?" ; "so do you want it?"
 	done
 
 MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
+	text "Ik ga maar weer" ; "Back to fishing"
+	line "vissen, denk ik." ; "for me, then."
 	done
 
 CherrygroveCitySignText:
 	text "CHERRYGROVE CITY"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "Stad van schattige" ; "The City of Cute,"
+	line "geurende bloemen." ; "Fragrant Flowers"
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "HUIS VAN GIDSGOZER" ; "GUIDE GENT'S HOUSE"
 	done
 
 CherrygroveCity_MapEvents:
