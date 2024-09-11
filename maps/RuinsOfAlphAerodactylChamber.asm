@@ -108,9 +108,8 @@ RuinsOfAlphAerodactylChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphAerodactylChamberWallPatternLeftText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patronen versche-" ; "Patterns appeared"
+	line "nen op de muren…" ; "on the walls…"
 	done
 
 RuinsOfAlphAerodactylChamberUnownText: ; unreferenced
@@ -119,9 +118,8 @@ RuinsOfAlphAerodactylChamberUnownText: ; unreferenced
 	done
 
 RuinsOfAlphAerodactylChamberWallPatternRightText:
-	text "Patronen ges-" ; "Patterns appeared"
-	line "chreefde op de" ; "on the walls…"
-	cont "muur…"
+	text "Patronen versche-" ; "Patterns appeared"
+	line "nen op de muren…" ; "on the walls…"
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:

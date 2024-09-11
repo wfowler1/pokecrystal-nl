@@ -45,7 +45,7 @@ RuinsOfAlphStrangePresenceText:
 	done
 
 RuinsOfAlphInnerChamberFisherText:
-	text "Deze is een grote" ; "This is a big"
+	text "Dit is een grote" ; "This is a big"
 	line "kamer, maar hier" ; "room, but there's"
 	cont "is niets." ; "nothing here."
 	done
@@ -62,10 +62,10 @@ RuinsOfAlphInnerChamberTeacherText:
 RuinsOfAlphInnerChamberGrampsText:
 	text "Oude gebouwen zijn" ; "Ancient buildings"
 	line "vaak graftombes" ; "are often tombs of"
-	cont "voor koningen." ; "kings."
+	cont "van koningen." ; "kings."
 
-	para "Zoals de piramides" ; "Like the pyramids,"
-	line "bijvoorbeeld." ; "for instance."
+	para "Zoals bijvoorbeeld" ; "Like the pyramids,"
+	line "de piramides." ; "for instance."
 	done
 
 RuinsOfAlphInnerChamberStatueText:
