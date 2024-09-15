@@ -20,63 +20,63 @@ ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 ElmsWifeText:
-	text "Hi, <PLAY_G>! My"
-	line "husband's always"
+	text "He, <PLAY_G>! Mijn" ; "Hi, <PLAY_G>! My"
+	line "man is altijd zo" ; "husband's always"
 
-	para "so busy--I hope"
-	line "he's OK."
+	para "druk--Ik hoop dat" ; "so busy--I hope"
+	line "het oké gaat." ; "he's OK."
 
-	para "When he's caught"
-	line "up in his #MON"
+	para "Als hij werkt met" ; "When he's caught"
+	line "#MON, vergeet" ; "up in his #MON"
 
-	para "research, he even"
-	line "forgets to eat."
+	para "hij zelfs om te" ; "research, he even"
+	line "eten." ; "forgets to eat."
 	done
 
 ElmsSonText:
-	text "When I grow up,"
-	line "I'm going to help"
-	cont "my dad!"
+	text "Als ik groot ben," ; "When I grow up,"
+	line "ga ik mijn papa" ; "I'm going to help"
+	cont "helpen!" ; "my dad!"
 
-	para "I'm going to be a"
-	line "great #MON"
-	cont "professor!"
+	para "Ik ga een beroemde" ; "I'm going to be a"
+	line "#MON-professor" ; "great #MON"
+	cont "worden!" ; "professor!"
 	done
 
 ElmsHouseLabFoodText: ; unreferenced
-	text "There's some food"
-	line "here. It must be"
-	cont "for the LAB."
+	text "Er staat eten." ; "There's some food"
+	line "Het is vast voor" ; "here. It must be"
+	cont "het LAB." ; "for the LAB."
 	done
 
 ElmsHousePokemonFoodText: ; unreferenced
-	text "There's some food"
-	line "here. This must be"
-	cont "for #MON."
+	text "Er staat eten." ; "There's some food"
+	line "Het is vast voor" ; "here. This must be"
+	cont "#MON." ; "for #MON."
 	done
 
 ElmsHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
+	text "#MON. Waar komen" ; "#MON. Where do"
+	line "ze vandaan?" ; "they come from? "
 
-	para "Where are they"
-	line "going?"
+	para "Waar gaan ze naar-" ; "Where are they"
+	line "toe?" ; "going?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
+	para "Waarom zag niemand" ; "Why has no one"
+	line "de geboorte van" ; "ever witnessed a"
+	cont "#MON?" ; "#MON's birth?"
 
-	para "I want to know! I"
-	line "will dedicate my"
+	para "Ik wil het weten!" ; "I want to know! I"
+	line "Ik wijd mijn leven" ; "will dedicate my"
 
-	para "life to the study"
-	line "of #MON!"
+	para "aan de studie van" ; "life to the study"
+	line "#MON!" ; "of #MON!"
 
 	para "…"
 
-	para "It's a part of"
-	line "PROF.ELM's re-"
-	cont "search papers."
+	para "Het is deel van" ; "It's a part of"
+	line "PROF.ELM's onder-" ; "PROF.ELM's re-"
+	cont "zoekspapieren." ; "search papers."
 	done
 
 ElmsHouse_MapEvents:

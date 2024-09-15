@@ -94,22 +94,22 @@ PlayersHousePCScript:
 
 PlayersRadioText1:
 	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	line "SHOW! Luister vol-" ; "TALK! Please tune"
+	cont "gende keer weer!" ; "in next time!"
 	done
 
 PlayersRadioText2:
-	text "#MON CHANNEL!"
+	text "#MON KANAAL!" ; "#MON CHANNEL!"
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "Dit is DJ MARY," ; "This is DJ MARY,"
+	line "je co-host!" ; "your co-host!"
 	done
 
 PlayersRadioText4:
 	text "#MON!"
-	line "#MON CHANNEL…"
+	line "#MON KANAAL…" ; "#MON CHANNEL…"
 	done
 
 PlayersHouse2F_MapEvents:
