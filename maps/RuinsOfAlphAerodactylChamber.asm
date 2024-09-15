@@ -135,7 +135,7 @@ RuinsOfAlphAerodactylChamberAncientReplicaText:
 
 RuinsOfAlphAerodactylChamberDescriptionText:
 	text "Deze vliegende" ; "This flying #-"
-	line "#MON vielte" ; "MON attacked its"
+	line "#MON viel" ; "MON attacked its"
 
 	para "zijn prooi aan met" ; "prey with saw-like"
 	line "tanden als zagen." ; "fangs."
