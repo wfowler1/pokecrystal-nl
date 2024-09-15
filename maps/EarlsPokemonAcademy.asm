@@ -118,7 +118,7 @@ AcademyBlackboard:
 	db "VLM@" ; "PAR@"
 	db "SLP@"
 	db "BRN@"
-	db "BEV@" ; "FRZ@"
+	db "BVR@" ; "FRZ@"
 	db "UIT@"; "QUIT@"
 
 AcademyNotebook:
@@ -161,10 +161,10 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "EARL, I am!"
+	text "EARL, ik ben!" ; "EARL, I am!"
 
-	para "Wonderful are"
-	line "#MON, yes!"
+	para "Prachtig zijn" ; "Wonderful are"
+	line "#MON, ja!" ; "#MON, yes!"
 
 	para "Teach you I will"
 	line "to be a better"
