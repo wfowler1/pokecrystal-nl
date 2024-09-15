@@ -169,83 +169,83 @@ Route46FruitTree2:
 	fruittree FRUITTREE_ROUTE_46_2
 
 HikerBaileySeenText:
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #MON!"
+	text "Oke! Ik laat je" ; "Awright! I'll show"
+	line "de kracht zien van" ; "you the power of"
+	cont "berg-#MON!" ; "mountain #MON!"
 	done
 
 HikerBaileyBeatenText:
-	text "Mercy! You showed"
-	line "me your power!"
+	text "Genade! Je liet me" ; "Mercy! You showed"
+	line "jouw kracht zien!" ; "me your power!"
 	done
 
 HikerBaileyAfterBattleText:
-	text "It's over. I don't"
-	line "mind. We HIKERS"
-	cont "are like that."
+	text "Het is voorbij." ; "It's over. I don't"
+	line "Prima hoor. Zo" ; "mind. We HIKERS"
+	cont "zijn wandelaars." ; "are like that."
 	done
 
 CamperTedSeenText:
-	text "I'm raising #-"
-	line "MON too!"
+	text "Ik voed ook #-" ; "I'm raising #-"
+	line "MON op!" ; "MON too!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Wil je met mij" ; "Will you battle"
+	line "vechten?" ; "with me?"
 	done
 
 CamperTedBeatenText:
-	text "Wha…?"
+	text "Wa…?" ; "Wha…?"
 	done
 
 CamperTedAfterBattleText:
-	text "I did my best but"
-	line "came up short."
+	text "Ik deed mijn best" ; "I did my best but"
+	line "en faalde toch." ; "came up short."
 
-	para "No excuses--I"
-	line "admit I lost."
+	para "Geen smoesjes--Ik" ; "No excuses--I"
+	line "verloor van je." ; "admit I lost."
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #MON"
-	line "too!"
+	text "Ik voed ook #-" ; "I raise #MON"
+	line "MON op!" ; "too!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Wil je met mij" ; "Will you battle"
+	line "vechten?" ; "with me?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, rats!"
+	text "Oh, drommels!" ; "Oh, rats!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "I've been to many"
-	line "GYMS, but the GYM"
+	text "Ik ben in veel" ; "I've been to many"
+	line "geweest, maar die" ; "GYMS, but the GYM"
 
-	para "in GOLDENROD is my"
-	line "favorite."
+	para "in GOLDENROD is" ; "in GOLDENROD is my"
+	line "mijn favoriet." ; "favorite."
 
-	para "It's filled with"
-	line "pretty flowers!"
+	para "Hij staat vol met" ; "It's filled with"
+	line "mooie bloemen!" ; "pretty flowers!"
 	done
 
 PicnickerErin2BeatenText:
-	text "Aww… I keep losing"
-	line "all the time!"
+	text "Aww… Ik blijf maar" ; "Aww… I keep losing"
+	line "steeds verliezen!" ; "all the time!"
 
-	para "I'll just have to"
-	line "try harder!"
+	para "Ik moet meer mijn" ; "I'll just have to"
+	line "best gaan doen!" ; "try harder!"
 
-	para "Anyway, thanks for"
-	line "battling me again"
+	para "Hoe dan ook, be-" ; "Anyway, thanks for"
+	line "dankt dat je weer" ; "battling me again"
 
-	para "and again. Here's"
-	line "that present from"
-	cont "the other time."
+	para "wilde vechten. En" ; "and again. Here's"
+	line "hier is dat cadeau" ; "that present from"
+	cont "van laatst." ; "the other time."
 	done
 
 Route46SignText:
 	text "ROUTE 46"
-	line "MOUNTAIN RD. AHEAD"
+	line "BERGPAD NABIJ" ; "MOUNTAIN RD. AHEAD"
 	done
 
 Route46_MapEvents:
