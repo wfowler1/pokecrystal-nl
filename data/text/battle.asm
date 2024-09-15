@@ -350,7 +350,7 @@ BattleText_TargetsEncoreEnded:
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
 	text " groeide naar" ; " grew to"
-	line "niveau @" ; "level @"
+	line "level @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79

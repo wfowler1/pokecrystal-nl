@@ -312,7 +312,7 @@ _SeerTimeLevelText::
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Het niveau was @" ; "Its level was @"
+	para "Het level was @" ; "Its level was @"
 	text_ram wSeerCaughtLevelString
 	text "!"
 
@@ -352,7 +352,7 @@ _SeerNoLocationText::
 	para "Ik weet niet waar" ; "I can't tell where"
 	line "je het ontmoette," ; "you met it, but it"
 	cont "maar het was" ; "was at level @"
-	cont "niveau @"
+	cont "level @"
 	text_ram wSeerCaughtLevelString
 	text "."
 

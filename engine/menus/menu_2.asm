@@ -202,7 +202,7 @@ StartMenu_PrintBugContestStatus:
 .NoneString:
 	db "Geen@" ; "None@"
 .LevelString:
-	db "NIVEAU@" ; "LEVEL@"
+	db "LEVEL@"
 
 FindApricornsInBag:
 ; Checks the bag for Apricorns.

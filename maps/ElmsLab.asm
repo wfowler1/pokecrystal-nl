@@ -1115,7 +1115,7 @@ ElmGiveEverstoneText2:
 	line "#MON evolueren" ; "#MON evolve"
 
 	para "als ze een bepaald" ; "when they grow to"
-	line "niveau bereiken." ; "certain levels."
+	line "level bereiken." ; "certain levels."
 
 	para "Een #MON met" ; "A #MON holding"
 	line "een EEUWIGSTEEN" ; "the EVERSTONE"
