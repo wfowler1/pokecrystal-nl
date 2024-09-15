@@ -709,13 +709,13 @@ LoadPinkPage:
 	db "OK @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "ERV PUNTEN@" ; "EXP POINTS@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "VOOR LEVEL@" ; "LEVEL UP@"
 
 .ToStr:
-	db "TO@"
+	db "TE@" ; "TO@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -757,13 +757,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "OBJECT@" ; "ITEM@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "AANVAL@" ; "MOVE@"
 
 LoadBluePage:
 	call .PlaceOTInfo
@@ -1014,12 +1014,12 @@ EggStatsScreen:
 	call PlaceString
 if DEF(_DEBUG)
 	ld de, .PushStartString
-	hlcoord 8, 17
+	hlcoord 3, 17
 	call PlaceString
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶PUSH START.@"
+	db "▶DRUK OP START.@" ; "▶PUSH START.@"
 
 .placed_push_start
 endc
