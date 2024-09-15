@@ -189,7 +189,7 @@ RuinsOfAlphKabutoChamberScientistHoleText:
 	line "een groot gat!" ; "huge hole!"
 
 	para "Het is groot" ; "It's big enough to"
-	line "genoeg om doorheen ; "go through!"
+	line "genoeg om doorheen" ; "go through!"
 	cont "te gaan!"
 	done
 
