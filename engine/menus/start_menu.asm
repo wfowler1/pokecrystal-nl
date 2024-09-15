@@ -193,7 +193,7 @@ StartMenu::
 .SaveString:     db "OPSLAAN@" ; "SAVE@"
 .OptionString:   db "OPTIES@" ; "OPTION@"
 .ExitString:     db "UITGAAN@" ; "EXIT@"
-.PokegearString: db "<POKE>COM@" ; "<POKE>GEAR@"
+.PokegearString: db "<POKE>GEAR@"
 .QuitString:     db "STOP@" ; "QUIT@"
 
 .PokedexDesc:
