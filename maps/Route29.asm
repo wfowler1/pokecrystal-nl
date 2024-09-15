@@ -247,155 +247,155 @@ DudeMovementData2b:
 	step_end
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
+	text "#MON verstoppen" ; "#MON hide in"
+	line "in gras. Wie weet" ; "the grass. Who"
 
-	para "knows when they'll"
-	line "pop out…"
+	para "wanneer ze omhoog-" ; "knows when they'll"
+	line "springen…" ; "pop out…"
 	done
 
 CatchingTutorialIntroText:
-	text "I've seen you a"
-	line "couple times. How"
+	text "Ik zag je al een" ; "I've seen you a"
+	line "paar keer. Hoeveel" ; "couple times. How"
 
-	para "many #MON have"
-	line "you caught?"
+	para "#MON heb je" ; "many #MON have"
+	line "gevangen?" ; "you caught?"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Wil je dat ik laat" ; "Would you like me"
+	line "zien hoe je een" ; "to show you how to"
+	cont "#MON vangt?" ; "catch #MON?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "Dat is dus hoe het" ; "That's how you do"
+	line "moet." ; "it."
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Als je ze eerst" ; "If you weaken them"
+	line "verzwakt, vang je" ; "first, #MON are"
+	cont "#MON sneller." ; "easier to catch."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. Oké, prima." ; "Oh. Fine, then."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "Maarre, als je" ; "Anyway, if you"
+	line "#MON wil vang-" ; "want to catch"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "en, moet je veel" ; "#MON, you have"
+	line "rondlopen." ; "to walk a lot."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Huh? Moet ik laten" ; "Huh? You want me"
+	line "zien hoe je" ; "to show you how to"
+	cont "#MON vangt?" ; "catch #MON?"
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
+	text "Yo. Hoe gaat het" ; "Yo. How are your"
+	line "met je #MON?" ; "#MON?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "Als ze zwak zijn" ; "If they're weak"
+	line "en niet kunnen" ; "and not ready for"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "vechten, blijf uit" ; "battle, keep out"
+	line "het gras." ; "of the grass."
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "Zie je de richels?" ; "See those ledges?"
+	line "Het is eng om er" ; "It's scary to jump"
+	cont "af te springen." ; "off them."
 
-	para "But you can go to"
-	line "NEW BARK without"
+	para "Maar je komt dan" ; "But you can go to"
+	line "in NEW BARK zonder" ; "NEW BARK without"
 
-	para "walking through"
-	line "the grass."
+	para "door het gras te" ; "walking through"
+	line "lopen." ; "the grass."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Ik wilde even uit-" ; "I wanted to take a"
+	line "rusten, dus heb" ; "break, so I saved"
 
-	para "to record my"
-	line "progress."
+	para "mijn voortgang" ; "to record my"
+	line "opgeslagen." ; "progress."
 	done
 
 Route29CooltrainerMText_WaitingForDay: ; unreferenced
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ik wacht op" ; "I'm waiting for"
+	line "#MON die" ; "#MON that"
 
-	para "appear only in the"
-	line "daytime."
+	para "alleen overdag" ; "appear only in the"
+	line "verschijnen." ; "daytime."
 	done
 
 Route29CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ik wacht op" ; "I'm waiting for"
+	line "#MON die" ; "#MON that"
 
-	para "appear only at"
-	line "night."
+	para "alleen in de nacht" ; "appear only at"
+	line "verschijnen." ; "night."
 	done
 
 Route29CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ik wacht op" ; "I'm waiting for"
+	line "#MON die" ; "#MON that"
 
-	para "appear only in the"
-	line "morning."
+	para "alleen in de och-" ; "appear only in the"
+	line "tend verschijnen." ; "morning."
 	done
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "TUSCANY: Dit is" ; "TUSCANY: I do be-"
+	line "denk ik de eerste" ; "lieve that this is"
 
-	para "the first time"
-	line "we've met?"
+	para "keer dat we elkaar" ; "the first time"
+	line "ontmoeten?" ; "we've met?"
 
-	para "Please allow me to"
-	line "introduce myself."
+	para "Laat me mijzelf" ; "Please allow me to"
+	line "voorstellen." ; "introduce myself."
 
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "Ik ben TUSCANY van" ; "I am TUSCANY of"
+	line "Dinsdag." ; "Tuesday."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Ter introductie," ; "By way of intro-"
+	line "accepteer alsje-" ; "duction, please"
 
-	para "accept this gift,"
-	line "a PINK BOW."
+	para "blieft dit cadeau," ; "accept this gift,"
+	line "een ZIJDEN SJAAL." ; "a PINK BOW."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "TUSCANY: Is hij" ; "TUSCANY: Wouldn't"
+	line "niet hartstikke" ; "you agree that it"
+	cont "schattig?" ; "is most adorable?"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Hij versterkt" ; "It strengthens"
+	line "normaal-aanvallen." ; "normal-type moves."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Je hebt er vast" ; "I am certain it"
+	line "wel iets aan." ; "will be of use."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "TUSCANY: Heb je" ; "TUSCANY: Have you"
+	line "MONICA ontmoet," ; "met MONICA, my"
+	cont "mijn grote zus?" ; "older sister?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "Of mijn jonge" ; "Or my younger"
+	line "broertje, WESLEY?" ; "brother, WESLEY?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Ik ben de tweede" ; "I am the second of"
+	line "van zeven kinderen" ; "seven children."
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "TUSCANY: Het is" ; "TUSCANY: Today is"
+	line "geen dinsdag. Dat" ; "not Tuesday. That"
+	cont "is spijtig…" ; "is unfortunate…"
 	done
 
 Route29Sign1Text:
