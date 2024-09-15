@@ -65,7 +65,7 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "VOORTZETTEN@" ; "CONTINUE@"
+	db "VERDERGAAN@" ; "CONTINUE@"
 	db "NIEUW SPEL@" ; "NEW GAME@"
 	db "OPTIES@" ; "OPTION@"
 	db "GEHEIM CADEAU@" ; "MYSTERY GIFT@"
@@ -326,9 +326,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "KLOK NIET" ; "TIME NOT SET@"
-	next "INGESTELD"
-	db "@"
+	db "TIJD ONTBREEKT@" ; "TIME NOT SET@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
