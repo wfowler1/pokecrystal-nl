@@ -1131,7 +1131,7 @@ String_SEEN:
 	db "GEZ", -1 ; "GEZIEN"
 	; db "SEEN", -1
 String_OWN:
-	db "BEZ", -1 ; "BBEZITTEN"
+	db "BEZ", -1 ; "BEZITTEN"
 	; db "OWN", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
