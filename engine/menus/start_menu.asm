@@ -194,35 +194,35 @@ StartMenu::
 .OptionString:   db "OPTIES@" ; "OPTION@"
 .ExitString:     db "UITGAAN@" ; "EXIT@"
 .PokegearString: db "<POKE>COM@" ; "<POKE>GEAR@"
-.QuitString:     db "STOPPEN@" ; "QUIT@"
+.QuitString:     db "STOP@" ; "QUIT@"
 
 .PokedexDesc:
 	db   "#MON-" ; "#MON"
 	next "database@"
 
 .PartyDesc:
-	db   "Partij <PKMN>" ; "Party <PKMN>"
-	next "staat@" ; "status@"
+	db   "Status <PKMN>-" ; "Party <PKMN>"
+	next "team@" ; "status@"
 
 .PackDesc:
 	db   "Bevat" ; "Contains"
-	next "items@"
+	next "voorwerpen@" ; "items@"
 
 .PokegearDesc:
-	db   "Belangrijk" ; "Trainer's"
+	db   "Trainer's"
 	next "apparaat@" ; "key device@"
 
 .StatusDesc:
-	db   "Eigen" ; "Your own"
-	next "staat@" ; "status@"
+	db   "Je eigen" ; "Your own"
+	next "status@" ; "status@"
 
 .SaveDesc:
-	db   "Slaat op" ; "Save your"
+	db   "Bewaar je" ; "Save your"
 	next "voortgang@" ; "progress@"
 
 .OptionDesc:
 	db   "Verander" ; "Change"
-	next "instelling@" ; "settings@"
+	next "opties@" ; "settings@"
 
 .ExitDesc:
 	db   "Sluit dit" ; "Close this"
@@ -230,7 +230,7 @@ StartMenu::
 
 .QuitDesc:
 	db   "Stop en" ; "Quit and"
-	next "beoordeel@" ; "be judged.@"
+	next "naar jury@" ; "be judged.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]
