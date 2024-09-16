@@ -111,113 +111,113 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
-	cont "leader!"
+	text "Ik ben FALKNER, de" ; "I'm FALKNER, the"
+	line "#MON-GYMLEIDER" ; "VIOLET #MON GYM"
+	cont "van VIOLET CITY!" ; "leader!"
 
-	para "People say you can"
-	line "clip flying-type"
+	para "Men zegt dat je de" ; "People say you can"
+	line "vleugels van een" ; "clip flying-type"
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "vlieg-#MON kunt" ; "#MON's wings"
+	line "knippen met" ; "with a jolt of"
+	cont "elektriciteit…" ; "electricity…"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
+	para "Zulke beledigingen" "I won't allow such"
+	line "van vogel-#MON" "insults to bird"
+	cont "sta ik niet toe!" ; "#MON!"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "Ik toon je de ware" ; "I'll show you the"
+	line "kracht van mijn" ; "real power of the"
 
-	para "magnificent bird"
+	para "fenomenale vogel-" ; "magnificent bird"
 	line "#MON!"
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
+	text "…Verdraaid! Mijn" ; "…Darn! My dad's"
+	line "vaders gekoesterde" ; "cherished bird"
+	cont "vogel-#MON…" ; "#MON…"
 
-	para "All right."
-	line "Take this."
+	para "Goed dan." ; "All right."
+	line "Neem dit." ; "Take this."
 
-	para "It's the official"
-	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	para "Het is de ZEPHYR-" ; "It's the official"
+	line "BADGE van de" ; "#MON LEAGUE"
+	cont "#MONLEAGUE." ; "ZEPHYRBADGE."
 	done
 
 ReceivedZephyrBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "ZEPHYRBADGE."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #MON."
+	text "ZEPHYRBADGE ver-" ; "ZEPHYRBADGE"
+	line "hoogt aanvalkracht" ; "raises the attack"
+	cont "van #MON." ; "power of #MON."
 
-	para "It also enables"
-	line "#MON to use"
+	para "Het laat #MON" ; "It also enables"
+	line "ook FLASH altijd" ; "#MON to use"
 
-	para "FLASH, if they"
-	line "have it, anytime."
+	para "gebruiken, mits ze" ; "FLASH, if they"
+	line "het hebben." ; "have it, anytime."
 
-	para "Here--take this"
-	line "too."
+	para "Hier--neem ook" ; "Here--take this"
+	line "dit." ; "too."
 	done
 
 FalknerTMMudSlapText:
-	text "By using a TM, a"
-	line "#MON will"
+	text "Gebruik een TM om" ; "By using a TM, a"
+	line "een #MON meteen" ; "#MON will"
 
-	para "instantly learn a"
-	line "new move."
+	para "een nieuwe aanval" ; "instantly learn a"
+	line "te leren." ; "new move."
 
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
+	para "Maar wees voor-" ; "Think before you"
+	line "zichtig--een TM" ; "act--a TM can be"
+	cont "werkt één keer." ; "used only once."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "TM31 bevat" ; "TM31 contains"
+	line "MODDERSCHOT." "MUD-SLAP."
 
-	para "It reduces the"
-	line "enemy's accuracy"
+	para "Het verlaagt de" ; "It reduces the"
+	line "precisie van je" ; "enemy's accuracy"
 
-	para "while it causes"
-	line "damage."
+	para "tegenstander en" ; "while it causes"
+	line "doet schade." ; "damage."
 
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "Kortgezegd, het" ; "In other words, it"
+	line "is een aanval en" ; "is both defensive"
+	cont "verdediging." ; "and offensive."
 	done
 
 FalknerFightDoneText:
-	text "There are #MON"
-	line "GYMS in cities and"
-	cont "towns ahead."
+	text "Er zijn #MON-" ; "There are #MON"
+	line "GYMS in de steden" ; "GYMS in cities and"
+	cont "dorpen verderop." ; "towns ahead."
 
-	para "You should test"
-	line "your skills at"
-	cont "these GYMS."
+	para "Probeer je vaar-" ; "You should test"
+	line "digheden in deze" ; "your skills at"
+	cont "GYMS testen." ; "these GYMS."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "Ik ga harder" ; "I'm going to train"
+	line "trainer om de" ; "harder to become"
 
-	para "the greatest bird"
-	line "master!"
+	para "beste vogelmeester" ; "the greatest bird"
+	line "te worden!" ; "master!"
 	done
 
 BirdKeeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
+	text "Het belangrijkste" ; "The keyword is"
+	line "woord is lef!" ; "guts!"
 
-	para "Those here are"
-	line "training night and"
+	para "Ieder hier traint" ; "Those here are"
+	line "dag en nacht om" ; "training night and"
 
-	para "day to become bird"
-	line "#MON masters."
+	para "meester van vogel-" ; "day to become bird"
+	line "#MON te worden." ; "#MON masters."
 
-	para "Come on!"
+	para "Kom maar op!" ; "Come on!"
 	done
 
 BirdKeeperRodBeatenText:
@@ -225,58 +225,58 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
-	line "are for real!"
+	text "FALKNER is het" ; "FALKNER's skills"
+	line "echte werk!" ; "are for real!"
 
-	para "Don't get cocky"
-	line "just because you"
-	cont "beat me!"
+	para "Ga niet naast je" ; "Don't get cocky"
+	line "schoenen lopen" ; "just because you"
+	cont "omdat je net won!" ; "beat me!"
 	done
 
 BirdKeeperAbeSeenText:
-	text "Let me see if you"
-	line "are good enough to"
-	cont "face FALKNER!"
+	text "Laat eens zien of" ; "Let me see if you"
+	line "je goed genoeg" ; "are good enough to"
+	cont "bent voor FALKNER!" ; "face FALKNER!"
 	done
 
 BirdKeeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "Dit kan niet" ; "This can't be"
+	line "waar zijn!" ; "true!"
 	done
 
 BirdKeeperAbeAfterBattleText:
-	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	text "Wat gênant om te" ; "This is pathetic,"
+	line "verliezen van een" ; "losing to some"
+	cont "groentje…" ; "rookie trainer…"
 	done
 
 VioletGymGuideText:
-	text "Hey! I'm no train-"
-	line "er but I can give"
-	cont "some advice!"
+	text "He! Ik ben geen" ; "Hey! I'm no train-"
+	line "trainer maar kan" ; "er but I can give"
+	cont "je advies geven!" ; "some advice!"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Geloof mij maar!" ; "Believe me!"
+	line "Als je gelooft," ; "If you believe, a"
 
-	para "championship dream"
-	line "can come true."
+	para "kunnen kampioens-" ; "championship dream"
+	line "dromen uitkomen." ; "can come true."
 
-	para "You believe?"
-	line "Then listen."
+	para "Heb je vertrouwen?" ; "You believe?"
+	line "Luister op, dan." ; "Then listen."
 
-	para "The grass-type is"
-	line "weak against the"
+	para "Gras-types zijn" ; "The grass-type is"
+	line "zwak tegen vlieg-" ; "weak against the"
 
-	para "flying-type. Keep"
-	line "this in mind."
+	para "types. Onthoud dat" ; "flying-type. Keep"
+	line "goed." ; "this in mind."
 	done
 
 VioletGymGuideWinText:
-	text "Nice battle! Keep"
-	line "it up, and you'll"
+	text "Goed gevecht! Ga" ; "Nice battle! Keep"
+	line "zo door en je" ; "it up, and you'll"
 
-	para "be the CHAMP in no"
-	line "time at all!"
+	para "wordt in no-time" ; "be the CHAMP in no"
+	line "de KAMPIOEN!" ; "time at all!"
 	done
 
 VioletGym_MapEvents:

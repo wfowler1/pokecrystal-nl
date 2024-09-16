@@ -241,8 +241,8 @@ Route31MailRecipientScript:
 	end
 
 ReceivedSpearowMailText:
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "DUISTERE GROT leidt" ; "DARK CAVE leads"
+	next "naar andere weg" ; "to another road@"
 
 Route31YoungsterScript:
 	jumptextfaceplayer Route31YoungsterText
@@ -266,17 +266,17 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "DARK CAVE…"
+	text "DUISTERE GROT…" ; "DARK CAVE…"
 
-	para "If #MON could"
-	line "light it up, I'd"
-	cont "explore it."
+	para "Als #MON het" ; "If #MON could"
+	line "konden verlichten," ; "light it up, I'd"
+	cont "zou ik verkennen" ; "explore it."
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "Ik heb een hoop" ; "I caught a bunch"
+	line "#MON gevangen." ; "#MON. Let me"
+	cont "Laten we vechten!" ; "battle with you!"
 	done
 
 BugCatcherWade1BeatenText:
@@ -284,30 +284,30 @@ BugCatcherWade1BeatenText:
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
+	text "Zelfs als je zes" ; "You can catch"
+	line "#MON hebt kun" ; "#MON even if"
 
-	para "you have six with"
-	line "you."
+	para "je er meer" ; "you have six with"
+	line "vangen." ; "you."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	para "Ze worden dan" ; "If you catch one,"
+	line "automatisch naar" ; "it'll go to your"
+	cont "je BOX gestuurd." ; "BOX automatically."
 	done
 
 Text_Route31SleepyMan:
 	text "… Hnuurg… Huh?"
 
-	para "I walked too far"
-	line "today looking for"
-	cont "#MON."
+	para "Ik heb vandaag te" ; "I walked too far"
+	line "veel gelopen toen" "today looking for"
+	cont "ik #MON zocht." ; "#MON."
 
-	para "My feet hurt and"
-	line "I'm sleepy…"
+	para "Ik heb zere voeten" ; "My feet hurt and"
+	line "en ben moe…" ; "I'm sleepy…"
 
-	para "If I were a wild"
-	line "#MON, I'd be"
-	cont "easy to catch…"
+	para "Als ik een wilde" ; "If I were a wild"
+	line "#MON was, was" ; "#MON, I'd be"
+	cont "ik zo te vangen…" ; "easy to catch…"
 
 	para "…Zzzz…"
 	done
@@ -315,93 +315,94 @@ Text_Route31SleepyMan:
 Text_Route31SleepyManGotMail:
 	text "…Zzzz… Huh?"
 
-	para "What's that? You"
-	line "have MAIL for me?"
+	para "Wat is dat? Heb je" ; "What's that? You"
+	line "POST voor me?" ; "have MAIL for me?"
 	done
 
 Text_Route31HandOverMailMon:
-	text "<PLAYER> handed"
-	line "over the #MON"
-	cont "holding the MAIL."
+	text "<PLAYER> gaf" ; "<PLAYER> handed"
+	line "de #MON die" ; "over the #MON"
+	cont "POST vasthoudt." ; "holding the MAIL."
 	done
 
 Text_Route31ReadingMail:
-	text "Let's see…"
+	text "Eens zien…" ; "Let's see…"
 
-	para "…DARK CAVE leads"
-	line "to another road…"
+	para "DUISTERE GROT gaat" ; "…DARK CAVE leads"
+	line "naar andere weg…" ; "to another road…"
 
-	para "That's good to"
-	line "know."
+	para "Dat is goed om te" ; "That's good to"
+	line "weten." ; "know."
 
-	para "Thanks for bring-"
-	line "ing this to me."
+	para "Bedankt dat je dit" ; "Thanks for bring-"
+	line "naar me bracht." ; "ing this to me."
 
-	para "My friend's a good"
-	line "guy, and you're"
-	cont "swell too!"
+	para "Mijn vriend is een" ; "My friend's a good"
+	line "goede gast, en jij" ; "guy, and you're"
+	cont "ben ook oke!" ; "swell too!"
 
-	para "I'd like to do"
-	line "something good in"
-	cont "return too!"
+	para "Ik wil ook iets" ; "I'd like to do"
+	line "goeds doen als" ; "something good in"
+	cont "bedankje!" ; "return too!"
 
-	para "I know! I want you"
-	line "to have this!"
+	para "Ik weet al wat!" ; "I know! I want you"
+	line "je mag dit hebben!" ; "to have this!"
 	done
 
 Text_Route31DescribeNightmare:
-	text "TM50 is NIGHTMARE."
+	text "TM50 is" ; "TM50 is NIGHTMARE."
+	line "NACHTMERRIE."
 
-	para "It's a wicked move"
-	line "that steadily cuts"
+	para "het is een brute" ; "It's a wicked move"
+	line "aanval die de LP" ; "that steadily cuts"
 
-	para "the HP of a sleep-"
-	line "ing enemy."
+	para "van een slapende" ; "the HP of a sleep-"
+	line "vijand tapt. ; "ing enemy.""
 
 	para "Ooooh…"
-	line "That's scary…"
+	line "Wat eng…" "That's scary…"
 
-	para "I don't want to"
-	line "have bad dreams."
+	para "Ik wil geen nare" ; "I don't want to"
+	line "dromen hebben." ; "have bad dreams."
 	done
 
 Text_Route31WrongMail:
-	text "This MAIL isn't"
-	line "for me."
+	text "Deze POST is niet" ; "This MAIL isn't"
+	line "voor mij." ; "for me."
 	done
 
 Text_Route31MissingMail:
-	text "Why is this #-"
-	line "MON so special?"
+	text "Waarom is deze" ; "Why is this #-"
+	line "#MON speciaal?" ; "MON so special?"
 
-	para "It doesn't have"
-	line "any MAIL."
+	para "Hij heeft geen" ; "It doesn't have"
+	line "POST." ; "any MAIL."
 	done
 
 Text_Route31DeclinedToHandOverMail:
-	text "What? You don't"
-	line "want anything?"
+	text "Wat? Wil je hele-" ; "What? You don't"
+	line "maal niks?" ; "want anything?"
 	done
 
 Text_Route31CantTakeLastMon:
-	text "If I take that"
-	line "#MON from you,"
+	text "Als ik die #MON" ; "If I take that"
+	line "van je afneem," ; "#MON from you,"
 
-	para "what are you going"
-	line "to use in battle?"
+	para "waar ga je dan mee" ; "what are you going"
+	line "vechten?" ; "to use in battle?"
 	done
 
 Route31YoungsterText:
-	text "I found a good"
-	line "#MON in DARK"
-	cont "CAVE."
+	text "Ik vond een goede" ; "I found a good"
+	line "#MON in de" ; "#MON in DARK"
+	cont "DUISTERE GROT." ; "CAVE."
 
-	para "I'm going to raise"
-	line "it to take on"
-	cont "FALKNER."
+	para "Ik ga hem trainen" ; "I'm going to raise"
+	line "om te vechten" ; "it to take on"
+	cont "tegen FALKNER." ; "FALKNER."
 
-	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	para "Hij leidt VIOLET" ; "He's the leader of"
+	line "CITY's GYM." ; "VIOLET CITY's GYM."
 	done
 
 Route31SignText:
@@ -412,7 +413,7 @@ Route31SignText:
 	done
 
 DarkCaveSignText:
-	text "DARK CAVE"
+	text "DUISTERE GROT" ; "DARK CAVE"
 	done
 
 Route31_MapEvents:

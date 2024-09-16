@@ -178,102 +178,102 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Hello!"
-	line "You are trainer?"
+	text "Hallo! Jij" ; "Hello!"
+	line "bent een trainer?" ; "You are trainer?"
 
-	para "Battle GYM LEADER,"
-	line "win you did?"
+	para "Vocht tegen GYM-" ; "Battle GYM LEADER,"
+	line "leider, won je?" ; "win you did?"
 	done
 
 Text_VeryNiceIndeed:
 	text "Ooh, la la!"
-	line "Very indeed nice!"
+	line "Erg goed gedaan!" ; "Very indeed nice!"
 	done
 
 Text_FollowEarl:
-	text "Is that so? Then"
-	line "study shall you!"
-	cont "Follow me!"
+	text "Is het heus?" ; "Is that so? Then"
+	line "Studeren zal je!" ; "study shall you!"
+	cont "Volg mij!" ; "Follow me!"
 	done
 
 Text_HereTeacherIAm:
-	text "Here, teacher I"
-	line "am. Good it is"
-	cont "you study here!"
+	text "Hier ben ik de" ; "Here, teacher I"
+	line "leraar. Goed als" ; "am. Good it is"
+	cont "je hier studeert!" ; "you study here!"
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "SPROUT TOWER."
+	text "Het gerucht is dat" ; "Ghosts are rumored"
+	line "geesten rondspoken" "to appear in"
+	cont "in SPROUT TOWER." ; "SPROUT TOWER."
 
-	para "They said normal-"
-	line "type #MON moves"
+	para "Men zegt dat" ; "They said normal-"
+	line "normale aanvallen" ; "type #MON moves"
 
-	para "had no effect on"
-	line "ghosts."
+	para "niet werken op" ; "had no effect on"
+	line "geesten." ; "ghosts."
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "He, ben jij een" ; "Hey, you're a"
+	line #MON-trainer? ; "#MON trainer?"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
+	para "Als je hier de" ; "If you beat the"
+	line "GYMLEIDER verslaat" ; "GYM LEADER here,"
 
-	para "you'll be ready"
-	line "for prime time!"
+	para "ben je klaar voor" ; "you'll be ready"
+	line "het echte werk!" ; "for prime time!"
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, from the"
-	line "VIOLET #MON"
+	text "FALKNER, van de" ; "FALKNER, from the"
+	line "#VIOLET #MON-" ; "VIOLET #MON"
 
-	para "GYM, is a fine"
-	line "trainer!"
+	para "GYM, is een" ; "GYM, is a fine"
+	line "geduchte trainer!" ; "trainer!"
 
-	para "He inherited his"
-	line "father's gym and"
+	para "Hij erfde de gym" ; "He inherited his"
+	line "van zijn vader" ; "father's gym and"
 
-	para "has done a great"
-	line "job with it."
+	para "en houdt hem" ; "has done a great"
+	line "goed draaiende." ; "job with it."
 	done
 
 VioletCityYoungsterText:
-	text "I saw a wiggly"
-	line "tree up ahead!"
+	text "Ik zag verderop" ; "I saw a wiggly"
+	line "een boom wiebelen!" ; "tree up ahead!"
 
-	para "If you touch it,"
-	line "it squirms and"
-	cont "dances! Cool!"
+	para "Als je hem aan-" ; "If you touch it,"
+	line "raakt, kronkelt en" ; "it squirms and"
+	cont "danst hij! Cool!" ; "dances! Cool!"
 	done
 
 VioletCitySignText:
 	text "VIOLET CITY"
 
-	para "The City of"
-	line "Nostalgic Scents"
+	para "De Stad van Nos-" ; "The City of"
+	line "talgische Geuren" ; "Nostalgic Scents"
 	done
 
 VioletGymSignText:
 	text "VIOLET CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
+	cont "FALKNER" ; "LEADER: FALKNER"
 
-	para "The Elegant Master"
-	line "of Flying #MON"
+	para "Elegante Meester" ; "The Elegant Master"
+	line "van vlieg-#MON." ; "of Flying #MON"
 	done
 
 SproutTowerSignText:
 	text "SPROUT TOWER"
 
-	para "Experience the"
-	line "Way of #MON"
+	para "Ervaar de weg" ; "Experience the"
+	line "#van #MON." ; "Way of #MON"
 	done
 
 EarlsPokemonAcademySignText:
-	text "EARL'S #MON"
-	line "ACADEMY"
+	text "EARL'S #MON-" ; "EARL'S #MON"
+	line "ACADEMIE" ; "ACADEMY"
 	done
 
 VioletCity_MapEvents:
