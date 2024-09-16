@@ -1,5 +1,6 @@
 	db "SHARP CLAW@" ; species name
-	dw 211, 620 ; height, weight
+	db 9 ; height
+	dw 280 ; weight
 
 	db   "This cunning"
 	next "#MON hides"

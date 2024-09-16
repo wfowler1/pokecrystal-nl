@@ -1,5 +1,6 @@
 	db "SINGLEHORN@" ; species name
-	dw 411, 1190 ; height, weight
+	db 15 ; height
+	dw 540 ; weight
 
 	db   "With its Herculean"
 	next "powers, it can"

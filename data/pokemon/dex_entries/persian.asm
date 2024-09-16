@@ -1,5 +1,6 @@
 	db "CLASSY CAT@" ; species name
-	dw 303, 710 ; height, weight
+	db 10 ; height
+	dw 320 ; weight
 
 	db   "Behind its lithe,"
 	next "elegant appearance"

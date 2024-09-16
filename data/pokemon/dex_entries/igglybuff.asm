@@ -1,5 +1,6 @@
 	db "BALLOON@" ; species name
-	dw 100, 20 ; height, weight
+	db 3 ; height
+	dw 10 ; weight
 
 	db   "Instead of walking"
 	next "with its short"

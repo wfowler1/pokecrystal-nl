@@ -1,5 +1,6 @@
 	db "GAS@" ; species name
-	dw 503, 2 ; height, weight
+	db 16 ; height
+	dw 1 ; weight
 
 	db   "It hides in the"
 	next "dark, planning to"

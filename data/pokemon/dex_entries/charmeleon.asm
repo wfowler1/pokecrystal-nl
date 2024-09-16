@@ -1,5 +1,6 @@
 	db "FLAME@" ; species name
-	dw 307, 420 ; height, weight
+	db 11 ; height
+	dw 190 ; weight
 
 	db   "If it becomes"
 	next "agitated during"

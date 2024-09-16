@@ -1,5 +1,6 @@
 	db "ROCK SKIN@" ; species name
-	dw 200, 1590 ; height, weight
+	db 6 ; height
+	dw 720 ; weight
 
 	db   "Born deep under-"
 	next "ground, this"

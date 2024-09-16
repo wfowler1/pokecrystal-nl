@@ -1,5 +1,6 @@
 	db "FLAME@" ; species name
-	dw 211, 550 ; height, weight
+	db 9 ; height
+	dw 250 ; weight
 
 	db   "Once it has stored"
 	next "up enough heat,"

@@ -1,5 +1,6 @@
 	db "RAT@" ; species name
-	dw 204, 410 ; height, weight
+	db 7 ; height
+	dw 185 ; weight
 
 	db   "The webs on its"
 	next "hind legs enable"

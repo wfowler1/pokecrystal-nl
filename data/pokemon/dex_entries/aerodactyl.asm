@@ -1,5 +1,6 @@
 	db "FOSSIL@" ; species name
-	dw 511, 1300 ; height, weight
+	db 18 ; height
+	dw 590 ; weight
 
 	db   "In prehistoric"
 	next "times, this"

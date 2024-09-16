@@ -1,5 +1,6 @@
 	db "SUN@" ; species name
-	dw 207, 190 ; height, weight
+	db 8 ; height
+	dw 85 ; weight
 
 	db   "As the hot season"
 	next "approaches, the"

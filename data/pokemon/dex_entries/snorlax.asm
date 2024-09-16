@@ -1,5 +1,6 @@
 	db "SLEEPING@" ; species name
-	dw 611, 10140 ; height, weight
+	db 21 ; height
+	dw 4600 ; weight
 
 	db   "This #MON's"
 	next "stomach is so"

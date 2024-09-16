@@ -1,5 +1,6 @@
 	db "RAINBOW@" ; species name
-	dw 1206, 4390 ; height, weight
+	db 38 ; height
+	dw 1990 ; weight
 
 	db   "It will reveal"
 	next "itself before a"

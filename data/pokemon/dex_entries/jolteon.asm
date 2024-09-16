@@ -1,5 +1,6 @@
 	db "LIGHTNING@" ; species name
-	dw 207, 540 ; height, weight
+	db 8 ; height
+	dw 245 ; weight
 
 	db   "The negatively"
 	next "charged ions"

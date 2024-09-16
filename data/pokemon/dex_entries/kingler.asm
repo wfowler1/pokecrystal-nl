@@ -1,5 +1,6 @@
 	db "PINCER@" ; species name
-	dw 403, 1320 ; height, weight
+	db 13 ; height
+	dw 600 ; weight
 
 	db   "Its oversized claw"
 	next "is very powerful,"

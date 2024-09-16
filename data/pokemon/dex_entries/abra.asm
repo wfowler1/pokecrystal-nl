@@ -1,5 +1,6 @@
 	db "PSI@" ; species name
-	dw 211, 430 ; height, weight
+	db 9 ; height
+	dw 195 ; weight
 
 	; TODO: Strings too long
 	db   "Het hypnotiseert" ; "It hypnotizes"

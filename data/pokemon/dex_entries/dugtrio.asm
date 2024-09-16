@@ -1,5 +1,6 @@
 	db "MOLE@" ; species name
-	dw 204, 730 ; height, weight
+	db 7 ; height
+	dw 333 ; weight
 
 	db   "These DIGLETT"
 	next "triplets dig over"

@@ -1,5 +1,6 @@
 	db "SYMBOL@" ; species name
-	dw 108, 110 ; height, weight
+	db 5 ; height
+	dw 50 ; weight
 
 	db   "Because different"
 	next "types of UNOWN"

@@ -1,5 +1,6 @@
 	db "BIG HORN@" ; species name
-	dw 407, 1570 ; height, weight
+	db 14 ; height
+	dw 712 ; weight
 
 	db   "The round balls"
 	next "found on the"

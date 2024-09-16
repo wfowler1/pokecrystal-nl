@@ -1,5 +1,6 @@
 	db "FIVE STAR@" ; species name
-	dw 303, 240 ; height, weight
+	db 10 ; height
+	dw 108 ; weight
 
 	db   "It is timid and"
 	next "clusters together"

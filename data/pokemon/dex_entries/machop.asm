@@ -1,5 +1,6 @@
 	db "SUPERPOWER@" ; species name
-	dw 207, 430 ; height, weight
+	db 8 ; height
+	dw 195 ; weight
 
 	db   "It trains by"
 	next "lifting rocks in"

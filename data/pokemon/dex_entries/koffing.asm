@@ -1,5 +1,6 @@
 	db "POISON GAS@" ; species name
-	dw 200, 20 ; height, weight
+	db 6 ; height
+	dw 10 ; weight
 
 	db   "If one gets close"
 	next "enough to it when"

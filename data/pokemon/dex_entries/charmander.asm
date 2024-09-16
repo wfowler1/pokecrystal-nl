@@ -1,5 +1,6 @@
 	db "LIZARD@" ; species name
-	dw 200, 190 ; height, weight
+	db 6 ; height
+	dw 85 ; weight
 
 	db   "If it's healthy,"
 	next "the flame on the"

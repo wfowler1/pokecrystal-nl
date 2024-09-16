@@ -1,5 +1,6 @@
 	db "HARD SHELL@" ; species name
-	dw 311, 3350 ; height, weight
+	db 12 ; height
+	dw 1520 ; weight
 
 	db   "It will not stay"
 	next "still, even while"

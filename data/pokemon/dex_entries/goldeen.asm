@@ -1,5 +1,6 @@
 	db "GOLDFISH@" ; species name
-	dw 200, 330 ; height, weight
+	db 6 ; height
+	dw 150 ; weight
 
 	db   "During spawning"
 	next "season, they swim"

@@ -1,5 +1,6 @@
 	db "BAT@" ; species name
-	dw 503, 1210 ; height, weight
+	db 16 ; height
+	dw 550 ; weight
 
 	db   "When it plunges"
 	next "its fangs into its"

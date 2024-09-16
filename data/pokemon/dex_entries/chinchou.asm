@@ -1,5 +1,6 @@
 	db "ANGLER@" ; species name
-	dw 108, 260 ; height, weight
+	db 5 ; height
+	dw 120 ; weight
 
 	db   "Its antennae, whi-"
 	next "ch evolved from a"

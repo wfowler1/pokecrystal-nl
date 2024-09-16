@@ -1,5 +1,6 @@
 	db "HUMANSHAPE@" ; species name
-	dw 407, 900 ; height, weight
+	db 14 ; height
+	dw 406 ; weight
 
 	db   "It has several"
 	next "different cry pat-"

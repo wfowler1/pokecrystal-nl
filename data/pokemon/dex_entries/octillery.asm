@@ -1,5 +1,6 @@
 	db "JET@" ; species name
-	dw 211, 630 ; height, weight
+	db 9 ; height
+	dw 285 ; weight
 
 	db   "Its instinct is to"
 	next "bury itself in"

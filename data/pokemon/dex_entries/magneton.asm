@@ -1,5 +1,6 @@
 	db "MAGNET@" ; species name
-	dw 303, 1320 ; height, weight
+	db 10 ; height
+	dw 600 ; weight
 
 	db   "When many"
 	next "MAGNETON gather"

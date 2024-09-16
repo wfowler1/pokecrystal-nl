@@ -1,5 +1,6 @@
 	db "DARKNESS@" ; species name
-	dw 108, 50 ; height, weight
+	db 5 ; height
+	dw 21 ; weight
 
 	db   "It hides any shiny"
 	next "object it finds in"

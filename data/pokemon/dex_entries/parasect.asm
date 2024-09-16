@@ -1,5 +1,6 @@
 	db "MUSHROOM@" ; species name
-	dw 303, 650 ; height, weight
+	db 10 ; height
+	dw 295 ; weight
 
 	db   "When nothing's"
 	next "left to extract"

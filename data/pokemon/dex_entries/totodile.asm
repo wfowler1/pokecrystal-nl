@@ -1,5 +1,6 @@
 	db "BIG JAW@" ; species name
-	dw 200, 210 ; height, weight
+	db 6 ; height
+	dw 95 ; weight
 
 	; TODO: Strings too long
 	db   "Dit ruwe beestje" ; "This rough critter"

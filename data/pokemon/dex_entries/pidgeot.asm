@@ -1,5 +1,6 @@
 	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db 15 ; height
+	dw 395 ; weight
 
 	db   "Its outstanding"
 	next "vision allows it"

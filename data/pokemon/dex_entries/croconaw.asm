@@ -1,5 +1,6 @@
 	db "BIG JAW@" ; species name
-	dw 307, 550 ; height, weight
+	db 11 ; height
+	dw 250 ; weight
 
 	db   "The tips of its"
 	next "fangs are slanted"

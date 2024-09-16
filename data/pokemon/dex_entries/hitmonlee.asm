@@ -1,5 +1,6 @@
 	db "KICKING@" ; species name
-	dw 411, 1100 ; height, weight
+	db 15 ; height
+	dw 498 ; weight
 
 	db   "It is also called"
 	next "the Kick Master."

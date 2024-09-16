@@ -1,5 +1,6 @@
 	db "WILD DUCK@" ; species name
-	dw 207, 330 ; height, weight
+	db 8 ; height
+	dw 150 ; weight
 
 	db   "In order to pre-"
 	next "vent their"
