@@ -204,7 +204,7 @@ Text_HereTeacherIAm:
 
 VioletCityLassText:
 	text "Het gerucht is dat" ; "Ghosts are rumored"
-	line "geesten rondspoken" "to appear in"
+	line "geesten rondspoken" ; "to appear in"
 	cont "in SPROUT TOWER." ; "SPROUT TOWER."
 
 	para "Men zegt dat" ; "They said normal-"
@@ -216,7 +216,7 @@ VioletCityLassText:
 
 VioletCitySuperNerdText:
 	text "He, ben jij een" ; "Hey, you're a"
-	line #MON-trainer? ; "#MON trainer?"
+	line "#MON-trainer?" ; "#MON trainer?"
 
 	para "Als je hier de" ; "If you beat the"
 	line "GYMLEIDER verslaat" ; "GYM LEADER here,"

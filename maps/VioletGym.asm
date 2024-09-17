@@ -123,7 +123,7 @@ FalknerIntroText:
 	cont "elektriciteit…" ; "electricity…"
 
 	para "Zulke beledigingen" "I won't allow such"
-	line "van vogel-#MON" "insults to bird"
+	line "van vogel-#MON" ; "insults to bird"
 	cont "sta ik niet toe!" ; "#MON!"
 
 	para "Ik toon je de ware" ; "I'll show you the"
@@ -178,7 +178,7 @@ FalknerTMMudSlapText:
 	cont "werkt één keer." ; "used only once."
 
 	para "TM31 bevat" ; "TM31 contains"
-	line "MODDERSCHOT." "MUD-SLAP."
+	line "MODDERSCHOT." ; "MUD-SLAP."
 
 	para "Het verlaagt de" ; "It reduces the"
 	line "precisie van je" ; "enemy's accuracy"

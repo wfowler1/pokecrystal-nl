@@ -299,7 +299,7 @@ Text_Route31SleepyMan:
 	text "… Hnuurg… Huh?"
 
 	para "Ik heb vandaag te" ; "I walked too far"
-	line "veel gelopen toen" "today looking for"
+	line "veel gelopen toen" ; "today looking for"
 	cont "ik #MON zocht." ; "#MON."
 
 	para "Ik heb zere voeten" ; "My feet hurt and"
@@ -357,10 +357,10 @@ Text_Route31DescribeNightmare:
 	line "aanval die de LP" ; "that steadily cuts"
 
 	para "van een slapende" ; "the HP of a sleep-"
-	line "vijand tapt. ; "ing enemy.""
+	line "vijand tapt." ; "ing enemy.""
 
 	para "Ooooh…"
-	line "Wat eng…" "That's scary…"
+	line "Wat eng…" ; "That's scary…"
 
 	para "Ik wil geen nare" ; "I don't want to"
 	line "dromen hebben." ; "have bad dreams."
