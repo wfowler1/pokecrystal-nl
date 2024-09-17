@@ -19,15 +19,15 @@ Kyle:
 	end
 
 VioletKylesHousePokefanMText:
-	text "A #MON you get"
-	line "in a trade grows"
-	cont "quickly."
+	text "Een #MON die je" ; "A #MON you get"
+	line "in een ruil kreeg" ; "in a trade grows"
+	cont "groeit snel." ; "quickly."
 
-	para "But if you don't"
-	line "have the right GYM"
+	para "maar als je niet" ; "But if you don't"
+	line "de juiste badge" ; "have the right GYM"
 
-	para "BADGE, they may"
-	line "disobey you."
+	para "hebt, luistert hij" ; "BADGE, they may"
+	line "soms niet naar je." ; "disobey you."
 	done
 
 VioletKylesHouse_MapEvents:

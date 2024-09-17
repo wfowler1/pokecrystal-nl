@@ -14,15 +14,15 @@ Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
 Route31VioletGateOfficerText:
-	text "Hi there!"
-	line "Did you visit"
-	cont "SPROUT TOWER?"
+	text "Hallo daar!" ; "Hi there!"
+	line "Heb je de SPROUT-" ; "Did you visit"
+	cont "TOREN bezocht?" ; "SPROUT TOWER?"
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "Ik ben te ver van" ; "I came too far"
+	line "huis. Laat ik ze" ; "out. I'd better"
+	cont "maar bellen!" ; "phone home!"
 	done
 
 Route31VioletGate_MapEvents:
