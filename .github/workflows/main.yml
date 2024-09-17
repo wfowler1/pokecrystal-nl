@@ -42,5 +42,6 @@ jobs:
       - name: Validate text
         run: |
           echo "$PWD"
-          mono Validator.exe
+          ls
+          mono tools/Validator.exe
           
