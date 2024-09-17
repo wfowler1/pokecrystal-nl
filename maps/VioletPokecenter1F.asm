@@ -104,113 +104,113 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 VioletPokecenterElmsAideFavorText:
-	text "<PLAY_G>, long"
-	line "time, no see."
+	text "<PLAY_G>, lang" ; "<PLAY_G>, long"
+	line "niet gezien." ; "time, no see."
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "PROF.ELM vroeg of" ; "PROF.ELM asked me"
+	line "ik je kon vinden." ; "to find you."
 
-	para "He has another"
-	line "favor to ask."
+	para "Hij wil je om nog" ; "He has another"
+	line "een gunst vragen." ; "favor to ask."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Wil je passen op" ; "Would you take the"
+	line "het #MON-EI?" ; "#MON EGG?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "We discovered that"
-	line "a #MON will not"
+	text "We ontdekten dat" ; "We discovered that"
+	line "een #MON pas" ; "a #MON will not"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "uit een EI komt" ; "hatch until it"
+	line "als het groeit." ; "grows in the EGG."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "Dat gebeurt alleen" ; "It also has to be"
+	line "in de buurt van" ; "with other active"
+	cont "andere #MON." ; "#MON to hatch."
 
-	para "<PLAY_G>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "<PLAY_G>, jij" ; "<PLAY_G>, you're"
+	line "bent de enige op" ; "the only person"
+	cont "wie we aan kunnen." ; "we can rely on."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "Bel alsjeblieft" ; "Please call PROF."
+	line "PROF.ELM als het" ; "ELM when that EGG"
+	cont "EI uitkomt!" ; "hatches!"
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, nee. Je kunt" ; "Oh, no. You can't"
+	line "niet meer #MON" ; "carry any more"
+	cont "meedragen." ; "#MON with you."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Ik wacht hier wel" ; "I'll wait here"
+	line "terwijl je ruimte" ; "while you make"
+	cont "maakt voor het EI." ; "room for the EGG."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
-	line "asked for you…"
+	text "M-maar… PROF.ELM" ; "B-but… PROF.ELM"
+	line "vroeg om jou…" ; "asked for you…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	text "<PLAY_G>, neem je" ; "<PLAY_G>, will you"
+	line "het EI mee?" ; "take the EGG?"
 	done
 
 VioletPokecenterFarawayLinkText: ; unreferenced
-	text "I've been thinking"
-	line "it'd be great to"
+	text "Ik zat te denken" ; "I've been thinking"
+	line "hoe leuk het zou" ; "it'd be great to"
 
-	para "be able to link up"
-	line "and battle with my"
+	para "zijn om te linken" ; "be able to link up"
+	line "en vechten met m'n" ; "and battle with my"
 
-	para "friends who live"
-	line "far away."
+	para "vrienden die ver" ; "friends who live"
+	line "weg wonen." ; "far away."
 	done
 
 VioletPokecenterMobileAdapterText: ; unreferenced
-	text "I just battled a"
-	line "friend in CIANWOOD"
-	cont "over a link."
+	text "Ik vocht net tegen" ; "I just battled a"
+	line "een vriend in" ; "friend in CIANWOOD"
+	cont "CIANWOOD via link." ; "over a link."
 
-	para "If you connect a"
-	line "MOBILE ADAPTER,"
+	para "als je een MOBIELE" ; "If you connect a"
+	line "ADAPTER verbindt," ; "MOBILE ADAPTER,"
 
-	para "you can link with"
-	line "a friend far away."
+	para "kun je met vriend-" ; "you can link with"
+	line "en van ver linken." ; "a friend far away."
 	done
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Ene BILL bouwde" ; "A guy named BILL"
+	line "het #MON-PC-" ; "made the #MON"
+	cont "opslagsysteem." ; "PC storage system."
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Het was zo'n drie" ; "It was around"
+	line "jaar geleden." ; "three years ago."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "TEAM ROCKET had" ; "TEAM ROCKET was up"
+	line "iets kwaads in de" ; "to no good with"
+	cont "zin met #MON." ; "#MON."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Maar het kwam goed" ; "But justice pre-"
+	line "een jonge knaap" ; "vailed--a young"
+	cont "versloeg ze" ; "kid broke 'em up."
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "#MON zijn slim." ; "#MON are smart."
+	line "Ze luisteren niet" ; "They won't obey a"
 
-	para "trainer they don't"
-	line "respect."
+	para "als ze de trainer" ; "trainer they don't"
+	line "niet respecteren." ; "respect."
 
-	para "Without the right"
-	line "GYM BADGES, they"
+	para "Zonder de juiste" ; "Without the right"
+	line "GYMBADGES, doen ze" ; "GYM BADGES, they"
 
-	para "will just do as"
-	line "they please."
+	para "gewoon wat ze" ; "will just do as"
+	line "willen." ; "they please."
 	done
 
 VioletPokecenter1F_MapEvents:

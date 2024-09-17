@@ -24,22 +24,22 @@ VioletNicknameSpeechHouseBirdScript:
 	end
 
 VioletNicknameSpeechHouseTeacherText:
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
+	text "Ze gebruikt de" ; "She uses the names"
+	line "namen van haar" ; "of her favorite"
+	cont "lievelingseten." ; "things to eat."
 
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#MON, I mean."
+	para "Als namen voor" ; "For the nicknames"
+	line "haar #MON," ; "she gives to her"
+	cont "bedoel ik dan." ; "#MON, I mean."
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my PIDGEY"
-	line "STRAWBERRY!"
+	text "Mijn PIDGHEY heet" ; "I call my PIDGEY"
+	line "AARDBEI!" ; "STRAWBERRY!"
 	done
 
 VioletNicknameSpeechHouseBirdText:
-	text "STRAWBERRY: Pijji!"
+	text "AARDBEI: Pijji!" ; "STRAWBERRY: Pijji!"
 	done
 
 VioletNicknameSpeechHouse_MapEvents:

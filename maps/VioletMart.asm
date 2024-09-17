@@ -21,29 +21,29 @@ VioletMartCooltrainerMScript:
 	jumptextfaceplayer VioletMartCooltrainerMText
 
 VioletMartGrannyText:
-	text "When you first"
-	line "catch a #MON,"
-	cont "it may be weak."
+	text "Vang je een #-" ; "When you first"
+	line "MON, dan is die" ; "catch a #MON,"
+	cont "wellicht zwakt." ; "it may be weak."
 
-	para "But it will even-"
-	line "tually grow to be"
-	cont "strong."
+	para "Maar uiteindelijk" ; "But it will even-"
+	line "Zal deze groot" ; "tually grow to be"
+	cont "en sterk worden." ; "strong."
 
-	para "It's important to"
-	line "treat #MON with"
-	cont "love."
+	para "Het is van belang" ; "It's important to"
+	line "#MON met liefde" ; "treat #MON with"
+	cont "te behandelen." ; "love."
 	done
 
 VioletMartCooltrainerMText:
-	text "#MON can hold"
-	line "items like POTION"
-	cont "and ANTIDOTE."
+	text "#MON kunnen ob-" ; "#MON can hold"
+	line "jecten als DRANKJE" ; "items like POTION"
+	cont "en ANTIGIF dragen." ; "and ANTIDOTE."
 
-	para "But they don't"
-	line "appear to know how"
+	para "Maar ze weten niet" ; "But they don't"
+	line "hoe mensgemaakte" ; "appear to know how"
 
-	para "to use manmade"
-	line "items."
+	para "voorwerpen worden" ; "to use manmade"
+	line "gebruikt." ; "items."
 	done
 
 VioletMart_MapEvents:
