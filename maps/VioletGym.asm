@@ -122,7 +122,7 @@ FalknerIntroText:
 	line "knippen met" ; "with a jolt of"
 	cont "elektriciteit…" ; "electricity…"
 
-	para "Zulke beledigingen" "I won't allow such"
+	para "Zulke beledigingen" ; "I won't allow such"
 	line "van vogel-#MON" ; "insults to bird"
 	cont "sta ik niet toe!" ; "#MON!"
 
