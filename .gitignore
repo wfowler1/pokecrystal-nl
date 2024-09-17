@@ -25,6 +25,7 @@ gfx/pokemon/*/frames.asm
 
 # tool binaries
 *.exe
+!.github/workflows/Validator.exe
 
 # precompiled python
 *.pyc
