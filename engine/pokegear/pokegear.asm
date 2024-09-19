@@ -2177,7 +2177,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Waar?" ; "Where?@"
+	db "Waar?@" ; "Where?@"
 
 .Name:
 ; We need the map location of the default flypoint
