@@ -95,7 +95,7 @@ BattleText_TargetRecoveredWithItem:
 	text "<TARGET>"
 	line "herstelde met" ; "recovered with"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
@@ -103,7 +103,7 @@ BattleText_UserRecoveredPPUsing:
 	text "<USER>"
 	line "herstelde PP door" ; "recovered PP using"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; Item Name MaxLength 12
 	text "."
 	prompt
 
@@ -120,14 +120,14 @@ BattleText_SafeguardFaded:
 	prompt
 
 BattleText_MonsLightScreenFell:
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; "Je" or "Vijand" MaxLength 6
 	text " #MON's"
 	line "LICHTSCHERM" ; "LIGHT SCREEN fell!"
 	cont "verdween!"
 	prompt
 
 BattleText_MonsReflectFaded:
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength 6
 	text " #MON's"
 	line "SPIEGEL verdween!" ; "REFLECT faded!"
 	prompt
@@ -279,7 +279,7 @@ BattleText_UserFledUsingAStringBuffer1:
 	text "<USER>"
 	line "vluchtte met een" ; "fled using a"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "!"
 	prompt
 
@@ -297,14 +297,14 @@ RecoveredUsingText:
 	text "<TARGET>"
 	line "herstelde met een" ; "recovered using a"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "!"
 	prompt
 
 BattleText_UsersStringBuffer1Activated:
 	text "<USER>'s"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text_start
 	cont "activeerde!" ; "activated!"
 	prompt
@@ -348,7 +348,7 @@ BattleText_TargetsEncoreEnded:
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " groeide naar" ; " grew to"
 	line "level @"
 	text_decimal wCurPartyLevel, 1, 3
@@ -425,7 +425,7 @@ BecameConfusedText:
 
 BattleText_ItemHealedConfusion:
 	text "Een @" ; "A @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text_start
 	line "haalde verwarring" ; " rid"
 	cont "<TARGET> weg." ; "<TARGET>"
@@ -441,7 +441,7 @@ BattleText_UsersHurtByStringBuffer1: ; TODO translate
 	text "<USER>'s"
 	line "hurt by"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -449,7 +449,7 @@ BattleText_UserWasReleasedFromStringBuffer1:
 	text "<USER>"
 	line "werd verlost van" ; "was released from"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -495,7 +495,7 @@ HungOnText:
 	text "<TARGET>"
 	line "bleef hangen met" ; "hung on with"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "!"
 	prompt
 
@@ -519,7 +519,7 @@ InfatuationText:
 DisabledMoveText:
 	text "<USER>'s"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text " is"
 	cont "UITGESCHAKELD!" ; "DISABLED!"
 	prompt
@@ -569,7 +569,7 @@ HasNoPPLeftText:
 	text "<USER> heeft" ; "<USER>"
 	line "geen AP meer voor" ; "has no PP left for"
 	cont "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -663,7 +663,7 @@ SketchedText:
 	text "<USER>"
 	line "SCHETSTE" ; "SKETCHED"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -676,7 +676,7 @@ DestinyBondEffectText:
 SpiteEffectText:
 	text "<TARGET>'s"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text " werd" ; " was"
 	cont "verlaagd met @" ; "reduced by @"
 	text_decimal wTextDecimalByte, 1, 1
@@ -741,7 +741,7 @@ WasFrozenText:
 WontRiseAnymoreText:
 	text "<USER>'s"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxStatNameLength
 	text " kan" ; " won't"
 	cont "niet hoger!" ; "rise anymore!"
 	prompt
@@ -749,7 +749,7 @@ WontRiseAnymoreText:
 WontDropAnymoreText:
 	text "<TARGET>'s"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxStatNameLength
 	text " kan" ; " won't"
 	cont "niet lager!" ; "drop anymore!"
 	prompt
@@ -832,7 +832,7 @@ MimicLearnedMoveText:
 	text "<USER>"
 	line "leerde" ; "learned"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -849,7 +849,7 @@ EvadedText:
 WasDisabledText:
 	text "<TARGET>'s"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text " werd" ; " was"
 	cont "UITGESCHAKELD!" ; "DISABLED!"
 	prompt
@@ -863,7 +863,7 @@ TransformedTypeText:
 	text "<USER>"
 	line "transformeerde in" ; "transformed into"
 	cont "de @" ; "the @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxTypeNameLength
 	text "-type!"
 	prompt
 
@@ -877,7 +877,7 @@ TransformedText:
 	text "<USER>"
 	line "TRANSFORMEERDE in" ; "TRANSFORMED into"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "!"
 	prompt
 
@@ -944,7 +944,7 @@ ProtectedByText:
 	text "<TARGET> is" ; "<TARGET>'s"
 	line "beschermd door" ; "protected by"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -956,7 +956,7 @@ MirrorMoveFailedText:
 StoleText:
 	text "<USER>"
 	line "stal @" ; "stole @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text_start
 	cont "van tegenstander!" ; "from its foe!"
 	prompt
@@ -1091,7 +1091,7 @@ ForesawAttackText:
 	prompt
 
 BeatUpAttackText:
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "aanval!" ; "attack!"
 	done

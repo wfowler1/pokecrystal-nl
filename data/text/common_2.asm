@@ -28,7 +28,7 @@ _NameRaterWhichMonText::
 
 _NameRaterBetterNameText::
 	text "Hm… @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "…"
 	line "Dat is best een" ; "That's a fairly"
 	cont "prima naam." ; "decent name."
@@ -61,13 +61,13 @@ _NameRaterComeAgainText::
 
 _NameRaterPerfectNameText::
 	text "Hm… @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "?"
 	line "Goede naam!" ; "What a great name!"
 	cont "Echt perfect." ; "It's perfect."
 
 	para "@" ; "Treat @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "verdien je liefde." ; "with loving care."
 	done
@@ -91,12 +91,12 @@ _NameRaterNamedText::
 	text "Oké. Deze" ; "All right. This"
 	line "#MON heet nu" ; "#MON is now"
 	cont "@" ; "named @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
 Text_Gained::
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " kreeg@" ; " gained@"
 	text_end
 
@@ -177,26 +177,26 @@ _BootedHMText::
 _ContainedMoveText::
 	text "Hij bevatte" ; "It contained"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "."
 
 	para "Leer @" ; "Teach @"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text_start
 	line "aan een #MON?" ; "to a #MON?"
 	done
 
 _TMHMNotCompatibleText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text " is"
 	line "not compatibel" ; "not compatible"
 	cont "met @" ; "with @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "Kan niet leren" ; "It can't learn"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "."
 	prompt
 
@@ -204,14 +204,14 @@ _NoRoomTMHMText::
 	text "Je hebt geen plek" ; "You have no room"
 	line "voor meer" ; "for any more"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "S."
 	prompt
 
 _ReceivedTMHMText::
 	text "Je ontving" ; "You received"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "!"
 	prompt
 
@@ -249,7 +249,7 @@ _MysteryGiftSentText::
 	text_ram wMysteryGiftPartnerName
 	text " verzond" ; " sent"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
@@ -257,7 +257,7 @@ _MysteryGiftSentHomeText::
 	text_ram wMysteryGiftPartnerName
 	text " verzond" ; " sent"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxDecorationNameLength
 	text_start
 	cont "naar @" ; "to @"
 	text_ram wMysteryGiftPlayerName
@@ -306,7 +306,7 @@ _CantUseItemText::
 	prompt
 
 _UseCutText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " gebruikte" ; " used"
 	line "SNIJDEN!" ; "CUT!"
 	prompt
@@ -325,7 +325,7 @@ _BlindingFlashText::
 	text_end ; unreferenced
 
 _UsedSurfText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	; text " used"
 	text_start
 	line "gebruikte SURFEN!" ; "SURF!"
@@ -347,7 +347,7 @@ _AskSurfText::
 	done
 
 _UseWaterfallText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte WATERVAL!" ; "WATERFALL!"
 	done
@@ -363,7 +363,7 @@ _AskWaterfallText::
 	done
 
 _UseDigText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte GRAVEN!" ; "DIG!"
 	done
@@ -396,13 +396,13 @@ _AlreadyUsingStrengthText::
 	prompt
 
 _UseStrengthText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte KRACHT!" ; "STRENGTH!"
 	done
 
 _MoveBoulderText::
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " kan" ; " can"
 	line "rotsen schuiven." ; "move boulders."
 	prompt
@@ -426,7 +426,7 @@ _BouldersMayMoveText::
 	done
 
 _UseWhirlpoolText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte DRAAIKOLK!" ; "WHIRLPOOL!"
 	prompt
@@ -448,7 +448,7 @@ _AskWhirlpoolText::
 	done
 
 _UseHeadbuttText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " deed een" ; " did a"
 	line "KOPSTOOT!" ; "HEADBUTT!"
 	prompt
@@ -466,7 +466,7 @@ _AskHeadbuttText::
 	done
 
 _UseRockSmashText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte STEENKNAL!" ; "ROCK SMASH!"
 	prompt
@@ -507,14 +507,14 @@ _CantGetOffBikeText::
 _GotOnBikeText::
 	text "<PLAYER> stapte op" ; "<PLAYER> got on the"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	done
 
 _GotOffBikeText::
 	text "<PLAYER> stapte" ; "<PLAYER> got off"
 	line "van de @" ; "the @"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	done
 
@@ -533,7 +533,7 @@ _CanCutText::
 _FoundItemText::
 	text "<PLAYER> vond" ; "<PLAYER> found"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "!"
 	done
 
@@ -563,7 +563,7 @@ _ItemfinderNopeText::
 	prompt
 
 _PoisonFaintText::
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "viel flauw!" ; "fainted!"
 	prompt
@@ -577,7 +577,7 @@ _PoisonWhiteoutText::
 	prompt
 
 _UseSweetScentText::
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte ZOETE" ; "SWEET SCENT!"
 	cont "GEUR!"
@@ -620,14 +620,14 @@ _AskQuantityThrowAwayText::
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text " weg?" ; "(S)?"
 	done
 
 _ThrewAwayText::
 	text "Gooide" ; "Threw away"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text " weg." ; "(S)."
 	prompt
 
@@ -645,7 +645,7 @@ _YouDontHaveAMonText::
 _RegisteredItemText::
 	text "Registreerde" ; "Registered the"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
@@ -676,7 +676,7 @@ _AreYouABoyOrAreYouAGirlText::
 Text_BattleEffectActivate::
 	text "<USER>'s"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxStatNameLength
 	text_end
 
 	text_end ; unreferenced
@@ -693,7 +693,7 @@ _BattleStatWentUpText::
 Text_BattleFoeEffectActivate::
 	text "<TARGET>'s"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxStatNameLength
 	text_end
 
 	text_end ; unreferenced
@@ -761,7 +761,7 @@ _UsedInsteadText::
 	text_end
 
 _MoveNameText::
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text_end
 
 	text_end ; unreferenced
@@ -797,7 +797,7 @@ _BreedClearboxText::
 	done
 
 _BreedEggHatchText::
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " kwam" ; " came"
 	line "uit het EI!@" ; "out of its EGG!@"
 	sound_caught_mon
@@ -809,13 +809,13 @@ _BreedEggHatchText::
 _BreedAskNicknameText::
 	text "Geef een naam aan" ; "Give a nickname to"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "?"
 	done
 
 _LeftWithDayCareLadyText::
 	text "Het is @" ; "It's @"
-	text_ram wBreedMon2Nickname
+	text_ram wBreedMon2Nickname ; MaxLength MaxPokemonNameLength
 	text_start
 	line "die achtergelaten" ; "that was left with"
 	cont "was bij OPVANG." ; "the DAY-CARE LADY."
@@ -823,7 +823,7 @@ _LeftWithDayCareLadyText::
 
 _LeftWithDayCareManText::
 	text "Het is @" ; "It's @"
-	text_ram wBreedMon1Nickname
+	text_ram wBreedMon1Nickname ; MaxLength MaxPokemonNameLength
 	text_start
 	line "die achtergelaten" ; "that was left with"
 	cont "was bij OPVANG." ; "the DAY-CARE MAN."
@@ -838,28 +838,28 @@ _BreedNoInterestText::
 	text "Het heeft geen" ; "It has no interest"
 	line "interesse in" ; "in @"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
 _BreedAppearsToCareForText::
 	text "Het lijkt te geven" ; "It appears to care"
 	line "om @" ; "for @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
 _BreedFriendlyText::
 	text "Het is vriendelijk" ; "It's friendly with"
 	line "met @" ; "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
 _BreedShowsInterestText::
 	text "Toont interesse" ; "It shows interest"
 	line "in @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
@@ -908,10 +908,10 @@ _NoPromptText:: ; unreferenced
 _AnimationTypeText:: ; unreferenced
 	text_decimal wcf64, 1, 3
 	text " @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength 14
 	text_start
 	line "Animation type @"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength 3
 	text_end
 
 	text_end ; unreferenced
@@ -921,7 +921,7 @@ _MonNumberText:: ; unreferenced
 	done
 
 _WasSentToBillsPCText::
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " gaat" ; " was"
 	line "naar BILL's PC." ; "sent to BILL's PC."
 	prompt
@@ -961,7 +961,7 @@ _PCCantTakeText::
 
 _ContestCaughtMonText::
 	text "Ving @" ; "Caught @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "!"
 	prompt
 
@@ -972,7 +972,7 @@ _ContestAskSwitchText::
 _ContestAlreadyCaughtText::
 	text "Je ving al" ; "You already caught"
 	line "een @" ; "a @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
@@ -987,7 +987,7 @@ _ContestJudging_FirstPlaceText::
 	text ","
 	line "wie een" ; "who caught a"
 	cont "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " ving!@" ; "!@"
 	text_end
 
@@ -1008,7 +1008,7 @@ _ContestJudging_SecondPlaceText::
 
 	para "Wie een" ; "who caught a"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "ving!@" ; "!@"
 	text_end
 
@@ -1029,7 +1029,7 @@ _ContestJudging_ThirdPlaceText::
 
 	para "wie een" ; "who caught a"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "ving!@" ; "!@"
 	text_end
 
@@ -1043,12 +1043,12 @@ _ContestJudging_ThirdPlaceScoreText::
 	prompt
 
 _MagikarpGuruMeasureText::
-	text "Let me measure" ; "Laat me die"
+	text "Laat me die" ; "Let me measure"
 	line "MAGIKARP meten." ; "that MAGIKARP."
 
 	para "…Hm, hij is" ; "…Hm, it measures"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength 6
 	text "groot." ; "."
 	prompt
 
@@ -1056,7 +1056,7 @@ _KarpGuruRecordText::
 	text "HUIDIG RECORD" ; "CURRENT RECORD"
 
 	para "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " gevangen door" ; " caught by"
 	line "@"
 	text_ram wMagikarpRecordHoldersName
@@ -1072,7 +1072,7 @@ _LuckyNumberMatchPartyText::
 	line "met het ID-nummer" ; "with the ID number"
 
 	para "van @" ; "of @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " in"
 	line "je team." ; "your party."
 	prompt
@@ -1084,7 +1084,7 @@ _LuckyNumberMatchPCText::
 	line "met het ID-nummer" ; "with the ID number"
 
 	para "van @" ; "of @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " in"
 	line "je PC BOX." ; "your PC BOX."
 	prompt
@@ -1092,7 +1092,7 @@ _LuckyNumberMatchPCText::
 _CaughtAskNicknameText::
 	text "Geef een naam aan" ; "Give a nickname to"
 	line "de @" ; "the @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " die je" ; " you"
 	cont "kreeg?" ; "received?"
 	done
@@ -1123,7 +1123,7 @@ _PlayersPCWithdrewItemsText::
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text_start
 	line "terug." ; text "(S)."
 	prompt
@@ -1147,7 +1147,7 @@ _PlayersPCDepositItemsText::
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "(S)."
 	prompt
 
@@ -1204,10 +1204,10 @@ _OakPCText2::
 	prompt
 
 _OakPCText3::
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 3
 	text " #MON gezien" ; " #MON seen"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength 3
 	text " #MON in bezit" ; " #MON owned"
 
 	para "PROF.OAK's"
@@ -1395,7 +1395,7 @@ _StartMenuContestEndText::
 _ItemsTossOutHowManyText::
 	text "Hoeveel" ; "Toss out how many"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text_start
 	cont "weggooien?" ; text "(S)?"
 	done
@@ -1405,14 +1405,14 @@ _ItemsThrowAwayText::
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text " weg?" ; "(S)?"
 	done
 
 _ItemsDiscardedText::
 	text "Weggegooid" ; "Discarded"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "." ; "(S)."
 	prompt
 
@@ -1429,25 +1429,25 @@ _ItemsOakWarningText::
 
 _PokemonSwapItemText::
 	text "Nam @" ; "Took @"
-	text_ram wMonOrItemNameBuffer
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text " en" ; " and"
 
 	para "liet @" ; "made it hold"
 	; line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text_start
 	line "vasthouden." ; text "."
 	prompt
 
 _PokemonHoldItemText::
 	text "Liet @" ; "Made @"
-	text_ram wMonOrItemNameBuffer
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "een @" ; "hold @"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text_start
 	cont "vasthouden." ; text "."
 	prompt
@@ -1458,7 +1458,7 @@ _PokemonRemoveMailText::
 	prompt
 
 _PokemonNotHoldingText::
-	text_ram wMonOrItemNameBuffer
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text " houdt" ; " isn't"
 	line "niets vast." ; "holding anything."
 	prompt
@@ -1470,21 +1470,21 @@ _ItemStorageFullText::
 
 _PokemonTookItemText::
 	text "Nam @" ; "Took @"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text_start
 	line "van @" ; "from @"
-	text_ram wMonOrItemNameBuffer
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
 _PokemonAskSwapItemText::
-	text_ram wMonOrItemNameBuffer
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	; text " is"
 	text_start
 	line "heeft al" ; "already holding"
 
 	para "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text " vast." ; "."
 	line "Wissel voorwerp?" ; "Switch items?"
 	done
@@ -1502,7 +1502,7 @@ _MailLoseMessageText::
 _MailDetachedText::
 	text "MAIL losgemaakt" ; "MAIL detached from"
 	line "van @" ; "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 

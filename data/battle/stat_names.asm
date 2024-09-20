@@ -1,4 +1,4 @@
-StatNames:
+StatNames: ; For printing during battles
 ; entries correspond to stat ids
 	list_start StatNames
 	li "AANVAL" ; "ATTACK"

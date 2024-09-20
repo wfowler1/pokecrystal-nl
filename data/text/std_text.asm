@@ -234,18 +234,18 @@ ContestResults_ReadyToJudgeText:
 
 ContestResults_PlayerWonAPrizeText:
 	text "<PLAYER>, de Nr.@" ; "<PLAYER>, the No.@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 1
 	text_start
 	line "finisher, wint" ; "finisher, wins"
 	cont "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
 	text "!"
 	done
 
 ReceivedItemText:
 	text "<PLAYER> ontvangt" ; "<PLAYER> received"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
 	text "."
 	done
 
@@ -282,14 +282,14 @@ ContestResults_PartyFullText:
 	done
 
 GymStatue_CityGymText:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text_start
 	line "#MON GYM"
 	done
 
 GymStatue_WinningTrainersText:
 	text "LEIDER: @" ; "LEADER: @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxTrainerNameLength
 	text_start
 	para "WINNENDE TRAINERS:" ; "WINNING TRAINERS:"
 	line "<PLAYER>"
@@ -379,13 +379,13 @@ HappinessText1:
 RegisteredNumber1Text:
 	text "<PLAYER> registreert" ; "<PLAYER> registered"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
 	text "'s nummer." ; "'s number."
 	done
 
 RegisteredNumber2Text:
 	text "<PLAYER> registreert" ; "<PLAYER> registered"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
 	text "'s nummer." ; "'s number."
 	done

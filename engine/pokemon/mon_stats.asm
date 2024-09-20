@@ -113,7 +113,7 @@ PrintTempMonStats:
 	add hl, de
 	ret
 
-.StatNames:
+.StatNames: ; For stats screen only
 	db   "AANVAL" ; "ATTACK"
 	next "VERDEDIG" ; "DEFENSE"
 	next "SPCL.AANV" ; "SPCL.ATK"
