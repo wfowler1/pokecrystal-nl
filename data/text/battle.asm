@@ -526,8 +526,8 @@ DisabledMoveText:
 
 LoafingAroundText:
 	text_ram wBattleMonNickname
-	text " slentert" ; " is"
-	line "wat rond." ; "loafing around."
+	text_start ; text " is"
+	line "slentert wat rond." ; "loafing around."
 	prompt
 
 BeganToNapText:
@@ -538,8 +538,8 @@ BeganToNapText:
 
 WontObeyText:
 	text_ram wBattleMonNickname
-	text " wil niet" ; " won't"
-	line "luisteren!" ; "obey!"
+	text " wil" ; " won't"
+	line "niet luisteren!" ; "obey!"
 	prompt
 
 TurnedAwayText:
@@ -550,14 +550,15 @@ TurnedAwayText:
 
 IgnoredOrdersText:
 	text_ram wBattleMonNickname
-	text " negeerde" ; " ignored"
-	line "orders!"
+	text_start ; text " ignored"
+	line "negeerde orders!"
 	prompt
 
 IgnoredSleepingText:
 	text_ram wBattleMonNickname
-	text " negeerde" ; " ignored"
-	line "orders…en sliep!" ; "orders…sleeping!"
+	text_start ; text " ignored"
+	line "negeerde orders…en" ; "orders…sleeping!"
+	cont "sliep!"
 	prompt
 
 NoPPLeftText:
