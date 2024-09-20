@@ -1654,9 +1654,9 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Your@"
+	db "Je@" ; "Your@"
 .Enemy:
-	db "Enemy@"
+	db "Vijand@" ; "Enemy@"
 
 .LightScreenTick:
 	ld a, [de]
