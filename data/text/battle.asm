@@ -512,9 +512,9 @@ InLoveWithText:
 	prompt
 
 InfatuationText:
-	text "<USER> was" ; "<USER>'s"
-	line "te verliefd om aan" ; "infatuation kept"
-	cont "te vallen!" ; "it from attacking!"
+	text "<USER>" ; "<USER>'s"
+	line "was te verliefd om" ; "infatuation kept"
+	cont "aan te vallen!" ; "it from attacking!"
 	prompt
 
 DisabledMoveText:
