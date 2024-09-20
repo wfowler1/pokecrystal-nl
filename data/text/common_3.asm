@@ -469,7 +469,8 @@ _StoppedEvolvingText:: ; TODO: String too long
 	text "Huh? @"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text_start
-	line "stopte de evolutie!" ; "stopped evolving!"
+	line "stopte de" ; "stopped evolving!"
+	cont "evolutie!"
 	prompt
 
 _EvolvingText::
