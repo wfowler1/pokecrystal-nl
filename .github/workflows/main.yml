@@ -31,4 +31,15 @@ jobs:
       - name: Make
         run: |
           make -j$(nproc)
-          
+  validate:
+    runs-on: windows-latest
+    continue-on-error: true
+    strategy:
+      fail-fast: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Validate
+        run: |
+          $files = git diff-tree --no-commit-id --name-only head -r
+          foreach ($file in $files){ tools/PokeTextValidator.exe $file }

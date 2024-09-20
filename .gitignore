@@ -25,7 +25,7 @@ gfx/pokemon/*/frames.asm
 
 # tool binaries
 *.exe
-!tools/Validator.exe
+!tools/PokeTextValidator.exe
 
 # precompiled python
 *.pyc
