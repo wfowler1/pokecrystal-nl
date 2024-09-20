@@ -75,8 +75,9 @@ HasANightmareText:
 	prompt
 
 HurtByCurseText:
-	text "<USER> is" ; "<USER>'s"
-	line "lijdt onder vloek!" ; "hurt by the CURSE!"
+	text "<USER>" ; "<USER>'s"
+	line "is lijdt onder" ; "hurt by the CURSE!"
+	cont "vloek!"
 	prompt
 
 SandstormHitsText:

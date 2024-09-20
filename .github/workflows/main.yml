@@ -40,6 +40,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Validate
-        run: |
-          $files = git diff-tree --no-commit-id --name-only head -r
-          foreach ($file in $files){ tools/PokeTextValidator.exe $file }
+        run: $files = git diff-tree --no-commit-id --name-only head -r; foreach ($file in $files){ tools/PokeTextValidator.exe $file }
