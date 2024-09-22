@@ -526,7 +526,7 @@ Text_AskRegisterRecord_Mobile: ; unreferenced
 Text_PlayerGotFive:
 	text "<PLAYER> got five"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
 	text "!@"
 	sound_item
 	text_promptbutton
@@ -636,7 +636,7 @@ Text_YourMonWillBeHealedToFullHealth:
 Text_NextUpOpponentNo:
 	text "Next up, opponent"
 	line "no.@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 1
 	text ". Ready?"
 	done
 
@@ -735,12 +735,12 @@ Text_AMonLevelExceeds:
 	text "One or more of"
 	line "your #MON's"
 	cont "levels exceeds @"
-	text_decimal wScriptVar, 1, 3
+	text_decimal wScriptVar, 1, 2
 	text "."
 	done
 
 Text_MayNotEnterABattleRoomUnderL70:
-	text_ram wcd49
+	text_ram wcd49 ; MaxLength MaxPokemonNameLength
 	text " may not"
 	line "enter a BATTLE"
 	cont "ROOM under L70."

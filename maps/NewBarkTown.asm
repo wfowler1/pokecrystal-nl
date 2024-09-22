@@ -232,10 +232,11 @@ Text_TellMomIfLeaving:
 
 Text_CallMomOnGear:
 	text "Bel je moeder op" ; "Call your mom on"
-	line "je #GEAR om haar" ; "your #GEAR to"
+	line "je #GEAR om" ; "your #GEAR to"
 
-	para "te laten weten" ; "let her know how"
-	line "hoe het gaat." ; "you're doing."
+	para "haar te laten" ; "let her know how"
+	line "weten hoe het" ; "you're doing."
+	cont  "gaat."
 	done
 
 Text_ElmDiscoveredNewMon:

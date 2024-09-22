@@ -237,7 +237,7 @@ RadioTower1FLuckyNumberManAskToPlayText:
 RadioTower1FLuckyNumberManThisWeeksIdIsText:
 	text "This week's ID"
 	line "number is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 

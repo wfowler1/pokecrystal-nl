@@ -224,7 +224,7 @@ Route35NationalParkGatePlayerEnterParkMovement:
 
 Route35NationalParkGateOfficer1AskToParticipateText:
 	text "Today's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; Day of the week MaxLength 9
 	text "."
 	line "That means the"
 
@@ -287,7 +287,7 @@ Route35NationalParkGateOfficer1AskToUseFirstMonText:
 
 	para "You'll have to use"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text ", the"
 
 	para "first #MON in"
@@ -371,7 +371,7 @@ Route35NationalParkGateOfficer1EggAsFirstMonText:
 
 Route35NationalParkGateOfficer1WantToFinishText:
 	text "You still have @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 2
 	text_start
 	line "minute(s) left."
 

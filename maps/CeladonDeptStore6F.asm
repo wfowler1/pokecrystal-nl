@@ -110,7 +110,7 @@ CeladonClangText:
 	text "Clang!"
 
 	para "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text_start
 	line "popped out."
 	done

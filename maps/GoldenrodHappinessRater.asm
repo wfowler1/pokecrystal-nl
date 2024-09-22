@@ -78,7 +78,7 @@ GoldenrodHappinessRaterTeacherText:
 
 	para "Oh? Let me see"
 	line "your @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text "…"
 	done
 

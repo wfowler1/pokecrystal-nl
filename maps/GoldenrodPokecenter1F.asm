@@ -180,10 +180,10 @@ GoldenrodPokecomCenterWeWillTradeYourMonForMonText: ; unreferenced
 	line "to trade your"
 
 	para "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text " for"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "We'll have to hold"
@@ -200,7 +200,7 @@ GoldenrodPokecomCenterWeWillTradeYourMonForNewText: ; unreferenced
 	line "to trade your"
 
 	para "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text " for a"
 	line "#MON that you"
 	cont "have never seen."

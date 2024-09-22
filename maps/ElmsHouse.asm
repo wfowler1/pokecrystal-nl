@@ -56,8 +56,8 @@ ElmsHousePokemonFoodText: ; unreferenced
 	done
 
 ElmsHousePCText:
-	text "#MON. Waar komen" ; "#MON. Where do"
-	line "ze vandaan?" ; "they come from? "
+	text "#MON. Waar" ; "#MON. Where do"
+	line "komen ze vandaan?" ; "they come from? "
 
 	para "Waar gaan ze naar-" ; "Where are they"
 	line "toe?" ; "going?"

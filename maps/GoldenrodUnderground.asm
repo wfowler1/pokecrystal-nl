@@ -620,19 +620,19 @@ GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText:
 	done
 
 HaircutBrosText_SlightlyHappier:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text " looks a"
 	line "little happier."
 	done
 
 HaircutBrosText_Happier:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text " looks"
 	line "happy."
 	done
 
 HaircutBrosText_MuchHappier:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text " looks"
 	line "delighted!"
 	done

@@ -358,8 +358,9 @@ RuinsOfAlphResearchCenterComputerText:
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mysterieuze #MON" ; "Mystery #MON"
-	line "Naam: UNOWN" ; "Name: UNOWN"
+	text "Mysterieuze" ; "Mystery #MON"
+	line "#MON"
+	cont "Naam: UNOWN" ; "Name: UNOWN"
 
 	para "{d:NUM_UNOWN} soorten" ; "A total of {d:NUM_UNOWN}"
 	line "ontdekt." ; "kinds found."

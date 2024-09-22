@@ -394,7 +394,7 @@ TwinsLeaandpia2AfterBattleText:
 Text_FoundDragonFang:
 	text "<PLAYER> found"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "!"
 	done
 

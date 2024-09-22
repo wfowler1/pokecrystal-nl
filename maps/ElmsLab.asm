@@ -891,7 +891,7 @@ ChoseStarterText:
 ReceivedStarterText:
 	text "<PLAYER> koos" ; "<PLAYER> received"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text "!"
 	done
 
@@ -1122,14 +1122,15 @@ ElmGiveEverstoneText2:
 	cont "evolueert niet." ; "won't evolve."
 
 	para "Geef hem aan een" ; "Give it to a #-"
-	line "#MON die je niet" ; "MON you don't want"
-	cont "wil evolueren." ; "to evolve."
+	line "#MON die je" ; "MON you don't want"
+	cont "niet wil" ; "to evolve."
+	cont "evolueren.";
 	done
 
 ElmText_CallYou:
 	text "ELM: <PLAY_G>, ik" ; "ELM: <PLAY_G>, I'll"
-	line "bel als er iets is." ; "call you if any-"
-	; cont "thing comes up."
+	line "bel als er iets" ; "call you if any-"
+	cont "is." ; "thing comes up."
 	done
 
 AideText_AfterTheft:
@@ -1263,7 +1264,8 @@ AideText_GiveYouBalls:
 AideText_ExplainBalls:
 	text "Je moet #MON" ; "To add to your"
 	line "vangen om ze in je" ; "#DEX, you have"
-	cont "#DEX te krijgen." ; "to catch #MON."
+	cont "#DEX te" ; "to catch #MON."
+	cont "krijgen."
 
 	para "Gooi #BALLEN" ; "Throw # BALLS"
 	line "naar wilde #MON" ; "at wild #MON"

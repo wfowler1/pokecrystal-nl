@@ -195,13 +195,13 @@ MagikarpLengthRaterText_Refused:
 	done
 
 LakeOfRageMagikarpHouseUnusedRecordText:
-	text "CURRENT RECORD"
+	text "HUIDIG RECORD" ; "CURRENT RECORD"
 
 	para "@"
-	text_ram wStringBuffer3
-	text " caught by"
-	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer3 ; MaxLength 5
+	text " gevangen" ; " caught by"
+	line "door @" ; "@"
+	text_ram wStringBuffer4 ; MaxLength MaxTrainerNameLength
 	text_end
 
 LakeOfRageMagikarpHouseUnusedDummyText: ; unreferenced

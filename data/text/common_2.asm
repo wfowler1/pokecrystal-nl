@@ -1056,9 +1056,9 @@ _KarpGuruRecordText::
 	text "HUIDIG RECORD" ; "CURRENT RECORD"
 
 	para "@"
-	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " gevangen door" ; " caught by"
-	line "@"
+	text_ram wStringBuffer1 ; MaxLength 5
+	text " gevangen" ; " caught by"
+	line "door @" ; "@"
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton
 	text_end

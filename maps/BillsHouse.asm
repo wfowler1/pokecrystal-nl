@@ -239,7 +239,7 @@ BillsGrandpaYouDontHaveItTextText:
 BillsGrandpaShownPokemonText:
 	text "Ah, so that is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text "?"
 
 	para "Isn't it cute!"

@@ -104,7 +104,7 @@ GoldenrodVendingText:
 GoldenrodClangText:
 	text "Clang! A can of"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text_start
 	cont "popped out!"
 	done
