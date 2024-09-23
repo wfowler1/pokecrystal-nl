@@ -40,4 +40,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Validate
-        run: $files = Get-ChildItem -Filter "*.asm" "maps";foreach ($file in $files){ tools/PokeTextValidator.exe maps/$file }
+        run: $files = Get-ChildItem -Filter "*.asm" "maps";foreach ($file in $files){ tools/PokeGen2TextValidator.exe maps/$file }

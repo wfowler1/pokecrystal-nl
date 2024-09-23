@@ -1013,11 +1013,11 @@ _MoveForgotText::
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "."
 
-	para "And…"
+	para "En…" ; "And…"
 	prompt
 
 _MoveCantForgetHMText::
-	text "HM-aanvallen zijn" ; "HM moves can't be"
+	text "VM-aanvallen zijn" ; "HM moves can't be"
 	line "niet te vergeten." ; "forgotten now."
 	prompt
 
