@@ -289,9 +289,10 @@ BattleText_CantEscape:
 	line "ontsnappen!"
 	prompt
 
-BattleText_UserHurtBySpikes: ; TODO: string too long
-	text "<USER> is ge-" ; "<USER>'s"
-	line "raakt door STEKELS!" ; "hurt by SPIKES!"
+BattleText_UserHurtBySpikes:
+	text "<USER>" ; "<USER>'s"
+	line "is geraakt door" ; "hurt by SPIKES!"
+	cont "STEKELS!"
 	prompt
 
 RecoveredUsingText:
