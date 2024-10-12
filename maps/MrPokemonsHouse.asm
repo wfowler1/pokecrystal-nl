@@ -194,7 +194,7 @@ MrPokemonIntroText3:
 	line "met een #MON-" ; "who run a #MON"
 	cont "OPVANG-dienst." ; "DAY-CARE service."
 
-	para "Zij gaven mij dit." ; "They gave me that"
+	para "Zij gaven mij dit" ; "They gave me that"
 	line "EI." ; "EGG."
 
 	para "Ik raakte geïntri-" ; "I was intrigued,"
