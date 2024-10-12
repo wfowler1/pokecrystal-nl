@@ -166,243 +166,243 @@ AcademyEarlIntroText:
 	para "Prachtig zijn" ; "Wonderful are"
 	line "#MON, ja!" ; "#MON, yes!"
 
-	para "Teach you I will"
-	line "to be a better"
-	cont "trainer!"
+	para "Leren zal ik je om" ; "Teach you I will"
+	line "betere trainer te" ; "to be a better"
+	cont "worden!" ; "trainer!"
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "Wat wil je graag" ; "What you want to"
+	line "weten? Wil je" ; "know? Want to be"
+	cont "winnaar worden?" ; "a winner is you?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "Good! Teach you,"
-	line "I will!"
+	text "Goed! Je leren," ; "Good! Teach you,"
+	line "zal ik!" ; "I will!"
 
-	para "In battle, #MON"
-	line "top on list jump"
-	cont "out first!"
+	para "Bij gevecht, eerst" ; "In battle, #MON"
+	line "#MON bovenaan" ; "top on list jump"
+	cont "lijst aan beurt!" ; "out first!"
 
-	para "Change order in"
-	line "list, make battle"
-	cont "easy, maybe!"
+	para "Verander volgorde" ; "Change order in"
+	line "in lijst, maakt" ; "list, make battle"
+	cont "vechten makkelijk!" ; "easy, maybe!"
 
-	para "More from me you"
-	line "want to hear?"
+	para "Wil je meer van" ; "More from me you"
+	line "mij weten?" ; "want to hear?"
 	done
 
 AcademyEarlTeachMoreText:
-	text "So, want to know"
-	line "how to raise"
-	cont "#MON well?"
+	text "Dus, wil je weten" ; "So, want to know"
+	line "hoe je #MON" ; "how to raise"
+	cont "goed opvoedt?" ; "#MON well?"
 	done
 
 AcademyEarlTeachHowToRaiseWellText:
-	text "Fine! Teach you,"
-	line "I will!"
+	text "Prima! Leren, zal" ; "Fine! Teach you,"
+	line "ik je!" ; "I will!"
 
-	para "If #MON come"
-	line "out in battle even"
+	para "Als #MON even" ; "If #MON come"
+	line "in gevecht zijn," ; "out in battle even"
 
-	para "briefly, some EXP."
-	line "Points it gets."
+	para "krijgen ze ook" ; "briefly, some EXP."
+	line "ERV. punten." ; "Points it gets."
 
-	para "At top of list put"
-	line "weak #MON."
+	para "Zet zwakke #MON" ; "At top of list put"
+	line "bovenaan lijst." ; "weak #MON."
 
-	para "Switch in battle"
-	line "quick!"
+	para "Wissel snel in" ; "Switch in battle"
+	line "gevecht!" ; "quick!"
 
-	para "This way, weak"
-	line "#MON strong"
-	cont "become!"
+	para "Op die manier," ; "This way, weak"
+	line "zwakke #MON" ; "#MON strong"
+	cont "worden sterk!" ; "become!"
 	done
 
 AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "Oh! Slimme student" ; "Oh! Smart student"
+	line "ben jij! Niks meer" ; "you are! Nothing"
+	cont "om te leren!" ; "more do I teach!"
 
-	para "Good to #MON"
-	line "you must be!"
+	para "Goed voor #MON" ; "Good to #MON"
+	line "moet jij zijn!" ; "you must be!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "I'm taking notes"
-	line "of the teacher's"
-	cont "lecture."
+	text "Ik maak notities" ; "I'm taking notes"
+	line "over de les van" ; "of the teacher's"
+	cont "de leraar." ; "lecture."
 
-	para "I'd better copy"
-	line "the stuff on the"
-	cont "blackboard too."
+	para "Laat ik ook maar" ; "I'd better copy"
+	line "alles op 't krijt-" ; "the stuff on the"
+	cont "bord opschrijven." ; "blackboard too."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "I traded my best"
-	line "#MON to the"
-	cont "guy beside me."
+	text "Ik heb mijn beste" ; "I traded my best"
+	line "#MON geruild" ; "#MON to the"
+	cont "met hem daar." ; "guy beside me."
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "Huh? The #MON I"
-	line "just got is hold-"
-	cont "ing something!"
+	text "Huh? De #MON" ; "Huh? The #MON I"
+	line "die ik kreeg houdt" ; "just got is hold-"
+	cont "iets vast!" ; "ing something!"
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "A #MON holding"
-	line "a BERRY will heal"
-	cont "itself in battle."
+	text "Een #MON die" ; "A #MON holding"
+	line "een BES vasthoudt" ; "a BERRY will heal"
+	cont "geneest zichzelf" ; "itself in battle."
 
-	para "Many other items"
-	line "can be held by"
-	cont "#MON…"
+	para "bij een gevecht." ; "Many other items"
+	line "Er is veel om zo" ; "can be held by"
+	cont "vast te houden…" ; "#MON…"
 
-	para "It sure is tough"
-	line "taking notes…"
+	para "Notities maken is" ; "It sure is tough"
+	line "veel werk…" ; "taking notes…"
 	done
 
 AcademyBlackboardText:
-	text "The blackboard"
-	line "describes #MON"
+	text "Het krijgbord be-" ; "The blackboard"
+	line "schrijft #MON-" ; "describes #MON"
 
-	para "status changes in"
-	line "battle."
+	para "statuswijzigingen" ; "status changes in"
+	line "bij gevechten." ; "battle."
 	done
 
 AcademyBlackboardText2: ; unreferenced
-	text "Read which topic?"
+	text "Waar over lezen?" ; "Read which topic?"
 	done
 
 AcademyPoisonText:
-	text "If poisoned, a"
-	line "#MON steadily"
-	cont "loses HP."
+	text "Een vergiftigde" ; "If poisoned, a"
+	line "#MON verliest" ; "#MON steadily"
+	cont "steeds weer LP." ; "loses HP."
 
-	para "Poison lingers"
-	line "after the battle,"
+	para "Gif blijft hangen" ; "Poison lingers"
+	line "na een gevecht," ; "after the battle,"
 
-	para "and HP is lost as"
-	line "you walk."
+	para "en je verliest LP" ; "and HP is lost as"
+	line "als je loopt." ; "you walk."
 
-	para "To cure it, use an"
-	line "ANTIDOTE."
+	para "Je geneest het met" ; "To cure it, use an"
+	line "een ANTIGIF." ; "ANTIDOTE."
 	done
 
 AcademyParalysisText:
-	text "Paralysis reduces"
-	line "speed and may"
-	cont "prevent movement."
+	text "Verlamming ver-" ; "Paralysis reduces"
+	line "traagt en voor-" ; "speed and may"
+	cont "komt soms beweging" ; "prevent movement."
 
-	para "It remains after"
-	line "battle, so use"
-	cont "a PARLYZ HEAL."
+	para "Het blijft hangen" ; "It remains after"
+	line "dus gebruik een" ; "battle, so use"
+	cont "VERLAMGENEZER." ; "a PARLYZ HEAL."
 	done
 
 AcademySleepText:
-	text "If asleep, your"
-	line "#MON can't make"
-	cont "a move."
+	text "Een slapende #-" ; "If asleep, your"
+	line "MON kan niet" ; "#MON can't make"
+	cont "aanvallen." ; "a move."
 
-	para "A sleeping #MON"
-	line "doesn't wake up"
-	cont "after battle."
+	para "Na een gevecht" ; "A sleeping #MON"
+	line "wordt de #MON" ; "doesn't wake up"
+	cont "niet wakker." ; "after battle."
 
-	para "Wake it up with"
-	line "an AWAKENING."
+	para "Wekken kan met" ; "Wake it up with"
+	line "een ONTWAKER." ; "an AWAKENING."
 	done
 
 AcademyBurnText:
-	text "A burn steadily"
-	line "consumes HP."
+	text "Een brandwond kost" ; "A burn steadily"
+	line "iedere beurt LP." ; "consumes HP."
 
-	para "It also reduces"
-	line "attack power."
+	para "Het verlaagt ook" ; "It also reduces"
+	line "je aanvalskracht." ; "attack power."
 
-	para "A burn lingers"
-	line "after battle."
+	para "Je #MON blijft na" ; "A burn lingers"
+	line "achteraf verbrand." ; "after battle."
 
-	para "Use a BURN HEAL as"
-	line "the cure."
+	para "Gebruik BRANDZALF" ; "Use a BURN HEAL as"
+	line "om te genezen." ; "the cure."
 	done
 
 AcademyFreezeText:
-	text "If your #MON is"
-	line "frozen, it can't"
-	cont "do a thing."
+	text "Een bevroren #-" ; "If your #MON is"
+	line "MON kan niks doen" ; "frozen, it can't"
+	cont "in een gevecht." ; "do a thing."
 
-	para "It remains frozen"
-	line "after battle."
+	para "Achteraf blijft" ; "It remains frozen"
+	line "ie bevroren." ; "after battle."
 
-	para "Thaw it out with"
-	line "an ICE HEAL."
+	para "Ontdooi hen met" ; "Thaw it out with"
+	line "een IJSGENEZER." ; "an ICE HEAL."
 	done
 
 AcademyNotebookText:
-	text "It's this kid's"
-	line "notebook…"
+	text "He, het notitie-" ; "It's this kid's"
+	line "blok van dat kind…" ; "notebook…"
 
-	para "Catch #MON"
-	line "using # BALLS."
+	para "Vang #MON met" ; "Catch #MON"
+	line "#BALLEN." ; "using # BALLS."
 
-	para "Up to six can be"
-	line "in your party."
+	para "Je kunt er tot zes" ; "Up to six can be"
+	line "met je meenemen." ; "in your party."
 
-	para "Keep reading?"
+	para "Blijven lezen?" ; "Keep reading?"
 	done
 
 AcademyNotebookText1:
-	text "Before throwing a"
-	line "# BALL, weaken"
-	cont "the target first."
+	text "Voor je een #-" ; "Before throwing a"
+	line "BAL gooit, verzwak" ; "# BALL, weaken"
+	cont "je het doelwit." ; "the target first."
 
-	para "A poisoned or"
-	line "burned #MON is"
-	cont "easier to catch."
+	para "Een vergiftigde of" ; "A poisoned or"
+	line "verbrande #MON" ; "burned #MON is"
+	cont "vang je sneller." ; "easier to catch."
 
-	para "Keep reading?"
+	para "Blijven lezen?" ; "Keep reading?"
 	done
 
 AcademyNotebookText2:
-	text "Some moves may"
-	line "cause confusion."
+	text "Sommige aanvallen" ; "Some moves may"
+	line "kunnen verwarren." ; "cause confusion."
 
-	para "Confusion may make"
-	line "a #MON attack"
-	cont "itself."
+	para "Verwarring laat de" ; "Confusion may make"
+	line "#MON soms zich-" ; "a #MON attack"
+	cont "zelf aanvallen." ; "itself."
 
-	para "Leaving battle"
-	line "clears up any"
-	cont "confusion."
+	para "Na een gevecht" ; "Leaving battle"
+	line "verdwijnt de" ; "clears up any"
+	cont "verwarring." ; "confusion."
 
-	para "Keep reading?"
+	para "Blijven lezen?" ; "Keep reading?"
 	done
 
 AcademyNotebookText3:
-	text "People who catch"
-	line "and use #MON"
+	text "Mensen die #MON" ; "People who catch"
+	line "vangen en ermee" ; "and use #MON"
 
-	para "in battle are"
-	line "#MON trainers."
+	para "vechten zijn #-" ; "in battle are"
+	line "MON-trainers." ; "#MON trainers."
 
-	para "They are expected"
-	line "to visit #MON"
+	para "Verwacht wordt dat" ; "They are expected"
+	line "ze #MON-gyms" ; "to visit #MON"
 
-	para "GYMS and defeat"
-	line "other trainers."
+	para "bezoeken en andere" ; "GYMS and defeat"
+	line "trainers verslaan." ; "other trainers."
 
-	para "The next page"
-	line "is… Blank!"
+	para "De volgende pagina" ; "The next page"
+	line "is… Leeg!" ; "is… Blank!"
 
-	para "Boy: E-he-he…"
+	para "Jongen: E-he-he…" ; "Boy: E-he-he…"
 
-	para "I haven't written"
-	line "anymore…"
+	para "Meer heb ik niet" ; "I haven't written"
+	line "geschreven…" ; "anymore…"
 	done
 
 AcademyStickerMachineText:
-	text "This super machine"
-	line "prints data out as"
+	text "Deze supermachine" ; "This super machine"
+	line "drukt data af als" ; "prints data out as"
 
 	para "stickers!"
 	done

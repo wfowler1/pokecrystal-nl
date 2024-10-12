@@ -152,179 +152,179 @@ SproutTower3FRivalLeavesElderMovement:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "ELDER: You are in-"
-	line "deed skilled as a"
-	cont "trainer."
+	text "OUDERE: Je bent" ; "ELDER: You are in-"
+	line "echt vaardig als" ; "deed skilled as a"
+	cont "trainer." ; "trainer."
 
-	para "As promised, here"
-	line "is your HM."
+	para "Zoals beloofd," ; "As promised, here"
+	line "hier is je VM." ; "is your HM."
 
-	para "But let me say"
-	line "this: You should"
+	para "Maar ik zeg je" ; "But let me say"
+	line "dit: behandel je" ; "this: You should"
 
-	para "treat your"
-	line "#MON better."
+	para "#MON beter dan" ; "treat your"
+	line "je nu doet." ; "#MON better."
 
-	para "The way you battle"
-	line "is far too harsh."
+	para "Je vecht op een" ; "The way you battle"
+	line "erg ruwe manier." ; "is far too harsh."
 
-	para "#MON are not"
-	line "tools of war…"
+	para "#MON zijn geen" ; "#MON are not"
+	line "oorlogswapens…" ; "tools of war…"
 	done
 
 SproutTowerRivalOnlyCareAboutStrongText:
 	text "…"
 	line "…Humph!"
 
-	para "He claims to be"
-	line "the ELDER but"
-	cont "he's weak."
+	para "Hij beweert de" ; "He claims to be"
+	line "OUDERE te zijn," ; "the ELDER but"
+	cont "maar hij is zwak." ; "he's weak."
 
-	para "It stands to"
-	line "reason."
+	para "Het is ook best" ; "It stands to"
+	line "logisch." ; "reason."
 
-	para "I'd never lose to"
-	line "fools who babble"
+	para "Ik zou nooit ver-" ; "I'd never lose to"
+	line "liezen van dwazen" ; "fools who babble"
 
-	para "about being nice"
-	line "to #MON."
+	para "die kletsen over" ; "about being nice"
+	line "lief doen." ; "to #MON."
 
-	para "I only care about"
-	line "strong #MON"
-	cont "that can win."
+	para "Ik geef enkel om" ; "I only care about"
+	line "sterke #MON die" ; "strong #MON"
+	cont "kunnen winnen." ; "that can win."
 
-	para "I really couldn't"
-	line "care less about"
-	cont "weak #MON."
+	para "Om zwakke #MON" ; "I really couldn't"
+	line "geef ik echt bar" ; "care less about"
+	cont "weinig." ; "weak #MON."
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
-	text "<RIVAL> used an"
-	line "ESCAPE ROPE!"
+	text "<RIVAL> gebruikte" ; "<RIVAL> used an"
+	line "ONTSNAPPINGSTOUW!" ; "ESCAPE ROPE!"
 	done
 
 SageLiSeenText:
-	text "So good of you to"
-	line "come here!"
+	text "Wat goed dat je" ; "So good of you to"
+	line "bent gekomen!" ; "come here!"
 
-	para "SPROUT TOWER is a"
-	line "place of training."
+	para "SPROUT-TOREN is" ; "SPROUT TOWER is a"
+	line "een trainingsplek." ; "place of training."
 
-	para "People and #MON"
-	line "test their bonds"
+	para "Mensen en #MON" ; "People and #MON"
+	line "testen hun band." ; "test their bonds"
 
-	para "to build a bright"
-	line "future together."
+	para "Om samen een mooie" ; "to build a bright"
+	line "toekomst te bouwen." ; "future together."
 
-	para "I am the final"
+	para "Ik ben de laatste" ; "I am the final"
 	line "test."
 
-	para "Allow me to check"
-	line "the ties between"
+	para "Laat me de band" ; "Allow me to check"
+	line "tussen jou en je" ; "the ties between"
 
-	para "your #MON and"
-	line "you!"
+	para "#MON op de!" ; "your #MON and"
+	line "proef stellen!" ; "you!"
 	done
 
 SageLiBeatenText:
-	text "Ah, excellent!"
+	text "Ah, uitstekend!" ; "Ah, excellent!"
 	done
 
 SageLiTakeThisFlashText:
-	text "You and your #-"
-	line "MON should have"
+	text "Jij en je #MON" ; "You and your #-"
+	line "kunnen deze" ; "MON should have"
 
-	para "no problem using"
-	line "this move."
+	para "vaardigheid wel" ; "no problem using"
+	line "prima gebruiken." ; "this move."
 
-	para "Take this FLASH"
-	line "HM."
+	para "Neem deze VM met" ; "Take this FLASH"
+	line "FLITS." ; "HM."
 	done
 
 SageLiFlashExplanationText:
-	text "FLASH illuminates"
-	line "even the darkest"
-	cont "of all places."
+	text "FLITS verlicht" ; "FLASH illuminates"
+	line "zelfs de meest" ; "even the darkest"
+	cont "donkere ruimtes." ; "of all places."
 
-	para "But to use it out"
-	line "of battle, you"
+	para "Om het buiten ge-" ; "But to use it out"
+	line "vechten te doen" ; "of battle, you"
 
-	para "need the BADGE"
-	line "from VIOLET's GYM."
+	para "heb je VIOLET'S" ; "need the BADGE"
+	line "BADGE nodig." ; "from VIOLET's GYM."
 	done
 
 SageLiAfterBattleText:
-	text "I hope you learn"
-	line "and grow from your"
-	cont "journey."
+	text "Ik hoop dat je" ; "I hope you learn"
+	line "leert en groeit" ; "and grow from your"
+	cont "tijdens je reis." ; "journey."
 	done
 
 SageJinSeenText:
-	text "I train to find"
-	line "enlightenment in"
-	cont "#MON!"
+	text "ik train om ver-" ; "I train to find"
+	line "lichting in #-" ; "enlightenment in"
+	cont "MON te vinden!" ; "#MON!"
 	done
 
 SageJinBeatenText:
-	text "My training is"
-	line "incomplete…"
+	text "Mijn training is" ; "My training is"
+	line "nog niet compleet…" ; "incomplete…"
 	done
 
 SageJinAfterBattleText:
-	text "As #MON grow"
-	line "stronger, so does"
-	cont "the trainer."
+	text "Als een #MON" ; "As #MON grow"
+	line "groeit, wordt ook" ; "stronger, so does"
+	cont "de trainer sterk." ; "the trainer."
 
-	para "No, wait. As the"
-	line "trainer grows"
+	para "Nee, wacht. Als" ; "No, wait. As the"
+	line "de trainer groeit," ; "trainer grows"
 
-	para "stronger, so do"
-	line "the #MON."
+	para "wordt ook de" ; "stronger, so do"
+	line "#MON sterk." ; "the #MON."
 	done
 
 SageTroySeenText:
-	text "Let me see how"
-	line "much you trust"
-	cont "your #MON."
+	text "Ik laat je zien" ; "Let me see how"
+	line "hoeveel jij je" ; "much you trust"
+	cont "MON vertrouwt." ; "your #MON."
 	done
 
 SageTroyBeatenText:
-	text "Yes, your trust is"
-	line "real!"
+	text "Ja, je vertrouwen" ; "Yes, your trust is"
+	line "is het echte werk!" ; "real!"
 	done
 
 SageTroyAfterBattleText:
-	text "It is not far to"
-	line "the ELDER."
+	text "Je bent vlakbij de" ; "It is not far to"
+	line "OUDERE." ; "the ELDER."
 	done
 
 SageNealSeenText:
-	text "The ELDER's HM"
-	line "lights even pitch-"
-	cont "black darkness."
+	text "Het licht van de" ; "The ELDER's HM"
+	line "OUDERE zijn VM" ; "lights even pitch-"
+	cont "verlicht duister." ; "black darkness."
 	done
 
 SageNealBeatenText:
-	text "It is my head that"
-	line "is bright!"
+	text "Mijn hoofd is" ; "It is my head that"
+	line "helder!" ; "is bright!"
 	done
 
 SageNealAfterBattleText:
-	text "Let there be light"
-	line "on your journey."
+	text "Laat er licht zijn" ; "Let there be light"
+	line "op je reis." ; "on your journey."
 	done
 
 SproutTower3FPaintingText:
-	text "It's a powerful"
-	line "painting of a"
+	text "Het is een mooi" ; "It's a powerful"
+	line "schilderij van een" ; "painting of a"
 	cont "BELLSPROUT."
 	done
 
 SproutTower3FStatueText:
-	text "A #MON statue…"
+	text "Een #MON-beeld…" ; "A #MON statue…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Het ziet er fraai" ; "It looks very"
+	line "uit." ; "distinguished."
 	done
 
 SproutTower3F_MapEvents:
