@@ -416,8 +416,9 @@ HurtItselfText:
 	prompt
 
 ConfusedNoMoreText:
-	text "<USER> is" ; "<USER>'s"
-	line "niet meer verward!" ; "confused no more!"
+	text "<USER>" ; "<USER>'s"
+	line "is niet meer" ; "confused no more!"
+	cont "verward!"
 	prompt
 
 BecameConfusedText:
