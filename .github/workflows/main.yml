@@ -56,5 +56,5 @@ jobs:
       - name: Validate
         run: |
           if [[ $(git diff-tree --no-commit-id --name-only --diff-filter=ACMRT -r ${{ github.sha }} -- '*.asm' | xargs) ]]; then
-          mono tools/PokeGen2TextValidator.exe $(git diff-tree --no-commit-id --name-only --diff-filter=ACMRT -r "$GITHUB_SHA" -- '*.asm' | xargs)
+          mono tools/PokeGen2TextValidator.exe $(git diff-tree --no-commit-id --name-only --diff-filter=ACMRT -r ${{ github.sha }} -- '*.asm' | xargs)
           fi
