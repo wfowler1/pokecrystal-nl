@@ -268,1005 +268,1005 @@ Move00Description:
 	db "?@"
 
 PoundDescription:
-	db   "Pounds with fore-"
-	next "legs or tail.@"
+	db   "Ramt met voorpoten" ; "Pounds with fore-"
+	next "of staart.@" ; "legs or tail.@"
 
 KarateChopDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Heeft hoge kri-" ; "Has a high criti-"
+	next "tieke klap-ratio.@" ; "cal hit ratio.@"
 
 DoubleslapDescription:
-	db   "Repeatedly slaps"
-	next "2-5 times.@"
+	db   "Slaat herhaalde-" ; "Repeatedly slaps"
+	next "lijk 2-5 keer.@" ; "2-5 times.@"
 
 CometPunchDescription:
-	db   "Repeatedly punches"
-	next "2-5 times.@"
+	db   "Slaat herhaald" ; "Repeatedly punches"
+	next "2-5 keer.@" ; "2-5 times.@"
 
 MegaPunchDescription:
-	db   "A powerful punch"
-	next "thrown very hard.@"
+	db   "Krachtige, harde" ; "A powerful punch"
+	next "slag.@" ; "thrown very hard.@"
 
 PayDayDescription:
-	db   "Throws coins. Gets"
-	next "them back later.@"
+	db   "Gooit munten." ; "Throws coins. Gets"
+	next "Krijg je terug." ; "them back later.@"
 
 FirePunchDescription:
-	db   "A fiery punch. May"
-	next "cause a burn.@"
+	db   "Vlammende klap." ; "A fiery punch. May"
+	next "Kan verbranden.@" ; "cause a burn.@"
 
 IcePunchDescription:
-	db   "An icy punch. May"
-	next "cause freezing.@"
+	db   "Ijzige klap." ; "An icy punch. May"
+	next "Kan bevriezen.@" ; "cause freezing.@"
 
 ThunderpunchDescription:
-	db   "An electric punch."
-	next "It may paralyze.@"
+	db   "Elektrische klap." ; "An electric punch."
+	next "Kan verlammen.@" ; "It may paralyze.@"
 
 ScratchDescription:
-	db   "Scratches with"
-	next "sharp claws.@"
+	db   "Krabt met scherpe" ; "Scratches with"
+	next "klauwen.@" ; "sharp claws.@"
 
 VicegripDescription:
-	db   "Grips with power-"
-	next "ful pincers.@"
+	db   "Grijpt met" ; "Grips with power-"
+	next "krachtige tangen.@" ; "ful pincers.@"
 
 GuillotineDescription:
-	db   "A one-hit KO,"
-	next "pincer attack.@"
+	db   "In één klap KO" ; "A one-hit KO,"
+	next "met schaaraanval.@" ; "pincer attack.@"
 
 RazorWindDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "Beurt 1: Opladen" ; "1st turn: Prepare"
+	next "Beurt 2: Aanval@" ; "2nd turn: Attack@"
 
 SwordsDanceDescription:
-	db   "A dance that in-"
-	next "creases ATTACK.@"
+	db   "Een dans die AAN-" ; "A dance that in-"
+	next "VAL verhoogt.@" ; "creases ATTACK.@"
 
 CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
+	db   "Snijdt met, klauw" ; "Cuts using claws,"
+	next "zeis, etc.@" ; "scythes, etc.@"
 
 GustDescription:
-	db   "Whips up a strong"
-	next "gust of wind.@"
+	db   "Start sterke wind-" ; "Whips up a strong"
+	next "stroom.@" ; "gust of wind.@"
 
 WingAttackDescription:
-	db   "Strikes the target"
-	next "with wings.@"
+	db   "Slaat het doelwit" ; "Strikes the target"
+	next "met vleugels.@" ; "with wings.@"
 
 WhirlwindDescription:
-	db   "Blows away the foe"
-	next "& ends battle.@"
+	db   "Blaast vijand weg" ; "Blows away the foe"
+	next "en stopt gevecht.@" ; "& ends battle.@"
 
 FlyDescription:
-	db   "1st turn: Fly"
-	next "2nd turn: Attack@"
+	db   "Beurt 1: Vlieg" ; "1st turn: Fly"
+	next "Beurt 2: Val aan@" ; "2nd turn: Attack@"
 
 BindDescription:
-	db   "Binds the target"
-	next "for 2-5 turns.@"
+	db   "Bindt doelwit vast" ; "Binds the target"
+	next "voor 2-5 beurten.@" ; "for 2-5 turns.@"
 
 SlamDescription:
-	db   "Slams the foe with"
-	next "a tail, vine, etc.@"
+	db   "Ramt met staart," ; "Slams the foe with"
+	next "roede, etc.@" ; "a tail, vine, etc.@"
 
 VineWhipDescription:
-	db   "Whips the foe with"
-	next "slender vines.@"
+	db   "Zweept vijand met" ; "Whips the foe with"
+	next "dunne rank.@" ; "slender vines.@"
 
 StompDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "doen terugdeinzen.@" ; "cause flinching.@"
 
 DoubleKickDescription:
-	db   "A double kicking"
-	next "attack.@"
+	db   "Een dubbel schop-" ; "A double kicking"
+	next "pende aanval.@" ; "attack.@"
 
 MegaKickDescription:
-	db   "A powerful kicking"
-	next "attack.@"
+	db   "Een krachtige" ; "A powerful kicking"
+	next "schopaanval.@" ; "attack.@"
 
 JumpKickDescription:
-	db   "May miss, damaging"
-	next "the user.@"
+	db   "kan missen en ge-" ; "May miss, damaging"
+	next "bruiker pijn doen." ; "the user.@"
 
 RollingKickDescription:
-	db   "A fast, spinning"
-	next "kick.@"
+	db   "Een snelle," ; "A fast, spinning"
+	next "draaiende trap.@" ; "kick.@"
 
 SandAttackDescription:
-	db   "Reduces accuracy"
-	next "by throwing sand.@"
+	db   "Verlaagt precisie" ; "Reduces accuracy"
+	next "met worp zand.@" ; "by throwing sand.@"
 
 HeadbuttDescription:
-	db   "An attack that may"
-	next "make foe flinch.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "doen terugdeinzen.@" ; "make foe flinch.@"
 
 HornAttackDescription:
-	db   "An attack using a"
-	next "horn to jab.@"
+	db   "Aanval die steekt" ; "An attack using a"
+	next "met een hoorn.@" ; "horn to jab.@"
 
 FuryAttackDescription:
-	db   "Jabs the target"
-	next "2-5 times.@"
+	db   "Steek het doelwit" ; "Jabs the target"
+	next "2-5 keer.@" ; "2-5 times.@"
 
 HornDrillDescription:
-	db   "A one-hit KO,"
-	next "drill attack.@"
+	db   "In één klap KO met" ; "A one-hit KO,"
+	next "booraanval.@" ; "drill attack.@"
 
 TackleDescription:
-	db   "A full-body charge"
-	next "attack.@"
+	db   "Ramaanval met het" ; "A full-body charge"
+	next "gehele lichaam.@" ; "attack.@"
 
 BodySlamDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Een aanval die kan" ; "An attack that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 WrapDescription:
-	db   "Squeezes the foe"
-	next "for 2-5 turns.@"
+	db   "Knijpt vijand voor" ; "Squeezes the foe"
+	next "2-5 beurten." ; "for 2-5 turns.@"
 
 TakeDownDescription:
-	db   "A tackle that also"
-	next "hurts the user.@"
+	db   "Tackle die ook ge-" ; "A tackle that also"
+	next "bruiker pijn doet.@" ; "hurts the user.@"
 
 ThrashDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "Werkt 2-3 beurten" ; "Works 2-3 turns"
+	next "verwart dan jou.@" ; "and confuses user.@"
 
 DoubleEdgeDescription:
-	db   "A tackle that also"
-	next "hurts the user.@"
+	db   "Tackle die ook ge-" ; "A tackle that also"
+	next "bruiker pijn doet.@" ; "hurts the user.@"
 
 TailWhipDescription:
-	db   "Lowers the foe's"
-	next "DEFENSE.@"
+	db   "Verlaagt VERDE-" ; "Lowers the foe's"
+	next "DIGING gebruiker.@" ; "DEFENSE.@"
 
 PoisonStingDescription:
-	db   "An attack that may"
-	next "poison the target.@"
+	db   "Aanval die doelwit" ; "An attack that may"
+	next "kan vergiftigen.@" ; "poison the target.@"
 
 TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
+	db   "Steekt doel twee-" ; "Jabs the foe twice"
+	next "maal met prikkers.@" ; "using stingers.@"
 
 PinMissileDescription:
-	db   "Fires pins that"
-	next "strike 2-5 times.@"
+	db   "Vuurt naalden die" ; "Fires pins that"
+	next "2-5 keer raken.@" ; "strike 2-5 times.@"
 
 LeerDescription:
-	db   "Reduces the foe's"
-	next "DEFENSE.@"
+	db   "Verlaagt VERDEDI-" ; "Reduces the foe's"
+	next "GING val doelwit.@" ; "DEFENSE.@"
 
 BiteDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "doen terugdeinzen.@" ; "cause flinching.@"
 
 GrowlDescription:
-	db   "Reduces the foe's"
-	next "ATTACK.@"
+	db   "Verlaagt AANVAL" ; "Reduces the foe's"
+	next "van doelwit.@" ; "ATTACK.@"
 
 RoarDescription:
-	db   "Scares wild foes"
-	next "to end battle.@"
+	db   "Jaagt wilde vijand" ; "Scares wild foes"
+	next "weg.@" ; "to end battle.@"
 
 SingDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "Kan doelwit in" ; "May cause the foe"
+	next "slaap bengen.@" ; "to fall asleep.@"
 
 SupersonicDescription:
-	db   "Sound waves that"
-	next "cause confusion.@"
+	db   "Geluidsgolven die" ; "Sound waves that"
+	next "verwarren.@" ; "cause confusion.@"
 
 SonicboomDescription:
-	db   "Always inflicts"
-	next "20HP damage.@"
+	db   "Doet altijd 20LP" ; "Always inflicts"
+	next "schade.@" ; "20HP damage.@"
 
 DisableDescription:
-	db   "Disables the foe's"
-	next "most recent move.@"
+	db   "Schakelt meest re-" ; "Disables the foe's"
+	next "cente aanval uit.@" ; "most recent move.@"
 
 AcidDescription:
-	db   "An attack that may"
-	next "lower DEFENSE.@"
+	db   "Aanval die VERD." ; "An attack that may"
+	next "kan verlagen.@" ; "lower DEFENSE.@"
 
 EmberDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "Een aanval die kan" ; "An attack that may"
+	next "verbranden.@" ; "inflict a burn.@"
 
 FlamethrowerDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "Een aanval die kan" ; "An attack that may"
+	next "verbranden.@" ; "inflict a burn.@"
 
 MistDescription:
-	db   "Prevents stat"
-	next "reduction.@"
+	db   "Voorkomt verlaging" ; "Prevents stat"
+	next "van statistieken.@" ; "reduction.@"
 
 WaterGunDescription:
-	db   "Squirts water to"
-	next "attack.@"
+	db   "Spuit water om aan" ; "Squirts water to"
+	next "te vallen.@" ; "attack.@"
 
 HydroPumpDescription:
-	db   "A powerful water-"
-	next "type attack.@"
+	db   "Een krachtige" ; "A powerful water-"
+	next "wateraanval.@" ; "type attack.@"
 
 SurfDescription:
-	db   "A strong water-"
-	next "type attack.@"
+	db   "Een sterke water-" ; "A strong water-"
+	next "type aanval.@" ; "type attack.@"
 
 IceBeamDescription:
-	db   "An attack that may"
-	next "freeze the foe.@"
+	db   "Aanval die doelwit" ; "An attack that may"
+	next "kan bevriezen.@" ; "freeze the foe.@"
 
 BlizzardDescription:
-	db   "An attack that may"
-	next "freeze the foe.@"
+	db   "Aanval die doelwit" ; "An attack that may"
+	next "kan bevriezen.@" ; "freeze the foe.@"
 
 PsybeamDescription:
-	db   "An attack that may"
-	next "confuse the foe.@"
+	db   "Aanval die doelwit" ; "An attack that may"
+	next "kan verwarren.@" ; "confuse the foe.@"
 
 BubblebeamDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
+	db   "Aanval die snel-" ; "An attack that may"
+	next "heid kan verlagen.@" ; "lower SPEED.@"
 
 AuroraBeamDescription:
-	db   "An attack that may"
-	next "lower ATTACK.@"
+	db   "Aanval die AANVAL" ; "An attack that may"
+	next "kan verlagen.@" ; "lower ATTACK.@"
 
 HyperBeamDescription:
-	db   "1st turn: Attack"
-	next "2nd turn: Rest@"
+	db   "Beurt 1: Aanval" ; "1st turn: Attack"
+	next "Beurt 2: Rusten@" ; "2nd turn: Rest@"
 
 PeckDescription:
-	db   "Jabs the foe with"
-	next "a beak, etc.@"
+	db   "Prikt de vijand" ; "Jabs the foe with"
+	next "met snavel, etc.@" ; "a beak, etc.@"
 
 DrillPeckDescription:
-	db   "A strong, spin-"
-	next "ning-peck attack.@"
+	db   "Een sterke, draai-" ; "A strong, spin-"
+	next "eende snavel-prik.@" ; "ning-peck attack.@"
 
 SubmissionDescription:
-	db   "An attack that al-"
-	next "so hurts the user.@"
+	db   "Een aanval die ook" ; "An attack that al-"
+	next "gebruiker raakt.@" ; "so hurts the user.@"
 
 LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "doen terugdeinzen.@" ; "cause flinching.@"
 
 CounterDescription:
-	db   "Returns a physical"
-	next "blow double.@"
+	db   "Geeft dubbel zo" ; "Returns a physical"
+	next "harde klap terug.@" ; "blow double.@"
 
 SeismicTossDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
+	db   "Niveau gebruiker" ; "The user's level"
+	next "bepaalt LP-schade.@" ; "equals damage HP.@"
 
 StrengthDescription:
-	db   "A powerful physi-"
-	next "cal attack.@"
+	db   "Een krachtige" ; "A powerful physi-"
+	next "fysieke aanval.@" ; "cal attack.@"
 
 AbsorbDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "Steelt 1/2 van" ; "Steals 1/2 of the"
+	next "geleverde schade.@" ; "damage inflicted.@"
 
 MegaDrainDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "Steelt 1/2 van" ; "Steals 1/2 of the"
+	next "geleverde schade.@" ; "damage inflicted.@"
 
 LeechSeedDescription:
-	db   "Steals HP from the"
-	next "foe on every turn.@"
+	db   "Steelt elke beurt" ; "Steals HP from the"
+	next "LP van vijand." ; "foe on every turn.@"
 
 GrowthDescription:
-	db   "Raises the SPCL."
-	next "ATK rating.@"
+	db   "Verhoogt SPCL.-" ; "Raises the SPCL."
+	next "AANVAL.@" ; "ATK rating.@"
 
 RazorLeafDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Hoge kans op" ; "Has a high criti-"
+	next "kritieke aanval.@" ; "cal hit ratio.@"
 
 SolarbeamDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "Beurt 1: Opladen" ; "1st turn: Prepare"
+	next "Beurt 2: Aanval@" ; "2nd turn: Attack@"
 
 PoisonpowderDescription:
-	db   "A move that may"
-	next "poison the foe.@"
+	db   "Aanval die vijand" ; "A move that may"
+	next "kan vergiftigen.@" ; "poison the foe.@"
 
 StunSporeDescription:
-	db   "A move that may"
-	next "paralyze the foe.@"
+	db   "Aanval die vijand" ; "A move that may"
+	next "kan verlammen.@" ; "paralyze the foe.@"
 
 SleepPowderDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "Kan doel in slaap" ; "May cause the foe"
+	next "laten vallen.@" ; "to fall asleep.@"
 
 PetalDanceDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "Werkt 2-3beurten" ; "Works 2-3 turns"
+	next "en verwart je MON." ; "and confuses user.@"
 
 StringShotDescription:
-	db   "A move that lowers"
-	next "the foe's SPEED.@"
+	db   "Kan SNELHEID van" ; "A move that lowers"
+	next "vijand verlagen.@" ; "the foe's SPEED.@"
 
 DragonRageDescription:
-	db   "Always inflicts"
-	next "40HP damage.@"
+	db   "Doet altijd" ; "Always inflicts"
+	next "40LP schade.@" ; "40HP damage.@"
 
 FireSpinDescription:
-	db   "Traps foe in fire"
-	next "for 2-5 turns.@"
+	db   "Vangt vijand 2-5" ; "Traps foe in fire"
+	next "beurten in vuur" ; "for 2-5 turns.@"
 
 ThundershockDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 ThunderboltDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 ThunderWaveDescription:
-	db   "A move that may"
-	next "cause paralysis.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 ThunderDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 RockThrowDescription:
 	db   "Drops rocks on the"
 	next "enemy.@"
 
 EarthquakeDescription:
-	db   "Tough but useless"
-	next "vs. flying foes.@"
+	db   "Sterk maar nutte-" ; "Tough but useless"
+	next "loos bij vliegers.@" ; "vs. flying foes.@"
 
 FissureDescription:
-	db   "A ground-type,"
-	next "one-hit KO attack.@"
+	db   "Grond-aanval die" ; "A ground-type,"
+	next "vijand KO slaat.@" ; "one-hit KO attack.@"
 
 DigDescription:
-	db   "1st turn: Burrow"
-	next "2nd turn: Attack@"
+	db   "Beurt 1: Graven" ; "1st turn: Burrow"
+	next "Beurt 2: Aanval@" ; "2nd turn: Attack@"
 
 ToxicDescription:
-	db   "A poison move with"
-	next "increasing damage.@"
+	db   "Giftige aanval die" ; "A poison move with"
+	next "steeds meer doet.@" ; "increasing damage.@"
 
 ConfusionDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "verwarren.@" ; "cause confusion.@"
 
 PsychicMDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "Kan SPCL.VERDEDIG.-" ; "An attack that may"
+	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 HypnosisDescription:
-	db   "May put the foe to"
-	next "sleep.@"
+	db   "Kan vijand in" ; "May put the foe to"
+	next "slaap brengen.@" ; "sleep.@"
 
 MeditateDescription:
-	db   "Raises the user's"
-	next "ATTACK.@"
+	db   "Verhoogt AANVAL" ; "Raises the user's"
+	next "van gebruiker.@" ; "ATTACK.@"
 
 AgilityDescription:
-	db   "Sharply increases"
-	next "the user's SPEED.@"
+	db   "Verhoogt SNELHEID" ; "Sharply increases"
+	next "flink.@" ; "the user's SPEED.@"
 
 QuickAttackDescription:
-	db   "Lets the user get"
-	next "in the first hit.@"
+	db   "Laat gebruiker als" ; "Lets the user get"
+	next "eerste aanvallen.@" ; "in the first hit.@"
 
 RageDescription:
-	db   "Raises ATTACK if"
-	next "the user is hit.@"
+	db   "Verhoogt AANVAL" ; "Raises ATTACK if"
+	next "wanneer geraakt.@" ; "the user is hit.@"
 
 TeleportDescription:
-	db   "A move for fleeing"
-	next "from battle.@"
+	db   "Om mee te vluchten" ; "A move for fleeing"
+	next "van gevecht.@" ; "from battle.@"
 
 NightShadeDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
+	db   "Niveau gebruiker" ; "The user's level"
+	next "bepaalt LP-schade.@" ; "equals damage HP.@"
 
 MimicDescription:
-	db   "Copies a move used"
-	next "by the foe.@"
+	db   "Kopieert aanval" ; "Copies a move used"
+	next "van tegenstander.@" ; "by the foe.@"
 
 ScreechDescription:
-	db   "Sharply reduces"
-	next "the foe's DEFENSE.@"
+	db   "Verlaagt" ; "Sharply reduces"
+	next "VERDEDIGING flink." ; "the foe's DEFENSE.@"
 
 DoubleTeamDescription:
-	db   "Heightens evasive-"
-	next "ness.@"
+	db   "Verhoogt ontwijk-" ; "Heightens evasive-"
+	next "baarheid.@" ; "ness.@"
 
 RecoverDescription:
-	db   "Restores HP by 1/2"
-	next "the max HP.@"
+	db   "Herstelt LP met" ; "Restores HP by 1/2"
+	next "1/2 van max LP.@" ; "the max HP.@"
 
 HardenDescription:
-	db   "Raises the user's"
-	next "DEFENSE.@"
+	db   "Verhoogt VERDEDI-" ; "Raises the user's"
+	next "GING gebruiker.@" ; "DEFENSE.@"
 
 MinimizeDescription:
-	db   "Heightens evasive-"
-	next "ness.@"
+	db   "Verhoogt ontwijk-" ; "Heightens evasive-"
+	next "baarheid.@" ; "ness.@"
 
 SmokescreenDescription:
-	db   "Lowers the foe's"
-	next "accuracy.@"
+	db   "Verlaagt precisie" ; "Lowers the foe's"
+	next "van tegenstander.@" ; "accuracy.@"
 
 ConfuseRayDescription:
-	db   "A move that causes"
-	next "confusion.@"
+	db   "Een aanval die" ; "A move that causes"
+	next "verwart.@" ; "confusion.@"
 
 WithdrawDescription:
-	db   "Heightens the"
-	next "user's DEFENSE.@"
+	db   "Verhoogt VERDEDI-" ; "Heightens the"
+	next "GING gebruiker.@" ; "user's DEFENSE.@"
 
 DefenseCurlDescription:
-	db   "Heightens the"
-	next "user's DEFENSE.@"
+	db   "Verhoogt VERDEDI-" ; "Heightens the"
+	next "GING gebruiker.@" ; "user's DEFENSE.@"
 
 BarrierDescription:
-	db   "Sharply increases"
-	next "user's DEFENSE.@"
+	db   "Verhoogt VERDEDI-" ; "Sharply increases"
+	next "GING flink.@" ; "user's DEFENSE.@"
 
 LightScreenDescription:
-	db   "Ups SPCL.DEF with"
-	next "a wall of light.@"
+	db   "Hogere SPCR.VERD." ; "Ups SPCL.DEF with"
+	next "met lichtmuur.@" ; "a wall of light.@"
 
 HazeDescription:
-	db   "Eliminates all"
-	next "stat changes.@"
+	db   "Haalt alle stat-" ; "Eliminates all"
+	next "veranderingen weg.@" ; "stat changes.@"
 
 ReflectDescription:
-	db   "Raises DEFENSE"
-	next "with a barrier.@"
+	db   "Verhoogt VERDEDI-" ; "Raises DEFENSE"
+	next "GING met barriere.@" ; "with a barrier.@"
 
 FocusEnergyDescription:
-	db   "Raises the criti-"
-	next "cal hit ratio.@"
+	db   "Verhoogt kans op" ; "Raises the criti-"
+	next "kritieke klappen.@" ; "cal hit ratio.@"
 
 BideDescription:
-	db   "Waits 2-3 turns &"
-	next "hits back double.@"
+	db   "Wacht 2-3 beurten" ; "Waits 2-3 turns &"
+	next "en raak dubbel.@" ; "hits back double.@"
 
 MetronomeDescription:
-	db   "Randomly uses any"
-	next "#MON move.@"
+	db   "Gebruik willekeur-" ; "Randomly uses any"
+	next "ige aanval.@" ; "#MON move.@"
 
 MirrorMoveDescription:
-	db   "Counters with the"
-	next "same move.@"
+	db   "Sla terug met" ; "Counters with the"
+	next "zelfde aanval.@" ; "same move.@"
 
 SelfdestructDescription:
-	db   "Powerful but makes"
-	next "the user faint.@"
+	db   "Krachtig, maar ge-" ; "Powerful but makes"
+	next "bruiker valt flauw@" ; "the user faint.@"
 
 EggBombDescription:
-	db   "Eggs are hurled at"
-	next "the foe.@"
+	db   "Eieren worden ge-" ; "Eggs are hurled at"
+	next "gooid naar vijand.@" ; "the foe.@"
 
 LickDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 SmogDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "Aanval die vijand" ; "An attack that may"
+	next "kan vergiftigen.@" ; "poison the foe.@"
 
 SludgeDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "Aanval die vijand" ; "An attack that may"
+	next "kan vergiftigen.@" ; "poison the foe.@"
 
 BoneClubDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "doen terugdeinzen.@" ; "cause flinching.@"
 
 FireBlastDescription:
-	db   "An attack that"
-	next "may cause a burn.@"
+	db   "Een aanval die kan" ; "An attack that"
+	next "verbranden.@" ; "may cause a burn.@"
 
 WaterfallDescription:
-	db   "An aquatic charge"
-	next "attack.@"
+	db   "Een zeer natte" ; "An aquatic charge"
+	next "tackle-aanval.@" ; "attack.@"
 
 ClampDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
+	db   "Zet vijand 2-5" ; "Traps the foe for"
+	next "beurten vast.@" ; "2-5 turns.@"
 
 SwiftDescription:
-	db   "An attack that"
-	next "never misses.@"
+	db   "Aanval die nooit" ; "An attack that"
+	next "kan missen.@" ; "never misses.@"
 
 SkullBashDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "Beurt 1: Opladen" ; "1st turn: Prepare"
+	next "Beurt 2: Aanval@" ; "2nd turn: Attack@"
 
 SpikeCannonDescription:
-	db   "Fires spikes to"
-	next "hit 2-5 times.@"
+	db   "Vuurt stekels die" ; "Fires spikes to"
+	next "2-5 keer raken.@" ; "hit 2-5 times.@"
 
 ConstrictDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
+	db   "Aanval die SNEL-" ; "An attack that may"
+	next "HEID kan verlagen.@" ; "lower SPEED.@"
 
 AmnesiaDescription:
-	db   "Sharply raises the"
-	next "user's SPCL.DEF.@"
+	db   "Verhoogt SPCL.-" ; "Sharply raises the"
+	next "VERDEDIGING flink.@" ; "user's SPCL.DEF.@"
 
 KinesisDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
+	db   "Verlaagt precisie" ; "Reduces the foe's"
+	next "van tegenstander." ; "accuracy.@"
 
 SoftboiledDescription:
-	db   "Restores HP by 1/2"
-	next "the user's max HP.@"
+	db   "Herstelt LP met" ; "Restores HP by 1/2"
+	next "1/2 van max LP.@" ; "the max HP.@"
 
 HiJumpKickDescription:
-	db   "May miss and hurt"
-	next "the user.@"
+	db   "Kan missen en ge-" ; "May miss and hurt"
+	next "bruiker pijn doen.@" ; "the user.@"
 
 GlareDescription:
-	db   "A move that may"
-	next "cause paralysis.@"
+	db   "Aanval die kan" ; "A move that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 DreamEaterDescription:
-	db   "Steals HP from a"
-	next "sleeping victim.@"
+	db   "Steelt LP van" ; "Steals HP from a"
+	next "slapend doelwit.@" ; "sleeping victim.@"
 
 PoisonGasDescription:
-	db   "A move that may"
-	next "poison the foe.@"
+	db   "Aanval die dan" ; "A move that may"
+	next "vergiftigen.@" ; "poison the foe.@"
 
 BarrageDescription:
-	db   "Throws orbs to hit"
-	next "2-5 times.@"
+	db   "Gooi bollen die" ; "Throws orbs to hit"
+	next "2-5 keer raken.@" ; "2-5 times.@"
 
 LeechLifeDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "Steelt 1/2 van" ; "Steals 1/2 of the"
+	next "gemaakte schade.@" ; "damage inflicted.@"
 
 LovelyKissDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "Kan vijand in" ; "May cause the foe"
+	next "slaap krijgen.@" ; "to fall asleep.@"
 
 SkyAttackDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "Beurt 1: Opladen" ; "1st turn: Prepare"
+	next "Beurt 2: Aanval@" ; "2nd turn: Attack@"
 
 TransformDescription:
-	db   "The user assumes"
-	next "the foe's guise.@"
+	db   "Gebruiker veran-" ; "The user assumes"
+	next "dert in vijand.@" ; "the foe's guise.@"
 
 BubbleDescription:
-	db   "An attack that may"
-	next "reduce SPEED.@"
+	db   "Aanval die SNEL-" ; "An attack that may"
+	next "HEID kan verlagen.@" ; "reduce SPEED.@"
 
 DizzyPunchDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "verwarren.@" ; "cause confusion.@"
 
 SporeDescription:
-	db   "A move that"
-	next "induces sleep.@"
+	db   "Aanval die in" ; "A move that"
+	next "slaap brengt.@" ; "induces sleep.@"
 
 FlashDescription:
-	db   "Blinds the foe to"
-	next "reduce accuracy.@"
+	db   "Verblind vijand en" ; "Blinds the foe to"
+	next "verlaag precisie.@" ; "reduce accuracy.@"
 
 PsywaveDescription:
-	db   "An attack with"
-	next "variable power.@"
+	db   "Aanval met" ; "An attack with"
+	next "variabele kracht.@" ; "variable power.@"
 
 SplashDescription:
-	db   "Has no effect"
-	next "whatsoever.@"
+	db   "Doet echt helemaal" ; "Has no effect"
+	next "niks.@" ; "whatsoever.@"
 
 AcidArmorDescription:
-	db   "Sharply raises the"
-	next "user's DEFENSE.@"
+	db   "Verhoogt" ; "Sharply raises the"
+	next "VERDEDIGING flink.@" ; "user's DEFENSE.@"
 
 CrabhammerDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Heeft hoge kans op" ; "Has a high criti-"
+	next "kritieke klap.@" ; "cal hit ratio.@"
 
 ExplosionDescription:
-	db   "Very powerful but"
-	next "makes user faint.@"
+	db   "Krachtig, maar ge-" ; "Powerful but makes"
+	next "bruiker valt flauw@" ; "the user faint.@"
 
 FurySwipesDescription:
-	db   "Quickly scratches"
-	next "2-5 times.@"
+	db   "Krabt snel 2-5" ; "Quickly scratches"
+	next "keer.@" ; "2-5 times.@"
 
 BonemerangDescription:
-	db   "An attack that"
-	next "strikes twice.@"
+	db   "Aanval die twee" ; "An attack that"
+	next "keer raakt.@" ; "strikes twice.@"
 
 RestDescription:
-	db   "Sleep for 2 turns"
-	next "to fully recover.@"
+	db   "Slaap 2 beurten om" ; "Sleep for 2 turns"
+	next "te herstellen.@" ; "to fully recover.@"
 
 RockSlideDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "doen terugdeinzen.@" ; "cause flinching.@"
 
 HyperFangDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "doen terugdeinzen.@" ; "cause flinching.@"
 
 SharpenDescription:
-	db   "A move that raises"
-	next "the user's ATTACK.@"
+	db   "Verhoogt AANVAL" ; "A move that raises"
+	next "van gebruiker.@" ; "the user's ATTACK.@"
 
 ConversionDescription:
-	db   "Change user's type"
-	next "to a move's type.@"
+	db   "Verander type ge-" ; "Change user's type"
+	next "bruiker in aanval.@" ; "to a move's type.@"
 
 TriAttackDescription:
-	db   "Fires three kinds"
-	next "of beams at once.@"
+	db   "Schiet drie types" ; "Fires three kinds"
+	next "stralen tegelijk.@" ; of beams at once.@"
 
 SuperFangDescription:
-	db   "Cuts the foe's HP"
-	next "by 1/2.@"
+	db   "Halveert LP van" ; "Cuts the foe's HP"
+	next "vijand met 1/2.@" ; "by 1/2.@"
 
 SlashDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Heeft hoge kans op" ; "Has a high criti-"
+	next "kritieke klap.@" ; "cal hit ratio.@"
 
 SubstituteDescription:
-	db   "Makes a decoy with"
-	next "1/4 user's max HP.@"
+	db   "Maakt afleiding" ; "Makes a decoy with"
+	next "met 1/4 max LP.@" ; "1/4 user's max HP.@"
 
 StruggleDescription:
-	db   "Used only if all"
-	next "PP are exhausted.@"
+	db   "Gebruikt als alle" ; "Used only if all"
+	next "PP op is.@" ; "PP are exhausted.@"
 
 SketchDescription:
-	db   "Copies the foe's"
-	next "move permanently.@"
+	db   "Kopieert aanval" ; "Copies the foe's"
+	next "vijand permanent.@" ; "move permanently.@"
 
 TripleKickDescription:
-	db   "Hits three times"
-	next "with rising power.@"
+	db   "Raakt driemaal," ; "Hits three times"
+	next "steeds harder.@" ; "with rising power.@"
 
 ThiefDescription:
-	db   "An attack that may"
-	next "steal a held item.@"
+	db   "Kan vastgehouden" ; "An attack that may"
+	next "voorwerp stelen.@" ; "steal a held item.@"
 
 SpiderWebDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+	db   "Voorkomt vluchten" ; "Prevents fleeing"
+	next "of wisselen.@" ; "or switching.@"
 
 MindReaderDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
+	db   "Zorgt dat volgen-" ; "Ensures the next"
+	next "de aanval raakt.@" ; "attack will hit.@"
 
 NightmareDescription:
-	db   "A sleeper loses"
-	next "1/4 HP every turn.@"
+	db   "Slaper raakt elke" ; "A sleeper loses"
+	next "beurt 1/4LP kwijt.@" ; "1/4 HP every turn.@"
 
 FlameWheelDescription:
-	db   "An attack that may"
-	next "cause a burn.@"
+	db   "Een aanval die kan" ; "An attack that"
+	next "verbranden.@" ; "may cause a burn.@"
 
 SnoreDescription:
-	db   "An attack useable"
-	next "only while asleep.@"
+	db   "Alleen te gebrui-" ; "An attack useable"
+	next "ken als je slaapt.@" ; "only while asleep.@"
 
 CurseDescription:
-	db   "Works differently"
-	next "for ghost-types.@"
+	db   "Werkt anders voor" ; "Works differently"
+	next "spook-types.@" ; "for ghost-types.@"
 
 FlailDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
+	db   "Sterker als LP van" ; "Stronger if the"
+	next "gebruiker laag is.@" ; "user's HP is low.@"
 
 Conversion2Description:
-	db   "The user's type is"
-	next "made resistant.@"
+	db   "Type gebruiker" ; "The user's type is"
+	next "wordt resistent.@" ; "made resistant.@"
 
 AeroblastDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Heeft hoge kans op" ; "Has a high criti-"
+	next "kritieke klap.@" ; "cal hit ratio.@"
 
 CottonSporeDescription:
-	db   "Sharply reduces"
-	next "the foe's SPEED.@"
+	db   "Verlaagt SNELHEID" ; "Sharply reduces"
+	next "vijand flink.@" ; "the foe's SPEED.@"
 
 ReversalDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
+	db   "Sterker als als LP" ; "Stronger if the"
+	next "gebruiker laag is.@" ; "user's HP is low.@"
 
 SpiteDescription:
-	db   "Cuts the PP of the"
-	next "foe's last move.@"
+	db   "Verlaagt PP vorige" ; "Cuts the PP of the"
+	next "aanval vijand.@" ; "foe's last move.@"
 
 PowderSnowDescription:
-	db   "An attack that may"
-	next "cause freezing.@"
+	db   "Aanval die kan" ; "An attack that may"
+	next "bevriezen.@" ; "cause freezing.@"
 
 ProtectDescription:
-	db   "Foils attack that"
-	next "turn. It may fail.@"
+	db   "Voorkomt aanval in" ; "Foils attack that"
+	next "beurt. Faalt soms.@" ; "turn. It may fail.@"
 
 MachPunchDescription:
-	db   "A fast punch that"
-	next "lands first.@"
+	db   "Snelle klap die" ; "A fast punch that"
+	next "eerst raakt.@" ; "lands first.@"
 
 ScaryFaceDescription:
-	db   "Sharply reduces"
-	next "the foe's SPEED.@"
+	db   "Verlaagt SNELHEID" ; "Sharply reduces"
+	next "vijand flink.@" ; "the foe's SPEED.@"
 
 FaintAttackDescription:
-	db   "An attack that"
-	next "never misses.@"
+	db   "Aanval die nooit" ; "An attack that"
+	next "kan missen.@" ; "never misses.@"
 
 SweetKissDescription:
-	db   "A move that causes"
-	next "confusion.@"
+	db   "Aanval die kan" ; "A move that may"
+	next "verwarren.@" ; "cause confusion.@"
 
 BellyDrumDescription:
-	db   "Reduces own HP to"
-	next "maximize ATTACK.@"
+	db   "Verlaag LP voor" ; "Reduces own HP to"
+	next "maximale AANVAL.@" ; "maximize ATTACK.@"
 
 SludgeBombDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "Aanval die vijand" ; "An attack that may"
+	next "kan vergiftigen.@" ; "poison the foe.@"
 
 MudSlapDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
+	db   "Verlaagt precisie" ; "Reduces the foe's"
+	next "van vijand.@" ; "accuracy.@"
 
 OctazookaDescription:
-	db   "An attack that may"
-	next "reduce accuracy.@"
+	db   "Kan precisie van" ; "An attack that may"
+	next "vijand verlagen.@" ; "reduce accuracy.@"
 
 SpikesDescription:
-	db   "Hurts foes when"
-	next "they switch out.@"
+	db   "Bezeert vijand bij" ; "Hurts foes when"
+	next "een wissel.@" ; "they switch out.@"
 
 ZapCannonDescription:
-	db   "An attack that"
-	next "always paralyzes.@"
+	db   "Een aanval die" ; "An attack that"
+	next "altijd verlamt.@" ; "always paralyzes.@"
 
 ForesightDescription:
-	db   "Negates accuracy"
-	next "reduction moves.@"
+	db   "Doet precisie-" ; "Negates accuracy"
+	next "verlaging teniet.@" ; "reduction moves.@"
 
 DestinyBondDescription:
-	db   "The foe faints if"
-	next "the user does.@"
+	db   "Vijand valt flauw" ; "The foe faints if"
+	next "met gebruiker.@" ; "the user does.@"
 
 PerishSongDescription:
-	db   "Both user and foe"
-	next "faint in 3 turns.@"
+	db   "Gebruiker en doel" ; "Both user and foe"
+	next "in 3 beurten KO.@" ; "faint in 3 turns.@"
 
 IcyWindDescription:
-	db   "An icy attack that"
-	next "lowers SPEED.@"
+	db   "IJzige aanval die" ; "An icy attack that"
+	next "snelheid verlaagt.@" ; "lowers SPEED.@"
 
 DetectDescription:
-	db   "Evades attack that"
-	next "turn. It may fail.@"
+	db   "Ontwijk aanval die" ; "Evades attack that"
+	next "beurt. Faalt soms.@" ; "turn. It may fail.@"
 
 BoneRushDescription:
-	db   "An attack that"
-	next "hits 2-5 times.@"
+	db   "Aanval die 2-5" ; "An attack that"
+	next "keer raakt.@" ; "hits 2-5 times.@"
 
 LockOnDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
+	db   "Verzekert dat vol-" ; "Ensures the next"
+	next "gende klap raakt.@" ; "attack will hit.@"
 
 OutrageDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "Werkt 2-3 beurten" ; "Works 2-3 turns"
+	next "en verwart daarna.@" ; "and confuses user.@"
 
 SandstormDescription:
-	db   "Inflicts damage"
-	next "every turn.@"
+	db   "Doet iedere beurt" ; "Inflicts damage"
+	next "schade.@" ; "every turn.@"
 
 GigaDrainDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "Steelt 1/2 van" ; "Steals 1/2 of the"
+	next "gemaakte schade.@" ; "damage inflicted.@"
 
 EndureDescription:
-	db   "Always leaves at"
-	next "least 1HP.@"
+	db   "Blijf altijd met" ; "Always leaves at"
+	next "1LP over.@" ; "least 1HP.@"
 
 CharmDescription:
-	db   "Sharply lowers the"
-	next "foe's ATTACK.@"
+	db   "Verlaagt AANVAL" ; "Sharply lowers the"
+	next "van doelwit flink.@" ; "foe's ATTACK.@"
 
 RolloutDescription:
-	db   "Attacks 5 turns"
-	next "with rising power.@"
+	db   "Val 5 beurten" ; "Attacks 5 turns"
+	next "steeds harder aan.@" ; "with rising power.@"
 
 FalseSwipeDescription:
-	db   "Leaves the foe"
-	next "with at least 1HP.@"
+	db   "Vijand houdt" ; "Leaves the foe"
+	next "minstens 1LP over.@" ; "with at least 1HP.@"
 
 SwaggerDescription:
-	db   "Causes confusion"
-	next "and raises ATTACK.@"
+	db   "Verwart en" ; "Causes confusion"
+	next "verhoogt AANVAL.@" ; "and raises ATTACK.@"
 
 MilkDrinkDescription:
-	db   "Restores HP by 1/2"
-	next "the max HP.@"
+	db   "Herstelt LP met" ; "Restores HP by 1/2"
+	next "1/2 van max LP.@" ; "the max HP.@"
 
 SparkDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Een aanval die kan" ; "An attack that may"
+	next "verlammen.@" ; "cause paralysis.@"
 
 FuryCutterDescription:
-	db   "Successive hits"
-	next "raise power.@"
+	db   "Meerdere aanvallen" ; "Successive hits"
+	next "verhogen kracht.@" ; "raise power.@"
 
 SteelWingDescription:
-	db   "Stiff wings strike"
-	next "the foe.@"
+	db   "Stijve vleugels" ; "Stiff wings strike"
+	next "raken de vijand.@" ; "the foe.@"
 
 MeanLookDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+	db   "Voorkomt vluchten" ; "Prevents fleeing"
+	next "of wisselen.@" ; "or switching.@"
 
 AttractDescription:
-	db   "Makes the opposite"
-	next "gender infatuated.@"
+	db   "Ander geslacht" ; "Makes the opposite"
+	next "raakt verkikkerd.@" ; "gender infatuated.@"
 
 SleepTalkDescription:
-	db   "Randomly attacks"
-	next "while asleep.@"
+	db   "Willekeurige aan-" ; "Randomly attacks"
+	next "val tijdens slaap.@" ; "while asleep.@"
 
 HealBellDescription:
-	db   "Eliminates all"
-	next "status problems.@"
+	db   "Elimineert alle" ; "Eliminates all"
+	next "statusproblemen.@" ; "status problems.@"
 
 ReturnDescription:
-	db   "An attack that is"
-	next "based on loyalty.@"
+	db   "Aanval gebaseerd" ; "An attack that is"
+	next "op loyaliteit.@" ; "based on loyalty.@"
 
 PresentDescription:
-	db   "A bomb that may"
-	next "restore HP.@"
+	db   "Bom die LP kan" ; "A bomb that may"
+	next "herstellen.@" ; "restore HP.@"
 
 FrustrationDescription:
-	db   "An attack based on"
-	next "lack of loyalty.@"
+	db   "Gebaseerd op" ; "An attack based on"
+	next "gebrek loyaliteit.@" ; "lack of loyalty.@"
 
 SafeguardDescription:
-	db   "Prevents all"
-	next "status problems.@"
+	db   "Voorkomt alle" ; "Prevents all"
+	next "statusproblemen.@" ; "status problems.@"
 
 PainSplitDescription:
-	db   "Adds user & foe's"
-	next "HPs. Shares total.@"
+	db   "Telt elkaars LP." ; "Adds user & foe's"
+	next "op en verdeelt.@" ; "HPs. Shares total.@"
 
 SacredFireDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "Een aanval die kan" ; "An attack that may"
+	next "verbranden.@" ; "inflict a burn.@"
 
 MagnitudeDescription:
-	db   "A ground attack"
-	next "with random power.@"
+	db   "Grondaanval met" ; "A ground attack"
+	next "wisselende kracht.@" ; "with random power.@"
 
 DynamicpunchDescription:
-	db   "An attack that"
-	next "always confuses.@"
+	db   "aanval die altijd" ; "An attack that"
+	next "verwart.@" ; "always confuses.@"
 
 MegahornDescription:
-	db   "A powerful charge"
-	next "attack.@"
+	db   "Een krachtige" ; "A powerful charge"
+	next "ramaanval.@" ; "attack.@"
 
 DragonbreathDescription:
-	db   "A strong breath"
-	next "attack.@"
+	db   "Een sterke adem-" ; "A strong breath"
+	next "aanval.@" ; "attack.@"
 
 BatonPassDescription:
-	db   "Switches while"
-	next "keeping effects.@"
+	db   "Wisselt en behoudt" ; "Switches while"
+	next "effecten.@" ; "keeping effects.@"
 
 EncoreDescription:
-	db   "Makes the foe re-"
-	next "peat 2-6 times.@"
+	db   "Laat vijand 2-6" ; "Makes the foe re-"
+	next "keer herhalen.@" ; "peat 2-6 times.@"
 
 PursuitDescription:
-	db   "Heavily strikes"
-	next "switching #MON.@"
+	db   "Raakt wisselende" ; "Heavily strikes"
+	next "#MON hard.@" ; "switching #MON.@"
 
 RapidSpinDescription:
-	db   "A high-speed"
-	next "spinning attack.@"
+	db   "Een snelle," ; "A high-speed"
+	next "draaiende aanval.@" ; "spinning attack.@"
 
 SweetScentDescription:
-	db   "Reduces the foe's"
-	next "evasiveness.@"
+	db   "Verlaagt ontwijk-" ; "Reduces the foe's"
+	next "ing tegenstander.@" ; "evasiveness.@"
 
 IronTailDescription:
-	db   "An attack that may"
-	next "reduce DEFENSE.@"
+	db   "Kan VERDEDIGING" ; "An attack that may"
+	next "verlagen.@" ; "reduce DEFENSE.@"
 
 MetalClawDescription:
-	db   "An attack that may"
-	next "up user's ATTACK.@"
+	db   "Kan AANVAL" ; "An attack that may"
+	next "verlagen.@" ; "up user's ATTACK.@"
 
 VitalThrowDescription:
-	db   "A 2nd-strike move"
-	next "that never misses.@"
+	db   "Tweede klap kan" ; "A 2nd-strike move"
+	next "nooit missen.@" ; "that never misses.@"
 
 MorningSunDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "Herstelt LP." ; "Restores HP"
+	next "(tijd varieert).@" ; (varies by time).@"
 
 SynthesisDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "Herstelt LP." ; "Restores HP"
+	next "(tijd varieert).@" ; (varies by time).@"
 
 MoonlightDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "Herstelt LP." ; "Restores HP"
+	next "(tijd varieert).@" ; (varies by time).@"
 
 HiddenPowerDescription:
-	db   "The power varies"
-	next "with the #MON.@"
+	db   "Aanval anders per" ; "The power varies"
+	next "#MON.@" ; "with the #MON.@"
 
 CrossChopDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Heeft hoge kans op" ; "Has a high criti-"
+	next "kritieke klap.@" ; "cal hit ratio.@"
 
 TwisterDescription:
-	db   "Whips up a tornado"
-	next "to attack.@"
+	db   "Start tornado om" ; "Whips up a tornado"
+	next "aan te vallen.@" ; "to attack.@"
 
 RainDanceDescription:
-	db   "Boosts water-type"
-	next "moves for 5 turns.@"
+	db   "Versterkt water-" ; "Boosts water-type"
+	next "klappen 5 beurten.@" ; "moves for 5 turns.@"
 
 SunnyDayDescription:
-	db   "Boosts fire-type"
-	next "moves for 5 turns.@"
+	db   "Versterkt vuur-" ; "Boosts fire-type"
+	next "klappen 5 beurten.@" ; "moves for 5 turns.@"
 
 CrunchDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "Kan SPCL.VERDEDIG.-" ; "An attack that may"
+	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 MirrorCoatDescription:
-	db   "Counters a SPCL."
-	next "ATK move double.@"
+	db   "Pareert SPCL.AANVL" ; "Counters a SPCL."
+	next "dubbel zo hard.@" ; "ATK move double.@"
 
 PsychUpDescription:
-	db   "Copies the foe's"
-	next "stat changes.@"
+	db   "Kopieert statwij-" ; "Copies the foe's"
+	next "ziging van vijand.@" ; "stat changes.@"
 
 ExtremespeedDescription:
-	db   "A powerful first-"
-	next "strike move.@"
+	db   "Krachtige aanval" ; "A powerful first-"
+	next "die eerst raakt.@" ; "strike move.@"
 
 AncientpowerDescription:
-	db   "An attack that may"
-	next "raise all stats.@"
+	db   "Aanval die alle" ; "An attack that may"
+	next "stats verhoogt.@" ; "raise all stats.@"
 
 ShadowBallDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "Kan SPCL.VERDEDIG.-" ; "An attack that may"
+	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 FutureSightDescription:
-	db   "An attack that"
-	next "hits on 3rd turn.@"
+	db   "Aanval die raakt" ; "An attack that"
+	next "in derde beurt.@" ; "hits on 3rd turn.@"
 
 RockSmashDescription:
-	db   "An attack that may"
-	next "lower DEFENSE.@"
+	db   "Kan VERDEDIGING" ; "An attack that may"
+	next "verlagen.@" ; "lower DEFENSE.@"
 
 WhirlpoolDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
+	db   "Vangt vijand voor" ; "Traps the foe for"
+	next "2-5 beurten.@" ; "2-5 turns.@"
 
 BeatUpDescription:
-	db   "Party #MON join"
-	next "in the attack.@"
+	db   "#MON in team" ; "Party #MON join"
+	next "vallen ook aan.@" ; "in the attack.@"
