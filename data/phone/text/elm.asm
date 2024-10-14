@@ -1,5 +1,5 @@
 ElmPhoneHealYourMonText:
-	text "Hallo, <PLAY_G?>" ; "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
 	para "Ga niet te hard" ; "Try not to overdo"
 	line "door, he." ; "it."
