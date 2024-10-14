@@ -19,6 +19,7 @@ Although this isn't intended as a direct translation of the English version, the
 - [**Documentation**][docs]
 - [**Wiki**][wiki] (includes [tutorials][tutorials])
 - [**Symbols**][symbols]
+- [**Tools**][tools]
 
 You can find the pret team on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
 
@@ -28,3 +29,5 @@ For other pret projects, see [pret.github.io](https://pret.github.io/).
 [wiki]: https://github.com/pret/pokecrystal/wiki
 [tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
 [symbols]: https://github.com/pret/pokecrystal/tree/symbols
+[tools]: https://github.com/pret/gb-asm-tools
+[ci]: https://github.com/wfowler1/pokecrystal-nl/actions
