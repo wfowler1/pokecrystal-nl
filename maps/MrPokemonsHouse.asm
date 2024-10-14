@@ -171,203 +171,203 @@ MrPokemonsHouse_OakExits:
 	step_end
 
 MrPokemonIntroText1:
-	text "Hello, hello! You"
-	line "must be <PLAY_G>."
+	text "Hallo, hallo! Jij" ; "Hello, hello! You"
+	line "bent vast <PLAY_G>." ; "must be <PLAY_G>."
 
-	para "PROF.ELM said that"
-	line "you would visit."
+	para "PROF.ELM zei al" ; "PROF.ELM said that"
+	line "dat je langskwam." ; "you would visit."
 	done
 
 MrPokemonIntroText2:
-	text "This is what I"
-	line "want PROF.ELM to"
-	cont "examine."
+	text "Dit is wat PROF." ; "This is what I"
+	line "ELM voor mij moet" ; "want PROF.ELM to"
+	cont "onderzoeken." ; "examine."
 	done
 
 MrPokemonsHouse_GotEggText:
-	text "<PLAYER> received"
-	line "MYSTERY EGG."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "MYSTERIE-EI." ; "MYSTERY EGG."
 	done
 
 MrPokemonIntroText3:
-	text "I know a couple"
-	line "who run a #MON"
-	cont "DAY-CARE service."
+	text "Ik ken een stel" ; "I know a couple"
+	line "met een #MON-" ; "who run a #MON"
+	cont "OPVANG-dienst." ; "DAY-CARE service."
 
-	para "They gave me that"
-	line "EGG."
+	para "Zij gaven mij dit" ; "They gave me that"
+	line "EI." ; "EGG."
 
-	para "I was intrigued,"
-	line "so I sent mail to"
-	cont "PROF.ELM."
+	para "Ik raakte geïntri-" ; "I was intrigued,"
+	line "geerd, dus stuurde" ; "so I sent mail to"
+	cont "PROF.ELM een mail." ; "PROF.ELM."
 
-	para "For #MON evolu-"
-	line "tion, PROF.ELM is"
-	cont "the authority."
+	para "PROF.ELM is de" ; "For #MON evolu-"
+	line "autoriteit over" ; "tion, PROF.ELM is"
+	cont "#MON-evolutie." ; "the authority."
 	done
 
 MrPokemonIntroText4:
-	text "Even PROF.OAK here"
-	line "recognizes that."
+	text "Zelfs PROF.OAK" ; "Even PROF.OAK here"
+	line "hier erkent dat." ; "recognizes that."
 	done
 
 MrPokemonIntroText5:
-	text "If my assumption"
-	line "is correct, PROF."
-	cont "ELM will know it."
+	text "Als mijn aanname" ; "If my assumption"
+	line "klopt, weet PROF." ; "is correct, PROF."
+	cont "ELM wat te doen." ; "ELM will know it."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
-	text "You are returning"
-	line "to PROF.ELM?"
+	text "Ga je terug naar" ; "You are returning"
+	line "PROF.ELM?" ; "to PROF.ELM?"
 
-	para "Here. Your #MON"
-	line "should have some"
-	cont "rest."
+	para "Hier. Je #MON" ; "Here. Your #MON"
+	line "kunnen wel even" ; "should have some"
+	cont "uitrusten." ; "rest."
 	done
 
 MrPokemonText_ImDependingOnYou:
-	text "I'm depending on"
-	line "you!"
+	text "Ik reken op jouw" ; "I'm depending on"
+	line "hulp!" ; "you!"
 	done
 
 MrPokemonText_AlwaysNewDiscoveries:
-	text "Life is delight-"
-	line "ful! Always, new"
+	text "Het leven is ge-" ; "Life is delight-"
+	line "weldig! Er is" ; "ful! Always, new"
 
-	para "discoveries to be"
-	line "made!"
+	para "altijd iets nieuws" ; "discoveries to be"
+	line "te ontdekken!" ; "made!"
 	done
 
 MrPokemonsHouse_OakText1:
-	text "OAK: Aha! So"
-	line "you're <PLAY_G>!"
+	text "OAK: Aha! Dus jij" ; "OAK: Aha! So"
+	line "bent <PLAY_G>!" ; "you're <PLAY_G>!"
 
-	para "I'm OAK! A #MON"
-	line "researcher."
+	para "Ik ben OAK! Ik-" ; "I'm OAK! A #MON"
+	line "onderzoek #MON!" ; "researcher."
 
-	para "I was just visit-"
-	line "ing my old friend"
+	para "Ik bezocht net" ; "I was just visit-"
+	line "mijn oude vriend" ; "ing my old friend"
 	cont "MR.#MON."
 
-	para "I heard you were"
-	line "running an errand"
+	para "Ik hoorde dat je" ; "I heard you were"
+	line "een klusje doet" ; "running an errand"
 
-	para "for PROF.ELM, so I"
-	line "waited here."
+	para "voor PROF.ELM, dus" ; "for PROF.ELM, so I"
+	line "ik wachtte op je." ; "waited here."
 
-	para "Oh! What's this?"
-	line "A rare #MON!"
+	para "Wat is dit? Een" ; "Oh! What's this?"
+	line "zeldzame #MON!" ; "A rare #MON!"
 
-	para "Let's see…"
+	para "Eens zien…" ; "Let's see…"
 
-	para "Hm, I see!"
+	para "Ah, ik snap het!" ; "Hm, I see!"
 
-	para "I understand why"
-	line "PROF.ELM gave you"
+	para "PROF.ELM gf jou" ; "I understand why"
+	line "deze #MON voor dit" ; "PROF.ELM gave you"
 
-	para "a #MON for this"
-	line "errand."
+	para "dit klusje, of" ; "a #MON for this"
+	line "niet soms?" ; "errand."
 
-	para "To researchers"
-	line "like PROF.ELM and"
+	para "Onderzoekers zoals" ; "To researchers"
+	line "PROF.ELM en ik" ; "like PROF.ELM and"
 
-	para "I, #MON are our"
-	line "friends."
+	para "zien #MON als" ; "I, #MON are our"
+	line "onze vrienden." ; "friends."
 
-	para "He saw that you"
-	line "would treat your"
+	para "Hij zag dat jij je" ; "He saw that you"
+	line "#MON met liefde" ; "would treat your"
 
-	para "#MON with love"
-	line "and care."
+	para "en zorg zou" ; "#MON with love"
+	line "behandelen." ; "and care."
 
 	para "…Ah!"
 
-	para "You seem to be"
-	line "dependable."
+	para "Op jou kan iemand" ; "You seem to be"
+	line "vertrouwen." ; "dependable."
 
-	para "How would you like"
-	line "to help me out?"
+	para "Wil je mij anders" ; "How would you like"
+	line "met iets helpen?" ; "to help me out?"
 
-	para "See? This is the"
-	line "latest version of"
+	para "Zie je dat? Het" ; "See? This is the"
+	line "is de nieuwste" ; "latest version of"
 	cont "#DEX."
 
-	para "It automatically"
-	line "records data on"
+	para "Hij bewaart auto-" ; "It automatically"
+	line "matisch data van" ; "records data on"
 
-	para "#MON you've"
-	line "seen or caught."
+	para "#MON die je" ; "#MON you've"
+	line "ziet of vangt." ; "seen or caught."
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Het is een hi-tech" ; "It's a hi-tech"
+	line "encyclopedie!" ; "encyclopedia!"
 	done
 
 MrPokemonsHouse_GetDexText:
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "#DEX!"
 	done
 
 MrPokemonsHouse_OakText2:
-	text "Go meet many kinds"
-	line "of #MON and"
+	text "Ontmoet veel" ; "Go meet many kinds"
+	line "soorten #MON en" ; "of #MON and"
 
-	para "complete that"
-	line "#DEX!"
+	para "maak die #DEX" ; "complete that"
+	line "compleet!" ; "#DEX!"
 
-	para "But I've stayed"
-	line "too long."
+	para "Maar ik ben hier" ; "But I've stayed"
+	line "te lang gebleven." ; "too long."
 
-	para "I have to get to"
-	line "GOLDENROD for my"
-	cont "usual radio show."
+	para "Ik moet weer naar" ; "I have to get to"
+	line "GOLDENROD voor" ; "GOLDENROD for my"
+	cont "mijn radioshow." ; "usual radio show."
 
-	para "<PLAY_G>, I'm"
-	line "counting on you!"
+	para "<PLAY_G>, ik" ; "<PLAY_G>, I'm"
+	line "reken op je!" ; "counting on you!"
 	done
 
 MrPokemonText_GimmeTheScale:
-	text "Hm? That SCALE!"
-	line "What's that?"
-	cont "A red GYARADOS?"
+	text "Hm? Die SCHAAL!" ; "Hm? That SCALE!"
+	line "Wat is dat?" ; "What's that?"
+	cont "Een rode GYARADOS?" ; "A red GYARADOS?"
 
-	para "That's rare! "
-	line "I, I want it…"
+	para "Dat is zeldzaam!" ; "That's rare! "
+	line "Ik, ik wil het…" ; "I, I want it…"
 
-	para "<PLAY_G>, would you"
-	line "care to trade it?"
+	para "<PLAY_G>, wil je" ; "<PLAY_G>, would you"
+	line "met mij ruilen?" ; "care to trade it?"
 
-	para "I can offer this"
-	line "EXP.SHARE I got"
-	cont "from PROF.OAK."
+	para "Ik kan je deze" ; "I can offer this"
+	line "EP.DELER geven die" ; "EXP.SHARE I got"
+	cont "PROF.OAK me gaf." ; "from PROF.OAK."
 	done
 
 MrPokemonText_Disappointed:
-	text "That's disappoint-"
-	line "ing. That happens"
-	cont "to be very rare."
+	text "Ai, teleurstellend." ; "That's disappoint-"
+	line "Dat is toevallig" ; "ing. That happens"
+	cont "heel erg zeldzaam." ; "to be very rare."
 	done
 
 MrPokemonsHouse_ForeignMagazinesText:
-	text "It's packed with"
-	line "foreign magazines."
+	text "Het zit vol met" ; "It's packed with"
+	line "tijdschriften in." ; "foreign magazines."
 
-	para "Can't even read"
-	line "their titles…"
+	para "een vreemde taal." ; "Can't even read"
+	line "Snap er niks van…" ; "their titles…"
 	done
 
 MrPokemonsHouse_BrokenComputerText:
-	text "It's a big com-"
-	line "puter. Hmm. It's"
-	cont "broken."
+	text "het is een grote" ; "It's a big com-"
+	line "computer. Hmm. Hij" ; "puter. Hmm. It's"
+	cont "is stuk." ; "broken."
 	done
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "A whole pile of"
-	line "strange coins!"
+	text "een stapel met" ; "A whole pile of"
+	line "vreemde munten!" ; "strange coins!"
 
-	para "Maybe they're from"
-	line "another country…"
+	para "Misschien uit een" ; "Maybe they're from"
+	line "ander land…" ; "another country…"
 	done
 
 MrPokemonsHouse_MapEvents:

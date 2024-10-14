@@ -37,49 +37,49 @@ SproutTower2FXAccuracy:
 	itemball X_ACCURACY
 
 SageNicoSeenText:
-	text "However hard we"
-	line "battle, the TOWER"
-	cont "will stand strong."
+	text "Hoe hard we ook" ; "However hard we"
+	line "vechten, de TOREN" ; "battle, the TOWER"
+	cont "blijft staan." ; "will stand strong."
 	done
 
 SageNicoBeatenText:
-	text "I fought hard but"
-	line "I'm too weak."
+	text "Ik deed mijn best" ; "I fought hard but"
+	line "maar ben te zwak." ; "I'm too weak."
 	done
 
 SageNicoAfterBattleText:
-	text "The flexible pil-"
-	line "lar protects the"
+	text "De flexibele pi-" ; "The flexible pil-"
+	line "laar beschermt de" ; "lar protects the"
 
-	para "TOWER, even from"
-	line "earthquakes."
+	para "TOREN, zelfs bij" ; "TOWER, even from"
+	line "aardbevingen." ; "earthquakes."
 	done
 
 SageEdmondSeenText:
-	text "…Sway like leaves"
-	line "in the wind…"
+	text "…Buigend als een" ; "…Sway like leaves"
+	line "blad in de wind…" ; "in the wind…"
 	done
 
 SageEdmondBeatenText:
-	text "Oh, I'm weak!"
+	text "Oh, ik ben zwak!" ; "Oh, I'm weak!"
 	done
 
 SageEdmondAfterBattleText:
-	text "I tried to copy"
-	line "BELLSPROUT's"
+	text "Ik probeerde BELL-" ; "I tried to copy"
+	line "SPROUTS bewegingen" ; "BELLSPROUT's"
 
-	para "gentle movements"
-	line "for battle…"
+	para "te doen tijdens" ; "gentle movements"
+	line "het gevecht…" ; "for battle…"
 
-	para "But I didn't train"
-	line "well enough."
+	para "Maar ik heb niet" ; "But I didn't train"
+	line "genoeg geoefend." ; "well enough."
 	done
 
 SproutTower2FStatueText:
-	text "A #MON statue…"
+	text "Een #MON-beeld…" ; "A #MON statue…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Die ziet er fraai" ; "It looks very"
+	line "uit." ; "distinguished."
 	done
 
 SproutTower2F_MapEvents:

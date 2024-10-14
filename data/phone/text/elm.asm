@@ -1,211 +1,211 @@
 ElmPhoneHealYourMonText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G?>" ; "Hello, <PLAY_G>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Ga niet te hard" ; "Try not to overdo"
+	line "door, he." ; "it."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Genees je #MON" ; "Be sure to heal"
+	line "als ze bezeerd" ; "your #MON if"
+	cont "raken." ; "they are hurt."
 	done
 
 ElmPhoneSawMrPokemonText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "Heb je MR. #MON" ; "Did you meet MR."
+	line "ontmoet? Wat goed!" ; "#MON? Great!"
+	cont "Kom veilig terug!" ; "Come back safely!"
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAY_G>? I'm very"
-	line "upset now."
+	text "<PLAY_G>? Ik ben" ; "<PLAY_G>? I'm very"
+	line "erg overstuur nu." ; "upset now."
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Er is een #MON" ; "We had a #MON"
+	line "hier gestolen." ; "stolen from here."
 
-	para "How could anyone"
-	line "do that?"
+	para "Hoe kan iemand" ; "How could anyone"
+	line "zoiets doen?" ; "do that?"
 	done
 
 ElmPhoneCheckingTheEggText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "We're checking the"
-	line "EGG now. It does"
+	para "We kijken nu naar" ; "We're checking the"
+	line "Het EI. Het lijkt" ; "EGG now. It does"
 
-	para "appear to be a"
-	line "#MON EGG."
+	para "echt een #MON-" ; "appear to be a"
+	line "#EI te zijn." ; "#MON EGG."
 	done
 
 ElmPhoneAssistantText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "Heb je mijn assi-" ; "Did you see my"
+	line "stent gezien? Hij" ; "assistant? He's at"
 
-	para "the #MON CENTER"
-	line "in VIOLET CITY."
+	para "is in het #MON-" ; "the #MON CENTER"
+	line "CENTRUM in VIOLET." ; "#MON" "in VIOLET CITY."
 	done
 
 ElmPhoneHowIsTheEggText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "How's the EGG? Has"
-	line "anything changed?"
+	para "Hoe is het EI? Is" ; "How's the EGG? Has"
+	line "al iets veranderd?" ; "anything changed?"
 
-	para "If anything hap-"
-	line "pens, please call."
+	para "Als iets gebeurt," ; "If anything hap-" 
+	line "bel alsjeblieft." ; "pens, please call."
 	done
 
 ElmPhoneEggHatchedText:
-	text "Hello, <PLAY_G>?"
-	line "How is the EGG?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
+	line "Hoe is het EI?" ; "How is the EGG?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
+	para "Wat? Het is uit-" ; "What? It hatched?"
+	line "gekomen? Wauw! Wat" ; "Wow! What kind of"
+	cont "zat er in?" ; "#MON is it?"
 
-	para "Please come show"
-	line "me now!"
+	para "Kom het me alsje-" ; "Please come show"
+	line "blieft laten zien!" ; "me now!"
 	done
 
 ElmPhoneDiscoveredHatchTimeText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "I just made a new"
-	line "discovery."
+	para "Ik heb iets nieuws" ; "I just made a new"
+	line "ontdekt." ; "discovery."
 
-	para "The time it takes"
-	line "for an EGG to"
+	para "De tijd die het" ; "The time it takes"
+	line "duurt tot een EI" ; "for an EGG to"
 
-	para "hatch depends on"
-	line "the #MON."
+	para "uitkomt hangt af" ; "hatch depends on"
+	line "van de #MON." ; "the #MON."
 	done
 
 ElmPhoneInvestigatingEggMovesText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Het is nog een" ; "It's still a"
+	line "mysterie wat voor" ; "mystery what kinds"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "aanvallen #MON" ; "of moves hatched"
+	line "uit eieren hebben." ; "#MON have."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Dat onderzoeken" ; "We're investigat-"
+	line "we nu nog." ; "ing that now."
 	done
 
 ElmPhoneDiscoveredPokerusText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "We hebben iets" ; "I discovered an"
+	line "vreemds ontdekt." ; "odd thing."
 
-	para "Apparently there's"
-	line "something called"
+	para "Kennelijk worden" ; "Apparently there's"
+	line "#MON besmet met" ; "something called"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "iets genaamd" ; "#RUS that in-"
+	line "#RUS." ; "fects #MON."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Ja, het is een" ; "Yes, it's like a"
+	line "soort virus, dus" ; "virus, so it's"
+	cont "het heet #RUS." ; "called #RUS."
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "Het vermenigvul-" ; "It multiplies fast"
+	line "digt snel en be-" ; "and infects other"
 
-	para "#MON too. But"
-	line "that's all."
+	para "smet ook andere" ; "#MON too. But"
+	line "#MON. Maar dat" ; "that's all."
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "is alles. Het doet" ; "It doesn't seem to"
+	line "zo te zien niks," ; "do anything, and"
 
-	para "it goes away over"
-	line "time."
+	para "en verdwijnt na" ; "it goes away over"
+	line "een tijd weer." ; "time."
 
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Kennelijk niks" ; "I guess it's"
+	line "om zorgen over te" ; "nothing to worry"
+	cont "maken. Doei!" ; "about. Bye!"
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAY_G>?"
-	line "It's a disaster!"
+	text "H-hallo? <PLAY_G>?" ; "H-hello? <PLAY_G>?"
+	line "Het is een ramp!" ; "It's a disaster!"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "Uh, um, het is zo" ; "Uh, um, it's just"
+	line "verschrikkelijk!" ; "terrible!"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "Wat moet ik doen?" ; "What should I do?"
+	line "Het… Oh, nee…" ; "It… Oh, no…"
 
-	para "Please get back"
-	line "here now!"
+	para "Kom snel weer hier" ; "Please get back"
+	line "naartoe!" ; "here now!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hello, <PLAY_G>? We"
-	line "discovered some-"
+	text "Hallo, <PLAY_G>? We" ; "Hello, <PLAY_G>? We"
+	line "hebben net iets" ; "discovered some-"
 
-	para "thing about the"
-	line "EGG!"
+	para "ontdekt over  het" ; "thing about the"
+	line "EI!" ; "EGG!"
 
-	para "My assistant is at"
-	line "the #MON CENTER"
+	para "Mijn assistent is" ; "My assistant is at"
+	line "in het #MONCEN-" ; "the #MON CENTER"
 
-	para "in VIOLET CITY. "
-	line "Could you talk to"
-	cont "him?"
+	para "TRUM in VIOLET" ; "in VIOLET CITY. "
+	line "CITY. Kun je met" ; "Could you talk to"
+	cont "hem spreken?" ; "him?"
 	done
 
 ElmPhoneRadioTowerRocketTakeoverText:
-	text "<PLAY_G>, how are"
-	line "things going?"
+	text "<PLAY_G>, hoe" ; "<PLAY_G>, how are"
+	line "gaat het bij jou?" ; "things going?"
 
-	para "I called because"
-	line "something weird is"
+	para "Ik bel omdat er" ; "I called because"
+	line "iets geks bij de" ; "something weird is"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "radio-uitzendingen" ; "happening with the"
+	line "gebeurt." ; "radio broadcasts."
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Ze hadden het net" ; "They were talking"
+	line "over TEAM ROCKET." ; "about TEAM ROCKET."
 
-	para "<PLAY_G>, do you"
-	line "know anything"
-	cont "about it?"
+	para "<PLAY_G>, weet" ; "<PLAY_G>, do you"
+	line "jij daar iets van," ; "know anything"
+	cont "toevallig?" ; "about it?"
 
-	para "Maybe TEAM ROCKET"
-	line "has returned. No,"
+	para "Misschien is TEAM" ; "Maybe TEAM ROCKET"
+	line "ROCKET terug. Nee," ; "has returned. No,"
 
-	para "that just can't"
-	line "be true."
+	para "dat kan toch niet" ; "that just can't"
+	line "waar zijn." ; "be true."
 
-	para "Sorry to bug you."
-	line "Take care!"
+	para "Sorry voor het" ; "Sorry to bug you."
+	line "Storen. Groetjes!" ; "Take care!"
 	done
 
 ElmPhoneGiftText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
-	para "I have something"
-	line "here for you."
+	para "Ik heb hier iets" ; "I have something"
+	line "voor je." ; "here for you."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "Kun je langskomen" ; "Could you swing by"
+	line "in mijn LAB?" ; "my LAB?"
 
-	para "See you later!"
+	para "Zie je snel!" ; "See you later!"
 	done
 
 ElmPhoneGotAholdOfSomethingNeatText:
-	text "Hello, <PLAY_G>?"
-	line "How's it going?"
+	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
+	line "Hoe gaat het?" ; "How's it going?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "Ik heb wat leuks" ; "I got ahold of"
+	line "bemachtigd." ; "something neat."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "Kom langs in het" ; "Swing by my LAB"
+	line "LAB en haal 't op!" ; "and pick it up!"
 
-	para "See you later!"
+	para "Zie je snel!" ; "See you later!"
 	done

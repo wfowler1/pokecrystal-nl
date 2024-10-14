@@ -41,63 +41,63 @@ SproutTower1FStatue:
 	jumptext SproutTower1FStatueText
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
+	text "Wij waken over" ; "We stand guard in"
+	line "deze toren." ; "this tower."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	para "Wij zijn hier" ; "Here, we express"
+	line "dankbaar om zo de" ; "our gratitude to"
+	cont "#MON te eren." ; "honor all #MON."
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "D-dankjewel!" ; "Th-Thank you!"
 	done
 
 SageChowAfterBattleText:
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
+	text "Al het levende" ; "All living beings"
+	line "bestaat samen door" ; "coexist through"
+	cont "samen te werken." ; "cooperation."
 
-	para "We must always be"
-	line "thankful for this."
+	para "We moeten er dank-" ; "We must always be"
+	line "baar voor zijn." ; "thankful for this."
 	done
 
 SproutTower1FSage1Text:
-	text "Only if you reach"
-	line "the top will you"
-	cont "obtain an HM."
+	text "Alleen als je de" ; "Only if you reach"
+	line "top bereikt krijg" ; "the top will you"
+	cont "je een VM." ; "obtain an HM."
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
-	line "built long ago"
+	text "SPROUT-TOREN werd" ; "SPROUT TOWER was"
+	line "lang geleden ge-" ; "built long ago"
 
-	para "as a place for"
-	line "#MON training."
+	para "bouwd om er #-" ; "as a place for"
+	line "#MON te trainen." ; "#MON training."
 	done
 
 SproutTower1FGrannyText:
-	text "A BELLSPROUT over"
-	line "100 feet tall…"
+	text "Een BELLSPROUT van" ; "A BELLSPROUT over"
+	line "meer dan 30 meter…" ; "100 feet tall…"
 
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	para "Men zegt dat het" ; "People say that it"
+	line "de middelste paal" ; "became the center"
+	cont "hier werd." ; "pillar here."
 	done
 
 SproutTower1FTeacherText:
-	text "See the pillar"
-	line "shaking?"
+	text "Zie je hoe de pi-" ; "See the pillar"
+	line "laar schudt?" ; "shaking?"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "mensen trainen" ; "People are train-"
+	line "hierboven." ; "ing upstairs."
 	done
 
 SproutTower1FStatueText:
-	text "A #MON statue…"
+	text "Een #MON-beeld…" ; "A #MON statue…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Het ziet er" ; "It looks very"
+	line "gedegen uit." ; "distinguished."
 	done
 
 SproutTower1F_MapEvents:
