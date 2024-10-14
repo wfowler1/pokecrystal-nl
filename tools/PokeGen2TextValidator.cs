@@ -18,7 +18,12 @@ namespace PokeGen2TextValidator
             }
 
             ASMFile source = GetASMFile(args[0]);
-			Console.WriteLine("Validating file: " + source.File.Name);
+			if (source == null)
+			{
+				return 0;
+			}
+			
+            Console.WriteLine("Validating file: " + source.File.Name + " Type: " + source.Type);
 
 			bool problem = false;
 			foreach (KeyValuePair<string, Block> pair in source.blocks)
@@ -114,14 +119,16 @@ namespace PokeGen2TextValidator
             {
                 return BlockType.Landmark;
             }
-            else if (path.EndsWith("data/text/battle.asm")
+            else if (path.EndsWith("data/battle_tower/trainer_text.asm")
+                || path.EndsWith("data/items/descriptions.asm")
+                || path.EndsWith("data/moves/descriptions.asm")
+                || path.EndsWith("data/text/battle.asm")
                 || path.EndsWith("data/text/common_1.asm")
                 || path.EndsWith("data/text/common_2.asm")
                 || path.EndsWith("data/text/common_3.asm")
                 || path.EndsWith("data/text/std_text.asm")
                 || path.EndsWith("data/text/unused_sweet_honey.asm")
-                || path.EndsWith("data/items/descriptions.asm")
-                || path.EndsWith("data/moves/descriptions.asm")
+                || path.StartsWith("data/phone/text/")
                 || path.StartsWith("maps/")
                 )
             {
