@@ -1,11 +1,11 @@
-	db "FOSSIL@" ; species name
+	db "FOSSIEL@" ; species name
 	db 18 ; height
 	dw 590 ; weight
 
-	db   "In prehistoric"
-	next "times, this"
-	next "#MON flew"
+	db   "In de prehistorie" ; "In prehistoric"
+	next "vloog deze #MON" ; "times, this"
+	next "vrij en zonder" ; "#MON flew"
 
-	page "freely and"
-	next "fearlessly through"
-	next "the skies.@"
+	page "angst rondjes" ; "freely and"
+	next "door de lucht" ; "fearlessly through"
+	next "heen.@" ; "the skies.@"
