@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 40 ; weight
 
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
+	db   "Als het iets ziet" ; "If it notices"
+	next "bewegen, wordt" ; "anything that"
+	next "daar snel met een" ; "moves, it"
 
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
+	page "rank van het" ; "immediately flings"
+	next "lichaam tegenaan" ; "its vine at the"
+	next "geslagen.@" ; "object.@"
