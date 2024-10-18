@@ -263,8 +263,8 @@ MrPokemonsHouse_OakText1:
 
 	para "Ah, ik snap het!" ; "Hm, I see!"
 
-	para "PROF.ELM gf jou" ; "I understand why"
-	line "deze #MON voor dit" ; "PROF.ELM gave you"
+	para "PROF.ELM gaf jou" ; "I understand why"
+	line "deze #MON voor" ; "PROF.ELM gave you"
 
 	para "dit klusje, of" ; "a #MON for this"
 	line "niet soms?" ; "errand."

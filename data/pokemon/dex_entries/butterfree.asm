@@ -2,10 +2,10 @@
 	db 11 ; height
 	dw 320 ; weight
 
-	db   "It flits from"
-	next "flower to flower,"
-	next "collecting honey."
+	db   "Fladdert van bloem "It flits from"
+	next "naar bloem, op" ; "flower to flower,"
+	next "zoek naar honing." ; "collecting honey."
 
-	page "It can even"
-	next "identify distant"
-	next "flowers in bloom.@"
+	page "Herkent zelfs" ; "It can even"
+	next "verre bloemen die" ; "identify distant"
+	next "in bloei zijn." ; "flowers in bloom.@"

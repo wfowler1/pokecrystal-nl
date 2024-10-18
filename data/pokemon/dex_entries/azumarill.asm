@@ -2,10 +2,10 @@
 	db 8 ; height
 	dw 285 ; weight
 
-	db   "The bubble-like"
-	next "pattern on its"
-	next "stomach helps it"
+	db   "Het bubbelpatroon" ; "The bubble-like"
+	next "op de buik helpt" ; "pattern on its"
+	next "om te camoufleren" ; "stomach helps it"
 
-	page "camouflage itself"
-	next "when it's in the"
-	next "water.@"
+	page "als het zich in" ; "camouflage itself"
+	next "het water" ; "when it's in the"
+	next "bevindt.@" ; "water.@"

@@ -2,10 +2,10 @@
 	db 15 ; height
 	dw 480 ; weight
 
-	db   "It has an IQ of"
-	next "5000. It calcu-"
-	next "lates many things"
+	db   "Heeft een IQ van" ; "It has an IQ of"
+	next "5000. Is constant" ; "5000. It calcu-"
+	next "aan het rekenen om" ; "lates many things"
 
-	page "in order to gain"
-	next "the edge in every"
-	next "battle.@"
+	page "een voorsprong" ; "in order to gain"
+	next "tijdens gevechten" ; "the edge in every"
+	next "te krijgen." ; "battle.@"

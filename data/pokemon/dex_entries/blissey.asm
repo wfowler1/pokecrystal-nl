@@ -2,10 +2,10 @@
 	db 15 ; height
 	dw 468 ; weight
 
-	db   "Biting into one"
-	next "of the delicious"
-	next "eggs that BLISSEY"
+	db   "Een hap uit één" ; "Biting into one"
+	next "van de heerlijke" ; "of the delicious"
+	next "eieren die BLISSEY" ; "eggs that BLISSEY"
 
-	page "provides will make"
-	next "everyone around"
-	next "smile with joy.@"
+	page "verschaft zal" ; "provides will make"
+	next "iedereen ziels-" ; "everyone around"
+	next "gelukkig maken.@" ; "smile with joy.@"

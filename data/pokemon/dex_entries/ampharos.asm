@@ -1,11 +1,11 @@
-	db "LIGHT@" ; species name
+	db "LICHT@" ; species name
 	db 14 ; height
 	dw 615 ; weight
 
-	db   "When it gets dark,"
-	next "the light from its"
-	next "bright, shiny tail"
+	db   "In het duister zie" ; "When it gets dark,"
+	next "je het licht van" ; "the light from its"
+	next "de heldere staart" ; "bright, shiny tail"
 
-	page "can be seen from"
-	next "far away on the"
-	next "ocean's surface.@"
+	page "zelf van ver weg" ; "can be seen from"
+	next "tijdens het varen" ; "far away on the"
+	next "op zee.@" ; "ocean's surface.@"

@@ -17,29 +17,29 @@ LugiaSpeechHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakLugiaSpeechHouseGrampsText:
-	text "This happened when"
-	line "I was young."
+	text "Dit gebeurde er" ; "This happened when"
+	line "toen ik klein was." ; "I was young."
 
-	para "The sky suddenly"
-	line "turned black. A"
+	para "De lucht werd" ; "The sky suddenly"
+	line "plotseling zwart." ; "turned black. A"
 
-	para "giant flying #-"
-	line "MON was blocking"
-	cont "out the sun."
+	para "Een gigantische" ; "giant flying #-"
+	line "vliegende #MON" ; "MON was blocking"
+	cont "blokkeerde de zon." ; "out the sun."
 
-	para "I wonder what that"
-	line "#MON was? "
+	para "Ik vraag me af" ; "I wonder what that"
+	line "wat die #MON was?" ; "#MON was? "
 
-	para "It was like a bird"
-	line "and a dragon."
+	para "Het leek op 'n vo-" ; "It was like a bird"
+	line "gel en een draak." ; "and a dragon."
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Is there really a"
-	line "#MON that big?"
+	text "Is er echt een #" ; "Is there really a"
+	line "MON die zo groot is?" ; "#MON that big?"
 
-	para "If it exists, it"
-	line "must be powerful."
+	para "Als het bestaat," ; "If it exists, it"
+	line "is het vast sterk." ; "must be powerful."
 	done
 
 EcruteakLugiaSpeechHouse_MapEvents:

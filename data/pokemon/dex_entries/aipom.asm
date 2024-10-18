@@ -1,11 +1,11 @@
-	db "LONG TAIL@" ; species name
+	db "LANGSTAART@" ; species name
 	db 8 ; height
 	dw 115 ; weight
 
-	db   "It uses its tail"
-	next "to hang on to tree"
-	next "branches. It uses"
+	db   "Gebruikt de" ; "It uses its tail"
+	next "staart om aan" ; "to hang on to tree"
+	next "takken te hangen." ; "branches. It uses"
 
-	page "its momentum to"
-	next "swing from one"
-	next "branch to another.@"
+	page "Slingert met" ; "its momentum to"
+	next "momentum van" ; "swing from one"
+	next "tak naar tak.@" ; "branch to another.@"
