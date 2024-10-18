@@ -56,108 +56,108 @@ ItemFinderHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakItemfinderAdventureText:
-	text "Ah. You're on an"
-	line "adventure with"
-	cont "your #MON?"
+	text "Ah. Je bent op" ; "Ah. You're on an"
+	line "avontuur met" ; "adventure with"
+	cont "je #MON?" ; "your #MON?"
 
-	para "Well, what's an"
-	line "adventure without"
-	cont "treasure hunting?"
+	para "Nou, wat is een" ; "Well, what's an"
+	line "avontuur zonder" ; "adventure without"
+	cont "schatzoeken?" ; "treasure hunting?"
 
-	para "Am I right, or am"
-	line "I right?"
+	para "Heb ik gelijk," ; "Am I right, or am"
+	line "of heb ik gelijk?" ; "I right?"
 	done
 
 EcruteakItemfinderTrueSpiritText:
-	text "Good! You under-"
-	line "stand the true"
+	text "Mooi! Je begrijpt" ; "Good! You under-"
+	line "de ware aard" ; "stand the true"
 
-	para "spirit of adven-"
-	line "ture."
+	para "van avontuur." ; "spirit of adven-"
+	line "" ; "ture."
 
-	para "I like that! Take"
-	line "this with you."
+	para "Daar hou ik van!" ; "I like that! Take"
+	line "Neem dit mee." ; "this with you."
 	done
 
 ItemfinderExplanationText:
-	text "There are many"
-	line "items lying about"
+	text "Er liggen veel" ; "There are many"
+	line "voorwerpen op de" ; "items lying about"
 
-	para "that aren't ob-"
-	line "vious."
+	para "grond die je" ; "that aren't ob-"
+	line "niet kan zien." ; "vious."
 
-	para "Use ITEMFINDER to"
-	line "check if there is"
+	para "Gebruik DETECTOR" ; "Use ITEMFINDER to"
+	line "om te checken" ; "check if there is"
 
-	para "an item on the"
-	line "ground near you."
+	para "of er een voorwerp" ; "an item on the"
+	line "op de grond ligt." ; "ground near you."
 
-	para "It doesn't show"
-	line "the exact spot,"
+	para "Het geeft niet" ; "It doesn't show"
+	line "precies de plek," ; "the exact spot,"
 
-	para "so you'll have to"
-	line "look yourself."
+	para "dus je moet zelf" ; "so you'll have to"
+	line "wel even zoeken." ; "look yourself."
 
-	para "Oh yeah--I heard"
-	line "there are items"
+	para "Oja--ik hoorde dat" ; "Oh yeah--I heard"
+	line "er voorwerpen zijn" ; "there are items"
 
-	para "in ECRUTEAK's"
-	line "BURNED TOWER."
+	para "in ECRUTEAK's" ; "in ECRUTEAK's"
+	line "VERBRANDE TOREN." ; "BURNED TOWER."
 	done
 
 EcruteakItemfinderToEachHisOwnText:
-	text "Oh… To each his"
-	line "own, I suppose…"
+	text "Oh… Ieder z'n" ; "Oh… To each his"
+	line "ding, denk ik…" ; "own, I suppose…"
 	done
 
 EcruteakHistoryBookText:
-	text "HISTORY OF"
-	line "ECRUTEAK"
+	text "GESCHIEDENIS" ; "HISTORY OF"
+	line "VAN ECRUTEAK" ; "ECRUTEAK"
 
-	para "Want to read it?"
+	para "Wil je het lezen?" ; "Want to read it?"
 	done
 
 EcruteakTwoTowersText:
-	text "In ECRUTEAK, there"
-	line "were two towers."
+	text "Er waren twee to-" ; "In ECRUTEAK, there"
+	line "rens in ECRUTEAK." ; "were two towers."
 
-	para "Each tower was the"
-	line "roost of powerful"
-	cont "flying #MON."
+	para "Elke toren was het" ; "Each tower was the"
+	line "nest van machtige" ; "roost of powerful"
+	cont "vliegende #MON." ; "flying #MON."
 
-	para "But one of the"
-	line "towers burned to"
-	cont "the ground."
+	para "Maar een van de" ; "But one of the"
+	line "torens brandde tot" ; "towers burned to"
+	cont "de grond af." ; "the ground."
 
-	para "The two #MON"
-	line "haven't been seen"
-	cont "since…"
+	para "De twee #MON" ; "The two #MON"
+	line "zijn sindsdien" ; "haven't been seen"
+	cont "niet meer gezien…" ; "since…"
 
-	para "Keep reading?"
+	para "Blijf lezen?" ; "Keep reading?"
 	done
 
 EcruteakThreeMonText:
-	text "ECRUTEAK was also"
-	line "home to three"
+	text "In ECRUTEAK woonden" ; "ECRUTEAK was also"
+	line "ook drie #MON" ; "home to three"
 
-	para "#MON that raced"
-	line "around the town."
+	para "die rondom de" ; "#MON that raced"
+	line "stad raceden." ; "around the town."
 
-	para "They were said to"
-	line "have been born of"
+	para "Er werd gezegd dat" ; "They were said to"
+	line "ze geboren waren" ; "have been born of"
 
-	para "water, lightning"
-	line "and fire."
+	para "uit water, donder" ; "water, lightning"
+	line "en vuur." ; "and fire."
 
-	para "But they could not"
-	line "contain their"
-	cont "excessive power."
+	para "Maar ze konden" ; "But they could not"
+	line "hun grote kracht" ; "contain their"
+	cont "niet beheersen." ; "excessive power."
 
-	para "So they say the"
-	line "three ran like the"
+	para "Dus verdwenen ze" ; "So they say the"
+	line "naar zeggen zo" ; "three ran like the"
 
-	para "wind off into the"
-	line "grassland."
+	para "snel als de wind" ; "wind off into the"
+	line "weg in de weiden." ; "grassland."
 	done
 
 EcruteakItemfinderHouse_MapEvents:
