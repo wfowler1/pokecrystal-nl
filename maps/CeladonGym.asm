@@ -114,7 +114,7 @@ ErikaBeforeBattleText:
 	text "ERIKA: Hallo…" ; "ERIKA: Hello…"
 	line "Heerlijk weertje," ; "Lovely weather,"
 
-	para "nietwaar?: ; "isn't it?"
+	para "nietwaar?" ; "isn't it?"
 	line "Zo aangenaam…" ; "It's so pleasant…"
 
 	para "Straks droom ik" ; "…I'm afraid I may"
@@ -171,7 +171,7 @@ ErikaExplainTMText:
 	line "voor de helft van" ; "inflicts to heal"
 	cont "de gedane schade." ; "your #MON."
 
-	para "Gebruik deze: ; "Please use it if"
+	para "Gebruik deze" ; "Please use it if"
 	line "wanneer je wil…" ; "it pleases you…"
 	done
 
@@ -190,7 +190,7 @@ ErikaAfterBattleText:
 LassMichelleSeenText:
 	text "Denk je dat een" ; "Do you think a"
 	line "GYM met alleen" ; "girls-only GYM"
-	cont "meide uniek is"? ; "is rare?"
+	cont "meiden uniek is?" ; "is rare?"
 	done
 
 LassMichelleBeatenText:
@@ -233,7 +233,7 @@ BeautyJuliaBeatenText:
 BeautyJuliaAfterBattleText:
 	text "Hoe word ik net" ; "How do I go about"
 	line "zo damesachtig" ; "becoming ladylike"
-	cont "als ERIKA?" "like ERIKA?"
+	cont "als ERIKA?" ; "like ERIKA?"
 	done
 
 TwinsJoAndZoe1SeenText:
