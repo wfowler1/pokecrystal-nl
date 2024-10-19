@@ -1,4 +1,4 @@
-	db "SHELLFISH@" ; species name
+	db "SCHAALDIER@" ; species name
 	db 16 ; height
 	dw 855 ; weight
 

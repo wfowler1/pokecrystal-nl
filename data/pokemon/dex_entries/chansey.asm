@@ -1,11 +1,11 @@
-	db "EGG@" ; species name
+	db "EI@" ; species name
 	db 11 ; height
 	dw 346 ; weight
 
-	db   "People try to"
-	next "catch it for its"
-	next "extremely"
+	db   "Een veelgezochte" ; "People try to"
+	next "#MON vanwege de" ; "catch it for its"
+	next "zeer voedzame" ; "extremely"
 
-	page "nutritious eggs,"
-	next "but it rarely can"
-	next "be found.@"
+	page "eieren, maar ook" ; "nutritious eggs,"
+	next "erg moeilijk om te" ; "but it rarely can"
+	next "vinden.@" ; "be found.@"

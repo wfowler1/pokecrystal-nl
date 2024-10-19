@@ -1,4 +1,4 @@
-	db "FLOWER@" ; species name
+	db "BLOEM@" ; species name
 	db 4 ; height
 	dw 58 ; weight
 

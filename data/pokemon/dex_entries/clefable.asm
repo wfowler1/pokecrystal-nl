@@ -1,11 +1,11 @@
-	db "FAIRY@" ; species name
+	db "FEE@" ; species name
 	db 13 ; height
 	dw 400 ; weight
 
-	db   "Said to live in"
-	next "quiet, remote"
-	next "mountains, this"
+	db   "Men zegt dat deze" ; "Said to live in"
+	next "#MON leeft in" ; "quiet, remote"
+	next "stille, afgelegen" ; "mountains, this"
 
-	page "type of fairy has"
-	next "a strong aversion"
-	next "to being seen.@"
+	page "gebergtes. Een fee" ; "type of fairy has"
+	next "die liever niet" ; "a strong aversion"
+	next "wordt gezien.@" ; "to being seen.@"

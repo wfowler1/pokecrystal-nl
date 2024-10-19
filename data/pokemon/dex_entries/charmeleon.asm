@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; species name
 	db 11 ; height
 	dw 190 ; weight
 
-	db   "If it becomes"
-	next "agitated during"
-	next "battle, it spouts"
+	db   "Spuwt intense" ; "If it becomes"
+	next "vlammen wanneer" ; "agitated during"
+	next "het geagiteerd" ; "battle, it spouts"
 
-	page "intense flames,"
-	next "incinerating its"
-	next "surroundings.@"
+	page "raakt, en ver-" ; "intense flames,"
+	next "brandt de gehele" ; "incinerating its"
+	next "omgeving.@" ; "surroundings.@"

@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; species name
 	db 17 ; height
 	dw 905 ; weight
 
-	db   "It uses its wings"
-	next "to fly high. The"
-	next "temperature of its"
+	db   "Gebruikt vleugels om" ; "It uses its wings"
+	next "hoog te vliegen." ; "to fly high. The"
+	next "Wordt warmer na" ; "temperature of its"
 
-	page "fire increases as"
-	next "it gains exper-"
-	next "ience in battle.@"
+	page "sterker te worden" ; "fire increases as"
+	next "door het verslaan" ; "it gains exper-"
+	next "van tegenstanders.@" ; "ience in battle.@"

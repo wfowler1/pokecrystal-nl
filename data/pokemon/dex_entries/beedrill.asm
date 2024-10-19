@@ -1,4 +1,4 @@
-	db "POISON BEE@" ; species name
+	db "GIFBIJ@" ; species name
 	db 10 ; height
 	dw 295 ; weight
 

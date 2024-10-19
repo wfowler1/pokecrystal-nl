@@ -1,4 +1,4 @@
-	db "HAPPINESS@" ; species name
+	db "BLIJDSCHAP@" ; species name
 	db 15 ; height
 	dw 468 ; weight
 

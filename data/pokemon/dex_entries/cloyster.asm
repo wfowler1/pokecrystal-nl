@@ -1,11 +1,11 @@
-	db "BIVALVE@" ; species name
+	db "TWEEKLEPPIGE@" ; species name
 	db 15 ; height
 	dw 1325 ; weight
 
-	db   "Even a missile"
-	next "can't break the"
-	next "spikes it uses to"
+	db   "Zelfs een raket" ; "Even a missile"
+	next "kan de stekels" ; "can't break the"
+	next "op de schelp niet" ; "spikes it uses to"
 
-	page "stab opponents."
-	next "They're even hard-"
-	next "er than its shell.@"
+	page "breken. Ze zijn" ; "stab opponents."
+	next "harder dan de" ; "They're even hard-"
+	next "schelp zelf." ; "er than its shell.@"
