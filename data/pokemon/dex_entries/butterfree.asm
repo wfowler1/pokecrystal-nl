@@ -2,7 +2,7 @@
 	db 11 ; height
 	dw 320 ; weight
 
-	db   "Fladdert van bloem "It flits from"
+	db   "Fladdert van bloem" ; "It flits from"
 	next "naar bloem, op" ; "flower to flower,"
 	next "zoek naar honing." ; "collecting honey."
 
