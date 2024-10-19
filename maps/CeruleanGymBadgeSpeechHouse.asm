@@ -10,8 +10,8 @@ CeruleanGymBadgeSpeechHousePokefanMScript:
 	jumptextfaceplayer CeruleanGymBadgeSpeechHousePokefanMText
 
 CeruleanGymBadgeSpeechHousePokefanMText:
-	text "Are you collecting"
-	line "KANTO GYM BADGES?"
+	text "Verzamel je alle" ; "Are you collecting"
+	line "KANTO GYM BADGES?" ; "KANTO GYM BADGES?"
 	done
 
 CeruleanGymBadgeSpeechHouse_MapEvents:

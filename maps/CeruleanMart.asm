@@ -21,26 +21,26 @@ CeruleanMart_CooltrainerF:
 	jumptextfaceplayer CeruleanMart_CooltrainerFText
 
 CeruleanMart_CooltrainerMText:
-	text "You'll run into"
-	line "many trainers on"
+	text "Er zijn veel trai-" ; "You'll run into"
+	line "ners richting" ; "many trainers on"
 
-	para "the way to CERU-"
-	line "LEAN's CAPE."
+	para "de KAAP van" ; "the way to CERU-"
+	line "CERULEAN" ; "LEAN's CAPE."
 
-	para "They want to see"
-	line "how they stack"
+	para "Ze willen weten" ; "They want to see"
+	line "of ze andere" ; "how they stack"
 
-	para "up against other"
-	line "trainers."
+	para "trainer kunnen" ; "up against other"
+	line "verslaan" ; "trainers."
 	done
 
 CeruleanMart_CooltrainerFText:
-	text "MISTY is about the"
-	line "only person in"
+	text "MISTY is haast de" ; "MISTY is about the"
+	line "enige die de" ; "only person in"
 
-	para "town who can beat"
-	line "the trainers at"
-	cont "CERULEAN's CAPE."
+	para "trainers van de" ; "town who can beat"
+	line "KAAP van CERULEAN" ; "the trainers at"
+	cont "de baas is." ; "CERULEAN's CAPE."
 	done
 
 CeruleanMart_MapEvents:

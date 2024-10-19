@@ -23,22 +23,22 @@ CeruleanDiglett:
 	end
 
 CeruleanPoliceStationFishingGuruText:
-	text "I heard that some"
-	line "shady character is"
-	cont "skulking about."
+	text "Ik hoorde dat een" ; "I heard that some"
+	line "verdacht figuur" ; "shady character is"
+	cont "hier rondsloop." ; "skulking about."
 
-	para "I won't stand for"
-	line "it if he turns out"
-	cont "to be a thief."
+	para "Als het een dief" ; "I won't stand for"
+	line "is, krijgt hij met" ; "it if he turns out"
+	cont "mij te maken." ; "to be a thief."
 	done
 
 CeruleanPoliceStationPokefanFText:
-	text "We were held up by"
-	line "robbers before."
+	text "We zijn al vaker" ; "We were held up by"
+	line "overvallen." ; "robbers before."
 	done
 
 CeruleanDiglettText:
-	text "DIGLETT: Dug dug."
+	text "DIGLETT: Dig dig." ; "DIGLETT: Dug dug."
 	done
 
 CeruleanPoliceStation_MapEvents:

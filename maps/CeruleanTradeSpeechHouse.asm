@@ -32,23 +32,23 @@ CeruleanTradeSpeechHouseZubatScript:
 	end
 
 CeruleanTradeSpeechHouseGrannyText:
-	text "My husband lives"
-	line "happily with #-"
-	cont "MON he got through"
-	cont "trades."
+	text "Mijn man leeft" ; "My husband lives"
+	line "vrolijk samen met" ; "happily with #-"
+	cont "de #MON die hij" ; "MON he got through"
+	cont "in ruil kreeg." ; "trades."
 	done
 
 CeruleanTradeSpeechHouseGrampsText:
-	text "Ah… I'm so happy…"
+	text "Ah, ik ben blij…" ; "Ah… I'm so happy…"
 	done
 
 CeruleanTradeSpeechHouseRhydonText:
-	text "KANGASKHAN: Garu"
-	line "garuu."
+	text "KANGASKHAN: Kanga" ; "KANGASKHAN: Garu"
+	line "kangaa" ; "garuu."
 	done
 
 CeruleanTradeSpeechHouseZubatText:
-	text "ZUBAT: Zuba zubaa."
+	text "ZUBAT: Zuba zubaa." ; "ZUBAT: Zuba zubaa."
 	done
 
 CeruleanTradeSpeechHouse_MapEvents:
