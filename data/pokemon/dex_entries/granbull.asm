@@ -1,11 +1,11 @@
-	db "FAIRY@" ; species name
+	db "FEE@" ; species name
 	db 14 ; height
 	dw 487 ; weight
 
-	db   "It can make most"
-	next "any #MON run"
-	next "away simply by"
+	db   "Laat de meeste" ; "It can make most"
+	next "#MON wegrennen" ; "any #MON run"
+	next "door simpelweg de" ; "away simply by"
 
-	page "opening its mouth"
-	next "wide to reveal its"
-	next "big fangs.@"
+	page "bek te openen en" ; "opening its mouth"
+	next "grote slagtanden" ; "wide to reveal its"
+	next "te laten zien.@" ; "big fangs.@"

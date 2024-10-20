@@ -1,11 +1,11 @@
-	db "WEED@" ; species name
+	db "ONKRUID@" ; species name
 	db 8 ; height
 	dw 86 ; weight
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
+	db   "De geur van de" ; "The smell from its"
+	next "speeksel-achtige" ; "drool-like syrup"
+	next "siroop en de pol-" ; "and the pollen on"
 
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	page "len is zo slecht" ; "its petals is so"
+	next "dat vijanden soms" ; "bad, it may make"
+	next "flauwvallen.@" ; "opponents faint.@"

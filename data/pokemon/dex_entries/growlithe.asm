@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 190 ; weight
 
-	db   "It controls a big"
-	next "territory. If it"
-	next "detects an unknown"
+	db   "Beschermt een" ; "It controls a big"
+	next "groot territorium." ; "territory. If it"
+	next "Spot het een" ; "detects an unknown"
 
-	page "smell, it roars"
-	next "loudly to force"
-	next "out the intruder.@"
+	page "vreemde geur, dan" ; "smell, it roars"
+	next "jaagt het de in-" ; "loudly to force"
+	next "breker weg." ; "out the intruder.@"
