@@ -30,50 +30,53 @@ OlivineCafeSailorScript:
 	jumptextfaceplayer OlivineCafeSailorText
 
 OlivineCafeStrengthSailorText:
-	text "Hah! Your #MON"
-	line "sure look like"
-	cont "lightweights!"
+	text "Pff! Je #MON" ; "Hah! Your #MON"
+	line "zien eruit als" ; "sure look like"
+	cont "lichtgewichten!" ; "lightweights!"
 
-	para "They don't have"
-	line "the power to move"
-	cont "boulders aside."
+	para "Ze hebben de" ; "They don't have"
+	line "kracht niet om" ; "the power to move"
+	cont "rotsen te" ; "boulders aside."
+	cont "verplaatsen." ; 
 
-	para "Here, use this"
-	line "and teach them"
-	cont "STRENGTH!"
+	para "Hier, gebruik" ; "Here, use this"
+	line "dit en leer ze" ; "and teach them"
+	cont "KRACHT!" ; "STRENGTH!"
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
-	text "On the sea, the"
-	line "only thing you can"
+	text "Op zee kan" ; "On the sea, the"
+	line "je alleen op" ; "only thing you can"
 
-	para "count on is your"
-	line "own good self!"
+	para "je eigen kracht" ; "count on is your"
+	line "rekenen!" ; "own good self!"
 
-	para "I'm so proud of my"
-	line "buff bod!"
+	para "Ik ben zo trots" ; "I'm so proud of my"
+	line "op m'n gespierde" ; "buff bod!"
+	cont "lijf!" ; 
 	done
 
 OlivineCafeFishingGuruText:
-	text "OLIVINE CAFE's"
-	line "menu is chock full"
+	text "Het menu van" ; "OLIVINE CAFE's"
+	line "OLIVINE CAFE is" ; "menu is chock full"
 
-	para "of hearty fare for"
-	line "beefy SAILORS!"
+	para "gevuld met hartige" ; "of hearty fare for"
+	line "kost voor" ; "beefy SAILORS!"
+	cont "potige MATROZEN!" ; 
 	done
 
 OlivineCafeSailorText:
-	text "Whenever I roll"
-	line "into this town, I"
+	text "Elke keer als" ; "Whenever I roll"
+	line "ik hier aankom" ; "into this town, I"
 
-	para "always visit the"
-	line "OLIVINE CAFE."
+	para "bezoek ik het" ; "always visit the"
+	line "OLIVINE CAFE." ; "OLIVINE CAFE."
 
-	para "Everything on the"
-	line "menu makes me feel"
+	para "Ik voel me sterker" ; "Everything on the"
+	line "door alles op het" ; "menu makes me feel"
 
-	para "stronger. I can't"
-	line "stop eating!"
+	para "menu. Ik kan niet" ; "stronger. I can't"
+	line "stoppen met eten!" ; "stop eating!"
 	done
 
 OlivineCafe_MapEvents:

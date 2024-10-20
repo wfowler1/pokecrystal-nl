@@ -25,16 +25,16 @@ OlivineHouseBetaBookshelf2:
 	jumpstd MagazineBookshelfScript
 
 OlivineHouseBetaTeacherText:
-	text "When my #MON"
-	line "got sick, the"
+	text "Toen mijn #MON" ; "When my #MON"
+	line "ziek werd, maak-" ; "got sick, the"
 
-	para "PHARMACIST in"
-	line "ECRUTEAK made some"
-	cont "medicine for me."
+	para "te de APOTHEKER" ; "PHARMACIST in"
+	line "in ECRUTEAK wat" ; "ECRUTEAK made some"
+	cont "medicijn voor me." ; "medicine for me."
 	done
 
 OlivineHouseBetaRhydonText:
-	text "RHYDON: Gugooh!"
+	text "RHYDON: Grugoooh!" ; "RHYDON: Gugooh!"
 	done
 
 OlivineHouseBeta_MapEvents:

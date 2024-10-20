@@ -45,47 +45,49 @@ OlivineLighthouse5FHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION
 
 SailorErnestSeenText:
-	text "I wanted to battle"
-	line "JASMINE, but she's"
+	text "Ik wou met" ; "I wanted to battle"
+	line "JASMINE vechten," ; "JASMINE, but she's"
 
-	para "not up to it now."
-	line "So, how about you?"
+	para "maar ze kan niet." ; "not up to it now."
+	line "Dus, jij wel dan?," ; "So, how about you?"
 	done
 
 SailorErnestBeatenText:
-	text "Whoa, whoa. You're"
-	line "overwhelming!"
+	text "Wow, wow. Je bent" ; "Whoa, whoa. You're"
+	line "overweldigend!" ; "overwhelming!"
 	done
 
 SailorErnestAfterBattleText:
-	text "A GYM LEADER isn't"
-	line "just about being"
+	text "Een GYMLEIDER is" ; "A GYM LEADER isn't"
+	line "niet alleen sterk." ; "just about being"
 
-	para "strong. A LEADER"
-	line "also needs to be"
-	cont "compassionate."
+	para "Een LEIDER moet" ; "strong. A LEADER"
+	line "ook meelevend" ; "also needs to be"
+	cont "zijn." ; "compassionate."
 	done
 
 BirdKeeperDenisSeenText:
-	text "We're pretty high"
-	line "up here. My bird"
+	text "We zitten best" ; "We're pretty high"
+	line "hoog hier. Mijn" ; "up here. My bird"
 
-	para "#MON are in"
-	line "prime form."
+	para "vogel-#MON zijn" ; "#MON are in"
+	line "in topvorm." ; "prime form."
 	done
 
 BirdKeeperDenisBeatenText:
-	text "Oops…They crashed…"
+	text "Oeps… Ze zijn" ; "Oops…They crashed…"
+	line "neergestort…" ;
 	done
 
 BirdKeeperDenisAfterBattleText:
-	text "My #MON learned"
-	line "how to use FLY in"
-	cont "CIANWOOD."
+	text "Mijn #MON leerde" ; "My #MON learned"
+	line "VLIEGEN in" ; "how to use FLY in"
+	cont "CIANWOOD." ; "CIANWOOD."
 
-	para "Well, since I'm a"
-	line "loser, I'll FLY"
-	cont "across the sea…"
+	para "Nou, omdat ik een" ; "Well, since I'm a"
+	line "loser ben, zal" ; "loser, I'll FLY"
+	cont "ik over de zee" ; "across the sea…"
+	cont "VLIEGEN…" ; 
 	done
 
 OlivineLighthouse5F_MapEvents:

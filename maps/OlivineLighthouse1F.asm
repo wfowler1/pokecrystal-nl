@@ -14,24 +14,25 @@ OlivineLighthouse1FPokefanFScript:
 	jumptextfaceplayer OlivineLighthouse1FPokefanFText
 
 OlivineLighthouse1FSailorText:
-	text "People train at"
-	line "this LIGHTHOUSE."
+	text "Mensen trainen" ; "People train at"
+	line "in deze VUURTOREN." ; "this LIGHTHOUSE."
 
-	para "It's not easy to"
-	line "climb because of"
-	cont "all the trainers."
+	para "Het is niet" ; "It's not easy to"
+	line "makkelijk te" ; "climb because of"
+	cont "klimmen vanwege" ; "all the trainers."
+	cont "alle trainers." ; 
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "In the past, #-"
-	line "MON used to light"
+	text "In het verleden" ; "In the past, #-"
+	line "lichtte #MON" ; "MON used to light"
 
-	para "the sea around"
-	line "OLIVINE at night."
+	para "'s nachts de zee" ; "the sea around"
+	line "rondom OLIVINE op." ; "OLIVINE at night."
 
-	para "The LIGHTHOUSE was"
-	line "made in honor of"
-	cont "those #MON."
+	para "De VUURTOREN was" ; "The LIGHTHOUSE was"
+	line "gebouwd ter ere" ; "made in honor of"
+	cont "van die #MON." ; "those #MON."
 	done
 
 OlivineLighthouse1F_MapEvents:
