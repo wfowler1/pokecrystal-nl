@@ -1,11 +1,11 @@
-	db "MOLE@" ; species name
+	db "MOL@" ; species name
 	db 7 ; height
 	dw 333 ; weight
 
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "60 miles below sea"
+	db   "Deze DIGLETT-" ; "These DIGLETT"
+	next "drieling graaft" ; "triplets dig over"
+	next "tot 100 kilometer" ; "60 miles below sea"
 
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	page "onder zeeniveau." ; "level. No one"
+	next "Niemand weet hoe" ; "knows what it's"
+	next "het zo laag is.@" ; "like underground.@"

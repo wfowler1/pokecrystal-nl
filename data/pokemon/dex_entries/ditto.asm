@@ -1,11 +1,11 @@
-	db "TRANSFORM@" ; species name
+	db "TRANSFORMEER@" ; species name
 	db 3 ; height
 	dw 40 ; weight
 
-	db   "When it encount-"
-	next "ers another DITTO,"
-	next "it will move"
+	db   "Gaat bij het zien" ; "When it encount-"
+	next "van een andere" ; "ers another DITTO,"
+	next "DITTO sneller" ; "it will move"
 
-	page "faster than normal"
-	next "to duplicate that"
-	next "opponent exactly.@"
+	page "bewegen, om zo de" ; "faster than normal"
+	next "tegenstander exact" ; "to duplicate that"
+	next "te dupliceren.@" ; "opponent exactly.@"

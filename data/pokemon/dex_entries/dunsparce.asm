@@ -1,11 +1,11 @@
-	db "LAND SNAKE@" ; species name
+	db "LANDSLANG@" ; species name
 	db 15 ; height
 	dw 140 ; weight
 
-	db   "It hides deep"
-	next "inside caves where"
-	next "no light ever"
+	db   "Verstopt zich diep" ; "It hides deep"
+	next "in grotten waar" ; "inside caves where"
+	next "nooit licht komt" ; "no light ever"
 
-	page "reaches it and"
-	next "remains virtually"
-	next "motionless there.@"
+	page "en ligt daar" ; "reaches it and"
+	next "zonder ooit te" ; "remains virtually"
+	next "bewegen.@" ; "motionless there.@"
