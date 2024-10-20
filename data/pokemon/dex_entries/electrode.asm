@@ -8,4 +8,4 @@
 
 	page "Maar de kans op" ; "But this also"
 	next "ontploffing stijgt" ; "makes it more"
-	next "dan ook." ; "likely to explode.@"
+	next "dan ook.@" ; "likely to explode.@"
