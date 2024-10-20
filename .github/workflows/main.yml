@@ -1,9 +1,8 @@
 name: CI
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
+    branches: [ master ]
 
 jobs:
   build:
@@ -58,6 +57,18 @@ jobs:
           sudo chmod +x tools/PokeGen2TextValidator.cs
           mcs -out:tools/PokeGen2TextValidator.exe tools/PokeGen2TextValidator.cs
           
+      - name: Get all changed asm files
+        id: changed-asm-files
+        uses: tj-actions/changed-files@v45.0.3
+        with:
+          files: |
+            **.asm
+            
       - name: Validate
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-asm-files.outputs.all_changed_files }}
         run: |
-          git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} | xargs -L 1 mono tools/PokeGen2TextValidator.exe 
+          for file in ${ALL_CHANGED_FILES}; do
+            mono tools/PokeGen2TextValidator.exe $file
+          done
