@@ -58,4 +58,4 @@ jobs:
           
       - name: Validate
         run: |
-          git diff --name-only $GITHUB_BASE_REF $GITHUB_HEAD_REF | xargs -L 1 mono tools/PokeGen2TextValidator.exe 
+          git diff --name-only $GITHUB_SHA ${{ github.event.pull_request.head.sha }} | xargs -L 1 mono tools/PokeGen2TextValidator.exe 
