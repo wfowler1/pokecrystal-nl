@@ -2,10 +2,10 @@
 	db 13 ; height
 	dw 1 ; weight
 
-	db   "It wraps its op-"
-	next "ponent in its gas-"
-	next "like body, slowly"
+	db   "Bindt tegenstander" ; "It wraps its op-"
+	next "vast in het gas-" ; "ponent in its gas-"
+	next "achtige lijf," ; "like body, slowly"
 
-	page "weakening its prey"
-	next "by poisoning it"
-	next "through the skin.@"
+	page "waarna de prooi" ; "weakening its prey"
+	next "met gif langzaam" ; "by poisoning it"
+	next "wordt uitgeput.@" ; "through the skin.@"
