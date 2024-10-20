@@ -43,8 +43,16 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 2
+          
+      - name: Get all changed asm files
+        id: changed-asm-files
+        uses: tj-actions/changed-files@v45.0.3
+        with:
+          files: |
+            **.asm
         
       - name: Install Mono
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
         run: |
           sudo apt install ca-certificates gnupg
           sudo gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/mono-official-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
@@ -53,16 +61,10 @@ jobs:
           sudo apt install mono-complete
           
       - name: Compile validator
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
         run: |
           sudo chmod +x tools/PokeGen2TextValidator.cs
           mcs -out:tools/PokeGen2TextValidator.exe tools/PokeGen2TextValidator.cs
-          
-      - name: Get all changed asm files
-        id: changed-asm-files
-        uses: tj-actions/changed-files@v45.0.3
-        with:
-          files: |
-            **.asm
             
       - name: Validate
         if: steps.changed-asm-files.outputs.any_changed == 'true'
