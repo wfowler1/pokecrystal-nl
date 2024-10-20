@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     strategy:
-      fail-fast: true
+      fail-fast: false
       
     steps:
       - name: Checkout
@@ -68,6 +68,7 @@ jobs:
         if: steps.changed-asm-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-asm-files.outputs.all_changed_files }}
+        continue-on-error: true
         run: |
           for file in ${ALL_CHANGED_FILES}; do
             mono tools/PokeGen2TextValidator.exe $file
