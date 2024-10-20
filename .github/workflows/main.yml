@@ -39,7 +39,6 @@ jobs:
     strategy:
       fail-fast: true
       
-    if: ${{needs.changedfiles.outputs.asm}}
     steps:
       - name: Checkout
         uses: actions/checkout@master
