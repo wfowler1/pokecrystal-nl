@@ -70,6 +70,8 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-asm-files.outputs.all_changed_files }}
         continue-on-error: true
         run: |
+          set +e
           for file in ${ALL_CHANGED_FILES}; do
             mono tools/PokeGen2TextValidator.exe $file
           done
+          set -e
