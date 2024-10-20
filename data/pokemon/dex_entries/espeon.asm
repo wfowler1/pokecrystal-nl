@@ -8,4 +8,4 @@
 
 	page "de volgende aanval" ; "predicting its"
 	next "van de vijand" ; "opponent's next"
-	next #voorspelt.@ "move.@"
+	next "voorspelt.@" ; "move.@"
