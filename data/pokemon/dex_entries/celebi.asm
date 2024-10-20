@@ -1,4 +1,4 @@
-	db "TIJDREIZIGER@" ; species name
+	db "TIJDREIS@" ; species name
 	db 6 ; height
 	dw 50 ; weight
 

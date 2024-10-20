@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; species name
 	db 9 ; height
 	dw 250 ; weight
 
-	db   "Once it has stored"
-	next "up enough heat,"
-	next "this #MON's"
+	db   "Als het genoeg" ; "Once it has stored"
+	next "hitte heeft ver-" ; "up enough heat,"
+	next "zameld, kan deze" ; "this #MON's"
 
-	page "body temperature"
-	next "can reach up to"
-	next "1700 degrees.@"
+	page "#MON wel" ; "body temperature"
+	next "duizend graden" ; "can reach up to"
+	next "warm worden.@" ; "1700 degrees.@"

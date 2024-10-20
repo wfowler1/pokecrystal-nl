@@ -1,11 +1,11 @@
-	db "BALL@" ; species name
+	db "BAL@" ; species name
 	db 12 ; height
 	dw 666 ; weight
 
-	db   "The more energy it"
-	next "charges up, the"
-	next "faster it gets."
+	db   "Hoe meer energie" ; "The more energy it"
+	next "wordt geladen, hoe" ; "charges up, the"
+	next "sneller het wordt." ; "faster it gets."
 
-	page "But this also"
-	next "makes it more"
-	next "likely to explode.@"
+	page "Maar de kans op" ; "But this also"
+	next "ontploffing stijgt" ; "makes it more"
+	next "dan ook." ; "likely to explode.@"

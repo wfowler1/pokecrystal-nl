@@ -8,4 +8,4 @@
 
 	page "Herkent zelfs" ; "It can even"
 	next "verre bloemen die" ; "identify distant"
-	next "in bloei zijn." ; "flowers in bloom.@"
+	next "in bloei zijn.@" ; "flowers in bloom.@"

@@ -1,11 +1,11 @@
-	db "EGG@" ; species name
+	db "EI@" ; species name
 	db 4 ; height
 	dw 25 ; weight
 
-	db   "If even one is"
-	next "separated from the"
-	next "group, the energy"
+	db   "Als ook maar één" ; "If even one is"
+	next "van de groep wordt" ; "separated from the"
+	next "gescheiden, zal de" ; "group, the energy"
 
-	page "bond between the"
-	next "six will make them"
-	next "rejoin instantly.@"
+	page "energieband tussen" ; "bond between the"
+	next "de zes ze meteen" ; "six will make them"
+	next "weer samenbrengen." ; "rejoin instantly.@"

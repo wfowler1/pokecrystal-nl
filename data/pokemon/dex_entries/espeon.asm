@@ -1,11 +1,11 @@
-	db "SUN@" ; species name
+	db "ZON@" ; species name
 	db 9 ; height
 	dw 265 ; weight
 
-	db   "The tip of its"
-	next "forked tail"
-	next "quivers when it is"
+	db   "De punt van de" ; "The tip of its"
+	next "gevorkte staart" ; "forked tail"
+	next "bibbert als ESPEON" ; "quivers when it is"
 
-	page "predicting its"
-	next "opponent's next"
-	next "move.@"
+	page "de volgende aanval" ; "predicting its"
+	next "van de vijand" ; "opponent's next"
+	next #voorspelt.@ "move.@"

@@ -1,11 +1,11 @@
-	db "WILD DUCK@" ; species name
+	db "WILDE EEND@" ; species name
 	db 8 ; height
 	dw 150 ; weight
 
-	db   "In order to pre-"
-	next "vent their"
-	next "extinction, more"
+	db   "Om te voorkomen" ; "In order to pre-"
+	next "dat ze uitsterven," ; "vent their"
+	next "zijn meer mensen" ; "extinction, more"
 
-	page "people have made"
-	next "an effort to breed"
-	next "these #MON.@"
+	page "nu begonnen om" ; "people have made"
+	next "deze #MON te" ; "an effort to breed"
+	next "fokken.@" ; "these #MON.@"

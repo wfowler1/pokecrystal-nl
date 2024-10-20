@@ -8,4 +8,4 @@
 
 	page "Door hard te vlam-" ; "when it is angry."
 	next "men worden vijan-" ; "The flaring flames"
-	next "den geïntimideerd." ; "intimidate foes.@"
+	next "den geïntimideerd.@" ; "intimidate foes.@"

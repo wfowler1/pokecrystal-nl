@@ -1,4 +1,4 @@
-	db "TWEEKLEPPIGE@" ; species name
+	db "TWEEKLEP@" ; species name
 	db 15 ; height
 	dw 1325 ; weight
 
@@ -8,4 +8,4 @@
 
 	page "breken. Ze zijn" ; "stab opponents."
 	next "harder dan de" ; "They're even hard-"
-	next "schelp zelf." ; "er than its shell.@"
+	next "schelp zelf.@" ; "er than its shell.@"

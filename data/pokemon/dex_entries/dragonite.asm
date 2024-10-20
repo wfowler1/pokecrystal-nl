@@ -8,4 +8,4 @@
 
 	page "ligt waar zij" ; "island where these"
 	next "verzamelen. Alleen" ; "gather. Only they"
-	next "zij wonen daar." ; "live there.@"
+	next "zij wonen daar.@" ; "live there.@"

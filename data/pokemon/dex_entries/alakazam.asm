@@ -8,4 +8,4 @@
 
 	page "een voorsprong" ; "in order to gain"
 	next "tijdens gevechten" ; "the edge in every"
-	next "te krijgen." ; "battle.@"
+	next "te krijgen.@" ; "battle.@"

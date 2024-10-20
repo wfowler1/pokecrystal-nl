@@ -8,4 +8,4 @@
 
 	page "Charmander, zelfs" ; "will burn vigor-"
 	next "als hij een beetje" ; "ously, even if it"
-	next "nat wordt." ; "gets a bit wet.@"
+	next "nat wordt.@" ; "gets a bit wet.@"
