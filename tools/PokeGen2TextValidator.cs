@@ -9,6 +9,7 @@ namespace PokeGen2TextValidator
 {
     internal class PokeGen2TextValidator
     {
+		// Program.cs
         public static int Main(string[] args)
         {
             if (args.Length < 1)
@@ -67,12 +68,53 @@ namespace PokeGen2TextValidator
         }
     }
 
+    // ASMFile.cs
+    public enum FileType
+    {
+        /// <summary>
+        /// Unknown or miscellaneous data. No string validation will be available.
+        /// </summary>
+        Misc = 0,
+        /// <summary>
+        /// Text for a textbox. Limit 18 chars per line of text.
+        /// </summary>
+        TextBox = 1,
+        /// <summary>
+        /// Pokédex entry.
+        /// </summary>
+        Pokedex = 2,
+        /// <summary>
+        /// Pokémon names.
+        /// </summary>
+        Pokemon = 3,
+        /// <summary>
+        /// Move names.
+        /// </summary>
+        Move = 4,
+        /// <summary>
+        /// Item names.
+        /// </summary>
+        Item = 5,
+        /// <summary>
+        /// Type names.
+        /// </summary>
+        Type = 6,
+        /// <summary>
+        /// Map landmarks. Town, route, dungeon names.
+        /// </summary>
+        Landmark = 7,
+        /// <summary>
+        /// Trainer class names.
+        /// </summary>
+        TrainerClass = 8,
+    }
+
     internal class ASMFile : IEnumerable<Block>
     {
 
         public String Name { get; private set; }
         public FileInfo File { get; private set; }
-        public BlockType Type { get; private set; }
+        public FileType Type { get; private set; }
         public Dictionary<string, Block> blocks;
 
         public ASMFile(string path)
@@ -91,33 +133,37 @@ namespace PokeGen2TextValidator
             blocks.Add(block.Name, block);
         }
 
-        public static BlockType GetType(string path)
+        public static FileType GetType(string path)
         {
             if (path.Contains("data/pokemon/dex_entries"))
             {
-                return BlockType.Pokedex;
+                return FileType.Pokedex;
             }
             else if (path.Contains("data/pokemon/names.asm"))
             {
-                return BlockType.Pokemon;
+                return FileType.Pokemon;
             }
             else if (path.Contains("data/moves/names.asm"))
             {
-                return BlockType.Move;
+                return FileType.Move;
             }
             else if (path.Contains("data/items/names.asm"))
             {
-                return BlockType.Item;
+                return FileType.Item;
             }
             else if (path.Contains("data/types/names.asm")
                 || path.Contains("data/types/search_strings.asm")
                 )
             {
-                return BlockType.Type;
+                return FileType.Type;
             }
             else if (path.Contains("data/maps/landmarks.asm"))
             {
-                return BlockType.Landmark;
+                return FileType.Landmark;
+            }
+            else if (path.Contains("data/trainers/class_names.asm"))
+            {
+                return FileType.TrainerClass;
             }
             else if (path.EndsWith("data/battle_tower/trainer_text.asm")
                 || path.EndsWith("data/items/descriptions.asm")
@@ -128,14 +174,14 @@ namespace PokeGen2TextValidator
                 || path.EndsWith("data/text/common_3.asm")
                 || path.EndsWith("data/text/std_text.asm")
                 || path.EndsWith("data/text/unused_sweet_honey.asm")
-                || path.StartsWith("data/phone/text/")
+                || path.Contains("data/phone/text/")
                 || path.StartsWith("maps/")
                 )
             {
-                return BlockType.TextBox;
+                return FileType.TextBox;
             }
 
-            return BlockType.Misc;
+            return FileType.Misc;
         }
 
         private void ParseBlocks(string[] lines)
@@ -201,63 +247,28 @@ namespace PokeGen2TextValidator
             }
         }
     }
-	
-	public enum BlockType
-    {
-        /// <summary>
-        /// Unknown or miscellaneous data. No string validation will be available.
-        /// </summary>
-        Misc = 0,
-        /// <summary>
-        /// Text for a textbox. Limit 18 chars per line of text.
-        /// </summary>
-        TextBox = 1,
-        /// <summary>
-        /// Pokédex entry.
-        /// </summary>
-        Pokedex = 2,
-        /// <summary>
-        /// Pokémon names.
-        /// </summary>
-        Pokemon = 3,
-        /// <summary>
-        /// Move names.
-        /// </summary>
-        Move = 4,
-        /// <summary>
-        /// Item names.
-        /// </summary>
-        Item = 5,
-        /// <summary>
-        /// Type names.
-        /// </summary>
-        Type = 6,
-        /// <summary>
-        /// Map landmarks. Town, route, dungeon names.
-        /// </summary>
-        Landmark = 7,
-    }
 
+    // Block.cs
     internal class Block
     {
         public List<Line> lines;
-        public BlockType Type { get; set; }
+        public FileType Type { get; set; }
         public string Name { get; private set; }
 
-        public Block(string name, BlockType type = BlockType.Misc)
+        public Block(string name, FileType type = FileType.Misc)
         {
             lines = new List<Line>();
             Name = name;
             Type = type;
         }
 
-        public Block(string name, Line line, BlockType type = BlockType.Misc) : this(name, type)
+        public Block(string name, Line line, FileType type = FileType.Misc) : this(name, type)
         {
             Name = name;
             lines.Add(line);
         }
 
-        public Block(string name, List<Line> lines, BlockType type = BlockType.Misc)
+        public Block(string name, List<Line> lines, FileType type = FileType.Misc)
         {
             Name = name;
             this.lines = lines;
@@ -290,7 +301,7 @@ namespace PokeGen2TextValidator
 
                 switch (Type)
                 {
-                    case BlockType.TextBox:
+                    case FileType.TextBox:
                     {
                         if (line.Text.StartsWith("text "))
                         {
@@ -401,7 +412,7 @@ namespace PokeGen2TextValidator
                         }
                         break;
                     }
-                    case BlockType.Pokedex:
+                    case FileType.Pokedex:
                     {
                         if (line.Text.StartsWith("db ") || line.Text.StartsWith("next ") || line.Text.StartsWith("page "))
                         {
@@ -417,8 +428,9 @@ namespace PokeGen2TextValidator
                         }
                         break;
                     }
-                    case BlockType.Move:
-                    case BlockType.Item:
+                    case FileType.Move:
+                    case FileType.Item:
+                    case FileType.TrainerClass:
                     {
                         if (line.Text.StartsWith("li "))
                         {
@@ -434,9 +446,9 @@ namespace PokeGen2TextValidator
                         }
                         break;
                     }
-                    case BlockType.Type:
-                    case BlockType.Landmark:
-                    case BlockType.Pokemon:
+                    case FileType.Type:
+                    case FileType.Landmark:
+                    case FileType.Pokemon:
                     {
                         if (line.Text.Contains("db \""))
                         {
@@ -511,224 +523,7 @@ namespace PokeGen2TextValidator
         }
     }
 	
-    internal class Validator
-    {
-        public const int MaxTextboxLength = 18;
-        public const int MaxPlayerNameLength = 7;
-        public const int MaxTrainerNameLength = 10; // "ANN & ANNE"
-        public const int MaxTrainerClassNameLength = 12; // "FIREBREATHER"
-        public const int MaxPokemonNameLength = 10;
-        public const int MaxMoveNameLength = 12;
-        public const int MaxItemNameLength = 12;
-        public const int MaxTypeNameLength = 8;
-        public const int MaxStatNameLength = 9;
-        public const int MaxBagPocketNameLength = 11;
-        public const int MaxDecorationNameLength = 17;
-
-        public const int MaxPokedexLength = 18;
-        public const int MaxSpeciesNameLength = 11;
-
-        public const int MaxLandmarkLineLength = 11;
-        public const int MaxLandmarkLength = 17;
-
-        private Block _block;
-
-        public Validator(Block block)
-        {
-            _block = block;
-        }
-
-        public Validator(List<Line> lines)
-        {
-            _block = new Block(lines[0].Text, lines);
-        }
-
-        public string Validate()
-        {
-            StringBuilder sb = new StringBuilder();
-            int maxLength = -1;
-            bool mustTerminate = false;
-            switch (_block.Type)
-            {
-                case BlockType.TextBox:
-                {
-                    maxLength = MaxTextboxLength;
-                    break;
-                }
-                case BlockType.Pokedex:
-                {
-                    maxLength = MaxPokedexLength;
-                    break;
-                }
-                case BlockType.Item:
-                {
-                    maxLength = MaxItemNameLength;
-                    break;
-                }
-                case BlockType.Pokemon:
-                {
-                    maxLength = MaxPokemonNameLength;
-                    break;
-                }
-                case BlockType.Move:
-                {
-                    maxLength = MaxMoveNameLength;
-                    break;
-                }
-                case BlockType.Type:
-                {
-                    mustTerminate = true;
-                    maxLength = MaxTypeNameLength;
-                    break;
-                }
-                case BlockType.Landmark:
-                {
-                    mustTerminate = true;
-                    maxLength = MaxLandmarkLength;
-                    break;
-                }
-            }
-
-            List<FormattedText> text = _block.GetFormattedTexts();
-            for (int i = 0; i < text.Count; ++i)
-            {
-                FormattedText formattedText = text[i];
-                if (string.IsNullOrWhiteSpace(formattedText?.Text) || formattedText.Text.StartsWith("INCLUDE"))
-                {
-                    continue;
-                }
-
-                if (_block.Type == BlockType.Pokedex)
-                {
-                    if (i == 0)
-                    {
-                        // First string is species name
-                        string message = GetLengthValidationMessage(formattedText, MaxSpeciesNameLength);
-                        if (!string.IsNullOrEmpty(message))
-                        {
-                            sb.Append(message);
-                        }
-                        if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
-                        {
-                            sb.Append(GetTerminatorErrorMessage(formattedText));
-                        }
-                    }
-                    else
-                    {
-                        if (i == text.Count - 1)
-                        {
-                            // last string is last line of entry
-                            if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
-                            {
-                                sb.Append(GetTerminatorErrorMessage(formattedText));
-                            }
-                        }
-                        string message = GetLengthValidationMessage(formattedText, maxLength);
-                        if (!string.IsNullOrEmpty(message))
-                        {
-                            sb.Append(message);
-                        }
-                    }
-                }
-                else if (_block.Type == BlockType.Pokemon)
-                {
-                    if (formattedText.Text.Length != MaxPokemonNameLength)
-                    {
-                        sb.Append(GetLengthExactlyErrorMessage(formattedText, MaxPokemonNameLength));
-                    }
-                }
-                else if (_block.Type != BlockType.Misc)
-                {
-                    string message = GetLengthValidationMessage(formattedText, maxLength);
-                    if (!string.IsNullOrEmpty(message))
-                    {
-                        sb.Append(message);
-                    }
-                }
-
-                if (mustTerminate)
-                {
-                    if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
-                    {
-                        sb.Append(GetTerminatorErrorMessage(formattedText));
-                    }
-                }
-
-                if (_block.Type == BlockType.Landmark)
-                {
-                    string message = GetLandmarkLineValidationMessage(formattedText, MaxLandmarkLineLength);
-                    if (!string.IsNullOrWhiteSpace(message))
-                    {
-                        sb.Append(message);
-                    }
-                }
-            }
-
-            foreach (Line line in _block.lines)
-            {
-                if (line.ErrorMessage != null)
-                {
-                    sb.Append('\t').Append(line.ErrorMessage).Append('\n');
-                }
-            }
-
-            return sb.Length > 0 ? sb.ToString() : null;
-        }
-
-        private string GetLengthValidationMessage(FormattedText formattedText, int maxLength)
-        {
-            StringBuilder sb = new StringBuilder();
-
-            // Length validation
-            if (formattedText.LengthUnknown)
-            {
-                sb.Append(GetCannotGetLengthMessage(formattedText));
-            }
-            else if (maxLength > 0 && formattedText.Length > maxLength)
-            {
-                sb.Append(GetLengthErrorMessage(formattedText, maxLength));
-            }
-
-            return sb.Length > 0 ? sb.ToString() : null;
-        }
-
-        private string GetCannotGetLengthMessage(FormattedText formattedText)
-        {
-            StringBuilder sb = new StringBuilder();
-            return sb.Append("\tCannot determine length of \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" automatically. Please add MaxLength annotation.\n").ToString();
-        }
-
-        private string GetLengthErrorMessage(FormattedText formattedText, int maxLength)
-        {
-            StringBuilder sb = new StringBuilder();
-            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" might be ").Append(formattedText.Length).Append(" chars! Text can be at most ").Append(maxLength).Append(" characters long.\n").ToString();
-        }
-
-        private string GetLandmarkLineValidationMessage(FormattedText formattedText, int maxLength)
-        {
-            int indexOfFirstBSP = formattedText.Text.IndexOf("<BSP>");
-
-            if (indexOfFirstBSP > maxLength || (formattedText.Length - indexOfFirstBSP - 1) > maxLength)
-            {
-                StringBuilder sb = new StringBuilder();
-                return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" has a line too long for a landmark name. Lines can be at most ").Append(maxLength).Append(" characters long. Consider using a <BSP>.\n").ToString();
-            }
-            return null;
-        }
-
-        private string GetTerminatorErrorMessage(FormattedText formattedText)
-        {
-            StringBuilder sb = new StringBuilder();
-            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" is missing a terminator! Add @ to the end of the string.\n").ToString();
-        }
-
-        private string GetLengthExactlyErrorMessage(FormattedText formattedText, int length)
-        {
-            StringBuilder sb = new StringBuilder();
-            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" must be exactly ").Append(length).Append(" chars long.\n").ToString();
-        }
-    }
-	
+	// Line.cs
     internal class Line
     {
         public int Number { get; private set; }
@@ -794,7 +589,8 @@ namespace PokeGen2TextValidator
         }
     }
 	
-	    internal class FormattedText
+	// FormattedText.cs
+    internal class FormattedText
     {
         public static readonly Dictionary<string, int> maxLengths = new Dictionary<string, int>
         {
@@ -897,6 +693,7 @@ namespace PokeGen2TextValidator
         };
 
         public static char Terminator = '@';
+        public static string Printable = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789";
 
         public string Text { get; private set; }
         public int Length { get; private set; }
@@ -935,5 +732,230 @@ namespace PokeGen2TextValidator
         {
             return Text;
         }
+    }
+	
+	// Validator.cs
+    internal class Validator
+    {
+        public const int MaxTextboxLength = 18;
+        public const int MaxPlayerNameLength = 7;
+        public const int MaxTrainerNameLength = 10; // "ANN & ANNE"
+        public const int MaxTrainerClassNameLength = 13; // "POKéMON PROF."
+        public const int MaxPokemonNameLength = 10;
+        public const int MaxMoveNameLength = 12;
+        public const int MaxItemNameLength = 12;
+        public const int MaxTypeNameLength = 8;
+        public const int MaxStatNameLength = 9;
+        public const int MaxBagPocketNameLength = 11;
+        public const int MaxDecorationNameLength = 17;
+
+        public const int MaxPokedexLength = 18;
+        public const int MaxSpeciesNameLength = 11;
+
+        public const int MaxLandmarkLineLength = 11;
+        public const int MaxLandmarkLength = 17;
+
+        private Block _block;
+
+        public Validator(Block block)
+        {
+            _block = block;
+        }
+
+        public Validator(List<Line> lines)
+        {
+            _block = new Block(lines[0].Text, lines);
+        }
+
+        public string Validate()
+        {
+            StringBuilder sb = new StringBuilder();
+            int maxLength = -1;
+            bool mustTerminate = false;
+            switch (_block.Type)
+            {
+                case FileType.TextBox:
+                {
+                    maxLength = MaxTextboxLength;
+                    break;
+                }
+                case FileType.Pokedex:
+                {
+                    maxLength = MaxPokedexLength;
+                    break;
+                }
+                case FileType.Item:
+                {
+                    maxLength = MaxItemNameLength;
+                    break;
+                }
+                case FileType.Pokemon:
+                {
+                    maxLength = MaxPokemonNameLength;
+                    break;
+                }
+                case FileType.Move:
+                {
+                    maxLength = MaxMoveNameLength;
+                    break;
+                }
+                case FileType.Type:
+                {
+                    mustTerminate = true;
+                    maxLength = MaxTypeNameLength;
+                    break;
+                }
+                case FileType.Landmark:
+                {
+                    mustTerminate = true;
+                    maxLength = MaxLandmarkLength;
+                    break;
+                }
+                case FileType.TrainerClass:
+                {
+                    maxLength = MaxTrainerClassNameLength;
+                    break;
+                }
+            }
+
+            List<FormattedText> text = _block.GetFormattedTexts();
+            for (int i = 0; i < text.Count; ++i)
+            {
+                FormattedText formattedText = text[i];
+                if (string.IsNullOrWhiteSpace(formattedText?.Text) || formattedText.Text.StartsWith("INCLUDE"))
+                {
+                    continue;
+                }
+
+                if (_block.Type == FileType.Pokedex)
+                {
+                    if (i == 0)
+                    {
+                        // First string is species name
+                        string message = GetLengthValidationMessage(formattedText, MaxSpeciesNameLength);
+                        if (!string.IsNullOrEmpty(message))
+                        {
+                            sb.Append(message);
+                        }
+                        if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
+                        {
+                            sb.Append(GetTerminatorErrorMessage(formattedText));
+                        }
+                    }
+                    else
+                    {
+                        if (i == text.Count - 1)
+                        {
+                            // last string is last line of entry
+                            if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
+                            {
+                                sb.Append(GetTerminatorErrorMessage(formattedText));
+                            }
+                        }
+                        string message = GetLengthValidationMessage(formattedText, maxLength);
+                        if (!string.IsNullOrEmpty(message))
+                        {
+                            sb.Append(message);
+                        }
+                    }
+                }
+                else if (_block.Type == FileType.Pokemon)
+                {
+                    if (formattedText.Text.Length != MaxPokemonNameLength)
+                    {
+                        sb.Append(GetLengthExactlyErrorMessage(formattedText, MaxPokemonNameLength));
+                    }
+                }
+                else if (_block.Type != FileType.Misc)
+                {
+                    string message = GetLengthValidationMessage(formattedText, maxLength);
+                    if (!string.IsNullOrEmpty(message))
+                    {
+                        sb.Append(message);
+                    }
+                }
+
+                if (mustTerminate)
+                {
+                    if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
+                    {
+                        sb.Append(GetTerminatorErrorMessage(formattedText));
+                    }
+                }
+
+                if (_block.Type == FileType.Landmark)
+                {
+                    string message = GetLandmarkLineValidationMessage(formattedText, MaxLandmarkLineLength);
+                    if (!string.IsNullOrWhiteSpace(message))
+                    {
+                        sb.Append(message);
+                    }
+                }
+            }
+
+            foreach (Line line in _block.lines)
+            {
+                if (line.ErrorMessage != null)
+                {
+                    sb.Append('\t').Append(line.ErrorMessage).Append('\n');
+                }
+            }
+
+            return sb.Length > 0 ? sb.ToString() : null;
+        }
+
+        private string GetLengthValidationMessage(FormattedText formattedText, int maxLength)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            // Length validation
+            if (formattedText.LengthUnknown)
+            {
+                sb.Append(GetCannotGetLengthMessage(formattedText));
+            }
+            else if (maxLength > 0 && formattedText.Length > maxLength)
+            {
+                sb.Append(GetLengthErrorMessage(formattedText, maxLength));
+            }
+
+            return sb.Length > 0 ? sb.ToString() : null;
+        }
+
+        private string GetCannotGetLengthMessage(FormattedText formattedText)
+        {
+            StringBuilder sb = new StringBuilder();
+            return sb.Append("\tWarning: Cannot determine length of \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" automatically. Please add MaxLength annotation.\n").ToString();
+        }
+
+        private string GetLengthErrorMessage(FormattedText formattedText, int maxLength)
+        {
+            StringBuilder sb = new StringBuilder();
+            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" can be ").Append(formattedText.Length).Append(" chars! Text can be at most ").Append(maxLength).Append(" characters long.\n").ToString();
+        }
+
+        private string GetLandmarkLineValidationMessage(FormattedText formattedText, int maxLength)
+        {
+            int indexOfFirstBSP = formattedText.Text.IndexOf("<BSP>");
+
+            if (indexOfFirstBSP > maxLength || (formattedText.Length - indexOfFirstBSP - 1) > maxLength)
+            {
+                StringBuilder sb = new StringBuilder();
+                return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" has a line too long for a landmark name. Lines can be at most ").Append(maxLength).Append(" characters long. Consider using a <BSP>.\n").ToString();
+            }
+            return null;
+        }
+
+        private string GetTerminatorErrorMessage(FormattedText formattedText)
+        {
+            StringBuilder sb = new StringBuilder();
+            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" is missing a terminator! Add @ to the end of the string.\n").ToString();
+        }
+
+        private string GetLengthExactlyErrorMessage(FormattedText formattedText, int length)
+        {
+            StringBuilder sb = new StringBuilder();
+            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" must be exactly ").Append(length).Append(" chars long.\n").ToString();
+        }
+
     }
 }
