@@ -8,4 +8,4 @@
 
 	page "energieband tussen" ; "bond between the"
 	next "de zes ze meteen" ; "six will make them"
-	next "weer samenbrengen." ; "rejoin instantly.@"
+	next "weer samenbrengen.@" ; "rejoin instantly.@"
