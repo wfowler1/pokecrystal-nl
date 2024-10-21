@@ -104,7 +104,7 @@ BattleText_UserRecoveredPPUsing:
 	text "<USER>"
 	line "herstelde PP door" ; "recovered PP using"
 	cont "@"
-	text_ram wStringBuffer1 ; Item Name MaxLength 12
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
