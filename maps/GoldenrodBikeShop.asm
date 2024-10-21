@@ -46,56 +46,59 @@ GoldenrodBikeShopBicycle:
 	jumptext GoldenrodBikeShopBicycleText
 
 GoldenrodBikeShopClerkIntroText:
-	text "…sigh… I moved"
-	line "here, but I can't"
+	text "…zucht… Ik ben" ; "…sigh… I moved"
+	line "hierheen verhuisd," ; "here, but I can't"
 
-	para "sell my BICYCLES."
-	line "Why is that?"
+	para "maar kan mijn" ; "sell my BICYCLES."
+	line "FIETSEN niet" ; "Why is that?"
+	
+	para "verkopen…" ; 
+	line "Waarom niet?";
 
-	para "Could you ride a"
-	line "BICYCLE and adver-"
-	cont "tise for me?"
+	para "Zou je kunnen" ; "Could you ride a"
+	line "FIETSEN en voor" ; "BICYCLE and adver-"
+	cont "me reclame maken?" ; "tise for me?"
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Really? Great!"
+	text "Echt? Fijn!" ; "Really? Great!"
 
-	para "Give me your name"
-	line "and phone number,"
+	para "Geef me je naam" ; "Give me your name"
+	line "en telefoonnummer" ; "and phone number,"
 
-	para "and I'll loan you"
-	line "a BICYCLE."
+	para "en ik leen je" ; "and I'll loan you"
+	line "een FIETS." ; "a BICYCLE."
 	done
 
 BorrowedABicycleText:
-	text "<PLAYER> borrowed a"
-	line "BICYCLE."
+	text "<PLAYER> leent" ; "<PLAYER> borrowed a"
+	line "een FIETS." ; "BICYCLE."
 	done
 
 GoldenrodBikeShopClerkFirstRateBikesText:
-	text "My BICYCLES are"
-	line "first-rate! You"
+	text "Mijn FIETSEN zijn" ; "My BICYCLES are"
+	line "topkwaliteit!" ; "first-rate! You"
 
-	para "can ride them"
-	line "anywhere."
+	para "Je kan ze" ; "can ride them"
+	line "overal gebruiken." ; "anywhere."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…sigh… Oh, for"
-	line "the kindness of"
-	cont "people…"
+	text "…zucht… Oh," ; "…sigh… Oh, for"
+	line "medeleven voor" ; "the kindness of"
+	cont "je medemens…" ; "people…"
 	done
 
 GoldenrodBikeShopJustReleasedCompactBikeText:
-	text "Just released!"
+	text "Nieuw binnen!" ; "Just released!"
 
-	para "First-rate compact"
-	line "BICYCLES!"
+	para "Hoge kwaliteit" ; "First-rate compact"
+	line "compacte FIETSEN!" ; "BICYCLES!"
 	done
 
 GoldenrodBikeShopBicycleText:
-	text "It's a shiny new"
-	line "BICYCLE!"
+	text "Een glimmende" ; "It's a shiny new"
+	line "nieuwe FIETS!" ; "BICYCLE!"
 	done
 
 GoldenrodBikeShop_MapEvents:

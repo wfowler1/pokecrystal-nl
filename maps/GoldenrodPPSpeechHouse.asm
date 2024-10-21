@@ -23,30 +23,31 @@ GoldenrodPPSpeechHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodPPSpeechHouseFisherText:
-	text "Once while I was"
-	line "battling, my"
+	text "Mijn #MON kon" ; "Once while I was"
+	line "een keer tijdens" ; "battling, my"
 
-	para "#MON couldn't"
-	line "make any moves."
+	para "een gevecht geen" ; "#MON couldn't"
+	line "één aanval doen." ; "make any moves."
 
-	para "The POWER POINTS,"
-	line "or PP, of its"
+	para "De ACTIEPUNTEN," ; "The POWER POINTS,"
+	line "of AP, van de" ; "or PP, of its"
 
-	para "moves were all"
-	line "gone."
+	para "aanvallen waren" ; "moves were all"
+	line "allemaal op." ; "gone."
 	done
 
 GoldenrodPPSpeechHouseLassText:
-	text "Sometimes, a"
-	line "healthy #MON"
+	text "Soms kan een" ; "Sometimes, a"
+	line "gezonde #MON" ; "healthy #MON"
 
-	para "may be unable to"
-	line "use its moves."
+	para "geen van zijn" ; "may be unable to"
+	line "aanvallen doen." ; "use its moves."
 
-	para "If that happens,"
-	line "heal it at a #-"
-	cont "MON CENTER or use"
-	cont "an item."
+	para "Als dat gebeurt," ; "If that happens,"
+	line "genees het in een" ; "heal it at a #-"
+	cont "#MONCENTRUM of" ; "MON CENTER or use"
+	cont "gebruik een" ; "an item."
+	cont "voorwerp.";
 	done
 
 GoldenrodPPSpeechHouse_MapEvents:
