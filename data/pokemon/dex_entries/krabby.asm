@@ -8,4 +8,4 @@
 
 	page "zand om daar de" ; "nutrients by"
 	next "voedingsstoffen" ; "swallowing a"
-	next "uit te absorberen." ; "mouthful of sand.@"
+	next "uit te absorberen.@" ; "mouthful of sand.@"

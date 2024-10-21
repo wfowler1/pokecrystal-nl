@@ -8,4 +8,4 @@
 
 	page "rond te stuiteren" ; "around by bouncing"
 	next "door de omgeving" ; "on its soft,"
-	next "van de #MON." ; "tender body.@"
+	next "van de #MON.@" ; "tender body.@"
