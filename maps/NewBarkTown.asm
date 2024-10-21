@@ -250,8 +250,8 @@ Text_ElmDiscoveredNewMon:
 NewBarkTownRivalText1:
 	text "<……>"
 
-	para "Dut dit is het be-" ; "So this is the"
-	line "kende ELM #MON" ; "famous ELM #MON"
+	para "Dus dit is het be-" ; "So this is the"
+	line "kende ELM-#MON" ; "famous ELM #MON"
 	cont "LAB…"
 	done
 

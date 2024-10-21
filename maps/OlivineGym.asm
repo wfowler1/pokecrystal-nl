@@ -93,106 +93,110 @@ OlivineGymStatue:
 	jumpstd GymStatue2Script
 
 Jasmine_SteelTypeIntro:
-	text "…Thank you for"
-	line "your help at the"
-	cont "LIGHTHOUSE…"
+	text "…Bedankt voor je" ; "…Thank you for"
+	line "hulp in de" ; "your help at the"
+	cont "VUURTOREN…" ; "LIGHTHOUSE…"
 
-	para "But this is dif-"
-	line "ferent. Please"
+	para "Maar dit is" ; "But this is dif-"
+	line "anders. Sta me" ; "ferent. Please"
 
-	para "allow me to intro-"
-	line "duce myself."
+	para "toe om mezelf" ; "allow me to intro-"
+	line "te introduceren." ; "duce myself."
 
-	para "I am JASMINE, a"
-	line "GYM LEADER. I use"
-	cont "the steel-type."
+	para "Ik ben JASMINE," ; "I am JASMINE, a"
+	line "een GYMLEIDER. Ik" ; "GYM LEADER. I use"
+	cont "gebruik het" ; "the steel-type."
+	cont "staal-type." ;
 
-	para "…Do you know about"
-	line "the steel-type?"
+	para "…Ken je het" ; "…Do you know about"
+	line "staal-type?" ; "the steel-type?"
 
-	para "It's a type that"
-	line "was only recently"
-	cont "discovered."
+	para "Het is een type" ; "It's a type that"
+	line "dat nog maar pas" ; "was only recently"
+	cont "is ontdekt." ; "discovered."
 
-	para "…Um… May I begin?"
+	para "…Um… Mag ik" ; "…Um… May I begin?"
+	line "beginnen?" ;
 	done
 
 Jasmine_BetterTrainer:
-	text "…You are a better"
-	line "trainer than me,"
+	text "…Je bent een" ; "…You are a better"
+	line "betere trainer" ; "trainer than me,"
 
-	para "in both skill and"
-	line "kindness."
+	para "dan ik, in zowel" ; "in both skill and"
+	line "vaardigheid als" ; "kindness."
+	cont "vriendelijkheid." ;
 
-	para "In accordance with"
-	line "LEAGUE rules, I"
+	para "In overeenstemming" ; "In accordance with"
+	line "met de LEAGUE-" ; "LEAGUE rules, I"
 
-	para "confer upon you"
-	line "this BADGE."
+	para "regels, overhandig" ; "confer upon you"
+	line "ik je deze BADGE." ; "this BADGE."
 	done
 
 Text_ReceivedMineralBadge:
-	text "<PLAYER> received"
-	line "MINERALBADGE."
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "MINERAALBADGE." ; "MINERALBADGE."
 	done
 
 Jasmine_BadgeSpeech:
-	text "MINERALBADGE"
-	line "raises #MON's"
-	cont "DEFENSE."
+	text "MINERAALBADGE" ; "MINERALBADGE"
+	line "verhoogt #MON's" ; "raises #MON's"
+	cont "VERDEDIGING." ; "DEFENSE."
 
-	para "…Um… Please take"
-	line "this too…"
+	para "…Um… Neem" ; "…Um… Please take"
+	line "dit ook…" ; "this too…"
 	done
 
 Text_ReceivedTM09: ; unreferenced
-	text "<PLAYER> received"
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
 	line "TM09."
 	done
 
 Jasmine_IronTailSpeech:
-	text "…You could use"
-	line "that TM to teach"
-	cont "IRON TAIL."
+	text "…Met die TM" ; "…You could use"
+	line "kan je IJZER-" ; "that TM to teach"
+	cont "STAART leren." ; "IRON TAIL."
 	done
 
 Jasmine_GoodLuck:
-	text "Um… I don't know"
-	line "how to say this,"
-	cont "but good luck…"
+	text "Um… Ik weet niet" ; "Um… I don't know"
+	line "hoe ik dit moet" ; "how to say this,"
+	cont "zeggen, maar" ; "but good luck…"
+	cont "veel geluk…" ;
 	done
 
 OlivineGymGuideText:
-	text "JASMINE uses the"
-	line "newly discovered"
-	cont "steel-type."
+	text "JASMINE gebruikt" ; "JASMINE uses the"
+	line "het nieuwe" ; "newly discovered"
+	cont "staal-type." ; "steel-type."
 
-	para "I don't know very"
-	line "much about it."
+	para "Ik weet er" ; "I don't know very"
+	line "niet veel vanaf." ; "much about it."
 	done
 
 OlivineGymGuideWinText:
-	text "That was awesome."
+	text "Dat was geweldig." ; "That was awesome."
 
-	para "The steel-type,"
-	line "huh?"
+	para "Het staal-type," ; "The steel-type,"
+	line "hè?" ; "huh?"
 
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	para "Dat was een" ; "That was a close"
+	line "zeldzaam" ; "encounter of an"
+	cont "goed gevecht!" ; "unknown kind!"
 	done
 
 OlivineGymGuidePreText:
-	text "JASMINE, the GYM"
-	line "LEADER, is at the"
-	cont "LIGHTHOUSE."
+	text "JASMINE, de GYM-" ; "JASMINE, the GYM"
+	line "LEIDER, is in" ; "LEADER, is at the"
+	cont "de VUURTOREN." ; "LIGHTHOUSE."
 
-	para "She's been tending"
-	line "to a sick #MON."
+	para "Ze zorgt voor" ; "She's been tending"
+	line "een zieke #MON." ; "to a sick #MON."
 
-	para "A strong trainer"
-	line "has to be compas-"
-	cont "sionate."
+	para "Een sterke" ; "A strong trainer"
+	line "trainer moet" ; "has to be compas-"
+	cont "medeleven tonen." ; "sionate."
 	done
 
 OlivineGym_MapEvents:

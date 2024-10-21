@@ -2,10 +2,10 @@
 	db 14 ; height
 	dw 480 ; weight
 
-	db   "After doing a"
-	next "handstand to"
-	next "throw off the"
+	db   "Doet een handstand" ; "After doing a"
+	next "om de vijand te" ; "handstand to"
+	next "verwarren, om" ; "throw off the"
 
-	page "opponent's timing,"
-	next "it presents its"
-	next "fancy kick moves.@"
+	page "daarna snel de" ; "opponent's timing,"
+	next "tegenstander te" ; "it presents its"
+	next "schoppen.@" ; "fancy kick moves.@"

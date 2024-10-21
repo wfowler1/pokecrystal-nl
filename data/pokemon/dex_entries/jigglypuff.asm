@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; species name
 	db 5 ; height
 	dw 55 ; weight
 
-	db   "It rolls its cute"
-	next "eyes as it sings a"
-	next "soothing lullaby."
+	db   "Rolt met schattige" ; "It rolls its cute"
+	next "ogen tijdens het" ; "eyes as it sings a"
+	next "zingen van een" ; "soothing lullaby."
 
-	page "Its gentle song"
-	next "puts anyone who"
-	next "hears it to sleep.@"
+	page "slaaplied dat" ; "Its gentle song"
+	next "iedereen in slaap" ; "puts anyone who"
+	next "laat vallen.@" ; "hears it to sleep.@"

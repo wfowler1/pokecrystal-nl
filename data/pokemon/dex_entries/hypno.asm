@@ -1,11 +1,11 @@
-	db "HYPNOSIS@" ; species name
+	db "HYPNOSE@" ; species name
 	db 16 ; height
 	dw 756 ; weight
 
-	db   "The longer it"
-	next "swings its"
-	next "pendulum, the"
+	db   "Hoe langer de" ; "The longer it"
+	next "slinger beweegt," ; "swings its"
+	next "hoe langer de" ; "pendulum, the"
 
-	page "longer the effects"
-	next "of its hypnosis"
-	next "last.@"
+	page "duur van de" ; "longer the effects"
+	next "hypnose op het" ; "of its hypnosis"
+	next "slachtoffer..@" ; "last.@"

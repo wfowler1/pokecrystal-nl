@@ -1,11 +1,11 @@
-	db "SHELLFISH@" ; species name
+	db "SCHAALDIER@" ; species name
 	db 5 ; height
 	dw 115 ; weight
 
-	db   "Three hundred"
-	next "million years ago,"
-	next "it hid on the sea"
+	db   "Verborg zich drie-" ; "Three hundred"
+	next "honderd miljoen" ; "million years ago,"
+	next "jaar geleden op de" ; "it hid on the sea"
 
-	page "floor. It also has"
-	next "eyes on its back"
-	next "that glow.@"
+	page "zeebodem. Heeft" ; "floor. It also has"
+	next "ogen die gloeien" ; "eyes on its back"
+	next "in het duister.@" ; "that glow.@"

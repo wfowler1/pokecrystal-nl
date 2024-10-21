@@ -1,11 +1,11 @@
-	db "HUMANSHAPE@" ; species name
+	db "MENSVORM@" ; species name
 	db 14 ; height
 	dw 406 ; weight
 
-	db   "It has several"
-	next "different cry pat-"
-	next "terns, each of"
+	db   "Maakt meerdere" ; "It has several"
+	next "soorten kreten," ; "different cry pat-"
+	next "waarvan ieder een" ; "terns, each of"
 
-	page "which seems to"
-	next "have its own"
-	next "meaning.@"
+	page "andere betekenis" ; "which seems to"
+	next "lijkt te" ; "have its own"
+	next "hebben.@" ; "meaning.@"

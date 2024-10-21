@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; species name
 	db 3 ; height
 	dw 10 ; weight
 
-	db   "Instead of walking"
-	next "with its short"
-	next "legs, it moves"
+	db   "Loopt niet, maar" ; "Instead of walking"
+	next "gebruikt het" ; "with its short"
+	next "zachte lijf om" ; "legs, it moves"
 
-	page "around by bouncing"
-	next "on its soft,"
-	next "tender body.@"
+	page "rond te stuiteren" ; "around by bouncing"
+	next "door de omgeving" ; "on its soft,"
+	next "van de #MON.@" ; "tender body.@"

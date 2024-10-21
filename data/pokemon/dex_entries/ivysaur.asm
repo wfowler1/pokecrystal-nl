@@ -1,11 +1,11 @@
-	db "SEED@" ; species name
+	db "ZAAD@" ; species name
 	db 10 ; height
 	dw 130 ; weight
 
-	db   "The bulb on its"
-	next "back grows as it"
-	next "absorbs nutrients."
+	db   "De bloembol op de" ; "The bulb on its"
+	next "rug groeit door" ; "back grows as it"
+	next "voedingsstof te" ; "absorbs nutrients."
 
-	page "The bulb gives off"
-	next "a pleasant aroma"
-	next "when it blooms.@"
+	page "absorberen. Ruikt" ; "The bulb gives off"
+	next "lekker als deze" ; "a pleasant aroma"
+	next "in bloei is.@" ; "when it blooms.@"
