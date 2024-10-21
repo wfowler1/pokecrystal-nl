@@ -44,52 +44,52 @@ Route32Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route32Pokecenter1FCooltrainerFText
 
 Route32Pokecenter1FFishingGuruText_Question:
-	text "This is a great"
-	line "fishing spot."
+	text "Dit is een goede" ; "This is a great"
+	line "plek om te vissen." ; "fishing spot."
 
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
+	para "Je zag mensen" ; "You saw people"
+	line "vissen? En jij" ; "fishing? How"
+	cont "dan misschien?" ; "about you?"
 
-	para "Would you like one"
-	line "of my RODS?"
+	para "Wil je een van" ; "Would you like one"
+	line "mijn HENGELS?" ; "of my RODS?"
 	done
 
 Route32Pokecenter1FFishingGuruText_Yes:
-	text "Heh, that's good"
-	line "to hear."
+	text "Heh, dat is fijn" ; "Heh, that's good"
+	line "om te horen." ; "to hear."
 
-	para "Now you're an"
-	line "angler too!"
+	para "Nu ben jij ook" ; "Now you're an"
+	line "een hengelaar!" ; "angler too!"
 	done
 
 Route32Pokecenter1FFishingGuruText_GiveOldRod:
-	text "Fishing is great!"
+	text "Vissen is machtig!" ; "Fishing is great!"
 
-	para "If there's water,"
-	line "be it the sea or a"
+	para "Probeer je HENGEL" ; "If there's water,"
+	line "als er water is," ; "be it the sea or a"
 
-	para "stream, try out"
-	line "your ROD."
+	para "zij het de zee" ; "stream, try out"
+	line "of rivier." ; "your ROD."
 	done
 
 Route32Pokecenter1FFishingGuruText_No:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Oh. Dat is wel" ; "Oh. That's rather"
+	line "Teleurstellend…" ; "disappointing…"
 	done
 
 Route32Pokecenter1FFishingGuruText_After:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Yo, kind! Willen" ; "Yo, kid. How are"
+	line "ze bijten?" ; "they biting?"
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "What should I make"
-	line "my #MON hold?"
+	text "Wat zal ik mijn" ; "What should I make"
+	line "#MON geven?" ; "my #MON hold?"
 
-	para "Maybe an item that"
-	line "increases ATTACK"
-	cont "power…"
+	para "Misschien iets" ; "Maybe an item that"
+	line "dat AANVALSKRACHT" ; "increases ATTACK"
+	cont "verhoogt…" ; "power…"
 	done
 
 Route32Pokecenter1F_MapEvents:
