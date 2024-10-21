@@ -1,11 +1,11 @@
-	db "STARSHAPE@" ; species name
+	db "STERVORM@" ; species name
 	db 3 ; height
 	dw 30 ; weight
 
-	db   "If the impact site"
-	next "of a meteorite is"
-	next "found, this"
+	db   "Als ergens een" ; "If the impact site"
+	next "meteoriet is inge-" ; "of a meteorite is"
+	next "slagen, is deze" ; "found, this"
 
-	page "#MON is certain"
-	next "to be within the"
-	next "immediate area.@"
+	page "#MON bijna" ; "#MON is certain"
+	next "altijd in de buurt" ; "to be within the"
+	next "te vinden.@" ; "immediate area.@"

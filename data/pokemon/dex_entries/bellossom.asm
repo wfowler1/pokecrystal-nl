@@ -1,11 +1,11 @@
-	db "FLOWER@" ; species name
+	db "BLOEM@" ; species name
 	db 4 ; height
 	dw 58 ; weight
 
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
+	db   "Als ze samen" ; "When these dance"
+	next "dansen wrijven de" ; "together, their"
+	next "bladeren tegen" ; "petals rub against"
 
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
+	page "elkaar, wat een" ; "each other,"
+	next "ontspannend geluid" ; "making pretty,"
+	next "maakt.@" ; "relaxing sounds.@"

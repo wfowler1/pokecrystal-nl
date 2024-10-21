@@ -21,26 +21,26 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "Do your #MON"
-	line "already know the"
+	text "Kennen je #MON" ; "Do your #MON"
+	line "al de vaardigheid" ; "already know the"
 
-	para "move for carrying"
-	line "people on water?"
+	para "om mensen over het" ; "move for carrying"
+	line "water dragen?" ; "people on water?"
 	done
 
 OlivineMartLassText:
-	text "My BUTTERFREE came"
-	line "from my boyfriend"
-	cont "overseas."
+	text "Mijn BUTTERFREE" ; "My BUTTERFREE came"
+	line "kwam van mijn" ; "from my boyfriend"
+	cont "vriendje overzee." ; "overseas."
 
-	para "It carried some"
-	line "MAIL from him."
+	para "Het bracht wat" ; "It carried some"
+	line "POST van hem." ; "MAIL from him."
 
-	para "Want to know what"
-	line "it says?"
+	para "Wil je weten" ; "Want to know what"
+	line "wat erin staat?" ; "it says?"
 
-	para "Let's see… Nope!"
-	line "It's a secret!"
+	para "Eens zien… Nee!" ; "Let's see… Nope!"
+	line "Het is geheim!" ; "It's a secret!"
 	done
 
 OlivineMart_MapEvents:

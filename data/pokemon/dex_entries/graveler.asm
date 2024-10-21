@@ -1,11 +1,11 @@
-	db "ROCK@" ; species name
+	db "ROTS@" ; species name
 	db 10 ; height
 	dw 1050 ; weight
 
-	db   "It travels by rol-"
-	next "ling on mountain"
-	next "paths. If it gains"
+	db   "Reist door over" ; "It travels by rol-"
+	next "bergpaden te" ; "ling on mountain"
+	next "rollen. Remt" ; "paths. If it gains"
 
-	page "too much speed, it"
-	next "stops by running"
-	next "into huge rocks.@"
+	page "door tegen rotsen" ; "too much speed, it"
+	next "te rammen bij te-" ; "stops by running"
+	next "veel snelheid.@" ; "into huge rocks.@"

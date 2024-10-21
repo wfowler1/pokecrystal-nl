@@ -150,129 +150,140 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "TIN TOREN is ver-" ; "TIN TOWER is off"
+	line "boden toegang voor" ; "limits to anyone"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "iedereen zonder" ; "without ECRUTEAK"
+	line "ECRUTEAK GYM" ; "GYM's BADGE."
+	cont "BADGE." ; 
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Sorry, maar je" ; "Sorry, but you'll"
+	line "moet vertrekken." ; "have to leave."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "Verboden toegang" ; "TIN TOWER is off"
+	line "zonder ECRUTEAK" ; "limits to anyone"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "GYM BADGE." ; "without ECRUTEAK"
+	line "" ; "GYM's BADGE."
 
-	para "Ah!"
+	para "Ah!" ; "Ah!"
 
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	para "ECRUTEAK's GYM" ; "ECRUTEAK's GYM"
+	line "BADGE! Ga je" ; "BADGE! Please, go"
+	cont "gang." ; "right through."
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Een bijzondere" ; "A momentous event"
+	line "gebeurtenis heeft" ; "has occurred."
+	cont "plaatsgevonden." ; 
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Het spijt me," ; "I beg your pardon,"
+	line "maar ik moet je" ; "but I must ask you"
+	cont "vragen om te" ; "to leave."
+	cont "vertrekken." ; 
 
-	para "…What soothes the"
-	line "soul…"
+	para "…Wat kalmeert" ; "…What soothes the"
+	line "de ziel…" ; "soul…"
 
-	para "The WISE TRIO say"
-	line "things that are so"
+	para "Het WIJZE DRIETAL" ; "The WISE TRIO say"
+	line "zegt dingen die" ; "things that are so"
 
-	para "very difficult to"
-	line "understand…"
+	para "erg moeilijk te" ; "very difficult to"
+	line "begrijpen zijn…" ; "understand…"
 	done
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Een bijzondere" ; "A momentous event"
+	line "gebeurtenis heeft" ; "has occurred."
+	cont "plaatsgevonden." ; 
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Het spijt me," ; "I beg your pardon,"
+	line "maar ik moet je" ; "but I must ask you"
+	cont "vragen om te" ; "to leave."
+	cont "vertrekken." ; 
 
-	para "<……><……><……>"
+	para "<……><……><……>" ; "<……><……><……>"
 
-	para "Ah!"
+	para "Ah!" ; "Ah!"
 
-	para "The sound of that"
-	line "CLEAR BELL!"
+	para "Het geluid van" ; "The sound of that"
+	line "de HELDERE BEL!" ; "CLEAR BELL!"
 
-	para "It… It's sublime!"
+	para "Het… is subliem!" ; "It… It's sublime!"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "Ik heb nog nooit" ; "I've never heard"
+	line "zo'n mooi" ; "so beautiful a"
+	cont "geluid gehoord!" ; "sound before!"
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	para "De klank van die" ; "That bell's chime"
+	line "bel is een" ; "is indicative of"
+	cont "weerspiegeling van" ; "the bearer's soul."
+	cont "de ziel van de" ; 
+	cont "drager." ; 
 
-	para "You…"
+	para "Jij…" ; "You…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Misschien lukt" ; "You may be able to"
+	line "het je om	door TIN" ; "make it through"
+	cont "TOREN te komen." ; "TIN TOWER."
 
-	para "Please, do go on."
+	para "Toe, ga verder." ; "Please, do go on."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Toe, ga verder." ; "Please, do go on."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "De klank van die" ; "That bell's chime"
+	line "bel is een" ; "is indicative of"
+	cont "weerspiegeling van" ; "the bearer's soul."
+	cont "de ziel van de" ; 
+	cont "drager." ; 
 
-	para "You…"
+	para "Jij…" ; "You…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Misschien lukt" ; "You may be able to"
+	line "het je om	door TIN" ; "make it through"
+	cont "TOREN te komen." ; "TIN TOWER."
 
-	para "Please, do go on."
+	para "Toe, ga verder." ; "Please, do go on."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER"
-	line "ahead is a nine-"
+	text "De TIN TOREN" ; "The TIN TOWER"
+	line "is een toren met" ; "ahead is a nine-"
 
-	para "tier tower of"
-	line "divine beauty."
+	para "negen verdiep-" ; "tier tower of"
+	line "ingen vol godde-" ; "divine beauty."
+	cont "lijke schoonheid." ; 
 
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	para "Het kalmeert" ; "It soothes the"
+	line "de ziel van allen" ; "soul of all who"
+	cont "die het zien." ; "see it."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The TIN TOWER"
-	line "shook! A #MON"
+	text "De TIN TOREN" ; "The TIN TOWER"
+	line "schudde! Een #-" ; "shook! A #MON"
 
-	para "must have returned"
-	line "to the top!"
+	para "MON moet zijn" ; "must have returned"
+	line "teruggekeerd!" ; "to the top!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #MON…"
+	text "Twee torens…" ; "Two towers…"
+	line "Twee #MON…" ; "Two #MON…"
 
-	para "But when one"
-	line "burned down, both"
+	para "Maar toen een" ; "But when one"
+	line "afbrandde, vlogen" ; "burned down, both"
 
-	para "#MON flew away,"
-	line "never to return."
+	para "beide #MON weg," ; "#MON flew away,"
+	line "om nooit terug" ; "never to return."
+	cont "te keren." ; 
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

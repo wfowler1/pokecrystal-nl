@@ -98,110 +98,118 @@ EcruteakPokecenter1FPlayerMovement1:
 	step_end
 
 EcruteakPokecenter1F_BillText1:
-	text "Hi, I'm BILL. And"
-	line "who are you?"
+	text "Hoi, ik ben BILL." ; "Hi, I'm BILL. And"
+	line "En wie ben jij?" ; "who are you?"
 
-	para "Hmm, <PLAYER>, huh?"
-	line "You've come at the"
-	cont "right time."
+	para "Hmm, <PLAYER>, hè?" ; "Hmm, <PLAYER>, huh?"
+	line "Je bent op het" ; "You've come at the"
+	cont "goede moment" ; "right time."
+	cont "gekomen." ; 
 	done
 
 EcruteakPokecenter1F_BillText2:
-	text "I just finished"
-	line "adjustments on my"
-	cont "TIME CAPSULE."
+	text "Ik ben net klaar" ; "I just finished"
+	line "met sleutelen" ; "adjustments on my"
+	cont "aan mijn TIJD-" ; "TIME CAPSULE."
+	cont "CAPSULE." ; 
 
-	para "You know that"
-	line "#MON can be"
-	cont "traded, right?"
+	para "Je weet dat je" ; "You know that"
+	line "#MON kan" ; "#MON can be"
+	cont "ruilen, toch?" ; "traded, right?"
 
-	para "My TIME CAPSULE"
-	line "was developed to"
+	para "Mijn TIJDCAPSULE" ; "My TIME CAPSULE"
+	line "is ontwikkeld om" ; "was developed to"
 
-	para "enable trades with"
-	line "the past."
+	para "te ruilen met" ; "enable trades with"
+	line "het verleden." ; "the past."
 
-	para "But you can't send"
-	line "anything that"
+	para "Maar je kan niets" ; "But you can't send"
+	line "sturen dat in" ; "anything that"
 
-	para "didn't exist in"
-	line "the past."
+	para "het verleden" ; "didn't exist in"
+	line "niet bestond." ; "the past."
 
-	para "If you did, the PC"
-	line "in the past would"
-	cont "have a breakdown."
+	para "Als je dat zou" ; "If you did, the PC"
+	line "doen, zou de PC" ; "in the past would"
+	cont "in het verleden" ; "have a breakdown."
+	cont "crashen." ; 
 
-	para "So you have to"
-	line "remove anything"
+	para "Dus je moet" ; "So you have to"
+	line "alles weghalen" ; "remove anything"
 
-	para "that wasn't around"
-	line "in the past."
+	para "dat er vroeger" ; "that wasn't around"
+	line "niet was." ; "in the past."
 
-	para "Put simply, no"
-	line "sending new moves"
+	para "Oftewel, stuur" ; "Put simply, no"
+	line "geen nieuwe" ; "sending new moves"
 
-	para "or new #MON in"
-	line "the TIME CAPSULE."
+	para "aanvallen of" ; "or new #MON in"
+	line "nieuwe #MON in" ; "the TIME CAPSULE."
+	cont "de TIJDCAPSULE." ; 
 
-	para "Don't you worry."
-	line "I'm done with the"
-	cont "adjustments."
+	para "Geen zorgen." ; "Don't you worry."
+	line "Ik ben klaar" ; "I'm done with the"
+	cont "met sleutelen." ; "adjustments."
 
-	para "Tomorrow, TIME"
-	line "CAPSULES will be"
+	para "Morgen zullen" ; "Tomorrow, TIME"
+	line "TIJDCAPSULES" ; "CAPSULES will be"
 
-	para "running at all"
-	line "#MON CENTERS."
+	para "draaien in alle" ; "running at all"
+	line "#MON CENTRA." ; "#MON CENTERS."
 
-	para "I have to hurry on"
-	line "back to GOLDENROD"
-	cont "and see my folks."
+	para "Ik moet nu snel" ; "I have to hurry on"
+	line "naar GOLDENROD" ; "back to GOLDENROD"
+	cont "om mijn ouders" ; "and see my folks."
+	cont "te zien." ; 
 
-	para "Buh-bye!"
+	para "Doe-doei!" ; "Buh-bye!"
 	done
 
 EcruteakPokecenter1FPokefanMText:
-	text "The way the KIMONO"
-	line "GIRLS dance is"
+	text "Geweldig hoe" ; "The way the KIMONO"
+	line "de KIMONO-MEIDEN" ; "GIRLS dance is"
 
-	para "marvelous. Just"
-	line "like the way they"
-	cont "use their #MON."
+	para "dansen. Net als" ; "marvelous. Just"
+	line "de manier hoe ze" ; "like the way they"
+	cont "met hun #MON" ; "use their #MON."
+	cont "omgaan." ; 
 	done
 
 EcruteakPokecenter1FPokefanMTextMobile:
-	text "You must be hoping"
-	line "to battle more"
+	text "Je hoopt zeker" ; "You must be hoping"
+	line "om met meer" ; "to battle more"
 
-	para "people, right?"
-	line "There's apparently"
+	para "mensen te vechten?" ; "people, right?"
+	line "Blijkbaar is er" ; "There's apparently"
 
-	para "some place where"
-	line "trainers gather."
+	para "een plek waar" ; "some place where"
+	line "trainers samen-" ; "trainers gather."
+	cont "komen." ; 
 
-	para "Where, you ask?"
+	para "Waar?" ; "Where, you ask?"
 
-	para "It's a little past"
-	line "OLIVINE CITY."
+	para "Het is even voor-" ; "It's a little past"
+	line "bij OLIVINE CITY." ; "OLIVINE CITY."
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "MORTY, the GYM"
-	line "LEADER, is soooo"
-	cont "cool."
+	text "MORTY, de GYM-" ; "MORTY, the GYM"
+	line "LEIDER, is" ; "LEADER, is soooo"
+	cont "zoooo cool." ; "cool."
 
-	para "His #MON are"
-	line "really tough too."
+	para "Zijn #MON zijn" ; "His #MON are"
+	line "ook erg sterk." ; "really tough too."
 	done
 
 EcruteakPokecenter1FGymGuideText:
-	text "LAKE OF RAGE…"
+	text "MEER VAN RAZERNIJ…" ; "LAKE OF RAGE…"
 
-	para "The appearance of"
-	line "a GYARADOS swarm…"
+	para "Het verschijnen" ; "The appearance of"
+	line "van een GYARADOS-" ; "a GYARADOS swarm…"
+	cont "zwerm…"
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "Ik ruik een samen-" ; "I smell a conspir-"
+	line "zwering. Sowieso!" ; "acy. I know it!"
 	done
 
 EcruteakPokecenter1F_MapEvents:

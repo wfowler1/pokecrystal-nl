@@ -1,11 +1,11 @@
-	db "EVOLUTION@" ; species name
+	db "EVOLUTIOE@" ; species name
 	db 3 ; height
 	dw 65 ; weight
 
-	db   "Its ability to"
-	next "evolve into many"
-	next "forms allows it to"
+	db   "Is in staat te" ; "Its ability to"
+	next "evolueren in ver-" ; "evolve into many"
+	next "schillende vormen" ; "forms allows it to"
 
-	page "adapt smoothly"
-	next "and perfectly to"
-	next "any environment.@"
+	page "om zich perfect" ; "adapt smoothly"
+	next "aan te passen aan" ; "and perfectly to"
+	next "de omgeving.@" ; "any environment.@"

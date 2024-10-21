@@ -1,11 +1,11 @@
-	db "DRAGON@" ; species name
+	db "DRAAK@" ; species name
 	db 22 ; height
 	dw 2100 ; weight
 
-	db   "It is said that"
-	next "somewhere in the"
-	next "ocean lies an"
+	db   "Men zegt dat" ; "It is said that"
+	next "ergens in de" ; "somewhere in the"
+	next "oceaan een eiland" ; "ocean lies an"
 
-	page "island where these"
-	next "gather. Only they"
-	next "live there.@"
+	page "ligt waar zij" ; "island where these"
+	next "verzamelen. Alleen" ; "gather. Only they"
+	next "zij wonen daar.@" ; "live there.@"

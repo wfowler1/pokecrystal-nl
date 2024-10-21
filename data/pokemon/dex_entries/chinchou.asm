@@ -1,11 +1,11 @@
-	db "ANGLER@" ; species name
+	db "VISSER@" ; species name
 	db 5 ; height
 	dw 120 ; weight
 
-	db   "Its antennae, whi-"
-	next "ch evolved from a"
-	next "fin, have both po-"
+	db   "De antenne bovenop" ; "Its antennae, whi-"
+	next "evolueerde van een" ; "ch evolved from a"
+	next "fin, en geleidt" ; "fin, have both po-"
 
-	page "sitive and neg-"
-	next "ative charges flo-"
-	next "wing through them.@"
+	page "positieve en nega-" ; "sitive and neg-"
+	next "tieve ladingen er" ; "ative charges flo-"
+	next "doorheen.@" ; "wing through them.@"

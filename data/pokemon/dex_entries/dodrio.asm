@@ -1,11 +1,11 @@
-	db "TRIPLEBIRD@" ; species name
+	db "TRIOVOGEL@" ; species name
 	db 18 ; height
 	dw 852 ; weight
 
-	db   "An enemy that"
-	next "takes its eyes off"
-	next "any of the three"
+	db   "Een vijand die ook" ; "An enemy that"
+	next "maar een seconde" ; "takes its eyes off"
+	next "niet let op de" ; "any of the three"
 
-	page "heads--even for a"
-	next "second--will get"
-	next "pecked severely.@"
+	page "drie hoofden," ; "heads--even for a"
+	next "wordt hard ge-" ; "second--will get"
+	next "prikt.@" ; "pecked severely.@"

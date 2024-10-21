@@ -1,11 +1,11 @@
-	db "ELECTRIC@" ; species name
+	db "ELEKTRISCH@" ; species name
 	db 11 ; height
 	dw 300 ; weight
 
-	db   "When two"
-	next "ELECTABUZZ touch,"
-	next "they control the"
+	db   "Als twee" ; "When two"
+	next "ELECTABUZZ elkaar" ; "ELECTABUZZ touch,"
+	next "aanraken, communi-" ; "they control the"
 
-	page "electric currents"
-	next "to communicate"
-	next "their feelings.@"
+	page "ceren ze met met" ; "electric currents"
+	next "stroomschokken hun" ; "to communicate"
+	next "gevoelens.@" ; "their feelings.@"

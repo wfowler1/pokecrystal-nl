@@ -136,203 +136,210 @@ DanceTheaterFancyPanel:
 	jumptext DanceTheaterFancyPanelText
 
 KimonoGirlNaokoSeenText:
-	text "You have lovely"
-	line "#MON. May I see"
-	cont "them in battle?"
+	text "Je hebt mooie" ; "You have lovely"
+	line "#MON. Mag ik ze" ; "#MON. May I see"
+	cont "in gevecht zien?" ; "them in battle?"
 	done
 
 KimonoGirlNaokoBeatenText:
-	text "Oh, you are very"
-	line "strong."
+	text "Oh, je bent" ; "Oh, you are very"
+	line "erg sterk." ; "strong."
 	done
 
 KimonoGirlNaokoAfterBattleText:
-	text "I enjoyed that"
-	line "bout. I would like"
-	cont "to see you again."
+	text "Ik genoot van dat" ; "I enjoyed that"
+	line "gevecht. Ik wil je" ; "bout. I would like"
+	cont "graag weer zien." ; "to see you again."
 	done
 
 KimonoGirlSayoSeenText:
-	text "I always dance"
-	line "with my #MON."
+	text "Ik dans altijd" ; "I always dance"
+	line "met mijn #MON." ; "with my #MON."
 
-	para "Of course, I also"
-	line "train them."
+	para "Ik train ze" ; "Of course, I also"
+	line "natuurlijk ook." ; "train them."
 	done
 
 KimonoGirlSayoBeatenText:
-	text "Oh, so close!"
-	line "I almost had you."
+	text "Oh, bijna!" ; "Oh, so close!"
+	line "Ik had je bijna." ; "I almost had you."
 	done
 
 KimonoGirlSayoAfterBattleText:
-	text "Rhythm is impor-"
-	line "tant for both"
+	text "Ritme is belang-" ; "Rhythm is impor-"
+	line "rijk voor zowel" ; "tant for both"
 
-	para "dancing and #-"
-	line "MON."
+	para "dansen als" ; "dancing and #-"
+	line "#MON." ; "MON."
 	done
 
 KimonoGirlZukiSeenText:
-	text "Isn't my barrette"
-	line "pretty?"
+	text "Vind je mijn" ; "Isn't my barrette"
+	line "haarspeld mooi?" ; "pretty?"
 
-	para "Oh. A #MON"
-	line "battle?"
+	para "Oh, een #MON" ; "Oh. A #MON"
+	line "gevecht?" ; "battle?"
 	done
 
 KimonoGirlZukiBeatenText:
-	text "I don't have any"
-	line "#MON left…"
+	text "Ik heb geen" ; "I don't have any"
+	line "#MON over…" ; "#MON left…"
 	done
 
 KimonoGirlZukiAfterBattleText:
-	text "I put a different"
-	line "flower in my bar-"
-	cont "rette every month."
+	text "Ik stop elke" ; "I put a different"
+	line "maand een nieuwe" ; "flower in my bar-"
+	cont "bloem in mijn" ; "rette every month."
+	cont "haarspeld." ;
 	done
 
 KimonoGirlKuniSeenText:
-	text "Oh, you're a cute"
-	line "trainer. Would you"
-	cont "like to battle?"
+	text "Aw, je bent een" ; "Oh, you're a cute"
+	line "schattige trainer." ; "trainer. Would you"
+	cont "Wil je vechten?" ; "like to battle?"
 	done
 
 KimonoGirlKuniBeatenText:
-	text "You're stronger"
-	line "than you look."
+	text "Je bent sterker" ; "You're stronger"
+	line "dan je eruit ziet." ; "than you look."
 	done
 
 KimonoGirlKuniAfterBattleText:
-	text "I trained a lot,"
-	line "so I thought I was"
+	text "Ik heb veel ge-" ; "I trained a lot,"
+	line "traind dus ik" ; "so I thought I was"
 
-	para "a capable trainer."
-	line "I guess I'm not."
+	para "dacht dat ik een" ; "a capable trainer."
+	line "goede trainer was." ; "I guess I'm not."
+	cont "Blijkbaar niet." ; 
 	done
 
 KimonoGirlMikiSeenText:
-	text "Do you like my"
-	line "dancing? I'm good"
-	cont "at #MON too."
+	text "Hou je van mijn" ; "Do you like my"
+	line "dans? Ik ben ook" ; "dancing? I'm good"
+	cont "goed met #MON." ; "at #MON too."
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, you're good"
-	line "at #MON too."
+	text "Ooh, jij bent" ; "Ooh, you're good"
+	line "ook goed met" ; "at #MON too."
+	cont "#MON." ; 
 	done
 
 KimonoGirlMikiAfterBattleText:
-	text "I can keep dancing"
-	line "because there are"
+	text "Ik blijf dansen" ; "I can keep dancing"
+	line "want er zijn mens-" ; "because there are"
 
-	para "people who enjoy"
-	line "what I do."
+	para "en die ervan" ; "people who enjoy"
+	line "genieten." ; "what I do."
 
-	para "My #MON keep my"
-	line "spirits up too."
+	para "Mijn #MON mo-" ; "My #MON keep my"
+	line "tiveren me ook." ; "spirits up too."
 	done
 
 SurfGuyNeverLeftAScratchText:
-	text "Not only are the"
-	line "KIMONO GIRLS great"
+	text "De KIMONO-MEIDEN" ; "Not only are the"
+	line "zijn niet alleen" ; "KIMONO GIRLS great"
 
-	para "dancers, they're"
-	line "also skilled at"
-	cont "#MON."
+	para "geweldige dansers," ; "dancers, they're"
+	line "maar ook goed" ; "also skilled at"
+	cont "met #MON." ; "#MON."
 
-	para "I always challenge"
-	line "them, but I've"
+	para "Ik daag ze" ; "I always challenge"
+	line "altijd uit, maar" ; "them, but I've"
 
-	para "never even left a"
-	line "scratch…"
+	para "heb zelfs nooit" ; "never even left a"
+	line "een krasje achter-" ; "scratch…"
+	cont "gelaten…" ; 
 	done
 
 SurfGuyLadGiftText:
-	text "Lad! If you can"
-	line "defeat all the"
+	text "Jochie! Als je" ; "Lad! If you can"
+	line "alle KIMONO-MEIDEN" ; "defeat all the"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "kan verslaan," ; "KIMONO GIRLS, I'll"
+	line "geef ik je iets." ; "give you a gift."
 	done
 
 SurfGuyLassieGiftText:
-	text "Lassie, if you can"
-	line "defeat all the"
+	text "Meisje, als je" ; "Lassie, if you can"
+	line "alle KIMONO-MEIDEN" ; "defeat all the"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "kan verslaan," ; "KIMONO GIRLS, I'll"
+	line "geef ik je iets." ; "give you a gift."
 	done
 
 SurfGuyLikeADanceText:
-	text "The way you bat-"
-	line "tled, it was like"
-	cont "watching a dance."
+	text "De manier waarop" ; "The way you bat-"
+	line "je vechtte was als" ; "tled, it was like"
+	cont "kijken naar dans." ; "watching a dance."
 
-	para "It was a rare"
-	line "treat to see!"
+	para "Het was een" ; "It was a rare"
+	line "waar cadeau!" ; "treat to see!"
 
-	para "I want you to have"
-	line "this. Don't worry"
-	cont "--take it!"
+	para "Ik wil je dit" ; "I want you to have"
+	line "geven. Geen zorgen" ; "this. Don't worry"
+	cont "-- neem het!" ; "--take it!"
 	done
 
 SurfGuySurfExplanationText:
-	text "That's SURF."
+	text "Dat is SURF." ; "That's SURF."
 
-	para "It's a move that"
-	line "lets #MON swim"
-	cont "across water."
+	para "Een aanval die" ; "It's a move that"
+	line "#MON over" ; "lets #MON swim"
+	cont "water laat" ; "across water."
+	cont "zwemmen." ;
 	done
 
 SurfGuyElegantKimonoGirlsText:
-	text "I wish my #MON"
-	line "were as elegant as"
-	cont "the KIMONO GIRLS…"
+	text "Ik wou dat mijn" ; "I wish my #MON"
+	line "#MON zo elegant" ; "were as elegant as"
+	cont "waren als de" ; "the KIMONO GIRLS…"
+	cont "KIMONO-MEIDEN…" ;
 	done
 
 RhydonText:
-	text "RHYDON: Gugooh"
-	line "gugogooh!"
+	text "RHYDON: Grugoh" ; "RHYDON: Gugooh"
+	line "grugoooh!" ; "gugogooh!"
 	done
 
 DanceTheaterCooltrainerMText:
-	text "That man's always"
-	line "with his RHYDON."
+	text "Die man is altijd" ; "That man's always"
+	line "bij zijn RHYDON." ; "with his RHYDON."
 
-	para "Says he wants a"
-	line "#MON that can"
-	cont "SURF and dance."
+	para "Hij wil een #-" ; "Says he wants a"
+	line "MON die kan SURFen" ; "#MON that can"
+	cont "en dansen." ; "SURF and dance."
 
-	para "Is he trying to"
-	line "make a synchro-"
-	cont "nized swimming"
-	cont "#MON?"
+	para "Probeert ie een" ; "Is he trying to"
+	line "synchroon-" ; "make a synchro-"
+	cont "zwemmende" ; "nized swimming"
+	cont "#MON te maken?" ; "#MON?"
 	done
 
 DanceTheaterGrannyText:
-	text "The KIMONO GIRLS"
-	line "are so beautiful…"
+	text "De KIMONO-MEIDEN" ; "The KIMONO GIRLS"
+	line "zijn zo knap…" ; "are so beautiful…"
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Maar ze onder-" ; "But they have to"
+	line "gaan een strenge" ; "go through rigor-"
+	cont "training." ; "ous training."
 
-	para "And they have to"
-	line "learn to follow"
+	para "En ze moeten leren" ; "And they have to"
+	line "om tradities te" ; "learn to follow"
 
-	para "customs before ap-"
-	line "pearing in public."
+	para "volgen voordat ze" ; "customs before ap-"
+	line "in het openbaar" ; "pearing in public."
+	cont "verschijnen." ;
 
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Maar als je" ; "But if you love"
+	line "ergens van houdt," ; "something, any-"
+	cont "is alles mogelijk." ; "thing is possible."
 	done
 
 DanceTheaterFancyPanelText:
-	text "It's a fancy panel"
-	line "that's decorated"
-	cont "with flowers."
+	text "Het is een luxe" ; "It's a fancy panel"
+	line "bord dat is ver-" ; "that's decorated"
+	cont "sierd met bloemen." ; "with flowers."
 	done
 
 DanceTheater_MapEvents:

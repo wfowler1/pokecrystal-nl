@@ -523,401 +523,401 @@ Movement_Route32CooltrainerMReset2:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Wait up!"
-	line "What's the hurry?"
+	text "Ho, wacht!" ; "Wait up!"
+	line "Vanwaar die haast?" ; "What's the hurry?"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, right?"
-	line "Some guy wearing"
+	text "<PLAYER>, toch?" ; "<PLAYER>, right?"
+	line "Een kerel met" ; "Some guy wearing"
 
-	para "glasses was look-"
-	line "ing for you."
+	para "een bril op was" ; "glasses was look-"
+	line "naar je op zoek." ; "ing for you."
 
-	para "See for yourself."
-	line "He's waiting for"
+	para "Kijk zelf maar." ; "See for yourself."
+	line "Hij wacht op je" ; "He's waiting for"
 
-	para "you at the #MON"
-	line "CENTER."
+	para "bij het #MON-" ; "you at the #MON"
+	line "CENTRUM." ; "CENTER."
 	done
 
 Route32CooltrainerMText_UnusedSproutTower:
-	text "Have you gone to"
-	line "SPROUT TOWER?"
+	text "Heb je SPROUT-" ; "Have you gone to"
+	line "TOREN al bezocht?" ; "SPROUT TOWER?"
 
-	para "If you ever visit"
-	line "VIOLET CITY, "
+	para "Als je ooit VIOLET" ; "If you ever visit"
+	line "CITY bezoekt," ; "VIOLET CITY, "
 
-	para "they'll expect you"
-	line "to train there."
+	para "verwachten ze dat" ; "they'll expect you"
+	line "je daar traint." ; "to train there."
 
-	para "That's basic for"
-	line "trainers. Go to"
-	cont "SPROUT TOWER!"
+	para "Zo starten alle" ; "That's basic for"
+	line "trainers. Ga naar" ; "trainers. Go to"
+	cont "SPROUT-TOREN!" ; "SPROUT TOWER!"
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #MON GYM?"
+	text "De #MON GYM" ; "Have you gone to"
+	line "al bezocht?" ; "the #MON GYM?"
 
-	para "You can test your"
-	line "#MON and your-"
-	cont "self there."
+	para "Test er je" ; "You can test your"
+	line "#MON en jezelf" ; "#MON and your-"
+	cont "op de proef." ; "self there."
 
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	para "Het is een vuur-" ; "It's a rite of"
+	line "doop voor de" ; "passage for all"
+	cont "startende trainer!" ; "trainers!"
 	done
 
 Route32CooltrainerMText_HaveThisSeed:
-	text "You have some good"
-	line "#MON there."
+	text "Je hebt een paar" ; "You have some good"
+	line "sterke #MON." ; "#MON there."
 
-	para "It must be from"
-	line "the training you"
+	para "Dat is vast omdat" ; "It must be from"
+	line "je veel hebt" ; "the training you"
 
-	para "gave them around"
-	line "VIOLET CITY."
+	para "getraind rond" ; "gave them around"
+	line "VIOLET CITY." ; "VIOLET CITY."
 
-	para "The training at"
-	line "the GYM must have"
+	para "Het trainen rond" ; "The training at"
+	line "de GYM hielp vast" ; "the GYM must have"
 
-	para "been especially"
-	line "helpful."
+	para "nog wel het" ; "been especially"
+	line "meest." ; "helpful."
 
-	para "As a souvenir of"
-	line "VIOLET CITY, take"
-	cont "this."
+	para "Een souvenir" ; "As a souvenir of"
+	line "uit VIOLET CITY," ; "VIOLET CITY, take"
+	cont "voor jou." ; "this."
 
-	para "It increases the"
-	line "power of grass-"
-	cont "type moves."
+	para "Het versterkt de" ; "It increases the"
+	line "kracht van gras-" ; "power of grass-"
+	cont "aanvallen." ; "type moves."
 	done
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
-	text "Your experiences"
-	line "in VIOLET CITY"
+	text "Je ervaringen uit" ; "Your experiences"
+	line "VIOLET CITY komen" ; "in VIOLET CITY"
 
-	para "should be useful"
-	line "for your journey."
+	para "vast van pas op" ; "should be useful"
+	line "je reis." ; "for your journey."
 	done
 
 Text_MillionDollarSlowpokeTail:
-	text "How would you like"
-	line "to have this"
+	text "Wil je deze" ; "How would you like"
+	line "heerlijke voedzame" ; "to have this"
 
-	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	para "SLOWPOKESTAART" ; "tasty, nutritious"
+	line "van me kopen?" ; SLOWPOKETAIL?"
 
-	para "For you right now,"
-	line "just ¥1,000,000!"
+	para "Kost je maar" ; "For you right now,"
+	line "¥1.000.000!" ; "just ¥1,000,000!"
 
-	para "You'll want this!"
+	para "Echt een koopje!" ; "You'll want this!"
 	done
 
 Text_ThoughtKidsWereLoaded:
-	text "Tch! I thought"
-	line "kids these days"
-	cont "were loaded…"
+	text "Tch! ik dacht dat" ; "Tch! I thought"
+	line "kinderen van nu" ; "kids these days"
+	cont "veel geld hadden…" ; "were loaded…"
 	done
 
 Text_RefusedToBuySlowpokeTail:
-	text "You don't want it?"
-	line "Then scram. Shoo!"
+	text "Wil je 'm niet?" ; "You don't want it?"
+	line "Ga weg dan. Ksst!" ; "Then scram. Shoo!"
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "Whoa!" ; "Whoa!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "Door jou ben ik" ; "You made me lose"
+	line "m'n vis verloren!" ; "that fish!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "Plons!" ; "Sploosh!"
 	done
 
 FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
+	text "Kalm en helemaal" ; "Calm, collected…"
+	line "zen… De essentie" ; "The essence of"
 
-	para "fishing and #-"
-	line "MON is the same."
+	para "van vissen en" ; "fishing and #-"
+	line "#MON is gelijk." ; "MON is the same."
 	done
 
 FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
-	cont "#MON."
+	text "Ik ben echt goed" ; "I'm really good at"
+	line "in zowel vissen" ; "both fishing and"
+	cont "als #MON." ; "#MON."
 
-	para "I'm not about to"
-	line "lose to any kid!"
+	para "Ik verlies echt" ; "I'm not about to"
+	line "niet van een kind!" ; "lose to any kid!"
 	done
 
 FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
+	text "Tch! Ik wilde" ; "Tch! I tried to"
+	line "weer te snel…" ; "rush things…"
 	done
 
 FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
+	text "Vissen? Een passie" ; "Fishing is a life-"
+	line "voor het leven." ; "long passion."
 
-	para "#MON are life-"
-	line "long friends!"
+	para "#MON? Vrienden" ; "#MON are life-"
+	line "voor het leven!" ; "long friends!"
 	done
 
 FisherRalphSwarmText:
-	text "One, two, three…"
-	line "Muahahaha, what a"
+	text "Een, twee, drie…" ; "One, two, three…"
+	line "Muahahaha, een" ; "Muahahaha, what a"
 
-	para "great haul!"
-	line "I'm done! Go ahead"
+	para "flinke vangst! Ik" ; "great haul!"
+	line "ben er klaar mee!" ; "I'm done! Go ahead"
 
-	para "and catch as many"
-	line "as you can, kid!"
+	para "Vang zoveel als" ; "and catch as many"
+	line "je kan, kind!" ; "as you can, kid!"
 	done
 
 Route32UnusedFisher1SeenText: ; unreferenced
-	text "I keep catching"
-	line "the same #MON…"
+	text "Ik vang telkens" ; "I keep catching"
+	line "dezelfde #MON…" ; "the same #MON…"
 
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
+	para "Misschien dat het" ; "Maybe a battle"
+	line "na een gevecht" ; "will turn things"
+	cont "beter gaat." ; "around for me."
 	done
 
 Route32UnusedFisher1BeatenText: ; unreferenced
-	text "Nothing ever goes"
-	line "right for me now…"
+	text "Ik heb ook" ; "Nothing ever goes"
+	line "altijd pech…" ; "right for me now…"
 	done
 
 Route32UnusedFisher1AfterText: ; unreferenced
-	text "How come the guy"
-	line "next to me catches"
-	cont "good #MON?"
+	text "Waarom vangt die" ; "How come the guy"
+	line "kerel naast me wel" ; "next to me catches"
+	cont "goede #MON?" ; "good #MON?"
 	done
 
 Route32UnusedFisher2SeenText: ; unreferenced
-	text "Heh, I'm on a roll"
-	line "today. How about a"
-	cont "battle, kid?"
+	text "Heh, ik ben lekker" ; "Heh, I'm on a roll"
+	line "bezig vandaag." ; "today. How about a"
+	cont "Vechten dan maar?" ; "battle, kid?"
 	done
 
 Route32UnusedFisher2BeatenText: ; unreferenced
-	text "Oof. I wasn't"
-	line "lucky that time."
+	text "Oef. Deze keer" ; "Oof. I wasn't"
+	line "had ik geen geluk." ; "lucky that time."
 	done
 
 Route32UnusedFisher2AfterText: ; unreferenced
-	text "You have to have a"
-	line "good ROD if you"
+	text "Je hebt een goede" ; "You have to have a"
+	line "HENGEL nodig als" ; "good ROD if you"
 
-	para "want to catch good"
-	line "#MON."
+	para "je goede #MON" ; "want to catch good"
+	line "wil vangen." ; "#MON."
 	done
 
 FisherHenrySeenText:
-	text "My #MON?"
-	line "Freshly caught!"
+	text "Mijn #MON?" ; "My #MON?"
+	line "Vers gevangen!" ; "Freshly caught!"
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "SPETTER?" ; "SPLASH?"
 	done
 
 FisherHenryAfterText:
-	text "Freshly caught"
-	line "#MON are no"
+	text "Vers gevangen" ; "Freshly caught"
+	line "#MON zijn geen" ; "#MON are no"
 
-	para "match for properly"
-	line "raised ones."
+	para "match voor goed" ; "match for properly"
+	line "getrainde." ; "raised ones."
 	done
 
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+	text "Jou heb ik niet" ; "I haven't seen you"
+	line "eerder gezien." ; "around before."
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "Je vindt jezelf" ; "So you think you"
+	line "wel stoer, zeker?" ; "are pretty tough?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "Jij bent sterk!" ; "You're strong!"
 	done
 
 YoungsterAlbertAfterText:
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
+	text "Ik wil de beste" ; "I'm going to try"
+	line "worden met mijn" ; "to be the best"
+	cont "favorieten." ; "with my favorites."
 
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
+	para "Niet met dezelfde" ; "I'm not using the"
+	line "sterke #MON die" ; "same tough #MON"
+	cont "iedereen heeft." ; "as everyone else."
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
+	text "In het gras vond" ; "I found some good"
+	line "ik een paar" ; "#MON in the"
+	cont "goede #MON!" ; "grass!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "Daar red ik" ; "I think they'll do"
+	line "het wel mee!" ; "it for me!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Verdorie. Ik dacht" ; "Darn. I thought I"
+	line "dat ik kon winnen." ; "could win."
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "In het gras blijft" ; "The grass is full"
+	line "vanalles plakken." ; "of clingy things."
 	done
 
 CamperRolandSeenText:
-	text "That glance…"
-	line "It's intriguing."
+	text "Die blik…" ; "That glance…"
+	line "Intrigeert me." ; "It's intriguing."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Hmmm. Dit stelt" ; "Hmmm. This is"
+	line "me teleur." ; "disappointing."
 	done
 
 CamperRolandAfterText:
-	text "If you don't want"
-	line "to battle, just"
-	cont "avoid eye contact."
+	text "Vermijd oogcontact" ; "If you don't want"
+	line "als je geen zin" ; "to battle, just"
+	cont "hebt in vechten." ; "avoid eye contact."
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "Uh-huh. Ja, en" ; "Uh-huh. Yeah, and"
+	line "weet je…" ; "you know…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Pardon? Vechten?" ; "Pardon? Battle?"
+	line "Ik ben aan de." ; "I'm on the phone."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "telefoon. Nou," ; "Oh, all right. But"
+	line "vooruit dan, snel." ; "make it fast."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Oh! Ik moet van" ; "Oh! I've got to"
+	line "mijn boosheid af!" ; "relieve my anger!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "Het was net zo'n" ; "I was having a"
+	line "leuk gesprek." ; "nice chat too."
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	text "Die BADGE! Die is" ; "That BADGE! It's"
+	line "van VIOLET CITY!" ; "from VIOLET CITY!"
 
-	para "You beat FALKNER?"
+	para "FALKNER verslagen?" ; "You beat FALKNER?"
 	done
 
 BirdKeeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "Ik ken mijn" ; "I know what my"
+	line "zwakke plekken." ; "weaknesses are."
 	done
 
 BirdKeeperPeterAfterText:
-	text "I should train"
-	line "again at the GYM"
-	cont "in VIOLET CITY."
+	text "Ik zou weer moeten" ; "I should train"
+	line "trainen in de GYM" ; again at the GYM"
+	cont "in VIOLET CITY." ; "in VIOLET CITY."
 	done
 
 Route32UnusedText: ; unreferenced
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them…"
+	text "De vissers" ; "The fishermen"
+	line "werden boos omdat" ; "yelled at me for"
+	cont "ik ze stoorde…" ; "bugging them…"
 	done
 
 Text_RoarIntro:
-	text "WROOOOAR!"
-	line "PEOPLE RUN WHEN I"
+	text "WROOOOAR!" ; "WROOOOAR!"
+	line "ALS IK BRUL, RENT" ; "PEOPLE RUN WHEN I"
 
-	para "ROAR! BUT YOU"
-	line "CAME LOOKING!"
+	para "IEDEREEN WEG. MAAR" ; "ROAR! BUT YOU"
+	line "JIJ KWAM KIJKEN!" ; "CAME LOOKING!"
 
-	para "THAT PLEASES ME!"
-	line "NOW TAKE THIS!"
+	para "WORD IK BLIJ VAN!" ; "THAT PLEASES ME!"
+	line "HIER, HOU VAST!" ; "NOW TAKE THIS!"
 	done
 
 Text_RoarOutro:
-	text "WROOOAR!"
-	line "IT'S ROAR!"
+	text "WROOOAR!" ; "WROOOAR!"
+	line "HET IS BRUL!" ; "IT'S ROAR!"
 
-	para "EVEN #MON RUN"
-	line "FROM A GOOD ROAR!"
+	para "ZELFS #MON" ; "EVEN #MON RUN"
+	line "VLUCHTEN ERVOOR!" ; "FROM A GOOD ROAR!"
 	done
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
+	text "FRIEDA: Jahoe!" ; "FRIEDA: Yahoo!"
+	line "Het is vrijdag!" ; "It's Friday!"
 
-	para "I'm FRIEDA of"
-	line "Friday!"
+	para "Ik ben Vrijdagse" ; "I'm FRIEDA of"
+	line "FRIEDA!" ; "Friday!"
 
-	para "Nice to meet you!"
+	para "Leuke ontmoeting!" ; "Nice to meet you!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "GIFSTEKEL, mag je" ; "Here's a POISON"
+	line "van me hebben!" ; "BARB for you!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
+	text "FRIEDA: Geef het" ; "FRIEDA: Give it to"
+	line "aan een #MON" ; "a #MON that has"
+	cont "met gif-aanvallen." ; "poison-type moves."
 
-	para "Oh!"
+	para "Oh!" ; "Oh!"
 
-	para "It's wicked!"
+	para "Echt heel gemeen!" ; "It's wicked!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "Het zal je ver-" ; "You'll be shocked"
+	line "bazen hoe sterk" ; how good it makes"
+	cont "gif er van wordt!" ; "poison moves!"
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
+	text "FRIEDA: Hoi! Welke" ; "FRIEDA: Hiya! What"
+	line "dag vind je leuk?" ; "day do you like?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "Vrijdag is zeker" ; "I love Friday. No"
+	line "mijn favoriet!" ; "doubt about it!"
 
-	para "Don't you think"
-	line "it's great too?"
+	para "Hou jij er ook" ; "Don't you think"
+	line "zoveel van?" ; "it's great too?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
+	text "FRIEDA: Is vandaag" ; "FRIEDA: Isn't it"
+	line "niet vrijdag?" ; "Friday today?"
 
-	para "It's so boring"
-	line "when it's not!"
+	para "Echt saai als" ; "It's so boring"
+	line "dat het niet is!" ; "when it's not!"
 	done
 
 Route32SignText:
-	text "ROUTE 32"
+	text "ROUTE 32" ; "ROUTE 32"
 
-	para "VIOLET CITY -"
-	line "AZALEA TOWN"
+	para "VIOLET CITY -" ; "VIOLET CITY -"
+	line "AZALEA TOWN" ; "AZALEA TOWN"
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
+	line "OOSTELIJKE INGANG" ; "EAST ENTRANCE"
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
-	line "AHEAD"
+	text "EENHEIDSTUNNEL" ; "UNION CAVE"
+	line "NABIJ" ; "AHEAD"
 	done
 
 Route32_MapEvents:

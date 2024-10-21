@@ -30,53 +30,55 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMINE must be"
-	line "worried sick about"
-	cont "the #MON here."
+	text "JASMINE maakt" ; "JASMINE must be"
+	line "zich erg zorgen om" ; "worried sick about"
+	cont "de #MON hier." ; "the #MON here."
 
-	para "She won't even"
-	line "smile these days."
+	para "Ze glimlacht zelfs" ; "She won't even"
+	line "niet meer." ; "smile these days."
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "Ik kan ook niet" ; "I can't manage a"
+	line "meer glimlachen…" ; "smile either…"
 	done
 
 SailorKentAfterBattleText:
-	text "Speaking of sick,"
-	line "I've heard there's"
+	text "Over ziek ge-" ; "Speaking of sick,"
+	line "sproken, ik heb" ; "I've heard there's"
 
-	para "a good PHARMACY in"
-	line "CIANWOOD."
+	para "gehoord dat er" ; "a good PHARMACY in"
+	line "een goede APOTHEEK" ; "CIANWOOD."
+	cont "in CIANWOOD is." ; 
 	done
 
 LassConnie1SeenText:
-	text "JASMINE is this"
-	line "city's GYM LEADER."
+	text "JASMINE is de" ; "JASMINE is this"
+	line "GYMLEIDER van" ; "city's GYM LEADER." 
+	cont "deze stad." ; 
 
-	para "I mean to bring"
-	line "her back with me."
+	para "Ik wil haar" ; "I mean to bring"
+	line "mee terugnemen." ; "her back with me."
 
-	para "Nobody had better"
-	line "get in my way!"
+	para "Niemand zal me" ; "Nobody had better"
+	line "in de weg staan!" ; "get in my way!"
 	done
 
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "Aah! Mijn #MON!" ; "Aaack! My #MON!"
 	done
 
 LassConnie1AfterBattleText:
-	text "Right. Anybody"
-	line "would be worried"
-	cont "if his or her own"
-	cont "#MON were hurt."
+	text "Oké. Iedereen zou" ; "Right. Anybody"
+	line "zich zorgen maken" ; "would be worried"
+	cont "als zijn of haar" ; "if his or her own"
+	cont "#MON ziek is." ; "#MON were hurt."
 
-	para "I'll pray for the"
-	line "#MON here, so"
+	para "Ik bid hier voor" ; "I'll pray for the"
+	line "de #MON, zodat" ; "#MON here, so"
 
-	para "JASMINE can come"
-	line "back to the GYM."
+	para "JASMINE terug naar" ; "JASMINE can come"
+	line "de GYM kan komen." ; "back to the GYM."
 	done
 
 OlivineLighthouse4F_MapEvents:

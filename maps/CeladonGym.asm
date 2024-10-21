@@ -111,158 +111,158 @@ CeladonGymStatue:
 	jumpstd GymStatue2Script
 
 ErikaBeforeBattleText:
-	text "ERIKA: Hello…"
-	line "Lovely weather,"
+	text "ERIKA: Hallo…" ; "ERIKA: Hello…"
+	line "Heerlijk weertje," ; "Lovely weather,"
 
-	para "isn't it?"
-	line "It's so pleasant…"
+	para "nietwaar?" ; "isn't it?"
+	line "Zo aangenaam…" ; "It's so pleasant…"
 
-	para "…I'm afraid I may"
-	line "doze off…"
+	para "Straks droom ik" ; "…I'm afraid I may"
+	line "nog weg…" ; "doze off…"
 
-	para "My name is ERIKA."
-	line "I am the LEADER of"
-	cont "CELADON GYM."
+	para "Mijn naam is ERIKA" ; "My name is ERIKA."
+	line "Ik ben de LEIDER" ; "I am the LEADER of"
+	cont "van CELADON GYM." ; "CELADON GYM."
 
-	para "…Oh? All the way"
-	line "from JOHTO, you"
-	cont "say? How nice…"
+	para "…Oh? Helemaal" ; "…Oh? All the way"
+	line "uit JOHTO, zeg je?" ; "from JOHTO, you"
+	cont "Wat leuk…" ; "say? How nice…"
 
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
+	para "Oh, sorry. Ik" ; "Oh. I'm sorry, I"
+	line "had niet door dat" ; "didn't realize"
 
-	para "that you wished to"
-	line "challenge me."
+	para "je me wilde" ; "that you wished to"
+	line "uitdagen." ; "challenge me."
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Vooruit dan, maar" ; "Very well, but I"
+	line "ik verlies nooit." ; "shall not lose."
 	done
 
 ErikaBeatenText:
-	text "ERIKA: Oh!"
-	line "I concede defeat…"
+	text "ERIKA: Oh!" ; "ERIKA: Oh!"
+	line "Ik geef me over…" ; "I concede defeat…"
 
-	para "You are remarkably"
-	line "strong…"
+	para "Je bent opvallend" ; "You are remarkably"
+	line "sterk…" ; strong…"
 
-	para "I shall give you"
-	line "RAINBOWBADGE…"
+	para "Ik geef je de" ; "I shall give you"
+	line "REGENBOOGBADGE…" ; RAINBOWBADGE…"
 	done
 
 PlayerReceivedRainbowBadgeText:
-	text "<PLAYER> received"
-	line "RAINBOWBADGE."
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "REGENBOOGBADGE" ; "RAINBOWBADGE."
 	done
 
 ErikaExplainTMText:
-	text "ERIKA: That was a"
-	line "delightful match."
+	text "ERIKA: dat was een" ; "ERIKA: That was a"
+	line "zalig gevecht." ; "delightful match."
 
-	para "I felt inspired."
-	line "Please, I wish you"
-	cont "to have this TM."
+	para "Je inspireerde me." ; "I felt inspired."
+	line "Alsjeblieft, deze" ; "Please, I wish you"
+	cont "TM is voor jou." ; "to have this TM."
 
-	para "It is GIGA DRAIN."
+	para "Het is GIGA DRAIN" ; "It is GIGA DRAIN."
 
-	para "It is a wonderful"
-	line "move that drains"
+	para "Deze prachtige" ; "It is a wonderful"
+	line "aanval geneest" ; "move that drains"
 
-	para "half the damage it"
-	line "inflicts to heal"
-	cont "your #MON."
+	para "jouw #MON" ; "half the damage it"
+	line "voor de helft van" ; "inflicts to heal"
+	cont "de gedane schade." ; "your #MON."
 
-	para "Please use it if"
-	line "it pleases you…"
+	para "Gebruik deze" ; "Please use it if"
+	line "wanneer je wil…" ; "it pleases you…"
 	done
 
 ErikaAfterBattleText:
-	text "ERIKA: Losing"
-	line "leaves a bitter"
-	cont "aftertaste…"
+	text "ERIKA: Verliezen" ; "ERIKA: Losing"
+	line "geeft een bittere" ; "leaves a bitter"
+	cont "nasmaak…" ; "aftertaste…"
 
-	para "But knowing that"
-	line "there are strong"
+	para "Maar sterke" ; "But knowing that"
+	line "trainers sporen me" ; "there are strong"
 
-	para "trainers spurs me"
-	line "to do better…"
+	para "aan om beter" ; "trainers spurs me"
+	line "mijn best te doen…" ; "to do better…"
 	done
 
 LassMichelleSeenText:
-	text "Do you think a"
-	line "girls-only GYM"
-	cont "is rare?"
+	text "Denk je dat een" ; "Do you think a"
+	line "GYM met alleen" ; "girls-only GYM"
+	cont "meiden uniek is?" ; "is rare?"
 	done
 
 LassMichelleBeatenText:
-	text "Oh, bleah!"
+	text "Oh, bleh!" ; "Oh, bleah!"
 	done
 
 LassMichelleAfterBattleText:
-	text "I just got care-"
-	line "less, that's all!"
+	text "Ik lette even niet" ; "I just got care-"
+	line "op, meer niet!" ; "less, that's all!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, a battle?"
-	line "That's kind of"
-	cont "scary, but OK!"
+	text "Oh, een gevecht?" ; "Oh, a battle?"
+	line "Wel een beetje," ; "That's kind of"
+	cont "eng, maar OK!" ; "scary, but OK!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, that's it?"
+	text "Oh, dat was het?" ; "Oh, that's it?"
 	done
 
 PicnickerTanyaAfterBattleText:
-	text "Oh, look at all"
-	line "your BADGES. No"
+	text "Oh, moet je al" ; "Oh, look at all"
+	line "je BADGES zien." ; "your BADGES. No"
 
-	para "wonder I couldn't"
-	line "win!"
+	para "Geen wonder dat" ; "wonder I couldn't"
+	line "ik verloor van je!" ; "win!"
 	done
 
 BeautyJuliaSeenText:
-	text "Were you looking"
-	line "at these flowers"
-	cont "or at me?"
+	text "Keek je naar" ; "Were you looking"
+	line "deze bloemen of" ; "at these flowers"
+	cont "naar mij?" ; "or at me?"
 	done
 
 BeautyJuliaBeatenText:
-	text "How annoying!"
+	text "Wat irritant!" ; "How annoying!"
 	done
 
 BeautyJuliaAfterBattleText:
-	text "How do I go about"
-	line "becoming ladylike"
-	cont "like ERIKA?"
+	text "Hoe word ik net" ; "How do I go about"
+	line "zo damesachtig" ; "becoming ladylike"
+	cont "als ERIKA?" ; "like ERIKA?"
 	done
 
 TwinsJoAndZoe1SeenText:
-	text "We'll show you"
-	line "#MON moves that"
-	cont "ERIKA taught us!"
+	text "Deze #MON-" ; "We'll show you"
+	line "aanvallen heeft" ; "#MON moves that"
+	cont "ERIKA ons geleerd!" ;"ERIKA taught us!"
 	done
 
 TwinsJoAndZoe1BeatenText:
-	text "Oh… We lost…"
+	text "Oh… Verloren…" ; "Oh… We lost…"
 	done
 
 TwinsJoAndZoe1AfterBattleText:
-	text "ERIKA will get you"
-	line "back for us!"
+	text "ERIKA zal je een" ; "ERIKA will get you"
+	line "lesje leren!" ; back for us!"
 	done
 
 TwinsJoAndZoe2SeenText:
-	text "We're going to"
-	line "protect ERIKA!"
+	text "We zullen ERIKA" ; "We're going to"
+	line "beschermen!" ; "protect ERIKA!"
 	done
 
 TwinsJoAndZoe2BeatenText:
-	text "We couldn't win…"
+	text "Winnen lukte niet…" ; "We couldn't win…"
 	done
 
 TwinsJoAndZoe2AfterBattleText:
-	text "ERIKA is much,"
-	line "much stronger!"
+	text "ERIKA is veel," ; "ERIKA is much,"
+	line "veel sterker!" ; "much stronger!"
 	done
 
 CeladonGym_MapEvents:

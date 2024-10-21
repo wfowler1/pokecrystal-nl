@@ -46,68 +46,72 @@ OlivineLighthouse3FEther:
 	itemball ETHER
 
 BirdKeeperTheoSeenText:
-	text "Why are you here?"
-	line "Are you just going"
+	text "Waarom ben je" ; "Why are you here?"
+	line "hier? Ga je 't" ; "Are you just going"
 
-	para "to gawk? I suggest"
-	line "that you leave!"
+	para "enkel aangapen?" ; "to gawk? I suggest"
+	line "Ik stel voor" ; "that you leave!"
+	cont "dat je gaat!" ; 
 	done
 
 BirdKeeperTheoBeatenText:
-	text "You really are"
-	line "concerned…"
+	text "Je bent" ; "You really are"
+	line "echt bezorgd…" ; "concerned…"
 	done
 
 BirdKeeperTheoAfterBattleText:
-	text "How the heck do"
-	line "you go up?"
+	text "Hoe kom je in" ; "How the heck do"
+	line "hemelsnaam boven?" ; "you go up?"
 
-	para "I want to visit"
-	line "the sick #MON,"
+	para "Ik wil de zieke" ; "I want to visit"
+	line "#MON bezoeken," ; "the sick #MON,"
 
-	para "but I can't get up"
-	line "there…"
+	para "maar ik kan daar" ; "but I can't get up"
+	line "niet komen…" ; "there…"
 	done
 
 SailorTerrellSeenText:
-	text "Sailors are both"
-	line "kind and strong."
-	cont "How about you?"
+	text "Matrozen zijn" ; "Sailors are both"
+	line "zowel aardig als" ; "kind and strong."
+	cont "sterk. En jij?" ; "How about you?"
 	done
 
 SailorTerrellBeatenText:
-	text "You are both kind"
-	line "and strong…"
+	text "Je bent zowel aar-" ; "You are both kind"
+	line "dig als sterk…" ; "and strong…"
 	done
 
 SailorTerrellAfterBattleText:
-	text "Every time I come"
-	line "back to OLIVINE, I"
-	cont "visit the GYM."
+	text "Elke keer als ik" ; "Every time I come"
+	line "terugkeer naar" ; "back to OLIVINE, I"
+	cont "OLIVINE, bezoek" ; "visit the GYM."
+	cont "ik de GYM." ; 
 
-	para "The GYM LEADER's"
-	line "#MON type has"
+	para "Het #MON-type" ; "The GYM LEADER's"
+	line "van de GYMLEIDER" ; "#MON type has"
 
-	para "changed without me"
-	line "noticing."
+	para "is veranderd zon-" ; "changed without me"
+	line "der dat ik het" ; "noticing."
+	cont "merkte." ; 
 	done
 
 GentlemanPrestonSeenText:
-	text "I travel the world"
-	line "to train my #-"
-	cont "MON. I wish to"
-	cont "battle with you."
+	text "Ik reis de wereld" ; "I travel the world"
+	line "rond om mijn #-" ; "to train my #-"
+	cont "MON te trainen." ; "MON. I wish to"
+	cont "Ik wil met je" ; "battle with you."
+	cont "vechten." ; 
 	done
 
 GentlemanPrestonBeatenText:
-	text "…sigh… I must"
-	line "train some more…"
+	text "…zucht… Ik moet" ; "…sigh… I must"
+	line "meer trainen…" ; "train some more…"
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMINE used to"
-	line "use rock #MON"
-	cont "like ONIX."
+	text "JASMINE gebruikte" ; "JASMINE used to"
+	line "vroeger steen-" ; "use rock #MON"
+	cont "#MON als ONIX." ; "like ONIX."
 	done
 
 OlivineLighthouse3F_MapEvents:

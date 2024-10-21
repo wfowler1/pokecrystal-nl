@@ -90,7 +90,7 @@ _RevitalizedText::
 
 _GrewToLevelText::
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " groeide naar" ; " grew to"
+	text " is nu" ; " grew to"
 	line "level @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
@@ -161,7 +161,7 @@ _OakTimeWokeUpText::
 	para "Zzz… Hm? Wat…? Je" ; "Zzz… Hm? Wha…?"
 	line "maakte me wakker!" ; "You woke me up!"
 
-	para "Kun je mij" ; "Will you check the"
+	para "Kun jij me" ; "Will you check the"
 	line "zeggen hoe laat" ; "clock for me?"
 	cont "het is?"
 	prompt
@@ -725,7 +725,7 @@ _PokedexShowText::
 
 _BenIntroText1::
 	text_start
-	line "BEN: #MON MUZIEK" ; "BEN: #MON MUSIC"
+	line "BEN: #MONMUZIEK" ; "BEN: #MON MUSIC"
 	done
 
 _BenIntroText2::
@@ -994,14 +994,14 @@ _RocketRadioText7::
 	text_start
 	line "GIOVANNI! @"
 	text_pause
-	text "Kun je" ; "Can you"
+	text "Hoor je" ; "Can you"
 	done
 
 _RocketRadioText8::
 	text_start
-	line "het horen?@" ; "hear?@"
+	line "ons?@" ; "hear?@"
 	text_pause
-	text " Het is gelukt!" ; " We did it!"
+	text " Ja, gelukt!" ; " We did it!"
 	done
 
 _RocketRadioText9::
@@ -1087,12 +1087,12 @@ _BuenaRadioMidnightText6::
 
 _BuenaRadioMidnightText7::
 	text_start
-	line "wakker! Gepresenteerd" ; "late! Presented to"
+	line "wakker! Ik was" ; "late! Presented to"
 	done
 
 _BuenaRadioMidnightText8::
 	text_start
-	line "door DJ BUENA!" ; "you by DJ BUENA!"
+	line "DJ BUENA!" ; "you by DJ BUENA!"
 	done
 
 _BuenaRadioMidnightText9::
@@ -1117,7 +1117,7 @@ _EnemyWithdrewText::
 	prompt
 
 _EnemyUsedOnText::
-	text "<ENEMY> gebruikt"
+	text "<ENEMY> deed"
 	line "@" ; "used @"
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxItemNameLength
 	text_start
@@ -1245,8 +1245,8 @@ _PutCardInCardFolderText::
 
 _CardWasListedText::
 	text_ram wStringBuffer2 ; MaxLength MaxPlayerNameLength
-	text "'s KAART is toe-" ; "'s CARD was"
-	line "gevoegd als nr.@" ; "listed as no.@"
+	text "'s KAART is" ; "'s CARD was"
+	line "toegevoegd als nr.@" ; "listed as no.@"
 	text_decimal wStringBuffer1, 1, 2
 	text "."
 	prompt
@@ -1358,7 +1358,7 @@ _ReceiveItemText::
 	text_end ; unreferenced
 
 _NoCoinsText::
-	text "Je hebt geen munten" ; "You have no coins."
+	text "Munten zijn op." ; "You have no coins."
 	prompt
 
 _NoCoinCaseText::
@@ -1436,9 +1436,9 @@ _NPCTradeIntroText2::
 	para "Als je een" ; "If you have"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "hebt, wil" ; ", would"
+	text " hebt," ; ", would"
 
-	para "dan ruilen voor" ; "you trade it for"
+	para "wil je ruilen voor" ; "you trade it for"
 	line "mijn @" ; "my @"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text "?"
@@ -1479,11 +1479,11 @@ _NPCTradeAfterText2::
 
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text "is schattig," ; "'s cute,"
-	line "maar die hebt ik" ; "but I don't have"
+	text "is" ; "'s cute,"
+	line "schattig, maar ik" ; "but I don't have"
 
-	para "niet. Heb jij" ; "it. Do you have"
-	line "@"
+	para "heb 'm niet. Heb" ; "it. Do you have"
+	line "jij @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "?"
 
@@ -1723,8 +1723,8 @@ _WhatShouldIRaiseText::
 	prompt
 
 _OnlyOneMonText::
-	text "Oh? Je hebt maar een" ; "Oh? But you have"
-	line "enkele #MON." ; "just one #MON."
+	text "Oh? Je hebt maar" ; "Oh? But you have"
+	line "één #MON." ; "just one #MON."
 	prompt
 
 _CantAcceptEggText::

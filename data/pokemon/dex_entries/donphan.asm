@@ -1,11 +1,11 @@
-	db "ARMOR@" ; species name
+	db "PANTSER@" ; species name
 	db 11 ; height
 	dw 1200 ; weight
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
+	db   "Omdat deze #MON" ; "Because this"
+	next "zo'n dikke huid" ; "#MON's skin is"
+	next "heeft, kan een" ; "so tough, a normal"
 
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
+	page "gewone aanval niet" ; "attack won't even"
+	next "eens een kras" ; "leave a scratch on"
+	next "achterlaten.@" ; "it.@"

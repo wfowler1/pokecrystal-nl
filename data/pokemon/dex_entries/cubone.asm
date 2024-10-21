@@ -1,11 +1,11 @@
-	db "LONELY@" ; species name
+	db "EENZAAM@" ; species name
 	db 4 ; height
 	dw 65 ; weight
 
-	db   "It lost its mother"
-	next "after its birth."
-	next "It wears its"
+	db   "Is de moeder" ; "It lost its mother"
+	next "kwijtgeraakt na" ; "after its birth."
+	next "geboorte. Draagt" ; "It wears its"
 
-	page "mother's skull,"
-	next "never revealing"
-	next "its true face.@"
+	page "haar schedel, om" ; "mother's skull,"
+	next "zo nooit het ge-" ; "never revealing"
+	next "zicht te tonen.@" ; "its true face.@"

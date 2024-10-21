@@ -196,168 +196,168 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oops! I so sorry!"
-	line "You not hurt,"
-	cont "okay?"
+	text "Oeps! Ik spijt!" ; "Oops! I so sorry!"
+	line "Jij niet pijn," ; "You not hurt,"
+	cont "oké?" ; "okay?"
 
-	para "I very busy."
-	line "No time for talk-"
-	cont "ing with you. Not"
-	cont "good for me if"
-	cont "seen by somebody."
+	para "Ik heel druk." ; "I very busy."
+	line "Geen tijd voor" ; "No time for talk-"
+	cont "praten met jou." ; "ing with you. Not"
+	cont "Niet goed als" ; "good for me if"
+	cont "iemand mij ziet." ; "seen by somebody."
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Oh no! You seen"
-	line "me already! I make"
-	cont "big mistake!"
+	text "Oh nee! Jij mij" ; "Oh no! You seen"
+	line "al gezien! Grote" ; "me already! I make"
+	cont "fout van mij!" ; "big mistake!"
 	done
 
 CeruleanGymGruntByeText:
-	text "Hey, you! Forget"
-	line "you see me, okay?"
+	text "Hey jij! Vergeet" ; "Hey, you! Forget"
+	line "jij mij zag, okay?" ; "you see me, okay?"
 
-	para "You see, hear,"
-	line "know nothing,"
+	para "Jij zag, hoorde," ; "You see, hear,"
+	line "weet niets," ; "know nothing,"
 
-	para "okay?"
-	line "Bye, kid! Nothing!"
+	para "okay?" ; "okay?"
+	line "Dag, kind! Niets!" ; "Bye, kid! Nothing!"
 
-	para "Bye-bye a go-go!"
+	para "Dag-dag, weg-weg!" ; "Bye-bye a go-go!"
 	done
 
 CeruleanGymNote1Text:
-	text "Sorry, I'll be out"
-	line "for a while."
-	cont "MISTY, GYM LEADER"
+	text "Sorry, ik ben er" ; "Sorry, I'll be out"
+	line "even niet." ; "for a while."
+	cont "MISTY, GYM LEIDER" ; "MISTY, GYM LEADER"
 	done
 
 CeruleanGymNote2Text:
-	text "Since MISTY's out,"
-	line "we'll be away too."
-	cont "GYM TRAINERS"
+	text "MISTY is weg," ; "Since MISTY's out,"
+	line "dus wij ook." ; "we'll be away too."
+	cont "GYM TRAINERS" ; "GYM TRAINERS"
 	done
 
 MistyIntroText:
-	text "MISTY: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
+	text "MISTY: Ik heb op" ; "MISTY: I was ex-"
+	line "je gewacht, jij" ; "pecting you, you"
+	cont "lastpak!" ; "pest!"
 
-	para "You may have a"
-	line "lot of JOHTO GYM"
+	para "Je hebt dan wel" ; "You may have a"
+	line "veel JOHTO GYM" ; "lot of JOHTO GYM"
 
-	para "BADGES, but you'd"
-	line "better not take me"
-	cont "too lightly."
+	para "BADGES, maar beter" ; "BADGES, but you'd"
+	line "onderschat je me" ; better not take me"
+	cont "niet." ; "too lightly."
 
-	para "My water-type"
-	line "#MON are tough!"
+	para "Mijn water-" ; "My water-type"
+	line "#MON zijn taai!" ; "#MON are tough!"
 	done
 
 MistyWinLossText:
-	text "MISTY: You really"
-	line "are good…"
+	text "MISTY: Je bent" ; "MISTY: You really"
+	line "echt goed…" ; "are good…"
 
-	para "I'll admit that"
-	line "you are skilled…"
+	para "Ik geef toe dat" ; "I'll admit that"
+	line "je vaardig bent…" ; "you are skilled…"
 
-	para "Here you go. It's"
-	line "CASCADEBADGE."
+	para "Alsjeblieft. De" ; "Here you go. It's"
+	line "WATERVALBADGE." ; "CASCADEBADGE."
 	done
 
 ReceivedCascadeBadgeText:
-	text "<PLAYER> received"
-	line "CASCADEBADGE."
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "WATERVALBADGE." ; "CASCADEBADGE."
 	done
 
 MistyFightDoneText:
-	text "MISTY: Are there"
-	line "many strong train-"
-	cont "ers in JOHTO? Like"
-	cont "you, I mean."
+	text "MISTY: zijn er" ; "MISTY: Are there"
+	line "veel sterke train-" ; "many strong train-"
+	cont "ers in JOHTO? Ik" ; "ers in JOHTO? Like"
+	cont "bedoel, als jij?"; "you, I mean."
 
-	para "I'm going to"
-	line "travel one day, so"
+	para "Ooit ga ik" ; "I'm going to"
+	line "reizen, om tegen" ; "travel one day, so"
 
-	para "I can battle some"
-	line "skilled trainers."
+	para "ervaren trainers" ; "I can battle some"
+	line "te vechten." ; "skilled trainers."
 	done
 
 SwimmerfDianaSeenText:
-	text "Sorry about being"
-	line "away. Let's get on"
-	cont "with it!"
+	text "Sorry dat ik" ; "Sorry about being"
+	line "even weg was." ; "away. Let's get on"
+	cont "Hier gaan we!" ; "with it!"
 	done
 
 SwimmerfDianaBeatenText:
-	text "I give up! You're"
-	line "the winner!"
+	text "Ik geef me over!" ; "I give up! You're"
+	line "Jij wint!" ; "the winner!"
 	done
 
 SwimmerfDianaAfterBattleText:
-	text "I'll be swimming"
-	line "quietly."
+	text "Ik zal zachtjes" ; "I'll be swimming"
+	line "zwemmen." ; "quietly."
 	done
 
 SwimmerfBrianaSeenText:
-	text "Don't let my ele-"
-	line "gant swimming un-"
-	cont "nerve you."
+	text "Hopelijk word je" ; "Don't let my ele-"
+	line "niet zenuwachtig" ; "gant swimming un-"
+	cont "van m'n elegantie." ; "nerve you."
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ooh, you calmly"
-	line "disposed of me…"
+	text "Ooh, je hebt me" ; "Ooh, you calmly"
+	line "rustig aangepakt…" ; "disposed of me…"
 	done
 
 SwimmerfBrianaAfterBattleText:
-	text "Don't be too smug"
-	line "about beating me."
+	text "Nu niet naast" ; "Don't be too smug"
+	line "je schoenen lopen." ; "about beating me."
 
-	para "MISTY will destroy"
-	line "you if you get"
-	cont "complacent."
+	para "Als je niet oplet," ; "MISTY will destroy"
+	line "veegt MISTY de" ; "you if you get"
+	cont "vloer met je aan." ; "complacent."
 	done
 
 SwimmermParkerSeenText:
-	text "Glub…"
+	text "Blub…" ; "Glub…"
 
-	para "I'm first! Come"
-	line "and get me!"
+	para "Ik ben eerst!" ; "I'm first! Come"
+	line "Kom dan!" ; "and get me!"
 	done
 
 SwimmermParkerBeatenText:
-	text "This can't be…"
+	text "Het is niet waar…" ; "This can't be…"
 	done
 
 SwimmermParkerAfterBattleText:
-	text "MISTY has gotten"
-	line "much better in the"
-	cont "past few years."
+	text "MISTY is de" ; "MISTY has gotten"
+	line "laatste jaren veel" ; "much better in the"
+	cont "beter geworden." ; "past few years."
 
-	para "Don't let your"
-	line "guard down, or"
-	cont "you'll be crushed!"
+	para "Blijf op je hoede," ; "Don't let your"
+	line "anders word je" ; "guard down, or"
+	cont "verwoest!" ; "you'll be crushed!"
 	done
 
 CeruleanGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! KAMPIOEN" ; "Yo! CHAMP in"
+	line "in wording!" ; "making!"
 
-	para "Since MISTY was"
-	line "away, I went out"
+	para "MISTY was weg," ; "Since MISTY was"
+	line "dus ik heb buiten" ; away, I went out"
 
-	para "for some fun too."
-	line "He-he-he."
+	para "ook lol gehad." ; "for some fun too."
+	line "He-he-he." ; "He-he-he."
 	done
 
 CeruleanGymGuideWinText:
-	text "Hoo, you showed me"
-	line "how tough you are."
+	text "Tjonge, nu weet ik" ; "Hoo, you showed me"
+	line "hoe sterk je bent." ; "how tough you are."
 
-	para "As always, that"
-	line "was one heck of a"
-	cont "great battle!"
+	para "Wat een fantas-" ; "As always, that"
+	line "tisch gevecht," ; "was one heck of a"
+	cont "zoals altijd!" ; "great battle!"
 	done
 
 CeruleanGym_MapEvents:

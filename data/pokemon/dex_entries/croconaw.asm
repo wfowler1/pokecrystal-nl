@@ -1,11 +1,11 @@
-	db "BIG JAW@" ; species name
+	db "GROOTKAAK@" ; species name
 	db 11 ; height
 	dw 250 ; weight
 
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
+	db   "De puntjes van de" ; "The tips of its"
+	next "hoektanden staan" ; "fangs are slanted"
+	next "naar achteren. Als" ; "backward. Once"
 
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
+	page "deze vastbijten," ; "those fangs clamp"
+	next "kan een prooi niet" ; "down, the prey has"
+	next "meer ontsnappen.@" ; "no hope of escape.@"

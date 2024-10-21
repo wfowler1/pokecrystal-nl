@@ -166,119 +166,119 @@ OlivineCityPlayerStepsAsideBottomMovement:
 	step_end
 
 OlivineCityRivalText:
-	text "…"
+	text "…"; "…"
 
-	para "You again?"
+	para "Jij weer?" ; "You again?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "Geen reden voor" ; "There's no need to"
+	line "paniek. Ik hou me" ; "panic. I don't"
 
-	para "bother with wimps"
-	line "like you."
+	para "niet bezig met" ; "bother with wimps"
+	line "watjes als jij." ; "like you."
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "Over zwakkelingen" ; "Speaking of weak-"
+	line "gesproken, de" ; "lings, the city's"
 
-	para "GYM LEADER isn't"
-	line "here."
+	para "GYMLEIDER van de" ; "GYM LEADER isn't"
+	line "stad is hier niet." ; "here."
 
-	para "Supposedly taking"
-	line "care of a sick"
+	para "Blijkbaar aan het" ; "Supposedly taking"
+	line "zorgen voor een" ; "care of a sick"
 
-	para "#MON at the"
-	line "LIGHTHOUSE."
+	para "zieke #MON in" ; "#MON at the"
+	line "de VUURTOREN." ; "LIGHTHOUSE."
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#MON go!"
+	para "Pf! Huilie-huilie!" ; "Humph! Boo-hoo!"
+	line "Laat zieke #MON" ; "Just let sick"
+	cont "gewoon zitten!" ; "#MON go!"
 
-	para "A #MON that"
-	line "can't battle is"
-	cont "worthless!"
+	para "Een #MON die" ; "A #MON that"
+	line "niet kan vechten" ; "can't battle is"
+	cont "is waardeloos!" ; "worthless!"
 
-	para "Why don't you go"
-	line "train at the"
-	cont "LIGHTHOUSE?"
+	para "Waarom ga je niet" ; "Why don't you go"
+	line "trainen in de" ; "train at the"
+	cont "VUURTOREN?" ; "LIGHTHOUSE?"
 
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
+	para "Wie weet. Het" ; "Who knows. It may"
+	line "maakt je misschien" ; "make you a bit"
+	cont "minder zwak!" ; "less weak!"
 	done
 
 OlivineCitySailor1Text:
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Donkere paden" ; "Dark roads are"
+	line "zijn 's nachts'" ; "dangerous at"
+	cont "gevaarlijk." ; "night."
 
-	para "But in the pitch-"
-	line "black of night,"
+	para "Maar in het pikke-" ; "But in the pitch-"
+	line "donker van de" ; "black of night,"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "nacht, is de zee" ; "the sea is even"
+	line "nog verradelijker!" ; "more treacherous!"
 
-	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	para "Zonder het baken" ; "Without the beacon"
+	line "van de VUURTOREN" ; "of the LIGHTHOUSE"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "kan geen schip" ; "to guide it, no"
+	line "veilig varen." ; "ship can sail."
 	done
 
 OlivineCityStandingYoungsterPokegearText:
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
-	cont "that's cool."
+	text "Dat dingetje van" ; "That thing you"
+	line "jou--het is een" ; "have--it's a #-"
+	cont "#GEAR, toch?" ; "GEAR, right? Wow,"
+	cont "Wow, dat is cool." ; "that's cool."
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
-	line "#DEX!"
+	text "Wow, je hebt" ; "Wow, you have a"
+	line "een #DEX!" ; "#DEX!"
 
-	para "That is just so"
-	line "awesome."
+	para "Dat is echt" ; "That is just so"
+	line "heel gaaf." ; "awesome."
 	done
 
 OlivineCitySailor2Text:
-	text "The sea is sweet!"
+	text "De zee is fijn!" ; "The sea is sweet!"
 
-	para "Sunsets on the sea"
-	line "are marvelous!"
+	para "Zonsondergang op" ; "Sunsets on the sea"
+	line "zee is geweldig!" ; "are marvelous!"
 
-	para "Sing with me! "
-	line "Yo-ho! Blow the"
-	cont "man down!…"
+	para "Zing met me mee!" ; "Sing with me! "
+	line "Yo-ho! De wind" ; "Yo-ho! Blow the"
+	cont "in de zeilen!…" ; "man down!…"
 	done
 
 OlivineCitySignText:
 	text "OLIVINE CITY"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "De Haven Nabij" ; "The Port Closest"
+	line "Verre Oorden" ; "to Foreign Lands"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVINE PORT"
-	line "FAST SHIP PIER"
+	text "OLIVINE HAVEN" ; "OLIVINE PORT"
+	line "SNELSCHIP-PIER" ; "FAST SHIP PIER"
 	done
 
 OlivineGymSignText:
 	text "OLIVINE CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	line "#MON-GYMLEIDER:"
+	cont "JASMINE" ; "LEADER: JASMINE"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "De Meid met een" ; "The Steel-Clad"
+	line "Stalen Pantser" ; "Defense Girl"
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVINE LIGHTHOUSE"
-	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	text "OLIVINE VUURTOREN" ; "OLIVINE LIGHTHOUSE"
+	line "Ook bekend als de" ; "Also known as the"
+	cont "GLITTER-VUURTOREN" ; "GLITTER LIGHTHOUSE"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "BATTLE TOWER AHEAD"
-	line "Opening Now!"
+	text "GEVECHTSTOREN" ; "BATTLE TOWER AHEAD"
+	line "RECHTDOOR-Nu open!" ; "Opening Now!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen: ; unreferenced

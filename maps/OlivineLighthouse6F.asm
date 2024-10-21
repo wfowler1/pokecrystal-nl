@@ -160,99 +160,100 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMINE: … This"
-	line "#MON always"
+	text "JASMINE: …Deze" ; "JASMINE: … This"
+	line "#MON lichtte" ; "#MON always"
 
-	para "kept the sea lit"
-	line "at night."
+	para "altijd 's nachts" ; "kept the sea lit"
+	line "de zee op." ; "at night."
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "…Maar het werd" ; "…But it suddenly"
+	line "opeens ziek… Het" ; "got sick… It's"
+	cont "snakt naar lucht…" ; "gasping for air…"
 
-	para "…I understand"
-	line "that there is a"
+	para "…Ik begrijp dat" ; "…I understand"
+	line "er een goede" ; "that there is a"
 
-	para "wonderful PHARMACY"
-	line "in CIANWOOD…"
+	para "APOTHEEK is in" ; "wonderful PHARMACY"
+	line "CIANWOOD…" ; "in CIANWOOD…"
 
-	para "But that's across"
-	line "the sea…"
+	para "Maar dat is" ; "But that's across"
+	line "over de zee…" ; "the sea…"
 
-	para "And I can't leave"
-	line "AMPHY unattended…"
+	para "En ik kan AMPHY" ; "And I can't leave"
+	line "niet achterlaten…" ; "AMPHY unattended…"
 	done
 
 JasmineGetSomeMedicineText:
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "…Zou je wat" ; "…May I ask you to"
+	line "medicijn voor me" ; "get some medicine"
+	cont "willen halen?" ; "for me? Please?"
+	cont "Alsjeblieft?" ;
 	done
 
 JasmineCureAmphyText:
-	text "JASMINE: …Will"
-	line "that medicine cure"
-	cont "AMPHY?"
+	text "JASMINE: …Zal" ; "JASMINE: …Will"
+	line "dat medicijn" ; "that medicine cure"
+	cont "AMPHY genezen?" ; "AMPHY?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
-	cont "JASMINE."
+	text "<PLAYER> geeft de" ; "<PLAYER> handed the"
+	line "GEHEIMEDRANK" ; "SECRETPOTION to"
+	cont "aan JASMINE." ; "JASMINE."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMINE: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "JASMINE: …Um," ; "JASMINE: …Um,"
+	line "wees alsjeblieft" ; "please don't be"
+	cont "niet beledigd…" ; "offended…"
 
-	para "…AMPHY will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "…AMPHY neemt" ; "…AMPHY will not"
+	line "alleen iets" ; "take anything from"
+	cont "van mij…" ; "anyone but me…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "JASMINE: …"
+	text "JASMINE: …" ; "JASMINE: …"
 
-	para "AMPHY, how are you"
-	line "feeling?"
+	para "AMPHY, hoe" ; "AMPHY, how are you"
+	line "voel je je?" ; "feeling?"
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
-	line "so relieved…"
+	text "JASMINE: …Oh, ik" ; "JASMINE: …Oh, I'm"
+	line "ben zo opgelucht…" ; "so relieved…"
 
-	para "This is just so"
-	line "wonderful…"
+	para "Dit is gewoon" ; "This is just so"
+	line "zo fijn…" ; "wonderful…"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Heel, heel erg" ; "Thank you so very,"
+	line "bedankt." ; "very much."
 
-	para "…I will return to"
-	line "the GYM…"
+	para "…Ik zal terug" ; "…I will return to"
+	line "naar de GYM gaan…" ; "the GYM…"
 	done
 
 JasmineISeeText:
-	text "JASMINE: …I see…"
+	text "JASMINE: …Aha…" ; "JASMINE: …I see…"
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "…AMPHY, hou vol!" ; "…AMPHY, hang on!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
-	line "…Pa… paloo…"
+	text "AMPHY: …" ; "AMPHY: …"
+	line "…Pa… paloo…" ; "…Pa… paloo…"
 	done
 
 AmphyBreathingLaboredText:
-	text "Its breathing is"
-	line "terribly labored…"
+	text "Het ademen gaat" ; "Its breathing is"
+	line "erg moeizaam…" ; "terribly labored…"
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
-	line "Palulu!"
+	text "AMPHY: Paloe!" ; "AMPHY: Palu!"
+	line "Paloeloe!" ; "Palulu!"
 	done
 
 OlivineLighthouse6F_MapEvents:

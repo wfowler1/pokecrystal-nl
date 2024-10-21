@@ -1,11 +1,11 @@
-	db "TIMETRAVEL@" ; species name
+	db "TIJDREIS@" ; species name
 	db 6 ; height
 	dw 50 ; weight
 
-	db   "Revered as a"
-	next "guardian of the"
-	next "forest, CELEBI"
+	db   "Aanbeden als de" ; "Revered as a"
+	next "wachter van het" ; "guardian of the"
+	next "woud, CELEBI" ; "forest, CELEBI"
 
-	page "appears wherever"
-	next "beautiful forests"
-	next "exist.@"
+	page "verschijnt waar er" ; "appears wherever"
+	next "een prachtig bos" ; "beautiful forests"
+	next "bestaat.@" ; "exist.@"

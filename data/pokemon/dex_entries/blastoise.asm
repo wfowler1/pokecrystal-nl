@@ -1,11 +1,11 @@
-	db "SHELLFISH@" ; species name
+	db "SCHAALDIER@" ; species name
 	db 16 ; height
 	dw 855 ; weight
 
-	db   "It firmly plants"
-	next "its feet on the"
-	next "ground before"
+	db   "Zet de voeten" ; "It firmly plants"
+	next "stevig op de grond" ; "its feet on the"
+	next  "voordat er met" ; "ground before"
 
-	page "shooting water"
-	next "from the jets on"
-	next "its back.@"
+	page "water uit de" ; "shooting water"
+	next "kanonnen op de rug" ; "from the jets on"
+	next "wordt geschoten.@" ; "its back.@"

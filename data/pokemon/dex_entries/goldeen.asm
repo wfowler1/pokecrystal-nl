@@ -1,11 +1,11 @@
-	db "GOLDFISH@" ; species name
+	db "GOUDVIS@" ; species name
 	db 6 ; height
 	dw 150 ; weight
 
-	db   "During spawning"
-	next "season, they swim"
-	next "gracefully in the"
+	db   "Tijdens het paar-" ; "During spawning"
+	next "seizoen bewegen ze" ; "season, they swim"
+	next "gracieus door het" ; "gracefully in the"
 
-	page "water, searching"
-	next "for their perfect"
-	next "mate.@"
+	page "water, op zoek" ; "water, searching"
+	next "naar de perfecte" ; "for their perfect"
+	next "partner.@" ; "mate.@"

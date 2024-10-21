@@ -1,11 +1,11 @@
-	db "BAGWORM@" ; species name
+	db "ZAKDRAGER@" ; species name
 	db 12 ; height
 	dw 1258 ; weight
 
-	db   "Usually found"
-	next "hanging on to a"
-	next "fat tree trunk. It"
+	db   "Meestal te vinden" ; "Usually found"
+	next "hangend aan een" ; "hanging on to a"
+	next "dikke boomstronk." ; "fat tree trunk. It"
 
-	page "shoots out bits of"
-	next "its shell when it"
-	next "sees action.@"
+	page "Schiet stukjes van" ; "shoots out bits of"
+	next "de schelp als het" ; "its shell when it"
+	next "actie bespeurt.@" ; "sees action.@"

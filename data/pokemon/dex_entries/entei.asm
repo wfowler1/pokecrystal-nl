@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; species name
 	db 21 ; height
 	dw 1980 ; weight
 
-	db   "This brawny"
-	next "#MON courses"
-	next "around the earth,"
+	db   "Deze gespierde" ; "This brawny"
+	next "#MON rent rond" ; "#MON courses"
+	next "de aarde en spuwt" ; "around the earth,"
 
-	page "spouting flames"
-	next "hotter than a"
-	next "volcano's magma.@"
+	page "vuur heter dan" ; "spouting flames"
+	next "het magma van een" ; "hotter than a"
+	next "vulkaan.@" ; "volcano's magma.@"

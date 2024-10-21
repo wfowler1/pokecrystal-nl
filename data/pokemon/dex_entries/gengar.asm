@@ -1,11 +1,11 @@
-	db "SHADOW@" ; species name
+	db "SCHADUW@" ; species name
 	db 15 ; height
 	dw 405 ; weight
 
-	db   "Hiding in people's"
-	next "shadows at night,"
-	next "it absorbs their"
+	db   "Verstopt 's nachts" ; "Hiding in people's"
+	next "in schaduwen van" ; "shadows at night,"
+	next "mensen en absor-" ; "it absorbs their"
 
-	page "heat. The chill it"
-	next "causes makes the"
-	next "victims shake.@"
+	page "beert hun warmte." ; "heat. The chill it"
+	next "De kou laat mensen" ; "causes makes the"
+	next "beven.@" ; "victims shake.@"

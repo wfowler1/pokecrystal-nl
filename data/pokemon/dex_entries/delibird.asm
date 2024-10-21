@@ -1,11 +1,11 @@
-	db "DELIVERY@" ; species name
+	db "BEZORGER@" ; species name
 	db 9 ; height
 	dw 160 ; weight
 
-	db   "It always carries"
-	next "its food with it,"
-	next "wherever it goes."
+	db   "Draagt altijd" ; "It always carries"
+	next "eten met zich mee," ; "its food with it,"
+	next "waar het ook gaat." ; "wherever it goes."
 
-	page "If attacked, it"
-	next "throws its food at"
-	next "the opponent.@"
+	page "Gooit dat eten op" ; "If attacked, it"
+	next "vijanden wanneer" ; "throws its food at"
+	next "aangevallen.@" ; "the opponent.@"

@@ -1,11 +1,11 @@
-	db "ROCK@" ; species name
+	db "ROTS@" ; species name
 	db 4 ; height
 	dw 200 ; weight
 
-	db   "Proud of their"
-	next "sturdy bodies,"
-	next "they bash against"
+	db   "Trots op hun" ; "Proud of their"
+	next "stevige lijven," ; "sturdy bodies,"
+	next "rammen ze tegen" ; "they bash against"
 
-	page "each other in a"
-	next "contest to prove"
-	next "whose is harder.@"
+	page "elkaar om te zien" ; "each other in a"
+	next "wie de hardste" ; "contest to prove"
+	next "is.@" ; "whose is harder.@"

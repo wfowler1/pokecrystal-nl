@@ -1,11 +1,11 @@
-	db "ATROCIOUS@" ; species name
+	db "AFSCHUW@" ; species name
 	db 65 ; height
 	dw 2350 ; weight
 
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
+	db   "Verschijnt waar" ; "It appears when-"
+	next "wereldconflicten" ; "ever there is"
+	next "zijn en brandt" ; "world conflict,"
 
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
+	page "het bereisde pad" ; "burning down any"
+	next "tot aan de grond" ; "place it travels"
+	next "gelijk.@" ; "through.@"

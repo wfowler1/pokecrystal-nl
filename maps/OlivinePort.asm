@@ -284,102 +284,105 @@ OlivinePortApproachFastShipAfterHOFRightMovement:
 	step_end
 
 OlivinePortSailorGetOnBoardText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "We vertrekken" ; "We're departing"
+	line "bijna. Ga" ; "soon. Please get"
+	cont "aan boord." ; "on board."
 	done
 
 OlivinePortCantBoardText:
-	text "Sorry. You can't"
-	line "board now."
+	text "Sorry. Je kan" ; "Sorry. You can't"
+	line "nu niet aan boord." ; "board now."
 	done
 
 OlivinePortAskBoardText:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Welkom op SNEL-" ; "Welcome to FAST"
+	line "SCHIP S.S.AQUA." ; "SHIP S.S.AQUA."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "Zul je vandaag" ; "Will you be board-"
+	line "aan boord gaan?" ; "ing today?"
 	done
 
 OlivinePortAskTicketText:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Mag ik je" ; "May I see your"
+	line "BOOTKAARTJE zien?" ; "S.S.TICKET?"
 	done
 
 OlivinePortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "We hopen je" ; "We hope to see you"
+	line "snel weer te zien!" ; "again!"
 	done
 
 OlivinePortFlashTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> toont" ; "<PLAYER> flashed"
+	line "het BOOTKAARTJE." ; "the S.S.TICKET."
 
-	para "That's it."
-	line "Thank you!"
+	para "Dat is hem." ; "That's it."
+	line "Dankjewel!" ; "Thank you!"
 	done
 
 OlivinePortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
+	text "<PLAYER> probeert" ; "<PLAYER> tried to"
+	line "het BOOTKAARTJE" ; "show the S.S."
+	cont "te tonen…" ; "TICKET…"
 
-	para "…But no TICKET!"
+	para "…Maar heeft niks!" ; "…But no TICKET!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "Sorry! Je mag" ; "Sorry!"
+	line "alleen aan boord" ; "You may board only"
 
-	para "if you have an"
-	line "S.S.TICKET."
+	para "met een" ; "if you have an"
+	line "BOOTKAARTJE." ; "S.S.TICKET."
 	done
 
 OlivinePortMondayShipText:
-	text "The FAST SHIP will"
-	line "sail next Monday."
+	text "Het SNELSCHIP" ; "The FAST SHIP will"
+	line "vertrekt komende" ; "sail next Monday."
+	cont "maandag." ; 
 	done
 
 OlivinePortFridayShipText:
-	text "The FAST SHIP will"
-	line "sail next Friday."
+	text "Het SNELSCHIP" ; "The FAST SHIP will"
+	line "vertrekt komende" ; "sail next Friday."
+	cont "vrijdag." ; 
 	done
 
 OlivinePortFishingGuru1Text:
-	text "SHELLDER are easy"
-	line "to catch here."
+	text "SHELLDER zijn" ; "SHELLDER are easy"
+	line "eenvoudig te" ; "to catch here."
 
-	para "They're kind of"
-	line "rare elsewhere."
+	para "vangen hier. Ze" ; "They're kind of"
+	line "zijn zeldzaam" ; "rare elsewhere."
+	cont "op andere plekken." ; 
 	done
 
 OlivinePortFishingGuru2Text:
-	text "How many RODS do"
-	line "you have?"
+	text "Hoeveel HENGELS" ; "How many RODS do"
+	line "heb je?" ; "you have?"
 
-	para "Different RODS"
-	line "catch different"
-	cont "#MON."
+	para "Verschillende" ; "Different RODS"
+	line "HENGELS vangen" ; "catch different"
+	cont "andere #MON." ; "#MON."
 	done
 
 OlivinePortYoungsterText:
-	text "S.S.AQUA uses jets"
-	line "to skim over the"
-	cont "waves!"
+	text "S.S.AQUA heeft" ; "S.S.AQUA uses jets"
+	line "jets om over de" ; "to skim over the"
+	cont "golven te scheren!" ; "waves!"
 	done
 
 OlivinePortCooltrainerFText:
-	text "There are lots of"
-	line "#MON in KANTO."
+	text "Er zijn veel" ; "There are lots of"
+	line "#MON in KANTO." ; "#MON in KANTO."
 
-	para "I wish I could go…"
+	para "Kon ik maar gaan…" ; "I wish I could go…"
 	done
 
 OlivinePortSailorBeforeHOFText:
-	text "We don't want you"
-	line "to fall into the"
+	text "Je mag er niet" ; "We don't want you"
+	line "in. We willen" ; "to fall into the"
 
-	para "sea, so you're not"
-	line "allowed in."
+	para "niet dat je" ; "sea, so you're not"
+	line "in zee valt." ; "allowed in."
 	done
 
 OlivinePort_MapEvents:

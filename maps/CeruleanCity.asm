@@ -148,129 +148,129 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "KANTO's POWER"
-	line "PLANT?"
+	text "KANTO's ENERGIE" ; "KANTO's POWER"
+	line "CENTRALE?" ; "PLANT?"
 
-	para "It's near the end"
-	line "of ROUTE 9, the"
+	para "Die vind je" ; "It's near the end"
+	line "achteraan ROUTE 9," ; "of ROUTE 9, the"
 
-	para "road that heads"
-	line "east from here."
+	para "het pad ten oosten" ; "road that heads"
+	line "van hier" ; "east from here."
 
-	para "I think there was"
-	line "an accident of"
-	cont "some sort there."
+	para "Volgens mij is" ; "I think there was"
+	line "daar een soort" ; "an accident of"
+	cont "ongeluk gebeurd." ; "some sort there."
 	done
 
 CeruleanCityCooltrainerMText2:
-	text "You're collecting"
-	line "every single kind"
-	cont "of #MON?"
+	text "Verzamel je elke" ; "You're collecting"
+	line "soort #MON" ; "every single kind"
+	cont "die er bestaat?" ; "of #MON?"
 
-	para "That must be quite"
-	line "a challenge, but"
-	cont "it sounds fun too."
+	para "Dat klinkt als" ; "That must be quite"
+	line "een uitdaging," ; "a challenge, but"
+	cont "maar ook leuk." ; "it sounds fun too."
 	done
 
 CeruleanCitySuperNerdText:
-	text "The CAPE in the"
-	line "north is a good"
+	text "De KAAP in het" ; "The CAPE in the"
+	line "noorden is perfect" ; "north is a good"
 
-	para "place for dates."
-	line "Girls like it!"
+	para "om meisjes mee" ; "place for dates."
+	line "naartoe te nemen!" ; "Girls like it!"
 	done
 
 CeruleanCitySlowbroText:
-	text "SLOWBRO: Yarah?"
+	text "SLOWBRO: Yara?" ; "SLOWBRO: Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My SLOWBRO and I"
-	line "make an awesome"
-	cont "combination!"
+	text "Mijn SLOWBRO en ik" ; "My SLOWBRO and I"
+	line "zijn een geweldige" ; "make an awesome"
+	cont "combinatie!" ; "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, show me"
-	line "your CONFUSION!"
+	text "SLOWBRO, doe je" ; "SLOWBRO, show me"
+	line "VERWARRING" ; "your CONFUSION!"
 	done
 
 CeruleanCityCooltrainerFText3:
-	text "…"
+	text "…" ; "…"
 	done
 
 CeruleanCityFisherText:
-	text "I'm a huge fan of"
-	line "CERULEAN GYM's"
-	cont "MISTY."
+	text "Ik ben enorm fan" ; "I'm a huge fan of"
+	line "van CERULIAN's" ; "CERULEAN GYM's"
+	cont "gymleider MISTY." ; "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
-	text "I saw this shady"
-	line "guy go off toward"
-	cont "CERULEAN's CAPE."
+	text "Een verdachte man" ; "I saw this shady"
+	line "was onderweg naar" ; "guy go off toward"
+	cont "CERLUAN's KAAP." ; "CERULEAN's CAPE."
 	done
 
 CeruleanCityYoungsterText1:
-	text "There used to be a"
-	line "cave here that had"
+	text "Ooit was hier" ; "There used to be a"
+	line "een grot met" ; "cave here that had"
 
-	para "horribly powerful"
-	line "#MON in it."
+	para "vreselijk sterke" ; "horribly powerful"
+	line "#MON er in." ; "#MON in it."
 	done
 
 CeruleanCityYoungsterText2:
-	text "Ayuh?"
+	text "Huh?" ; "Ayuh?"
 
-	para "My ITEMFINDER is"
-	line "responding…"
+	para "Mijn DETECTOR" ; "My ITEMFINDER is"
+	line "reageert op iets…" ; "responding…"
 	done
 
 CeruleanCitySignText:
-	text "CERULEAN CITY"
+	text "CERULEAN CITY" ; "CERULEAN CITY"
 
-	para "A Mysterious Blue"
-	line "Aura Surrounds It"
+	para "Omringd door een" ; "A Mysterious Blue"
+	line "mysterieuze aura" ; "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "CERULEAN CITY" ; "CERULEAN CITY"
+	line "#MON GYM" ; "#MON GYM"
+	cont "LEIDER: MISTY" ; "LEADER: MISTY"
 
-	para "The Tomboyish"
-	line "Mermaid"
+	para "De mondige" ; "The Tomboyish"
+	line "Zeemeermin" ; "Mermaid"
 	done
 
 CeruleanBikeShopSignText:
-	text "There's a notice"
-	line "here…"
+	text "Er hangt hier" ; "There's a notice"
+	line "een briefje…" ; "here…"
 
-	para "The BIKE SHOP has"
-	line "moved to GOLDENROD"
-	cont "CITY in JOHTO…"
+	para "De FIETSENWINKEL" ; "The BIKE SHOP has"
+	line "is nu in GOLDENROD" ; "moved to GOLDENROD"
+	cont "CITY in JOHTO…" ; "CITY in JOHTO…"
 	done
 
 CeruleanPoliceSignText:
-	text "There's a notice"
-	line "here…"
+	text "Er hangt hier" ; "There's a notice"
+	line "een briefje…" ; "here…"
 
-	para "Stamp out thievery"
-	line "and make the city"
+	para "Pak criminelen aan" ; "Stamp out thievery"
+	line "om de stad vriend-" ; "and make the city"
 
-	para "a friendlier, more"
-	line "cheerful place!"
+	para "elijker en vro-" ; "a friendlier, more"
+	line "lijker te maken!" ; "cheerful place!"
 
-	para "CERULEAN POLICE"
+	para "CERULIAN POLITIE" ; "CERULEAN POLICE"
 	done
 
 CeruleanCapeSignText:
-	text "CERULEAN CAPE"
-	line "AHEAD"
+	text "KAAP VAN CERULEAN" ; "CERULEAN CAPE"
+	line "NABIJ" ; "AHEAD"
 	done
 
 CeruleanLockedDoorText:
-	text "It's locked…"
+	text "Zit op slot…" ; "It's locked…"
 	done
 
 CeruleanCity_MapEvents:

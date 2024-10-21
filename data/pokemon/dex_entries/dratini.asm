@@ -1,11 +1,11 @@
-	db "DRAGON@" ; species name
+	db "DRAAK@" ; species name
 	db 18 ; height
 	dw 33 ; weight
 
-	db   "It sheds many lay-"
-	next "ers of skin as it"
-	next "grows larger. Dur-"
+	db   "Vervelt vaak" ; "It sheds many lay-"
+	next "als het groeit." ; "ers of skin as it"
+	next "Wordt tijdens dit" ; "grows larger. Dur-"
 
-	page "ing this process,"
-	next "it is protected by"
-	next "a rapid waterfall.@"
+	page "proces beschermd" ; "ing this process,"
+	next "door een harde" ; "it is protected by"
+	next "waterval.@" ; "a rapid waterfall.@"

@@ -1,11 +1,11 @@
-	db "LEAF@" ; species name
+	db "BLAD@" ; species name
 	db 12 ; height
 	dw 158 ; weight
 
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
+	db   "De geur van de" ; "The scent that"
+	next "bladeren rond de" ; "wafts from the"
+	next "nek geeft" ; "leaves on its neck"
 
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+	page "iedereen die het" ; "causes anyone who"
+	next "ruikt extra" ; "smells it to"
+	next "energie.@" ; "become energetic.@"

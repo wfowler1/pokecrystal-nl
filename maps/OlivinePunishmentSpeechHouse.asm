@@ -20,21 +20,23 @@ OlivinePunishmentSpeechHouseBookshelf1:
 	jumpstd MagazineBookshelfScript
 
 OlivinePunishmentSpeechHouseDadText:
-	text "Along the way to"
-	line "CIANWOOD, there"
+	text "Op weg naar" ; "Along the way to"
+	line "CIANWOOD zijn" ; "CIANWOOD, there"
 
-	para "are four deserted"
-	line "islands."
+	para "vier verlaten" ; "are four deserted"
+	line "eilanden." ; "islands."
 
-	para "Bad kids are taken"
-	line "to the islands as"
-	cont "punishment!"
+	para "Stoute kinderen" ; "Bad kids are taken"
+	line "worden als straf" ; "to the islands as"
+	cont "naar de eilanden" ; "punishment!"
+	cont "gebracht!" ; 
 	done
 
 OlivinePunishmentSpeechHouseDaughterText:
-	text "Whenever I get in"
-	line "trouble, Daddy"
-	cont "always scares me."
+	text "Als ik in de" ; "Whenever I get in"
+	line "problemen kom," ; "trouble, Daddy"
+	cont "maakt Papa me" ; "always scares me."
+	cont "altijd bang." ; 
 	done
 
 OlivinePunishmentSpeechHouse_MapEvents:

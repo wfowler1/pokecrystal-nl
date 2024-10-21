@@ -22,27 +22,29 @@ OlivinePokecenter1FTeacherScript:
 	jumptextfaceplayer OlivinePokecenter1FTeacherText
 
 OlivinePokecenter1FFisherText:
-	text "The SAILOR in the"
-	line "OLIVINE CAFE next"
+	text "De MATROOS in het" ; "The SAILOR in the"
+	line "OLIVINE CAFE" ; "OLIVINE CAFE next"
 
-	para "door is really"
-	line "generous."
+	para "hiernaast is" ; "door is really"
+	line "erg vrijgevig." ; "generous."
 
-	para "He taught my"
-	line "#MON STRENGTH."
+	para "Hij leerde mijn" ; "He taught my"
+	line "#MON KRACHT." ; "#MON STRENGTH."
 
-	para "Now it can move"
-	line "big boulders."
+	para "Nu kan het" ; "Now it can move"
+	line "grote rotsen" ; "big boulders."
+	cont "verplaatsen." ; 
 	done
 
 OlivinePokecenter1FTeacherText:
-	text "There's a person"
-	line "in CIANWOOD CITY"
-	cont "across the sea."
+	text "Er is iemand" ; "There's a person"
+	line "in CIANWOOD CITY" ; "in CIANWOOD CITY"
+	cont "over de zee." ; "across the sea."
 
-	para "I heard him brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Ik hoorde hem" ; "I heard him brag-"
+	line "opscheppen over" ; "ging about his"
+	cont "zijn zeldzame" ; "rare #MON."
+	cont "#MON." ; 
 	done
 
 OlivinePokecenter1F_MapEvents:

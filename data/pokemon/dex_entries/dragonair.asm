@@ -1,11 +1,11 @@
-	db "DRAGON@" ; species name
+	db "DRAAK@" ; species name
 	db 40 ; height
 	dw 165 ; weight
 
-	db   "It is called the"
-	next "divine #MON."
-	next "When its entire"
+	db   "Wordt ook  wel de" ; "It is called the"
+	next "heilige #MON" ; "divine #MON."
+	next "genoemd. Als het" ; "When its entire"
 
-	page "body brightens"
-	next "slightly, the"
-	next "weather changes.@"
+	page "lichaam licht" ; "body brightens"
+	next "gloeit, verandert" ; "slightly, the"
+	next "het weer.@" ; "weather changes.@"

@@ -23,41 +23,41 @@ CeruleanPokecenter1FGymGuideScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuideText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
+	text "In gevechten" ; "For battles, I'd"
+	line "gebruik ik liever" ; "much rather use"
 
-	para "#MON I've been"
-	line "raising, even if"
+	para "#MON die ik heb" ; "#MON I've been"
+	line "groot gebracht," ; "raising, even if"
 
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #MON."
+	para "ook al zijn ze" ; "they're weaker"
+	line "zwakker dan nieuw" ; "than some newly"
+	cont "gevangen #MON." ; "caught #MON."
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Do you battle by"
-	line "mobile phone?"
+	text "Vecht je met je" ; "Do you battle by"
+	line "mobiele telefoon?" ; "mobile phone?"
 
-	para "If time runs out"
-	line "during a battle,"
+	para "Als tijdens een" ; "If time runs out"
+	line "gevecht de tijd op" ; "during a battle,"
 
-	para "waiting to see who"
-	line "won is really"
-	cont "nerve wracking."
+	para "is, is wachten op" ; "waiting to see who"
+	line "wie heeft gewonnen" ; "won is really"
+	cont "zenuwslopend." ; "nerve wracking."
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "De ZWEEFTREIN" ; "The MAGNET TRAIN"
+	line "haalt wel" ; "travels at over"
 
-	para "340 mph. It goes"
-	line "between KANTO and"
+	para "550 kmu. Binnen" ; "340 mph. It goes"
+	line "no-time reis je" ; "between KANTO and"
 
-	para "JOHTO in almost no"
-	line "time at all."
+	para "tussen JOHTO" ; "JOHTO in almost no"
+	line "en KANTO." ; "time at all."
 
-	para "It really makes"
-	line "JOHTO accessible."
+	para "JOHTO, je bent" ; "It really makes"
+	line "er zo!" ; "JOHTO accessible."
 	done
 
 CeruleanPokecenter1F_MapEvents:
