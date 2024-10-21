@@ -8,4 +8,4 @@
 
 	page "gevechten vooral" ; "in battle, the"
 	next "in de weg komt te" ; "claw just gets in"
-	next #zitten.@ "the way.@"
+	next "zitten.@" "the way.@"
