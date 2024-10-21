@@ -104,7 +104,7 @@ DaisyAlrightText:
 	done
 
 GroomedMonLooksContentText:
-	text_ram wStringBuffer3 ;; MaxLength MaxPokemonNameLength
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text " looks"
 	line "content."
 	done
