@@ -34,7 +34,6 @@ jobs:
           
   validate:
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       
@@ -70,7 +69,6 @@ jobs:
         if: steps.changed-asm-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-asm-files.outputs.all_changed_files }}
-        continue-on-error: true
         run: |
           PROBLEM=0
           set +e
