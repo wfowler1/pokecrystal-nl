@@ -3,7 +3,7 @@
 	dw 380 ; weight
 
 	db   "Gebruikt de lange" ; "It uses its long"
-	next "snavel bij aanval-." ; "beak to attack. It"
+	next "snavel bij aanval-" ; "beak to attack. It"
 	next "len. Heeft ook" ; "has a surprisingly"
 
 	page "verrassend groot" ; "long reach, so it"

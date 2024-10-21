@@ -8,4 +8,4 @@
 
 	page "vreemde geur, dan" ; "smell, it roars"
 	next "jaagt het de in-" ; "loudly to force"
-	next "breker weg." ; "out the intruder.@"
+	next "breker weg.@" ; "out the intruder.@"
