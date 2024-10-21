@@ -27,16 +27,16 @@ EcruteakLugiaSpeechHouseGrampsText:
 	line "vliegende #MON" ; "MON was blocking"
 	cont "blokkeerde de zon." ; "out the sun."
 
-	para "Ik vraag me af" ; "I wonder what that"
-	line "wat die #MON was?" ; "#MON was? "
+	para "Ik vraag me af wat" ; "I wonder what that"
+	line "die #MON was?" ; "#MON was? "
 
 	para "Het leek op 'n vo-" ; "It was like a bird"
 	line "gel en een draak." ; "and a dragon."
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Is er echt een #" ; "Is there really a"
-	line "MON die zo groot is?" ; "#MON that big?"
+	text "Is er echt zo'n" ; "Is there really a"
+	line "grote #MON?" ; "#MON that big?"
 
 	para "Als het bestaat," ; "If it exists, it"
 	line "is het vast sterk." ; "must be powerful."

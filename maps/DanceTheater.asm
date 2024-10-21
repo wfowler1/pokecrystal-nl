@@ -306,9 +306,9 @@ DanceTheaterCooltrainerMText:
 	text "Die man is altijd" ; "That man's always"
 	line "bij zijn RHYDON." ; "with his RHYDON."
 
-	para "Zegt dat ie een" ; "Says he wants a"
-	line "#MON wil die kan" ; "#MON that can"
-	cont "SURF en dansen." ; "SURF and dance."
+	para "Hij wil een #-" ; "Says he wants a"
+	line "MON die kan SURFen" ; "#MON that can"
+	cont "en dansen." ; "SURF and dance."
 
 	para "Probeert ie een" ; "Is he trying to"
 	line "synchroon-" ; "make a synchro-"

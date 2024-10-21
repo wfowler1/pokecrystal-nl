@@ -31,8 +31,8 @@ Route32RuinsOfAlphGatePokefanMText:
 	text "Bestudeer je" ; "You're studying"
 	line "de RUÏNES?" ; "the RUINS?"
 
-	para "Ik zie een weten-" ; "I see a scientist"
-	line "schapper in wording." ; "in the making."
+	para "Een wetenschapper" ; "I see a scientist"
+	line "in wording, dus." ; "in the making."
 	done
 
 Route32RuinsOfAlphGateYoungsterText:

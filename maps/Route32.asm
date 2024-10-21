@@ -573,8 +573,8 @@ Route32CooltrainerMText_HaveThisSeed:
 	text "Je hebt een paar" ; "You have some good"
 	line "sterke #MON." ; "#MON there."
 
-	para "Dat komt vast door-" ; "It must be from"
-	line "dat je veel hebt" ; "the training you"
+	para "Dat is vast omdat" ; "It must be from"
+	line "je veel hebt" ; "the training you"
 
 	para "getraind rond" ; "gave them around"
 	line "VIOLET CITY." ; "VIOLET CITY."
@@ -604,7 +604,7 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 
 Text_MillionDollarSlowpokeTail:
 	text "Wil je deze" ; "How would you like"
-	line "heerlijke, voedzame" ; "to have this"
+	line "heerlijke voedzame" ; "to have this"
 
 	para "SLOWPOKESTAART" ; "tasty, nutritious"
 	line "van me kopen?" ; SLOWPOKETAIL?"
@@ -660,11 +660,11 @@ FisherRalph1BeatenText:
 	done
 
 FisherRalphAfterText:
-	text "Vissen? Een levens-" ; "Fishing is a life-"
-	line "lange passie." ; "long passion."
+	text "Vissen? Een passie" ; "Fishing is a life-"
+	line "voor het leven." ; "long passion."
 
-	para "#MON? Levens-" ; "#MON are life-"
-	line "lange vrienden!" ; "long friends!"
+	para "#MON? Vrienden" ; "#MON are life-"
+	line "voor het leven!" ; "long friends!"
 	done
 
 FisherRalphSwarmText:

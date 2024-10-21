@@ -137,8 +137,8 @@ EcruteakTwoTowersText:
 	done
 
 EcruteakThreeMonText:
-	text "In ECRUTEAK woonden" ; "ECRUTEAK was also"
-	line "ook drie #MON" ; "home to three"
+	text "In ECRUTEAK woon-" ; "ECRUTEAK was also"
+	line "den drie #MON" ; "home to three"
 
 	para "die rondom de" ; "#MON that raced"
 	line "stad raceden." ; "around the town."

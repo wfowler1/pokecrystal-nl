@@ -97,8 +97,8 @@ SailorTerrellAfterBattleText:
 
 GentlemanPrestonSeenText:
 	text "Ik reis de wereld" ; "I travel the world"
-	line "rond om mijn" ; "to train my #-"
-	cont "#MON te trainen." ; "MON. I wish to"
+	line "rond om mijn #-" ; "to train my #-"
+	cont "MON te trainen." ; "MON. I wish to"
 	cont "Ik wil met je" ; "battle with you."
 	cont "vechten." ; 
 	done

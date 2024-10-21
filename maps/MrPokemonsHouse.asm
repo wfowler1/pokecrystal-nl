@@ -343,7 +343,7 @@ MrPokemonText_GimmeTheScale:
 	done
 
 MrPokemonText_Disappointed:
-	text "Ai, teleurstellend." ; "That's disappoint-"
+	text "Ai, wat jammer." ; "That's disappoint-"
 	line "Dat is toevallig" ; "ing. That happens"
 	cont "heel erg zeldzaam." ; "to be very rare."
 	done

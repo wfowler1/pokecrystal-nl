@@ -155,10 +155,10 @@ EcruteakPokecenter1F_BillText2:
 	line "TIJDCAPSULES" ; "CAPSULES will be"
 
 	para "draaien in alle" ; "running at all"
-	line "#MON CENTERS." ; "#MON CENTERS."
+	line "#MON CENTRA." ; "#MON CENTERS."
 
 	para "Ik moet nu snel" ; "I have to hurry on"
-	line "terug naar GOLDENROD" ; "back to GOLDENROD"
+	line "naar GOLDENROD" ; "back to GOLDENROD"
 	cont "om mijn ouders" ; "and see my folks."
 	cont "te zien." ; 
 
@@ -204,8 +204,8 @@ EcruteakPokecenter1FCooltrainerFText:
 EcruteakPokecenter1FGymGuideText:
 	text "MEER VAN RAZERNIJ…" ; "LAKE OF RAGE…"
 
-	para "Het verschijnen van" ; "The appearance of"
-	line "een GYARADOS-" ; "a GYARADOS swarm…"
+	para "Het verschijnen" ; "The appearance of"
+	line "van een GYARADOS-" ; "a GYARADOS swarm…"
 	cont "zwerm…"
 
 	para "Ik ruik een samen-" ; "I smell a conspir-"

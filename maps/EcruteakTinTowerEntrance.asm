@@ -227,8 +227,8 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	para "Jij…" ; "You…"
 
 	para "Misschien lukt" ; "You may be able to"
-	line "het je om	door" ; "make it through"
-	cont "TIN TOREN te komen." ; "TIN TOWER."
+	line "het je om	door TIN" ; "make it through"
+	cont "TOREN te komen." ; "TIN TOWER."
 
 	para "Toe, ga verder." ; "Please, do go on."
 	done
@@ -247,8 +247,8 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	para "Jij…" ; "You…"
 
 	para "Misschien lukt" ; "You may be able to"
-	line "het je om	door" ; "make it through"
-	cont "TIN TOREN te komen." ; "TIN TOWER."
+	line "het je om	door TIN" ; "make it through"
+	cont "TOREN te komen." ; "TIN TOWER."
 
 	para "Toe, ga verder." ; "Please, do go on."
 	done

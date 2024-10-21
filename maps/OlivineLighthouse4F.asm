@@ -65,7 +65,7 @@ LassConnie1SeenText:
 	done
 
 LassConnie1BeatenText:
-	text "Aaah! Mijn #MON!" ; "Aaack! My #MON!"
+	text "Aah! Mijn #MON!" ; "Aaack! My #MON!"
 	done
 
 LassConnie1AfterBattleText:
@@ -74,8 +74,8 @@ LassConnie1AfterBattleText:
 	cont "als zijn of haar" ; "if his or her own"
 	cont "#MON ziek is." ; "#MON were hurt."
 
-	para "Ik bid voor de" ; "I'll pray for the"
-	line "#MON hier, zodat" ; "#MON here, so"
+	para "Ik bid hier voor" ; "I'll pray for the"
+	line "de #MON, zodat" ; "#MON here, so"
 
 	para "JASMINE terug naar" ; "JASMINE can come"
 	line "de GYM kan komen." ; "back to the GYM."

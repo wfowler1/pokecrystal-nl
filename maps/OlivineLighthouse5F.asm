@@ -80,8 +80,8 @@ BirdKeeperDenisBeatenText:
 	done
 
 BirdKeeperDenisAfterBattleText:
-	text "Mijn #MON leerde" ; "My #MON learned"
-	line "VLIEGEN in" ; "how to use FLY in"
+	text "Mijn #MON" ; "My #MON learned"
+	line "leerde VLIEGEN in" ; "how to use FLY in"
 	cont "CIANWOOD." ; "CIANWOOD."
 
 	para "Nou, omdat ik een" ; "Well, since I'm a"

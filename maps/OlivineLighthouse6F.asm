@@ -161,9 +161,9 @@ OlivineLighthouseJasmineLeavesRightMovement:
 
 JasmineCianwoodPharmacyText:
 	text "JASMINE: …Deze" ; "JASMINE: … This"
-	line "#MON lichtte al-" ; "#MON always"
+	line "#MON lichtte" ; "#MON always"
 
-	para "tijd 's nachts" ; "kept the sea lit"
+	para "altijd 's nachts" ; "kept the sea lit"
 	line "de zee op." ; "at night."
 
 	para "…Maar het werd" ; "…But it suddenly"

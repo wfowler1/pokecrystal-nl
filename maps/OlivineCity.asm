@@ -185,10 +185,10 @@ OlivineCityRivalText:
 	para "Blijkbaar aan het" ; "Supposedly taking"
 	line "zorgen voor een" ; "care of a sick"
 
-	para "zieke #MON in de" ; "#MON at the"
-	line "VUURTOREN." ; "LIGHTHOUSE."
+	para "zieke #MON in" ; "#MON at the"
+	line "de VUURTOREN." ; "LIGHTHOUSE."
 
-	para "Pff! Huilie-huilie!" ; "Humph! Boo-hoo!"
+	para "Pf! Huilie-huilie!" ; "Humph! Boo-hoo!"
 	line "Laat zieke #MON" ; "Just let sick"
 	cont "gewoon zitten!" ; "#MON go!"
 

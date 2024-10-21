@@ -196,9 +196,9 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oeps! Ik heel spijt!" ; "Oops! I so sorry!"
+	text "Oeps! Ik spijt!" ; "Oops! I so sorry!"
 	line "Jij niet pijn," ; "You not hurt,"
-	cont "okay?" ; "okay?"
+	cont "oké?" ; "okay?"
 
 	para "Ik heel druk." ; "I very busy."
 	line "Geen tijd voor" ; "No time for talk-"

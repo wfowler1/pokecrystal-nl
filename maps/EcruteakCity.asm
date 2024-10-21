@@ -135,7 +135,7 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "Ik ga oefenen" ; "I'm going to prac-"
-	line "in het DANSTHEATER." ; "tice at the DANCE"
+	line "in 't DANSTHEATER." ; "tice at the DANCE"
 
 	para "Zin om mee" ; "THEATER. Care to"
 	line "te gaan?" ; "join me?"
@@ -163,18 +163,18 @@ EcruteakCityFisherText:
 	line "rucht over SCHIJN-" ; "about OLIVINE"
 	cont "ENDE VUURTOREN." ; "LIGHTHOUSE."
 
-	para "De #MON die dient" ; "The #MON that"
-	line "als baken is ziek." ; "serves as the"
+	para "De #MON die" ; "The #MON that"
+	line "dient als baken is" ; "serves as the"
 
-	para "Zo te horen" ; "beacon fell ill."
+	para "ziek. Zo te horen" ; "beacon fell ill."
 	line "zitten ze in" ; "Sounds like they"
 	cont "de problemen." ; "are in trouble."
 	done
 
 EcruteakCityFisherText_JasmineReturned:
-	text "De #MON in SCHIJN-" ; "The #MON at"
-	line "ENDE VUURTOREN" ; "OLIVINE LIGHTHOUSE"
-	cont "is genezen." ; "has been cured."
+	text "De #MON in" ; "The #MON at"
+	line "SCHIJNENDE VUUR-" ; "OLIVINE LIGHTHOUSE"
+	cont "TOREN is genezen." ; "has been cured."
 
 	para "Boten kunnen 's" ; "Boats can safely"
 	line "nachts weer veilig" ; "sail out to sea at"
@@ -182,11 +182,12 @@ EcruteakCityFisherText_JasmineReturned:
 	done
 
 EcruteakCityYoungsterText:
-	text "Ik hoorde dat #MON" ; "I hear #MON are"
-	line "tekeer gaan bij het" ; "rampaging at the"
+	text "Ik hoorde dat" ; "I hear #MON are"
+	line "#MON tekeer" ; "rampaging at the"
 
-	para "MEER VAN RAZERNIJ." ; "LAKE OF RAGE. I'd"
-	line "Dat wil ik zien." ; "like to see that."
+	para "gaan bij het MEER" ; "LAKE OF RAGE. I'd"
+	line "VAN RAZERNIJ." ; "like to see that."
+	cont "Dat wil ik zien."
 	done
 
 EcruteakCityGramps3Text:
