@@ -561,7 +561,7 @@ Route32CooltrainerMText_VioletGym:
 	line "al bezocht?" ; "the #MON GYM?"
 
 	para "Test er je" ; "You can test your"
-	line '#MON en jezelf" ; "#MON and your-"
+	line "#MON en jezelf" ; "#MON and your-"
 	cont "op de proef." ; "self there."
 
 	para "Het is een vuur-" ; "It's a rite of"
@@ -599,7 +599,7 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	line "VIOLET CITY komen" ; "in VIOLET CITY"
 
 	para "vast van pas op" ; "should be useful"
-	line "je reis." "for your journey."
+	line "je reis." ; "for your journey."
 	done
 
 Text_MillionDollarSlowpokeTail:
