@@ -1,11 +1,11 @@
-	db "DRAGON@" ; species name
+	db "DRAAK@" ; species name
 	db 4 ; height
 	dw 80 ; weight
 
-	db   "When they're in a"
-	next "safe location,"
-	next "they can be seen"
+	db   "Op veilige" ; "When they're in a"
+	next "locaties draaien" ; "safe location,"
+	next "ze soms speels hun" ; "they can be seen"
 
-	page "playfully tangling"
-	next "their tails"
-	next "together.@"
+	page "staarten om die" ; "playfully tangling"
+	next "van soortgenoten" ; "their tails"
+	next "heen.@" ; "together.@"

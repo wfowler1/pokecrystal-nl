@@ -1,11 +1,11 @@
-	db "LIGHTNING@" ; species name
+	db "BLIKSEM@" ; species name
 	db 8 ; height
 	dw 245 ; weight
 
-	db   "The negatively"
-	next "charged ions"
-	next "generated in its"
+	db   "Negatief geladen" ; "The negatively"
+	next "ionen gegenereerd" ; "charged ions"
+	next "in de vacht maken" ; "generated in its"
 
-	page "fur create a"
-	next "constant sparking"
-	next "noise.@"
+	page "een continu" ; "fur create a"
+	next "krakend geluid bij"
+	next "deze #MON.@" ; "noise.@"

@@ -1,11 +1,11 @@
-	db "DARK@" ; species name
+	db "DUISTER@" ; species name
 	db 14 ; height
 	dw 350 ; weight
 
-	db   "The pungent-"
-	next "smelling flame"
-	next "that shoots from"
+	db   "De ranzig ruikende" ; "The pungent-"
+	next "vlam die uit de" ; "smelling flame"
+	next "bek schiet wordt" ; "that shoots from"
 
-	page "its mouth results"
-	next "from toxins burn-"
-	next "ing in its body.@"
+	page "gemaakt door gif" ; "its mouth results"
+	next "dat in het lijf" ; "from toxins burn-"
+	next "wordt verbrand.@" ; "ing in its body.@"

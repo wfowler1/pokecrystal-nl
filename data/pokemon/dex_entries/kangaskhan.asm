@@ -1,11 +1,11 @@
-	db "PARENT@" ; species name
+	db "OUDER@" ; species name
 	db 22 ; height
 	dw 800 ; weight
 
-	db   "To avoid"
-	next "crushing the"
-	next "baby it carries in"
+	db   "Om te voorkomen" ; "To avoid"
+	next "dat de baby in de" ; "crushing the"
+	next "draagzak verdrukt" ; "baby it carries in"
 
-	page "its pouch, it"
-	next "always sleeps"
-	next "standing up.@"
+	page "wordt, slaapt deze" ; "its pouch, it"
+	next "#MON altijd" ; "always sleeps"
+	next "rechtop staand.@" ; "standing up.@"

@@ -1,11 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "KATOENPLANT@" ; species name
 	db 4 ; height
 	dw 5 ; weight
 
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
+	db   "Wordt weggeblazen" ; "It can be carried"
+	next "door zelfs de" ; "away on even the"
+	next "zachtste wind." ; "gentlest breeze."
 
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	page "Zweeft dan soms" ; "It may even float"
+	next "zelfs naar het" ; "all the way to the"
+	next "volgende dorp.@" ; "next town.@"

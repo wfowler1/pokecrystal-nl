@@ -1,11 +1,11 @@
-	db "RIVER CRAB@" ; species name
+	db "RIVIERKRAB@" ; species name
 	db 4 ; height
 	dw 65 ; weight
 
-	db   "If it is unable"
-	next "to find food, it"
-	next "will absorb"
+	db   "Als het geen eten" ; "If it is unable"
+	next "weet te vinden," ; "to find food, it"
+	next "neemt het een hap" ; "will absorb"
 
-	page "nutrients by"
-	next "swallowing a"
-	next "mouthful of sand.@"
+	page "zand om daar de" ; "nutrients by"
+	next "voedingsstoffen" ; "swallowing a"
+	next "uit te absorberen." ; "mouthful of sand.@"
