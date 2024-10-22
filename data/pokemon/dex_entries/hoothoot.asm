@@ -1,11 +1,11 @@
-	db "OWL@" ; species name
+	db "UIL@" ; species name
 	db 7 ; height
 	dw 212 ; weight
 
-	db   "It begins to hoot"
-	next "at the same time"
-	next "every day. Some"
+	db   "Begint iedere dag" ; "It begins to hoot"
+	next "om dezelfde tijd" ; "at the same time"
+	next "met oehoe-georep." ; "every day. Some"
 
-	page "trainers use them"
-	next "in place of"
-	next "clocks.@"
+	page "Sommige trainers" ; "trainers use them"
+	next "gebruiken ze als" ; "in place of"
+	next "klokken.@" ; "clocks.@"

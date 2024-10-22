@@ -1,11 +1,11 @@
-	db "DARK@" ; species name
+	db "DUISTER@" ; species name
 	db 6 ; height
 	dw 108 ; weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db   "Onheilspellend" ; "Around dawn, its"
+	next "gejank van deze" ; "ominous howl"
+	next "#MON echoot" ; "echoes through the"
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"
+	page "in de ochtend om" ; "area to announce"
+	next "zo territorium te" ; "that this is its"
+	next "claimen.@" ; "territory.@"

@@ -1,11 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "KATOENPLANT@" ; species name
 	db 8 ; height
 	dw 30 ; weight
 
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
+	db   "Kan in de hardste" ; "Even in the fierc-"
+	next "wind met dons" ; "est wind, it can"
+	next "navigeren naar" ; "control its fluff"
 
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"
+	page "bijna iedere plek" ; "to make its way to"
+	next "ergens ter" ; "any place in the"
+	next "wereld.@" ; "world it wants.@"
