@@ -693,15 +693,32 @@ namespace PokeGen2TextValidator
         };
 
         public static char Terminator = '@';
-        public static string Printable = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789";
 
+        /// <summary>
+        /// Raw text.
+        /// </summary>
         public string Text { get; private set; }
+        /// <summary>
+        /// The remaining text after the formatted strings are stripped out.
+        /// </summary>
+        public string Unformatted { get; private set; }
+        /// <summary>
+        /// Length of text, including maximum lengths of formatted parts.
+        /// </summary>
         public int Length { get; private set; }
+        /// <summary>
+        /// Can length of text be reliably determined?
+        /// </summary>
         public bool LengthUnknown { get; private set; }
+        /// <summary>
+        /// Does the text have an '@' terminator?
+        /// </summary>
         public bool IsTerminated { get; private set; }
 
         public FormattedText()
         {
+            Text = string.Empty;
+            Unformatted = string.Empty;
         }
 
         public FormattedText(string text, bool lengthUnknown = false)
@@ -724,8 +741,9 @@ namespace PokeGen2TextValidator
             }
 
             Length += text.Length;
+            Unformatted = text;
             LengthUnknown |= lengthUnknown;
-            IsTerminated = text.EndsWith("@");
+            IsTerminated = Text.EndsWith("@");
         }
 
         public override string ToString()
@@ -745,7 +763,7 @@ namespace PokeGen2TextValidator
         public const int MaxMoveNameLength = 12;
         public const int MaxItemNameLength = 12;
         public const int MaxTypeNameLength = 8;
-        public const int MaxStatNameLength = 9;
+        public const int MaxStatNameLength = 8;
         public const int MaxBagPocketNameLength = 11;
         public const int MaxDecorationNameLength = 17;
 
@@ -754,6 +772,8 @@ namespace PokeGen2TextValidator
 
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
+
+        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789";
 
         private Block _block;
 
@@ -825,6 +845,14 @@ namespace PokeGen2TextValidator
                 if (string.IsNullOrWhiteSpace(formattedText?.Text) || formattedText.Text.StartsWith("INCLUDE"))
                 {
                     continue;
+                }
+
+                foreach (char c in formattedText.Unformatted)
+                {
+                    if (!PrintableChars.Contains(c.ToString()))
+                    {
+                        sb.Append(GetUnmappedCharErrorMessage(formattedText, c));
+                    }
                 }
 
                 if (_block.Type == FileType.Pokedex)
@@ -930,7 +958,7 @@ namespace PokeGen2TextValidator
         private string GetLengthErrorMessage(FormattedText formattedText, int maxLength)
         {
             StringBuilder sb = new StringBuilder();
-            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" can be ").Append(formattedText.Length).Append(" chars! Text can be at most ").Append(maxLength).Append(" characters long.\n").ToString();
+            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" may be ").Append(formattedText.Length).Append(" chars! Text can be at most ").Append(maxLength).Append(" characters long.\n").ToString();
         }
 
         private string GetLandmarkLineValidationMessage(FormattedText formattedText, int maxLength)
@@ -955,6 +983,12 @@ namespace PokeGen2TextValidator
         {
             StringBuilder sb = new StringBuilder();
             return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" must be exactly ").Append(length).Append(" chars long.\n").ToString();
+        }
+
+        private string GetUnmappedCharErrorMessage(FormattedText formattedText, char unmapped)
+        {
+            StringBuilder sb = new StringBuilder();
+            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" contains unmapped character \'").Append(unmapped).Append("\'.\n").ToString();
         }
 
     }
