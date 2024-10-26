@@ -148,215 +148,215 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
-	line "I never lose when"
+	text "Ik ben BUGSY!" ; "I'm BUGSY!"
+	line "Ik verlies nooit" ; "I never lose when"
 
-	para "it comes to bug"
-	line "#MON."
+	para "met mijn" ; "it comes to bug"
+	line "insect-#MON." ; "#MON."
 
-	para "My research is"
-	line "going to make me"
+	para "Mijn studie naar" ; "My research is"
+	line "insect-#MON" ; "going to make me"
 
-	para "the authority on"
-	line "bug #MON!"
+	para "zal mij de" ; "the authority on"
+	line "autoriteit maken!" ; "bug #MON!"
 
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "Laat me je demon-" ; "Let me demonstrate"
+	line "streren wat ik" ; "what I've learned"
+	cont "zoal geleerd heb." ; "from my studies."
 	done
 
 BugsyText_ResearchIncomplete:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #MON!"
+	text "Wow, fantastich!" ; "Whoa, amazing!"
+	line "Je bent echt een" ; "You're an expert"
+	cont "#MON-expert!" ; "on #MON!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Ik ben nog lang" ; "My research isn't"
+	line "niet uitgeleerd." ; "complete yet."
 
-	para "OK, you win. Take"
-	line "this BADGE."
+	para "OK, jij wint. Neem" ; "OK, you win. Take"
+	line "deze badge." ; "this BADGE."
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> received"
-	line "HIVEBADGE."
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "KORFBADGE" ; "HIVEBADGE."
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "BADGE?"
+	text "Ken je de voor-" ; "Do you know the"
+	line "delen van de" ; "benefits of HIVE-"
+	cont "KORFBADGE?" ; "BADGE?"
 
-	para "If you have it,"
-	line "#MON up to L30"
+	para "Hiermee zullen" ; "If you have it,"
+	line "MON tot N30" ; "#MON up to L30"
 
-	para "will obey you,"
-	line "even traded ones."
+	para "naar je luisteren," ; "will obey you,"
+	line "ook geruilde." ; "even traded ones."
 
-	para "#MON that know"
-	line "CUT will be able"
+	para "Als je #MON met" ; "#MON that know"
+	line "SNIJDEN hebt," ; "CUT will be able"
 
-	para "to use it outside"
-	line "of battle too."
+	para "werkt dit ook" ; "to use it outside"
+	line "buiten gevechten." ; "of battle too."
 
-	para "Here, I also want"
-	line "you to have this."
+	para "Hier, deze mag je" ; "Here, I also want"
+	line "ook van me hebben." ; "you to have this."
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM49 contains"
-	line "FURY CUTTER."
+	text "TM49 bevat" ; "TM49 contains"
+	line "FURIESNIJDER." ; "FURY CUTTER."
 
-	para "If you don't miss,"
-	line "it gets stronger"
-	cont "every turn."
+	para "Als je niet mist," ; "If you don't miss,"
+	line "wordt ie elke" ; "it gets stronger"
+	cont "beurt sterker." ; "every turn."
 
-	para "The longer your"
-	line "battle goes, the"
-	cont "better it gets."
+	para "Hoe langer het" ; "The longer your"
+	line "gevecht duurt, hoe" ; "battle goes, the"
+	cont "beter het wordt." ; "better it gets."
 
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "Is dat niet gaaf?" ; "Isn't that great?"
+	line "Heb ik ontdekt!" ; "I discovered it!"
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Bug #MON are"
-	line "deep. There are"
+	text "Over insect" ; "Bug #MON are"
+	line "#MON zijn nog" ; "deep. There are"
 
-	para "many mysteries to"
-	line "be explored."
+	para "veel mysteries om" ; "many mysteries to"
+	line "te ontrafelen" ; "be explored."
 
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "Bestudeer je favo-" ; "Study your favor-"
+	line "rieten uitvoerig." ; "ites thoroughly."
 	done
 
 BugCatcherBennySeenText:
-	text "Bug #MON evolve"
-	line "young. So they get"
+	text "Insect-#MON" ; "Bug #MON evolve"
+	line "evolueren vroeg," ; "young. So they get"
 
-	para "stronger that much"
-	line "faster."
+	para "zodat ze sneller" ; "stronger that much"
+	line "sterker worden." ; "faster."
 	done
 
 BugCatcherBennyBeatenText:
-	text "Just evolving"
-	line "isn't enough!"
+	text "Alleen evolueren" ; "Just evolving"
+	line "is niet genoeg!" ; "isn't enough!"
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "#MON worden" ; "#MON become"
+	line "sterker als ze" ; "stronger if they"
+	cont "evolueren. Echt!" ; "evolve. Really!"
 	done
 
 BugCatcherAlSeenText:
-	text "Bug #MON are"
-	line "cool and tough!"
+	text "Insect-#MON" "Bug #MON are"
+	line "zijn echt cool" ; "cool and tough!"
 
-	para "I'll prove it to"
-	line "you!"
+	para "en sterk! Ik zal" ; "I'll prove it to"
+	line "het je bewijzen!" ; "you!"
 	done
 
 BugCatcherAlBeatenText:
-	text "You proved how"
-	line "tough you are…"
+	text "Je hebt bewezen" ; "You proved how"
+	line "hoe sterk je bent…" ; "tough you are…"
 	done
 
 BugCatcherAlAfterBattleText:
-	text "They're so cool,"
-	line "but most girls"
+	text "Ze zijn heel cool" ; "They're so cool,"
+	line "maar veel meiden" ; "but most girls"
 
-	para "don't like bug"
-	line "#MON."
+	para "houden niet van" ; "don't like bug"
+	line "insect-#MON" ; "#MON."
 
-	para "I don't know why…"
+	para "Geen idee waarom…" ; "I don't know why…"
 	done
 
 BugCatcherJoshSeenText:
-	text "You saved all the"
-	line "SLOWPOKE? Whew,"
-	cont "you're mighty!"
+	text "Je hebt alle SLOW-" ; "You saved all the"
+	line "POKE gered? Tjee," ; "SLOWPOKE? Whew,"
+	cont "indrukwekkend!" ; "you're mighty!"
 
-	para "But my grown-up"
-	line "#MON are pretty"
-	cont "tough too!"
+	para "Maar mijn ge-" ; "But my grown-up"
+	line "trainde #MON" ; "#MON are pretty"
+	cont "zijn ook sterk!" ; "tough too!"
 	done
 
 BugCatcherJoshBeatenText:
-	text "Urrgggh!"
+	text "Urrgggh!" ; "Urrgggh!"
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "I guess I should"
-	line "teach them better"
-	cont "moves…"
+	text "Ik moet ze" ; "I guess I should"
+	line "betere aanvallen" ; "teach them better"
+	cont "leren, denk ik…" ; "moves…"
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
-	line "challenging the"
-	cont "LEADER? No way!"
+	text "AMY: He! Daag jij" ; "AMY: Hi! Are you"
+	line "de GYMLEIDER uit?" ; "challenging the"
+	cont "Echt niet!" ; "LEADER? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "AMY & MAY: Oh," ; "AMY & MAY: Oh,"
+	line "je ziet dubbel!" ; "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
-	line "really strong!"
+	text "AMY: Je bent" ; "AMY: You're"
+	line "echt sterk!" ; "really strong!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "We come first!"
+	text "MAY: Ben je hier" ; "MAY: You want to"
+	line "voor de GYMLEIDER?" ; "see the LEADER?"
+	cont "Wij komen eerst!" ; "We come first!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "AMY & MAY: Oh," ; "AMY & MAY: Oh,"
+	line "je ziet dubbel!" ; "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "MAY: Onze insect-" ; "MAY: Our bug #-"
+	line "#MON hebben" ; "MON lost! Oh, what"
+	cont "verloren, wat jammer!" ; "a shame."
 	done
 
 AzaleaGymGuideText:
-	text "Yo, challenger!"
+	text "Yo, uitdager!" ; "Yo, challenger!"
 
-	para "BUGSY's young, but"
-	line "his knowledge of"
+	para "BUGSY is jong," ; "BUGSY's young, but"
+	line "maar hij weet" ; "his knowledge of"
 
-	para "bug #MON is for"
-	line "real."
+	para "veel van insect-" ; "bug #MON is for"
+	line "#MON" ; "real."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Zonder mijn" ; "It's going to be"
+	line "advies wordt het" ; "tough without my"
+	cont "lastig voor je." ; "advice."
 
-	para "Let's see… Bug"
-	line "#MON don't like"
-	cont "fire."
+	para "Even denken. In-" ; "Let's see… Bug"
+	line "sect-#MON zijn" ; "#MON don't like"
+	cont "zwak tegen vuur." ; "fire."
 
-	para "Flying-type moves"
-	line "are super-effec-"
-	cont "tive too."
+	para "Vlieg-aanvallen" ; "Flying-type moves"
+	line "zijn ook super-" ; "are super-effec-"
+	cont "effectief." ; "tive too."
 	done
 
 AzaleaGymGuideWinText:
-	text "Well done! That"
-	line "was a great clash"
+	text "Goed gedaan! Wat" ; "Well done! That"
+	line "een spannende" ; "was a great clash"
 
-	para "of talented young"
-	line "trainers."
+	para "strijd tussen twee" ; "of talented young"
+	line "jonge talenten." ; "trainers."
 
-	para "With people like"
-	line "you, the future of"
-	cont "#MON is bright!"
+	para "De toekomst is" ; "With people like"
+	line "rooskleurig met" ; "you, the future of"
+	cont "trainers als jij!" ; "#MON is bright!"
 	done
 
 AzaleaGym_MapEvents:

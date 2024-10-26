@@ -244,212 +244,212 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step_end
 
 AzaleaTownRivalBeforeText:
-	text "…Tell me some-"
-	line "thing."
+	text "…Vertel mij eens" ; "…Tell me some-"
+	line "of het zo is." ; "thing."
 
-	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
+	para "Klopt het dat" ; "Is it true that"
+	line "TEAM ROCKET is" ; "TEAM ROCKET has"
+	cont "teruggekeerd?" ; "returned?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "Wat? Je hebt ze" ; "What? You beat"
+	line "verslagen? Hah!" ;  "them? Hah! Quit"
+	cont "Lieg niet." ; "lying."
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "Geen grap? Laat" ; "You're not joking?"
+	line "dan maar eens zien" ; "Then let's see how"
+	cont "hoe goed je bent." ; "good you are."
 	done
 
 AzaleaTownRivalWinText:
-	text "… Humph! Useless"
-	line "#MON!"
+	text "…Pffft. Waardeloze" ; "… Humph! Useless"
+	line "#MON!" ; "#MON!"
 
-	para "Listen, you. You"
-	line "only won because"
+	para "Jij, luister. Je won" ; "Listen, you. You"
+	line "alleen maar omdat" ; "only won because"
 
-	para "my #MON were"
-	line "weak."
+	para "mijn #MON" ; "my #MON were"
+	line "zwak waren." ; "weak."
 	done
 
 AzaleaTownRivalAfterText:
-	text "I hate the weak."
+	text "Ik haat zwakheid." ; "I hate the weak."
 
-	para "#MON, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "#MON, trainers." ; "#MON, trainers."
+	line "Het maakt me niet" ; "It doesn't matter"
+	cont "uit wie of wat." ; "who or what."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Ik word sterk en" ; "I'm going to be"
+	line "veeg alle zwak-" ; "strong and wipe"
+	cont "kelingen weg." ; "out the weak."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "Dat geldt ook voor" ; "That goes for TEAM"
+	line "TEAM ROCKET." ; "ROCKET too."
 
-	para "They act big and"
-	line "tough in a group."
+	para "In een groep doen" ; "They act big and"
+	line "ze heel stoer," ; "tough in a group."
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "maar tref je ze" ; "But get them"
+	line "alleen, dan zijn" ; "alone, and they're"
+	cont "ze zwak." ; "weak."
 
-	para "I hate them all."
+	para "Ik haat ze." ; "I hate them all."
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Blijf uit mijn" ; "You stay out of my"
+	line "buurt. Een watje" ; "way. A weakling"
 
-	para "like you is only a"
-	line "distraction."
+	para "als jij leidt me" ; "like you is only a"
+	line "alleen maar af." ; "distraction."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "…Humph! Ik wist" ; "…Humph! I knew"
+	line "wel dat je loog." ; "you were lying."
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
+	text "Het is daarbinnen" ; "It's unsafe to go"
+	line "onveilig, dus ik" ; "in there, so I'm"
+	cont "houd de wacht." ; "standing guard."
 
-	para "Aren't I a good"
-	line "Samaritan?"
+	para "Ben ik niet" ; "Aren't I a good"
+	line "een goedzak?" ; "Samaritan?"
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
+	text "Ken je SLOWPOKE-" ; "Do you know about"
+	line "STAART? Schijnt" ; "SLOWPOKETAIL? I"
+	cont "lekker te zijn!" ; "heard it's tasty!"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "Fijn dat ik je" ; "Aren't you glad I"
+	line "dat vertelde, toch?" ; "told you that?"
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
-	line "disappeared from"
-	cont "town…"
+	text "De SLOWPOKE zijn" ; "The SLOWPOKE have"
+	line "uit de stad ver-" ; "disappeared from"
+	cont "dwenen…" ; "town…"
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "Hun staarten" ; "I heard their"
+	line "worden ergens ver-" ; "TAILS are being"
+	cont "kocht, hoorde ik." ; "sold somewhere."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
-	line "returned."
+	text "De SLOWPOKE zijn" ; "The SLOWPOKE have"
+	line "weer terug." ; "returned."
 
-	para "Knowing them, they"
-	line "could've just been"
+	para "Hen kennende," ; "Knowing them, they"
+	line "waren ze vast" ; "could've just been"
 
-	para "goofing off some-"
-	line "where."
+	para "ergens aan het" ; "goofing off some-"
+	line "lanterfanten." ; "where."
 	done
 
 AzaleaTownTeacherText:
-	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	text "Ben je hier zodat" ; "Did you come to"
+	line "KURT wat BALLEN" ; "get KURT to make"
+	cont "voor je kan maken?" ; "some BALLS?"
 
-	para "A lot of people do"
-	line "just that."
+	para "Je bent zeker" ; "A lot of people do"
+	line "niet de enige." ; "just that."
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
-	line "and you'll be in"
-	cont "ILEX FOREST."
+	text "Snij door" ; "Cut through AZALEA"
+	line "AZALEA en je bent" ; "and you'll be in"
+	cont "in ILEX FOREST." ; "ILEX FOREST."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Maar door deze" ; "But these skinny"
+	line "magere boompjes" ; "trees make it"
 
-	para "impossible to get"
-	line "through."
+	para "kom je onmoge-" ; "impossible to get"
+	line "lijk doorheen." ; "through."
 
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
-	cont "down trees."
+	para "De HOUTSKOOL MAN's" "The CHARCOAL MAN's"
+	line "#MON kunnen" ; "#MON can CUT"
+	cont "bomen SNIJDEN." ; "down trees."
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "SLOWPOKE: …" ; "SLOWPOKE: …"
 
-	para "<……> <……> <……>"
+	para "<……> <……> <……>" ; "<……> <……> <……>"
 	done
 
 AzaleaTownSlowpokeText2:
-	text "<……> <……>Yawn?"
+	text "<……> <……>Gaap?" ; "<……> <……>Yawn?"
 	done
 
 WoosterText:
-	text "WOOSTER: Gugyoo…"
+	text "WOOSTER: Gugyoo…" ; "WOOSTER: Gugyoo…"
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
-	line "restless!"
+	text "ILEX FOREST is" ; "ILEX FOREST is"
+	line "rusteloos!" ; "restless!"
 
-	para "What is going on?"
+	para "Wat is er loos?" ; "What is going on?"
 	done
 
 AzaleaTownKurtText2:
-	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	text "<PLAYER>, hier is"  ;"<PLAYER>, here's"
+	line "je GZ-BAL terug!" ; "your GS BALL back!"
 	done
 
 AzaleaTownKurtText3:
-	text "Could you go see"
-	line "why ILEX FOREST is"
-	cont "so restless?"
+	text "Wil je kijken wat" '"Could you go see"
+	line "er aan de hand is" ; "why ILEX FOREST is"
+	cont "met ILEX FOREST?" ; "so restless?"
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
-	line "Where People and"
+	text "AZALEA TOWN" ; "AZALEA TOWN"
+	line "Waar Mensen en" ; "Where People and"
 
-	para "#MON Live in"
-	line "Happy Harmony"
+	para "#MON in Blije" ; "#MON Live in"
+	line "Harmonie Leven." ; "Happy Harmony"
 	done
 
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "KURT'S HUIS" ; "KURT'S HOUSE"
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "AZALEA TOWN" ; "AZALEA TOWN"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
+	cont "BUGSY" ; "LEADER: BUGSY"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "De lopende" ; "The Walking"
+	line "Insect-#MON-" ; "Bug #MON"
+	cont "encyclopedie" ; "Encyclopedia"
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "SLOWPOKE-PUT" ; "SLOWPOKE WELL"
 
-	para "Also known as the"
-	line "RAINMAKER WELL."
+	para "Ook bekend als" ; "Also known as the"
+	line "REGENMAKERPUT." ; "RAINMAKER WELL."
 
-	para "Locals believe"
-	line "that a SLOWPOKE's"
-	cont "yawn summons rain."
+	para "De geeuw van SLOW-" ; "Locals believe"
+	line "POKES roept regen" ; "that a SLOWPOKE's"
+	cont "op, zegt men." ; g"yawn summons rain."
 
-	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	para "Een SLOWPOKE-gaap" ; "Records show that"
+	line "stopte 400 jaar" ; "a SLOWPOKE's yawn"
 
-	para "ended a drought"
-	line "400 years ago."
+	para "terug een droogte," ; "ended a drought"
+	line "aldus archieven." ; "400 years ago."
 	done
 
 CharcoalKilnSignText:
-	text "CHARCOAL KILN"
+	text "HOUTSKOOLOVEN" ; "CHARCOAL KILN"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "ILEX FOREST" ; "ILEX FOREST"
 
-	para "Enter through the"
-	line "gate."
+	para "Treed binnen door" ; "Enter through the"
+	line "de poort" ; "gate."
 	done
 
 AzaleaTown_MapEvents:

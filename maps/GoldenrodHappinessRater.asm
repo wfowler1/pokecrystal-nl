@@ -70,68 +70,70 @@ HappinessRatersHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodHappinessRaterTeacherText:
-	text "If you treat your"
-	line "#MON nicely,"
+	text "Als je #MON" ; "If you treat your"
+	line "goed behandelt," ; "#MON nicely,"
 
-	para "they will love you"
-	line "in return."
+	para "zullen ze van" ; "they will love you"
+	line "je houden." ; "in return."
 
-	para "Oh? Let me see"
-	line "your @"
+	para "Oh? Laat me kijken" ; "Oh? Let me see"
+	line "naar @" ; "your @"
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text "…"
 	done
 
 GoldenrodHappinessRatingText_LovesYouALot:
-	text "It looks really"
-	line "happy! It must"
-	cont "love you a lot."
+	text "Het is heel" ; "It looks really"
+	line "gelukkig! Het" ; "happy! It must"
+	cont "houdt veel van je." ; "love you a lot."
 	done
 
 GoldenrodHappinessRatingText_ReallyTrustsYou:
-	text "I get the feeling"
-	line "that it really"
-	cont "trusts you."
+	text "Ik heb het gevoel" ; "I get the feeling"
+	line "dat het je echt" ; "that it really"
+	cont "vertrouwt." ; "trusts you."
 	done
 
 GoldenrodHappinessRatingText_SortOfHappy:
-	text "It's friendly to-"
-	line "ward you. It looks"
-	cont "sort of happy."
+	text "Het is vriendelijk" ; "It's friendly to-"
+	line "naar je. Het is" ; "ward you. It looks"
+	cont "best gelukkig." ; "sort of happy."
 	done
 
 GoldenrodHappinessRatingText_QuiteCute:
-	text "It's quite cute."
+	text "Het is schattig." ; "It's quite cute."
 	done
 
 GoldenrodHappinessRatingText_NotUsedToYou:
-	text "You should treat"
-	line "it better. It's"
-	cont "not used to you."
+	text "Je moet het beter" ; "You should treat"
+	line "behandelen. Het is" ; "it better. It's"
+	cont "je niet gewend." ; "not used to you."
 	done
 
 GoldenrodHappinessRatingText_LooksMean:
-	text "It doesn't seem to"
-	line "like you at all."
-	cont "It looks mean."
+	text "Het lijkt je niet" ; "It doesn't seem to"
+	line "te mogen. Het ziet" ; "like you at all."
+	cont "er gemeen uit." ; "It looks mean."
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "I keep losing in"
-	line "battles, and my"
+	text "Ik blijf maar" ; "I keep losing in"
+	line "verliezen in" ; "battles, and my"
 
-	para "#MON end up"
-	line "fainting…"
+	para "gevechten, en" ; "#MON end up"
+	line "mijn #MON vallen" ; "fainting…"
+	cont "flauw…" ;
 
-	para "Maybe that's why"
-	line "my #MON don't"
-	cont "like me much…"
+	para "Misschien mogen" ; "Maybe that's why"
+	line "m'n #MON me" ; "my #MON don't"
+	cont "daarom niet…" ; "like me much…"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "When I use an item"
-	line "on my #MON, it"
-	cont "acts really glad!"
+	text "Als ik een voorwerp" ; "When I use an item"
+	line "op m'n #MON ge-" ; "on my #MON, it"
+	cont "bruik, lijkt het" ; "acts really glad!"
+	cont "erg blij!" ;
 	done
 
 GoldenrodHappinessRater_MapEvents:

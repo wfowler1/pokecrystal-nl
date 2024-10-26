@@ -96,116 +96,121 @@ GoldenrodUndergroundWarehouseUltraBall:
 	itemball ULTRA_BALL
 
 GruntM24SeenText:
-	text "How did you get"
-	line "this far?"
+	text "Hoe ben je zo" ; "How did you get"
+	line "ver gekomen?" ; "this far?"
 
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	para "Nouja, maakt" ; "I guess it can't"
+	line "niet uit. Ik zorg" ; "be helped. I'll"
+	cont "wel dat je oprot." ; "dispose of you."
 	done
 
 GruntM24BeatenText:
-	text "I got disposed of…"
+	text "Ik ben verslagen…" ; "I got disposed of…"
 	done
 
 GruntM24AfterBattleText:
-	text "TEAM ROCKET will"
-	line "keep going, wait-"
-	cont "ing for the return"
-	cont "of GIOVANNI."
+	text "TEAM ROCKET zal" ; "TEAM ROCKET will"
+	line "blijven bestaan," ; "keep going, wait-"
+	cont "wachtend tot" ; "ing for the return"
+	cont "GIOVANNI terug-" ; "of GIOVANNI."
+	cont "keert." ;
 
-	para "We'll do whatever"
-	line "it takes."
+	para "We gaan tot" ; "We'll do whatever"
+	line "het uiterste." ; "it takes."
 	done
 
 GruntM14SeenText:
-	text "You're not going"
-	line "any farther!"
+	text "Je gaat niet" ; "You're not going"
+	line "verder dan dit!" ; "any farther!"
 
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	para "Ik toon geen" ; "I don't show mercy"
+	line "genade aan mijn" ; "to my enemies, not"
+	cont "vijanden, ook" ; "even brats!"
+	cont "geen ettertjes!" ;
 	done
 
 GruntM14BeatenText:
-	text "Blast it!"
+	text "Verdraaid!" ; "Blast it!"
 	done
 
 GruntM14AfterBattleText:
-	text "I lost…"
+	text "Ik heb verloren…" ; "I lost…"
 
-	para "Please forgive me,"
-	line "GIOVANNI!"
+	para "Vergeef me," ; "Please forgive me,"
+	line "GIOVANNI!" ; "GIOVANNI!"
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
+	text "Whahahaha!" ; "Hyuck-hyuck-hyuck!"
+	line "Ik herken jou!" ; "I remember you!"
 
-	para "You got me good"
-	line "at our hideout!"
+	para "Je had me goed" ; "You got me good"
+	line "te pakken in onze" ; "at our hideout!"
+	cont "schuilplaats!" ;
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	text "Whahahaha!" ; "Hyuck-hyuck-hyuck!"
+	line "Ah, dus zo?" ; "So, that's how?"
 	done
 
 GruntM15AfterBattleText:
-	text "Hyuck-hyuck-hyuck!"
-	line "That was a blast!"
-	cont "I'll remember you!"
+	text "Whahahaha!" ; "Hyuck-hyuck-hyuck!"
+	line "Dat was geweldig!" ; "That was a blast!"
+	cont "Ik zal je" ; "I'll remember you!"
+	cont "onthouden!" ;
 	done
 
 DirectorIntroText:
-	text "DIRECTOR: Who?"
-	line "What? You came to"
-	cont "rescue me?"
+	text "DIRECTEUR: Wie?" ; "DIRECTOR: Who?"
+	line "Wat? Je komt" ; "What? You came to"
+	cont "me redden?" ; "rescue me?"
 
-	para "Thank you!"
+	para "Dankjewel!" ; "Thank you!"
 
-	para "The RADIO TOWER!"
+	para "De RADIOTOREN!" ; "The RADIO TOWER!"
 
-	para "What's happening"
-	line "there?"
+	para "Wat gebeurt" ; "What's happening"
+	line "daar?" ; "there?"
 
-	para "Taken over by TEAM"
-	line "ROCKET?"
+	para "Overgenomen door" ; "Taken over by TEAM"
+	line "TEAM ROCKET?" ; "ROCKET?"
 
-	para "Here. Take this"
-	line "CARD KEY."
+	para "Hier. Neem deze" ; "Here. Take this"
+	line "SLEUTELKAART." ; "CARD KEY."
 	done
 
 DirectorCardKeyText:
-	text "DIRECTOR: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "DIRECTEUR: Gebruik" ; "DIRECTOR: Use that"
+	line "dat om de schuif-" ; "to open the shut-"
+	cont "deuren op 3V te" ; "ters on 3F."
+	cont "openen." ;
 	done
 
 DirectorAfterText:
-	text "I'm begging you to"
-	line "help."
+	text "Ik smeek je" ; "I'm begging you to"
+	line "om hulp." ; "help."
 
-	para "There's no telling"
-	line "what they'll do if"
+	para "Wie weet wat ze" ; "There's no telling"
+	line "doen als ze de" ; "what they'll do if"
 
-	para "they control the"
-	line "transmitter."
+	para "macht hebben" ; "they control the"
+	line "over de zender." ; "transmitter."
 
-	para "They may even be"
-	line "able to control"
+	para "Ze kunnen zelfs" ; "They may even be"
+	line "#MON beheersen" ; "able to control"
 
-	para "#MON using a"
-	line "special signal!"
+	para "door een speciaal" ; "#MON using a"
+	line "signaal te zenden!" ; "special signal!"
 
-	para "You're the only"
-	line "one I can call on."
+	para "Je bent de enige" ; "You're the only"
+	line "die kan helpen." ; "one I can call on."
 
-	para "Please save the"
-	line "RADIO TOWER…"
+	para "Red de RADIOTOREN," ; "Please save the"
+	line "alsjeblieft…" ; "RADIO TOWER…"
 
-	para "And all the #-"
-	line "MON nationwide!"
+	para "En alle #MON" ; "And all the #-"
+	line "in het land!" ; "MON nationwide!"
 	done
 
 GoldenrodUndergroundWarehouse_MapEvents:

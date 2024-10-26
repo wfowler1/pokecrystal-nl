@@ -26,52 +26,52 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Do your #MON"
-	line "know HM moves?"
+	text "Heb je #MON met" ; "Do your #MON"
+	line "VM-aanvallen?" ; "know HM moves?"
 
-	para "Those moves can"
-	line "be used even if"
+	para "Die kun je ook" ; "Those moves can"
+	line "gebruiken als je" ; "be used even if"
 
-	para "your #MON has"
-	line "fainted."
+	para "#MON zijn" ; "your #MON has"
+	line "uitgeschakeld." ; "fainted."
 	done
 
 AzaleaPokecenter1FUnusedText: ; unreferenced
-	text "This BILL guy"
-	line "created the system"
+	text "Ene BILL bedacht" ; "This BILL guy"
+	line "het systeem om" ; "created the system"
 
-	para "for storing"
-	line "#MON in a PC."
+	para "#MON te be-" ; "for storing"
+	line "waren in een PC." ; "#MON in a PC."
 
-	para "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	para "BILL's PC heeft" ; "BILL's PC can"
+	line "ruimte voor 20" ; "store up to 20"
+	cont "#MON per BOX." ; "#MON per BOX."
 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "BILL's PC heeft" ; "BILL's PC can"
+	line "ruimte voor 20" ; "store up to 20"
+	cont "#MON per BOX." ; "#MON per BOX."
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Do you know about"
-	line "APRICORNS?"
+	text "Ben je bekend met" ; "Do you know about"
+	line "ABRIKHORNS?" ; "APRICORNS?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Breek ze open" ; "Crack one open,"
+	line "hol ze uit en" ; "hollow it out and"
 
-	para "fit it with a"
-	line "special device."
+	para "stop er een spe-" ; "fit it with a"
+	line "ciaal apparaat in." ; "special device."
 
-	para "Then you can catch"
-	line "#MON with it."
+	para "Zo kun je er" ; "Then you can catch"
+	line "MON mee vangen." ; "#MON with it."
 
-	para "Before # BALLS"
-	line "were invented,"
+	para "Voordat BALLEN" ; "Before # BALLS"
+	line "waren uitgevonden," ; "were invented,"
 
-	para "everyone used"
-	line "APRICORNS."
+	para "gebruikte iedereen" ; "everyone used"
+	line "ABRIKHORNS." ; "APRICORNS."
 	done
 
 AzaleaPokecenter1F_MapEvents:

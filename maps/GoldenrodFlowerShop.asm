@@ -83,75 +83,77 @@ FlowerShopRadio: ; unreferenced
 	jumpstd Radio2Script
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Have you seen that"
-	line "wiggly tree that's"
+	text "Heb je die" ; "Have you seen that"
+	line "wiebelende boom" ; "wiggly tree that's"
 
-	para "growing on ROUTE"
-	line "36?"
+	para "gezien die op" ; "growing on ROUTE"
+	line "ROUTE 36 groeit?" ; "36?"
 
-	para "My little sister"
-	line "got all excited"
+	para "Mijn zusje is" ; "My little sister"
+	line "heel opgetogen" ; "got all excited"
 
-	para "and went to see"
-	line "it…"
+	para "gaan kijken…" ; "and went to see"
+	line "Ik maak me" ; "it…"
 
-	para "I'm worried… Isn't"
-	line "it dangerous?"
+	para "zorgen. Is het" ; "I'm worried… Isn't"
+	line "niet gevaarlijk?" ; "it dangerous?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Do you want to"
-	line "borrow the water"
+	text "Wil jij ook" ; "Do you want to"
+	line "de waterfles" ; "borrow the water"
 
-	para "bottle too?"
-	line "I don't want you"
+	para "lenen? Ik wil" ; "bottle too?"
+	line "niet dat je er" ; "I don't want you"
 
-	para "doing anything"
-	line "dangerous with it."
+	para "iets gevaarlijks" ; "doing anything"
+	line "mee doet." ; "dangerous with it."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Oh, you're better"
-	line "than WHITNEY…"
+	text "Oh, je bent beter" ; "Oh, you're better"
+	line "dan WHITNEY…" ; "than WHITNEY…"
 
-	para "You'll be OK,"
-	line "then. Here's the"
-	cont "SQUIRTBOTTLE!"
+	para "Dan komt het" ; "You'll be OK,"
+	line "goed. Hier is" ; "then. Here's the"
+	cont "de SPUITFLES!" ; "SQUIRTBOTTLE!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Don't do anything"
-	line "too dangerous!"
+	text "Doe niets" ; "Don't do anything"
+	line "gevaarlijks!" ; "too dangerous!"
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
-	text "Lalala lalalala."
-	line "Have plenty of"
-	cont "water, my lovely!"
+	text "Lalala lalalala." ; "Lalala lalalala."
+	line "Hier, veel water" ; "Have plenty of"
+	cont "voor jou, liefje!" ; "water, my lovely!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Toen ik mijn zus" ; "When I told my sis"
+	line "over de wiebelende" ; "about the jiggly"
 
-	para "tree, she told me"
-	line "it's dangerous."
+	para "boom vertelde, zei" ; "tree, she told me"
+	line "ze dat het gevaar-" ; "it's dangerous."
+	cont "lijk was." ;
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
+	para "Als ik WHITNEY" ; "If I beat WHITNEY,"
+	line "versla, kan ik" ; "I wonder if she'll"
 
-	para "lend me her water"
-	line "bottle…"
+	para "misschien haar" ; "lend me her water"
+	line "waterfles lenen…" ; "bottle…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Wow, you beat"
-	line "WHITNEY? Cool!"
+	text "Wow, je hebt" ; "Wow, you beat"
+	line "WHITNEY verslagen?" ; "WHITNEY? Cool!"
+	cont "Cool!" ;
 	done
 
 GoldenrodFlowerShopFloriaItReallyWasAMonText:
-	text "So it really was a"
-	line "#MON!"
+	text "Dus het was echt" ; "So it really was a"
+	line "een #MON!" ; "#MON!"
 	done
 
 GoldenrodFlowerShop_MapEvents:
