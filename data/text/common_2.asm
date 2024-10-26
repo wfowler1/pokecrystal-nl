@@ -1093,8 +1093,8 @@ _CaughtAskNicknameText::
 	text "Geef een naam aan" ; "Give a nickname to"
 	line "de @" ; "the @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " die je" ; " you"
-	cont "kreeg?" ; "received?"
+	text " die" ; " you"
+	cont "je kreeg?" ; "received?"
 	done
 
 _PokecenterPCCantUseText::
