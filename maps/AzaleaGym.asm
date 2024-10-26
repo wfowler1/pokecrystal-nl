@@ -322,7 +322,7 @@ TwinsAmyandmay2BeatenText:
 TwinsAmyandmay2AfterBattleText:
 	text "MAY: Onze insect-" ; "MAY: Our bug #-"
 	line "#MON hebben" ; "MON lost! Oh, what"
-	cont "verloren, wat jammer!" ; "a shame."
+	cont "verloren, balen!" ; "a shame."
 	done
 
 AzaleaGymGuideText:

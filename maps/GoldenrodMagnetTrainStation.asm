@@ -141,8 +141,8 @@ GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "We zijn gearriveerd" ; "We have arrived in"
-	line "in GOLDENROD." ; "GOLDENROD."
+	text "We zijn nu in" ; "We have arrived in"
+	line "GOLDENROD." ; "GOLDENROD."
 
 	para "Tot ziens." ; "We hope to see you"
 	line "" ; "again."
