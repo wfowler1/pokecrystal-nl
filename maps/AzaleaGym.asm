@@ -250,7 +250,7 @@ BugCatcherBennyAfterBattleText:
 	done
 
 BugCatcherAlSeenText:
-	text "Insect-#MON" "Bug #MON are"
+	text "Insect-#MON" ; "Bug #MON are"
 	line "zijn echt cool" ; "cool and tough!"
 
 	para "en sterk! Ik zal" ; "I'll prove it to"

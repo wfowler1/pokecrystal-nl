@@ -40,7 +40,7 @@ AzaleaMartBugCatcherText:
 
 	para "Maar die van KURT" ; "But KURT's might"
 	line "werken soms" ; "be better some-"
-	cont "nóg beter." ; "times."
+	cont "nog beter." ; "times."
 	done
 
 AzaleaMart_MapEvents:

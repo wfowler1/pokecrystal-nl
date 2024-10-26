@@ -264,8 +264,8 @@ AzaleaTownRivalWinText:
 	text "…Pffft. Waardeloze" ; "… Humph! Useless"
 	line "#MON!" ; "#MON!"
 
-	para "Jij, luister. Je won" ; "Listen, you. You"
-	line "alleen maar omdat" ; "only won because"
+	para "Luister, jij. Je" ; "Listen, you. You"
+	line "won alleen omdat" ; "only won because"
 
 	para "mijn #MON" ; "my #MON were"
 	line "zwak waren." ; "weak."
@@ -320,8 +320,8 @@ AzaleaTownRocket2Text:
 	line "STAART? Schijnt" ; "SLOWPOKETAIL? I"
 	cont "lekker te zijn!" ; "heard it's tasty!"
 
-	para "Fijn dat ik je" ; "Aren't you glad I"
-	line "dat vertelde, toch?" ; "told you that?"
+	para "Fijn dat ik je dat" ; "Aren't you glad I"
+	line "vertelde, toch?" ; "told you that?"
 	done
 
 AzaleaTownGrampsTextBefore:
@@ -365,7 +365,7 @@ AzaleaTownYoungsterText:
 	para "kom je onmoge-" ; "impossible to get"
 	line "lijk doorheen." ; "through."
 
-	para "De HOUTSKOOL MAN's" "The CHARCOAL MAN's"
+	para "De HOUTSKOOLMAN's" ; "The CHARCOAL MAN's"
 	line "#MON kunnen" ; "#MON can CUT"
 	cont "bomen SNIJDEN." ; "down trees."
 	done
@@ -397,7 +397,7 @@ AzaleaTownKurtText2:
 	done
 
 AzaleaTownKurtText3:
-	text "Wil je kijken wat" '"Could you go see"
+	text "Wil je kijken wat" ; '"Could you go see"
 	line "er aan de hand is" ; "why ILEX FOREST is"
 	cont "met ILEX FOREST?" ; "so restless?"
 	done

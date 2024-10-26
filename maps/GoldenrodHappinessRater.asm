@@ -121,8 +121,8 @@ GoldenrodHappinessRaterPokefanMText:
 	line "verliezen in" ; "battles, and my"
 
 	para "gevechten, en" ; "#MON end up"
-	line "mijn #MON vallen" ; "fainting…"
-	cont "flauw…" ;
+	line "mijn #MON" ; "fainting…"
+	cont "vallen flauw…" ;
 
 	para "Misschien mogen" ; "Maybe that's why"
 	line "m'n #MON me" ; "my #MON don't"
@@ -130,10 +130,10 @@ GoldenrodHappinessRaterPokefanMText:
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "Als ik een voorwerp" ; "When I use an item"
-	line "op m'n #MON ge-" ; "on my #MON, it"
-	cont "bruik, lijkt het" ; "acts really glad!"
-	cont "erg blij!" ;
+	text "Als ik een voor-" ; "When I use an item"
+	line "werp op m'n #-" ; "on my #MON, it"
+	cont "MON gebruik, lijkt" ; "acts really glad!"
+	cont "het erg blij!" ;
 	done
 
 GoldenrodHappinessRater_MapEvents:
