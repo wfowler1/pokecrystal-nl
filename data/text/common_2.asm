@@ -226,8 +226,8 @@ _MysteryGiftCommErrorText::
 	prompt
 
 _RetrieveMysteryGiftText::
-	text "Moet CADEAU halen"; "Must retrieve GIFT"
-	line "bij #MONCENTRUM." ; "at #MON CENTER."
+	text "Haal cadeau op bij"; "Must retrieve GIFT"
+	line "#MONCENTRUM." ; "at #MON CENTER."
 	prompt
 
 _YourFriendIsNotReadyText::
@@ -307,7 +307,7 @@ _CantUseItemText::
 
 _UseCutText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text " gebruikte" ; " used"
+	text " deed" ; " used"
 	line "SNIJDEN!" ; "CUT!"
 	prompt
 
@@ -449,8 +449,8 @@ _AskWhirlpoolText::
 
 _UseHeadbuttText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text " deed een" ; " did a"
-	line "KOPSTOOT!" ; "HEADBUTT!"
+	text " deed" ; " did a"
+	line "een KOPSTOOT!" ; "HEADBUTT!"
 	prompt
 
 _HeadbuttNothingText::
@@ -513,7 +513,7 @@ _GotOnBikeText::
 
 _GotOffBikeText::
 	text "<PLAYER> stapte" ; "<PLAYER> got off"
-	line "van de @" ; "the @"
+	line "van @" ; "the @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	done
@@ -1208,7 +1208,7 @@ _OakPCText3::
 	text " #MON gezien" ; " #MON seen"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength 3
-	text " #MON in bezit" ; " #MON owned"
+	text " #MON bezit" ; " #MON owned"
 
 	para "PROF.OAK's"
 	line "Oordeel:" ; "Rating:"
@@ -1251,7 +1251,7 @@ _OakRating05::
 
 _OakRating06:: ; TODO: String too long
 	text "Om te evolueren" ; "To evolve, some"
-	line "groeien je #MON," ; "#MON grow,"
+	line "groeien #MON," ; "#MON grow,"
 
 	para "anderen gebruiken" ; "others use the"
 	line "er STENEN voor." ; "effects of STONES."
