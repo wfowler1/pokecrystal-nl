@@ -7,5 +7,5 @@
 	next "dan de #MON" ; "quickly than it"
 
 	page "nadenkt, wordt" ; "can think, it can"
-	next "vaak tegelijkertijd" ; "execute many"
+	next "vaak tegelijk" ; "execute many"
 	next "geslagen.@" ; "punches at once.@"
