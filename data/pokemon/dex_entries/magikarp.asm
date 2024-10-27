@@ -1,11 +1,11 @@
-	db "FISH@" ; species name
+	db "VIS@" ; species name
 	db 9 ; height
 	dw 100 ; weight
 
-	db   "This weak and"
-	next "pathetic #MON"
-	next "gets easily pushed"
+	db   "Deze zwawkke," ; "This weak and"
+	next "ellendige #MON" ; "pathetic #MON"
+	next "laat zich makkel-" ; "gets easily pushed"
 
-	page "along rivers when"
-	next "there are strong"
-	next "currents.@"
+	page "ijk door rivieren" ; "along rivers when"
+	next "duwen bij hoge" ; "there are strong"
+	next "stromingen.@" ; "currents.@"

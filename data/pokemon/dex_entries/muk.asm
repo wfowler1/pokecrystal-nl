@@ -1,11 +1,11 @@
-	db "SLUDGE@" ; species name
+	db "SLUB@" ; species name
 	db 12 ; height
 	dw 300 ; weight
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db   "Lekt tijdens het" ; "As it moves, a"
+	next "bewegen een sterk" ; "very strong poison"
+	next "gif naar buiten," ; "leaks from it,"
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	page "waardoor de grond" ; "making the ground"
+	next "drie jaar lang" ; "there barren for"
+	next "onvruchtbaar is.@" ; "three years.@"

@@ -1,11 +1,11 @@
-	db "AQUAMOUSE@" ; species name
+	db "AQUAMUIS@" ; species name
 	db 4 ; height
 	dw 85 ; weight
 
-	db   "The fur on its"
-	next "body naturally"
-	next "repels water. It"
+	db   "De vacht op het" ; "The fur on its"
+	next "lichaam stoot" ; "body naturally"
+	next "water af. Kan" ; "repels water. It"
 
-	page "can stay dry, even"
-	next "when it plays in"
-	next "the water.@"
+	page "daardoor droog" ; "can stay dry, even"
+	next "blijven, zelfs in" ; "when it plays in"
+	next "het water.@" ; "the water.@"

@@ -1,11 +1,11 @@
-	db "FIVE STAR@" ; species name
+	db "VIJFSTER@" ; species name
 	db 10 ; height
 	dw 108 ; weight
 
-	db   "It is timid and"
-	next "clusters together"
-	next "with others. The"
+	db   "Is timide en in de" ; "It is timid and"
+	next "buurt van anderen," ; "clusters together"
+	next "De vloeistof uit" ; "with others. The"
 
-	page "fluid secreted by"
-	next "its feet indicates"
-	next "its location.@"
+	page "de voeten verraadt" ; "fluid secreted by"
+	next "waar de #MON" ; "its feet indicates"
+	next "zich bevindt.@" ; "its location.@"

@@ -1,11 +1,11 @@
-	db "SCRATCHCAT@" ; species name
+	db "KRABKAT@" ; species name
 	db 4 ; height
 	dw 42 ; weight
 
-	db   "It loves things"
-	next "that sparkle. When"
-	next "it sees a shiny"
+	db   "Dol op dingen die" ; "It loves things"
+	next "glimmen. Als het" ; "that sparkle. When"
+	next "een glimmend ob-" ; "it sees a shiny"
 
-	page "object, the gold"
-	next "coin on its head"
-	next "shines too.@"
+	page "ject spot, licht" ; "object, the gold"
+	next "op het hoofd ook" ; "coin on its head"
+	next "op.@" ; "shines too.@"

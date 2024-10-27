@@ -1,11 +1,11 @@
-	db "BONEKEEPER@" ; species name
+	db "BOTDRAGER@" ; species name
 	db 10 ; height
 	dw 450 ; weight
 
-	db   "Somewhere in the"
-	next "world is a ceme-"
-	next "tery just for"
+	db   "Ergens ter wereld" ; "Somewhere in the"
+	next "is een kerkhof" ; "world is a ceme-"
+	next "alleen voor" ; "tery just for"
 
-	page "MAROWAK. It gets"
-	next "its bones from"
-	next "those graves.@"
+	page "MAROWAK. In de" ; "MAROWAK. It gets"
+	next "graven daar vindt" ; "its bones from"
+	next "het botten.@" ; "those graves.@"

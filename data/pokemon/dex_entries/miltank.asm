@@ -1,11 +1,11 @@
-	db "MILK COW@" ; species name
+	db "MELKKOE@" ; species name
 	db 12 ; height
 	dw 755 ; weight
 
-	db   "In order to milk a"
-	next "MILTANK, one must"
-	next "have a knack for"
+	db   "Om een MILTANK te" ; "In order to milk a"
+	next "melken, moet je" ; "MILTANK, one must"
+	next "met het juiste" ; "have a knack for"
 
-	page "rhythmically pull-"
-	next "ing up and down"
-	next "on its udders.@"
+	page "ritme de uiers" ; "rhythmically pull-"
+	next "op en neer be-" ; "ing up and down"
+	next "wegen.@" ; "on its udders.@"

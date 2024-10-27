@@ -1,11 +1,11 @@
-	db "FIVE STAR@" ; species name
+	db "VIJFSTER@" ; species name
 	db 14 ; height
 	dw 356 ; weight
 
-	db   "In the daytime"
-	next "when it gets warm,"
-	next "it curls up inside"
+	db   "Als het overdag" ; "In the daytime"
+	next "warm wordt, kruipt" ; "when it gets warm,"
+	next "deze #MON in" ; "it curls up inside"
 
-	page "a big leaf and"
-	next "drifts off into"
-	next "a deep slumber.@"
+	page "een groot blad om" ; "a big leaf and"
+	next "in een zeer diepe" ; "drifts off into"
+	next "slaap te vallen.@" ; "a deep slumber.@"
