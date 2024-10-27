@@ -104,62 +104,64 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
-	text "The train hasn't"
-	line "come in…"
+	text "De trein is" ; "The train hasn't"
+	line "niet gekomen…" ; "come in…"
 
-	para "I know! I'll carry"
-	line "the passengers on"
-	cont "my back!"
+	para "Ik weet 't! Ik" ; "I know! I'll carry"
+	line "draag de passa-" ; "the passengers on"
+	cont "giers op m'n rug!" ; "my back!"
 
-	para "That won't work."
+	para "Dat werkt niet." ; "That won't work."
 	done
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "We'll soon depart"
-	line "for SAFFRON."
+	text "We vertrekken zo" ; "We'll soon depart"
+	line "naar SAFFRON." ; "for SAFFRON."
 
-	para "Are you coming"
-	line "aboard?"
+	para "Kom je" ; "Are you coming"
+	line "aan boord?" ; "aboard?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail PASS, please?"
+	text "Mag ik je" ; "May I see your"
+	line "TREINKAARTJE zien?" ; "rail PASS, please?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Oké. Deze kant" ; "OK. Right this"
+	line "op, alsjeblieft." ; "way, please."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
-	text "Sorry. You don't"
-	line "have a rail PASS."
+	text "Sorry. Je hebt" ; "Sorry. You don't"
+	line "geen TREINKAARTJE." ; "have a rail PASS."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "We hopen je" ; "We hope to see you"
+	line "weer te zien!" ; "again!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "We have arrived in"
-	line "GOLDENROD."
+	text "We zijn nu in" ; "We have arrived in"
+	line "GOLDENROD." ; "GOLDENROD."
 
-	para "We hope to see you"
-	line "again."
+	para "Tot ziens." ; "We hope to see you"
+	line "" ; "again."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "I'm the PRESIDENT."
+	text "Ik ben de" ; "I'm the PRESIDENT."
+	line "PRESIDENT." ; 
 
-	para "My dream was to"
-	line "build a train that"
+	para "Het was mijn" ; "My dream was to"
+	line "droom om een" ; "build a train that"
 
-	para "is faster than any"
-	line "#MON."
+	para "trein te bouwen" ; "is faster than any"
+	line "die sneller is" ; "#MON."
+	cont "dan elke #MON." ;
 
-	para "It really brings"
-	line "JOHTO much closer"
-	cont "to KANTO."
+	para "Het brengt JOHTO" ; "It really brings"
+	line "echt dichter" ; "JOHTO much closer"
+	cont "bij KANTO." ; "to KANTO."
 	done
 
 GoldenrodMagnetTrainStation_MapEvents:

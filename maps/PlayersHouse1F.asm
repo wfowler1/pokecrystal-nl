@@ -257,7 +257,7 @@ ComeHomeForDSTText:
 	para "tussen zomer- en" ; "for Daylight"
 	line "wintertijd." ; "Saving Time."
 
-	para "Trouwens weet je" ; "By the way, do you"
+	para "Trouwens, weet je" ; "By the way, do you"
 	line "hoe je de TELEFOON" ; "know how to use"
 	cont "gebruikt?" ; "the PHONE?"
 	done
