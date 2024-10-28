@@ -107,137 +107,137 @@ BillsHouseRadio:
 	jumpstd Radio2Script
 
 BillTakeThisEeveeText:
-	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
+	text "BILL: He, <PLAYER>!" ; "BILL: Hi, <PLAYER>!"
+	line "Wil je deze EEVEE" ; "Do us a favor and"
+	cont "overnemen?" ; "take this EEVEE."
 
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	para "Hij kwam aan toen" ; "It came over when"
+	line "ik de TIJDCAPSULE" ; "I was adjusting"
+	cont "bijstelde." ; "the TIME CAPSULE."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Iemand moet ervoor" ; "Someone has to"
+	line "zorgen, maar ik" ; "take care of it,"
 
-	para "but I don't like"
-	line "being outside."
+	para "ga niet graag naar" ; "but I don't like"
+	line "buiten toe." ; "being outside."
 
-	para "Can I count on you"
-	line "to play with it,"
-	cont "<PLAYER>?"
+	para "Kan ik op jou" ; "Can I count on you"
+	line "rekenen ermee te" ; "to play with it,"
+	cont "spelen, <PLAYER>?" ; "<PLAYER>?"
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew you'd"
-	line "come through!"
+	text "BILL: Ik wist dat" ; "BILL: I knew you'd"
+	line "je ja zou zeggen!" ; "come through!"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "Goed zo! Jij bent" ; "Way to go! You're"
+	line "het echte werk!" ; "the real deal!"
 
-	para "OK, I'm counting"
-	line "on you."
+	para "OK, ik reken" ; "OK, I'm counting"
+	line "op jou." ; "on you."
 
-	para "Take good care of"
-	line "it!"
+	para "Pas er goed" ; "Take good care of"
+	line "op!" ; "it!"
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "EEVEE!" ; "EEVEE!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "BILL: PROF.ELM" ; "BILL: PROF.ELM"
+	line "claimt dat EEVEE" ; "claims EEVEE may"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "op nieuwe manieren" ; "evolve in new and"
+	line "evoluren kan." ; "unknown ways."
 	done
 
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "Ho, wacht eens. Je" ; "Whoa, wait. You"
+	line "kan niet meer" ; "can't carry any"
+	cont "#MON meenemen." ; "more #MON."
 	done
 
 BillNoEeveeText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Oh… En wat" ; "Oh… Now what to"
+	line "nu dan?" ; "do?"
 	done
 
 BillPopWontWorkText:
-	text "BILL: My pop, he"
-	line "won't work. All he"
+	text "BILL: Mijn pa, hij" ; "BILL: My pop, he"
+	line "wil niet werken." ; "won't work. All he"
 
-	para "does is goof off"
-	line "all day long."
+	para "Hij zit de hele" ; "does is goof off"
+	line "dag te niksen." ; "all day long."
 
-	para "He's getting to be"
-	line "a real headache…"
+	para "Ik krijg er echt" ; "He's getting to be"
+	line "hoofdpijn van…" ; "a real headache…"
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Oh, je verzamelt" ; "Oh, you collect"
+	line "#MON? Mijn zoon" ; "#MON? My son"
+	cont "BILL is expert." ; "BILL is an expert."
 
-	para "He just got called"
-	line "to the #MON"
+	para "Hij is net opge-" ; "He just got called"
+	line "roepen naar het" ; "to the #MON"
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "#MONCENTRUM in" ; "CENTER in ECRUTEAK"
+	line "ECRUTEAK CITY." ; "CITY."
 
-	para "My husband went"
-	line "off to the GAME"
+	para "Mijn man is net" ; "My husband went"
+	line "naar de SPELHOEK" ; "off to the GAME"
 
-	para "CORNER without"
-	line "being called…"
+	para "vertrokken zonder" ; "CORNER without"
+	line "te zijn gebeld…" ; "being called…"
 	done
 
 BillsMomText_AfterEcruteak:
-	text "My husband was"
-	line "once known as a"
+	text "Mijn man stond" ; "My husband was"
+	line "ooit bekend als" ; "once known as a"
 
-	para "#MANIAC."
-	line "BILL must have"
+	para "een #MANIAK." ; "#MANIAC."
+	line "Dat heeft BILL" ; "BILL must have"
 
-	para "taken after his"
-	line "father."
+	para "vast van zijn" ; "taken after his"
+	line "vader." ; "father."
 	done
 
 BillsYoungerSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "Je bent trainer?" ; "Are you a trainer?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "Hier, een nuttig" ; "I've got a useful"
+	line "telefoonnummer" ; "phone number for"
+	cont "voor je." ; "you."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> slaat" ; "<PLAYER> recorded"
+	line "BILL's nummer op." ; "BILL's number."
 	done
 
 BillsYoungerSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Mijn broer heeft" ; "My brother made"
+	line "de PC-#MON-" ; "the PC #MON"
+	cont "opslag bedacht." ; "storage system."
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	para "Ik wilde je" ; "I was going to"
+	line "BILL's nummer" ; "give you BILL's"
+	cont "geven…" ; "number…"
 	done
 
 BillsYoungerSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "Je kan niet meer" ; "You can't record"
+	line "nummers opslaan." ; "any more numbers."
 	done
 
 BillsYoungerSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
+	text "Mijn grote broer" ; "My big brother"
+	line "BILL bedacht het" ; "BILL made the PC"
 
-	para "#MON storage"
-	line "system."
+	para "#MON-opslag" ; "#MON storage"
+	line "-systeem." ; "system."
 	done
 
 BillsFamilysHouse_MapEvents:

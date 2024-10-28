@@ -210,145 +210,145 @@ BillsGrandpa:
 	end
 
 BillsGrandpaIntroText:
-	text "Hm? You know BILL?"
-	line "He's my grandson."
+	text "Hm? Je kent BILL?" ; "Hm? You know BILL?"
+	line "Hij is mijn klein-" ; "He's my grandson."
 
-	para "He's in JOHTO. He"
-	line "does something"
+	para "zoon. Hij is in" ; "He's in JOHTO. He"
+	line "JOHTO en doet wat" ; "does something"
 
-	para "with PCs, so I'm"
-	line "house-sitting."
+	para "met PC's, dus ik" ; "with PCs, so I'm"
+	line "pas op zijn huis." ; "house-sitting."
 	done
 
 BillsGrandpaAskToSeeMonText:
-	text "If you have that"
-	line "#MON, may I see"
-	cont "it, please?"
+	text "Als je die #MON" ; "If you have that"
+	line "hebt, mag ik 'm" ; "#MON, may I see"
+	cont "dan eens zien?" ; "it, please?"
 	done
 
 BillsGrandpaExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+	text "Je laat het zien?" ; "You will show me?"
+	line "Wat goed van je!" ; "How good of you!"
 	done
 
 BillsGrandpaYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+	text "Je hebt het niet?" ; "You don't have it?"
+	line "Dat is jammer…" ; "That's too bad…"
 	done
 
 BillsGrandpaShownPokemonText:
-	text "Ah, so that is"
-	line "@"
+	text "Ah, dus dat is" ; "Ah, so that is"
+	line "@" ; "@"
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 
-	para "Isn't it cute!"
-	line "That's so kind of"
-	cont "you."
+	para "Wat schattig!" ; "Isn't it cute!"
+	line "Heel erg aardig" ; "That's so kind of"
+	cont "van je." ; "you."
 	done
 
 BillsGrandpaTokenOfAppreciationText:
-	text "Thanks!"
+	text "Bedankt!" ; "Thanks!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Hier, mijn blijk" ; "This is a token of"
+	line "van waardering." ; "my appreciation."
 	done
 
 BillsGrandpaComeAgainText:
-	text "Come visit again"
-	line "sometime."
+	text "Kom weer eens een" ; "Come visit again"
+	line "keertje langs." ; "sometime."
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me so many cute"
-	cont "#MON."
+	text "Bedankt dat je mij" ; "Thanks for showing"
+	line "zoveel schattige" ; "me so many cute"
+	cont "#MON liet zien." ; "#MON."
 
-	para "I really enjoyed"
-	line "myself. I'm glad"
+	para "Ik amuseerde me" ; "I really enjoyed"
+	line "enorm en ben blij" ; "myself. I'm glad"
 
-	para "I've lived such a"
-	line "long life."
+	para "dat ik zo'n lang" ; "I've lived such a"
+	line "leven heb gehad." ; "long life."
 	done
 
 BillsGrandpaWrongPokemonText:
-	text "Hm?"
+	text "Hm?" ; "Hm?"
 
-	para "That's not the"
-	line "#MON that I was"
-	cont "told about."
+	para "Dat is niet de" ; "That's not the"
+	line "#MON waarover" ; "#MON that I was"
+	cont "ik verteld ben." ; "told about."
 	done
 
 BillsGrandpaLickitungText:
-	text "My grandson BILL"
-	line "told me about a"
+	text "Mijn kleinzoon" ; "My grandson BILL"
+	line "BILL vertelde over" ; "told me about a"
 
-	para "#MON that has a"
-	line "long tongue."
+	para "een #MON met" ; "#MON that has a"
+	line "een lange tong." ; "long tongue."
 	done
 
 BillsGrandpaOddishText:
-	text "Ah, my grandson"
-	line "mentioned a round,"
+	text "Ah, mijn kleinzoon" ; "Ah, my grandson"
+	line "had het over een" ;  "mentioned a round,"
 
-	para "green #MON that"
-	line "has leaves growing"
-	cont "on its head."
+	para "ronde, groene" ; "green #MON that"
+	line "#MON met bla-" ; has leaves growing"
+	cont "deren op de kop." ; "on its head."
 	done
 
 BillsGrandpaStaryuText:
-	text "Do you know of a"
-	line "sea #MON that"
+	text "Ken jij een zee-" ; "Do you know of a"
+	line "#MON met een" ; "sea #MON that"
 
-	para "has a red sphere"
-	line "in its body?"
+	para "rode bol in" ; "has a red sphere"
+	line "het lichaam?" ; "in its body?"
 
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
+	para "Je weet wel, die" ; "You know, the one"
+	line "in de vorm van" ; "that's shaped like"
+	cont "een ster?" ; "a star?"
 
-	para "I heard that it"
-	line "appears at night."
+	para "Die verschijnt in" ; "I heard that it"
+	line "de nacht, meen ik." ; "appears at night."
 
-	para "I would surely"
-	line "like to see it."
+	para "Ik zou 't echt" ; "I would surely"
+	line "graag willen zien." ; "like to see it."
 	done
 
 BillsGrandpaGrowlitheText:
-	text "BILL told me about"
-	line "a #MON that is"
+	text "BILL vertelde me" ; "BILL told me about"
+	line "over een #MON" ; "a #MON that is"
 
-	para "very loyal to its"
-	line "trainer."
+	para "die heel loyaal is" ; "very loyal to its"
+	line "aan een trainer." ; "trainer."
 
-	para "It's supposed to"
-	line "ROAR well."
+	para "Hij zou ook" ; "It's supposed to"
+	line "moeten BRULLEN." ; "ROAR well."
 	done
 
 BillsGrandpaVulpixText:
-	text "I heard about a"
-	line "cute #MON that"
-	cont "has six tails."
+	text "Ik hoorde over een" ; "I heard about a"
+	line "snoezige #MON" ; "cute #MON that"
+	cont "met zes staarten." ; "has six tails."
 
-	para "I would love to"
-	line "hug a cute #MON"
-	cont "like that."
+	para "Zo'n schattige" ; "I would love to"
+	line "#MON zou ik" ; "hug a cute #MON"
+	cont "willen knuffelen." ; "like that."
 	done
 
 BillsGrandpaPichuText:
-	text "Do you know that"
-	line "hugely popular"
-	cont "#MON?"
+	text "Ken je die ene" ; "Do you know that"
+	line "megapopulaire" ; "hugely popular"
+	cont "#MON?" ; "#MON?"
 
-	para "The #MON that"
-	line "has a yellow body"
-	cont "and red cheeks."
+	para "die #MON met" ; "The #MON that"
+	line "een geel lichaam" ; "has a yellow body"
+	cont "en rode wangen." ; "and red cheeks."
 
-	para "I would love to"
-	line "see what it looks"
+	para "Ik wil graag zien" ; "I would love to"
+	line "hoe die eruit ziet" ; "see what it looks"
 
-	para "like before it"
-	line "evolves."
+	para "voordat ie" ; "like before it"
+	line "evolueert." ; "evolves."
 	done
 
 BillsHouse_MapEvents:
