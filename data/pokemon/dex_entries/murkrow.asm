@@ -1,11 +1,11 @@
-	db "DARKNESS@" ; species name
+	db "DUISTERNIS@" ; species name
 	db 5 ; height
 	dw 21 ; weight
 
-	db   "It hides any shiny"
-	next "object it finds in"
-	next "a secret location."
+	db   "Verbergt glimmende" ; "It hides any shiny"
+	next "objecten die het" ; "object it finds in"
+	next "vindt op een" ; "a secret location."
 
-	page "MURKROW and"
-	next "MEOWTH loot one"
-	next "another's stashes.@"
+	page "geheime plek." ; "MURKROW and"
+	next "MURKROW en MEOWTH" ; "MEOWTH loot one"
+	next "stelen van elkaar.@" ; "another's stashes.@"

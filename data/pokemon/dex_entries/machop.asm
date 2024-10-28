@@ -1,11 +1,11 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERSTERK@" ; species name
 	db 8 ; height
 	dw 195 ; weight
 
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
+	db   "Traint door met" ; "It trains by"
+	next "stenen in de" ; "lifting rocks in"
+	next "bergen te tillen." ; "the mountains. It"
 
-	page "can even pick up a"
-	next "GRAVELER with"
-	next "ease.@"
+	page "Kan zelfs met" ; "can even pick up a"
+	next "gemak een GRAVELER" ; "GRAVELER with"
+	next "optillen.@" ; "ease.@"

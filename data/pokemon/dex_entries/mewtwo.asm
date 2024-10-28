@@ -1,11 +1,11 @@
-	db "GENETIC@" ; species name
+	db "GENETISCH@" ; species name
 	db 20 ; height
 	dw 1220 ; weight
 
-	db   "Said to rest qui-"
-	next "etly in an"
-	next "undiscovered cave,"
+	db   "Zou in een on-" ; "Said to rest qui-"
+	next "ontdekte grot" ; "etly in an"
+	next "rusten." ; "undiscovered cave,"
 
-	page "this #MON was"
-	next "created solely for"
-	next "battling.@"
+	page "Deze #MON is" ; "this #MON was"
+	next "gemaakt om enkel" ; "created solely for"
+	next "te vechten.@" ; "battling.@"

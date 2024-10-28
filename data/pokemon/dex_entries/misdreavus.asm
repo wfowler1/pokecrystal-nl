@@ -1,11 +1,11 @@
-	db "SCREECH@" ; species name
+	db "SCHREEUW@" ; species name
 	db 7 ; height
 	dw 10 ; weight
 
-	db   "It loves to watch"
-	next "people it's scar-"
-	next "ed. It frightens"
+	db   "Kijkt graag naar" ; "It loves to watch"
+	next "mensen die het" ; "people it's scar-"
+	next "bangmaakt. Jaagt" ; "ed. It frightens"
 
-	page "them by screaming"
-	next "loudly or appear-"
-	next "ing suddenly.@"
+	page "stuipen op het" ; "them by screaming"
+	next "lijf met gillen" ; "loudly or appear-"
+	next "en verschijning.@" ; "ing suddenly.@"

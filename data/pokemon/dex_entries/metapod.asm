@@ -1,11 +1,11 @@
-	db "COCOON@" ; species name
+	db "KOKON@" ; species name
 	db 7 ; height
 	dw 99 ; weight
 
-	db   "This is its pre-"
-	next "evolved form. At"
-	next "this stage, it can"
+	db   "Dit is een pre-" ; "This is its pre-"
+	next "geëvolueerde vorm." ; "evolved form. At"
+	next "Kan alleen ver-" ; "this stage, it can"
 
-	page "only harden, so it"
-	next "remains motionless"
-	next "to avoid attack.@"
+	page "harden en beweegt" ; "only harden, so it"
+	next "niet om vijanden" ; "remains motionless"
+	next "te vermijden.@" ; "to avoid attack.@"

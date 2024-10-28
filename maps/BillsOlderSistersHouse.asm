@@ -14,15 +14,15 @@ BillsOlderSistersHouseYoungsterScript:
 	jumptextfaceplayer BillsOlderSistersHouseYoungsterText
 
 BillsOlderSisterText:
-	text "My grandpa is at "
-	line "my brother BILL's"
-	cont "on CERULEAN CAPE."
+	text "Mijn opa is bij" ; "My grandpa is at "
+	line "mijn broer BILL op" ; "my brother BILL's"
+	cont "KAAP CERULEAN." ; "on CERULEAN CAPE."
 	done
 
 BillsOlderSistersHouseYoungsterText:
-	text "I saw these weird,"
-	line "slow #MON on"
-	cont "CYCLING ROAD."
+	text "Ik zag vreemde," ; "I saw these weird,"
+	line "trage #MON op" ; "slow #MON on"
+	cont "het FIETSPAD." ; "CYCLING ROAD."
 	done
 
 BillsOlderSistersHouse_MapEvents:

@@ -1,11 +1,11 @@
-	db "HERB@" ; species name
+	db "KRUID@" ; species name
 	db 18 ; height
 	dw 1005 ; weight
 
-	db   "Anyone who stands"
-	next "beside it becomes"
-	next "refreshed, just as"
+	db   "Iedereen die er" ; "Anyone who stands"
+	next "naast wordt ver-" ; "beside it becomes"
+	next "frist, alsof je" ; "refreshed, just as"
 
-	page "if they were"
-	next "relaxing in a"
-	next "sunny forest.@"
+	page "ontspannen rond-" ; "if they were"
+	next "wandelt in een" ; "relaxing in a"
+	next "zonnig bos.@" ; "sunny forest.@"

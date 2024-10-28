@@ -1,11 +1,11 @@
-	db "NEW SPECIE@" ; species name
+	db "NIEUW@" ; species name
 	db 4 ; height
 	dw 40 ; weight
 
-	db   "Because it can"
-	next "learn any move,"
-	next "some people began"
+	db   "Kan iedere aanval" ; "Because it can"
+	next "leren. Men onder-" ; "learn any move,"
+	next  "zoekt daarom of" ; "some people began"
 
-	page "research to see if"
-	next "it is the ancestor"
-	next "of all #MON.@"
+	page "dit de voorouder" ; "research to see if"
+	next "is van alle be-" ; "it is the ancestor"
+	next "staande #MON.@" ; "of all #MON.@"
