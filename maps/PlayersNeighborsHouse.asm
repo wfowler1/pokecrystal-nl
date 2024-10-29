@@ -46,7 +46,8 @@ PlayersNeighborsHouseRadioScript:
 
 PlayersNeighborsDaughterText:
 	text "PIKACHU is een ge-" ; "PIKACHU is an"
-	line "evolueerde #MON" ; "evolved #MON."
+	line "evolueerde #-" ; "evolved #MON."
+	cont "MON."
 
 	para "De ontdekkingen" ; "I was amazed by"
 	line "van ELM verbaasden" ; "PROF.ELM's find-"

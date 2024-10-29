@@ -214,7 +214,8 @@ SageLiSeenText:
 	line "testen hun band." ; "test their bonds"
 
 	para "Om samen een mooie" ; "to build a bright"
-	line "toekomst te bouwen." ; "future together."
+	line "toekomst te" ; "future together."
+	cont "bouwen."
 
 	para "Ik ben de laatste" ; "I am the final"
 	line "test."

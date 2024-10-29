@@ -319,8 +319,9 @@ AcademyBurnText:
 	para "Het verlaagt ook" ; "It also reduces"
 	line "je aanvalskracht." ; "attack power."
 
-	para "Je #MON blijft na" ; "A burn lingers"
-	line "achteraf verbrand." ; "after battle."
+	para "Je #MON blijft" ; "A burn lingers"
+	line "na achteraf" ; "after battle."
+	cont "verbrand."
 
 	para "Gebruik BRANDZALF" ; "Use a BURN HEAL as"
 	line "om te genezen." ; "the cure."

@@ -73,7 +73,7 @@ SproutTower1FSage2Text:
 	line "lang geleden ge-" ; "built long ago"
 
 	para "bouwd om er #-" ; "as a place for"
-	line "#MON te trainen." ; "#MON training."
+	line "MON te trainen." ; "#MON training."
 	done
 
 SproutTower1FGrannyText:
