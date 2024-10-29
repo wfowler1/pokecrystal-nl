@@ -165,11 +165,11 @@ GoldenrodDeptStoreRoofBugCatcherText:
 	done
 
 Binoculars1Text:
-	text "Met deze verrekijker" ; "These binoculars"
-	line "kan ik heel ver" ; "let me see far"
+	text "Met deze verre-" ; "These binoculars"
+	line "kijker kan ik heel" ; "let me see far"
 
-	para "zien. Wellicht zie" ; "away. Maybe I can"
-	line "ik m'n eigen huis." ; "see my own house."
+	para "ver zien. Wellicht" ; "away. Maybe I can"
+	line "zie ik m'n huis." ; "see my own house."
 
 	para "Is het degene met" ; "Is it the one with"
 	line "het groene dak?" ; "the green roof?"

@@ -129,7 +129,7 @@ LtSurgeWinLossText:
 	text "SURGE: Arrrgh!" ; "SURGE: Arrrgh!"
 	line "Jij bent sterk!" ; "You are strong!"
 
-	para "OK, kind, Je krijgt" ; "OK, kid. You get"
+	para "OK kind, je krijgt" ; "OK, kid. You get"
 	line "DONDERBADGE!" ; "THUNDERBADGE!"
 	done
 
@@ -143,10 +143,10 @@ LtSurgeThunderBadgeText:
 	line "BADGE maakt jouw" ; "BADGE increases"
 	cont "#MON sneller." ; "#MON's speed. "
 
-	para "Zie het als bewijs" ; "Consider it proof"
-	line "dat je me verslagen" ; "that you defeated"
+	para "Het is bewijs dat" ; "Consider it proof"
+	line "je me versloeg." ; "that you defeated"
 
-	para "hebt. Draag 'm met" ; "me. You wear it"
+	para "Draag 'm met" ; "me. You wear it"
 	line "trots, oké?" ; "proudly, hear?"
 	done
 
@@ -156,7 +156,7 @@ LtSurgeFightDoneText:
 	cont "hakken en zagen?" ; "chugging away?"
 
 	para "Mijn #MON en ik" ; "My #MON and I"
-	line "zijn nog steeds bezig!" ; "are still at it!"
+	line "gaan nog door!" ; "are still at it!"
 	done
 
 GentlemanGregorySeenText:
@@ -185,8 +185,8 @@ GuitaristVincentSeenText:
 	text "LT.SURGE herkent" ; "LT.SURGE recog-"
 	line "mijn potentie met" ; "nized my potential"
 
-	para "elektrische #MON." ; "with electric"
-	line "Denk jij dat" ; "#MON."
+	para "elektrische #-." ; "with electric"
+	line "MON. Denk jij dat" ; "#MON."
 
 	para "je mij kan" ; "Think you can beat"
 	line "verslaan?" ; "me?"

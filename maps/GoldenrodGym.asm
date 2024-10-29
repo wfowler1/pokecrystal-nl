@@ -285,7 +285,7 @@ LassCarrieBeatenText:
 	done
 
 LassCarrieAfterBattleText:
-	text "Denken mijn #MON" ; "Do my #MON"
+	text "Denken m'n #MON" ; "Do my #MON"
 	line "dat ik schattig" ; "think I'm cute?"
 	cont "ben?" ;
 	done
@@ -377,7 +377,7 @@ GoldenrodGymGuideText:
 	cont "#MON-trainers." ; "#MON trainers."
 
 	para "Ik raad je aan" ; "I recommend you"
-	line "om vecht-type #MON" ; "use fighting-type"
+	line "vecht-type #MON" ; "use fighting-type"
 	cont "te gebruiken." ; "#MON."
 	done
 

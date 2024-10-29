@@ -70,8 +70,8 @@ GoldenrodDeptStore4FGameboyKidText:
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Laat ons je" ; "Let Us Pump Up"
-	line "#MON versterken!" ; "Your #MON!"
+	text "Laat ons je #-" ; "Let Us Pump Up"
+	line "MON versterken!" ; "Your #MON!"
 
 	para "4V MEDICIJNDOOS" ; "4F MEDICINE BOX"
 	done

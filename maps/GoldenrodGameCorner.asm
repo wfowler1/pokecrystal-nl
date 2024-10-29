@@ -420,13 +420,13 @@ if DEF(_CRYSTAL_AU)
 	done
 else
 	para "Ik heb dit liever" ; "I prefer it over"
-	line "dan de automaten" ; "the slots because"
+	line "dan de automaten," ; "the slots because"
 
-	para "want het is simpeler" ; "it's easier to"
+	para "het is simpeler" ; "it's easier to"
 	line "om de kansen te" ; "figure the odds."
 
 	para "berekenen. Maar de" ; "But the payout is"
-	line "bedragen zijn veel " ; "much lower."
+	line "bedragen zijn " ; "much lower."
 	cont "lager." ;
 	done
 endc
@@ -437,7 +437,7 @@ GoldenrodGameCornerCooltrainerFText:
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "Ik heb mijn #MON" ; "I taught BLIZZARD"
+	text "Ik heb m'n #MON" ; "I taught BLIZZARD"
 	line "SNEEUWSTORM" ; "to my #MON."
 	cont "geleerd." ;
 

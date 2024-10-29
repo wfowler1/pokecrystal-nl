@@ -331,8 +331,8 @@ GoldenrodCityCooltrainerF2Text:
 	done
 
 GoldenrodCityCooltrainerF2Text_GotRadioCard:
-	text "Oh, je #GEAR func-" ; "Oh, your #GEAR"
-	line "tioneert als radio!" ; "works as a radio!"
+	text "Oh, je #GEAR" ; "Oh, your #GEAR"
+	line "werkt als radio!" ; "works as a radio!"
 	done
 
 GoldenrodCityYoungster2Text:
@@ -347,7 +347,7 @@ GoldenrodCityYoungster2Text:
 
 GoldenrodCityLassText:
 	text "De man in dat huis" ; "The man at that"
-	line "beoordeelt de namen" ; "house rates your"
+	line "beoordeelt namen" ; "house rates your"
 	cont "van je #MON." ; "#MON names."
 
 	para "Hij kan zelfs" ; "He can even rename"

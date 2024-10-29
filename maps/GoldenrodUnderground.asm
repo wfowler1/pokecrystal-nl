@@ -455,7 +455,7 @@ SupernerdTeruBeatenText:
 	done
 
 SupernerdTeruAfterBattleText:
-	text "Ik weet mijn #MON"; "I know my #MON"
+	text "Ik weet #MON-"; "I know my #MON"
 	line "type-voordelen."; "type alignments."
 
 	para "Maar ik gebruik"; "But I only use one"
@@ -498,7 +498,7 @@ PokemaniacDonaldBeatenText:
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Vul je een #DEX?"; "Are you making a"
+	text "Vul je 'n #DEX?"; "Are you making a"
 	line "Hier is een"; "#DEX? Here's a"
 	cont "goede tip."; "hot tip."
 
@@ -620,7 +620,7 @@ GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText:
 	line "knipbeurt doen"; "haircut a day."
 
 	para "per dag. Sorry, ik"; "Sorry, but I'm all"
-	line "ben klaar met werk."; "done for today."
+	line "ben klaar nu."; "done for today."
 	done
 
 HaircutBrosText_SlightlyHappier:

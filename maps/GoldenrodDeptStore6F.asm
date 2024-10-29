@@ -139,8 +139,8 @@ GoldenrodDeptStore6FSuperNerdText:
 	line "probeer de blikjes" ; "try the vending"
 	cont "uit de automaat." ; "machine's drinks."
 
-	para "Je #MON zullen ze" ; "Your #MON will"
-	line "ook lekker vinden." ; "love them too."
+	para "Je #MON zullen" ; "Your #MON will"
+	line "ze lekker vinden." ; "love them too."
 	done
 
 GoldenrodDeptStore6FDirectoryText:

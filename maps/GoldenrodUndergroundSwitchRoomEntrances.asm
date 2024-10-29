@@ -708,8 +708,8 @@ UndergroundRivalAfterText:
 	para "Is 't waar wat die" ; "Is what that LANCE"
 	line "LANCE-gast zei?" ; "guy said true?"
 
-	para "Dat ik #MON niet" ; "That I don't treat"
-	line "goed behandel?" ; "#MON properly?"
+	para "Dat ik #MON" ; "That I don't treat"
+	line "slecht behandel?" ; "#MON properly?"
 
 	para "Liefde…" ; "Love…"
 
