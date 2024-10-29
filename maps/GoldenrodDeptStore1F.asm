@@ -28,52 +28,53 @@ GoldenrodDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to GOLDEN-"
-	line "ROD DEPT.STORE."
+	text "Welkom in GOLDEN-" ; "Welcome to GOLDEN-"
+	line "ROD WARENHUIS." ; "ROD DEPT.STORE."
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "The DEPT.STORE"
-	line "has a decent se-"
-	cont "lection."
+	text "Het WARENHUIS" ; "The DEPT.STORE"
+	line "heeft een prima" ; "has a decent se-"
+	cont "selectie." ; "lection."
 
-	para "But some items"
-	line "are only available"
+	para "Maar sommige voor-" ; "But some items"
+	line "werpen zijn alleen" ; "are only available"
 
-	para "as GAME CORNER"
-	line "prizes."
+	para "beschikbaar als" ; "as GAME CORNER"
+	line "SPELHOEK-prijzen." ; "prizes."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "Ik verheug me om" ; "I'm raring to shop"
+	line "vandaag weer te" ; "again today!"
+	cont "winkelen!" ; 
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Mam is goed in" ; "Mom's good at"
+	line "koopjesjagen." ; "bargain hunting."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Ze koopt altijd" ; "She always buys"
+	line "dingen met lage" ; "stuff at lower"
+	cont "prijzen." ; "prices."
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "1F SERVICE COUNTER"
+	text "1V SERVICEBALIE" ; "1F SERVICE COUNTER"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2V TRAINER'S" ; "2F TRAINER'S"
+	line "MARKT" ; "   MARKET"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "3V GEVECHT" ; "3F BATTLE"
+	line "COLLECTIE" ; "   COLLECTION"
 
-	para "4F MEDICINE BOX"
+	para "4V MEDICIJNDOOS" ; "4F MEDICINE BOX"
 
-	para "5F TM CORNER"
+	para "5V TM-HOEK" ; "5F TM CORNER"
 
-	para "6F TRANQUIL SQUARE"
+	para "6V RUSTPLEIN" ; "6F TRANQUIL SQUARE"
 
-	para "ROOFTOP LOOKOUT"
+	para "DAKTERRAS" ; "ROOFTOP LOOKOUT"
 	done
 
 GoldenrodDeptStore1F_MapEvents:

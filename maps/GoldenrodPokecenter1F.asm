@@ -716,20 +716,22 @@ GoldenrodPokecenter1FLassText:
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
-	text "<PLAYER>, isn't it?"
+	text "<PLAYER>, toch?" ; "<PLAYER>, isn't it?"
 
-	para "Congratulations!"
+	para "Gefeliciteerd!" ; "Congratulations!"
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para "Als speciale aan-" ; "As a special deal,"
+	line "bieding is een" ; "a GS BALL has been"
+	cont "GZ-BAL voor je" ; "sent just for you!"
+	cont "aangekomen!" ;
 
-	para "Please accept it!"
+	para "Neem het," ; "Please accept it!"
+	line "alsjeblieft!" ;
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
-	text "Please do come"
-	line "again!"
+	text "Tot ziens dan maar" ; "Please do come"
+	line "weer!" ; "again!"
 	done
 
 GoldenrodPokecomCenterSignText: ; unreferenced
@@ -755,51 +757,51 @@ GoldenrodPokecomCenterNewsMachineNotYetText: ; unreferenced
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "Jeetje, je tas" ; "Oh my, your pack"
+	line "ziet er zwaar uit!" ; "looks so heavy!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "Oh! Heb je toe-" ; "Oh! Do you happen"
+	line "vallig iets dat" ; "to have something"
+	cont "EONPOST heet?" ; "named EON MAIL?"
 
-	para "My daughter is"
-	line "after one."
+	para "Mijn dochter" ; "My daughter is"
+	line "zoekt er een." ; "after one."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Je kan er vast" ; "You can part with"
+	line "een missen, toch?" ; "one, can't you?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
-	line "MAIL?"
+	text "Geef een" ; "Give away an EON"
+	line "EONPOST weg?" ; "MAIL?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
+	text "Oh, geweldig!" ; "Oh, that's great!"
+	line "Dank je, lieverd!" ; "Thank you, honey!"
 
-	para "Here, this is for"
-	line "you in return!"
+	para "Hier, dit is" ; "Here, this is for"
+	line "voor jou!" ; "you in return!"
 	done
 
 GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:
-	text "My daughter will"
-	line "be delighted!"
+	text "Mijn dochter zal" ; "My daughter will"
+	line "zo blij zijn!" ; "be delighted!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Oh? Je hebt er" ; "Oh? You don't have"
+	line "geen? Jammer." ; "one? Too bad."
 	done
 
 GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
-	text "Oh… Well, another"
-	line "time, then."
+	text "Oh… Nou, een" ; "Oh… Well, another"
+	line "andere keer dan." ; "time, then."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER> geeft" ; "<PLAYER> gave away"
+	line "de EONPOST." ; "the EON MAIL."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

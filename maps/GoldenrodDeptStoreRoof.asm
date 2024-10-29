@@ -93,31 +93,31 @@ PokeDollVendingMachine:
 	jumptext PokeDollVendingMachineText
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Whew, I'm tired."
+	text "Poeh, ik ben moe." ; "Whew, I'm tired."
 
-	para "I sometimes come"
-	line "up to the rooftop"
+	para "Ik kom soms naar" ; "I sometimes come"
+	line "het dak om een" ; "up to the rooftop"
 
-	para "to take a break"
-	line "from shopping."
+	para "pauze te nemen van" ; "to take a break"
+	line "al het winkelen." ; "from shopping."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
-	text "Pardon? Who says"
-	line "an adult can't get"
-	cont "into this?"
+	text "Pardon? Wie zegt" ; "Pardon? Who says"
+	line "dat een volwassene" ; "an adult can't get"
+	cont "dit niet leuk kan" ; "into this?"
 
-	para "I'm going to be"
-	line "back every day to"
+	para "vinden? Ik ga" ; "I'm going to be"
+	line "elke dag terug om" ; "back every day to"
 
-	para "collect all the"
-	line "dolls!"
+	para "alle poppen te" ; "collect all the"
+	line "verzamelen!" ; "dolls!"
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "They have bargain"
-	line "sales here every"
-	cont "so often."
+	text "Ze hebben hier" ; "They have bargain"
+	line "af en toe flinke" ; "sales here every"
+	cont "uitverkoop." ; "so often."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
@@ -125,88 +125,90 @@ GoldenrodDeptStoreRoofSuperNerdOhWowText:
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Will you quit"
-	line "bothering me?"
+	text "Wil je me met" ; "Will you quit"
+	line "rust laten?" ; "bothering me?"
 	done
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "There's something"
-	line "I really want, but"
+	text "Er is iets dat ik" ; "There's something"
+	line "heel graag wil," ; "I really want, but"
 
-	para "I don't have the"
-	line "necessary cash…"
+	para "maar ik heb er" ; "I don't have the"
+	line "geen geld voor…" ; "necessary cash…"
 
-	para "Maybe I'll sell"
-	line "off the BERRIES"
-	cont "I've collected…"
+	para "Misschien verkoop" ; "Maybe I'll sell"
+	line "ik de BESJES die" ; "off the BERRIES"
+	cont "ik heb verzameld…" ; "I've collected…"
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Oh, everything is"
-	line "so cheap!"
+	text "Oh, alles is" ; "Oh, everything is"
+	line "zo goedkoop!" ; "so cheap!"
 
-	para "I bought so much,"
-	line "my PACK's crammed!"
+	para "Ik heb zoveel ge-" ; "I bought so much,"
+	line "kocht, mijn TAS" ; "my PACK's crammed!"
+	cont "zit bomvol!" ;
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "My #MON always"
-	line "get paralyzed or"
+	text "Mijn #MON raken" ; "My #MON always"
+	line "altijd verlamd of" ; "get paralyzed or"
 
-	para "poisoned when the"
-	line "chips are down…"
+	para "vergiftigd als" ; "poisoned when the"
+	line "m'n geluk opraakt…" ; "chips are down…"
 
-	para "So I came to buy"
-	line "some FULL HEAL."
+	para "Dus ik kom om wat" ; "So I came to buy"
+	line "VOLLEGENEZER te" ; "some FULL HEAL."
 
-	para "I wonder if"
-	line "there's any left?"
+	para "kopen. Is er nog" ; "I wonder if"
+	line "wat over?" ; "there's any left?"
 	done
 
 Binoculars1Text:
-	text "These binoculars"
-	line "let me see far"
+	text "Met deze verrekijker" ; "These binoculars"
+	line "kan ik heel ver" ; "let me see far"
 
-	para "away. Maybe I can"
-	line "see my own house."
+	para "zien. Wellicht zie" ; "away. Maybe I can"
+	line "ik m'n eigen huis." ; "see my own house."
 
-	para "Is it the one with"
-	line "the green roof?"
+	para "Is het degene met" ; "Is it the one with"
+	line "het groene dak?" ; "the green roof?"
 	done
 
 Binoculars2Text:
-	text "Hey! Some trainers"
-	line "are battling on"
-	cont "the road!"
+	text "Hé! Een aantal" ; "Hey! Some trainers"
+	line "trainers vechten" ; "are battling on"
+	cont "op de weg!" ; "the road!"
 
-	para "A #MON fired a"
-	line "flurry of leaves!"
+	para "Een #MON vuurt" ; "A #MON fired a"
+	line "een lading" ; "flurry of leaves!"
 
-	para "That makes me feel"
-	line "like battling"
-	cont "right now!"
+	para "bladeren af! Nu" ; "That makes me feel"
+	line "heb ik zin om te" ; "like battling"
+	cont "vechten!" ; "right now!"
 	done
 
 Binoculars3Text:
-	text "A FISHER caught a"
-	line "lot of MAGIKARP…"
+	text "Een VISSER ving" ; "A FISHER caught a"
+	line "een hoop MAGIKARP…" ; "lot of MAGIKARP…"
 
-	para "They're SPLASHing"
-	line "at the same time!"
+	para "Ze SPETTERen" ; "They're SPLASHing"
+	line "tegelijkertijd!" ; "at the same time!"
 
-	para "Look at the water"
-	line "going everywhere!"
+	para "Het water stroomt" ; "Look at the water"
+	line "alle kanten op!" ; "going everywhere!"
 	done
 
 PokeDollVendingMachineText:
-	text "A vending machine"
-	line "for #MON dolls?"
+	text "Een automaat voor" ; "A vending machine"
+	line "#MON-poppen?" ; "for #MON dolls?"
 
-	para "Insert money, then"
-	line "turn the crank…"
+	para "Werp geld in, en" ; "Insert money, then"
+	line "draai aan de" ; "turn the crank…"
+	cont "hendel…" ;
 
-	para "But it's almost"
-	line "empty…"
+	para "Maar hij is" ; "But it's almost"
+	line "bijna leeg…" ; "empty…"
 	done
 
 GoldenrodDeptStoreRoof_MapEvents:

@@ -79,10 +79,10 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "CANCEL@"
+	db "VERS WATER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
+	db "FRISDRANK     ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
+	db "LIMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
+	db "ANNULEER@"
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText
@@ -97,56 +97,57 @@ GoldenrodDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Een automaat!" ; "A vending machine!"
+	line "Hier is het menu." ; "Here's the menu."
 	done
 
 GoldenrodClangText:
-	text "Clang! A can of"
+	text "Klang! Een" ; "Clang! A can of"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text_start
-	cont "popped out!"
+	cont "-blikje valt!" ; "popped out!"
 	done
 
 GoldenrodVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money."
+	text "Oeps, niet" ; "Oops, not enough"
+	line "genoeg geld." ; "money."
 	done
 
 GoldenrodVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff."
+	text "Er is geen ruimte" ; "There's no more"
+	line "voor meer spullen." ; "room for stuff."
 	done
 
 GoldenrodDeptStore6FLassText:
-	text "Do you listen to"
-	line "LUCKY CHANNEL?"
+	text "Luister je naar" ; "Do you listen to"
+	line "de GELUKSZENDER?" ; "LUCKY CHANNEL?"
 
-	para "If you want to"
-	line "win, trade #MON"
+	para "Als je wil win-" ; "If you want to"
+	line "nen, ruil #MON" ; "win, trade #MON"
 
-	para "with as many peo-"
-	line "ple as possible to"
+	para "met zo veel ver-" ; "with as many peo-"
+	line "schillende mensen" ; "ple as possible to"
 
-	para "get different ID"
-	line "numbers."
+	para "als mogelijk om" ; "get different ID"
+	line "verschillende ID-" ; "numbers."
+	cont "nummers te scoren." ; 
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "If you're tired,"
-	line "try the vending"
-	cont "machine's drinks."
+	text "Als je moe bent," ; "If you're tired,"
+	line "probeer de blikjes" ; "try the vending"
+	cont "uit de automaat." ; "machine's drinks."
 
-	para "Your #MON will"
-	line "love them too."
+	para "Je #MON zullen ze" ; "Your #MON will"
+	line "ook lekker vinden." ; "love them too."
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "Take a Break from"
-	line "Shopping!"
+	text "Pauzeer van" ; "Take a Break from"
+	line "het Winkelen!" ; "Shopping!"
 
-	para "6F TRANQUIL SQUARE"
+	para "6V RUSTPLEIN" ; "6F TRANQUIL SQUARE"
 	done
 
 GoldenrodDeptStore6F_MapEvents:

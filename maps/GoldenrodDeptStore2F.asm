@@ -40,60 +40,61 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FUnusedText1: ; unreferenced
-	text "We intend to sell"
-	line "items for #MON"
-	cont "to hold."
+	text "" ; "We intend to sell"
+	line "" ; "items for #MON"
+	cont "" ; "to hold."
 
-	para "This is a free"
-	line "gift. Have a #-"
-	cont "MON hold it."
+	para "" ; "This is a free"
+	line "" ; "gift. Have a #-"
+	cont "" ; "MON hold it."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
-	text "By giving #MON"
-	line "items to hold, I"
+	text "" ; "By giving #MON"
+	line "" ; "items to hold, I"
 
-	para "bet trainers will"
-	line "develop new battle"
-	cont "techniques."
+	para "" ; "bet trainers will"
+	line "" ; "develop new battle"
+	cont "" ; "techniques."
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "#GEAR kan tot" ; "#GEAR can store"
+	line "tien nummers" ; "up to ten phone"
+	cont "opslaan." ; "numbers."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Het is lastig" ; "It's hard to de-"
+	line "te kiezen welke" ; "cide which numbers"
+	cont "nummers te houden." ; "to keep."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "Ik heb mijn ABRA" ; "I got my ABRA at"
+	line "in de SPELHOEK" ; "the GAME CORNER."
+	cont "gekregen." ; 
 
-	para "Now it's my best"
-	line "partner."
+	para "Nu is het mijn" ; "Now it's my best"
+	line "beste maatje." ; "partner."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "Dit WARENHUIS" ; "This DEPT.STORE"
+	line "doet beseffen" ; "makes me realize"
 
-	para "that GOLDENROD is"
-	line "a big city."
+	para "dat GOLDENROD" ; "that GOLDENROD is"
+	line "een grote stad is." ; "a big city."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "De selectie" ; "The selection here"
+	line "hier is" ; "is unmatched any-"
+	cont "ongeëvenaard." ; "where else."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Jouw" ; "Your Travel"
+	line "Reisgenoot" ; "Companion"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2V TRAINER'S" ; "2F TRAINER'S"
+	line "MARKT" ; "   MARKET"
 	done
 
 GoldenrodDeptStore2F_MapEvents:
