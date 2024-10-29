@@ -419,232 +419,236 @@ GoldenrodUndergroundHiddenAntidote:
 	hiddenitem ANTIDOTE, EVENT_GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE
 
 SupernerdEricSeenText:
-	text "I got booted out"
-	line "of the GAME COR-"
-	cont "NER."
+	text "Ik ben uit de" ; "I got booted out"
+	line "SPELHOEK ge-" ; "of the GAME COR-"
+	cont "gooid." ; "NER."
 
-	para "I was trying to"
-	line "cheat using my"
-	cont "#MON…"
+	para "Ik probeerde met" ; "I was trying to"
+	line "mijn #MON vals" ; "cheat using my"
+	cont "te spelen…" ; "#MON…"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "…Mopper…" ; "…Grumble…"
 	done
 
 SupernerdEricAfterBattleText:
-	text "I guess I have to"
-	line "do things fair and"
-	cont "square…"
+	text "Blijkbaar moet ik" ; "I guess I have to"
+	line "dingen op een eer-" ; "do things fair and"
+	cont "lijke manier doen…" ; "square…"
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "Denk je aan type-"; "Do you consider"
+	line "afstemmingen"; "type alignments in"
+	cont "tijdens gevechten?"; "battle?"
 
-	para "If you know your"
-	line "type advantages,"
+	para "Als je je type-"; "If you know your"
+	line "voordelen kent,"; "type advantages,"
 
-	para "you'll do better"
-	line "in battle."
+	para "zal je beter in"; "you'll do better"
+	line "gevechten zijn."; "in battle."
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "Oh, oh, oh!"; "Ow, ow, ow!"
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
-	line "type alignments."
+	text "Ik weet #MON-"; "I know my #MON"
+	line "type-voordelen."; "type alignments."
 
-	para "But I only use one"
-	line "type of #MON."
+	para "Maar ik gebruik"; "But I only use one"
+	line "slechts één"; "type of #MON."
+	cont "#MON-type." ;
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got a haircut!"
+	text "Mijn #MON kreeg"; "My #MON just"
+	line "net een knipbeurt!"; "got a haircut!"
 
-	para "I'll show you how"
-	line "strong it is!"
+	para "Ik laat je zien"; "I'll show you how"
+	line "hoe sterk het is!"; "strong it is!"
 	done
 
 PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
+	text "Aiiii!"; "Aiyeeee!"
 	done
 
 PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
-	line "like you more if"
+	text "Je #MON zullen"; "Your #MON will"
+	line "je beter mogen als"; "like you more if"
 
-	para "you give them"
-	line "haircuts."
+	para "je ze knip-"; "you give them"
+	line "beurten geeft."; "haircuts."
 	done
 
 PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
+	text "Ik denk dat je wat"; "I think you have"
+	line "zeldzame #MON"; "some rare #MON"
+	cont "bij je hebt."; "with you."
 
-	para "Let me see them!"
+	para "Laat me zien!"; "Let me see them!"
 	done
 
 PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "Bwaa! Ik heb ver-"; "Gaah! I lost!"
+	line "loren! Dat maakt"; "That makes me mad!"
+	cont "me boos!"
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
+	text "Vul je 'n #DEX?"; "Are you making a"
+	line "Hier is een"; "#DEX? Here's a"
+	cont "goede tip."; "hot tip."
 
-	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
-	cont "good guy."
+	para "De WANDELAAR op"; "The HIKER on ROUTE"
+	line "ROUTE 33, ANTHONY,"; "33, ANTHONY, is a"
+	cont "is een goede vent."; "good guy."
 
-	para "He'll phone you if"
-	line "he sees any rare"
-	cont "#MON."
+	para "Hij belt je als"; "He'll phone you if"
+	line "hij een zeldzame"; "he sees any rare"
+	cont "#MON ziet."; "#MON."
 	done
 
 GoldenrodUndergroundTheDoorsLockedText:
-	text "The door's locked…"
+	text "De deur is"; "The door's locked…"
+	line "op slot…" ;
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:
-	text "The door is open."
+	text "De deur is open."; "The door is open."
 	done
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "The BASEMENT KEY"
-	line "opened the door."
+	text "De KLDRSLEUTEL"; "The BASEMENT KEY"
+	line "opent de deur."; "opened the door."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
-	text "Welcome!"
+	text "Welkom!"; "Welcome!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "Ik leid de"; "I run the #MON"
+	line "#MONSALON!"; "SALON!"
 
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Ik ben de oudste"; "I'm the older and"
+	line "en beste van de"; "better of the two"
+	cont "twee KNIPBROERS."; "HAIRCUT BROTHERS."
 
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥500."
+	para "Ik kan je #MON"; "I can make your"
+	line "mooi maken voor"; "#MON beautiful"
+	cont "slechts ¥500."; "for just ¥500."
 
-	para "Would you like me"
-	line "to do that?"
+	para "Wil je graag een?"; "Would you like me"
+	line "knipbeurt?"; "to do that?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
-	text "Which #MON"
-	line "should I work on?"
+	text "Welke #MON zal"; "Which #MON"
+	line "ik mee werken?"; "should I work on?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "Oké! Zie het"; "OK! Watch it"
+	line "mooi worden!"; "become beautiful!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
-	text "There! All done!"
+	text "Zo! Klaar!"; "There! All done!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherThatsAShameText:
-	text "Is that right?"
-	line "That's a shame!"
+	text "Weet je het zeker?"; "Is that right?"
+	line "Wat jammer!"; "That's a shame!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherYoullNeedMoreMoneyText:
-	text "You'll need more"
-	line "money than that."
+	text "Je hebt meer geld"; "You'll need more"
+	line "nodig dan dat."; "money than that."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOneHaircutADayText:
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "Ik doe maar één"; "I do only one"
+	line "knipbeurt per dag."; "haircut a day. I'm"
+	cont "Ik ben klaar voor"; "done for today."
+	cont "vandaag."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
-	text "Welcome to the"
-	line "#MON SALON!"
+	text "Welkom bij de"; "Welcome to the"
+	line "#MONSALON!"; "#MON SALON!"
 
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Ik ben de jongste"; "I'm the younger"
+	line "en minder dure"; "and less expen-"
+	cont "van de twee"; "sive of the two"
+	cont "KNIPBROERS."; "HAIRCUT BROTHERS."
 
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥300."
+	para "Ik knap je #MON"; "I'll spiff up your"
+	line "op voor slechts"; "#MON for just"
+	cont "¥300."; "¥300."
 
-	para "So? How about it?"
+	para "Dus? Wat denk je?"; "So? How about it?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "OK, which #MON"
-	line "should I do?"
+	text "Oké, welke #MON"; "OK, which #MON"
+	line "zal ik doen?"; "should I do?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "Oké! Ik zorg dat"; "OK! I'll make it"
+	line "het cool is!"; "look cool!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
-	text "There we go!"
-	line "All done!"
+	text "Zo!"; "There we go!"
+	line "We zijn klaar!"; "All done!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherHowDisappointingText:
-	text "No? "
-	line "How disappointing!"
+	text "Nee?"; "No? "
+	line "Wat jammer!"; "How disappointing!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherShortOnFundsText:
-	text "You're a little"
-	line "short on funds."
+	text "Je hebt niet"; "You're a little"
+	line "genoeg geld."; "short on funds."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText:
-	text "I can do only one"
-	line "haircut a day."
+	text "Ik kan maar één"; "I can do only one"
+	line "knipbeurt doen"; "haircut a day."
 
-	para "Sorry, but I'm all"
-	line "done for today."
+	para "per dag. Sorry, ik"; "Sorry, but I'm all"
+	line "ben klaar nu."; "done for today."
 	done
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text " looks a"
-	line "little happier."
+	text "ziet er"; " looks a"
+	line "iets blijer uit."; "little happier."
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text " looks"
-	line "happy."
+	text "ziet er"; " looks"
+	line "gelukkig uit."; "happy."
 	done
 
 HaircutBrosText_MuchHappier:
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text " looks"
-	line "delighted!"
+	text "ziet er"; " looks"
+	line "opgetogen uit!"; "delighted!"
 	done
 
 GoldenrodUndergroundWeAreNotOpenTodayText:
-	text "We're not open"
-	line "today."
+	text "We zijn vandaag"; "We're not open"
+	line "niet open."; "today."
 	done
 
 GoldenrodUndergroundNoEntryText:
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "GEEN TOEGANG"; "NO ENTRY BEYOND"
+	line "VOORBIJ DIT PUNT"; "THIS POINT"
 	done
 
 GoldenrodUnderground_MapEvents:

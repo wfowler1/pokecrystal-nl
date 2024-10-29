@@ -38,41 +38,42 @@ GoldenrodDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hey. I love strong"
-	line "#MON."
+	text "Hé. Ik hou van" ; "Hey. I love strong"
+	line "sterke #MON." ; "#MON."
 
-	para "I feed them PRO-"
-	line "TEIN to crank up"
-	cont "their ATTACK."
+	para "Ik voed ze PRO-" ; "I feed them PRO-"
+	line "TEÏNE om hun AAN-" ; "TEIN to crank up"
+	cont "VAL op te hogen." ; "their ATTACK."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "IRON adds to your"
-	line "#MON's DEFENSE."
+	text "IJZER verhoogt je" ; "IRON adds to your"
+	line "#MON's VERDEDI-" ; "#MON's DEFENSE."
+	cont "GING." ; 
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Some #MON"
-	line "evolve only by"
+	text "Sommige #MON" ; "Some #MON"
+	line "evolueren als je" ; "evolve only by"
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "ruilt via een" ; "being traded via a"
+	line "Game Link-snoer." ; "Game Link cable."
 
-	para "I know of four:"
+	para "Ik weet er vier:" ; "I know of four:"
 	line "MACHOKE, KADABRA,"
 
-	para "HAUNTER and, um,"
+	para "HAUNTER en, eh," ; "HAUNTER and, um,"
 	line "GRAVELER."
 
-	para "I heard there are"
-	line "others too."
+	para "Ik heb gehoord" ; "I heard there are"
+	line "dat er meer zijn." ; "others too."
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Let Us Pump Up"
-	line "Your #MON!"
+	text "Laat ons je #-" ; "Let Us Pump Up"
+	line "MON versterken!" ; "Your #MON!"
 
-	para "4F MEDICINE BOX"
+	para "4V MEDICIJNDOOS" ; "4F MEDICINE BOX"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

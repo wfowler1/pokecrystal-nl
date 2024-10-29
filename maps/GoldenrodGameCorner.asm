@@ -320,160 +320,167 @@ GoldenrodGameCornerCardFlipMachineScript:
 	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Welkom!" ; "Welcome!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Wij ruilen je" ; "We exchange your"
+	line "spelmunten voor" ; "game coins for"
+	cont "fantastische" ; "fabulous prizes!"
+	cont "prijzen!" ; 
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welke prijs" ; "Which prize would"
+	line "wil je?" ; "you like?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "."
-	line "Is that right?"
+	line "Klopt dat?" ; "Is that right?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Alsjeblieft!" ; "Here you go!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Sorry! Je hebt" ; "Sorry! You need"
+	line "meer munten nodig." ; "more coins."
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Sorry. Je kan" ; "Sorry. You can't"
+	line "niet meer dragen." ; "carry any more."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Oké. Spaar je" ; "OK. Please save"
+	line "munten en kom" ; "your coins and"
+	cont "dan terug!" ; "come again!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Je hebt" ; "Oh? You don't have"
+	line "geen GELDKISTJE." ; "a COIN CASE."
 	done
 
 GoldenrodGameCornerPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
+	text "Deze machine ziet" ; "This machine looks"
+	line "er hetzelfde uit" ; "the same as the"
+	cont "als de anderen." ; "others."
 	done
 else
-	text "I always play this"
-	line "slot machine. It"
+	text "Ik speel altijd" ; "I always play this"
+	line "deze spelautomaat." ; "slot machine. It"
 
-	para "pays out more than"
-	line "others, I think."
+	para "Hij betaalt meer" ; "pays out more than"
+	line "uit dan anderen," ; "others, I think."
+	cont "denk ik." ; 
 	done
 endc
 
 GoldenrodGameCornerPokefanM1Text:
 if DEF(_CRYSTAL_AU)
-	text "These machines"
-	line "seem different"
+	text "Deze automaten" ; "These machines"
+	line "lijken anders" ; "seem different"
 
-	para "from the ones at"
+	para "dan die in" ; "from the ones at"
 	line "CELADON CITY!"
 	done
 else
-	text "I just love this"
-	line "new slot machine."
+	text "Ik hou van deze" ; "I just love this"
+	line "nieuwe automaat." ; "new slot machine."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
+	para "Hij is uitdagender" ; "It's more of a"
+	line "dan de automaat" ; "challenge than the"
+	cont "in CELADON." ; "ones in CELADON."
 	done
 endc
 
 GoldenrodGameCornerCooltrainerMText:
 if DEF(_CRYSTAL_AU)
-	text "Nothing is certain"
-	line "in this area."
+	text "Niets is zeker" ; "Nothing is certain"
+	line "op dit gebied." ; "in this area."
 	done
 else
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "Het leven is een" ; "Life is a gamble."
+	line "gok. Ik ga kaarten" ; "I'm going to flip"
+	cont "flippen tot ik er" ; "cards till I drop!"
+	cont "bij neerval!"
 	done
 endc
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Kaartflipper…" ; "Card flip…"
 
 if DEF(_CRYSTAL_AU)
-	para "Different from the"
-	line "other machines."
+	para "Anders dan de" ; "Different from the"
+	line "andere automaten." ; "other machines."
 	done
 else
-	para "I prefer it over"
-	line "the slots because"
+	para "Ik heb dit liever" ; "I prefer it over"
+	line "dan de automaten," ; "the slots because"
 
-	para "it's easier to"
-	line "figure the odds."
+	para "het is simpeler" ; "it's easier to"
+	line "om de kansen te" ; "figure the odds."
 
-	para "But the payout is"
-	line "much lower."
+	para "berekenen. Maar de" ; "But the payout is"
+	line "bedragen zijn " ; "much lower."
+	cont "lager." ;
 	done
 endc
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Ik stop niet tot" ; "I won't quit until"
+	line "ik win!" ; "I win!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught BLIZZARD"
-	line "to my #MON."
+	text "Ik heb m'n #MON" ; "I taught BLIZZARD"
+	line "SNEEUWSTORM" ; "to my #MON."
+	cont "geleerd." ;
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Het was lastig" ; "It was hard to get"
+	line "genoeg munten te" ; "enough coins for"
 
-	para "it, but it was"
-	line "worth it."
+	para "krijgen, maar het" ; "it, but it was"
+	line "was het waard." ; "worth it."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
 if DEF(_CRYSTAL_AU)
-	text "COIN CASE? I threw"
-	line "it away in the"
-	cont "UNDERGROUND."
+	text "GELDKISTJE? Die" ; "COIN CASE? I threw"
+	line "gooide ik weg in" ; "it away in the"
+	cont "het ONDERGRONDSE." ; "UNDERGROUND."
 	done
 else
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Ik kon niet win-" ; "I couldn't win at"
+	line "nen bij de auto-" ; "the slots, and I"
 
-	para "blew it on card"
-	line "flipping…"
+	para "maten, en ik heb" ; "blew it on card"
+	line "het bij kaarten" ; "flipping…"
+	cont "flippen verpest…"
 
-	para "I got so furious,"
-	line "I tossed out my"
+	para "Ik werd zo kwaad," ; "I got so furious,"
+	line "dat ik m'n GELD-" ; "I tossed out my"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "KISTJE in het" ; "COIN CASE in the"
+	line "ONDERGRONDSE heb" ; "UNDERGROUND."
+	cont "gegooid." ;
 	done
 endc
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahahah! De munten" ; "Wahahah! The coins"
+	line "blijven rollen!" ; "keep rolling in!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
+	text "Iemand is z'n" ; "Someone left their"
+	line "drankje vergeten." ; "drink."
 
-	para "It smells sweet."
+	para "Het ruikt zoet." ; "It smells sweet."
 	done
 
 GoldenrodGameCorner_MapEvents:

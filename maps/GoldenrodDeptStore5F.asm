@@ -139,80 +139,83 @@ GoldenrodDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
-	text "Hello. Oh, your"
+	text "Hallo. Oh, je" ; "Hello. Oh, your"
 	line "#MON…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
-	text "It's very attached"
-	line "to you."
+	text "Het is erg aan" ; "It's very attached"
+	line "je gehecht." ; "to you."
 
-	para "This move should"
-	line "be perfect for a"
-	cont "pair like you."
+	para "Deze aanval is" ; "This move should"
+	line "perfect voor een" ; "be perfect for a"
+	cont "koppel als jullie." ; "pair like you."
 	done
 
 GoldenrodDeptStore5FReceptionistItsAdorableText:
-	text "It's adorable!"
+	text "'t is zo schattig!" ; "It's adorable!"
 
-	para "You should teach"
-	line "it good TM moves."
+	para "Leer het goede" ; "You should teach"
+	line "TM-aanvallen." ; "it good TM moves."
 	done
 
 GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText:
-	text "It looks evil. How"
-	line "about this TM for"
-	cont "it?"
+	text "Het ziet er gemeen" ; "It looks evil. How"
+	line "uit. Wat denk je" ; "about this TM for"
+	cont "van deze TM?" ; "it?"
 	done
 
 GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText:
-	text "There are sure to"
-	line "be TMs that are"
+	text "Er zijn zeker" ; "There are sure to"
+	line "TMs die precies" ; "be TMs that are"
 
-	para "just perfect for"
-	line "your #MON."
+	para "goed zijn voor" ; "just perfect for"
+	line "je #MON." ; "your #MON."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
-	text "MYSTERY GIFT."
+	text "GEHEIM CADEAU." ; "MYSTERY GIFT."
 
-	para "With just a"
-	line "little beep, you"
-	cont "get a gift."
+	para "Met slechts een" ; "With just a"
+	line "kleine piep," ; "little beep, you"
+	cont "krijg je een" ; "get a gift."
+	cont "cadeautje." ; 
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "The MYSTERY GIFT"
-	line "option requires a"
+	text "De GEHEIM CADEAU-" ; "The MYSTERY GIFT"
+	line "optie vereist een" ; "option requires a"
 	cont "Game Boy Color."
 	done
 
 GoldenrodDeptStore5FLassText:
-	text "On Sundays, a lady"
-	line "comes to check out"
-	cont "#MON."
+	text "Op zondag komt" ; "On Sundays, a lady"
+	line "een dame #MON" ; "comes to check out"
+	cont "onderzoeken." ; "#MON."
 
-	para "She even gives"
-	line "away TMs!"
+	para "Ze geeft zelfs" ; "She even gives"
+	line "TMs weg!" ; "away TMs!"
 	done
 
 GoldenrodDeptStore5FPokefanMText:
-	text "You can't rename a"
-	line "#MON you get in"
-	cont "a trade."
+	text "Je kan een #MON" ; "You can't rename a"
+	line "die je hebt ge-" ; "#MON you get in"
+	cont "ruild geen nieuwe" ; "a trade."
+	cont "naam geven." ; 
 
-	para "The name is a re-"
-	line "flection of the"
+	para "De naam is een" ; "The name is a re-"
+	line "teken van de" ; "flection of the"
 
-	para "original trainer's"
-	line "feelings for it."
+	para "gevoelens van" ; "original trainer's"
+	line "de originele" ; "feelings for it."
+	cont "trainer." ; 
 	done
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Customize Your"
-	line "#MON"
+	text "Pas je" ; "Customize Your"
+	line "#MON aan" ; "#MON"
 
-	para "5F TM CORNER"
+	para "5V TM-HOEK" ; "5F TM CORNER"
 	done
 
 GoldenrodDeptStore5F_MapEvents:

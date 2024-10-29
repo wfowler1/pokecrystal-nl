@@ -28,30 +28,31 @@ GoldenrodDeptStore3FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore3FSuperNerdText:
-	text "I, I, I'm really"
-	line "impatient!"
+	text "Ik, ik, ik ben" ; "I, I, I'm really"
+	line "heel ongeduldig!" ; "impatient!"
 
-	para "I use X SPEED in"
-	line "battle to speed up"
-	cont "my #MON."
+	para "Ik gebruik X-" ; "I use X SPEED in"
+	line "SNELHEID om m'n" ; "battle to speed up"
+	cont "#MON te" ; "my #MON."
+	cont "versnellen." ;
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! When you bat-"
-	line "tle, do you use X"
-	cont "SPECIAL?"
+	text "Hé! Als je vecht," ; "Hey! When you bat-"
+	line "gebruik je dan" ; "tle, do you use X"
+	cont "X-SPECIAAL?" ; "SPECIAL?"
 
-	para "It's awesome. It"
-	line "really jacks up"
-	cont "SPECIAL ATTACK!"
+	para "Het is tof. Het" ; "It's awesome. It"
+	line "verhoogt je SPE-" ; "really jacks up"
+	cont "CIALE AANVAL echt!" ; "SPECIAL ATTACK!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:
-	text "For Victory"
-	line "Seekers"
+	text "Voor Winst-" ; "For Victory"
+	line "zoekers" ; "Seekers"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "3V GEVECHT" ; "3F BATTLE"
+	line "COLLECTIE" ; "   COLLECTION"
 	done
 
 GoldenrodDeptStore3F_MapEvents:

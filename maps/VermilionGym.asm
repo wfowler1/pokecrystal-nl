@@ -103,159 +103,159 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey, you"
-	line "little tyke!"
+	text "SURGE: Hey jij," ; "SURGE: Hey, you"
+	line "kleintje!" ; "little tyke!"
 
-	para "I have to hand it"
-	line "to you. It may not"
+	para "Ik moet toegeven." ; "I have to hand it"
+	line "Het is niet slim" ; "to you. It may not"
 
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
+	para "om mij uit te" ; "be very smart to"
+	line "dagen, maar het" ; "challenge me, but"
+	cont "vereist wel lef!" ; "it takes guts!"
 
-	para "When it comes to"
-	line "electric #MON,"
-	cont "I'm number one!"
+	para "Met elektrische" ; "When it comes to"
+	line "#MON ben ik" ; "electric #MON,"
+	cont "nummer één!" ; "I'm number one!"
 
-	para "I've never lost on"
-	line "the battlefield."
+	para "Op het slagveld" ; "I've never lost on"
+	line "verloor ik nooit" ; "the battlefield."
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	para "Ik sloop je net" ; "I'll zap you just"
+	line "als mijn vijanden " ; "like I did my"
+	cont "in de oorlog!" ; "enemies in war!"
 	done
 
 LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
-	line "You are strong!"
+	text "SURGE: Arrrgh!" ; "SURGE: Arrrgh!"
+	line "Jij bent sterk!" ; "You are strong!"
 
-	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	para "OK kind, je krijgt" ; "OK, kid. You get"
+	line "DONDERBADGE!" ; "THUNDERBADGE!"
 	done
 
 ReceivedThunderBadgeText:
-	text "<PLAYER> received"
-	line "THUNDERBADGE."
+	text "<PLAYER> ontvangt" ; "<PLAYER> receives"
+	line "DONDERBADGE" ; "THUNDERBADGE."
 	done
 
 LtSurgeThunderBadgeText:
-	text "SURGE: THUNDER-"
-	line "BADGE increases"
-	cont "#MON's speed. "
+	text "SURGE: DONDER-" ; "SURGE: THUNDER-"
+	line "BADGE maakt jouw" ; "BADGE increases"
+	cont "#MON sneller." ; "#MON's speed. "
 
-	para "Consider it proof"
-	line "that you defeated"
+	para "Het is bewijs dat" ; "Consider it proof"
+	line "je me versloeg." ; "that you defeated"
 
-	para "me. You wear it"
-	line "proudly, hear?"
+	para "Draag 'm met" ; "me. You wear it"
+	line "trots, oké?" ; "proudly, hear?"
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
-	line "Still slugging and"
-	cont "chugging away?"
+	text "SURGE: Hey, kind!" ; "SURGE: Hey, kid!"
+	line "Nog steeds aan het" ; "Still slugging and"
+	cont "hakken en zagen?" ; "chugging away?"
 
-	para "My #MON and I"
-	line "are still at it!"
+	para "Mijn #MON en ik" ; "My #MON and I"
+	line "gaan nog door!" ; "are still at it!"
 	done
 
 GentlemanGregorySeenText:
-	text "You're here to"
-	line "defeat LT.SURGE?"
+	text "Ben je hier om LT." ; "You're here to"
+	line "SURGE te verslaan?" ; "defeat LT.SURGE?"
 
-	para "Not if I can help"
-	line "it!"
+	para "Niet als ik er" ; "Not if I can help"
+	line "iets aan kan doen!" ; "it!"
 	done
 
 GentlemanGregoryBeatenText:
-	text "Sorry I failed"
-	line "you, LT.SURGE,"
-	cont "sir!"
+	text "Sorry, ik heb u" ; "Sorry I failed"
+	line "teleurgesteld, LT." ; "you, LT.SURGE,"
+	cont "SURGE!" ; "sir!"
 	done
 
 GentlemanGregoryAfterBattleText:
-	text "When I was still"
-	line "in the army, LT."
+	text "Toen ik nog in het" ; "When I was still"
+	line "leger zat, heeft" ; "in the army, LT."
 
-	para "SURGE saved my"
-	line "life."
+	para "LT.SURGE mijn" ;  "SURGE saved my"
+	line "leven gered." ; "life."
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
-	line "nized my potential"
+	text "LT.SURGE herkent" ; "LT.SURGE recog-"
+	line "mijn potentie met" ; "nized my potential"
 
-	para "with electric"
-	line "#MON."
+	para "elektrische #-." ; "with electric"
+	line "MON. Denk jij dat" ; "#MON."
 
-	para "Think you can beat"
-	line "me?"
+	para "je mij kan" ; "Think you can beat"
+	line "verslaan?" ; "me?"
 	done
 
 GuitaristVincentBeatenText:
-	text "Ooh, how shocking!"
+	text "Oh, wat een schok!" ; "Ooh, how shocking!"
 	done
 
 GuitaristVincentAfterBattleText:
-	text "If the GYM's traps"
-	line "were working, you"
+	text "Als de vallen hier" ; "If the GYM's traps"
+	line "werkten, zou je" ; "were working, you"
 
-	para "would have been"
-	line "toast…"
+	para "echt de sjaak" ; "would have been"
+	line "geweest zijn…" ; "toast…"
 	done
 
 JugglerHortonSeenText:
-	text "I'm going to take"
-	line "you down! Prepare"
-	cont "to be shocked!"
+	text "Ik ga je verslaan!" ; "I'm going to take"
+	line "Bereid je voor op" ; "you down! Prepare"
+	cont "een schok!" ; "to be shocked!"
 	done
 
 JugglerHortonBeatenText:
-	text "Gwaaah!"
-	line "I was overpowered…"
+	text "Gwaaah! Ik ben" ; "Gwaaah!"
+	line "overweldigd…" ; "I was overpowered…"
 	done
 
 JugglerHortonAfterBattleText:
-	text "Don't get too com-"
-	line "fortable about"
+	text "Wen maar niet aan" ; "Don't get too com-"
+	line "deze winst…" ; "fortable about"
 
-	para "beating me…"
-	line "LT.SURGE is tough."
+	para "LT.SURGE is een" ; "beating me…"
+	line "taaie." ; "LT.SURGE is tough."
 	done
 
 VermilionGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! KAMPIOEN in" ; "Yo! CHAMP in"
+	line "de maak!" ; "making!"
 
-	para "You lucked out"
-	line "this time."
+	para "Dit keer heb" ; "You lucked out"
+	line "je mazzel." ; "this time."
 
-	para "LT.SURGE is very"
-	line "cautious. He has"
+	para "LT.SURGE is een" ; "LT.SURGE is very"
+	line "voorzichtige. Hij" ; "cautious. He has"
 
-	para "traps set all over"
-	line "the GYM."
+	para "heeft door de hele" ; "traps set all over"
+	line "GYM vallen gezet" ; "the GYM."
 
-	para "But--he-heh--the"
-	line "traps aren't"
-	cont "active right now."
+	para "Maar--he-heh--de" ; "But--he-heh--the"
+	line "vallen zijn nu" ; "traps aren't"
+	cont "niet actief." ; "active right now."
 
-	para "You'll have no"
-	line "problem getting to"
-	cont "LT.SURGE."
+	para "Je kan zonder" ; "You'll have no"
+	line "problemen bij" ; "problem getting to"
+	cont "LT. SURGE komen." ; "LT.SURGE."
 	done
 
 VermilionGymGuideWinText:
-	text "Whew! That was an"
-	line "electrifying bout!"
+	text "Pfoei! Dat was een" ; "Whew! That was an"
+	line "spannend gevecht" ; "electrifying bout!"
 
-	para "It sure made me"
-	line "nervous."
+	para "Ik werd er een"; "It sure made me"
+	line "beetje nerveus van" ; "nervous."
 	done
 
 VermilionGymTrashCanText:
-	text "Nope! Nothing here"
-	line "but trash."
+	text "Nee! Hier ligt" ; "Nope! Nothing here"
+	line "alleen maar afval" ; "but trash."
 	done
 
 VermilionGym_MapEvents:

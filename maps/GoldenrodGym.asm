@@ -183,29 +183,30 @@ BridgetWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm WHITNEY!"
+	text "Hoi! Ik ben" ; "Hi! I'm WHITNEY!"
+	line "WHITNEY!" ; 
 
-	para "Everyone was into"
-	line "#MON, so I got"
-	cont "into it too!"
+	para "Iedereen hield" ; "Everyone was into"
+	line "van #MON, dus" ; "#MON, so I got"
+	cont "ik nu ook!" ; "into it too!"
 
-	para "#MON are"
-	line "super-cute!"
+	para "#MON zijn" ; "#MON are"
+	line "superschattig!" ; "super-cute!"
 
-	para "You want to bat-"
-	line "tle? I'm warning"
-	cont "you--I'm good!"
+	para "Wil je vechten?" ; "You want to bat-"
+	line "Ik waarschuw" ; "tle? I'm warning"
+	cont "je--ik ben goed!" ; "you--I'm good!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Sob…"
+	text "Snik…" ; "Sob…"
 
 	para "…Waaaaaaah!"
-	line "You're mean!"
+	line "Je bent gemeen!" ; "You're mean!"
 
-	para "You shouldn't be"
-	line "so serious! You…"
-	cont "you child, you!"
+	para "Je moet niet zo" ; "You shouldn't be"
+	line "serieus zijn! Jij…" ; "so serious! You…"
+	cont "jij  kleuter, jij!" ; "you child, you!"
 	done
 
 WhitneyYouMeanieText:
@@ -213,168 +214,177 @@ WhitneyYouMeanieText:
 
 	para "Waaaaah!"
 
-	para "…Snivel, hic…"
-	line "…You meanie!"
+	para "…Snotter, hik…" ; "…Snivel, hic…"
+	line "…Jij gemenerd!" ; "…You meanie!"
 	done
 
 WhitneyWhatDoYouWantText:
-	text "…Sniff…"
+	text "…Snotter…" ; "…Sniff…"
 
-	para "What? What do you"
-	line "want? A BADGE?"
+	para "Wat? Wat wil" ; "What? What do you"
+	line "je? Een BADGE?" ; "want? A BADGE?"
 
-	para "Oh, right."
-	line "I forgot. Here's"
-	cont "PLAINBADGE."
+	para "Oh, juist." ; "Oh, right."
+	line "Vergeten. Hier is" ; "I forgot. Here's"
+	cont "de SIMPELBADGE." ; "PLAINBADGE."
 	done
 
 PlayerReceivedPlainBadgeText:
-	text "<PLAYER> received"
-	line "PLAINBADGE."
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "SIMPELBADGE." ; "PLAINBADGE."
 	done
 
 WhitneyPlainBadgeText:
-	text "PLAINBADGE lets"
-	line "your #MON use"
+	text "SIMPELBADGE laat" ; "PLAINBADGE lets"
+	line "je #MON KRACHT" ; "your #MON use"
 
-	para "STRENGTH outside"
-	line "of battle."
+	para "gebruiken buiten" ; "STRENGTH outside"
+	line "gevechten." ; "of battle."
 
-	para "It also boosts"
-	line "your #MON's"
-	cont "SPEED."
+	para "Het verhoogt" ; "It also boosts"
+	line "ook je #MON's" ; "your #MON's"
+	cont "SNELHEID." ; "SPEED."
 
-	para "Oh, you can have"
-	line "this too!"
+	para "Oh, je mag" ; "Oh, you can have"
+	line "dit ook houden!" ; "this too!"
 	done
 
 WhitneyAttractText:
-	text "It's ATTRACT!"
-	line "It makes full use"
+	text "Het is VERLEID!" ; "It's ATTRACT!"
+	line "Het gebruikt" ; "It makes full use"
 
-	para "of a #MON's"
-	line "charm."
+	para "de charme van" ; "of a #MON's"
+	line "een #MON." ; "charm."
 
-	para "Isn't it just per-"
-	line "fect for a cutie"
-	cont "like me?"
+	para "Is het niet" ; "Isn't it just per-"
+	line "perfect voor een" ; "fect for a cutie"
+	cont "schatje als ik?" ; "like me?"
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "Ah, dat was een" ; "Ah, that was a"
+	line "goede huilbui!" ; "good cry!"
 
-	para "Come for a visit"
-	line "again! Bye-bye!"
+	para "Kom weer eens" ; "Come for a visit"
+	line "op bezoek! Doei!" ; "again! Bye-bye!"
 	done
 
 LassCarrieSeenText:
-	text "Don't let my"
-	line "#MON's cute"
+	text "Laat je niet fop-" ; "Don't let my"
+	line "pen door m'n" ; "#MON's cute"
 
-	para "looks fool you."
-	line "They can whip you!"
+	para "#MON's schattige" ; "looks fool you."
+	line "uiterlijk. Ze" ; "They can whip you!"
+	cont "kunnen flink" ; 
+	cont "uithalen!" ;
 	done
 
 LassCarrieBeatenText:
-	text "Darn… I thought"
-	line "you were weak…"
+	text "Chips… Ik dacht" ; "Darn… I thought"
+	line "dat je zwak was…" ; "you were weak…"
 	done
 
 LassCarrieAfterBattleText:
-	text "Do my #MON"
-	line "think I'm cute?"
+	text "Denken m'n #MON" ; "Do my #MON"
+	line "dat ik schattig" ; "think I'm cute?"
+	cont "ben?" ;
 	done
 
 LassBridgetSeenText:
-	text "I like cute #-"
-	line "MON better than"
-	cont "strong #MON."
+	text "Ik vind schattige" ; "I like cute #-"
+	line "#MON leuker dan" ; "MON better than"
+	cont "sterke #MON." ; "strong #MON."
 
-	para "But I have strong"
-	line "and cute #MON!"
+	para "Maar ik heb sterke" ; "But I have strong"
+	line "én schattige" ; "and cute #MON!"
+	cont "#MON!" ; 
 	done
 
 LassBridgetBeatenText:
-	text "Oh, no, no, no!"
+	text "Oh, nee, nee!" ; "Oh, no, no, no!"
 	done
 
 LassBridgetAfterBattleText:
-	text "I'm trying to beat"
-	line "WHITNEY, but…"
-	cont "It's depressing."
+	text "Ik probeer WHITNEY" ; "I'm trying to beat"
+	line "te verslaan, maar…" ; "WHITNEY, but…"
+	cont "'t is deprimerend." ; "It's depressing."
 
-	para "I'm okay! If I"
-	line "lose, I'll just"
+	para "Ik ben oké! Als ik" ; "I'm okay! If I"
+	line "verlies, doe ik" ; "lose, I'll just"
 
-	para "try harder next"
-	line "time!"
+	para "volgende keer ge-" ; "try harder next"
+	line "woon beter m'n" ; "time!"
+	cont "best!" ; 
 	done
 
 BridgetWhitneyCriesText:
-	text "Oh, no. You made"
-	line "WHITNEY cry."
+	text "Oh nee. Je hebt" ; "Oh, no. You made"
+	line "WHITNEY aan het" ; "WHITNEY cry."
+	cont "huilen gemaakt." ; 
 
-	para "It's OK. She'll"
-	line "stop soon. She"
+	para "Het is oké. Ze" ; "It's OK. She'll"
+	line "stopt snel. Ze" ; "stop soon. She"
 
-	para "always cries when"
-	line "she loses."
+	para "huilt altijd als" ; "always cries when"
+	line "ze verliest." ; "she loses."
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, you are a cute"
-	line "little trainer! "
+	text "Oh, je bent zo'n" ; "Oh, you are a cute"
+	line "schattige kleine" ; "little trainer! "
+	cont "trainer!" ; 
 
-	para "I like you, but I"
-	line "won't hold back!"
+	para "Je bent leuk, maar" ; "I like you, but I"
+	line "ik hou me niet in!" ; "won't hold back!"
 	done
 
 BeautyVictoriaBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+	text "Eens zien… Oeps," ; "Let's see… Oops,"
+	line "het is voorbij?" ; "it's over?"
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "Wow, you must be"
-	line "good to beat me!"
-	cont "Keep it up!"
+	text "Wow, je moet wel" ; "Wow, you must be"
+	line "goed zijn om me te" ; "good to beat me!"
+	cont "verslaan! Ga" ; "Keep it up!"
+	cont "zo door!" ; 
 	done
 
 BeautySamanthaSeenText:
-	text "Give it your best"
-	line "shot, or I'll take"
-	cont "you down!"
+	text "Doe je best, of" ; "Give it your best"
+	line "anders haal ik" ; "shot, or I'll take"
+	cont "je neer!" ; "you down!"
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
-	line "I'm so sorry!"
+	text "Nee! Oh, MEOWTH," ; "No! Oh, MEOWTH,"
+	line "het spijt me zo!" ; "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "I taught MEOWTH"
-	line "moves for taking"
-	cont "on any type…"
+	text "Ik heb MEOWTH" ; "I taught MEOWTH"
+	line "aanvallen geleerd" ; "moves for taking"
+	cont "om elk type aan" ; 
+	cont "te pakken…" ; "on any type…"
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Jo! Toe-" ; "Yo! CHAMP in"
+	line "komstige kampioen!" ; "making!"
 
-	para "This GYM is home"
-	line "to normal-type"
-	cont "#MON trainers."
+	para "Deze GYM is vol" ; "This GYM is home"
+	line "met normaal-type" ; "to normal-type"
+	cont "#MON-trainers." ; "#MON trainers."
 
-	para "I recommend you"
-	line "use fighting-type"
-	cont "#MON."
+	para "Ik raad je aan" ; "I recommend you"
+	line "vecht-type #MON" ; "use fighting-type"
+	cont "te gebruiken." ; "#MON."
 	done
 
 GoldenrodGymGuideWinText:
-	text "You won? Great! I"
-	line "was busy admiring"
-	cont "the ladies here."
+	text "Je hebt gewonnen?" ; "You won? Great! I"
+	line "Ik was druk met de" ; "was busy admiring"
+	cont "dames bewonderen." ; "the ladies here."
 	done
 
 GoldenrodGym_MapEvents:

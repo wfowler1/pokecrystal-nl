@@ -666,267 +666,276 @@ UndergroundRivalRetreatMovement2:
 	step_end
 
 UndergroundRivalBeforeText:
-	text "Hold it!"
+	text "Stop!" ; "Hold it!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Ik zag je dus" ; "I saw you, so I"
+	line "ben je gevolgd." ; "tailed you."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "Loop me niet" ; "I don't need you"
+	line "in de weg terwijl" ; "underfoot while I"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "ik TEAM ROCKET" ; "take care of TEAM"
+	line "uitschakel." ; "ROCKET."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "…Wacht eens." ; "…Wait a second."
+	line "Je hebt me eerder" ; "You beat me be-"
+	cont "verslagen, toch?" ; "fore, didn't you?"
 
-	para "That was just a"
-	line "fluke."
+	para "Dat was" ; "That was just a"
+	line "slechts geluk." ; "fluke."
 
-	para "But I repay my"
-	line "debts!"
+	para "Maar nu is je" ; "But I repay my"
+	line "geluk op!" ; "debts!"
 	done
 
 UndergroundRivalWinText:
-	text "…Why…"
-	line "Why do I lose?"
+	text "…Waarom…" ; "…Why…"
+	line "Waarom verlies ik?" ; "Why do I lose?"
 
-	para "I've assembled the"
-	line "toughest #MON."
+	para "Ik heb de sterkste" ; "I've assembled the"
+	line "#MON verzameld." ; "toughest #MON."
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "Ik heb hard" ; "I didn't ease up"
+	line "gewerkt. Dus" ; "on the gas."
 
-	para "So why do I lose?"
+	para "waarom verlies ik?" ; "So why do I lose?"
 	done
 
 UndergroundRivalAfterText:
-	text "…I don't under-"
-	line "stand…"
+	text "…Ik snap het" ; "…I don't under-"
+	line "niet…" ; "stand…"
 
-	para "Is what that LANCE"
-	line "guy said true?"
+	para "Is 't waar wat die" ; "Is what that LANCE"
+	line "LANCE-gast zei?" ; "guy said true?"
 
-	para "That I don't treat"
-	line "#MON properly?"
+	para "Dat ik #MON" ; "That I don't treat"
+	line "slecht behandel?" ; "#MON properly?"
 
-	para "Love…"
+	para "Liefde…" ; "Love…"
 
-	para "Trust…"
+	para "Vertrouwen…" ; "Trust…"
 
-	para "Are they really"
-	line "what I lack?"
+	para "Is dat echt" ; "Are they really"
+	line "wat ik mis?" ; "what I lack?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "Verhindert dat" ; "Are they keeping"
+	line "me te winnen?" ; "me from winning?"
 
-	para "I… I just don't"
-	line "understand."
+	para "Ik… Ik snap het" ; "I… I just don't"
+	line "gewoon niet." ; "understand."
 
-	para "But it's not going"
-	line "to end here."
+	para "Maar hier eindigt" ; "But it's not going"
+	line "het niet." ; "to end here."
 
-	para "Not now. Not"
-	line "because of this."
+	para "Niet nu. Niet" ; "Not now. Not"
+	line "hierom." ; "because of this."
 
-	para "I won't give up my"
-	line "dream of becoming"
+	para "Ik geef mijn" ; "I won't give up my"
+	line "droom niet op om" ; "dream of becoming"
 
-	para "the world's best"
-	line "#MON trainer!"
+	para "'s werelds beste" ; "the world's best"
+	line "#MON trainer te" ; "#MON trainer!"
+	cont "worden!"
 	done
 
 UndergroundRivalLossText:
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Dit is mijn ware" ; "Humph. This is my"
+	line "kracht, watje." ; "real power, wimp."
 
-	para "I'll make TEAM"
-	line "ROCKET history."
+	para "Ik maak van TEAM" ; "I'll make TEAM"
+	line "ROCKET verleden" ; "ROCKET history."
+	cont "tijd."
 
-	para "And I'm going to"
-	line "grind that LANCE"
-	cont "under my heels."
+	para "En ik ga die" ; "And I'm going to"
+	line "LANCE onder m'n" ; "grind that LANCE"
+	cont "voet vermorzelen." ; "under my heels."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText:
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "Ik was uitgedaagd" ; "I was challenged"
+	line "om beneden te" ; "to a battle down-"
+	cont "vechten." ; "stairs."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "Het is daar best" ; "It's rough down"
+	line "pittig. Wees" ; "there. You'd"
+	cont "voorzichtig." ; "better be careful."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_TeacherText:
-	text "There are some"
-	line "shops downstairs…"
+	text "Er zijn wat wink-" ; "There are some"
+	line "els beneden…" ; "shops downstairs…"
 
-	para "But there are"
-	line "also trainers."
+	para "Maar er zijn" ; "But there are"
+	line "ook trainers." ; "also trainers."
 
-	para "I'm scared to go"
-	line "down there."
+	para "Ik ben bang om" ; "I'm scared to go"
+	line "daarheen te gaan." ; "down there."
 	done
 
 GruntM11SeenText:
-	text "Open one shutter,"
-	line "another closes."
+	text "Open één luik en" ; "Open one shutter,"
+	line "een ander sluit." ; "another closes."
 
-	para "Bet you can't get"
-	line "where you want!"
+	para "Ik wed dat je" ; "Bet you can't get"
+	line "niet verder komt!" ; "where you want!"
 	done
 
 GruntM11BeatenText:
-	text "Drat! I was sunk"
-	line "by indecision!"
+	text "Verdorie! Ik viel" ; "Drat! I was sunk"
+	line "prooi aan beslui-" ; "by indecision!"
+	cont "teloosheid!" ;
 	done
 
 GruntM11AfterBattleText:
-	text "I'm confused too…"
-	line "The switch on the"
+	text "Ik ben verward…" ; "I'm confused too…"
+	line "De schakelaar" ; "The switch on the"
 
-	para "end is the one to"
-	line "press first, but…"
+	para "aan het eind moet" ; "end is the one to"
+	line "je als eerst" ; "press first, but…"
+	cont "drukken, maar…" ;
 	done
 
 GruntM25SeenText:
-	text "Kwahaha!"
+	text "Kwahaha!" ; "Kwahaha!"
 
-	para "Confounded by the"
-	line "shutters, are we?"
+	para "Verward door de" ; "Confounded by the"
+	line "luiken, zeker?" ; "shutters, are we?"
 
-	para "I'll let you in on"
-	line "a secret if you"
-	cont "can beat me!"
+	para "Als je me kan ver-" ; "I'll let you in on"
+	line "slaan, vertel ik" ; "a secret if you"
+	cont "een geheimpje!" ; "can beat me!"
 	done
 
 GruntM25BeatenText:
-	text "Uwww…"
-	line "I blew it."
+	text "Oeff… Ik heb" ; "Uwww…"
+	line "het verpest." ; "I blew it."
 	done
 
 GruntM25AfterBattleText:
-	text "All right. A hint!"
+	text "Oké. Een hint!" ; "All right. A hint!"
 
-	para "Change the order"
-	line "of switching."
+	para "Verander de volg-" ; "Change the order"
+	line "orde van schakel-" ; "of switching."
+	cont "en." ;
 
-	para "That'll change the"
-	line "ways the shutters"
-	cont "open and close."
+	para "Dat verandert de" ; "That'll change the"
+	line "manier waarop de" ; "ways the shutters"
+	cont "luiken openen." ; "open and close."
 	done
 
 BurglarDuncanSeenText:
-	text "Fork over your"
-	line "goodies!"
+	text "Geef me je" ; "Fork over your"
+	line "spullen!" ; "goodies!"
 	done
 
 BurglarDuncanBeatenText:
-	text "Mercy!"
+	text "Genade!" ; "Mercy!"
 	done
 
 BurglarDuncanAfterBattleText:
-	text "Steal and sell!"
-	line "That's basic in"
-	cont "crime, kid!"
+	text "Stelen en ver-" ; "Steal and sell!"
+	line "kopen! Dat is de" ; "That's basic in"
+	cont "basis in misdaad," ; "crime, kid!"
+	cont "ettertje!" ;
 	done
 
 BurglarEddieSeenText:
-	text "They ditched this"
-	line "project before"
-	cont "they finished."
+	text "Ze hebben dit pro-" ; "They ditched this"
+	line "ject gedumpt voor-" ; "project before"
+	cont "dat het klaar was." ; "they finished."
 
-	para "I'm searching for"
-	line "leftover loot."
+	para "Ik zoek naar over-" ; "I'm searching for"
+	line "gebleven spullen." ; "leftover loot."
 	done
 
 BurglarEddieBeatenText:
-	text "Over the top!"
+	text "Over de top!" ; "Over the top!"
 	done
 
 BurglarEddieAfterBattleText:
-	text "UNDERGROUND WARE-"
-	line "HOUSE?"
+	text "OPSLAGKELDER?" ; "UNDERGROUND WARE-"
+	line "" ; "HOUSE?"
 
-	para "What do you want"
-	line "to go there for?"
+	para "Waarom wil je" ; "What do you want"
+	line "daar heen?" ; "to go there for?"
 
-	para "There's nothing"
-	line "down there."
+	para "Er is niets" ; "There's nothing"
+	line "daar beneden." ; "down there."
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "Het kan me niet" ; "I don't care if"
+	line "schelen of je ver-" ; "you're lost."
+	cont "dwaald bent." ;
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Als je hier komt," ; "You show up here,"
+	line "ben je niets dan" ; "you're nothing but"
+	cont "een slachtoffer!" ; "a victim!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "Zo! Je denkt dat" ; "Urk! Yeah, think"
+	line "je cool bent, hè?" ; "you're cool, huh?"
 	done
 
 GruntM13AfterBattleText:
-	text "You must have ice"
-	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	text "Je moet wel erg" ; "You must have ice"
+	line "koelbloedig zijn" ; "in your veins to"
+	cont "om TEAM ROCKET" ; "dis TEAM ROCKET."
+	cont "aan te pakken." ;
 	done
 
 SwitchRoomText_Switch1:
-	text "It's labeled"
-	line "SWITCH 1."
+	text "Het label zegt" ; "It's labeled"
+	line "SCHAKELAAR 1." ; "SWITCH 1."
 	done
 
 GruntF3SeenText:
-	text "Are you lost? No,"
-	line "you can't be."
+	text "Ben je verdwaald?" ; "Are you lost? No,"
+	line "Nee, zo te zien" ; "you can't be."
 
-	para "You don't have"
-	line "that scared look."
+	para "niet. Je bent" ; "You don't have"
+	line "niet bang." ; "that scared look."
 
-	para "I'll give you"
-	line "something to be"
-	cont "scared about!"
+	para "Ik geef je iets" ; "I'll give you"
+	line "om bang voor" ; "something to be"
+	cont "te zijn!" ; "scared about!"
 	done
 
 GruntF3BeatenText:
-	text "How could you?"
+	text "Hoe kon je?" ; "How could you?"
 	done
 
 GruntF3AfterBattleText:
-	text "Go wherever you'd"
-	line "like! Get lost!"
-	cont "See if I care!"
+	text "Ga maar verder!" ; "Go wherever you'd"
+	line "Uit m'n zicht!" ; "like! Get lost!"
+	cont "Kan me niet" ; "See if I care!"
+	cont "schelen!" ; 
 	done
 
 SwitchRoomText_OffTurnOn:
-	text "It's OFF."
-	line "Turn it ON?"
+	text "Het is UIT." ;  "It's OFF."
+	line "Zet het AAN?" ; "Turn it ON?"
 	done
 
 SwitchRoomText_OnTurnOff:
-	text "It's ON."
-	line "Turn it OFF?"
+	text "Het is AAN." ; "It's ON."
+	line "Zet het UIT?" ; "Turn it OFF?"
 	done
 
 SwitchRoomText_Switch2:
-	text "It's labeled"
-	line "SWITCH 2."
+	text "Het label zegt" ; "It's labeled"
+	line "SCHAKELAAR 2." ; "SWITCH 2."
 	done
 
 SwitchRoomText_Switch3:
-	text "It's labeled"
-	line "SWITCH 3."
+	text "Het label zegt" ; "It's labeled"
+	line "SCHAKELAAR 3." ; "SWITCH 3."
 	done
 
 SwitchRoomText_Emergency:
-	text "It's labeled"
-	line "EMERGENCY."
+	text "Het label zegt" ; "It's labeled"
+	line "NOODGEVAL." ; "EMERGENCY."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_MapEvents:

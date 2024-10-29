@@ -101,10 +101,10 @@ MoveTutorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FLAMETHROWER@"
-	db "THUNDERBOLT@"
-	db "ICE BEAM@"
-	db "CANCEL@"
+	db "VLAMMENWERPER@"
+	db "BLIKSEMSTRAAL@"
+	db "IJSSTRAAL@"
+	db "ANNULEER@"
 
 .Refused:
 	writetext GoldenrodCityMoveTutorAwwButTheyreAmazingText
@@ -282,266 +282,269 @@ GoldenrodCityMoveTutorWalkAroundPlayerThenEnterGameCornerMovement:
 	step_end
 
 GoldenrodCityPokefanMText:
-	text "They built the new"
-	line "RADIO TOWER to"
+	text "Ze hebben de" ; "They built the new"
+	line "nieuwe RADIOTOREN" ; "RADIO TOWER to"
 
-	para "replace the old,"
-	line "creaky one."
+	para "gebouwd om de oude" ; "replace the old,"
+	line "krakkebak te" ; "creaky one."
+	cont "vervangen." ; 
 	done
 
 GoldenrodCityYoungster1Text:
-	text "I know there's a"
-	line "new BIKE SHOP, but"
+	text "Ik weet dat er een" ; "I know there's a"
+	line "nieuwe FIETSWINKEL" ; "new BIKE SHOP, but"
 
-	para "I can't find it"
-	line "anywhere."
+	para "is, maar ik kan 'm" ; "I can't find it"
+	line "nergens vinden." ; "anywhere."
 	done
 
 GoldenrodCityCooltrainerF1Text:
-	text "Is that man in"
-	line "black dressed up"
+	text "Is die man in het" ; "Is that man in"
+	line "zwart gekleed als" ; "black dressed up"
 
-	para "like a TEAM ROCKET"
-	line "member? How silly!"
+	para "een lid van TEAM" ; "like a TEAM ROCKET"
+	line "ROCKET? Wat maf!" ; "member? How silly!"
 	done
 
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
-	text "Was that man in"
-	line "black really part"
+	text "Was die man in het" ; "Was that man in"
+	line "zwart echt deel" ; "black really part"
 
-	para "of TEAM ROCKET? I"
-	line "can't believe it!"
+	para "van TEAM ROCKET?" ; "of TEAM ROCKET? I"
+	line "Niet te geloven!" ; "can't believe it!"
 	done
 
 GoldenrodCityCooltrainerF2Text:
-	text "The RADIO TOWER in"
-	line "GOLDENROD CITY is"
-	cont "a landmark."
+	text "De RADIOTOREN in" ; "The RADIO TOWER in"
+	line "GOLDENROD CITY is" ; "GOLDENROD CITY is"
+	cont "'n oriëntatiepunt." ; "a landmark."
 
-	para "They're running a"
-	line "promotional cam- "
-	cont "paign right now."
+	para "Ze voeren een" ; "They're running a"
+	line "promotiecampagne" ; "promotional cam- "
+	cont "op dit moment." ; "paign right now."
 
-	para "They'll modify"
-	line "your #GEAR,"
+	para "Ze passen je" ; "They'll modify"
+	line "#GEAR aan," ; "your #GEAR,"
 
-	para "so it can also"
-	line "serve as a radio."
+	para "zodat ie ook" ; "so it can also"
+	line "als radio werkt." ; "serve as a radio."
 	done
 
 GoldenrodCityCooltrainerF2Text_GotRadioCard:
-	text "Oh, your #GEAR"
-	line "works as a radio!"
+	text "Oh, je #GEAR" ; "Oh, your #GEAR"
+	line "werkt als radio!" ; "works as a radio!"
 	done
 
 GoldenrodCityYoungster2Text:
 	text "E-he-he-he…"
 
-	para "I got in trouble"
-	line "for playing in the"
+	para "Ik kreeg op de kop" ; "I got in trouble"
+	line "omdat ik speelde" ; "for playing in the"
 
-	para "basement of the"
-	line "DEPT.STORE."
+	para "in de kelder van" ; "basement of the"
+	line "het WARENHUIS." ; "DEPT.STORE."
 	done
 
 GoldenrodCityLassText:
-	text "The man at that"
-	line "house rates your"
-	cont "#MON names."
+	text "De man in dat huis" ; "The man at that"
+	line "beoordeelt namen" ; "house rates your"
+	cont "van je #MON." ; "#MON names."
 
-	para "He can even rename"
-	line "your #MON."
+	para "Hij kan zelfs" ; "He can even rename"
+	line "nieuwe namen" ; "your #MON."
+	cont "geven." ;
 	done
 
 GoldenrodCityGrampsText:
-	text "Whew! This is one"
-	line "big town. I don't"
+	text "Pfoe! Dit is een" ; "Whew! This is one"
+	line "grote stad. Ik" ; "big town. I don't"
 
-	para "know where any-"
-	line "thing is."
+	para "weet niet waar" ; "know where any-"
+	line "alles is." ; "thing is."
 	done
 
 GoldenrodCityRocketScoutText1:
-	text "So this is the"
-	line "RADIO TOWER…"
+	text "Dus dit is de" ; "So this is the"
+	line "RADIOTOREN…" ; "RADIO TOWER…"
 	done
 
 GoldenrodCityRocketScoutText2:
-	text "What do you want,"
-	line "you pest? Scram!"
+	text "Wat wil je," ; "What do you want,"
+	line "ettertje? Rot op!" ; "you pest? Scram!"
 	done
 
 GoldenrodCityRocket1Text:
-	text "Stay out of the"
-	line "way! Beat it!"
+	text "Uit de weg!" ; "Stay out of the"
+	line "Wegwezen!" ; "way! Beat it!"
 	done
 
 GoldenrodCityRocket2Text:
-	text "Take over the"
-	line "RADIO TOWER…"
+	text "De RADIOTOREN" ; "Take over the"
+	line "overnemen…" ; "RADIO TOWER…"
 
-	para "What? It's none of"
-	line "your business!"
+	para "Wat? Bemoei je met" ; "What? It's none of"
+	line "je eigen zaken!" ; "your business!"
 	done
 
 GoldenrodCityRocket3Text:
-	text "#MON? They're"
-	line "nothing more than"
+	text "#MON? Niets" ; "#MON? They're"
+	line "meer dan dingen" ; "nothing more than"
 
-	para "tools for making"
-	line "money!"
+	para "om geld mee te" ; "tools for making"
+	line "verdienen!" ; "money!"
 	done
 
 GoldenrodCityRocket4Text:
-	text "Our dream will"
-	line "soon come true…"
+	text "Onze droom zal" ; "Our dream will"
+	line "snel uitkomen…" ; "soon come true…"
 
-	para "It was such a long"
-	line "struggle…"
+	para "Het was zo'n" ; "It was such a long"
+	line "lange strijd…" ; "struggle…"
 	done
 
 GoldenrodCityRocket5Text:
-	text "Hey, brat! You"
-	line "don't belong here!"
-	cont "Get lost!"
+	text "Hé, ettertje! Je" ; "Hey, brat! You"
+	line "hoort hier niet!" ; "don't belong here!"
+	cont "Wegwezen!" ; "Get lost!"
 	done
 
 GoldenrodCityRocket6Text:
-	text "Come taste the"
-	line "true terror of"
-	cont "TEAM ROCKET!"
+	text "Kom de echte" ; "Come taste the"
+	line "terreur van TEAM" ; "true terror of"
+	cont "ROCKET ervaren!" ; "TEAM ROCKET!"
 	done
 
 GoldenrodCityStationSignText:
-	text "GOLDENROD CITY"
-	line "STATION"
+	text "GOLDENROD CITY" ; "GOLDENROD CITY"
+	line "STATION" ; "STATION"
 	done
 
 GoldenrodCityRadioTowerSignText:
-	text "GOLDENROD CITY"
-	line "RADIO TOWER"
+	text "GOLDENROD CITY" ; "GOLDENROD CITY"
+	line "RADIOTOREN" ; "RADIO TOWER"
 	done
 
 GoldenrodDeptStoreSignText:
-	text "Full Selection of"
-	line "#MON Goods!"
+	text "Grote selectie aan" ; "Full Selection of"
+	line "#MON-goederen!" ; "#MON Goods!"
 
-	para "GOLDENROD CITY"
-	line "DEPT.STORE"
+	para "GOLDENROD CITY" 
+	line "WARENHUIS" ; "DEPT.STORE"
 	done
 
 GoldenrodGymSignText:
-	text "GOLDENROD CITY"
-	line "#MON GYM"
-	cont "LEADER: WHITNEY"
+	text "GOLDENROD CITY" ; "GOLDENROD CITY"
+	line "#MON-GYMLEIDER:"
+	cont "WHITNEY" ; "LEADER: WHITNEY"
 
-	para "The Incredibly"
-	line "Pretty Girl!"
+	para "De Wonderbaarlijk" ; "The Incredibly"
+	line "Knappe Meid!" ; "Pretty Girl!"
 	done
 
 GoldenrodCitySignText:
-	text "GOLDENROD CITY"
+	text "GOLDENROD CITY" ; "GOLDENROD CITY"
 
-	para "The Festive City"
-	line "of Opulent Charm"
+	para "De Feestelijke" ; "The Festive City"
+	line "Stad van Weelde" ; "of Opulent Charm"
+	cont "en Charme" ;
 	done
 
 GoldenrodCityBikeShopSignText:
-	text "The World is a"
-	line "Cycle Path!"
-	cont "BIKE SHOP"
+	text "De wereld is" ; "The World is a"
+	line "een fietspad!" ; "Cycle Path!"
+	cont "FIETSWINKEL" ; "BIKE SHOP"
 	done
 
 GoldenrodCityGameCornerSignText:
-	text "Your Playground!"
+	text "Jouw speeltuin!" ; "Your Playground!"
 
 	para "GOLDENROD CITY"
-	line "GAME CORNER"
+	line "SPELHOEK" ; "GAME CORNER"
 	done
 
 GoldenrodCityNameRaterSignText:
-	text "NAME RATER"
+	text "NAMENKENNER" ; "NAME RATER"
 
-	para "Get Your #MON"
-	line "Nicknames Rated"
+	para "Laat je #MON-" ; "Get Your #MON"
+	line "namen beoordelen!" ; "Nicknames Rated"
 	done
 
 GoldenrodCityUndergroundSignNorthText:
-	text "UNDERGROUND"
-	line "ENTRANCE"
+	text "INGANG" ; "UNDERGROUND"
+	line "KELDER" ; "ENTRANCE"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
-	text "UNDERGROUND"
-	line "ENTRANCE"
+	text "INGANG" ; "UNDERGROUND"
+	line "KELDER" ; "ENTRANCE"
 	done
 
 GoldenrodCityPokeComCenterSignText: ; unreferenced
-	text "For Mobile Tips!"
-	line "#COM CENTER"
+	text "" ; "For Mobile Tips!"
+	line "" ; "#COM CENTER"
 	done
 
 GoldenrodCityFlowerShopSignText:
-	text "Blooming Beautiful"
-	line "FLOWER SHOP"
+	text "Prachtig bloeiende" ; "Blooming Beautiful"
+	line "BLOEMENWINKEL" ; "FLOWER SHOP"
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
-	text "I can teach your"
-	line "#MON amazing"
+	text "Ik kan je #MON" ; "I can teach your"
+	line "geweldige aanval-" ; "#MON amazing"
 
-	para "moves if you'd"
-	line "like."
+	para "len leren als" ; "moves if you'd"
+	line "je wil." ; "like."
 
-	para "Should I teach a"
-	line "new move?"
+	para "Zal ik een nieuwe" ; "Should I teach a"
+	line "aanval leren?" ; "new move?"
 	done
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
-	text "It will cost you"
-	line "4000 coins. Okay?"
+	text "Het kost 4000" ; "It will cost you"
+	line "munten. Oké?" ; "4000 coins. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Aww… But they're"
-	line "amazing…"
+	text "Aww… Maar ze" ; "Aww… But they're"
+	line "zijn geweldig…" ; "amazing…"
 	done
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
-	text "Wahahah! You won't"
-	line "regret it!"
+	text "Wahah! Je zal geen" ; "Wahahah! You won't"
+	line "spijt krijgen!" ; "regret it!"
 
-	para "Which move should"
-	line "I teach?"
+	para "Welke aanval zal" ; "Which move should"
+	line "ik leren?" ; "I teach?"
 	done
 
 GoldenrodCityMoveTutorHmTooBadText:
-	text "Hm, too bad. I'll"
-	line "have to get some"
-	cont "cash from home…"
+	text "Hm, helaas. Ik" ; "Hm, too bad. I'll"
+	line "moet wat geld van" ; "have to get some"
+	cont "huis halen…" ; "cash from home…"
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "If you understand"
-	line "what's so amazing"
+	text "Als je snapt wat" ; "If you understand"
+	line "zo geweldig is aan" ; "what's so amazing"
 
-	para "about this move,"
-	line "you've made it as"
-	cont "a trainer."
+	para "deze aanval, heb" ; "about this move,"
+	line "je het gemaakt" ; "you've made it as"
+	cont "als trainer." ; "a trainer."
 	done
 
 GoldenrodCityMoveTutorFarewellKidText:
 	text "Wahahah!"
-	line "Farewell, kid!"
+	line "Vaarwel, koter!" ; "Farewell, kid!"
 	done
 
 GoldenrodCityMoveTutorBButText:
-	text "B-but…"
+	text "M-maar…" ; "B-but…"
 	done
 
 GoldenrodCityMoveTutorYouDontHaveEnoughCoinsText:
-	text "…You don't have"
-	line "enough coins here…"
+	text "…Je hebt niet" ; "…You don't have"
+	line "genoeg munten…" ; "enough coins here…"
 	done
 
 GoldenrodCityMoveTutorMoveText:
