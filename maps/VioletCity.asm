@@ -227,7 +227,7 @@ VioletCitySuperNerdText:
 
 VioletCityGrampsText:
 	text "FALKNER, van de" ; "FALKNER, from the"
-	line "#VIOLET #MON-" ; "VIOLET #MON"
+	line "VIOLET #MON-" ; "VIOLET #MON"
 
 	para "GYM, is een" ; "GYM, is a fine"
 	line "geduchte trainer!" ; "trainer!"
