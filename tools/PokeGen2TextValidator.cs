@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using System.Linq;
 
 namespace PokeGen2TextValidator
 {
     internal class PokeGen2TextValidator
     {
-		// Program.cs
-        public static int Main(string[] args)
+        // Program.cs
+        static int Main(string[] args)
         {
             if (args.Length < 1)
             {
@@ -18,37 +19,112 @@ namespace PokeGen2TextValidator
                 return 0;
             }
 
-            ASMFile source = GetASMFile(args[0]);
-			if (source == null)
-			{
-				return 0;
-			}
-			
-            Console.WriteLine("Validating file: " + source.File.Name + " Type: " + source.Type);
+            bool validate = true;
+            bool compare = false;
+            bool merge = false;
 
-			bool problem = false;
-			foreach (KeyValuePair<string, Block> pair in source.blocks)
-			{
-				Validator validator = new Validator(pair.Value);
-				string message = validator.Validate();
-				if (!string.IsNullOrWhiteSpace(message))
-				{
-					if (message.Contains("Error"))
-					{
-						problem = true;
-					}
-					Console.Write(message);
-				}
-			}
+            int currentArg = 0;
+            if (args[currentArg].StartsWith("-") && args.Length > 1)
+            {
+                switch (args[currentArg][1])
+                {
+                    case 'v':
+                    {
+                        validate = true;
+                        compare = false;
+                        merge = false;
+                        break;
+                    }
+                    case 'c':
+                    {
+                        validate = false;
+                        compare = true;
+                        merge = false;
+                        break;
+                    }
+                    case 'm':
+                    {
+                        validate = false;
+                        compare = false;
+                        merge = true;
+                        break;
+                    }
+                    default:
+                    {
+                        Console.WriteLine("Unknown switch: " + args[currentArg][1]);
+                        return 1;
+                    }
+                }
 
-			Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
-			return problem ? 1 : 0;
+                ++currentArg;
+            }
+
+            ASMFile source = GetASMFile(args[currentArg++]);
+            if (source == null)
+            {
+                return 0;
+            }
+
+            if (validate)
+            {
+                Console.WriteLine("Validating file: " + source.File.Name + " Type: " + source.Type);
+
+                bool problem = false;
+                foreach (KeyValuePair<string, Block> pair in source.blocks)
+                {
+                    Validator validator = new Validator(pair.Value);
+                    string message = validator.Validate();
+                    if (!string.IsNullOrWhiteSpace(message))
+                    {
+                        if (message.Contains("Error"))
+                        {
+                            problem = true;
+                        }
+                        Console.Write(message);
+                    }
+                }
+
+                Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+                return problem ? 1 : 0;
+            }
+            else if (compare || merge)
+            {
+                ASMFile target = GetASMFile(args[currentArg++]);
+
+                if (compare)
+                {
+                    Comparer comparer = new Comparer(source, target);
+                    Console.WriteLine(comparer.Compare());
+                    Console.ReadLine();
+                }
+                else if (merge)
+                {
+                    ASMFile baseSource = GetASMFile(args[currentArg++]);
+                    ASMFile baseTarget = GetASMFile(args[currentArg++]);
+
+                    if (source != null && baseSource != null && baseTarget != null)
+                    {
+                        Merger merger = new Merger(source, target, baseSource, baseTarget);
+                        Console.WriteLine(merger.Merge());
+                        File.WriteAllText(target.File.FullName, target.ToString());
+                    }
+                }
+            }
+
+            return 0;
         }
 
         private static void PrintHelpText()
         {
-            Console.WriteLine("Usage: PokeGen2TextValidator <Source>");
-            Console.WriteLine("<Source>: File to validate");
+            Console.WriteLine("Usage: Validator [-(vcm)] <Source> [Target] [BaseSource] [BaseTarget]");
+            Console.WriteLine("Flags:");
+            Console.WriteLine("-v: Validate Source. Default behavior");
+            Console.WriteLine("-c: Compare Source to Target");
+            Console.WriteLine("-m: Compare BaseSource to BaseTarget, then merge matching blocks from Source into Target");
+            Console.WriteLine("<Source>: Primary file to operate on");
+            Console.WriteLine("<Target>: Target file to compare to Source");
+            Console.WriteLine("<BaseSource>: Original version of Source to compare to BaseTarget to see if merge from Source to Target should occur");
+            Console.WriteLine("<BaseTarget>: Original version of Target to compare to BaseSource to see if merge from Source to Target should occur");
         }
 
         private static ASMFile GetASMFile(string path)
@@ -71,41 +147,23 @@ namespace PokeGen2TextValidator
     // ASMFile.cs
     public enum FileType
     {
-        /// <summary>
-        /// Unknown or miscellaneous data. No string validation will be available.
-        /// </summary>
+        /// <summary> Unknown or miscellaneous data. No string validation will be available. </summary>
         Misc = 0,
-        /// <summary>
-        /// Text for a textbox. Limit 18 chars per line of text.
-        /// </summary>
+        /// <summary> Text for a textbox. Limit 18 chars per line of text. </summary>
         TextBox = 1,
-        /// <summary>
-        /// Pokédex entry.
-        /// </summary>
+        /// <summary> Pokédex entry. </summary>
         Pokedex = 2,
-        /// <summary>
-        /// Pokémon names.
-        /// </summary>
+        /// <summary> Pokémon names. </summary>
         Pokemon = 3,
-        /// <summary>
-        /// Move names.
-        /// </summary>
+        /// <summary> Move names. </summary>
         Move = 4,
-        /// <summary>
-        /// Item names.
-        /// </summary>
+        /// <summary> Item names. </summary>
         Item = 5,
-        /// <summary>
-        /// Type names.
-        /// </summary>
+        /// <summary> Type names. </summary>
         Type = 6,
-        /// <summary>
-        /// Map landmarks. Town, route, dungeon names.
-        /// </summary>
+        /// <summary> Map landmarks. Town, route, dungeon names. </summary>
         Landmark = 7,
-        /// <summary>
-        /// Trainer class names.
-        /// </summary>
+        /// <summary> Trainer class names. </summary>
         TrainerClass = 8,
     }
 
@@ -121,7 +179,7 @@ namespace PokeGen2TextValidator
         {
             File = new FileInfo(path);
             Name = File.Name;
-            Type = GetType(path);
+            Type = GetType(File);
             blocks = new Dictionary<string, Block>();
 
             string[] lines = System.IO.File.ReadAllLines(path);
@@ -133,8 +191,11 @@ namespace PokeGen2TextValidator
             blocks.Add(block.Name, block);
         }
 
-        public static FileType GetType(string path)
+        public static FileType GetType(FileInfo fileInfo)
         {
+            string path = fileInfo.FullName;
+            path = path.Replace('\\', '/');
+
             if (path.Contains("data/pokemon/dex_entries"))
             {
                 return FileType.Pokedex;
@@ -175,7 +236,7 @@ namespace PokeGen2TextValidator
                 || path.EndsWith("data/text/std_text.asm")
                 || path.EndsWith("data/text/unused_sweet_honey.asm")
                 || path.Contains("data/phone/text/")
-                || path.StartsWith("maps/")
+                || path.EndsWith("maps/" + fileInfo.Name)
                 )
             {
                 return FileType.TextBox;
@@ -186,49 +247,37 @@ namespace PokeGen2TextValidator
 
         private void ParseBlocks(string[] lines)
         {
-            StringBuilder sb = new StringBuilder();
             Block currentBlock = new Block("default", Type);
             for (int i = 0; i < lines.Length; ++i)
             {
-                string line = lines[i];
-                if (!string.IsNullOrWhiteSpace(line))
+                Line line = new Line(i, lines[i]);
+
+                if (!string.IsNullOrWhiteSpace(lines[i]))
                 {
-                    sb.Clear();
-                    bool inQuotes = false;
-                    string comment = "";
-                    for (int j = 0; j < line.Length; ++j)
+                    if (!line.Text.StartsWith(".") && line.Text.EndsWith(":"))
                     {
-                        if (line[j] == '\"')
-                        {
-                            inQuotes = !inQuotes;
-                        }
-                        else if (!inQuotes)
-                        {
-                            if (line[j] == ';')
-                            {
-                                comment = line.Substring(j + 1).Trim();
-                                break;
-                            }
-                        }
-
-                        sb.Append(line[j]);
-                    }
-                    string sanitized = sb.ToString().Trim();
-
-                    if (!string.IsNullOrWhiteSpace(sanitized))
-                    {
-                        Line newLine = new Line(i, sanitized, comment);
-                        if (!sanitized.StartsWith(".") && sanitized.EndsWith(":"))
-                        {
-                            blocks[currentBlock.Name] = currentBlock;
-                            currentBlock = new Block(sanitized, Type);
-                        }
-                        currentBlock.Add(newLine);
+                        blocks[currentBlock.Name] = currentBlock;
+                        currentBlock = new Block(line.Text, Type);
                     }
                 }
+                currentBlock.Add(line);
             }
 
             blocks[currentBlock.Name] = currentBlock;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (Block block in blocks.Values)
+            {
+                foreach (Line line in block.lines)
+                {
+                    sb.Append(line.Raw).Append('\n');
+                }
+            }
+
+            return sb.ToString();
         }
 
         public IEnumerator<Block> GetEnumerator()
@@ -500,7 +549,7 @@ namespace PokeGen2TextValidator
 
         public static bool TextboxMissingTerminator(Line line, Line nextLine)
         {
-            if (line == null || nextLine == null)
+            if (line == null || nextLine == null || nextLine.Text.Length == 0)
             {
                 return false;
             }
@@ -522,27 +571,61 @@ namespace PokeGen2TextValidator
             return false;
         }
     }
-	
-	// Line.cs
+    
+    // Line.cs
     internal class Line
     {
         public int Number { get; private set; }
+        private string _raw;
+        public string Raw {
+            get
+            {
+                return _raw;
+            }
+            set
+            {
+                _raw = value;
+                StringBuilder sb = new StringBuilder();
+                bool inQuotes = false;
+                string comment = "";
+
+                for (int j = 0; j < value.Length; ++j)
+                {
+                    if (value[j] == '\"')
+                    {
+                        inQuotes = !inQuotes;
+                    }
+                    else if (!inQuotes)
+                    {
+                        if (value[j] == ';')
+                        {
+                            comment = value.Substring(j + 1).Trim();
+                            break;
+                        }
+                    }
+
+                    sb.Append(value[j]);
+                }
+
+                Text = sb.ToString().Trim();
+                Comment = comment;
+
+                string stringLiteral = GetFormattedText();
+                if (stringLiteral != null)
+                {
+                    formattedText = new FormattedText(stringLiteral);
+                }
+            }
+        }
         public string Text { get; private set; }
         public string Comment { get; private set; }
         public string ErrorMessage { get; private set; }
         public FormattedText formattedText;
 
-        public Line(int number, string text, string comment = "")
+        public Line(int number, string text)
         {
             Number = number;
-            Text = text;
-
-            string stringLiteral = GetFormattedText();
-            if (stringLiteral != null)
-            {
-                formattedText = new FormattedText(stringLiteral);
-            }
-            Comment = comment;
+            Raw = text;
         }
 
         public string GetFormattedText()
@@ -588,8 +671,9 @@ namespace PokeGen2TextValidator
             return Text;
         }
     }
-	
-	// FormattedText.cs
+    
+    // FormattedText.cs
+    /// <summary> Class to represent one line of ingame text, even if strings are concatenated on multiple lines of code (with text_ram for example). </summary>
     internal class FormattedText
     {
         public static readonly Dictionary<string, int> maxLengths = new Dictionary<string, int>
@@ -620,8 +704,8 @@ namespace PokeGen2TextValidator
             { "<……>", 2 },
             { "<DONE>", 0 },
             { "<PROMPT>", 0 },
-            { "<TARGET>", 17 }, // Can be "Enemy Pokemon"
-            { "<USER>", 17 }, // Can be "Enemy Pokemon"
+            { "<TARGET>", 17 }, // Can be "Enemy <Pokemon>"
+            { "<USER>", 17 }, // Can be "Enemy <Pokemon>"
             { "<PC>", 2 },
             { "<TM>", 2 },
             { "<TRAINER>" , 7 },
@@ -694,25 +778,15 @@ namespace PokeGen2TextValidator
 
         public static char Terminator = '@';
 
-        /// <summary>
-        /// Raw text.
-        /// </summary>
+        /// <summary>  Raw text. </summary>
         public string Text { get; private set; }
-        /// <summary>
-        /// The remaining text after the formatted strings are stripped out.
-        /// </summary>
+        /// <summary> The remaining text after the formatted strings are stripped out. </summary>
         public string Unformatted { get; private set; }
-        /// <summary>
-        /// Length of text, including maximum lengths of formatted parts.
-        /// </summary>
+        /// <summary> Length of text, including maximum lengths of formatted parts. </summary>
         public int Length { get; private set; }
-        /// <summary>
-        /// Can length of text be reliably determined?
-        /// </summary>
+        /// <summary> Can length of text be reliably determined? </summary>
         public bool LengthUnknown { get; private set; }
-        /// <summary>
-        /// Does the text have an '@' terminator?
-        /// </summary>
+        /// <summary> Does the text have an '@' terminator? </summary>
         public bool IsTerminated { get; private set; }
 
         public FormattedText()
@@ -727,16 +801,21 @@ namespace PokeGen2TextValidator
             LengthUnknown = lengthUnknown;
         }
 
+        /// <summary>
+        /// Adds <paramref name="text"/> to this formatted text.
+        /// </summary>
+        /// <param name="text">The text to add.</param>
+        /// <param name="lengthUnknown"><c>true</c> if something about this text makes it so length cannot be determined (text_ram with ambiguous length).</param>
         public void Add(string text, bool lengthUnknown = false)
         {
             Text += text;
 
             foreach (KeyValuePair<string, int> pair in maxLengths)
             {
-                if (text.Contains(pair.Key))
+                for (int i = text.IndexOf(pair.Key); i >= 0; i = text.IndexOf(pair.Key))
                 {
                     Length += pair.Value;
-                    text = text.Replace(pair.Key, string.Empty);
+                    text = text.Remove(i, pair.Key.Length);
                 }
             }
 
@@ -751,8 +830,8 @@ namespace PokeGen2TextValidator
             return Text;
         }
     }
-	
-	// Validator.cs
+    
+    // Validator.cs
     internal class Validator
     {
         public const int MaxTextboxLength = 18;
@@ -989,6 +1068,240 @@ namespace PokeGen2TextValidator
         {
             StringBuilder sb = new StringBuilder();
             return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" contains unmapped character \'").Append(unmapped).Append("\'.\n").ToString();
+        }
+    }
+    
+    // Comparer.cs
+    internal class Comparer
+    {
+        private ASMFile source;
+        private ASMFile target;
+
+        public List<Block> added;
+        public List<Block> removed;
+        public Dictionary<Block, Block> modified;
+        public Dictionary<Block, Block> matched;
+
+        public Comparer(ASMFile source, ASMFile target)
+        {
+            this.source = source;
+            this.target = target;
+
+            added = new List<Block>();
+            removed = new List<Block>();
+            modified = new Dictionary<Block, Block>();
+            matched = new Dictionary<Block, Block>();
+        }
+
+        public string Compare()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Comparing ").Append(source.File.FullName).Append(" to ").Append(target.File.FullName).Append('\n');
+            List<string> targetBlockNames = target.blocks.Keys.ToList();
+
+            // Cannot modify list while iterating over it.
+            foreach (string name in targetBlockNames.ToArray())
+            {
+                if (target.blocks[name].lines.Count < 1)
+                {
+                    continue;
+                }
+                string comment = target.blocks[name].lines[0].Comment;
+                if (!string.IsNullOrEmpty(comment))
+                {
+                    string[] commentTokens = comment.Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < commentTokens.Length - 1; ++i)
+                    {
+                        if (commentTokens[i] == "CompareWith")
+                        {
+                            sb.Append(CompareBlocks(source.blocks[commentTokens[i + 1]], target.blocks[name]));
+                            targetBlockNames.Remove(name);
+                        }
+                    }
+                }
+            }
+
+            foreach (KeyValuePair<string, Block> pair in source.blocks)
+            {
+                if (matched.ContainsKey(pair.Value) || modified.ContainsKey(pair.Value))
+                {
+                    targetBlockNames.Remove(pair.Key);
+                    continue;
+                }
+
+                if (!target.blocks.ContainsKey(pair.Key))
+                {
+                    removed.Add(pair.Value);
+                    sb.Append("\t- Block ").Append(pair.Key).Append(" deleted in target.\n");
+                }
+                else
+                {
+                    targetBlockNames.Remove(pair.Key);
+                    sb.Append(CompareBlocks(pair.Value, target.blocks[pair.Key]));
+                }
+            }
+
+            foreach (string name in targetBlockNames)
+            {
+                added.Add(target.blocks[name]);
+                sb.Append("\t+ Block ").Append(name).Append(" added in target.\n");
+            }
+            return sb.ToString();
+        }
+
+        private string CompareBlocks(Block source, Block target)
+        {
+            StringBuilder sb = new StringBuilder();
+            if (source.lines.Count != target.lines.Count)
+            {
+                modified.Add(source, target);
+                sb.Append("\t! Block ").Append(source.Name).Append(" has different line counts between source and target.\n");
+            }
+            else
+            {
+                bool changed = false;
+                for (int i = 0; i < source.lines.Count; i++)
+                {
+                    if (i == 0 && (source.Name != "default" || source.Name != target.Name))
+                    {
+                        continue;
+                    }
+
+                    if (source.lines[i].Text != target.lines[i].Text)
+                    {
+                        if (!changed)
+                        {
+                            sb.Append("\t! Block ").Append(source.Name).Append(" in Source content differs from ").Append(target.Name).Append(" in Target.\n");
+                            changed = true;
+                        }
+                        sb.Append("\t\t")
+                          .Append(i)
+                          .Append(":\n\t\t\t- Source: ")
+                          .Append(source.lines[i])
+                          .Append("\n\t\t\t+ Target: ")
+                          .Append(target.lines[i])
+                          .Append('\n');
+                    }
+                }
+
+                if (changed)
+                {
+                    modified.Add(source, target);
+                }
+                else
+                {
+                    matched.Add(source, target);
+                    sb.Append("\t= Block ").Append(source.Name).Append(" in Source matches ").Append(target.Name).Append(" in Target.\n");
+                }
+            }
+            return sb.ToString();
+        }
+    }
+    
+    // Merger.cs
+    internal class Merger
+    {
+
+        private ASMFile source;
+        private ASMFile target;
+        private ASMFile baseSource;
+        private ASMFile baseTarget;
+        private Comparer baseComparison;
+
+        public Merger(ASMFile source, ASMFile target, ASMFile baseSource, ASMFile baseTarget)
+        {
+            this.source = source;
+            this.target = target;
+            this.baseSource = baseSource;
+            this.baseTarget = baseTarget;
+        }
+
+        public string Merge()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Performing comparison between bases...\n");
+            baseComparison = new Comparer(baseSource, baseTarget);
+            sb.AppendLine(baseComparison.Compare());
+
+            foreach (Block added in baseComparison.added)
+            {
+                if (target.blocks.ContainsKey(added.Name))
+                {
+                    Block targetBlock = target.blocks[added.Name];
+                    string comment = targetBlock.lines[0].Comment;
+                    if (!string.IsNullOrEmpty(comment))
+                    {
+                        string[] commentTokens = comment.Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+                        for (int i = 0; i < commentTokens.Length - 1; ++i)
+                        {
+                            if (commentTokens[i] == "CompareWith")
+                            {
+                                Block sourceBlock = source.blocks[commentTokens[i + 1]];
+                                if (sourceBlock.GetFormattedTexts().Count == 0)
+                                {
+                                    continue;
+                                }
+
+                                List<Line> newLines = new List<Line>();
+                                for (int j = 0; j < sourceBlock.lines.Count; j++)
+                                {
+                                    if (sourceBlock.Name != null && j == 0)
+                                    {
+                                        newLines.Add(targetBlock.lines[j]);
+                                        continue;
+                                    }
+
+                                    newLines.Add(sourceBlock.lines[j]);
+                                }
+                                targetBlock.lines = newLines;
+                                sb.Append("Replacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source.\n");
+                            }
+                        }
+                    }
+                }
+            }
+
+            foreach (KeyValuePair<Block, Block> match in baseComparison.matched)
+            {
+                Block sourceBlock = source.blocks[match.Key.Name];
+                if (sourceBlock.GetFormattedTexts().Count == 0)
+                {
+                    continue;
+                }
+
+                Block targetBlock = target.blocks[match.Value.Name];
+                string sourceName = null;
+                if (match.Key.Name != "default")
+                {
+                    sourceName = match.Key.Name;
+                }
+
+                List<Line> newLines = new List<Line>();
+                for (int i = 0; i < sourceBlock.lines.Count; i++)
+                {
+                    if (sourceName != null && i == 0)
+                    {
+                        newLines.Add(targetBlock.lines[i]);
+                        continue;
+                    }
+
+                    newLines.Add(sourceBlock.lines[i]);
+                }
+                targetBlock.lines = newLines;
+                sb.Append("Replacing block ").Append(match.Key.Name).Append(" in target with ").Append(match.Key.Name).Append(" from source.\n");
+            }
+
+            foreach (KeyValuePair<Block, Block> modifiedBlock in baseComparison.modified)
+            {
+                if (modifiedBlock.Value.GetFormattedTexts().Count == 0)
+                {
+                    continue;
+                }
+
+                sb.Append("Block ").Append(modifiedBlock.Value.Name).Append(" differs in base scripts. Cannot merge automatically!\n");
+            }
+
+            return sb.ToString();
         }
 
     }
