@@ -361,9 +361,9 @@ TinTower1FSage1Text:
 	line "neer uit de hemel…" ; "colors…"
 
 	para "Kan het dat de" ; "Could it mean the"
-	line "legendarische #-" ; "legendary #MON"
+	line "legendarische" ; "legendary #MON"
 
-	para "MON ons mensen" ; "are testing us"
+	para "#MON ons mensen" ; "are testing us"
 	line "test?" ; "humans?"
 	done
 
