@@ -351,8 +351,8 @@ RadioTower2FSuperNerdText:
 
 RadioTower2FTeacherText:
 	text "Slaapliedjes op" ; "Lullabies on the"
-	line "de radio kunnen" ; "radio may make"
-	cont "#MON laten slapen." ; "#MON sleep."
+	line "de radio laten" ; "radio may make"
+	cont "#MON slapen." ; "#MON sleep."
 	done
 
 RadioTower2FTeacherText_Rockets:
@@ -410,8 +410,8 @@ GruntM4AfterBattleText:
 
 GruntM5SeenText:
 	text "Wij zijn TEAM" ; "We're TEAM ROCKET,"
-	line "ROCKET, de uit-" ; "the exploiters of"
-	cont "buiters van #MON!"
+	line "ROCKET, uitbuters" ; "the exploiters of"
+	cont "van #MON!"
 
 	para "We zijn graag" ; "We love being"
 	line "kwaadaardig! Bang?" ; "evil! Scared?"
@@ -423,9 +423,9 @@ GruntM5BeatenText:
 	done
 
 GruntM5AfterBattleText:
-	text "We zijn niet altijd" ; "We're not always"
-	line "slecht. We doen" ; "evil. We just do"
-	cont "gewoon wat we" ; "whatever we like."
+	text "We zijn niet al-" ; "We're not always"
+	line "tijd slecht. We" ; "evil. We just do"
+	cont "doen gewoon wat we" ; "whatever we like."
 	cont "willen." ;
 	done
 
@@ -451,11 +451,11 @@ GruntM6AfterBattleText:
 GruntF2SeenText:
 	text "Hahaha!"
 
-	para "Saai." ; "How boring."
-	line "Het was veel te" ; "It was far too"
+	para "Saai. Het was veel" ; "How boring."
+	line "te makkelijk om" ; "It was far too"
 
-	para "makkelijk om deze" ; "easy to take over"
-	line "plek over te nemen!" ; "this place!"
+	para "deze tent over te" ; "easy to take over"
+	line "nemen!" ; "this place!"
 
 	para "Kom, vermaak" ; "Come on, keep me"
 	line "me een beetje!" ; "amused!"
@@ -507,7 +507,7 @@ RadioTower2FBuenaTuneInToMyShowText:
 
 RadioTower2FBuenaDoYouKnowPasswordText:
 	text "BUENA: Hoi! Heb" ; "BUENA: Hi!"
-	line "je naar mijn radio-" ; "Did you tune in to"
+	line "je naar m'n radio-" ; "Did you tune in to"
 	cont "show geluisterd?" ; "my radio show?"
 
 	para "Weet je het wacht-" ; "Do you remember"
@@ -632,7 +632,7 @@ RadioTower2FBuenaOfferPhoneNumberText:
 	line "BLAUWE KAART heeft" ; "BLUE CARD reached"
 
 	para "{d:BLUE_CARD_POINT_CAP} punten" ; "{d:BLUE_CARD_POINT_CAP} points today!"
-	line "vandaag! Waanzinnig!" ; "That's so wild!"
+	line "vandaag! Bizar!" ; "That's so wild!"
 
 	para "Hmm… Er is geen" ; "Hmm… There isn't a"
 	line "prijs voor" ; "prize for hitting"

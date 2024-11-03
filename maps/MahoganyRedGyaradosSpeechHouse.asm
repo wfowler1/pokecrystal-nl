@@ -41,8 +41,8 @@ MahoganyRedGyaradosSpeechHouseBlackBeltText:
 	para "Dat is vreemd," ; "That's odd, since"
 	line "zelfs gewone" ; "even ordinary"
 
-	para "GYARADOS zijn zeld-" ; "GYARADOS are rare"
-	line "zaam in dat meer…" ; "in that lake…"
+	para "GYARADOS zijn" ; "GYARADOS are rare"
+	line "zeldzaam daar…" ; "in that lake…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:

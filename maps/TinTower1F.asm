@@ -309,15 +309,15 @@ TinTower1FSage3EntersMovement:
 
 TinTower1FEusineSuicuneText:
 	text "EUSINE: Geweldig!" ; "EUSINE: Awesome!"
-	line "Te geweldig, zelfs!" ; "Too awesome, even!"
+	line "Te geweldig zelfs!" ; "Too awesome, even!"
 
 	para "Ik heb nog nooit" ; "I've never seen a"
-	line "zo'n groots gevecht" ; "battle that great."
+	line "zo'n groots ge-" ; "battle that great."
 
-	para "gezien. Dat was" ; "That was truly"
-	line "echt inspirerend" ; "inspiring to see."
+	para "vecht gezien. Dat" ; "That was truly"
+	line "was echt inspi-" ; "inspiring to see."
 
-	para "om te zien." ; "SUICUNE was tough,"
+	para "rerend om te zien." ; "SUICUNE was tough,"
 	line "SUICUNE was taai," ; "but you were even"
 
 	para "maar jij was nog" ; "more incredible,"
@@ -328,13 +328,13 @@ TinTower1FEusineSuicuneText:
 	line "SUICUNE's mystieke" ; "mystic power"
 
 	para "kracht een regen-" ; "summons a rainbow-"
-	line "boogkleurige #MON" ; "colored #MON."
-	cont "oproept." ;
+	line "boogkleurige #-" ; "colored #MON."
+	cont "MON oproept." ;
 
 	para "Heel misschien" ; "Maybe, just maybe,"
 	line "zal wat er vandaag" ; "what went on today"
 
-	para "is gebeurd die #MON" ; "will cause that"
+	para "gebeurde #MON" ; "will cause that"
 	line "doen verschijnen." ; "#MON to appear."
 
 	para "Ik ga de legendes" ; "I'm going to study"
@@ -361,9 +361,9 @@ TinTower1FSage1Text:
 	line "neer uit de hemel…" ; "colors…"
 
 	para "Kan het dat de" ; "Could it mean the"
-	line "legendarische #MON" ; "legendary #MON"
+	line "legendarische #-" ; "legendary #MON"
 
-	para "ons mensen" ; "are testing us"
+	para "MON ons mensen" ; "are testing us"
 	line "test?" ; "humans?"
 	done
 
@@ -372,9 +372,9 @@ TinTower1FSage2Text:
 	line "TOREN afbrandde," ; "TOWER burned down,"
 
 	para "zijn drie naamloze" ; "three nameless"
-	line "#MON naar zeggen" ; "#MON were said"
+	line "#MON naar" ; "#MON were said"
 
-	para "omgekomen." ; "to have perished."
+	para "zeggen omgekomen." ; "to have perished."
 	line "Tragisch." ; "It was tragic."
 
 	para "Hoewel…" ; "However…"
@@ -388,7 +388,7 @@ TinTower1FSage2Text:
 	line "uit de hemel en" ; "from the sky and"
 
 	para "gaf nieuw leven" ; "gave new life to"
-	line "aan de drie #MON." ; "the three #MON."
+	line "aan de drie." ; "the three #MON."
 
 	para "Ze zijn…" ; "They are…"
 
@@ -406,8 +406,8 @@ TinTower1FSage3Text:
 	para "gebouwd om vriend-" ; "built to foster"
 	line "schap en hoop tus-" ; "friendship and"
 
-	para "sen #MON en men-" ; "hope between #-"
-	line "sen te borgen." ; "MON and people."
+	para "sen mens en #-" ; "hope between #-"
+	line "MON te borgen." ; "MON and people."
 
 	para "Dat was 700 jaar" ; "That was 700 years"
 	line "geleden, maar het" ; "ago, but the ideal"
@@ -445,8 +445,8 @@ TinTower1FSage6Text1:
 TinTower1FEusineHoOhText:
 	text "Ik wist het." ; "I knew it."
 
-	para "Ik wist dat je" ; "I knew you'd get"
-	line "de #MON van regen-" ; "to see the #MON"
+	para "Ik wist dat je de" ; "I knew you'd get"
+	line "#MON van regen-" ; "to see the #MON"
 
 	para "boogkleuren zou" ; "of rainbow colors,"
 	line "zien, <PLAYER>." ; "<PLAYER>."
@@ -459,8 +459,8 @@ TinTower1FEusineHoOhText:
 	line "niet slecht, al" ; "bad, I might say."
 	cont "zeg ik het zelf." ;
 
-	para "Ik zal #MON blij-" ; "I'm going to keep"
-	line "ven bestuderen om" ; "studying #MON"
+	para "Ik blijf #MON" ; "I'm going to keep"
+	line "bestuderen om" ; "studying #MON"
 
 	para "een beroemde #-" ; "to become a famous"
 	line "MANIAC te worden!" ; "#MANIAC!"
@@ -484,8 +484,8 @@ TinTower1FSage4Text2:
 	done
 
 TinTower1FSage5Text3:
-	text "Toen de legenda-" ; "When the legendary"
-	line "rische #MON kwamen…" ; "#MON appeared…"
+	text "Toen de legendes" ; "When the legendary"
+	line "hier verschenen…" ; "#MON appeared…"
 
 	para "Boezemden ze" ; "They struck terror"
 	line "angst in bij wie" ; "in those who saw"

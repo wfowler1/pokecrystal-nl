@@ -289,7 +289,7 @@ RadioTower5FRocketBossBeforeText:
 	line "GIOVANNI doen" ; "our boss GIOVANNI"
 
 	para "terugkeren van" ; "back from his solo"
-	line "zijn solo-training." ; "training."
+	line "z'n solo-training." ; "training."
 
 	para "We gaan onze" ; "We are going to"
 	line "vroegere glorie" ; "regain our former"
@@ -308,24 +308,24 @@ RadioTower5FRocketBossWinText:
 RadioTower5FRocketBossAfterText:
 	text "Hoe kan dit?" ; "How could this be?"
 
-	para "Onze dromen zijn" ; "Our dreams have"
-	line "voor niets geweest." ; "come to naught."
+	para "Onze dromen waren" ; "Our dreams have"
+	line "voor niks." ; "come to naught."
 
 	para "Ik kon de taak" ; "I wasn't up to the"
 	line "toch niet aan." ; "task after all."
 
-	para "Zoals GIOVANNI voor" ; "Like GIOVANNI did"
-	line "mij deed, zal ik" ; "before me, I will"
+	para "Zoals GIOVANNI" ; "Like GIOVANNI did"
+	line "voor mij deed, zal" ; "before me, I will"
 
-	para "TEAM ROCKET hier" ; "disband TEAM"
+	para "ik TEAM ROCKET" ; "disband TEAM"
 	line "vandaag ontbinden." ; "ROCKET here today."
 
 	para "Vaarwel." ; "Farewell."
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "DIRECTEUR: <PLAY_G>," ; "DIRECTOR: <PLAY_G>,"
-	line "dankjewel!" ; "thank you!"
+	text "DIRECTEUR: Dankje," ; "DIRECTOR: <PLAY_G>,"
+	line "<PLAY_G>!" ; "thank you!"
 
 	para "Je dappere acties" ; "Your courageous"
 	line "hebben #MON" ; "actions have saved"

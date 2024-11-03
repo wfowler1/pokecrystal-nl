@@ -148,11 +148,11 @@ MahoganyGymStatue:
 	jumpstd GymStatue2Script
 
 PryceText_Intro:
-	text "#MON hebben vele" ; "#MON have many"
-	line "ervaringen in hun" ; "experiences in"
+	text "#MON hebben" ; "#MON have many"
+	line "vele ervaringen in" ; "experiences in"
 
-	para "levens, net als" ; "their lives, just "
-	line "wij." ; "like we do. "
+	para "hun levens, net" ; "their lives, just "
+	line "als wij." ; "like we do. "
 
 	para "Ik heb ook veel" ; "I, too, have seen"
 	line "gezien en geleden" ; "and suffered much"
@@ -204,9 +204,9 @@ PryceText_GlacierBadgeSpeech:
 	line "SPECIALE stats van" ; "raise the SPECIAL"
 	cont "#MON verhogen." ; "stats of #MON."
 
-	para "Het laat je #MON" ; "It also lets your"
-	line "ook DRAAIKOLK ge-" ; "#MON use WHIRL-"
-	cont "bruiken om door" ; "POOL to get across"
+	para "Het laat je #-" ; "It also lets your"
+	line "MON ook DRAAIKOLK" ; "#MON use WHIRL-"
+	cont "gebruiken om door" ; "POOL to get across"
 	cont "echte draaikolken" ; "real whirlpools."
 	cont "te zwemmen." ;
 
@@ -256,8 +256,8 @@ BoarderRonaldAfterBattleText:
 	text "Ik denk dat er" ; "I think there's a"
 	line "een aanval is die" ; "move a #MON"
 
-	para "een #MON kan ge-" ; "can use while it's"
-	line "bruiken terwijl" ; "frozen."
+	para "een #MON kan" ; "can use while it's"
+	line "gebruiken terwijl" ; "frozen."
 	cont "het bevroren is." ;
 	done
 

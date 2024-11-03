@@ -409,8 +409,8 @@ RadioTower1FRadioCardWomanWrongAnswerText:
 
 RadioTower1FRadioCardWomanNotTakingQuizText:
 	text "Oh, oké. Kom terug" ; "Oh. I see. Please"
-	line "als je van gedacht-" ; "see me if you"
-	cont "en verandert." ; "change your mind."
+	line "als je van ge-" ; "see me if you"
+	cont "dachten verandert." ; "change your mind."
 	done
 
 RadioTower1FLassText:

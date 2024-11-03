@@ -671,8 +671,8 @@ RocketBaseLancePowerOffText:
 	para "je het deed, dus" ; "were doing, so I"
 	line "ik hield afstand." ; "just hung back."
 
-	para "Nu hoeven we alleen" ; "Now all there is"
-	line "nog dat vreemde" ; "left to do is to"
+	para "Nu hoeven we" ; "Now all there is"
+	line "alleen dat vreemde" ; "left to do is to"
 
 	para "radiosignaal uit" ; "turn off that odd"
 	line "te zetten." ; "radio signal."
@@ -746,9 +746,9 @@ RocketBaseReceivedHM06Text: ; unreferenced
 
 RocketBaseLanceWhirlpoolText:
 	text "Dat is DRAAIKOLK." ; "That's WHIRLPOOL."
-	line "Leer het aan een" ; "Teach it to a"
+	line "Leer het een #-" ; "Teach it to a"
 
-	para "#MON om over wild" ; "#MON to get"
+	para "MON om door wild" ; "#MON to get"
 	line "water te gaan." ; "across wild water."
 
 	para "Maar knoop dit in." ; "But keep this in"

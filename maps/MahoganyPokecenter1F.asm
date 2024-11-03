@@ -33,12 +33,12 @@ MahoganyPokecenter1FPokefanMText:
 
 MahoganyPokecenter1FYoungsterText:
 	text "Ik verhinder mijn" ; "I stop my #MON"
-	line "#MON om te vroeg" ; "from evolving too"
-	cont "te evolueren." ; "early."
+	line "#MON om te" ; "from evolving too"
+	cont "vroeg te evolueren." ; "early."
 
-	para "Ik leer ze bepaalde" ; "I make them learn"
-	line "aanvallen voor ik" ; "certain moves be-"
-	cont "ze laat" ; "fore I let them"
+	para "Ik leer ze" ; "I make them learn"
+	line "bepaalde aanvallen" ; "certain moves be-"
+	cont "voor ik ze laat" ; "fore I let them"
 	cont "evolueren." ; "evolve."
 	done
 

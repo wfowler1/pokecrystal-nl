@@ -410,7 +410,7 @@ PokefanmJeremySeenText:
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh nee! Mijn prach-" ; "Oh, no! My beauti-"
+	text "Oh nee! M'n prach-" ; "Oh, no! My beauti-"
 	line "tige #MON!" ; "ful #MON!"
 	done
 

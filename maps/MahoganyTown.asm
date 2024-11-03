@@ -218,10 +218,10 @@ MahoganyTownFisherText:
 
 MahoganyTownLassText:
 	text "Bezoek Oma's" ; "Visit Grandma's"
-	line "winkel. Ze verkoopt" ; "shop. She sells"
+	line "winkel. Ze ver-" ; "shop. She sells"
 
-	para "spul dat niemand" ; "stuff that nobody"
-	line "anders heeft." ; "else has."
+	para "koopt spul dat je" ; "stuff that nobody"
+	line "niet snel vindt." ; "else has."
 	done
 
 MahoganyTownSignText:

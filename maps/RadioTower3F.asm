@@ -267,7 +267,7 @@ GruntM8AfterBattleText:
 	line "over verliezen!" ; "losing!"
 
 	para "Verdorie! Ik haat" ; "Darn it! I hate"
-	line "waardeloze #MON!" ; "useless #MON!"
+	line "nutteloze #MON!" ; "useless #MON!"
 	done
 
 GruntM9SeenText:

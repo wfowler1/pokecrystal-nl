@@ -213,9 +213,9 @@ MahoganyMart1FLanceStairsText:
 
 MahoganyMart1FLanceSplitUpText:
 	text "LANCE: <PLAY_G>, we"
-	line "moeten ons opsplit-" ; "should split up to"
+	line "moeten opsplitsen" ; "should split up to"
 
-	para "sen om deze plek" ; "check this place."
+	para "om deze plek" ; "check this place."
 	line "te verkennen. Ik" ; "I'll go first."
 	cont "ga wel eerst." ;
 	done

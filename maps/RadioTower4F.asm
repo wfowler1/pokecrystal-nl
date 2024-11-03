@@ -109,7 +109,7 @@ RadioTower4FFisherText:
 	cont "in de RUÏNES was." ; "at the RUINS."
 
 	para "Ik hoorde daar een" ; "I heard a strange"
-	line "vreemde uitzending." ; "broadcast there."
+	line "gekke uitzending." ; "broadcast there."
 	done
 
 RadioTower4FDJMaryText:
@@ -140,8 +140,8 @@ RadioTower4FDJMaryText_After:
 	text "MARY: Luister" ; "MARY: Please tune"
 	line "naar me in PROF." ; "into me on PROF."
 
-	para "OAK'S #MONPRAAT-" ; "OAK'S #MON TALK"
-	line "programma." ; "show."
+	para "OAK'S #MON-" ; "OAK'S #MON TALK"
+	line "TALKSHOW." ; "show."
 	done
 
 RadioTowerMeowthText:
@@ -169,7 +169,7 @@ GruntM10AfterBattleText:
 
 Executivem2SeenText:
 	text "Stop! Ik sta be-" ; "Stop! I'm known as"
-	line "kend als het harnas" ; "the TEAM ROCKET"
+	line "kend als 't harnas" ; "the TEAM ROCKET"
 	cont "van TEAM ROCKET!" ; "fortress!"
 
 	para "Je zal geen stap" ; "You're not taking"
@@ -195,8 +195,8 @@ GruntF4SeenText:
 	text "Vind ik #MON" ; "Don't I think"
 	line "niet schattig?" ; "#MON are cute?"
 
-	para "Ik vind mijn #MON" ; "I'll think my"
-	line "schattig--" ; "#MON are cute--"
+	para "Ik vind mijn #-" ; "I'll think my"
+	line "MON schattig--" ; "#MON are cute--"
 
 	para "nadat ze die van" ; "after they beat"
 	line "jou verslaan!" ; "yours!"

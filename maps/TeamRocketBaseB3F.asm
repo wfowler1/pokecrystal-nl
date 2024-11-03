@@ -363,12 +363,12 @@ RocketBaseRivalText:
 	line "ten geen schijn" ; "match at all."
 	cont "van kans." ;
 
-	para "Het maakt me niks" ; "I don't care that"
-	line "uit dat ik verloor." ; "I lost. I can beat"
+	para "Het maakt niet uit" ; "I don't care that"
+	line "dat ik verloor." ; "I lost. I can beat"
 
-	para "Ik kan hem verslaan" ; "him by getting"
-	line "door sterkere" ; "stronger #MON."
-	cont "#MON te krijgen." ;
+	para "Ik versla hem ooit" ; "him by getting"
+	line "door betere #-" ; "stronger #MON."
+	cont "MON te krijgen." ;
 
 	para "Maar wat hij zei" ; "It's what he said"
 	line "stoort me…" ; "that bothers me…"
@@ -496,9 +496,9 @@ GruntM28BeatenText:
 GruntM28AfterBattleText:
 	text "Hja-ha-ha!" ; "Hyuck-hyuck-hyuck!"
 
-	para "Het wachtwoord voor" ; "The password to"
-	line "de kamer van de" ; "the boss's room…"
-	cont "baas…" ;
+	para "Het wachtwoord" ; "The password to"
+	line "voor de kamer van" ; "the boss's room…"
+	cont "de baas…" ;
 
 	para "Uh…, volgens mij" ; "Uh…, I think it is"
 	line "is het" ; "RATICATE TAIL."
