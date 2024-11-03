@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVIS@" ; species name
 	db 13 ; height
 	dw 540 ; weight
 
-	db   "It can use its"
-	next "well-developed"
-	next "arms and legs to"
+	db   "Kan met goed" ; "It can use its"
+	next "ontwikkelde armen" ; "well-developed"
+	next "en benen voor een" ; "arms and legs to"
 
-	page "run on the surface"
-	next "of the water for a"
-	next "split second.@"
+	page "seconde op het" ; "run on the surface"
+	next "wateroppervlak" ; "of the water for a"
+	next "rennen.@" ; "split second.@"

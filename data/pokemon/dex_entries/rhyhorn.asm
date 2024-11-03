@@ -1,11 +1,11 @@
-	db "SPIKES@" ; species name
+	db "STEKELS@" ; species name
 	db 10 ; height
 	dw 1150 ; weight
 
-	db   "It can remember"
-	next "only one thing at"
-	next "a time. Once it"
+	db   "Kan maar één ding" ; "It can remember"
+	next "tegelijk ont-" ; "only one thing at"
+	next "houden. Als het" ; "a time. Once it"
 
-	page "starts rushing, it"
-	next "forgets why it"
-	next "started.@"
+	page "eenmaal rent, ver-" ; "starts rushing, it"
+	next "geet het waarom" ; "forgets why it"
+	next "het daarmee begon." ; "started.@"

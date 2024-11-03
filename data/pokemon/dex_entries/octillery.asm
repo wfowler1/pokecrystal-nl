@@ -2,10 +2,10 @@
 	db 9 ; height
 	dw 285 ; weight
 
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
+	db   "Begraaft zichzelf" ; "Its instinct is to"
+	next "instinctief in" ; "bury itself in"
+	next "gaten. Steelt" ; "holes. It often"
 
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"
+	page "vaak de nesten" ; "steals the nesting"
+	next "van anderen om in" ; "holes of others to"
+	next "te slapen.@" ; "sleep in them.@"

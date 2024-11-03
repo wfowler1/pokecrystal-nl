@@ -1,11 +1,11 @@
-	db "OWL@" ; species name
+	db "UIL@" ; species name
 	db 16 ; height
 	dw 408 ; weight
 
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
+	db   "De extreem zachte" ; "Its extremely soft"
+	next "veren maken geen" ; "feathers make no"
+	next "geluid." ; "sound in flight."
 
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"
+	page "Kan daardoor" ; "It silently sneaks"
+	next "stiekem een prooi" ; "up on prey without"
+	next "besluipen." ; "being detected.@"

@@ -1,11 +1,11 @@
-	db "THUNDER@" ; species name
+	db "DONDER@" ; species name
 	db 19 ; height
 	dw 1780 ; weight
 
-	db   "This rough #MON"
-	next "stores energy"
-	next "inside its body,"
+	db   "Deze ruige #MON" ; "This rough #MON"
+	next "bewaart energie in" ; "stores energy"
+	next "het lichaam, en" ; "inside its body,"
 
-	page "then sweeps across"
-	next "the land, shooting"
-	next "off electricity.@"
+	page "rent door het" ; "then sweeps across"
+	next "land terwijl elek-" ; "the land, shooting"
+	next "triciteit afvuurt." ; "off electricity.@"

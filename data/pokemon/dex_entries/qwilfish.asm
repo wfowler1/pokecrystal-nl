@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; species name
 	db 5 ; height
 	dw 39 ; weight
 
-	db   "When faced with a"
-	next "larger opponent,"
-	next "it swallows as"
+	db   "Slikt bij een" ; "When faced with a"
+	next "grotere vijand zo-" ; "larger opponent,"
+	next "veel mogelijk" ; "it swallows as"
 
-	page "much water as it"
-	next "can to match the"
-	next "opponent's size.@"
+	page "water in om die" ; "much water as it"
+	next "grootte te" ; "can to match the"
+	next "evenaren.@" ; "opponent's size.@"

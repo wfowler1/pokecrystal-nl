@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVIS@" ; species name
 	db 6 ; height
 	dw 124 ; weight
 
-	db   "The swirl on its"
-	next "belly is its"
-	next "insides showing"
+	db   "De spiraal op" ; "The swirl on its"
+	next "de buik toont" ; "belly is its"
+	next "de organen door" ; "insides showing"
 
-	page "through the skin."
-	next "It looks clearer"
-	next "after it eats.@"
+	page "de huid heen. Is" ; "through the skin."
+	next "transparanter na" ; "It looks clearer"
+	next "te eten." ; "after it eats.@"

@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 185 ; weight
 
-	db   "The webs on its"
-	next "hind legs enable"
-	next "it to cross"
+	db   "Kan met het web" ; "The webs on its"
+	next "op de achterpoten" ; "hind legs enable"
+	next "door rivieren" ; "it to cross"
 
-	page "rivers. It search-"
-	next "es wide areas for"
-	next "food.@"
+	page "heen. Zoekt" ; "rivers. It search-"
+	next "voedsel in wijde" ; "es wide areas for"
+	next "gebieden.@" ; "food.@"

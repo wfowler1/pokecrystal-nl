@@ -1,11 +1,11 @@
-	db "DRILL@" ; species name
+	db "BOOR@" ; species name
 	db 14 ; height
 	dw 620 ; weight
 
-	db   "It uses its thick"
-	next "arms, legs and"
-	next "tail to attack"
+	db   "Gebruikt dikke" ; "It uses its thick"
+	next "armen, benen en de" ; "arms, legs and"
+	next "staart om hardhan-" ; "tail to attack"
 
-	page "forcefully. Melee"
-	next "combat is its"
-	next "specialty.@"
+	page "dit aan te vallen." ; "forcefully. Melee"
+	next "Vecht vooral goed" ; "combat is its"
+	next "van dichtbij.@" ; "specialty.@"

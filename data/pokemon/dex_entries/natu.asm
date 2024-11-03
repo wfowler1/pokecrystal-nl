@@ -1,11 +1,11 @@
-	db "LITTLE BIRD@" ; species name
+	db "VOGELTJE@" ; species name
 	db 2 ; height
 	dw 20 ; weight
 
-	db   "It is extremely"
-	next "good at climbing"
-	next "tree trunks and"
+	db   "Kan extreem goed" ; "It is extremely"
+	next "boomstammen be-" ; "good at climbing"
+	next "klimmen en eet" ; "tree trunks and"
 
-	page "likes to eat the"
-	next "new sprouts on"
-	next "the trees.@"
+	page "graag nieuwe" ; "likes to eat the"
+	next "blaadjes van" ; "new sprouts on"
+	next "takken." ; "the trees.@"

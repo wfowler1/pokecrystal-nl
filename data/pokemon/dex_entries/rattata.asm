@@ -2,10 +2,10 @@
 	db 3 ; height
 	dw 35 ; weight
 
-	db   "This #MON's"
-	next "impressive vital-"
-	next "ity allows it to"
+	db   "Kan door indruk-" ; "This #MON's"
+	next "wekkend uithou-" ; "impressive vital-"
+	next "dingsvermogen" ; "ity allows it to"
 
-	page "live anywhere. It"
-	next "also multiplies"
-	next "very quickly.@"
+	page "overal leven." ; "live anywhere. It"
+	next "Vermenigvuldigt" ; "also multiplies"
+	next "ook snel.@" ; "very quickly.@"
