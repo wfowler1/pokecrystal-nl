@@ -1,4 +1,4 @@
-	db "MANTIS@" ; species name
+	db "SPRINKHAAN@" ; species name
 	db 15 ; height
 	dw 560 ; weight
 

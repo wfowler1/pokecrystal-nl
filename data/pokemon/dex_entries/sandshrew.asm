@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; species name
 	db 6 ; height
 	dw 120 ; weight
 
-	db   "It prefers dry,"
-	next "sandy places"
-	next "because it uses"
+	db   "Heeft voorkeur" ; "It prefers dry,"
+	next "voor droge, zand-" ; "sandy places"
+	next "erige plekken," ; "because it uses"
 
-	page "the sand to"
-	next "protect itself"
-	next "when threatened.@"
+	page "waar het zichzelf" ; "the sand to"
+	next "met zand" ; "protect itself"
+	next "beschermt.@" ; "when threatened.@"
