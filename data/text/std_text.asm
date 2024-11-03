@@ -243,7 +243,7 @@ ContestResults_PlayerWonAPrizeText:
 	done
 
 ReceivedItemText:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
 	text "."
@@ -373,19 +373,19 @@ HappinessText1:
 	line "niet getemd." ; "your #MON."
 
 	para "Als je niet aardig" ; "If you aren't"
-	line "doet, zeurt ie." ; "nice, it'll pout."
+	line "doet, zeurt het." ; "nice, it'll pout."
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> registreert" ; "<PLAYER> registered"
+	text "<PLAYER> schreef" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text "'s nummer." ; "'s number."
+	text "'s nummer op." ; "'s number."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> registreert" ; "<PLAYER> registered"
+	text "<PLAYER> schreef" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text "'s nummer." ; "'s number."
+	text "'s nummer op." ; "'s number."
 	done
