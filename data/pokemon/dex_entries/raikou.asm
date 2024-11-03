@@ -8,4 +8,4 @@
 
 	page "rent door het" ; "then sweeps across"
 	next "land terwijl elek-" ; "the land, shooting"
-	next "triciteit afvuurt." ; "off electricity.@"
+	next "triciteit afvuurt.@" ; "off electricity.@"

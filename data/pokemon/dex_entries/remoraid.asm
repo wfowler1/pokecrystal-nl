@@ -8,4 +8,4 @@
 
 	page "te ontsnappen." ; "its mouth, then"
 	next "Wordt daardoor" ; "use that force to"
-	next "achteruit geknald." ; "swim backward.@"
+	next "achteruit geknald.@" ; "swim backward.@"

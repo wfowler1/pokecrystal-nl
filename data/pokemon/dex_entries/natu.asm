@@ -8,4 +8,4 @@
 
 	page "graag nieuwe" ; "likes to eat the"
 	next "blaadjes van" ; "new sprouts on"
-	next "takken." ; "the trees.@"
+	next "takken.@" ; "the trees.@"

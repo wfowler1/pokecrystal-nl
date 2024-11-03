@@ -8,4 +8,4 @@
 
 	page "verzamelen nabije" ; "nearby POLIWAG and"
 	next "POLIWAG en POLI-" ; "POLIWHIRL gather"
-	next "WHIRL onmiddelijk." ; "immediately.@"
+	next "WHIRL onmiddelijk.@" ; "immediately.@"

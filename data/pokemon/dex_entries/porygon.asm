@@ -8,4 +8,4 @@
 
 	page "zoek. Kan alleen" ; "research, it can"
 	next "waar het voor" ; "perform only what"
-	next "geprogrammeerd is." ; "is in its program.@"
+	next "geprogrammeerd is.@" ; "is in its program.@"

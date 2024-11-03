@@ -8,4 +8,4 @@
 
 	page "Kan daardoor" ; "It silently sneaks"
 	next "stiekem een prooi" ; "up on prey without"
-	next "besluipen." ; "being detected.@"
+	next "besluipen.@" ; "being detected.@"

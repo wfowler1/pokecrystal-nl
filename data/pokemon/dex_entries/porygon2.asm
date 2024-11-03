@@ -8,4 +8,4 @@
 
 	page "technologie. Gaat" ; "technology. It"
 	next "soms tegen de" ; "may have unprog-"
-	next "programmering in." ; "rammed reactions.@"
+	next "programmering in.@" ; "rammed reactions.@"

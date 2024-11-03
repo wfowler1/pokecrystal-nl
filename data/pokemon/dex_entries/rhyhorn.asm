@@ -8,4 +8,4 @@
 
 	page "eenmaal rent, ver-" ; "starts rushing, it"
 	next "geet het waarom" ; "forgets why it"
-	next "het daarmee begon." ; "started.@"
+	next "het daarmee begon.@" ; "started.@"

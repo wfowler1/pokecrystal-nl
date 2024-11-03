@@ -8,4 +8,4 @@
 
 	page "hoger de golvende" ; "er the swaying"
 	next "vlammen van de" ; "flames of its mane"
-	next "manen worden." ; "will become.@"
+	next "manen worden.@" ; "will become.@"

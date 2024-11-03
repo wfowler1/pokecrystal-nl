@@ -8,4 +8,4 @@
 
 	page "tegen de rivier-" ; "the river bottom"
 	next "bodem maar bekom-" ; "as it swims but"
-	next "mert daar niet om." ; "seems not to care.@"
+	next "mert daar niet om.@" ; "seems not to care.@"

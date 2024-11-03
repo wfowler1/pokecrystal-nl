@@ -1,4 +1,4 @@
-	db "KLEINE VOGEL@" ; species name
+	db "VOGELTJE@" ; species name
 	db 3 ; height
 	dw 18 ; weight
 
@@ -8,4 +8,4 @@
 
 	page "een stofwolk" ; "a dust cloud that"
 	next "insecten naar de" ; "drives insect prey"
-	next "vlakte te drijven." ; "out into the open.@"
+	next "vlakte te drijven.@" ; "out into the open.@"
