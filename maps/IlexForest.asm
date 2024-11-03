@@ -902,8 +902,8 @@ Text_KurtCaughtCelebi:
 	para "Ik voel de inspi-" ; "I feel inspired by"
 	line "ratie opborrelen." ; "what I just saw."
 
-	para "Nu kan ik nog bete-" ; "It motivates me to"
-	line "re BALLEN maken!" ; "make better BALLS!"
+	para "Nu kan ik nog be-" ; "It motivates me to"
+	line "tere BALLEN maken!" ; "make better BALLS!"
 
 	para "Ik ga er vandoor!" ; "I'm going!"
 	done
