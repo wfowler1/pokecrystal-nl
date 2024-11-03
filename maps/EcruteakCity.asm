@@ -135,7 +135,7 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "Ik ga oefenen" ; "I'm going to prac-"
-	line "in 't DANSTHEATER." ; "tice at the DANCE"
+	line "in het DANSTHEATER." ; "tice at the DANCE"
 
 	para "Zin om mee" ; "THEATER. Care to"
 	line "te gaan?" ; "join me?"
@@ -159,22 +159,22 @@ EcruteakCityLass2Text_ReleasedBeasts:
 	done
 
 EcruteakCityFisherText:
-	text "Ik hoorde een ge-" ; "I heard a rumor"
-	line "rucht over SCHIJN-" ; "about OLIVINE"
-	cont "ENDE VUURTOREN." ; "LIGHTHOUSE."
+	text "Er is een gerucht" ; "I heard a rumor"
+	line "over de SCHIJNENDE" ; "about OLIVINE"
+	cont "VUURTOREN." ; "LIGHTHOUSE."
 
-	para "De #MON die" ; "The #MON that"
-	line "dient als baken is" ; "serves as the"
+	para "De #MON die dient" ; "The #MON that"
+	line "als baken is ziek." ; "serves as the"
 
-	para "ziek. Zo te horen" ; "beacon fell ill."
+	para "Zo te horen" ; "beacon fell ill."
 	line "zitten ze in" ; "Sounds like they"
 	cont "de problemen." ; "are in trouble."
 	done
 
 EcruteakCityFisherText_JasmineReturned:
-	text "De #MON in" ; "The #MON at"
-	line "SCHIJNENDE VUUR-" ; "OLIVINE LIGHTHOUSE"
-	cont "TOREN is genezen." ; "has been cured."
+	text "De #MON in SCHIJN-" ; "The #MON at"
+	line "ENDE VUURTOREN" ; "OLIVINE LIGHTHOUSE"
+	cont "is genezen." ; "has been cured."
 
 	para "Boten kunnen 's" ; "Boats can safely"
 	line "nachts weer veilig" ; "sail out to sea at"
@@ -182,12 +182,11 @@ EcruteakCityFisherText_JasmineReturned:
 	done
 
 EcruteakCityYoungsterText:
-	text "Ik hoorde dat" ; "I hear #MON are"
-	line "#MON tekeer" ; "rampaging at the"
+	text "Ik hoorde dat #MON" ; "I hear #MON are"
+	line "tekeer gaan bij het" ; "rampaging at the"
 
-	para "gaan bij het MEER" ; "LAKE OF RAGE. I'd"
-	line "VAN RAZERNIJ." ; "like to see that."
-	cont "Dat wil ik zien."
+	para "MEER VAN RAZERNIJ." ; "LAKE OF RAGE. I'd"
+	line "Dat wil ik zien." ; "like to see that."
 	done
 
 EcruteakCityGramps3Text:
@@ -207,7 +206,7 @@ EcruteakCityGramps3Text:
 	line "ze weer tot leven…" ; "resurrected them…"
 
 	para "Het is een legende" ; "It's a legend that"
-	line "die door ECRUTEAK" ; "has been passed"
+	line "die door ECRUTEAK-" ; "has been passed"
 
 	para "GYMLEIDERS wordt" ; "down by ECRUTEAK"
 	line "doorgegeven." ; "GYM LEADERS."
@@ -238,8 +237,8 @@ TinTowerSignText:
 
 EcruteakGymSignText:
 	text "ECRUTEAK CITY" ; "ECRUTEAK CITY"
-	line "#MON GYM" ; "#MON GYM"
-	cont "LEIDER: MORTY" ; "LEADER: MORTY"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
+	cont "MORTY" ; "LEADER: MORTY"
 
 	para "De Mystieke" ; "The Mystic Seer of"
 	line "Voorspeller van" ; "the Future"

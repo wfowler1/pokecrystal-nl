@@ -196,9 +196,9 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oeps! Ik spijt!" ; "Oops! I so sorry!"
+	text "Oeps! Ik heel spijt!" ; "Oops! I so sorry!"
 	line "Jij niet pijn," ; "You not hurt,"
-	cont "oké?" ; "okay?"
+	cont "okay?" ; "okay?"
 
 	para "Ik heel druk." ; "I very busy."
 	line "Geen tijd voor" ; "No time for talk-"
@@ -214,13 +214,13 @@ CeruleanGymGruntBigMistakeText:
 	done
 
 CeruleanGymGruntByeText:
-	text "Hey jij! Vergeet" ; "Hey, you! Forget"
+	text "He, jij! Vergeet" ; "Hey, you! Forget"
 	line "jij mij zag, okay?" ; "you see me, okay?"
 
 	para "Jij zag, hoorde," ; "You see, hear,"
 	line "weet niets," ; "know nothing,"
 
-	para "okay?" ; "okay?"
+	para "oké?" ; "okay?"
 	line "Dag, kind! Niets!" ; "Bye, kid! Nothing!"
 
 	para "Dag-dag, weg-weg!" ; "Bye-bye a go-go!"
@@ -229,13 +229,13 @@ CeruleanGymGruntByeText:
 CeruleanGymNote1Text:
 	text "Sorry, ik ben er" ; "Sorry, I'll be out"
 	line "even niet." ; "for a while."
-	cont "MISTY, GYM LEIDER" ; "MISTY, GYM LEADER"
+	cont "MISTY, GYMLEIDER" ; "MISTY, GYM LEADER"
 	done
 
 CeruleanGymNote2Text:
 	text "MISTY is weg," ; "Since MISTY's out,"
 	line "dus wij ook." ; "we'll be away too."
-	cont "GYM TRAINERS" ; "GYM TRAINERS"
+	cont "GYMTRAINERS" ; "GYM TRAINERS"
 	done
 
 MistyIntroText:
@@ -244,7 +244,7 @@ MistyIntroText:
 	cont "lastpak!" ; "pest!"
 
 	para "Je hebt dan wel" ; "You may have a"
-	line "veel JOHTO GYM" ; "lot of JOHTO GYM"
+	line "veel JOHTO GYM-" ; "lot of JOHTO GYM"
 
 	para "BADGES, maar beter" ; "BADGES, but you'd"
 	line "onderschat je me" ; better not take me"
@@ -266,7 +266,7 @@ MistyWinLossText:
 	done
 
 ReceivedCascadeBadgeText:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "WATERVALBADGE." ; "CASCADEBADGE."
 	done
 

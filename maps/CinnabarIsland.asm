@@ -40,7 +40,7 @@ CinnabarIslandBlueTeleport:
 	step_end
 
 CinnabarIslandBlueText:
-	text "Wie ben jij" ; "Who are you?"
+	text "Wie ben jij?" ; "Who are you?"
 
 	para "Het is wel" ; "Well, it's plain"
 	line "duidelijk dat je" ; "to see that you're"

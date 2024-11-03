@@ -150,7 +150,7 @@ ErikaBeatenText:
 	done
 
 PlayerReceivedRainbowBadgeText:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "REGENBOOGBADGE" ; "RAINBOWBADGE."
 	done
 
@@ -162,7 +162,7 @@ ErikaExplainTMText:
 	line "Alsjeblieft, deze" ; "Please, I wish you"
 	cont "TM is voor jou." ; "to have this TM."
 
-	para "Het is GIGA DRAIN" ; "It is GIGA DRAIN."
+	para "Het is GIGADRAIN" ; "It is GIGA DRAIN."
 
 	para "Deze prachtige" ; "It is a wonderful"
 	line "aanval geneest" ; "move that drains"

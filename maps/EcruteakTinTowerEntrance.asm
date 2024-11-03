@@ -154,7 +154,7 @@ EcruteakTinTowerEntranceSageText:
 	line "boden toegang voor" ; "limits to anyone"
 
 	para "iedereen zonder" ; "without ECRUTEAK"
-	line "ECRUTEAK GYM" ; "GYM's BADGE."
+	line "ECRUTEAK GYM-" ; "GYM's BADGE."
 	cont "BADGE." ; 
 
 	para "Sorry, maar je" ; "Sorry, but you'll"
@@ -163,9 +163,9 @@ EcruteakTinTowerEntranceSageText:
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
 	text "Verboden toegang" ; "TIN TOWER is off"
-	line "zonder ECRUTEAK" ; "limits to anyone"
+	line "zonder ECRUTEAK-" ; "limits to anyone"
 
-	para "GYM BADGE." ; "without ECRUTEAK"
+	para "GYMBADGE." ; "without ECRUTEAK"
 	line "" ; "GYM's BADGE."
 
 	para "Ah!" ; "Ah!"
@@ -227,8 +227,8 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	para "Jij…" ; "You…"
 
 	para "Misschien lukt" ; "You may be able to"
-	line "het je om door TIN" ; "make it through"
-	cont "TOREN te komen." ; "TIN TOWER."
+	line "het je om	door" ; "make it through"
+	cont "TIN TOREN te komen." ; "TIN TOWER."
 
 	para "Toe, ga verder." ; "Please, do go on."
 	done
@@ -247,8 +247,8 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	para "Jij…" ; "You…"
 
 	para "Misschien lukt" ; "You may be able to"
-	line "het je om door TIN" ; "make it through"
-	cont "TOREN te komen." ; "TIN TOWER."
+	line "het je om	door" ; "make it through"
+	cont "TIN TOREN te komen." ; "TIN TOWER."
 
 	para "Toe, ga verder." ; "Please, do go on."
 	done

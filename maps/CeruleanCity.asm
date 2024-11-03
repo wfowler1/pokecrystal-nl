@@ -148,7 +148,7 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "KANTO's ENERGIE" ; "KANTO's POWER"
+	text "KANTO's ENERGIE-" ; "KANTO's POWER"
 	line "CENTRALE?" ; "PLANT?"
 
 	para "Die vind je" ; "It's near the end"
@@ -230,13 +230,13 @@ CeruleanCitySignText:
 	text "CERULEAN CITY" ; "CERULEAN CITY"
 
 	para "Omringd door een" ; "A Mysterious Blue"
-	line "mysterieuze aura" ; "Aura Surrounds It"
+	line "mysterieus aura" ; "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
 	text "CERULEAN CITY" ; "CERULEAN CITY"
-	line "#MON GYM" ; "#MON GYM"
-	cont "LEIDER: MISTY" ; "LEADER: MISTY"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
+	cont "MISTY" ; "LEADER: MISTY"
 
 	para "De mondige" ; "The Tomboyish"
 	line "Zeemeermin" ; "Mermaid"
@@ -256,9 +256,9 @@ CeruleanPoliceSignText:
 	line "een briefje…" ; "here…"
 
 	para "Pak criminelen aan" ; "Stamp out thievery"
-	line "om de stad vriend-" ; "and make the city"
+	line "om de stad vrien-" ; "and make the city"
 
-	para "elijker en vro-" ; "a friendlier, more"
+	para "delijker en vro-" ; "a friendlier, more"
 	line "lijker te maken!" ; "cheerful place!"
 
 	para "CERULIAN POLITIE" ; "CERULEAN POLICE"

@@ -21,11 +21,11 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "Kennen je #MON" ; "Do your #MON"
-	line "al de vaardigheid" ; "already know the"
+	text "Kennen jouw #MON" ; "Do your #MON"
+	line "al de aanval om" ; "already know the"
 
-	para "om mensen over het" ; "move for carrying"
-	line "water dragen?" ; "people on water?"
+	para "mensen over het" ; "move for carrying"
+	line "water te dragen?" ; "people on water?"
 	done
 
 OlivineMartLassText:

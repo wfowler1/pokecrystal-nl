@@ -137,11 +137,11 @@ EcruteakTwoTowersText:
 	done
 
 EcruteakThreeMonText:
-	text "In ECRUTEAK woon-" ; "ECRUTEAK was also"
-	line "den drie #MON" ; "home to three"
+	text "In ECRUTEAK woonden" ; "ECRUTEAK was also"
+	line "ook drie #MON" ; "home to three"
 
 	para "die rondom de" ; "#MON that raced"
-	line "stad raceden." ; "around the town."
+	line "stad raceten." ; "around the town."
 
 	para "Er werd gezegd dat" ; "They were said to"
 	line "ze geboren waren" ; "have been born of"
