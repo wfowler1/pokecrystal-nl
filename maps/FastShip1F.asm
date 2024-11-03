@@ -206,81 +206,81 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToVermilion:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "VERMILION CITY."
+	text "SNELSCHIP S.S.AQUA" ; "FAST SHIP S.S.AQUA"
+	line "is op weg naar" ; "is en route to"
+	cont "VERMILION CITY." ; "VERMILION CITY."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "We kondigen het" ; "We will make an"
+	line "aan zodra we" ; "announcement when"
+	cont "arriveren." ; "we arrive."
 	done
 
 FastShip1FSailor1Text_ToOlivine:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "OLIVINE CITY."
+	text "SNELSCHIP S.S.AQUA" ; "FAST SHIP S.S.AQUA"
+	line "is op weg naar" ; "is en route to"
+	cont "OLIVINE CITY." ; "OLIVINE CITY."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "We kondigen het" ; "We will make an"
+	line "aan zodra we" ; "announcement when"
+	cont "arriveren." ; "we arrive."
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Here's your cabin."
+	text "Hier is je cabine." ; "Here's your cabin."
 
-	para "If your #MON"
-	line "are hurt, take a"
-	cont "nap in the bed."
+	para "Doe een dutje in" ; "If your #MON"
+	line "dit bed als je" ; "are hurt, take a"
+	cont "#MON bezeerd" ; "nap in the bed."
 
-	para "That will heal"
-	line "them."
+	para "zijn. Dat zal" ; "That will heal"
+	line "ze genezen." ; "them."
 	done
 
 FastShip1FSailor2Text:
-	text "Here's your cabin."
+	text "Hier is je cabine." ; "Here's your cabin."
 
-	para "You can heal your"
-	line "#MON by taking"
-	cont "a nap in the bed."
+	para "Je kan je #MON" ; "You can heal your"
+	line "genezen door in" ; "#MON by taking"
+	cont "het bed te slapen." ; "a nap in the bed."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "Het schip zal" ; "The ship will"
+	line "arriveren terwijl" ; "arrive while"
+	cont "je slaapt." ; "you're sleeping."
 	done
 
 FastShip1FSailor3Text:
-	text "The passengers are"
-	line "all trainers."
+	text "Alle passagiers" ; "The passengers are"
+	line "zijn ook trainers." ; "all trainers."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Ze kunnen niet" ; "They're all itch-"
+	line "wachten om een" ; "ing to battle in"
+	cont "potje te vechten." ; "their cabins."
 	done
 
 FastShip1FGrandpaText:
-	text "Whoa! Excuse me."
-	line "I was in a hurry!"
+	text "Whoa! Excuseer me." ; "Whoa! Excuse me."
+	line "Ik had haast! Mijn" ; "I was in a hurry!"
 
-	para "My granddaughter"
-	line "is missing!"
+	para "kleindochter is" ; "My granddaughter"
+	line "vermist!" ; "is missing!"
 
-	para "She's just a wee"
-	line "girl. If you see"
+	para "Ze is maar een" ; "She's just a wee"
+	line "klein meisje. Als" ; "girl. If you see"
 
-	para "her, please let me"
-	line "know!"
+	para "je haar ziet, laat" ; "her, please let me"
+	line "het me weten!" ; "know!"
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "OLIVINE CITY."
+	text "SNELSCHIP S.S.AQUA" ; "FAST SHIP S.S.AQUA"
+	line "is aangekomen in" ; "has arrived in"
+	cont "OLIVINE CITY." ; "OLIVINE CITY."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "SNELSCHIP S.S.AQUA" ; "FAST SHIP S.S.AQUA"
+	line "is aangekomen in" ; "has arrived in"
+	cont "VERMILION CITY." ; "VERMILION CITY."
 	done
 
 FastShip1F_MapEvents:

@@ -155,67 +155,69 @@ MahoganyMart1FLanceGoDownStairsMovement:
 	step_end
 
 MahoganyMart1FRageCandyBarText: ; unreferenced
-	text "Hello, kiddo!"
+	text "Dag, koter!" ; "Hello, kiddo!"
 
-	para "How would you like"
-	line "some RAGECANDYBAR?"
+	para "Wil je soms" ; "How would you like"
+	line "wat WOEDEREEP?" ; "some RAGECANDYBAR?"
 
-	para "It's the thing to"
-	line "eat in MAHOGANY!"
+	para "Het is dé snack" ; "It's the thing to"
+	line "van MAHOGANY!" ; "eat in MAHOGANY!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "Arghh… Je hebt" ; "Arrgh… You found"
+	line "de geheime trap" ; "the secret stair-"
+	cont "gevonden…" ; "way…"
 	done
 
 MahoganyMart1FBlackBeltText:
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "Heheh! Het experi-" ; "Heheh! The experi-"
+	line "ment werkt" ; "ment worked like a"
+	cont "geweldig." ; "charm."
 
-	para "MAGIKARP are just"
-	line "worthless, but"
+	para "MAGIKARP zijn" ; "MAGIKARP are just"
+	line "waardeloos, maar" ; "worthless, but"
 
-	para "GYARADOS are big"
-	line "moneymakers."
+	para "GYARADOS zijn" ; "GYARADOS are big"
+	line "geldbomen." ; "moneymakers."
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
-	text "Urrgh…"
+	text "Uggh…" ; "Urrgh…"
 
-	para "That guy's dragon"
-	line "#MON are tough…"
+	para "De draak-#MON" ; "That guy's dragon"
+	line "van die gast" ; "#MON are tough…"
+	cont "zijn sterk…" ;
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
 	text "LANCE: DRAGONITE,"
-	line "HYPER BEAM."
+	line "HYPERSTRAAL." ; "HYPER BEAM."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
+	text "Waar bleef je," ; "What took you,"
 	line "<PLAY_G>?"
 
-	para "Just as I thought,"
-	line "that strange radio"
+	para "Zoals ik dacht," ; "Just as I thought,"
+	line "dat vreemde radio-" ; "that strange radio"
 
-	para "signal is coming"
-	line "from here."
+	para "signaal komt" ; "signal is coming"
+	line "hier vandaan." ; "from here."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "De trap is" ; "The stairs are"
+	line "hier." ; "right here."
 	done
 
 MahoganyMart1FLanceSplitUpText:
 	text "LANCE: <PLAY_G>, we"
-	line "should split up to"
+	line "moeten ons opsplit-" ; "should split up to"
 
-	para "check this place."
-	line "I'll go first."
+	para "sen om deze plek" ; "check this place."
+	line "te verkennen. Ik" ; "I'll go first."
+	cont "ga wel eerst." ;
 	done
 
 MahoganyMart1F_MapEvents:

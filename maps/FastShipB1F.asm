@@ -219,231 +219,231 @@ FastShipB1FSailorBlocksLeftMovement:
 	step_end
 
 FastShipB1FOnDutySailorText:
-	text "Hey, kid. Could I"
-	line "get you to look"
-	cont "for my buddy?"
+	text "He, kind. Zou je" ; "Hey, kid. Could I"
+	line "mijn maatje voor" ; "get you to look"
+	cont "me willen vinden?" ; "for my buddy?"
 
-	para "He's goofing off"
-	line "somewhere, that"
-	cont "lazy bum!"
+	para "hij is ergens aan" ; "He's goofing off"
+	line "het niksen, de" ; "somewhere, that"
+	cont "flierefluiter!" ; "lazy bum!"
 
-	para "I want to go find"
-	line "him, but I'm on"
-	cont "duty right now."
+	para "Ik wil zelf wel" ; "I want to go find"
+	line "zoeken, maar ik" ; "him, but I'm on"
+	cont "heb nu dienst." ; "duty right now."
 	done
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, gee…"
+	text "Oh, jeetje…" ; "Oh, gee…"
 
-	para "The CAPTAIN will"
-	line "be furious…"
+	para "De KAPITEIN zal" ; "The CAPTAIN will"
+	line "woedend zijn…" ; "be furious…"
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Thanks, kid!"
-	line "I chewed him out"
+	text "Dank je! Ik heb" ; "Thanks, kid!"
+	line "hem een lesje" ; "I chewed him out"
 
-	para "good so he'll quit"
-	line "slacking off!"
+	para "geleerd, zodat hij" ; "good so he'll quit"
+	line "het voortaan laat!" ; "slacking off!"
 	done
 
 FastShipB1FOnDutySailorSawLittleGirlText:
-	text "A little girl?"
+	text "Een klein meisje?" ; "A little girl?"
 
-	para "I may have seen"
-	line "her go by here."
+	para "Misschien heb ik" ; "I may have seen"
+	line "haar wel gezien." ; "her go by here."
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
-	text "The dining room is"
-	line "up ahead."
+	text "De eetkamer is" ; "The dining room is"
+	line "verderop." ; "up ahead."
 
-	para "The stairs at the"
-	line "end lead to the"
-	cont "CAPTAIN's cabin."
+	para "De trap daar gaat" ; "The stairs at the"
+	line "naar de kabine" ; "end lead to the"
+	cont "van de KAPITEIN." ; "CAPTAIN's cabin."
 	done
 
 SailorJeffSeenText:
-	text "Nothing beats a"
-	line "battle when I'm"
-	cont "on my break."
+	text "Niks beter dan een" ; "Nothing beats a"
+	line "gevecht tijdens" ; "battle when I'm"
+	cont "mijn pauze." ; "on my break."
 	done
 
 SailorJeffBeatenText:
-	text "Win or lose, my"
-	line "break's over!"
+	text "Winnen, verliezen," ; "Win or lose, my"
+	line "pauze is voorbij!" ; "break's over!"
 	done
 
 SailorJeffAfterBattleText:
-	text "I guess I can't"
-	line "win if I don't get"
-	cont "serious."
+	text "Ik moet serieu-" ; "I guess I can't"
+	line "zer mijn best doen" ; "win if I don't get"
+	cont "als ik wil winnen." ; "serious."
 	done
 
 PicnickerDebraSeenText:
-	text "I'm so bored."
-	line "Want to battle?"
+	text "Ik verveel me zo." ; "I'm so bored."
+	line "Wil je vechten?" ; "Want to battle?"
 	done
 
 PicnickerDebraBeatenText:
-	text "Yow! You're too"
-	line "strong!"
+	text "Auw! Je bent" ; "Yow! You're too"
+	line "te sterk!" ; "strong!"
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRON, CELADON…"
-	line "I hear there are"
+	text "SAFFRON, CELADON…" ; "SAFFRON, CELADON…"
+	line "Ik hoorde dat er" ; "I hear there are"
 
-	para "many big cities"
-	line "in KANTO."
+	para "veel grote steden" ; "many big cities"
+	line "in KANTO zijn." ; "in KANTO."
 	done
 
 JugglerFritzSeenText:
-	text "Urrf…"
-	line "I'm seasick!"
+	text "Urrf…" ; "Urrf…"
+	line "Ik ben zeeziek!" ; "I'm seasick!"
 	done
 
 JugglerFritzBeatenText:
-	text "I can't move any-"
-	line "more…"
+	text "Ik kan geen spier" ; "I can't move any-"
+	line "meer verroeren." ; "more…"
 	done
 
 JugglerFritzAfterBattleText:
-	text "No more ships for"
-	line "me. Next time,"
+	text "Geen schepen meer" ; "No more ships for"
+	line "voor mij. Voortaan" ; "me. Next time,"
 
-	para "I'm taking the"
-	line "MAGNET TRAIN."
+	para "neem ik de" ; "I'm taking the"
+	line "ZWEEFTREIN." ; "MAGNET TRAIN."
 	done
 
 SailorGarrettSeenText:
-	text "This is where we"
-	line "sailors work!"
+	text "Hier werken wij" ; "This is where we"
+	line "als matrozen!" ; "sailors work!"
 	done
 
 SailorGarrettBeatenText:
-	text "I lost on my home"
-	line "field…"
+	text "Verloren op m'n" ; "I lost on my home"
+	line "eigen thuisbasis…" ; "field…"
 	done
 
 SailorGarrettAfterBattleText:
-	text "We get different"
-	line "passengers from"
+	text "We hebben andere" ; "We get different"
+	line "passagiers tussen" ; "passengers from"
 
-	para "VERMILION CITY to"
-	line "OLIVINE CITY."
+	para "VERMILION CITY en" ; "VERMILION CITY to"
+	line "OLIVINE CITY." ; "OLIVINE CITY."
 	done
 
 FisherJonahSeenText:
-	text "Even though we're"
-	line "out on the sea, I"
-	cont "can't fish!"
+	text "Ik kan hier niet" ; "Even though we're"
+	line "vissen, ook al" ; "out on the sea, I"
+	cont "zijn we op zee!" ; "can't fish!"
 
-	para "This is boring!"
-	line "Let's battle!"
+	para "Wat saai! Laten" ; "This is boring!"
+	line "we vechten!" ; "Let's battle!"
 	done
 
 FisherJonahBeatenText:
-	text "I… I'm not bored"
-	line "anymore…"
+	text "Ik… Ik verveel" ; "I… I'm not bored"
+	line "me niet meer…" ; "anymore…"
 	done
 
 FisherJonahAfterBattleText:
-	text "I plan to fish off"
-	line "VERMILION's pier."
+	text "Ik ga vissen aan" ; "I plan to fish off"
+	line "VERMILION's kade." ; "VERMILION's pier."
 	done
 
 BlackbeltWaiSeenText:
-	text "I'm building up my"
-	line "legs by bracing"
+	text "Ik train m'n benen" ; "I'm building up my"
+	line "door af te zetten" ; "legs by bracing"
 
-	para "against the ship's"
-	line "rocking!"
+	para "tegen het wiegen" ; "against the ship's"
+	line "van het schip!" ; "rocking!"
 	done
 
 BlackbeltWaiBeatenText:
-	text "Rocked and rolled"
-	line "over!"
+	text "Heen en weer" ; "Rocked and rolled"
+	line "geschud!" ; "over!"
 	done
 
 BlackbeltWaiAfterBattleText:
-	text "I couldn't find"
-	line "the KARATE KING in"
-	cont "JOHTO."
+	text "Ik kon de KARATE-" ; "I couldn't find"
+	line "KONING niet vinden" ; "the KARATE KING in"
+	cont "in JOHTO." ; "JOHTO."
 
-	para "He's supposed to"
-	line "be training in a"
-	cont "cave somewhere."
+	para "Die zou ergens" ; "He's supposed to"
+	line "in een grot aan" ; "be training in a"
+	cont "het trainen zijn." ; "cave somewhere."
 	done
 
 SailorKennethSeenText:
-	text "I'm a sailor man!"
+	text "Ik ben matroos!" ; "I'm a sailor man!"
 
-	para "But I'm training"
-	line "#MON, so I can"
-	cont "become the CHAMP!"
+	para "Maar ik train ook" ; "But I'm training"
+	line "#MON, om KAM-" ; "#MON, so I can"
+	cont "PIOEN te worden!" ; "become the CHAMP!"
 	done
 
 SailorKennethBeatenText:
-	text "My lack of train-"
-	line "ing is obvious…"
+	text "Wel duidelijk dat" ; "My lack of train-"
+	line "ik weinig train…" ; "ing is obvious…"
 	done
 
 SailorKennethAfterBattleText:
-	text "Eight BADGES!"
-	line "They must prove"
+	text "Acht BADGES! Die" ; "Eight BADGES!"
+	line "moeten bewijzen" ; "They must prove"
 
-	para "that you've beaten"
-	line "GYM LEADERS."
+	para "dat je GYM LEIDERS" ; "that you've beaten"
+	line "hebt verslagen." ; "GYM LEADERS."
 
-	para "No wonder you're"
-	line "so good!"
+	para "Geen wonder dat" ; "No wonder you're"
+	line "je zo goed bent!" ; "so good!"
 	done
 
 TeacherShirleySeenText:
-	text "Don't lay a finger"
-	line "on my students!"
+	text "Blijf van mijn" ; "Don't lay a finger"
+	line "studenten af!" ; "on my students!"
 	done
 
 TeacherShirleyBeatenText:
-	text "Aaack!"
+	text "Aaack!" ; "Aaack!"
 	done
 
 TeacherShirleyAfterBattleText:
-	text "We're on a field"
-	line "trip to the RUINS"
-	cont "outside VIOLET."
+	text "We zijn op school-" ; "We're on a field"
+	line "reisje naar de" ; "trip to the RUINS"
+	cont "RUÏNES bij VIOLET." ; "outside VIOLET."
 	done
 
 SchoolboyNateSeenText:
-	text "Do you know the"
-	line "RUINS OF ALPH?"
+	text "Ken je de RUÏNES" ; "Do you know the"
+	line "VAN ALF?" ; "RUINS OF ALPH?"
 	done
 
 SchoolboyNateBeatenText:
-	text "Yaargh!"
+	text "Yaargh!" ; "Yaargh!"
 	done
 
 SchoolboyNateAfterBattleText:
-	text "Radios pick up"
-	line "strange signals"
-	cont "inside the RUINS."
+	text "Radio's pikken" ; "Radios pick up"
+	line "rare signalen op" ; "strange signals"
+	cont "in de RUÏNES." ; "inside the RUINS."
 	done
 
 SchoolboyRickySeenText:
-	text "There are some odd"
-	line "stone panels in"
-	cont "the RUINS OF ALPH."
+	text "In de RUÏNES VAN" ; "There are some odd"
+	line "ALF zijn vreemde" ; "stone panels in"
+	cont "stenen panelen." ; "the RUINS OF ALPH."
 	done
 
 SchoolboyRickyBeatenText:
-	text "I was done in!"
+	text "Ik ben verslagen!" ; "I was done in!"
 	done
 
 SchoolboyRickyAfterBattleText:
-	text "I read that there"
-	line "are four of those"
-	cont "stone panels."
+	text "Ik las dat er" ; "I read that there"
+	line "vier van die" ; "are four of those"
+	cont "panelen zijn." ; "stone panels."
 	done
 
 FastShipB1F_MapEvents:

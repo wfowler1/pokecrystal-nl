@@ -191,46 +191,48 @@ BurnedTowerB1FEusineMovement1:
 	step_end
 
 BurnedTowerB1FEusineText:
-	text "EUSINE: I dug a"
-	line "hole here, too…"
+	text "EUSINE: Ik groef" ; "EUSINE: I dug a"
+	line "hier ook een gat…" ; "hole here, too…"
 
-	para "I was shocked!"
+	para "Ik stond perplex!" ; "I was shocked!"
 
-	para "SUICUNE raced by"
-	line "like a blur, right"
+	para "SUICUNE zoefde" ; "SUICUNE raced by"
+	line "pijlsnel voorbij," ; "like a blur, right"
 
-	para "in front of my"
-	line "eyes!"
+	para "recht voor" ; "in front of my"
+	line "mijn ogen!" ; "eyes!"
 
-	para "For ten years I"
-	line "chased SUICUNE,"
+	para "Ik heb tien jaar" ; "For ten years I"
+	line "SUICUNE gevolgd," ; "chased SUICUNE,"
 
-	para "and I finally got"
-	line "to see it."
+	para "en ik heb 'm" ; "and I finally got"
+	line "eindelijk gezien." ; "to see it."
 
-	para "I'm all choked up!"
+	para "Ik heb tranen" ; "I'm all choked up!"
+	line "in m'n ogen!" ;
 
-	para "<PLAYER>, I owe"
-	line "this all to you!"
+	para "<PLAYER>, al dit" ; "<PLAYER>, I owe"
+	line "is dankzij jou!" ; "this all to you!"
 
-	para "Thank you!"
+	para "Dankjewel!" ; "Thank you!"
 
-	para "I heard that the"
-	line "legendary #MON"
+	para "Ik hoorde dat" ; "I heard that the"
+	line "de legendarische" ; "legendary #MON"
 
-	para "of ECRUTEAK test"
-	line "chosen humans by"
+	para "#MON van ECRU-" ; "of ECRUTEAK test"
+	line "TEAK uitverkoren" ; "chosen humans by"
 
-	para "allowing them to"
-	line "get close."
+	para "mensen testen" ; "allowing them to"
+	line "door ze dichtbij" ; "get close."
+	cont "te laten komen." ;
 
-	para "I'm going to track"
-	line "SUICUNE."
+	para "Ik ga SUICUNE" ; "I'm going to track"
+	line "volgen." ; "SUICUNE."
 
-	para "<PLAYER>, let's"
-	line "meet again!"
+	para "<PLAYER>, tot de" ; "<PLAYER>, let's"
+	line "volgende keer!" ; "meet again!"
 
-	para "Farewell!"
+	para "Vaarwel!" ; "Farewell!"
 	done
 
 BurnedTowerB1F_MapEvents:

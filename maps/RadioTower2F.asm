@@ -344,21 +344,21 @@ RadioTower2FPlayerWalksToMicrophoneMovement:
 	step_end
 
 RadioTower2FSuperNerdText:
-	text "You can listen to"
-	line "the radio any-"
-	cont "where. Tune in!"
+	text "Je kan overal" ; "You can listen to"
+	line "naar de radio" ; "the radio any-"
+	cont "luisteren." ; "where. Tune in!"
 	done
 
 RadioTower2FTeacherText:
-	text "Lullabies on the"
-	line "radio may make"
-	cont "#MON sleep."
+	text "Slaapliedjes op" ; "Lullabies on the"
+	line "de radio kunnen" ; "radio may make"
+	cont "#MON laten slapen." ; "#MON sleep."
 	done
 
 RadioTower2FTeacherText_Rockets:
-	text "Why would they"
-	line "want to take over"
-	cont "the RADIO TOWER?"
+	text "Waarom zouden ze" ; "Why would they"
+	line "de RADIOTOREN" ; "want to take over"
+	cont "willen overnemen?" ; "the RADIO TOWER?"
 	done
 
 RadioTowerJigglypuffText:
@@ -367,347 +367,355 @@ RadioTowerJigglypuffText:
 	done
 
 RadioTower2FBlackBelt1Text:
-	text "Sorry. Authorized"
-	line "personnel only"
-	cont "beyond this point."
+	text "Sorry. Alleen ge-" ; "Sorry. Authorized"
+	line "authoriseerd per-" ; "personnel only"
+	cont "soneel hier." ; "beyond this point."
 
-	para "It wasn't that way"
-	line "before."
+	para "Dat was eerst" ; "It wasn't that way"
+	line "anders." ; "before."
 
-	para "There's something"
-	line "wrong with the"
-	cont "DIRECTOR…"
+	para "Er is iets mis" ; "There's something"
+	line "met de" ; "wrong with the"
+	cont "DIRECTEUR…" ; "DIRECTOR…"
 	done
 
 RadioTower2FBlackBelt2Text:
-	text "Feel free to look"
-	line "around anywhere."
+	text "Kijk gerust" ; "Feel free to look"
+	line "overal rond." ; "around anywhere."
 
-	para "The DIRECTOR is"
-	line "nice again, just"
-	cont "as he was before."
+	para "De DIRECTEUR is" ; "The DIRECTOR is"
+	line "weer aardig, net" ; "nice again, just"
+	cont "als eerst." ; "as he was before."
 	done
 
 GruntM4SeenText:
-	text "Three years ago,"
-	line "TEAM ROCKET was"
-	cont "forced to disband."
+	text "Drie jaar geleden" ; "Three years ago,"
+	line "moest TEAM ROCKET" ; "TEAM ROCKET was"
+	cont "ontbinden." ; "forced to disband."
 
-	para "But we're making a"
-	line "comeback here!"
+	para "Maar we maken hier" ; "But we're making a"
+	line "een terugkeer!" ; "comeback here!"
 	done
 
 GruntM4BeatenText:
-	text "Gwah! Don't get"
-	line "cute!"
+	text "Hè gèt!" ; "Gwah! Don't get"
+	line "Kappen nou!" ; "cute!"
 	done
 
 GruntM4AfterBattleText:
-	text "We won't let you"
-	line "ruin our plans"
-	cont "for our comeback!"
+	text "We laten je niet" ; "We won't let you"
+	line "onze terugkeer" ; "ruin our plans"
+	cont "dwarsbomen!" ; "for our comeback!"
 	done
 
 GruntM5SeenText:
-	text "We're TEAM ROCKET,"
-	line "the exploiters of"
-	cont "#MON!"
+	text "Wij zijn TEAM" ; "We're TEAM ROCKET,"
+	line "ROCKET, de uit-" ; "the exploiters of"
+	cont "buiters van #MON!"
 
-	para "We love being"
-	line "evil! Scared?"
+	para "We zijn graag" ; "We love being"
+	line "kwaadaardig! Bang?" ; "evil! Scared?"
 	done
 
 GruntM5BeatenText:
-	text "You think you're a"
-	line "hero?"
+	text "Denk je dat je" ; "You think you're a"
+	line "een held bent?" ; "hero?"
 	done
 
 GruntM5AfterBattleText:
-	text "We're not always"
-	line "evil. We just do"
-	cont "whatever we like."
+	text "We zijn niet altijd" ; "We're not always"
+	line "slecht. We doen" ; "evil. We just do"
+	cont "gewoon wat we" ; "whatever we like."
+	cont "willen." ;
 	done
 
 GruntM6SeenText:
-	text "Hey, hey! Keep out"
-	line "of our way!"
+	text "Hé, hé!" ; "Hey, hey! Keep out"
+	line "Uit de weg!" ; "of our way!"
 	done
 
 GruntM6BeatenText:
-	text "Arggh. I give up."
+	text "Arggh. Ik geef op." ; "Arggh. I give up."
 	done
 
 GruntM6AfterBattleText:
-	text "Our EXECUTIVES are"
-	line "trying to take"
-	cont "this place over."
+	text "Onze MANAGERS pro-" ; "Our EXECUTIVES are"
+	line "beren deze plek" ; "trying to take"
+	cont "over te nemen." ; "this place over."
 
-	para "They have some big"
-	line "plan. I wonder"
-	cont "what that is?"
+	para "Ze hebben een of" ; "They have some big"
+	line "ander groot plan." ; "plan. I wonder"
+	cont "Wat zou 't zijn?" ; "what that is?"
 	done
 
 GruntF2SeenText:
 	text "Hahaha!"
 
-	para "How boring."
-	line "It was far too"
+	para "Saai." ; "How boring."
+	line "Het was veel te" ; "It was far too"
 
-	para "easy to take over"
-	line "this place!"
+	para "makkelijk om deze" ; "easy to take over"
+	line "plek over te nemen!" ; "this place!"
 
-	para "Come on, keep me"
-	line "amused!"
+	para "Kom, vermaak" ; "Come on, keep me"
+	line "me een beetje!" ; "amused!"
 	done
 
 GruntF2BeatenText:
-	text "Wh-who are you?"
+	text "W-wie ben je?" ; "Wh-who are you?"
 	done
 
 GruntF2AfterBattleText:
-	text "You beat me, and"
-	line "I won't forget it!"
+	text "Je hebt me ver-" ; "You beat me, and"
+	line "slagen, dat ver-" ; "I won't forget it!"
+	cont "geet ik niet!" ;
 	done
 
 RadioTower2FBuenaShowIntroductionText:
-	text "BUENA: Hi! I'm"
+	text "BUENA: Hoi! Ik ben" ; "BUENA: Hi! I'm"
 	line "BUENA!"
 
-	para "Do you know about"
-	line "a radio program"
-	cont "called PASSWORD?"
+	para "Ken je het" ; "Do you know about"
+	line "radioprogramma" ; "a radio program"
+	cont "WACHTWOORD?" ; "called PASSWORD?"
 
-	para "If you can tell me"
-	line "the password from"
+	para "Als je een" ; "If you can tell me"
+	line "wachtwoord uit 't" ; "the password from"
 
-	para "the program, you"
-	line "will earn points."
+	para "programma kan" ; "the program, you"
+	line "noemen, krijg je" ; "will earn points."
 
-	para "Save up those"
-	line "points and trade"
+	para "punten. Spaar die" ; "Save up those"
+	line "punten en ruil ze" ; "points and trade"
 
-	para "them to that sweet"
-	line "young lady over"
+	para "met die lieve dame" ; "them to that sweet"
+	line "daar ginds" ; "young lady over"
 
-	para "there for some"
-	line "choice prizes!"
+	para "voor een" ; "there for some"
+	line "aantal prijzen!" ; "choice prizes!"
 
-	para "Here you go!"
+	para "Alsjeblieft!" ; "Here you go!"
 
-	para "It's your very own"
-	line "point card!"
+	para "Het is je eigen" ; "It's your very own"
+	line "puntenkaart!" ; "point card!"
 	done
 
 RadioTower2FBuenaTuneInToMyShowText:
-	text "BUENA: Tune in to"
-	line "my PASSWORD SHOW!"
+	text "BUENA: Luister" ; "BUENA: Tune in to"
+	line "de WACHTWOORDSHOW!" ; "my PASSWORD SHOW!"
 	done
 
 RadioTower2FBuenaDoYouKnowPasswordText:
-	text "BUENA: Hi!"
-	line "Did you tune in to"
-	cont "my radio show?"
+	text "BUENA: Hoi! Heb" ; "BUENA: Hi!"
+	line "je naar mijn radio-" ; "Did you tune in to"
+	cont "show geluisterd?" ; "my radio show?"
 
-	para "Do you remember"
-	line "today's password?"
+	para "Weet je het wacht-" ; "Do you remember"
+	line "woord van vandaag?" ; "today's password?"
 	done
 
 RadioTower2FBuenaJoinTheShowText:
-	text "BUENA: Oh, wow!"
-	line "Thank you!"
+	text "BUENA: Oh, wauw!" ; "BUENA: Oh, wow!"
+	line "Dank je!" ; "Thank you!"
 
-	para "What was your name"
-	line "again?"
+	para "Wat was je naam" ; "What was your name"
+	line "ook alweer?" ; "again?"
 
-	para "…<PLAY_G>, OK!"
+	para "…<PLAY_G>, oké!" ; "…<PLAY_G>, OK!"
 
-	para "Come on, <PLAY_G>."
-	line "Join the show."
+	para "Kom, <PLAY_G>." ; "Come on, <PLAY_G>."
+	line "Doe mee." ; "Join the show."
 	done
 
 RadioTower2FBuenaEveryoneSayPasswordText:
-	text "BUENA: Everyone"
-	line "ready?"
+	text "BUENA: Iedereen" ; "BUENA: Everyone"
+	line "klaar?" ; "ready?"
 
-	para "I want to hear you"
-	line "shout out today's"
+	para "Ik wil van jullie" ; "I want to hear you"
+	line "het wachtwoord van" ; "shout out today's"
 
-	para "password for"
+	para "vandaag horen voor" ; "password for"
 	line "<PLAY_G>!"
 	done
 
 RadioTower2FBuenaComeBackAfterListeningText:
-	text "BUENA: Come back"
-	line "after you listen"
+	text "BUENA: Kom terug" ; "BUENA: Come back"
+	line "als je naar m'n" ; "after you listen"
 
-	para "to my show, OK?"
-	line "Catch ya later!"
+	para "show hebt geluis-" ; "to my show, OK?"
+	line "terd, oké? Tot" ; "Catch ya later!"
+	cont "later!" ;
 	done
 
 RadioTower2FBuenaAlreadyPlayedText:
 	text "BUENA: Sorry…"
 
-	para "You get just one"
-	line "chance each day."
+	para "Je krijgt maar" ; "You get just one"
+	line "één kans per dag." ; "chance each day."
 
-	para "Come back tomorrow"
-	line "for another try!"
+	para "Kom morgen terug" ; "Come back tomorrow"
+	line "voor nog 'n keer!" ; "for another try!"
 	done
 
 RadioTower2FBuenaCorrectAnswerText:
-	text "BUENA: YIPPEE!"
-	line "That's right!"
+	text "BUENA: JIPPIE!" ; "BUENA: YIPPEE!"
+	line "Dat klopt!" ; "That's right!"
 
-	para "You did tune in!"
-	line "I'm so happy!"
+	para "Je luisterde!" ; "You did tune in!"
+	line "Ik ben zo blij!" ; "I'm so happy!"
 
-	para "You earned one"
-	line "point! Congrats!"
+	para "Je hebt één punt" ; "You earned one"
+	line "verdiend! Bravo!" ; "point! Congrats!"
 	done
 
 RadioTower2FBuenaDidYouForgetText:
 	text "BUENA: Aww…"
-	line "That's not it…"
+	line "Dat is 'm niet…" ; "That's not it…"
 
-	para "Did you forget the"
-	line "password?"
+	para "Ben je het wacht-" ; "Did you forget the"
+	line "woord vergeten?" ; "password?"
 	done
 
 RadioTower2FBuenaThanksForComingText:
-	text "BUENA: Yup! Our"
-	line "contestant was"
+	text "BUENA: Ja! Onze" ; "BUENA: Yup! Our"
+	line "deelnemer was" ; "contestant was"
 
 	para "<PLAY_G>."
-	line "Thanks for coming!"
+	line "Bedankt voor je" ; "Thanks for coming!"
 
-	para "I hope all you"
-	line "listeners will"
+	para "komst! Ik hoop" ; "I hope all you"
+	line "dat alle luister-" ; "listeners will"
 
-	para "come too!"
-	line "I'll be waiting!"
+	para "aars ook komen!" ; "come too!"
+	line "Ik wacht erop!" ; "I'll be waiting!"
 	done
 
 RadioTower2FBuenaPasswordIsHelpText:
-	text "BUENA: Huh?"
-	line "Today's password?"
+	text "BUENA: Huh?" ; "BUENA: Huh?"
+	line "Het wachtwoord" ; "Today's password?"
+	cont "van vandaag?" ;
 
-	para "HELP, of course!"
+	para "HELP, natuurlijk!" ; "HELP, of course!"
 	done
 
 RadioTower2FBuenaCardIsFullText:
-	text "BUENA: Your BLUE"
-	line "CARD's full."
+	text "BUENA: Je BLAUWE" ; "BUENA: Your BLUE"
+	line "KAART is vol." ; "CARD's full."
 
-	para "Trade it in for a"
-	line "fabulous prize!"
+	para "Ruil het in voor" ; "Trade it in for a"
+	line "een mooie prijs!" ; "fabulous prize!"
 	done
 
 RadioTower2FBuenaTuneInAfterSixText:
-	text "BUENA: Tune in to"
-	line "PASSWORD every"
+	text "BUENA: Luister" ; "BUENA: Tune in to"
+	line "naar WACHTWOORD" ; "PASSWORD every"
 
-	para "night from six to"
-	line "midnight!"
+	para "elke avond van" ; "night from six to"
+	line "zes tot twaalf!" ; "midnight!"
 
-	para "Tune in, then drop"
-	line "in for a visit!"
+	para "Luister, en kom" ; "Tune in, then drop"
+	line "dan langs!" ; "in for a visit!"
 	done
 
 RadioTower2FBuenaNoBlueCardText:
-	text "BUENA: Oh? You"
-	line "forgot to bring"
-	cont "your BLUE CARD?"
+	text "BUENA: Oh? Je" ; "BUENA: Oh? You"
+	line "bent je BLAUWE" ; "forgot to bring"
+	cont "KAART vergeten?" ; "your BLUE CARD?"
 
-	para "I can't give you"
-	line "points if you"
-	cont "don't have it."
+	para "Ik kan je geen" ; "I can't give you"
+	line "punten geven als" ; "points if you"
+	cont "je 't niet hebt." ; "don't have it."
 	done
 
 RadioTower2FBuenaOfferPhoneNumberText:
-	text "BUENA: Oh! Your"
-	line "BLUE CARD reached"
+	text "BUENA: Oh! Je" ; "BUENA: Oh! Your"
+	line "BLAUWE KAART heeft" ; "BLUE CARD reached"
 
-	para "{d:BLUE_CARD_POINT_CAP} points today!"
-	line "That's so wild!"
+	para "{d:BLUE_CARD_POINT_CAP} punten" ; "{d:BLUE_CARD_POINT_CAP} points today!"
+	line "vandaag! Waanzinnig!" ; "That's so wild!"
 
-	para "Hmm… There isn't a"
-	line "prize for hitting"
-	cont "{d:BLUE_CARD_POINT_CAP} points, but…"
+	para "Hmm… Er is geen" ; "Hmm… There isn't a"
+	line "prijs voor" ; "prize for hitting"
+	cont "{d:BLUE_CARD_POINT_CAP} punten, maar…" ; "{d:BLUE_CARD_POINT_CAP} points, but…"
 
-	para "You came by so"
-	line "often, <PLAY_G>."
+	para "Je kwam zo vaak" ; "You came by so"
+	line "langs, <PLAY_G>." ; "often, <PLAY_G>."
 
-	para "I'll make you a"
-	line "special deal!"
+	para "Ik geef je een" ; "I'll make you a"
+	line "speciale deal!" ; "special deal!"
 
-	para "How would you like"
-	line "my phone number?"
+	para "Wil je mijn" ; "How would you like"
+	line "telefoonnummer?" ; "my phone number?"
 	done
 
 RadioTower2FBuenaOfferNumberAgainText:
 	text "BUENA: <PLAY_G>,"
-	line "do you want to"
+	line "wil je mijn" ; "do you want to"
 
-	para "register my phone"
-	line "number?"
+	para "telefoonnummer" ; "register my phone"
+	line "registreren?" ; "number?"
 	done
 
 RadioTower2FRegisteredBuenasNumberText:
-	text "<PLAYER> registered"
-	line "BUENA's number."
+	text "<PLAYER> regis-" ; "<PLAYER> registered"
+	line "treerde BUENA's" ; "BUENA's number."
+	cont "nummer." ;
 	done
 
 RadioTower2FBuenaCallMeText:
-	text "BUENA: I look"
-	line "forward to hearing"
-	cont "from you!"
+	text "BUENA: Ik kijk" ; "BUENA: I look"
+	line "ernaar uit om" ; "forward to hearing"
+	cont "van je te horen!" ; "from you!"
 	done
 
 RadioTower2FBuenaSadRejectedText:
-	text "BUENA: Aww… It's a"
-	line "special prize…"
+	text "BUENA: Aww… Het is" ; "BUENA: Aww… It's a"
+	line "'n speciale prijs…" ; "special prize…"
 	done
 
 RadioTower2FBuenaYourPhoneIsFullText:
 	text "BUENA: <PLAY_G>,"
-	line "your phone list"
+	line "je telefoonlijst" ; "your phone list"
 
-	para "has no room left"
-	line "for me…"
+	para "heeft geen ruimte" ; "has no room left"
+	line "over voor me…" ; "for me…"
 	done
 
 RadioTower2FBuenaReceptionistPointsForPrizesText:
-	text "You can cash in"
-	line "your saved points"
+	text "Je kan je ge-" ; "You can cash in"
+	line "spaarde punten" ; "your saved points"
 
-	para "for a lovely prize"
-	line "of your choice!"
+	para "inzetten voor" ; "for a lovely prize"
+	line "een leuke prijs" ; "of your choice!"
+	cont "naar keuze!" ;
 	done
 
 RadioTower2FBuenaReceptionistNoCardText:
-	text "You can't trade in"
-	line "points without"
-	cont "your BLUE CARD."
+	text "Je kan geen punt-" ; "You can't trade in"
+	line "en inruilen zon-" ; "points without"
+	cont "der je BLAUWE" ; "your BLUE CARD."
+	cont "KAART." ;
 
-	para "Don't forget your"
-	line "BLUE CARD!"
+	para "Vergeet je BLAUWE" ; "Don't forget your"
+	line "KAART niet!" ; "BLUE CARD!"
 	done
 
 RadioTower2FSalesSignText:
-	text "2F SALES"
+	text "2V SALES" ; "2F SALES"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "PROF.OAK'S" ; "PROF.OAK'S #MON"
+	line "#MONPRAAT" ; "TALK"
 
-	para "The Hottest Show"
-	line "on the Air!"
+	para "De meest spraak-" ; "The Hottest Show"
+	line "makende show" ; "on the Air!"
+	cont "in de ether!" ;
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Anywhere, Anytime"
-	line "#MON Radio"
+	text "Overal, Altijd" ; "Anywhere, Anytime"
+	line "#MON-Radio"
 	done
 
 RadioTower2F_MapEvents:

@@ -33,29 +33,30 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
+	text "Ik hoorde dat een" ; "I heard that a red"
+	line "rode GYARADOS" ; "GYARADOS appeared"
+	cont "bij het MEER" ; "at the LAKE."
+	cont "verscheen." ;
 
-	para "That's odd, since"
-	line "even ordinary"
+	para "Dat is vreemd," ; "That's odd, since"
+	line "zelfs gewone" ; "even ordinary"
 
-	para "GYARADOS are rare"
-	line "in that lake…"
+	para "GYARADOS zijn zeld-" ; "GYARADOS are rare"
+	line "zaam in dat meer…" ; "in that lake…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
-	text "My favorite radio"
-	line "program? I'd say"
-	cont "#MON MUSIC."
+	text "Mijn favoriete" ; "My favorite radio"
+	line "radioprogramma?" ; "program? I'd say"
+	cont "#MONMUZIEK." ; "#MON MUSIC."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "I've been hearing"
-	line "laughter on the"
+	text "Ik heb gelach" ; "I've been hearing"
+	line "gehoord op de" ; "laughter on the"
 
 	para "radio…"
-	line "It's creepy."
+	line "Het is griezelig." ; "It's creepy."
 	done
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:

@@ -155,175 +155,180 @@ RadioTower3FPokemonMusicSign:
 	jumptext RadioTower3FPokemonMusicSignText
 
 RadioTower3FSuperNerdText:
-	text "We have recordings"
-	line "of the cries of"
+	text "We hebben opnames" ; "We have recordings"
+	line "van geluiden van" ; "of the cries of"
 
-	para "all #MON that"
-	line "have been found."
+	para "alle #MON die" ; "all #MON that"
+	line "ontdekt zijn." ; "have been found."
 
-	para "We must have about"
-	line "200 kinds."
+	para "We hebben er" ; "We must have about"
+	line "ongeveer 200." ; "200 kinds."
 	done
 
 RadioTower3FGymGuideText_Rockets:
-	text "To trainers, #-"
-	line "MON are their"
-	cont "beloved partners."
+	text "Voor trainers" ; "To trainers, #-"
+	line "zijn #MON hun" ; "MON are their"
+	cont "geliefde partners." ; "beloved partners."
 
-	para "It's terrible how"
-	line "TEAM ROCKET is"
+	para "Het is vreselijk" ; "It's terrible how"
+	line "hoe TEAM ROCKET" ; "TEAM ROCKET is"
 
-	para "trying to control"
-	line "#MON."
+	para "over #MON pro-" ; "trying to control"
+	line "beert te heersen." ; "#MON."
 	done
 
 RadioTower3FGymGuideText:
-	text "We run 24 hours a"
-	line "day to broadcast"
+	text "We ploeteren 24" ; "We run 24 hours a"
+	line "uur per dag om" ; "day to broadcast"
 
-	para "entertaining pro-"
-	line "grams."
+	para "leuke programma's" ; "entertaining pro-"
+	line "uit te zenden." ; "grams."
 
-	para "I'll do my best to"
-	line "run around the"
-	cont "clock too!"
+	para "Ik doe m'n best" ; "I'll do my best to"
+	line "om ook de klok" ; "run around the"
+	cont "rond te maken!" ; "clock too!"
 	done
 
 RadioTower3FCooltrainerFPleaseSaveDirectorText:
-	text "The TEAM ROCKET"
-	line "boss has locked"
-	cont "himself in."
+	text "De baas van TEAM" ; "The TEAM ROCKET"
+	line "ROCKET heeft zich-" ; "boss has locked"
+	cont "zelf opgesloten." ; "himself in."
 
-	para "But the DIRECTOR"
-	line "can open it."
+	para "Maar de DIRECTEUR" ; "But the DIRECTOR"
+	line "kan 't openen." ; "can open it."
 
-	para "He's up on the"
-	line "fifth floor."
+	para "Hij is boven," ; "He's up on the"
+	line "op de vijfde." ; "fifth floor."
 
-	para "Please save him!"
+	para "Red hem," ; "Please save him!"
+	line "alsjeblieft!" ; 
 	done
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
-	text "Is the DIRECTOR"
-	line "safe?"
+	text "Is de DIRECTEUR" ; "Is the DIRECTOR"
+	line "veilig?" ; "safe?"
 	done
 
 RadioTower3FCooltrainerFYoureMyHeroText:
-	text "Thank you!"
-	line "You're my hero!"
+	text "Dank je!" ; "Thank you!"
+	line "Je bent m'n held!" ; "You're my hero!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Hier is een teken" ; "This is a token of"
+	line "van mijn dank." ; "my appreciation."
 	done
 
 RadioTower3FCooltrainerFItsSunnyDayText:
-	text "It's SUNNY DAY."
-	line "It powers up fire-"
-	cont "type moves for a"
-	cont "while."
+	text "Da's ZONNIGE DAG." ; "It's SUNNY DAY."
+	line "Het maakt vuur-" ; "It powers up fire-"
+	cont "type aanvallen" ; "type moves for a"
+	cont "tijdelijk sterker." ; "while."
 	done
 
 RadioTower3FCooltrainerFYouWereMarvelousText:
-	text "You were simply"
-	line "marvelous!"
+	text "Je was gewoon" ; "You were simply"
+	line "fantastisch!" ; "marvelous!"
 	done
 
 GruntM7SeenText:
-	text "I've been given"
-	line "strict orders."
+	text "Ik heb strenge" ; "I've been given"
+	line "orders gekregen." ; "strict orders."
 
-	para "I'm to crush any-"
-	line "one who challenges"
-	cont "TEAM ROCKET!"
+	para "Ik moet ieder die" ; "I'm to crush any-"
+	line "TEAM ROCKET uit-" ; "one who challenges"
+	cont "daagt verpulveren!" ; "TEAM ROCKET!"
 	done
 
 GruntM7BeatenText:
-	text "What?!"
+	text "Wat?!" ; "What?!"
 	done
 
 GruntM7AfterBattleText:
-	text "I failed in my"
-	line "duties…"
+	text "Ik heb gefaald in" ; "I failed in my"
+	line "mijn plichten…" ; "duties…"
 
-	para "I'll be docked pay"
-	line "for this…"
+	para "Ik zal hierdoor" ; "I'll be docked pay"
+	line "minder loon" ; "for this…"
+	cont "krijgen…" ;
 	done
 
 GruntM8SeenText:
-	text "It feels great"
-	line "ordering #MON"
-	cont "to commit crimes."
+	text "Het voelt top" ; "It feels great"
+	line "#MON te bevelen" ; "ordering #MON"
+	cont "om misdaad te" ; "to commit crimes."
+	cont "plegen." ;
 	done
 
 GruntM8BeatenText:
-	text "You're kidding!"
+	text "Dit meen je niet!" ; "You're kidding!"
 	done
 
 GruntM8AfterBattleText:
-	text "I feel lousy over"
-	line "losing!"
+	text "Ik voel me beroerd" ; "I feel lousy over"
+	line "over verliezen!" ; "losing!"
 
-	para "Darn it! I hate"
-	line "useless #MON!"
+	para "Verdorie! Ik haat" ; "Darn it! I hate"
+	line "waardeloze #MON!" ; "useless #MON!"
 	done
 
 GruntM9SeenText:
-	text "Why did the shut-"
-	line "ter open? Did you"
+	text "Waarom ging het" ; "Why did the shut-"
+	line "luik open? Heb" ; "ter open? Did you"
 
-	para "have something to"
-	line "do with this?"
+	para "jij daar iets" ; "have something to"
+	line "mee te maken?" ; "do with this?"
 	done
 
 GruntM9BeatenText:
-	text "I'm done for!"
+	text "Ik ben er geweest!" ; "I'm done for!"
 	done
 
 GruntM9AfterBattleText:
-	text "What?! You made it"
-	line "past our men in"
-	cont "the UNDERGROUND?"
+	text "Wat?! Je bent" ; "What?! You made it"
+	line "voorbij onze" ; "past our men in"
+	cont "troepen in het" ; "the UNDERGROUND?"
 
-	para "How could you?"
+	para "ONDERGRONDSE ge-" ; "How could you?"
+	line "komen? Hoe dan?" ;
 	done
 
 ScientistMarcSeenText:
-	text "An unknown child"
-	line "wandering here?"
+	text "Een onbekend kind" ; "An unknown child"
+	line "die hier rond-" ; "wandering here?"
+	cont "dwaalt?" ;
 
-	para "Who are you?"
+	para "Wie ben je?" ; "Who are you?"
 	done
 
 ScientistMarcBeatenText:
-	text "Tch! I took you"
-	line "too lightly!"
+	text "Tss! Ik heb je" ; "Tch! I took you"
+	line "onderschat!" ; "too lightly!"
 	done
 
 ScientistMarcAfterBattleText:
-	text "Bwahahaha…"
+	text "Bwahahaha…" ; "Bwahahaha…"
 
-	para "I can transmit as"
-	line "strong a signal as"
-	cont "I need from here."
+	para "Ik kan een sterk" ; "I can transmit as"
+	line "signaal zenden" ; "strong a signal as"
+	cont "vanuit hier." ; "I need from here."
 	done
 
 RadioTower3FCardKeySlotText:
-	text "It's the CARD KEY"
-	line "slot."
+	text "Het is het" ; "It's the CARD KEY"
+	line "SLEUTELKAART-gat." ; "slot."
 	done
 
 InsertedTheCardKeyText:
-	text "<PLAYER> inserted"
-	line "the CARD KEY."
+	text "<PLAYER> stak de" ; "<PLAYER> inserted"
+	line "SLEUTELKAART erin." ; "the CARD KEY."
 	done
 
 RadioTower3FPersonnelSignText:
-	text "3F PERSONNEL"
+	text "3V PERSONEEL" ; "3F PERSONNEL"
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#MON MUSIC with"
-	line "Host DJ BEN"
+	text "#MONMUZIEK met" ; "#MON MUSIC with"
+	line "Gastheer DJ BEN" ; "Host DJ BEN"
 	done
 
 RadioTower3F_MapEvents:

@@ -239,225 +239,225 @@ SSAquaGrandpaApproachesPlayerMovement:
 	step_end
 
 SSAquaCaptainExhaustingText:
-	text "Whew! Thanks for"
-	line "coming along."
+	text "Whew! Bedankt dat" ; "Whew! Thanks for"
+	line "je langskwam." ; "coming along."
 
-	para "Keeping that lit-"
-	line "tle girl amused"
-	cont "was exhausting."
+	para "Vermoeiend om dat" ; "Keeping that lit-"
+	line "kleine meisje te" ; "tle girl amused"
+	cont "blijven vermaken." ; "was exhausting."
 	done
 
 SSAquaCaptainHowDoYouLikeText:
-	text "How do you like"
-	line "S.S.AQUA's ride?"
+	text "Hoe vind je de" ; "How do you like"
+	line "tocht op S.S.AQUA?" ; "S.S.AQUA's ride?"
 
-	para "She practically"
-	line "skates across the"
-	cont "waves."
+	para "Ze schaatst zo-" ; "She practically"
+	line "wat over de" ; "skates across the"
+	cont "golven." ; "waves."
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Oh, hello…"
+	text "Oh, hallo…" ; "Oh, hello…"
 
-	para "I still can't find"
-	line "my granddaughter."
+	para "Mijn kleindochter" ; "I still can't find"
+	line "is nog vermist." ; "my granddaughter."
 
-	para "If she's on the"
-	line "ship, that's OK."
+	para "Prima zolang ze op" ; "If she's on the"
+	line "het schip is." ; "ship, that's OK."
 
-	para "She's an energetic"
-	line "child, so she may"
+	para "Ze is een energiek" ; "She's an energetic"
+	line "kind, wat als ze" ; "child, so she may"
 
-	para "be bugging some-"
-	line "one. I'm worried…"
+	para "iemand stoort? Ik" ; "be bugging some-"
+	line "maak me zorgen…" ; "one. I'm worried…"
 	done
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAY_G>, was it?"
-	line "I heard you enter-"
-	cont "tained my grand-"
-	cont "daughter."
+	text "<PLAY_G>, toch?" ; "<PLAY_G>, was it?"
+	line "Ik hoorde dat je" ; "I heard you enter-"
+	cont "mijn kleindochter" ; "tained my grand-"
+	cont "hebt vermaakt." ; "daughter."
 
-	para "I want to thank"
-	line "you for that."
+	para "Daar wil ik je" ; "I want to thank"
+	line "voor bedanken." ; "you for that."
 	done
 
 SSAquaGrandpaHaveThisText:
-	text "I know! I'd like"
-	line "you to have this!"
+	text "Ik weet het! Deze" ; "I know! I'd like"
+	line "mag je hebben!" ; "you to have this!"
 	done
 
 SSAquaGrandpaTravellingText:
-	text "We're traveling"
-	line "around the world."
+	text "We reizen rond" ; "We're traveling"
+	line "de wereld." ; "around the world."
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "CAPTAIN, play with"
-	line "me, please?"
+	text "KAPITEIN, wil je" ; "CAPTAIN, play with"
+	line "met me spelen?" ; "me, please?"
 
-	para "I'm bored! I want"
-	line "to play more!"
+	para "Ik verveel me! Ik" ; "I'm bored! I want"
+	line "wil meer spelen!" ; "to play more!"
 	done
 
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hi! Will you play"
-	line "with me?"
+	text "Hoi! Wil jij met" ; "Hi! Will you play"
+	line "me spelen?" ; "with me?"
 
-	para "…Oh!"
+	para "…Oh!" ; "…Oh!"
 
-	para "Grandpa's worried"
-	line "about me?"
+	para "Opa maakt zich" ; "Grandpa's worried"
+	line "zorgen om me?" ; "about me?"
 
-	para "I have to go!"
+	para "Ik moet gaan!" ; "I have to go!"
 
-	para "I have to go find"
-	line "Grandpa!"
+	para "Ik moet Opa" ; "I have to go find"
+	line "vinden!" ; "Grandpa!"
 	done
 
 SSAquaGranddaughterWasPlayingMText:
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Opa, hier ben ik!" ; "Grandpa, here I"
+	line "Ik speelde met de" ; "am! I was playing"
 
-	para "with the CAPTAIN"
-	line "and this guy!"
+	para "de KAPITEIN en met" ; "with the CAPTAIN"
+	line "deze jongen!" ; "and this guy!"
 	done
 
 SSAquaGranddaughterWasPlayingFText:
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Opa, hier ben ik!" ; "Grandpa, here I"
+	line "Ik speelde met de" ; "am! I was playing"
 
-	para "with the CAPTAIN"
-	line "and this big girl!"
+	para "de KAPITEIN en met" ; "with the CAPTAIN"
+	line "dit grote meisje!" ; "and this big girl!"
 	done
 
 SSAquaGranddaughterHadFunText:
-	text "I had lots of fun"
-	line "playing!"
+	text "Ik had veel ple-" ; "I had lots of fun"
+	line "zier met spelen!" ; "playing!"
 	done
 
 PokefanmColinSeenText:
-	text "Hey, kid! Want to"
-	line "battle with me?"
+	text "He, jij daar! Wil" ; "Hey, kid! Want to"
+	line "je met me vechten?" ; "battle with me?"
 	done
 
 PokefanmColinBeatenText:
-	text "You're strong!"
+	text "Jij bent sterk!" ; "You're strong!"
 	done
 
 PokefanmColinAfterBattleText:
-	text "You're traveling"
-	line "all alone?"
+	text "Reis je helemaal" ; "You're traveling"
+	line "in je eentje?" ; "all alone?"
 
-	para "Isn't your mom"
-	line "worried?"
+	para "Is je moeder niet" ; "Isn't your mom"
+	line "bezorgd?" ; "worried?"
 	done
 
 TwinsMegandpeg1SeenText:
-	text "You think I'm a"
-	line "baby?"
-	cont "That's not fair!"
+	text "Denk je dat ik een" ; "You think I'm a"
+	line "Baby ben? Dat" ; "baby?"
+	cont "is niet eerlijk!" ; "That's not fair!"
 	done
 
 TwinsMegandpeg1BeatenText:
-	text "Oh! We lost!"
+	text "Oh! Verloren!" ; "Oh! We lost!"
 	done
 
 TwinsMegandpeg1AfterBattleText:
-	text "Baby is a rude"
-	line "name to call us"
-	cont "girls!"
+	text "Wat onbeleefd om" ; "Baby is a rude"
+	line "ons baby's te" ; "name to call us"
+	cont "noemen!" ; "girls!"
 	done
 
 TwinsMegandpeg2SeenText:
-	text "I'm not a baby!"
+	text "Ik ben geen baby!" ; "I'm not a baby!"
 
-	para "That's not nice to"
-	line "say to a lady!"
+	para "Zoiets zeg je niet" ; "That's not nice to"
+	line "tegen een dame!" ; "say to a lady!"
 	done
 
 TwinsMegandpeg2BeatenText:
-	text "Oh! We lost!"
+	text "Oh! Verloren!" ; "Oh! We lost!"
 	done
 
 TwinsMegandpeg2AfterBattleText:
-	text "Sometimes, kids"
-	line "are smarter than"
-	cont "grown-ups!"
+	text "Soms zijn kinderen" ; "Sometimes, kids"
+	line "slimmer dan vol-" ; "are smarter than"
+	cont "wassenen!" ; "grown-ups!"
 	done
 
 PsychicRodneySeenText:
-	text "Ssh! My brain is"
-	line "picking up radio"
-	cont "signals!"
+	text "Sst! Mijn hersens" ; "Ssh! My brain is"
+	line "pikken radio-" ; "picking up radio"
+	cont "signalen op!" ; "signals!"
 	done
 
 PsychicRodneyBeatenText:
-	text "…I hear some-"
-	line "thing!"
+	text "…Ik hoor" ; "…I hear some-"
+	line "iets!" ; "thing!"
 	done
 
 PsychicRodneyAfterBattleText:
-	text "I get it. You can"
-	line "hear JOHTO's radio"
-	cont "on the FAST SHIP."
+	text "Aha. Je kan JOH-" ; "I get it. You can"
+	line "TO's radio horen" ; "hear JOHTO's radio"
+	cont "op het SNELSCHIP." ; "on the FAST SHIP."
 	done
 
 PokefanmJeremySeenText:
-	text "What do you think?"
-	line "My #MON are"
-	cont "beautiful, yes?"
+	text "Wat vind jij?" ; "What do you think?"
+	line "Mijn #MON zijn" ; "My #MON are"
+	cont "prachtig, toch?" ; "beautiful, yes?"
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh, no! My beauti-"
-	line "ful #MON!"
+	text "Oh nee! Mijn prach-" ; "Oh, no! My beauti-"
+	line "tige #MON!" ; "ful #MON!"
 	done
 
 PokefanmJeremyAfterBattleText:
-	text "I must go to the"
-	line "#MON SALON and"
-	cont "fix them up nice!"
+	text "Ik moet naar de" ; "I must go to the"
+	line "#MONSALON om" ; "#MON SALON and"
+	cont "ze op te knappen!" ; "fix them up nice!"
 	done
 
 PokefanfGeorgiaSeenText:
-	text "I'm going to shop"
-	line "at the DEPT.STORE"
-	cont "and then…"
+	text "Ik ga winkelen bij" ; "I'm going to shop"
+	line "het WARENHUIS" ; "at the DEPT.STORE"
+	cont "en dan…" ; "and then…"
 	done
 
 PokefanfGeorgiaBeatenText:
-	text "What was I going"
-	line "to do?"
+	text "Wat ging ik ook" ; "What was I going"
+	line "alweer doen?" ; "to do?"
 	done
 
 PokefanfGeorgiaAfterBattleText:
-	text "Oh, yes! I have to"
-	line "get my #MON out"
-	cont "of DAY-CARE!"
+	text "Oh ja! Ik breng" ; "Oh, yes! I have to"
+	line "mijn #MON naar" ; "get my #MON out"
+	cont "het DAGVERBLIJF!" ; "of DAY-CARE!"
 	done
 
 SupernerdShawnSeenText:
-	text "What kinds of #"
-	line "BALLS do you have"
-	cont "with you?"
+	text "Welke soort #" ; "What kinds of #"
+	line "BALLEN heb je" ; "BALLS do you have"
+	cont "bij je?" ; "with you?"
 	done
 
 SupernerdShawnBeatenText:
-	text "Wait! Stop! Don't!"
-	line "Please!"
+	text "Wacht! Stop! Niet" ; "Wait! Stop! Don't!"
+	line "doen. Alsjeblieft!" ; "Please!"
 	done
 
 SupernerdShawnAfterBattleText:
-	text "You should use the"
-	line "right BALLS to fit"
-	cont "the situation."
+	text "Voor elke situatie" ; "You should use the"
+	line "moet je de juiste" ; "right BALLS to fit"
+	cont "BALLEN gebruiken." ; "the situation."
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "SNELSCHIP S.S.AQUA" ; "FAST SHIP S.S.AQUA"
+	line "is aangekomen in" ; "has arrived in"
+	cont "VERMILION CITY." ; "VERMILION CITY."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

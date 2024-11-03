@@ -308,216 +308,221 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTower1FEusineSuicuneText:
-	text "EUSINE: Awesome!"
-	line "Too awesome, even!"
+	text "EUSINE: Geweldig!" ; "EUSINE: Awesome!"
+	line "Te geweldig, zelfs!" ; "Too awesome, even!"
 
-	para "I've never seen a"
-	line "battle that great."
+	para "Ik heb nog nooit" ; "I've never seen a"
+	line "zo'n groots gevecht" ; "battle that great."
 
-	para "That was truly"
-	line "inspiring to see."
+	para "gezien. Dat was" ; "That was truly"
+	line "echt inspirerend" ; "inspiring to see."
 
-	para "SUICUNE was tough,"
-	line "but you were even"
+	para "om te zien." ; "SUICUNE was tough,"
+	line "SUICUNE was taai," ; "but you were even"
 
-	para "more incredible,"
-	line "<PLAYER>."
+	para "maar jij was nog" ; "more incredible,"
+	line "indrukwekkender," ; "<PLAYER>."
+	cont "<PLAYER>." ;
 
-	para "I heard SUICUNE's"
-	line "mystic power"
+	para "Ik hoorde dat" ; "I heard SUICUNE's"
+	line "SUICUNE's mystieke" ; "mystic power"
 
-	para "summons a rainbow-"
-	line "colored #MON."
+	para "kracht een regen-" ; "summons a rainbow-"
+	line "boogkleurige #MON" ; "colored #MON."
+	cont "oproept." ;
 
-	para "Maybe, just maybe,"
-	line "what went on today"
+	para "Heel misschien" ; "Maybe, just maybe,"
+	line "zal wat er vandaag" ; "what went on today"
 
-	para "will cause that"
-	line "#MON to appear."
+	para "is gebeurd die #MON" ; "will cause that"
+	line "doen verschijnen." ; "#MON to appear."
 
-	para "I'm going to study"
-	line "the legends more."
+	para "Ik ga de legendes" ; "I'm going to study"
+	line "nader bestuderen." ; "the legends more."
 
-	para "Thanks for showing"
-	line "me that fantastic"
-	cont "battle."
+	para "Bedankt voor dat" ; "Thanks for showing"
+	line "fantastische ge-" ; "me that fantastic"
+	cont "vecht." ; "battle."
 
-	para "Later, <PLAYER>!"
+	para "Laters, <PLAYER>!" ; "Later, <PLAYER>!"
 	done
 
 TinTower1FSage1Text:
-	text "According to"
-	line "legend…"
+	text "Volgens de" ; "According to"
+	line "legende…" ; "legend…"
 
-	para "When the souls of"
-	line "#MON and humans"
+	para "Als de zielen van" ; "When the souls of"
+	line "#MON en mensen" ; "#MON and humans"
 
-	para "commune, from the"
-	line "heavens descends a"
+	para "samenkomen, daalt" ; "commune, from the"
+	line "een #MON van" ; "heavens descends a"
 
-	para "#MON of rainbow"
-	line "colors…"
+	para "regenboogkleuren" ; "#MON of rainbow"
+	line "neer uit de hemel…" ; "colors…"
 
-	para "Could it mean the"
-	line "legendary #MON"
+	para "Kan het dat de" ; "Could it mean the"
+	line "legendarische #MON" ; "legendary #MON"
 
-	para "are testing us"
-	line "humans?"
+	para "ons mensen" ; "are testing us"
+	line "test?" ; "humans?"
 	done
 
 TinTower1FSage2Text:
-	text "When the BRASS"
-	line "TOWER burned down,"
+	text "Toen de KOPEREN" ; "When the BRASS"
+	line "TOREN afbrandde," ; "TOWER burned down,"
 
-	para "three nameless"
-	line "#MON were said"
+	para "zijn drie naamloze" ; "three nameless"
+	line "#MON naar zeggen" ; "#MON were said"
 
-	para "to have perished."
-	line "It was tragic."
+	para "omgekomen." ; "to have perished."
+	line "Tragisch." ; "It was tragic."
 
-	para "However…"
+	para "Hoewel…" ; "However…"
 
-	para "A rainbow-colored"
-	line "#MON…"
+	para "Een regenboog-" ; "A rainbow-colored"
+	line "kleurige #MON…" ; "#MON…"
 
-	para "In other words…"
+	para "In andere woorden…" ; "In other words…"
 
-	para "HO-OH descended"
-	line "from the sky and"
+	para "HO-OH daalde neer" ; "HO-OH descended"
+	line "uit de hemel en" ; "from the sky and"
 
-	para "gave new life to"
-	line "the three #MON."
+	para "gaf nieuw leven" ; "gave new life to"
+	line "aan de drie #MON." ; "the three #MON."
 
-	para "They are…"
+	para "Ze zijn…" ; "They are…"
 
-	para "SUICUNE, ENTEI and"
+	para "SUICUNE, ENTEI en" ; "SUICUNE, ENTEI and"
 	line "RAIKOU."
 
-	para "That is what they"
-	line "say."
+	para "Dat is wat" ; "That is what they"
+	line "ze zeggen." ; "say."
 	done
 
 TinTower1FSage3Text:
-	text "The two TOWERS are"
-	line "said to have been"
+	text "De twee TORENS" ; "The two TOWERS are"
+	line "zijn naar zeggen" ; "said to have been"
 
-	para "built to foster"
-	line "friendship and"
+	para "gebouwd om vriend-" ; "built to foster"
+	line "schap en hoop tus-" ; "friendship and"
 
-	para "hope between #-"
-	line "MON and people."
+	para "sen #MON en men-" ; "hope between #-"
+	line "sen te borgen." ; "MON and people."
 
-	para "That was 700 years"
-	line "ago, but the ideal"
+	para "Dat was 700 jaar" ; "That was 700 years"
+	line "geleden, maar het" ; "ago, but the ideal"
 
-	para "still remains"
-	line "important today."
+	para "idee is nog steeds" ; "still remains"
+	line "belangrijk." ; "important today."
 	done
 
 TinTower1FSage4Text1:
-	text "HO-OH appears to"
-	line "have descended"
+	text "HO-OH lijkt te" ; "HO-OH appears to"
+	line "zijn neergedaald" ; "have descended"
 
-	para "upon this, the TIN"
-	line "TOWER!"
+	para "hier, op de" ; "upon this, the TIN"
+	line "TIN TOREN!" ; "TOWER!"
 	done
 
 TinTower1FSage5Text1:
-	text "This will protect"
-	line "you. Take it."
+	text "Dit zal je be-" ; "This will protect"
+	line "schermen. Neem 't." ; "you. Take it."
 	done
 
 TinTower1FSage5Text2:
-	text "Now, go."
+	text "Ga nu." ; "Now, go."
 	done
 
 TinTower1FSage6Text1:
-	text "I believe you are"
-	line "being tested."
+	text "Ik geloof dat je" ; "I believe you are"
+	line "getest wordt." ; "being tested."
 
-	para "Free your mind"
-	line "from uncertainty,"
-	cont "and advance."
+	para "Bevrijd je geest" ; "Free your mind"
+	line "van onzekerheid," ; "from uncertainty,"
+	cont "en ga vooruit." ; "and advance."
 	done
 
 TinTower1FEusineHoOhText:
-	text "I knew it."
+	text "Ik wist het." ; "I knew it."
 
-	para "I knew you'd get"
-	line "to see the #MON"
+	para "Ik wist dat je" ; "I knew you'd get"
+	line "de #MON van regen-" ; "to see the #MON"
 
-	para "of rainbow colors,"
-	line "<PLAYER>."
+	para "boogkleuren zou" ; "of rainbow colors,"
+	line "zien, <PLAYER>." ; "<PLAYER>."
 
-	para "It happened just"
-	line "as I envisioned."
+	para "Het ging precies" ; "It happened just"
+	line "zoals ik me voor-" ; "as I envisioned."
+	cont "stelde." ;
 
-	para "My research isn't"
-	line "bad, I might say."
+	para "Mijn onderzoek is" ; "My research isn't"
+	line "niet slecht, al" ; "bad, I might say."
+	cont "zeg ik het zelf." ;
 
-	para "I'm going to keep"
-	line "studying #MON"
+	para "Ik zal #MON blij-" ; "I'm going to keep"
+	line "ven bestuderen om" ; "studying #MON"
 
-	para "to become a famous"
-	line "#MANIAC!"
+	para "een beroemde #-" ; "to become a famous"
+	line "MANIAC te worden!" ; "#MANIAC!"
 	done
 
 TinTower1FSage4Text2:
-	text "The legendary"
-	line "#MON are said"
+	text "De legendarische" ; "The legendary"
+	line "#MON belichamen" ; "#MON are said"
 
-	para "to embody three"
-	line "powers…"
+	para "naar zeggen" ; "to embody three"
+	line "drie krachten…" ; "powers…"
 
-	para "The lightning that"
-	line "struck the TOWER."
+	para "De bliksem die" ; "The lightning that"
+	line "de TOREN raakte." ; "struck the TOWER."
 
-	para "The fire that"
-	line "burned the TOWER."
+	para "Het vuur dat de" ; "The fire that"
+	line "TOREN verbrandde." ; "burned the TOWER."
 
-	para "And the rain that"
-	line "put out the fire…"
+	para "En de regen die" ; "And the rain that"
+	line "het vuur doofde…" ; "put out the fire…"
 	done
 
 TinTower1FSage5Text3:
-	text "When the legendary"
-	line "#MON appeared…"
+	text "Toen de legenda-" ; "When the legendary"
+	line "rische #MON kwamen…" ; "#MON appeared…"
 
-	para "They struck terror"
-	line "in those who saw"
-	cont "their rise."
+	para "Boezemden ze" ; "They struck terror"
+	line "angst in bij wie" ; "in those who saw"
+	cont "ze zagen opdoemen." ; "their rise."
 
-	para "And…"
+	para "En…" ; "And…"
 
-	para "Some even took to"
-	line "futile attacks."
+	para "Sommigen vielen ze" ; "Some even took to"
+	line "tevergeefs aan." ; "futile attacks."
 
-	para "The legendary"
-	line "#MON, knowing"
+	para "De legendarische" ; "The legendary"
+	line "#MON, die hun" ; "#MON, knowing"
 
-	para "their own power,"
-	line "fled, ignoring the"
-	cont "frightened people."
+	para "kracht kennen," ; "their own power,"
+	line "vluchtten, en ne-" ; "fled, ignoring the"
+	cont "geerden de bange" ; "frightened people."
+	cont "mensen." ;
 	done
 
 TinTower1FSage6Text2:
-	text "Of the legendary"
-	line "#MON, SUICUNE"
+	text "Van de legen-" ; "Of the legendary"
+	line "darische #MON" ; "#MON, SUICUNE"
 
-	para "is said to be the"
-	line "closest to HO-OH."
+	para "is SUICUNE het" ; "is said to be the"
+	line "dichtst bij HO-OH." ; "closest to HO-OH."
 
-	para "I hear there may"
-	line "also be a link to"
+	para "Ik hoorde dat er" ; "I hear there may"
+	line "ook een link met" ; "also be a link to"
 
-	para "#MON known as"
-	line "UNOWN."
+	para "#MON als UNOWN" ; "#MON known as"
+	line "zou zijn." ; "UNOWN."
 
-	para "The #MON UNOWN"
-	line "must be sharing a"
+	para "De #MON UNOWN" ; "The #MON UNOWN"
+	line "moet een samen-" ; "must be sharing a"
 
-	para "cooperative bond"
-	line "with SUICUNE."
+	para "werking hebben" ; "cooperative bond"
+	line "met SUICUNE." ; "with SUICUNE."
 	done
 
 TinTower1F_MapEvents:

@@ -104,44 +104,44 @@ RadioTower4FStudio2Sign:
 	jumptext RadioTower4FStudio2SignText
 
 RadioTower4FFisherText:
-	text "I listened to the"
-	line "radio while I was"
-	cont "at the RUINS."
+	text "Ik luisterde naar" ; "I listened to the"
+	line "de radio toen ik" ; "radio while I was"
+	cont "in de RUÏNES was." ; "at the RUINS."
 
-	para "I heard a strange"
-	line "broadcast there."
+	para "Ik hoorde daar een" ; "I heard a strange"
+	line "vreemde uitzending." ; "broadcast there."
 	done
 
 RadioTower4FDJMaryText:
-	text "MARY: Why? Why do"
-	line "I have to suffer"
-	cont "through this?"
+	text "MARY: Waarom?" ; "MARY: Why? Why do"
+	line "Waarom moet ik" ; "I have to suffer"
+	cont "dit doorstaan?" ; "through this?"
 
-	para "MEOWTH, help me!"
+	para "MEOWTH, help me!" ; "MEOWTH, help me!"
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "MARY: Oh! You're"
-	line "my little savior!"
+	text "MARY: Oh! Je bent" ; "MARY: Oh! You're"
+	line "m'n kleine redder!" ; "my little savior!"
 
-	para "Will you take this"
-	line "as my thanks?"
+	para "Neem je dit als" ; "Will you take this"
+	line "mijn dank?" ; "as my thanks?"
 	done
 
 RadioTower4FDJMaryText_GivePinkBow:
-	text "MARY: It's just"
-	line "right for #MON"
+	text "MARY: Het is" ; "MARY: It's just"
+	line "goed voor #MON" ; "right for #MON"
 
-	para "that know normal-"
-	line "type moves."
+	para "die normaal-type" ; "that know normal-"
+	line "aanvallen kennen." ; "type moves."
 	done
 
 RadioTower4FDJMaryText_After:
-	text "MARY: Please tune"
-	line "into me on PROF."
+	text "MARY: Luister" ; "MARY: Please tune"
+	line "naar me in PROF." ; "into me on PROF."
 
-	para "OAK'S #MON TALK"
-	line "show."
+	para "OAK'S #MONPRAAT-" ; "OAK'S #MON TALK"
+	line "programma." ; "show."
 	done
 
 RadioTowerMeowthText:
@@ -149,98 +149,100 @@ RadioTowerMeowthText:
 	done
 
 GruntM10SeenText:
-	text "You plan to rescue"
-	line "the DIRECTOR?"
+	text "Je wil de" ; "You plan to rescue"
+	line "DIRECTEUR redden?" ; "the DIRECTOR?"
 
-	para "That won't be pos-"
-	line "sible because I'm"
-	cont "going to beat you!"
+	para "Dat zal niet luk-" ; "That won't be pos-"
+	line "ken, want ik ga je" ; "sible because I'm"
+	cont "verslaan!" ; "going to beat you!"
 	done
 
 GruntM10BeatenText:
-	text "No! Unbelievable!"
+	text "Nee! Ongelofelijk!" ; "No! Unbelievable!"
 	done
 
 GruntM10AfterBattleText:
-	text "I don't believe"
-	line "it! I was beaten!"
+	text "Ik geloof mijn" ; "I don't believe"
+	line "ogen niet! Ik" ; "it! I was beaten!"
+	cont "ben verslagen!" ; 
 	done
 
 Executivem2SeenText:
-	text "Stop! I'm known as"
-	line "the TEAM ROCKET"
-	cont "fortress!"
+	text "Stop! Ik sta be-" ; "Stop! I'm known as"
+	line "kend als het harnas" ; "the TEAM ROCKET"
+	cont "van TEAM ROCKET!" ; "fortress!"
 
-	para "You're not taking"
-	line "another step!"
+	para "Je zal geen stap" ; "You're not taking"
+	line "meer zetten!" ; "another step!"
 	done
 
 Executivem2BeatenText:
-	text "The fortress came"
-	line "down!"
+	text "Het harnas is" ; "The fortress came"
+	line "gebroken!" ; "down!"
 	done
 
 Executivem2AfterBattleText:
-	text "You've earned my"
-	line "respect, so here's"
-	cont "some advice."
+	text "Je hebt mijn" ; "You've earned my"
+	line "respect, dus hier" ; "respect, so here's"
+	cont "is wat advies." ; "some advice."
 
-	para "It's not too late."
-	line "You can still turn"
-	cont "back."
+	para "Het is niet te" ; "It's not too late."
+	line "laat. Je kan nog" ; "You can still turn"
+	cont "terug." ; "back."
 	done
 
 GruntF4SeenText:
-	text "Don't I think"
-	line "#MON are cute?"
+	text "Vind ik #MON" ; "Don't I think"
+	line "niet schattig?" ; "#MON are cute?"
 
-	para "I'll think my"
-	line "#MON are cute--"
+	para "Ik vind mijn #MON" ; "I'll think my"
+	line "schattig--" ; "#MON are cute--"
 
-	para "after they beat"
-	line "yours!"
+	para "nadat ze die van" ; "after they beat"
+	line "jou verslaan!" ; "yours!"
 	done
 
 GruntF4BeatenText:
-	text "Oh, no! They're so"
-	line "useless!"
+	text "Oh nee! Ze zijn" ; "Oh, no! They're so"
+	line "zo nutteloos!" ; "useless!"
 	done
 
 GruntF4AfterBattleText:
-	text "I love my"
-	line "beautiful self!"
+	text "Ik hou van mijn" ; "I love my"
+	line "mooie eigen ik!" ; "beautiful self!"
 
-	para "Who cares about"
-	line "#MON?"
+	para "Wie geeft nou" ; "Who cares about"
+	line "om #MON?" ; "#MON?"
 	done
 
 ScientistRichSeenText:
-	text "Most excellent."
+	text "Uitstekend." ; "Most excellent."
 
-	para "This RADIO TOWER"
-	line "will fulfill our"
-	cont "grand design."
+	para "Deze RADIOTOREN" ; "This RADIO TOWER"
+	line "zal ons grote" ; "will fulfill our"
+	cont "doel vervullen." ; "grand design."
 	done
 
 ScientistRichBeatenText:
-	text "Hmmm…"
+	text "Hmmm…" ; "Hmmm…"
 
-	para "All grand plans"
-	line "come with snags."
+	para "Alle grote plannen" ; "All grand plans"
+	line "hebben haken en" ; "come with snags."
+	cont "ogen."
 	done
 
 ScientistRichAfterBattleText:
-	text "Do you honestly"
-	line "believe you can"
-	cont "stop TEAM ROCKET?"
+	text "Denk je echt dat" ; "Do you honestly"
+	line "je TEAM ROCKET" ; "believe you can"
+	cont "kan stoppen?" ; "stop TEAM ROCKET?"
 	done
 
 RadioTower4FProductionSignText:
-	text "4F PRODUCTION"
+	text "4V PRODUCTIE" ; "4F PRODUCTION"
 	done
 
 RadioTower4FStudio2SignText:
-	text "4F STUDIO 2"
+	text "4V STUDIO 2" ; "4F STUDIO 2"
 	done
 
 RadioTower4F_MapEvents:

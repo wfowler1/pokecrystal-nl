@@ -148,226 +148,236 @@ MahoganyGymStatue:
 	jumpstd GymStatue2Script
 
 PryceText_Intro:
-	text "#MON have many"
-	line "experiences in"
+	text "#MON hebben vele" ; "#MON have many"
+	line "ervaringen in hun" ; "experiences in"
 
-	para "their lives, just "
-	line "like we do. "
+	para "levens, net als" ; "their lives, just "
+	line "wij." ; "like we do. "
 
-	para "I, too, have seen"
-	line "and suffered much"
-	cont "in my life."
+	para "Ik heb ook veel" ; "I, too, have seen"
+	line "gezien en geleden" ; "and suffered much"
+	cont "in mijn leven." ; "in my life."
 
-	para "Since I am your"
-	line "elder, let me show"
-	cont "you what I mean."
+	para "Omdat ik ouder ben" ; "Since I am your"
+	line "dan jij, zal ik" ; "elder, let me show"
+	cont "laten zien wat ik" ; "you what I mean."
 
-	para "I have been with"
-	line "#MON since"
+	para "bedoel. Ik was al" ; "I have been with"
+	line "samen met #MON" ; "#MON since"
 
-	para "before you were"
-	line "born."
+	para "voordat je ge-" ; "before you were"
+	line "boren was." ; "born."
 
-	para "I do not lose"
-	line "easily."
+	para "Ik verlies niet" ; "I do not lose"
+	line "gemakkelijk." ; "easily."
 
-	para "I, PRYCE--the"
-	line "winter trainer--"
+	para "Ik, PRYCE--de" ; "I, PRYCE--the"
+	line "wintertrainer--" ; "winter trainer--"
 
-	para "shall demonstrate"
-	line "my power!"
+	para "zal mijn kracht" ; "shall demonstrate"
+	line "demonstreren!" ; "my power!"
 	done
 
 PryceText_Impressed:
-	text "Ah, I am impressed"
-	line "by your prowess."
+	text "Ah, ik ben onder" ; "Ah, I am impressed"
+	line "de indruk van je" ; "by your prowess."
+	cont "bekwaamheid." ;
 
-	para "With your strong"
-	line "will, I know you"
+	para "Dankzij je sterke" ; "With your strong"
+	line "wil weet ik dat" ; "will, I know you"
 
-	para "will overcome all"
-	line "life's obstacles."
+	para "je alle obstakels" ; "will overcome all"
+	line "in het leven zal" ; "life's obstacles."
+	cont "doorstaan." ;
 
-	para "You are worthy of"
-	line "this BADGE!"
+	para "Je bent deze" ; "You are worthy of"
+	line "BADGE waard!" ; "this BADGE!"
 	done
 
 Text_ReceivedGlacierBadge:
-	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "GLETSJERBADGE." ; "GLACIERBADGE."
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE will"
-	line "raise the SPECIAL"
-	cont "stats of #MON."
+	text "Die BADGE zal de" ; "That BADGE will"
+	line "SPECIALE stats van" ; "raise the SPECIAL"
+	cont "#MON verhogen." ; "stats of #MON."
 
-	para "It also lets your"
-	line "#MON use WHIRL-"
-	cont "POOL to get across"
-	cont "real whirlpools."
+	para "Het laat je #MON" ; "It also lets your"
+	line "ook DRAAIKOLK ge-" ; "#MON use WHIRL-"
+	cont "bruiken om door" ; "POOL to get across"
+	cont "echte draaikolken" ; "real whirlpools."
+	cont "te zwemmen." ;
 
-	para "And this… This is"
-	line "a gift from me!"
+	para "En dit… Dit is" ; "And this… This is"
+	line "een gift van mij." ; "a gift from me!"
 	done
 
 PryceText_IcyWindSpeech:
-	text "That TM contains"
-	line "ICY WIND."
+	text "Die TM bevat" ; "That TM contains"
+	line "IJZIGE WIND." ; "ICY WIND."
 
-	para "It inflicts damage"
-	line "and lowers speed."
+	para "Het doet schade en" ; "It inflicts damage"
+	line "verlaagt snelheid." ; "and lowers speed."
 
-	para "It demonstrates"
-	line "the harshness of"
-	cont "winter."
+	para "Het laat de hard-" ; "It demonstrates"
+	line "heid van winter" ; "the harshness of"
+	cont "zien." ; "winter."
 	done
 
 PryceText_CherishYourPokemon:
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
+	text "Als ijs en" ; "When the ice and"
+	line "sneeuw smelt," ; "snow melt, spring"
+	cont "komt de lente." ; "arrives."
 
-	para "You and your #-"
-	line "MON will be to-"
+	para "Jij en je #MON" ; "You and your #-"
+	line "zullen vele" ; "MON will be to-"
 
-	para "gether for many"
-	line "years to come."
+	para "jaren samen" ; "gether for many"
+	line "zijn." ; "years to come."
 
-	para "Cherish your time"
-	line "together!"
+	para "Koester je" ; "Cherish your time"
+	line "tijd samen!" ; "together!"
 	done
 
 BoarderRonaldSeenText:
-	text "I'll freeze your"
-	line "#MON, so you"
-	cont "can't do a thing!"
+	text "Ik bevries je" ; "I'll freeze your"
+	line "#MON, zodat" ; "#MON, so you"
+	cont "je niks kan doen!" ; "can't do a thing!"
 	done
 
 BoarderRonaldBeatenText:
-	text "Darn. I couldn't"
-	line "do a thing."
+	text "Verdorie. Ik" ; "Darn. I couldn't"
+	line "kon niets doen." ; "do a thing."
 	done
 
 BoarderRonaldAfterBattleText:
-	text "I think there's a"
-	line "move a #MON"
+	text "Ik denk dat er" ; "I think there's a"
+	line "een aanval is die" ; "move a #MON"
 
-	para "can use while it's"
-	line "frozen."
+	para "een #MON kan ge-" ; "can use while it's"
+	line "bruiken terwijl" ; "frozen."
+	cont "het bevroren is." ;
 	done
 
 BoarderBradSeenText:
-	text "This GYM has a"
-	line "slippery floor."
+	text "Deze GYM heeft" ; "This GYM has a"
+	line "een gladde vloer." ; "slippery floor."
 
-	para "It's fun, isn't"
-	line "it?"
+	para "Erg leuk, vind" ; "It's fun, isn't"
+	line "je niet?" ; "it?"
 
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	para "Maar hé--we" ; "But hey--we're"
+	line "spelen geen" ; "not playing games"
+	cont "spelletjes hier!" ; "here!"
 	done
 
 BoarderBradBeatenText:
-	text "Do you see how"
-	line "serious we are?"
+	text "Zie je hoe" ; "Do you see how"
+	line "serieus we zijn?" ; "serious we are?"
 	done
 
 BoarderBradAfterBattleText:
-	text "This GYM is great."
-	line "I love boarding"
-	cont "with my #MON!"
+	text "Deze GYM is top." ; "This GYM is great."
+	line "Ik hou van snow-" ; "I love boarding"
+	cont "boarden met m'n" ; "with my #MON!"
+	cont "#MON!" ;
 	done
 
 BoarderDouglasSeenText:
-	text "I know PRYCE's"
-	line "secret."
+	text "Ik ken het ge-" ; "I know PRYCE's"
+	line "heim van PRYCE." ; "secret."
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	text "Oké. Ik vertel je" ; "OK. I'll tell you"
+	line "PRYCE's geheim." ; "PRYCE's secret."
 	done
 
 BoarderDouglasAfterBattleText:
-	text "The secret behind"
-	line "PRYCE's power…"
+	text "Het geheim achter" ; "The secret behind"
+	line "de kracht van" ; "PRYCE's power…"
+	cont "PRYCE…" ;
 
-	para "He meditates under"
-	line "a waterfall daily"
+	para "Hij mediteert elke" ; "He meditates under"
+	line "dag onder een" ; "a waterfall daily"
 
-	para "to strengthen his"
-	line "mind and body."
+	para "waterval om z'n" ; "to strengthen his"
+	line "geest en lichaam" ; "mind and body."
+	cont "te versterken." ;
 	done
 
 SkierRoxanneSeenText:
-	text "To get to PRYCE,"
-	line "our GYM LEADER,"
+	text "Om bij onze GYM-" ; "To get to PRYCE,"
+	line "LEIDER PRYCE te" ; "our GYM LEADER,"
 
-	para "you need to think"
-	line "before you skate."
+	para "komen, moet je" ; "you need to think"
+	line "nadenken voordat" ; "before you skate."
+	cont "je schaatst." ;
 	done
 
 SkierRoxanneBeatenText:
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "Ik zou niet van" ; "I wouldn't lose to"
+	line "je verliezen" ; "you in skiing!"
+	cont "met skiën!" ;
 	done
 
 SkierRoxanneAfterBattleText:
-	text "If you don't skate"
-	line "with precision,"
+	text "Als je niet nauw-" ; "If you don't skate"
+	line "keurig schaatst," ; "with precision,"
 
-	para "you won't get far"
-	line "in this GYM."
+	para "zal je in deze" ; "you won't get far"
+	line "GYM niet ver" ; "in this GYM."
+	cont "komen." ;
 	done
 
 SkierClarissaSeenText:
-	text "Check out my"
-	line "parallel turn!"
+	text "Kijk naar mijn" ; "Check out my"
+	line "parallele bocht!" ; "parallel turn!"
 	done
 
 SkierClarissaBeatenText:
-	text "No! You made me"
-	line "wipe out!"
+	text "Nee! Door jou" ; "No! You made me"
+	line "viel ik!" ; "wipe out!"
 	done
 
 SkierClarissaAfterBattleText:
-	text "I shouldn't have"
-	line "been bragging"
-	cont "about my skiing…"
+	text "Ik had niet moeten" ; "I shouldn't have"
+	line "opscheppen over" ; "been bragging"
+	cont "mijn geski…" ; "about my skiing…"
 	done
 
 MahoganyGymGuideText:
-	text "PRYCE is a veteran"
-	line "who has trained"
+	text "PRYCE is een vete-" ; "PRYCE is a veteran"
+	line "raan die al 50" ; "who has trained"
 
-	para "#MON for some"
-	line "50 years."
+	para "jaar #MON" ; "#MON for some"
+	line "traint." ; "50 years."
 
-	para "He's said to be"
-	line "good at freezing"
+	para "Hij is naar zeggen" ; "He's said to be"
+	line "goed in tegen-" ; "good at freezing"
 
-	para "opponents with"
-	line "ice-type moves."
+	para "standers met ijs-" ; "opponents with"
+	line "type aanvallen" ; "ice-type moves."
 
-	para "That means you"
-	line "should melt him"
+	para "bevriezen. Dus" ; "That means you"
+	line "moet je hem" ; "should melt him"
 
-	para "with your burning"
-	line "ambition!"
+	para "met je vurige" ; "with your burning"
+	line "ambitie ontdooien!" ; "ambition!"
 	done
 
 MahoganyGymGuideWinText:
-	text "PRYCE is some-"
-	line "thing, but you're"
-	cont "something else!"
+	text "PRYCE is heel wat," ; "PRYCE is some-"
+	line "maar jij bent" ; "thing, but you're"
+	cont "heel wat anders!" ; "something else!"
 
-	para "That was a hot"
-	line "battle that"
+	para "Dat was een hete" ; "That was a hot"
+	line "strijd die de" ; "battle that"
 
-	para "bridged the gen-"
-	line "eration gap!"
+	para "generatiekloof" ; "bridged the gen-"
+	line "overbrugde!" ; "eration gap!"
 	done
 
 MahoganyGym_MapEvents:

@@ -629,99 +629,106 @@ SecurityCameraMovement9:
 	step_end
 
 CameraGrunt1SeenText:
-	text "Hey!"
-	line "Intruder alert!"
+	text "Hé!" ; "Hey!"
+	line "Alarm! Indringer!" ; "Intruder alert!"
 	done
 
 CameraGrunt1BeatenText:
-	text "Dang… I failed…"
+	text "Kak… Ik heb" ; "Dang… I failed…"
+	line "gefaald…" ;
 	done
 
 CameraGrunt2SeenText:
-	text "It's my turn!"
-	line "There's no escape!"
+	text "Mijn beurt!" ; "It's my turn!"
+	line "Er is geen uitweg!" ; "There's no escape!"
 	done
 
 CameraGrunt2BeatenText:
-	text "Surveillance cams"
-	line "are in the #MON"
-	cont "statues."
+	text "Er zitten" ; "Surveillance cams"
+	line "bewakingscamera's" ; "are in the #MON"
+	cont "in de #MON-" ; "statues."
+	cont "beelden." ;
 
-	para "We'll keep appear-"
-	line "ing until you trip"
-	cont "a secret switch."
+	para "We blijven komen" ; "We'll keep appear-"
+	line "totdat je een" ; "ing until you trip"
+	cont "geheime schakelaar" ; "a secret switch."
+	cont "omzet." ;
 	done
 
 ScientistJedSeenText:
-	text "This was once a"
-	line "ninja hideout."
+	text "Dit was ooit een" ; "This was once a"
+	line "ninja-schuil-" ; "ninja hideout."
+	cont "plaats." ;
 
-	para "There are traps to"
-	line "confound intruders"
-	cont "like you."
+	para "Er zijn vallen om" ; "There are traps to"
+	line "indringers zoals" ; "confound intruders"
+	cont "jij te verwarren." ; "like you."
 	done
 
 ScientistJedBeatenText:
-	text "I get it…"
+	text "Ik snap het…" ; "I get it…"
 	done
 
 ScientistJedAfterBattleText:
-	text "All right. I'll"
-	line "divulge a secret"
-	cont "about our hideout."
+	text "Vooruit. Ik zal" ; "All right. I'll"
+	line "je een geheim over" ; "divulge a secret"
+	cont "onze schuilplaats" ; "about our hideout."
+	cont "vertellen." ;
 
-	para "That thing on the"
-	line "floor up ahead is"
-	cont "a warp panel."
+	para "Dat ding daar" ; "That thing on the"
+	line "op de grond is" ; "floor up ahead is"
+	cont "een warppaneel." ; "a warp panel."
 
-	para "If you step on it,"
-	line "you'll be warped"
+	para "Als je er op" ; "If you step on it,"
+	line "stapt, warp je" ; "you'll be warped"
 
-	para "back to the en-"
-	line "trance."
+	para "terug naar de" ; "back to the en-"
+	line "ingang." ; "trance."
 	done
 
 GruntM16SeenText:
-	text "Heheh. Feeling"
-	line "lucky, punk?"
+	text "Heheh. Heb je" ; "Heheh. Feeling"
+	line "geluk, ettertje?" ; "lucky, punk?"
 
-	para "Go ahead, take"
-	line "another step."
+	para "Ga je gang, neem" ; "Go ahead, take"
+	line "nog een stap." ; "another step."
 
-	para "We've got traps"
-	line "set in the floor!"
+	para "We hebben vallen" ; "We've got traps"
+	line "in de vloer" ; "set in the floor!"
+	cont "geplant!" ;
 	done
 
 GruntM16BeatenText:
-	text "Kaboom!"
+	text "Boem!" ; "Kaboom!"
 	done
 
 GruntM16AfterBattleText:
-	text "I don't even know"
-	line "where the traps"
-	cont "are planted."
+	text "Ik weet niet eens" ; "I don't even know"
+	line "waar de vallen" ; "where the traps"
+	cont "zijn opgezet." ; "are planted."
 
-	para "You'll just have"
-	line "to collect your"
-	cont "courage and walk."
+	para "Je moet gewoon" ; "You'll just have"
+	line "je moed verzamelen" ; "to collect your"
+	cont "en lopen." ; "courage and walk."
 	done
 
 TeamRocketBaseB1FSecurityCameraText:
-	text "It's a PERSIAN"
-	line "statue…"
+	text "Het is een" ; "It's a PERSIAN"
+	line "PERSIAN-beeld…" ; "statue…"
 
-	para "Its eyes are oddly"
-	line "shiny."
+	para "De ogen glanzen" ; "Its eyes are oddly"
+	line "vreemd." ; "shiny."
 	done
 
 TeamRocketBaseB1FSecretSwitchText:
-	text "A secret switch!"
-	line "Better press it."
+	text "Een geheime" ; "A secret switch!"
+	line "schakelaar!" ; "Better press it."
+	cont "Drukken maar." ;
 	done
 
 TeamRocketBaseB1FSwitchOffText:
-	text "The switch is"
-	line "turned off."
+	text "De schakelaar" ; "The switch is"
+	line "staat uit." ; "turned off."
 	done
 
 TeamRocketBaseB1F_MapEvents:
