@@ -8,4 +8,4 @@
 
 	page "ze tot het einde" ; "has to chase them"
 	next "van de wereld" ; "until the end of"
-	next "moeten volgen." ; "the world.@"
+	next "moeten volgen.@" ; "the world.@"

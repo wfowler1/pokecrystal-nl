@@ -8,4 +8,4 @@
 
 	page "staart omhoog om" ; "to gather electri-"
 	next "stroom uit de" ; "city from the"
-	next "lucht te halen." ; "atmosphere.@"
+	next "lucht te halen.@" ; "atmosphere.@"

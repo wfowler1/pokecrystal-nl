@@ -8,4 +8,4 @@
 
 	page "om te demonstreren" ; "demonstrate how"
 	next "hoe fel het vuur" ; "ferociously its"
-	next "brandt." ; "fire blazes.@"
+	next "brandt.@" ; "fire blazes.@"
