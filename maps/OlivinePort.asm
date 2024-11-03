@@ -325,7 +325,7 @@ OlivinePortNoTicketText:
 	line "het BOOTKAARTJE" ; "show the S.S."
 	cont "te tonen…" ; "TICKET…"
 
-	para "…Maar geen KAARTJE!" ; "…But no TICKET!"
+	para "…Maar geen KAART!" ; "…But no TICKET!"
 
 	para "Sorry! Je mag" ; "Sorry!"
 	line "alleen aan boord" ; "You may board only"

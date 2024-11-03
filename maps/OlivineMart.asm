@@ -21,7 +21,7 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "Kennen jouw #MON" ; "Do your #MON"
+	text "Kennen je #MON" ; "Do your #MON"
 	line "al de aanval om" ; "already know the"
 
 	para "mensen over het" ; "move for carrying"

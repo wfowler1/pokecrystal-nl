@@ -27,8 +27,8 @@ EcruteakLugiaSpeechHouseGrampsText:
 	line "vliegende #MON" ; "MON was blocking"
 	cont "blokkeerde de zon." ; "out the sun."
 
-	para "Ik vraag me af" ; "I wonder what that"
-	line "wat die #MON was?" ; "#MON was? "
+	para "Ik vraag me af wat" ; "I wonder what that"
+	line "die #MON was?" ; "#MON was? "
 
 	para "Het leek op 'n vo-" ; "It was like a bird"
 	line "gel en een draak." ; "and a dragon."

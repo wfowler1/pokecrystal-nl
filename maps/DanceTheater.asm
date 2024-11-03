@@ -307,8 +307,8 @@ DanceTheaterCooltrainerMText:
 	line "bij zijn RHYDON." ; "with his RHYDON."
 
 	para "Zegt dat ie een" ; "Says he wants a"
-	line "#MON wil die kan" ; "#MON that can"
-	cont "SURFen en dansen." ; "SURF and dance."
+	line "#MON wil die" ; "#MON that can"
+	cont "SURFt en danst." ; "SURF and dance."
 
 	para "Probeert ie een" ; "Is he trying to"
 	line "synchroon-" ; "make a synchro-"

@@ -185,10 +185,10 @@ OlivineCityRivalText:
 	para "Blijkbaar aan het" ; "Supposedly taking"
 	line "zorgen voor een" ; "care of a sick"
 
-	para "zieke #MON in de" ; "#MON at the"
-	line "VUURTOREN." ; "LIGHTHOUSE."
+	para "zieke #MON in" ; "#MON at the"
+	line "de VUURTOREN." ; "LIGHTHOUSE."
 
-	para "Pff! Huilie-huilie!" ; "Humph! Boo-hoo!"
+	para "Pf! Huilie-huilie!" ; "Humph! Boo-hoo!"
 	line "Laat zieke #MON" ; "Just let sick"
 	cont "gewoon zitten!" ; "#MON go!"
 
@@ -226,8 +226,8 @@ OlivineCitySailor1Text:
 OlivineCityStandingYoungsterPokegearText:
 	text "Dat dingetje van" ; "That thing you"
 	line "jou--het is een" ; "have--it's a #-"
-	cont "#GEAR, toch? Wow," ; "GEAR, right? Wow,"
-	cont "dat is cool." ; "that's cool."
+	cont "#GEAR, toch?" ; "GEAR, right? Wow,"
+	cont "Wow, dat is cool." ; "that's cool."
 	done
 
 OlivineCityStandingYoungsterPokedexText:

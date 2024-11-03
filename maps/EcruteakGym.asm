@@ -316,7 +316,7 @@ SagePingBeatenText:
 	done
 
 SagePingAfterBattleText:
-	text "We gebruiken alleen" ; "We use only ghost-"
+	text "We gebruiken enkel" ; "We use only ghost-"
 	line "Geest-#MON." ; "type #MON."
 
 	para "Normaal-type" ; "No normal-type"
@@ -385,8 +385,8 @@ EcruteakGymGuideWinText:
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, de GYM-" ; "MORTY, the GYM"
-	line "LEIDER, is afwezig." ; "LEADER, is absent."
+	text "GYMLEIDER MORTY" ; "MORTY, the GYM"
+	line "is nu afwezig." ; "LEADER, is absent."
 
 	para "Sorry, maar je" ; "Sorry, but you'll"
 	line "moet vertrekken." ; "have to leave."
