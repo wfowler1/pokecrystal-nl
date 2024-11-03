@@ -1,11 +1,11 @@
-	db "BIRD@" ; species name
+	db "VOGEL@" ; species name
 	db 11 ; height
 	dw 300 ; weight
 
-	db   "It slowly flies in"
-	next "a circular pat-"
-	next "tern, all the"
+	db   "Vliegt langzaam" ; "It slowly flies in"
+	next "in een cirkel-" ; "a circular pat-"
+	next "patroon, zoekende" ; "tern, all the"
 
-	page "while keeping a"
-	next "sharp lookout for"
-	next "prey.@"
+	page "naar een mogelijk" ; "while keeping a"
+	next "doelwit om te" ; "sharp lookout for"
+	next "pakken.@" ; "prey.@"

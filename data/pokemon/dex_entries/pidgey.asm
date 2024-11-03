@@ -1,11 +1,11 @@
-	db "TINY BIRD@" ; species name
+	db "VOGELTJE@" ; species name
 	db 3 ; height
 	dw 18 ; weight
 
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
+	db   "Fladdert met" ; "It rapidly flaps"
+	next "vleugels in het," ; "its wings in the"
+	next "het gras, om met" ; "grass, stirring up"
 
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
+	page "een stofwolk" ; "a dust cloud that"
+	next "insecten naar de" ; "drives insect prey"
+	next "vlakte te drijven.@" ; "out into the open.@"

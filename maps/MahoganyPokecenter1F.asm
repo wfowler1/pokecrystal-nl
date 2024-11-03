@@ -22,33 +22,33 @@ MahoganyPokecenter1FCooltrainerFScript:
 	jumptextfaceplayer MahoganyPokecenter1FCooltrainerFText
 
 MahoganyPokecenter1FPokefanMText:
-	text "What's this? TEAM"
-	line "ROCKET has come"
-	cont "back?"
+	text "Wat is dit? TEAM" ; "What's this? TEAM"
+	line "ROCKET is weer" ; "ROCKET has come"
+	cont "terug?" ; "back?"
 
-	para "I saw some men in"
-	line "black at LAKE OF"
-	cont "RAGE…"
+	para "Ik zag wat mannen" ; "I saw some men in"
+	line "in zwart bij het" ; "black at LAKE OF"
+	cont "MEER VAN RAZERNIJ…" ; "RAGE…"
 	done
 
 MahoganyPokecenter1FYoungsterText:
-	text "I stop my #MON"
-	line "from evolving too"
-	cont "early."
+	text "Ik verhinder mijn" ; "I stop my #MON"
+	line "#MON te vroeg" ; "from evolving too"
+	cont "te evolueren." ; "early."
 
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	para "Ik leer ze" ; "I make them learn"
+	line "bepaalde aanvallen" ; "certain moves be-"
+	cont "voor ik ze laat" ; "fore I let them"
+	cont "evolueren." ; "evolve."
 	done
 
 MahoganyPokecenter1FCooltrainerFText:
-	text "#MON do become"
-	line "stronger when they"
+	text "#MON worden" ; "#MON do become"
+	line "sterker als ze" ; "stronger when they"
 
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	para "evolueren, maar" ; "evolve, but they"
+	line "ze leren aanvallen" ; "also learn moves"
+	cont "ook langzamer." ; "more slowly."
 	done
 
 MahoganyPokecenter1F_MapEvents:

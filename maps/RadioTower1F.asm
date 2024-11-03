@@ -158,7 +158,7 @@ RadioTower1FRadioCardWomanScript:
 	end
 
 .RadioCardText:
-	db "RADIO CARD@"
+	db "RADIOKAART@" ; "RADIO CARD@"
 
 .ReceiveItem:
 	jumpstd ReceiveItemScript
@@ -211,39 +211,40 @@ RadioTower1FLuckyNumberManReturnToPlayerMovement:
 	step_end
 
 RadioTower1FReceptionistWelcomeText:
-	text "Welcome!"
+	text "Welkom!" ; "Welcome!"
 	done
 
 RadioTower1FReceptionistNoToursText:
-	text "Hello. I'm sorry,"
-	line "but we're not"
-	cont "offering any tours"
-	cont "today."
+	text "Hallo. Sorry," ; "Hello. I'm sorry,"
+	line "maar we bieden" ; "but we're not"
+	cont "vandaag geen" ; "offering any tours"
+	cont "tours aan." ; "today."
 	done
 
 RadioTower1FLuckyNumberManAskToPlayText:
-	text "Hi, are you here"
-	line "for the LUCKY NUM-"
-	cont "BER SHOW?"
+	text "Hoi, ben je hier" ; "Hi, are you here"
+	line "voor de GELUKS-" ; "for the LUCKY NUM-"
+	cont "NUMMER SHOW?" ; "BER SHOW?"
 
-	para "Want me to check"
-	line "the ID numbers of"
-	cont "your #MON?"
+	para "Zal ik de ID-" ; "Want me to check"
+	line "nummers van je" ; "the ID numbers of"
+	cont "#MON checken?" ; "your #MON?"
 
-	para "If you get lucky,"
-	line "you win a prize."
+	para "Als je geluk hebt," ; "If you get lucky,"
+	line "win je een prijs." ; "you win a prize."
 	done
 
 RadioTower1FLuckyNumberManThisWeeksIdIsText:
-	text "This week's ID"
-	line "number is @"
+	text "Het ID-nummer van" ; "This week's ID"
+	line "deze week" ; "number is @"
+	cont "is @" ;
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 
 RadioTower1FLuckyNumberManCheckIfMatchText:
-	text "Let's see if you"
-	line "have a match."
+	text "Eens zien of je" ; "Let's see if you"
+	line "een match hebt." ; "have a match."
 	done
 
 RadioTower1FLuckyNumberManDotDotDotText:
@@ -252,222 +253,234 @@ RadioTower1FLuckyNumberManDotDotDotText:
 	done
 
 RadioTower1FLuckyNumberManComeAgainText:
-	text "Please come back"
-	line "next week for the"
-	cont "next LUCKY NUMBER."
+	text "Kom volgende" ; "Please come back"
+	line "week terug voor" ; "next week for the"
+	cont "het volgende" ; "next LUCKY NUMBER."
+	cont "GELUKSNUMMER." ; 
 	done
 
 RadioTower1FLuckyNumberManPerfectMatchText:
-	text "Wow! You have a"
-	line "perfect match of"
-	cont "all five numbers!"
+	text "Wow! Je hebt een" ; "Wow! You have a"
+	line "perfecte match" ; "perfect match of"
+	cont "met alle vijf" ; "all five numbers!"
+	cont "nummers!" ; 
 
-	para "We have a grand"
-	line "prize winner!"
+	para "We hebben een" ; "We have a grand"
+	line "hoofdprijswinnaar!" ; "prize winner!"
 
-	para "You have won a"
-	line "MASTER BALL!"
+	para "Je hebt een" ; "You have won a"
+	line "MEESTERBAL" ; "MASTER BALL!"
+	cont "gewonnen!" ; 
 	done
 
 RadioTower1FLuckyNumberManOkayMatchText:
-	text "Hey! You've"
-	line "matched the last"
-	cont "three numbers!"
+	text "Hé! Je hebt een" ; "Hey! You've"
+	line "match met de laat-" ; "matched the last"
+	cont "ste drie nummers!" ; "three numbers!"
 
-	para "You've won second"
-	line "prize, an EXP."
-	cont "SHARE!"
+	para "Je hebt de tweede" ; "You've won second"
+	line "prijs, een EP-" ; "prize, an EXP."
+	cont "DELER, gewonnen!" ; "SHARE!"
 	done
 
 RadioTower1FLuckyNumberManWeakMatchText:
-	text "Ooh, you've"
-	line "matched the last"
-	cont "two numbers."
+	text "Ooh, je hebt een" ; "Ooh, you've"
+	line "match met de laat-" ; "matched the last"
+	cont "ste twee nummers." ; "two numbers."
 
-	para "You've won third"
-	line "prize, a PP UP."
+	para "Je hebt de derde" ; "You've won third"
+	line "prijs, een AP-" ; "prize, a PP UP."
+	cont "PLUS, gewonnen!" ; 
 	done
 
 RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
-	text "Nope, none of your"
-	line "ID numbers match."
+	text "Helaas, geen van" ; "Nope, none of your"
+	line "je ID-nummers" ; "ID numbers match."
+	cont "matchen." ; 
 	done
 
 RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
-	text "You've got no room"
-	line "for your prize."
+	text "Je hebt geen" ; "You've got no room"
+	line "plek voor je" ; "for your prize."
 
-	para "Make room and come"
-	line "back right away."
+	para "prijs. Maak plek" ; "Make room and come"
+	line "snel plek en kom" ; "back right away."
+	cont "terug." ;
 	done
 
 RadioTower1FRadioCardWomanOfferQuizText:
-	text "We have a special"
-	line "quiz campaign on"
-	cont "right now."
+	text "We hebben een" ; "We have a special"
+	line "speciale quiz-" ; "quiz campaign on"
+	cont "campagne nu." ; "right now."
 
-	para "Answer five ques-"
-	line "tions correctly to"
-	cont "win a RADIO CARD."
+	para "Beantwoord vijf" ; "Answer five ques-"
+	line "vragen juist en" ; "tions correctly to"
+	cont "win 'n RADIOKAART." ; "win a RADIO CARD."
 
-	para "Slide it into your"
-	line "#GEAR to play"
+	para "Schuif het in je" ; "Slide it into your"
+	line "#GEAR om overal" ; "#GEAR to play"
 
-	para "the radio anytime,"
-	line "anywhere."
+	para "radio te" ; "the radio anytime,"
+	line "luisteren." ; "anywhere."
 
-	para "Would you like to"
-	line "take the quiz?"
+	para "Wil je de" ; "Would you like to"
+	line "quiz doen?" ; "take the quiz?"
 	done
 
 RadioTower1FRadioCardWomanQuestion1Text:
-	text "Question 1:"
+	text "Vraag 1:" ; "Question 1:"
 
-	para "Is there a #MON"
-	line "that appears only"
-	cont "in the morning?"
+	para "Is er een #MON" ; "Is there a #MON"
+	line "die alleen 's" ; "that appears only"
+	cont "ochtends te" ; "in the morning?"
+	cont "vinden is?" ;
 	done
 
 RadioTower1FRadioCardWomanQuestion2Text:
-	text "Correct!"
-	line "Question 2:"
+	text "Correct!" ; "Correct!"
+	line "Vraag 2:" ; "Question 2:"
 
-	para "Is this statement"
-	line "correct?"
+	para "Klopt deze" ; "Is this statement"
+	line "zin?" ; "correct?"
 
-	para "You can't buy a"
-	line "BERRY at a MART."
+	para "Je kan geen BES" ; "You can't buy a"
+	line "in de MARKT kopen." ; "BERRY at a MART."
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
-	text "Bull's-eye!"
-	line "Question 3:"
+	text "Klopt!" ; "Bull's-eye!"
+	line "Vraag 3:" ; "Question 3:"
 
-	para "Does HM01 contain"
-	line "the move FLASH?"
+	para "Bevat VM01 de" ; "Does HM01 contain"
+	line "aanval FLITS?" ; "the move FLASH?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
-	text "So far so good!"
-	line "Question 4:"
+	text "Goed op weg!" ; "So far so good!"
+	line "Vraag 4:" ; "Question 4:"
 
-	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
+	para "Is FALKNER de" ; "Is FALKNER the"
+	line "VIOLET-GYMLEIDER" ; "VIOLET GYM LEADER"
 
-	para "who uses bird"
-	line "#MON?"
+	para "die vogel-" ; "who uses bird"
+	line "#MON gebruikt?" ; "#MON?"
 	done
 
 RadioTower1FRadioCardWomanQuestion5Text:
-	text "Wow! Right again!"
-	line "Here's the final"
-	cont "question:"
+	text "Wow! Weer goed!" ; "Wow! Right again!"
+	line "Hier is de" ; "Here's the final"
+	cont "laatste vraag:" ; "question:"
 
-	para "Do GOLDENROD GAME"
-	line "CORNER's slots"
+	para "Hebben de spel-" ; "Do GOLDENROD GAME"
+	line "automaten van GOL-" ; "CORNER's slots"
 
-	para "have CHARMANDER"
-	line "on their reels?"
+	para "DENROD-SPELHOEK" ; "have CHARMANDER"
+	line "CHARMANDER op" ; "on their reels?"
+	cont "de rollen?" ; 
 	done
 
 RadioTower1FRadioCardWomanYouWinText:
-	text "Bingo! You got it!"
-	line "Congratulations!"
+	text "Bingo! Je hebt" ; "Bingo! You got it!"
+	line "'t! Gefeliciteerd!" ; "Congratulations!"
 
-	para "Here's your prize,"
-	line "a RADIO CARD!"
+	para "Hier is je prijs," ; "Here's your prize,"
+	line "een RADIOKAART!" ; "a RADIO CARD!"
 	done
 
 RadioTower1FPokegearIsARadioText:
-	text "<PLAYER>'s #GEAR"
-	line "can now double as"
-	cont "a radio!"
+	text "<PLAYER>'s #GEAR" ; "<PLAYER>'s #GEAR"
+	line "kan nu als radio" ; "can now double as"
+	cont "functioneren!" ; "a radio!"
 	done
 
 RadioTower1FRadioCardWomanTuneInText:
-	text "Please tune in to"
-	line "our radio shows."
+	text "Luister naar onze" ; "Please tune in to"
+	line "radioprogramma's!" ; "our radio shows."
 	done
 
 RadioTower1FRadioCardWomanWrongAnswerText:
-	text "Oh, dear."
-	line "Sorry, but you"
+	text "Oh, jeetje." ; "Oh, dear."
+	line "Sorry, maar je" ; "Sorry, but you"
 
-	para "got it wrong."
-	line "Please try again!"
+	para "hebt het mis." ; "got it wrong."
+	line "Probeer 't" ; "Please try again!"
+	cont "nog eens!" ;
 	done
 
 RadioTower1FRadioCardWomanNotTakingQuizText:
-	text "Oh. I see. Please"
-	line "see me if you"
-	cont "change your mind."
+	text "Oh, oké. Kom terug" ; "Oh. I see. Please"
+	line "als je van ge-" ; "see me if you"
+	cont "dachten verandert." ; "change your mind."
 	done
 
 RadioTower1FLassText:
-	text "BEN is a fabulous"
-	line "DJ."
+	text "BEN is een" ; "BEN is a fabulous"
+	line "geweldige DJ." ; "DJ."
 
-	para "His sweet voice"
-	line "makes me melt!"
+	para "Zijn zwoele stem" ; "His sweet voice"
+	line "doet me smelten!" ; "makes me melt!"
 	done
 
 RadioTower1FYoungsterText:
-	text "I love MARY, from"
-	line "#MON TALK."
+	text "Ik hou van MARY," ; "I love MARY, from"
+	line "van #MONPRAAT." ; "#MON TALK."
 
-	para "I only know what"
-	line "she sounds like,"
-	cont "though."
+	para "Maar ik weet" ; "I only know what"
+	line "alleen hoe ze" ; "she sounds like,"
+	cont "klinkt." ; "though."
 	done
 
 GruntM3SeenText:
-	text "We've finally"
-	line "taken over the"
-	cont "RADIO TOWER!"
+	text "We hebben ein-" ; "We've finally"
+	line "delijk de RADIO-" ; "taken over the"
+	cont "TOREN overgenomen!" ; "RADIO TOWER!"
 
-	para "Now everyone will"
-	line "get to experience"
+	para "Nu zal iedereen" ; "Now everyone will"
+	line "de echte terreur" ; "get to experience"
 
-	para "the true terror of"
-	line "TEAM ROCKET!"
+	para "van TEAM ROCKET" ; "the true terror of"
+	line "leren kennen!" ; "TEAM ROCKET!"
 
-	para "We'll show you"
-	line "how scary we are!"
+	para "We laten je zien" ; "We'll show you"
+	line "hoe eng we zijn!" ; "how scary we are!"
 	done
 
 GruntM3BeatenText:
-	text "Too strong! We"
-	line "must watch you…"
+	text "Te sterk! We hou-" ; "Too strong! We"
+	line "den je in de" ; "must watch you…"
+	cont "gaten…" ;
 	done
 
 GruntM3AfterBattleText:
-	text "You're too strong."
+	text "Je bent te sterk." ; "You're too strong."
 
-	para "Our plan could be"
-	line "ruined. I must"
-	cont "warn the others…"
+	para "Ons plan kan in" ; "Our plan could be"
+	line "duigen vallen. Ik" ; "ruined. I must"
+	cont "moet de anderen" ; "warn the others…"
+	cont "waarschuwen…" ;
 	done
 
 RadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
+	text "1V RECEPTIE" ; "1F RECEPTION"
+	line "2V SALES" ; "2F SALES"
 
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
+	para "3V PERSONEEL" ; "3F PERSONNEL"
+	line "4V PRODUCTIE" ; "4F PRODUCTION"
 
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "5V KANTOOR" ; "5F DIRECTOR'S"
+	line "VAN DIRECTEUR" ; "   OFFICE"
 	done
 
 RadioTower1FLuckyChannelSignText:
-	text "LUCKY CHANNEL!"
+	text "GELUKSZENDER!" ; "LUCKY CHANNEL!"
 
-	para "Win with #MON"
-	line "ID numbers!"
+	para "Win met #MON" ; "Win with #MON"
+	line "ID-nummers!" ; "ID numbers!"
 
-	para "Trade your #MON"
-	line "to collect differ-"
-	cont "ent ID numbers!"
+	para "Ruil je #MON" ; "Trade your #MON"
+	line "om verschillende" ; "to collect differ-"
+	cont "ID-nummers te" ; "ent ID numbers!"
+	cont "verzamelen!" ;
 	done
 
 RadioTower1F_MapEvents:

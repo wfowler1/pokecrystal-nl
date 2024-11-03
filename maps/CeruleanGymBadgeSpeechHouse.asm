@@ -11,7 +11,7 @@ CeruleanGymBadgeSpeechHousePokefanMScript:
 
 CeruleanGymBadgeSpeechHousePokefanMText:
 	text "Verzamel je alle" ; "Are you collecting"
-	line "KANTO GYM BADGES?" ; "KANTO GYM BADGES?"
+	line "KANTO-GYMBADGES?" ; "KANTO GYM BADGES?"
 	done
 
 CeruleanGymBadgeSpeechHouse_MapEvents:

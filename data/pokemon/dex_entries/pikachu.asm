@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; species name
 	db 4 ; height
 	dw 60 ; weight
 
-	db   "When it is anger-"
-	next "ed, it immediately"
-	next "discharges the"
+	db   "Als deze #MON" ; "When it is anger-"
+	next "boos is, wordt" ; "ed, it immediately"
+	next "de energie opge-" ; "discharges the"
 
-	page "energy stored in"
-	next "the pouches in its"
-	next "cheeks.@"
+	page "slagen in de" ; "energy stored in"
+	next "wangen meteen" ; "the pouches in its"
+	next "vrijgelaten.@" ; "cheeks.@"

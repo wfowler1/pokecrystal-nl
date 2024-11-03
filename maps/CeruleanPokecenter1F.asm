@@ -27,15 +27,15 @@ CeruleanPokecenter1FSuperNerdText:
 	line "gebruik ik liever" ; "much rather use"
 
 	para "#MON die ik heb" ; "#MON I've been"
-	line "groot gebracht," ; "raising, even if"
+	line "grootgebracht," ; "raising, even if"
 
 	para "ook al zijn ze" ; "they're weaker"
 	line "zwakker dan nieuw" ; "than some newly"
-	cont "gevangen #MON." ; "caught #MON."
+	cont "gevangen #MON" ; "caught #MON."
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Vecht je met je" ; "Do you battle by"
+	text "Vecht je op je" ; "Do you battle by"
 	line "mobiele telefoon?" ; "mobile phone?"
 
 	para "Als tijdens een" ; "If time runs out"

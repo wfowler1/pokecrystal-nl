@@ -115,7 +115,7 @@ Jasmine_SteelTypeIntro:
 	line "dat nog maar pas" ; "was only recently"
 	cont "is ontdekt." ; "discovered."
 
-	para "…Um… Mag ik" ; "…Um… May I begin?"
+	para "…Um… Kan ik" ; "…Um… May I begin?"
 	line "beginnen?" ;
 	done
 
@@ -135,13 +135,13 @@ Jasmine_BetterTrainer:
 	done
 
 Text_ReceivedMineralBadge:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "MINERAALBADGE." ; "MINERALBADGE."
 	done
 
 Jasmine_BadgeSpeech:
 	text "MINERAALBADGE" ; "MINERALBADGE"
-	line "verhoogt #MON's" ; "raises #MON's"
+	line "verhoogt #MON-" ; "raises #MON's"
 	cont "VERDEDIGING." ; "DEFENSE."
 
 	para "…Um… Neem" ; "…Um… Please take"
@@ -149,7 +149,7 @@ Jasmine_BadgeSpeech:
 	done
 
 Text_ReceivedTM09: ; unreferenced
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "TM09."
 	done
 

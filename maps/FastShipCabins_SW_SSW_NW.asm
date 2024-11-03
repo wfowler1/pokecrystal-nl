@@ -112,112 +112,112 @@ FastShipCabinsNorthwestCabinTrashcan:
 	jumpstd TrashCanScript
 
 FirebreatherLyleSeenText:
-	text "I'm going to KANTO"
-	line "to put on fire-"
-	cont "breathing shows!"
+	text "Ik ga naar KANTO" ; "I'm going to KANTO"
+	line "voor mijn vuur-" ; "to put on fire-"
+	cont "spuwshows!" ; "breathing shows!"
 	done
 
 FirebreatherLyleBeatenText:
-	text "Fizzle… The"
-	line "flame's tiny…"
+	text "Uitgedoofd… de" ; "Fizzle… The"
+	line "vlam is klein…" ; "flame's tiny…"
 	done
 
 FirebreatherLyleAfterBattleText:
-	text "I guess fire is"
-	line "weak on the sea."
+	text "Vuur zal wel zwak" ; "I guess fire is"
+	line "zijn op zee, dan." ; "weak on the sea."
 
-	para "It doesn't matter?"
-	line "Really?"
+	para "Maakt het niet" ; "It doesn't matter?"
+	line "uit? Echt?" ; "Really?"
 	done
 
 BugCatcherKenSeenText:
-	text "I'm visiting my"
-	line "grandma to catch"
-	cont "me some bugs!"
+	text "Ik bezoek mijn" ; "I'm visiting my"
+	line "oma om insecten" ; "grandma to catch"
+	cont "te vangen!" ; "me some bugs!"
 	done
 
 BugCatcherKenBeatenText:
-	text "Ooh, wow."
-	line "You're tough!"
+	text "Ooh, wow." ; "Ooh, wow."
+	line "Jij bent lastig!" ; "You're tough!"
 	done
 
 BugCatcherKenAfterBattleText:
-	text "You can find lots"
-	line "of #MON in the"
-	cont "trees of JOHTO!"
+	text "In de bomen van" ; "You can find lots"
+	line "JOHTO kun je veel" ; "of #MON in the"
+	cont "#MON vinden!" ; "trees of JOHTO!"
 	done
 
 BeautyCassieSeenText:
-	text "I'm trying to"
-	line "forget my woes."
-	cont "Let's battle!"
+	text "Ik wil mijn zorgen" ; "I'm trying to"
+	line "graag vergeten." ; "forget my woes."
+	cont "Laten we vechten!" ; "Let's battle!"
 	done
 
 BeautyCassieBeatenText:
-	text "My heart weeps…"
+	text "Mijn hart huilt…" ; "My heart weeps…"
 	done
 
 BeautyCassieAfterBattleText:
-	text "A voyage is best"
-	line "for getting over"
-	cont "a broken heart."
+	text "Een zeereis werkt" ; "A voyage is best"
+	line "het beste tegen" ; "for getting over"
+	cont "een gebroken hart." ; "a broken heart."
 
-	para "But a FAST SHIP"
-	line "trip is too short"
-	cont "for grieving."
+	para "Maar om te treuren" ; "But a FAST SHIP"
+	line "is een tripje met" ; "trip is too short"
+	cont "dit schip te kort." ; "for grieving."
 	done
 
 GuitaristClydeSeenText:
-	text "I'm going to audi-"
-	line "tion my songs at"
+	text "Ik ga mijn liedjes" ; "I'm going to audi-"
+	line "laten horen op" ; "tion my songs at"
 
-	para "GOLDENROD's RADIO"
-	line "STATION."
+	para "GOLDENROD's RADIO-" ; "GOLDENROD's RADIO"
+	line "STATION." ; "STATION."
 	done
 
 GuitaristClydeBeatenText:
-	text "Yowza!"
-	line "Total distortion!"
+	text "Yowza!" ; "Yowza!"
+	line "Helemaal vervormd!" ; "Total distortion!"
 	done
 
 GuitaristClydeAfterBattleMobileText:
-	text "I was going to"
-	line "make my debut at"
-	cont "the BATTLE TOWER…"
+	text "Ik wilde mijn" ; "I was going to"
+	line "debuut maken bij" ; "make my debut at"
+	cont "de GEVECHTSTOREN…" ; "the BATTLE TOWER…"
 
-	para "I should go back"
-	line "to VERMILION and"
-	cont "redo my training…"
+	para "Ik ga terug naar" ; "I should go back"
+	line "VERMILION om te" ; "to VERMILION and"
+	cont "trainen, denk ik…" ; "redo my training…"
 	done
 
 GuitaristClydeAfterBattleText:
-	text "Speaking of the"
-	line "RADIO STATION,"
+	text "Over het RADIO-" ; "Speaking of the"
+	line "STATION gesproken," ; "RADIO STATION,"
 
-	para "what's this week's"
-	line "lucky number?"
+	para "wat is deze week" ; "what's this week's"
+	line "het geluksnummer?" ; "lucky number?"
 	done
 
 FastShipBedText1:
-	text "A comfy bed!"
-	line "Time to sleep…"
+	text "Een fijn knus bed!" ; "A comfy bed!"
+	line "Uiltje knappen…" ; "Time to sleep…"
 	done
 
 FastShipBedText2:
-	text "Ah, refreshed and"
-	line "restored!"
+	text "Ah, je kan er weer" ; "Ah, refreshed and"
+	line "helemaal tegenaan!" ; "restored!"
 	done
 
 FastShipArrivedOlivineText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "OLIVINE CITY."
+	text "SNELSCHIP S.S.AQUA" ; "FAST SHIP S.S.
+	line "is aangekomen in" ; "has arrived in"
+	cont "OLIVINE CITY." ; "OLIVINE CITY."
 	done
 
 FastShipArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "SNELSCHIP S.S.AQUA" ; "FAST SHIP S.S.
+	line "is aangekomen in" ; "has arrived in"
+	cont "VERMILION CITY." ; "VERMILION CITY."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:

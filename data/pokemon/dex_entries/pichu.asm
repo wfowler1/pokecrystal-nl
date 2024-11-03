@@ -1,11 +1,11 @@
-	db "TINY MOUSE@" ; species name
+	db "MINIMUIS@" ; species name
 	db 3 ; height
 	dw 20 ; weight
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
+	db   "Kan niet goed" ; "It is unskilled at"
+	next "elektrische kracht" ; "storing electric"
+	next "kracht bewaren." ; "power. Any kind of"
 
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"
+	page "raakt bij ieder" ; "shock causes it to"
+	next "soort schok de" ; "discharge energy"
+	next "lading kwijt.@" ; "spontaneously.@"

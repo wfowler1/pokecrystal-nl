@@ -2,10 +2,10 @@
 	db 6 ; height
 	dw 120 ; weight
 
-	db   "To escape from an"
-	next "attacker, it may"
-	next "shoot water out of"
+	db   "Kan water uit de" ; "To escape from an"
+	next "mind schieten om" ; "attacker, it may"
+	next "van een aanvaller" ; "shoot water out of"
 
-	page "its mouth, then"
-	next "use that force to"
-	next "swim backward.@"
+	page "te ontsnappen." ; "its mouth, then"
+	next "Wordt daardoor" ; "use that force to"
+	next "achteruit geknald.@" ; "swim backward.@"

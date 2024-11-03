@@ -166,7 +166,7 @@ OlivineCityPlayerStepsAsideBottomMovement:
 	step_end
 
 OlivineCityRivalText:
-	text "…"; "…"
+	text "…" ; "…"
 
 	para "Jij weer?" ; "You again?"
 
@@ -207,8 +207,8 @@ OlivineCityRivalText:
 
 OlivineCitySailor1Text:
 	text "Donkere paden" ; "Dark roads are"
-	line "zijn 's nachts'" ; "dangerous at"
-	cont "gevaarlijk." ; "night."
+	line "zijn gevaarlijk" ; "dangerous at"
+	cont "'s nachts." ; "night."
 
 	para "Maar in het pikke-" ; "But in the pitch-"
 	line "donker van de" ; "black of night,"
@@ -216,7 +216,7 @@ OlivineCitySailor1Text:
 	para "nacht, is de zee" ; "the sea is even"
 	line "nog verradelijker!" ; "more treacherous!"
 
-	para "Zonder het baken" ; "Without the beacon"
+	para "Zonder de baken" ; "Without the beacon"
 	line "van de VUURTOREN" ; "of the LIGHTHOUSE"
 
 	para "kan geen schip" ; "to guide it, no"
@@ -263,7 +263,7 @@ OlivineCityPortSignText:
 
 OlivineGymSignText:
 	text "OLIVINE CITY"
-	line "#MON-GYMLEIDER:"
+	line "#MON GYMLEIDER:"
 	cont "JASMINE" ; "LEADER: JASMINE"
 
 	para "De Meid met een" ; "The Steel-Clad"

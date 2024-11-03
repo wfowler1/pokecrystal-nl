@@ -1,11 +1,11 @@
-	db "POISON PIN@" ; species name
+	db "GIFPUNT@" ; species name
 	db 9 ; height
 	dw 195 ; weight
 
-	db   "It is easily"
-	next "agitated and uses"
-	next "its horn for"
+	db   "Snel geagiteerd" ; "It is easily"
+	next "en gebruikt de" ; "agitated and uses"
+	next "hoorn om te rammen" ; "its horn for"
 
-	page "offense as soon as"
-	next "it notices an"
-	next "attacker.@"
+	page "zodra er een" ; "offense as soon as"
+	next "aanvaller wordt" ; "it notices an"
+	next "opgemerkt.@" ; "attacker.@"

@@ -1,11 +1,11 @@
-	db "STAGBEETLE@" ; species name
+	db "VLIEGHERT@" ; species name
 	db 15 ; height
 	dw 550 ; weight
 
-	db   "When the tempera-"
-	next "ture drops at"
-	next "night, it sleeps"
+	db   "Als het 's nachts" ; "When the tempera-"
+	next "kouder wordt," ; "ture drops at"
+	next "slaapt het op" ; "night, it sleeps"
 
-	page "on treetops or"
-	next "among roots where"
-	next "it is well hidden.@"
+	page "boomtoppen of" ; "on treetops or"
+	next "tussen de wortels" ; "among roots where"
+	next "om te verbergen.@" ; "it is well hidden.@"

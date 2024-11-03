@@ -558,303 +558,317 @@ RocketBasePlayerLeavesElectrodesMovement3:
 	step_end
 
 RocketBaseExecutiveFHoldItText:
-	text "Hold it right"
-	line "there!"
+	text "Halt! Ga" ; "Hold it right"
+	line "niet verder!" ; "there!"
 	done
 
 RocketBaseBossFThrashText:
-	text "We can't have a"
-	line "brat like you on"
-	cont "the loose."
+	text "Een ettertje als" ; "We can't have a"
+	line "jij kan hier niet" ; "brat like you on"
+	cont "zomaar rondlopen." ; "the loose."
 
-	para "It's harmful to"
-	line "TEAM ROCKET's"
-	cont "pride, you see."
+	para "Dat is schadelijk" ; "It's harmful to"
+	line "voor TEAM ROCKET's" ; "TEAM ROCKET's"
+	cont "trots, snap je." ; "pride, you see."
 
-	para "However strong you"
-	line "may be, you can't"
+	para "Hoe sterk je ook" ; "However strong you"
+	line "bent, je kan ons" ; "may be, you can't"
 
-	para "take both of us at"
-	line "the same time."
+	para "twee niet tege-" ; "take both of us at"
+	line "lijkertijd aan." ; "the same time."
 
-	para "Sorry, baby. Now"
-	line "get ready to be"
-	cont "thrashed."
+	para "Sorry, schatje." ; "Sorry, baby. Now"
+	line "Maak je klaar om" ; "get ready to be"
+	cont "verpletterd te" ; "thrashed."
+	cont "worden." ;
 	done
 
 RocketBaseLanceShareFunText:
-	text "Hey! Don't be so"
-	line "selfish. Spread"
-	cont "the fun around."
+	text "Hé! Wees niet" ; "Hey! Don't be so"
+	line "zo egoïstisch." ; "selfish. Spread"
+	cont "Deel het plezier." ; "the fun around."
 	done
 
 RocketBaseBossDontMeddleText:
-	text "What? You had an"
-	line "accomplice?"
+	text "Wat? Je had een" ; "What? You had an"
+	line "bondgenoot?" ; "accomplice?"
 
-	para "Where is your"
-	line "sense of honor?"
+	para "Waar is je gevoel" ; "Where is your"
+	line "voor eer?" ; "sense of honor?"
 
-	para "As the interim"
-	line "boss in place of"
+	para "Als de interim-" ; "As the interim"
+	line "baas in plaats" ; "boss in place of"
 
-	para "GIOVANNI, I'll"
-	line "show you how wrong"
+	para "van GIOVANNI, zal" ; "GIOVANNI, I'll"
+	line "ik je laten zien" ; "show you how wrong"
 
-	para "it is to meddle"
-	line "with TEAM ROCKET!"
+	para "hoe fout het is" ; "it is to meddle"
+	line "om met TEAM ROCKET" ; "with TEAM ROCKET!"
+	cont "te sollen!" ;
 	done
 
 RocketBaseBossWinText:
-	text "Tch, you really"
-	line "are strong."
+	text "Tss, je bent" ; "Tch, you really"
+	line "echt sterk." ; "are strong."
 
-	para "It's too bad."
+	para "Jammer." ; "It's too bad."
 
-	para "If you were to"
-	line "join TEAM ROCKET,"
+	para "Als je je zou" ; "If you were to"
+	line "aansluiten bij" ; "join TEAM ROCKET,"
 
-	para "you could become"
-	line "an EXECUTIVE."
+	para "TEAM ROCKET, kon" ; "you could become"
+	line "je een MANAGER" ; "an EXECUTIVE."
+	cont "worden." ;
 	done
 
 RocketBaseBossRetreatText:
-	text "…This hideout is"
-	line "done for…"
+	text "…Deze schuilplaats" ; "…This hideout is"
+	line "is er geweest…" ; "done for…"
 
-	para "But that's fine."
-	line "The broadcast ex-"
-	cont "periment was a"
-	cont "total success."
+	para "Maar dat is oké." ; "But that's fine."
+	line "Het uitzending-" ; "The broadcast ex-"
+	cont "experiment was" ; "periment was a"
+	cont "een groot succes." ; "total success."
 
-	para "It doesn't matter"
-	line "what happens to"
-	cont "this hideout now."
+	para "Het maakt niet" ; "It doesn't matter"
+	line "uit wat er nu" ; "what happens to"
+	cont "met deze schuil-" ; "this hideout now."
+	cont "plaats gebeurt." ;
 
-	para "We have much big-"
-	line "ger plans."
+	para "We hebben veel" ; "We have much big-"
+	line "grotere plannen." ; "ger plans."
 
-	para "You'll come to"
-	line "appreciate TEAM"
+	para "Je zal TEAM" ; "You'll come to"
+	line "ROCKET's ware" ; "appreciate TEAM"
 
-	para "ROCKET's true"
-	line "power soon enough."
+	para "macht spoedig" ; "ROCKET's true"
+	line "waarderen." ; "power soon enough."
 
-	para "Enjoy yourself"
-	line "while you can…"
+	para "Veel plezier zo" ; "Enjoy yourself"
+	line "lang het nog kan…" ; "while you can…"
 
-	para "Fufufufu…"
+	para "Ghehehe…" ; "Fufufufu…"
 	done
 
 RocketBaseLancePostBattleText:
-	text "LANCE: That did"
-	line "it. We defeated"
+	text "LANCE: Dat was" ; "LANCE: That did"
+	line "het. We hebben" ; "it. We defeated"
 
-	para "all the ROCKETS"
-	line "here."
+	para "alle ROCKETS" ; "all the ROCKETS"
+	line "hier verslagen." ; "here."
 
-	para "But I'm concerned"
-	line "about the young"
+	para "Maar ik maak me" ; "But I'm concerned"
+	line "zorgen om die" ; "about the young"
 
-	para "guy I battled in"
-	line "the process…"
+	para "jonge vent met" ; "guy I battled in"
+	line "wie ik vocht…" ; "the process…"
 	done
 
 RocketBaseLancePowerOffText:
 	text "Sorry, <PLAY_G>."
-	line "I saw how well you"
+	line "Ik zag hoe goed" ; "I saw how well you"
 
-	para "were doing, so I"
-	line "just hung back."
+	para "je het deed, dus" ; "were doing, so I"
+	line "ik hield afstand." ; "just hung back."
 
-	para "Now all there is"
-	line "left to do is to"
+	para "Nu hoeven we" ; "Now all there is"
+	line "alleen dat vreemde" ; "left to do is to"
 
-	para "turn off that odd"
-	line "radio signal."
+	para "radiosignaal uit" ; "turn off that odd"
+	line "te zetten." ; "radio signal."
 	done
 
 RockerBaseLanceElectrodeFaintText:
-	text "It's this machine"
-	line "that's causing all"
-	cont "the problems."
+	text "Het is deze" ; "It's this machine"
+	line "machine die alle" ; "that's causing all"
+	cont "problemen veroor-" ; "the problems."
 
-	para "I don't see a"
-	line "switch on it…"
+	para "zaakt. Ik zie" ; "I don't see a"
+	line "geen knopje…" ; "switch on it…"
 
-	para "We have no choice."
-	line "We have to make"
+	para "We hebben geen" ; "We have no choice."
+	line "keus. We moeten" ; "We have to make"
 
-	para "all the ELECTRODE"
-	line "faint."
+	para "alle ELECTRODE" ; "all the ELECTRODE"
+	line "uitschakelen." ; "faint."
 
-	para "That should stop"
-	line "this machine from"
+	para "Dat zou deze" ; "That should stop"
+	line "machine moeten" ; "this machine from"
 
-	para "transmitting that"
-	line "strange signal."
+	para "stoppen om dat" ; "transmitting that"
+	line "vreemde signaal" ; "strange signal."
+	cont "uit te zenden." ;
 
-	para "It's no fault of"
-	line "the #MON, so it"
+	para "Het is niet de" ; "It's no fault of"
+	line "schuld van de" ; "the #MON, so it"
 
-	para "makes me feel"
-	line "guilty."
+	para "#MON, dus ik" ; "makes me feel"
+	line "voel me er niet" ; "guilty."
+	cont "prettig bij." ;
 
-	para "<PLAY_G>, let's"
-	line "split the job."
+	para "<PLAY_G>, laten" ; "<PLAY_G>, let's"
+	line "we de taak" ; "split the job."
+	cont "verdelen." ;
 	done
 
 RocketBaseLancesSideText:
-	text "LANCE: Leave this"
-	line "side to me."
+	text "LANCE: Ik doe" ; "LANCE: Leave this"
+	line "deze kant." ; "side to me."
 	done
 
 RocketBaseLanceElectrodeDoneText:
-	text "LANCE: That odd"
-	line "signal has finally"
-	cont "stopped."
+	text "LANCE: Dat vreemde" ; "LANCE: That odd"
+	line "signaal is einde-" ; "signal has finally"
+	cont "lijk gestopt." ; "stopped."
 
-	para "The LAKE should be"
-	line "back to normal."
+	para "Het MEER zou" ; "The LAKE should be"
+	line "weer normaal" ; "back to normal."
+	cont "moeten zijn." ;
 
-	para "You're the hero!"
-	line "Let me thank you"
+	para "Jij bent de held!" ; "You're the hero!"
+	line "Ik dank je" ; "Let me thank you"
 
-	para "on behalf of all"
-	line "the #MON."
+	para "namens alle" ; "on behalf of all"
+	line "#MON." ; "the #MON."
 
-	para "Oh, yes. You"
-	line "should take this."
+	para "Oh, ja." ; "Oh, yes. You"
+	line "Neem dit." ; "should take this."
 
-	para "I found it here,"
-	line "but I don't have"
-	cont "any need for it."
+	para "Ik vond het hier," ; "I found it here,"
+	line "maar ik heb het" ; "but I don't have"
+	cont "niet nodig." ; "any need for it."
 	done
 
 RocketBaseReceivedHM06Text: ; unreferenced
-	text "<PLAYER> received"
-	line "HM06."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "VM06." ; "HM06."
 	done
 
 RocketBaseLanceWhirlpoolText:
-	text "That's WHIRLPOOL."
-	line "Teach it to a"
+	text "Dat is DRAAIKOLK." ; "That's WHIRLPOOL."
+	line "Leer het een #-" ; "Teach it to a"
 
-	para "#MON to get"
-	line "across wild water."
+	para "MON om door wild" ; "#MON to get"
+	line "water te gaan." ; "across wild water."
 
-	para "But keep this in"
-	line "mind."
+	para "Maar knoop dit in." ; "But keep this in"
+	line "je oren." ; "mind."
 
-	para "You can use that"
-	line "out of battle only"
+	para "Je kan het alleen" ; "You can use that"
+	line "buiten gevechten" ; "out of battle only"
 
-	para "with the BADGE"
-	line "from MAHOGANY GYM."
+	para "gebruiken met de" ; "with the BADGE"
+	line "BADGE van" ; "from MAHOGANY GYM."
+	cont "MAHOGANY GYM." ;
 	done
 
 RocketBaseLanceMonMasterText:
 	text "<PLAY_G>…"
 
-	para "The journey to be-"
-	line "coming the #MON"
+	para "De reis om de" ; "The journey to be-"
+	line "#MON-MEESTER te" ; "coming the #MON"
 
-	para "MASTER is long and"
-	line "difficult."
+	para "worden is lang" ; "MASTER is long and"
+	line "en moeilijk." ; "difficult."
 
-	para "Knowing that, will"
-	line "you keep going?"
+	para "Dat wetende, zal" ; "Knowing that, will"
+	line "je verder blijven" ; "you keep going?"
+	cont "gaan?" ;
 
 	para "…"
 
-	para "I see. No, you're"
-	line "right."
+	para "Hm-hm. Nee," ; "I see. No, you're"
+	line "je hebt gelijk." ; "right."
 
-	para "If you would give"
-	line "up that easily,"
+	para "Als je zo snel zou" ; "If you would give"
+	line "opgeven, zou je" ; "up that easily,"
 
-	para "you would have"
-	line "never chased that"
+	para "die droom nooit" ; "you would have"
+	line "zijn begonnen" ; "never chased that"
 
-	para "dream in the first"
-	line "place."
+	para "te volgen," ; "dream in the first"
+	line "uiteraard." ; "place."
 
-	para "I look forward to"
-	line "seeing you again!"
+	para "Ik kijk ernaar uit" ; "I look forward to"
+	line "je weer te zien!" ; "seeing you again!"
 	done
 
 LanceHealsText1:
-	text "LANCE: Are you all"
-	line "right?"
+	text "LANCE: Gaat het?" ; "LANCE: Are you all"
+	line "met je?" ; "right?"
 
-	para "Your #MON are"
-	line "hurt and tired."
+	para "Je #MON zijn" ; "Your #MON are"
+	line "gewond en moe." ; "hurt and tired."
 
-	para "Here, give them"
-	line "some of my medi-"
-	cont "cine."
+	para "Hier, geef ze" ; "Here, give them"
+	line "wat van mijn" ; "some of my medi-"
+	cont "medicijn." ; "cine."
 	done
 
 LanceHealsText2:
 	text "LANCE: <PLAY_G>,"
-	line "let's give it our"
-	cont "best for #MON."
+	line "Laten we ons best" ; "let's give it our"
+	cont "doen voor onze" ; "best for #MON."
+	cont "#MON." ;
 	done
 
 GruntM17SeenText:
-	text "The door won't"
-	line "open?"
+	text "De deur gaat" ; "The door won't"
+	line "niet open?" ; "open?"
 
-	para "Well, duh."
-	line "It has to have a"
+	para "Ja, duh." ; "Well, duh."
+	line "Het heeft een" ; "It has to have a"
 
-	para "password that only"
-	line "TEAM ROCKET knows."
+	para "wachtwoord dat" ; "password that only"
+	line "alleen TEAM" ; "TEAM ROCKET knows."
+	cont "ROCKET weet." ;
 	done
 
 GruntM17BeatenText:
-	text "What? I lost?"
+	text "Wat? Ik verloor?" ; "What? I lost?"
 	done
 
 GruntM17AfterBattleText:
-	text "Heh, I'm just a"
-	line "GRUNT."
+	text "Heh, ik ben maar" ; "Heh, I'm just a"
+	line "een LID." ; "GRUNT."
 
-	para "I don't know the"
-	line "password. Too bad"
-	cont "for you."
+	para "Ik weet het" ; "I don't know the"
+	line "wachtwoord niet." ; "password. Too bad"
+	cont "Jammer voor jou." ; "for you."
 	done
 
 GruntM18SeenText:
-	text "Oh, a kid? I don't"
-	line "really like this,"
+	text "Oh, een kind?" ; "Oh, a kid? I don't"
+	line "Ik vind dit niks," ; "really like this,"
 
-	para "but eliminate you"
-	line "I must."
+	para "maar ik moet je" ; "but eliminate you"
+	line "uitschakelen." ; "I must."
 	done
 
 GruntM18BeatenText:
-	text "I knew I'd lose…"
+	text "Ik wist dat ik" ; "I knew I'd lose…"
+	line "zou verliezen…" ;
 	done
 
 GruntM18AfterBattleText:
-	text "I got wiped out on"
-	line "the last mission"
-	cont "by a kid too."
+	text "Ik werd tijdens" ; "I got wiped out on"
+	line "de laatste missie" ; "the last mission"
+	cont "ook door een kind" ; "by a kid too."
+	cont "opgeveegd." ;
 
-	para "When we were ab-"
-	line "ducting #MON,"
+	para "Toen we #MON" ; "When we were ab-"
+	line "ontvoerden," ; "ducting #MON,"
 
-	para "this kid with long"
-	line "red hair and mean-"
+	para "maakte dit joch" ; "this kid with long"
+	line "met lang rood haar" ; "red hair and mean-"
 
-	para "looking eyes just"
-	line "creamed me…"
+	para "en gemene ogen" ; "looking eyes just"
+	line "me helemaal in…" ; "creamed me…"
 	done
 
 GruntM19SeenText:
-	text "You rotten little"
-	line "pest!"
+	text "Jij vervelend" ; "You rotten little"
+	line "klein ettertje!" ; "pest!"
 	done
 
 GruntM19BeatenText:
@@ -862,48 +876,52 @@ GruntM19BeatenText:
 	done
 
 GruntM19AfterBattleText:
-	text "Heh, only the boss"
-	line "knows the password"
-	cont "for that door."
+	text "Heh, alleen de" ; "Heh, only the boss"
+	line "baas weet het" ; "knows the password"
+	cont "wachtwoord voor" ; "for that door."
+	cont "die deur." ;
 
-	para "Where's the boss?"
-	line "Who knows? Go look"
-	cont "for yourself."
+	para "Waar is de baas?" ; "Where's the boss?"
+	line "Wie weet 't? Ga" ; "Who knows? Go look"
+	cont "zelf kijken." ; "for yourself."
 	done
 
 RocketBaseDoorNoPasswordText:
-	text "The door's closed…"
+	text "De deur is" ; "The door's closed…"
+	cont "op slot…" ;
 
-	para "It needs a pass-"
-	line "word to open."
+	para "Het heeft een" ; "It needs a pass-"
+	line "wachtwoord nodig" ; "word to open."
+	cont "om te openen." ;
 	done
 
 RocketBaseDoorKnowPasswordText:
-	text "The door's closed…"
+	text "De deur is" ; "The door's closed…"
+	cont "op slot…" ;
 
-	para "<PLAYER> entered"
-	line "the password."
+	para "<PLAYER> vulde" ; "<PLAYER> entered"
+	line "het wachtwoord in." ; "the password."
 
-	para "The door opened!"
+	para "De deur opende!" ; "The door opened!"
 	done
 
 RocketBaseB2FTransmitterText:
-	text "It's the radio"
-	line "transmitter that's"
+	text "Het is de radio-" ; "It's the radio"
+	line "zender die het" ; "transmitter that's"
 
-	para "sending the"
-	line "sinister signal."
+	para "sinistere" ; "sending the"
+	line "signaal zendt." ; "sinister signal."
 
-	para "It's working at"
-	line "full capacity."
+	para "Het werkt op" ; "It's working at"
+	line "volle capaciteit." ; "full capacity."
 	done
 
 RocketBaseB2FDeactivateTransmitterText:
-	text "The radio trans-"
-	line "mitter has finally"
+	text "De radiozender" ; "The radio trans-"
+	line "is eindelijk ge-" ; "mitter has finally"
 
-	para "stopped its evil"
-	line "broadcast."
+	para "stopt met z'n dui-" ; "stopped its evil"
+	line "velse uitzending." ; "broadcast."
 	done
 
 TeamRocketBaseB2F_MapEvents:

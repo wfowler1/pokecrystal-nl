@@ -1,11 +1,11 @@
-	db "WEED@" ; species name
+	db "ONKRUID@" ; species name
 	db 5 ; height
 	dw 54 ; weight
 
-	db   "During the day, it"
-	next "stays in the cold"
-	next "underground to"
+	db   "Blijft overdag" ; "During the day, it"
+	next  "onder de grond om" ; "stays in the cold"
+	next  "de zon te ver-" ; "underground to"
 
-	page "avoid the sun."
-	next "It grows by bath-"
-	next "ing in moonlight.@"
+	page "mijden. Groeit" ; "avoid the sun."
+	next "door te baden in" ; "It grows by bath-"
+	next "maanlicht.@" ; "ing in moonlight.@"

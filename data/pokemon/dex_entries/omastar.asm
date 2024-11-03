@@ -1,11 +1,11 @@
-	db "SPIRAL@" ; species name
+	db "SPIRAAL@" ; species name
 	db 10 ; height
 	dw 350 ; weight
 
-	db   "Its heavy shell"
-	next "allowed it to"
-	next "reach only nearby"
+	db   "Kon door de zware" ; "Its heavy shell"
+	next "schelp alleen" ; "allowed it to"
+	next "nabijgelegen eten" ; "reach only nearby"
 
-	page "food. This could"
-	next "be the reason it"
-	next "is extinct.@"
+	page "bereiken. Mogelijk" ; "food. This could"
+	next "daarom ook" ; "be the reason it"
+	next "uitgestorven.@" ; "is extinct.@"

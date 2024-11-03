@@ -1,11 +1,11 @@
-	db "DRILL@" ; species name
+	db "BOOR@" ; species name
 	db 13 ; height
 	dw 600 ; weight
 
-	db   "The hard scales"
-	next "that cover its"
-	next "strong body serve"
+	db   "De harde schubben" ; "The hard scales"
+	next "verspreid over het" ; "that cover its"
+	next "lichaam bieden" ; "strong body serve"
 
-	page "as excellent"
-	next "protection from"
-	next "any attack.@"
+	page "goede bescherming" ; "as excellent"
+	next "tegen iedere soort" ; "protection from"
+	next "aanval.@" ; "any attack.@"

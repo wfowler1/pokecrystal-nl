@@ -298,8 +298,8 @@ OlivinePortAskBoardText:
 	text "Welkom op SNEL-" ; "Welcome to FAST"
 	line "SCHIP S.S.AQUA." ; "SHIP S.S.AQUA."
 
-	para "Zul je vandaag" ; "Will you be board-"
-	line "aan boord gaan?" ; "ing today?"
+	para "Ga je vandaag" ; "Will you be board-"
+	line "aan boord?" ; "ing today?"
 	done
 
 OlivinePortAskTicketText:
@@ -313,10 +313,10 @@ OlivinePortComeAgainText:
 	done
 
 OlivinePortFlashTicketText:
-	text "<PLAYER> toont" ; "<PLAYER> flashed"
+	text "<PLAYER> toonde" ; "<PLAYER> flashed"
 	line "het BOOTKAARTJE." ; "the S.S.TICKET."
 
-	para "Dat is hem." ; "That's it."
+	para "Dat is het." ; "That's it."
 	line "Dankjewel!" ; "Thank you!"
 	done
 
@@ -325,7 +325,7 @@ OlivinePortNoTicketText:
 	line "het BOOTKAARTJE" ; "show the S.S."
 	cont "te tonen…" ; "TICKET…"
 
-	para "…Maar heeft niks!" ; "…But no TICKET!"
+	para "…Maar geen KAART!" ; "…But no TICKET!"
 
 	para "Sorry! Je mag" ; "Sorry!"
 	line "alleen aan boord" ; "You may board only"
@@ -359,8 +359,8 @@ OlivinePortFishingGuru2Text:
 	text "Hoeveel HENGELS" ; "How many RODS do"
 	line "heb je?" ; "you have?"
 
-	para "Verschillende" ; "Different RODS"
-	line "HENGELS vangen" ; "catch different"
+	para "Andere HENGELS" ; "Different RODS"
+	line "vangen ook" ; "catch different"
 	cont "andere #MON." ; "#MON."
 	done
 
@@ -374,7 +374,8 @@ OlivinePortCooltrainerFText:
 	text "Er zijn veel" ; "There are lots of"
 	line "#MON in KANTO." ; "#MON in KANTO."
 
-	para "Kon ik maar gaan…" ; "I wish I could go…"
+	para "Ik wou dat ik" ; "I wish I could go…"
+	line "kon gaan…" ;
 	done
 
 OlivinePortSailorBeforeHOFText:

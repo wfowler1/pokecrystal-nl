@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; species name
 	db 9 ; height
 	dw 190 ; weight
 
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
+	db   "Draait voor het" ; "Before battle, it"
+	next "gevecht de rug" ; "turns its back on"
+	next "naar de vijand" ; "its opponent to"
 
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
+	page "om te demonstreren" ; "demonstrate how"
+	next "hoe fel het vuur" ; "ferociously its"
+	next "brandt.@" ; "fire blazes.@"

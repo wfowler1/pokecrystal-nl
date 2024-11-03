@@ -132,136 +132,136 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 CooltrainermSeanSeenText:
-	text "I'm going to KANTO"
-	line "to test my skills."
+	text "Ik ga naar KANTO" ; "I'm going to KANTO"
+	line "om mij te testen." ; "to test my skills."
 	done
 
 CooltrainermSeanBeatenText:
-	text "I wanted to win!"
+	text "Ik wilde winnen!" ; "I wanted to win!"
 	done
 
 CooltrainermSeanAfterBattleText:
-	text "Trainers from"
-	line "JOHTO can battle"
+	text "Trainers uit JOHTO" ; "Trainers from"
+	line "kunnen vechten met" ; "JOHTO can battle"
 
-	para "with KANTO GYM"
-	line "LEADERS."
+	para "GYMLEIDERS uit" ; "with KANTO GYM"
+	line "KANTO." ; "LEADERS."
 	done
 
 CooltrainerfCarolSeenText:
-	text "I'm training to"
-	line "become the CHAMP!"
+	text "Ik train om KAM-" ; "I'm training to"
+	line "PIOEN te worden!" ; "become the CHAMP!"
 	done
 
 CooltrainerfCarolBeatenText:
-	text "What's so differ-"
-	line "ent between us?"
+	text "Wat verschilt er" ; "What's so differ-"
+	line "zo tussen ons?" ; "ent between us?"
 	done
 
 CooltrainerfCarolAfterBattleText:
-	text "I'm going to beat"
-	line "you someday!"
+	text "Op een dag ga" ; "I'm going to beat"
+	line "ik je verslaan!" ; "you someday!"
 	done
 
 PokemaniacEthanSeenText:
-	text "Do you know LILY?"
-	line "She's a hot DJ in"
-	cont "KANTO."
+	text "Ken je LILY? Ze" ; "Do you know LILY?"
+	line "is een hippe DJ" ; "She's a hot DJ in"
+	cont "in KANTO." ; "KANTO."
 	done
 
 PokemaniacEthanBeatenText:
-	text "Gyaaaah!"
+	text "Gyaaaah!" ; "Gyaaaah!"
 	done
 
 PokemaniacEthanAfterBattleText:
-	text "LILY's nice, but"
-	line "MARY's the best!"
+	text "LILY? Leuk, maar" ; "LILY's nice, but"
+	line "MARY is de beste!" ; "MARY's the best!"
 
-	para "I want to check"
-	line "out JOHTO's radio"
-	cont "programs!"
+	para "Ik wil JOHTO's" ; "I want to check"
+	line "radioprogramma's" ; "out JOHTO's radio"
+	cont "wel eens horen!" ; "programs!"
 	done
 
 HikerNolandSeenText:
-	text "Are you alone?"
-	line "Then let's battle!"
+	text "In je eentje? Kom" ; "Are you alone?"
+	line "vechten, dan!" ; "Then let's battle!"
 	done
 
 HikerNolandBeatenText:
-	text "That's too much to"
-	line "handle!"
+	text "Zoveel kan ik" ; "That's too much to"
+	line "niet aan!" ; "handle!"
 	done
 
 HikerNolandAfterBattleText:
-	text "I wonder if there"
-	line "are any mountains"
+	text "Zouden er bergen" ; "I wonder if there"
+	line "in KANTO de moeite" ; "are any mountains"
 
-	para "worth climbing in"
-	line "KANTO?"
+	para "waard zijn om" ; "worth climbing in"
+	line "te beklimmen?" ; "KANTO?"
 	done
 
 SailorStanlySeenText:
-	text "Yeah, I'm a sail-"
-	line "or, all right."
+	text "Jazeker dat ik" ; "Yeah, I'm a sail-"
+	line "een matroos ben." ; "or, all right."
 
-	para "I wasn't goofing"
-	line "off!"
+	para "Ik was niet aan" ; "I wasn't goofing"
+	line "het niksen!" ; "off!"
 
-	para "This cabin was"
-	line "vacant, so I just"
-	cont "took a quick nap!"
+	para "Deze kabine was" ; "This cabin was"
+	line "vrij, dus ik deed" ; "vacant, so I just"
+	cont "snel een dutje!" ; "took a quick nap!"
 
-	para "Ah, forget it!"
-	line "Let's battle!"
+	para "Ach, laat maar!" ; "Ah, forget it!"
+	line "Laten we vechten!" ; "Let's battle!"
 	done
 
 SailorStanlyBeatenText:
-	text "Sorry! It's all my"
-	line "fault!"
+	text "Sorry! Allemaal" ; "Sorry! It's all my"
+	line "mijn schuld!" ; "fault!"
 	done
 
 SailorStanlyAfterBattleText:
-	text "Being a sailor, I"
-	line "have to do phys-"
-	cont "ical labor. It's"
-	cont "exhausting!"
+	text "Als matroos moet" ; "Being a sailor, I"
+	line "je veel fysiek" ; "have to do phys-"
+	cont "zwaar werk doen." ; "ical labor. It's"
+	cont "Vermoeiend, hoor!" ; "exhausting!"
 	done
 
 GentlemanEdwardSeenText:
-	text "Oh, no. I've lost"
-	line "something that's"
-	cont "very important."
+	text "Oh, nee. Ik ben" ; "Oh, no. I've lost"
+	line "iets heel belang-" ; "something that's"
+	cont "rijks verloren." ; "very important."
 	done
 
 GentlemanEdwardBeatenText:
-	text "I… I can't find"
-	line "it…"
+	text "Ik… ik kan het" ; "I… I can't find"
+	line "niet vinden…" ; "it…"
 	done
 
 GentlemanEdwardAfterBattleText:
-	text "I give up."
-	line "You don't have to"
+	text "Ik geef het op." ; "I give up."
+	line "Je hoeft niet te" ; "You don't have to"
 
-	para "look. Just forget"
-	line "about it!"
+	para "zoeken. Vergeet" ; "look. Just forget"
+	line "het maar!" ; "about it!"
 	done
 
 BurglarCoreySeenText:
-	text "Yeehaw!"
-	line "Lucky!"
+	text "Yeehaw!" ; "Yeehaw!"
+	line "Wat een geluk!" ; "Lucky!"
 	done
 
 BurglarCoreyBeatenText:
-	text "How unlucky!"
-	line "I lost!"
+	text "Pech gehad! Ik" ; "How unlucky!"
+	line "heb verloren!" ; "I lost!"
 	done
 
 BurglarCoreyAfterBattleText:
-	text "I found a pretty"
-	line "coin here."
+	text "Ik heb een mooie" ; "I found a pretty"
+	line "munt gevonden." ; "coin here."
 
-	para "Someone must have"
-	line "lost it…"
+	para "Iemand hier is" ; "Someone must have"
+	line "die vast kwijt…" ; "lost it…"
 	done
 
 FastShipCabins_NNW_NNE_NE_MapEvents:

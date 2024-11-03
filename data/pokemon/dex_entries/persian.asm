@@ -1,11 +1,11 @@
-	db "CLASSY CAT@" ; species name
+	db "KLASSEKAT@" ; species name
 	db 10 ; height
 	dw 320 ; weight
 
-	db   "Behind its lithe,"
-	next "elegant appearance"
-	next "lies a barbaric"
+	db   "Achter dat slanke," ; "Behind its lithe,"
+	next "elegante uiterlijk" ; "elegant appearance"
+	next "schuilt een bar-" ; "lies a barbaric"
 
-	page "side. It will tear"
-	next "apart its prey on"
-	next "a mere whim.@"
+	page "baars karakter." ; "side. It will tear"
+	next "Verscheurt prooien" ; "apart its prey on"
+	next "bij willekeur.@" ; "a mere whim.@"
