@@ -414,7 +414,7 @@ UseSquirtbottleText:
 	done
 
 UsedSquirtbottleText:
-	text "<SPELER> gebruikte" ; "<PLAYER> used the"
+	text "<PLAYER> gebruikte" ; "<PLAYER> used the"
 	line "de SPUITFLES." ; "SQUIRTBOTTLE."
 	done
 
