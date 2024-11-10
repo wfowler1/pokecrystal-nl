@@ -169,7 +169,7 @@ HikerAnthonyDunsparceText:
 
 	para "Bekijk hem eens" ; "Take a look at it"
 	line "in het licht." ; "in the light. It's"
-	cont "Grappig gezicht!" "got a funny face!"
+	cont "Grappig gezicht!" ; "got a funny face!"
 	done
 
 Route33LassText:
@@ -178,7 +178,7 @@ Route33LassText:
 	para "Eindelijk ben ik" ; "I finally got"
 	line "door die grot." ; "through that cave."
 
-	para "Veel groter dan" "It was much bigger"
+	para "Veel groter dan" ; "It was much bigger"
 	line "ik had verwacht." ; "than I'd expected."
 
 	para "Ik was te moet om" ; "I got too tired to"
