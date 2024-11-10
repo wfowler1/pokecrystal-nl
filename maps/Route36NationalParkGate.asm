@@ -474,378 +474,382 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	step_end
 
 Route36NationalParkGateOfficer1AskToParticipateText:
-	text "Today's @"
+	text "Vandaag is @" ; "Today's @"
 	text_ram wStringBuffer3 ; Day of the week MaxLength 9
 	text "."
-	line "That means the"
+	line "De dag van het" ; "That means the"
 
-	para "Bug-Catching Con-"
-	line "test is on today."
+	para "wekelijkse" ; "Bug-Catching Con-"
+	line "KEVERTOERNOOI." test is on today."
 
-	para "The rules are sim-"
-	line "ple."
+	para "De regels zijn" ; "The rules are sim-"
+	line "simpel." ; "ple."
 
-	para "Using one of your"
-	line "#MON, catch a"
+	para "Van met één van" ; "Using one of your"
+	line "je #MON een" ; "#MON, catch a"
 
-	para "bug #MON to be"
-	line "judged."
+	para "insect-#MON om" ; "bug #MON to be"
+	line "te beoordelen." ; "judged."
 
-	para "Would you like to"
-	line "give it a try?"
+	para "Wil je het" ; "Would you like to"
+	line "proberen?" ; "give it a try?"
 	done
 
 Route36NationalParkGateOfficer1GiveParkBallsText:
-	text "Here are the PARK"
-	line "BALLS for the"
-	cont "Contest."
+	text "Hier zijn de PARK-" ; "Here are the PARK"
+	line "BALLEN voor het" ; "BALLS for the"
+	cont "Toernooi." ; "Contest."
 	done
 
 Route36NationalParkGatePlayerReceivedParkBallsText:
-	text "<PLAYER> received"
-	line "{d:BUG_CONTEST_BALLS} PARK BALLS."
+	text "<PLAYER> ontving>" ; "<PLAYER> received"
+	line "{d:BUG_CONTEST_BALLS} PARKBALLEN." ; "{d:BUG_CONTEST_BALLS} PARK BALLS."
 	done
 
 Route36NationalParkGateOfficer1ExplainsRulesText:
-	text "The person who"
-	line "gets the strong-"
-	cont "est bug #MON"
-	cont "is the winner."
+	text "De persoon met de" ; "The person who"
+	line "sterkste insect-" ; "gets the strong-"
+	cont "#MON is de" ; "est bug #MON"
+	cont "winnaar." ; "is the winner."
 
-	para "You have {d:BUG_CONTEST_MINUTES}"
-	line "minutes."
+	para "Je hebt {d:BUG_CONTEST_MINUTES}" ; "You have {d:BUG_CONTEST_MINUTES}"
+	line "minuten." ; "minutes."
 
-	para "If you run out of"
-	line "PARK BALLS, you're"
-	cont "done."
+	para "Als je PARKBALLEN" ; "If you run out of"
+	line "op zijn, ben je" ; "PARK BALLS, you're"
+	cont "klaar." ; "done."
 
-	para "You can keep the"
-	line "last #MON you"
-	cont "catch as your own."
+	para "Je kunt je laatst" ; "You can keep the"
+	line "gevangen #MON" ; "last #MON you"
+	cont "achteraf houden." ; "catch as your own."
 
-	para "Go out and catch"
-	line "the strongest bug"
+	para "Ga en vang de" ; "Go out and catch"
+	line "sterkste insect-" ; "the strongest bug"
 
-	para "#MON you can"
-	line "find!"
+	para "#MON die je" ; "#MON you can"
+	line "kunt vinden!" ; "find!"
 	done
 
 Route36NationalParkGateOfficer1AskToUseFirstMonText:
 	text "Uh-oh…"
 
-	para "You have more than"
-	line "one #MON."
+	para "Je hebt meer dan" ; "You have more than"
+	line "één #MON. "one #MON."
 
-	para "You'll have to use"
+	para "Je moet" ; "You'll have to use"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text ", the"
+	text ", de" ; ", the"
 
-	para "first #MON in"
-	line "your party."
+	para "eerste #MON in" ; "first #MON in"
+	line "je team gebruiken." ; "your party."
 
-	para "Is that OK with"
-	line "you?"
+	para "Is dat oké voor" ; "Is that OK with"
+	line "jou?" ; "you?"
 	done
 
 Route36NationalParkGateOfficer1WellHoldYourMonText:
-	text "Fine, we'll hold"
-	line "your other #MON"
-	cont "while you compete."
+	text "Prima, we bewaren" ; "Fine, we'll hold"
+	line "je andere #MON" ; "your other #MON"
+	cont "tijdens de strijd." ; "while you compete."
 	done
 
 Route36NationalParkGatePlayersMonLeftWithHelperText:
 	text "<PLAYER>'s #MON"
-	line "were left with the"
-	cont "CONTEST HELPER."
+	line "Zijn achtergelaten" ; "were left with the"
+	cont "bij TOERNOOIHULP." ; "CONTEST HELPER."
 	done
 
 Route36NationalParkGateOfficer1ChooseMonAndComeBackText:
-	text "Please choose the"
-	line "#MON to be used"
+	text "Kies de #MON" ; "Please choose the"
+	line "om te gebruiken" ; "#MON to be used"
 
-	para "in the Contest,"
-	line "then come see me."
+	para "in de wedstrijd en" ; "in the Contest,"
+	line "kom dan naar mij." ; "then come see me."
 	done
 
 Route36NationalParkGateOfficer1TakePartInFutureText:
-	text "OK. We hope you'll"
-	line "take part in the"
-	cont "future."
+	text "OK. We hopen dat" ; "OK. We hope you'll"
+	line "je in de toekomst" ; "take part in the"
+	cont "meedoet." ; "future."
 	done
 
 Route36NationalParkGateOfficer1FirstMonCantBattleText:
 	text "Uh-oh…"
-	line "The first #MON"
+	line "De eerste #MON" ; "The first #MON"
 
-	para "in your party"
-	line "can't battle."
+	para "in je team kan" ; "in your party"
+	line "niet vechten." ; "can't battle."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "Wissel met de" ; "Please switch it"
+	line "#MON die je wil" ; "with the #MON"
 
-	para "you want to use,"
-	line "then come see me."
+	para "gebruiken en kom" ; "you want to use,"
+	line "dan naar mij." ; "then come see me."
 	done
 
 Route36NationalParkGateOfficer1MakeRoomText:
 	text "Uh-oh…"
-	line "Both your party"
+	line "Zowel je team als" ; "Both your party"
 
-	para "and your PC BOX"
-	line "are full."
+	para "je PC-BOX zitten" ; "and your PC BOX"
+	line "vol." ; "are full."
 
-	para "You have no room"
-	line "to put the bug"
-	cont "#MON you catch."
+	para "Je hebt geen plek" ; "You have no room"
+	line "voor de insecten-" ; "to put the bug"
+	cont "die je vangt." ; "#MON you catch."
 
-	para "Please make room"
-	line "in your party or"
+	para "Maak ruimte in je" ; "Please make room"
+	line "team of PC-BOX, en" ; "in your party or"
 
-	para "your PC BOX, then"
-	line "come see me."
+	para "kom dan naar mij" ; "your PC BOX, then"
+	line "toe." ; "come see me."
 	done
 
 Route36NationalParkGateOfficer1EggAsFirstMonText:
 	text "Uh-oh…"
-	line "You have an EGG as"
+	line "Je hebt een EI als" ; "You have an EGG as"
 
-	para "the first #MON"
-	line "in your party."
+	para "eerste #MON in" ; "the first #MON"
+	line "je team. Wissel" ; "in your party."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "deze voor de" ; "Please switch it"
+	line "#MON die je wil" ; "with the #MON"
 
-	para "you want to use,"
-	line "then come see me."
+	para "gebruiken en kom" ; "you want to use,"
+	line "dan naar mij toe." ; "then come see me."
 	done
 
 Route36NationalParkGateOfficer1WantToFinishText:
-	text "You still have @"
+	text "Je hebt nog @" ; "You still have @"
 	text_ram wStringBuffer3 ; MaxLength 2
 	text_start
-	line "minute(s) left."
+	line "minuten te gaan." ; "minute(s) left."
 
-	para "Do you want to"
-	line "finish now?"
+	para "Wil je nu al" ; "Do you want to"
+	line "afronden?" ; "finish now?"
 	done
 
 Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
-	text "OK. Please wait"
-	line "here for the"
+	text "OK. Wacht hier" ; "OK. Please wait"
+	line "op de aankondiging" ; "here for the"
 
-	para "announcement of"
-	line "the winners."
+	para "van wie heeft" ; "announcement of"
+	line "gewonnen." ; "the winners."
 	done
 
 Route36NationalParkGateOfficer1OkGoFinishText:
-	text "OK. Please go back"
-	line "outside and finish"
-	cont "up."
+	text "OK. Ga alsjeblieft" ; "OK. Please go back"
+	line "weer naar buiten" ; "outside and finish"
+	cont "en rond af." ; "up."
 	done
 
 Route36NationalParkGateOfficer1ContestIsOverText:
-	text "Today's Contest is"
-	line "over. We hope you"
+	text "Het Toernooi van" ; "Today's Contest is"
+	line "de dag is voorbij." ; "over. We hope you"
 
-	para "will participate"
-	line "in the future."
+	para "Hopelijk doe je" ; "will participate"
+	line "een andere keer" ; "in the future."
+	cont "mee."
 	done
 
 Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
-	text "Some #MON can"
-	line "only be seen in"
-	cont "the PARK."
+	text "Sommige #MON" ; "Some #MON can"
+	line "zijn alleen in het" ; "only be seen in"
+	cont "PARK te zien." ; "the PARK."
 	done
 
 BugCatchingContestant1BText:
-	text "DON: Wow, you beat"
-	line "me. You're pretty"
-	cont "good."
+	text "DON: Wauw, je hebt" ; "DON: Wow, you beat"
+	line "me verslagen. Je" ; "me. You're pretty"
+	cont "bent best goed." ; "good."
 	done
 
 BugCatchingContestant1BStillCompetingText:
-	text "DON: Luck plays a"
-	line "big part in this."
+	text "DON: Geluk speelt" ; "DON: Luck plays a"
+	line "een grote rol." ; "big part in this."
 
-	para "You never know"
-	line "what #MON will"
-	cont "appear."
+	para "Je weet nooit" ; "You never know"
+	line "welke #MON gaan" ; "what #MON will"
+	cont "verschijnen." ; "appear."
 	done
 
 BugCatchingContestant2BText:
-	text "ED: I envy you."
-	line "I just couldn't"
-	cont "do it this time."
+	text "ED: Ik benijd je." ; "ED: I envy you."
+	line "Ik kon het ditmaal" ; "I just couldn't"
+	cont "gewoon niet." ; "do it this time."
 	done
 
 BugCatchingContestant2BStillCompetingText:
-	text "ED: Maybe you win"
-	line "with big #MON?"
+	text "ED: Misschien win" ; "ED: Maybe you win"
+	line "je met grote" ; "with big #MON?"
+	cont "#MON?"
 	done
 
 BugCatchingContestant3BText:
-	text "NICK: Well done!"
-	line "I'm going to raise"
-	cont "my #MON better."
+	text "NICK: Goed gedaan!" ; "NICK: Well done!"
+	line "Ik ga mijn #MON" ; "I'm going to raise"
+	cont "beter opvoeden." ; "my #MON better."
 	done
 
 BugCatchingContestant3BStillCompetingText:
-	text "NICK: Maybe you"
-	line "get a higher score"
+	text "NICK: Misschien" ; "NICK: Maybe you"
+	line "scoor je hoger" ; "get a higher score"
 
-	para "for a #MON of"
-	line "an unusual color."
+	para "met een #MON" ; "for a #MON of"
+	line "met gekke kleuren." ; "an unusual color."
 	done
 
 BugCatchingContestant4BText:
-	text "WILLIAM: You're"
-	line "the winner? What"
-	cont "did you catch?"
+	text "WILLIAM: Jij hebt" ; "WILLIAM: You're"
+	line "gewonnen? Wat ving" ; "the winner? What"
+	cont "je dan?" ; "did you catch?"
 	done
 
 BugCatchingContestant4BStillCompetingText:
-	text "WILLIAM: Well, I'm"
-	line "satisfied because"
+	text "WILLIAM: Nou, ik" ; "WILLIAM: Well, I'm"
+	line "ben tevreden omdat" ; "satisfied because"
 
-	para "I caught a #MON"
-	line "that I wanted."
+	para "ik de #MON ving" ; "I caught a #MON"
+	line "die ik zocht." ; "that I wanted."
 	done
 
 BugCatchingContestant5BText:
-	text "BENNY: Congrats!"
-	line "You have earned my"
-	cont "respect!"
+	text "BENNY: Gefeli!" ; "BENNY: Congrats!"
+	line "Je hebt mijn" ; "You have earned my"
+	cont "respect verdiend!" ; "respect!"
 	done
 
 BugCatchingContestant5BStillCompetingText:
-	text "BENNY: I caught a"
-	line "SCYTHER before,"
-	cont "but I didn't win."
+	text "BENNY: Ik ving" ; "BENNY: I caught a"
+	line "ooit een SCYTHER," ; "SCYTHER before,"
+	cont "maar won niet." ; "but I didn't win."
 	done
 
 BugCatchingContestant6BText:
-	text "BARRY: That #-"
-	line "MON you caught…"
-	cont "it's awesome!"
+	text "BARRY: Die #MON" ; "BARRY: That #-"
+	line "die je ving…" ; "MON you caught…"
+	cont "Wat fantastisch!" ; "it's awesome!"
 	done
 
 BugCatchingContestant6BStillCompetingText:
-	text "BARRY: It's easier"
-	line "to win if you get"
+	text "BARRY: Winnen is" ; "BARRY: It's easier"
+	line "makkelijker als je" ; "to win if you get"
 
-	para "a high-level bug"
-	line "#MON."
+	para "een insect-#MON" ; "a high-level bug"
+	line "van hoog niveau." ; "#MON."
+	cont "hebt."
 
-	para "But I think they"
-	line "also consider some"
-	cont "other points."
+	para "Maar andere zaken" ; "But I think they"
+	line "spelen geloof ik" ; "also consider some"
+	cont "ook een rol." ; "other points."
 	done
 
 BugCatchingContestant7BText:
-	text "CINDY: You won?"
-	line "That's great!"
+	text "CINDY: Je won?" ; "CINDY: You won?"
+	line "Wat goed!" ; "That's great!"
 
-	para "Do you feel like"
-	line "looking for bug"
-	cont "#MON with me?"
+	para "Heb je zin om met" ; "Do you feel like"
+	line "mij naar insect-" ; "looking for bug"
+	cont "#MON te zoeken?" ; "#MON with me?"
 	done
 
 BugCatchingContestant7BStillCompetingText:
-	text "CINDY: I really"
-	line "love bug #MON!"
+	text "CINDY: Ik hou van" ; "CINDY: I really"
+	line "insect-#MON!" ; "love bug #MON!"
 	done
 
 BugCatchingContestant8BText:
-	text "JOSH: I… I can't"
-	line "believe I lost at"
-	cont "bug-catching…"
+	text "JOSH: Ik… Ik kan" ; "JOSH: I… I can't"
+	line "niet geloven dat" ; "believe I lost at"
+	cont "ik verloor met" ; "bug-catching…"
+	cont "insecten vangen…"
 	done
 
 BugCatchingContestant8BStillCompetingText:
-	text "JOSH: I heard that"
-	line "somebody won with"
-	cont "a CATERPIE!"
+	text "JOSH: Ik hoorde" ; "JOSH: I heard that"
+	line "dat iemand won met" ; "somebody won with"
+	cont "een CATERPIE!" ; "a CATERPIE!"
 	done
 
 BugCatchingContestant9BText:
-	text "SAMUEL: Next time,"
-	line "I'm going to win."
+	text "SAMUEL: Volgende" ; "SAMUEL: Next time,"
+	line "keer ga ik winnen." ; "I'm going to win."
 	done
 
 BugCatchingContestant9BStillCompetingText:
-	text "SAMUEL: Darn."
-	line "I thought I would"
-	cont "score higher…"
+	text "SAMUEL: Verdraaid." ; "SAMUEL: Darn."
+	line "Ik dacht hoger te" ; "I thought I would"
+	cont "scoren…" ; "score higher…"
 	done
 
 BugCatchingContestant10BText:
-	text "KIPP: Could you"
-	line "give me some tips?"
+	text "KIPP: Kun je mij" ; "KIPP: Could you"
+	line "wat tips geven?" ; "give me some tips?"
 
-	para "I want to study"
-	line "your style."
+	para "Ik wil je stijl" ; "I want to study"
+	line "bestuderen." ; "your style."
 	done
 
 BugCatchingContestant10BStillCompetingText:
-	text "KIPP: I study a"
-	line "lot, but that's"
+	text "KIPP: Ik studeer" ; "KIPP: I study a"
+	line "veel, maar dat is" ; "lot, but that's"
 
-	para "not good enough to"
-	line "win."
+	para "onvoldoende om te" ; "not good enough to"
+	line "winnen." ; "win."
 	done
 
 UnusedSilphScope2Text: ; unreferenced
 ; This text is referring to Sudowoodo.
 ; The SILPHSCOPE2 was later reworked into the SQUIRTBOTTLE.
-	text "I hear there's a"
-	line "#MON that looks"
-	cont "just like a tree."
+	text "Ik hoorde dat er" ; "I hear there's a"
+	line "een #MON is die" ; "#MON that looks"
+	cont "op een boom lijkt." ; "just like a tree."
 
-	para "You can reveal its"
-	line "identity using a"
+	para "Je kan ze identi-" ; "You can reveal its"
+	line "ficeren met een" ; "identity using a"
 	cont "SILPHSCOPE 2."
 	done
 
 UnusedBugCatchingContestExplanationText:
 ; duplicate of BugCatchingContestExplanationText in Route35NationalParkGate.asm
-	text "The Bug-Catching"
-	line "Contest is held on"
+	text "Het KEVERTOERNOOI" ; "The Bug-Catching"
+	line "is iedere dinsdag," ; "Contest is held on"
 
-	para "Tuesday, Thursday"
-	line "and Saturday."
+	para "donderdag en op" ; "Tuesday, Thursday"
+	line "zaterdag." ; "and Saturday."
 
-	para "Not only do you"
-	line "earn a prize just"
+	para "Niet alleen win je" ; "Not only do you"
+	line "er prijzen door" ; "earn a prize just"
 
-	para "for participating,"
-	line "you also get to"
+	para "mee te doen, je" ; "for participating,"
+	line "mag gevangen" ; "you also get to"
 
-	para "keep the bug"
-	line "#MON you may"
+	para "insect-#MON" ; "keep the bug"
+	line "na de wedstrijd" ; "#MON you may"
 
-	para "have at the end of"
-	line "the contest."
+	para "ook nog eens" ; "have at the end of"
+	line "houden." ; "the contest."
 	done
 
 Route36NationalParkGateOfficer1WellHoldPrizeText:
-	text "Uh-oh… Your PACK"
-	line "is full."
+	text "Uh-oh… Je TAS" ; "Uh-oh… Your PACK"
+	line "zit vol." ; "is full."
 
-	para "We'll hold on to"
-	line "your prize, but"
-	cont "only for today."
+	para "We bewaren je" ; "We'll hold on to"
+	line "prijs voor één" ; "your prize, but"
+	cont "dag." ; "only for today."
 
-	para "Please make room,"
-	line "then come see me."
+	para "Maak wat ruimte en" ; "Please make room,"
+	line "kom bij me terug." ; "then come see me."
 	done
 
 Route36NationalParkGateOfficer1HeresThePrizeText:
 	text "<PLAYER>?"
 
-	para "Here's the prize"
-	line "we were holding"
-	cont "for you."
+	para "Hier is de prijs" ; "Here's the prize"
+	line "die we voor je" ; "we were holding"
+	cont "bewaarden." ; "for you."
 	done
 
 Route36NationalParkGate_MapEvents:
