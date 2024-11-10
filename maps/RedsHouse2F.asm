@@ -10,17 +10,18 @@ RedsHouse2FPCScript:
 	jumptext RedsHouse2FPCText
 
 RedsHouse2FN64Text:
-	text "<PLAYER> played the"
-	line "N64."
+	text "<PLAYER> speelde op" ; "<PLAYER> played the"
+	line "de N64." ; "N64."
 
-	para "Better get going--"
-	line "no time to lose!"
+	para "Laten we gaan--" ; "Better get going--"
+	line "geen tijd te" ; "no time to lose!"
+	cont "verliezen!" ;
 	done
 
 RedsHouse2FPCText:
-	text "It looks like it"
-	line "hasn't been used"
-	cont "in a long time…"
+	text "Zo te zien is" ; "It looks like it"
+	line "het al lange tijd" ; "hasn't been used"
+	cont "niet gebruikt…" ; "in a long time…"
 	done
 
 RedsHouse2F_MapEvents:

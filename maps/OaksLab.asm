@@ -79,176 +79,182 @@ OaksLabPC:
 
 OakWelcomeKantoText:
 	text "OAK: Ah, <PLAY_G>!"
-	line "It's good of you"
+	line "Goed dat je" ; "It's good of you"
 
-	para "to come all this"
-	line "way to KANTO."
+	para "helemaal naar" ; "to come all this"
+	line "KANTO bent ge-" ; "way to KANTO."
 
-	para "What do you think"
-	line "of the trainers"
+	para "komen. Wat denk" ; "What do you think"
+	line "je van de " ; "of the trainers"
 
-	para "out here?"
-	line "Pretty tough, huh?"
+	para "trainers hier?" ; "out here?"
+	line "Best sterk hè?" ; "Pretty tough, huh?"
 	done
 
 OakLabDexCheckText:
-	text "How is your #-"
-	line "DEX coming?"
+	text "Hoe gaat het" ; "How is your #-"
+	line "met je #DEX?" ; "DEX coming?"
 
-	para "Let's see…"
+	para "Eens zien…" ; "Let's see…"
 	done
 
 OakLabGoodbyeText:
-	text "If you're in the"
-	line "area, I hope you"
-	cont "come visit again."
+	text "Als je in de" ; "If you're in the"
+	line "buurt bent, hoop" ; "area, I hope you"
+	cont "ik dat je weer" ; "come visit again."
+	cont "op bezoek komt." ;
 	done
 
 OakOpenMtSilverText:
-	text "OAK: Wow! That's"
-	line "excellent!"
+	text "OAK: Wauw! Dat" ; "OAK: Wow! That's"
+	line "is geweldig!" ; "excellent!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO. Well done!"
+	para "Je hebt de BADGES" ; "You collected the"
+	line "van GYMS in KANTO" ; "BADGES of GYMS in"
+	cont "verzameld. Goed" ; "KANTO. Well done!"
 
-	para "I was right in my"
-	line "assessment of you."
+	para "bezig! Ik heb je" ; "I was right in my"
+	line "juist ingeschat." ; "assessment of you."
 
-	para "Tell you what,"
-	line "<PLAY_G>. I'll make"
+	para "Weet je wat," ; "Tell you what,"
+	line "<PLAY_G>. Ik zorg" ; "<PLAY_G>. I'll make"
 
-	para "arrangements so"
-	line "that you can go to"
-	cont "MT.SILVER."
+	para "dat je naar" ; "arrangements so"
+	line "ZILVERBERG kan" ; "that you can go to"
+	cont "gaan." ; "MT.SILVER."
 
-	para "MT.SILVER is a big"
-	line "mountain that is"
+	para "ZILVERBERG is een" ; "MT.SILVER is a big"
+	line "grote berg waar" ; "mountain that is"
 
-	para "home to many wild"
-	line "#MON."
+	para "veel wilde" ; "home to many wild"
+	line "#MON wonen." ; "#MON."
 
-	para "It's too dangerous"
-	line "for your average"
+	para "Het is te ge-" ; "It's too dangerous"
+	line "vaarlijk voor een" ; "for your average"
 
-	para "trainer, so it's"
-	line "off limits. But"
+	para "gewone trainer," ; "trainer, so it's"
+	line "dus is het ver-" ; "off limits. But"
 
-	para "we can make an"
-	line "exception in your"
-	cont "case, <PLAY_G>."
+	para "boden terrein." ; "we can make an"
+	line "Maar we kunnen" ; "exception in your"
+	cont "een uitzondering" ; "case, <PLAY_G>."
+	cont "maken in jouw" ;
+	cont "geval, <PLAY_G>." ;
 
-	para "Go up to INDIGO"
-	line "PLATEAU. You can"
+	para "Ga naar INDIGO-" ; "Go up to INDIGO"
+	line "PLATEAU. Je kan" ; "PLATEAU. You can"
 
-	para "reach MT.SILVER"
-	line "from there."
+	para "ZILVERBERG vanaf" ; "reach MT.SILVER"
+	line "daar bereiken." ; "from there."
 	done
 
 OakNoKantoBadgesText:
-	text "OAK: Hmm? You're"
-	line "not collecting"
-	cont "KANTO GYM BADGES?"
+	text "OAK: Hmm? Je" ; "OAK: Hmm? You're"
+	line "verzamelt geen" ; "not collecting"
+	cont "KANTO-GYMBADGES?" ; "KANTO GYM BADGES?"
 
-	para "The GYM LEADERS in"
-	line "KANTO are as tough"
+	para "De GYMLEIDERS in" ; "The GYM LEADERS in"
+	line "KANTO zijn net" ; "KANTO are as tough"
 
-	para "as any you battled"
-	line "in JOHTO."
+	para "zo sterk als die" ; "as any you battled"
+	line "je in JOHTO hebt" ; "in JOHTO."
+	cont "bevochten." ;
 
-	para "I recommend that"
-	line "you challenge"
-	cont "them."
+	para "Ik raad je aan" ; "I recommend that"
+	line "om ze uit te" ; "you challenge"
+	cont "dagen." ; "them."
 	done
 
 OakYesKantoBadgesText:
-	text "OAK: Ah, you're"
-	line "collecting KANTO"
-	cont "GYM BADGES."
+	text "OAK: Ah, je" ; "OAK: Ah, you're"
+	line "verzamelt KANTO-" ; "collecting KANTO"
+	cont "GYMBADGES." ; "GYM BADGES."
 
-	para "I imagine that"
-	line "it's hard, but the"
+	para "Ik kan me voor-" ; "I imagine that"
+	line "stellen dat het" ; "it's hard, but the"
 
-	para "experience is sure"
-	line "to help you."
+	para "moeilijk is, maar" ; "experience is sure"
+	line "de ervaring zal" ; "to help you."
 
-	para "Come see me when"
-	line "you get them all."
+	para "je helpen. Kom" ; "Come see me when"
+	line "langs als je ze" ; "you get them all."
+	cont "allemaal hebt." ;
 
-	para "I'll have a gift"
-	line "for you."
+	para "Ik zal je dan iets" ; "I'll have a gift"
+	line "geven." ; "for you."
 
-	para "Keep trying hard,"
+	para "Doe je best," ; "Keep trying hard,"
 	line "<PLAY_G>!"
 	done
 
 OaksAssistant1Text:
-	text "The PROF's #MON"
-	line "TALK radio program"
+	text "De PROF's #MON-" ; "The PROF's #MON"
+	line "PRAAT-radiopro-" ; "TALK radio program"
 
-	para "isn't aired here"
-	line "in KANTO."
+	para "gramma wordt" ; "isn't aired here"
+	line "niet in KANTO" ; "in KANTO."
+	cont "uitgezonden." ;
 
-	para "It's a shame--I'd"
-	line "like to hear it."
+	para "Jammer--Ik zou" ; "It's a shame--I'd"
+	line "'t graag horen." ; "like to hear it."
 	done
 
 OaksAssistant2Text:
-	text "Thanks to your"
-	line "work on the #-"
-	cont "DEX, the PROF's"
+	text "Dankzij je werk" ; "Thanks to your"
+	line "aan de #DEX" ; "work on the #-"
+	cont "is het onderzoek" ; "DEX, the PROF's"
 
-	para "research is coming"
-	line "along great."
+	para "van de PROF" ; "research is coming"
+	line "goed op weg." ; "along great."
 	done
 
 OaksAssistant3Text:
-	text "Don't tell anyone,"
-	line "but PROF.OAK'S"
+	text "Niemand vertellen," ; "Don't tell anyone,"
+	line "maar PROF.OAK'S" ; "but PROF.OAK'S"
 
-	para "#MON TALK isn't"
-	line "a live broadcast."
+	para "#MONPRAAT is geen" ; "#MON TALK isn't"
+	line "live uitzending." ; "a live broadcast."
 	done
 
 OaksLabPoster1Text:
-	text "Press START to"
-	line "open the MENU."
+	text "Druk op START om" ; "Press START to"
+	line "het MENU te openen." ; "open the MENU."
 	done
 
 OaksLabPoster2Text:
-	text "The SAVE option is"
-	line "on the MENU."
+	text "De OPSLAAN optie" ; "The SAVE option is"
+	line "is in het MENU." ; "on the MENU."
 
-	para "Use it in a timely"
-	line "manner."
+	para "Gebruik het" ; "Use it in a timely"
+	line "regelmatig." ; "manner."
 	done
 
 OaksLabTrashcanText:
-	text "There's nothing in"
-	line "here…"
+	text "Er zit niets" ; "There's nothing in"
+	line "in…" ; "here…"
 	done
 
 OaksLabPCText:
-	text "There's an e-mail"
-	line "message on the PC."
+	text "Er is een e-mail-" ; "There's an e-mail"
+	line "bericht op de PC." ; "message on the PC."
 
 	para "…"
 
-	para "PROF.OAK, how is"
-	line "your research"
-	cont "coming along?"
+	para "PROF.OAK, hoe" ; "PROF.OAK, how is"
+	line "gaat het met je" ; "your research"
+	cont "onderzoek?" ; "coming along?"
 
-	para "I'm still plugging"
-	line "away."
+	para "Ik ben nog steeds" ; "I'm still plugging"
+	line "aan het zwoegen." ; "away."
 
-	para "I heard rumors"
-	line "that <PLAY_G> is"
+	para "Ik hoor geruchten" ; "I heard rumors"
+	line "dat <PLAY_G> best" ; "that <PLAY_G> is"
 
-	para "getting quite a"
-	line "reputation."
+	para "een reputatie" ; "getting quite a"
+	line "begint te krijgen." ; "reputation."
 
-	para "I'm delighted to"
-	line "hear that."
+	para "Het verheugt me" ; "I'm delighted to"
+	line "dat te horen." ; "hear that."
 
 	para "ELM in NEW BARK"
 	line "TOWN 8-)"

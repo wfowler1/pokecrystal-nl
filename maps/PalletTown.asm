@@ -31,40 +31,42 @@ BluesHouseSign:
 	jumptext BluesHouseSignText
 
 PalletTownTeacherText:
-	text "I'm raising #-"
-	line "MON too."
+	text "Ik ben ook #MON" ; "I'm raising #-"
+	line "aan het opvoeden." ; "MON too."
 
-	para "They serve as my"
-	line "private guards."
+	para "Ze dienen als mijn" ; "They serve as my"
+	line "privébewakers." ; "private guards."
 	done
 
 PalletTownFisherText:
-	text "Technology is"
-	line "incredible!"
+	text "Technologie is" ; "Technology is"
+	line "waanzinnig!" ; "incredible!"
 
-	para "You can now trade"
-	line "#MON across"
-	cont "time like e-mail."
+	para "Je kan nu #MON" ; "You can now trade"
+	line "ruilen door de" ; "#MON across"
+	cont "tijd, net als" ; "time like e-mail."
+	cont "e-mail." ;
 	done
 
 PalletTownSignText:
 	text "PALLET TOWN"
 
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	para "Een Rustige Plek" ; "A Tranquil Setting"
+	line "van Vrede &" ; "of Peace & Purity"
+	cont "Reinheid." ;
 	done
 
 RedsHouseSignText:
-	text "RED'S HOUSE"
+	text "RED'S HUIS" ; "RED'S HOUSE"
 	done
 
 OaksLabSignText:
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "OAM #MON-" ; "OAK #MON"
+	line "ONDERZOEKSLAB" ; "RESEARCH LAB"
 	done
 
 BluesHouseSignText:
-	text "BLUE'S HOUSE"
+	text "BLUE'S HUIS" ; "BLUE'S HOUSE"
 	done
 
 PalletTown_MapEvents:

@@ -33,43 +33,44 @@ RedsHouse1FBookshelf:
 	jumpstd PictureBookshelfScript
 
 RedsMomText1:
-	text "Hi!"
+	text "Hoi!" ; "Hi!"
 
-	para "RED's been away"
-	line "for a long time."
+	para "RED is al lange" ; "RED's been away"
+	line "tijd weg." ; "for a long time."
 
-	para "He hasn't called"
-	line "either, so I have"
+	para "Hij heeft ook" ; "He hasn't called"
+	line "niet gebeld, dus" ; "either, so I have"
 
-	para "no idea where he"
-	line "is or what he's"
-	cont "been doing."
+	para "ik heb geen idee" ; "no idea where he"
+	line "waar hij is of" ; "is or what he's"
+	cont "wat ie doet." ; "been doing."
 
-	para "They say that no"
-	line "word is proof that"
+	para "Men zegt dat" ; "They say that no"
+	line "geen nieuws is" ; "word is proof that"
 
-	para "he's doing fine,"
-	line "but I do worry"
-	cont "about him."
+	para "goed nieuws," ; "he's doing fine,"
+	line "maar ik maak me" ; "but I do worry"
+	cont "toch zorgen." ; "about him."
 	done
 
 RedsMomText2:
-	text "I worry about RED"
-	line "getting hurt or"
+	text "Ik maak me zorgen" ; "I worry about RED"
+	line "dat RED gewond" ; "getting hurt or"
 
-	para "sick, but he's a"
-	line "boy. I'm proud"
+	para "raakt of ziek" ; "sick, but he's a" /Eline: a boy -> mijn jongen is expres zo vertaald.
+	line "wordt, maar hij" ; "boy. I'm proud"
 
-	para "that he is doing"
-	line "what he wants to"
+	para "is mijn jongen." ; "that he is doing"
+	line "Ik ben trots dat" ; "what he wants to"
 
-	para "do."
+	para "hij doet wat hij" ; "do."
+	line "wil doen." ;
 	done
 
 RedsHouse1FTVText:
-	text "They have programs"
-	line "that aren't shown"
-	cont "in JOHTO…"
+	text "Er zijn shows die" ; "They have programs"
+	line "niet in JOHTO wor-" ; "that aren't shown"
+	cont "den uitgezonden…" ; "in JOHTO…"
 	done
 
 RedsHouse1F_MapEvents:
