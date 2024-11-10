@@ -565,7 +565,7 @@ CamperTodd1BeatenText:
 	done
 
 CamperTodd1AfterText:
-	text "Moet er eentje naar" ; "Maybe I should"
+	text "Moet er één naar" ; "Maybe I should"
 	line "een DAGVERBLIJF," ; "take one to a DAY-"
 
 	para "of moet ik voor-" ; "CARE. Or maybe use"
@@ -581,7 +581,7 @@ CamperToddSaleText:
 	done
 
 PicnickerGina1SeenText:
-	text "Ben je een trainer?" ; "Are you a trainer?"
+	text "Ben je 'n trainer?" ; "Are you a trainer?"
 
 	para "Laten we een" ; "Let's have a"
 	line "oefenpotje doen." ; "practice battle."
@@ -642,8 +642,8 @@ PokefanmBrandonAfterText:
 	line "mijn #MON deze" ; "moves I didn't"
 	cont "aanvallen kenden." ; "know it had."
 
-	para "Daar snapte ik echt" ; "That confounded me"
-	line "niets van!" ; "to no end!"
+	para "Daar snapte ik" ; "That confounded me"
+	line "echt niets van!" ; "to no end!"
 	done
 
 CooltrainerfIreneSeenText:

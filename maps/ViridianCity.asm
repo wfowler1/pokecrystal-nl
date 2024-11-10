@@ -97,11 +97,11 @@ ViridianCityCoffeeGrampsQuestionText:
 	cont "dus jij bent de" ; "have to do!"
 
 	para "pineut. Ik zie er" ; "I might not look"
-	line "misschien zwak uit," ; "like much now, but"
+	line "wellicht zwak uit," ; "like much now, but"
 
-	para "maar ik was een" ; "I was an expert at"
-	line "expert in het vang-" ; "catching #MON."
-	cont "en van #MON." ;
+	para "maar ik was expert" ; "I was an expert at"
+	line "in het vangen" ; "catching #MON."
+	cont "van #MON." ;
 
 	para "Geloof je me?" ; "Do you believe me?"
 	done

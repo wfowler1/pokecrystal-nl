@@ -212,13 +212,13 @@ OaksAssistant3Text:
 	text "Niemand vertellen," ; "Don't tell anyone,"
 	line "maar PROF.OAK'S" ; "but PROF.OAK'S"
 
-	para "#MONPRAAT is geen" ; "#MON TALK isn't"
-	line "live uitzending." ; "a live broadcast."
+	para "#MONPRAAT is" ; "#MON TALK isn't"
+	line "niet live." ; "a live broadcast."
 	done
 
 OaksLabPoster1Text:
-	text "Druk op START om" ; "Press START to"
-	line "het MENU te openen." ; "open the MENU."
+	text "Druk met START het" ; "Press START to"
+	line "MENU." ; "open the MENU."
 	done
 
 OaksLabPoster2Text:
