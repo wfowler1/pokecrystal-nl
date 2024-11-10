@@ -409,206 +409,208 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	text "Een vreemde boom." "It's a weird tree."
+	line "Gebruik SPUITFLES?" "Use SQUIRTBOTTLE?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	text "<SPELER> gebruikte" "<PLAYER> used the"
+	line "de SPUITFLES." "SQUIRTBOTTLE."
 	done
 
 SudowoodoAttackedText:
-	text "The weird tree"
-	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	text "De vreemde boom" "The weird tree"
+	line "vindt de SPUITFLES" "doesn't like the"
+	cont "niet leuk!" "SQUIRTBOTTLE!"
 
-	para "The weird tree"
-	line "attacked!"
+	para "De vreemde boom" "The weird tree"
+	line "viel aan!" "attacked!"
 	done
 
 FloriaText1:
-	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
+	text "Ik ben FLORIA van" "I'm the FLOWER"
+	line "de BLOEMENWINKEL!" "SHOP's FLORIA!"
 
-	para "Listen, listen!"
+	para "Luister, luister!" "Listen, listen!"
 
-	para "When I sprinkled"
-	line "water on that"
+	para "Toen ik water" "When I sprinkled"
+	line "goot over die" "water on that"
 
-	para "wiggly tree, it"
-	line "jumped right up!"
+	para "wiebelboom, sprong" "wiggly tree, it"
+	line "ie meteen omhoog!" "jumped right up!"
 
-	para "It just has to be"
-	line "a #MON."
+	para "Het moet wel een" "It just has to be"
+	line "#MON zijn." "a #MON."
 
-	para "I bet it would be"
-	line "shocked out of its"
+	para "Wedden dat het" "I bet it would be"
+	line "uit z'n vermomming" "shocked out of its"
 
-	para "disguise if you"
-	line "soaked it!"
+	para "springt als je" "disguise if you"
+	line "het bewatert?" "soaked it!"
 
-	para "I know! I'll tell"
-	line "my sis and borrow"
-	cont "her water bottle!"
+	para "Ik weet het! Zeg" "I know! I'll tell"
+	line "het tegen m'n zus" "my sis and borrow"
+	cont "en leen haar fles!" "her water bottle!"
 	done
 
 FloriaText2:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Toen ik mijn zus" "When I told my sis"
+	line "over de wiebelende" "about the jiggly"
 
-	para "tree, she said"
-	line "it's dangerous."
+	para "boom vertelde, zei" "tree, she said"
+	line "ze dat het gevaar-" "it's dangerous."
+	cont "lijkt is."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
+	para "Misschien mag ik" "If I beat WHITNEY,"
+	line "de waterfles lenen" "I wonder if she'll"
 
-	para "lend me her water"
-	line "bottle…"
+	para "als ik WHITNEY" "lend me her water"
+	line "versla…" "bottle…"
 	done
 
 RockSmashGuyText1:
 	text "Wa-hey!"
 
-	para "I was going to"
-	line "snap that tree"
+	para "Ik ging die boom" "I was going to"
+	line "omhakken met" "snap that tree"
 
-	para "with my straight-"
-	line "arm punch."
+	para "mijn keiharde" "with my straight-"
+	line "karateslag." "arm punch."
 
-	para "But I couldn't!"
-	line "I'm a failure!"
+	para "Maar het mislukte!" "But I couldn't!"
+	line "Ik ben een kluns!" "I'm a failure!"
 	done
 
 RockSmashGuyText2:
-	text "Did you clear that"
-	line "wretched tree?"
+	text "Haalde jij die" "Did you clear that"
+	line "boom weg?" "wretched tree?"
 
-	para "I'm impressed!"
-	line "I want you to"
-	cont "have this."
+	para "Indrukwekkend!" "I'm impressed!"
+	line "Hier, dit mag je" "I want you to"
+	cont "hebben." "have this."
 	done
 
 Text_ReceivedTM08: ; unreferenced
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" "<PLAYER> received"
 	line "TM08."
 	done
 
 RockSmashGuyText3:
-	text "That happens to be"
-	line "ROCK SMASH."
+	text "Dat is toevallig" "That happens to be"
+	line "STEENKNAL." "ROCK SMASH."
 
-	para "You can shatter"
-	line "rocks with just a"
+	para "Het verbrijzelt" "You can shatter"
+	line "stenen met een" "rocks with just a"
 
-	para "single well-aimed"
-	line "smack."
+	para "goed gerichte" "single well-aimed"
+	line "smak." "smack."
 
-	para "If any rocks are"
-	line "in your way, just"
-	cont "smash 'em up!"
+	para "Als rotsen in de" "If any rocks are"
+	line "weg staan, ram" "in your way, just"
+	cont "ze kapot!" "smash 'em up!"
 	done
 
 UnusedOddTreeText: ; unreferenced
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Een vreemde boom" "An odd tree is"
+	line "blokkeert de weg" "blocking the way"
+	cont "naar GOLDENROD." "to GOLDENROD CITY."
 
-	para "I wanted to go see"
-	line "the huge #MON"
+	para "Ik wilde het" "I wanted to go see"
+	line "pas geopende," "the huge #MON"
 
-	para "CENTER they just"
-	line "opened…"
+	para "gigantische #-" "CENTER they just"
+	line "MONCENTRUN zien…" "opened…"
 	done
 
 Route36LassText:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Een vreemde boom" "An odd tree is"
+	line "blokkeert de weg" "blocking the way"
+	cont "naar GOLDENROD." "to GOLDENROD CITY."
 
-	para "It's preventing"
-	line "me from shopping."
+	para "Daardoor kan ik" "It's preventing"
+	line "er niet shoppen." "me from shopping."
 
-	para "Something should"
-	line "be done about it."
+	para "Iemand zou er iets" "Something should"
+	line "aan moeten doen." "be done about it."
 	done
 
 Route36LassText_ClearedSudowoodo:
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "Die vreemde boom" "That odd tree dis-"
+	line "is spoorloos" "appeared without a"
+	cont "verdwenen." "trace."
 
-	para "Oh! That tree was"
-	line "really a #MON?"
+	para "Oh! Was het eigen-" "Oh! That tree was"
+	line "lijkt een #MON?" "really a #MON?"
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "Ik ga je gedachten" "I'm going to read"
+	line "lezen!" "your thoughts!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "Verkeerd gelezen!" "I misread you!"
 	done
 
 PsychicMarkAfterBattleText:
-	text "I'd be strong if"
-	line "only I could tell"
+	text "Als ik wist wat" "I'd be strong if"
+	line "de ander denkt," "only I could tell"
 
-	para "what my opponent"
-	line "was thinking."
+	para "zou ik sterker" "what my opponent"
+	line "zijn." "was thinking."
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #MON!"
+	text "Dankzij mijn" "Thanks to my stud-"
+	line "studie ben ik" "ies, I'm ready for"
+	cont "klaar voor iedere" "any #MON!"
+	cont "#MON!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "Oeps! Rekenfout" "Oops! Computation"
+	line "gemaakt?" "error?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Bah. Ik studeer" "Darn. I study five"
+	line "vijf uur per dag." "hours a day too."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Maar er komt meer" "There's more to"
+	line "bij leren kijken" "learning than just"
+	cont "dan boeken lezen." "reading books."
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
-	line "you?"
+	text "ARTHUR: Wie ben" "ARTHUR: Who are"
+	line "jij?" "you?"
 
-	para "I'm ARTHUR of"
-	line "Thursday."
+	para "Ik ben donderdagse" "I'm ARTHUR of"
+	line "ARTHUR." "Thursday."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Hier. Dit mag je" "Here. You can have"
+	line "hebben." "this."
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
-	line "that uses rock-"
+	text "ARTHUR: Een #-" "ARTHUR: A #MON"
+	line "MON met rots-type" "that uses rock-"
 
-	para "type moves should"
-	line "hold on to that."
+	para "aanvallen moet dat" "type moves should"
+	line "vasthouden." "hold on to that."
 
-	para "It pumps up rock-"
-	line "type attacks."
+	para "Het maakt rots-" "It pumps up rock-"
+	line "aanvallen sterker." "type attacks."
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
-	line "of Thursday. I'm"
+	text "ARTHUR: Ik ben" "ARTHUR: I'm ARTHUR"
+	line "donderdagse" "of Thursday. I'm"
 
-	para "the second son out"
-	line "of seven children."
+	para "ARTHUR. Tweede van" "the second son out"
+	line "zeven kinderen." "of seven children."
 	done
 
 ArthurNotThursdayText:
@@ -627,7 +629,7 @@ RuinsOfAlphNorthSignText:
 	done
 
 Route36TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS"
 
 	para "#MON stats"
 	line "vary--even within"
@@ -644,7 +646,7 @@ Route36TrainerTips1Text:
 	done
 
 Route36TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS"
 
 	para "Use DIG to return"
 	line "to the entrance of"
