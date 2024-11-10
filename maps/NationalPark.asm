@@ -504,7 +504,7 @@ NationalParkBattleNoticeText:
 	done
 
 NationalParkTrainerTipsText:
-	text "TRAINERTIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
 	para "Print POST door 't" ; "Print out MAIL by"
 	line "te openen en op" ; "opening it then"
