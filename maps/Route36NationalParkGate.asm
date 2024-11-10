@@ -474,7 +474,7 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	step_end
 
 Route36NationalParkGateOfficer1AskToParticipateText:
-	text "Vandaag is @" ; "Today's @"
+	text "Het is @" ; "Today's @"
 	text_ram wStringBuffer3 ; Day of the week MaxLength 9
 	text "."
 	line "De dag van het" ; "That means the"
