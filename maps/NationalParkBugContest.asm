@@ -116,102 +116,102 @@ NationalParkBugContestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 BugCatchingContestant1AText:
-	text "DON: Ik ga winnen!" "DON: I'm going to"
-	line "Beter laat je me" "win! Don't bother"
-	cont "met rust." "me."
+	text "DON: Ik ga winnen!" ; "DON: I'm going to"
+	line "Beter laat je me" ; "win! Don't bother"
+	cont "met rust." ; "me."
 	done
 
 BugCatchingContestant2AText:
-	text "ED: Mijn PARASECT" "ED: My PARASECT"
-	line "brengt #MON in" "puts #MON to"
-	cont "slaap met SPOOR." "sleep with SPORE."
+	text "ED: Mijn PARASECT" ; "ED: My PARASECT"
+	line "brengt #MON in" ; "puts #MON to"
+	cont "slaap met SPOOR." ; "sleep with SPORE."
 	done
 
 BugCatchingContestant3AText:
-	text "NICK: Ik train" "NICK: I'm raising"
-	line "snelle #MON" "fast #MON for"
-	cont "voor gevechten." "battles."
+	text "NICK: Ik train" ; "NICK: I'm raising"
+	line "snelle #MON" ; "fast #MON for"
+	cont "voor gevechten." ; "battles."
 	done
 
 BugCatchingContestant4AText:
-	text "WILLIAM: Ik ben" "WILLIAM: I'm not"
-	line "niet echt bezig" "concerned about"
-	cont "met winnen." "winning."
+	text "WILLIAM: Ik ben" ; "WILLIAM: I'm not"
+	line "niet echt bezig" ; "concerned about"
+	cont "met winnen." ; "winning."
 
-	para "Ik zoek naar" "I'm just looking"
-	line "zeldzame #MON." "for rare #MON."
+	para "Ik zoek naar" ; "I'm just looking"
+	line "zeldzame #MON." ; "for rare #MON."
 	done
 
 BugCatchingContestant5AText:
-	text "BENNY: Ssh! Je" "BENNY: Ssh! You'll"
-	line "jaagt SCYTHER weg." "scare off SCYTHER."
+	text "BENNY: Ssh! Je" ; "BENNY: Ssh! You'll"
+	line "jaagt SCYTHER weg." ; "scare off SCYTHER."
 
-	para "Ik spreek je" "I'll talk to you"
-	line "later." "later."
+	para "Ik spreek je" ; "I'll talk to you"
+	line "later." ; "later."
 	done
 
 BugCatchingContestant6AText:
-	text "BARRY: Je moet" "BARRY: You should"
-	line "insect-#MON" "weaken bug #MON"
+	text "BARRY: Je moet" ; "BARRY: You should"
+	line "insect-#MON" ; "weaken bug #MON"
 
-	para "verzwakken en dan" "first, then throw"
-	line "een BAL gooien." "a BALL."
+	para "verzwakken en dan" ; "first, then throw"
+	line "een BAL gooien." ; "a BALL."
 	done
 
 BugCatchingContestant7AText:
-	text "CINDY: Ik hou van" "CINDY: I love bug"
-	line "insect-#MON." "#MON."
+	text "CINDY: Ik hou van" ; "CINDY: I love bug"
+	line "insect-#MON." ; "#MON."
 
-	para "Jij lijkt ze ook" "I guess you must"
-	line "leuk te vinden." "like them too."
+	para "Jij lijkt ze ook" ; "I guess you must"
+	line "leuk te vinden." ; "like them too."
 	done
 
 BugCatchingContestant8AText:
-	text "JOSH: Ik verzamel" "JOSH: I've been"
-	line "al insect-#MON" "collecting bug"
+	text "JOSH: Ik verzamel" ; "JOSH: I've been"
+	line "al insect-#MON" ; "collecting bug"
 
-	para "sinds ik een baby" "#MON since I"
-	line "was." "was just a baby."
+	para "sinds ik een baby" ; "#MON since I"
+	line "was." ; "was just a baby."
 
-	para "Ik ga dit absoluut" "There's no way I'm"
-	line "niet verliezen!" "going to lose!"
+	para "Ik ga dit absoluut" ; "There's no way I'm"
+	line "niet verliezen!" ; "going to lose!"
 	done
 
 BugCatchingContestant9AText:
-	text "SAMUEL: Als je" "SAMUEL: If you've"
-	line "tijd hebt om te" "got the time to"
+	text "SAMUEL: Als je" ; "SAMUEL: If you've"
+	line "tijd hebt om te" ; "got the time to"
 
-	para "kletsen, zoek dan" "chat, go find some"
-	line "wat insect-#MON." "bug #MON."
+	para "kletsen, zoek dan" ; "chat, go find some"
+	line "wat insect-#MON." ; "bug #MON."
 	done
 
 BugCatchingContestant10AText:
-	text "KIPP: Ik heb" "KIPP: I've studied"
-	line "insect-#MON" "about bug #MON"
-	cont "veel bestudeerd." "a lot."
+	text "KIPP: Ik heb" ; "KIPP: I've studied"
+	line "insect-#MON" ; "about bug #MON"
+	cont "veel bestudeerd." ; "a lot."
 
-	para "Ik ga dit vast en" "I'm going to win"
-	line "zeker winnen." "for sure."
+	para "Ik ga dit vast en" ; "I'm going to win"
+	line "zeker winnen." ; "for sure."
 	done
 
 NationalParkBugContestRelaxationSquareText:
-	text "ONTSPANPLEIN" "RELAXATION SQUARE"
-	line "NATIONAAL PARK" "NATIONAL PARK"
+	text "ONTSPANPLEIN" ; "RELAXATION SQUARE"
+	line "NATIONAAL PARK" ; "NATIONAL PARK"
 	done
 
 NationalParkBugContestBattleNoticeText:
-	text "Wat is dit voor" "What is this"
-	line "bericht?" "notice?"
+	text "Wat is dit voor" ; "What is this"
+	line "bericht?" ; "notice?"
 
-	para "Gelieve alleen in" "Please battle only"
-	line "het gras vechten." "in the grass."
+	para "Gelieve alleen in" ; "Please battle only"
+	line "het gras vechten." ; "in the grass."
 
-	para "NATIONAAL PARK" "NATIONAL PARK"
-	line "BOSWACHTERSHUISJE" "WARDEN'S OFFICE"
+	para "NATIONAAL PARK" ; "NATIONAL PARK"
+	line "BOSWACHTERSHUISJE" ; "WARDEN'S OFFICE"
 	done
 
 NationalParkBugContestTrainerTipsText:
-	text "TRAINERTIPS" "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
 	para "Print POST door 't" ; "Print out MAIL by"
 	line "te openen en op" ; "opening it then"
