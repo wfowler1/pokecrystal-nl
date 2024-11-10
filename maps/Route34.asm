@@ -740,7 +740,7 @@ Route34SignText:
 	done
 
 Route34TrainerTipsText:
-	text "TRAINERTIPS" ; "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINERTIPS"
 
 	para "Er groeien elke" ; "BERRY trees grow"
 	line "dag nieuwe BESSEN" ; "new BERRIES"
