@@ -116,106 +116,106 @@ NationalParkBugContestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 BugCatchingContestant1AText:
-	text "DON: I'm going to"
-	line "win! Don't bother"
-	cont "me."
+	text "DON: Ik ga winnen!" "DON: I'm going to"
+	line "Beter laat je me" "win! Don't bother"
+	cont "met rust." "me."
 	done
 
 BugCatchingContestant2AText:
-	text "ED: My PARASECT"
-	line "puts #MON to"
-	cont "sleep with SPORE."
+	text "ED: Mijn PARASECT" "ED: My PARASECT"
+	line "brengt #MON in" "puts #MON to"
+	cont "slaap met SPOOR." "sleep with SPORE."
 	done
 
 BugCatchingContestant3AText:
-	text "NICK: I'm raising"
-	line "fast #MON for"
-	cont "battles."
+	text "NICK: Ik train" "NICK: I'm raising"
+	line "snelle #MON" "fast #MON for"
+	cont "voor gevechten." "battles."
 	done
 
 BugCatchingContestant4AText:
-	text "WILLIAM: I'm not"
-	line "concerned about"
-	cont "winning."
+	text "WILLIAM: Ik ben" "WILLIAM: I'm not"
+	line "niet echt bezig" "concerned about"
+	cont "met winnen." "winning."
 
-	para "I'm just looking"
-	line "for rare #MON."
+	para "Ik zoek naar" "I'm just looking"
+	line "zeldzame #MON." "for rare #MON."
 	done
 
 BugCatchingContestant5AText:
-	text "BENNY: Ssh! You'll"
-	line "scare off SCYTHER."
+	text "BENNY: Ssh! Je" "BENNY: Ssh! You'll"
+	line "jaagt SCYTHER weg." "scare off SCYTHER."
 
-	para "I'll talk to you"
-	line "later."
+	para "Ik spreek je" "I'll talk to you"
+	line "later." "later."
 	done
 
 BugCatchingContestant6AText:
-	text "BARRY: You should"
-	line "weaken bug #MON"
+	text "BARRY: Je moet" "BARRY: You should"
+	line "insect-#MON" "weaken bug #MON"
 
-	para "first, then throw"
-	line "a BALL."
+	para "verzwakken en dan" "first, then throw"
+	line "een BAL gooien." "a BALL."
 	done
 
 BugCatchingContestant7AText:
-	text "CINDY: I love bug"
-	line "#MON."
+	text "CINDY: Ik hou van" "CINDY: I love bug"
+	line "insect-#MON." "#MON."
 
-	para "I guess you must"
-	line "like them too."
+	para "Jij lijkt ze ook" "I guess you must"
+	line "leuk te vinden." "like them too."
 	done
 
 BugCatchingContestant8AText:
-	text "JOSH: I've been"
-	line "collecting bug"
+	text "JOSH: Ik verzamel" "JOSH: I've been"
+	line "al insect-#MON" "collecting bug"
 
-	para "#MON since I"
-	line "was just a baby."
+	para "sinds ik een baby" "#MON since I"
+	line "was." "was just a baby."
 
-	para "There's no way I'm"
-	line "going to lose!"
+	para "Ik ga dit absoluut" "There's no way I'm"
+	line "niet verliezen!" "going to lose!"
 	done
 
 BugCatchingContestant9AText:
-	text "SAMUEL: If you've"
-	line "got the time to"
+	text "SAMUEL: Als je" "SAMUEL: If you've"
+	line "tijd hebt om te" "got the time to"
 
-	para "chat, go find some"
-	line "bug #MON."
+	para "kletsen, zoek dan" "chat, go find some"
+	line "wat insect-#MON." "bug #MON."
 	done
 
 BugCatchingContestant10AText:
-	text "KIPP: I've studied"
-	line "about bug #MON"
-	cont "a lot."
+	text "KIPP: Ik heb" "KIPP: I've studied"
+	line "insect-#MON" "about bug #MON"
+	cont "veel bestudeerd." "a lot."
 
-	para "I'm going to win"
-	line "for sure."
+	para "Ik ga dit vast en" "I'm going to win"
+	line "zeker winnen." "for sure."
 	done
 
 NationalParkBugContestRelaxationSquareText:
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "ONTSPANPLEIN" "RELAXATION SQUARE"
+	line "NATIONAAL PARK" "NATIONAL PARK"
 	done
 
 NationalParkBugContestBattleNoticeText:
-	text "What is this"
-	line "notice?"
+	text "Wat is dit voor" "What is this"
+	line "bericht?" "notice?"
 
-	para "Please battle only"
-	line "in the grass."
+	para "Gelieve alleen in" "Please battle only"
+	line "het gras vechten." "in the grass."
 
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	para "NATIONAAL PARK" "NATIONAL PARK"
+	line "BOSWACHTERSHUISJE" "WARDEN'S OFFICE"
 	done
 
 NationalParkBugContestTrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" "TRAINER TIPS"
 
-	para "Print out MAIL by"
-	line "opening it then"
-	cont "pressing START."
+	para "Print POST door 't" ; "Print out MAIL by"
+	line "te openen en op" ; "opening it then"
+	cont "START te drukken." ; "pressing START."
 	done
 
 NationalParkBugContest_MapEvents:
