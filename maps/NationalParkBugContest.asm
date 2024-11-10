@@ -182,7 +182,7 @@ BugCatchingContestant9AText:
 	line "tijd hebt om te" ; "got the time to"
 
 	para "kletsen, zoek dan" ; "chat, go find some"
-	line "wat insect-#MON." ; "bug #MON."
+	line "insect-#MON." ; "bug #MON."
 	done
 
 BugCatchingContestant10AText:
