@@ -1,11 +1,11 @@
-	db "SHARP CLAW@" ; species name
+	db "KLAUW@" ; species name
 	db 9 ; height
 	dw 280 ; weight
 
-	db   "This cunning"
-	next "#MON hides"
-	next "under the cover"
+	db   "Deze listige" ; "This cunning"
+	next "#MON verbergt" ; "#MON hides"
+	next "in het duister" ; "under the cover"
 
-	page "of darkness,"
-	next "waiting to attack"
-	next "its prey.@"
+	page "van de nacht," ; "of darkness,"
+	next "wachtend om een" ; "waiting to attack"
+	next "prooi te pakken.@" ; "its prey.@"

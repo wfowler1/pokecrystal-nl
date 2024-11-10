@@ -1,11 +1,11 @@
-	db "ELECTRIC@" ; species name
+	db "ELEKTRISCH@" ; "ELECTRIC@" ; species name
 	db 16 ; height
 	dw 526 ; weight
 
-	db   "Legendary bird"
-	next "#MON. They say"
-	next "lightning caused"
+	db   "Legendarische" ; "Legendary bird"
+	next "vogel-#MON. Men" ; "#MON. They say"
+	next "zegt dat bliksem" ; "lightning caused"
 
-	page "by the flapping of"
-	next "its wings causes"
-	next "summer storms.@"
+	page "van de vleugels" ; "by the flapping of"
+	next "zomerstormen" ; "its wings causes"
+	next "veroorzaakt.@" ; "summer storms.@"

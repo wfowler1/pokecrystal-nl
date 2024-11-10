@@ -1,11 +1,11 @@
-	db "MYSTERIOUS@" ; species name
+	db "MYSTERIEUS@" ; "MYSTERIOUS@" ; species name
 	db 11 ; height
 	dw 800 ; weight
 
-	db   "It is said that it"
-	next "uses the seven-"
-	next "colored core of"
+	db   "Men zegt dat de" ; "It is said that it"
+	next "zevenkleurige kern" ; "uses the seven-"
+	next "in het lichaam" ; "colored core of"
 
-	page "its body to send"
-	next "electric waves"
-	next "into outer space.@"
+	page "elektrische golven" ; "its body to send"
+	next "de ruimte in kan" ; "electric waves"
+	next "sturen.@" ; "into outer space.@"

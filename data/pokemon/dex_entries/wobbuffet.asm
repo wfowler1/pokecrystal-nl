@@ -1,11 +1,11 @@
-	db "PATIENT@" ; species name
+	db "GEDULDIG@" ; "PATIENT@" ; species name
 	db 13 ; height
 	dw 285 ; weight
 
-	db   "In order to con-"
-	next "ceal its black"
-	next "tail, it lives in"
+	db   "Verbergt de zwarte" ; "In order to con-"
+	nex  "staart door in" ; "ceal its black"
+	next "een donkere grot" ; "tail, it lives in"
 
-	page "a dark cave and"
-	next "only moves about"
-	next "at night.@"
+	page "te wonen en alleen" ; "a dark cave and"
+	next "te bewegen in de" ; "only moves about"
+	next "nacht.@" ; "at night.@"

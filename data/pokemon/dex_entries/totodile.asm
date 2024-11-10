@@ -1,4 +1,4 @@
-	db "BIG JAW@" ; species name
+	db "GROOTKAAK@" ; "BIG JAW@" ; species name
 	db 6 ; height
 	dw 95 ; weight
 
@@ -9,4 +9,4 @@
 
 	page "het ziet. Je rug" ; "sees. Turning your"
 	next "naar het toekeren" ; "back on it is not"
-	next "wordt niet aanbevolen.@" ; "recommended.@"
+	next "is onverstandig.@" ; "recommended.@"

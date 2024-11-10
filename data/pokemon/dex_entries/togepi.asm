@@ -1,11 +1,11 @@
-	db "SPIKE BALL@" ; species name
+	db "STEKELBAL@" ; "SPIKE BALL@" ; species name
 	db 3 ; height
 	dw 15 ; weight
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
+	db   "Wordt gezien als" ; "It is considered"
+	next "teken van geluk." ; "to be a symbol of"
+	next "De eierschaal zou" ; "good luck. Its"
 
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	page "zijn gevuld met" ; "shell is said to"
+	next "ontzettend veel" ; "be filled with"
+	next "blijdschap.@" ; "happiness.@"

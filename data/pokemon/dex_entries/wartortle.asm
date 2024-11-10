@@ -1,11 +1,11 @@
-	db "TURTLE@" ; species name
+	db "SCHILDPAD@" ; "TURTLE@" ; species name
 	db 10 ; height
 	dw 225 ; weight
 
-	db   "Its long, furry"
-	next "tail is a symbol"
-	next "of longevity,"
+	db   "De lange, harige" ; "Its long, furry"
+	next "staart is een" ; "tail is a symbol"
+	next "teken van een" ; "of longevity,"
 
-	page "making it quite"
-	next "popular among"
-	next "older people.@"
+	page "lang leven. Wat" ; "making it quite"
+	next "het populair maakt" ; "popular among"
+	next "bij bejaarden.@" ; "older people.@"

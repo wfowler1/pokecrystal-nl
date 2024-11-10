@@ -1,11 +1,11 @@
-	db "ARMOR BIRD@" ; species name
+	db "IJZERVOGEL@" ; species name
 	db 17 ; height
 	dw 505 ; weight
 
-	db   "The feathers that"
-	next "it sheds are very"
-	next "sharp. It is said"
+	db   "Heeft veren die" ; "The feathers that"
+	next "messcherp zijn." ; "it sheds are very"
+	next "Men zegt dat" ; "sharp. It is said"
 
-	page "that people once"
-	next "used the feathers"
-	next "as swords.@"
+	page "mensen deze veren" ; "veren ooit door" ; "that people once"
+	next "ooit als zwaarden" ; "used the feathers"
+	next "gebruikten.@" ; "as swords.@"

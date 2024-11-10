@@ -1,11 +1,11 @@
-	db "KISS@" ; species name
+	db "KUS@" ; species name
 	db 4 ; height
 	dw 60 ; weight
 
-	db   "The sensitivity of"
-	next "its lips develops"
-	next "most quickly."
+	db   "De gevoeligheid" ; "The sensitivity of"
+	next "van de lippen" ; "its lips develops"
+	next "ontwikkelt snel." ; "most quickly."
 
-	page "It uses them to"
-	next "try to identify"
-	next "unknown objects.@"
+	page "Die gebruikt het" ; "It uses them to"
+	next "om objecten te" ; "try to identify"
+	next "te identificeren.@" ; "unknown objects.@"

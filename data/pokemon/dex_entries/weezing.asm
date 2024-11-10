@@ -1,11 +1,11 @@
-	db "POISON GAS@" ; species name
+	db "GIFGAS@" ; "POISON GAS@" ; species name
 	db 12 ; height
 	dw 95 ; weight
 
-	db   "When it inhales"
-	next "poisonous gases"
-	next "from garbage, its"
+	db   "Als het giftige" ; "When it inhales"
+	next "gassen uit afval" ; "poisonous gases"
+	next "inademt, groeit" ; "from garbage, its"
 
-	page "body expands, and"
-	next "its insides smell"
-	next "much worse.@"
+	page "het lichaam en" ; "body expands, and"
+	next "gaat de binnenkant" ; "its insides smell"
+	next "nog meer stinken.@" ; "much worse.@"

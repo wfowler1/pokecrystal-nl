@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; "VOLCANO@" ; species name
 	db 17 ; height
 	dw 795 ; weight
 
-	db   "When heat from its"
-	next "body causes the"
-	next "air around it to"
+	db   "Als hitte van het" ; "When heat from its"
+	next "lichaam de lucht" ; "body causes the"
+	next "laat glinsteren," ; "air around it to"
 
-	page "shimmer, this is a"
-	next "sign that it is"
-	next "ready to battle.@"
+	page "is dat een teken" ; "shimmer, this is a"
+	next "dat het klaar is" ; "sign that it is"
+	next "om te vechten.@" ; "ready to battle.@"

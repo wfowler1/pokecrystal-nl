@@ -1,11 +1,11 @@
-	db "BIG HORN@" ; species name
+	db "GROOTHOORN@" ; "BIG HORN@" ; species name
 	db 14 ; height
 	dw 712 ; weight
 
-	db   "The round balls"
-	next "found on the"
-	next "fallen antlers can"
+	db   "De ronde ballen" ; "The round balls"
+	next "in gevallen" ; "found on the"
+	next "geweien kunnen" ; "fallen antlers can"
 
-	page "be ground into a"
-	next "powder that aids"
-	next "in sleeping.@"
+	page "worden vermalen" ; "be ground into a"
+	next "tot een speciaal" ; "powder that aids"
+	next "slaappoeder.@" ; "in sleeping.@"

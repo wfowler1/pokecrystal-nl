@@ -1,11 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "KATOENWIET@" ; species name
 	db 6 ; height
 	dw 10 ; weight
 
-	db   "As soon as it"
-	next "rains, it closes"
-	next "its flower and"
+	db   "Zodra het regent," ; "As soon as it"
+	next "sluit de bloem en" ; "rains, it closes"
+	next "verbergt de #-" ; "its flower and"
 
-	page "hides in the shade"
-	next "of a tree to avoid"
-	next "getting wet.@"
+	page "MON in de schaduw" ; "hides in the shade"
+	next "van een boom om" ; "of a tree to avoid"
+	next "droog te blijven.@" ; "getting wet.@"

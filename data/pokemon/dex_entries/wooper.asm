@@ -1,11 +1,11 @@
-	db "WATER FISH@" ; species name
+	db "WATERVIS@" ; "WATER FISH@" ; species name
 	db 4 ; height
 	dw 85 ; weight
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
+	db   "Een slijmerig" ; "A mucous"
+	next "membraan bedekt" ; "membrane covers"
+	next "het lijf. Ver-"  "its body. Touching"
 
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	page "oorzaakt een" ; "it barehanded will"
+	next "stekende pijn bij" ; "cause a shooting"
+	next "aanraking.@" ; "pain.@"

@@ -1,11 +1,11 @@
-	db "MYSTIC@" ; species name
+	db "MYSTIEK@" ; "MYSTIC@" ; species name
 	db 15 ; height
 	dw 150 ; weight
 
-	db   "Once it begins to"
-	next "meditate at sun-"
-	next "rise, the entire"
+	db   "Zodra het begint" ; "Once it begins to"
+	next "begint met medi-" ; "meditate at sun-"
+	next "teren bij zons-" ; "rise, the entire"
 
-	page "day will pass"
-	next "before it will"
-	next "move again.@"
+	page "opgang, zit het" ; "day will pass"
+	next "de gehele dag" ; "before it will"
+	next "stil.@" ; "move again.@"
