@@ -373,7 +373,7 @@ HappinessText1:
 	line "niet getemd." ; "your #MON."
 
 	para "Als je niet aardig" ; "If you aren't"
-	line "doet, zeurt het." ; "nice, it'll pout."
+	line "doet, moppert het." ; "nice, it'll pout."
 	done
 
 RegisteredNumber1Text:
