@@ -3,7 +3,7 @@
 	dw 285 ; weight
 
 	db   "Verbergt de zwarte" ; "In order to con-"
-	nex  "staart door in" ; "ceal its black"
+	next  "staart door in" ; "ceal its black"
 	next "een donkere grot" ; "tail, it lives in"
 
 	page "te wonen en alleen" ; "a dark cave and"
