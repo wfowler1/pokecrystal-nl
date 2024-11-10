@@ -502,7 +502,7 @@ Route36NationalParkGateOfficer1GiveParkBallsText:
 	done
 
 Route36NationalParkGatePlayerReceivedParkBallsText:
-	text "<PLAYER> ontving>" ; "<PLAYER> received"
+	text "<PLAYER> kreeg" ; "<PLAYER> received"
 	line "{d:BUG_CONTEST_BALLS} PARKBALLEN." ; "{d:BUG_CONTEST_BALLS} PARK BALLS."
 	done
 
