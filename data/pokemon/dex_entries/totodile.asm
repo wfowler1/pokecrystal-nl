@@ -5,8 +5,8 @@
 	; TODO: Strings too long
 	db   "Dit ruwe beestje" ; "This rough critter"
 	next "bijt naar elk" ; "chomps at any"
-	next "bewegend object dat" ; "moving object it"
+	next "bewegend object" ; "moving object it"
 
-	page "het ziet. Je rug" ; "sees. Turning your"
-	next "naar het toekeren" ; "back on it is not"
+	page "dat het ziet. Je" ; "sees. Turning your"
+	next "rug toekeren" ; "back on it is not"
 	next "is onverstandig.@" ; "recommended.@"

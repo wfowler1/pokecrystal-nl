@@ -377,15 +377,15 @@ HappinessText1:
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> schreef" ; "<PLAYER> registered"
+	text "<PLAYER> bewaarde" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text "'s nummer op." ; "'s number."
+	text "'s nummer." ; "'s number."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> schreef" ; "<PLAYER> registered"
+	text "<PLAYER> bewaarde" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text "'s nummer op." ; "'s number."
+	text "'s nummer." ; "'s number."
 	done

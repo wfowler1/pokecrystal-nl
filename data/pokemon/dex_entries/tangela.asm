@@ -1,4 +1,4 @@
-	db "RANK" ; "VINE@" ; species name
+	db "RANK@" ; "VINE@" ; species name
 	db 10 ; height
 	dw 350 ; weight
 

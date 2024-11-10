@@ -1,4 +1,4 @@
-	db "SCHILDPADJE" ; "TINYTURTLE@" ; species name
+	db "SCHILDPADJE@" ; "TINYTURTLE@" ; species name
 	db 5 ; height
 	dw 90 ; weight
 
