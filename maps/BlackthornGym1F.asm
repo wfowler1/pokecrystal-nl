@@ -194,7 +194,7 @@ ClairText_GoToDragonsDen:
 	line "moet de draken-" ; "take the dragon"
 	cont "test doen" ; "user challenge."
 
-	para "Achter deze GYM is " ; "Behind this GYM is"
+	para "Achter deze GYM is" ; "Behind this GYM is"
 	line "een plek genaamd" ; "a place called"
 	cont "de DRAKENGROT." ; "DRAGON'S DEN."
 
@@ -273,7 +273,7 @@ BlackthornGymClairText_League:
 	line "verliezen bij de" ; "lose at the #-"
 	cont "#MON-LEAGUE!" ; "MON LEAGUE!"
 
-	para "Als je dat wel doet" ; "If you do, I'll"
+	para "Als je dat doet," ; "If you do, I'll"
 	line "baal ik nog meer" ; "feel even worse"
 
 	para "van mijn verlies" ; "about having lost"
