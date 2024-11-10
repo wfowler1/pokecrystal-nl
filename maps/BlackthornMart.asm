@@ -21,27 +21,27 @@ BlackthornMartBlackBeltScript:
 	jumptextfaceplayer BlackthornMartBlackBeltText
 
 BlackthornMartCooltrainerMText:
-	text "You can't buy MAX"
-	line "REVIVE, but it"
+	text "MAXOPWEKKER kun je" ; "You can't buy MAX"
+	line "niet kopen, maar" ; "REVIVE, but it"
 
-	para "fully restores a"
-	line "fainted #MON."
+	para "het herstelt een" ; "fully restores a"
+	line "#MON volledig." ; "fainted #MON."
 
-	para "Beware--it won't"
-	line "restore PP, the"
+	para "Let op--AP worden" ; "Beware--it won't"
+	line "niet hersteld, de" ; "restore PP, the"
 
-	para "POWER POINTS"
-	line "needed for moves."
+	para "ACTIEPUNTEN nodig" ; "POWER POINTS"
+	line "voor aanvallen." ; "needed for moves."
 	done
 
 BlackthornMartBlackBeltText:
-	text "MAX REPEL keeps"
-	line "weak #MON away"
-	cont "from you."
+	text "MAXVERDRIJF houdt" ; "MAX REPEL keeps"
+	line "zwakke #MON bij" ; "weak #MON away"
+	cont "je weg." ; "from you."
 
-	para "It's the longest"
-	line "lasting of the"
-	cont "REPEL sprays."
+	para "Het is de langst-" ; "It's the longest"
+	line "durende versie van" ; "lasting of the"
+	cont "VERDRIJF-sprays." ; "REPEL sprays."
 	done
 
 BlackthornMart_MapEvents:

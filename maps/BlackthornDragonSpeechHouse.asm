@@ -25,18 +25,18 @@ BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "A clan of trainers"
-	line "who can freely"
+	text "Een clan met" "A clan of trainers"
+	line "trainers die" "who can freely"
 
-	para "command dragons"
-	line "live right here in"
+	para "draken commanderen" "command dragons"
+	line "woont hier in" "live right here in"
 	cont "BLACKTHORN."
 
-	para "As a result, there"
-	line "are many legends"
+	para "Hierdoor zijn er" "As a result, there"
+	line "veel legenden over" "are many legends"
 
-	para "about dragons in"
-	line "this town."
+	para "draken in deze" "about dragons in"
+	line "stad." "this town."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
