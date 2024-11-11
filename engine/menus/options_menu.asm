@@ -75,19 +75,19 @@ _Option:
 	ret
 
 StringOptions:
-	db "TEKST SNELHEID<LF>" ; "TEXT SPEED<LF>"
+	db "TEKSTSNELHEID<LF>" ; "TEXT SPEED<LF>"
 	db "     :<LF>" ; "        :<LF>"
-	db "STRIJD ANIMATIE<LF>" ; "BATTLE SCENE<LF>"
+	db "STRIJD-ANIMATIE<LF>" ; "BATTLE SCENE<LF>"
 	db "     :<LF>" ; "        :<LF>"
-	db "STRIJD STIJL<LF>" ; "BATTLE STYLE<LF>"
+	db "STRIJDSTIJL<LF>" ; "BATTLE STYLE<LF>"
 	db "     :<LF>" ; "        :<LF>"
 	db "GELUID<LF>" ; "SOUND<LF>"
 	db "     :<LF>" ; "        :<LF>"
 	db "AFDRUK<LF>" ; "PRINT<LF>"
 	db "     :<LF>" ; "        :<LF>"
-	db "MENU UITLEG<LF>" ; "MENU ACCOUNT<LF>"
+	db "MENU-UITLEG<LF>" ; "MENU ACCOUNT<LF>"
 	db "     :<LF>" ; "        :<LF>"
-	db "GRENS<LF>" ; "FRAME<LF>"
+	db "RAND<LF>" ; "FRAME<LF>"
 	db "     :STIJL<LF>" ; "        :TYPE<LF>"
 	db "SLUITEN@" ; "CANCEL@"
 
