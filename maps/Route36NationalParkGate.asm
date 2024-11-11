@@ -480,7 +480,7 @@ Route36NationalParkGateOfficer1AskToParticipateText:
 	line "De dag van het" ; "That means the"
 
 	para "wekelijkse" ; "Bug-Catching Con-"
-	line "KEVERTOERNOOI." "test is on today."
+	line "KEVERTOERNOOI." ; "test is on today."
 
 	para "De regels zijn" ; "The rules are sim-"
 	line "simpel." ; "ple."
@@ -534,7 +534,7 @@ Route36NationalParkGateOfficer1AskToUseFirstMonText:
 	text "Uh-oh…"
 
 	para "Je hebt meer dan" ; "You have more than"
-	line "één #MON." "one #MON."
+	line "één #MON." ; "one #MON."
 
 	para "Je moet" ; "You'll have to use"
 	line "@"
