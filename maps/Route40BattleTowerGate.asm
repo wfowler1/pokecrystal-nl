@@ -20,7 +20,7 @@ Route40BattleTowerGateTwinScript:
 
 Route40BattleTowerGateUnusedText1: ; unreferenced
 	text "Kwam je ook om de" ; "Did you come to"
-	line "STRIJDTOREN te" ; "see the BATTLE"
+	line "GEVECHTSTOREN te" ; "see the BATTLE"
 	cont "bekijken?" ; "TOWER too?"
 
 	para "Ik geloof dat ze" ; "But I guess you"
@@ -28,8 +28,8 @@ Route40BattleTowerGateUnusedText1: ; unreferenced
 	done
 
 Route40BattleTowerGateUnusedText2: ; unreferenced
-	text "De STRIJDTOREN is" ; "BATTLE TOWER has"
-	line "nu geopend." ; "opened."
+	text "De GEVECHTSTOREN" ; "BATTLE TOWER has"
+	line "is nu geopend." ; "opened."
 
 	para "Ik wil erheen," ; "I want to go, but"
 	line "maar ik weet nog" ; "I haven't thought"
@@ -40,7 +40,7 @@ Route40BattleTowerGateUnusedText2: ; unreferenced
 
 Route40BattleTowerGateRockerText:
 	text "Ga jij naar de" ; "Are you going to"
-	line "STRIJDTOREN?" ; "the BATTLE TOWER?"
+	line "GEVECHTSTOREN?" ; "the BATTLE TOWER?"
 
 	para "Het is geheim," ; "This is a secret,"
 	line "maar als je vaak" ; "but if you win a"
@@ -51,22 +51,22 @@ Route40BattleTowerGateRockerText:
 	done
 
 Route40BattleTowerGateUnusedText3: ; unreferenced
-	text "Ik ga mijn #MON" "I'm going to train"
-	line "trainen zodat ik" "my #MON so I'll"
+	text "Ik ga mijn #MON" ; "I'm going to train"
+	line "trainen zodat ik" ; "my #MON so I'll"
 
-	para "klaar ben voor" "be all ready for"
-	line "de STRIJDTOREN." "the BATTLE TOWER."
+	para "klaar ben voor" ; "be all ready for"
+	line "de GEVECHTSTOREN." ; "the BATTLE TOWER."
 	done
 
 Route40BattleTowerGateTwinText:
-	text "De niveaus van de" "The levels of the"
-	line "#MON die ik wil" "#MON I want to"
+	text "De niveaus van de" ; "The levels of the"
+	line "#MON die ik wil" ; "#MON I want to"
 
-	para "gebruiken zijn" "use are all"
-	line "allemaal anders." "different."
+	para "gebruiken zijn" ; "use are all"
+	line "allemaal anders." ; "different."
 
-	para "Ik moet echt gaan" "I have to go train"
-	line "trainen!" "them now!"
+	para "Ik moet echt gaan" ; "I have to go train"
+	line "trainen!" ; "them now!"
 	done
 
 Route40BattleTowerGate_MapEvents:

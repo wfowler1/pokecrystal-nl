@@ -313,20 +313,20 @@ MonicaGaveGiftText:
 	done
 
 MonicaMondayText:
-	text "MONICA: Mijn" "MONICA: My broth-"
-	line "boers en zussen" "ers and sisters"
+	text "MONICA: Mijn" ; "MONICA: My broth-"
+	line "boers en zussen" ; "ers and sisters"
 
-	para "zijn overal te" "are all over the"
-	line "vinden." "place."
+	para "zijn overal te" ; "are all over the"
+	line "vinden." ; "place."
 
-	para "Probeer ze alle-" "See if you could"
-	line "maal te ontmoeten!" "find them all!"
+	para "Probeer ze alle-" ; "See if you could"
+	line "maal te ontmoeten!" ; "find them all!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: Helaas," "MONICA: I don't"
-	line "vandaag is het" "think today is"
-	cont "geen maandag…" "Monday. How sad…"
+	text "MONICA: Helaas," ; "MONICA: I don't"
+	line "vandaag is het" ; "think today is"
+	cont "geen maandag…" ; "Monday. How sad…"
 	done
 
 Route40SignText:
