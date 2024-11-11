@@ -19,53 +19,54 @@ Route40BattleTowerGateTwinScript:
 	jumptextfaceplayer Route40BattleTowerGateTwinText
 
 Route40BattleTowerGateUnusedText1: ; unreferenced
-	text "Did you come to"
-	line "see the BATTLE"
-	cont "TOWER too?"
+	text "Kwam je ook om de" ; "Did you come to"
+	line "STRIJDTOREN te" ; "see the BATTLE"
+	cont "bekijken?" ; "TOWER too?"
 
-	para "But I guess you"
-	line "can't go in yet."
+	para "Ik geloof dat ze" ; "But I guess you"
+	line "nog dicht zijn." ; "can't go in yet."
 	done
 
 Route40BattleTowerGateUnusedText2: ; unreferenced
-	text "BATTLE TOWER has"
-	line "opened."
+	text "De STRIJDTOREN is" ; "BATTLE TOWER has"
+	line "nu geopend." ; "opened."
 
-	para "I want to go, but"
-	line "I haven't thought"
+	para "Ik wil erheen," ; "I want to go, but"
+	line "maar ik weet nog" ; "I haven't thought"
 
-	para "up a cool line for"
-	line "when I win."
+	para "geen one-liner" ; "up a cool line for"
+	line "voor als ik win." ; "when I win."
 	done
 
 Route40BattleTowerGateRockerText:
-	text "Are you going to"
-	line "the BATTLE TOWER?"
+	text "Ga jij naar de" ; "Are you going to"
+	line "STRIJDTOREN?" ; "the BATTLE TOWER?"
 
-	para "This is a secret,"
-	line "but if you win a"
+	para "Het is geheim," ; "This is a secret,"
+	line "maar als je vaak" ; "but if you win a"
 
-	para "whole lot, you can"
-	line "win special gifts."
+	para "wint, kun je" ; "whole lot, you can"
+	line "ook speciale" ; "win special gifts."
+	cont "cadeaus winnen."
 	done
 
 Route40BattleTowerGateUnusedText3: ; unreferenced
-	text "I'm going to train"
-	line "my #MON so I'll"
+	text "Ik ga mijn #MON" "I'm going to train"
+	line "trainen zodat ik" "my #MON so I'll"
 
-	para "be all ready for"
-	line "the BATTLE TOWER."
+	para "klaar ben voor" "be all ready for"
+	line "de STRIJDTOREN." "the BATTLE TOWER."
 	done
 
 Route40BattleTowerGateTwinText:
-	text "The levels of the"
-	line "#MON I want to"
+	text "De niveaus van de" "The levels of the"
+	line "#MON die ik wil" "#MON I want to"
 
-	para "use are all"
-	line "different."
+	para "gebruiken zijn" "use are all"
+	line "allemaal anders." "different."
 
-	para "I have to go train"
-	line "them now!"
+	para "Ik moet echt gaan" "I have to go train"
+	line "trainen!" "them now!"
 	done
 
 Route40BattleTowerGate_MapEvents:
