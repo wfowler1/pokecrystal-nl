@@ -263,7 +263,7 @@ _ReceivedItemText::
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> stopte de" ; "<PLAYER> put the"
+	text "<PLAYER> stopte" ; "<PLAYER> put the"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text " in"
