@@ -222,7 +222,7 @@ MrPokemonsHouse_MrPokemonHealText:
 	line "PROF.ELM?" ; "to PROF.ELM?"
 
 	para "Hier. Je #MON" ; "Here. Your #MON"
-	line "kunnen wel even" ; "should have some"
+	line "mag wel even" ; "should have some"
 	cont "uitrusten." ; "rest."
 	done
 
