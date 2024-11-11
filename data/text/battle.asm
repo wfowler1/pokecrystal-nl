@@ -179,7 +179,7 @@ GotMoneyForWinningText:
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "was verslagen!" ; "was defeated!"
+	line "is verslagen!" ; "was defeated!"
 	prompt
 
 TiedAgainstText:
