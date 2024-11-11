@@ -10,16 +10,16 @@ Route38EcruteakGateOfficerScript:
 	jumptextfaceplayer Route38EcruteakGateOfficerText
 
 Route38EcruteakGateOfficerText:
-	text "Where did you say"
-	line "you're from?"
+	text "Waar zei je van-" ; "Where did you say"
+	line "daan te komen?" ; "you're from?"
 
 	para "NEW BARK TOWN?"
 
-	para "PROF.ELM lives"
-	line "over there, right?"
+	para "PROF.ELM woont" ; "PROF.ELM lives"
+	line "daar, toch?" ; "over there, right?"
 
-	para "You've come a long"
-	line "way to get here."
+	para "Je bent flink ver" ; "You've come a long"
+	line "van huis." ; "way to get here."
 	done
 
 Route38EcruteakGate_MapEvents:
