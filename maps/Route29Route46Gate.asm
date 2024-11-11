@@ -14,24 +14,24 @@ Route29Route46GateYoungsterScript:
 	jumptextfaceplayer Route29Route46GateYoungsterText
 
 Route29Route46GateOfficerText:
-	text "You can't climb"
-	line "ledges."
+	text "Je kunt niet op" ; "You can't climb"
+	line "richels klimmen." ; "ledges."
 
-	para "But you can jump"
-	line "down from them to"
-	cont "take a shortcut."
+	para "Maar je kunt wel" ; "But you can jump"
+	line "naar beneden om" ; "down from them to"
+	cont "af te snijden." ; "take a shortcut."
 	done
 
 Route29Route46GateYoungsterText:
-	text "Different kinds of"
-	line "#MON appear"
-	cont "past here."
+	text "Verschillende" ; "Different kinds of"
+	line "soorten #MON" ; "#MON appear"
+	cont "duiken hier op." ; "past here."
 
-	para "If you want to"
-	line "catch them all,"
+	para "Als je ze allemaal" ; "If you want to"
+	line "wil vangen, moet" ; "catch them all,"
 
-	para "you have to look"
-	line "everywhere."
+	para "je overal goed" ; "you have to look"
+	line "zoeken." ; "everywhere."
 	done
 
 Route29Route46Gate_MapEvents:
