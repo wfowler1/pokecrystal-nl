@@ -192,7 +192,7 @@ MrPokemonsHouse_GotEggText:
 MrPokemonIntroText3:
 	text "Ik ken een stel" ; "I know a couple"
 	line "met een #MON-" ; "who run a #MON"
-	cont "OPVANG-dienst." ; "DAY-CARE service."
+	cont "Dagverblijf." ; "DAY-CARE service."
 
 	para "Zij gaven mij dit" ; "They gave me that"
 	line "EI." ; "EGG."
