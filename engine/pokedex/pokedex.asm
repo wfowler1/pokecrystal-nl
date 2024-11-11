@@ -1254,7 +1254,7 @@ Pokedex_DrawSearchScreenBG:
 
 .Menu:
 	db   "ZOEK BEGINNEN!!" ; "BEGIN SEARCH!!"
-	next "UITGAAN" ; "CANCEL"
+	next "SLUITEN" ; "CANCEL"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:

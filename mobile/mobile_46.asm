@@ -3881,17 +3881,17 @@ Strings_L10ToL100:
 	db " N:80 @@" ; " L:80 @@"
 	db " N:90 @@" ; " L:90 @@"
 	db " N:100 @@" ; " L:100@@"
-	db "UITGAAN@@" ; "CANCEL@@"
+	db "SLUITEN@@" ; "CANCEL@@"
 
 Strings_Ll0ToL40:
 	db " N:10 @@" ; " L:10 @@"
 	db " N:20 @@" ; " L:20 @@"
 	db " N:30 @@" ; " L:30 @@"
 	db " N:40 @@" ; " L:40 @@"
-	db "UITGAAN@@" ; "CANCEL@@"
+	db "SLUITEN@@" ; "CANCEL@@"
 
 BattleTowerCancelString: ; unreferenced
-	db "UITGAAN@" ; "CANCEL@@"
+	db "SLUITEN@" ; "CANCEL@@"
 
 BattleTower_LevelCheck:
 	ldh a, [rSVBK]
