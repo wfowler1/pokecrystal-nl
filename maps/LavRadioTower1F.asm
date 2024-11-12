@@ -123,11 +123,11 @@ LavRadioTower1FGentlemanText:
 	para "Al mijn moeite om" ; "All my efforts to"
 	line "dit station op te" ; "start this station"
 
-	para "zetten is voor niks" ; "would be wasted if"
-	line "als ik niet kan" ; "I can't broadcast."
-	cont "uitzenden." ;
+	para "zetten is voor" ; "would be wasted if"
+	line "niks als ik niet" ; "I can't broadcast."
+	cont "kan uitzenden." ;
 
-	para "Dat wordt m'n" ; "I'll be ruined!"
+	para "Dat wordt mijn" ; "I'll be ruined!"
 	link "einde!" ;
 	done
 
@@ -144,7 +144,7 @@ LavRadioTower1FGentlemanText_ReturnedMachinePart:
 	cont "verloren." ;
 
 	para "Ik zeg je, je bent" ; "I tell you, you're"
-	line "een redder in nood!" ; "a real lifesaver!"
+	line "de redder in nood!" ; "a real lifesaver!"
 
 	para "Neem dit als" ; "Please take this"
 	line "mijn dank." ; "as my thanks."
@@ -163,7 +163,7 @@ LavRadioTower1FGentlemanText_GotExpnCard:
 LavRadioTower1FSuperNerd2Text:
 	text "Hé daar!" ; "Hey there!"
 
-	para "Ik ben de super" ; "I am the super"
+	para "Ik ben de super-" ; "I am the super"
 	line "MUZIEKDIRECTEUR!" ; "MUSIC DIRECTOR!"
 
 	para "Huh? Je #GEAR" ; "Huh? Your #GEAR"
@@ -172,17 +172,17 @@ LavRadioTower1FSuperNerd2Text:
 	para "programma's niet" ; "music programs."
 	line "ontvangen. Jammer!" ; "How unfortunate!"
 
-	para "Als je een EXPN-" ; "If you get an EXPN"
-	line "KAART-upgrade hebt," ; "CARD upgrade, you"
+	para "Heb je de UTBRD-" ; "If you get an EXPN"
+	line "KAART-upgrade," ; "CARD upgrade, you"
 
-	para "kun je luisteren." ; "can tune in. You'd"
-	line "Haal er een!" ; "better get one!"
+	para "dan kun je luis-." ; "can tune in. You'd"
+	line "teren. Haal één!" ; "better get one!"
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	text "Hé daar!" ; "Hey there!"
 
-	para "Ik ben de super" ; "I am the super"
+	para "Ik ben de super-" ; "I am the super"
 	line "MUZIEKDIRECTEUR!" ; "MUSIC DIRECTOR!"
 
 	para "Ik ben verant-" ; "I'm responsible"
@@ -218,7 +218,7 @@ LavRadioTower1FPokeFluteSignText:
 	done
 
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! Een vol rek" ; "Wow! A full rack"
+	text "Wauw! Een vol rek" ; "Wow! A full rack"
 	line "met #MON CDs en" ; "of #MON CDs and"
 	cont "videos." ; "videos."
 
