@@ -127,8 +127,7 @@ LavRadioTower1FGentlemanText:
 	line "niks als ik niet" ; "I can't broadcast."
 	cont "kan uitzenden." ;
 
-	para "Dat wordt mijn" ; "I'll be ruined!"
-	link "einde!" ;
+	para "Ik ga failliet!" ; "I'll be ruined!"
 	done
 
 LavRadioTower1FGentlemanText_ReturnedMachinePart:
