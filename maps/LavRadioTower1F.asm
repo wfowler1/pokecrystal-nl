@@ -48,7 +48,7 @@ LavRadioTower1FGentlemanScript:
 	end
 
 .expncardname
-	db "EXPN CARD@"
+	db "UITBRD KAART@" ; "EXPN CARD@"
 
 LavRadioTower1FSuperNerd2Script:
 	faceplayer
@@ -76,147 +76,155 @@ LavRadioTower1FReferenceLibrary: ; unreferenced
 	jumptext LavRadioTower1FReferenceLibraryText
 
 LavRadioTower1FReceptionistText:
-	text "Welcome!"
-	line "Feel free to look"
+	text "Welkom!" ; "Welcome!"
+	line "Kijk rustig" ; "Feel free to look"
 
-	para "around anywhere on"
-	line "this floor."
+	para "rond op deze" ; "around anywhere on"
+	line "verdieping." ; "this floor."
 	done
 
 LavRadioTower1FOfficerText:
-	text "Sorry, but you can"
-	line "only tour the"
-	cont "ground floor."
+	text "Sorry, maar je kan" ; "Sorry, but you can"
+	line "alleen op de be-" ; "only tour the"
+	cont "gane grond komen." ; "ground floor."
 
-	para "Ever since JOHTO's"
-	line "RADIO TOWER was"
+	para "Toen JOHTO's" ; "Ever since JOHTO's"
+	line "RADIOTOREN werd" ; "RADIO TOWER was"
 
-	para "taken over by a"
-	line "criminal gang, we"
+	para "overgenomen door" ; "taken over by a"
+	line "een criminele" ; "criminal gang, we"
 
-	para "have had to step"
-	line "up our security."
+	para "bende, moesten we" ; "have had to step"
+	line "onze beveiliging" ; "up our security."
+	cont "aanscherpen." ;
 	done
 
 LavRadioTower1FSuperNerd1Text:
-	text "Many people are"
-	line "hard at work here"
+	text "Veel mensen zijn" ; "Many people are"
+	line "hard aan het werk" ; "hard at work here"
 
-	para "in the RADIO"
-	line "TOWER."
+	para "hier in de" ; "in the RADIO"
+	line "RADIOTOREN." ; "TOWER."
 
-	para "They must be doing"
-	line "their best to put"
-	cont "on good shows."
+	para "Ze doen hun best" ; "They must be doing"
+	line "om goede shows" ; "their best to put"
+	cont "te maken." ; "on good shows."
 	done
 
 LavRadioTower1FGentlemanText:
-	text "Oh, no, no, no!"
+	text "Oh nee, nee, nee!" ; "Oh, no, no, no!"
 
-	para "We've been off the"
-	line "air ever since the"
+	para "We zijn uit de" ; "We've been off the"
+	line "lucht sinds de" ; "air ever since the"
 
-	para "POWER PLANT shut"
-	line "down."
+	para "ENERGIECENTRALE" ; "POWER PLANT shut"
+	line "is uitgeschakeld." ; "down."
 
-	para "All my efforts to"
-	line "start this station"
+	para "Al mijn moeite om" ; "All my efforts to"
+	line "dit station op te" ; "start this station"
 
-	para "would be wasted if"
-	line "I can't broadcast."
+	para "zetten is voor niks" ; "would be wasted if"
+	line "als ik niet kan" ; "I can't broadcast."
+	cont "uitzenden." ;
 
-	para "I'll be ruined!"
+	para "Dat wordt m'n" ; "I'll be ruined!"
+	link "einde!" ;
 	done
 
 LavRadioTower1FGentlemanText_ReturnedMachinePart:
-	text "Ah! So you're the"
-	line "<PLAY_G> who solved"
+	text "Ah! Dus jij bent" ; "Ah! So you're the"
+	line "de <PLAY_G> die" ; "<PLAY_G> who solved"
 
-	para "the POWER PLANT's"
-	line "problem?"
+	para "het probleem met" ; "the POWER PLANT's"
+	line "de ENERGIECENTRALE" ; "problem?"
+	cont "heeft opgelost?" ;
 
-	para "Thanks to you, I"
-	line "never lost my job."
+	para "Dankzij jou ben" ; "Thanks to you, I"
+	line "ik mijn baan niet" ; "never lost my job."
+	cont "verloren." ;
 
-	para "I tell you, you're"
-	line "a real lifesaver!"
+	para "Ik zeg je, je bent" ; "I tell you, you're"
+	line "een redder in nood!" ; "a real lifesaver!"
 
-	para "Please take this"
-	line "as my thanks."
+	para "Neem dit als" ; "Please take this"
+	line "mijn dank." ; "as my thanks."
 	done
 
 LavRadioTower1FGentlemanText_GotExpnCard:
-	text "With that thing,"
-	line "you can tune into"
+	text "Met dat ding kun" ; "With that thing,"
+	line "je de radiopro-" ; "you can tune into"
 
-	para "the radio programs"
-	line "here in KANTO."
+	para "gramma's hier in" ; "the radio programs"
+	line "KANTO luisteren." ; "here in KANTO."
 
 	para "Gahahahaha!"
 	done
 
 LavRadioTower1FSuperNerd2Text:
-	text "Hey there!"
+	text "Hé daar!" ; "Hey there!"
 
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	para "Ik ben de super" ; "I am the super"
+	line "MUZIEKDIRECTEUR!" ; "MUSIC DIRECTOR!"
 
-	para "Huh? Your #GEAR"
-	line "can't tune into my"
+	para "Huh? Je #GEAR" ; "Huh? Your #GEAR"
+	line "kan mijn muziek-" ; "can't tune into my"
 
-	para "music programs."
-	line "How unfortunate!"
+	para "programma's niet" ; "music programs."
+	line "ontvangen. Jammer!" ; "How unfortunate!"
 
-	para "If you get an EXPN"
-	line "CARD upgrade, you"
+	para "Als je een EXPN-" ; "If you get an EXPN"
+	line "KAART-upgrade hebt," ; "CARD upgrade, you"
 
-	para "can tune in. You'd"
-	line "better get one!"
+	para "kun je luisteren." ; "can tune in. You'd"
+	line "Haal er een!" ; "better get one!"
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "Hey there!"
+	text "Hé daar!" ; "Hey there!"
 
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	para "Ik ben de super" ; "I am the super"
+	line "MUZIEKDIRECTEUR!" ; "MUSIC DIRECTOR!"
 
-	para "I'm responsible"
-	line "for the gorgeous"
+	para "Ik ben verant-" ; "I'm responsible"
+	line "woordelijk voor de" ; "for the gorgeous"
 
-	para "melodies that go"
-	line "out over the air."
+	para "mooie melodieën" ; "melodies that go"
+	line "die worden uit-" ; "out over the air."
+	cont "gezonden." ;
 
-	para "Don't be square."
-	line "Grab your music"
-	cont "off the air!"
+	para "Wees niet saai." ; "Don't be square."
+	line "Muziek uit de" ; "Grab your music"
+	cont "lucht, altijd" ; "off the air!"
+	cont "fraai!" ;
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
+	text "1V RECEPTIE" ; "1F RECEPTION"
+	line "2V SALES" ; "2F SALES"
 
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
+	para "3V PERSONEEL" ; "3F PERSONNEL"
+	line "4V PRODUCTIE" ; "4F PRODUCTION"
 
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "5V KANTOOR VAN" ; "5F DIRECTOR'S"
+	line "DIRECTEUR" ; "   OFFICE"
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #MON"
-	line "with Mellow Sounds"
+	text "Vrolijk #MON Op" ; "Perk Up #MON"
+	line "met Kalme Geluiden" ; "with Mellow Sounds"
 
-	para "of the # FLUTE"
-	line "on CHANNEL 20"
+	para "van de #FLUIT" ; "of the # FLUTE"
+	line "op KANAAL 20" ; "on CHANNEL 20"
 	done
 
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! A full rack"
-	line "of #MON CDs and"
-	cont "videos."
+	text "Wow! Een vol rek" ; "Wow! A full rack"
+	line "met #MON CDs en" ; "of #MON CDs and"
+	cont "videos." ; "videos."
 
-	para "This must be the"
-	line "reference library."
+	para "Dit moet de refer-" ; "This must be the"
+	line "entie bibliotheek" ; "reference library."
+	cont "zijn." ;
 	done
 
 LavRadioTower1F_MapEvents:

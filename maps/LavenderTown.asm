@@ -45,62 +45,65 @@ LavenderMartSignText:
 	jumpstd MartSignScript
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
+	text "Wat een gebouw," ; "That's quite some"
+	line "hè?" ; "building, eh?"
 
-	para "It's KANTO's RADIO"
-	line "TOWER."
+	para "Het is KANTO's" ; "It's KANTO's RADIO"
+	line "RADIOTOREN." ; "TOWER."
 	done
 
 LavenderTownTeacherText:
-	text "KANTO has many"
-	line "good radio shows."
+	text "KANTO heeft veel" ; "KANTO has many"
+	line "goede radioshows." ; "good radio shows."
 	done
 
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
+	text "Mensen komen van" ; "People come from"
+	line "ver om de zielen" ; "all over to pay"
 
-	para "their respects to"
-	line "the departed souls"
-	cont "of #MON."
+	para "te eren van" ; "their respects to"
+	line "#MON die zijn" ; "the departed souls"
+	cont "heengegaan." ; "of #MON."
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "FLUTE to wake"
-	cont "sleeping #MON."
+	text "Je hebt een #-" ; "You need a #"
+	line "FLUIT nodig om" ; "FLUTE to wake"
+	cont "slapende #MON" ; "sleeping #MON."
+	cont "te wekken." ; 
 
-	para "Every trainer has"
-	line "to know that!"
+	para "Elke trainer" ; "Every trainer has"
+	line "moet dat weten!" ; "to know that!"
 	done
 
 LavenderTownSignText:
 	text "LAVENDER TOWN"
 
-	para "The Noble Purple"
-	line "Town"
+	para "Het Edele" ; "The Noble Purple"
+	line "Purperen Dorp" ; "Town"
 	done
 
 KantoRadioStationSignText:
-	text "KANTO RADIO"
+	text "KANTO RADIO-" ; "KANTO RADIO"
 	line "STATION"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "Jouw Favoriete" ; "Your Favorite"
+	line "Programma's In" ; "Programs On-Air"
+	cont "de Lucht, de Klok" ; "Around the Clock!"
+	cont "Rond!" ; 
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "LAVENDER VRIJWIL-" ; "LAVENDER VOLUNTEER"
+	line "LIGER #MONHUIS" ; "#MON HOUSE"
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
+	text "ZIELENHUIS" ; "SOUL HOUSE"
 
-	para "May the Souls of"
-	line "#MON Rest Easy"
+	para "Moge de Zielen" ; "May the Souls of"
+	line "van #MON Vredig" ; "#MON Rest Easy"
+	cont "Rusten" ; 
 	done
 
 LavenderTown_MapEvents:

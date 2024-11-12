@@ -13,17 +13,18 @@ LavenderSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 LavenderSpeechHousePokefanFText:
-	text "LAVENDER is a"
-	line "tiny, quiet town"
+	text "LAVENDER is een" ; "LAVENDER is a"
+	line "klein, stil dorp" ; "tiny, quiet town"
 
-	para "at the foot of the"
-	line "mountains."
+	para "aan de voet van" ; "at the foot of the"
+	line "de bergen." ; "mountains."
 
-	para "It's gotten a bit"
-	line "busier since the"
+	para "Het is een beetje" ; "It's gotten a bit"
+	line "drukker geworden" ; "busier since the"
 
-	para "RADIO TOWER was"
-	line "built."
+	para "sinds de RADIO-" ; "RADIO TOWER was"
+	line "TOREN werd" ; "built."
+	cont "gebouwd." ; 
 	done
 
 LavenderSpeechHouse_MapEvents:
