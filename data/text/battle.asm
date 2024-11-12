@@ -86,8 +86,8 @@ SandstormHitsText:
 	prompt
 
 PerishCountText:
-	text "<USER>'s STERF-"
-	line "telling is @" ; "PERISH count is @"
+	text "<USER>'s"
+	line "STERF-teller is @" ; "PERISH count is @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
@@ -400,9 +400,9 @@ MustRechargeText:
 	prompt
 
 DisabledNoMoreText:
-	text "<USER> is niet" ; "<USER>'s"
-	line "meer UITGE-" ; "disabled no more!"
-	cont "SCHAKELD!"
+	text "<USER> is" ; "<USER>'s"
+	line "niet meer" ; "disabled no more!"
+	cont "UITGESCHAKELD!"
 	prompt
 
 IsConfusedText:
@@ -570,8 +570,8 @@ NoPPLeftText:
 	prompt
 
 HasNoPPLeftText:
-	text "<USER> heeft" ; "<USER>"
-	line "geen AP meer voor" ; "has no PP left for"
+	text "<USER>" ; "<USER>"
+	line "heeft geen AP voor" ; "has no PP left for"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "!"
@@ -610,8 +610,8 @@ CrashedText:
 	prompt
 
 UnaffectedText:
-	text "<TARGET> is" ; "<TARGET>'s"
-	line "onaangetast!" ; "unaffected!"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is onaangetast!" ; "unaffected!"
 	prompt
 
 DoesntAffectText:
@@ -708,8 +708,8 @@ WasPoisonedText:
 	prompt
 
 BadlyPoisonedText:
-	text "<TARGET> werd" ; "<TARGET>'s"
-	line "flink vergiftigd!" ; "badly poisoned!"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is goed ziek!" ; "badly poisoned!"
 	prompt
 
 AlreadyPoisonedText:
@@ -802,8 +802,8 @@ GettingPumpedText:
 	prompt
 
 RecoilText:
-	text "<USER> raakte" ; "<USER>'s"
-	line "ook zichzelf!" ; "hit with recoil!"
+	text "<USER>" ; "<USER>'s"
+	line "kreeg ook schade!" ; "hit with recoil!"
 	prompt
 
 MadeSubstituteText:
@@ -924,29 +924,29 @@ HPIsFullText:
 	prompt
 
 DraggedOutText: ; TODO: string too long. <USER> can be up to 10 characters
-	text "<USER> werd naar" ; "<USER>"
-	line "buiten gesleept!" ; "was dragged out!"
+	text "<USER>" ; "<USER>"
+	line "is eruit gesleept!" ; "was dragged out!"
 	prompt
 
 ParalyzedText:
-	text "<TARGET> is" ; "<TARGET>'s"
-	line "verlamd! Misschien" ; "paralyzed! Maybe"
-	cont "kan hij niks!" ; "it can't attack!"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is verlamd! Kan" ; "paralyzed! Maybe"
+	cont "wellicht niks!" ; "it can't attack!"
 	prompt
 
 FullyParalyzedText:
-	text "<USER> is" ; "<USER>'s"
-	line "volledig verlamd!" ; "fully paralyzed!"
+	text "<USER>" ; "<USER>'s"
+	line "is vol verlamd!" ; "fully paralyzed!"
 	prompt
 
 AlreadyParalyzedText:
-	text "<TARGET> is" ; "<TARGET>'s"
-	line "al verlamd!" ; "already paralyzed!"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is al verlamd!" ; "already paralyzed!"
 	prompt
 
 ProtectedByText:
-	text "<TARGET> is" ; "<TARGET>'s"
-	line "beschermd door" ; "protected by"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is beschermd door" ; "protected by"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
@@ -966,8 +966,8 @@ StoleText:
 	prompt
 
 CantEscapeNowText: ; TODO string too long, <TARGET> can be up to 10 characters
-	text "<TARGET> kan nu" ; "<TARGET>"
-	line "niet ontsnappen!" ; "can't escape now!"
+	text "<TARGET>" ; "<TARGET>"
+	line "kan niet weg!" ; "can't escape now!"
 	prompt
 
 StartedNightmareText:
@@ -1032,8 +1032,8 @@ FellInLoveText:
 	prompt
 
 CoveredByVeilText:
-	text "<USER> is" ; "<USER>'s"
-	line "bedekt door een" ; "covered by a veil!"
+	text "<USER>" ; "<USER>'s"
+	line "is bedekt door een" ; "covered by a veil!"
 	cont "sluier!"
 	prompt
 
@@ -1056,8 +1056,8 @@ ReleasedByText:
 	prompt
 
 ShedLeechSeedText:
-	text "<USER> schudde" ; "<USER>"
-	line "ZUIGEN ZAAD af!" ; "shed LEECH SEED!"
+	text "<USER>" ; "<USER>"
+	line "wierp ZUIGZAAD af!" ; "shed LEECH SEED!"
 	prompt
 
 BlewSpikesText:
@@ -1076,8 +1076,8 @@ SunGotBrightText:
 	prompt
 
 BellyDrumText: ; TODO string too long, <USER> can be 10 chars
-	text "<USER> verlaag-"
-	line "de eigen LP voor" ; "cut its HP and"
+	text "<USER>"
+	line "verlaagde LP voor" ; "cut its HP and"
 	cont "maximale AANVAL!" ; "maximized ATTACK!"
 	prompt
 
@@ -1090,8 +1090,8 @@ CopiedStatsText:
 	prompt
 
 ForesawAttackText:
-	text "<USER> voorzag" ; "<USER>"
-	line "een aanval!" ; "foresaw an attack!"
+	text "<USER>" ; "<USER>"
+	line "voorzag aanval!" ; "foresaw an attack!"
 	prompt
 
 BeatUpAttackText:
@@ -1102,7 +1102,7 @@ BeatUpAttackText:
 
 PresentFailedText:
 	text "<TARGET>"
-	line "weigerde 't cadeau!" ; "refused the gift!"
+	line "weigerde de gift!" ; "refused the gift!"
 	prompt
 
 IgnoredOrders2Text:
