@@ -615,8 +615,8 @@ UnaffectedText:
 	prompt
 
 DoesntAffectText:
-	text "Heeft geen invloed" ; "It doesn't affect"
-	line "op <TARGET>!" ; "<TARGET>!"
+	text "Deed niks op" ; "It doesn't affect"
+	line "<TARGET>!" ; "<TARGET>!"
 	prompt
 
 CriticalHitText:
