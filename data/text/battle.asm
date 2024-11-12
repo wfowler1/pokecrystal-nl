@@ -400,8 +400,8 @@ MustRechargeText:
 	prompt
 
 DisabledNoMoreText:
-	text "<USER> is" ; "<USER>'s"
-	line "niet meer" ; "disabled no more!"
+	text "<USER>" ; "<USER>'s"
+	line "is niet meer" ; "disabled no more!"
 	cont "UITGESCHAKELD!"
 	prompt
 
@@ -430,8 +430,8 @@ BattleText_ItemHealedConfusion:
 	text "Een @" ; "A @"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text_start
-	line "haalde verwarring" ; " rid"
-	cont "<TARGET> weg." ; "<TARGET>"
+	line "was opfrisser voor" ; " rid"
+	cont "<TARGET>." ; "<TARGET>"
 	; cont "of its confusion."
 	prompt
 
@@ -458,8 +458,8 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>" ; "<USER> geb-"
-	line "ruikte KOPPEL op" ; "used BIND on"
-	cont "<TARGET>!"
+	line "deed KOPPEL op" ; "used BIND on"
+	cont "<TARGET>"
 	prompt
 
 WhirlpoolTrapText:
@@ -713,8 +713,8 @@ BadlyPoisonedText:
 	prompt
 
 AlreadyPoisonedText:
-	text "<TARGET> is" ; "<TARGET>'s"
-	line "al vergiftigd!" ; "already poisoned!"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is al vergiftigd!" ; "already poisoned!"
 	prompt
 
 SuckedHealthText:
@@ -786,13 +786,13 @@ EnemyHitTimesText:
 	prompt
 
 MistText:
-	text "<USER> is" ; "<USER>'s"
-	line "omhuld door MIST!" ; "shrouded in MIST!"
+	text "<USER>" ; "<USER>'s"
+	line "zit in de MIST!" ; "shrouded in MIST!"
 	prompt
 
 ProtectedByMistText:
-	text "<TARGET> is" ; "<TARGET>'s"
-	line "omhuld door MIST." ; "protected by MIST."
+	text "<TARGET>" ; "<TARGET>'s"
+	line "zit in de MIST." ; "protected by MIST."
 	prompt
 
 GettingPumpedText:
@@ -807,13 +807,13 @@ RecoilText:
 	prompt
 
 MadeSubstituteText:
-	text "<USER> maakte" ; "<USER>"
-	line "een VERVANGER!" ; "made a SUBSTITUTE!"
+	text "<USER>" ; "<USER>"
+	line "maakte VERVANGER!" ; "made a SUBSTITUTE!"
 	prompt
 
 HasSubstituteText:
-	text "<USER> heeft" ; "<USER>"
-	line "een VERVANGER!" ; "has a SUBSTITUTE!"
+	text "<USER>" ; "<USER>"
+	line "heeft VERVANGER!" ; "has a SUBSTITUTE!"
 	prompt
 
 TooWeakSubText:
@@ -1051,8 +1051,8 @@ MagnitudeText:
 
 ReleasedByText:
 	text "<USER>"
-	line "werd vrijgelaten" ; "was released by"
-	cont "door <TARGET>!" ; "<TARGET>!"
+	line "kwam los van" ; "was released by"
+	cont "<TARGET>!" ; "<TARGET>!"
 	prompt
 
 ShedLeechSeedText:

@@ -1394,10 +1394,10 @@ _NoCyclingText::
 	prompt
 
 _ItemCantGetOnText::
-	text "Kunt niet op" ; "Can't get on your"
-	line "@"
+	text "Kunt niet rijden" ; "Can't get on your"
+	line "op @"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text " stappen." ; " now."
+	text "." ; " now."
 	prompt
 
 _BallBoxFullText::
