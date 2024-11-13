@@ -349,7 +349,7 @@ namespace PokeGen2TextValidator
                     nextLine = lines[i + 1];
                 }
 
-                if (line.Text.StartsWith("INCLUDE"))
+                if (line.Text.StartsWith("INCLUDE") || line.Text.StartsWith("INCBIN"))
                 {
                     continue;
                 }
@@ -858,7 +858,7 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789";
+        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘";
 
         private Block _block;
 
