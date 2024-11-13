@@ -1,7 +1,7 @@
 ToddAnswerPhoneText:
 	text "Yes? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " speaking."
 
 	para "Hey, <PLAY_G>!"
@@ -10,7 +10,7 @@ ToddAnswerPhoneText:
 ToddAnswerPhoneDayText:
 	text "Yes? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " speaking."
 
 	para "This must be"
@@ -20,7 +20,7 @@ ToddAnswerPhoneDayText:
 ToddAnswerPhoneNiteText:
 	text "Yes? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " speaking."
 
 	para "Ah, <PLAY_G>!"
@@ -29,7 +29,7 @@ ToddAnswerPhoneNiteText:
 ToddGreetText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "<PLAY_G>, right?"
@@ -38,7 +38,7 @@ ToddGreetText:
 ToddGreetDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "<PLAY_G>, what are"
@@ -48,7 +48,7 @@ ToddGreetDayText:
 ToddGreetNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "<PLAY_G>, sorry to"

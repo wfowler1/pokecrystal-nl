@@ -1,7 +1,7 @@
 GinaAnswerPhoneText:
 	text "Hello? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>!"
@@ -11,7 +11,7 @@ GinaAnswerPhoneText:
 GinaAnswerPhoneDayText:
 	text "Hello? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>!"
@@ -21,7 +21,7 @@ GinaAnswerPhoneDayText:
 GinaAnswerPhoneNiteText:
 	text "Hello? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>!"
@@ -32,7 +32,7 @@ GinaGreetText:
 	text "<PLAY_G>?"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Good morning!"
 	done
@@ -41,7 +41,7 @@ GinaGreetDayText:
 	text "<PLAY_G>?"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text ". Is"
 	line "this a bad time?"
 	done
@@ -50,7 +50,7 @@ GinaGreetNiteText:
 	text "<PLAY_G>?"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Got time to chat?"
 	done
@@ -61,6 +61,6 @@ GinaGenericText:
 
 	para "I train every day"
 	line "with @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 	done

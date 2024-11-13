@@ -31,21 +31,21 @@ RalphAnswerPhoneNiteText:
 RalphGreetText:
 	text "Hiya, it's Uncle"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 
 RalphGreetDayText:
 	text "Hiya, it's Uncle"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 
 RalphGreetNiteText:
 	text "Hiya, it's Uncle"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 

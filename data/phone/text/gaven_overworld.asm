@@ -12,7 +12,7 @@ GavenAskNumber1Text:
 	line "again when I heal"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " and the"
 	line "rest of my team."
 	done
@@ -25,7 +25,7 @@ GavenAskNumber2Text:
 	line "again when I heal"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " and the"
 	line "rest of my team."
 	done

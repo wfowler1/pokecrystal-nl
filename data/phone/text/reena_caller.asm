@@ -3,12 +3,12 @@ ReenaMonsIsAPerfectMatchText:
 
 	para "Do you recall my"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "?"
 
 	para "Yes, exactly. That"
 	line "lovely @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "Wouldn't you agree"
@@ -19,13 +19,13 @@ ReenaMonsIsAPerfectMatchText:
 ReenaDefeatedMonText:
 	text "Have I ever faced"
 	line "a wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "?"
 
 	para "You need to ask?"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " I've"
 	line "beaten on numerous"
 	cont "occasions!"
@@ -42,7 +42,7 @@ ReenaLostAMonText:
 	line "to catch a wild"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "…"
 	line "Oh! Never mind!"
 	done
@@ -53,7 +53,7 @@ ReenaBattleRematchText:
 
 	para "The place shall be"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
 	para "Don't make me"
@@ -82,7 +82,7 @@ ReenaHurryText:
 	line "the place was"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	line "Don't try to run!"
 	done

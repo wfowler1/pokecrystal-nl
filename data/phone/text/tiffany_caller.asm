@@ -1,6 +1,6 @@
 TiffanyMonIsAdorableText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "adorable, don't"
 
@@ -16,7 +16,7 @@ TiffanyDefeatedMonText:
 	line "battle a wild"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " a while"
 	line "ago…"
 
@@ -27,7 +27,7 @@ TiffanyDefeatedMonText:
 
 	para "I hate those nasty"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 	done
 
@@ -36,7 +36,7 @@ TiffanyLostAMonText:
 	line "battle a wild"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " a while"
 	line "ago…"
 
@@ -61,12 +61,12 @@ TiffanyBattleRematchText:
 	para "I'll be waiting"
 	line "with CLEFAIRY on"
 	cont "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
 TiffanyItsAwfulText:
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "It's awful."
@@ -97,7 +97,7 @@ TiffanyFoundItemText:
 
 	para "Come collect it on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
@@ -118,7 +118,7 @@ TiffanyAsleepText:
 
 	para "Please hurry to"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -132,6 +132,6 @@ TiffanyHurryText:
 
 	para "Please hurry to"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done

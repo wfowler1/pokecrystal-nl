@@ -1,7 +1,7 @@
 JoseAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>?"
@@ -11,7 +11,7 @@ JoseAnswerPhoneText:
 JoseAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>? Hi!"
@@ -20,7 +20,7 @@ JoseAnswerPhoneDayText:
 JoseAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>?"
@@ -32,7 +32,7 @@ JoseGreetText:
 
 	para "Tweet! Yeah, it's"
 	line "me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	done
 
@@ -41,7 +41,7 @@ JoseGreetDayText:
 
 	para "Tweet! Yeah, it's"
 	line "me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	done
 
@@ -50,7 +50,7 @@ JoseGreetNiteText:
 
 	para "Tweet! Yeah, it's"
 	line "me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	done
 
@@ -59,7 +59,7 @@ JoseGenericText:
 	line "still cooking?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " has"
 	line "too much energy."
 

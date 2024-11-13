@@ -1,7 +1,7 @@
 BeverlyMadeMonEvenCuterText:
 	text "I fancied up my"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " and"
 
 	para "made it even cuter"
@@ -31,7 +31,7 @@ BeverlyLostAMonText:
 	line "showed it was"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ". I was"
 	line "quite miffed."
 	done
@@ -53,7 +53,7 @@ BeverlyFoundItemText:
 
 	para "I'll be at"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Please come see me"
@@ -76,7 +76,7 @@ BeverlyComePickUpText:
 	line "hurry. Come see me"
 
 	para "in @"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 15
 	text_start
 	line "when you can."
 	done

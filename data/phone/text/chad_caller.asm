@@ -2,7 +2,7 @@ ChadObservingWildText:
 	text "I recently began"
 	line "observing wild"
 	cont "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "I've been learning"
@@ -23,7 +23,7 @@ ChadDefeatedMonText:
 	line "to knock out a"
 
 	para "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " a"
 	line "while back."
 
@@ -39,7 +39,7 @@ ChadLostAMonText:
 	line "close to catching"
 
 	para "a wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ","
 	line "but it got away."
 
@@ -48,7 +48,7 @@ ChadLostAMonText:
 
 	para "wanting to observe"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ". Rats…"
 	done
 
@@ -61,7 +61,7 @@ ChadBattleRematchText:
 
 	para "I'll be on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -237,7 +237,7 @@ ChadReminderText:
 
 	para "The place is"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Hurry over--I'm"

@@ -1,6 +1,6 @@
 JoeyAnswerPhoneText:
 	text "Hi, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " here!"
 
 	para "Oh, <PLAYER>? You"
@@ -9,7 +9,7 @@ JoeyAnswerPhoneText:
 
 JoeyAnswerPhoneDayText:
 	text "Hi, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " here!"
 
 	para "Oh, <PLAYER>? You"
@@ -18,7 +18,7 @@ JoeyAnswerPhoneDayText:
 
 JoeyAnswerPhoneNiteText:
 	text "Hi, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " here!"
 
 	para "Oh, <PLAYER>? You"
@@ -30,7 +30,7 @@ JoeyGreetText:
 	line "How're you doing?"
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text ","
 	line "got a minute?"
 	done
@@ -40,7 +40,7 @@ JoeyGreetDayText:
 	line "it going?"
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Got a minute?"
 	done
@@ -50,7 +50,7 @@ JoeyGreetNiteText:
 	line "How're you doing?"
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text ","
 	line "got a minute?"
 	done
@@ -60,7 +60,7 @@ JoeyGenericText:
 	line "#MON doing?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "raring to go, just"
 	cont "like always."

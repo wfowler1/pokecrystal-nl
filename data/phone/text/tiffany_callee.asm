@@ -1,7 +1,7 @@
 TiffanyAnswerPhoneText:
 	text "Yes? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh, <PLAY_G>."
@@ -11,7 +11,7 @@ TiffanyAnswerPhoneText:
 TiffanyAnswerPhoneDayText:
 	text "Yes? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh, <PLAY_G>."
@@ -21,7 +21,7 @@ TiffanyAnswerPhoneDayText:
 TiffanyAnswerPhoneNiteText:
 	text "Yes? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh, <PLAY_G>, good"
@@ -33,7 +33,7 @@ TiffanyGreetText:
 
 	para "Good morning. This"
 	line "is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 	done
 
@@ -41,7 +41,7 @@ TiffanyGreetDayText:
 	text "Is this <PLAY_G>?"
 
 	para "Hi, it's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 	done
 
@@ -50,7 +50,7 @@ TiffanyGreetNiteText:
 
 	para "Good evening. This"
 	line "is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 	done
 
@@ -66,7 +66,7 @@ TiffanyGenericText:
 	line "too hard."
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "cute and lively"
 

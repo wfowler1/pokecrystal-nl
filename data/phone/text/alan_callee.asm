@@ -1,6 +1,6 @@
 AlanAnswerPhoneText:
 	text "Yup, it's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 
 	para "Is this <PLAY_G>?"
@@ -9,7 +9,7 @@ AlanAnswerPhoneText:
 
 AlanAnswerPhoneDayText:
 	text "Yup, it's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 
 	para "Is that <PLAY_G>?"
@@ -17,7 +17,7 @@ AlanAnswerPhoneDayText:
 
 AlanAnswerPhoneNiteText:
 	text "Yup, it's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 
 	para "Is that <PLAY_G>?"
@@ -27,21 +27,21 @@ AlanAnswerPhoneNiteText:
 AlanGreetText:
 	text "Hello! It's me,"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 AlanGreetDayText:
 	text "Hello! It's me,"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 AlanGreetNiteText:
 	text "Hello! It's me,"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 

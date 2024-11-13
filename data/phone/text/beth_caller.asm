@@ -1,11 +1,11 @@
 BethExhilaratingRideText:
 	text "Do you remember my"
 	line "sweet @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "?"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " runs"
 	line "very fast."
 
@@ -19,7 +19,7 @@ BethExhilaratingRideText:
 BethDefeatedMonText:
 	text "Oh, have you ever"
 	line "seen a @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	cont "before?"
 
@@ -39,7 +39,7 @@ BethDefeatedMonText:
 BethLostAMonText:
 	text "Oh, I just saw a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "I was trying to"
@@ -68,7 +68,7 @@ BethBattleRematchText:
 	line "for you around"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	line "Look for me, OK?"
 	done
@@ -90,7 +90,7 @@ BethReminderText:
 	line "deal?"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "That's where I'm"

@@ -1,7 +1,7 @@
 ArnieMonIsSoCuteText:
 	text "I'm always with my"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "It's so cute!"
@@ -13,7 +13,7 @@ ArnieDefeatedMonText:
 	line "here, I saw this"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " for the"
 	line "first time."
 
@@ -25,7 +25,7 @@ ArnieLostAMonText:
 	text "I was wondering,"
 	line "do you happen to"
 	cont "have @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "?"
 
 	para "I can't seem to"
@@ -47,7 +47,7 @@ ArnieBattleRematchText:
 
 	para "I'll be here on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -62,12 +62,12 @@ ArnieSwarmText:
 
 	para "A whole bunch of"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " have"
 
 	para "appeared around"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
 	para "You have to see"
@@ -90,7 +90,7 @@ ArnieReminderText:
 	para "Let's battle. I'll"
 	line "be waiting for you"
 	cont "on @"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 14
 	text "!"
 	done
 

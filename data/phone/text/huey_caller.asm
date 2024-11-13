@@ -6,7 +6,7 @@ HueyBattleRematchText:
 	line "last time!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "'s"
 	line "where I'm waiting"
 
@@ -35,7 +35,7 @@ HueyReminderText:
 	cont "about our battle!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
 	para "Hustle over quick!"

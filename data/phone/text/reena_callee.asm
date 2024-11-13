@@ -1,7 +1,7 @@
 ReenaAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
 	para "Oh. Hi, <PLAYER>."
@@ -11,7 +11,7 @@ ReenaAnswerPhoneText:
 ReenaAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
 	para "Oh, hi, <PLAYER>,"
@@ -21,7 +21,7 @@ ReenaAnswerPhoneDayText:
 ReenaAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
 	para "Oh, hi, <PLAYER>,"
@@ -33,7 +33,7 @@ ReenaGreetText:
 	line "up and answer!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
@@ -42,7 +42,7 @@ ReenaGreetDayText:
 	line "up and answer!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
@@ -51,7 +51,7 @@ ReenaGreetNiteText:
 	line "up and answer!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 

@@ -1,6 +1,6 @@
 GinaGettingInSyncWithMonText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " and"
 	line "I are getting more"
 
@@ -11,7 +11,7 @@ GinaGettingInSyncWithMonText:
 GinaDefeatedMonText:
 	text "We battled a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " and"
 
 	para "managed to drop it"
@@ -26,7 +26,7 @@ GinaLostAMonText:
 
 	para "I still haven't"
 	line "caught @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "It's getting past"
@@ -40,7 +40,7 @@ GinaBattleRematchText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "…Could you take it"
@@ -76,7 +76,7 @@ GinaFoundItemText:
 	line "it, won't you?"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
 	line "where I am."
 	done
@@ -101,7 +101,7 @@ GinaReminderText:
 
 	para "Don't forget,"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -114,6 +114,6 @@ GinaComePickUpText:
 
 	para "Hurry over to"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done

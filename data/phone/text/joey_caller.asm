@@ -1,6 +1,6 @@
 JoeyMonLookingSharperText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "looking sharper"
 	cont "than before!"
@@ -15,7 +15,7 @@ JoeyMonLookingSharperText:
 JoeyDefeatedMonText:
 	text "Oh yeah, I took"
 	line "down a @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "in the wild the"
 	line "other day."
@@ -30,7 +30,7 @@ JoeyDefeatedMonText:
 JoeyLostAMonText:
 	text "Oh yeah, I saw a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "I thought about"
@@ -51,7 +51,7 @@ JoeyBattleRematchText:
 	line "will be different!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "'s"
 	line "where I'll be."
 
@@ -66,7 +66,7 @@ JoeyHangUpText:
 JoeyDevisingStrategiesText:
 	text "I'm checking out"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s moves"
 
 	para "and devising some"
@@ -86,6 +86,6 @@ JoeyReminderText:
 
 	para "I'm waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done

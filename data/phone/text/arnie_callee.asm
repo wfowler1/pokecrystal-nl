@@ -1,7 +1,7 @@
 ArnieAnswerPhoneText:
 	text "Yeah, hello."
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 
 	para "…Huh, <PLAY_G>? Yo!"
@@ -10,7 +10,7 @@ ArnieAnswerPhoneText:
 ArnieAnswerPhoneDayText:
 	text "Yeah, hello, you"
 	line "got @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 
 	para "…Huh, <PLAY_G>? Yo!"
@@ -19,7 +19,7 @@ ArnieAnswerPhoneDayText:
 ArnieAnswerPhoneNiteText:
 	text "Yeah, hello, you"
 	line "got @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 
 	para "…Huh, <PLAY_G>? Yo!"
@@ -28,7 +28,7 @@ ArnieAnswerPhoneNiteText:
 ArnieGreetText:
 	text "Yeah, hello?"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " calling."
 
 	para "What are you up"
@@ -38,7 +38,7 @@ ArnieGreetText:
 ArnieGreetDayText:
 	text "Yeah, hello?"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " calling."
 
 	para "Where are you now,"
@@ -48,7 +48,7 @@ ArnieGreetDayText:
 ArnieGreetNiteText:
 	text "Yeah, hello?"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " calling."
 
 	para "Are you awake now,"
