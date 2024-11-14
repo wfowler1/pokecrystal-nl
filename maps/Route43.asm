@@ -477,7 +477,7 @@ Route43Sign2Text:
 	done
 
 Route43TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS"
 
 	para "All #MON have"
 	line "pros and cons"
