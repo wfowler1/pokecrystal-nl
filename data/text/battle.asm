@@ -352,7 +352,7 @@ BattleText_TargetsEncoreEnded:
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " groeide" ; " grew to"
-	line "naar niveau @"
+	line "naar level @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79
