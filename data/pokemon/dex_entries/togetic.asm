@@ -1,11 +1,11 @@
-	db "HAPPINESS@" ; species name
+	db "BLIJDSCHAP@" ; "HAPPINESS@" ; species name
 	db 6 ; height
 	dw 32 ; weight
 
-	db   "Although it does"
-	next "not flap its wings"
-	next "very much, it can"
+	db   "Hoewel de vleugels" ; "Although it does"
+	next "niet veel bewegen," ; "not flap its wings"
+	next "kan deze #MON" ; "very much, it can"
 
-	page "stay up in the air"
-	next "as it tags along"
-	next "after its trainer.@"
+	page "in de lucht" ; "stay up in the air"
+	next "blijven en een" ; "as it tags along"
+	next "trainer volgen.@" ; "after its trainer.@"

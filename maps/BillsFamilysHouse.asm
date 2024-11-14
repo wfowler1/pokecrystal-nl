@@ -141,7 +141,7 @@ BillImCountingOnYouText:
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "EEVEE!" ; "EEVEE!"
 	done
 

@@ -1,11 +1,11 @@
-	db "FLYCATCHER@" ; species name
+	db "VLIEGVANGR@" ; "FLYCATCHER@" ; species name
 	db 17 ; height
 	dw 155 ; weight
 
-	db   "Once ingested into"
-	next "this #MON's"
-	next "body, even the"
+	db   "Eenmaal verteerd" ; "Once ingested into"
+	next "in het lijf van" ; "this #MON's"
+	next "deze #MON," ; "body, even the"
 
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
+	page "zal zelfs het" ; "hardest object"
+	next "hardste object" ; "will melt into"
+	next "smelten.@" ; "nothing.@"

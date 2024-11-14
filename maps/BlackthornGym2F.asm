@@ -79,48 +79,48 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "It's not as if we"
-	line "all use dragon-"
-	cont "type #MON."
+	text "Het is niet dat" ; "It's not as if we"
+	line "we allemaal draak-" ; "all use dragon-"
+	cont "#MON gberuiken." ; "type #MON."
 	done
 
 CooltrainermCodyBeatenText:
-	text "Rats! If only I"
-	line "had a dragon!"
+	text "Verdraaid! Ik had" ; "Rats! If only I"
+	line "alleen een draak!" ; "had a dragon!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "Members of our"
-	line "dragon-user clan"
+	text "Leden van onze" ; "Members of our"
+	line "drakenclan" ; "dragon-user clan"
 
-	para "can use dragon"
-	line "#MON only after"
+	para "mogen enkel draak-" ; "can use dragon"
+	line "#MON gebruiken" ; "#MON only after"
 
-	para "our MASTER allows"
-	line "it."
+	para "als onze MEESTER" ; "our MASTER allows"
+	line "het toelaat." ; "it."
 	done
 
 CooltrainerfFranSeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
+	text "Ik kan niet een" ; "I can't allow a"
+	line "naamloze trainer" ; "nameless trainer"
+	cont "langs me laten!" ; "past me!"
 
-	para "CLAIR would be"
-	line "livid if I did!"
+	para "CLAIR zou dan" ; "CLAIR would be"
+	line "woedend worden!" ; "livid if I did!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "Awww… I lost…"
+	text "Aww… Ik verloor…" ; "Awww… I lost…"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Uh-oh… CLAIR is"
-	line "going to be mad…"
+	text "Uh-oh… CLAIR gaat" ; "Uh-oh… CLAIR is"
+	line "boos worden…" ; "going to be mad…"
 	done
 
 BlackthornGym2FBoulderFellText:
-	text "The boulder fell"
-	line "through!"
+	text "De kei viel er" ; "The boulder fell"
+	line "doorheen!" ; "through!"
 	done
 
 BlackthornGym2F_MapEvents:

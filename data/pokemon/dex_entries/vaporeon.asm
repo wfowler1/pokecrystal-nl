@@ -1,11 +1,11 @@
-	db "BUBBLE JET@" ; species name
+	db "BUBBELJET@" ; "BUBBLE JET@" ; species name
 	db 10 ; height
 	dw 290 ; weight
 
-	db   "As it uses the"
-	next "fins on the tip"
-	next "of its tail to"
+	db   "Terwijl het met" ; "As it uses the"
+	next "finnen op de punt" ; "fins on the tip"
+	next "van de staart" ; "of its tail to"
 
-	page "swim, it blends"
-	next "with the water"
-	next "perfectly.@"
+	page "zwemt, gaat het" ; "swim, it blends"
+	next "perfect op in het" ; "with the water"
+	next "water.@" ; "perfectly.@"

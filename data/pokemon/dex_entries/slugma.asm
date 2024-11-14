@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 350 ; weight
 
-	db   "These group to-"
-	next "gether in areas"
-	next "that are hotter"
+	db   "Komen samen in" ; "These group to-"
+	next "gebieden die" ; "gether in areas"
+	next "heter dan normaal" ; "that are hotter"
 
-	page "than normal. If it"
-	next "cools off, its"
-	next "skin hardens.@"
+	page "zijn. Als het" ; "than normal. If it"
+	next "afkoelt, verhardt" ; "cools off, its"
+	next "de huid.@" ; "skin hardens.@"

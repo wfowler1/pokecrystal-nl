@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; species name
 	db 10 ; height
 	dw 295 ; weight
 
-	db   "Adept at climbing"
-	next "trees, it rolls"
-	next "into a spiny ball,"
+	db   "Vaardig in boom-" ; "Adept at climbing"
+	next "klimmen, rolt in" ; "trees, it rolls"
+	next "een stekelige bal" ; "into a spiny ball,"
 
-	page "then attacks its"
-	next "enemies from"
-	next "above.@"
+	page "en valt vijanden" ; "then attacks its"
+	next "dan aan van" ; "enemies from"
+	next "bovenaf.@" ; "above.@"

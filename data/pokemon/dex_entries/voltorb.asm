@@ -1,11 +1,11 @@
-	db "BALL@" ; species name
+	db "BAL@" ; "BALL@" ; species name
 	db 5 ; height
 	dw 104 ; weight
 
-	db   "During the study"
-	next "of this #MON,"
-	next "it was discovered"
+	db   "Uit studie van" ; "During the study"
+	next "deze #MON" ; "of this #MON,"
+	next "blijkt dat geen" ; "it was discovered"
 
-	page "that its compo-"
-	next "nents are not"
-	next "found in nature.@"
+	page "van diens" ; "that its compo-"
+	next "componenten in de" ; "nents are not"
+	next "natuur bestaan.@" ; "found in nature.@"

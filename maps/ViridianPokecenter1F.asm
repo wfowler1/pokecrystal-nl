@@ -35,38 +35,40 @@ ViridianPokecenter1FBugCatcherScript:
 	jumptextfaceplayer ViridianPokecenter1FBugCatcherText
 
 ViridianPokecenter1FCooltrainerMText:
-	text "Where in the world"
-	line "is VIRIDIAN's GYM"
+	text "Waar is VIRIDIAN's" ; "Where in the world"
+	line "GYMLEIDER heen?" ; "is VIRIDIAN's GYM"
 
-	para "LEADER? I wanted"
-	line "to challenge him."
+	para "Ik wou hem" ; "LEADER? I wanted"
+	line "uitdagen." ; "to challenge him."
 	done
 
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
-	text "There are no GYM"
-	line "TRAINERS at the"
-	cont "VIRIDIAN GYM."
+	text "Er zijn geen" ; "There are no GYM"
+	line "GYMTRAINERS in" ; "TRAINERS at the"
+	cont "de VIRIDIAN-GYM." ; "VIRIDIAN GYM."
 
-	para "The LEADER claims"
-	line "his policy is to"
+	para "De LEIDER zegt" ; "The LEADER claims"
+	line "dat zijn huisregel" ; "his policy is to"
 
-	para "win without having"
-	line "any underlings."
+	para "is om te winnen" ; "win without having"
+	line "zonder onderdanen." ; "any underlings."
 	done
 
 ViridianPokecenter1FCooltrainerFText:
-	text "I heard that the"
-	line "GYM in CINNABAR is"
-	cont "gone."
+	text "Ik hoorde dat de" ; "I heard that the"
+	line "GYM van CINNABAR" ; "GYM in CINNABAR is"
+	cont "weg is." ; "gone."
 
-	para "I wonder what be-"
-	line "came of BLAINE,"
-	cont "the GYM LEADER."
+	para "Ik vraag me af wat" ; "I wonder what be-"
+	line "er van BLAINE, de" ; "came of BLAINE,"
+	cont "GYMLEIDER, is" ; "the GYM LEADER."
+	cont "geworden." ;
 	done
 
 ViridianPokecenter1FBugCatcherText:
-	text "My dream is to be-"
-	line "come a GYM LEADER."
+	text "Het is mijn droom" ; "My dream is to be-"
+	line "om een GYMLEIDER" ; "come a GYM LEADER."
+	cont "te worden." ;
 	done
 
 ViridianPokecenter1F_MapEvents:

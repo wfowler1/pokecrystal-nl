@@ -86,131 +86,133 @@ ViridianCityMartSign:
 	jumpstd MartSignScript
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Hey, kid! I just"
-	line "had a double shot"
+	text "He, koter! Ik had" ; "Hey, kid! I just"
+	line "net een dubbele" ; "had a double shot"
 
-	para "of espresso, and"
-	line "I am wired!"
+	para "espresso, en nu" ; "of espresso, and"
+	line "barst ik van de" ; "I am wired!"
 
-	para "I need to talk to"
-	line "someone, so you'll"
-	cont "have to do!"
+	para "energie! Ik moet" ; "I need to talk to"
+	line "met iemand praten," ; "someone, so you'll"
+	cont "dus jij bent de" ; "have to do!"
 
-	para "I might not look"
-	line "like much now, but"
+	para "pineut. Ik zie er" ; "I might not look"
+	line "wellicht zwak uit," ; "like much now, but"
 
-	para "I was an expert at"
-	line "catching #MON."
+	para "maar ik was expert" ; "I was an expert at"
+	line "in het vangen" ; "catching #MON."
+	cont "van #MON." ;
 
-	para "Do you believe me?"
+	para "Geloof je me?" ; "Do you believe me?"
 	done
 
 ViridianCityCoffeeGrampsBelievedText:
-	text "Good, good. Yes, I"
-	line "was something out"
+	text "Goed, goed. Ja," ; "Good, good. Yes, I"
+	line "ik was echt iets" ; "was something out"
 
-	para "of the ordinary,"
-	line "let me tell you!"
+	para "bijzonders," ; "of the ordinary,"
+	line "weet je!" ; "let me tell you!"
 	done
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "What? You little"
-	line "whelp!"
+	text "Wat? Jij kleine" ; "What? You little"
+	line "snotneus!" ; "whelp!"
 
-	para "If I were just a"
-	line "bit younger, I'd"
+	para "Als ik een beetje" ; "If I were just a"
+	line "jonger was, zou ik" ; "bit younger, I'd"
 
-	para "show you a thing"
-	line "or two. Humph!"
+	para "je wel wat laten" ; "show you a thing"
+	line "zien. Pff!" ; "or two. Humph!"
 	done
 
 ViridianCityGrampsNearGymText:
-	text "This GYM didn't"
-	line "have a LEADER"
-	cont "until recently."
+	text "Deze GYM had tot" ; "This GYM didn't"
+	line "voor kort geen" ; "have a LEADER"
+	cont "LEIDER." ; "until recently."
 
-	para "A young man from"
-	line "PALLET became the"
+	para "Een jongeman uit" ; "A young man from"
+	line "PALLET werd de" ; "PALLET became the"
 
-	para "LEADER, but he's"
-	line "often away."
+	para "LEIDER, maar hij" ; "LEADER, but he's"
+	line "is vaak weg." ; "often away."
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Are you going to"
-	line "battle the LEADER?"
+	text "Ga je met de" ; "Are you going to"
+	line "LEIDER vechten?" ; "battle the LEADER?"
 
-	para "Good luck to you."
-	line "You'll need it."
+	para "Veel geluk. Je zal" ; "Good luck to you."
+	line "het nodig hebben." ; "You'll need it."
 	done
 
 ViridianCityDreamEaterFisherText:
-	text "Yawn!"
+	text "Gaap!" ; "Yawn!"
 
-	para "I must have dozed"
-	line "off in the sun."
+	para "Ik ben ingedut" ; "I must have dozed"
+	line "in de zon." ; "off in the sun."
 
-	para "…I had this dream"
-	line "about a DROWZEE"
+	para "…Ik had een droom" ; "…I had this dream"
+	line "over een DROWZEE" ; "about a DROWZEE"
 
-	para "eating my dream."
-	line "Weird, huh?"
+	para "die mijn droom" ; "eating my dream."
+	line "opat. Raar, hè?" ; "Weird, huh?"
 
 	para "Huh?"
-	line "What's this?"
+	line "Wat is dit?" ; "What's this?"
 
-	para "Where did this TM"
-	line "come from?"
+	para "Waar komt deze" ; "Where did this TM"
+	line "TM vandaan?" ; "come from?"
 
-	para "This is spooky!"
-	line "Here, you can have"
-	cont "this TM."
+	para "Dit is griezelig!" ; "This is spooky!"
+	line "Hier, jij mag" ; "Here, you can have"
+	cont "deze TM hebben." ; "this TM."
 	done
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
+	text "TM42 bevat" ; "TM42 contains"
+	line "DROOMETER…" ; "DREAM EATER…"
 
 	para "…Zzzzz…"
 	done
 
 ViridianCityYoungsterText:
-	text "I heard that there"
-	line "are many items on"
+	text "Ik hoorde dat er" ; "I heard that there"
+	line "veel voorwerpen" ; "are many items on"
 
-	para "the ground in"
-	line "VIRIDIAN FOREST."
+	para "op de grond liggen" ; "the ground in"
+	line "in VIRIDIANWOUD." ; "VIRIDIAN FOREST."
 	done
 
 ViridianCitySignText:
 	text "VIRIDIAN CITY"
 
-	para "The Eternally"
-	line "Green Paradise"
+	para "Het Eeuwig" ; "The Eternally"
+	line "Groene Paradijs" ; "Green Paradise"
 	done
 
 ViridianGymSignText:
 	text "VIRIDIAN CITY"
-	line "#MON GYM"
-	cont "LEADER: …"
+	line "#MON-GYMLEIDER:"
+	cont "…" ; "LEADER: …"
 
-	para "The rest of the"
-	line "text is illegible…"
+	para "De rest van de" ; "The rest of the"
+	line "tekst is" ; "text is illegible…"
+	cont "onleesbaar…" ;
 	done
 
 ViridianCityWelcomeSignText:
-	text "WELCOME TO"
+	text "WELKOM IN" ; "WELCOME TO"
 	line "VIRIDIAN CITY,"
 
-	para "THE GATEWAY TO"
-	line "INDIGO PLATEAU"
+	para "DE POORT NAAR" ; "THE GATEWAY TO"
+	line "INDIGO-PLATEAU" ; "INDIGO PLATEAU"
 	done
 
 TrainerHouseSignText:
-	text "TRAINER HOUSE"
+	text "TRAINERHUIS" ; "TRAINER HOUSE"
 
-	para "The Club for Top"
-	line "Trainer Battles"
+	para "De Club voor Toppe" ; "The Club for Top"
+	line "Trainergevechten" ; "Trainer Battles"
 	done
 
 ViridianCity_MapEvents:

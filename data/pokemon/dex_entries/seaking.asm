@@ -1,11 +1,11 @@
-	db "GOLDFISH@" ; species name
+	db "GOUDVIS@" ; species name
 	db 13 ; height
 	dw 390 ; weight
 
-	db   "When autumn comes,"
-	next "the males patrol"
-	next "the area around"
+	db   "In de herfst" ; "When autumn comes,"
+	next "patrouilleren" ; "the males patrol"
+	next "mannetjes rond het" ; "the area around"
 
-	page "their nests in"
-	next "order to protect"
-	next "their offspring.@"
+	page "nest om het na-" ; "their nests in"
+	next "geslacht te" ; "order to protect"
+	next "beschermen.@" ; "their offspring.@"

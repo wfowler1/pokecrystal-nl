@@ -1,11 +1,11 @@
-	db "HAIRY BUG@" ; species name
+	db "INSECT@" ; "HAIRY BUG@" ; species name
 	db 3 ; height
 	dw 32 ; weight
 
-	db   "The barb on top of"
-	next "its head secretes"
-	next "a strong poison."
+	db   "De stekel bovenop" ; "The barb on top of"
+	next "het hoofd bevat" ; "its head secretes"
+	next "een sterk gif." ; "a strong poison."
 
-	page "It uses this toxic"
-	next "barb to protect"
-	next "itself.@"
+	page "Met deze prikker" ; "It uses this toxic"
+	next "berschermt het" ; "barb to protect"
+	next "zichzelf.@" ; "itself.@"

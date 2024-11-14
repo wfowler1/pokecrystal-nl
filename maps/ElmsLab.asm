@@ -982,7 +982,7 @@ ElmAfterTheftText3:
 	done
 
 ElmAfterTheftText4:
-	text "Naar… Is het een" ; "But… Is it a"
+	text "Maar… Is het een" ; "But… Is it a"
 	line "#MON EI?" ; "#MON EGG?"
 
 	para "Zo ja, dan is dit" ; "If it is, it is a"

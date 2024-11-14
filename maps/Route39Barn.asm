@@ -126,14 +126,14 @@ MoomooScript:
 	end
 
 Route39BarnTwinMoomooIsSickText:
-	text "MOOMOO is sick…"
+	text "MOOMOO is ziek…" ; "MOOMOO is sick…"
 
-	para "She needs lots of"
-	line "BERRIES."
+	para "Ze heeft veel" ; "She needs lots of"
+	line "BESSEN nodig." ; "BERRIES."
 	done
 
 Route39BarnTwinWereFeedingMoomooText:
-	text "We're feeding"
+	text "We voeren" ; "We're feeding"
 	line "MOOMOO!"
 	done
 
@@ -142,7 +142,7 @@ MoomooWeakMooText:
 	done
 
 Route39BarnItsCryIsWeakText:
-	text "Its cry is weak…"
+	text "Een zwak kreetje…" ; "Its cry is weak…"
 	done
 
 MoomooHappyMooText:
@@ -150,40 +150,40 @@ MoomooHappyMooText:
 	done
 
 Route39BarnAskGiveBerryText:
-	text "Give a BERRY to"
+	text "Geef een BES aan" ; "Give a BERRY to"
 	line "MILTANK?"
 	done
 
 Route39BarnGaveBerryText:
-	text "<PLAYER> gave a"
-	line "BERRY to MILTANK."
+	text "<PLAYER> gaf een" ; "<PLAYER> gave a"
+	line "BES aan MILTANK." ; "BERRY to MILTANK."
 	done
 
 Route39BarnLittleHealthierText:
-	text "MILTANK became a"
-	line "little healthier!"
+	text "MILTANK werd iets" ; "MILTANK became a"
+	line "gezonder!" ; "little healthier!"
 	done
 
 Route39BarnQuiteHealthyText:
-	text "MILTANK became"
-	line "quite healthy!"
+	text "MILTANK werd best" ; "MILTANK became"
+	line "gezond!" ; "quite healthy!"
 	done
 
 Route39BarnTotallyHealthyText:
-	text "MILTANK became"
-	line "totally healthy!"
+	text "MILTANK werd" ; "MILTANK became"
+	line "helemaal gezond!" ; "totally healthy!"
 	done
 
 Route39BarnNoBerriesText:
-	text "<PLAYER> has no"
-	line "BERRIES…"
+	text "<PLAYER> heeft" ; "<PLAYER> has no"
+	line "geen BESSEN…" ; "BERRIES…"
 	done
 
 Route39BarnRefusedBerryText:
-	text "<PLAYER> wouldn't"
-	line "give a BERRY."
+	text "<PLAYER> gaf geen" ; "<PLAYER> wouldn't"
+	line "BES." ; "give a BERRY."
 
-	para "MILTANK looks sad."
+	para "MILTANK kijkt sip." ; "MILTANK looks sad."
 	done
 
 Route39Barn_MapEvents:

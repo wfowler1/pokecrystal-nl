@@ -1,11 +1,11 @@
-	db "MOONLIGHT@" ; species name
+	db "MAANLICHT@" ; "MOONLIGHT@" ; species name
 	db 10 ; height
 	dw 270 ; weight
 
-	db   "On the night of a"
-	next "full moon, or when"
-	next "it gets excited,"
+	db   "In de nacht van" ; "On the night of a"
+	next "een volle maan of" ; "full moon, or when"
+	next "als het blij wordt" ; "it gets excited,"
 
-	page "the ring patterns"
-	next "on its body glow"
-	next "yellow.@"
+	page "gloeien de" ; "the ring patterns"
+	next "patronen op het" ; "on its body glow"
+	next "lichaam geel.@" ; "yellow.@"

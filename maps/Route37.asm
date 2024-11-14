@@ -115,120 +115,120 @@ Route37HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_37_HIDDEN_ETHER
 
 TwinsAnnandanne1SeenText:
-	text "ANN: ANNE and I"
-	line "are in this to-"
-	cont "gether!"
+	text "ANN: ANNE en ik" ; "ANN: ANNE and I"
+	line "doen dit helemaal" ; "are in this to-"
+	cont "samen!" ; "gether!"
 	done
 
 TwinsAnnandanne1BeatenText:
-	text "ANN & ANNE: Nnn… A"
-	line "little too strong."
+	text "ANN & ANNE: Nnn…" ; "ANN & ANNE: Nnn… A"
+	line "Iets te sterk." ; "little too strong."
 	done
 
 TwinsAnnandanne1AfterBattleText:
-	text "ANN: I can tell"
-	line "what my sister and"
+	text "ANN: Ik weet wat" ; "ANN: I can tell"
+	line "mijn zus en mijn" ; "what my sister and"
 
-	para "my #MON are"
-	line "thinking."
+	para "#MON allemaal" ; "my #MON are"
+	line "denken." ; "thinking."
 	done
 
 TwinsAnnandanne2SeenText:
-	text "ANNE: ANN and I"
-	line "are in this to-"
-	cont "gether!"
+	text "ANNE: ANN en ik" ; "ANNE: ANN and I"
+	line "doen dit helemaal" ; "are in this to-"
+	cont "samen!" ; "gether!"
 	done
 
 TwinsAnnandanne2BeatenText:
-	text "ANN & ANNE: Nnn… A"
-	line "little too strong."
+	text "ANN & ANNE: Nnn…" ; "ANN & ANNE: Nnn… A"
+	line "Iets te sterk." ; "little too strong."
 	done
 
 TwinsAnnandanne2AfterBattleText:
-	text "ANNE: We share the"
-	line "same feelings as"
-	cont "our #MON."
+	text "ANNE: Wij delen de" ; "ANNE: We share the"
+	line "gevoelens van onze" ; "same feelings as"
+	cont "#MON." ; "our #MON."
 	done
 
 PsychicGregSeenText:
-	text "#MON can't do a"
-	line "thing if they are"
-	cont "asleep."
+	text "#MON kunnen" ; "#MON can't do a"
+	line "niks doen als ze" ; "thing if they are"
+	cont "slapen." ; "asleep."
 
-	para "I'll show you how"
-	line "scary that is!"
+	para "Ik laat je zien" ; "I'll show you how"
+	line "hoe eng dat is!" ; "scary that is!"
 	done
 
 PsychicGregBeatenText:
-	text "I lost. That's"
-	line "pretty sad…"
+	text "Ik heb verloren." ; "I lost. That's"
+	line "Wat droevig…" ; "pretty sad…"
 	done
 
 PsychicGregAfterBattleText:
-	text "Putting #MON to"
-	line "sleep or paralyz-"
-	cont "ing them are good"
-	cont "battle techniques."
+	text "#MON in slaap" ; "Putting #MON to"
+	line "brengen of verlam-" ; "sleep or paralyz-"
+	cont "men zijn goede" ; "ing them are good"
+	cont "strijdtechnieken." ; "battle techniques."
 	done
 
 MeetSunnyText:
-	text "SUNNY: Hi!"
+	text "SUNNY: Hoi!" ; "SUNNY: Hi!"
 
-	para "I'm SUNNY of Sun-"
-	line "day, meaning it's"
-	cont "Sunday today!"
+	para "Ik ben zondagse" ; "I'm SUNNY of Sun-"
+	line "Sunny, vandaag is" ; "day, meaning it's"
+	cont "het dus zondag!" ; "Sunday today!"
 	done
 
 SunnyGivesGiftText1:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "Ik moest je dit" ; "I was told to give"
+	line "geven als ik je" ; "you this if I saw"
+	cont "zou zien!" ; "you!"
 	done
 
 SunnyGivesGiftText2:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "Ik moest je dit" ; "I was told to give"
+	line "geven als ik je" ; "you this if I saw"
+	cont "zou zien!" ; "you!"
 	done
 
 SunnyGaveGiftText:
-	text "SUNNY: That thing…"
+	text "SUNNY: Dat ding…" ; "SUNNY: That thing…"
 
 	para "Um…"
 
-	para "… What was it now…"
+	para "… Wat was het nou…" ; "… What was it now…"
 
 	para "…"
 
-	para "Oh! I remember"
-	line "now!"
+	para "Oh! Ik weet het" ; "Oh! I remember"
+	line "weer!" ; "now!"
 
-	para "A #MON that"
-	line "knows electric"
+	para "Een #MON met" ; "A #MON that"
+	line "elektrische aan-" ; "knows electric"
 
-	para "moves should hold"
-	line "it."
+	para "vallen moet het" ; "moves should hold"
+	line "vasthouden Mijn." ; "it."
 
-	para "My sis MONICA said"
-	line "it powers up"
-	cont "electric moves!"
+	para "zus MONICA zegt" ; "My sis MONICA said"
+	line "dat het hun aan-" ; "it powers up"
+	cont "vallen versterkt!" ; "electric moves!"
 	done
 
 SunnySundayText:
-	text "SUNNY: My sisters"
-	line "and brothers are"
+	text "SUNNY: Mijn zussen" ; "SUNNY: My sisters"
+	line "en broers zijn" ; "and brothers are"
 	cont "MONICA, TUSCANY,"
 	cont "WESLEY, ARTHUR,"
-	cont "FRIEDA and SANTOS."
+	cont "FRIEDA en SANTOS." ; "FRIEDA and SANTOS."
 
-	para "They're all older"
-	line "than me!"
+	para "Ze zijn allemaal" ; "They're all older"
+	line "ouder dan ik!" ; "than me!"
 	done
 
 SunnyNotSundayText:
-	text "SUNNY: Isn't today"
-	line "Sunday?"
-	cont "Um… I forgot!"
+	text "Is het vandaag" ; "SUNNY: Isn't today"
+	line "zondag?" ; "Sunday?"
+	cont "Um… Vergeten!" ; "Um… I forgot!"
 	done
 
 Route37SignText:

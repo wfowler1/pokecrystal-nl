@@ -223,216 +223,218 @@ Route35NationalParkGatePlayerEnterParkMovement:
 	step_end
 
 Route35NationalParkGateOfficer1AskToParticipateText:
-	text "Today's @"
+	text "Het is @" ; "Today's @"
 	text_ram wStringBuffer3 ; Day of the week MaxLength 9
 	text "."
-	line "That means the"
+	line "De dag van het" ; "That means the"
 
-	para "Bug-Catching Con-"
-	line "test is on today."
+	para "wekelijkse" ; "Bug-Catching Con-"
+	line "KEVERTOERNOOI." ; "test is on today."
 
-	para "The rules are sim-"
-	line "ple."
+	para "De regels zijn" ; "The rules are sim-"
+	line "simpel." ; "ple."
 
-	para "Using one of your"
-	line "#MON, catch a"
+	para "Van met één van" ; "Using one of your"
+	line "je #MON een" ; "#MON, catch a"
 
-	para "bug #MON to be"
-	line "judged."
+	para "insect-#MON om" ; "bug #MON to be"
+	line "te beoordelen." ; "judged."
 
-	para "Would you like to"
-	line "give it a try?"
+	para "Wil je het" ; "Would you like to"
+	line "proberen?" ; "give it a try?"
 	done
 
 Route35NationalParkGateOfficer1GiveParkBallsText:
-	text "Here are the PARK"
-	line "BALLS for the"
-	cont "Contest."
+	text "Hier zijn de PARK-" ; "Here are the PARK"
+	line "BALLEN voor het" ; "BALLS for the"
+	cont "Toernooi." ; "Contest."
 	done
 
 Route35NationalParkGatePlayerReceivedParkBallsText:
-	text "<PLAYER> received"
-	line "{d:BUG_CONTEST_BALLS} PARK BALLS."
+	text "<PLAYER> kreeg" ; "<PLAYER> received"
+	line "{d:BUG_CONTEST_BALLS} PARKBALLEN." ; "{d:BUG_CONTEST_BALLS} PARK BALLS."
 	done
 
 Route35NationalParkGateOfficer1ExplainsRulesText:
-	text "The person who"
-	line "gets the strong-"
-	cont "est bug #MON"
-	cont "is the winner."
+	text "De persoon met de" ; "The person who"
+	line "sterkste insect-" ; "gets the strong-"
+	cont "#MON is de" ; "est bug #MON"
+	cont "winnaar." ; "is the winner."
 
-	para "You have {d:BUG_CONTEST_MINUTES}"
-	line "minutes."
+	para "Je hebt {d:BUG_CONTEST_MINUTES}" ; "You have {d:BUG_CONTEST_MINUTES}"
+	line "minuten." ; "minutes."
 
-	para "If you run out of"
-	line "PARK BALLS, you're"
-	cont "done."
+	para "Als je PARKBALLEN" ; "If you run out of"
+	line "op zijn, ben je" ; "PARK BALLS, you're"
+	cont "klaar." ; "done."
 
-	para "You can keep the"
-	line "last #MON you"
-	cont "catch as your own."
+	para "Je kunt je laatst" ; "You can keep the"
+	line "gevangen #MON" ; "last #MON you"
+	cont "achteraf houden." ; "catch as your own."
 
-	para "Go out and catch"
-	line "the strongest bug"
+	para "Ga en vang de" ; "Go out and catch"
+	line "sterkste insect-" ; "the strongest bug"
 
-	para "#MON you can"
-	line "find!"
+	para "#MON die je" ; "#MON you can"
+	line "kunt vinden!" ; "find!"
 	done
+
 
 Route35NationalParkGateOfficer1AskToUseFirstMonText:
 	text "Uh-oh…"
 
-	para "You have more than"
-	line "one #MON."
+	para "Je hebt meer dan" ; "You have more than"
+	line "één #MON." ; "one #MON."
 
-	para "You'll have to use"
+	para "Je moet" ; "You'll have to use"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text ", the"
+	text ", de" ; ", the"
 
-	para "first #MON in"
-	line "your party."
+	para "eerste #MON in" ; "first #MON in"
+	line "je team gebruiken." ; "your party."
 
-	para "Is that OK with"
-	line "you?"
+	para "Is dat oké voor" ; "Is that OK with"
+	line "jou?" ; "you?"
 	done
 
 Route35NationalParkGateOfficer1WellHoldYourMonText:
-	text "Fine, we'll hold"
-	line "your other #MON"
-	cont "while you compete."
+	text "Prima, we bewaren" ; "Fine, we'll hold"
+	line "je andere #MON" ; "your other #MON"
+	cont "tijdens de strijd." ; "while you compete."
 	done
 
 Route35NationalParkGatePlayersMonLeftWithHelperText:
 	text "<PLAYER>'s #MON"
-	line "were left with the"
-	cont "CONTEST HELPER."
+	line "Zijn achtergelaten" ; "were left with the"
+	cont "bij TOERNOOIHULP." ; "CONTEST HELPER."
 	done
 
 Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
-	text "Please choose the"
-	line "#MON to be used"
+	text "Kies de #MON" ; "Please choose the"
+	line "om te gebruiken" ; "#MON to be used"
 
-	para "in the Contest,"
-	line "then come see me."
+	para "in de wedstrijd en" ; "in the Contest,"
+	line "kom dan naar mij." ; "then come see me."
 	done
 
 Route35NationalParkGateOfficer1TakePartInFutureText:
-	text "OK. We hope you'll"
-	line "take part in the"
-	cont "future."
+	text "OK. We hopen dat" ; "OK. We hope you'll"
+	line "je in de toekomst" ; "take part in the"
+	cont "meedoet." ; "future."
 	done
 
 Route35NationalParkGateOfficer1FirstMonCantBattleText:
 	text "Uh-oh…"
-	line "The first #MON"
+	line "De eerste #MON" ; "The first #MON"
 
-	para "in your party"
-	line "can't battle."
+	para "in je team kan" ; "in your party"
+	line "niet vechten." ; "can't battle."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "Wissel met de" ; "Please switch it"
+	line "#MON die je wil" ; "with the #MON"
 
-	para "you want to use,"
-	line "then come see me."
+	para "gebruiken en kom" ; "you want to use,"
+	line "dan naar mij." ; "then come see me."
 	done
 
 Route35NationalParkGateOfficer1MakeRoomText:
 	text "Uh-oh…"
-	line "Both your party"
+	line "Zowel je team als" ; "Both your party"
 
-	para "and your PC BOX"
-	line "are full."
+	para "je PC-BOX zitten" ; "and your PC BOX"
+	line "vol." ; "are full."
 
-	para "You have no room"
-	line "to put the bug"
-	cont "#MON you catch."
+	para "Je hebt geen plek" ; "You have no room"
+	line "voor de insecten-" ; "to put the bug"
+	cont "die je vangt." ; "#MON you catch."
 
-	para "Please make room"
-	line "in your party or"
+	para "Maak ruimte in je" ; "Please make room"
+	line "team of PC-BOX, en" ; "in your party or"
 
-	para "your PC BOX, then"
-	line "come see me."
+	para "kom dan naar mij" ; "your PC BOX, then"
+	line "toe." ; "come see me."
 	done
 
 Route35NationalParkGateOfficer1EggAsFirstMonText:
 	text "Uh-oh…"
-	line "You have an EGG as"
+	line "Je hebt een EI als" ; "You have an EGG as"
 
-	para "the first #MON"
-	line "in your party."
+	para "eerste #MON in" ; "the first #MON"
+	line "je team. Wissel" ; "in your party."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "deze voor de" ; "Please switch it"
+	line "#MON die je wil" ; "with the #MON"
 
-	para "you want to use,"
-	line "then come see me."
+	para "gebruiken en kom" ; "you want to use,"
+	line "dan naar mij toe." ; "then come see me."
 	done
 
 Route35NationalParkGateOfficer1WantToFinishText:
-	text "You still have @"
+	text "Je hebt nog @" ; "You still have @"
 	text_ram wStringBuffer3 ; MaxLength 2
 	text_start
-	line "minute(s) left."
+	line "minuten te gaan." ; "minute(s) left."
 
-	para "Do you want to"
-	line "finish now?"
+	para "Wil je nu al" ; "Do you want to"
+	line "afronden?" ; "finish now?"
 	done
 
 Route35NationalParkGateOfficer1WaitAtNorthGateText:
-	text "OK. Please wait at"
-	line "the North Gate for"
+	text "OK. Wacht bij de" ; "OK. Please wait at"
+	line "Noorderpoort op" ; "the North Gate for"
 
-	para "the announcement"
-	line "of the winners."
+	para "de aankondiging" ; "the announcement"
+	line "van de winnaars." ; "of the winners."
 	done
 
 Route35NationalParkGateOfficer1OkGoFinishText:
-	text "OK. Please get"
-	line "back outside and"
-	cont "finish up."
+	text "OK. Ga alsjeblieft" ; "OK. Please get back"
+	line "weer naar buiten" ; "outside and finish"
+	cont "en rond af." ; "up."
 	done
 
 Route35NationalParkGateOfficer1ContestIsOverText:
-	text "Today's Contest is"
-	line "over. We hope you"
+	text "Het Toernooi van" ; "Today's Contest is"
+	line "de dag is voorbij." ; "over. We hope you"
 
-	para "will participate"
-	line "in the future."
+	para "Hopelijk doe je" ; "will participate"
+	line "een andere keer" ; "in the future."
+	cont "mee."
 	done
 
 Route35NationalParkGateOfficer1WeHoldContestsText:
-	text "We hold Contests"
-	line "regularly in the"
+	text "We houden vaak" ; "We hold Contests"
+	line "Toernooien in het" ; "regularly in the"
 
-	para "PARK. You should"
-	line "give it a shot."
+	para "PARK. Je moet eens" ; "PARK. You should"
+	line "meedoen." ; "give it a shot."
 	done
 
 Route35NationalParkGateYoungsterText:
-	text "When is the next"
-	line "Bug-Catching Con-"
-	cont "test going to be?"
+	text "Wanneer vindt het" ; "When is the next"
+	line "volgende KEVER-" ; "Bug-Catching Con-"
+	cont "TOERNOOI plaats?" ; "test going to be?"
 	done
 
 BugCatchingContestExplanationText:
-	text "The Bug-Catching"
-	line "Contest is held on"
+	text "Het KEVERTOERNOOI" ; "The Bug-Catching"
+	line "is iedere dinsdag," ; "Contest is held on"
 
-	para "Tuesday, Thursday"
-	line "and Saturday."
+	para "donderdag en op" ; "Tuesday, Thursday"
+	line "zaterdag." ; "and Saturday."
 
-	para "Not only do you"
-	line "earn a prize just"
+	para "Niet alleen win je" ; "Not only do you"
+	line "er prijzen door" ; "earn a prize just"
 
-	para "for participating,"
-	line "you also get to"
+	para "mee te doen, je" ; "for participating,"
+	line "mag gevangen" ; "you also get to"
 
-	para "keep the bug"
-	line "#MON you may"
+	para "insect-#MON" ; "keep the bug"
+	line "na de wedstrijd" ; "#MON you may"
 
-	para "have at the end of"
-	line "the contest."
+	para "ook nog eens" ; "have at the end of"
+	line "houden." ; "the contest."
 	done
 
 Route35NationalParkGate_MapEvents:

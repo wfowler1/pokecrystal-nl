@@ -32,31 +32,32 @@ Rattey:
 	end
 
 ViridianNicknameSpeechHousePokefanMText:
-	text "Do you put a lot"
-	line "of thought into"
+	text "Heb je goed na-" ; "Do you put a lot"
+	line "gedacht over de" ; "of thought into"
 
-	para "naming your"
-	line "#MON?"
+	para "naam van je" ; "naming your"
+	line "#MON?" ; "#MON?"
 
-	para "Giving them good"
-	line "nicknames adds to"
+	para "Goede bijnamen" ; "Giving them good"
+	line "maken het ruilen" ; "nicknames adds to"
 
-	para "the fun of trading"
-	line "with others."
+	para "met anderen" ; "the fun of trading"
+	line "extra leuk." ; "with others."
 	done
 
 ViridianNicknameSpeechHouseLassText:
-	text "They're SPEARY--"
-	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	text "Dat zijn SPEER-" ; "They're SPEARY--"
+	line "TJE--een SPEAROW--" ; "a SPEAROW--and"
+	cont "en RATJE--een" ; "RATTEY--a RATTATA."
+	cont "RATTATA." ;
 	done
 
 SpearyText:
-	text "SPEARY: Ch-chun!"
+	text "SPEERTJE: Tjurp!" ; "SPEARY: Ch-chun!"
 	done
 
 RatteyText:
-	text "RATTEY: Kikiii!"
+	text "RATJE: Kikiii!" ; "RATTEY: Kikiii!"
 	done
 
 ViridianNicknameSpeechHouse_MapEvents:

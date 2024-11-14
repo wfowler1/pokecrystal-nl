@@ -1,11 +1,11 @@
-	db "TINY BIRD@" ; species name
+	db "VOGELTJE@" ; "KLEIN@" ; species name
 	db 3 ; height
 	dw 20 ; weight
 
-	db   "To protect its"
-	next "territory, it"
-	next "flies around"
+	db   "Vliegt constant" ; "To protect its"
+	next "rondjes om terri-" ; "territory, it"
+	next "torium te" ; "flies around"
 
-	page "ceaselessly,"
-	next "making high-"
-	next "pitched cries.@"
+	page "beschermen. Gilt" ; "ceaselessly,"
+	next "daarbij op een" ; "making high-"
+	next "hoge frequentie.@" ; "pitched cries.@"

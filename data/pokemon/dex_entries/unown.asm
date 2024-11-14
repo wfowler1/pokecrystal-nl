@@ -1,11 +1,11 @@
-	db "SYMBOL@" ; species name
+	db "SYMBOOL@" ; "SYMBOL@" ; species name
 	db 5 ; height
 	dw 50 ; weight
 
-	db   "Because different"
-	next "types of UNOWN"
-	next "exist, it is said"
+	db   "Omdat meerdere" ; "Because different"
+	next "types UNOWN" ; "types of UNOWN"
+	next "bestaan, zegt men" ; "exist, it is said"
 
-	page "that they must"
-	next "have a variety of"
-	next "abilities.@"
+	page "dat ze allerlei" ; "that they must"
+	next "vaardigheden" ; "have a variety of"
+	next "hebben.@" ; "abilities.@"

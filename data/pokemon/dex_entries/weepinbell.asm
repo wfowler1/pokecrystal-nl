@@ -1,11 +1,11 @@
-	db "FLYCATCHER@" ; species name
+	db "VLIEGVANGR@" ; "FLYCATCHER@" ; species name
 	db 10 ; height
 	dw 64 ; weight
 
-	db   "When it's hungry,"
-	next "it swings its"
-	next "razor-sharp"
+	db   "Slinger bij" ; "When it's hungry,"
+	next "honger met" ; "it swings its"
+	next "messcherpe" ; "razor-sharp"
 
-	page "leaves, slicing up"
-	next "any unlucky object"
-	next "nearby for food.@"
+	page "bladeren, om zo" ; "leaves, slicing up"
+	next "nabije objecten" ; "any unlucky object"
+	next "te verhakselen.@" ; "nearby for food.@"

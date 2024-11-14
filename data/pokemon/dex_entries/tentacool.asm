@@ -1,11 +1,11 @@
-	db "JELLYFISH@" ; species name
+	db "KWAL@" ; "JELLYFISH@" ; species name
 	db 9 ; height
 	dw 455 ; weight
 
-	db   "As it floats along"
-	next "on the waves, it"
-	next "uses its toxic"
+	db   "Terwijl het drijft" ; "As it floats along"
+	next "op de golven, ge-" ; "on the waves, it"
+	next "bruikt het giftige" ; "uses its toxic"
 
-	page "feelers to stab"
-	next "anything it"
-	next "touches.@"
+	page "angels om alles te" ; "feelers to stab"
+	next "prikken dat het" ; "anything it"
+	next "tegenkomt.@" ; "touches.@"

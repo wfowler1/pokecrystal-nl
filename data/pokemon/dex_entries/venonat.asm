@@ -2,10 +2,10 @@
 	db 10 ; height
 	dw 300 ; weight
 
-	db   "The small bugs it"
-	next "eats appear only"
-	next "at night, so it"
+	db   "De kleine insecten" ; "The small bugs it"
+	next "die het eet ver-" ; "eats appear only"
+	next "schijnen alleen" ; "at night, so it"
 
-	page "sleeps in a hole"
-	next "in a tree until"
-	next "night falls.@"
+	page "'s nachts, dus tot" ; "sleeps in a hole"
+	next "dan slaapt het in" ; "in a tree until"
+	next "in een boom.@" ; "night falls.@"

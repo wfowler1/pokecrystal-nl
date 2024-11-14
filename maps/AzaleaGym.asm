@@ -178,7 +178,7 @@ BugsyText_ResearchIncomplete:
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "KORFBADGE" ; "HIVEBADGE."
 	done
 

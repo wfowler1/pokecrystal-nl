@@ -35,47 +35,52 @@ LavenderPokecenter1FYoungsterScript:
 	end
 
 LavenderPokecenter1FGentlemanText:
-	text "To the north of"
-	line "LAVENDER is ROCK"
+	text "Ten noorden van" ; "To the north of"
+	line "LAVENDER is" ; "LAVENDER is ROCK"
 
-	para "TUNNEL. Go through"
-	line "it to get to the"
-	cont "POWER PLANT."
+	para "ROTSTUNNEL. Ga er" ; "TUNNEL. Go through"
+	line "doorheen om bij" ; "it to get to the"
+	cont "de ENERGIECENTRALE" ; "POWER PLANT."
+	cont "te komen." ;
 	done
 
 LavenderPokecenter1FTeacherText:
-	text "There's a radio"
-	line "program that plays"
-	cont "# FLUTE music."
+	text "Een programma op" ; "There's a radio"
+	line "de radio speelt" ; "program that plays"
+	cont "#FLUIT-muziek." ; "# FLUTE music."
 
-	para "Oh? Ah, your radio"
-	line "needs an EXPN CARD"
-	cont "to tune into it."
+	para "Oh? Ah, je radio" ; "Oh? Ah, your radio"
+	line "heeft een UITBRD-" ; "needs an EXPN CARD"
+	cont "KAART nodig om" ; "to tune into it."
+	cont "te luisteren." ;
 	done
 
 LavenderPokecenter1FYoungsterText:
-	text "If the POWER PLANT"
-	line "isn't running, the"
+	text "Als de ENERGIE-" ; "If the POWER PLANT"
+	line "CENTRALE niet" ; "isn't running, the"
 
-	para "MAGNET TRAIN won't"
-	line "run either…"
+	para "draait, werkt de" ; "MAGNET TRAIN won't"
+	line "ZWEEFTREIN ook" ; "run either…"
+	cont "niet…" ;
 
-	para "It also means the"
-	line "RADIO STATION"
-	cont "can't broadcast…"
+	para "Het betekent ook" ; "It also means the"
+	line "dat het RADIO-" ; "RADIO STATION"
+	cont "STATION niet kan" ; "can't broadcast…"
+	cont "uitzenden…" ;
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
-	text "The DIRECTOR of"
-	line "the RADIO STATION"
-	cont "sure was happy."
+	text "De DIRECTEUR van" ; "The DIRECTOR of"
+	line "het RADIOSTATION" ; "the RADIO STATION"
+	cont "was erg blij." ; "sure was happy."
 
-	para "He said they're"
-	line "back on the air"
+	para "Hij zei dat ze" ; "He said they're"
+	line "terug in de lucht" ; "back on the air"
 
-	para "because the POWER"
-	line "PLANT is running"
-	cont "smoothly again."
+	para "zijn omdat de" ; "because the POWER"
+	line "ENERGIECENTRALE" ; "PLANT is running"
+	cont "weer soepel" ; "smoothly again."
+	cont "draait." ;
 	done
 
 LavenderPokecenter1F_MapEvents:

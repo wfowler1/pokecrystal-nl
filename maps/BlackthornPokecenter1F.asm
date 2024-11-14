@@ -22,29 +22,30 @@ BlackthornPokecenter1FCooltrainerMScript:
 	jumpstd HappinessCheckScript
 
 BlackthornPokecenter1FGentlemanText:
-	text "Deep inside far-"
-	line "off INDIGO PLATEAU"
+	text "Diep in 't afgele-" ; "Deep inside far-"
+	line "gen INDIGO PLATEAU" ; "off INDIGO PLATEAU"
 
-	para "is the #MON"
+	para "is de #MON-" ; "is the #MON"
 	line "LEAGUE."
 
-	para "I hear the best"
-	line "trainers gather"
+	para "Ik hoor dat de" ; "I hear the best"
+	line "beste trainers uit" ; "trainers gather"
 
-	para "there from around"
-	line "the country."
+	para "het land daar" ; "there from around"
+	line "verzamelen." ; "the country."
 	done
 
 BlackthornPokecenter1FTwinText:
-	text "There was this"
-	line "move I just had"
+	text "Er was een aanval" ; "There was this"
+	line "die ik mijn #-" ; "move I just had"
 
-	para "to teach my #-"
-	line "MON."
+	para "MON gewoon moest" ; "to teach my #-"
+	line "leren." ; "MON."
 
-	para "So I got the MOVE"
-	line "DELETER to make it"
-	cont "forget an HM move."
+	para "Dus ik vroeg de" ; "So I got the MOVE"
+	line "AANVALWISSER om" ; "DELETER to make it"
+	cont "een VM-aanval te" ; "forget an HM move."
+	cont "wissen."
 	done
 
 BlackthornPokecenter1F_MapEvents:

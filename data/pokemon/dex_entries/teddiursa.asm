@@ -1,11 +1,11 @@
-	db "LITTLE BEAR@" ; species name
+	db "KLEINEBEER@" ; "LITTLE BEAR@" ; species name
 	db 6 ; height
 	dw 88 ; weight
 
-	db   "It always licks"
-	next "honey. Its palm"
-	next "tastes sweet"
+	db   "Likt altijd" ; "It always licks"
+	next "honing. Heeft" ; "honey. Its palm"
+	next "mierzoete pootjes" ; "tastes sweet"
 
-	page "because of all the"
-	next "honey it has"
-	next "absorbed.@"
+	page "door alle honing" ; "because of all the"
+	next "die inmiddels is" ; "honey it has"
+	next "geabsorbeerd.@" ; "absorbed.@"

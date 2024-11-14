@@ -506,256 +506,256 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	step_end
 
 YoungsterSamuelSeenText:
-	text "This is where I do"
-	line "my training!"
+	text "Hier doe ik" ; "This is where I do"
+	line "mijn training!" ; "my training!"
 	done
 
 YoungsterSamuelBeatenText:
-	text "Beaten by a"
-	line "passing stranger!"
+	text "Verslagen door" ; "Beaten by a"
+	line "een voorbijganger!" ; "passing stranger!"
 	done
 
 YoungsterSamuelMobileText: ; unreferenced
-	text "Have you been to"
-	line "GOLDENROD CITY?"
+	text "Ben je bekend met" ; "Have you been to"
+	line "GOLDENROD CITY?" ; "GOLDENROD CITY?"
 
-	para "Weren't you amazed"
-	line "by how they've"
+	para "Was je niet onder" ; "Weren't you amazed"
+	line "de indruk van het" ; "by how they've"
 
-	para "changed the"
-	line "#MON CENTER?"
+	para "hele vernieuwde" ; "changed the"
+	line "#MONCENTRUM?" ; "#MON CENTER?"
 	done
 
 YoungsterSamuelAfterText:
-	text "I'm going to train"
-	line "even harder."
+	text "Ik ga nog veel" ; "I'm going to train"
+	line "harder trainen." ; "even harder."
 
-	para "After all, I'm"
-	line "trying to become"
-	cont "a GYM LEADER."
+	para "Ik doe mijn best" ; "After all, I'm"
+	line "om GYMLEIDER te" ; "trying to become"
+	cont "worden, namelijk." ; "a GYM LEADER."
 	done
 
 YoungsterIanSeenText:
-	text "I'm the best in my"
-	line "class at #MON."
+	text "Op school ben ik" ; "I'm the best in my"
+	line "top met #MON." ; "class at #MON."
 	done
 
 YoungsterIanBeatenText:
-	text "No! There are bet-"
-	line "ter trainers…"
+	text "Nee! Er zijn dus" ; "No! There are bet-"
+	line "betere trainers…" ; "ter trainers…"
 	done
 
 YoungsterIanAfterText:
-	text "I'm trying hard so"
-	line "I can be the star"
-	cont "in my class."
+	text "Ik doe mijn best" ; "I'm trying hard so"
+	line "om op school de" ; "I can be the star"
+	cont "ster te zijn." ; "in my class."
 	done
 
 CamperTodd1SeenText:
-	text "I'm confident in"
-	line "my ability to"
-	cont "raise #MON."
+	text "Ik weet zeker dat" ; "I'm confident in"
+	line "ik mijn #MON" ; "my ability to"
+	cont "goed opgevoed heb." ; "raise #MON."
 
-	para "Want to see?"
+	para "Wil je zien?" ; "Want to see?"
 	done
 
 CamperTodd1BeatenText:
-	text "Did I screw up my"
-	line "training?"
+	text "Heb ik mijn trai-" ; "Did I screw up my"
+	line "ning verprutst?" ; "training?"
 	done
 
 CamperTodd1AfterText:
-	text "Maybe I should"
-	line "take one to a DAY-"
+	text "Moet er één naar" ; "Maybe I should"
+	line "een DAGVERBLIJF," ; "take one to a DAY-"
 
-	para "CARE. Or maybe use"
-	line "some items…"
+	para "of moet ik voor-" ; "CARE. Or maybe use"
+	line "werpen gebruiken…" ; "some items…"
 	done
 
 CamperToddSaleText:
-	text "Shopping under the"
-	line "sky!"
+	text "Shoppen onder de" ; "Shopping under the"
+	line "blauwe hemel!" ; "sky!"
 
-	para "It feels so nice"
-	line "up on a rooftop."
+	para "Voelt echt fijn" ; "It feels so nice"
+	line "bovenop een dak." ; "up on a rooftop."
 	done
 
 PicnickerGina1SeenText:
-	text "Are you a trainer?"
+	text "Ben je 'n trainer?" ; "Are you a trainer?"
 
-	para "Let's have a"
-	line "practice battle."
+	para "Laten we een" ; "Let's have a"
+	line "oefenpotje doen." ; "practice battle."
 	done
 
 PicnickerGina1BeatenText:
-	text "Oh, no! I just"
-	line "can't win…"
+	text "Oh nee! Ik kan" ; "Oh, no! I just"
+	line "maar niet winnen…" ; "can't win…"
 	done
 
 PicnickerGina1AfterText:
-	text "You're too strong"
-	line "to be a practice"
-	cont "partner."
+	text "Je bent te sterk" ; "You're too strong"
+	line "om een oefen-" ; "to be a practice"
+	cont "maatje te zijn." ; "partner."
 	done
 
 OfficerKeithSeenText:
-	text "Who goes there?"
-	line "What are you up"
-	cont "to?"
+	text "Wie is daar? En" ; "Who goes there?"
+	line "wat ben je van" ; "What are you up"
+	cont "plan?" ; "to?"
 	done
 
 OfficerKeithWinText:
-	text "You're a tough"
-	line "little kid."
+	text "Je bent best sterk" ; "You're a tough"
+	line "voor een kind." ; "little kid."
 	done
 
 OfficerKeithAfterText:
-	text "Yep, I see nothing"
-	line "wrong today. You"
+	text "Yep, niks aan de" ; "Yep, I see nothing"
+	line "hand. Gedraag je" ; "wrong today. You"
 
-	para "be good and stay"
-	line "out of trouble."
+	para "en blijf uit de" ; "be good and stay"
+	line "problemen." ; "out of trouble."
 	done
 
 OfficerKeithDaytimeText:
-	text "I'm on patrol for"
-	line "suspicious indi-"
-	cont "viduals."
+	text "Ik houd een oogje" ; "I'm on patrol for"
+	line "in het zeil voor" ; "suspicious indi-"
+	cont "schimmige figuren." ; "viduals."
 	done
 
 PokefanmBrandonSeenText:
-	text "I just got my"
-	line "#MON back from"
-	cont "DAY-CARE."
+	text "Mijn #MON komen" ; "I just got my"
+	line "net terug uit het" ; "#MON back from"
+	cont "DAGVERBLIJF." ; "DAY-CARE."
 
-	para "Let's see how much"
-	line "stronger it got!"
+	para "Eens zien hoeveel" ; "Let's see how much"
+	line "sterker ze zijn!" ; "stronger it got!"
 	done
 
 PokefanmBrandonBeatenText:
-	text "Why does it end"
-	line "this way?"
+	text "Waarom moet het" ; "Why does it end"
+	line "zo eindigen?" ; "this way?"
 	done
 
 PokefanmBrandonAfterText:
-	text "My #MON knew"
-	line "moves I didn't"
-	cont "know it had."
+	text "Ik wist niet dat" ; "My #MON knew"
+	line "mijn #MON deze" ; "moves I didn't"
+	cont "aanvallen kenden." ; "know it had."
 
-	para "That confounded me"
-	line "to no end!"
+	para "Daar snapte ik" ; "That confounded me"
+	line "echt niets van!" ; "to no end!"
 	done
 
 CooltrainerfIreneSeenText:
-	text "IRENE: Kyaaah!"
-	line "Someone found us!"
+	text "IRENE: Kyaaah! We" ; "IRENE: Kyaaah!"
+	line "zijn ontdekt!" ; "Someone found us!"
 	done
 
 CooltrainerfIreneBeatenText:
-	text "IRENE: Ohhh!"
-	line "Too strong!"
+	text "IRENE: Ohhh!" ; "IRENE: Ohhh!"
+	line "Te sterk!" ; "Too strong!"
 	done
 
 CooltrainerfIreneAfterText1:
-	text "IRENE: My sister"
-	line "KATE will get you"
-	cont "for this!"
+	text "IRENE: Mijn zus" ; "IRENE: My sister"
+	line "KATE zal je wel" ; "KATE will get you"
+	cont "een lesje leren!" ; "for this!"
 	done
 
 CooltrainerfIreneAfterText2:
-	text "IRENE: Isn't this"
-	line "beach great?"
+	text "IRENE: Is dit" ; "IRENE: Isn't this"
+	line "strand niet fijn?" ; "beach great?"
 
-	para "It's our secret"
-	line "little getaway!"
+	para "Het is onze ge-" ; "It's our secret"
+	line "heime verstopplek!" ; "little getaway!"
 	done
 
 CooltrainerfJennSeenText:
-	text "JENN: You can't"
-	line "beat IRENE and go"
-	cont "unpunished!"
+	text "JENN: Je kan niet" ; "JENN: You can't"
+	line "zomaar ongestraft" ; "beat IRENE and go"
+	cont "IRENE verslaan!" ; "unpunished!"
 	done
 
 CooltrainerfJennBeatenText:
-	text "JENN: So sorry,"
-	line "IRENE! Sis!"
+	text "JENN: IRENE, zus!" ; "JENN: So sorry,"
+	line "Het spijt me zo!" ; "IRENE! Sis!"
 	done
 
 CooltrainerfJennAfterText1:
-	text "JENN: Don't get"
-	line "cocky! My sister"
-	cont "KATE is tough!"
+	text "JENN: Niet zo" ; "JENN: Don't get"
+	line "verwaand! Mijn zus" ; "cocky! My sister"
+	cont "KATE is sterk!" ; "KATE is tough!"
 	done
 
 CooltrainerfJennAfterText2:
-	text "JENN: Sunlight"
-	line "makes your body"
-	cont "stronger."
+	text "JENN: Van zonlicht" ; "JENN: Sunlight"
+	line "wordt je lichaam" ; "makes your body"
+	cont "sterker" ; "stronger."
 	done
 
 CooltrainerfKateSeenText:
-	text "KATE: You sure"
-	line "were mean to my"
-	cont "little sisters!"
+	text "KATE: Je was" ; "KATE: You sure"
+	line "echt gemeen tegen" ; "were mean to my"
+	cont "m'n kleine zusjes!" ; "little sisters!"
 	done
 
 CooltrainerfKateBeatenText:
-	text "KATE: No! I can't"
-	line "believe I lost."
+	text "KATE: Nee! Niet" ; "KATE: No! I can't"
+	line "te geloven, zeg." ; "believe I lost."
 	done
 
 CooltrainerfKateOfferSoftSandText:
-	text "KATE: You're too"
-	line "strong. I didn't"
-	cont "stand a chance."
+	text "KATE: Je bent te" ; "KATE: You're too"
+	line "sterk. Ik had geen" ; "strong. I didn't"
+	cont "schijn van kans." ;  "stand a chance."
 
-	para "Here. You deserve"
-	line "this."
+	para "Hier. Deze" ; "Here. You deserve"
+	line "verdien je." ; "this."
 	done
 
 CooltrainerfKateAfterText:
-	text "KATE: I'm sorry we"
-	line "jumped you."
+	text "KATE: Sorry dat we" ; "KATE: I'm sorry we"
+	line "op je afsprongen." ; "jumped you."
 
-	para "We never expected"
-	line "anyone to find us"
+	para "We dachten niet" ; "We never expected"
+	line "dat iemand ons" ; "anyone to find us"
 
-	para "here. You sure"
-	line "startled us."
+	para "hier zou vinden." ; "here. You sure"
+	line "Was dat schrikken!" ; "startled us."
 	done
 
 Route34IlexForestSignText:
-	text "ILEX FOREST"
-	line "THROUGH THE GATE"
+	text "EIKENWOUD" ; "ILEX FOREST"
+	line "DOOR DE POORT" ; "THROUGH THE GATE"
 	done
 
 Route34SignText:
-	text "ROUTE 34"
+	text "ROUTE 34" ; "ROUTE 34"
 
-	para "GOLDENROD CITY -"
-	line "AZALEA TOWN"
+	para "GOLDENROD CITY -" ; "GOLDENROD CITY -"
+	line "AZALEA TOWN" ; "AZALEA TOWN"
 
-	para "ILEX FOREST"
-	line "SOMEWHERE BETWEEN"
+	para "EIKENWOUD" ; "ILEX FOREST"
+	line "GENE ZIJDE" ; "SOMEWHERE BETWEEN"
 	done
 
 Route34TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINERTIPS"
 
-	para "BERRY trees grow"
-	line "new BERRIES"
-	cont "every day."
+	para "Er groeien elke" ; "BERRY trees grow"
+	line "dag nieuwe BESSEN" ; "new BERRIES"
+	cont "aan BESSEN-bomen." ; "every day."
 
-	para "Make a note of"
-	line "which trees bear"
-	cont "which BERRIES."
+	para "Onthoud welke" ; "Make a note of"
+	line "BESSEN aan welke" ; "which trees bear"
+	cont "bomen groeien." ; "which BERRIES."
 	done
 
 DayCareSignText:
-	text "DAY-CARE"
+	text "DAGVERBLIJF" ; "DAY-CARE"
 
-	para "LET US RAISE YOUR"
-	line "#MON FOR YOU!"
+	para "LAAT ONS JOUW" ; "LET US RAISE YOUR"
+	line "#MON OPVOEDEN!" ; "#MON FOR YOU!"
 	done
 
 Route34_MapEvents:

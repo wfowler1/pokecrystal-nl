@@ -64,82 +64,82 @@ DaisyScript:
 	end
 
 DaisyHelloText:
-	text "DAISY: Hi! My kid"
-	line "brother is the GYM"
+	text "DAISY: Hoi! M'n" ; "DAISY: Hi! My kid"
+	line "broertje is de" ; "brother is the GYM"
 
-	para "LEADER in VIRIDIAN"
-	line "CITY."
+	para "GYMLEIDER van" ; "LEADER in VIRIDIAN"
+	line "VIRIDIAN CITY." ; "CITY."
 
-	para "But he goes out"
-	line "of town so often,"
+	para "Maar hij gaat er" ; "But he goes out"
+	line "zo vaak op uit," ; "of town so often,"
 
-	para "it causes problems"
-	line "for the trainers."
+	para "dat het lastig is" ; "it causes problems"
+	line "voor de trainers." ; "for the trainers."
 	done
 
 DaisyOfferGroomingText:
-	text "DAISY: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "DAISY: Hoi! Goede" ; "DAISY: Hi! Good"
+	line "timing. Ik heb" ; "timing. I'm about"
+	cont "net thee gezet." ; "to have some tea."
 
-	para "Would you like to"
-	line "join me?"
+	para "Wil je ook" ; "Would you like to"
+	line "een kopje?" ; "join me?"
 
-	para "Oh, your #MON"
-	line "are a bit dirty."
+	para "Oh, je #MON" ; "Oh, your #MON"
+	line "zijn een beetje" ; "are a bit dirty."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "vies. Zal ik er" ; "Would you like me"
+	line "eentje verzorgen?" ; "to groom one?"
 	done
 
 DaisyWhichMonText:
-	text "DAISY: Which one"
-	line "should I groom?"
+	text "DAISY: Welke zal" ; "DAISY: Which one"
+	line "ik opknappen?" ; "should I groom?"
 	done
 
 DaisyAlrightText:
-	text "DAISY: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "DAISY: Oké, ik" ; "DAISY: OK, I'll"
+	line "zal 't lekker" ; "get it looking"
+	cont "verzorgen." ; "nice in no time."
 	done
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text " looks"
-	line "content."
+	text "ziet er" ; " looks"
+	line "tevreden uit." ; "content."
 	done
 
 DaisyAllDoneText:
-	text "DAISY: There you"
-	line "go! All done."
+	text "DAISY: Zo!" ; "DAISY: There you"
+	line "Helemaal klaar." ; "go! All done."
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "Zie je? Ziet 't" ; "See? Doesn't it"
+	line "er niet leuk uit?" ; "look nice?"
 
-	para "It's such a cute"
-	line "#MON."
+	para "'Tis zo'n schat-" ; "It's such a cute"
+	line "tige #MON." ; "#MON."
 	done
 
 DaisyAlreadyGroomedText:
-	text "DAISY: I always"
-	line "have tea around"
+	text "DAISY: Ik zet" ; "DAISY: I always"
+	line "rond deze tijd" ; "have tea around"
 
-	para "this time. Come"
-	line "join me."
+	para "altijd thee." ; "this time. Come"
+	line "Doe met me mee." ; "join me."
 	done
 
 DaisyRefusedText:
-	text "DAISY: You don't"
-	line "want to have one"
+	text "DAISY: Je wil er" ; "DAISY: You don't"
+	line "geen opknappen?" ; "want to have one"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "Oké, dan drinken" ; "groomed? OK, we'll"
+	line "we alleen thee." ; "just have tea."
 	done
 
 DaisyCantGroomEggText:
 	text "DAISY: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an EGG."
+	line "Ik kan geen EI" ; "I honestly can't"
+	cont "opknappen." ; "groom an EGG."
 	done
 
 BluesHouse_MapEvents:

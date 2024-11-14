@@ -78,25 +78,25 @@ Route13HiddenCalcium:
 	hiddenitem CALCIUM, EVENT_ROUTE_13_HIDDEN_CALCIUM
 
 PokefanmAlexSeenText:
-	text "Bow down before my"
-	line "regal #MON!"
+	text "Buig voor mijn" ; "Bow down before my"
+	line "nobele #MON!" ; "regal #MON!"
 	done
 
 PokefanmAlexBeatenText:
-	text "How… How dare you"
-	line "mock royalty!"
+	text "Hoe… Hoe durf je" ; "How… How dare you"
+	line "adel te bespotten!" ; "mock royalty!"
 	done
 
 PokefanmAlexAfterBattleText:
-	text "Doesn't everyone"
-	line "wish to someday be"
-	cont "a king?"
+	text "Hoopt iedereen" ; "Doesn't everyone"
+	line "niet om ooit" ; "wish to someday be"
+	cont "koning te worden?" ; "a king?"
 	done
 
 PokefanmJoshuaSeenText:
-	text "Nihihi! Would you"
-	line "like to battle my"
-	cont "PIKACHU gang?"
+	text "Nihihi! Wil je" ; "Nihihi! Would you"
+	line "vechten tegen mijn" ; "like to battle my"
+	cont "bende PIKACHU?" ; "PIKACHU gang?"
 	done
 
 PokefanmJoshuaBeatenText:
@@ -104,89 +104,89 @@ PokefanmJoshuaBeatenText:
 	done
 
 PokefanmJoshuaAfterBattleText:
-	text "You look like you"
-	line "have many #MON,"
+	text "Jij hebt zo te" ; "You look like you"
+	line "zien veel #MON," ; "have many #MON,"
 
-	para "but PIKACHU is"
-	line "still the best."
+	para "maar Pikachu" ; "but PIKACHU is"
+	line "blijft de beste." ; "still the best."
 	done
 
 BirdKeeperPerrySeenText:
-	text "Agility is the key"
-	line "attribute of bird"
-	cont "#MON."
+	text "Snelheid is de" ; "Agility is the key"
+	line "sleutel van iedere" ; "attribute of bird"
+	cont "vogel-#MON." ; "#MON."
 	done
 
 BirdKeeperPerryBeatenText:
-	text "You beat me with"
-	line "your speed…"
+	text "Je versloeg me met" ; "You beat me with"
+	line "je snelheid…" ; "your speed…"
 	done
 
 BirdKeeperPerryAfterBattleText:
-	text "Your #MON are"
-	line "remarkably well-"
-	cont "trained."
+	text "Je #MON zijn" ; "Your #MON are"
+	line "opvallend goed" ; "remarkably well-"
+	cont "getraind." ; "trained."
 	done
 
 BirdKeeperBretSeenText:
-	text "Check out my #-"
-	line "MON. Just look at"
+	text "Check mijn #MON" ; "Check out my #-"
+	line "eens. Zie hun" ; "MON. Just look at"
 
-	para "their coloring and"
-	line "their plumage."
+	para "kleuren en volle" ; "their coloring and"
+	line "vachten." ; "their plumage."
 	done
 
 BirdKeeperBretBeatenText:
-	text "Shoot!"
-	line "Not good enough!"
+	text "Verdraaid!" ; "Shoot!"
+	line "Niet goed genoeg!" ; "Not good enough!"
 	done
 
 BirdKeeperBretAfterBattleText:
-	text "If you groom them,"
-	line "#MON get happy."
+	text "#MON zijn dol" ; "If you groom them,"
+	line "op borstelen." ; "#MON get happy."
 	done
 
 HikerKennySeenText:
-	text "I should go to"
-	line "ROCK TUNNEL to get"
-	cont "myself an ONIX."
+	text "Ik wil naar de" ; "I should go to"
+	line "ROTSTUNNEL om een" ; "ROCK TUNNEL to get"
+	cont "ONIX te halen." ; "myself an ONIX."
 	done
 
 HikerKennyBeatenText:
-	text "I lost…"
+	text "Verloren…" ; "I lost…"
 	done
 
 HikerKennyAfterBattleText:
-	text "Geological fea-"
-	line "tures don't appear"
-	cont "to change."
+	text "Geologische ob-" ; "Geological fea-"
+	line "jecten veranderen" ; "tures don't appear"
+	cont "nooit, lijkt het." ; "to change."
 
-	para "But they actually"
-	line "change, little by"
-	cont "little."
+	para "Maar eigenlijk" ; "But they actually"
+	line "verschuiven ze" ; "change, little by"
+	cont "steeds een beetje." ; "little."
 	done
 
 Route13TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
-	para "Look! Right there,"
-	line "at the left side"
-	cont "of the post."
+	para "Kijk! Daar, aan" ; "Look! Right there,"
+	line "de linkerkant van" ; "at the left side"
+	cont "het bord." ; "of the post."
 	done
 
 Route13SignText:
 	text "ROUTE 13"
 
-	para "NORTH TO SILENCE"
-	line "BRIDGE"
+	para "NOORD NAAR" ; "NORTH TO SILENCE"
+	line "STILTEBRUG" ; "BRIDGE"
 	done
 
 Route13DirectionsSignText:
-	text "NORTH TO LAVENDER"
-	line "TOWN"
+	text "NOORD NAAR" ; "NORTH TO LAVENDER"
+	line "LAVENDER TOWN" ; "TOWN"
 
-	para "WEST TO FUCHSIA"
-	line "CITY"
+	para "WEST NAAR" ; "WEST TO FUCHSIA"
+	line "FUCHSIA CITY" ; "CITY"
 	done
 
 Route13_MapEvents:

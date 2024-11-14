@@ -1,11 +1,11 @@
-	db "HIBERNANT@" ; species name
+	db "OVERWINTER@" ; "HIBERNANT@" ; species name
 	db 18 ; height
 	dw 1258 ; weight
 
-	db   "Although it has a"
-	next "large body, it is"
-	next "quite skilled at"
+	db   "Hoewel het lichaam" ; "Although it has a"
+	next "groot is, kan deze" ; "large body, it is"
+	next "#MON vrij goed" ; "quite skilled at"
 
-	page "climbing trees. It"
-	next "eats and sleeps in"
-	next "the treetops.@"
+	page "in bomen klimmen." ; "climbing trees. It"
+	next "Eet en slaapt in" ; "eats and sleeps in"
+	next "de boomtoppen.@" ; "the treetops.@"

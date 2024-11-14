@@ -1,11 +1,11 @@
-	db "ROYAL@" ; species name
+	db "KONINKLIJK@" ; species name
 	db 20 ; height
 	dw 795 ; weight
 
-	db   "Every time it ya-"
-	next "wns, SHELLDER"
-	next "injects more poi-"
+	db   "Met iedere gaap" ; "Every time it ya-"
+	next "spuit SHELLDER" ; "wns, SHELLDER"
+	next "meer gif naar" ; "injects more poi-"
 
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	page "binnen. Het gif" ; "son into it. The"
+	next "maakt SLOWKING" ; "poison makes it"
+	next "intelligenter.@" ; "more intelligent.@"

@@ -321,130 +321,130 @@ Route38FruitTree:
 	fruittree FRUITTREE_ROUTE_38
 
 BirdKeeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #MON!"
+	text "Vlieg hoog de" ; "Fly high into the"
+	line "lucht in, geliefde" ; "sky, my beloved"
+	cont "vogel-#MON!" ; "bird #MON!"
 	done
 
 BirdKeeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "Ik wil het liefst" ; "I feel like just"
+	line "wegvliegen nu." ; "flying away now."
 	done
 
 BirdKeeperTobyAfterBattleText:
-	text "I plan to train in"
-	line "CIANWOOD CITY to"
+	text "Ik wil trainen in" ; "I plan to train in"
+	line "CIANWOOD CITY om" ; "CIANWOOD CITY to"
 
-	para "teach my #MON"
-	line "how to FLY."
+	para "mijn #MON te" ; "teach my #MON"
+	line "leren VLIEGEN." ; "how to FLY."
 	done
 
 SchoolboyChad1SeenText:
-	text "Let me try some-"
-	line "thing I learned"
-	cont "today."
+	text "Laat me iets pro-" ; "Let me try some-"
+	line "beren dat ik net" ; "thing I learned"
+	cont "heb geleerd." ; "today."
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "Te weinig gestu-" ; "I didn't study"
+	line "deerd, denk ik." ; "enough, I guess."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "I have to take so"
-	line "many tests, I"
+	text "Ik moet veel" ; "I have to take so"
+	line "toetsen doen, dus" ; "many tests, I"
 
-	para "don't have much"
-	line "time for #MON."
+	para "heb weinig tijd" ; "don't have much"
+	line "voor #MON." ; "time for #MON."
 
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	para "Als ik wel kan" ; "So when I do get"
+	line "spelen, concen-" ; "to play, I really"
+	cont "treer ik hard." ; "concentrate."
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #MON."
+	text "Jij lijkt me goed" ; "You seem to be"
+	line "in #MON." ; "good at #MON."
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para "Zo ja, kun je mij" ; "If you are, how"
+	line "anders wat advies" ; "about giving me"
+	cont "geven?" ; "some advice?"
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "Ik snap het. Dus" ; "I see. So you can"
+	line "jij vecht zo." ; "battle that way."
 	done
 
 LassDanaMoomooMilkText:
-	text "I know something"
-	line "good!"
+	text "Ik weet iets" ; "I know something"
+	line "interessants!" ; "good!"
 
-	para "MOOMOO FARM's milk"
-	line "is famous for its"
-	cont "flavor."
+	para "melk van BOERDERIJ" ; "MOOMOO FARM's milk"
+	line "MOOMOO is beroemd" ; "is famous for its"
+	cont "om zijn smaak." ; "flavor."
 	done
 
 BeautyValerieSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "Hoi! Wat een" ; "Hi! Aren't you a"
+	line "schatje ben je!" ; "cute trainer!"
 
-	para "May I see your"
-	line "#MON?"
+	para "Mag ik je #MON" ; "May I see your"
+	line "zien?" ; "#MON?"
 	done
 
 BeautyValerieBeatenText:
-	text "I'm glad I got to"
-	line "see your #MON!"
+	text "Fijn dat ik je" ; "I'm glad I got to"
+	line "#MON kon zien!" ; "see your #MON!"
 	done
 
 BeautyValerieAfterBattleText:
-	text "When I see #-"
-	line "MON, it seems to"
-	cont "soothe my nerves."
+	text "Als ik #MON" ; "When I see #-"
+	line "zie, ontspan" ; "MON, it seems to"
+	cont "ik helemaal." ; "soothe my nerves."
 	done
 
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
+	text "Ik ben overzee" ; "I've been over-"
+	line "geweest en heb tal" ; "seas, so I know"
 
-	para "about all sorts of"
-	line "#MON!"
+	para "van #MON gezien" ; "about all sorts of"
+	line "in mijn reizen!" ; "#MON!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "Jij bent echt van" ; "Your skill is"
+	line "wereldniveau!" ; "world class!"
 	done
 
 SailorHarryAfterBattleText:
-	text "All kinds of peo-"
-	line "ple around the"
+	text "Allerlei soorten" ; "All kinds of peo-"
+	line "mensen leven" ; "ple around the"
 
-	para "world live happily"
-	line "with #MON."
+	para "gelukkig samen" ; "world live happily"
+	line "met #MON." ; "with #MON."
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#MON and I are"
-	cont "beautiful?"
+	text "Zijn mijn #MON" ; "Don't you think my"
+	line "en ik niet" ; "#MON and I are"
+	cont "prachtig?" ; "beautiful?"
 	done
 
 BeautyOliviaBeatenText:
-	text "We drink MOOMOO"
-	line "MILK every day."
+	text "We drinken elke" ; "We drink MOOMOO"
+	line "dag MOOMOO-MELK." ; "MILK every day."
 	done
 
 BeautyOliviaAfterBattleText:
-	text "MOOMOO MILK is"
-	line "good for beauty"
+	text "MOOMOO-MELK is" ; "MOOMOO MILK is"
+	line "goed voor schoon-" ; "good for beauty"
 
-	para "and health, but"
-	line "inconveniently,"
+	para "heid en gezondheid" ; "and health, but"
+	line "maar wordt helaas" ; "inconveniently,"
 
-	para "they only sell a"
-	line "bottle at a time."
+	para "per losse fles" ; "they only sell a"
+	line "verkocht." ; "bottle at a time."
 	done
 
 Route38SignText:
@@ -455,19 +455,19 @@ Route38SignText:
 	done
 
 Route38TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
-	para "If a #MON is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "Als een #MON" ; "If a #MON is"
+	line "wil evolueren," ; "trying to evolve,"
+	cont "is dat te stoppen." ; "you can stop it."
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "Druk op de B-knop" ; "Press the B But-"
+	line "tijdens de evo-" ; "ton during evolu-"
+	cont "lutie." ; "tion."
 
-	para "That startles the"
-	line "#MON and stops"
-	cont "its evolution."
+	para "De #MON schrikt" ; "That startles the"
+	line "dan en stopt met" ; "#MON and stops"
+	cont "evolueren." ; "its evolution."
 	done
 
 Route38_MapEvents:

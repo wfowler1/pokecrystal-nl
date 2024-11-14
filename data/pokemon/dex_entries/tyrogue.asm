@@ -1,11 +1,11 @@
-	db "SCUFFLE@" ; species name
+	db "KNOKKER@" ; "SCUFFLE@" ; species name
 	db 7 ; height
 	dw 210 ; weight
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
+	db   "Wordt beter in" ; "To brush up on its"
+	next "vechten door" ; "fighting skills,"
+	next "iedereen uit te" ; "it will challenge"
 
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	page "dagen. Is hierdoor" ; "anyone. It has a"
+	next "buitengewoon" ; "very strong com-"
+	next "competitief.@" ; "petitive spirit.@"

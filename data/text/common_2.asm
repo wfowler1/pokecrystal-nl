@@ -700,11 +700,11 @@ Text_BattleFoeEffectActivate::
 
 _BattleStatSharplyFellText::
 	text_pause
-	text "<SCROLL>zakte flink!" ; "<SCROLL>sharply fell!"
+	text "<SCROLL>daalde flink!" ; "<SCROLL>sharply fell!"
 	prompt
 
 _BattleStatFellText::
-	text " zakte!" ; " fell!"
+	text " daalde!" ; " fell!"
 	prompt
 
 Text_BattleUser::

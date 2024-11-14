@@ -1,11 +1,11 @@
-	db "SEED@" ; species name
+	db "ZAAD@" ; "SEED@" ; species name
 	db 20 ; height
 	dw 1000 ; weight
 
-	db   "As it warms it-"
-	next "self and absorbs"
-	next "the sunlight, its"
+	db   "Terwijl het zich-" ; "As it warms it-"
+	next "zelf verwarmt en" ; "self and absorbs"
+	next "zonlicht absor-" ; "the sunlight, its"
 
-	page "flower petals"
-	next "release a pleasant"
-	next "fragrance.@"
+	page "beert, komt er" ; "flower petals"
+	next "een fijne geur uit" ; "release a pleasant"
+	next "de bloembladen.@" ; "fragrance.@"

@@ -1,11 +1,11 @@
-	db "SCISSORS@" ; species name
+	db "SCHAREN@" ; species name
 	db 18 ; height
 	dw 1180 ; weight
 
-	db   "This #MON's"
-	next "pincers, which"
-	next "contain steel, can"
+	db   "De scharen van" ; "This #MON's"
+	next "deze #MON be-" ; "pincers, which"
+	next "vatten staal en" ; "contain steel, can"
 
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits.@"
+	page "kunnen elk hard" ; "crush any hard"
+	next "object met gemak" ; "object it gets a"
+	next "vermorzelen.@" ; "hold of into bits.@"

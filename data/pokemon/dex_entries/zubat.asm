@@ -1,11 +1,11 @@
-	db "BAT@" ; species name
+	db "VLEERMUIS@" ; "BAT@" ; species name
 	db 8 ; height
 	dw 75 ; weight
 
-	db   "During the day, it"
-	next "gathers with"
-	next "others and hangs"
+	db   "Komt overdag" ; "During the day, it"
+	next "samen met anderen" ; "gathers with"
+	next "en hangt dan aan" ; "others and hangs"
 
-	page "from the ceilings"
-	next "of old buildings"
-	next "and caves.@"
+	page "plafonds van oude" ; "from the ceilings"
+	next "gebouwen en van" ; "of old buildings"
+	next "grotten.@" ; "and caves.@"

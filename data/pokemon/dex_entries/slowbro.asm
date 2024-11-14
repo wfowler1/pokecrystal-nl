@@ -1,11 +1,11 @@
-	db "HERMITCRAB@" ; species name
+	db "HERMIET@" ; species name
 	db 16 ; height
 	dw 785 ; weight
 
-	db   "An attached"
-	next "SHELLDER won't let"
-	next "go because of the"
+	db   "Een vastgeklampte" ; "An attached"
+	next "SHELLDER laat de" ; "SHELLDER won't let"
+	next "staart nooit los" ; "go because of the"
 
-	page "tasty flavor that"
-	next "oozes out of its"
-	next "tail.@"
+	page "wegens de extreem" ; "tasty flavor that"
+	next "lekkere smaak " ; "oozes out of its"
+	next "hiervan.@" ; "tail.@"

@@ -1,11 +1,11 @@
-	db "FOX@" ; species name
+	db "VOS@" ; "FOX@" ; species name
 	db 6 ; height
 	dw 99 ; weight
 
-	db   "As its body grows"
-	next "larger, its six"
-	next "warm tails become"
+	db   "Naarmate het" ; "As its body grows"
+	next "lichaam groeit," ; "larger, its six"
+	next "worden de zes" ; "warm tails become"
 
-	page "more beautiful,"
-	next "with a more luxur-"
-	next "ious coat of fur.@"
+	page "warme staarten" ; "more beautiful,"
+	next "mooier en voorzien" ; "with a more luxur-"
+	next "van luxere vacht.@" ; "ious coat of fur.@"

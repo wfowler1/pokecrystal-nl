@@ -2,10 +2,10 @@
 	db 20 ; height
 	dw 1870 ; weight
 
-	db   "This divine"
-	next "#MON blows"
-	next "around the world,"
+	db   "Deze heilige" ; "This divine"
+	next "MON schiet" ; "#MON blows"
+	next "over de hele" ; "around the world,"
 
-	page "always in search"
-	next "of a pure"
-	next "reservoir.@"
+	page "wereld heen," ; "always in search"
+	next "zoekend naar" ; "of a pure"
+	next "puur water.@" ; "reservoir.@"

@@ -1,11 +1,11 @@
-	db "FLOWER@" ; species name
+	db "BLOEM@" ; "FLOWER@" ; species name
 	db 12 ; height
 	dw 186 ; weight
 
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
+	db   "Door met grote" ; "By shaking its big"
+	next "bloembladen te" ; "petals, it scat-"
+	next "schudden, kleuren" ; "ters toxic pollen"
 
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
+	page "giftige pollen" ; "into the air,"
+	next "de lucht rondom" ; "turning the air"
+	next "geel.@" ; "yellow.@"

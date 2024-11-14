@@ -133,7 +133,7 @@ _WouldYouLikeToMobileBattleText::
 	done
 
 _WantAQuickMobileBattleText::
-	text "Er zijn nog maar @" ; "There are only @"
+	text "Er zijn nog @" ; "There are only @"
 	text_decimal wStringBuffer2, 1, 2
 	text_start
 	line "min. over vandaag." ; "min. left today."
@@ -235,8 +235,8 @@ _WindowAreaExceededErrorText:: ; unreferenced
 	done
 
 _WindowPoppingErrorText::
-	text "Geen vensters be-" ; "No windows avail-"
-	line "schikbaar voor pops" ; "able for popping."
+	text "Geen vensters meer" ; "No windows avail-"
+	line "voor pops." ; "able for popping."
 	done
 
 _CorruptedEventText:: ; unreferenced
@@ -263,7 +263,7 @@ _ReceivedItemText::
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> stopt de" ; "<PLAYER> put the"
+	text "<PLAYER> stopte" ; "<PLAYER> put the"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text " in"
@@ -1350,7 +1350,7 @@ _SentTrophyHomeText::
 
 	para "@"
 	text_ram wPlayerName
-	text " zond de trofee" ; " sent the"
+	text " zond prijs" ; " sent the"
 	line "naar huis." ; "trophy home."
 	prompt
 
@@ -1394,10 +1394,10 @@ _NoCyclingText::
 	prompt
 
 _ItemCantGetOnText::
-	text "Kunt nu niet op je" ; "Can't get on your"
-	line "@"
+	text "Kunt niet rijden" ; "Can't get on your"
+	line "op @"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text " stappen." ; " now."
+	text "." ; " now."
 	prompt
 
 _BallBoxFullText::
