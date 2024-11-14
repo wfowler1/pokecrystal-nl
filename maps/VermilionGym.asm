@@ -134,7 +134,7 @@ LtSurgeWinLossText:
 	done
 
 ReceivedThunderBadgeText:
-	text "<PLAYER> ontvangt" ; "<PLAYER> receives"
+	text "<PLAYER> ontving" ; "<PLAYER> receives"
 	line "DONDERBADGE" ; "THUNDERBADGE."
 	done
 

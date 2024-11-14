@@ -230,7 +230,7 @@ WhitneyWhatDoYouWantText:
 	done
 
 PlayerReceivedPlainBadgeText:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "SIMPELBADGE." ; "PLAINBADGE."
 	done
 
