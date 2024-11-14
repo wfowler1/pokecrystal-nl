@@ -94,7 +94,7 @@ PokefanmAlexAfterBattleText:
 	done
 
 PokefanmJoshuaSeenText:
-	tex  "Nihihi! Wil je" ; "Nihihi! Would you"
+	text "Nihihi! Wil je" ; "Nihihi! Would you"
 	line "vechten tegen mijn" ; "like to battle my"
 	cont "bende PIKACHU?" ; "PIKACHU gang?"
 	done
