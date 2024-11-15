@@ -1,73 +1,73 @@
 AnthonyAnswerPhoneText:
-	text "Yeah, @"
+	text "Ja, met @" ; "Yeah, @"
 	text_ram wStringBuffer3  ; MaxLength 7
-	text " the"
-	line "HIKER here."
+	text "de" ; " the"
+	line "WANDELAAR hier." ; "HIKER here."
 
 	para "Ah, <PLAYER>!"
 	done
 
 AnthonyAnswerPhoneDayText:
-	text "Yeah, @"
-	text_ram wStringBuffer3 ; MaxLength 7
-	text " the"
-	line "HIKER here."
+	text "Ja, met @" ; "Yeah, @"
+	text_ram wStringBuffer3  ; MaxLength 7
+	text "de" ; " the"
+	line "WANDELAAR hier." ; "HIKER here."
 
 	para "Ah, <PLAYER>,"
-	line "right?"
+	line "toch?" ; "right?"
 	done
 
 AnthonyAnswerPhoneNiteText:
-	text "Yeah, @"
-	text_ram wStringBuffer3 ; MaxLength 7
-	text " the"
-	line "HIKER here."
+	text "Ja, met @" ; "Yeah, @"
+	text_ram wStringBuffer3  ; MaxLength 7
+	text "de" ; " the"
+	line "WANDELAAR hier." ; "HIKER here."
 
-	para "Ah, <PLAYER>, isn't"
-	line "it?"
+	para "Ah, <PLAYER>, was" ; "Ah, <PLAYER>, isn't"
+	line "het niet?" ; "it?"
 	done
 
 AnthonyGreetText:
 	text "Yo, <PLAYER>?"
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text_start
-	line "the HIKER!"
+	line "de WANDELAAR!" ; "the HIKER!"
 	done
 
 AnthonyGreetDayText:
-	text "Hey, is this"
+	text "He, is dit" ; "Hey, is this"
 	line "<PLAYER>?"
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text_start
-	line "the HIKER!"
+	line "de WANDELAAR!" ; "the HIKER!"
 	done
 
 AnthonyGreetNiteText:
-	text "<PLAYER>, you still"
-	line "awake?"
+	text "<PLAYER>, jij nog" ; "<PLAYER>, you still"
+	line "wakker?" ; "awake?"
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text_start
-	line "the HIKER!"
+	line "de WANDELAAR!" ; "the HIKER!"
 	done
 
 AnthonyGenericText:
-	text "Are your #MON"
-	line "as feisty as ever?"
+	text "Zijn je #MON zo" ; "Are your #MON"
+	line "nog vechtlustig?" ; "as feisty as ever?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " and"
-	line "me--we have energy"
+	text " en" ; " and"
+	line "ik--we moeten wat" ; "me--we have energy"
 
-	para "to burn. We hike"
-	line "up mountains every"
+	para "energie kwijt. We" ; "to burn. We hike"
+	line "bewandelen iedere" ; "up mountains every"
 
-	para "day to work out"
-	line "all our energy."
+	para "dag de berg om te" ; "day to work out"
+	line "trainen." ; "all our energy."
 	done
