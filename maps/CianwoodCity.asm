@@ -195,10 +195,9 @@ ChucksWifeEasierToFlyText:
 	done
 
 ChucksWifeBeatChuckText:
-	text "Maar je kan VLIEGEN" ; "But you can't use"
-	line "niet gebruiken" ; "FLY without this"
-	cont "zonder de GYMBADGE" ; "city's GYM BADGE."
-	cont "van deze stad." ;
+	text "Maar VLIEGEN werkt" ; "But you can't use"
+	line "niet zonder GYM-" ; "FLY without this"
+	cont "BADGE van de stad." ; "city's GYM BADGE."
 
 	para "Als je de GYM-" ; "If you beat the"
 	line "LEIDER hier ver-" ; "GYM LEADER here,"
@@ -330,10 +329,10 @@ EusineAfterText:
 	line "<PLAYER>!"
 
 	para "Geen wonder dat" ; "No wonder #MON"
-	line "#MON naar je toe" ; "gravitate to you."
+	line "#MON naar je" ; "gravitate to you."
 
-	para "trekken. Ik snap" ; "I get it now."
-	line "het nu." ;
+	para "toe trekken. Ik" ; "I get it now."
+	line "snap het nu." ;
 
 	para "Ik zal blijven" ; "I'm going to keep"
 	line "zoeken naar" ; "searching for"
@@ -354,7 +353,7 @@ CianwoodCitySignText:
 
 CianwoodGymSignText:
 	text "CIANWOOD CITY"
-	line "#MONGYMLEIDER:" "#MON GYM"
+	line "#MONGYMLEIDER:" ; "#MON GYM"
 
 	para "CHUCK" ; "LEADER: CHUCK" ; "LEADER: CHUCK"
 

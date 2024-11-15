@@ -178,8 +178,8 @@ ChuckIntroText3:
 	para "Wat?" ; "What?"
 	line "Dat heeft niets" ; "It has nothing to"
 
-	para "met #MON te maken?" ; "do with #MON?"
-	line "Dat klopt!" ; "That's true!"
+	para "met #MON te" ; "do with #MON?"
+	line "maken? Dat klopt!" ; "That's true!"
 
 	para "Kom. We zullen" ; "Come on. We shall"
 	line "vechten!" ; "do battle!"
@@ -206,7 +206,7 @@ ChuckExplainBadgeText:
 	para "L70 gehoorzamen," ; "L70 obey, even"
 	line "zelfs geruilde." ; "traded ones."
 
-	para "Het laat je #MON" ; "It also lets your"
+	para "Het laat #MON" ; "It also lets your"
 	line "ook VLIEGEN als" ; "#MON use FLY"
 
 	para "je niet in een" ; "when you're not in"
@@ -294,7 +294,8 @@ BlackbeltNobAfterText:
 BlackbeltLungSeenText:
 	text "Mijn razende" ; "My raging fists"
 	line "vuisten zullen je" ; "will shatter your"
-	cont "#MON vermorzelen!" ; "#MON!"
+	cont "#MON ver-" ; "#MON!"
+	cont "morzelen!"
 	done
 
 BlackbeltLungBeatenText:
@@ -302,7 +303,7 @@ BlackbeltLungBeatenText:
 	done
 
 BlackbeltLungAfterText:
-	text "Mijn #MON verloren…" ; "My #MON lost…"
+	text "Mijn #MON…" ; "My #MON lost…"
 	line "Mijn… mijn trots" ; "My… my pride is"
 	cont "is vermorzeld…" ; "shattered…"
 	done
