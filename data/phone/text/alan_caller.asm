@@ -59,7 +59,7 @@ AlanFoundItemText:
 	para "Je mag het hebben!" ; "You can have it!"
 	line "Kom anders naar" ; "Why don't you come"
 
-	para "" ; "to @"
+	para "@" ; "to @"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text_start
 	line "om het te halen?" ; "and pick it up?"
