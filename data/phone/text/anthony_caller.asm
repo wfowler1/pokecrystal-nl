@@ -72,7 +72,7 @@ AnthonyHangUpText:
 	done
 
 AnthonySwarmText:
-	text "<PLAYER!> Het is" ; "<PLAYER>! It's"
+	text "<PLAYER>! Het is" ; "<PLAYER>! It's"
 	line "onvoorstelbaar!" ; "mind-blowing!"
 
 	para "Ik wandelde in" ; "I took a hike in"
@@ -81,8 +81,8 @@ AnthonySwarmText:
 	text_start
 	cont "gisteren, he?" ; "yesterday, see?"
 
-	para "Nou, er waren daar" ; "Well, there were"
-	line "heel veel @" ; "tons of @"
+	para "Nou, er waren heel" ; "Well, there were"
+	line "veel @" ; "tons of @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "! Je" ; "around! You have"
