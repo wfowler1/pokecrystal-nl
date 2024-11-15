@@ -1,5 +1,5 @@
 AlanGettingStrongerText:
-	text "mijn @" ; "My @"
+	text "De @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "wordt" ; "'s"
 	line "steeds sterker," ; "getting stronger,"
@@ -14,8 +14,8 @@ AlanDefeatedMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "een tijdje gele-" ; " just"
-	line "den." ; "the other day."
+	text " een" ; " just"
+	line "tijd terug." ; "the other day."
 
 	para "Vooraf studeren" ; "Studying up in"
 	line "heeft geholpen!" ; "advance worked!"
@@ -25,8 +25,8 @@ AlanLostAMonText:
 	text "Een wilde" ; "By the way, a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "ontglipte" ; " escaped"
-	cont "me gisteren." ; "on me yesterday."
+	text " ont-" ; " escaped"
+	cont "glipte me gister." ; "on me yesterday."
 
 	para "Een rekenfout van" ; "A computational"
 	line "mij…" ; "error on my part…"
@@ -57,9 +57,9 @@ AlanFoundItemText:
 	line "moois gevonden." ; "up something nice!"
 
 	para "Je mag het hebben!" ; "You can have it!"
-	line "Kom anders" ; "Why don't you come"
+	line "Kom anders naar" ; "Why don't you come"
 
-	para "naar @" ; "to @"
+	para "" ; "to @"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text_start
 	line "om het te halen?" ; "and pick it up?"
