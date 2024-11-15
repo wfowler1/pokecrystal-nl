@@ -313,8 +313,8 @@ LancesRoomOakCongratulationsText:
 	para "Omdat ze in jou" ; "Because they be-"
 	line "als een trainer" ; "lieved in you as a"
 
-	para "geloven, vol-" ; "trainer, they per-"
-	line "hardden ze." ; "severed."
+	para "geloven,-" ; "trainer, they per-"
+	line "volhardden ze." ; "severed."
 
 	para "Gefeliciteerd," ; "Congratulations,"
 	line "<PLAY_G>!"
