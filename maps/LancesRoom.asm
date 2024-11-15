@@ -205,134 +205,141 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
-	line "waiting for you."
+	text "LANCE: Ik heb" ; "LANCE: I've been"
+	line "op je gewacht." ; "waiting for you."
 
 	para "<PLAY_G>!"
 
-	para "I knew that you,"
-	line "with your skills,"
+	para "Ik wist dat je," ; "I knew that you,"
+	line "met jouw vaardig-" ; "with your skills,"
 
-	para "would eventually"
-	line "reach me here."
+	para "heden, me uitein-" ; "would eventually"
+	line "delijk hier zou" ; "reach me here."
 
-	para "There's no need"
-	line "for words now."
+	para "bereiken. Geen" ; "There's no need"
+	line "woorden nu." ; "for words now."
 
-	para "We will battle to"
-	line "determine who is"
+	para "We zullen vechten" ; "We will battle to"
+	line "om te beslissen" ; "determine who is"
 
-	para "the stronger of"
-	line "the two of us."
+	para "wie de sterkere" ; "the stronger of"
+	line "van ons twee is." ; "the two of us."
 
-	para "As the most power-"
-	line "ful trainer and as"
+	para "Als de machtigste" ; "As the most power-"
+	line "trainer en als de" ; "ful trainer and as"
 
-	para "the #MON LEAGUE"
-	line "CHAMPION…"
+	para "#MON-LEAGUE" ; "the #MON LEAGUE"
+	line "KAMPIOEN…" ; "CHAMPION…"
 
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "Ik, LANCE de" ; "I, LANCE the drag-"
+	line "drakenmeester," ; "on master, accept"
+	cont "accepteer je" ; "your challenge!"
+	cont "uitdaging!" ;
 	done
 
 LanceBattleWinText:
-	text "…It's over."
+	text "…Het is voorbij." ; "…It's over."
 
-	para "But it's an odd"
-	line "feeling."
+	para "Maar het is een" ; "But it's an odd"
+	line "vreemd gevoel." ; "feeling."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "Ik ben niet boos" ; "I'm not angry that"
+	line "dat ik heb ver-" ; "I lost. In fact, I"
+	cont "loren. Sterker" ; "feel happy."
+	cont "nog, ik ben blij." ;
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "Blij dat ik ge-" ; "Happy that I"
+	line "tuige ben van de" ; "witnessed the rise"
 
-	para "of a great new"
-	line "CHAMPION!"
+	para "opkomst van een" ; "of a great new"
+	line "geweldige nieuwe" ; "CHAMPION!"
+	cont "KAMPIOEN!" ;
 	done
 
 LanceBattleAfterText:
-	text "…Whew."
+	text "…Pfoe." ; "…Whew."
 
-	para "You have become"
-	line "truly powerful,"
+	para "Je bent echt" ; "You have become"
+	line "sterk geworden," ; "truly powerful,"
 	cont "<PLAY_G>."
 
-	para "Your #MON have"
-	line "responded to your"
+	para "Je #MON hebben" ; "Your #MON have"
+	line "je sterke en op-" ; "responded to your"
 
-	para "strong and up-"
-	line "standing nature."
+	para "rechte aard" ; "strong and up-"
+	line "aangevoeld." ; "standing nature."
 
-	para "As a trainer, you"
-	line "will continue to"
+	para "Als een trainer" ; "As a trainer, you"
+	line "zul je blijven" ; "will continue to"
 
-	para "grow strong with"
-	line "your #MON."
+	para "groeien met je" ; "grow strong with"
+	line "#MON." ; "your #MON."
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARY: Oh, no!"
-	line "It's all over!"
+	text "MARY: Oh nee!" ; "MARY: Oh, no!"
+	line "Het is al voorbij!" ; "It's all over!"
 
-	para "PROF.OAK, if you"
-	line "weren't so slow…"
+	para "PROF.OAK, als je" ; "PROF.OAK, if you"
+	line "nou niet zo" ; "weren't so slow…"
+	cont "langzaam was…" ;
 	done
 
 LancesRoomOakCongratulationsText:
 	text "PROF.OAK: Ah,"
 	line "<PLAY_G>!"
 
-	para "It's been a long"
-	line "while."
+	para "Het is een tijd" ; "It's been a long"
+	line "geleden." ; "while."
 
-	para "You certainly look"
-	line "more impressive."
+	para "Je ziet er zeker" ; "You certainly look"
+	line "indrukwekkender" ; "more impressive."
+	cont "uit." ;
 
-	para "Your conquest of"
-	line "the LEAGUE is just"
-	cont "fantastic!"
+	para "Je verovering van" ; "Your conquest of"
+	line "de LEAGUE is ge-" ; "the LEAGUE is just"
+	cont "woon fantastisch!" ; "fantastic!"
 
-	para "Your dedication,"
-	line "trust and love for"
+	para "Je toewijding," ; "Your dedication,"
+	line "vertrouwen en" ; "trust and love for"
 
-	para "your #MON made"
-	line "this happen."
+	para "liefde voor je" ; "your #MON made"
+	line "#MON zorgden" ; "this happen."
+	cont "hiervoor." ;
 
-	para "Your #MON were"
-	line "outstanding too."
+	para "Je #MON waren" ; "Your #MON were"
+	line "ook waanzinnig." ; "outstanding too."
 
-	para "Because they be-"
-	line "lieved in you as a"
+	para "Omdat ze in jou" ; "Because they be-"
+	line "als een trainer" ; "lieved in you as a"
 
-	para "trainer, they per-"
-	line "severed."
+	para "geloven, vol-" ; "trainer, they per-"
+	line "hardden ze." ; "severed."
 
-	para "Congratulations,"
+	para "Gefeliciteerd," ; "Congratulations,"
 	line "<PLAY_G>!"
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "CHAMPION!"
+	text "MARY: Laten we" ; "MARY: Let's inter-"
+	line "de gloednieuwe" ; "view the brand new"
+	cont "KAMPIOEN" ; "CHAMPION!"
+	cont "interviewen!" ;
 	done
 
 LancesRoomNoisyText:
-	text "LANCE: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
+	text "LANCE: Het wordt" ; "LANCE: This is"
+	line "een beetje druk" ; "getting to be a"
+	cont "hier…" ; "bit too noisy…"
 
-	para "<PLAY_G>, could you"
-	line "come with me?"
+	para "<PLAY_G>, kan je" ; "<PLAY_G>, could you"
+	line "met me mee komen?" ; "come with me?"
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARY: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "MARY: Oh, wacht!" ; "MARY: Oh, wait!"
+	line "We hebben nog" ; "We haven't done"
+	cont "geen interview!" ; "the interview!"
 	done
 
 LancesRoom_MapEvents:
