@@ -150,17 +150,18 @@ CianwoodGymMovement_ChuckChucksBoulder:
 ChuckIntroText1:
 	text "WAHAHAH!"
 
-	para "So you've come"
-	line "this far!"
+	para "Dus je bent zo" ; "So you've come"
+	line "ver gekomen!" ; "this far!"
 
-	para "Let me tell you,"
-	line "I'm tough!"
+	para "Ik zeg je," ; "Let me tell you,"
+	line "ik ben sterk!" ; "I'm tough!"
 
-	para "My #MON will"
-	line "crush stones and"
-	cont "shatter bones!"
+	para "Mijn #MON ver-" ; "My #MON will"
+	line "pletteren stenen" ; "crush stones and"
+	cont "en versplinteren" ; "shatter bones!"
+	cont "botten!" ;
 
-	para "Watch this!"
+	para "Let op!" ; "Watch this!"
 	done
 
 ChuckIntroText2:
@@ -171,111 +172,114 @@ ChuckIntroText2:
 	done
 
 ChuckIntroText3:
-	text "There! Scared now,"
-	line "are you?"
+	text "Zo! Ben je" ; "There! Scared now,"
+	line "nu bang?" ; "are you?"
 
-	para "What?"
-	line "It has nothing to"
+	para "Wat?" ; "What?"
+	line "Dat heeft niets" ; "It has nothing to"
 
-	para "do with #MON?"
-	line "That's true!"
+	para "met #MON te maken?" ; "do with #MON?"
+	line "Dat klopt!" ; "That's true!"
 
-	para "Come on. We shall"
-	line "do battle!"
+	para "Kom. We zullen" ; "Come on. We shall"
+	line "vechten!" ; "do battle!"
 	done
 
 ChuckLossText:
 	text "Wha? Huh?"
-	line "I lost?"
+	line "Ik heb verloren?" ; "I lost?"
 
-	para "How about that!"
-	line "You're worthy of"
-	cont "STORMBADGE!"
+	para "Warempel!" ; "How about that!"
+	line "Je bent de" ; "You're worthy of"
+	cont "STORMBADGE waard!" ; "STORMBADGE!"
 	done
 
 GetStormBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "STORMBADGE."
 	done
 
 ChuckExplainBadgeText:
-	text "STORMBADGE makes"
-	line "all #MON up to"
+	text "STORMBADGE laat" ; "STORMBADGE makes"
+	line "alle #MON tot" ; "all #MON up to"
 
-	para "L70 obey, even"
-	line "traded ones."
+	para "L70 gehoorzamen," ; "L70 obey, even"
+	line "zelfs geruilde." ; "traded ones."
 
-	para "It also lets your"
-	line "#MON use FLY"
+	para "Het laat je #MON" ; "It also lets your"
+	line "ook VLIEGEN als" ; "#MON use FLY"
 
-	para "when you're not in"
-	line "a battle."
+	para "je niet in een" ; "when you're not in"
+	line "gevecht bent." ; "a battle."
 
-	para "Here, take this"
-	line "too!"
+	para "Hier, neem ook" ; "Here, take this"
+	line "dit!" ; "too!"
 	done
 
 ChuckExplainTMText:
-	text "That is DYNAMIC-"
-	line "PUNCH."
+	text "Dat is DYNAMISCHE" ; "That is DYNAMIC-"
+	line "SLAG." ; "PUNCH."
 
-	para "It doesn't always"
-	line "hit, but when it"
+	para "Het raakt niet" ; "It doesn't always"
+	line "altijd, maar als" ; "hit, but when it"
 
-	para "does, it causes"
-	line "confusion!"
+	para "je raakt, dan ver-" ; "does, it causes"
+	line "oorzaakt het" ; "confusion!"
+	cont "verwarring!" ;
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! I enjoyed"
-	line "battling you!"
+	text "WAHAHAH! Ik genoot" ; "WAHAHAH! I enjoyed"
+	line "van ons gevecht!" ; "battling you!"
 
-	para "But a loss is a"
-	line "loss!"
+	para "Maar verlies is" ; "But a loss is a"
+	line "verlies!" ; "loss!"
 
-	para "From now on, I'm"
-	line "going to train 24"
-	cont "hours a day!"
+	para "Vanaf nu ga ik" ; "From now on, I'm"
+	line "24 uur per dag" ; "going to train 24"
+	cont "trainen!" ; "hours a day!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #MON and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "Mijn #MON en ik" ; "My #MON and I"
+	line "zijn verbonden" ; "are bound togeth-"
+	cont "door vriendschap." ; "er by friendship."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "Onze band zal" ; "Our bond will"
+	line "nooit breken!" ; "never be broken!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "This isn't real!"
+	text "Dit is niet echt!" ; "This isn't real!"
 	done
 
 BlackbeltYoshiAfterText:
-	text "You seem to have a"
-	line "strong bond with"
-	cont "your #MON too!"
+	text "Je lijkt ook" ; "You seem to have a"
+	line "een sterke band" ; "strong bond with"
+	cont "met je #MON" ; "your #MON too!"
+	cont "te hebben." ;
 	done
 
 BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
+	text "Wij vechtsporters" ; "We martial artists"
+	line "zijn nergens bang" ; "fear nothing!"
+	cont "voor!" ;
 	done
 
 BlackbeltLaoBeatenText:
-	text "That's shocking!"
+	text "Schokkend!" ; "That's shocking!"
 	done
 
 BlackbeltLaoAfterText:
-	text "Fighting #MON"
-	line "are afraid of psy-"
-	cont "chics…"
+	text "Vecht-#MON" ; "Fighting #MON"
+	line "zijn bang voor" ; "are afraid of psy-"
+	cont "helderzienden…" ; "chics…"
 	done
 
 BlackbeltNobSeenText:
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Woorden zijn nut-" ; "Words are useless."
+	line "teloos. Laat je" ; "Let your fists do"
+	cont "vuisten spreken!" ; "the talking!"
 	done
 
 BlackbeltNobBeatenText:
@@ -283,24 +287,24 @@ BlackbeltNobBeatenText:
 	done
 
 BlackbeltNobAfterText:
-	text "I lost! "
-	line "I'm speechless!"
+	text "Ik heb verloren!" ; "I lost! "
+	line "Ik ben sprakeloos!" ; "I'm speechless!"
 	done
 
 BlackbeltLungSeenText:
-	text "My raging fists"
-	line "will shatter your"
-	cont "#MON!"
+	text "Mijn razende" ; "My raging fists"
+	line "vuisten zullen je" ; "will shatter your"
+	cont "#MON vermorzelen!" ; "#MON!"
 	done
 
 BlackbeltLungBeatenText:
-	text "I got shattered!"
+	text "Ik ben vermorzeld!" ; "I got shattered!"
 	done
 
 BlackbeltLungAfterText:
-	text "My #MON lost…"
-	line "My… my pride is"
-	cont "shattered…"
+	text "Mijn #MON verloren…" ; "My #MON lost…"
+	line "Mijn… mijn trots" ; "My… my pride is"
+	cont "is vermorzeld…" ; "shattered…"
 	done
 
 CianwoodGym_MapEvents:

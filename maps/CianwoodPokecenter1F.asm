@@ -36,57 +36,57 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "Heb je de #-" ; "Did you meet the"
+	line "MANIAK ontmoet?" ; "#MANIAC?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Hij schept altijd" ; "He's always brag-"
+	line "op over zijn zeld-" ; "ging about his"
+	cont "zame #MON." ; "rare #MON."
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "De #MONGYM-" ; "The #MON GYM"
+	line "trainers hier zijn" ; "trainers here are"
+	cont "macho-pestkoppen." ; "macho bullies."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Als ik daar rond-" ; "If I stick around,"
+	line "hang, komen ze" ; "they might come"
+	cont "me pesten." ; "after me."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Hier is wat" ; "Here's some ad-"
+	line "advies: de GYM-" ; "vice: the GYM"
 
-	para "LEADER uses the"
-	line "fighting-type."
+	para "LEIDER gebruikt" ; "LEADER uses the"
+	line "het vecht-type." ; "fighting-type."
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Je kan hem dus" ; "So you should"
+	line "verrassen met" ; "confound him with"
+	cont "mentale #MON." ; "psychic #MON."
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "Versla z'n #MON" ; "Wipe out his #-"
+	line "voordat ze hun" ; "MON before they"
 
-	para "can use their"
-	line "physical strength."
+	para "fysieke kracht" ; "can use their"
+	line "kunnen gebruiken." ; "physical strength."
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the GYM?"
+	para "En die rotsen in" ; "And those boulders"
+	line "het midden van" ; "in the middle of"
+	cont "de GYM?" ; "the GYM?"
 
-	para "If you don't move"
-	line "them correctly,"
+	para "Als je ze niet" ; "If you don't move"
+	line "juist verplaatst," ; "them correctly,"
 
-	para "you won't reach"
-	line "the GYM LEADER."
+	para "zal je de GYMLEI-" ; "you won't reach"
+	line "DER niet bereiken." ; "the GYM LEADER."
 
-	para "If you get stuck,"
-	line "go outside."
+	para "Als je vastloopt," ; "If you get stuck,"
+	line "ga naar buiten." ; "go outside."
 	done
 
 CianwoodGymGuideWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>! Je won!" ; "<PLAYER>! You won!"
+	line "Ik zie het aan je" ; "I could tell by"
+	cont "gezicht!" ; "looking at you!"
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
@@ -116,17 +116,17 @@ CianwoodPokecenter1FUnusedText2: ; unreferenced
 	done
 
 CianwoodPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+	text "Ik laat de #MON" ; "I love showing off"
+	line "die ik heb opge-" ; "the #MON that"
 
-	para "I've raised."
-	line "Don't you?"
+	para "voed graag zien." ; "I've raised."
+	line "Jij niet?" ; "Don't you?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Ik ga een aantal" ; "I'm going to get"
+	line "gevechten in en" ; "into a bunch of"
 
-	para "battles, and show"
-	line "off my #MON!"
+	para "laat m'n #MON" ; "battles, and show"
+	line "zien!" ; "off my #MON!"
 	done
 
 CianwoodPokecenter1F_MapEvents:
