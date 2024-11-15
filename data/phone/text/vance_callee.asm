@@ -1,7 +1,7 @@
 VanceAnswerPhoneText:
 	text "Yes, hello?"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here!"
 
 	para "Morning, <PLAY_G>!"
@@ -13,7 +13,7 @@ VanceAnswerPhoneText:
 VanceAnswerPhoneDayText:
 	text "Yes, hello?"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here!"
 
 	para "Hi, <PLAY_G>!"
@@ -25,7 +25,7 @@ VanceAnswerPhoneDayText:
 VanceAnswerPhoneNiteText:
 	text "Yes, hello?"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here!"
 
 	para "Evening, <PLAY_G>!"
@@ -40,7 +40,7 @@ VanceGreetText:
 	line "<PLAY_G>!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	line "Good morning!"
 	done
@@ -49,7 +49,7 @@ VanceGreetDayText:
 	text "Hi, <PLAY_G>!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	line "Remember me?"
 	done
@@ -59,7 +59,7 @@ VanceGreetNiteText:
 	line "<PLAY_G>!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	line "Are you free now?"
 	done
@@ -69,7 +69,7 @@ VanceGenericText:
 	line "#MON fine?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "looks like it will"
 

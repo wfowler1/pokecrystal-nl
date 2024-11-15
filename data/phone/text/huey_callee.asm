@@ -1,7 +1,7 @@
 HueyAnswerPhoneText:
 	text "Yeah, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Huh? What's up,"
@@ -11,7 +11,7 @@ HueyAnswerPhoneText:
 HueyAnswerPhoneDayText:
 	text "Yeah, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Huh? What's up"
@@ -21,7 +21,7 @@ HueyAnswerPhoneDayText:
 HueyAnswerPhoneNiteText:
 	text "Yeah, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Huh? What's up"
@@ -33,7 +33,7 @@ HueyGreetText:
 	line "You awake?"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	line "How's it going?"
 	done
@@ -43,7 +43,7 @@ HueyGreetDayText:
 	line "free right now?"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	line "How's it going?"
 	done
@@ -53,7 +53,7 @@ HueyGreetNiteText:
 	line "Were you asleep?"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	line "How's it going?"
 	done

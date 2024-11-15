@@ -1,7 +1,7 @@
 WadeAnswerPhoneText:
 	text "Hello? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " speaking."
 
 	para "Oh. Hi, <PLAY_G>!"
@@ -11,7 +11,7 @@ WadeAnswerPhoneText:
 WadeAnswerPhoneDayText:
 	text "Hello? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " speaking."
 
 	para "Oh, hi, <PLAY_G>!"
@@ -20,7 +20,7 @@ WadeAnswerPhoneDayText:
 WadeAnswerPhoneNiteText:
 	text "Hello? This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " speaking."
 
 	para "Oh, hi, <PLAY_G>!"
@@ -32,7 +32,7 @@ WadeGreetText:
 	line "morning!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Isn't it nice out?"
 	done
@@ -41,7 +41,7 @@ WadeGreetDayText:
 	text "<PLAY_G>, howdy!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Isn't it nice out?"
 	done
@@ -51,7 +51,7 @@ WadeGreetNiteText:
 	line "<PLAY_G>!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Were you awake?"
 	done
@@ -68,7 +68,7 @@ WadeGenericText:
 
 	para "Of all my #MON,"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is the"
 	cont "hardest to handle."
 

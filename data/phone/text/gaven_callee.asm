@@ -1,7 +1,7 @@
 GavenAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " speaking…"
 
 	para "Hi, <PLAY_G>!"
@@ -11,7 +11,7 @@ GavenAnswerPhoneText:
 GavenAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " speaking…"
 
 	para "Hi, <PLAY_G>!"
@@ -20,7 +20,7 @@ GavenAnswerPhoneDayText:
 GavenAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " speaking…"
 
 	para "Hi, <PLAY_G>!"
@@ -32,7 +32,7 @@ GavenGreetText:
 	line "morning!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	line "How are you doing?"
 	done
@@ -41,7 +41,7 @@ GavenGreetDayText:
 	text "Hi, <PLAY_G>!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	line "How are you doing?"
 	done
@@ -51,7 +51,7 @@ GavenGreetNiteText:
 	line "evening!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	line "How are you doing?"
 	done
@@ -61,7 +61,7 @@ GavenGenericText:
 	line "#MON doing?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "doing as great as"
 	cont "ever."

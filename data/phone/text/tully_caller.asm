@@ -1,6 +1,6 @@
 TullyMonHasGrownText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " has"
 	line "grown again."
 
@@ -14,7 +14,7 @@ TullyMonHasGrownText:
 TullyDefeatedMonText:
 	text "Oh yeah, I KO'd a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "It was huge, like"
@@ -28,7 +28,7 @@ TullyDefeatedMonText:
 TullyLostAMonText:
 	text "Oh yeah, I lost a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "It was huge, like"
@@ -45,7 +45,7 @@ TullyBattleRematchText:
 
 	para "I'll be fishing on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Swing by if you"
@@ -67,7 +67,7 @@ TullyFoundItemText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
@@ -89,7 +89,7 @@ TullyForwardText:
 
 	para "Our battle will be"
 	line "on @"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 14
 	text "."
 	done
 
@@ -99,6 +99,6 @@ TullyHurryText:
 
 	para "Hustle over to"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done

@@ -3,7 +3,7 @@ AnthonyMonAteSomeBerriesText:
 	line "was watching my"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " eat"
 	line "some BERRIES."
 
@@ -25,7 +25,7 @@ AnthonyDefeatedMonText:
 	line "running across"
 
 	para "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "quite often."
 
@@ -38,7 +38,7 @@ AnthonyLostAMonText:
 	line "battling this"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " the"
 	line "other day…"
 
@@ -58,7 +58,7 @@ AnthonyBattleRematchText:
 	line "battle right now!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
 	line "where I am."
 
@@ -77,20 +77,20 @@ AnthonySwarmText:
 
 	para "I took a hike in"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text_start
 	cont "yesterday, see?"
 
 	para "Well, there were"
 	line "tons of @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "around! You have"
 	line "to see it!"
 
 	para "I get this feeling"
 	line "that @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "may be timid."
 	line "I didn't see any"
@@ -117,7 +117,7 @@ AnthonyReminderText:
 	line "you?"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	line "I'm waiting!"
 	done

@@ -1,5 +1,5 @@
 KenjiAnswerPhoneText:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here…"
 
 	para "<PLAYER>! Beautiful"
@@ -7,7 +7,7 @@ KenjiAnswerPhoneText:
 	done
 
 KenjiAnswerPhoneDayText:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here…"
 
 	para "<PLAYER>! Beautiful"
@@ -15,7 +15,7 @@ KenjiAnswerPhoneDayText:
 	done
 
 KenjiAnswerPhoneNiteText:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here…"
 
 	para "<PLAYER>! Beautiful"
@@ -25,20 +25,20 @@ KenjiAnswerPhoneNiteText:
 KenjiGreetText:
 	text "Hey, <PLAYER>!"
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 KenjiGreetDayText:
 	text "Hey, <PLAYER>!"
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 KenjiGreetNiteText:
 	text "Hey, <PLAYER>!"
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done

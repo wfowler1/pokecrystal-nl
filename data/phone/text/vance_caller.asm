@@ -1,6 +1,6 @@
 VanceMonHasBecomeTougherText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "become tougher."
 
@@ -11,7 +11,7 @@ VanceMonHasBecomeTougherText:
 VanceDefeatedMonText:
 	text "We can easily beat"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "…Huh? You too?"
@@ -21,7 +21,7 @@ VanceDefeatedMonText:
 VanceLostAMonText:
 	text "But get this, a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "just barely eluded"
 	line "us."
@@ -33,7 +33,7 @@ VanceLostAMonText:
 VanceBattleRematchText:
 	text "Right now, I'm on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "You know, where I"
@@ -58,7 +58,7 @@ VanceHurryHurryText:
 	line "Hurry, hurry!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	line "FLY over now!"
 	done

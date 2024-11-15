@@ -9,7 +9,7 @@ WadeAreYourMonGrowingText:
 	line "It's overwhelming!"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s grow-"
 	line "ing especially"
 
@@ -20,7 +20,7 @@ WadeAreYourMonGrowingText:
 WadeDefeatedMonText:
 	text "Oh yeah, we KO'd a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "with one hit a"
 	line "while back."
@@ -35,7 +35,7 @@ WadeDefeatedMonText:
 WadeLostAMonText:
 	text "Oh yeah, a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " got"
 
 	para "away from me at"
@@ -59,7 +59,7 @@ WadeBattleRematchText:
 	line "last time!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "'s"
 	line "where I'll be."
 
@@ -94,7 +94,7 @@ WadeFoundItemText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
@@ -114,7 +114,7 @@ WadeQuickBattleText:
 	line "already!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
 	line "where I am."
 
@@ -127,7 +127,7 @@ WadeComeQuickText:
 	line "not here yet?"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
 	line "where I am."
 

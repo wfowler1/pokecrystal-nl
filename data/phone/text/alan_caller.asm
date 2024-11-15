@@ -1,6 +1,6 @@
 AlanGettingStrongerText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "getting stronger,"
 
@@ -13,7 +13,7 @@ AlanDefeatedMonText:
 	line "knocked out a wild"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " just"
 	line "the other day."
 
@@ -24,7 +24,7 @@ AlanDefeatedMonText:
 AlanLostAMonText:
 	text "By the way, a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " escaped"
 	cont "on me yesterday."
 
@@ -41,7 +41,7 @@ AlanBattleRematchText:
 
 	para "I'm hanging out on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Can you come down"
@@ -60,7 +60,7 @@ AlanFoundItemText:
 	line "Why don't you come"
 
 	para "to @"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 15
 	text_start
 	line "and pick it up?"
 	done
@@ -80,7 +80,7 @@ AlanReminderText:
 
 	para "I'm waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -93,6 +93,6 @@ AlanComePickUpGiftText:
 
 	para "I'm waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done

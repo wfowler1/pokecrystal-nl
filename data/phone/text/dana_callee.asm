@@ -1,6 +1,6 @@
 DanaAnswerPhoneText:
 	text "Hi, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " on the"
 	line "line."
 
@@ -9,7 +9,7 @@ DanaAnswerPhoneText:
 
 DanaAnswerPhoneDayText:
 	text "Hi, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " on the"
 	line "line."
 
@@ -19,7 +19,7 @@ DanaAnswerPhoneDayText:
 
 DanaAnswerPhoneNiteText:
 	text "Hi, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text " on the"
 	line "line."
 
@@ -32,7 +32,7 @@ DanaGreetText:
 
 	para "It's me!"
 	line "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
@@ -41,7 +41,7 @@ DanaGreetDayText:
 
 	para "It's me!"
 	line "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
@@ -50,13 +50,13 @@ DanaGreetNiteText:
 
 	para "It's me!"
 	line "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 DanaGenericText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "so full of energy,"
 
