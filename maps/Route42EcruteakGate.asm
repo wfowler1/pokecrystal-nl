@@ -11,10 +11,10 @@ Route42EcruteakGateOfficerScript:
 
 Route42EcruteakGateOfficerText:
 	text "De VIJZELBERG is" ; "MT.MORTAR is like"
-	line "echt een doolhof." "a maze inside."
+	line "echt een doolhof." ; "a maze inside."
 
 	para "Pas op dat je er" ; "Be careful. Don't"
-	line "niet verdwaald." ; "get lost in there."
+	line "niet verdwaalt." ; "get lost in there."
 	done
 
 Route42EcruteakGate_MapEvents:
