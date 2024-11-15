@@ -1,7 +1,7 @@
 ErinMonIsMuchStrongerText:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "'s @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "is much stronger"
 	cont "than before!"
@@ -11,7 +11,7 @@ ErinDefeatedMonText:
 	text "And, and…"
 	line "I just battled and"
 	cont "beat @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "I've raised my"
@@ -22,7 +22,7 @@ ErinLostAMonText:
 	text "But, but…"
 
 	para "A wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "got away from me"
 
@@ -39,7 +39,7 @@ ErinBattleRematchText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -62,6 +62,6 @@ ErinComeBattleText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done

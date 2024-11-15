@@ -147,7 +147,7 @@ ElmPhoneEggAssistantText:
 	text "Hallo, <PLAY_G>? We" ; "Hello, <PLAY_G>? We"
 	line "hebben net iets" ; "discovered some-"
 
-	para "ontdekt over  het" ; "thing about the"
+	para "ontdekt over het" ; "thing about the"
 	line "EI!" ; "EGG!"
 
 	para "Mijn assistent is" ; "My assistant is at"

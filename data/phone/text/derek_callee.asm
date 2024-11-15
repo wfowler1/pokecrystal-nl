@@ -24,7 +24,7 @@ DerekGreetText:
 	line "morning!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text ", how"
 	line "pika are you?"
 	done
@@ -34,7 +34,7 @@ DerekGreetDayText:
 	line "pika day!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text ", how"
 	line "pika are you?"
 	done
@@ -44,7 +44,7 @@ DerekGreetNiteText:
 	line "evening!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text ". Were"
 	line "you pika awake?"
 	done
@@ -54,7 +54,7 @@ DerekGenericText:
 	line "this! My lovable"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " looked"
 	line "at me and grinned!"
 

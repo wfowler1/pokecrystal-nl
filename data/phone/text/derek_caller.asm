@@ -1,7 +1,7 @@
 DerekCheekPinchingText:
 	text "Listen to this."
 	line "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "grins happily when"
 	line "I pinch its cheek."
@@ -16,11 +16,11 @@ DerekDefeatedMonText:
 	text "Oh, and recently,"
 	line "my PIKACHU beat a"
 	cont "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "A wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ","
 	line "I tell you!"
 
@@ -37,7 +37,7 @@ DerekDefeatedMonText:
 DerekLostAMonText:
 	text "Oh, and I saw a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " a"
 	cont "little while ago."
 
@@ -97,7 +97,7 @@ DerekComePickUpText:
 
 	para "I'm waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Come pick this up"

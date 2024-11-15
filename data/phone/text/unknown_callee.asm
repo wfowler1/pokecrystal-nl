@@ -6,7 +6,7 @@ UnknownGenericText:
 	line "bit too energetic."
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ","
 	line "especially."
 
@@ -20,7 +20,7 @@ UnknownGenericText:
 
 UnknownTougherThanEverText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "looking tougher"
 	cont "than ever."

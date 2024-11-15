@@ -1,6 +1,6 @@
 IrwinAnswerPhoneText:
 	text "Hello? @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text_start
 	line "here…"
 
@@ -9,7 +9,7 @@ IrwinAnswerPhoneText:
 
 IrwinAnswerPhoneDayText:
 	text "Hello? @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text_start
 	line "here…"
 
@@ -18,7 +18,7 @@ IrwinAnswerPhoneDayText:
 
 IrwinAnswerPhoneNiteText:
 	text "Hello? @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text_start
 	line "here…"
 
@@ -31,7 +31,7 @@ IrwinGreetText:
 
 	para "It's your pal,"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
@@ -41,7 +41,7 @@ IrwinGreetDayText:
 
 	para "It's your buddy"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
@@ -51,6 +51,6 @@ IrwinGreetNiteText:
 
 	para "It's your sidekick"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done

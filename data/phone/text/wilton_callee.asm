@@ -1,7 +1,7 @@
 WiltonAnswerPhoneText:
 	text "Hello, you have"
 	line "reached @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 6
 	text "…"
 
 	para "Ah, <PLAY_G>."
@@ -10,7 +10,7 @@ WiltonAnswerPhoneText:
 WiltonAnswerPhoneDayText:
 	text "Hello, you have"
 	line "reached @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 6
 	text "…"
 
 	para "Ah, <PLAY_G>, is"
@@ -20,7 +20,7 @@ WiltonAnswerPhoneDayText:
 WiltonAnswerPhoneNiteText:
 	text "Hello, you have"
 	line "reached @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 6
 	text "…"
 
 	para "Ah, if it isn't"
@@ -29,7 +29,7 @@ WiltonAnswerPhoneNiteText:
 
 WiltonGreetText:
 	text "Ah, it's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 6
 	text "…"
 
 	para "Have you got a"
@@ -38,7 +38,7 @@ WiltonGreetText:
 
 WiltonGreetDayText:
 	text "Ah, it's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 6
 	text "…"
 
 	para "Can you talk now?"
@@ -46,7 +46,7 @@ WiltonGreetDayText:
 
 WiltonGreetNiteText:
 	text "Ah, it's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 6
 	text "…"
 
 	para "Sorry for calling"
@@ -58,7 +58,7 @@ WiltonGenericText:
 	line "grown any?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " has"
 	line "grown quite a bit."
 	done

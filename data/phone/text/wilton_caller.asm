@@ -1,6 +1,6 @@
 WiltonMonHasGrownText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "grown impressive!"
 
@@ -11,7 +11,7 @@ WiltonMonHasGrownText:
 WiltonDefeatedMonText:
 	text "We beat a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "…"
 
 	para "You know, I have"
@@ -27,7 +27,7 @@ WiltonLostAMonText:
 
 	para "to landing a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "I tell you, it was"
@@ -37,7 +37,7 @@ WiltonLostAMonText:
 WiltonBattleRematchText:
 	text "I'm fishing on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text ","
 
 	para "but nothing's"
@@ -58,7 +58,7 @@ WiltonFoundItemText:
 
 	para "Come pick it up on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
@@ -79,7 +79,7 @@ WiltonNotBitingText:
 
 	para "like before on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "…"
 
 	para "You have to come"
@@ -94,7 +94,7 @@ WiltonWantThisText:
 	line "know where?"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "…"
 	line "Just head from"
 

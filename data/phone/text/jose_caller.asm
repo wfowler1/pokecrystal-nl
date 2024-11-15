@@ -1,7 +1,7 @@
 JoseMonsStickHasADeliciousAromaText:
 	text "Hey listen, my"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s stick"
 
 	para "has this really"
@@ -15,7 +15,7 @@ JoseDefeatedMonText:
 	text "A while ago, my"
 	line "FARFETCH'D KO'd"
 	cont "this @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "You should have"
@@ -28,7 +28,7 @@ JoseDefeatedMonText:
 JoseLostAMonText:
 	text "I ran into a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "…"
 
 	para "I was trying to"
@@ -52,7 +52,7 @@ JoseBattleRematchText:
 	line "raring to go."
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "'s"
 	line "where I'm at."
 
@@ -74,7 +74,7 @@ JoseFoundItemText:
 
 	para "Catch up to me on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text ","
 
 	para "and I'll let you"
@@ -107,7 +107,7 @@ JoseReminderText:
 	line "stick!"
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
 	para "Please come as"
@@ -122,7 +122,7 @@ JoseComePickUpText:
 
 	para "Catch up to me on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text ","
 
 	para "and I'll let you"

@@ -1,7 +1,7 @@
 TullyAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
 	para "Oh, Good morning,"
@@ -11,7 +11,7 @@ TullyAnswerPhoneText:
 TullyAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
 	para "That voice…"
@@ -21,7 +21,7 @@ TullyAnswerPhoneDayText:
 TullyAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
 	para "This must be"
@@ -31,7 +31,7 @@ TullyAnswerPhoneNiteText:
 TullyGreetText:
 	text "Hello!"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here…"
 
 	para "Good morning! The"
@@ -41,7 +41,7 @@ TullyGreetText:
 TullyGreetDayText:
 	text "Hello!"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here…"
 
 	para "What a perfect day"
@@ -51,7 +51,7 @@ TullyGreetDayText:
 TullyGreetNiteText:
 	text "Hello!"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text " here…"
 
 	para "It's a great night"

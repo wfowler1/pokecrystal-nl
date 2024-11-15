@@ -1,6 +1,6 @@
 LizAnswerPhoneText:
 	text "Hello, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 3
 	text_start
 	line "speaking."
 
@@ -10,7 +10,7 @@ LizAnswerPhoneText:
 
 LizAnswerPhoneDayText:
 	text "Hello, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 3
 	text_start
 	line "speaking."
 
@@ -20,7 +20,7 @@ LizAnswerPhoneDayText:
 
 LizAnswerPhoneNiteText:
 	text "Hello, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 3
 	text_start
 	line "speaking."
 
@@ -33,7 +33,7 @@ LizGreetText:
 	line "<PLAY_G>."
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
 	line "Were you sleeping?"
 	done
@@ -41,7 +41,7 @@ LizGreetText:
 LizGreetDayText:
 	text "Hi, <PLAY_G>."
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
 
 	para "How are things"
@@ -53,7 +53,7 @@ LizGreetNiteText:
 	line "<PLAY_G>."
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
 	line "Are you awake?"
 	done
@@ -67,7 +67,7 @@ LizGenericText:
 
 	para "Me, I take my"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " to the"
 
 	para "#MON CENTER in"

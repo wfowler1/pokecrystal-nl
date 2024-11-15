@@ -1,6 +1,6 @@
 JackIntelligenceKeepsRisingText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "intelligence keeps"
 
@@ -13,7 +13,7 @@ JackDefeatedMonText:
 	text "The other day, I"
 	line "easily defeated a"
 	cont "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "I think swapping"
@@ -26,7 +26,7 @@ JackLostAMonText:
 	line "I missed catching"
 
 	para "a @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " by"
 	line "just a tiny bit."
 
@@ -46,7 +46,7 @@ JackBattleRematchText:
 
 	para "I'll be in"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Give me a shout if"
@@ -188,6 +188,6 @@ JackReminderText:
 
 	para "I'll be at"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done

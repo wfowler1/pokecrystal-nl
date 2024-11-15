@@ -1,14 +1,14 @@
 ParryNothingCanMatchText:
 	text "Nothing can match"
 	line "my @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " now."
 	done
 
 ParryDefeatedMonText:
 	text "Yeah, we KO'd a"
 	line "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "That was OK, but I"
@@ -20,7 +20,7 @@ ParryLostAMonText:
 	line "spotted a wild"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 	line "We were debating"
 
@@ -43,7 +43,7 @@ ParryBattleRematchText:
 
 	para "Yep! We'll meet on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -60,7 +60,7 @@ ParryBattleWithMeText:
 ParryHaventYouGottenToText:
 	text "Haven't you gotten"
 	line "to @"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 14
 	text "?"
 
 	para "Waiting here isn't"

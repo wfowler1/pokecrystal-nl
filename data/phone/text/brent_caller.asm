@@ -17,7 +17,7 @@ BrentDefeatedMonText:
 	line "down this wild"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 	line "It wasn't rare"
 
@@ -55,7 +55,7 @@ BrentBattleRematchText:
 
 	para "You know where--"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
@@ -158,6 +158,6 @@ BrentReminderText:
 
 	para "Hurry over to"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done

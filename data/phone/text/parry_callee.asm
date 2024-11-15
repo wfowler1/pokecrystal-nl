@@ -1,7 +1,7 @@
 ParryAnswerPhoneText:
 	text "Yup, yup!"
 	line "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
 	para "Hah, and here's"
@@ -11,7 +11,7 @@ ParryAnswerPhoneText:
 ParryAnswerPhoneDayText:
 	text "Yup, yup!"
 	line "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
 	para "Hah, and here's"
@@ -21,7 +21,7 @@ ParryAnswerPhoneDayText:
 ParryAnswerPhoneNiteText:
 	text "Yup, yup!"
 	line "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
 	para "Hah, and here's"
@@ -31,7 +31,7 @@ ParryAnswerPhoneNiteText:
 ParryGreetText:
 	text "<PLAY_G>, it's"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
 	para "Have you had a"
@@ -41,7 +41,7 @@ ParryGreetText:
 ParryGreetDayText:
 	text "<PLAY_G>, it's"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
 	para "Have you had a"
@@ -51,7 +51,7 @@ ParryGreetDayText:
 ParryGreetNiteText:
 	text "<PLAY_G>, it's"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
 	para "Have you had a"
@@ -63,7 +63,7 @@ ParryGenericText:
 	line "looking good?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " and"
 	line "me--we're looking"
 

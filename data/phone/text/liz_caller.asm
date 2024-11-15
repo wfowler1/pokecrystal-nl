@@ -3,7 +3,7 @@ LizMonAlwaysWantsToNuzzleText:
 	line "hear this."
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "so adorable!"
 
@@ -16,7 +16,7 @@ LizDefeatedMonText:
 
 	para "We beat a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " with"
 
 	para "just one hit a"
@@ -32,7 +32,7 @@ LizLostAMonText:
 	para "We just saw a"
 	line "really gorgeous"
 	cont "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "But I was on the"
@@ -54,7 +54,7 @@ LizBattleRematchText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Let me know when"
@@ -241,13 +241,13 @@ LizBeautifulTrainerGossipText:
 
 	para "I saw a beautiful"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "I wish I could"
 	line "become a beautiful"
 	cont "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " too."
 	done
 
@@ -264,7 +264,7 @@ LizFawningOverMonText:
 	text "Listen, listen!"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "…"
 	line "it… so pretty…"
 
@@ -303,6 +303,6 @@ LizReminderText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done

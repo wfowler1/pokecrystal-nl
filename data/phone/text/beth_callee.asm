@@ -1,7 +1,7 @@
 BethAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Oh, <PLAY_G>."
@@ -13,7 +13,7 @@ BethAnswerPhoneText:
 BethAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Oh. Hi, <PLAY_G>."
@@ -22,7 +22,7 @@ BethAnswerPhoneDayText:
 BethAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Oh, <PLAY_G>."
@@ -34,7 +34,7 @@ BethGreetText:
 	line "<PLAY_G>!"
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Were you sleeping?"
 	done
@@ -42,7 +42,7 @@ BethGreetText:
 BethGreetDayText:
 	text "<PLAY_G>, hi!"
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Do you have some"
@@ -54,7 +54,7 @@ BethGreetNiteText:
 	line "Good evening."
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "I hope you were"

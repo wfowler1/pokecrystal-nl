@@ -1,7 +1,7 @@
 ChadAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Hi, <PLAY_G>!"
@@ -11,7 +11,7 @@ ChadAnswerPhoneText:
 ChadAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Hi, <PLAY_G>, good"
@@ -21,7 +21,7 @@ ChadAnswerPhoneDayText:
 ChadAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Hi, <PLAY_G>, good"
@@ -33,7 +33,7 @@ ChadGreetText:
 	line "morning!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "How are you?"
 	done
@@ -43,7 +43,7 @@ ChadGreetDayText:
 	line "day!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "How are you?"
 	done
@@ -53,7 +53,7 @@ ChadGreetNiteText:
 	line "evening!"
 
 	para "It's @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "How are you?"
 	done

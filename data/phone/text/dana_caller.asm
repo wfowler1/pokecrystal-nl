@@ -1,6 +1,6 @@
 DanaTakingPhotosText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "getting prettier!"
 
@@ -12,7 +12,7 @@ DanaDefeatedMonText:
 	text "It took only an"
 	line "instant to KO a"
 	cont "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "It must be because"
@@ -25,7 +25,7 @@ DanaDefeatedMonText:
 DanaLostAMonText:
 	text "You know what?"
 	line "A wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "got away from me"
 	line "again."
@@ -40,7 +40,7 @@ DanaLostAMonText:
 DanaBattleRematchText:
 	text "Right now, I'm on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "If you're close"
@@ -66,7 +66,7 @@ DanaFoundItemText:
 
 	para "it! I'm waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -90,7 +90,7 @@ DanaReminderText:
 
 	para "I'm waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
@@ -105,6 +105,6 @@ DanaComePickUpText:
 
 	para "I'm waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done

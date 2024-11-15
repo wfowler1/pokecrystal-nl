@@ -1,7 +1,7 @@
 JackAnswerPhoneText:
 	text "Hello. This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Good morning,"
@@ -11,7 +11,7 @@ JackAnswerPhoneText:
 JackAnswerPhoneDayText:
 	text "Hello. This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "How's it going,"
@@ -21,7 +21,7 @@ JackAnswerPhoneDayText:
 JackAnswerPhoneNiteText:
 	text "Hello. This is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Good evening,"
@@ -33,7 +33,7 @@ JackGreetText:
 	line "morning!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "How are you doing?"
 	done
@@ -42,7 +42,7 @@ JackGreetDayText:
 	text "<PLAY_G>, howdy!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Isn't it nice out?"
 	done
@@ -52,7 +52,7 @@ JackGreetNiteText:
 	line "evening!"
 
 	para "It's me, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Got a minute?"
 	done
@@ -62,7 +62,7 @@ JackGenericText:
 	line "#MON doing?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "so curious, it's a"
 

@@ -3,7 +3,7 @@ RalphNeglectingKidsText:
 	line "more time with my"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " than I"
 	line "have with my kids."
 
@@ -14,7 +14,7 @@ RalphNeglectingKidsText:
 RalphDefeatedMonText:
 	text "I just beat a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "I told my kid, but"
@@ -30,7 +30,7 @@ RalphDefeatedMonText:
 RalphLostAMonText:
 	text "Yesterday a wild"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " slipped"
 
 	para "away from me, in"
@@ -57,7 +57,7 @@ RalphBattleRematchText:
 	line "quite agreeable."
 
 	para "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
 	line "the spot!"
 	done
@@ -72,7 +72,7 @@ RalphItemText:
 
 	para "Uh, sorry! See,"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " are"
 
 	para "biting like there"
@@ -80,7 +80,7 @@ RalphItemText:
 
 	para "over here on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
 	para "Aiyee! Ouch!"
@@ -113,7 +113,7 @@ RalphReminderText:
 
 	para "you to show up on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "You shouldn't make"

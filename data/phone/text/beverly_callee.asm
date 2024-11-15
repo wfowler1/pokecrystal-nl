@@ -1,7 +1,7 @@
 BeverlyAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh! Good morning,"
@@ -11,7 +11,7 @@ BeverlyAnswerPhoneText:
 BeverlyAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh! Good day,"
@@ -21,7 +21,7 @@ BeverlyAnswerPhoneDayText:
 BeverlyAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh! Good evening,"
@@ -33,7 +33,7 @@ BeverlyGreetText:
 	line "Good morning."
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 	line "Were you asleep?"
 	done
@@ -41,7 +41,7 @@ BeverlyGreetText:
 BeverlyGreetDayText:
 	text "Hi, <PLAYER>."
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "How are you doing?"
@@ -50,7 +50,7 @@ BeverlyGreetDayText:
 BeverlyGreetNiteText:
 	text "Hi, <PLAYER>."
 	line "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Were you awake?"
@@ -61,7 +61,7 @@ BeverlyGenericText:
 	line "#MON happy?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "healthy. It eats a"
 	cont "lot every day."

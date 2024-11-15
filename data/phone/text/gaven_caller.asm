@@ -1,13 +1,13 @@
 GavenMonGreaterThanImaginedText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "might be greater"
 	cont "than I imagined."
 
 	para "I doubt I'll see a"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " that's"
 	cont "better than mine."
 	done
@@ -17,13 +17,13 @@ GavenDefeatedMonText:
 	line "to barely defeat"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " the"
 	line "other day."
 
 	para "I've never seen a"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " get"
 	cont "that strong…"
 
@@ -39,7 +39,7 @@ GavenLostAMonText:
 	text "And a while back,"
 	line "I tried to catch a"
 	cont "wild @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
 	para "But it managed to"
@@ -57,7 +57,7 @@ GavenBattleRematchText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
 	para "Give me a shout"
@@ -80,6 +80,6 @@ GavenReminderText:
 
 	para "I'll take you down"
 	line "with @"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxPokemonNameLength
 	text "!"
 	done

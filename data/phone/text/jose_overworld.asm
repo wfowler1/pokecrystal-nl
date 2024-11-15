@@ -1,6 +1,6 @@
 JoseAskNumber1Text:
 	text "If my @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "sees anything"
 

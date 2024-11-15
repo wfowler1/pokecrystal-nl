@@ -1,6 +1,6 @@
 AnthonyAnswerPhoneText:
 	text "Yeah, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3  ; MaxLength 7
 	text " the"
 	line "HIKER here."
 
@@ -9,7 +9,7 @@ AnthonyAnswerPhoneText:
 
 AnthonyAnswerPhoneDayText:
 	text "Yeah, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text " the"
 	line "HIKER here."
 
@@ -19,7 +19,7 @@ AnthonyAnswerPhoneDayText:
 
 AnthonyAnswerPhoneNiteText:
 	text "Yeah, @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text " the"
 	line "HIKER here."
 
@@ -31,7 +31,7 @@ AnthonyGreetText:
 	text "Yo, <PLAYER>?"
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text_start
 	line "the HIKER!"
 	done
@@ -41,7 +41,7 @@ AnthonyGreetDayText:
 	line "<PLAYER>?"
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text_start
 	line "the HIKER!"
 	done
@@ -51,7 +51,7 @@ AnthonyGreetNiteText:
 	line "awake?"
 
 	para "This is @"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength 7
 	text_start
 	line "the HIKER!"
 	done
@@ -61,7 +61,7 @@ AnthonyGenericText:
 	line "as feisty as ever?"
 
 	para "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " and"
 	line "me--we have energy"
 

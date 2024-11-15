@@ -1,6 +1,6 @@
 ToddLooksCuteLikeMeText:
 	text "My @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "looking more and"
 
@@ -13,7 +13,7 @@ ToddDefeatedMonText:
 
 	para "Now we can KO"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " easily."
 
 	para "I should challenge"
@@ -25,7 +25,7 @@ ToddLostAMonText:
 	line "We just failed to"
 
 	para "beat @"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " by"
 	line "a tiny margin."
 
@@ -48,7 +48,7 @@ ToddBattleRematchText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
@@ -98,7 +98,7 @@ ToddLookingForwardToBattleText:
 
 	para "I'll be waiting on"
 	line "@"
-	text_ram wStringBuffer5
+	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 

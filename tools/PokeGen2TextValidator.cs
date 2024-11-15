@@ -60,7 +60,7 @@ namespace PokeGen2TextValidator
             }
 
             ASMFile source = GetASMFile(args[currentArg++]);
-            if (source == null)
+            if (source == null || source.Type == FileType.Ignore)
             {
                 return 0;
             }
@@ -147,6 +147,8 @@ namespace PokeGen2TextValidator
     // ASMFile.cs
     public enum FileType
     {
+        /// <summary> Invalid file, skip it. Generally these are files still containing unused Japanese text. </summary>
+        Ignore = -1,
         /// <summary> Unknown or miscellaneous data. No string validation will be available. </summary>
         Misc = 0,
         /// <summary> Text for a textbox. Limit 18 chars per line of text. </summary>
@@ -240,6 +242,10 @@ namespace PokeGen2TextValidator
                 )
             {
                 return FileType.TextBox;
+            }
+            else if (path.Contains("mobile/"))
+            {
+                return FileType.Ignore;
             }
 
             return FileType.Misc;
@@ -343,7 +349,7 @@ namespace PokeGen2TextValidator
                     nextLine = lines[i + 1];
                 }
 
-                if (line.Text.StartsWith("INCLUDE"))
+                if (line.Text.StartsWith("INCLUDE") || line.Text.StartsWith("INCBIN"))
                 {
                     continue;
                 }
@@ -852,7 +858,7 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789";
+        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘";
 
         private Block _block;
 
@@ -926,12 +932,17 @@ namespace PokeGen2TextValidator
                     continue;
                 }
 
+                StringBuilder unmappedCharactersBuilder = new StringBuilder();
                 foreach (char c in formattedText.Unformatted)
                 {
                     if (!PrintableChars.Contains(c.ToString()))
                     {
-                        sb.Append(GetUnmappedCharErrorMessage(formattedText, c));
+                        unmappedCharactersBuilder.Append(c);
                     }
+                }
+                if (unmappedCharactersBuilder.ToString() != string.Empty)
+                {
+                    sb.Append(GetUnmappedCharErrorMessage(formattedText, unmappedCharactersBuilder.ToString()));
                 }
 
                 if (_block.Type == FileType.Pokedex)
@@ -1064,11 +1075,12 @@ namespace PokeGen2TextValidator
             return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" must be exactly ").Append(length).Append(" chars long.\n").ToString();
         }
 
-        private string GetUnmappedCharErrorMessage(FormattedText formattedText, char unmapped)
+        private string GetUnmappedCharErrorMessage(FormattedText formattedText, string unmapped)
         {
             StringBuilder sb = new StringBuilder();
-            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" contains unmapped character \'").Append(unmapped).Append("\'.\n").ToString();
+            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" contains unmapped characters \'").Append(unmapped).Append("\'.\n").ToString();
         }
+
     }
     
     // Comparer.cs
