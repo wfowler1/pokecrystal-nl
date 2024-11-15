@@ -1,97 +1,97 @@
 AlanGettingStrongerText:
-	text "My @"
+	text "mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "getting stronger,"
+	text "wordt" ; "'s"
+	line "steeds sterker," ; "getting stronger,"
 
-	para "exactly as I"
-	line "calculated!"
+	para "precies zoals ik" ; "exactly as I"
+	line "had berekend!" ; "calculated!"
 	done
 
 AlanDefeatedMonText:
-	text "By the way, we"
-	line "knocked out a wild"
+	text "Trouwens, we ver-" ; "By the way, we"
+	line "sloegen een wilde " ; "knocked out a wild"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " just"
-	line "the other day."
+	text "een tijdje gele-" ; " just"
+	line "den." ; "the other day."
 
-	para "Studying up in"
-	line "advance worked!"
+	para "Vooraf studeren" ; "Studying up in"
+	line "heeft geholpen!" ; "advance worked!"
 	done
 
 AlanLostAMonText:
-	text "By the way, a wild"
+	text "Een wilde" ; "By the way, a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " escaped"
-	cont "on me yesterday."
+	text "ontglipte" ; " escaped"
+	cont "me gisteren." ; "on me yesterday."
 
-	para "A computational"
-	line "error on my part…"
+	para "Een rekenfout van" ; "A computational"
+	line "mij…" ; "error on my part…"
 	done
 
 AlanBattleRematchText:
-	text "I've studied quite"
-	line "a bit since then,"
+	text "Sindsdien heb ik" ; "I've studied quite"
+	line "veel gestudeerd en" ; "a bit since then,"
 
-	para "and I've gotten a"
-	line "lot better!"
+	para "ben ik een stuk" ; "and I've gotten a"
+	line "beter geworden!" ; "lot better!"
 
-	para "I'm hanging out on"
+	para "Ik hang rond op" ; "I'm hanging out on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "Can you come down"
-	line "for a battle?"
+	para "Kun je langskomen" ; "Can you come down"
+	line "om te vechten?" ; "for a battle?"
 	done
 
 AlanHangUpText:
-	text "See you later!"
+	text "Tot later!" ; "See you later!"
 	done
 
 AlanFoundItemText:
-	text "Hehehe, I picked"
-	line "up something nice!"
+	text "Hehehe, ik heb wat" ; "Hehehe, I picked"
+	line "moois gevonden." ; "up something nice!"
 
-	para "You can have it!"
-	line "Why don't you come"
+	para "Je mag het hebben!" ; "You can have it!"
+	line "Kom anders" ; "Why don't you come"
 
-	para "to @"
+	para "naar @" ; "to @"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text_start
-	line "and pick it up?"
+	line "om het te halen?" ; "and pick it up?"
 	done
 
 AlanHaventPickedUpAnythingText:
-	text "I haven't picked"
-	line "up anything yet."
+	text "Ik heb nog niks" ; "I haven't picked"
+	line "gevonden." ; "up anything yet."
 
-	para "I'll call you if I"
-	line "find something."
+	para "Ik bel je als ik" ; "I'll call you if I"
+	line "iets vind." ; "find something."
 	done
 
 AlanReminderText:
-	text "If we don't battle"
-	line "soon, I'll forget"
-	cont "my strategy!"
+	text "Als we niet snel" ; "If we don't battle"
+	line "vechten, vergeet" ; "soon, I'll forget"
+	cont "ik mijn strategie!" ; "my strategy!"
 
-	para "I'm waiting on"
+	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 AlanComePickUpGiftText:
-	text "I have to do my"
-	line "homework, so can"
+	text "Ik moet huiswerk" ; "I have to do my"
+	line "doen, kun je snel" ; "homework, so can"
 
-	para "you come get your"
-	line "gift right away?"
+	para "je cadeau komen" ; "you come get your"
+	line "ophalen?" ; "gift right away?"
 
-	para "I'm waiting on"
+	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
