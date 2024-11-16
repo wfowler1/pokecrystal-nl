@@ -1,77 +1,77 @@
 WadeAnswerPhoneText:
-	text "Hello? This is"
+	text "Hallo? Met" ; "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " speaking."
+	text "spreek je." ; " speaking."
 
-	para "Oh. Hi, <PLAY_G>!"
-	line "Good morning!"
+	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
+	line "Goedemorgen!" ; "Good morning!"
 	done
 
 WadeAnswerPhoneDayText:
-	text "Hello? This is"
+	text "Hallo? Met" ; "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " speaking."
+	text "spreek je." ; " speaking."
 
-	para "Oh, hi, <PLAY_G>!"
+	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
 	done
 
 WadeAnswerPhoneNiteText:
-	text "Hello? This is"
+	text "Hallo? Met" ; "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " speaking."
+	text "spreek je." ; " speaking."
 
-	para "Oh, hi, <PLAY_G>!"
-	line "Good evening!"
+	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
+	line "Goedenavond!" ; "Good evening!"
 	done
 
 WadeGreetText:
-	text "<PLAY_G>, good"
-	line "morning!"
+	text "<PLAY_G>," ; "<PLAY_G>, good"
+	line "goedemorgen!" ; "morning!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "Isn't it nice out?"
+	line "Lekker weertje hé?" ; "Isn't it nice out?"
 	done
 
 WadeGreetDayText:
 	text "<PLAY_G>, howdy!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "Isn't it nice out?"
+	line "Lekker weertje hé?" ; "Isn't it nice out?"
 	done
 
 WadeGreetNiteText:
-	text "Good evening,"
+	text "Goedenavond," ; "Good evening,"
 	line "<PLAY_G>!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "Were you awake?"
+	line "Was je wakker?" ; "Were you awake?"
 	done
 
 WadeGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "My #MON have"
-	line "too much energy to"
+	para "Mijn #MON zijn" ; "My #MON have"
+	line "veel te druk. Het" ; "too much energy to"
 
-	para "burn. It gets to"
-	line "be a problem."
+	para "begint een pro-" ; "burn. It gets to"
+	line "bleem te worden." ; "be a problem."
 
-	para "Of all my #MON,"
+	para "Van m'n #MON is" ; "Of all my #MON,"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " is the"
-	cont "hardest to handle."
+	text "het" ; " is the"
+	cont "drukste." ; "hardest to handle."
 
-	para "Working with it is"
-	line "exhausting."
+	para "Het is vermoeiend" ; "Working with it is"
+	line "om mee te werken." ; "exhausting."
 	done
