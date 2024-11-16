@@ -141,7 +141,7 @@ MomPhoneNoPokedexText:
 MomPhoneNoGymQuestText:
 	text "Hallo?" ; "Hello?"
 
-	para "Hoi, <PLAYER!> Als" ; "Hi, <PLAYER>! If"
+	para "Hoi, <PLAYER>! Als" ; "Hi, <PLAYER>! If"
 	line "je klusje klaar is" ; "you're done with"
 
 	para "kun je naar huis" ; "your errand come"
