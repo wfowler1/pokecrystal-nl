@@ -1,106 +1,106 @@
 ArnieMonIsSoCuteText:
-	text "I'm always with my"
+	text "Ik ben altijd met" ; "I'm always with my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "It's so cute!"
-	line "I just love it!"
+	para "Zo schattig!" ; "It's so cute!"
+	line "Ik ben er dol op!" ; "I just love it!"
 	done
 
 ArnieDefeatedMonText:
-	text "Changing the topic"
-	line "here, I saw this"
+	text "Ander onderwerp," ; "Changing the topic"
+	line "ik zag een" ; "here, I saw this"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " for the"
-	line "first time."
+	text "voor de" ; " for the"
+	line "eerste keer." ; "first time."
 
-	para "It was easy to"
-	line "beat, actually."
+	para "Best makkelijk te" ; "It was easy to"
+	line "verslaan, zeg." ; "beat, actually."
 	done
 
 ArnieLostAMonText:
-	text "I was wondering,"
-	line "do you happen to"
-	cont "have @"
+	text "Ik vroeg me af," ; "I was wondering,"
+	line "heb jij wellicht" ; "do you happen to"
+	cont "een @" ; "have @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "?"
 
-	para "I can't seem to"
-	line "catch one. What is"
+	para "Het lukt me niet" ; "I can't seem to"
+	line "een te vangen. Wat" ; "catch one. What is"
 
-	para "its weakness, I"
-	line "wonder."
+	para "zou het zwak tegen" ; "its weakness, I"
+	line "zijn, denk je?" ; "wonder."
 	done
 
 ArnieBattleRematchText:
-	text "Hey, let's battle"
-	line "our #MON!"
+	text "He, laten we met" ; "Hey, let's battle"
+	line "elkaar vechten!" ; "our #MON!"
 
-	para "I won't lose to"
-	line "you battling or in"
+	para "Ik verlies niet" ; "I won't lose to"
+	line "van je in een" ; "you battling or in"
 
-	para "the Bug-Catching"
-	line "Contest!"
+	para "gevecht of in het" ; "the Bug-Catching"
+	line "KEVERTOERNOOI!" ; "Contest!"
 
-	para "I'll be here on"
+	para "Ik wacht hier op" ; "I'll be here on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 ArnieHangUpText:
-	text "Let's talk again,"
-	line "huh?"
+	text "We praten snel," ; "Let's talk again,"
+	line "oké?" ; "huh?"
 	done
 
 ArnieSwarmText:
-	text "Boy, am I glad I"
-	line "caught you!"
+	text "Joh, ik ben blij" ; "Boy, am I glad I"
+	line "dat ik je tref!" ; "caught you!"
 
-	para "A whole bunch of"
+	para "Een heleboel" ; "A whole bunch of"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " have"
+	text "zijn" ; " have"
 
-	para "appeared around"
+	para "verschenen rond" ; "appeared around"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
-	para "You have to see"
-	line "this!"
+	para "Je moet dit echt" ; "You have to see"
+	line "zien!" ; "this!"
 	done
 
 ArnieHaventSeenRareMonText:
-	text "I haven't had any"
-	line "luck seeing rare"
-	cont "#MON lately…"
+	text "Het lukt me maar" ; "I haven't had any"
+	line "niet om zeldzame" ; "luck seeing rare"
+	cont "#MON te zien…" ; "#MON lately…"
 
-	para "But I know they're"
-	line "out there!"
+	para "Maar ik weet dat" ; "But I know they're"
+	line "ze er zijn!" ; "out there!"
 	done
 
 ArnieReminderText:
-	text "Hey, where are you"
-	line "now?"
+	text "He, waar ben jij" ; "Hey, where are you"
+	line "nu?" ; "now?"
 
-	para "Let's battle. I'll"
-	line "be waiting for you"
-	cont "on @"
+	para "Laten we vechten." ; "Let's battle. I'll"
+	line "ik wacht op je" ; "be waiting for you"
+	cont "op @" ; "on @"
 	text_ram wStringBuffer5 ; MaxLength 14
 	text "!"
 	done
 
 ArnieHurryText:
-	text "Hello? Are you"
-	line "coming or what?"
+	text "Hallo? Kom je nog" ; "Hello? Are you"
+	line "of niet?" ; "coming or what?"
 
-	para "You're missing out"
-	line "on seeing YANMA!"
+	para "Je mist hier een" ; "You're missing out"
+	line "YANMA!" ; "on seeing YANMA!"
 
-	para "Get down to ROUTE"
-	line "35 right now!"
+	para "Kom onmiddelijk" ; "Get down to ROUTE"
+	line "naar ROUTE 35!" ; "35 right now!"
 	done

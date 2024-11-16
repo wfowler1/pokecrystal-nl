@@ -1,59 +1,60 @@
 ArnieAskNumber1Text:
-	text "Do you get the"
-	line "feeling that there"
+	text "Heb jij het gevoel" ; "Do you get the"
+	line "dat er de laatste" ; "feeling that there"
 
-	para "are more rare"
-	line "#MON around?"
+	para "tijd meer zeldzame" ; "are more rare"
+	line "#MON zijn?" ; "#MON around?"
 
-	para "I'm positive there"
-	line "are, so I look all"
-	cont "the time."
+	para "Ik ben er zeker" ; "I'm positive there"
+	line "van, dus ben" ; "are, so I look all"
+	cont "continu op zoek." ; "the time."
 
-	para "If I find one, I"
-	line "want to share the"
+	para "Als ik een vind," ; "If I find one, I"
+	line "wil ik het goede" ; "want to share the"
 
-	para "good news with"
-	line "everyone I know."
+	para "nieuws delen met" ; "good news with"
+	line "iedereen." ; "everyone I know."
 
-	para "I know! Give me"
-	line "your phone number."
+	para "Ik weet het! Geef" ; "I know! Give me"
+	line "je telefoonnummer." ; "your phone number."
 	done
 
 ArnieAskNumber2Text:
-	text "I want to let"
-	line "people know if I"
-	cont "see rare #MON."
+	text "Ik wil mensen ver-" ; "I want to let"
+	line "tellen als ik" ; "people know if I"
+	cont "zeldzame #MON" ; "see rare #MON."
+	cont "tegenkom."
 
-	para "Please give me"
-	line "your phone number!"
+	para "Geef alsjeblieft" ; "Please give me"
+	line "je telefoonnummer!" ; "your phone number!"
 	done
 
 ArnieNumberAcceptedText:
-	text "If I spot any"
-	line "awesome #MON,"
+	text "Als ik toffe" ; "If I spot any"
+	line "#MON spot," ; "awesome #MON,"
 
-	para "I'll be sure to"
-	line "give you a call!"
+	para "zal ik je zeker" ; "I'll be sure to"
+	line "even bellen!" ; "give you a call!"
 	done
 
 ArnieNumberDeclinedText:
-	text "Aww! I want to"
-	line "tell someone about"
-	cont "my discoveries!"
+	text "Aww! Ik wilde over" ; "Aww! I want to"
+	line "mijn ontdekkingen" ; "tell someone about"
+	cont "vertellen!" ; "my discoveries!"
 	done
 
 ArniePhoneFullText:
-	text "There's no space"
-	line "for my number."
+	text "Er is geen plek" ; "There's no space"
+	line "voor mijn nummer." ; "for my number."
 
-	para "If you make room,"
-	line "register me!"
+	para "Als je plek maakt," ; "If you make room,"
+	line "registreer me!" ; "register me!"
 	done
 
 ArnieRematchText:
-	text "It's my turn to"
-	line "win now!"
+	text "Het is mijn beurt" ; "It's my turn to"
+	line "om te winnen!" ; "win now!"
 
-	para "I've turned over a"
-	line "new leaf!"
+	para "Ik pak het nu" ; "I've turned over a"
+	line "anders aan!" ; "new leaf!"
 	done
