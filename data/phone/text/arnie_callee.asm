@@ -36,7 +36,7 @@ ArnieGreetText:
 	done
 
 ArnieGreetDayText:
-	text "Ja, hallo?"  "Yeah, hello?"
+	text "Ja, hallo?" ;  "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "spreek je." ; " calling."
