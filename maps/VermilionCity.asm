@@ -124,23 +124,23 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "VERMILION PORT is"
-	line "KANTO's seaside"
-	cont "gateway."
+	text "VERMILIONHAVEN is" ; "VERMILION PORT is"
+	line "de kustpoort van" ; "KANTO's seaside"
+	cont "de KANTO-regio." ; "gateway."
 
-	para "Luxury liners from"
-	line "around the world"
-	cont "dock here."
+	para "Cruiseschepen van" ; "Luxury liners from"
+	line "overal ter wereld" ; "around the world"
+	cont "meren hier aan." ; "dock here."
 	done
 
 VermilionMachopOwnerText:
-	text "My #MON is"
-	line "preparing the land"
-	cont "for construction."
+	text "Mijn #MON" ; "My #MON is"
+	line "bereidt hier de" ; "preparing the land"
+	cont "de bouwgrond voor." ; "for construction."
 
-	para "But I have no"
-	line "money to start the"
-	cont "project…"
+	para "Ik heb alleen geen" ; "But I have no"
+	line "geld om te starten" ; "money to start the"
+	cont "met het project…" ; "project…"
 	done
 
 VermilionMachopText1:
@@ -149,120 +149,123 @@ VermilionMachopText1:
 	done
 
 VermilionMachopText2:
-	text "A MACHOP is growl-"
-	line "ing while stomping"
-	cont "the ground flat."
+	text "Een MACHOP gromt" ; "A MACHOP is growl-"
+	line "terwijl het de" ; "ing while stomping"
+	cont "grond platstampt." ; "the ground flat."
 	done
 
 VermilionCitySuperNerdText:
-	text "There are eight"
-	line "GYMS in KANTO."
+	text "Er zijn acht GYMS" ; "There are eight"
+	line "in KANTO." ; "GYMS in KANTO."
 
-	para "That big building"
-	line "is VERMILION's"
-	cont "#MON GYM."
+	para "Dat grote gebouw" ; "That big building"
+	line "is de #MONGYM" ; "is VERMILION's"
+	cont "van VERMILION." ; "#MON GYM."
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "SNORLAX is snoring"
-	line "peacefully…"
+	text "SNORLAX is vredig" ; "SNORLAX is snoring"
+	line "aan het snurken…" ; "peacefully…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
-	text "The #GEAR was"
-	line "placed near the"
-	cont "sleeping SNORLAX…"
+	text "De #GEAR werd" ; "The #GEAR was"
+	line "naast de slapende" ; "placed near the"
+	cont "SNORLAX geplaatst…" ; "sleeping SNORLAX…"
 
 	para "…"
 
-	para "SNORLAX woke up!"
+	para "SNORLAX werd" ; "SNORLAX woke up!"
+	line "wakker!
 	done
 
 VermilionCityBadgeGuyTrainerText:
-	text "Skilled trainers"
-	line "gather in KANTO."
+	text "Goede trainers" ; "Skilled trainers"
+	line "vind je in KANTO." ; "gather in KANTO."
 
-	para "GYM LEADERS are"
-	line "especially strong."
+	para "Vooral GYMLEIDERS" ; "GYM LEADERS are"
+	line "zijn sterk." ; "especially strong."
 
-	para "They won't be easy"
-	line "to defeat."
+	para "Hen verslaan wordt" ; "They won't be easy"
+	line "geen makkie." ; "to defeat."
 	done
 
 VermilionCityBadgeGuySomeBadgesText:
-	text "You've started to"
-	line "collect KANTO GYM"
-	cont "BADGES?"
+	text "Ben je KANTO GYM" ; "You've started to"
+	line "BADGES aan het" ; "collect KANTO GYM"
+	cont "verzamelen?" ; "BADGES?"
 
-	para "Don't you agree"
-	line "that the trainers"
-	cont "here are tough?"
+	para "De trainers hier" ; "Don't you agree"
+	line "zijn taai, vind" ; "that the trainers"
+	cont "je niet?" ; "here are tough?"
 	done
 
 VermilionCityBadgeGuyMostBadgesText:
-	text "I guess you'll be"
-	line "finished with your"
+	text "Ik denk dat je" ; "I guess you'll be"
+	line "snel alle KANTO" ; "finished with your"
 
-	para "conquest of KANTO"
-	line "GYMS soon."
+	para "GYMS veroverd" ; "conquest of KANTO"
+	line "hebt." ; "GYMS soon."
 
-	para "Let me know if"
-	line "you get all eight"
-	cont "BADGES."
+	para "Laat het me weten" ; "Let me know if"
+	line "als je alle acht" ; "you get all eight"
+	cont "BADGES hebt." ; "BADGES."
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
-	text "Congratulations!"
+	text "Gefeliciteerd!" ; "Congratulations!"
 
-	para "You got all the"
+	para "Je hebt alle" ; "You got all the"
 	line "KANTO GYM BADGES."
 
-	para "I've got a reward"
-	line "for your efforts."
+	para "Hier, een beloning" ; "I've got a reward"
+	line "voor de moeite." ; "for your efforts."
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Having a variety"
-	line "of #MON types"
+	text "Met gevarieerde" ; "Having a variety"
+	line "#MON types heb" ; "of #MON types"
 
-	para "should give you an"
-	line "edge in battle."
+	para "je een voordeel" ; "should give you an"
+	line "in gevechten." ; "edge in battle."
 
-	para "I'm sure the KANTO"
-	line "GYM BADGES will"
-	cont "help you."
+	para "De KANTO GYM" ; "I'm sure the KANTO"
+	line "BADGES gaan je" ; "GYM BADGES will"
+	cont "zeker helpen." ; "help you."
 	done
 
 VermilionCitySignText:
-	text "VERMILION CITY"
+	text "WELKOM IN" ; "WELCOME TO"
+	line "VERMILION CITY,"
 
-	para "The Port of"
-	line "Exquisite Sunsets"
+	para "De Haven van" ; "The Port of"
+	line "Schitterende" ; "Exquisite Sunsets"
+	cont "Zonsondergangen."
 	done
 
 VermilionGymSignText:
 	text "VERMILION CITY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEIDER: LT.SURGE" ; "LEADER: LT.SURGE"
 
-	para "The Lightning"
-	line "American"
+	para "De Flitsende" ; "The Lightning"
+	line "Amerikaan" ; "American"
 	done
 
 PokemonFanClubSignText:
-	text "#MON FAN CLUB"
+	text "#MON FANCLUB" ; "#MON FAN CLUB"
 
-	para "All #MON Fans"
-	line "Welcome!"
+	para "Alle #MON Fans" ; "All #MON Fans"
+	line "Welkom!" ; "Welcome!"
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "DIGLETT-GROT"  ; "DIGLETT'S CAVE"
 	done
 
 VermilionCityPortSignText:
-	text "VERMILION PORT"
-	line "ENTRANCE"
+	text "INGANG" ; "VERMILION PORT"
+	line "VERMILION HAVEN" ; "ENTRANCE"
 	done
 
 VermilionCity_MapEvents:
