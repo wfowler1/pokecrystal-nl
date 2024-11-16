@@ -60,8 +60,8 @@ WadeBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text " is" ; "'s"
-	line "waar ik zal zijn." ; "where I'll be."
+	text " " ; "'s"
+	line "is waar ik ben." ; "where I'll be."
 
 	para "Laat me weten als" ; "Let me know when"
 	line "je hier heenkomt." ; "you get there."
