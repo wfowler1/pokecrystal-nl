@@ -52,8 +52,8 @@ JoeyBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "is" ; "'s"
-	line "waar ik zal zijn." ; "where I'll be."
+	text " " ; "'s"
+	line "is waar ik ben." ; "where I'll be."
 
 	para "Geef een gil als" ; "Give me a shout"
 	line "je komt." ; "when you come."
