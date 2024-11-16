@@ -29,7 +29,7 @@ FishingDudeText:
 	cont "MAGIKARP te zien." ; "greatest MAGIKARP."
 
 	para "Wil je hem alle" ; "If you don't mind,"
-	line "MAGIKARP laten zien" ; "could you show him"
+	line "MAGIKARP tonen" ; "could you show him"
 
 	para "die je vangt?" ; "any MAGIKARP you"
 	line "Wie weet, mogelijk" ; "catch?"

@@ -176,7 +176,7 @@ VermilionCityRadioNearSnorlaxText:
 	para "…"
 
 	para "SNORLAX werd" ; "SNORLAX woke up!"
-	line "wakker!
+	line "wakker!"
 	done
 
 VermilionCityBadgeGuyTrainerText:
