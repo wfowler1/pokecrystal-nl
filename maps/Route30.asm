@@ -278,7 +278,7 @@ YoungsterJoey1SeenText:
 	cont "nieuwe #MON."
 
 	para "Wacht! Jij ziet er"
-	line "zwak uit! Kom,,"
+	line "zwak uit! Kom,"
 	cont "laten we knokken!"
 	done
 
