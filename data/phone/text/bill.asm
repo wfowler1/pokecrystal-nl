@@ -60,7 +60,7 @@ BillPhoneNearlyFullText:
 	line "heeft plek voor" ; "has room for only"
 	cont "@"
 	text_ram wStringBuffer3 ; MaxLength 2
-	text "#MON nog maar." ; " more #MON."
+	text "#MON maar." ; " more #MON."
 
 	para "Wellicht moet je" ; "Maybe you should"
 	line "van BOX wisselen." ; "switch your BOX."
