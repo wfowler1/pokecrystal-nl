@@ -75,7 +75,7 @@ MomCheckBalanceText:
 	text "Trouwens, je hebt" ; "By the way, you've"
 	line "¥@" ; "saved up ¥@"
 	text_ram wStringBuffer3 ; MaxLength 6
-	text "gespaard." ; "."
+	text " gespaard." ; "."
 
 	para "Wil je blijven" ; "Do you want to"
 	line "sparen?" ; "keep on saving?"
@@ -96,9 +96,9 @@ MomYoureNotSavingText:
 
 MomYouveSavedText:
 	text "Trouwens, je hebt" ; "By the way, you've"
-	line "nu ¥@" ; "saved up ¥@"
+	line "¥@" ; "saved up ¥@"
 	text_ram wStringBuffer3 ; MaxLength 6
-	text "gespaard." ; "."
+	text " gespaard." ; "."
 
 	para "Wil je weer gaan" ; "Want to start"
 	line "sparen?" ; "saving again?"
