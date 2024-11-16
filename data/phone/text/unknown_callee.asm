@@ -1,30 +1,30 @@
 UnknownGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "My #MON are a"
-	line "bit too energetic."
+	para "Mijn #MON zijn" ; "My #MON are a"
+	line "wat te energiek." ; "bit too energetic."
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ","
-	line "especially."
+	line "vooral." ; "especially."
 
-	para "Every time it"
-	line "spots a trainer,"
-	cont "it has to battle."
+	para "Steeds als het een" ; "Every time it"
+	line "trainer spot, wil" ; "spots a trainer,"
+	cont "het vechten." ; "it has to battle."
 
-	para "It gets to be a"
-	line "bit much for me!"
+	para "Het wordt mij wat" ; "It gets to be a"
+	line "teveel!" ; "bit much for me!"
 	done
 
 UnknownTougherThanEverText:
-	text "My @"
+	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "looking tougher"
-	cont "than ever."
+	text " ; " "'s"
+	line "lijkt sterker dan" ; "looking tougher"
+	cont "ooit." ; "than ever."
 
-	para "It looks even"
-	line "tougher than me!"
+	para "Het lijkt zelfs" ; "It looks even"
+	line "sterker dan mij!" ; "tougher than me!"
 	done
