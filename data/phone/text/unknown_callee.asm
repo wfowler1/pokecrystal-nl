@@ -19,9 +19,9 @@ UnknownGenericText:
 	done
 
 UnknownTougherThanEverText:
-	text "Mijn @" ; "My @"
+	text "M'n @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " " "'s"
+	text " " ; "'s"
 	line "lijkt sterker dan" ; "looking tougher"
 	cont "ooit." ; "than ever."
 
