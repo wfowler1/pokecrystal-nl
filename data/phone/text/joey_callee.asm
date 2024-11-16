@@ -1,73 +1,73 @@
 JoeyAnswerPhoneText:
-	text "Hi, @"
+	text "Hoi, @" ; "Hi, @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " here!"
+	text " hier!" ; " here!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Oh, <PLAYER>? Gaat" ; "Oh, <PLAYER>? You"
+	line "het goed?" ; "doing well?"
 	done
 
 JoeyAnswerPhoneDayText:
-	text "Hi, @"
+	text "Hoi, @" ; "Hi, @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " here!"
+	text " hier!" ; " here!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Oh, <PLAYER>? Gaat" ; "Oh, <PLAYER>? You"
+	line "het goed?" ; "doing well?"
 	done
 
 JoeyAnswerPhoneNiteText:
-	text "Hi, @"
+	text "Hoi, @" ; "Hi, @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " here!"
+	text " hier!" ; " here!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Oh, <PLAYER>? Gaat" ; "Oh, <PLAYER>? You"
+	line "het goed?" ; "doing well?"
 	done
 
 JoeyGreetText:
-	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	text "Yo, <PLAYER>!" ; "Yo, <PLAYER>!"
+	line "Hoe gaat ie?" ; "How're you doing?"
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text ","
-	line "got a minute?"
+	line "heb je even?" ; "got a minute?"
 	done
 
 JoeyGreetDayText:
-	text "Yo, <PLAYER>! How's"
-	line "it going?"
+	text "Yo, <PLAYER>!" ; "Yo, <PLAYER>!"
+	line "Hoe gaat ie?" ; "How're you doing?"
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
-	line "Got a minute?"
+	text ","
+	line "heb je even?" ; "got a minute?"
 	done
 
 JoeyGreetNiteText:
-	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	text "Yo, <PLAYER>!" ; "Yo, <PLAYER>!"
+	line "Hoe gaat ie?" ; "How're you doing?"
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text ","
-	line "got a minute?"
+	line "heb je even?" ; "got a minute?"
 	done
 
 JoeyGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "raring to go, just"
-	cont "like always."
+	text " is" ; "'s"
+	line "klaar om te gaan," ; "raring to go, just"
+	cont "zoals altijd." ; "like always."
 
-	para "It's the only one"
-	line "I have. I'm going"
+	para "Het is de enige" ; "It's the only one"
+	line "die ik heb. Ik ga" ; "I have. I'm going"
 
-	para "to become a great"
-	line "trainer with it!"
+	para "een geweldige" ; "to become a great"
+	line "partner worden!" ; "trainer with it!"
 	done
