@@ -79,51 +79,51 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillBeforeText:
-	text "Welcome to #MON"
-	line "LEAGUE, <PLAYER>."
+	text "Welkom bij #MON" ; "Welcome to #MON"
+	line "LEAGUE, <PLAYER>." ; "LEAGUE, <PLAYER>."
 
-	para "Allow me to intro-"
-	line "duce myself. I am"
-	cont "WILL."
+	para "Laat mij mezelf" ; "Allow me to intro-"
+	line "introduceren." ; "duce myself. I am"
+	cont "Ik ben WILL." ; "WILL."
 
-	para "I have trained all"
-	line "around the world,"
+	para "Overal ter wereld" ; "I have trained all"
+	line "heb ik mijn psy-" ; "around the world,"
 
-	para "making my psychic"
-	line "#MON powerful."
+	para "chische #MON" ; "making my psychic"
+	line "getraind." ; "#MON powerful."
 
-	para "And, at last, I've"
-	line "been accepted into"
-	cont "the ELITE FOUR."
+	para "En nu hoor ik" ; "And, at last, I've"
+	line "eindelijk bij de" ; "been accepted into"
+	cont "ELITE FOUR." ; "the ELITE FOUR."
 
-	para "I can only keep"
-	line "getting better!"
+	para "Ik kan alleen maar" ; "I can only keep"
+	line "beter worden!" ; "getting better!"
 
-	para "Losing is not an"
-	line "option!"
+	para "Verliezen is" ; "Losing is not an"
+	line "geen optie!" ; "option!"
 	done
 
 WillScript_WillBeatenText:
-	text "I… I can't…"
-	line "believe it…"
+	text "N… Niet te…" ; "I… I can't…"
+	line "geloven…" ; "believe it…"
 	done
 
 WillScript_WillDefeatText:
-	text "Even though I was"
-	line "defeated, I won't"
-	cont "change my course."
+	text "Ik verander mijn" ; "Even though I was"
+	line "koers niet, ook al" ; "defeated, I won't"
+	cont "ben ik verslagen." ; "change my course."
 
-	para "I will continue"
-	line "battling until I"
+	para "Ik blijf vechten" ; "I will continue"
+	line "totdat ik boven" ; "battling until I"
 
-	para "stand above all"
-	line "trainers!"
+	para "alle andere" ; "stand above all"
+	line "trainers sta!" ; "trainers!"
 
-	para "Now, <PLAYER>, move"
-	line "on and experience"
+	para "Goed, <PLAYER>, ga" ; "Now, <PLAYER>, move"
+	line "verder en ontdek" ; "on and experience"
 
-	para "the true ferocity"
-	line "of the ELITE FOUR."
+	para "de ware felheid" ; the true ferocity"
+	line "van de ELITE FOUR." ; "of the ELITE FOUR."
 	done
 
 WillsRoom_MapEvents:
