@@ -121,7 +121,7 @@ PokemonFanClubBraggingSign:
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 	text "Ik ben de VOOR-" ; "I'm the CHAIRMAN"
 	line "ZITTER van de" ; "of the #MON FAN"
-	cont "#MON FANCLUB." ; "CLUB."
+	cont "#MON-FANCLUB." ; "CLUB."
 
 	para "Ik heb meer dan" ; "I've raised over"
 	line "150 #MON" ; "150 #MON."
@@ -131,7 +131,7 @@ PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 	cont "met #MON." ; "#MON."
 
 	para "Ben je op bezoek" ; "Did you visit just"
-	line "om over m'n" ; "to hear about my"
+	line "om over mijn" ; "to hear about my"
 	cont "#MON te horen?" ; "#MON?"
 	done
 
@@ -149,7 +149,7 @@ PokemonFanClubChairmanRapidashText:
 	cont "oh… denk je?…" ; "Too much… wild…"
 	cont "Te veel… wild…" ; "beautiful… kindly…"
 	cont "mooi… aardig…" ; "love it!"
-	cont "hou van!" ;
+	cont "Ik hou er van!" ;
 
 	para "Knuffel 't… als…" ; "Hug it… when…"
 	line "slapend… warm en" ; "sleeping… warm and"
@@ -223,8 +223,8 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	para "kon er nooit een" ; "catch one. So I'm"
 	line "vangen. Dus ik" ; "making do with a"
 
-	para "doe 't maar met" ; "# DOLL that I"
-	line "een # POP die" ; "found."
+	para "doe het maar met" ; "# DOLL that I"
+	line "een #POP die" ; "found."
 	cont "ik heb gevonden." ;
 	done
 
@@ -232,11 +232,11 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	text "Oh, ik snap 't nu." ; "Oh, I see now. The"
 	line "Het meisje die deze" ; "girl who lost this"
 
-	para "# POP kwijt is," ; "# DOLL is sad…"
+	para "#POP kwijt is," ; "# DOLL is sad…"
 	line "is verdrietig…" ;
 
-	para "Oké. Kan je deze" ; "OK. Could you take"
-	line "# POP terug naar" ; "this # DOLL"
+	para "Oké. Kun je deze" ; "OK. Could you take"
+	line "#POP terug naar" ; "this # DOLL"
 
 	para "dat arme kleine" ; "back to that poor"
 	line "meisje brengen?" ; "little girl?"
@@ -251,7 +251,7 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 
 PokemonFanClubPlayerReceivedDollText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "# POP." ; "# DOLL."
+	line "#POP." ; "# DOLL."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
@@ -268,10 +268,10 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 	done
 
 PokemonFanClubTeacherText:
-	text "Kijk m'n lieve" ; "Look at my darling"
+	text "Kijk mijn lieve" ; "Look at my darling"
 	line "BAYLEEF!"
 
-	para "Het blad op z'n" ; "The leaf on its"
+	para "Het blad op de" ; "The leaf on its"
 	line "kop is zo leuk!" ; "head is so cute!"
 	done
 
@@ -280,8 +280,8 @@ PokemonFanClubClefairyDollText:
 	line "Huh?"
 
 	para "Oh, oké. Het is" ; "Oh, right. It's a"
-	line "een CLEFAIRY" ; "CLEFAIRY #"
-	cont "# POP." ; "DOLL."
+	line "een CLEFAIRY-" ; "CLEFAIRY #"
+	cont "#POP." ; "DOLL."
 	done
 
 PokemonFanClubBayleefText:
@@ -295,8 +295,8 @@ PokemonFanClubListenSignText:
 	done
 
 PokemonFanClubBraggingSignText:
-	text "Als iemand op-" ; "If someone brags,"
-	line "schept, doe 't" ; "brag right back!"
+	text "Als iemand" ; "If someone brags,"
+	line "opschept, doe het" ; "brag right back!"
 	cont "terug!" ;
 	done
 
