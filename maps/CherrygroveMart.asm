@@ -58,8 +58,8 @@ CherrygroveMartYoungsterText:
 	text "Toen ik door het" ; "When I was walking"
 	line "gras liep, ver-" ; "in the grass, a"
 
-	para "giftigde een ; "bug #MON poi-"
-	line "insect-#MON mijn" ; "soned my #MON!"
+	para "giftigde een" ; "bug #MON poi-"
+	line "insect-#MON m'n" ; "soned my #MON!"
 	cont "eigen #MON!"
 
 	para "Ik bleef door-" ; "I just kept going,"
