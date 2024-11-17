@@ -107,7 +107,7 @@ SupernerdMarkusAfterBattleText:
 	para "kennen maar raakte" ; "got separated from"
 	line "m'n partner kwijt." ; "my partner…"
 
-	para "Heb jij een trainer" ; "Did you run into a"
+	para "Heb je een trainer" ; "Did you run into a"
 	line "gezien met een" ; "trainer who uses a"
 
 	para "SEADRA die" ; "SEADRA that knows"
