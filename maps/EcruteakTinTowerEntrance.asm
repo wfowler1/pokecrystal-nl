@@ -150,7 +150,7 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOREN is ver-" ; "TIN TOWER is off"
+	text "TINTOREN is ver-" ; "TIN TOWER is off"
 	line "boden toegang voor" ; "limits to anyone"
 
 	para "iedereen zonder" ; "without ECRUTEAK"
@@ -228,7 +228,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 
 	para "Misschien lukt" ; "You may be able to"
 	line "het je om door" ; "make it through"
-	cont "TIN TOREN te gaan." ; "TIN TOWER."
+	cont "TINTOREN te gaan." ; "TIN TOWER."
 
 	para "Toe, ga verder." ; "Please, do go on."
 	done
@@ -248,7 +248,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 
 	para "Misschien lukt" ; "You may be able to"
 	line "het je door" ; "make it through"
-	cont "TIN TOREN te gaan." ; "TIN TOWER."
+	cont "TINTOREN te gaan." ; "TIN TOWER."
 
 	para "Toe, ga verder." ; "Please, do go on."
 	done
@@ -267,7 +267,7 @@ EcruteakTinTowerEntranceWanderingSageText:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "De TIN TOREN" ; "The TIN TOWER"
+	text "De TINTOREN" ; "The TIN TOWER"
 	line "schudde! Een #-" ; "shook! A #MON"
 
 	para "MON moet zijn" ; "must have returned"

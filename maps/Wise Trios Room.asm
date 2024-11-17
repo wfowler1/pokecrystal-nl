@@ -157,7 +157,7 @@ WiseTriosRoomSage3BlocksExitText:
 	text "Met de GYMBADGE" ; "TIN TOWER may be"
 	line "van ECRUTEAK mag" ; "entered by those"
 
-	para "je de TIN TOREN" ; "bearing ECRUTEAK's"
+	para "je de TINTOREN" ; "bearing ECRUTEAK's"
 	line "betreden." ; "GYM BADGE."
 
 	para "Echter, nu" ; "However, now that"
@@ -192,7 +192,7 @@ SageGakuSeenText:
 	line "komen om deze" ; "put that trainer"
 
 	para "trainer te testen" ; "to test at the TIN"
-	line "bij de TIN TOREN." ; "TOWER."
+	line "bij de TINTOREN." ; "TOWER."
 
 	para "De legenden" ; "The legend has"
 	line "zijn waar!" ; "come true!"
@@ -250,7 +250,7 @@ SageMasaAfterBattleText:
 	line "die de #MON zou" ; "which was said to"
 
 	para "ontwaken, en de" ; "awaken #MON,"
-	line "TIN TOREN, waar" ; "and the TIN TOWER,"
+	line "TINTOREN, waar" ; "and the TIN TOWER,"
 
 	para "#MON zouden" ; "where #MON were"
 	line "rusten." ; "said to rest."
@@ -329,7 +329,7 @@ SageKojiAfterBattleSpeechText:
 
 	para "Alsjeblieft, ga " ; "Please, do go on"
 	line "verder en betreed" ; "and enter the TIN"
-	cont "de TIN TOREN." ; "TOWER ahead."
+	cont "de TINTOREN." ; "TOWER ahead."
 
 	para "SUICUNE zal je op" ; "SUICUNE will put"
 	line "de proef stellen." ; "you to the test."

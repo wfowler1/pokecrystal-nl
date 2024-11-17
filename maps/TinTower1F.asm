@@ -421,7 +421,7 @@ TinTower1FSage4Text1:
 	line "zijn neergedaald" ; "have descended"
 
 	para "hier, op de" ; "upon this, the TIN"
-	line "TIN TOREN!" ; "TOWER!"
+	line "TINTOREN!" ; "TOWER!"
 	done
 
 TinTower1FSage5Text1:
