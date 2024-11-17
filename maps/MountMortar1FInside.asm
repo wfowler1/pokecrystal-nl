@@ -65,53 +65,53 @@ MountMortar1FInsideHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 
 PokemaniacMillerSeenText:
-	text "I'm not losing"
-	line "this time!"
+	text "Ditmaal ga ik niet" ; "I'm not losing"
+	line "verliezen!" ; "this time!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "I lost to some"
-	line "kid…?"
+	text "Ik verloor van een" ; "I lost to some"
+	line "of ander kind…?" ; "kid…?"
 	done
 
 PokemaniacMillerAfterBattleText:
-	text "A while back, this"
-	line "karate dude wanted"
+	text "Een tijd terug" ; "A while back, this"
+	line "wilde een karate-" ; "karate dude wanted"
 
-	para "to battle. He was"
-	line "ridiculously good."
+	para "gozer vechten. Hij" ; "to battle. He was"
+	line "was bizar goed." ; "ridiculously good."
 
-	para "He just thrashed"
-	line "us silly."
+	para "We werden helemaal" ; "He just thrashed"
+	line "in elkaar gemept." ; "us silly."
 
-	para "He went in deeper"
-	line "saying it was for"
+	para "Hij ging dieper" ; "He went in deeper"
+	line "naar binnen om te" ; "saying it was for"
 
-	para "his training. I"
-	line "wonder how he is?"
+	para "trainen. Waar zou" ; "his training. I"
+	line "hij nu zijn?" ; "wonder how he is?"
 	done
 
 SupernerdMarkusSeenText:
-	text "Hey! HUGH!"
+	text "He! HUGH!" ; "Hey! HUGH!"
 	done
 
 SupernerdMarkusBeatenText:
-	text "I mistook you for"
-	line "someone else…"
+	text "Ik dacht dat je" ; "I mistook you for"
+	line "iemand anders was…" ; "someone else…"
 	done
 
 SupernerdMarkusAfterBattleText:
-	text "I came to explore"
-	line "MT.MORTAR, but I"
+	text "Ik kwam om de" ; "I came to explore"
+	line "VIJZELBERG te ver-" ; "MT.MORTAR, but I"
 
-	para "got separated from"
-	line "my partner…"
+	para "kennen maar raakte" ; "got separated from"
+	line "m'n partner kwijt." ; "my partner…"
 
-	para "Did you run into a"
-	line "trainer who uses a"
+	para "Heb jij een trainer" ; "Did you run into a"
+	line "gezien met een" ; "trainer who uses a"
 
-	para "SEADRA that knows"
-	line "WATERFALL?"
+	para "SEADRA die" ; "SEADRA that knows"
+	line "WATERVAL kent?" ; "WATERFALL?"
 	done
 
 MountMortar1FInside_MapEvents:
