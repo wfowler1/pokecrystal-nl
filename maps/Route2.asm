@@ -80,9 +80,9 @@ Route2HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_2_HIDDEN_REVIVE
 
 BugCatcherRobSeenText:
-	text "Mijn insect-#MON" ; "My bug #MON are"
-	line "zijn sterk. Bereid" ; "tough. Prepare to"
-	cont "je voor op verlies!" ; "lose!"
+	text "Mijn insect-#-" ; "My bug #MON are"
+	line "MON zijn sterk." ; "tough. Prepare to"
+	cont "Ja gaat verliezen!" ; "lose!"
 	done
 
 BugCatcherRobBeatenText:

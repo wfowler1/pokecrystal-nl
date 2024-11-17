@@ -35,7 +35,7 @@ HouseForSaleSignText:
 	text "Wat is dit?" ; "What's this?"
 
 	para "Huis te koop…" ; "House for Sale…"
-	line "Niemand woont hier." ; "Nobody lives here."
+	line "Het is onbewoond." ; "Nobody lives here."
 	done
 
 Route5_MapEvents:

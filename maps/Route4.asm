@@ -52,8 +52,8 @@ Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
 
 BirdKeeperHankSeenText:
-	text "Ik voed mijn #MON" ; "I'm raising my"
-	line "op. Wil je met" ; "#MON. Want to"
+	text "Ik voed mijn #-" ; "I'm raising my"
+	line "MON op. Wil je met" ; "#MON. Want to"
 	cont "me vechten?" ; "battle with me?"
 	done
 
@@ -63,13 +63,13 @@ BirdKeeperHankBeatenText:
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "Als je een specifieke" ; "If you have a"
-	line "#MON hebt die je" ; "specific #MON"
+	text "Als je een exacte" ; "If you have a"
+	line "#MON hebt die" ; "specific #MON"
 
-	para "wil opvoeden," ; "that you want to"
-	line "breng die als eerst" ; "raise, put it out"
+	para "je wil trainen," ; "that you want to"
+	line "breng die eerst" ; "raise, put it out"
 
-	para "naar voren, en wis-" ; "first, then switch"
+	para "naar voren en wis-" ; "first, then switch"
 	line "sel 'm gelijk om." ; "it right away."
 
 	para "Zo doe ik het." ; "That's how to do"
