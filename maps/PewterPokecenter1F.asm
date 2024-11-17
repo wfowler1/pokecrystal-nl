@@ -36,33 +36,33 @@ Chris:
 	end
 
 PewterPokecenter1FTeacherText:
-	text "…Yeah, and the"
-	line "GYM in CINNABAR's"
+	text "…Ja, en de GYM" ; "…Yeah, and the"
+	line "op CINNABAR is" ; "GYM in CINNABAR's"
 
-	para "gone. I was really"
-	line "amazed."
+	para "weg. Ik was" ; "gone. I was really"
+	line "echt verbaasd." ; "amazed."
 
-	para "…Yes? I'm on the"
-	line "phone. Go away!"
+	para "…Ja? Ik ben aan" ; "…Yes? I'm on the"
+	line "'t bellen. Ga weg!" ; "phone. Go away!"
 	done
 
 PewterJigglypuffText:
-	text "JIGGLYPUFF: Puu"
-	line "pupuu."
+	text "JIGGLYPUFF: Puu" ; "JIGGLYPUFF: Puu"
+	line "pupuff." ; "pupuu."
 	done
 
 PewterPokecenter1FBugCatcherText:
-	text "Most #MON get"
-	line "drowsy if they"
+	text "De meeste #MON" ; "Most #MON get"
+	line "worden slaperig" ; "drowsy if they"
 
-	para "hear a JIGGLYPUFF"
-	line "singing."
+	para "als ze JIGGLYPUFF" ; "hear a JIGGLYPUFF"
+	line "horen zingen." ; "singing."
 
-	para "There are several"
-	line "moves that can be"
+	para "Er zijn enkele" ; "There are several"
+	line "aanvallen die al-" ; "moves that can be"
 
-	para "used only while a"
-	line "#MON is asleep."
+	para "leen werken als" ; "used only while a"
+	line "de #MON slaapt." ; "#MON is asleep."
 	done
 
 PewterPokecenter1F_MapEvents:
