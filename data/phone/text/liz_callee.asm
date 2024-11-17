@@ -68,10 +68,10 @@ LizGenericText:
 	para "Ik neem mijn" ; "Me, I take my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " elke dag" ; " to the"
+	text " elke" ; " to the"
 
-	para "naar het #MON-" ; "#MON CENTER in"
-	line "CENTRUM in VIOLET." ; "VIOLET every day,"
+	para "dag naar het" ; "#MON CENTER in"
+	line "#MONCENTRUM." ; "VIOLET every day,"
 
 	para "Daar voelt ie zich" ; "so it's doing just"
 	line "fantastisch door!" ; "fantastic!"
