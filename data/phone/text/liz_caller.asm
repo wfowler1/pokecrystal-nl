@@ -277,7 +277,7 @@ LizFawningOverMonText:
 	para "Zo verrukkelijk…" ; "Just ravishing…"
 	line "Oh, het is teveel!" ; "Oh, too much!"
 
-	para "…Knuffelen. Slapen…" ; "…Hug it… sleeping…"
+	para "…Knuffels… Slapen…" ; "…Hug it… sleeping…"
 	line "Jazeker…" ; "That's right…"
 
 	para "mooi… zucht… Zo" ; "pretty… sigh… So"

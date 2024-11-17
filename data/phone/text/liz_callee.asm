@@ -40,7 +40,7 @@ LizGreetText:
 
 LizGreetDayText:
 	text "Hoi, <PLAY_G>." ; "Hi, <PLAY_G>."
-	line "Met" ; "This is @"
+	line "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
 
@@ -52,7 +52,7 @@ LizGreetNiteText:
 	text "Goedenavond," ; "Good evening,"
 	line "<PLAY_G>."
 
-	para "met @" ; "This is @"
+	para "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
 	line "Ben je wakker?" ; "Are you awake?"
