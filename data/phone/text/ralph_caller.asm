@@ -31,9 +31,9 @@ RalphLostAMonText:
 	text "Een wilde" ; "Yesterday a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " ontglipte" ; " slipped"
+	text " glipte" ; " slipped"
 
-	para "mij gisteren, voor" ; "away from me, in"
+	para "gisteren weg, voor" ; "away from me, in"
 	line "mijn kind." ; "front of my kid."
 
 	para "Ik baalde ervan," ; "I was feeling down"
@@ -68,7 +68,7 @@ RalphHangUpText:
 	done
 
 RalphItemText:
-	text "Luister, ik… Yauwch!" ; "Listen, I… Yowch!"
+	text "He, ik… Yauwch!" ; "Listen, I… Yowch!"
 
 	para "Uh, sorry! Nou," ; "Uh, sorry! See,"
 	line "@"
