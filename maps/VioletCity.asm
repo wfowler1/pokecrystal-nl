@@ -205,7 +205,7 @@ Text_HereTeacherIAm:
 VioletCityLassText:
 	text "Het gerucht is dat" ; "Ghosts are rumored"
 	line "geesten rondspoken" ; "to appear in"
-	cont "in SPROUT TOWER." ; "SPROUT TOWER."
+	cont "in SPROUT-TOREN." ; "SPROUT TOWER."
 
 	para "Men zegt dat" ; "They said normal-"
 	line "normale aanvallen" ; "type #MON moves"
@@ -265,7 +265,7 @@ VioletGymSignText:
 	done
 
 SproutTowerSignText:
-	text "SPROUT TOWER"
+	text "SPROUT-TOREN"
 
 	para "Ervaar de weg" ; "Experience the"
 	line "#van #MON." ; "Way of #MON"

@@ -34,7 +34,7 @@ VioletNicknameSpeechHouseTeacherText:
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "Mijn PIDGHEY heet" ; "I call my PIDGEY"
+	text "Mijn PIDGEY heet" ; "I call my PIDGEY"
 	line "AARDBEI!" ; "STRAWBERRY!"
 	done
 

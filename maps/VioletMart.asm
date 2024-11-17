@@ -23,7 +23,7 @@ VioletMartCooltrainerMScript:
 VioletMartGrannyText:
 	text "Vang je een #-" ; "When you first"
 	line "MON, dan is die" ; "catch a #MON,"
-	cont "wellicht zwakt." ; "it may be weak."
+	cont "wellicht zwak." ; "it may be weak."
 
 	para "Maar uiteindelijk" ; "But it will even-"
 	line "Zal deze groot" ; "tually grow to be"

@@ -200,7 +200,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 
 SproutTowerRivalUsedEscapeRopeText:
 	text "<RIVAL> gebruikte" ; "<RIVAL> used an"
-	line "ONTSNAPPINGSTOUW!" ; "ESCAPE ROPE!"
+	line "ONTSNAPTOUW!" ; "ESCAPE ROPE!"
 	done
 
 SageLiSeenText:
