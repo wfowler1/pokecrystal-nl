@@ -37,38 +37,39 @@ Route1FruitTree:
 	fruittree FRUITTREE_ROUTE_1
 
 SchoolboyDannySeenText:
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
+	text "Als trainers el-" ; "If trainers meet,"
+	line "kaar ontmoeten, is" ; "the first thing to"
+	cont "vechten het eerste" ; "do is battle."
+	cont "wat je doet." ;
 	done
 
 SchoolboyDannyBeatenText:
-	text "Awww… I've got a"
-	line "losing record…"
+	text "Awww… Ik blijf" ; "Awww… I've got a"
+	line "maar verliezen…" ; "losing record…"
 	done
 
 SchoolboyDannyAfterBattleText:
-	text "For trainers, it's"
-	line "a given that we'll"
+	text "Voor trainers is" ; "For trainers, it's"
+	line "het duidelijk dat" ; "a given that we'll"
 
-	para "battle whenever we"
-	line "meet."
+	para "we vechten als we" ; "battle whenever we"
+	line "elkaar ontmoeten." ; "meet."
 	done
 
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "Jij daar!" ; "You there!"
+	line "Wil je vechten?" ; "Want to battle?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "Uitgeschakeld…" ; "Down and out…"
 	done
 
 CooltrainerfQuinnAfterBattleText:
-	text "You're strong."
+	text "Je bent sterk." ; "You're strong."
 
-	para "You obviously must"
-	line "have trained hard."
+	para "Je hebt duidelijk" ; "You obviously must"
+	line "hard getraind." ; "have trained hard."
 	done
 
 Route1SignText:
