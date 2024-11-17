@@ -31,31 +31,31 @@ HouseForSaleBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Route5CleanseTagHouseGrannyText1:
-	text "Eeyaaaah!"
+	text "Aaiiiiaaaah!" ; "Eeyaaaah!"
 
-	para "I sense a sinister"
-	line "shadow hovering"
-	cont "over you."
+	para "Ik voel een" ; "I sense a sinister"
+	line "sinistere schaduw" ; "shadow hovering"
+	cont "over je zweven." ; "over you."
 
-	para "Take this to ward"
-	line "it off!"
+	para "Neem dit om het" ; "Take this to ward"
+	line "te verdrijven!" ; "it off!"
 	done
 
 Route5CleanseTagHouseGrannyText2:
-	text "You were in mortal"
-	line "danger, but you"
-	cont "are protected now."
+	text "Je was in levens-" ; "You were in mortal"
+	line "gevaar, maar nu" ; "danger, but you"
+	cont "ben je beschermd." ; "are protected now."
 	done
 
 Route5CleanseTagHouseTeacherText:
-	text "My grandma is into"
-	line "warding off what"
+	text "Mijn oma gelooft" ; "My grandma is into"
+	line "dat ze kwade" ; "warding off what"
 
-	para "she believes to be"
-	line "evil spirits."
+	para "geesten kan" ; "she believes to be"
+	line "verdrijven." ; "evil spirits."
 
-	para "I'm sorry that she"
-	line "startled you."
+	para "Sorry dat ze je" ; "I'm sorry that she"
+	line "liet schrikken." ; "startled you."
 	done
 
 Route5CleanseTagHouse_MapEvents:
