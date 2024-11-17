@@ -119,164 +119,169 @@ PokemonFanClubBraggingSign:
 	jumptext PokemonFanClubBraggingSignText
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
-	text "I'm the CHAIRMAN"
-	line "of the #MON FAN"
-	cont "CLUB."
+	text "Ik ben de VOOR-" ; "I'm the CHAIRMAN"
+	line "ZITTER van de" ; "of the #MON FAN"
+	cont "#MON FANCLUB." ; "CLUB."
 
-	para "I've raised over"
-	line "150 #MON."
+	para "Ik heb meer dan" ; "I've raised over"
+	line "150 #MON" ; "150 #MON."
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON."
+	para "opgevoed. Ik ben" ; "I'm very fussy"
+	line "erg kieskeurig" ; "when it comes to"
+	cont "met #MON." ; "#MON."
 
-	para "Did you visit just"
-	line "to hear about my"
-	cont "#MON?"
+	para "Ben je op bezoek" ; "Did you visit just"
+	line "om over m'n" ; "to hear about my"
+	cont "#MON te horen?" ; "#MON?"
 	done
 
 PokemonFanClubChairmanRapidashText:
-	text "Good!"
-	line "Then listen up!"
+	text "Goed!" ; "Good!"
+	line "Luister maar!" ; "Then listen up!"
 
-	para "So… my favorite"
+	para "Dus… m'n favoriete" ; "So… my favorite"
 	line "RAPIDASH…"
 
-	para "It… cute… lovely…"
-	line "smart… unbearably…"
-	cont "plus… amazing… oh…"
-	cont "you think so?…"
-	cont "Too much… wild…"
-	cont "beautiful… kindly…"
-	cont "love it!"
+	para "Het… schattig…" ; "It… cute… lovely…"
+	line "lief… slim…" ; "smart… unbearably…"
+	cont "onweerstaanbaar…" ; "plus… amazing… oh…"
+	cont "plus… geweldig…" ; "you think so?…"
+	cont "oh… denk je?…" ; "Too much… wild…"
+	cont "Te veel… wild…" ; "beautiful… kindly…"
+	cont "mooi… aardig…" ; "love it!"
+	cont "hou van!" ;
 
-	para "Hug it… when…"
-	line "sleeping… warm and"
-	cont "cuddly… Oh, and…"
-	cont "spectacular…"
-	cont "ravishing… simply"
-	cont "divine…"
-	cont "Oops! Look at the"
-	cont "time! I've kept"
-	cont "you too long!"
+	para "Knuffel 't… als…" ; "Hug it… when…"
+	line "slapend… warm en" ; "sleeping… warm and"
+	cont "knuffelig… Oh," ; "cuddly… Oh, and…"
+	cont "en… spectaculair…" ; "spectacular…"
+	cont "betoverend… gewoon" ; "ravishing… simply"
+	cont "goddelijk…" ; "divine…"
+	cont "Oeps! Kijk de" ; "Oops! Look at the"
+	cont "tijd! Ik hou je" ; "time! I've kept"
+	cont "te lang vast!" ; "you too long!"
 	done
 
 PokemonFanClubChairmanIWantYouToHaveThisText:
-	text "Thanks for hearing"
-	line "me out. I want you"
-	cont "to have this!"
+	text "Bedankt dat je me" ; "Thanks for hearing"
+	line "aanhoorde. Ik wil" ; "me out. I want you"
+	cont "je dit geven!" ; "to have this!"
 	done
 
 PokemonFanClubChairmanItsARareCandyText:
-	text "It's a RARE CANDY"
-	line "that makes #MON"
-	cont "stronger."
+	text "Het is een UNIEK" ; "It's a RARE CANDY"
+	line "SNOEP dat #MON" ; "that makes #MON"
+	cont "sterker maakt." ; "stronger."
 
-	para "I prefer making my"
-	line "#MON stronger"
+	para "Ik maak m'n #MON" ; "I prefer making my"
+	line "liever sterker" ; "#MON stronger"
 
-	para "by battling, so"
-	line "you can have it."
+	para "door te vechten," ; "by battling, so"
+	line "dus 't is van jou." ; "you can have it."
 	done
 
 PokemonFanClubChairmanMoreTalesToTellText:
-	text "Hello, <PLAY_G>!"
+	text "Hallo, <PLAY_G>!" ; "Hello, <PLAY_G>!"
 
-	para "Did you come see"
-	line "me about my #-"
-	cont "MON again?"
+	para "Kom je me weer" ; "Did you come see"
+	line "voor m'n #MON" ; "me about my #-"
+	cont "zien?" ; "MON again?"
 
-	para "No? Oh… I had more"
-	line "tales to tell…"
+	para "Niet? Oh… Ik had" ; "No? Oh… I had more"
+	line "nog meer verhalen…" ; "tales to tell…"
 	done
 
 PokemonFanClubChairmanHowDisappointingText:
-	text "How disappointing…"
+	text "Wat jammer…" ; "How disappointing…"
 
-	para "Come back if you"
-	line "want to listen."
+	para "Kom terug als je" ; "Come back if you"
+	line "wil luisteren." ; "want to listen."
 	done
 
 PokemonFanClubReceptionistText:
-	text "Our CHAIRMAN is"
-	line "very vocal when it"
-	cont "comes to #MON…"
+	text "Onze VOORZITTER" ; "Our CHAIRMAN is"
+	line "is zeer mondig" ; "very vocal when it"
+	cont "over #MON…" ; "comes to #MON…"
 	done
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
-	text "I love the way"
-	line "CLEFAIRY waggles"
+	text "Ik hou van de" ; "I love the way"
+	line "manier waarop" ; "CLEFAIRY waggles"
 
-	para "its finger when"
-	line "it's trying to use"
+	para "CLEFAIRY hun" ; "its finger when"
+	line "vingers wiebelen" ; "it's trying to use"
 
-	para "METRONOME."
-	line "It's so adorable!"
+	para "als ze METRONOOM" ; "METRONOME."
+	line "gebruiken. Zo" ; "It's so adorable!"
+	cont "schattig!" ;
 	done
 
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "I love CLEFAIRY,"
-	line "but I could never"
+	text "Ik hou van" ; "I love CLEFAIRY,"
+	line "CLEFAIRY, maar ik" ; "but I could never"
 
-	para "catch one. So I'm"
-	line "making do with a"
+	para "kon er nooit een" ; "catch one. So I'm"
+	line "vangen. Dus ik" ; "making do with a"
 
-	para "# DOLL that I"
-	line "found."
+	para "doe 't maar met" ; "# DOLL that I"
+	line "een # POP die" ; "found."
+	cont "ik heb gevonden." ;
 	done
 
 PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
-	text "Oh, I see now. The"
-	line "girl who lost this"
+	text "Oh, ik snap 't nu." ; "Oh, I see now. The"
+	line "Het meisje die deze" ; "girl who lost this"
 
-	para "# DOLL is sad…"
+	para "# POP kwijt is," ; "# DOLL is sad…"
+	line "is verdrietig…" ;
 
-	para "OK. Could you take"
-	line "this # DOLL"
+	para "Oké. Kan je deze" ; "OK. Could you take"
+	line "# POP terug naar" ; "this # DOLL"
 
-	para "back to that poor"
-	line "little girl?"
+	para "dat arme kleine" ; "back to that poor"
+	line "meisje brengen?" ; "little girl?"
 
-	para "I'll befriend a"
-	line "real CLEFAIRY on"
+	para "Ik zal op een dag" ; "I'll befriend a"
+	line "vrienden worden" ; "real CLEFAIRY on"
 
-	para "my own one day."
-	line "No worries!"
+	para "met een echte" ; "my own one day."
+	line "CLEFAIRY. Geen" ; "No worries!"
+	cont "zorgen!" ;
 	done
 
 PokemonFanClubPlayerReceivedDollText:
-	text "<PLAYER> received"
-	line "# DOLL."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "# POP." ; "# DOLL."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
-	text "You watch. I'm"
-	line "going to get a"
+	text "Je zal zien. Ik" ; "You watch. I'm"
+	line "ga een echte" ; "going to get a"
 
-	para "real CLEFAIRY as"
-	line "my friend."
+	para "CLEFAIRY als m'n" ; "real CLEFAIRY as"
+	line "vriend krijgen!" ; "my friend."
 	done
 
 PokemonFanClubClefairyGuyPackIsJammedFullText:
-	text "Your PACK is"
-	line "jammed full."
+	text "Je TAS zit" ; "Your PACK is"
+	line "ramvol." ; "jammed full."
 	done
 
 PokemonFanClubTeacherText:
-	text "Look at my darling"
+	text "Kijk m'n lieve" ; "Look at my darling"
 	line "BAYLEEF!"
 
-	para "The leaf on its"
-	line "head is so cute!"
+	para "Het blad op z'n" ; "The leaf on its"
+	line "kop is zo leuk!" ; "head is so cute!"
 	done
 
 PokemonFanClubClefairyDollText:
-	text "It's a CLEFAIRY!"
+	text "'Tis een CLEFAIRY!" ; "It's a CLEFAIRY!"
 	line "Huh?"
 
-	para "Oh, right. It's a"
-	line "CLEFAIRY #"
-	cont "DOLL."
+	para "Oh, oké. Het is" ; "Oh, right. It's a"
+	line "een CLEFAIRY" ; "CLEFAIRY #"
+	cont "# POP." ; "DOLL."
 	done
 
 PokemonFanClubBayleefText:
@@ -284,14 +289,15 @@ PokemonFanClubBayleefText:
 	done
 
 PokemonFanClubListenSignText:
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers."
+	text "Laten we beleefd" ; "Let's all listen"
+	line "luisteren naar" ; "politely to other"
+	cont "andere trainers." ; "trainers."
 	done
 
 PokemonFanClubBraggingSignText:
-	text "If someone brags,"
-	line "brag right back!"
+	text "Als iemand op-" ; "If someone brags,"
+	line "schept, doe 't" ; "brag right back!"
+	cont "terug!" ;
 	done
 
 PokemonFanClub_MapEvents:
