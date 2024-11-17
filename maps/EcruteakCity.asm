@@ -228,7 +228,7 @@ EcruteakCitySignText:
 	done
 
 TinTowerSignText:
-	text "TIN TOREN" ; "TIN TOWER"
+	text "TINTOREN" ; "TIN TOWER"
 
 	para "Een legendarische" ; "A legendary #-"
 	line "#MON zou hier" ; "MON is said to"
