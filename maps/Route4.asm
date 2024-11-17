@@ -52,54 +52,56 @@ Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
 
 BirdKeeperHankSeenText:
-	text "I'm raising my"
-	line "#MON. Want to"
-	cont "battle with me?"
+	text "Ik voed mijn #MON" ; "I'm raising my"
+	line "op. Wil je met" ; "#MON. Want to"
+	cont "me vechten?" ; "battle with me?"
 	done
 
 BirdKeeperHankBeatenText:
-	text "Ack! I lost that"
-	line "one…"
+	text "Verdorie! Dat" ; "Ack! I lost that"
+	line "heb ik verloren…" ; "one…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "If you have a"
-	line "specific #MON"
+	text "Als je een specifieke" ; "If you have a"
+	line "#MON hebt die je" ; "specific #MON"
 
-	para "that you want to"
-	line "raise, put it out"
+	para "wil opvoeden," ; "that you want to"
+	line "breng die als eerst" ; "raise, put it out"
 
-	para "first, then switch"
-	line "it right away."
+	para "naar voren, en wis-" ; "first, then switch"
+	line "sel 'm gelijk om." ; "it right away."
 
-	para "That's how to do"
-	line "it."
+	para "Zo doe ik het." ; "That's how to do"
+	line "" ; "it."
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
+	text "Ik denk dat ik" ; "I have a feeling"
+	line "kan winnen." ; "that I can win."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "Eens zien of ik" ; "Let's see if I'm"
+	line "gelijk heb!" ; "right!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "Aww, je bent te" ; "Aww, you are too"
+	line "sterk." ; "strong."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I heard CLEFAIRY"
-	line "appear at MT.MOON."
+	text "Ik hoorde dat" ; "I heard CLEFAIRY"
+	line "CLEFAIRY op de" ; "appear at MT.MOON."
+	cont "MAANBERG ver-" ;
 
-	para "But where could"
-	line "they be?"
+	para "schijnen. Maar" ; "But where could"
+	line "waar zouden ze" ; "they be?"
+	cont "zijn?" ;
 	done
 
 PicnickerSharonSeenText:
 	text "Um…"
-	line "I…"
+	line "Ik…" ; "I…"
 	done
 
 PicnickerSharonBeatenText:
@@ -107,15 +109,15 @@ PicnickerSharonBeatenText:
 	done
 
 PicnickerSharonAfterBattleText:
-	text "……I'll go train"
-	line "some more…"
+	text "……Ik zal meer" ; "……I'll go train"
+	line "gaan trainen…" ; "some more…"
 	done
 
 MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
+	text "MAANBERGPLEIN" ; "MT.MOON SQUARE"
 
-	para "Just go up the"
-	line "stairs."
+	para "Ga gewoon de de" ; "Just go up the"
+	line "trap op." ; "stairs."
 	done
 
 Route4_MapEvents:
