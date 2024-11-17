@@ -57,77 +57,81 @@ Route3MtMoonSquareSign:
 	jumptext Route3MtMoonSquareSignText
 
 FirebreatherOtisSeenText:
-	text "Ah! The weather's"
-	line "as fine as ever."
+	text "Ah! Het weer is" ; "Ah! The weather's"
+	line "top als altijd." ; "as fine as ever."
 	done
 
 FirebreatherOtisBeatenText:
-	text "It's sunny, but"
-	line "I'm all wet…"
+	text "Het is zonnig," ; "It's sunny, but"
+	line "maar ik ben nat…" ; "I'm all wet…"
 	done
 
 FirebreatherOtisAfterBattleText:
-	text "When it rains,"
-	line "it's hard to get"
-	cont "ignition…"
+	text "Als het regent is" ; "When it rains,"
+	line "'t lastig om aan" ; "it's hard to get"
+	cont "te steken…" ; "ignition…"
 	done
 
 YoungsterWarrenSeenText:
-	text "Hmmm… I don't know"
-	line "what to do…"
+	text "Hmm… Ik weet niet" ; "Hmmm… I don't know"
+	line "wat ik moet doen…" ; "what to do…"
 	done
 
 YoungsterWarrenBeatenText:
-	text "I knew I'd lose…"
+	text "Ik wist dat ik" ; "I knew I'd lose…"
+	line "zou verliezen…" ;
 	done
 
 YoungsterWarrenAfterBattleText:
-	text "You looked strong."
+	text "Je zag er sterk" ; "You looked strong."
+	line "uit." ;
 
-	para "I was afraid to"
-	line "take you on…"
+	para "Ik was bang om 't" ; "I was afraid to"
+	line "tegen je op te" ; "take you on…"
+	cont "nemen…" ;
 	done
 
 YoungsterJimmySeenText:
-	text "I can run like the"
-	line "wind!"
+	text "Ik kan rennen" ; "I can run like the"
+	line "als de wind!" ; "wind!"
 	done
 
 YoungsterJimmyBeatenText:
-	text "Blown away!"
+	text "Weggeblazen!" ; "Blown away!"
 	done
 
 YoungsterJimmyAfterBattleText:
-	text "I wear shorts the"
-	line "whole year round."
+	text "Ik draag het hele" ; "I wear shorts the"
+	line "jaar rond korte" ; "whole year round."
+	cont "broeken." ;
 
-	para "That's my fashion"
-	line "policy."
+	para "Dat is mijn" ; "That's my fashion"
+	line "moderegel." ; "policy."
 	done
 
 FirebreatherBurtSeenText:
-	text "Step right up and"
-	line "take a look!"
+	text "Kom naar voren" ; "Step right up and"
+	line "en kijk eens!" ; "take a look!"
 	done
 
 FirebreatherBurtBeatenText:
-	text "Yow! That's hot!"
+	text "Auw! Dat is heet!" ; "Yow! That's hot!"
 	done
 
 FirebreatherBurtAfterBattleText:
-	text "The greatest fire-"
-	line "breather in KANTO,"
-	cont "that's me."
+	text "Ik ben de beste" ; "The greatest fire-"
+	line "vuurspuwer in" ; "breather in KANTO,"
+	cont "KANTO." ; "that's me."
 
-	para "But not the best"
-	line "trainer…"
+	para "Maar niet de" ; "But not the best"
+	line "beste trainer…" ; "trainer…"
 	done
 
 Route3MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
+	text "MAANBERG PLEIN" ; "MT.MOON SQUARE"
 
-	para "Just go up the"
-	line "stairs."
+	para "Ga de trap op." ; "Just go up the"
+	line "" ; "stairs."
 	done
 
 Route3_MapEvents:
