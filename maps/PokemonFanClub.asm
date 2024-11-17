@@ -173,8 +173,8 @@ PokemonFanClubChairmanItsARareCandyText:
 	line "SNOEP dat #MON" ; "that makes #MON"
 	cont "sterker maakt." ; "stronger."
 
-	para "Ik maak m'n #MON" ; "I prefer making my"
-	line "liever sterker" ; "#MON stronger"
+	para "Ik maak mijn #-" ; "I prefer making my"
+	line "MON liever sterker" ; "#MON stronger"
 
 	para "door te vechten," ; "by battling, so"
 	line "dus 't is van jou." ; "you can have it."
@@ -230,7 +230,7 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 
 PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	text "Oh, ik snap 't nu." ; "Oh, I see now. The"
-	line "Het meisje die deze" ; "girl who lost this"
+	line "Het meisje die de" ; "girl who lost this"
 
 	para "#POP kwijt is," ; "# DOLL is sad…"
 	line "is verdrietig…" ;

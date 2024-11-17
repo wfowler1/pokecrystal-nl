@@ -108,9 +108,9 @@ EusineLeavesCeladonText:
 	para "Er zijn geruchten" ; "There have been"
 	line "dat een regen-" ; "fresh rumors of a"
 
-	para "boogkleurige #MON" ; "rainbow-colored"
-	line "bij TINTOREN is" ; "#MON appearing"
-	cont "verschenen." ; "at TIN TOWER."
+	para "boogkleurige #-" ; "rainbow-colored"
+	line "MON bij TINTOREN" ; "#MON appearing"
+	cont "is verschenen." ; "at TIN TOWER."
 
 	para "Ik heb mijn" ; "I've just had my"
 	line "team genezen," ; "party healed, so"

@@ -170,10 +170,9 @@ CeladonMansion3FDevRoomSignText:
 	done
 
 CeladonMansion3FDrawingText:
-	text "Het is een gedetail-" ; "It's a detailed"
-	line "leerde tekening" ; "drawing of a"
-	cont "van een knappe" ; "pretty girl."
-	cont "meid." ;
+	text "Het is een" ; "It's a detailed"
+	line "tekening van een" ; "drawing of a"
+	cont "knappe meid." ; "pretty girl."
 	done
 
 CeladonMansion3FGameProgramText:

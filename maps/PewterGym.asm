@@ -187,7 +187,7 @@ PewterGymGuideText:
 	para "Je bent steengoed." ; "really rocking."
 	line "Neem je het op" ; "Are you battling"
 
-	para "tegen de GYMLEIDERS" ; "the GYM LEADERS of"
+	para "tegen GYMLEIDERS" ; "the GYM LEADERS of"
 	line "van KANTO?" ; "KANTO?"
 
 	para "Ze zijn sterke en" ; "They're strong and"
