@@ -24,10 +24,10 @@ GinaDefeatedMonText:
 GinaLostAMonText:
 	text "Maar, weet je?" ; "But, you know?"
 
-	para "Ik heb nog geen" ; "I still haven't"
+	para "Ik wil nog een" ; "I still haven't"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " gevangen."
+	text " vangen."
 
 	para "Wat onwijs" ; "It's getting past"
 	line "frustrerend…" ; "frustrating…"
