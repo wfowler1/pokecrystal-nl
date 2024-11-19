@@ -10,26 +10,26 @@ Route7LockedDoor:
 	jumptext Route7LockedDoorText
 
 Route7UndergroundPathSignText:
-	text "What's this flyer?"
+	text "Wat is deze folder?" ; "What's this flyer?"
 
-	para "… Uncouth trainers"
-	line "have been holding"
+	para "…Ongure trainers" ; "… Uncouth trainers"
+	line "hebben gevochten" ; "have been holding"
 
-	para "battles in the"
-	line "UNDERGROUND PATH."
+	para "in het ONDERGRONDS" ; "battles in the"
+	line "PAD." ; "UNDERGROUND PATH."
 
-	para "Because of rising"
-	line "complaints by lo-"
-	cont "cal residents, the"
-	cont "UNDERGROUND PATH"
-	cont "has been sealed"
-	cont "indefinitely."
+	para "Vanwege aanhou-" ; "Because of rising"
+	line "dende klachten van" ; "complaints by lo-"
+	cont "omwonenden is het" ; "cal residents, the"
+	cont "ONDERGRONDS PAD" ; "UNDERGROUND PATH"
+	cont "tot nader order" ; "has been sealed"
+	cont "afgesloten." ; "indefinitely."
 
-	para "CELADON POLICE"
+	para "POLITIE CELADON" ; "CELADON POLICE"
 	done
 
 Route7LockedDoorText:
-	text "It's locked…"
+	text "Het zit op slot…" ; "It's locked…"
 	done
 
 Route7_MapEvents:

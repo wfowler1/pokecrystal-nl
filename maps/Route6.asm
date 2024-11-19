@@ -37,56 +37,57 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "De weg is afge-" ; "The road is closed"
+	line "sloten tot het" ; "until the problem"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "probleem bij de" ; "at the POWER PLANT"
+	line "ENERGIECENTRALE" ; "is solved."
+	cont "is opgelost." ;
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "ONDERGRONDS PAD" ; "UNDERGROUND PATH"
 
 	para "CERULEAN CITY -"
 	line "VERMILION CITY"
 	done
 
 PokefanmRexSeenText:
-	text "My PHANPY is the"
-	line "cutest in the"
-	cont "world."
+	text "Mijn PHANPY is" ; "My PHANPY is the"
+	line "de schattigste van" ; "cutest in the"
+	cont "de wereld." ; "world."
 	done
 
 PokefanmRexBeatenText:
-	text "My PHANPY!"
+	text "Mijn PHANPY!" ; "My PHANPY!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my PHANPY acts!"
+	text "Kijk hoe lief mijn" ; "Look how adorable"
+	line "PHANPY doet!" ; "my PHANPY acts!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Is het niet zo" ; "Isn't it cute"
+	line "schattig dat je" ; "enough to make"
+	cont "hart smelt?" ; "your heart melt?"
 	done
 
 PokefanmAllanSeenText:
-	text "My TEDDIURSA is"
-	line "the cutest in the"
-	cont "world."
+	text "Mijn TEDDIURSA is" ; "My TEDDIURSA is"
+	line "de schattigste" ; "the cutest in the"
+	cont "van de wereld." ; "world."
 	done
 
 PokefanmAllanBeatenText:
-	text "My TEDDIURSA!"
+	text "Mijn TEDDIURSA!" ; "My TEDDIURSA!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my TEDDIURSA acts!"
+	text "Kijk hoe lief mijn" ; "Look how adorable"
+	line "TEDDIURSA doet!" ; "my TEDDIURSA acts!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Is het niet zo" ; "Isn't it cute"
+	line "schattig dat je" ; "enough to make"
+	cont "hart smelt?" ; "your heart melt?"
 	done
 
 Route6_MapEvents:

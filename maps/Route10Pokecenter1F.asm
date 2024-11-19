@@ -35,47 +35,48 @@ Route10Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route10Pokecenter1FCooltrainerFText
 
 Route10Pokecenter1FGentlemanText:
-	text "A #MON CENTER"
-	line "near a cave?"
+	text "Een #MONCENTRUM" ; "A #MON CENTER"
+	line "naast een grot?" ; "near a cave?"
 
-	para "That's mighty"
-	line "convenient."
+	para "Dat is hartstikke" ; "That's mighty"
+	line "handig." ; "convenient."
 	done
 
 Route10Pokecenter1FGymGuideText:
-	text "The POWER PLANT's"
-	line "MANAGER is looking"
+	text "De MANAGER van de" ; "The POWER PLANT's"
+	line "ENERGIECENTRALE" ; "MANAGER is looking"
 
-	para "for a strong #-"
-	line "MON trainer."
+	para "zoekt een sterke" ; "for a strong #-"
+	line "#MON-trainer."
 
-	para "He needs help"
-	line "getting back"
+	para "Hij heeft hulp" ; "He needs help"
+	line "nodig om iets" ; "getting back"
 
-	para "something that"
-	line "was stolen."
+	para "dat was gestolen" ; "something that"
+	line "terug te krijgen." ; "was stolen."
 	done
 
 Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
-	text "I hear TEAM ROCKET"
-	line "got back together"
+	text "Ik hoorde dat" ; "I hear TEAM ROCKET"
+	line "TEAM ROCKET weer" ; "got back together"
 
-	para "in JOHTO but fell"
-	line "apart right away."
+	para "bij elkaar kwam" ; "in JOHTO but fell"
+	line "in JOHTO maar me-" ; "apart right away."
+	cont "teen uiteenviel." ;
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "Ik wist daar" ; "I didn't know any-"
+	line "niets van." ; "thing about that."
 	done
 
 Route10Pokecenter1FCooltrainerFText:
-	text "When you go out-"
-	line "side, you can see"
+	text "Als je naar buiten" ; "When you go out-"
+	line "gaat, kun je het" ; "side, you can see"
 
-	para "the roof of a big"
-	line "building."
+	para "dak van een groot" ; "the roof of a big"
+	line "gebouw zien." ; "building."
 
-	para "That's the POWER"
-	line "PLANT."
+	para "Dat is de" ; "That's the POWER"
+	line "ENERGIECENTRALE." ; "PLANT."
 	done
 
 Route10Pokecenter1F_MapEvents:

@@ -37,33 +37,34 @@ HikerJimSeenText:
 	done
 
 HikerJimBeatenText:
-	text "Hahaha-hachoo!"
+	text "Hahaha-hatsjoe!" ; "Hahaha-hachoo!"
 	done
 
 HikerJimAfterBattleText:
-	text "Hay fever is"
-	line "making me sneeze!"
-	cont "Ahahah-CHOO!"
+	text "Ik moet niezen" ; "Hay fever is"
+	line "door hooikoorts!" ; "making me sneeze!"
+	cont "Ahahah-TSJOE!" ; "Ahahah-CHOO!"
 	done
 
 PokefanmRobertSeenText:
-	text "You like #MON,"
-	line "don't you?"
+	text "Je houdt van" ; "You like #MON,"
+	line "#MON, toch?" ; "don't you?"
 
-	para "Me too!"
+	para "Ik ook!" ; "Me too!"
 	done
 
 PokefanmRobertBeatenText:
-	text "I'd have to say"
-	line "that's my loss."
+	text "Ik moet toegeven" ; "I'd have to say"
+	line "dat ik verloor." ; "that's my loss."
 	done
 
 PokefanmRobertAfterBattleText:
-	text "Look what you did"
-	line "to my #MON…"
+	text "Kijk wat je mijn" ; "Look what you did"
+	line "#MON hebt" ; "to my #MON…"
+	cont "aangedaan…" ;
 
-	para "I won't forget"
-	line "this…"
+	para "Ik zal dit niet" ; "I won't forget"
+	line "vergeten…" ; "this…"
 	done
 
 Route10SignText:

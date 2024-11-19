@@ -10,11 +10,11 @@ Route8SaffronGateOfficerScript:
 	jumptextfaceplayer Route8SaffronGateOfficerText
 
 Route8SaffronGateOfficerText:
-	text "Have you been to"
-	line "LAVENDER TOWN?"
+	text "Ben je in LAVENDER" ; "Have you been to"
+	line "TOWN geweest?" ; "LAVENDER TOWN?"
 
-	para "There's a tall"
-	line "RADIO TOWER there."
+	para "Er is daar een" ; "There's a tall"
+	line "hoge RADIOTOREN." ; "RADIO TOWER there."
 	done
 
 Route8SaffronGate_MapEvents:
