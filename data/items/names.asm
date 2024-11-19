@@ -48,7 +48,7 @@ ItemNames::
 	li "VERS WATER" ; "FRESH WATER"
 	li "FRISDRANK" ; "SODA POP"
 	li "LIMONADE" ; "LEMONADE"
-	li "X AANVAL" ; "X ATTACK"
+	li "X-AANVAL" ; "X ATTACK"
 	li "TERU-SAMA"
 	li "X-VERDEDIG" ; "X DEFEND"
 	li "X-SNELHEID" ; "X SPEED"
