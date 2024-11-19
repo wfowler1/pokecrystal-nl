@@ -35,43 +35,44 @@ VermilionPokecenter1FBugCatcherScript:
 	jumptextfaceplayer VermilionPokecenter1FBugCatcherText
 
 VermilionPokecenter1FFishingGuruText:
-	text "A sleeping #MON"
-	line "is lying in front"
-	cont "of DIGLETT'S CAVE."
+	text "Er ligt een sla-" ; "A sleeping #MON"
+	line "pende #MON voor" ; "is lying in front"
+	cont "DIGLETT'S GROT." ; "of DIGLETT'S CAVE."
 
-	para "It's a fantastic"
-	line "opportunity to get"
+	para "Een goede kans om" ; "It's a fantastic"
+	line "die te vangen," ; "opportunity to get"
 
-	para "it, but how do you"
-	line "wake it up?"
+	para "maar hoe maak je" ; "it, but how do you"
+	line "het wakker?" ; "wake it up?"
 	done
 
 VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
-	text "There used to be a"
-	line "sleeping #MON"
+	text "Er lag een" ; "There used to be a"
+	line "slapende #MON" ; "sleeping #MON"
 
-	para "lying in front of"
-	line "DIGLETT'S CAVE."
+	para "voor de ingang van" ; "lying in front of"
+	line "DIGLETT GROT," ; "DIGLETT'S CAVE."
 
-	para "But it seems to"
-	line "have disappeared."
+	para "maar het lijkt te" ; "But it seems to"
+	line "zijn verdwenen." ; "have disappeared."
 	done
 
 VermilionPokecenter1FSailorText:
-	text "The FAST SHIP is a"
-	line "great place to"
+	text "Op het SNELLE" ; "The FAST SHIP is a"
+	line "SCHIP kun je" ; "great place to"
 
-	para "meet and battle"
-	line "trainers."
+	para "trainers ontmoeten" ; "meet and battle"
+	line "en tegen ze" ; "trainers."
+	cont "vechten."
 	done
 
 VermilionPokecenter1FBugCatcherText:
-	text "Oh? You have some"
-	line "BADGES I've never"
-	cont "seen before."
+	text "Oh? Die BADGES heb" ; "Oh? You have some"
+	line "ik nog nooit" ; "BADGES I've never"
+	cont "gezien." ; "seen before."
 
-	para "Oh, I get it. You"
-	line "got them in JOHTO."
+	para "Oh, ik zie het. Je" ; "Oh, I get it. You"
+	line "hebt ze uit JOHTO." ; "got them in JOHTO."
 	done
 
 VermilionPokecenter1F_MapEvents:

@@ -365,7 +365,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "Heeft die bel een" ; "That bell has some"
 	line "verband met de" ; "connection to the"
 
-	para "TIN TOREN in" ; "TIN TOWER in"
+	para "TINTOREN in" ; "TIN TOWER in"
 	line "ECRUTEAK CITY…"
 
 	para "Ah!"
@@ -377,7 +377,7 @@ RadioTower5FDirectorDescribeClearBellText:
 
 	para "Blijkbaar is er" ; "Apparently, some-"
 	line "iets gaande bij" ; "thing is going on"
-	cont "de TIN TOREN." ; "at the TIN TOWER."
+	cont "de TINTOREN." ; "at the TIN TOWER."
 
 	para "Ik heb geen idee" ; "I have no idea"
 	line "wat er is, maar" ; "what is happening,"

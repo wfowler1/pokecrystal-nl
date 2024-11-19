@@ -1,136 +1,136 @@
 WadeAreYourMonGrowingText:
-	text "Are your #MON"
-	line "growing?"
+	text "Groeien je #MON" ; "Are your #MON"
+	line "een beetje?" ; "growing?"
 
-	para "My #MON are"
-	line "growing a bit too"
+	para "Mijn #MON" ; "My #MON are"
+	line "groeien wat te" ; "growing a bit too"
 
-	para "quickly for me."
-	line "It's overwhelming!"
+	para "snel voor mij. Het" ; "quickly for me."
+	line "is overweldigend!" ; "It's overwhelming!"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s grow-"
-	line "ing especially"
+	text " groeit" ; "'s grow-"
+	line "vooral heel erg" ; "ing especially"
 
-	para "quickly. I think"
-	line "it'll get tough."
+	para "snel. Ik denk dat" ; "quickly. I think"
+	line "het lastig wordt." ; "it'll get tough."
 	done
 
 WadeDefeatedMonText:
-	text "Oh yeah, we KO'd a"
-	line "wild @"
+	text "We versloegen een" ; "Oh yeah, we KO'd a"
+	line "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	para "with one hit a"
-	line "while back."
+	para "met één klap" ; "with one hit a"
+	line "een tijd terug." ; "while back."
 
-	para "It went down so"
-	line "easily, I felt a"
+	para "Het ging zo snel" ; "It went down so"
+	line "neer, ik kreeg" ; "easily, I felt a"
 
-	para "little sorry for"
-	line "the poor thing."
+	para "medelijden voor" ; "little sorry for"
+	line "het arme beestje." ; "the poor thing."
 	done
 
 WadeLostAMonText:
-	text "Oh yeah, a wild"
+	text "Oh ja, een wilde" ; "Oh yeah, a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " got"
+	text "ontkwam" ; " got"
 
-	para "away from me at"
-	line "the last second."
+	para "op het laatste" ; "away from me at"
+	line "moment van me." ; "the last second."
 
-	para "I know it's a"
-	line "common #MON…"
+	para "Ik weet dat het" ; "I know it's a"
+	line "niet zeldzaam is…" ; "common #MON…"
 
-	para "But it does annoy"
-	line "me that it got"
+	para "Maar het is irri-" ; "But it does annoy"
+	line "tant dat het" ; "me that it got"
 
-	para "away when I almost"
-	line "had it."
+	para "ontkwam toen ik" ; "away when I almost"
+	line "het bijna had." ; "had it."
 	done
 
 WadeBattleRematchText:
-	text "Do you feel like a"
-	line "#MON battle?"
+	text "Heb je zin in een" ; "Do you feel like a"
+	line "#MON-gevecht?" ; "#MON battle?"
 
-	para "It won't be like"
-	line "last time!"
+	para "Het zal niet als" ; "It won't be like"
+	line "eerder zijn!" ; "last time!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "'s"
-	line "where I'll be."
+	text " " ; "'s"
+	line "is waar ik ben." ; "where I'll be."
 
-	para "Let me know when"
-	line "you get there."
+	para "Laat me weten als" ; "Let me know when"
+	line "je hier heenkomt." ; "you get there."
 	done
 
 WadeHangUpText:
-	text "See you later!"
+	text "Zie je later!" ; "See you later!"
 	done
 
 WadeBugCatchingContestText:
-	text "The Bug-Catching"
-	line "Contest is at the"
+	text "Het KEVERTOERNOOI" ; "The Bug-Catching"
+	line "vindt vandaag" ; "Contest is at the"
 
-	para "NATIONAL PARK"
-	line "today."
+	para "plaats in" ; "NATIONAL PARK"
+	line "NATIONAAL PARK." ; "today."
 
-	para "Are you going,"
+	para "Ga jij erheen," ; "Are you going,"
 	line "<PLAY_G>?"
 
-	para "I'm trying to make"
-	line "up my mind."
+	para "Ik zit nog te" ; "I'm trying to make"
+	line "twijfelen." ; "up my mind."
 	done
 
 WadeFoundItemText:
-	text "I found all kinds"
-	line "of BERRIES. If you"
+	text "Ik vond allerlei" ; "I found all kinds"
+	line "soorten BESSEN." ; "of BERRIES. If you"
 
-	para "want, I'll share"
-	line "some with you."
+	para "als je het wil," ; "want, I'll share"
+	line "kan ik wel delen." ; "some with you."
 
-	para "I'll be waiting on"
+	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
 WadeNoBerriesText:
-	text "Huh? BERRIES?"
+	text "Huh? BESSEN?" ; "Huh? BERRIES?"
 
-	para "Sorry, I haven't"
-	line "found any yet."
+	para "Sorry, ik heb nog" ; "Sorry, I haven't"
+	line "niks gevonden." ; "found any yet."
 
-	para "I'll call you if I"
-	line "find any. Will you"
-	cont "please wait?"
+	para "Ik bel als ik wat" ; "I'll call you if I"
+	line "vind. Kun je daar" ; "find any. Will you"
+	cont "op wachten?" ; "please wait?"
 	done
 
 WadeQuickBattleText:
-	text "Let's battle"
-	line "already!"
+	text "Laten we nou eens" ; "Let's battle"
+	line "vechten!" ; "already!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
-	line "where I am."
+	line "waar ik ben." ; "where I am."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Kom alsjeblieft zo" ; "Please get here as"
+	line "snel ogelijk!" ; "soon as you can!"
 	done
 
 WadeComeQuickText:
-	text "How come you're"
-	line "not here yet?"
+	text "Hoezo ben je hier" ; "How come you're"
+	line "nog niet?" ; "not here yet?"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
-	line "where I am."
+	line "waar ik ben." ; "where I am."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Kom alsjeblieft zo" ; "Please get here as"
+	line "snel ogelijk!" ; "soon as you can!"
 	done

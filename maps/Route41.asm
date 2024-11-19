@@ -132,210 +132,210 @@ Route41HiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
 
 SwimmermCharlieSeenText:
-	text "The water's warm"
-	line "here. I'm loose"
-	cont "and limber."
+	text "Het water is hier" ; "The water's warm"
+	line "warm. Ik ben los" ; "here. I'm loose"
+	cont "en lenig." ; "and limber."
 
-	para "Sure, I'll take"
-	line "you on!"
+	para "Ik neem het graag" ; "Sure, I'll take"
+	line "tegen je op!" ; "you on!"
 	done
 
 SwimmermCharlieBeatenText:
-	text "Yikes! I've got"
-	line "prune skin!"
+	text "Jeetje! M'n huid" ; "Yikes! I've got"
+	line "is verrimpeld!" ; "prune skin!"
 	done
 
 SwimmermCharlieAfterBattleText:
-	text "Isn't it relaxing"
-	line "just floating like"
-	cont "this?"
+	text "Heerlijk toch, een" ; "Isn't it relaxing"
+	line "beetje rond-" ; "just floating like"
+	cont "dobberen zo?" ; "this?"
 	done
 
 SwimmermGeorgeSeenText:
-	text "I'm a bit tired."
-	line "If I win, lend me"
-	cont "your #MON."
+	text "Ik ben wat moe." ; "I'm a bit tired."
+	line "Leen me je #MON" ; "If I win, lend me"
+	cont "als ik win." ; "your #MON."
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Pant, pant…"
+	text "Hijg, hijg…" ; "Pant, pant…"
 	done
 
 SwimmermGeorgeAfterBattleText:
-	text "It's so far to"
-	line "CIANWOOD."
+	text "Het is zo ver" ; "It's so far to"
+	line "naar CIANWOOD." ; "CIANWOOD."
 
-	para "But it's no easy"
-	line "return trip to"
-	cont "OLIVINE either."
+	para "Maar terug naar" ; "But it's no easy"
+	line "OLIVINE is ook" ; "return trip to"
+	cont "niet zo eenvoudig." ; "OLIVINE either."
 
-	para "What should I do?"
+	para "Wat zal ik doen?" ; "What should I do?"
 	done
 
 SwimmermBerkeSeenText:
-	text "See those islands"
-	line "that are blocked"
-	cont "by whirlpools?"
+	text "Zie je die ei-" ; "See those islands"
+	line "landen achter" ; "that are blocked"
+	cont "de draaikolken?" ; "by whirlpools?"
 
-	para "There just has to"
-	line "be a secret!"
+	para "Daar moet wel iets" ; "There just has to"
+	line "geheims zijn!" ; "be a secret!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "What's the secret"
-	line "to your strength?"
+	text "Waarom ben jij" ; "What's the secret"
+	line "nou zo sterk?" ; "to your strength?"
 	done
 
 SwimmermBerkeAfterBattleText:
-	text "It was a dark and"
-	line "stormy night…"
+	text "Het was een don-" ; "It was a dark and"
+	line "kere, gure nacht…" ; "stormy night…"
 
-	para "I saw this giant"
-	line "#MON flying"
-	cont "from the islands."
+	para "Ik zag een enorme" ; "I saw this giant"
+	line "#MON van de ei-" ; "#MON flying"
+	cont "landen afvliegen." ; "from the islands."
 
-	para "It was scattering"
-	line "feathers from its"
-	cont "silver wings."
+	para "Veren dwarrelden" ; "It was scattering"
+	line "van zijn zilveren" ; "feathers from its"
+	cont "vleugels omlaag." ; "silver wings."
 	done
 
 SwimmermKirkSeenText:
-	text "The waves are wild"
-	line "here."
+	text "De golven zijn" ; "The waves are wild"
+	line "wild hier." ; "here."
 
-	para "They tire you out"
-	line "while you swim."
+	para "Bij het zwemmen" ; "They tire you out"
+	line "putten ze je uit." ; "while you swim."
 	done
 
 SwimmermKirkBeatenText:
-	text "I'm beat!"
+	text "Ik ben kapot!" ; "I'm beat!"
 	done
 
 SwimmermKirkAfterBattleText:
-	text "The currents keep"
-	line "me from reaching"
-	cont "that island."
+	text "Door de stroming" ; "The currents keep"
+	line "kan ik niet bij" ; "me from reaching"
+	cont "dat eiland komen." ; "that island."
 	done
 
 SwimmermMathewSeenText:
-	text "Are you seeking"
-	line "the secrets of"
-	cont "WHIRL ISLANDS?"
+	text "Zoek je de ge-" ; "Are you seeking"
+	line "heimen van de" ; "the secrets of"
+	cont "DRAAIKOLKEILANDEN?" ; "WHIRL ISLANDS?"
 	done
 
 SwimmermMathewBeatenText:
-	text "Ooh, you've got"
-	line "great endurance!"
+	text "Zo, wat een uit-" ; "Ooh, you've got"
+	line "houdingsvermogen!" ; "great endurance!"
 	done
 
 SwimmermMathewAfterBattleText:
-	text "A secret about"
-	line "WHIRL ISLANDS…"
+	text "Hey, iets over de" ; "A secret about"
+	line "DRAAIKOLKEILANDEN…" ; "WHIRL ISLANDS…"
 
-	para "It's pitch-black"
-	line "inside!"
+	para "Het is daarbinnen" ; "It's pitch-black"
+	line "pikkedonker!" ; "inside!"
 	done
 
 SwimmerfKayleeSeenText:
-	text "I'm on my way to"
-	line "WHIRL ISLANDS."
+	text "Ik ga naar de" ; "I'm on my way to"
+	line "DRAAIKOLKEILANDEN," ; "WHIRL ISLANDS."
 
-	para "I'm going explor-"
-	line "ing with friends."
+	para "om ze te verkennen" ; "I'm going explor-"
+	line "met vrienden." ; "ing with friends."
 	done
 
 SwimmerfKayleeBeatenText:
-	text "Is that how you do"
-	line "it?"
+	text "Aha, is dat hoe" ; "Is that how you do"
+	line "je het doet?" ; "it?"
 	done
 
 SwimmerfKayleeAfterBattleText:
-	text "There's supposed"
-	line "to be a big #-"
-	cont "MON deep beneath"
-	cont "WHIRL ISLANDS."
+	text "Ik hoorde dat er" ; "There's supposed"
+	line "een grote #MON" ; "to be a big #-"
+	cont "leeft onder de" ; "MON deep beneath"
+	cont "DRAAIKOLKEILANDEN." ; "WHIRL ISLANDS."
 
-	para "I wonder what it"
-	line "could be?"
+	para "Wat zou het" ; "I wonder what it"
+	line "kunnen zijn?" ; "could be?"
 	done
 
 SwimmerfSusieSeenText:
-	text "You look so ele-"
-	line "gant, riding your"
-	cont "#MON."
+	text "Wat zie je er ele-" ; "You look so ele-"
+	line "gant uit, achter-" ; "gant, riding your"
+	cont "op je #MON." ; "#MON."
 	done
 
 SwimmerfSusieBeatenText:
-	text "I'm crushed…"
+	text "Verpletterd…" ; "I'm crushed…"
 	done
 
 SwimmerfSusieAfterBattleText:
-	text "Wasn't there a hit"
-	line "song about a boy"
-	cont "riding a LAPRAS?"
+	text "Was er geen liedje" ; "Wasn't there a hit"
+	line "over een jongen" ; song about a boy"
+	cont "op een LAPRAS?" ; "riding a LAPRAS?"
 	done
 
 SwimmerfDeniseSeenText:
-	text "The weather is so"
-	line "beautiful, I'm in"
-	cont "a daze!"
+	text "Het weer is zo" ; "The weather is so"
+	line "heerlijk, ik ben" ; "beautiful, I'm in"
+	cont "in een roes!" ; "a daze!"
 	done
 
 SwimmerfDeniseBeatenText:
-	text "Ohhh!"
+	text "Ohhh!" ; "Ohhh!"
 	done
 
 SwimmerfDeniseAfterBattleText:
-	text "A sunburn is the"
-	line "worst for skin."
+	text "Verbranden is echt" ; "A sunburn is the"
+	line "niet goed voor je." ; "worst for skin."
 
-	para "But I don't use a"
-	line "sunblock."
+	para "Toch gebruik ik" ; "But I don't use a"
+	line "geen zonnebrand." ; "sunblock."
 
-	para "I won't pollute"
-	line "the water."
+	para "Ik wil het water" ; "I won't pollute"
+	line "niet vervuilen." ; "the water."
 	done
 
 SwimmerfKaraSeenText:
-	text "If you need to"
-	line "rest, just tread"
-	cont "water."
+	text "Als je wil uit-" ; "If you need to"
+	line "rusten, kun je" ; "rest, just tread"
+	cont "watertrappelen." ; "water."
 
-	para "You'll get your"
-	line "wind back, so you"
+	para "Dan kun je even" ; "You'll get your"
+	line "op adem komen," ; "wind back, so you"
 
-	para "can keep on going"
-	line "strong."
+	para "en daarna er" ; "can keep on going"
+	line "weer tegenaan." ; "strong."
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! You have more"
-	line "energy than I do."
+	text "Oh! Je hebt meer" ; "Oh! You have more"
+	line "energie dan ik" ; "energy than I do."
 	done
 
 SwimmerfKaraAfterBattleText:
-	text "I heard roars from"
-	line "deep inside the"
-	cont "ISLANDS."
+	text "Ik hoorde gebrul," ; "I heard roars from"
+	line "diep vanuit de" ; "deep inside the"
+	cont "EILANDEN." ; "ISLANDS."
 	done
 
 SwimmerfWendySeenText:
-	text "At night, STARYU"
-	line "gather near the"
-	cont "water's surface."
+	text "Rond middernacht" ; "At night, STARYU"
+	line "komen STARYU naar" ; "gather near the"
+	cont "het oppervlak." ; "water's surface."
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oh, dear…"
+	text "Oh jee…" ; "Oh, dear…"
 	done
 
 SwimmerfWendyAfterBattleText:
-	text "The clusters of"
-	line "STARYU light up"
-	cont "at the same time."
+	text "De clusters STARYU" ; "The clusters of"
+	line "geven tegelijk" ; "STARYU light up"
+	cont "licht met elkaar." ; "at the same time."
 
-	para "It's so beautiful,"
-	line "it's scary."
+	para "Zo mooi dat het" ; "It's so beautiful,"
+	line "een beetje eng is." ; "it's scary."
 	done
 
 Route41_MapEvents:

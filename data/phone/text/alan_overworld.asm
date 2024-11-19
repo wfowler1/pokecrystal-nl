@@ -1,71 +1,71 @@
 AlanAskNumber1Text:
-	text "Reading textbooks"
-	line "is worthwhile"
-	cont "every so often."
+	text "Tekstboeken lezen" ; "Reading textbooks"
+	line "is soms wel de" ; "is worthwhile"
+	cont "moeite waard." ; "every so often."
 
-	para "When I'm reading"
-	line "and walking, I"
-	cont "have to look down."
+	para "Als ik lees en" ; "When I'm reading"
+	line "wandel, kijk ik" ; "and walking, I"
+	cont "naar beneden." ; "have to look down."
 
-	para "So I notice items"
-	line "on the ground."
+	para "Zo spot ik spul-" ; "So I notice items"
+	line "len op de grond." ; "on the ground."
 
-	para "Next time I find"
-	line "something, I'll"
-	cont "give it to you."
+	para "De volgende keer" ; "Next time I find"
+	line "als ik iets vind," ; "something, I'll"
+	cont "is het voor jou." ; "give it to you."
 
-	para "May I have your"
-	line "phone number?"
+	para "Mag ik je" ; "May I have your"
+	line "telefoonnummer?" ; "phone number?"
 	done
 
 AlanAskNumber2Text:
-	text "If I find some-"
-	line "thing, it's yours."
+	text "Als ik wat vind," ; "If I find some-"
+	line "mag je het hebben." ; "thing, it's yours."
 
-	para "So may I have your"
-	line "phone number?"
+	para "Dus mag ik je" ; "So may I have your"
+	line "telefoonnummer?" ; "phone number?"
 	done
 
 AlanNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I find"
+	text "Ik bel je als ik" ; "I'll call you as"
+	line "iets vind. Daar" ; "soon as I find"
 
-	para "something. You can"
-	line "count on it!"
+	para "mag je wel op" ; "something. You can"
+	line "rekenen!" ; "count on it!"
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… I thought it"
-	line "would be a good"
+	text "Oh… Even bellen" ; "Oh… I thought it"
+	line "om te pauzeren van" ; "would be a good"
 
-	para "break to call you"
-	line "when I'm studying…"
+	para "het studeren leek" ; "break to call you"
+	line "me fijn…" ; "when I'm studying…"
 	done
 
 AlanPhoneFullText:
-	text "There's no room"
-	line "for my number."
+	text "Je hebt geen plek" ; "There's no room"
+	line "voor mijn nummer." ; "for my number."
 	done
 
 AlanRematchText:
-	text "I waited around"
-	line "for you!"
+	text "Ik stond op je te" ; "I waited around"
+	line "wachten!" ; "for you!"
 
-	para "I'm thoroughly"
-	line "prepared today!"
+	para "Ditmaal ben ik" ; "I'm thoroughly"
+	line "goed voorbereid!" ; "prepared today!"
 	done
 
 AlanGiftText:
-	text "This, this! This"
-	line "is yours! Ta-da!"
+	text "Dit, dit! Dit is" ; "This, this! This"
+	line "voor jou! Ta-da!" ; "is yours! Ta-da!"
 	done
 
 AlanPackFullText:
-	text "Whoops!"
+	text "Whoeps!" ; "Whoops!"
 
-	para "You can't carry"
-	line "any more items!"
+	para "Geen plek voor" ; "You can't carry"
+	line "voorwerpen!" ; "any more items!"
 
-	para "I'll hold it until"
-	line "next time."
+	para "Ik bewaar dit wel" ; "I'll hold it until"
+	line "voor je." ; "next time."
 	done

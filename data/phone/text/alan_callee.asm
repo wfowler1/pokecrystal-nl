@@ -1,59 +1,59 @@
 AlanAnswerPhoneText:
-	text "Yup, it's @"
+	text "Yup, met @" ; "Yup, it's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 
-	para "Is this <PLAY_G>?"
-	line "Good morning!"
+	para "Is dit <PLAY_G>?" ; "Is this <PLAY_G>?"
+	line "Goedemorgen!" ; "Good morning!"
 	done
 
 AlanAnswerPhoneDayText:
-	text "Yup, it's @"
+	text "Yup, met @" ; "Yup, it's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 
-	para "Is that <PLAY_G>?"
+	para "Is dit <PLAY_G>?" ; "Is that <PLAY_G>?"
 	done
 
 AlanAnswerPhoneNiteText:
-	text "Yup, it's @"
+	text "Yup, met @" ; "Yup, it's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 
-	para "Is that <PLAY_G>?"
-	line "Good evening!"
+	para "Is dit <PLAY_G>?" ; "Is that <PLAY_G>?"
+	line "Goedenavond!" ; "Good evening!"
 	done
 
 AlanGreetText:
-	text "Hello! It's me,"
+	text "Hallo! Met mij," ; "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 AlanGreetDayText:
-	text "Hello! It's me,"
+	text "Hallo! Met mij," ; "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 AlanGreetNiteText:
-	text "Hello! It's me,"
+	text "Hallo! Met mij," ; "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 AlanGenericText:
-	text "<PLAY_G>, are you"
-	line "raising your"
-	cont "#MON properly?"
+	text "<PLAY_G>, zorg je" ; "<PLAY_G>, are you"
+	line "goed voor je" ; "raising your"
+	cont "#MON?" ; "#MON properly?"
 
-	para "I read in a book"
-	line "that you should"
+	para "Ik las in een boek" ; "I read in a book"
+	line "dat je elke #-" ; "that you should"
 
-	para "raise any #MON"
-	line "you catch with"
-	cont "love and care."
+	para "MON die je vangt" ; "raise any #MON"
+	line "liefde en aandacht" ; "you catch with"
+	cont "moet geven." ; "love and care."
 	done

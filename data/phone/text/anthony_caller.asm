@@ -1,139 +1,139 @@
 AnthonyMonAteSomeBerriesText:
-	text "The other day, I"
-	line "was watching my"
+	text "Laatst keek ik" ; "The other day, I"
+	line "hoe mijn" ; "was watching my"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " eat"
-	line "some BERRIES."
+	text "wat" ; " eat"
+	line "BESSEN at." ; "some BERRIES."
 
-	para "It looked like it"
-	line "was enjoying its"
+	para "Het leek te ge-" ; "It looked like it"
+	line "nieten van de" ; "was enjoying its"
 
-	para "meal, so I decided"
-	line "to try some."
+	para "de maaltijd, dus" ; "meal, so I decided"
+	line "ik nam een hap." ; "to try some."
 
-	para "I'm not sure if"
-	line "people should eat"
+	para "Ik weet niet of" ; "I'm not sure if"
+	line "mensen dit horen" ; "people should eat"
 
-	para "that stuff, but it"
-	line "was delicious!"
+	para "te eten, maar het" ; "that stuff, but it"
+	line "was verrukkelijk!" ; "was delicious!"
 	done
 
 AnthonyDefeatedMonText:
-	text "Lately, I've been"
-	line "running across"
+	text "De laatste tijd" ; "Lately, I've been"
+	line "kom ik vaak" ; "running across"
 
-	para "wild @"
+	para "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	line "quite often."
+	line "tegen." ; "quite often."
 
-	para "They're easily"
-	line "taken care of."
+	para "Ze zijn makkelijk" ; "They're easily"
+	line "te verslaan." ; "taken care of."
 	done
 
 AnthonyLostAMonText:
-	text "Oh yeah, I was"
-	line "battling this"
+	text "Oh ja, ik vocht" ; "Oh yeah, I was"
+	line "met deze" ; "battling this"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " the"
-	line "other day…"
+	text "een" ; " the"
+	line "dag geleden…" ; "other day…"
 
-	para "It took off when I"
-	line "got distracted by"
-	cont "a passing BEAUTY."
+	para "Het vluchtte toen" ; "It took off when I"
+	line "een SCHOONHEID mij" ; "got distracted by"
+	cont "afleidde." ; "a passing BEAUTY."
 
-	para "Learn from my"
-	line "mistake--always"
+	para "Leer van mijn" ; "Learn from my"
+	line "fout--altijd" ; "mistake--always"
 
-	para "stay focused on"
-	line "the job at hand!"
+	para "concentreren op" ; "stay focused on"
+	line "je taak!" ; "the job at hand!"
 	done
 
 AnthonyBattleRematchText:
-	text "Come on--let's"
-	line "battle right now!"
+	text "Kom op--laten we" ; "Come on--let's"
+	line "nu vechten!" ; "battle right now!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
-	line "where I am."
+	line "waar ik ben." ; "where I am."
 
-	para "Come on down if"
-	line "you feel up to it!"
+	para "Kom hierheen als" ; "Come on down if"
+	line "je er zin in hebt!" ; "you feel up to it!"
 	done
 
 AnthonyHangUpText:
-	text "All right then!"
-	line "Be good!"
+	text "Oké dan!" ; "All right then!"
+	line "Gedraag je!" ; "Be good!"
 	done
 
 AnthonySwarmText:
-	text "<PLAYER>! It's"
-	line "mind-blowing!"
+	text "<PLAYER>! Het is" ; "<PLAYER>! It's"
+	line "onvoorstelbaar!" ; "mind-blowing!"
 
-	para "I took a hike in"
+	para "Ik wandelde in" ; "I took a hike in"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text_start
-	cont "yesterday, see?"
+	cont "gisteren, he?" ; "yesterday, see?"
 
-	para "Well, there were"
-	line "tons of @"
+	para "Nou, er waren heel" ; "Well, there were"
+	line "veel @" ; "tons of @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	para "around! You have"
-	line "to see it!"
+	para "! Je" ; "around! You have"
+	line "moet het zien!" ; "to see it!"
 
-	para "I get this feeling"
-	line "that @"
+	para "Ik vermoed dat" ; "I get this feeling"
+	line "de @" ; "that @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	para "may be timid."
-	line "I didn't see any"
+	para "timide zijn." ; "may be timid."
+	line "Ik zag geen" ; "I didn't see any"
 
-	para "where there are"
-	line "strong #MON."
+	para "waar sterke #-" ; "where there are"
+	line "MON zijn." ; "strong #MON."
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "Rare #MON?"
+	text "Zeldzame #MON?" ; "Rare #MON?"
 
-	para "Hey, sorry! I was"
-	line "too focused on my"
+	para "He sorry! Ik was" ; "Hey, sorry! I was"
+	line "druk met mijn" ; "too focused on my"
 
-	para "hike, so I wasn't"
-	line "paying attention."
+	para "wandeling en lette" ; "hike, so I wasn't"
+	line "niet op." ; "paying attention."
 	done
 
 AnthonyReminderText:
-	text "Hello! You haven't"
-	line "forgotten about"
+	text "Hallo! Je bent ons" ; "Hello! You haven't"
+	line "gevecht niet" ; "forgotten about"
 
-	para "our battle, have"
-	line "you?"
+	para "vergeten, of wel" ; "our battle, have"
+	line "soms?" ; "you?"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
-	line "I'm waiting!"
+	line "Ik wacht!" ; "I'm waiting!"
 	done
 
 AnthonyHurryText:
-	text "Hello? What? Where"
+	text "Hallo? Wat? Waar" ; "Hello? What? Where"
 	line "is DUNSPARCE?"
 
-	para "DARK CAVE! Hurry!"
+	para "DONKERE GROT! Ga!" ; "DARK CAVE! Hurry!"
 
-	para "I know I've said"
-	line "it before, but"
+	para "Ik weet dat ik het" ; "I know I've said"
+	line "eerder zei, maar" ; "it before, but"
 
-	para "DUNSPARCE don't"
-	line "appear when there"
+	para "DUNSPARCE" ; "DUNSPARCE don't"
+	line "verschijnen niet" ; "appear when there"
 
-	para "are strong #MON"
-	line "around."
+	para "in de buurt van" ; "are strong #MON"
+	line "sterke #MON." ; "around."
 	done

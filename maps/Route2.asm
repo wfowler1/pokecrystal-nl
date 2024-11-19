@@ -80,57 +80,59 @@ Route2HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_2_HIDDEN_REVIVE
 
 BugCatcherRobSeenText:
-	text "My bug #MON are"
-	line "tough. Prepare to"
-	cont "lose!"
+	text "Mijn insect-#-" ; "My bug #MON are"
+	line "MON zijn sterk." ; "tough. Prepare to"
+	cont "Ja gaat verliezen!" ; "lose!"
 	done
 
 BugCatcherRobBeatenText:
-	text "I was whipped…"
+	text "Ik ben opgeveegd…" ; I was whipped…"
 	done
 
 BugCatcherRobAfterBattleText:
-	text "I'm going to look"
-	line "for stronger bug"
-	cont "#MON."
+	text "Ik ga op zoek" ; "I'm going to look"
+	line "naar sterkere" ; "for stronger bug"
+	cont "insect-#MON." ; "#MON."
 	done
 
 BugCatcherEdSeenText:
-	text "If you walk in"
-	line "tall grass wearing"
+	text "Als je met korte" ; "If you walk in"
+	line "broek door het" ; "tall grass wearing"
 
-	para "shorts, do you get"
-	line "nicks and cuts?"
+	para "gras loopt, krijg" ; "shorts, do you get"
+	line "je dan schrammen?" ; "nicks and cuts?"
 	done
 
 BugCatcherEdBeatenText:
-	text "Ouch, ouch, ouch!"
+	text "Au, au, au!" ; "Ouch, ouch, ouch!"
 	done
 
 BugCatcherEdAfterBattleText:
-	text "They'll really"
-	line "sting when you"
-	cont "take a bath."
+	text "Ze prikken echt" ; "They'll really"
+	line "als je een bad" ; "sting when you"
+	cont "neemt." ; "take a bath."
 	done
 
 BugCatcherDougSeenText:
-	text "Why don't girls"
-	line "like bug #MON?"
+	text "Waarom houden" ; "Why don't girls"
+	line "meiden niet van" ; "like bug #MON?"
+	cont "insect-#MON?" ;
 	done
 
 BugCatcherDougBeatenText:
-	text "No good!"
+	text "Niet goed!" ; "No good!"
 	done
 
 BugCatcherDougAfterBattleText:
-	text "Bug #MON squish"
-	line "like plush toys"
+	text "Insect-#MON" ; "Bug #MON squish"
+	line "pletten als" ; "like plush toys"
 
-	para "when you squeeze"
-	line "their bellies."
+	para "knuffels als je" ; "when you squeeze"
+	line "in hun buikjes" ; "their bellies."
+	cont "knijpt." ;
 
-	para "I love how they"
-	line "feel!"
+	para "Ik hou van" ; "I love how they"
+	line "dat gevoel!" ; "feel!"
 	done
 
 Route2SignText:
@@ -141,7 +143,7 @@ Route2SignText:
 	done
 
 Route2DiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "DIGLETT-GROT" ; "DIGLETT'S CAVE"
 	done
 
 Route2_MapEvents:

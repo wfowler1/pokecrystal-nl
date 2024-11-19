@@ -227,73 +227,77 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "We zullen binnen-" ; "We're departing"
+	line "kort vertrekken." ; "soon. Please get"
+
+	para "Kom alsjeblieft" ; "on board."
+	line "aan boord."
 	done
 
 VermilionPortCantBoardText:
-	text "Sorry. You can't"
-	line "board now."
+	text "Sorry. Je kan nu" ; "Sorry. You can't"
+	line "niet aan boord." ; "board now."
 	done
 
 VermilionPortAskBoardingText:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Welkom op het" ; "Welcome to FAST"
+	line "SNELSCHIP" ; "SHIP S.S.AQUA."
+	cont "S.S. AQUA."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "Kom je vandaag" ; "Will you be board-"
+	line "aan boord?" ; "ing today?"
 	done
 
 VermilionPortAskTicketText:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Mag ik je" ; "May I see your"
+	line "BOOTKAARTJE zien?" ; "S.S.TICKET?"
 	done
 
 VermilionPortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "Hopelijk tot" ; "We hope to see you"
+	line "ziens!" ; "again!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> liet het" ; "<PLAYER> flashed"
+	line "BOOTKAARTJE zien." ; "the S.S.TICKET."
 
-	para "That's it."
-	line "Thank you!"
+	para "Dat is 'm." ; "That's it."
+	line "Bedankt!" ; "Thank you!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
+	text "<PLAYER> probeerde" ; "<PLAYER> tried to"
+	line "het BOOTKAARTJE te" ; "show the S.S."
+	cont "laten zien, maar…" ; "TICKET…"
 
-	para "…But no TICKET!"
+	para "…Geen KAARTJE!" ; "…But no TICKET!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "Sorry!" ; "Sorry!"
+	line "Je mag alleen mee" ; "You may board only"
 
-	para "if you have an"
-	line "S.S.TICKET."
+	para "met een" ; "if you have an"
+	line "BOOTKAARTJE." ; "S.S.TICKET."
 	done
 
 VermilionPortSailWednesdayText:
-	text "The FAST SHIP will"
-	line "sail on Wednesday."
+	text "Het SNELSCHIP" ; "The FAST SHIP will"
+	line "vaart op woensdag." ; "sail on Wednesday."
 	done
 
 VermilionPortSailSundayText:
-	text "The FAST SHIP will"
-	line "sail next Sunday."
+	text "Het SNELSCHIP" ; "The FAST SHIP will"
+	line "vaart komende" ; "sail next Sunday."
+	cont "zondag."
 	done
 
 VermilionPortSuperNerdText:
-	text "You came from"
-	line "JOHTO?"
+	text "Kom je helemaal" ; "You came from"
+	line "uit JOHTO?" ; "JOHTO?"
 
-	para "I hear many rare"
-	line "#MON live over"
-	cont "there."
+	para "Ik heb gehoord dat" ; "I hear many rare"
+	line "daar zeldzame" ; "#MON live over"
+	cont "#MON leven." ; "there."
 	done
 
 VermilionPort_MapEvents:

@@ -16,35 +16,35 @@ FishingDudesHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "DUDE, the elder of"
-	cont "the FISHING BROS."
+	text "Ik ben de VIS-" ; "I am the FISHING"
+	line "VENT, de oudste" ; "DUDE, the elder of"
+	cont "van de VISBROERS." ; "the FISHING BROS."
 
-	para "Have you met the"
-	line "FISHING GURU at"
-	cont "LAKE OF RAGE?"
+	para "Heb je de VIS-" ; "Have you met the"
+	line "GOEROE ontmoet bij" ; "FISHING GURU at"
+	cont "MEER VAN RAZERNIJ?" ; "LAKE OF RAGE?"
 
-	para "He dreams about"
-	line "seeing the world's"
-	cont "greatest MAGIKARP."
+	para "Zijn droom is om" ; "He dreams about"
+	line "'s werelds grootste" ; "seeing the world's"
+	cont "MAGIKARP te zien." ; "greatest MAGIKARP."
 
-	para "If you don't mind,"
-	line "could you show him"
+	para "Wil je hem alle" ; "If you don't mind,"
+	line "MAGIKARP tonen" ; "could you show him"
 
-	para "any MAGIKARP you"
-	line "catch?"
+	para "die je vangt?" ; "any MAGIKARP you"
+	line "Wie weet, mogelijk" ; "catch?"
 
-	para "Who knows, you may"
-	line "catch the MAGIKARP"
-	cont "of his dreams."
+	para "vang je wel de" ; "Who knows, you may"
+	line "MAGIKARP van zijn" ; "catch the MAGIKARP"
+	cont "dromen." ; "of his dreams."
 	done
 
 FishingDudesHousePhotoText:
-	text "It's a photo of"
-	line "people fishing…"
+	text "Het is een foto" ; "It's a photo of"
+	line "van wat vissers…" ; "people fishing…"
 
-	para "They're having a"
-	line "great time…"
+	para "Ze hebben het naar" ; "They're having a"
+	line "hun zin…" ; "great time…"
 	done
 
 VermilionFishingSpeechHouse_MapEvents:

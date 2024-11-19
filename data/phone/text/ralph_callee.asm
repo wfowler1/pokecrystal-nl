@@ -1,59 +1,59 @@
 RalphAnswerPhoneText:
-	text "Yes? Ah, <PLAY_G>."
+	text "Ja? Ah, <PLAY_G>." ; "Yes? Ah, <PLAY_G>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Je bent zo netjes" ; "You're courteous"
+	line "dat jij je naam" ; "enough to state"
 
-	para "your name when you"
-	line "call on the phone."
+	para "noemt als je met" ; "your name when you"
+	line "iemand belt." ; "call on the phone."
 	done
 
 RalphAnswerPhoneDayText:
-	text "Yes? Ah, <PLAY_G>."
+	text "Ja? Ah, <PLAY_G>." ; "Yes? Ah, <PLAY_G>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Je bent zo netjes" ; "You're courteous"
+	line "dat jij je naam" ; "enough to state"
 
-	para "your name when you"
-	line "call on the phone."
+	para "noemt als je met" ; "your name when you"
+	line "iemand belt." ; "call on the phone."
 	done
 
 RalphAnswerPhoneNiteText:
-	text "Yes? Ah, <PLAY_G>."
+	text "Ja? Ah, <PLAY_G>." ; "Yes? Ah, <PLAY_G>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Je bent zo netjes" ; "You're courteous"
+	line "dat jij je naam" ; "enough to state"
 
-	para "your name when you"
-	line "call on the phone."
+	para "noemt als je met" ; "your name when you"
+	line "iemand belt." ; "call on the phone."
 	done
 
 RalphGreetText:
-	text "Hiya, it's Uncle"
+	text "Hiya, met Oom" ; "Hiya, it's Uncle"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 
 RalphGreetDayText:
-	text "Hiya, it's Uncle"
+	text "Hiya, met Oom" ; "Hiya, it's Uncle"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 
 RalphGreetNiteText:
-	text "Hiya, it's Uncle"
+	text "Hiya, met Oom" ; "Hiya, it's Uncle"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 	done
 
 RalphGenericText:
-	text "Are you taking"
-	line "good care of your"
+	text "Zorg je goed voor" ; "Are you taking"
+	line "je #MON? Je" ; "good care of your"
 
-	para "#MON? You have"
-	line "to be good to your"
+	para "moet goed zorgen" ; "#MON? You have"
+	line "voor al je!" ; "to be good to your"
 	cont "partners!"
 	done

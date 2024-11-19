@@ -1,90 +1,90 @@
 JoeyMonLookingSharperText:
-	text "My @"
+	text "mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "looking sharper"
-	cont "than before!"
+	text "is" ; "'s"
+	line "scherper dan ooit" ; "looking sharper"
+	cont "tevoren!" ; "than before!"
 
-	para "I doubt there's a"
-	line "#MON as cool as"
+	para "Wedden dat je niet" ; "I doubt there's a"
+	line "zo'n coole #MON" ; "#MON as cool as"
 
-	para "this guy in your"
-	line "party!"
+	para "in je team hebt" ; "this guy in your"
+	line "zitten?" ; "party!"
 	done
 
 JoeyDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down a @"
+	text "Oh ja, ik heb" ; "Oh yeah, I took"
+	line "een @" ; "down a @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	para "in the wild the"
-	line "other day."
+	para "in het wild ver-" ; "in the wild the"
+	line "slagen laatst." ; "other day."
 
-	para "It was a cakewalk."
-	line "Well, I guess it"
+	para "Het was een eitje." ; "It was a cakewalk."
+	line "Niks aan te doen," ; "Well, I guess it"
 
-	para "can't be helped,"
-	line "us being so tough."
+	para "dat wij zo sterk" ; "can't be helped,"
+	line "zijn." ; "us being so tough."
 	done
 
 JoeyLostAMonText:
-	text "Oh yeah, I saw a"
-	line "wild @"
+	text "Oh ja, ik zag een" ; "Oh yeah, I saw a"
+	line "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "I thought about"
-	line "going for it, but"
+	para "Ik overwoog er" ; "I thought about"
+	line "voor te gaan, maar" ; "going for it, but"
 
-	para "I decided to work"
-	line "with my one-and-"
+	para "besloot het bij" ; "I decided to work"
+	line "mijn rechterhand" ; "with my one-and-"
 
-	para "only right to the"
-	line "extreme end."
+	para "te houden tot het" ; "only right to the"
+	line "bittere eind." ; "extreme end."
 	done
 
 JoeyBattleRematchText:
-	text "Let's get together"
-	line "and battle!"
+	text "Laten we samen-" ; "Let's get together"
+	line "komen en vechten!" ; "and battle!"
 
-	para "I promise things"
-	line "will be different!"
+	para "Ik beloof dat het" ; "I promise things"
+	line "ditmaal anders is!" ; "will be different!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "'s"
-	line "where I'll be."
+	text " " ; "'s"
+	line "is waar ik ben." ; "where I'll be."
 
-	para "Give me a shout"
-	line "when you come."
+	para "Geef een gil als" ; "Give me a shout"
+	line "je komt." ; "when you come."
 	done
 
 JoeyHangUpText:
-	text "All right. Later!"
+	text "Oké. Later!" ; "All right. Later!"
 	done
 
 JoeyDevisingStrategiesText:
-	text "I'm checking out"
+	text "Ik bekijk" ; "I'm checking out"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s moves"
+	text "'s" ; "'s moves"
 
-	para "and devising some"
-	line "strategies."
+	para "aanvallen en" ; "and devising some"
+	line "bedenk een plan." ; "strategies."
 
-	para "When I come up"
-	line "with a good one,"
-	cont "let's battle!"
+	para "Als ik een heb" ; "When I come up"
+	line "bedacht, moeten" ; "with a good one,"
+	cont "we vechten!" ; "let's battle!"
 	done
 
 JoeyReminderText:
-	text "What's keeping"
-	line "you, <PLAYER>!"
+	text "Waar blijf je," ; "What's keeping"
+	line "<PLAYER>!" ; "you, <PLAYER>!"
 
-	para "Let's get down and"
-	line "battle already!"
+	para "Laten we eindelijk" ; "Let's get down and"
+	line "gaan vechten!" ; "battle already!"
 
-	para "I'm waiting on"
+	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"

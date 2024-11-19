@@ -1,133 +1,133 @@
 RalphNeglectingKidsText:
-	text "I've been spending"
-	line "more time with my"
+	text "Ik spendeer meer" ; "I've been spending"
+	line "tijd met mijn" ; "more time with my"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " than I"
-	line "have with my kids."
+	text "dan" ; " than I"
+	line "met mijn kinderen." ; "have with my kids."
 
-	para "That's a bit sad,"
-	line "actually."
+	para "Dat is eigenlijk" ; "That's a bit sad,"
+	line "best triest." ; "actually."
 	done
 
 RalphDefeatedMonText:
-	text "I just beat a wild"
+	text "Ik versloeg een" ; "I just beat a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "I told my kid, but"
-	line "he scoffed that he"
+	para "Ik vertelde het" ; "I told my kid, but"
+	line "aan mijn kind," ; "he scoffed that he"
 
-	para "could do the same"
-	line "thing easily."
+	para "maar hij zei dat" ; "could do the same"
+	line "het 'n makkie was." ; "thing easily."
 
-	para "Boy, has he gotten"
-	line "cocky…"
+	para "Joh, wat is hij" ; "Boy, has he gotten"
+	line "verwaand…" ; "cocky…"
 	done
 
 RalphLostAMonText:
-	text "Yesterday a wild"
+	text "Een wilde" ; "Yesterday a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " slipped"
+	text " glipte" ; " slipped"
 
-	para "away from me, in"
-	line "front of my kid."
+	para "gisteren weg, voor" ; "away from me, in"
+	line "mijn kind." ; "front of my kid."
 
-	para "I was feeling down"
-	line "about it until he"
+	para "Ik baalde ervan," ; "I was feeling down"
+	line "tot hij zijn" ; "about it until he"
 
-	para "shared his #"
-	line "BALLS with me."
+	para "#BALLEN met mij" ; "shared his #"
+	line "deelde." ; "BALLS with me."
 
-	para "Hahah, that sure"
-	line "made my day!"
+	para "Hahah, dat maakte" ; "Hahah, that sure"
+	line "mijn dag!" ; "made my day!"
 	done
 
 RalphBattleRematchText:
-	text "What do you say to"
-	line "a battle with me?"
+	text "Wat zeg je van" ; "What do you say to"
+	line "een gevecht?" ; "a battle with me?"
 
-	para "Good, you're going"
-	line "to do it!"
+	para "Fijn, je gaat het" ; "Good, you're going"
+	line "doen!" ; "to do it!"
 
-	para "For a kid, you're"
-	line "quite agreeable."
+	para "Voor een kind ben" ; "For a kid, you're"
+	line "je best meegaand." ; "quite agreeable."
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
-	line "the spot!"
+	line "de plek!" ; "the spot!"
 	done
 
 RalphHangUpText:
-	text "You call your mom"
-	line "sometimes too!"
+	text "Bel ook eens met" ; "You call your mom"
+	line "je moeder!" ; "sometimes too!"
 	done
 
 RalphItemText:
-	text "Listen, I… Yowch!"
+	text "He, ik… Yauwch!" ; "Listen, I… Yowch!"
 
-	para "Uh, sorry! See,"
+	para "Uh, sorry! Nou," ; "Uh, sorry! See,"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " are"
+	text " zijn" ; " are"
 
-	para "biting like there"
-	line "is no tomorrow"
+	para "hier echt flink" ; "biting like there"
+	line "aan het bijten," ; "is no tomorrow"
 
-	para "over here on"
+	para "nabij" ; "over here on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
-	para "Aiyee! Ouch!"
-	line "One jabbed me!"
+	para "Aiyee! Auw!" ; "Aiyee! Ouch!"
+	line "Een prikte me!" ; "One jabbed me!"
 
-	para "Heh, they're some"
-	line "kind of feisty!"
+	para "Heh, sommigen zijn" ; "Heh, they're some"
+	line "best wel pittig!" ; "kind of feisty!"
 
-	para "<PLAY_G>, you have"
-	line "to see this rare"
+	para "<PLAY_G>, je moet" ; "<PLAY_G>, you have"
+	line "dit echt eens" ; "to see this rare"
 
-	para "sight! Get ready"
-	line "to fish!"
+	para "komen meemaken!" ; "sight! Get ready"
+	line "Kom vissen!" ; "to fish!"
 	done
 
 RalphNoItemText:
-	text "Yeah, I know."
+	text "Ja, ik weet het" ; "Yeah, I know."
 
-	para "You're looking for"
-	line "rare #MON."
+	para "Je zoekt naar" ; "You're looking for"
+	line "zeldzame #MON." ; "rare #MON."
 
-	para "Recently, all I've"
-	line "been catching are"
-	cont "MAGIKARP, though…"
+	para "De laatste tijd" ; "Recently, all I've"
+	line "vang ik alleen" ; "been catching are"
+	cont "maar MAGIKARP…" ; "MAGIKARP, though…"
 	done
 
 RalphReminderText:
-	text "So where are you?"
-	line "I'm waiting for"
+	text "Waar blijf je nou?" ; "So where are you?"
+	line "Ik wacht tot je" ; "I'm waiting for"
 
-	para "you to show up on"
+	para "komt opdagen op" ; "you to show up on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "You shouldn't make"
-	line "your elders wait!"
+	para "Laat ouderen nooit" ; "You shouldn't make"
+	line "op je wachten!" ; "your elders wait!"
 	done
 
 RalphHurryText:
-	text "Hey, what's the"
-	line "matter with you?"
+	text "He, wat is er mis" ; "Hey, what's the"
+	line "met je?" ; "matter with you?"
 
-	para "Aren't you coming"
-	line "over to fish for"
-	cont "QWILFISH?"
+	para "Kom je niet langs" ; "Aren't you coming"
+	line "om naar QWILFISH" ; "over to fish for"
+	cont "te vissen?" ; "QWILFISH?"
 
-	para "I'm on ROUTE 32,"
-	line "so hurry up!"
+	para "Het is bij ROUTE," ; "I'm on ROUTE 32,"
+	line "32, schiet op!" ; "so hurry up!"
 	done

@@ -1,70 +1,70 @@
 WadeAskNumber1Text:
-	text "You're awesome!"
-	line "I like you!"
+	text "Je bent geweldig!" ; "You're awesome!"
+	line "Ik vind je leuk!" ; "I like you!"
 
-	para "I look for #MON"
-	line "here every day."
+	para "Ik zoek iedere dag" ; "I look for #MON"
+	line "hier naar #MON." ; "here every day."
 
-	para "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	para "Als ik in het gras" ; "When I'm in the"
+	line "loop, vind ik" ; "grass, I find all"
+	cont "allerlei BESSEN." ; "kinds of BERRIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Als je het wil," ; "If you'd like,"
+	line "deel ik ze met je." ; "I'll share some."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Mag ik je" ; "Could I get your"
+	line "telefoonnummer?" ; "phone number?"
 	done
 
 WadeAskNumber2Text:
-	text "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	para "Als ik in het gras" ; "When I'm in the"
+	line "loop, vind ik" ; "grass, I find all"
+	cont "allerlei BESSEN." ; "kinds of BERRIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Als je het wil," ; "If you'd like,"
+	line "deel ik ze met je." ; "I'll share some."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Mag ik je" ; "Could I get your"
+	line "telefoonnummer?" ; "phone number?"
 	done
 
 WadeNumberAcceptedText:
-	text "You'll hear from"
-	line "me as soon as I"
+	text "Je hoort van me" ; "You'll hear from"
+	line "zodra ik iets" ; "me as soon as I"
 
-	para "find anything that"
-	line "you might like."
+	para "vind dat je wel-" ; "find anything that"
+	line "licht leuk vindt." ; "you might like."
 	done
 
 WadeNumberDeclinedText:
-	text "Oh well. Don't be"
-	line "shy if you want to"
-	cont "get my number."
+	text "Ach ja. Schroom" ; "Oh well. Don't be"
+	line "niet als je mijn" ; "shy if you want to"
+	cont "nummer wil." ; "get my number."
 	done
 
 WadePhoneFullText:
-	text "Your phone list"
-	line "has no room for my"
-	cont "number."
+	text "Je telefoonlijst" ; "Your phone list"
+	line "heeft geen plek" ; "has no room for my"
+	cont "voor mijn nummer." ; "number."
 	done
 
 WadeRematchText:
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "Ik wachtte op je." ; "I was waiting for"
+	line "Laten we vechten!" ; "you. Let's battle!"
 	done
 
 WadeGiftText:
-	text "Good to see you!"
-	line "See? This is what"
+	text "Goed je te zien!" ; "Good to see you!"
+	line "Kijk eens? Dit is" ; "See? This is what"
 
-	para "I found."
-	line "It's for you!"
+	para "wat ik vond." ; "I found."
+	line "Het is voor jou!" ; "It's for you!"
 	done
 
 WadePackFullText:
-	text "Oops, your PACK's"
-	line "full. Too bad."
+	text "Oeps, je TAS zit" ; "Oops, your PACK's"
+	line "vol. Helaas." ; "full. Too bad."
 
-	para "You should come"
-	line "back for it later."
+	para "Kom er anders" ; "You should come"
+	line "later voor terug." ; "back for it later."
 	done

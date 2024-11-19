@@ -1,71 +1,72 @@
 JoeyAskNumber1Text:
-	text "Listen, can I get"
-	line "your phone number?"
+	text "Luister, mag ik je" ; "Listen, can I get"
+	line "telefoonnummer?" ; "your phone number?"
 
-	para "I'll ring you for"
-	line "some battles."
+	para "Ik bel je voor" ; "I'll ring you for"
+	line "wat gevechten." ; "some battles."
 
-	para "I'm a rookie too, "
-	line "so I think it'd be"
-	cont "a good motivator."
+	para "Ik ben ook een" ; "I'm a rookie too, "
+	line "groentje, dus het" ; "so I think it'd be"
+	cont "helpt ons op weg." ; "a good motivator."
 	done
 
 JoeyAskNumber2Text:
-	text "Can I get your"
-	line "phone number?"
+	text "Mag ik je" ; "Can I get your"
+	line "telefoonnummer?" ; "phone number?"
 
-	para "I don't want to"
-	line "lose against you!"
+	para "Ik wil niet tegen" ; "I don't want to"
+	line "je verliezen!" ; "lose against you!"
 
-	para "We have to battle"
-	line "again, OK?"
+	para "We moeten weer" ; "We have to battle"
+	line "vechten, OK?" ; "again, OK?"
 	done
 
 JoeyNumberAcceptedText:
-	text "I'll ring you"
-	line "whenever I get the"
-	cont "urge to battle!"
+	text "Ik bel je als ik" ; "I'll ring you"
+	line "de drang krijg om" ; "whenever I get the"
+	cont "te vechten!" ; "urge to battle!"
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, all right…"
+	text "Oh, oké dan…" ; "Oh, all right…"
 
-	para "But I won't lose"
-	line "to you again!"
+	para "Maar ik verlies" ; "But I won't lose"
+	line "niet weer van je!" ; "to you again!"
 	done
 
 JoeyPhoneFullText:
-	text "Huh, what? Your"
-	line "phone's full."
+	text "Huh, wat? Je" ; "Huh, what? Your"
+	line "telefoon zit vol." ; "phone's full."
 	done
 
 JoeyRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Ik wachtte al!" ; "I've been waiting!"
+	line "Laten we vechten!" ; "Let's battle now!"
 	done
 
 JoeyPackFullText:
-	text "Hey, wait! Your"
-	line "PACK is stuffed!"
+	text "He, wacht! Je" ; "Hey, wait! Your"
+	line "TAS zit vol!" ; "PACK is stuffed!"
 
-	para "Well, we'll leave"
-	line "it till next time."
+	para "Nou, dan een" ; "Well, we'll leave"
+	line "andere keer." ; "it till next time."
 	done
 
 JoeyRematchGiftText:
-	text "And yet another"
-	line "loss…"
+	text "En wederom verlies" ; "And yet another"
+	line "ik…" ; "loss…"
 
-	para "No doubt about"
-	line "it--you're tough."
+	para "Geen twijfel aan--" ; "No doubt about"
+	line "je bent een taaie." ; "it--you're tough."
 
-	para "Being beaten this"
-	line "often actually"
-	cont "feels good now!"
+	para "Zo vaak verslagen" ; "Being beaten this"
+	line "worden voelt nu" ; "often actually"
+	cont "best goed!" ; "feels good now!"
 
-	para "Here, take this. "
-	line "Use it to get even"
+	para "Hier, neem dit." ; "Here, take this. "
+	line "Gebruik het om" ; "Use it to get even"
 
-	para "tougher. That will"
-	line "toughen me up too!"
+	para "Nog sterker te" ; "tougher. That will"
+	line "worden. Doe ik" ; "toughen me up too!"
+	cont "hetzelfde!"
 	done

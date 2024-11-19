@@ -13,22 +13,23 @@ CeladonMansionRoofGraffiti:
 	jumptext CeladonMansionRoofGraffitiText
 
 CeladonMansionRoofFisherText:
-	text "High places--I do"
-	line "love them so!"
+	text "Hoge plekken--" ; "High places--I do"
+	line "ik hou ervan!" ; "love them so!"
 
-	para "I'd say the only"
-	line "thing that loves"
+	para "Ik zou zeggen dat" ; "I'd say the only"
+	line "het enige dat net" ; "thing that loves"
 
-	para "heights as much as"
-	line "me is smoke!"
+	para "zoveel van hoogtes" ; "heights as much as"
+	line "houdt als ik," ; "me is smoke!"
+	cont "rook is!" ; 
 	done
 
 CeladonMansionRoofGraffitiText:
-	text "There's graffiti"
-	line "on the wall…"
+	text "Er is graffiti" ; "There's graffiti"
+	line "op de muur…" ; "on the wall…"
 
-	para "<PLAYER> added a"
-	line "moustache!"
+	para "<PLAYER> voegde" ; "<PLAYER> added a"
+	line "een snorretje toe!" ; "moustache!"
 	done
 
 CeladonMansionRoof_MapEvents:

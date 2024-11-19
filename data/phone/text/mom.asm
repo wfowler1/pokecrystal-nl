@@ -1,165 +1,165 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "Hallo?" ; "Hello?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "Oh, hoi <PLAYER>!" ; "Oh, hi, <PLAYER>!"
+	line "Hard aan het werk?" ; "Working hard?"
 	done
 
 MomPhoneLandmarkText:
-	text "Oh, so you're in"
+	text "Oh, je bent in" ; "Oh, so you're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text "…"
 
-	para "Isn't that where"
+	para "is dat niet waar" ; "Isn't that where"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxLandmarkLength
 	text_start
-	para "is? Did you go"
-	line "take a look?"
+	para "is? Heb je een" ; "is? Did you go"
+	line "kijkje genomen?" ; "take a look?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Really, you're in"
+	text "Echt, ben je in" ; "Really, you're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text "?"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, <PLAYER>."
+	para "IK ben daar nooit" ; "I've never gone"
+	line "geweest. Wat" ; "there. That's kind"
+	cont "gaaf, <PLAYER>." ; "of neat, <PLAYER>."
 	done
 
 MomPhoneNewBarkText:
-	text "What? You're in"
+	text "Wat? Ben je in" ; "What? You're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text "?"
 
-	para "Come see your MOM"
-	line "sometime!"
+	para "Kom eens bij je" ; "Come see your MOM"
+	line "moeder langs!" ; "sometime!"
 	done
 
 MomPhoneCherrygroveText:
-	text "You're visiting"
+	text "Je bent in" ; "You're visiting"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "Kom anders eens" ; "How about coming"
+	line "even naar huis?" ; "home for a bit?"
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
+	text "Wauw, ben je in" ; "Wow, you're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text "?"
 
-	para "Good luck on your"
-	line "#MON quest!"
+	para "Succes met je" ; "Good luck on your"
+	line "#MON-queeste!" ; "#MON quest!"
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "Dat klinkt heel" ; "That sounds really"
+	line "erg lastig." ; "tough."
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
+	para "Maar, <PLAYER>, k" ; "But, <PLAYER>, I"
+	line "weet dat je vast-" ; "know you're really"
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "beraden bent. Je" ; "determined. You'll"
+	line "redt het wel, OK?" ; "be OK, right?"
 	done
 
 MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Trouwens, je hebt" ; "By the way, you've"
+	line "¥@" ; "saved up ¥@"
 	text_ram wStringBuffer3 ; MaxLength 6
-	text "."
+	text " gespaard." ; "."
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "Wil je blijven" ; "Do you want to"
+	line "sparen?" ; "keep on saving?"
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "Het is belangrijk" ; "It's important to"
+	line "om geld te sparen." ; "save your money."
 	done
 
 MomYoureNotSavingText:
-	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	text "Oh, <PLAYER>, je" ; "Oh, <PLAYER>,"
+	line "spaart nu geen" ; "you're not saving"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "geld. Wil je gaan" ; "any money. Would"
+	line "sparen?" ; "you like to save?"
 	done
 
 MomYouveSavedText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Trouwens, je hebt" ; "By the way, you've"
+	line "¥@" ; "saved up ¥@"
 	text_ram wStringBuffer3 ; MaxLength 6
-	text "."
+	text " gespaard." ; "."
 
-	para "Want to start"
-	line "saving again?"
+	para "Wil je weer gaan" ; "Want to start"
+	line "sparen?" ; "saving again?"
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "OK. Ik spaar geld" ; "OK. I'll save your"
+	line "voor je." ; "money."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. I won't save"
-	line "your money."
+	text "OK. Ik spaar je" ; "OK. I won't save"
+	line "geld niet." ; "your money."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "<PLAYER>, ga zo" ; "<PLAYER>, keep it"
+	line "door! Ik geloof in" ; "up! I'm rooting"
+	cont "je, lieverd!" ; "for you, baby!"
 	done
 
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "Hallo?" ; "Hello?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.ELM"
-	cont "waiting for you?"
+	para "Oh, hoi, <PLAYER>!" ; "Oh, hi, <PLAYER>!"
+	line "Zat PROF.ELM niet" ; "Wasn't PROF.ELM"
+	cont "op je te wachten?" ; "waiting for you?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "Hallo?" ; "Hello?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
+	para "Oh, hoi, <PLAYER>!" ; "Oh, hi, <PLAYER>!"
+	line "Je hebt een grote" ; "You're on a big"
 
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "missie van PROF." ; "mission for PROF."
+	line "ELM? Doe je best!" ; "ELM? Be good!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "Hallo?" ; "Hello?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
+	para "Hoi, <PLAYER>! Als" ; "Hi, <PLAYER>! If"
+	line "je klusje klaar is" ; "you're done with"
 
-	para "your errand come"
-	line "on home, dear."
+	para "kun je naar huis" ; "your errand come"
+	line "komen, schat." ; "on home, dear."
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "Hallo?" ; "Hello?"
 
 	para "…… <PLAYER>?"
-	line "I heard from PROF."
+	line "PROF.ELM zei dat" ; "I heard from PROF."
 
-	para "ELM that you went"
-	line "on a long trip."
+	para "je op reis bent" ; "ELM that you went"
+	line "gegaan. Ik wou" ; "on a long trip."
 
-	para "I wish you would"
-	line "have told me…"
+	para "dat je mij iets" ; "I wish you would"
+	line "had gezegd…" ; "have told me…"
 
-	para "What about money?"
-	line "Should I save it?"
+	para "En je geld?" ; "What about money?"
+	line "Moet ik sparen?" ; "Should I save it?"
 	done

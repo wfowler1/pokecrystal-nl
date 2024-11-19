@@ -71,76 +71,77 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
-	line "of grass #MON."
+	text "ERIKA is een" ; "ERIKA is a master"
+	line "meester van gras-" ; "of grass #MON."
+	cont "#MON." ; 
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Ze rekent met je" ; "She'll make you"
+	line "af als je niet" ; "pay if you don't"
+	cont "uitkijkt." ; "watch yourself."
 	done
 
 CeladonPokecenter1FPharmacistText:
 	text "TEAM ROCKET's"
-	line "hideout is in the"
+	line "schuilplaats is" ; "hideout is in the"
 
-	para "basement of the"
-	line "GAME CORNER."
+	para "in de kelder van" ; "basement of the"
+	line "de SPELHOEK." ; "GAME CORNER."
 
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "Oh, wacht. Dat was" ; "Oh, wait. That was"
+	line "drie jaar geleden." ; "three years ago."
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "EUSINE: Hoi!" ; "EUSINE: Hi!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "Ik ben terug in" ; "I'm back visiting"
+	line "mijn geboortestad." ; "my hometown."
 
-	para "It's been quite a"
-	line "while."
+	para "Het is best een" ; "It's been quite a"
+	line "tijd geleden." ; "while."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, heb" ; "<PLAYER>, have you"
+	line "je het gehoord?" ; "heard?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "Er zijn geruchten" ; "There have been"
+	line "dat een regen-" ; "fresh rumors of a"
 
-	para "rainbow-colored"
-	line "#MON appearing"
-	cont "at TIN TOWER."
+	para "boogkleurige #-" ; "rainbow-colored"
+	line "MON bij TINTOREN" ; "#MON appearing"
+	cont "is verschenen." ; "at TIN TOWER."
 
-	para "I've just had my"
-	line "party healed, so"
+	para "Ik heb mijn" ; "I've just had my"
+	line "team genezen," ; "party healed, so"
 
-	para "now I'm headed to"
+	para "dus nu ga ik naar" ; "now I'm headed to"
 	line "ECRUTEAK."
 
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "Ik zie je daar," ; "I'll be seeing"
+	line "<PLAYER>!" ; "you, <PLAYER>!"
 	done
 
 NoBeastsText:
-	text "Oh, by the way,"
+	text "Oh, trouwens," ; "Oh, by the way,"
 	line "<PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
+	para "Heb je de legen-" ; "Have you caught"
+	line "darische #MON" ; "the legendary"
 
-	para "#MON RAIKOU and"
-	line "ENTEI?"
+	para "RAIKOU en ENTEI" ; "#MON RAIKOU and"
+	line "gevangen?" ; "ENTEI?"
 
 	para "<……><……><……>"
 
-	para "Okay…"
+	para "Oké…" ; "Okay…"
 
-	para "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	para "Als je er een" ; "If you catch even"
+	line "vangt, hoop ik dat" ; "one, I hope that"
+	cont "je het me vertelt." ; "you'll inform me."
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "Ik reken op je," ; "I'm counting on"
+	line "<PLAYER>!" ; "you, <PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

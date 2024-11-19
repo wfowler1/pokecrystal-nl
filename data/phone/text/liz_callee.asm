@@ -1,81 +1,81 @@
 LizAnswerPhoneText:
-	text "Hello, @"
+	text "Hallo, @" ; "Hello, @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text_start
-	line "speaking."
+	line "spreekt hier." ; "speaking."
 
 	para "Oh, <PLAY_G>."
-	line "Good morning."
+	line "Goedemorgen." ; "Good morning."
 	done
 
 LizAnswerPhoneDayText:
-	text "Hello, @"
+	text "Hallo, @" ; "Hello, @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text_start
-	line "speaking."
+	line "spreekt hier." ; "speaking."
 
 	para "Oh, <PLAY_G>."
-	line "How are you?"
+	line "Hoe gaat het?" ; "How are you?"
 	done
 
 LizAnswerPhoneNiteText:
-	text "Hello, @"
+	text "Hallo, @" ; "Hello, @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text_start
-	line "speaking."
+	line "spreekt hier." ; "speaking."
 
 	para "Oh, <PLAY_G>."
-	line "Good evening."
+	line "Goedenavond." ; "Good evening."
 	done
 
 LizGreetText:
-	text "Good morning,"
+	text "Goedemorgen," ; "Good morning,"
 	line "<PLAY_G>."
 
-	para "This is @"
+	para "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
-	line "Were you sleeping?"
+	line "Sliep je?" ; "Were you sleeping?"
 	done
 
 LizGreetDayText:
-	text "Hi, <PLAY_G>."
-	line "This is @"
+	text "Hoi, <PLAY_G>." ; "Hi, <PLAY_G>."
+	line "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
 
-	para "How are things"
-	line "going for you?"
+	para "Hoe gaat het met" ; "How are things"
+	line "jou?" ; "going for you?"
 	done
 
 LizGreetNiteText:
-	text "Good evening,"
+	text "Goedenavond," ; "Good evening,"
 	line "<PLAY_G>."
 
-	para "This is @"
+	para "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 3
 	text "."
-	line "Are you awake?"
+	line "Ben je wakker?" ; "Are you awake?"
 	done
 
 LizGenericText:
-	text "I had some time,"
-	line "so I called you."
+	text "Ik had even tijd," ; "I had some time,"
+	line "dus ik belde je." ; "so I called you."
 
-	para "So anyway, how are"
-	line "your #MON?"
+	para "Hoe dan ook, hoe" ; "So anyway, how are"
+	line "zijn je #MON?" ; "your #MON?"
 
-	para "Me, I take my"
+	para "Ik neem mijn" ; "Me, I take my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " to the"
+	text " elke" ; " to the"
 
-	para "#MON CENTER in"
-	line "VIOLET every day,"
+	para "dag naar het" ; "#MON CENTER in"
+	line "#MONCENTRUM." ; "VIOLET every day,"
 
-	para "so it's doing just"
-	line "fantastic!"
+	para "Daar voelt ie zich" ; "so it's doing just"
+	line "fantastisch door!" ; "fantastic!"
 
-	para "I'm friends with"
-	line "the receptionist!"
+	para "Ik ben bevriend" ; "I'm friends with"
+	line "met de receptie!" ; "the receptionist!"
 	done

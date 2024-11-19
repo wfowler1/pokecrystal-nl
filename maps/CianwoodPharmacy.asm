@@ -39,35 +39,35 @@ CianwoodPharmacyBookshelf:
 	jumpstd DifficultBookshelfScript
 
 PharmacistGiveSecretpotionText:
-	text "Your #MON ap-"
-	line "pear to be fine."
+	text "Je #MON lijken" ; "Your #MON ap-"
+	line "gezond." ; "pear to be fine."
 
-	para "Is something wor- "
-	line "rying you?"
+	para "Maak je je ergens" ; "Is something wor- "
+	line "zorgen om?" ; "rying you?"
 
 	para "…"
 
-	para "The LIGHTHOUSE"
-	line "#MON is in"
-	cont "trouble?"
+	para "De VUURTOREN" ; "The LIGHTHOUSE"
+	line "#MON is in" ; "#MON is in"
+	cont "nood?" ; "trouble?"
 
-	para "I got it!"
+	para "Ik heb het!" ; "I got it!"
 
-	para "This ought to do"
-	line "the trick."
+	para "Dit zal" ; "This ought to do"
+	line "helpen." ; "the trick."
 	done
 
 ReceivedSecretpotionText:
-	text "<PLAYER> received"
-	line "SECRETPOTION."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "GEHEIMEDRANK." ; "SECRETPOTION."
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SECRETPOTION is"
-	line "a tad too strong."
+	text "Mijn GEHEIMEDRANK" ; "My SECRETPOTION is"
+	line "is vrij sterk. Ik" ; "a tad too strong."
 
-	para "I only offer it in"
-	line "an emergency."
+	para "gebruik het alleen" ; "I only offer it in"
+	line "in noodgevallen." ; "an emergency."
 	done
 
 CianwoodPharmacy_MapEvents:

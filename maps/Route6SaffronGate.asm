@@ -27,32 +27,32 @@ Route6SaffronGuardScript:
 	end
 
 Route6SaffronGuardWelcomeText:
-	text "Welcome to SAFFRON"
-	line "CITY, home of the"
-	cont "MAGNET TRAIN!"
+	text "Welkom in SAFFRON" ; "Welcome to SAFFRON"
+	line "CITY, thuisbasis" ; "CITY, home of the"
+	cont "van de ZWEEFTREIN!" ; "MAGNET TRAIN!"
 
-	para "…That's what I'd"
-	line "normally say, but"
+	para "…Dat zou ik nor-" ; "…That's what I'd"
+	line "maal gesproken" ; "normally say, but"
 
-	para "the MAGNET TRAIN"
-	line "isn't running now."
+	para "zeggen, maar de" ; "the MAGNET TRAIN"
+	line "ZWEEFTREIN rijdt" ; "isn't running now."
 
-	para "It's not getting"
-	line "any electricity"
+	para "nu niet. Het heeft" ; "It's not getting"
+	line "geen elektriciteit" ; "any electricity"
 
-	para "because there's"
-	line "something wrong"
+	para "omdat er iets" ; "because there's"
+	line "mis is met de" ; "something wrong"
 
-	para "with the POWER"
-	line "PLANT."
+	para "ENERGIECENTRALE." ; "with the POWER"
+	line "" ; "PLANT."
 	done
 
 Route6SaffronGuardMagnetTrainText:
-	text "The MAGNET TRAIN"
-	line "is the most famous"
+	text "De ZWEEFTREIN is" ; "The MAGNET TRAIN"
+	line "het meest beroemde" ; "is the most famous"
 
-	para "thing about SAF-"
-	line "FRON."
+	para "icoon van SAFFRON." ; "thing about SAF-"
+	line "" ; "FRON."
 	done
 
 Route6SaffronGate_MapEvents:

@@ -55,11 +55,12 @@ CherrygroveMartCooltrainerMText_PokeBallsInStock:
 	done
 
 CherrygroveMartYoungsterText:
-	text "ik #MON vangen!" ; "When I was walking"
-	line "vergiftigde mijn" ; "in the grass, a"
+	text "Toen ik door het" ; "When I was walking"
+	line "gras liep, ver-" ; "in the grass, a"
 
-	para "#MON toen ik in" ; "bug #MON poi-"
-	line "het gras liep!" ; "soned my #MON!"
+	para "giftigde een" ; "bug #MON poi-"
+	line "insect-#MON m'n" ; "soned my #MON!"
+	cont "eigen #MON!"
 
 	para "Ik bleef door-" ; "I just kept going,"
 	line "lopen, maar toen" ; "but then my"

@@ -49,19 +49,19 @@ SupernerdHughSeenText:
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, my mistake."
+	text "Sorry, mijn fout." ; "Sorry, my mistake."
 	done
 
 SupernerdHughAfterBattleText:
-	text "I'm investigating"
-	line "MT.MORTAR, but my"
-	cont "pal's gone AWOL."
+	text "IK onderzoek de" ; "I'm investigating"
+	line "VIJZELBERG, maar" ; "MT.MORTAR, but my"
+	cont "mijn maat is weg." ; "pal's gone AWOL."
 
-	para "Have you seen a"
-	line "trainer who has a"
+	para "Heb jij een" ; "Have you seen a"
+	line "trainer gezien met" ; "trainer who has a"
 
-	para "SLOWPOKE that can"
-	line "use STRENGTH?"
+	para "een SLOWPOKE die" ; "SLOWPOKE that can"
+	line "KRACHT kan?" ; "use STRENGTH?"
 	done
 
 MountMortar2FInside_MapEvents:

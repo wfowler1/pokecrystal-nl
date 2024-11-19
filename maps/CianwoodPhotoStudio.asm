@@ -26,24 +26,24 @@ CianwoodPhotoStudioFishingGuruScript:
 	end
 
 CianwoodPhotoStudioFishingGuruText_Question:
-	text "You have magnifi-"
-	line "cent #MON with"
-	cont "you."
+	text "Je hebt geweldige" ; "You have magnifi-"
+	line "#MON bij je." ; "cent #MON with"
+	; cont "you."
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "Wil je een foto" ; "How about a photo"
+	line "als souvenir?" ; "for a souvenir?"
 	done
 
 CianwoodPhotoStudioFishingGuruText_Yes:
-	text "OK! Big smile now!"
+	text "Oké! Lachen maar!" ; "OK! Big smile now!"
 	done
 
 CianwoodPhotoStudioFishingGuruText_No:
-	text "Oh, that's too"
-	line "bad. I thought it"
+	text "Oh, jammer. Ik" ; "Oh, that's too"
+	line "dacht dat het een" ; "bad. I thought it"
 
-	para "would be a great"
-	line "memento…"
+	para "leuke herinnering" ; "would be a great"
+	line "zou zijn…" ; "memento…"
 	done
 
 CianwoodPhotoStudio_MapEvents:

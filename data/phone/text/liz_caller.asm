@@ -1,307 +1,307 @@
 LizMonAlwaysWantsToNuzzleText:
-	text "Oh, you have to"
-	line "hear this."
+	text "Oh, dit moet je" ; "Oh, you have to"
+	line "horen." ; "hear this."
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
-	line "so adorable!"
+	line "zo aandoenlijk!" ; "so adorable!"
 
-	para "It always wants to"
-	line "nuzzle me!"
+	para "Het wil altijd met" ; "It always wants to"
+	line "me knuffelen!" ; "nuzzle me!"
 	done
 
 LizDefeatedMonText:
-	text "And, and! Um…"
+	text "En, en! Um…" ; "And, and! Um…"
 
-	para "We beat a wild"
+	para "We versloegen een" ; "We beat a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " with"
+	text "met" ; " with"
 
-	para "just one hit a"
-	line "little while ago."
+	para "maar één klap" ; "just one hit a"
+	line "laatst." ; "little while ago."
 
-	para "We felt sorry for"
-	line "it, though."
+	para "We kregen er mede-" ; "We felt sorry for"
+	line "lijden van, wel." ; "it, though."
 	done
 
 LizLostAMonText:
-	text "And, and! Uh…"
+	text "En, en! Uh…" ; "And, and! Uh…"
 
-	para "We just saw a"
-	line "really gorgeous"
+	para "We zagen een" ; "We just saw a"
+	line "adembenemende" ; "really gorgeous"
 	cont "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "But I was on the"
-	line "phone, so it got"
+	para "Maar ik was aan" ; "But I was on the"
+	line "het bellen, dus" ; "phone, so it got"
 
-	para "away. It made us"
-	line "really angry!"
+	para "het vluchtte. We" ; "away. It made us"
+	line "waren woedend!" ; "really angry!"
 	done
 
 LizBattleRematchText:
-	text "Hi! Do you have"
-	line "some free time?"
+	text "Hoi! Heb je wat" ; "Hi! Do you have"
+	line "vrije tijd?" ; "some free time?"
 
-	para "I've got all sorts"
-	line "of time. If you're"
+	para "Ik heb alle tijd" ; "I've got all sorts"
+	line "van de wereld. Als" ; "of time. If you're"
 
-	para "free, would you"
-	line "like to battle?"
+	para "je tijd hebt, wil" ; "free, would you"
+	line "je dan vechten?" ; "like to battle?"
 
-	para "I'll be waiting on"
+	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "Let me know when"
-	line "you get here!"
+	para "Laat me weten als" ; "Let me know when"
+	line "je er bent!" ; "you get here!"
 	done
 
 LizWrongNumberText:
-	text "Hi, TANIA. How are"
-	line "you? This is LIZ."
+	text "Hoi, TANIA, hoe" ; "Hi, TANIA. How are"
+	line "gaat het? Met LIZ." ; "you? This is LIZ."
 
-	para "I'm fine, but I'm"
-	line "bored silly!"
+	para "Alles prima, maar," ; "I'm fine, but I'm"
+	line "ik verveel me suf!" ; "bored silly!"
 
-	para "Huh… Wrong number?"
-	line "Oops! Sorry!"
+	para "Huh… Fout nummer?" ; "Huh… Wrong number?"
+	line "Oeps! Sorry!" ; "Oops! Sorry!"
 	done
 
 LizHangUpText:
-	text "OK, I'll call you"
+	text "OK, ik bel je" ; "OK, I'll call you"
 	line "later!"
 	done
 
 LizRuinsOfAlphGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "I was listening to"
-	line "the radio in the"
+	para "Ik luisterde naar" ; "I was listening to"
+	line "de radio in de" ; "the radio in the"
 
-	para "RUINS OF ALPH when"
-	line "an odd broadcast"
+	para "RUÏNES VAN ALF" ; "RUINS OF ALPH when"
+	line "toen een gekke" ; "an odd broadcast"
 
-	para "suddenly cut it on"
-	line "the regular show."
+	para "uitzending mijn" ; "suddenly cut it on"
+	line "show onderbrak." ; "the regular show."
 
-	para "I wonder what it"
-	line "was. So strange!"
+	para "Wat zou het zijn" ; "I wonder what it"
+	line "geweest? Zo gek!" ; "was. So strange!"
 	done
 
 LizFalknerGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "Don't you think"
-	line "FALKNER of VIOLET"
+	para "Is FALKNER van de" ; "Don't you think"
+	line "VIOLET GYM niet" ; "FALKNER of VIOLET"
 
-	para "GYM is cool and"
-	line "handsome?"
+	para "cool en" ; "GYM is cool and"
+	line "aantrekkelijk?" ; "handsome?"
 
-	para "But they say his"
-	line "dad, who's out"
+	para "Ze zeggen dat zijn" ; "But they say his"
+	line "vader, die ergens" ; "dad, who's out"
 
-	para "training on the"
-	line "road, is even more"
+	para "traint, nog cooler" ; "training on the"
+	line "en aantrekkelijker" ; "road, is even more"
 
-	para "cool and handsome"
-	line "than FALKNER."
+	para "is dan zelfs" ; "cool and handsome"
+	line "FALKNER." ; "than FALKNER."
 
-	para "I wish I could"
-	line "meet him!"
+	para "Kon ik hem maar" ; "I wish I could"
+	line "ontmoeten!" ; "meet him!"
 	done
 
 LizEarlGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "Do you know EARL,"
-	line "the teacher who"
+	para "Ken je EARL, de" ; "Do you know EARL,"
+	line "leraar die de" ; "the teacher who"
 
-	para "runs the #MON"
-	line "ACADEMY in VIOLET?"
+	para "#MON-ACADEMIE" ; "runs the #MON"
+	line "in VIOLET heeft?" ; "ACADEMY in VIOLET?"
 
-	para "I saw him doing"
-	line "pirouettes while"
+	para "Ik zag dat hij" ; "I saw him doing"
+	line "pirouettes maakte" ; "pirouettes while"
 
-	para "he was running. It"
-	line "was wildly funny!"
+	para "tijdens 't rennen." ; "he was running. It"
+	line "Het was hilarisch!" ; "was wildly funny!"
 	done
 
 LizSurfPikachuGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "I collect #MON"
-	line "plush dolls."
+	para "Ik verzamel" ; "I collect #MON"
+	line "#MON-knuffels." ; "plush dolls."
 
-	para "But I can't seem"
-	line "to get a hold of a"
+	para "Maar ik kan maar" ; "But I can't seem"
+	line "geen SURFPIKACHU-" ; "to get a hold of a"
 
-	para "SURF PIKACHU DOLL."
-	line "None of my friends"
+	para "POP vinden. Geen" ; "SURF PIKACHU DOLL."
+	line "van mijn vrienden" ; "None of my friends"
 
-	para "have it. It must"
-	line "be totally rare!"
+	para "heeft er een. Hij" ; "have it. It must"
+	line "is vast zeldzaam!" ; "be totally rare!"
 
-	para "You could really"
-	line "brag about it if"
-	cont "you had one."
+	para "Je kan opscheppen" ; "You could really"
+	line "als je er een zou" ; "brag about it if"
+	cont "hebben." ; "you had one."
 	done
 
 LizMooMooMilkGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "Do you know about"
-	line "MOOMOO MILK?"
+	para "Wel eens gehoord" ; "Do you know about"
+	line "van MOOMOO-MELK?" ; "MOOMOO MILK?"
 
-	para "You can buy it at"
-	line "MOOMOO FARM."
+	para "Het is te koop bij" ; "You can buy it at"
+	line "BOERDERIJ MOOMOO." ; "MOOMOO FARM."
 
-	para "It's supposed to"
-	line "be good for health"
+	para "Kennelijk is het" ; "It's supposed to"
+	line "hartstikke gezond" ; "be good for health"
 
-	para "and beauty."
-	line "I really want to"
+	para "en word je er mooi" ; "and beauty."
+	line "van. Ik wil het" ; "I really want to"
 
-	para "try some. I bet"
-	line "it's delicious!"
+	para "eens proberen." ; "try some. I bet"
+	line "Is vast heerlijk!" ; "it's delicious!"
 	done
 
 LizSalonGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "There's a #MON"
+	para "Er is een #MON-" ; "There's a #MON"
 	line "SALON in GOLDENROD"
 
-	para "that's run by two"
-	line "brothers."
+	para "die wordt beheerd" ; "that's run by two"
+	line "door twee broers." ; "brothers."
 
-	para "The older brother"
-	line "is good, but the"
+	para "De oudere broer is" ; "The older brother"
+	line "goed, maar de" ; "is good, but the"
 
-	para "younger one really"
-	line "isn't."
+	para "jongere eigenlijk" ; "younger one really"
+	line "niet echt." ; "isn't."
 
-	para "But sometimes the"
-	line "younger one does a"
+	para "Al levert de jonge" ; "But sometimes the"
+	line "broer soms beter" ; "younger one does a"
 
-	para "better job than"
-	line "his brother."
+	para "werk dan de" ; "better job than"
+	line "oudere." ; "his brother."
 
-	para "Every time I go, I"
-	line "have a hard time"
+	para "Steeds als ik" ; "Every time I go, I"
+	line "langsga, twijfel" ; "have a hard time"
 
-	para "trying to decide"
-	line "whom I should use…"
+	para "ik over wie mij" ; "trying to decide"
+	line "moet knippen…" ; "whom I should use…"
 	done
 
 LizWhitneyGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
 	para "GOLDENROD GYM's"
-	line "WHITNEY began"
+	line "WHITNEY begon pas" ; "WHITNEY began"
 
-	para "battling only a"
-	line "little while ago!"
+	para "recent met" ; "battling only a"
+	line "vechten!" ; "little while ago!"
 
-	para "But the #MON"
-	line "LEAGUE chose her"
-	cont "as a GYM LEADER!"
+	para "Toch koos de #-" ; "But the #MON"
+	line "MON-LEAGUE haar" ; "LEAGUE chose her"
+	cont "als GYMLEIDER!" ; "as a GYM LEADER!"
 
-	para "I bet she must be"
-	line "totally talented."
+	para "Ik wed dat ze heel" ; "I bet she must be"
+	line "getalenteerd is." ; "totally talented."
 	done
 
 LizBugCatchingContestGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "Have you ever"
-	line "taken part in a"
+	para "Deed je ooit mee" ; "Have you ever"
+	line "aan het" ; "taken part in a"
 
-	para "Bug-Catching"
-	line "Contest at the"
-	cont "NATIONAL PARK?"
+	para "KEVERTOERNOOI" ; "Bug-Catching"
+	line "in het" ; "Contest at the"
+	cont "NATIONAAL PARK?" ; "NATIONAL PARK?"
 
-	para "I did once, but"
-	line "all I could catch"
-	cont "was a CATERPIE."
+	para "Ik wel, ooit, maar" ; "I did once, but"
+	line "ik ving toen enkel" ; "all I could catch"
+	cont "een CATERPIE." ; "was a CATERPIE."
 
-	para "But guess what!"
+	para "Maar raad eens!" ; "But guess what!"
 
-	para "I won with that"
-	line "CATERPIE. Isn't"
-	cont "that great?"
+	para "Ik won met die" ; "I won with that"
+	line "CATERPIE. Hoe gaaf" ; "CATERPIE. Isn't"
+	cont "is dat?" ; "that great?"
 	done
 
 LizBeautifulTrainerGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "I saw a beautiful"
+	para "Ik zag een fraaie" ; "I saw a beautiful"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "I wish I could"
-	line "become a beautiful"
+	para "Kon ik maar een" ; "I wish I could"
+	line "mooie" ; "become a beautiful"
 	cont "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " too."
+	text "worden." ; " too."
 	done
 
 LizForgotGossipText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "Uh… Um… Whoops!"
+	para "Uh… Um… Whoeps!" ; "Uh… Um… Whoops!"
 
-	para "I forgot what I"
-	line "was going to say!"
+	para "Ik ben vergeten" ; "I forgot what I"
+	line "wat ik zou zeggen!" ; "was going to say!"
 	done
 
 LizFawningOverMonText:
-	text "Listen, listen!"
+	text "Luister, luister!" ; "Listen, listen!"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "…"
-	line "it… so pretty…"
+	line "het… zo mooi…" ; "it… so pretty…"
 
-	para "and… giggle… so"
-	line "awesome… yes… but…"
+	para "en… giechel… zo" ; "and… giggle… so"
+	line "stoer… ja… maar…" ; "awesome… yes… but…"
 
-	para "very much… eeek!"
-	line "And… lovely…"
+	para "echt heel… eeek!" ; "very much… eeek!"
+	line "en lieftallig…" ; "And… lovely…"
 
-	para "Just ravishing…"
-	line "Oh, too much!"
+	para "Zo verrukkelijk…" ; "Just ravishing…"
+	line "Oh, het is teveel!" ; "Oh, too much!"
 
-	para "…Hug it… sleeping…"
-	line "That's right…"
+	para "…Knuffels… Slapen…" ; "…Hug it… sleeping…"
+	line "Jazeker…" ; "That's right…"
 
-	para "pretty… sigh… So"
-	line "nice… Cute…"
+	para "mooi… zucht… Zo" ; "pretty… sigh… So"
+	line "leuk… Schattig…" ; "nice… Cute…"
 
-	para "…Oops! Look at the"
-	line "time! I chatted"
-	cont "too long!"
+	para "Oeps! Kijk naar de" ; "…Oops! Look at the"
+	line "tijd! Ik heb te" ; "time! I chatted"
+	cont "lang gekletst!" ; "too long!"
 
-	para "I'm sorry I took"
-	line "so much of your"
+	para "Sorry dat ik zo-" ; "I'm sorry I took"
+	line "veel de tijd nam!" ; "so much of your"
 
-	para "time!"
-	line "I love chatting!"
+	para "Ik ben gewoon dol" ; "time!"
+	line "op kletsen!" ; "I love chatting!"
 	done
 
 LizReminderText:
-	text "I've got too much"
-	line "time on my hands!"
+	text "Ik heb gewoon" ; "I've got too much"
+	line "teveel vrije tijd!" ; "time on my hands!"
 
-	para "Let's battle right"
-	line "away!"
+	para "Laten we meteen" ; "Let's battle right"
+	line "vechten!" ; "away!"
 
-	para "I'll be waiting on"
+	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"

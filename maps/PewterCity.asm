@@ -67,86 +67,93 @@ PewterCityFruitTree2:
 	fruittree FRUITTREE_PEWTER_CITY_2
 
 PewterCityCooltrainerFText:
-	text "Have you visited"
-	line "PEWTER GYM?"
+	text "Heb je de PEWTER-" ; "Have you visited"
+	line "GYM bezocht?" ; "PEWTER GYM?"
 
-	para "The LEADER uses"
-	line "rock-type #MON."
+	para "De LEIDER gebruikt" ; "The LEADER uses"
+	line "rotstype #MON." ; "rock-type #MON."
 	done
 
 PewterCityBugCatcherText:
-	text "At night, CLEFAIRY"
-	line "come out to play"
-	cont "at MT.MOON."
+	text "CLEFAIRY komen" ; "At night, CLEFAIRY"
+	line "'s nachts naar" ; "come out to play"
+	cont "buiten om op MAAN-" ; "at MT.MOON."
+	cont "BERG te spelen." ; 
 
-	para "But not every"
-	line "night."
+	para "Maar niet elke" ; "But not every"
+	line "nacht." ; "night."
 	done
 
 PewterCityGrampsText:
-	text "Ah, you came all"
-	line "the way out here"
-	cont "from JOHTO?"
+	text "Ah, je komt" ; "Ah, you came all"
+	line "helemaal hier" ; "the way out here"
+	cont "vanuit JOHTO?" ; "from JOHTO?"
 
-	para "That brings back"
-	line "memories. When I"
+	para "Herinneringen" ; "That brings back"
+	line "komen naar boven." ; "memories. When I"
 
-	para "was young, I went"
-	line "to JOHTO to train."
+	para "Toen ik jong was," ; "was young, I went"
+	line "ging ik naar" ; "to JOHTO to train."
 
-	para "You remind me so"
-	line "much of what I was"
+	para "JOHTO om te" ; "You remind me so"
+	line "trainen. Je her-" ; "much of what I was"
 
-	para "like as a young"
-	line "man."
+	para "innert me aan hoe" ; "like as a young"
+	line "ik was toen ik" ; "man."
+	cont "jong was." ;
 
-	para "Here. I want you"
-	line "to have this item"
-	cont "I found in JOHTO."
+	para "Hier. Neem dit" ; "Here. I want you"
+	line "voorwerp dat ik" ; "to have this item"
+	cont "in JOHTO heb" ; "I found in JOHTO."
+	cont "gevonden." ;
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Going to new, un-"
-	line "known places and"
-	cont "seeing new people…"
+	text "Naar nieuwe, on-" ; "Going to new, un-"
+	line "bekende plekken" ; "known places and"
+	cont "gaan en nieuwe" ; "seeing new people…"
+	cont "mensen zien…" ;
 
-	para "Those are the joys"
-	line "of travel."
+	para "Dat is de vreugde" ; "Those are the joys"
+	line "van het reizen." ; "of travel."
 	done
 
 PewterCitySignText:
 	text "PEWTER CITY"
-	line "A Stone Gray City"
+	line "Een Steengrijze" ; "A Stone Gray City"
+	cont "Stad" ;
 	done
 
 PewterGymSignText:
 	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
+	line "#MONGYMLEIDER:"
+	cont "BROCK" ; "LEADER: BROCK"
 
-	para "The Rock Solid"
+	para "De Rotsvaste" ; "The Rock Solid"
 	line "#MON Trainer"
 	done
 
 PewterMuseumSignText:
-	text "There's a notice"
-	line "here…"
+	text "Er is een" ; "There's a notice"
+	line "briefje hier…" ; "here…"
 
-	para "PEWTER MUSEUM OF"
-	line "SCIENCE is closed"
-	cont "for renovations…"
+	para "PEWTER WETEN-" ; "PEWTER MUSEUM OF"
+	line "SCHAPSMUSEUM is" ; "SCIENCE is closed"
+	cont "gesloten voor" ; "for renovations…"
+	cont "renovatie…" ;
 	done
 
 PewterCityMtMoonGiftShopSignText:
-	text "There's a notice"
-	line "here…"
+	text "Er is een" ; "There's a notice"
+	line "briefje hier…" ; "here…"
 
-	para "MT.MOON GIFT SHOP"
-	line "NOW OPEN!"
+	para "MAANBERG-" ; "MT.MOON GIFT SHOP"
+	line "SOUVENIRWINKEL" ; "NOW OPEN!"
+	cont "NU OPEN!" ;
 	done
 
 PewterCityWelcomeSignText:
-	text "WELCOME TO"
+	text "WELKOM IN" ; "WELCOME TO"
 	line "PEWTER CITY!"
 	done
 

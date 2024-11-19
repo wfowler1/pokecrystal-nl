@@ -191,17 +191,20 @@ SentSomeToMomText:
 	text "<PLAYER> kreeg" ; "<PLAYER> got ¥@"
 	line "¥@"
 	text_decimal wBattleReward, 3, 6
-	text "voor de" ; text_start
+	text " voor de" ; text_start
 	cont "winst!" ; "for winning!"
-	cont "Beetje naar MAM!" ; "Sent some to MOM!"
+	cont "Beetje naar MAM" ; "Sent some to MOM!"
+	cont "gestuurd!"
 	prompt
 
 SentHalfToMomText:
-	text "Helft naar MAM!" ; "Sent half to MOM!"
+	text "Helft naar MAM" ; "Sent half to MOM!"
+	cont "gestuurd!"
 	prompt
 
 SentAllToMomText:
-	text "Alles naar MAM!" ; "Sent all to MOM!"
+	text "Alles naar MAM" ; "Sent all to MOM!"
+	cont "gestuurd!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced

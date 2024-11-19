@@ -17,18 +17,19 @@ VermilionMagnetTrainSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 VermilionMagnetTrainSpeechHousePokefanFText:
-	text "Do you know about"
-	line "the MAGNET TRAIN?"
+	text "Ken je de" ; "Do you know about"
+	line "MAGNEETTREIN?" ; "the MAGNET TRAIN?"
 
-	para "It's a railway"
-	line "that goes to GOL-"
-	cont "DENROD in JOHTO."
+	para "Het is een spoor-" ; "It's a railway"
+	line "lijn die naar" ; "that goes to GOL-"
+	cont "GOLDENROD in" ; "DENROD in JOHTO."
+	cont "JOHHTO gaat."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
-	text "I want to go to"
-	line "SAFFRON to see"
-	cont "the MAGNET TRAIN."
+	text "Ik wil naar" ; "I want to go to"
+	line "SAFFRON en de" ; "SAFFRON to see"
+	cont "MAGNEETTREIN zien." ; "the MAGNET TRAIN."
 	done
 
 VermilionMagnetTrainSpeechHouse_MapEvents:

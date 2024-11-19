@@ -10,16 +10,16 @@ Route2GateScientistScript:
 	jumptextfaceplayer Route2GateScientistText
 
 Route2GateScientistText:
-	text "Are you <PLAY_G>?"
+	text "Ben jij <PLAY_G>?" ; "Are you <PLAY_G>?"
 
-	para "I work as PROF."
-	line "OAK's AIDE."
+	para "Ik werk als PROF." ; "I work as PROF."
+	line "OAK's HULP." ; "OAK's AIDE."
 
-	para "I had no idea that"
-	line "you were out here."
+	para "Ik had geen idee" ; "I had no idea that"
+	line "dat je hier was." ; "you were out here."
 
-	para "PROF.OAK's LAB is"
-	line "nearby in PALLET"
+	para "PROF.OAK's LAB is" ; "PROF.OAK's LAB is"
+	line "dichtbij in PALLET" ; "nearby in PALLET"
 	cont "TOWN."
 	done
 

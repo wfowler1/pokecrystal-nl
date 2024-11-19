@@ -16,25 +16,26 @@ HouseForSaleSign:
 	jumptext HouseForSaleSignText
 
 Route5PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "De weg is gesloten" ; "The road is closed"
+	line "tot het probleem" ; "until the problem"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "bij de ENERGIE-" ; "at the POWER PLANT"
+	line "CENTRALE is" ; "is solved."
+	cont "opgelost." ;
 	done
 
 Route5UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "ONDERGRONDS PAD" ; "UNDERGROUND PATH"
 
 	para "CERULEAN CITY -"
 	line "VERMILION CITY"
 	done
 
 HouseForSaleSignText:
-	text "What's this?"
+	text "Wat is dit?" ; "What's this?"
 
-	para "House for Sale…"
-	line "Nobody lives here."
+	para "Huis te koop…" ; "House for Sale…"
+	line "Het is onbewoond." ; "Nobody lives here."
 	done
 
 Route5_MapEvents:

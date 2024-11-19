@@ -560,7 +560,7 @@ Route32CooltrainerMText_VioletGym:
 	text "De #MON GYM" ; "Have you gone to"
 	line "al bezocht?" ; "the #MON GYM?"
 
-	para "Test er je" ; "You can test your"
+	para "Stel er je" ; "You can test your"
 	line "#MON en jezelf" ; "#MON and your-"
 	cont "op de proef." ; "self there."
 

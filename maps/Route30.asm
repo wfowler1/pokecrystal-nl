@@ -278,7 +278,7 @@ YoungsterJoey1SeenText:
 	cont "nieuwe #MON."
 
 	para "Wacht! Jij ziet er"
-	line "zwak uit! Kom,,"
+	line "zwak uit! Kom,"
 	cont "laten we knokken!"
 	done
 
@@ -356,7 +356,7 @@ Route30YoungsterText_EveryoneIsBattling:
 
 Route30CooltrainerFText:
 	text "Ik train zelf" ; "I'm not a trainer."
-	line " niet."
+	line "niet."
 
 	para "Kijk je een trai-" ; "But if you look"
 	line "ner in de ogen," ; "one in the eyes,"

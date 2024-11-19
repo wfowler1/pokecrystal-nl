@@ -1225,7 +1225,7 @@ Text_BallCaught::
 	text "Hebbes! @" ; "Gotcha! @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "was gevangen!@" ; "was caught!@"
+	line "is gevangen!@" ; "was caught!@"
 	sound_caught_mon
 	text_end
 

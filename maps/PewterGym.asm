@@ -74,136 +74,141 @@ PewterGymStatue:
 	jumpstd GymStatue2Script
 
 BrockIntroText:
-	text "BROCK: Wow, it's"
-	line "not often that we"
+	text "BROCK: Wauw, we" ; "BROCK: Wow, it's"
+	line "krijgen niet vaak" ; "not often that we"
 
-	para "get a challenger"
-	line "from JOHTO."
+	para "een uitdager uit" ; "get a challenger"
+	line "JOHTO." ; "from JOHTO."
 
-	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	para "Ik ben BROCK, de" ; "I'm BROCK, the"
+	line "PEWTER-GYMLEIDER." ; "PEWTER GYM LEADER."
 
-	para "I'm an expert on"
-	line "rock-type #MON."
+	para "Ik ben een expert" ; "I'm an expert on"
+	line "in rotstype-" ; "rock-type #MON."
+	cont "#MON." ;
 
-	para "My #MON are im-"
-	line "pervious to most"
+	para "Mijn #MON zijn" ; "My #MON are im-"
+	line "niet vatbaar voor" ; "pervious to most"
 
-	para "physical attacks."
-	line "You'll have a hard"
+	para "de meeste fysieke" ; "physical attacks."
+	line "aanvallen. Je zal" ; "You'll have a hard"
 
-	para "time inflicting"
-	line "any damage."
+	para "het lastig hebben" ; "time inflicting"
+	line "om schade te doen." ; "any damage."
 
-	para "Come on!"
+	para "Kom maar op!" ; "Come on!"
 	done
 
 BrockWinLossText:
-	text "BROCK: Your #-"
-	line "MON's powerful at-"
-	cont "tacks overcame my"
-	cont "rock-hard defense…"
+	text "BROCK: De sterke" ; "BROCK: Your #-"
+	line "aanvallen van je" ; "MON's powerful at-"
+	cont "#MON overwonnen" ; "tacks overcame my"
+	cont "mijn steenharde" ; "rock-hard defense…"
+	cont "verdediging…" ;
 
-	para "You're stronger"
-	line "than I expected…"
+	para "Je bent sterker" ; "You're stronger"
+	line "dan ik dacht…" ; "than I expected…"
 
-	para "Go ahead--take"
-	line "this BADGE."
+	para "Ga je gang--neem" ; "Go ahead--take"
+	line "deze BADGE." ; "this BADGE."
 	done
 
 ReceivedBoulderBadgeText:
-	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "ROTSBADGE." ; "BOULDERBADGE."
 	done
 
 BrockBoulderBadgeText:
 	text "BROCK: <PLAY_G>,"
-	line "thanks. I enjoyed"
+	line "dank je. Ik ge-" ; "thanks. I enjoyed"
 
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
+	para "noot van ons ge-" ; "battling you, even"
+	line "vecht, hoewel ik" ; "though I am a bit"
+	cont "een beetje van" ; "upset."
+	cont "slag ben." ;
 
-	para "That BOULDERBADGE"
-	line "will make your"
+	para "Die ROTSBADGE zal" ; "That BOULDERBADGE"
+	line "je #MON nog" ; "will make your"
 
-	para "#MON even more"
-	line "powerful."
+	para "krachtiger" ; "#MON even more"
+	line "maken." ; "powerful."
 	done
 
 BrockFightDoneText:
-	text "BROCK: The world"
-	line "is huge. There are"
+	text "BROCK: De wereld" ; "BROCK: The world"
+	line "is reusachtig. Er" ; "is huge. There are"
 
-	para "still many strong"
-	line "trainers like you."
+	para "zijn nog veel" ; "still many strong"
+	line "sterke trainers" ; "trainers like you."
+	cont "als jij." ;
 
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	para "Wacht maar." ; "Just wait and see."
+	line "Ik ga ook een" ; "I'm going to be-"
+	cont "stuk sterker" ; "come a lot strong-"
+	cont "worden." ; "er too."
 	done
 
 CamperJerrySeenText:
-	text "The trainers of"
-	line "this GYM use rock-"
-	cont "type #MON."
+	text "De trainers van" ; "The trainers of"
+	line "deze GYM gebruiken" ; "this GYM use rock-"
+	cont "rotstype-#MON." ; "type #MON."
 
-	para "The rock-type has"
-	line "high DEFENSE."
+	para "Het rotstype" ; "The rock-type has"
+	line "heeft hoge" ; "high DEFENSE."
+	cont "VERDEDIGING." ;
 
-	para "Battles could end"
-	line "up going a long"
+	para "Gevechten kunnen" ; "Battles could end"
+	line "wellicht lang" ; "up going a long"
 
-	para "time. Are you"
-	line "ready for this?"
+	para "duren. Ben je" ; "time. Are you"
+	line "hier klaar voor?" ; "ready for this?"
 	done
 
 CamperJerryBeatenText:
-	text "I have to win"
-	line "these battles…"
+	text "Ik moet deze ge-" ; "I have to win"
+	line "vechten winnen…" ; "these battles…"
 	done
 
 CamperJerryAfterBattleText:
-	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
+	text "Hé jij! Trainer" ; "Hey, you! Trainer"
+	line "uit JOHTO! BROCK" ; "from JOHTO! BROCK"
 
-	para "is tough. He'll"
-	line "punish you if you"
+	para "is pittig. Hij" ; "is tough. He'll"
+	line "zal je straffen" ; "punish you if you"
 
-	para "don't take him"
-	line "seriously."
+	para "als je hem niet" ; "don't take him"
+	line "serieus neemt." ; "seriously."
 	done
 
 PewterGymGuideText:
-	text "Yo! CHAMP in"
-	line "making! You're"
+	text "Yo! KAMPIOEN" ; "Yo! CHAMP in"
+	line "in het verschiet!" ; "making! You're"
 
-	para "really rocking."
-	line "Are you battling"
+	para "Je bent steengoed." ; "really rocking."
+	line "Neem je het op" ; "Are you battling"
 
-	para "the GYM LEADERS of"
-	line "KANTO?"
+	para "tegen GYMLEIDERS" ; "the GYM LEADERS of"
+	line "van KANTO?" ; "KANTO?"
 
-	para "They're strong and"
-	line "dedicated people,"
+	para "Ze zijn sterke en" ; "They're strong and"
+	line "toegewijde mensen," ; "dedicated people,"
 
-	para "just like JOHTO's"
-	line "GYM LEADERS."
+	para "net als JOHTO's" ; "just like JOHTO's"
+	line "GYMLEIDERS." ; "GYM LEADERS."
 	done
 
 PewterGymGuideWinText:
-	text "Yo! CHAMP in"
-	line "making! That GYM"
+	text "Yo! KAMPIOEN" ; "Yo! CHAMP in"
+	line "in het verschiet!" ; "making! That GYM"
 
-	para "didn't give you"
-	line "much trouble."
+	para "Die GYM gaf je" ; "didn't give you"
+	line "niet veel" ; "much trouble."
 
-	para "The way you took"
-	line "charge was really"
+	para "problemen. Hoe je" ; "The way you took"
+	line "de leiding nam was" ; "charge was really"
 
-	para "inspiring. I mean"
-	line "that seriously."
+	para "erg inspirerend." ; "inspiring. I mean"
+	line "Ik meen het." ; "that seriously."
 	done
 
 PewterGym_MapEvents:

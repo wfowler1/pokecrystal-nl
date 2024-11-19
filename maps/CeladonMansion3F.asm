@@ -82,22 +82,22 @@ CeladonMansion3FReferenceMaterial:
 	jumptext CeladonMansion3FReferenceMaterialText
 
 GameFreakGameDesignerText:
-	text "Is that right?"
+	text "Is dat zo?" ; "Is that right?"
 
-	para "I'm the GAME"
+	para "Ik ben de GAME-" ; "I'm the GAME"
 	line "DESIGNER!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't give up!"
+	para "Je #DEX vullen" ; "Filling up your"
+	line "is lastig, maar" ; "#DEX is tough,"
+	cont "geef niet op!" ; "but don't give up!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Excellent!"
-	line "You completed your"
-	cont "#DEX!"
+	text "Wauw! Geweldig!" ; "Wow! Excellent!"
+	line "Je hebt een" ; "You completed your"
+	cont "complete #DEX!" ; "#DEX!"
 
-	para "Congratulations!"
+	para "Gefeliciteerd!" ; "Congratulations!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
@@ -105,86 +105,90 @@ GameFreakGameDesignerPauseForDiplomaText:
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
-	text "The GRAPHIC ARTIST"
-	line "will print out a"
-	cont "DIPLOMA for you."
+	text "De GRAFISCH ONT-" ; "The GRAPHIC ARTIST"
+	line "WERPER zal een" ; "will print out a"
+	cont "DIPLOMA voor je" ; "DIPLOMA for you."
+	cont "printen." ;
 
-	para "You should go show"
-	line "it off."
+	para "Je zou ermee" ; "You should go show"
+	line "moeten pronken!" ; "it off."
 	done
 
 GameFreakGraphicArtistText:
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Ik ben de GRAFISCH" ; "I'm the GRAPHIC"
+	line "ONTWERPER." ; "ARTIST."
 
-	para "I drew you!"
+	para "Ik heb jou" ; "I drew you!"
+	line "getekend!" ;
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Ik ben de GRAFISCH" ; "I'm the GRAPHIC"
+	line "ONTWERPER." ; "ARTIST."
 
-	para "Oh, you completed"
-	line "your #DEX?"
+	para "Oh, je hebt je" ; "Oh, you completed"
+	line "#DEX voltooid?" ; "your #DEX?"
 
-	para "Want me to print"
-	line "out your DIPLOMA?"
+	para "Wil je dat ik" ; "Want me to print"
+	line "je DIPLOMA print?" ; "out your DIPLOMA?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Give me a shout if"
-	line "you want your"
-	cont "DIPLOMA printed."
+	text "Laat me weten" ; "Give me a shout if"
+	line "als je het DIPLOMA" ; "you want your"
+	cont "wil printen." ; "DIPLOMA printed."
 	done
 
 GameFreakGraphicArtistErrorText:
-	text "Something's wrong."
-	line "I'll have to can-"
-	cont "cel printing."
+	text "Er is iets mis." ; "Something's wrong."
+	line "Ik moet het print-" ; "I'll have to can-"
+	cont "en annuleren." ; "cel printing."
 	done
 
 GameFreakProgrammerText:
-	text "Who, me? I'm the"
-	line "PROGRAMMER."
+	text "Wie, ik? Ik ben de" ; "Who, me? I'm the"
+	line "PROGRAMMEUR." ; "PROGRAMMER."
 
-	para "Play the slot"
-	line "machines!"
+	para "Speel op de" ; "Play the slot"
+	line "spelautomaten!" ; "machines!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Aren't the TWINS"
-	line "adorable?"
+	text "Zijn de TWEELINGEN" ; "Aren't the TWINS"
+	line "niet schattig?" ; "adorable?"
 
-	para "JASMINE's pretty"
-	line "too."
+	para "JASMINE is ook" ; "JASMINE's pretty"
+	line "leuk." ; "too."
 
-	para "Oh, I love them!"
+	para "Oh, ik hou van ze!" ; "Oh, I love them!"
 	done
 
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
-	line "DEVELOPMENT ROOM"
+	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
+	cont "RUIMTE" ;
 	done
 
 CeladonMansion3FDrawingText:
-	text "It's a detailed"
-	line "drawing of a"
-	cont "pretty girl."
+	text "Het is een" ; "It's a detailed"
+	line "tekening van een" ; "drawing of a"
+	cont "knappe meid." ; "pretty girl."
 	done
 
 CeladonMansion3FGameProgramText:
-	text "It's the game"
-	line "program. Messing"
+	text "Het is het game-" ; "It's the game"
+	line "programma. Ermee" ; "program. Messing"
 
-	para "with it could put"
-	line "a bug in the game!"
+	para "rommelen kan zorg-" ; "with it could put"
+	line "en voor een bug" ; "a bug in the game!"
+	cont "in de game!" ;
 	done
 
 CeladonMansion3FReferenceMaterialText:
-	text "It's crammed with"
-	line "reference materi-"
-	cont "als. There's even"
-	cont "a # DOLL."
+	text "Het zit vol met" ; "It's crammed with"
+	line "referentiemate-" ; "reference materi-"
+	cont "riaal. Er is zelfs" ; "als. There's even"
+	cont "een #POP." ; "a # DOLL."
 	done
 
 CeladonMansion3F_MapEvents:
