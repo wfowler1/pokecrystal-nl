@@ -1,67 +1,67 @@
 GinaAskNumber1Text:
-	text "Whenever I see a"
-	line "strong trainer, I"
+	text "Als ik een sterke" ; "Whenever I see a"
+	line "trainer zie, wil" ; "strong trainer, I"
 
-	para "want to be their"
-	line "cheerleader."
+	para "ik hun cheerleader" ; "want to be their"
+	line "worden." ; "cheerleader."
 
-	para "When I'm on my"
-	line "walk, I sometimes"
-	cont "pick up items."
+	para "Tijdens het wan-" ; "When I'm on my"
+	line "delen pak ik soms" ; "walk, I sometimes"
+	cont "voorwerpen op." ; "pick up items."
 
-	para "If I get anything,"
-	line "you can have it!"
+	para "Als ik iets vind," ; "If I get anything,"
+	line "mag je het hebben!" ; "you can have it!"
 
-	para "Want to give me"
-	line "your number?"
+	para "Zal ik je mijn" ; "Want to give me"
+	line "nummer geven?" ; "your number?"
 
-	para "I'll call as soon"
-	line "as I get anything."
+	para "Ik bel zodra ik" ; "I'll call as soon"
+	line "iets vind." ; "as I get anything."
 	done
 
 GinaAskNumber2Text:
-	text "If I find an item,"
-	line "you can have it!"
+	text "Gevonden spullen" ; "If I find an item,"
+	line "geef ik aan jou!" ; "you can have it!"
 
-	para "Want to give me"
-	line "your number?"
+	para "Zal ik je mijn" ; "Want to give me"
+	line "nummer geven?" ; "your number?"
 	done
 
 GinaNumberAcceptedText:
-	text "I'll call as soon"
-	line "as I get anything!"
+	text "Ik bel zodra ik" ; "I'll call as soon"
+	line "iets vind!" ; "as I get anything!"
 	done
 
 GinaNumberDeclinedText:
-	text "Is that so? Well,"
-	line "I'll still be"
-	cont "rooting for you!"
+	text "Is het heus? Nou," ; "Is that so? Well,"
+	line "ik blijf je gewoon" ; "I'll still be"
+	cont "aanmoedigen!" ; "rooting for you!"
 	done
 
 GinaPhoneFullText:
-	text "But your phone is"
-	line "all filled up!"
+	text "Je telefoon zit" ; "But your phone is"
+	line "helemaal vol." ; "all filled up!"
 	done
 
 GinaRematchText:
-	text "I've been waiting!"
+	text "Ik wachtte op je!" ; "I've been waiting!"
 
-	para "I've gotten a bit"
-	line "better at this!"
+	para "Ik ben hier beter" ; "I've gotten a bit"
+	line "in geworden!" ; "better at this!"
 	done
 
 GinaGiftText:
-	text "So you're finally"
-	line "here!"
+	text "Je bent er" ; "So you're finally"
+	line "eindelijk!" ; "here!"
 
-	para "I think this will"
-	line "make you happy."
+	para "Dit maakt je wel" ; "I think this will"
+	line "blij, denk ik." ; "make you happy."
 	done
 
 GinaPackFullText:
-	text "Your PACK looks"
-	line "completely full."
+	text "Je TAS zit" ; "Your PACK looks"
+	line "helemaal vol." ; "completely full."
 
-	para "I'll have to hold"
-	line "on to this."
+	para "Ik bewaar dit wel" ; "I'll have to hold"
+	line "voor je." ; "on to this."
 	done

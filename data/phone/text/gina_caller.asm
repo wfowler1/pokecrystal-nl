@@ -1,118 +1,118 @@
 GinaGettingInSyncWithMonText:
-	text "My @"
+	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " and"
-	line "I are getting more"
+	text "en" ; " and"
+	line "ik beginnen elkaar" ; "I are getting more"
 
-	para "in sync with each"
-	line "other."
+	para "goed aan te" ; "in sync with each"
+	line "voelen." ; "other."
 	done
 
 GinaDefeatedMonText:
-	text "We battled a wild"
+	text "We versloegen een" ; "We battled a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " and"
+	text "in" ; " and"
 
-	para "managed to drop it"
-	line "in a close match."
+	para "een spannend" ; "managed to drop it"
+	line "gevecht." ; "in a close match."
 
-	para "We're getting into"
-	line "the groove!"
+	para "We krijgen de" ; "We're getting into"
+	line "smaak te pakken!" ; "the groove!"
 	done
 
 GinaLostAMonText:
-	text "But, you know?"
+	text "Maar, weet je?" ; "But, you know?"
 
-	para "I still haven't"
-	line "caught @"
+	para "Ik heb nog geen" ; "I still haven't"
+	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text " gevangen."
 
-	para "It's getting past"
-	line "frustrating…"
+	para "Wat onwijs" ; "It's getting past"
+	line "frustrerend…" ; "frustrating…"
 	done
 
 GinaBattleRematchText:
-	text "Would you be my"
-	line "practice partner"
-	cont "again sometime?"
+	text "Wil je anders eens" ; "Would you be my"
+	line "mijn oefenpartner" ; "practice partner"
+	cont "zijn?" ; "again sometime?"
 
-	para "I'll be waiting on"
+	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "…Could you take it"
-	line "a little easier on"
-	cont "me next time?"
+	para "…Kun je volgende" ; "…Could you take it"
+	line "keer iets minder" ; "a little easier on"
+	cont "je best doen?" ; "me next time?"
 	done
 
 GinaHangUpText:
-	text "Bye! Let's chat"
-	line "again!"
+	text "Doei! We spreken" ; "Bye! Let's chat"
+	line "snel!" ; "again!"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "Have you heard"
-	line "about TEAM ROCKET?"
+	text "Heb je gehoord van" ; "Have you heard"
+	line "TEAM ROCKET?" ; "about TEAM ROCKET?"
 
-	para "They've taken over"
-	line "the RADIO TOWER in"
-	cont "GOLDENROD."
+	para "Ze namen de" ; "They've taken over"
+	line "RADIOTOREN in" ; "the RADIO TOWER in"
+	cont "GOLDENROD over." ; "GOLDENROD."
 
-	para "Are the people"
-	line "inside safe?"
+	para "Zijn de mensen" ; "Are the people"
+	line "daarbinnen veilig?" ; "inside safe?"
 	done
 
 GinaFoundItemText:
-	text "I picked up some-"
-	line "thing nice today."
+	text "Ik heb wat leuks" ; "I picked up some-"
+	line "opgepikt vandaag." ; "thing nice today."
 
-	para "I want you to have"
-	line "it, so I called!"
+	para "Je mag het hebben," ; "I want you to have"
+	line "daarom belde ik!" ; "it, so I called!"
 
-	para "You will come for"
-	line "it, won't you?"
+	para "Je komt er voor" ; "You will come for"
+	line "langs, toch?" ; "it, won't you?"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text " is"
-	line "where I am."
+	line "waar ik ben." ; "where I am."
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Sorry, I haven't"
-	line "found anything"
+	text "Sorry, ik heb" ; "Sorry, I haven't"
+	line "niks nuttigs" ; "found anything"
 
-	para "useful yet…"
-	line "I promise, if I"
+	para "gevonden…" ; "useful yet…"
+	line "Als ik iets heb," ; "I promise, if I"
 
-	para "find anything, you"
-	line "can have it!"
+	para "mag je het hebben!" ; "find anything, you"
+	line "Dat beloof ik." ; "can have it!"
 	done
 
 GinaReminderText:
 	text "Oh, <PLAY_G>!"
-	line "How soon can I"
+	line "Hoe snel kom je" ; "How soon can I"
 
-	para "expect to see you"
-	line "for our battle?"
+	para "hier naartoe voor" ; "expect to see you"
+	line "ons gevecht?" ; "for our battle?"
 
-	para "Don't forget,"
+	para "Niet vergeten," ; "Don't forget,"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 GinaComePickUpText:
-	text "I'm getting really"
-	line "impatient, waiting"
+	text "Ik word ongeduldig" ; "I'm getting really"
+	line "van het wachten om" ; "impatient, waiting"
 
-	para "to give you my"
-	line "present!"
+	para "je mijn cadeautje" ; "to give you my"
+	line "te geven!" ; "present!"
 
-	para "Hurry over to"
+	para "Kom snel naar" ; "Hurry over to"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
