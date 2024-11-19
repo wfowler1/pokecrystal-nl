@@ -141,7 +141,7 @@ VermilionCityName:   db "VERMILION<BSP>CITY@"
 CeladonCityName:     db "CELADON<BSP>CITY@"
 SaffronCityName:     db "SAFFRON<BSP>CITY@"
 FuchsiaCityName:     db "FUCHSIA<BSP>CITY@"
-CinnabarIslandName:  db "CINNABAR<BSP>EILAND" "CINNABAR<BSP>ISLAND@"
+CinnabarIslandName:  db "CINNABAR<BSP>EILAND" ; "CINNABAR<BSP>ISLAND@"
 IndigoPlateauName:   db "INDIGO<BSP>PLATEAU@"
 VictoryRoadName:     db "VICTORY<BSP>ROAD@"
 MtMoonName:          db "MAANBERG@" ; "MT.MOON@"
@@ -149,9 +149,9 @@ RockTunnelName:      db "ROTSTUNNEL@"
 LavRadioTowerName:   db "LAV<BSP>RADIOTOREN@" ; "LAV<BSP>RADIO TOWER@"
 SilphCoName:         db "SILPH CO.@" ; unreferenced
 SafariZoneName:      db "SAFARI-ZONE@" ; "SAFARI ZONE@" ; unreferenced
-SeafoamIslandsName:  db "ZEESCHUIM<BSP>EILANDEN" "SEAFOAM<BSP>ISLANDS@"
+SeafoamIslandsName:  db "ZEESCHUIM<BSP>EILANDEN" ; "SEAFOAM<BSP>ISLANDS@"
 PokemonMansionName:  db "#MON<BSP>MANSION@" ; unreferenced
-CeruleanCaveName:    db "CERULEAN<BSP>GROT@" "CERULEAN<BSP>CAVE@" ; unreferenced
+CeruleanCaveName:    db "CERULEAN<BSP>GROT@" ; "CERULEAN<BSP>CAVE@" ; unreferenced
 Route1Name:          db "ROUTE 1@"
 Route2Name:          db "ROUTE 2@"
 Route3Name:          db "ROUTE 3@"
@@ -204,7 +204,7 @@ BurnedTowerName:     db "VERBRANDE<BSP>TOREN@" ; "BURNED<BSP>TOWER@"
 FastShipName:        db "SNELSCHIP@" ; "FAST SHIP"
 ViridianForestName:  db "VIRIDIAN<BSP>FOREST@" ; unreferenced
 DiglettsCaveName:    db "DIGLETT'S<BSP>CAVE@"
-TohjoFallsName:      db "TOHJO<BSP>WATERVAL@" "TOHJO FALLS@"
+TohjoFallsName:      db "TOHJO<BSP>WATERVAL@" ; "TOHJO FALLS@"
 UndergroundName:     db "ONDERGRONDS@" ; "UNDERGROUND"
 BattleTowerName:     db "GEVECHTS<BSP>TOREN@" ; "BATTLE<BSP>TOWER@"
 SpecialMapName:      db "SPECIAAL@" ; "SPECIAL@"
