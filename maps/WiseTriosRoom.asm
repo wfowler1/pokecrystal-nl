@@ -141,12 +141,12 @@ WiseTriosRoomSage1Text:
 
 WiseTriosRoomSage2Text:
 	text "We trainen bij de" ; "We train at the"
-	line "VERBRANDE TOREN, maar" ; "BURNED TOWER, but"
+	line "VERBRANDE TOREN," ; "BURNED TOWER, but"
 
-	para "hebben nog nooit" "we've never heard"
-	line "gehoord dat er" ; "of a hole opening"
+	para "maar hebben nog" ; "we've never heard"
+	line "nooit gehoord dat" ; "of a hole opening"
 
-	para "zomaar een gat" ; "up there before."
+	para "er zomaar een gat" ; "up there before."
 	line "opende. Dat heeft" ; "It must have been"
 
 	para "vast iemand expres" ; "deliberately made"
@@ -182,8 +182,8 @@ SageGakuSeenText:
 	text "Volgens de legen-" ; "Legend has it that"
 	line "des zal er een" ; "upon the emergence"
 
-	para "trainer opstaan die" ; "of a trainer who"
-	line "de zielen van" ; "has the ability to"
+	para "trainer opstaan" ; "of a trainer who"
+	line "die de zielen van" ; "has the ability to"
 
 	para "#MON kan raken." ; "touch the souls of"
 	line "Een #MON zal" ; "#MON, a #MON"
