@@ -129,217 +129,217 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Astounding…"
+	text "Verbluffend…" ; "Astounding…"
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU have arisen"
-	cont "from their sleep…"
+	para "SUICUNE, ENTEI en" ; "SUICUNE, ENTEI and"
+	line "RAIKOU zijn ein-" ; "RAIKOU have arisen"
+	cont "delijk ontwaakt…" ; "from their sleep…"
 
-	para "Is the legend"
-	line "coming true?"
+	para "Komt de legende" ; "Is the legend"
+	line "echt uit?" ; "coming true?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "We train at the"
-	line "BURNED TOWER, but"
+	text "We trainen bij de" ; "We train at the"
+	line "VERBRANDE TOREN, maar" ; "BURNED TOWER, but"
 
-	para "we've never heard"
-	line "of a hole opening"
+	para "hebben nog nooit" "we've never heard"
+	line "gehoord dat er" ; "of a hole opening"
 
-	para "up there before."
-	line "It must have been"
+	para "zomaar een gat" ; "up there before."
+	line "opende. Dat heeft" ; "It must have been"
 
-	para "deliberately made"
-	line "by someone."
+	para "vast iemand expres" ; "deliberately made"
+	line "gedaan." ; "by someone."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "TIN TOWER may be"
-	line "entered by those"
+	text "Met de GYMBADGE" ; "TIN TOWER may be"
+	line "van ECRUTEAK mag" ; "entered by those"
 
-	para "bearing ECRUTEAK's"
-	line "GYM BADGE."
+	para "je de TINTOREN" ; "bearing ECRUTEAK's"
+	line "betreden." ; "GYM BADGE."
 
-	para "However, now that"
-	line "SUICUNE, RAIKOU"
+	para "Echter, nu" ; "However, now that"
+	line "SUICUNE, RAIKOU" ; "SUICUNE, RAIKOU"
 
-	para "and ENTEI have"
-	line "arisen, I ask you"
+	para "en ENTEI zijn" ; "and ENTEI have"
+	line "herrezen, wil ik" ; "arisen, I ask you"
 
-	para "to refrain from"
-	line "entering!"
+	para "je vragen buiten" ; "to refrain from"
+	line "te blijven." ; "entering!"
 	done
 
 WiseTriosRoomSage3Text:
-	text "We, the WISE TRIO,"
-	line "are the protectors"
+	text "Wij, het WIJZE" ; "We, the WISE TRIO,"
+	line "TRIO, beschermen" ; "are the protectors"
 
-	para "of the legendary"
-	line "#MON."
+	para "deze legendarische" ; "of the legendary"
+	line "#MON." ; "#MON."
 	done
 
 SageGakuSeenText:
-	text "Legend has it that"
-	line "upon the emergence"
+	text "Volgens de legen-" ; "Legend has it that"
+	line "des zal er een" ; "upon the emergence"
 
-	para "of a trainer who"
-	line "has the ability to"
+	para "trainer opstaan die" ; "of a trainer who"
+	line "de zielen van" ; "has the ability to"
 
-	para "touch the souls of"
-	line "#MON, a #MON"
+	para "#MON kan raken." ; "touch the souls of"
+	line "Een #MON zal" ; "#MON, a #MON"
 
-	para "will come forth to"
-	line "put that trainer"
+	para "dan tevoorschijn" ; "will come forth to"
+	line "komen om deze" ; "put that trainer"
 
-	para "to test at the TIN"
-	line "TOWER."
+	para "trainer te testen" ; "to test at the TIN"
+	line "bij de TINTOREN." ; "TOWER."
 
-	para "The legend has"
-	line "come true!"
+	para "De legenden" ; "The legend has"
+	line "zijn waar!" ; "come true!"
 
-	para "The legendary"
-	line "#MON SUICUNE"
-	cont "has arrived!"
+	para "De legendarische" ; "The legendary"
+	line "#MON SUICUNE" ; "#MON SUICUNE"
+	cont "is verschenen!" ; "has arrived!"
 
-	para "We, the WISE TRIO,"
-	line "shall test your"
+	para "Wij, het WIJZE" ; "We, the WISE TRIO,"
+	line "TRIO, zullen je" ; "shall test your"
 
-	para "worthiness to go"
-	line "inside!"
+	para "waardigheid op de" ; "worthiness to go"
+	line "proef stellen!" ; "inside!"
 	done
 
 SageGakuBeatenText:
-	text "Stronger than we"
-	line "thought? Perhaps…"
+	text "Sterker dan we" ; "Stronger than we"
+	line "dachten? Wellicht…" ; "thought? Perhaps…"
 	done
 
 SageGakuAfterBattleText:
-	text "Ah, so it is you"
-	line "who claim to have"
+	text "Ah, dus jij bent" ; "Ah, so it is you"
+	line "degene die een" ; "who claim to have"
 
-	para "seen SUICUNE,"
-	line "ENTEI and RAIKOU"
-	cont "while they slept?"
+	para "slapende SUICUNE," ; "seen SUICUNE,"
+	line "ENTEI en RAIKO ge-" ; "ENTEI and RAIKOU"
+	cont "zien heeft?" ; "while they slept?"
 
-	para "Unbelievable!"
+	para "Echt niet!" ; "Unbelievable!"
 
-	para "Legend has it that"
-	line "they can't be seen"
-	cont "while they sleep…"
+	para "De legendes zeggen" ; "Legend has it that"
+	line "dat ze onzichtbaar" ; "they can't be seen"
+	cont "zijn, al slapende…" ; "while they sleep…"
 	done
 
 SageMasaSeenText:
-	text "Can you be trusted"
-	line "with the truth?"
+	text "Kun jij de waar-" ; "Can you be trusted"
+	line "heid aan?" ; "with the truth?"
 
-	para "I must ascertain"
-	line "your worthiness."
+	para "Ik moet je waar-" ; "I must ascertain"
+	line "digheid testen." ; "your worthiness."
 	done
 
 SageMasaBeatenText:
-	text "…I will tell you"
-	line "the truth…"
+	text "…Ik zal je de" ; "…I will tell you"
+	line "waarheid zeggen…" ; "the truth…"
 	done
 
 SageMasaAfterBattleText:
-	text "In the past, there"
-	line "were two nine-tier"
-	cont "towers here."
+	text "Vroeger waren hier" ; "In the past, there"
+	line "twee torens met" ; "were two nine-tier"
+	cont "negen lagen." ; "towers here."
 
-	para "The BRASS TOWER,"
-	line "which was said to"
+	para "De KOPERTOREN," ; "The BRASS TOWER,"
+	line "die de #MON zou" ; "which was said to"
 
-	para "awaken #MON,"
-	line "and the TIN TOWER,"
+	para "ontwaken, en de" ; "awaken #MON,"
+	line "TINTOREN, waar" ; "and the TIN TOWER,"
 
-	para "where #MON were"
-	line "said to rest."
+	para "#MON zouden" ; "where #MON were"
+	line "rusten." ; "said to rest."
 
-	para "The view from the"
-	line "tops of the TOWERS"
+	para "Het uitzicht van-" ; "The view from the"
+	line "af die TORENS moet" ; "tops of the TOWERS"
 
-	para "must have been"
-	line "magnificent."
+	para "schitterend ge-" ; "must have been"
+	line "weest zijn." ; "magnificent."
 
-	para "At the time, an"
-	line "immense, silver-"
+	para "Men zegt dat er" ; "At the time, an"
+	line "toen een enorme," ; "immense, silver-"
 
-	para "colored #MON"
-	line "was said to make"
+	para "zilveren #MON" ; "colored #MON"
+	line "zijn nest had" ; "was said to make"
 
-	para "its roost atop the"
-	line "BRASS TOWER."
+	para "bovenop de" ; "its roost atop the"
+	line "KOPERTOREN." ; "BRASS TOWER."
 
-	para "However…"
+	para "Echter…" ; "However…"
 
-	para "About 150 years"
-	line "ago, a lightning"
+	para "150 jaar geleden" ; "About 150 years"
+	line "sloeg de bliksem" ; "ago, a lightning"
 
-	para "bolt struck one of"
-	line "the TOWERS."
+	para "in bij een van" ; "bolt struck one of"
+	line "de TORENS." ; "the TOWERS."
 
-	para "It was engulfed in"
-	line "flames that raged"
-	cont "for three days."
+	para "Het vuur woedde" ; "It was engulfed in"
+	line "maar liefst drie" ; "flames that raged"
+	cont "dagen lang." ; "for three days."
 
-	para "A sudden downpour"
-	line "finally put out"
-	cont "the blaze."
+	para "Tot een stortbui" ; "A sudden downpour"
+	line "ineens de vlammen" ; "finally put out"
+	cont "doofde." ; "the blaze."
 
-	para "And that is how"
-	line "the BURNED TOWER"
-	cont "came to be."
+	para "De VERBRANDE TOREN" ; "And that is how"
+	line "hebben we daaraan" ; "the BURNED TOWER"
+	cont "overgehouden." ; "came to be."
 	done
 
 SageKojiSeenText:
-	text "Let me see your"
-	line "power!"
+	text "Laat me zien hoe" ; "Let me see your"
+	line "sterk je bent!" ; "power!"
 	done
 
 SageKojiBeatenText:
-	text "Too strong!"
-	line "Why?"
+	text "Te sterk!" ; "Too strong!"
+	line "Waarom?" ; "Why?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "You… Are you the"
-	line "trainer who is"
+	text "Jij… Ben jij de" ; "You… Are you the"
+	line "trainer waarop de" ; "trainer who is"
 
-	para "awaited by the"
-	line "legendary #MON?"
+	para "legendarische" ; "awaited by the"
+	line "#MON wachten?" ; "legendary #MON?"
 	done
 
 SageKojiAfterBattleSpeechText:
-	text "I see…"
+	text "Vandaar…" ; "I see…"
 
-	para "We, the WISE TRIO,"
-	line "have been given "
+	para "Wij, het WIJZE" ; "We, the WISE TRIO,"
+	line "TRIO, zijn ver-" ; "have been given "
 
-	para "the responsibility"
-	line "of protecting the"
+	para "antwoordelijk voor" ; "the responsibility"
+	line "het beschermen van" ; "of protecting the"
 
-	para "legendary #MON."
-	line "We are to allow"
+	para "de legendarische" ; "legendary #MON."
+	line "#MON. Alleen" ; "We are to allow"
 
-	para "passage only to"
-	line "those people who"
+	para "wie de kracht" ; "passage only to"
+	line "en ziel van de" ; "those people who"
 
-	para "possess the power"
-	line "and soul of truth."
+	para "waarheid kennen," ; "ziel en "possess the power"
+	line "mogen toetreden." ; "and soul of truth."
 
-	para "Please, do go on"
-	line "and enter the TIN"
-	cont "TOWER ahead."
+	para "Alsjeblieft, ga " ; "Please, do go on"
+	line "verder en betreed" ; "and enter the TIN"
+	cont "de TINTOREN." ; "TOWER ahead."
 
-	para "SUICUNE will put"
-	line "you to the test."
+	para "SUICUNE zal je op" ; "SUICUNE will put"
+	line "de proef stellen." ; "you to the test."
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Please, do go on."
+	text "Je mag doorgaan." ; "Please, do go on."
 
-	para "SUICUNE will put"
-	line "you to the test."
+	para "SUICUNE zal je op" ; "SUICUNE will put"
+	line "de proef stellen." ; "you to the test."
 	done
 
 WiseTriosRoom_MapEvents:
