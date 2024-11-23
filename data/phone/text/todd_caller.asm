@@ -1,5 +1,5 @@
 ToddLooksCuteLikeMeText:
-	text "Mijn @" ; "My @"
+	text "M'n @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "ziet" ; " is"
 	line "er steeds meer als" ; "looking more and"
@@ -11,10 +11,10 @@ ToddLooksCuteLikeMeText:
 ToddDefeatedMonText:
 	text "En weet je?" ; "And, you know?"
 
-	para "We verslaan nu" ; "Now we can KO"
-	line "@"
+	para "We verslaan met" ; "Now we can KO"
+	line "gemak @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " met gemak." ; " easily."
+	text "." ; " easily."
 
 	para "Ik wil GOLDENROD" ; "I should challenge"
 	line "GYM uitdagen." ; "the GOLDENROD GYM."
@@ -107,7 +107,7 @@ ToddHaveYouGoneToDepartmentStoreText:
 	line "naar GOLDENROD" ; "to GOLDENROD DEPT."
 
 	para "WARENHUIS geweest?" ; "STORE? I've scoped"
-	line "Ik heb al gespeurd!" ; "it out already!"
+	line "Ik heb al geloerd!" ; "it out already!"
 
 	para "Ze hadden echt wat" ; "They had some real"
 	line "goede koopjes." ; "bargains."
