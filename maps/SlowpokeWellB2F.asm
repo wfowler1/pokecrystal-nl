@@ -31,32 +31,32 @@ SlowpokeWellB2FTMRainDance:
 	itemball TM_RAIN_DANCE
 
 SlowpokeWellB2FGymGuideText:
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
+	text "Ik wacht tot ik" ; "I'm waiting to see"
+	line "zie hoe een SLOW-" ; "SLOWPOKE's moment"
+	cont "POKE evolueert." ; "of evolution."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "En ik ontdekte" ; "Through observa-"
+	line "iets tijdens het" ; "tion, I made a new"
+	cont "observeren." ; "discovery."
 
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
+	para "Een SLOWPOKE met" ; "A SLOWPOKE with a"
+	line "een KONINGSSTEEN" ; "KING'S ROCK often"
 
-	para "gets bitten by a"
-	line "SHELLDER."
+	para "wordt vaak door" ; "gets bitten by a"
+	line "SHELLDER gebeten." ; "SHELLDER."
 
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	para "Hier, deze" ; "Here, I'll share a"
+	line "KONINGSSTEEN deel" ; "KING'S ROCK with"
+	cont "ik met je." ; "you."
 	done
 
 SlowpokeWellB2FGymGuideText_GotKingsRock:
-	text "I'm going to be"
-	line "like SLOWPOKE."
+	text "Ik zal me als een" ; "I'm going to be"
+	line "SLOWPOKE gedragen." ; "like SLOWPOKE."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Ik wacht geduldig" ; "I'll wait patient-"
+	line "af, tot er eentje" ; "ly, so I can see"
+	cont "evolueert." ; "one evolve."
 	done
 
 SlowpokeWellB2F_MapEvents:

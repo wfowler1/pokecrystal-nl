@@ -143,179 +143,179 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Hey there,"
-	line "<PLAYER>!"
+	text "KURT: He daar," ; "KURT: Hey there,"
+	line "<PLAYER>!" ; "<PLAYER>!"
 
-	para "The guard up top"
-	line "took off when I"
-	cont "shouted at him."
+	para "De bewaker boven-" ; "The guard up top"
+	line "aan vertrok toen" ; "took off when I"
+	cont "ik naar hem riep." ; "shouted at him."
 
-	para "But then I took a"
-	line "tumble down the"
-	cont "WELL."
+	para "Maar daarna viel" ; "But then I took a"
+	line "ik naar beneden," ; "tumble down the"
+	cont "deze PUT in." ; "WELL."
 
-	para "I slammed down"
-	line "hard on my back,"
-	cont "so I can't move."
+	para "Ik landde hard" ; "I slammed down"
+	line "op mijn rug en kan" ; "hard on my back,"
+	cont "niet meer bewegen." ; "so I can't move."
 
-	para "Rats! If I were"
-	line "fit, my #MON"
+	para "Bah! Ik had ze met" ; "Rats! If I were"
+	line "mijn #MON ge-" ; "fit, my #MON"
 
-	para "would've punished"
-	line "them…"
+	para "straft als ik nog" ; "would've punished"
+	line "in orde was…" ; "them…"
 
-	para "Ah, it can't be"
-	line "helped."
+	para "Nou ja, niks aan" ; "Ah, it can't be"
+	line "te doen." ; "helped."
 
-	para "<PLAYER>, show them"
-	line "how gutsy you are"
-	cont "in my place!"
+	para "<PLAYER>, laat ze" ; "<PLAYER>, show them"
+	line "in mijn plaats" ; "how gutsy you are"
+	cont "jouw lef zien!" ; "in my place!"
 	done
 
 KurtLeaveSlowpokeWellText:
-	text "KURT: Way to go,"
-	line "<PLAYER>!"
+	text "KURT: Goed gedaan," ; "KURT: Way to go,"
+	line "<PLAYER>!" ; "<PLAYER>!"
 
-	para "TEAM ROCKET has"
-	line "taken off."
+	para "TEAM ROCKET is er" ; "TEAM ROCKET has"
+	line "vandoor gegaan." ; "taken off."
 
-	para "My back's better"
-	line "too. Let's get out"
-	cont "of here."
+	para "Mijn rug voelt ook" ; "My back's better"
+	line "beter. Laten we" ; "too. Let's get out"
+	cont "hier weggaan." ; "of here."
 	done
 
 GruntM29SeenText:
-	text "Darn! I was stand-"
-	line "ing guard up top"
+	text "Grrr! Ik bewaakte" ; "Darn! I was stand-"
+	line "boven de boel tot-" ; "ing guard up top"
 
-	para "when some old coot"
-	line "yelled at me."
+	para "dat een ouwe gek" ; "when some old coot"
+	line "naar me schreeuwde." ; "yelled at me."
 
-	para "He startled me so"
-	line "much that I fell"
-	cont "down here."
+	para "Ik schrok er zo" ; "He startled me so"
+	line "van, dat ik naar" ; "much that I fell"
+	cont "beneden viel." ; "down here."
 
-	para "I think I'll vent"
-	line "my anger by taking"
-	cont "it out on you!"
+	para "Ik denk dat ik m'n" ; "I think I'll vent"
+	line "woede op jou ga" ; "my anger by taking"
+	cont "afreageren!" ; "it out on you!"
 	done
 
 GruntM29BeatenText:
-	text "Arrgh! This is NOT"
-	line "my day!"
+	text "Arrgh! Dit is ZO" ; "Arrgh! This is NOT"
+	line "niet mijn dag!" ; "my day!"
 	done
 
 GruntM29AfterBattleText:
-	text "Sure, we've been"
-	line "hacking the tails"
+	text "Klopt, we snijden" ; "Sure, we've been"
+	line "staarten van SLOW-" ; "hacking the tails"
 
-	para "off SLOWPOKE and"
-	line "selling them."
+	para "POKE af om ze te" ; "off SLOWPOKE and"
+	line "verkopen." ; "selling them."
 
-	para "Everything we do"
-	line "is for profit."
+	para "We doen echt alles" ; "Everything we do"
+	line "voor de winst." ; "is for profit."
 
-	para "That's right!"
-	line "We're TEAM ROCKET,"
+	para "Jazeker! Wij zijn" ; "That's right!"
+	line "TEAM ROCKET, en" ; "We're TEAM ROCKET,"
 
-	para "and we'll do any-"
-	line "thing for money!"
+	para "we doen alles voor" ; "and we'll do any-"
+	line "het geld!" ; "thing for money!"
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
+	text "Wat wil je?" ; "What do you want?"
 
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
+	para "Verwacht geen" ; "If you interrupt"
+	line "genade als je ons" ; "our work, don't"
+	cont "werk stoort!" ; "expect any mercy!"
 	done
 
 GruntM1BeatenText:
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
+	text "Redelijk gedaan" ; "You did OK today,"
+	line "dit keer, volgende" ; "but wait till next"
+	cont "keer krijg ik je!" ; "time!"
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three years ago."
+	text "Ja, TEAM ROCKET" ; "Yeah, TEAM ROCKET"
+	line "was drie jaar ge-" ; "was broken up"
+	cont "leden opgedoekt." ; "three years ago."
 
-	para "But we continued"
-	line "our activities"
-	cont "underground."
+	para "Maar ondergronds" ; "But we continued"
+	line "gingen onze" ; "our activities"
+	cont "activiteiten door." ; "underground."
 
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
+	para "Kijk nu toe hoe we" ; "Now you can have"
+	line "nieuwe problemen" ; "fun watching us"
+	cont "veroorzaken!" ; "stir up trouble!"
 	done
 
 GruntM2SeenText:
-	text "Quit taking SLOW-"
-	line "POKETAILS?"
+	text "Geen SLOWPOKE-" ; "Quit taking SLOW-"
+	line "STAARTEN pakken?" ; "POKETAILS?"
 
-	para "If we obeyed you,"
-	line "TEAM ROCKET's rep"
-	cont "would be ruined!"
+	para "Dat zou TEAM" ; "If we obeyed you,"
+	line "ROCKET zijn re-" ; "TEAM ROCKET's rep"
+	cont "putatie kosten!" ; "would be ruined!"
 	done
 
 GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
+	text "Gewoon…" ; "Just…"
+	line "Te sterk…" ; "Too strong…"
 	done
 
 GruntM2AfterBattleText:
-	text "We need the money,"
-	line "but selling SLOW-"
-	cont "POKETAILS?"
+	text "We willen geld," ; "We need the money,"
+	line "maar SLOWPOKE-" ; "but selling SLOW-"
+	cont "STAARTEN verkopen?" ; "POKETAILS?"
 
-	para "It's tough being a"
-	line "ROCKET GRUNT!"
+	para "TEAM ROCKET-lid" ; "It's tough being a"
+	line "zijn is pittig!" ; "ROCKET GRUNT!"
 	done
 
 GruntF1SeenText:
-	text "Stop taking TAILS?"
+	text "Jij? Ons stoppen?" ; "Stop taking TAILS?"
 
-	para "Yeah, just try to"
-	line "defeat all of us!"
+	para "Probeer ons allen" ; "Yeah, just try to"
+	line "maar te verslaan!" ; "defeat all of us!"
 	done
 
 GruntF1BeatenText:
-	text "You rotten brat!"
+	text "Jij rotkind!" ; "You rotten brat!"
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKETAILS"
-	line "grow back fast!"
+	text "SLOWPOKESTAARTEN" ; "SLOWPOKETAILS"
+	line "groeien wel terug!" ; "grow back fast!"
 
-	para "What's wrong with"
-	line "selling them?"
+	para "Wat is er mis met" ; "What's wrong with"
+	line "ze te verkopen?" ; "selling them?"
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "Een SLOWOKE met" ; "A SLOWPOKE with"
+	line "afgesneden staart…" ; "its TAIL cut off…"
 
-	para "Huh? It has MAIL."
-	line "Read it?"
+	para "Huh? Hij heeft een" ; "Huh? It has MAIL."
+	line "BRIEF vast. Lezen?" ; "Read it?"
 	done
 
 SlowpokeWellB1FSlowpokeMailText:
-	text "<PLAYER> read the"
-	line "MAIL."
+	text "<PLAYER> leest de" ; "<PLAYER> read the"
+	line "BRIEF." ; "MAIL."
 
-	para "Be good and look"
-	line "after the house"
+	para "Wees braaf en" ; "Be good and look"
+	line "pas op het huis" ; "after the house"
 
-	para "with Grandpa and"
-	line "SLOWPOKE."
+	para "met opa en met" ; "with Grandpa and"
+	line "SLOWPOKE." ; "SLOWPOKE."
 
-	para "Love, Dad"
+	para "Liefs, Pa" ; "Love, Dad"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "Een SLOWOKE met" ; "A SLOWPOKE with"
+	line "afgesneden staart…" ; "its TAIL cut off…"
 	done
 
 SlowpokeWellB1F_MapEvents:
