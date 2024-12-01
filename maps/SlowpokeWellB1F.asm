@@ -189,7 +189,7 @@ GruntM29SeenText:
 	line "boven de boel tot-" ; "ing guard up top"
 
 	para "dat een ouwe gek" ; "when some old coot"
-	line "naar me schreeuwde." ; "yelled at me."
+	line "ging schreeuwen." ; "yelled at me."
 
 	para "Ik schrok er zo" ; "He startled me so"
 	line "van, dat ik naar" ; "much that I fell"
