@@ -162,78 +162,78 @@ VictoryRoadRivalBattleExitMovement2:
 	step_end
 
 VictoryRoadRivalBeforeText:
-	text "Hold it."
+	text "Ho, stop." ; "Hold it."
 
-	para "…Are you going to"
-	line "take the #MON"
-	cont "LEAGUE challenge?"
+	para "…Ga je de" ; "…Are you going to"
+	line "#MON-LEAGUE-" ; "take the #MON"
+	cont "uitdaging aan?" ; "LEAGUE challenge?"
 
-	para "…Don't make me"
-	line "laugh."
+	para "… Laat me niet" ; "…Don't make me"
+	line "lachen." ; "laugh."
 
-	para "You're so much"
-	line "weaker than I am."
+	para "Je bent zoveel" ; "You're so much"
+	line "zwakker dan ik." ; "weaker than I am."
 
-	para "I'm not like I was"
-	line "before."
+	para "Ik ben niet zoals" ; "I'm not like I was"
+	line "ik ooit was." ; "before."
 
-	para "I now have the"
-	line "best and strongest"
+	para "Nu heb ik de" ; "I now have the"
+	line "beste en sterkste" ; "best and strongest"
 
-	para "#MON with me."
-	line "I'm invincible!"
+	para "#MON bij me. Je" ; "#MON with me."
+	line "verslaat me nooit!" ; "I'm invincible!"
 
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "<PLAYER>!" ; "<PLAYER>!"
+	line "Ik daag je uit!" ; "I challenge you!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…I couldn't win…"
+	text "…Weer verloren…" ; "…I couldn't win…"
 
-	para "I gave it every-"
-	line "thing I had…"
+	para "Ik gaf het alles" ; "I gave it every-"
+	line "wat ik had…" ; "thing I had…"
 
-	para "What you possess,"
-	line "and what I lack…"
+	para "Wat jij hebt," ; "What you possess,"
+	line "en wat ik mis…" ; "and what I lack…"
 
-	para "I'm beginning to"
-	line "understand what"
+	para "Ik begin te" ; "I'm beginning to"
+	line "begrijpen wat" ; "understand what"
 
-	para "that dragon master"
-	line "said to me…"
+	para "die drakenmeester" ; "that dragon master"
+	line "tegen me zei…" ; "said to me…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer…"
+	text "…Ik geef niet op" ; "…I haven't given up"
+	line "om de allerbeste" ; "on becoming the"
+	cont "trainer te worden…" ; "greatest trainer…"
 
-	para "I'm going to find"
-	line "out why I can't"
+	para "Ik ga ontdekken" ; "I'm going to find"
+	line "waarom ik niet kan" ; "out why I can't"
 
-	para "win and become"
-	line "stronger…"
+	para "winnen en ik zal" ; "win and become"
+	line "sterker worden…" ; "stronger…"
 
-	para "When I do, I will"
-	line "challenge you."
+	para "Daarna zal ik je" ; "When I do, I will"
+	line "opnieuw uitdagen." ; "challenge you."
 
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
+	para "En dan versla ik" ; "And I'll beat you"
+	line "je met alle kracht" ; "down with all my"
+	cont "die ik heb." ; "power."
 
-	para "…Humph! You keep"
-	line "at it until then."
+	para "…Humph! Blijf tot" ; "…Humph! You keep"
+	line "die tijd trainen." ; "at it until then."
 	done
 
 VictoryRoadRivalVictoryText:
-	text "…Humph!"
+	text "…Humph!" ; "…Humph!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat power."
+	para "Niets kan kracht" ; "When it comes down"
+	line "verslaan, als het" ; "to it, nothing can"
+	cont "er op aankomt." ; "beat power."
 
-	para "I don't need any-"
-	line "thing else."
+	para "Meer heb ik" ; "I don't need any-"
+	line "niet nodig." ; "thing else."
 	done
 
 VictoryRoad_MapEvents:

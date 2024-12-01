@@ -143,7 +143,7 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: He daar," ; "KURT: Hey there,"
+	text "KURT: Hé daar," ; "KURT: Hey there,"
 	line "<PLAYER>!" ; "<PLAYER>!"
 
 	para "De bewaker boven-" ; "The guard up top"
@@ -189,7 +189,7 @@ GruntM29SeenText:
 	line "boven de boel tot-" ; "ing guard up top"
 
 	para "dat een ouwe gek" ; "when some old coot"
-	line "ineens schreeuwde." ; "yelled at me."
+	line "naar me schreeuwde." ; "yelled at me."
 
 	para "Ik schrok er zo" ; "He startled me so"
 	line "van, dat ik naar" ; "much that I fell"
@@ -225,8 +225,8 @@ GruntM29AfterBattleText:
 GruntM1SeenText:
 	text "Wat wil je?" ; "What do you want?"
 
-	para "Verwacht geen" ; "If you interrupt"
-	line "genade als je ons" ; "our work, don't"
+	para "Verwacht geen ge-" ; "If you interrupt"
+	line "nade als je ons" ; "our work, don't"
 	cont "werk stoort!" ; "expect any mercy!"
 	done
 
@@ -242,8 +242,8 @@ TrainerGruntM1WhenTalkText:
 	cont "leden opgedoekt." ; "three years ago."
 
 	para "Maar ondergronds" ; "But we continued"
-	line "gingen onze" ; "our activities"
-	cont "activiteiten door." ; "underground."
+	line "gingen onze acti-" ; "our activities"
+	cont "viteiten door." ; "underground."
 
 	para "Kijk nu toe hoe we" ; "Now you can have"
 	line "nieuwe problemen" ; "fun watching us"
@@ -252,7 +252,7 @@ TrainerGruntM1WhenTalkText:
 
 GruntM2SeenText:
 	text "Geen SLOWPOKE-" ; "Quit taking SLOW-"
-	line "STAARTEN pakken?" ; "POKETAILS?"
+	line "STAARTEN stelen?" ; "POKETAILS?"
 
 	para "Dat zou TEAM" ; "If we obeyed you,"
 	line "ROCKET zijn re-" ; "TEAM ROCKET's rep"
