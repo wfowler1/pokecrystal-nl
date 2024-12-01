@@ -1,55 +1,55 @@
 IrwinAnswerPhoneText:
-	text "Hello? @"
+	text "Hallo? @" ; "Hello? @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text_start
-	line "here…"
+	line "hier…" ; "here…"
 
-	para "Hey, <PLAY_G>!"
+	para "He, <PLAY_G>!" ; "Hey, <PLAY_G>!"
 	done
 
 IrwinAnswerPhoneDayText:
-	text "Hello? @"
+	text "Hallo? @" ; "Hello? @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text_start
-	line "here…"
+	line "hier…" ; "here…"
 
-	para "Wow, <PLAY_G>!"
+	para "Wauw, <PLAY_G>!" ; "Wow, <PLAY_G>!"
 	done
 
 IrwinAnswerPhoneNiteText:
-	text "Hello? @"
+	text "Hallo? @" ; "Hello? @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text_start
-	line "here…"
+	line "hier…" ; "here…"
 
-	para "Yippee, <PLAY_G>!"
+	para "Jippie, <PLAY_G>!" ; "Yippee, <PLAY_G>!"
 	done
 
 IrwinGreetText:
-	text "Uh, hello."
+	text "Uh, hallo." ; "Uh, hello."
 	line "<PLAY_G>?"
 
-	para "It's your pal,"
+	para "Het is je vriend," ; "It's your pal,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 IrwinGreetDayText:
-	text "Uh, hello,"
+	text "Uh, hallo." ; "Uh, hello."
 	line "<PLAY_G>?"
 
-	para "It's your buddy"
+	para "Het is je maatje" ; "It's your buddy"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 IrwinGreetNiteText:
-	text "Uh, hello,"
+	text "Uh, hallo." ; "Uh, hello."
 	line "<PLAY_G>?"
 
-	para "It's your sidekick"
+	para "Het is je hulpje" ; "It's your sidekick"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
