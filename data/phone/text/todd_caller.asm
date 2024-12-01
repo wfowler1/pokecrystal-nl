@@ -1,117 +1,117 @@
 ToddLooksCuteLikeMeText:
-	text "My @"
+	text "M'n @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " is"
-	line "looking more and"
+	text "ziet" ; " is"
+	line "er steeds meer als" ; "looking more and"
 
-	para "more like me. It's"
-	line "getting cuter!"
+	para "mij uit. Het wordt" ; "more like me. It's"
+	line "steeds schattiger!" ; "getting cuter!"
 	done
 
 ToddDefeatedMonText:
-	text "And, you know?"
+	text "En weet je?" ; "And, you know?"
 
-	para "Now we can KO"
-	line "@"
+	para "We verslaan met" ; "Now we can KO"
+	line "gemak @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " easily."
+	text "." ; " easily."
 
-	para "I should challenge"
-	line "the GOLDENROD GYM."
+	para "Ik wil GOLDENROD" ; "I should challenge"
+	line "GYM uitdagen." ; "the GOLDENROD GYM."
 	done
 
 ToddLostAMonText:
-	text "And, you know?"
-	line "We just failed to"
+	text "En weet je? We" ; "And, you know?"
+	line "konden echt net" ; "We just failed to"
 
-	para "beat @"
+	para "niet @" ; "beat @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " by"
-	line "a tiny margin."
+	text "" ; " by"
+	line "verslaan." ; "a tiny margin."
 
-	para "I'm guessing my"
-	line "#MON's levels"
+	para "Het leven van mijn" ; "I'm guessing my"
+	line "#MON is denk ik" ; "#MON's levels"
 
-	para "aren't high enough"
-	line "yet…"
+	para "nog niet hoog" ; "aren't high enough"
+	line "genoeg…" ; "yet…"
 	done
 
 ToddBattleRematchText:
-	text "You must be a lot"
-	line "better now, huh?"
+	text "Je bent nu vast" ; "You must be a lot"
+	line "veel beter, he?" ; "better now, huh?"
 
-	para "How about showing"
-	line "me your technique"
+	para "Laat mij anders je" ; "How about showing"
+	line "vaardigheid zien" ; "me your technique"
 
-	para "in a real battle"
-	line "with me?"
+	para "in een echt" ; "in a real battle"
+	line "gevecht met mij?" ; "with me?"
 
-	para "I'll be waiting on"
+	para "Ik wacht wel op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
 ToddHangUpText:
-	text "See you later!"
+	text "Tot later!" ; "See you later!"
 	done
 
 ToddDepartmentStoreBargainSaleText:
-	text "This is it--the"
-	line "one we've all been"
-	cont "waiting for!"
+	text "Dit is het--het" ; "This is it--the"
+	line "moment waar iede-" ; "one we've all been"
+	cont "reen op wachtte!" ; "waiting for!"
 
-	para "GOLDENROD DEPT."
-	line "STORE's bargain"
-	cont "sale is on now!"
+	para "GOLDENROD WAREN-" ; "GOLDENROD DEPT."
+	line "HUIS heeft nu een" ; "STORE's bargain"
+	cont "uitverkoop!" ; "sale is on now!"
 
-	para "Want it cheap?"
-	line "Want it lots?"
+	para "Wil je goedkoop?" ; "Want it cheap?"
+	line "Wil je veel?" ; "Want it lots?"
 
-	para "Don't miss this"
-	line "GOLDENROD chance!"
+	para "Mis deze kans in" ; "Don't miss this"
+	line "GOLDENROD niet!" ; "GOLDENROD chance!"
 
-	para "Huh? I sound like"
-	line "a huckster?"
+	para "Huh? Klink ik als" ; "Huh? I sound like"
+	line "een verkoper?" ; "a huckster?"
 
-	para "Well, yeah. I was"
-	line "mimicking them…"
+	para "Nou ja, klopt… Ik" ; "Well, yeah. I was"
+	line "deed er een na…" ; "mimicking them…"
 
-	para "Anyway, you've got"
-	line "to get there as"
-	cont "soon as you can!"
+	para "Hoe dan ook, je" ; "Anyway, you've got"
+	line "moet er zo snel" ; "to get there as"
+	cont "mogelijk heen!" ; "soon as you can!"
 	done
 
 ToddSavingUpForBargainSaleText:
-	text "I'm saving up for"
-	line "the next bargain"
+	text "Ik spaar voor de" ; "I'm saving up for"
+	line "volgende uit-" ; "the next bargain"
 
-	para "sale. When's the"
-	line "next one?"
+	para "verkoop. Wanneer" ; "sale. When's the"
+	line "zou die zijn?" ; "next one?"
 	done
 
 ToddLookingForwardToBattleText:
-	text "Where are you?"
+	text "Waar ben je?" ; "Where are you?"
 
-	para "Let's have our"
-	line "battle soon!"
+	para "Laten we snel ons" ; "Let's have our"
+	line "gevecht hebben!" ; "battle soon!"
 
-	para "I'll be waiting on"
+	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
 ToddHaveYouGoneToDepartmentStoreText:
-	text "Haven't you gone"
-	line "to GOLDENROD DEPT."
+	text "Ben je nog niet" ; "Haven't you gone"
+	line "naar GOLDENROD" ; "to GOLDENROD DEPT."
 
-	para "STORE? I've scoped"
-	line "it out already!"
+	para "WARENHUIS geweest?" ; "STORE? I've scoped"
+	line "Ik heb al geloerd!" ; "it out already!"
 
-	para "They had some real"
-	line "bargains."
+	para "Ze hadden echt wat" ; "They had some real"
+	line "goede koopjes." ; "bargains."
 
-	para "You should get"
-	line "there quickly."
+	para "Je moet erg snel" ; "You should get"
+	line "heen." ; "there quickly."
 	done

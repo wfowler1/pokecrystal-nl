@@ -27,26 +27,28 @@ Route2NuggetHouseBookshelf: ; unreferenced
 	jumpstd DifficultBookshelfScript
 
 Route2NuggetHouseFisherText:
-	text "Hi! Wow, I'm glad"
-	line "to see you."
+	text "Hoi! Wauw, ik ben" ; "Hi! Wow, I'm glad"
+	line "blij je te zien." ; "to see you."
 
-	para "You're the first"
-	line "visitor I've had"
-	cont "in a long time."
+	para "Je bent de eerste" ; "You're the first"
+	line "bezoeker in" ; "visitor I've had"
+	cont "lange tijd." ; "in a long time."
 
-	para "I'm super-happy!"
-	line "Let me give you a"
-	cont "little present."
+	para "Ik ben superblij!" ; "I'm super-happy!"
+	line "Ik heb iets" ; "Let me give you a"
+	cont "kleins voor je." ; "little present."
 	done
 
 Route2NuggetHouseFisherText_GotNugget:
-	text "That's a NUGGET."
+	text "Dat is een" ; "That's a NUGGET."
+	line "GOUDKLOMPJE." ;
 
-	para "I can't give you"
-	line "any nuggets of"
+	para "Ik kan je geen" ; "I can't give you"
+	line "klompje wijs-" ; "any nuggets of"
 
-	para "wisdom, so that'll"
-	line "have to do!"
+	para "heid geven, dus" ; "wisdom, so that'll"
+	line "daar moet je" ; "have to do!"
+	cont "het mee doen!" ;
 	done
 
 Route2NuggetHouse_MapEvents:

@@ -76,12 +76,12 @@ Route8FruitTree:
 	fruittree FRUITTREE_ROUTE_8
 
 BikerDwayneSeenText:
-	text "We're the KANTO"
-	line "#MON FEDERATION"
-	cont "trainer group."
+	text "We zijn de KANTO" ; "We're the KANTO"
+	line "#MON-FEDERATIE-" ; "#MON FEDERATION"
+	cont "trainergroep." ; "trainer group."
 
-	para "We'll drive you"
-	line "under our wheels!"
+	para "We rijden je" ; "We'll drive you"
+	line "onder onze wielen!" ; "under our wheels!"
 	done
 
 BikerDwayneBeatenText:
@@ -89,85 +89,88 @@ BikerDwayneBeatenText:
 	done
 
 BikerDwayneAfterBattleText:
-	text "The KANTO #MON"
-	line "FEDERATION will"
-	cont "never fall!"
+	text "De KANTO-#MON-" ; "The KANTO #MON"
+	line "FEDERATIE zal" ; "FEDERATION will"
+	cont "nooit falen!" ; "never fall!"
 	done
 
 BikerHarrisSeenText:
-	text "The cops shut down"
-	line "our UNDERGROUND"
+	text "De wouten hebben" ; "The cops shut down"
+	line "ons ONDERGRONDS" ; "our UNDERGROUND"
 
-	para "PATH! That really"
-	line "fries me!"
+	para "PAD afgesloten!" ; "PATH! That really"
+	line "Dat maakt me" ; "fries me!"
+	cont "echt pissig!" ;
 	done
 
 BikerHarrisBeatenText:
-	text "F-forgive me!"
+	text "V-Vergeef me!" ; "F-forgive me!"
 	done
 
 BikerHarrisAfterBattleText:
-	text "Wiped out by some"
-	line "punk from JOHTO…"
+	text "Verslagen door" ; "Wiped out by some"
+	line "een snotneus uit" ; "punk from JOHTO…"
+	cont "JOHTO…" ;
 	done
 
 BikerZekeSeenText:
-	text "We're the KANTO"
-	line "#MON FEDERA-"
-	cont "TION!"
-	cont "Right on!"
+	text "We zijn de KANTO-" ; "We're the KANTO"
+	line "#MON-FEDERA-"
+	cont "TIE!" ; "TION!"
+	cont "Hoppa!" ; "Right on!"
 	done
 
 BikerZekeBeatenText:
-	text "Yikes! Sorry!"
+	text "Oef! Sorry!" ; "Yikes! Sorry!"
 	done
 
 BikerZekeAfterBattleText:
-	text "We'll try not to"
-	line "disturb anyone"
-	cont "from now on…"
+	text "We zullen nie-" ; "We'll try not to"
+	line "mand storen" ; "disturb anyone"
+	cont "vanaf nu…" ; "from now on…"
 	done
 
 SupernerdSamSeenText:
-	text "How does the MAG-"
-	line "NET TRAIN work?"
+	text "Hoe werkt de" ; "How does the MAG-"
+	line "ZWEEFTREIN?" ; "NET TRAIN work?"
 	done
 
 SupernerdSamBeatenText:
-	text "I just want to see"
-	line "the MAGNET TRAIN…"
+	text "Ik wil gewoon de" ; "I just want to see"
+	line "ZWEEFTREIN zien…" ; "the MAGNET TRAIN…"
 	done
 
 SupernerdSamAfterBattleText:
-	text "The power of mag-"
-	line "nets is awesome!"
+	text "De kracht van" ; "The power of mag-"
+	line "magneten is gaaf!" ; "nets is awesome!"
 	done
 
 SupernerdTomSeenText:
-	text "Hm… You've got"
-	line "many GYM BADGES."
+	text "Hm… Je hebt" ; "Hm… You've got"
+	line "veel GYMBADGES." ; "many GYM BADGES."
 	done
 
 SupernerdTomBeatenText:
-	text "Just as I thought…"
-	line "You're tough!"
+	text "Zoals ik al dacht…" ; "Just as I thought…"
+	line "Je bent sterk!" ; "You're tough!"
 	done
 
 SupernerdTomAfterBattleText:
-	text "GYM BADGES give"
-	line "you advantages in"
-	cont "battles."
+	text "GYMBADGES geven" ; "GYM BADGES give"
+	line "je voordelen in" ; "you advantages in"
+	cont "gevechten." ; "battles."
 	done
 
 Route8LockedDoorText:
-	text "It's locked…"
+	text "Het zit op slot…" ; "It's locked…"
 	done
 
 Route8UndergroundPathSignText:
-	text "The flyer's torn."
+	text "De folder is" ; "The flyer's torn."
+	line "gescheurd." ;
 
-	para "It's impossible to"
-	line "read…"
+	para "Het is niet" ; "It's impossible to"
+	line "te lezen…" ; "read…"
 	done
 
 Route8_MapEvents:

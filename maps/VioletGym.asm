@@ -141,18 +141,18 @@ FalknerWinLossText:
 	para "Goed dan." ; "All right."
 	line "Neem dit." ; "Take this."
 
-	para "Het is de ZEPHYR-" ; "It's the official"
+	para "Het is de ZEFIER-" ; "It's the official"
 	line "BADGE van de" ; "#MON LEAGUE"
 	cont "#MONLEAGUE." ; "ZEPHYRBADGE."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	line "ZEFIERBADGE."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE ver-" ; "ZEPHYRBADGE"
+	text "ZEFIERBADGE ver-" ; "ZEPHYRBADGE"
 	line "hoogt aanvalkracht" ; "raises the attack"
 	cont "van #MON." ; "power of #MON."
 

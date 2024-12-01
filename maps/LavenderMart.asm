@@ -21,7 +21,7 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "VERDRIJVEN is een" ; "REPEL is a neces-"
+	text "VERDRIJVER is een" ; "REPEL is a neces-"
 	line "noodzaak als je" ; "sity if you are"
 
 	para "een grot gaat" ; "going to explore a"

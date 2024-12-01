@@ -816,7 +816,8 @@ BirdKeeperPeterSeenText:
 	text "Die BADGE! Die is" ; "That BADGE! It's"
 	line "van VIOLET CITY!" ; "from VIOLET CITY!"
 
-	para "FALKNER verslagen?" ; "You beat FALKNER?"
+	para "Heb je FALKNER" ; "You beat FALKNER?"
+	line "verslagen?"
 	done
 
 BirdKeeperPeterBeatenText:

@@ -52,47 +52,47 @@ VictoryRoadGateStepDownMovement:
 	step_end
 
 VictoryRoadGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "Alleen als je je-" ; "Only trainers who"
+	line "zelf hebt bewezen," ; "have proven them-"
+	cont "mag je door." ; "selves may pass."
 	done
 
 VictoryRoadGateNotEnoughBadgesText:
-	text "You don't have all"
-	line "the GYM BADGES of"
-	cont "JOHTO."
+	text "Je hebt niet alle" ; "You don't have all"
+	line "GYMBADGES van" ; "the GYM BADGES of"
+	cont "JOHTO." ; "JOHTO."
 
-	para "I'm sorry, but I"
-	line "can't let you go"
-	cont "through."
+	para "Het spijt me," ; "I'm sorry, but I"
+	line "maar ik kan je" ; "can't let you go"
+	cont "niet doorlaten." ; "through."
 	done
 
 VictoryRoadGateEightBadgesText:
-	text "Oh! The eight"
-	line "BADGES of JOHTO!"
+	text "Oh! De acht" ; "Oh! The eight"
+	line "BADGES van JOHTO!" ; "BADGES of JOHTO!"
 
-	para "Please, go right"
-	line "on through!"
+	para "Alsjeblieft, ga" ; "Please, go right"
+	line "gerust verder!" ; "on through!"
 	done
 
 VictoryRoadGateLeftBlackBeltText:
-	text "This way leads to"
-	line "MT.SILVER."
+	text "Dit pad gaat naar" ; "This way leads to"
+	line "de ZILVERBERG." ; "MT.SILVER."
 
-	para "You'll see scary-"
-	line "strong #MON out"
-	cont "there."
+	para "De #MON daar" ; "You'll see scary-"
+	line "zijn echt schrik-" ; "strong #MON out"
+	cont "barend sterk." ; "there."
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Off to the #MON"
-	line "LEAGUE, are you?"
+	text "Ben je op weg naar" ; "Off to the #MON"
+	line "de #MON-LEAGUE?" ; "LEAGUE, are you?"
 
-	para "The ELITE FOUR are"
-	line "so strong it's"
+	para "De ELITE FOUR zijn" ; "The ELITE FOUR are"
+	line "angstaanjagend" ; " so strong it's"
 
-	para "scary, and they're"
-	line "ready for you!"
+	para "sterk, en ze zijn" ; "scary, and they're"
+	line "klaar voor je!" ; "ready for you!"
 	done
 
 VictoryRoadGate_MapEvents:

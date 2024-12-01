@@ -1,53 +1,53 @@
 IrwinAskNumber1Text:
-	text "You're the best"
-	line "I've ever battled!"
+	text "Je bent de beste" ; "You're the best"
+	line "tegenstander ooit!" ; "I've ever battled!"
 
-	para "Huh? You're the"
-	line "one who saved all"
-	cont "the SLOWPOKE?"
+	para "Huh? Jij hebt alle" ; "Huh? You're the"
+	line "SLOWPOKE in de" ; "one who saved all"
+	cont "grot gered?" ; "the SLOWPOKE?"
 
-	para "Well, no wonder I"
-	line "couldn't beat you!"
+	para "Nou, geen wonder" ; "Well, no wonder I"
+	line "dat ik verloor!" ; "couldn't beat you!"
 
-	para "Would it be OK to"
-	line "get your number?"
+	para "Zou ik je nummer" ; "Would it be OK to"
+	line "mogen hebben?" ; "get your number?"
 
-	para "I don't want to"
-	line "miss anything you"
-	cont "do from now on!"
+	para "Ik wil niks missen" ; "I don't want to"
+	line "van wat je hierna" ; "miss anything you"
+	cont "gaat doen!" ; "do from now on!"
 	done
 
 IrwinAskNumber2Text:
-	text "You will tell me"
-	line "your phone number?"
+	text "Kun je jouw nummer" ; "You will tell me"
+	line "vertellen?" ; "your phone number?"
 	done
 
 IrwinNumberAcceptedText:
-	text "Wow! Gee, thanks!"
-	line "Now I can call you"
+	text "Wauw! Joh, dankje!" ; "Wow! Gee, thanks!"
+	line "Nu kan ik je" ; "Now I can call you"
 
-	para "anytime, whether"
-	line "anything's up or"
+	para "altijd bellen, of" ; "anytime, whether"
+	line "er nou iets is, of" ; "anything's up or"
 
-	para "not. You know,"
-	line "just to chat!"
+	para "als ik gewoon wil" ; "not. You know,"
+	line "kletsen!" ; "just to chat!"
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, but…"
-	line "I'm not dangerous!"
+	text "Oh, maar… Ik ben" ; "Oh, but…"
+	line "niet gevaarlijk!" ; "I'm not dangerous!"
 
-	para "I just want to"
-	line "call and chat"
+	para "Ik wil gewoon" ; "I just want to"
+	line "bellen en kletsen" ; "call and chat"
 
-	para "about everything"
-	line "and nothing!"
+	para "over alles en over" ; "about everything"
+	line "niks!" ; "and nothing!"
 	done
 
 IrwinPhoneFullText:
-	text "Your phone list is"
-	line "already full…"
+	text "Je telefoonlijst" ; "Your phone list is"
+	line "is al vol…" ; "already full…"
 
-	para "You must be really"
-	line "popular…"
+	para "Je bent vast heel" ; "You must be really"
+	line "populair…" ; "popular…"
 	done

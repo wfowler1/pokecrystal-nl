@@ -146,7 +146,7 @@ RuinsOfAlphKabutoChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welkom in dis" ; "Welcome to this"
+	text "Welkom in deze" ; "Welcome to this"
 	line "kamer." ; "chamber."
 
 	para "Er zijn hier" ; "There are sliding"

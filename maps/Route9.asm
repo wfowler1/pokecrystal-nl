@@ -84,32 +84,35 @@ Route9HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_9_HIDDEN_ETHER
 
 CamperDeanSeenText:
-	text "I came to explore"
-	line "ROCK TUNNEL."
+	text "Ik kwam om de" ; "I came to explore"
+	line "ROTSTUNNEL te" ; "ROCK TUNNEL."
+	cont "verkennen." ;
 	done
 
 CamperDeanBeatenText:
-	text "Whoa! Danger, man."
+	text "Wauw! Gevaarlijk," ; "Whoa! Danger, man."
+	line "man." ;
 	done
 
 CamperDeanAfterBattleText:
-	text "My #MON were"
-	line "hurt before even"
+	text "Mijn #MON" ; "My #MON were"
+	line "waren gewond" ; "hurt before even"
 
-	para "entering ROCK"
-	line "TUNNEL."
+	para "zelfs voordat" ; "entering ROCK"
+	line "ik de ROTSTUNNEL" ; "TUNNEL."
 
-	para "I'd better take"
-	line "them to a #MON"
-	cont "CENTER right away."
+	para "in ging. Ik moet" ; "I'd better take"
+	line "ze meteen naar" ; "them to a #MON"
+	cont "een #MONCENTRUM" ; "CENTER right away."
+	cont "brengen." ;
 	done
 
 PicnickerHeidiSeenText:
-	text "Have you ever been"
-	line "to a picnic?"
+	text "Ben je ooit naar" ; "Have you ever been"
+	line "een picknick" ; "to a picnic?"
 
-	para "They're so much"
-	line "fun!"
+	para "geweest? Dat" ; "They're so much"
+	line "is zo leuk!" ; "fun!"
 	done
 
 PicnickerHeidiBeatenText:
@@ -117,90 +120,94 @@ PicnickerHeidiBeatenText:
 	done
 
 PicnickerHeidiAfterBattleText:
-	text "We bake lots of"
-	line "goodies and share"
+	text "We bakken een" ; "We bake lots of"
+	line "hoop lekkernijen" ; "goodies and share"
 
-	para "them all around."
-	line "They're delicious!"
+	para "en delen ze met" ; "them all around."
+	line "iedereen. Zo" ; "They're delicious!"
+	cont "lekker!" ;
 	done
 
 CamperSidSeenText:
-	text "Hey, you!"
-	line "Don't litter!"
+	text "Hé, jij! Ruim je" ; "Hey, you!"
+	line "afval op!" ; "Don't litter!"
 	done
 
 CamperSidBeatenText:
-	text "I was just point-"
-	line "ing out…"
+	text "Ik zei het" ; "I was just point-"
+	line "alleen maar…" ; "ing out…"
 	done
 
 CamperSidAfterBattleText:
-	text "Sorry. You weren't"
-	line "littering. It was"
-	cont "my mistake."
+	text "Sorry. Je gooide" ; "Sorry. You weren't"
+	line "geen afval weg." ; "littering. It was"
+	cont "Mijn fout." ; "my mistake."
 	done
 
 PicnickerEdnaSeenText:
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "Mensen moeten" ; "People shouldn't"
+	line "geen afval" ; "leave any litter"
+	cont "achterlaten." ; "behind."
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ohh… I lost…"
+	text "Ohh… Ik heb" ; "Ohh… I lost…"
+	line "verloren…" ;
 	done
 
 PicnickerEdnaAfterBattleText:
-	text "Conserving energy"
-	line "is important, but"
+	text "Zuinig zijn met" ; "Conserving energy"
+	line "energie is belang-" ; "is important, but"
 
-	para "the environment is"
-	line "even more vital."
+	para "rijk, maar het" ; "the environment is"
+	line "milieu is nog" ; "even more vital."
+	cont "essentiëler." ;
 	done
 
 HikerTimSeenText:
-	text "She'll be coming"
-	line "'round MT.SILVER"
-	cont "when she comes…"
+	text "Ze komt van de" ; "She'll be coming"
+	line "ZILVERBERG af," ; "'round MT.SILVER"
+	cont "ja ze komt…" ; "when she comes…"
 
-	para "MT.SILVER is in"
-	line "JOHTO, right?"
+	para "ZILVERBERG is" ; "MT.SILVER is in"
+	line "in JOHTO, toch?" ; "JOHTO, right?"
 	done
 
 HikerTimBeatenText:
-	text "I was too busy"
-	line "singing…"
+	text "Ik was te druk" ; "I was too busy"
+	line "met zingen…" ; "singing…"
 	done
 
 HikerTimAfterBattleText:
-	text "Battles are about"
-	line "concentration."
+	text "Vechten draait om" ; "Battles are about"
+	line "concentratie." ; "concentration."
 	done
 
 HikerSidneySeenText:
-	text "I'll tell you a"
-	line "secret."
+	text "Ik zal je een" ; "I'll tell you a"
+	line "geheimpje ver-" ; "secret."
+	cont "tellen." ;
 
-	para "But first, we"
-	line "battle!"
+	para "Maar eerst" ; "But first, we"
+	line "vechten we!" ; "battle!"
 	done
 
 HikerSidneyBeatenText:
-	text "Oh, dang!"
-	line "I lost that…"
+	text "Oh, verdorie!" ; "Oh, dang!"
+	line "Verloren…" ; "I lost that…"
 	done
 
 HikerSidneyAfterBattleText:
-	text "The POWER PLANT is"
-	line "across a small"
-	cont "river."
+	text "De ENERGIECENTRALE" ; "The POWER PLANT is"
+	line "is voorbij een" ; "across a small"
+	cont "kleine rivier." ; "river."
 	done
 
 Route9SignText:
 	text "ROUTE 9"
 
 	para "CERULEAN CITY -"
-	line "ROCK TUNNEL"
+	line "ROTSTUNNEL" ; "ROCK TUNNEL"
 	done
 
 Route9_MapEvents:

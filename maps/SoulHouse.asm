@@ -22,52 +22,52 @@ SoulHouseGrannyScript:
 	jumptextfaceplayer SoulHouseGrannyText
 
 MrFujiText:
-	text "MR.FUJI: Welcome."
+	text "MR.FUJI: Welkom." ; "MR.FUJI: Welcome."
 
-	para "Hmm… You appear to"
-	line "be raising your"
+	para "Hmm… Het lijkt er" ; "Hmm… You appear to"
+	line "dat jij je #MON" ; "be raising your"
 
-	para "#MON in a kind"
-	line "and loving manner."
+	para "op een liefdevolle" ; "#MON in a kind"
+	line "manier opvoedt." ; "and loving manner."
 
-	para "#MON lovers"
-	line "come here to pay"
+	para "Velen komen hier" ; "#MON lovers"
+	line "om hun respect te" ; "come here to pay"
 
-	para "their respects to"
-	line "departed #MON."
+	para "betuigen voor" ; "their respects to"
+	line "overleden #MON." ; "tuigen voor over"departed #MON."
 
-	para "Please offer con-"
-	line "dolences for the"
+	para "Toon alsjeblieft" ; "Please offer con-"
+	line "je medeleven voor" ; "dolences for the"
 
-	para "souls of the de-"
-	line "parted #MON."
+	para "de zielen van de" ; "souls of the de-"
+	line "overleden #MON." ; "parted #MON."
 
-	para "I'm sure that will"
-	line "make them happy."
+	para "Dat maakt ze vast" ; "I'm sure that will"
+	line "en zeker gelukkig." ; "make them happy."
 	done
 
 SoulHouseTeacherText:
-	text "There are other"
-	line "graves of #MON"
-	cont "here, I think."
+	text "Er zijn hier" ; "There are other"
+	line "meer graven van" ; "graves of #MON"
+	cont "#MON, denk ik." ; "here, I think."
 
-	para "There are many"
-	line "chambers that only"
-	cont "MR.FUJI may enter."
+	para "Er zijn veel" ; "There are many"
+	line "kamers waar alleen" ; "chambers that only"
+	cont "MR.FUJI in mag." ; "MR.FUJI may enter."
 	done
 
 SoulHouseLassText:
-	text "I came with my mom"
-	line "to visit #MON"
-	cont "graves…"
+	text "Ik bezoek #MON-" ; "I came with my mom"
+	line "graven met mijn" ; "mee om #MON-graven" to visit #MON"
+	cont "moeder…" ; "graves…"
 	done
 
 SoulHouseGrannyText:
-	text "The #MON that"
-	line "lived with me…"
+	text "De #MON die bij" ; "The #MON that"
+	line "me woonden…" ; "lived with me…"
 
-	para "I loved them like"
-	line "my grandchildren…"
+	para "Ik had ze lief als" ; "I loved them like"
+	line "m'n kleinkinderen…" ; "my grandchildren…"
 	done
 
 SoulHouse_MapEvents:

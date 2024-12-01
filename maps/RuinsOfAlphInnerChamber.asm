@@ -40,8 +40,8 @@ RuinsOfAlphInnerChamberStatue:
 	jumptext RuinsOfAlphInnerChamberStatueText
 
 RuinsOfAlphStrangePresenceText:
-	text "Er is hier een" ; "There is a strange"
-	line "vreemd gevoel…" ; "presence here…"
+	text "Je voelt een" ; "There is a strange"
+	line "aanwezigheid…" ; "presence here…"
 	done
 
 RuinsOfAlphInnerChamberFisherText:

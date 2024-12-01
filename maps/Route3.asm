@@ -58,7 +58,7 @@ Route3MtMoonSquareSign:
 
 FirebreatherOtisSeenText:
 	text "Ah! Het weer is" ; "Ah! The weather's"
-	line "top als altijd." ; "as fine as ever."
+	line "top, zoals altijd." ; "as fine as ever."
 	done
 
 FirebreatherOtisBeatenText:
@@ -68,7 +68,7 @@ FirebreatherOtisBeatenText:
 
 FirebreatherOtisAfterBattleText:
 	text "Als het regent is" ; "When it rains,"
-	line "'t lastig om aan" ; "it's hard to get"
+	line "het lastig om aan" ; "it's hard to get"
 	cont "te steken…" ; "ignition…"
 	done
 
@@ -86,7 +86,7 @@ YoungsterWarrenAfterBattleText:
 	text "Je zag er sterk" ; "You looked strong."
 	line "uit." ;
 
-	para "Ik was bang om 't" ; "I was afraid to"
+	para "Ik was bang om het" ; "I was afraid to"
 	line "tegen je op te" ; "take you on…"
 	cont "nemen…" ;
 	done
@@ -128,10 +128,10 @@ FirebreatherBurtAfterBattleText:
 	done
 
 Route3MtMoonSquareSignText:
-	text "MAANBERG PLEIN" ; "MT.MOON SQUARE"
+	text "MAANBERGPLEIN" ; "MT.MOON SQUARE"
 
-	para "Ga de trap op." ; "Just go up the"
-	line "" ; "stairs."
+	para "Ga gewoon de trap" ; "Just go up the"
+	line "op." ; "stairs."
 	done
 
 Route3_MapEvents:

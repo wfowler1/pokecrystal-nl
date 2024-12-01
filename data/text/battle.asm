@@ -631,7 +631,7 @@ OneHitKOText:
 	prompt
 
 SuperEffectiveText:
-	text "Het is super" ; "It's super-"
+	text "Het is super-" ; "It's super-"
 	line "effectief!" ; "effective!"
 	prompt
 

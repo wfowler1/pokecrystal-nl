@@ -1,70 +1,70 @@
 ToddAnswerPhoneText:
-	text "Yes? This is"
+	text "Ja? Met" ; "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " speaking."
+	text " spreek je." ; " speaking."
 
-	para "Hey, <PLAY_G>!"
+	para "He, <PLAY_G>!" ; "Hey, <PLAY_G>!"
 	done
 
 ToddAnswerPhoneDayText:
-	text "Yes? This is"
+	text "Ja? Met" ; "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " speaking."
+	text " spreek je." ; " speaking."
 
-	para "This must be"
+	para "Dit is vast" ; "This must be"
 	line "<PLAY_G>."
 	done
 
 ToddAnswerPhoneNiteText:
-	text "Yes? This is"
+	text "Ja? Met" ; "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text " speaking."
+	text " spreek je." ; " speaking."
 
 	para "Ah, <PLAY_G>!"
 	done
 
 ToddGreetText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "<PLAY_G>, right?"
+	para "<PLAY_G>, toch?" ; "<PLAY_G>, right?"
 	done
 
 ToddGreetDayText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "<PLAY_G>, what are"
-	line "you doing?"
+	para "<PLAY_G>, wat ben" ; "<PLAY_G>, what are"
+	line "je aan het doen?" ; "you doing?"
 	done
 
 ToddGreetNiteText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "<PLAY_G>, sorry to"
-	line "call you so late."
+	para "<PLAY_G>, sorry" ; "<PLAY_G>, sorry to"
+	line "Dat ik laat bel." ; "call you so late."
 	done
 
 ToddGenericText:
-	text "How do you raise"
-	line "your #MON?"
+	text "Hoe voed jij je" ; "How do you raise"
+	line "#MON op?" ; "your #MON?"
 
-	para "I do all sorts"
-	line "of things, like"
+	para "Ik doe van alles," ; "I do all sorts"
+	line "zoals ze naar het" ; "of things, like"
 
-	para "leaving them in"
-	line "DAY-CARE and"
+	para "DAGVERBLIJF" ; "leaving them in"
+	line "brengen en ze" ; "DAY-CARE and"
 
-	para "toughening them up"
-	line "with items."
+	para "allerlei voor-" ; "toughening them up"
+	line "werpen voeren." ; "with items."
 	done

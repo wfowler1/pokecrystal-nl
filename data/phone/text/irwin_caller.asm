@@ -1,289 +1,291 @@
 IrwinHangUpText:
-	text "I hate having to"
-	line "hang up on you!"
+	text "Ik baal als ik bij" ; "I hate having to"
+	line "je moet ophangen!" ; "hang up on you!"
 
-	para "Call you later!"
+	para "Spreek je later!" ; "Call you later!"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G>, heb je" ; "<PLAY_G>, have you"
+	line "het gehoord?" ; "heard?"
 
-	para "GOLDENROD's RADIO"
-	line "TOWER has been"
+	para "GOLDENROD'S RADIO-" ; "GOLDENROD's RADIO"
+	line "TOREN is" ; "TOWER has been"
 
-	para "taken over by TEAM"
-	line "ROCKET!"
+	para "overgenomen door" ; "taken over by TEAM"
+	line "TEAM ROCKET!" ; "ROCKET!"
 
-	para "…Um… What's TEAM"
-	line "ROCKET?"
+	para "…Um… Wat is TEAM" ; "…Um… What's TEAM"
+	line "ROCKET?" ; "ROCKET?"
 	done
 
 IrwinPlainBadgeGossipText:
-	text "<PLAY_G>, I heard!"
+	text "<PLAY_G>, ik heb" ; "<PLAY_G>, I heard!"
+	line "het gehoord!"
 
-	para "You defeated that"
-	line "WHITNEY?"
+	para "Je hebt die" ; "You defeated that"
+	line "WHITNEY verslagen?" ; "WHITNEY?"
 
-	para "It makes me proud"
-	line "to be your friend!"
+	para "Ik ben trots om" ; "It makes me proud"
+	line "je vriend te zijn!" ; "to be your friend!"
 	done
 
 IrwinJasmineReturnedGossipText:
-	text "Hey, I heard about"
-	line "you!"
+	text "He, ik hoorde over" ; "Hey, I heard about"
+	line "jou!" ; "you!"
 
-	para "You saved that"
-	line "#MON at the"
+	para "Jij redde die" ; "You saved that"
+	line "#MON in de" ; "#MON at the"
 
-	para "LIGHTHOUSE, didn't"
-	line "you?"
+	para "VUURTOREN, of niet" ; "LIGHTHOUSE, didn't"
+	line "soms?" ; "you?"
 
-	para "<PLAY_G>, I wish"
-	line "you'd come see me"
+	para "<PLAY_G>, kwam je" ; "<PLAY_G>, I wish"
+	line "maar eens langs" ; "you'd come see me"
 
-	para "when I'm sick in"
-	line "bed with a cold!"
+	para "als ik verkouden" ; "when I'm sick in"
+	line "in bed lig!" ; "bed with a cold!"
 	done
 
 IrwinRocketHideoutGossipText:
-	text "I heard, I heard,"
-	line "I heard!"
+	text "Ik hoorde, ik" ; "I heard, I heard,"
+	line "hoorde, ik hoorde!" ; "I heard!"
 
-	para "You smashed TEAM"
-	line "ROCKET's hideout!"
+	para "Je verwoestte TEAM" ; "You smashed TEAM"
+	line "ROCKET's basis!" ; "ROCKET's hideout!"
 
-	para "You're like a"
-	line "movie hero, even!"
+	para "Je bent net een" ; "You're like a"
+	line "filmheld, zeg!" ; "movie hero, even!"
 
-	para "But um… What was"
+	para "Maar uhm… Wat was" ; "But um… What was"
 	line "TEAM ROCKET?"
 	done
 
 IrwinRadioTowerGossipText:
-	text "I heard, I heard,"
-	line "I heard!"
+	text "Ik hoorde, ik" ; "I heard, I heard,"
+	line "hoorde, ik hoorde!" ; "I heard!"
 
-	para "About your heroic"
-	line "liberation of the"
+	para "Van je heldhaftige" ; "About your heroic"
+	line "bevrijding van de" ; "liberation of the"
 
-	para "RADIO TOWER! You"
-	line "rock so hard!"
+	para "RADIOTOREN! Jij" ; "RADIO TOWER! You"
+	line "bent zo gaaf!" ; "rock so hard!"
 	done
 
 IrwinRisingBadgeGossipText:
-	text "I saw, I saw!"
+	text "Ik zag het," ; "I saw, I saw!"
+	line "ik zag het!"
 
-	para "I saw you go into"
-	line "the DRAGON'S DEN!"
+	para "Je ging naar de" ; "I saw you go into"
+	line "DRAKENGROT!" ; "the DRAGON'S DEN!"
 
-	para "I'm certain you"
-	line "passed! Aww, no"
+	para "Je bent vast" ; "I'm certain you"
+	line "geslaagd! Je hoeft" ; "passed! Aww, no"
 
-	para "need to be modest!"
-	line "You can't fail!"
+	para "niet bescheiden te" ; "need to be modest!"
+	line "te zijn!" ; "You can't fail!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Yesterday, I went"
-	line "out to NEW BARK"
+	text "Gisteren ging ik" ; "Yesterday, I went"
+	line "naar NEW BARK" ; "out to NEW BARK"
 
-	para "TOWN.  There was a"
-	line "lady who looked a"
+	para "TOWN. Daar was een" ; "TOWN.  There was a"
+	line "dame die erg veel" ; "lady who looked a"
 
-	para "lot like you,"
+	para "op jou leek," ; "lot like you,"
 	line "<PLAY_G>."
 
-	para "What? That lady"
-	line "was your mom?"
+	para "Wat? Was die dame" ; "What? That lady"
+	line "je moeder?" ; "was your mom?"
 
-	para "Aww, I should've"
-	line "introduced myself!"
+	para "Aww, had ik mezelf" ; "Aww, I should've"
+	line "maar voorgesteld!" ; "introduced myself!"
 
-	para "I bet your mom's"
-	line "really proud of"
+	para "Ze is vast hart-" ; "I bet your mom's"
+	line "stikke trots op" ; "really proud of"
 
-	para "all that you've"
-	line "accomplished."
+	para "alles dat je hebt" ; "all that you've"
+	line "bereikt." ; "accomplished."
 
-	para "Heh, put it this"
-	line "way. I'd be proud"
+	para "Heh, laat ik het" ; "Heh, put it this"
+	line "zo zeggen. Ik zou" ; "way. I'd be proud"
 
-	para "if I were your"
-	line "mom, believe me!"
+	para "trots zijn als ik" ; "if I were your"
+	line "je moeder was!" ; "mom, believe me!"
 	done
 
 IrwinVermilionCityGossipText:
-	text "I saw, I saw,"
-	line "I saw!"
+	text "Ik zag het, ik zag" ; "I saw, I saw,"
+	line "het, ik zag het!" ; "I saw!"
 
-	para "You striding onto"
-	line "a ship, <PLAY_G>!"
+	para "Je vaarde op een" ; "You striding onto"
+	line "schip, <PLAY_G>!" ; "a ship, <PLAY_G>!"
 
-	para "I can't get over"
-	line "how good you look"
+	para "Ik raak niet uit-" ; "I can't get over"
+	line "gepraat over hoe" ; "how good you look"
 
-	para "with the sea as"
-	line "your backdrop!"
+	para "goed je er uitziet" ; "with the sea as"
+	line "op zee!" ; "your backdrop!"
 	done
 
 IrwinTrainPassGossipText:
-	text "I heard, I heard!"
+	text "Ik hoorde het!" ; "I heard, I heard!"
 
-	para "You got a MAGNET"
-	line "TRAIN PASS!"
+	para "Jij hebt een" ; "You got a MAGNET"
+	line "MAGNEETTREIN-PAS!" ; "TRAIN PASS!"
 
-	para "When I saw you"
-	line "departing on the"
+	para "Toen je vertrok op" ; "When I saw you"
+	line "het schip, was" ; "departing on the"
 
-	para "ship, I felt sad"
-	line "that I wouldn't be"
+	para "ik verdrietig om-" ; "ship, I felt sad"
+	line "dat we elkaar een" ; "that I wouldn't be"
 
-	para "able to see you"
-	line "for a while."
+	para "tijd niet zouden" ; "able to see you"
+	line "zien." ; "for a while."
 
-	para "But since you have"
-	line "that PASS, you can"
+	para "maar met die PAS" ; "But since you have"
+	line "kun je altijd snel" ; "that PASS, you can"
 
-	para "zip back anytime!"
-	line "That's reassuring!"
+	para "terugkomen! Wat" ; "zip back anytime!"
+	line "geruststellend!" ; "That's reassuring!"
 
-	para "What? You can FLY"
-	line "back anytime?"
+	para "Wat? Je kon al" ; "What? You can FLY"
+	line "VLIEGEN?" ; "back anytime?"
 
-	para "What do you mean"
-	line "by FLY?"
+	para "Wat bedoel je met" ; "What do you mean"
+	line "VLIEGEN?" ; "by FLY?"
 	done
 
 IrwinSnorlaxGossipText:
-	text "I saw, I saw!"
+	text "Ik zag het, echt!" ; "I saw, I saw!"
 
-	para "You waking up"
+	para "Jij wekte een" ; "You waking up"
 	line "SNORLAX!"
 
-	para "I was watching you"
-	line "from afar, so I"
+	para "Ik keek van ver," ; "I was watching you"
+	line "dus zag niet" ; "from afar, so I"
 
-	para "couldn't tell what"
-	line "you did exactly."
+	para "precies wat je" ; "couldn't tell what"
+	line "hebt gedaan." ; "you did exactly."
 
-	para "Did you play a"
-	line "flute to wake it?"
+	para "Wekte je het met" ; "Did you play a"
+	line "een fluit?" ; "flute to wake it?"
 
-	para "Wow! That's like"
-	line "magic!"
+	para "Wauw! Dat is echt" ; "Wow! That's like"
+	line "magisch!" ; "magic!"
 	done
 
 IrwinMtSilverGossipText:
-	text "I hear rumors"
-	line "about you all over"
-	cont "the place."
+	text "Ik blijf maar" ; "I hear rumors"
+	line "geruchten over" ; "about you all over"
+	cont "jou horen." ; "the place."
 
-	para "It just makes me"
-	line "sigh, <PLAY_G>."
+	para "Ik moet er van" ; "It just makes me"
+	line "zuchten, <PLAY_G>." ; "sigh, <PLAY_G>."
 
-	para "How did you get so"
-	line "strong?"
+	para "Hoe ben jij zo" ; "How did you get so"
+	line "sterk geworden?" ; "strong?"
 
-	para "Go for the world"
-	line "championship now!"
+	para "Richt je nu op de" ; "Go for the world"
+	line "wereldbeker!" ; "championship now!"
 
-	para "I'll always be"
-	line "cheering you on!"
+	para "Ik zal je altijd" ; "I'll always be"
+	line "aanmoedigen!" ; "cheering you on!"
 	done
 
 IrwinCalledRightAwayText:
-	text "Hehe, I called"
-	line "right away!"
+	text "Hehe, ik heb je" ; "Hehe, I called"
+	line "meteen gebeld!" ; "right away!"
 
-	para "I think we can be"
-	line "good friends!"
+	para "Wij worden vast" ; "I think we can be"
+	line "goede vrienden!" ; "good friends!"
 	done
 
 IrwinFogBadgeGossipText:
-	text "I saw, I heard!"
+	text "Ik zag het, echt!" ; "I saw, I heard!"
 
-	para "You beat MORTY of"
-	line "ECRUTEAK GYM!"
+	para "Je versloeg MORTY" ; "You beat MORTY of"
+	line "van ECRUTEAK-GYM!" ; "ECRUTEAK GYM!"
 
-	para "Th-that's just"
-	line "incredible!"
+	para "D-dat is gewoon" ; "Th-that's just"
+	line "onvoorstelbaar!" ; "incredible!"
 
-	para "I actually went to"
-	line "the GYM's entrance"
+	para "Ik stond je bij de" ; "I actually went to"
+	line "voordeur aan te" ; "the GYM's entrance"
 
-	para "to cheer you on."
-	line "Did you know that?"
+	para "moedigen. Wist je" ; "to cheer you on."
+	line "dat wel?" ; "Did you know that?"
 
-	para "But everyone was"
-	line "floating, and"
+	para "Iedereen zweefde" ; "But everyone was"
+	line "en er waren overal" ; "floating, and"
 
-	para "there were ghosts"
-	line "all over! So I"
+	para "spoken! Dus ik ben" ; "there were ghosts"
+	line "bang afgetaaid" ; "all over! So I"
 
-	para "chickened out and"
-	line "took off for home…"
+	para "en weer naar huis" ; "chickened out and"
+	line "gegaan…" ; "took off for home…"
 	done
 
 IrwinMarshBadgeGossipText:
-	text "<PLAY_G>, I heard!"
+	text "<PLAY_G>, wat nou!" ; "<PLAY_G>, I heard!"
 
-	para "You're kicking up"
-	line "a mighty ruckus"
+	para "Je zet de boel op" ; "You're kicking up"
+	line "stelten daar in" ; "a mighty ruckus"
 
-	para "over in KANTO!"
-	line "What a glorious"
+	para "KANTO! Wat zullen" ; "over in KANTO!"
+	line "ze daar van je" ; "What a glorious"
 
-	para "rampage it must"
-	line "be!"
+	para "zijn geschrokken," ; "rampage it must"
+	line "zeg!" ; "be!"
 
-	para "You so rock!"
+	para "Je bent de beste!" ; "You so rock!"
 	done
 
 IrwinYourEscapadesRockText:
-	text "Hearing about your"
-	line "escapades rocks my"
+	text "Horen van jouw" ; "Hearing about your"
+	line "avonturen raakt me" ; "escapades rocks my"
 
-	para "soul!"
-	line "It sure does!"
+	para "diep in mijn ziel!" ; "soul!"
+	line "Echt waar!" ; "It sure does!"
 	done
 
 IrwinGoodMatchText:
-	text "I'm so glad you"
-	line "called!"
+	text "Ik ben zo blij dat" ; "I'm so glad you"
+	line "je belde!" ; "called!"
 
-	para "I was just about"
-	line "to call you too!"
+	para "Ik wilde jou ook" ; "I was just about"
+	line "net bellen!" ; "to call you too!"
 
-	para "I guess we must be"
-	line "a good match!"
+	para "Kennelijk zijn we" ; "I guess we must be"
+	line "een goede match!" ; "a good match!"
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "How are you?"
+	text "Hoe gaat het?" ; "How are you?"
 
-	para "What are you"
-	line "doing?"
+	para "Wat ben je aan het" ; "What are you"
+	line "doen?" ; "doing?"
 
-	para "Where are you?"
+	para "Waar ben je?" ; "Where are you?"
 
-	para "How many BADGES do"
-	line "you have now?"
+	para "Hoeveel BADGES heb" ; "How many BADGES do"
+	line "je nu?" ; "you have now?"
 
-	para "How much money"
-	line "have you saved?"
+	para "Hoeveel geld heb" ; "How much money"
+	line "je gespaard?" ; "have you saved?"
 
-	para "How's your mom?"
+	para "Hoe is het met ma?" ; "How's your mom?"
 
-	para "Have you got lots"
-	line "of #MON?"
+	para "Heb je al veel" ; "Have you got lots"
+	line "#MON?" ; "of #MON?"
 
-	para "Is it going to be"
-	line "sunny tomorrow?"
+	para "Wordt het morgen" ; "Is it going to be"
+	line "zonnig?" ; "sunny tomorrow?"
 
-	para "Arrgh, there's so"
-	line "much I want to"
+	para "Arrgh, ik wil over" ; "Arrgh, there's so"
+	line "zoveel praten!" ; "much I want to"
 
-	para "chat about! This"
-	line "is going nowhere!"
+	para "Dit gaat echt geen" ; "chat about! This"
+	line "kant op!" ; "is going nowhere!"
 	done
