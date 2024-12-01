@@ -58,7 +58,7 @@ VictoryRoadGateOfficerText:
 	done
 
 VictoryRoadGateNotEnoughBadgesText:
-	text "Je hebt niet alle" "You don't have all"
+	text "Je hebt niet alle" ; "You don't have all"
 	line "GYMBADGES van" ; "the GYM BADGES of"
 	cont "JOHTO." ; "JOHTO."
 
