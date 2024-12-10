@@ -54,7 +54,7 @@ BuenaPhoneMorningText:
 
 BuenaPhoneDayText:
 	text "<PLAY_G>!"
-	line "Hoi, het met BUENA!" ; "Hi, it's BUENA!"
+	line "Hoi, met BUENA!" ; "Hi, it's BUENA!"
 
 	para "Ik moest met" ; "I needed someone"
 	line "iemand praten!" ; "to chat with!"
@@ -418,14 +418,14 @@ BuenaPhoneCompanyVacationText:
 BuenaPhoneBenAndFernText:
 	text "Wist je dat…?" ; "Did you know…?"
 
-	para "BEN en FERN bellen-" ; "BEN and FERN talk"
+	para "BEN en FERN bellen" ; "BEN and FERN talk"
 	line "urenlang over wat" ; "on the phone for"
 
 	para "voor muziek ze op" ; "hours about what"
 	line "welke dagen van de" ; "#MON music they"
 
-	para "week moeten draaien" ; "should play on"
-	line "op de radio." ; "different days of"
+	para "week moeten draai-" ; "should play on"
+	line "en op de radio." ; "different days of"
 	; cont "the week."
 
 	para "Eén keer raakte" ; "One time, FERN's"
