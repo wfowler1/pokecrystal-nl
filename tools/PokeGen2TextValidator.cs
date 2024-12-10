@@ -67,7 +67,7 @@ namespace PokeGen2TextValidator
 
             if (validate)
             {
-                Console.WriteLine("Validating file: " + source.File.Name + " Type: " + source.Type);
+                Console.WriteLine("Validating file: " + source.File.Name + " Type: " + source.Type + " Source: " + source.Source);
 
                 bool problem = false;
                 foreach (KeyValuePair<string, Block> pair in source.blocks)
@@ -95,7 +95,6 @@ namespace PokeGen2TextValidator
                 {
                     Comparer comparer = new Comparer(source, target);
                     Console.WriteLine(comparer.Compare());
-                    Console.ReadLine();
                 }
                 else if (merge)
                 {
@@ -169,12 +168,20 @@ namespace PokeGen2TextValidator
         TrainerClass = 8,
     }
 
+    public enum Source
+    {
+        Unknown = -1,
+        GoldSilver = 0,
+        Crystal = 1
+    }
+
     internal class ASMFile : IEnumerable<Block>
     {
 
         public String Name { get; private set; }
         public FileInfo File { get; private set; }
         public FileType Type { get; private set; }
+        public Source Source { get; private set; }
         public Dictionary<string, Block> blocks;
 
         public ASMFile(string path)
@@ -183,6 +190,16 @@ namespace PokeGen2TextValidator
             Name = File.Name;
             Type = GetType(File);
             blocks = new Dictionary<string, Block>();
+
+            Source = Source.Unknown;
+            if (File.FullName.Contains("pokegold"))
+            {
+                Source = Source.GoldSilver;
+            }
+            else if (File.FullName.Contains("pokecrystal"))
+            {
+                Source = Source.Crystal;
+            }
 
             string[] lines = System.IO.File.ReadAllLines(path);
             ParseBlocks(lines);
@@ -253,7 +270,7 @@ namespace PokeGen2TextValidator
 
         private void ParseBlocks(string[] lines)
         {
-            Block currentBlock = new Block("default", Type);
+            Block currentBlock = new Block("default", Type, Source);
             for (int i = 0; i < lines.Length; ++i)
             {
                 Line line = new Line(i, lines[i]);
@@ -263,7 +280,7 @@ namespace PokeGen2TextValidator
                     if (!line.Text.StartsWith(".") && line.Text.EndsWith(":"))
                     {
                         blocks[currentBlock.Name] = currentBlock;
-                        currentBlock = new Block(line.Text, Type);
+                        currentBlock = new Block(line.Text, Type, Source);
                     }
                 }
                 currentBlock.Add(line);
@@ -308,26 +325,29 @@ namespace PokeGen2TextValidator
     {
         public List<Line> lines;
         public FileType Type { get; set; }
+        public Source Source { get; set; }
         public string Name { get; private set; }
 
-        public Block(string name, FileType type = FileType.Misc)
+        public Block(string name, FileType type = FileType.Misc, Source source = Source.Unknown)
         {
             lines = new List<Line>();
             Name = name;
             Type = type;
+            Source = source;
         }
 
-        public Block(string name, Line line, FileType type = FileType.Misc) : this(name, type)
+        public Block(string name, Line line, FileType type = FileType.Misc, Source source = Source.Unknown) : this(name, type, source)
         {
             Name = name;
             lines.Add(line);
         }
 
-        public Block(string name, List<Line> lines, FileType type = FileType.Misc)
+        public Block(string name, List<Line> lines, FileType type = FileType.Misc, Source source = Source.Unknown)
         {
             Name = name;
             this.lines = lines;
             Type = type;
+            Source = source;
         }
 
         public void Add(Line line)
@@ -634,6 +654,11 @@ namespace PokeGen2TextValidator
             Raw = text;
         }
 
+        public Line(string text, string comment)
+        {
+            Raw = text + " ; " + comment;
+        }
+
         public string GetFormattedText()
         {
             if (Text.Contains('\"'))
@@ -818,11 +843,9 @@ namespace PokeGen2TextValidator
 
             foreach (KeyValuePair<string, int> pair in maxLengths)
             {
-                for (int i = text.IndexOf(pair.Key); i >= 0; i = text.IndexOf(pair.Key))
-                {
-                    Length += pair.Value;
-                    text = text.Remove(i, pair.Key.Length);
-                }
+                int lengthBefore = text.Length;
+                text = text.Replace(pair.Key, string.Empty);
+                Length += ((lengthBefore - text.Length) / pair.Key.Length) * pair.Value;
             }
 
             Length += text.Length;
@@ -1009,6 +1032,11 @@ namespace PokeGen2TextValidator
                         sb.Append(message);
                     }
                 }
+
+                if (_block.Source == Source.GoldSilver && formattedText.Text.Contains("<PLAY_G>"))
+                {
+                    sb.Append(GetGoldSilverPLAYGUnsupportedMessage(formattedText));
+                }
             }
 
             foreach (Line line in _block.lines)
@@ -1081,18 +1109,24 @@ namespace PokeGen2TextValidator
             return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" contains unmapped characters \'").Append(unmapped).Append("\'.\n").ToString();
         }
 
+        private string GetGoldSilverPLAYGUnsupportedMessage(FormattedText formattedText)
+        {
+            StringBuilder sb = new StringBuilder();
+            return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" in ").Append(_block.Name).Append(" contains \"<PLAY_G>\" which is unsupported in Gold/Silver. Use \"<PLAYER>\" instead.\n").ToString();
+        }
+
     }
     
     // Comparer.cs
     internal class Comparer
     {
-        private ASMFile source;
-        private ASMFile target;
+        private readonly ASMFile source;
+        private readonly ASMFile target;
 
-        public List<Block> added;
-        public List<Block> removed;
-        public Dictionary<Block, Block> modified;
-        public Dictionary<Block, Block> matched;
+        public readonly List<Block> added;
+        public readonly List<Block> removed;
+        public readonly Dictionary<Block, Block> modified;
+        public readonly Dictionary<Block, Block> matched;
 
         public Comparer(ASMFile source, ASMFile target)
         {
@@ -1161,49 +1195,56 @@ namespace PokeGen2TextValidator
             return sb.ToString();
         }
 
-        private string CompareBlocks(Block source, Block target)
+        private string CompareBlocks(Block sourceBlock, Block targetBlock)
         {
             StringBuilder sb = new StringBuilder();
-            if (source.lines.Count != target.lines.Count)
+            if (sourceBlock.lines.Count != targetBlock.lines.Count)
             {
-                modified.Add(source, target);
-                sb.Append("\t! Block ").Append(source.Name).Append(" has different line counts between source and target.\n");
+                modified.Add(sourceBlock, targetBlock);
+                sb.Append("\t! Block ").Append(sourceBlock.Name).Append(" has different line counts between source and target.\n");
             }
             else
             {
                 bool changed = false;
-                for (int i = 0; i < source.lines.Count; i++)
+                for (int i = 0; i < sourceBlock.lines.Count; i++)
                 {
-                    if (i == 0 && (source.Name != "default" || source.Name != target.Name))
+                    if (i == 0 && (sourceBlock.Name != "default" || sourceBlock.Name != targetBlock.Name))
                     {
                         continue;
                     }
 
-                    if (source.lines[i].Text != target.lines[i].Text)
+                    string sourceLine = sourceBlock.lines[i].Text;
+                    string targetLine = targetBlock.lines[i].Text;
+                    if (source.Source == Source.GoldSilver || target.Source == Source.GoldSilver)
+                    {
+                        sourceLine = sourceLine.Replace("<PLAY_G>", "<PLAYER>");
+                        targetLine = targetLine.Replace("<PLAY_G>", "<PLAYER>");
+                    }
+                    if (sourceLine != targetLine)
                     {
                         if (!changed)
                         {
-                            sb.Append("\t! Block ").Append(source.Name).Append(" in Source content differs from ").Append(target.Name).Append(" in Target.\n");
+                            sb.Append("\t! Block ").Append(sourceBlock.Name).Append(" in Source content differs from ").Append(targetBlock.Name).Append(" in Target.\n");
                             changed = true;
                         }
                         sb.Append("\t\t")
                           .Append(i)
                           .Append(":\n\t\t\t- Source: ")
-                          .Append(source.lines[i])
+                          .Append(sourceBlock.lines[i])
                           .Append("\n\t\t\t+ Target: ")
-                          .Append(target.lines[i])
+                          .Append(targetBlock.lines[i])
                           .Append('\n');
                     }
                 }
 
                 if (changed)
                 {
-                    modified.Add(source, target);
+                    modified.Add(sourceBlock, targetBlock);
                 }
                 else
                 {
-                    matched.Add(source, target);
-                    sb.Append("\t= Block ").Append(source.Name).Append(" in Source matches ").Append(target.Name).Append(" in Target.\n");
+                    matched.Add(sourceBlock, targetBlock);
+                    sb.Append("\t= Block ").Append(sourceBlock.Name).Append(" in Source matches ").Append(targetBlock.Name).Append(" in Target.\n");
                 }
             }
             return sb.ToString();
@@ -1214,10 +1255,10 @@ namespace PokeGen2TextValidator
     internal class Merger
     {
 
-        private ASMFile source;
-        private ASMFile target;
-        private ASMFile baseSource;
-        private ASMFile baseTarget;
+        private readonly ASMFile source;
+        private readonly ASMFile target;
+        private readonly ASMFile baseSource;
+        private readonly ASMFile baseTarget;
         private Comparer baseComparison;
 
         public Merger(ASMFile source, ASMFile target, ASMFile baseSource, ASMFile baseTarget)
@@ -1243,7 +1284,7 @@ namespace PokeGen2TextValidator
                     string comment = targetBlock.lines[0].Comment;
                     if (!string.IsNullOrEmpty(comment))
                     {
-                        string[] commentTokens = comment.Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+                        string[] commentTokens = comment.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
                         for (int i = 0; i < commentTokens.Length - 1; ++i)
                         {
                             if (commentTokens[i] == "CompareWith")
@@ -1254,18 +1295,7 @@ namespace PokeGen2TextValidator
                                     continue;
                                 }
 
-                                List<Line> newLines = new List<Line>();
-                                for (int j = 0; j < sourceBlock.lines.Count; j++)
-                                {
-                                    if (sourceBlock.Name != null && j == 0)
-                                    {
-                                        newLines.Add(targetBlock.lines[j]);
-                                        continue;
-                                    }
-
-                                    newLines.Add(sourceBlock.lines[j]);
-                                }
-                                targetBlock.lines = newLines;
+                                CopyLines(sourceBlock, targetBlock);
                                 sb.Append("Replacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source.\n");
                             }
                         }
@@ -1281,25 +1311,7 @@ namespace PokeGen2TextValidator
                     continue;
                 }
 
-                Block targetBlock = target.blocks[match.Value.Name];
-                string sourceName = null;
-                if (match.Key.Name != "default")
-                {
-                    sourceName = match.Key.Name;
-                }
-
-                List<Line> newLines = new List<Line>();
-                for (int i = 0; i < sourceBlock.lines.Count; i++)
-                {
-                    if (sourceName != null && i == 0)
-                    {
-                        newLines.Add(targetBlock.lines[i]);
-                        continue;
-                    }
-
-                    newLines.Add(sourceBlock.lines[i]);
-                }
-                targetBlock.lines = newLines;
+                CopyLines(sourceBlock, target.blocks[match.Value.Name]);
                 sb.Append("Replacing block ").Append(match.Key.Name).Append(" in target with ").Append(match.Key.Name).Append(" from source.\n");
             }
 
@@ -1314,6 +1326,30 @@ namespace PokeGen2TextValidator
             }
 
             return sb.ToString();
+        }
+
+        private void CopyLines(Block sourceBlock, Block targetBlock)
+        {
+            List<Line> newLines = new List<Line>();
+            for (int i = 0; i < sourceBlock.lines.Count; ++i)
+            {
+                if (i == 0 && sourceBlock.Name != "default")
+                {
+                    // Keep the first line from target, so block names are the same in target.
+                    newLines.Add(targetBlock.lines[i]);
+                }
+                else
+                {
+                    Line line = sourceBlock.lines[i];
+                    string raw = line.Raw;
+                    if (target.Source == Source.GoldSilver)
+                    {
+                        raw = raw.Replace("<PLAY_G>", "<PLAYER>");
+                    }
+                    newLines.Add(new Line(line.Number, raw));
+                }
+            }
+            targetBlock.lines = newLines;
         }
 
     }
