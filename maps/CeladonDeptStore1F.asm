@@ -24,51 +24,51 @@ CeladonDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore1FReceptionistText:
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE!"
+	text "Hallo! Welkom bij" ; "Hello! Welcome to"
+	line "het CELADON-" ; "CELADON DEPT."
+	cont "WARENHUIS!" ; "STORE!"
 
-	para "The directory is"
-	line "on the wall."
+	para "De plattegrond" ; "The directory is"
+	line "hangt aan de muur." ; "on the wall."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "This DEPT.STORE is"
-	line "part of the same"
+	text "Dit WARENHUIS is" ; "This DEPT.STORE is"
+	line "van dezelfde keten" ; "part of the same"
 
-	para "chain as the one"
-	line "in GOLDENROD CITY."
+	para "als die in" ; "chain as the one"
+	line "in GOLDENROD CITY." ; "in GOLDENROD CITY."
 
-	para "They were both"
-	line "renovated at the"
-	cont "same time."
+	para "Ze zijn tegelijk" ; "They were both"
+	line "gerenoveerd." ; "renovated at the"
+	; cont "renoveerd." ; "same time."
 	done
 
 CeladonDeptStore1FTeacherText:
-	text "This is my first"
-	line "time here."
+	text "Ik ben hier" ; "This is my first"
+	line "voor het eerst." ; "time here."
 
-	para "It's so big…"
+	para "Zo groot…" ; "It's so big…"
 
-	para "I'm afraid I'll"
-	line "get lost."
+	para "Ik ben bang dat" ; "I'm afraid I'll"
+	line "ik verdwaal." ; "get lost."
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: SERVICE-" ; "1F: SERVICE"
+	line "    BALIE" ; "    COUNTER"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TRAINER-" ; "2F: TRAINER'S"
+	line "    MARKT" ; "    MARKET"
 
-	para "3F: TM SHOP"
+	para "3F: TM-WINKEL" ; "3F: TM SHOP"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: CADEAUWINKEL" ; "4F: WISEMAN GIFTS"
 
-	para "5F: DRUG STORE"
+	para "5F: APOTHEEK" ; "5F: DRUG STORE"
 
-	para "6F: ROOFTOP"
-	line "    SQUARE"
+	para "6F: DAK-" ; "6F: ROOFTOP"
+	line "    TERRAS" ; "    SQUARE"
 	done
 
 CeladonDeptStore1F_MapEvents:

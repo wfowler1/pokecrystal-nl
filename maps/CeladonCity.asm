@@ -76,16 +76,16 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
-	line "my partner."
+	text "Deze POLIWRATH is" ; "This POLIWRATH is"
+	line "mijn partner." ; "my partner."
 
-	para "I wonder if it'll"
-	line "ever evolve into a"
-	cont "frog #MON."
+	para "Zou die ooit" ; "I wonder if it'll"
+	line "evolueren in een" ; "ever evolve into a"
+	cont "kikker-#MON?" ; "frog #MON."
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "POLIWRATH: Kwaak!" ; "POLIWRATH: Croak!"
 	done
 
 CeladonCityTeacher1Text:
@@ -94,126 +94,126 @@ if DEF(_CRYSTAL_AU)
 	line "machines."
 	done
 else
-	text "I lost at the slot"
-	line "machines again…"
+	text "Weer verloren bij" ; "I lost at the slot"
+	line "de speelautomaten…" ; "machines again…"
 
-	para "We girls also play"
-	line "the slots now."
+	para "Meisjes spelen nu" ; "We girls also play"
+	line "ook met automaten." ; "the slots now."
 
-	para "You should check"
-	line "them out too."
+	para "Probeer ze ook" ; "You should check"
+	line "eens een keertje." ; "them out too."
 	done
 endc
 
 CeladonCityGramps1Text:
-	text "GRIMER have been"
-	line "appearing lately."
+	text "GRIMER verschijnt" ; "GRIMER have been"
+	line "hier sinds kort." ; "appearing lately."
 
-	para "See that pond out"
-	line "in front of the"
+	para "Zie je die vijver" ; "See that pond out"
+	line "voor het huis?" ; "in front of the"
 
-	para "house? GRIMER live"
-	line "there now."
+	para "Daar wonen nu" ; "house? GRIMER live"
+	line "GRIMER." ; "there now."
 
-	para "Where did they"
-	line "come from? This is"
-	cont "a serious problem…"
+	para "Waar komen ze van-" ; "Where did they"
+	line "daan? Dit is echt" ; "come from? This is"
+	cont "een probleem…" ; "a serious problem…"
 	done
 
 CeladonCityGramps2Text:
-	text "Nihihi! This GYM"
-	line "is great! Only"
+	text "Nihihi! Deze GYM" ; "Nihihi! This GYM"
+	line "is geweldig!" ; "is great! Only"
 
-	para "girls are allowed"
-	line "here!"
+	para "Alleen meiden zijn" ; "girls are allowed"
+	line "hier welkom!" ; "here!"
 	done
 
 CeladonCityYoungster1Text:
-	text "Want to know a"
-	line "secret?"
+	text "Wil je een geheim" ; "Want to know a"
+	line "weten?" ; "secret?"
 
-	para "CELADON MANSION"
-	line "has a hidden back"
-	cont "door."
+	para "CELADON-FLAT heeft" ; "CELADON MANSION"
+	line "een verstopte" ; "has a hidden back"
+	cont "achterdeur." ; "door."
 	done
 
 CeladonCityYoungster2Text:
-	text "They're holding an"
-	line "eating contest at"
-	cont "the restaurant."
+	text "Ze houden een" ; "They're holding an"
+	line "eetwedstrijd bij" ; "eating contest at"
+	cont "het restaurant." ; "the restaurant."
 
-	para "Just watching them"
-	line "go at it makes me"
-	cont "feel bloated…"
+	para "Ik zit al vol" ; "Just watching them"
+	line "als ik er alleen" ; "go at it makes me"
+	cont "al naar kijk…" ; "feel bloated…"
 	done
 
 CeladonCityTeacher2Text:
-	text "CELADON DEPT.STORE"
-	line "has the biggest"
+	text "CELADON-WARENHUIS" ; "CELADON DEPT.STORE"
+	line "heeft de grootste" ; "has the biggest"
 
-	para "and best selection"
-	line "of merchandise."
+	para "en beste selectie" ; "and best selection"
+	line "aan goederen." ; "of merchandise."
 
-	para "If you can't get"
-	line "it there, you"
+	para "Als je het daar" ; "If you can't get"
+	line "niet kan krijgen," ; "it there, you"
 
-	para "can't get it any-"
-	line "where."
+	para "dan vind je het" ; "can't get it any-"
+	line "nergens." ; "where."
 
-	para "Gee… I sound like"
-	line "a sales clerk."
+	para "Tjee… Ik klink als" ; "Gee… I sound like"
+	line "een ware verkoper." ; "a sales clerk."
 	done
 
 CeladonCityLassText_Mobile: ; unreferenced
-	text "I love being"
-	line "surrounded by tall"
-	cont "buildings!"
+	text "Heerlijk om door" ; "I love being"
+	line "hoge gebouwen om-" ; "surrounded by tall"
+	cont "ringd te zijn!" ; "buildings!"
 
-	para "Isn't it true that"
-	line "GOLDENROD #MON"
+	para "Klopt het dat het" ; "Isn't it true that"
+	line "#MONCENTRUM" ; "GOLDENROD #MON"
 
-	para "CENTER was made"
-	line "much, much bigger?"
+	para "van GOLDENROD nu" ; "CENTER was made"
+	line "veel groter is?" ; "much, much bigger?"
 
-	para "That is so neat!"
-	line "I wish we had a"
+	para "Dat is zo gaaf!" ; "That is so neat!"
+	line "Hadden we ook" ; "I wish we had a"
 
-	para "place like that in"
-	line "KANTO…"
+	para "maar zo'n plek" ; "place like that in"
+	line "in KANTO…" ; "KANTO…"
 	done
 
 CeladonCityLassText:
-	text "Looking at the"
-	line "ground while I was"
+	text "Omlaag kijken" ; "Looking at the"
+	line "tijdens het lopen," ; "ground while I was"
 
-	para "walking made me"
-	line "dizzy."
+	para "ik word er dui-" ; "walking made me"
+	line "zelig van." ; "dizzy."
 	done
 
 CeladonCitySignText:
-	text "CELADON CITY"
+	text "CELADON CITY" ; "CELADON CITY"
 
-	para "The City of"
-	line "Rainbow Dreams"
+	para "De stad van" ; "The City of"
+	line "Regenboogdromen" ; "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	text "CELADON CITY" ; "CELADON CITY"
+	line "#MONGYMLEIDER:" ; "#MON GYM"
+	cont "ERIKA" ; "LEADER: ERIKA"
 
-	para "The Nature-Loving"
-	line "Princess"
+	para "De Natuurlief-" ; "The Nature-Loving"
+	line "hebbende Prinses" ; "Princess"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Find What You"
-	line "Need at CELADON"
-	cont "DEPT.STORE!"
+	text "Vind wat je zoekt" ; "Find What You"
+	line "bij het CELADON-" ; "Need at CELADON"
+	cont "WARENHUIS!" ; "DEPT.STORE!"
 	done
 
 CeladonCityMansionSignText:
-	text "CELADON MANSION"
+	text "CELADON-FLAT" ; "CELADON MANSION"
 	done
 
 CeladonCityGameCornerSignText:
@@ -223,25 +223,25 @@ if DEF(_CRYSTAL_AU)
 	cont "GAME CORNER"
 	done
 else
-	text "The Playground for"
-	line "Everybody--CELADON"
-	cont "GAME CORNER"
+	text "De Speeltuin voor" ; "The Playground for"
+	line "Iedereen--CELADON" ; "Everybody--CELADON"
+	cont "SPELHOEK" ; "GAME CORNER"
 	done
 endc
 
 CeladonCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
-	para "GUARD SPEC."
-	line "protects #MON"
+	para "STATWACHT" ; "GUARD SPEC."
+	line "beschermt #MON" ; "protects #MON"
 
-	para "against SPECIAL"
-	line "attacks such as"
-	cont "fire and water."
+	para "tegen SPECIALE" ; "against SPECIAL"
+	line "aanvallen zoals" ; "attacks such as"
+	cont "vuur en water." ; "fire and water."
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Koop je voorwerpen" ; "Get your items at"
+	line "bij het CELADON-" ; "CELADON DEPT."
+	cont "WARENHUIS!" ; "STORE!"
 	done
 
 CeladonCity_MapEvents:

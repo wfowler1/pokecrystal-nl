@@ -36,34 +36,34 @@ CeladonDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore2FPokefanMText:
-	text "I just recently"
-	line "became a trainer."
+	text "Ik ben pas sinds" ; "I just recently"
+	line "kort een trainer." ; "became a trainer."
 
-	para "My son encouraged"
-	line "me to do it."
+	para "Mijn zoon spoorde" ; "My son encouraged"
+	line "me aan." ; "me to do it."
 
-	para "I'm impressed by"
-	line "the selection of"
-	cont "convenient items."
+	para "Ik ben onder de" ; "I'm impressed by"
+	line "indruk van alle" ; "the selection of"
+	cont "handige spullen."; "convenient items."
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "My dad's having a"
-	line "hard time learning"
+	text "Mijn vader vindt" ; "My dad's having a"
+	line "het lastig om te" ; "hard time learning"
 
-	para "the names of items"
-	line "and how they are"
+	para "onthouden hoe" ; "the names of items"
+	line "voorwerpen heten" ; "and how they are"
 
-	para "supposed to be"
-	line "used…"
+	para "en hoe je ze" ; "supposed to be"
+	line "moet gebruiken…" ; "used…"
 	done
 
 CeladonDeptStore2FDirectoryText:
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Topvoorwerpen" ; "Top Grade Items"
+	line "voor Trainers!" ; "for Trainers!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TRAINER-" ; "2F: TRAINER'S"
+	line "    MARKT" ; "    MARKET"
 	done
 
 CeladonDeptStore2F_MapEvents:
