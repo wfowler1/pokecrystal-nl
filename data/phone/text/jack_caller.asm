@@ -1,192 +1,192 @@
 JackIntelligenceKeepsRisingText:
-	text "My @"
+	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "'s"
-	line "intelligence keeps"
+	line "intelligentie" ; "intelligence keeps"
 
-	para "rising. It might"
-	line "be smarter than"
-	cont "yours!"
+	para "stijgt steeds. Het" ; "rising. It might"
+	line "is wellicht slim-" ; "be smarter than"
+	cont "mer dan de jouwe!" ; "yours!"
 	done
 
 JackDefeatedMonText:
-	text "The other day, I"
-	line "easily defeated a"
+	text "Laatst versloeg ik" ; "The other day, I"
+	line "met gemak een" ; "easily defeated a"
 	cont "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "I think swapping"
-	line "tips with you is"
-	cont "starting to help."
+	para "Tips met jou uit-" ; "I think swapping"
+	line "wisselen begint" ; "tips with you is"
+	cont "denk ik te helpen." ; "starting to help."
 	done
 
 JackLostAMonText:
-	text "Oh, and listen."
-	line "I missed catching"
+	text "Oh, en luister." ; "Oh, and listen."
+	line "Het lukte net niet" ; "I missed catching"
 
-	para "a @"
+	para "een @" ; "a @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " by"
-	line "just a tiny bit."
+	text " te" ; " by"
+	line "vangen." ; "just a tiny bit."
 
-	para "If I'd been a bit"
-	line "more informed, I'm"
+	para "Als ik meer had" ; "If I'd been a bit"
+	line "geweten, was het" ; "more informed, I'm"
 
-	para "sure I would've"
-	line "caught it…"
+	para "toen vast wel" ; "sure I would've"
+	line "gelukt…" ; "caught it…"
 	done
 
 JackBattleRematchText:
-	text "Do you want to"
-	line "battle? I'll show"
+	text "Heb je zin in een" ; "Do you want to"
+	line "gevecht? Ik laat" ; "battle? I'll show"
 
-	para "you how to battle"
-	line "logically."
+	para "je zien hoe je" ; "you how to battle"
+	line "logisch vecht." ; "logically."
 
-	para "I'll be in"
+	para "Je vindt me op" ; "I'll be in"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "Give me a shout if"
-	line "you're nearby."
+	para "Geef een gil als" ; "Give me a shout if"
+	line "je er bent." ; "you're nearby."
 	done
 
 JackHangUpText:
-	text "See you later!"
+	text "Zie je later!" ; "See you later!"
 	done
 
 JackThunderTriviaText:
-	text "Did you know?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "When it's raining,"
-	line "THUNDER is sure to"
-	cont "strike."
+	para "Als het regent," ; "When it's raining,"
+	line "raakt DONDER" ; "THUNDER is sure to"
+	cont "altijd het doel." ; "strike."
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If you use DEFENSE"
-	line "CURL, ROLLOUT's"
+	para "Als je VERDEDIGING" ; "If you use DEFENSE"
+	line "gebruikt, wordt" ; "CURL, ROLLOUT's"
 
-	para "power goes way up"
-	line "past normal."
+	para "UITROL vele malen" ; "power goes way up"
+	line "sterker." ; "past normal."
 	done
 
 JackSolarbeamTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If the sunlight is"
-	line "harsh, SOLARBEAM"
+	para "Als ze zon fel" ; "If the sunlight is"
+	line "schijnt, hoeft" ; "harsh, SOLARBEAM"
 
-	para "doesn't need to be"
-	line "charged up."
+	para "ZONNESTRAAL niet" ; "doesn't need to be"
+	line "op te laden." ; "charged up."
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If the opponent"
-	line "uses MINIMIZE,"
+	para "Als de vijand" ; "If the opponent"
+	line "VERKLEIN gebruikt," ; "uses MINIMIZE,"
 
-	para "your STOMP becomes"
-	line "more powerful."
+	para "wordt jouw STOMP" ; "your STOMP becomes"
+	line "krachtiger." ; "more powerful."
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Als je vijand" ; "If your opponent"
+	line "VLIEGT, wordt je" ; "is FLYing, your"
 
-	para "GUST becomes much"
-	line "more powerful."
+	para "je WINDVLAAG veel" ; "GUST becomes much"
+	line "krachtiger." ; "more powerful."
 	done
 
 JackTwisterTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Als je vijand" ; "If your opponent"
+	line "VLIEGT, wordt je" ; "is FLYing, your"
 
-	para "TWISTER becomes"
-	line "more powerful."
+	para "TWISTER veel" ; "TWISTER becomes"
+	line "krachtiger." ; "more powerful."
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Als je vijand" ; "If your opponent"
+	line "GRAVEN gebruikt," ; "uses DIG, your"
 
-	para "EARTHQUAKE becomes"
-	line "more powerful."
+	para "wordt je AARD-" ; "EARTHQUAKE becomes"
+	line "BEVING krachtiger." ; "more powerful."
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Als je vijand" ; "If your opponent"
+	line "GRAVEN gebruikt," ; "uses DIG, your"
 
-	para "MAGNITUDE becomes"
-	line "more powerful."
+	para "wordt je GROOTHEID" ; "MAGNITUDE becomes"
+	line "krachtiger." ; "more powerful."
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "The rock, ground"
-	line "and steel types"
+	para "Rots-, grond- en" ; "The rock, ground"
+	line "staaltypes worden" ; "and steel types"
 
-	para "can't be hurt by"
-	line "SANDSTORM."
+	para "niet bezeerd door" ; "can't be hurt by"
+	line "ZANDSTORM." ; "SANDSTORM."
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If the sunlight is"
-	line "harsh, water-type"
+	para "Als de zon fel," ; "If the sunlight is"
+	line "schijnt, worden" ; "harsh, water-type"
 
-	para "moves become much"
-	line "weaker."
+	para "water-aanvallen" ; "moves become much"
+	line "veel zwakker." ; "weaker."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "When it's raining,"
-	line "fire-type moves"
+	para "Als het regent," ; "When it's raining,"
+	line "worden vuur-" ; "fire-type moves"
 
-	para "become much weaker"
-	line "than usual."
+	para "aanvallen veel" ; "become much weaker"
+	line "zwakker." ; "than usual."
 	done
 
 JackHeardSomeGreatTipsText:
-	text "My friend heard"
-	line "some great tips."
+	text "Mijn vriend hoorde" ; "My friend heard"
+	line "wat goede tips." ; "some great tips."
 
-	para "He's going to let"
-	line "me in on some."
+	para "Hij gaat een paar" ; "He's going to let"
+	line "met mij delen." ; "me in on some."
 
-	para "When he tells me,"
-	line "I'll call right"
-	cont "away and tell you."
+	para "Ik bel je dan" ; "When he tells me,"
+	line "gelijk om ze aan" ; "I'll call right"
+	cont "je te vertellen." ; "away and tell you."
 	done
 
 JackReminderText:
-	text "Hey, <PLAY_G>!"
+	text "He, <PLAY_G>!" ; "Hey, <PLAY_G>!"
 
-	para "Do you remember"
-	line "your promise?"
+	para "Herinner je nog" ; "Do you remember"
+	line "onze afspraak?" ; "your promise?"
 
-	para "We have to battle"
-	line "soon!"
+	para "We moeten snel" ; "We have to battle"
+	line "eens vechten!" ; "soon!"
 
-	para "I'll be at"
+	para "Ik ben bij" ; "I'll be at"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."

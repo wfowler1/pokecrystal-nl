@@ -1,71 +1,71 @@
 JackAnswerPhoneText:
-	text "Hello. This is"
+	text "Hallo. Dit is" ; "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "Good morning,"
+	para "Goedemorgen," ; "Good morning,"
 	line "<PLAY_G>!"
 	done
 
 JackAnswerPhoneDayText:
-	text "Hello. This is"
+	text "Hallo. Dit is" ; "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "How's it going,"
+	para "Hoe gaat ie," ; "How's it going,"
 	line "<PLAY_G>?"
 	done
 
 JackAnswerPhoneNiteText:
-	text "Hello. This is"
+	text "Hallo. Dit is" ; "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "Good evening,"
+	para "Goedenavond," ; "Good evening,"
 	line "<PLAY_G>!"
 	done
 
 JackGreetText:
-	text "<PLAY_G>, good"
-	line "morning!"
+	text "<PLAY_G>," ; "<PLAY_G>, good"
+	line "goedemorgen!" ; "morning!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "How are you doing?"
+	line "Hoe gaat ie?" ; "How are you doing?"
 	done
 
 JackGreetDayText:
 	text "<PLAY_G>, howdy!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "Isn't it nice out?"
+	line "Lekker weertje he?" ; "Isn't it nice out?"
 	done
 
 JackGreetNiteText:
-	text "<PLAY_G>, good"
-	line "evening!"
+	text "<PLAY_G>," ; "<PLAY_G>, good"
+	line "goedenavond!" ; "evening!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "Got a minute?"
+	line "Heb je even?" ; "Got a minute?"
 	done
 
 JackGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
-	line "so curious, it's a"
+	line "zo nieuwsgierig," ; "so curious, it's a"
 
-	para "problem. Maybe"
-	line "it's like me…"
+	para "het gedraagt zich" ; "problem. Maybe"
+	line "net als ik…" ; "it's like me…"
 	done

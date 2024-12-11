@@ -1,60 +1,60 @@
 BeverlyAskNumber1Text:
-	text "Your MARILL is so"
-	line "cute and adorable!"
+	text "Je MARILL is zo" ; "Your MARILL is so"
+	line "lief en schattig!" ; "cute and adorable!"
 
-	para "You love #MON"
-	line "just like I do!"
+	para "Jij houdt net als" ; "You love #MON"
+	line "ik van #MON!" ; "just like I do!"
 
-	para "Want to trade"
-	line "phone numbers?"
+	para "Wil je telefoon-" ; "Want to trade"
+	line "nummers ruilen?" ; "phone numbers?"
 
-	para "Let's chat! It'll"
-	line "be so much fun!"
+	para "We gaan kletsen!" ; "Let's chat! It'll"
+	line "Het wordt zo leuk!" ; "be so much fun!"
 	done
 
 BeverlyAskNumber2Text:
-	text "Your MARILL is so"
-	line "cute and adorable!"
+	text "Je MARILL is zo" ; "Your MARILL is so"
+	line "lief en schattig!" ; "cute and adorable!"
 
-	para "We should chat, it"
-	line "will be fun."
+	para "We moeten kletsen," ; "We should chat, it"
+	line "het wordt leuk." ; "will be fun."
 
-	para "Can I have your"
-	line "phone number?"
+	para "Mag ik anders je" ; "Can I have your"
+	line "telefoonnummer?" ; "phone number?"
 	done
 
 BeverlyNumberAcceptedText:
-	text "To be honest, I"
-	line "want a MARILL."
+	text "Eerlijk gezegd wil" ; "To be honest, I"
+	line "ik een MARILL." ; "want a MARILL."
 
-	para "But I make do with"
-	line "my cute SNUBBULL."
+	para "Maar mijn SNUBBULL" ; "But I make do with"
+	line "is ook een schat." ; "my cute SNUBBULL."
 	done
 
 BeverlyNumberDeclinedText:
-	text "Oh… That's"
-	line "disappointing…"
+	text "Oh… Dat is" ; "Oh… That's"
+	line "teleurstellend…" ; "disappointing…"
 
-	para "Goodbye, MARILL…"
+	para "Dag, MARILL…" ; "Goodbye, MARILL…"
 	done
 
 BeverlyPhoneFullText:
-	text "Oh? Your phone's"
-	line "memory is full."
+	text "Oh? Je telefoon" ; "Oh? Your phone's"
+	line "heeft geen plek." ; "memory is full."
 	done
 
 BeverlyGiftText:
-	text "Oh? <PLAYER>? "
-	line "I waited here for"
+	text "OH? <PLAYER>?" ; "Oh? <PLAYER>? "
+	line "IK heb hier op je" ; "I waited here for"
 
-	para "you. I brought you"
-	line "a little gift."
+	para "gewacht. Ik heb" ; "you. I brought you"
+	line "wat voor je." ; "a little gift."
 	done
 
 BeverlyPackFullText:
 	text "Oh?"
-	line "You have no room."
+	line "Je hebt geen plek." ; "You have no room."
 
-	para "Please come back"
-	line "for it later."
+	para "Kom er alsjeblieft" ; "Please come back"
+	line "later voor terug." ; "for it later."
 	done

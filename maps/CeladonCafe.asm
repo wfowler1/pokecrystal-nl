@@ -117,92 +117,92 @@ CeladonCafeTrashcan:
 	jumpstd TrashCanScript
 
 ChefText_Eatathon:
-	text "Hi!"
+	text "Hoi!" ; "Hi!"
 
-	para "We're holding an"
-	line "eatathon contest."
+	para "We houden hier" ; "We're holding an"
+	line "een eetwedstrijd." ; "eatathon contest."
 
-	para "We can't serve you"
-	line "right now. Sorry."
+	para "We kunnen je niet" ; "We can't serve you"
+	line "bedienen, sorry." ; "right now. Sorry."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Snarfle, chew…"
+	text "…Schrok, hap…" ; "…Snarfle, chew…"
 	done
 
 Fisher1Text_Concentration:
-	text "Don't talk to me!"
+	text "Houd je mond!" ; "Don't talk to me!"
 
-	para "You'll break my"
-	line "concentration!"
+	para "Je haalt me uit" ; "You'll break my"
+	line "mijn concentratie!" ; "concentration!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Gulp… Chew…"
+	text "…Slik… Hap…" ; "…Gulp… Chew…"
 	done
 
 Fisher2Text_Quantity:
-	text "I take quantity"
-	line "over quality!"
+	text "Kwantiteit boven" ; "I take quantity"
+	line "kwaliteit, zeg ik!" ; "over quality!"
 
-	para "I'm happy when I'm"
-	line "full!"
+	para "Ik ben zo gelukkig" ; "I'm happy when I'm"
+	line "als ik vol zit!" ; "full!"
 	done
 
 Fisher3Text_MunchMunch:
-	text "Munch, munch…"
+	text "Smak, smak…" ; "Munch, munch…"
 	done
 
 Fisher3Text_GoldenrodIsBest:
-	text "The food is good"
-	line "here, but GOLDEN-"
-	cont "ROD has the best"
-	cont "food anywhere."
+	text "Het eten hier is" ; "The food is good"
+	line "lekker, maar niet" ; "here, but GOLDEN-"
+	cont "zo lekker als dat" ; "ROD has the best"
+	cont "van GOLDENROD." ; "food anywhere."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Crunch… Crunch…"
+	text "Kraak… Knars…" ; "Crunch… Crunch…"
 	done
 
 TeacherText_NoCoinCase:
-	text "Nobody here will"
-	line "give you a COIN"
+	text "Niemand hier heeft" ; "Nobody here will"
+	line "een GELDKISTJE" ; "give you a COIN"
 
-	para "CASE. You should"
-	line "look in JOHTO."
+	para "voor je. Kijk eens" ; "CASE. You should"
+	line "rond in JOHTO." ; "look in JOHTO."
 	done
 
 TeacherText_KeepEating:
-	text "Crunch… Crunch…"
+	text "Kraak… Knars…" ; "Crunch… Crunch…"
 
-	para "I can keep eating!"
+	para "Ik zit nooit vol!" ; "I can keep eating!"
 	done
 
 TeacherText_MoreChef:
-	text "More, CHEF!"
+	text "KOK, meer!" ; "More, CHEF!"
 	done
 
 EatathonContestPosterText:
-	text "Eatathon Contest!"
-	line "No time limit!"
+	text "Eetwedstrijd!" ; "Eatathon Contest!"
+	line "Geen tijdslimiet!" ; "No time limit!"
 
-	para "A battle without"
-	line "end! The biggest"
+	para "Een gevecht zonder" ; "A battle without"
+	line "einde! De grootste" ; "end! The biggest"
 
-	para "muncher gets it"
-	line "all for free!"
+	para "smulpaap krijgt" ; "muncher gets it"
+	line "alles gratis!" ; "all for free!"
 	done
 
 FoundLeftoversText:
-	text "<PLAYER> found"
+	text "<PLAYER> vond" ; "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "!"
 	done
 
 NoRoomForLeftoversText:
-	text "But <PLAYER> can't"
-	line "hold another item…"
+	text "Maar VOORWERPZAK" ; "But <PLAYER> can't"
+	line "zit vol…" ; "hold another item…"
 	done
 
 CeladonCafe_MapEvents:

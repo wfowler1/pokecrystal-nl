@@ -1,19 +1,19 @@
 BikeShopPhoneCallerText:
-	text "Hi, <PLAY_G>!"
-	line "Our BICYCLE sales"
+	text "He, <PLAY_G>!" ; "Hi, <PLAY_G>!"
+	line "Onze fietsen gaan" ; "Our BICYCLE sales"
 
-	para "have gone through"
-	line "the roof!"
+	para "als zoete broodjes" ; "have gone through"
+	line "over de toonbank!" ; "the roof!"
 
-	para "We owe it all to"
-	line "your advertising"
+	para "Allemaal dankzij" ; "We owe it all to"
+	line "de reclame die jij" ; "your advertising"
 
-	para "by riding around"
-	line "on our BICYCLE."
+	para "maakt op je" ; "by riding around"
+	line "geleende FIETS." ; "on our BICYCLE."
 
-	para "As our way of say-"
-	line "ing thanks, please"
+	para "Als bedankje mag" ; "As our way of say-"
+	line "je de FIETS wel" ; "ing thanks, please"
 
-	para "keep that BICYCLE."
-	line "Thanks again!"
+	para "houden. Nogmaals" ; "keep that BICYCLE."
+	line "bedankt!" ; "Thanks again!"
 	done

@@ -40,33 +40,33 @@ CeladonDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore5FGentlemanText:
-	text "I want to buy some"
-	line "items that raise"
+	text "Ik zoek voorwerpen" ; "I want to buy some"
+	line "die statistieken" ; "items that raise"
 
-	para "#MON stats, but"
-	line "I don't have"
-	cont "enough money…"
+	para "van #MON" ; "#MON stats, but"
+	line "verhogen, maar ze" ; "I don't have"
+	cont "zijn te duur…" ; "enough money…"
 	done
 
 CeladonDeptStore5FSailorText:
-	text "I want PP UP, so I"
-	line "can raise the PP"
+	text "Ik wil AP-PLUS om" ; "I want PP UP, so I"
+	line "AP van aanvallen" ; "can raise the PP"
 
-	para "of moves. But you"
-	line "can't buy it…"
+	para "te verhogen. Ze" ; "of moves. But you"
+	line "zijn niet te koop…" ; "can't buy it…"
 	done
 
 CeladonDeptStore5FTeacherText:
-	text "Using items on"
-	line "them makes #-"
-	cont "MON happy."
+	text "Voorwerpen op" ; "Using items on"
+	line "#MON gebruiken" ; "them makes #-"
+	cont "maakt ze blij." ; "MON happy."
 
-	para "They hate certain"
-	line "items, though…"
+	para "Maar sommige voor-" ; "They hate certain"
+	line "werpen haten ze…" ; "items, though…"
 	done
 
 CeladonDeptStore5FDirectoryText:
-	text "5F: DRUG STORE"
+	text "5F: APOTHEEK" ; "5F: DRUG STORE"
 	done
 
 CeladonDeptStore5F_MapEvents:

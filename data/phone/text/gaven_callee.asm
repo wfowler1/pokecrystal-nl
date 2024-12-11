@@ -1,72 +1,72 @@
 GavenAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " speaking…"
+	text "hier…" ; " speaking…"
 
 	para "Hi, <PLAY_G>!"
 	line "Good morning!"
 	done
 
 GavenAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " speaking…"
+	text "hier…" ; " speaking…"
 
 	para "Hi, <PLAY_G>!"
 	done
 
 GavenAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " speaking…"
+	text "hier…" ; " speaking…"
 
-	para "Hi, <PLAY_G>!"
-	line "Good evening!"
+	para "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
+	line "Goedenavond!" ; "Good evening!"
 	done
 
 GavenGreetText:
-	text "<PLAY_G>, good"
-	line "morning!"
+	text "<PLAY_G>," ; "<PLAY_G>, good"
+	line "goedemorgen!" ; "morning!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
-	line "How are you doing?"
+	line "Hoe gaat ie?" ; "How are you doing?"
 	done
 
 GavenGreetDayText:
-	text "Hi, <PLAY_G>!"
+	text "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
-	line "How are you doing?"
+	line "Hoe gaat ie?" ; "How are you doing?"
 	done
 
 GavenGreetNiteText:
-	text "<PLAY_G>, good"
-	line "evening!"
+	text "<PLAY_G>," ; "<PLAY_G>, good"
+	line "goedenavond!" ; "evening!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
-	line "How are you doing?"
+	line "Hoe gaat ie?" ; "How are you doing?"
 	done
 
 GavenGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "doing as great as"
-	cont "ever."
+	text "" ; "'s"
+	line "is zoals altijd" ; "doing as great as"
+	cont "prima in orde." ; "ever."
 
-	para "Let's keep at it"
-	line "and become #MON"
-	cont "CHAMPS!"
+	para "Laten we zo" ; "Let's keep at it"
+	line "doorgaan en #-" ; "and become #MON"
+	cont "KAMPIOENEN worden!" ; "CHAMPS!"
 	done

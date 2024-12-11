@@ -90,10 +90,10 @@ CeladonDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "CANCEL@"
+	db "VERS WATER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@" ; "FRESH WATER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"
+	db "FRISDRANK   ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@" ; "SODA POP     ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"
+	db "LIMONADE    ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@" ; "LEMONADE     ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"
+	db "SLUITEN@" ; "CANCEL@"
 
 CeladonDeptStore6FDirectory:
 	jumptext CeladonDeptStore6FDirectoryText
@@ -102,48 +102,48 @@ CeladonDeptStore6FElevatorButton: ; unreferenced
 	jumpstd ElevatorButtonScript
 
 CeladonVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Een drankautomaat!" ; "A vending machine!"
+	line "Dit is het menu." ; "Here's the menu."
 	done
 
 CeladonClangText:
-	text "Clang!"
+	text "Kletter!" ; "Clang!"
 
-	para "@"
+	para "@" ; "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text_start
-	line "popped out."
+	line "kwam tevoorschijn." ; "popped out."
 	done
 
 CeladonVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money…"
+	text "Oeps, niet genoeg" ; "Oops, not enough"
+	line "geld…" ; "money…"
 	done
 
 CeladonVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff…"
+	text "Er is geen ruimte" ; "There's no more"
+	line "meer voor spullen…" ; "room for stuff…"
 	done
 
 CeladonDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Een drankautomaat" ; "A vending machine"
+	line "waarmee je prij-" ; "with a prize rou-"
+	cont "zen kan winnen…" ; "lette…"
 
-	para "You never see"
-	line "those anymore."
+	para "Die zie je haast" ; "You never see"
+	line "nooit meer." ; "those anymore."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "Aww! There's no"
-	line "games here!"
+	text "Aww! Er zijn hier" ; "Aww! There's no"
+	line "geen spelletjes!" ; "games here!"
 
-	para "I wanted to play…"
+	para "Ik wilde spelen…" ; "I wanted to play…"
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: ROOFTOP SQUARE"
-	line "VENDING MACHINES"
+	text "6F: DAKTERRAS" ; "6F: ROOFTOP SQUARE"
+	line "DRANKAUTOMATEN" ; "VENDING MACHINES"
 	done
 
 CeladonDeptStore6F_MapEvents:

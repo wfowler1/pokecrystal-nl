@@ -1,43 +1,43 @@
 HueyBattleRematchText:
-	text "Hey, I challenge"
-	line "you to a battle!"
+	text "He, ik daag je uit" ; "Hey, I challenge"
+	line "voor een gevecht!" ; "you to a battle!"
 
-	para "It won't be like"
-	line "last time!"
+	para "Ditmaal zal het" ; "It won't be like"
+	line "anders gaan!" ; "last time!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "'s"
-	line "where I'm waiting"
+	text "" ; "'s"
+	line "is waar ik wacht." ; "where I'm waiting"
 
-	para "for you. Hustle"
-	line "over here pronto!"
+	para "Als de wiede-" ; "for you. Hustle"
+	line "weerga hierheen!" ; "over here pronto!"
 	done
 
 HueyHangUpText:
-	text "See ya!"
+	text "Spreek je!" ; "See ya!"
 	done
 
 HueyWeHaveToBattleAgainSometimeText:
-	text "We have to battle"
-	line "again sometime."
+	text "We moeten nog eens" ; "We have to battle"
+	line "vechten." ; "again sometime."
 
-	para "You can bet I'm"
-	line "going to keep"
+	para "Reken er maar op" ; "You can bet I'm"
+	line "dat ik je blijf" ; "going to keep"
 
-	para "challenging you"
-	line "till I win."
+	para "uitdagen totdat ik" ; "challenging you"
+	line "win." ; "till I win."
 	done
 
 HueyReminderText:
-	text "Hey, you'd better"
-	line "not have forgotten"
-	cont "about our battle!"
+	text "He, beter vergeet" ; "Hey, you'd better"
+	line "je niet dat we" ; "not have forgotten"
+	cont "gaan vechten!" ; "about our battle!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
-	para "Hustle over quick!"
-	line "I'm waiting!"
+	para "Als de wiedeweerga" ; "Hustle over quick!"
+	line "komen! Ik wacht!" ; "I'm waiting!"
 	done
