@@ -1,68 +1,68 @@
 BeverlyAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
-	para "Oh! Good morning,"
+	para "Oh! Goedemorgen," ; "Oh! Good morning,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
-	para "Oh! Good day,"
+	para "Oh! Goedendag," ; "Oh! Good day,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
-	para "Oh! Good evening,"
+	para "Oh! Goedenavond," ; "Oh! Good evening,"
 	line "<PLAYER>."
 	done
 
 BeverlyGreetText:
-	text "Hello, <PLAYER>."
-	line "Good morning."
+	text "Hallo <PLAYER>." ; "Hello, <PLAYER>."
+	line "Goedemorgen." ; "Good morning."
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
-	line "Were you asleep?"
+	line "Sliep je?" ; "Were you asleep?"
 	done
 
 BeverlyGreetDayText:
-	text "Hi, <PLAYER>."
-	line "This is @"
+	text "Hoi, <PLAYER>." ; "Hi, <PLAYER>."
+	line "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
-	para "How are you doing?"
+	para "Hoe gaat het?" ; "How are you doing?"
 	done
 
 BeverlyGreetNiteText:
-	text "Hi, <PLAYER>."
-	line "This is @"
+	text "Hoi, <PLAYER>." ; "Hi, <PLAYER>."
+	line "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
-	para "Were you awake?"
+	para "Was je wakker?" ; "Were you awake?"
 	done
 
 BeverlyGenericText:
-	text "Keeping your"
-	line "#MON happy?"
+	text "Zijn je #MON" ; "Keeping your"
+	line "nog blij?" ; "#MON happy?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
-	line "healthy. It eats a"
-	cont "lot every day."
+	line "gezond. Het eet" ; "healthy. It eats a"
+	cont "iedere dag flink." ; "lot every day."
 	done

@@ -1,82 +1,82 @@
 BeverlyMadeMonEvenCuterText:
-	text "I fancied up my"
+	text "Ik verfraaide mijn" ; "I fancied up my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " and"
+	text "en" ; " and"
 
-	para "made it even cuter"
-	line "than before!"
+	para "maakte het nog" ; "made it even cuter"
+	line "schattiger!" ; "than before!"
 	done
 
 BeverlyDefeatedMonText:
-	text "I happened to come"
-	line "across a wild"
-	cont "SNUBBULL recently."
+	text "Laatst kwam ik een" ; "I happened to come"
+	line "wilde SNUBBUL" ; "across a wild"
+	cont "tegen." ; "SNUBBULL recently."
 
-	para "My SNUBBULL, I"
-	line "assure you, was"
+	para "Mijn SNUBBUL was," ; "My SNUBBULL, I"
+	line "verzeker ik je," ; "assure you, was"
 
-	para "far cuter than the"
-	line "wild one."
+	para "veel schattiger" ; "far cuter than the"
+	line "dan de wilde." ; "wild one."
 	done
 
 BeverlyLostAMonText:
-	text "I happened to see"
-	line "a wild MARILL the"
+	text "Ik zag een wilde" ; "I happened to see"
+	line "MARRILL laatst. Of" ; "a wild MARILL the"
 
-	para "other day."
-	line "Or so I thought."
+	para "dat dacht ik" ; "other day."
+	line "tenminste." ; "Or so I thought."
 
-	para "A closer look"
-	line "showed it was"
+	para "Toen ik beter keek" ; "A closer look"
+	line "was het een" ; "showed it was"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text ". I was"
-	line "quite miffed."
+	text ". Ik" ; ". I was"
+	line "baalde flink." ; "quite miffed."
 	done
 
 BeverlyHangUpText:
-	text "You can expect a"
-	line "call from me."
+	text "Reken maar op" ; "You can expect a"
+	line "mijn belletje." ; "call from me."
 	done
 
 BeverlyFoundItemText:
-	text "My husband got"
-	line "some NUGGETS."
+	text "Mijn man heeft" ; "My husband got"
+	line "KLOMPJES gehaald." ; "some NUGGETS."
 
-	para "If you'd like, you"
-	line "could have one as"
+	para "Je mag er ook wel" ; "If you'd like, you"
+	line "eentje hebben als" ; "could have one as"
 
-	para "thanks for helping"
-	line "me out."
+	para "bedankje voor het" ; "thanks for helping"
+	line "helpen." ; "me out."
 
-	para "I'll be at"
+	para "Je vindt me op" ; "I'll be at"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "Please come see me"
-	line "when you can."
+	para "Kom alsjeblieft" ; "Please come see me"
+	line "als je tijd hebt." ; "when you can."
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Are your #MON"
-	line "in prime form?"
+	text "Zijn je #MON in" ; "Are your #MON"
+	line "topvorm?" ; "in prime form?"
 
-	para "Let's chat about"
-	line "#MON again."
+	para "We kletsen nog" ; "Let's chat about"
+	line "eens over #MON." ; "#MON again."
 	done
 
 BeverlyComePickUpText:
 	text "Pardon?"
-	line "Oh, the NUGGET?"
+	line "Oh, het KLOMPJE?" ; "Oh, the NUGGET?"
 
-	para "There's no need to"
-	line "hurry. Come see me"
+	para "Haast je niet. Kom" ; "There's no need to"
+	line "naar mij hier" ; "hurry. Come see me"
 
-	para "in @"
+	para "op @" ; "in @"
 	text_ram wStringBuffer5 ; MaxLength 15
 	text_start
-	line "when you can."
+	line "Als je tijd hebt." ; "when you can."
 	done
