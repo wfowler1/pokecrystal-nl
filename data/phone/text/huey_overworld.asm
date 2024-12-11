@@ -63,7 +63,7 @@ HueyRematchGiftText:
 	para "Ik heb veel voor-" ; "I bought tons of"
 	line "werpen gekocht om" ; "items to toughen"
 
-	para "mijn #MON sterker" ; "up my #MON, but"
+	para "mijn #MON beter" ; "up my #MON, but"
 	line "te maken, zonder" ; "to no avail…"
 	cont "succes…"
 
