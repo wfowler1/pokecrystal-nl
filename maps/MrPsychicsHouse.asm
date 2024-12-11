@@ -33,16 +33,17 @@ MrPsychicText1:
 
 	para "…"
 
-	para "…I got it!"
+	para "…Ik heb het!" ; "…I got it!"
 
-	para "You wanted this!"
+	para "Jij wilde dit!" ; "You wanted this!"
 	done
 
 MrPsychicText2:
-	text "TM29 is PSYCHIC."
+	text "TM29 is PSYCHISCH." ; "TM29 is PSYCHIC."
 
-	para "It may lower the"
-	line "target's SPCL.DEF."
+	para "Het kan de-" ; "It may lower the"
+	line "SPCL.VERD van het" ; "target's SPCL.DEF."
+	cont "doelwit verlagen."
 	done
 
 MrPsychicsHouse_MapEvents:

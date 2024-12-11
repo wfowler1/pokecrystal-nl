@@ -126,8 +126,8 @@ ClefairyFleeMovement:
 	step_end
 
 DontLitterSignText:
-	text "MT.MOON SQUARE"
-	line "DON'T LITTER"
+	text "PLEIN VAN MT.MOON" ; "MT.MOON SQUARE"
+	line "RUIM JE ROMMEL OP" ; "DON'T LITTER"
 	done
 
 MountMoonSquare_MapEvents:
