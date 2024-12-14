@@ -11,7 +11,7 @@ DerekCheekPinchingText:
 	line "dat voor elkaar." ; "for anyone else."
 
 	para "Ik ben vast" ; "I must be special."
-	line "speciaal.
+	line "speciaal."
 	done
 
 DerekDefeatedMonText:

@@ -5,7 +5,7 @@ TullyAnswerPhoneText:
 	text "…"
 
 	para "Oh, goedemorgen," ; "Oh, Good morning,"
-	line "<PLAY_G> "."
+	line "<PLAY_G>."
 	done
 
 TullyAnswerPhoneDayText:
@@ -25,7 +25,7 @@ TullyAnswerPhoneNiteText:
 	text "…"
 
 	para "Dit is vast" ; "This must be"
-	line "<PLAY_G> "!"
+	line "<PLAY_G>!"
 	done
 
 TullyGreetText:
