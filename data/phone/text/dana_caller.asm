@@ -23,8 +23,8 @@ DanaDefeatedMonText:
 	done
 
 DanaLostAMonText:
-	text "Weet je wat?" ; "You know what?"
-	line "Een wilde @" ; "A wild @"
+	text "Weet je wat? Een" ; "You know what?"
+	line "wilde @" ; "A wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	para "ontglipte mij" ; "got away from me"
@@ -44,7 +44,7 @@ DanaBattleRematchText:
 	text "."
 
 	para "Als je in de buurt" ; "If you're close"
-	line "bent, even vechten?" ; "by, let's battle!"
+	line "bent, eens vechten?" ; "by, let's battle!"
 
 	para "Ik zal hier op je" ; "I'll be waiting"
 	line "wachten!" ; "for you!"
