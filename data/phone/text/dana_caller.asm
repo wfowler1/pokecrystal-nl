@@ -1,109 +1,109 @@
 DanaTakingPhotosText:
-	text "My @"
+	text "Mijn @" "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
-	line "getting prettier!"
+	line "mooier geworden!" "getting prettier!"
 
-	para "I've been taking"
-	line "photos galore!"
+	para "Ik maak steeds" "I've been taking"
+	line "meer foto's!" "photos galore!"
 	done
 
 DanaDefeatedMonText:
-	text "It took only an"
-	line "instant to KO a"
-	cont "wild @"
+	text "Ik versloeg in" "It took only an"
+	line "een oogwenk een" "instant to KO a"
+	cont "wilde @" "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "It must be because"
-	line "you gave me some"
+	para "Dat is vast omdat" "It must be because"
+	line "jij me laatst wat" "you gave me some"
 
-	para "battling tips last"
-	line "time."
+	para "vechttips hebt" "battling tips last"
+	line "gegeven." "time."
 	done
 
 DanaLostAMonText:
-	text "You know what?"
-	line "A wild @"
+	text "Weet je wat?" "You know what?"
+	line "Een wilde @" "A wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	para "got away from me"
-	line "again."
+	para "ontglipte mij" "got away from me"
+	line "laatst weer." "again."
 
-	para "It was so close!"
-	line "Really, just a"
+	para "Bijna lukte het!" "It was so close!"
+	line "Nog een beetje en" "Really, just a"
 
-	para "little bit more,"
-	line "and I would've…"
+	para "dan zou ik nu dan" "little bit more,"
+	line "toch echt…" "and I would've…"
 	done
 
 DanaBattleRematchText:
-	text "Right now, I'm on"
+	text "Juist, ik ben bij" "Right now, I'm on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "If you're close"
-	line "by, let's battle!"
+	para "Als je in de buurt" "If you're close"
+	line "bent, even vechten?" "by, let's battle!"
 
-	para "I'll be waiting"
-	line "for you!"
+	para "Ik zal hier op je" "I'll be waiting"
+	line "wachten!" "for you!"
 	done
 
 DanaHangUpText:
-	text "See you!"
+	text "Zie je snel!" "See you!"
 	done
 
 DanaFoundItemText:
-	text "You know what?"
-	line "I got a good gift!"
+	text "Weet je? Ik heb" "You know what?"
+	line "een goed cadeau!" "I got a good gift!"
 
-	para "As I promised,"
-	line "it's yours!"
+	para "Het is voor jou," "As I promised,"
+	line "zoals beloofd!" "it's yours!"
 
-	para "I'm sure you'd"
-	line "like it. Come get"
+	para "Je vindt het vast" "I'm sure you'd"
+	line "leuk. Kom maar" "like it. Come get"
 
-	para "it! I'm waiting on"
+	para "halen! Ik ben bij" "it! I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 DanaCanYouWaitABitLongerText:
-	text "Oh! You wanted a"
-	line "gift, right?"
+	text "Oh! Je wilde een" "Oh! You wanted a"
+	line "cadeau, toch?" "gift, right?"
 
-	para "I got one, but I"
-	line "want to keep this."
+	para "Ik heb iets, maar" "I got one, but I"
+	line "wil 't nog houden." "want to keep this."
 
-	para "Can you wait a bit"
-	line "longer?"
+	para "Kun je iets langer" "Can you wait a bit"
+	line "wachten?" "longer?"
 	done
 
 DanaReminderText:
-	text "Hi! You haven't"
-	line "forgotten about"
+	text "Hoi! Ben je niet" "Hi! You haven't"
+	line "ons beloofde" "forgotten about"
 
-	para "your promise to"
-	line "battle me?"
+	para "gevecht vergeten?" "your promise to"
+	line "Kom snel!"
 
-	para "I'm waiting on"
+	para "Ik wacht op" "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 DanaComePickUpText:
-	text "Hello?"
+	text "Hallo?" "Hello?"
 
-	para "If you don't come"
-	line "get your present"
+	para "Als je niet je" "If you don't come"
+	line "cadeau komt halen," "get your present"
 
-	para "soon, I'll give it"
-	line "to someone else."
+	para "geef ik het aan" "soon, I'll give it"
+	line "iemand anders." "to someone else."
 
-	para "I'm waiting on"
+	para "Ik wacht op" "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"

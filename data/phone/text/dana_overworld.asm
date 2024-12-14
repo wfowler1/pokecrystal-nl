@@ -1,72 +1,72 @@
 DanaAskNumber1Text:
-	text "You're really good"
-	line "at #MON!"
+	text "Je bent heel goed" ; "You're really good"
+	line "met #MON!" ; "at #MON!"
 
-	para "Boys give me items"
-	line "after battles, but"
+	para "Jongens geven me" ; "Boys give me items"
+	line "vaak dingen na" ; "after battles, but"
 
-	para "sometimes they"
-	line "give me too much."
+	para "gevechten, wat" ; "sometimes they"
+	line "soms te veel is." ; "give me too much."
 
-	para "Next time, I can"
-	line "share some if you"
+	para "De volgende keer," ; "Next time, I can"
+	line "kan ik wel wat met" ; "share some if you"
 
-	para "want. Let me get"
-	line "your phone number."
+	para "je delen. Geef me" ; "want. Let me get"
+	line "je telefoonnummer." ; "your phone number."
 	done
 
 DanaAskNumber2Text:
-	text "I'll share my"
-	line "gifts with you."
+	text "Ik deel mijn" ; "I'll share my"
+	line "cadeaus met je." ; "gifts with you."
 
-	para "Let me get your"
-	line "phone number."
+	para "Geef me je" ; "Let me get your"
+	line "telefoonnummer." ; "phone number."
 	done
 
 DanaNumberAcceptedText:
-	text "Next time a boy"
-	line "gives me something"
+	text "Als een jongen de" ; "Next time a boy"
+	line "volgende keer na" ; "gives me something"
 
-	para "after a battle,"
-	line "I'll share some!"
+	para "een gevecht iets" ; "after a battle,"
+	line "geeft, deel ik!" ; "I'll share some!"
 
-	para "Does that make me"
-	line "bad?"
+	para "Is dat eigenlijk" ; "Does that make me"
+	line "slecht van me?" ; "bad?"
 	done
 
 DanaNumberDeclinedText:
-	text "Aww, you don't"
-	line "want anything?"
+	text "Aww, wil je niks" ; "Aww, you don't"
+	line "hebben?" ; "want anything?"
 
-	para "But it's all for"
-	line "free…"
+	para "Maar het is" ; "But it's all for"
+	line "allemaal gratis…" ; "free…"
 	done
 
 DanaPhoneFullText:
-	text "But your phone's"
-	line "out of memory!"
+	text "Je hebt geen" ; "But your phone's"
+	line "geheugen meer!" ; "out of memory!"
 	done
 
 DanaRematchText:
-	text "You're really"
-	line "late!"
+	text "Je bent heel erg" ; "You're really"
+	line "laat!" ; "late!"
 
-	para "I'm eager to get"
-	line "going!"
+	para "Ik heb zin om te" ; "I'm eager to get"
+	line "beginnen!" ; "going!"
 	done
 
 DanaGiftText:
-	text "Hi! Are you here"
-	line "for your gift?"
+	text "Hoi! Ben je hier" ; "Hi! Are you here"
+	line "voor je cadeau?" ; "for your gift?"
 
-	para "This should really"
-	line "make your day!"
+	para "Dit maakt vast je" ; "This should really"
+	line "dag!" ; "make your day!"
 	done
 
 DanaPackFullText:
-	text "Where are you"
-	line "going to put this?"
+	text "Waar ga je het" ; "Where are you"
+	line "stoppen?" ; "going to put this?"
 
-	para "I'll keep it, so"
-	line "come get it later!"
+	para "Ik bewaar het wel," ; "I'll keep it, so"
+	line "haal straks maar!" ; "come get it later!"
 	done
