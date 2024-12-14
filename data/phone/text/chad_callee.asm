@@ -32,7 +32,7 @@ ChadGreetText:
 	para "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>, good"
 	line "goedemorgen!" ; "morning!"
 
-	para "Dit is" ; "It's @"
+	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	line "Hoe gaat het?" ; "How are you?"
@@ -49,7 +49,7 @@ ChadGreetDayText:
 	done
 
 ChadGreetNiteText:
-	text "Hoi, <PLAY>," ; "Hi, <PLAY_G>, good"
+	text "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>, good"
 	line "goedenavond!" ; "evening!"
 
 	para "Het is @" ; "It's @"
