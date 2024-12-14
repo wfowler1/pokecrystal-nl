@@ -34,84 +34,84 @@ CeladonMansionRoofHousePharmacistScript:
 	end
 
 CeladonMansionRoofHousePharmacistIntroText:
-	text "Let me recount a"
-	line "terrifying tale…"
+	text "Laat me je een eng" ; "Let me recount a"
+	line "verhaal vertellen…" ; "terrifying tale…"
 	done
 
 CeladonMansionRoofHousePharmacistNotNightText:
-	text "Then again, it's"
-	line "not as scary while"
+	text "Hoewel, het is" ; "Then again, it's"
+	line "niet zo spannend" ; "not as scary while"
 
-	para "it's still light"
-	line "outside."
+	para "nu het nog licht" ; "it's still light"
+	line "is buiten." ; "outside."
 
-	para "Come back after"
-	line "sunset, OK?"
+	para "Kom terug na zons-" ; "Come back after"
+	line "ondergang, OK?" ; "sunset, OK?"
 	done
 
 CeladonMansionRoofHousePharmacistStoryText:
-	text "Once upon a time,"
-	line "there was a little"
+	text "Er was eens een" ; "Once upon a time,"
+	line "jongen die een" ; "there was a little"
 
-	para "boy who was given"
-	line "a new BICYCLE…"
+	para "hele nieuwe FIETS" ; "boy who was given"
+	line "had gekregen…" ; "a new BICYCLE…"
 
-	para "He wanted to try"
-	line "it right away…"
+	para "Hij wilde hem" ; "He wanted to try"
+	line "meteen proberen…" ; "it right away…"
 
-	para "He was having so"
-	line "much fun that he"
+	para "Hij had zoveel" ; "He was having so"
+	line "plezier dat hij" ; "much fun that he"
 
-	para "didn't notice the"
-	line "sun had set…"
+	para "niet merkte dat de" ; "didn't notice the"
+	line "zon onderging…" ; "sun had set…"
 
-	para "While riding home"
-	line "in the pitch-black"
+	para "Toen hij in het" ; "While riding home"
+	line "pikkedonker naar" ; "in the pitch-black"
 
-	para "night, the bike"
-	line "suddenly slowed!"
+	para "huis reed, werd" ; "night, the bike"
+	line "zijn fiets trager!" ; "suddenly slowed!"
 
-	para "The pedals became"
-	line "heavy!"
+	para "De pedalen werden" ; "The pedals became"
+	line "zwaar!" ; "heavy!"
 
-	para "When he stopped"
-	line "pedaling, the bike"
+	para "Toen hij stopte" ; "When he stopped"
+	line "met trappen, ging" ; "pedaling, the bike"
 
-	para "began slipping"
-	line "backwards!"
+	para "zijn fiets ineens" ; "began slipping"
+	line "achteruit!" ; "backwards!"
 
-	para "It was as if the"
-	line "bike were cursed"
+	para "Alsof de fiets" ; "It was as if the"
+	line "vervloekt was en" ; "bike were cursed"
 
-	para "and trying to drag"
-	line "him into oblivion!"
+	para "hem de vergetel-" ; "and trying to drag"
+	line "heid in trok!" ; "him into oblivion!"
 
-	para "…"
+	para "…" ; "…"
 
-	para "…"
+	para "…" ; "…"
 
-	para "SHRIEEEEK!"
+	para "AAAAAAAAAAH!" ; "SHRIEEEEK!"
 
-	para "The boy had been"
-	line "riding uphill on"
-	cont "CYCLING ROAD!"
+	para "De jongen fietste" ; "The boy had been"
+	line "dus bergopwaarts" ; riding uphill on"
+	cont "op het FIETSPAD!" ; "CYCLING ROAD!"
 
-	para "…"
-	line "Ba-dum ba-dum!"
+	para "…" ; "…"
+	line "Dat was schrikken!" ; "Ba-dum ba-dum!"
 
-	para "For listening so"
-	line "patiently, you may"
-	cont "take this--TM03!"
+	para "Omdat je zo gedul-" ; "For listening so"
+	line "dig luisterde, heb" ; "patiently, you may"
+	cont "ik TM03 voor je!" ; "take this--TM03!"
 	done
 
 CeladonMansionRoofHousePharmacistCurseText:
-	text "TM03 is CURSE."
+	text "TM03 is VLOEK." ; "TM03 is CURSE."
 
-	para "It's a terrifying"
-	line "move that slowly"
+	para "Met deze angst-" ; "It's a terrifying"
+	line "aanjagende aanval" ; "move that slowly"
 
-	para "whittles down the"
-	line "victim's HP."
+	para "verliest je rivaal" ; "whittles down the"
+	line "langzaam HP." ; "victim's HP."
 	done
 
 CeladonMansionRoofHouse_MapEvents:
