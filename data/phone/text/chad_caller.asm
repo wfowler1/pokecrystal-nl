@@ -49,7 +49,7 @@ ChadLostAMonText:
 	para "een wilde" ; "wanting to observe"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "observeren." ; ". Rats…"
+	text "zien…" ; ". Rats…"
 	done
 
 ChadBattleRematchText:
