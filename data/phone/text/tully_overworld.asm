@@ -1,29 +1,29 @@
 TullyAskNumber1Text:
-	text "Hey, you're trying"
-	line "to be the ultimate"
+	text "He, probeer jij" "Hey, you're trying"
+	line "ook de ultieme" "to be the ultimate"
 
-	para "trainer too? Then"
-	line "we're comrades!"
+	para "trainer te worden?" "trainer too? Then"
+	line "Dan zijn we maten!" "we're comrades!"
 
-	para "If I find any more"
-	line "items by the"
+	para "Als ik voorwerpen" "If I find any more"
+	line "bij het water spot" "items by the"
 
-	para "water, I'll give"
-	line "you some."
+	para "mag je wel wat van" "water, I'll give"
+	line "me hebben." "you some."
 
-	para "Just give me your"
-	line "phone number."
+	para "Geef maar je" "Just give me your"
+	line "telefoonnummer." "phone number."
 	done
 
 TullyAskNumber2Text:
-	text "If I find any more"
-	line "items by the"
-
-	para "water, I'll give"
-	line "you some."
-
-	para "Just give me your"
-	line "phone number."
+	text "Als ik voorwerpen" "If I find any more"
+	line "bij het water spot" "items by the"
+	
+	para "mag je wel wat van" "water, I'll give"
+	line "me hebben." "you some."
+	
+	para "Geef maar je" "Just give me your"
+	line "telefoonnummer." "phone number."
 	done
 
 TullyNumberAcceptedText:
