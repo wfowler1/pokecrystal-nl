@@ -192,7 +192,7 @@ else
 	cont "uitbetalen…" ; "out…"
 
 	para "De winkansen ver-" ; "The odds vary"
-	line "schillen nogal." "among machines."
+	line "schillen nogal.";  "among machines."
 	done
 endc
 
