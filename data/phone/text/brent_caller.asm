@@ -1,162 +1,164 @@
 BrentRareTradeText:
-	text "Oh yeah, I got an"
-	line "extremely rare"
+	text "Oh ja, ik heb een" ; "Oh yeah, I got an"
+	line "extreem zeldzame" ; "extremely rare"
 
-	para "#MON in a trade"
-	line "a while back."
+	para "#MON geruild" ; "#MON in a trade"
+	line "een tijdje terug." ; "a while back."
 
-	para "Do you want to"
-	line "know what it is?"
+	para "Wil je weten wat" ; "Do you want to"
+	line "het is?" ; "know what it is?"
 
-	para "Hehe, I'm keeping"
-	line "it a secret!"
+	para "Hehe, ik houd het" ; "Hehe, I'm keeping"
+	line "geheim!" ; "it a secret!"
 	done
 
 BrentDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down this wild"
+	text "Oh ja, ik versloeg" ; "Oh yeah, I took"
+	line "nog deze wilde" ; "down this wild"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
-	line "It wasn't rare"
+	line "Die was niet" ; "It wasn't rare"
 
-	para "enough to bother"
-	line "catching."
+	para "zeldzaam genoeg" ; "enough to bother"
+	line "om te vangen." ; "catching."
 	done
 
 BrentLostAMonText:
-	text "Oh yeah, I saw a"
-	line "rare #MON about"
-	cont "an hour ago."
+	text "Oh ja, ik zag een" ; "Oh yeah, I saw a"
+	line "uur geleden een" ; "rare #MON about"
+	cont "zeldzame #MON." ; "an hour ago."
 
-	para "It was my first"
-	line "sighting. But I"
+	para "Die zag ik voor" ; "It was my first"
+	line "het eerst. Maar ik" ; "sighting. But I"
 
-	para "didn't have any"
-	line "# BALLS…"
+	para "had geen #-" ; "didn't have any"
+	line "BALLEN bij me…" ; "# BALLS…"
 
-	para "Would BILL laugh"
-	line "at my mistakes?"
+	para "Zou BILL lachen om" ; "Would BILL laugh"
+	line "mijn fouten?" ; "at my mistakes?"
 	done
 
 BrentBattleRematchText:
-	text "You've got time"
-	line "like usual, right?"
+	text "Je hebt wel weer" ; "You've got time"
+	line "tijd, toch?" ; "like usual, right?"
 
-	para "Feel like having a"
-	line "battle?"
+	para "Zin om eens te" ; "Feel like having a"
+	line "vechten?" ; "battle?"
 
-	para "It'll be a chance"
-	line "to see my rare"
+	para "Het is een kans om" ; "It'll be a chance"
+	line "mijn zeldzame" ; "to see my rare"
 
-	para "#MON. It'll be"
-	line "worth your time!"
+	para "#MON te zien." ; "#MON. It'll be"
+	line "Je tijd waard!" ; "worth your time!"
 
-	para "You know where--"
+	para "Je weet waar--" ; "You know where--"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
 BrentHangUpText:
-	text "So that's it then."
+	text "Dat is het dan." ; "So that's it then."
 	done
 
 BrentFatherGossipText:
-	text "Did you know…?"
-	line "BILL's father is"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "BILL's vader was" ; "BILL's father is"
 
-	para "supposed to be a"
-	line "great #MANIAC."
+	para "ooit een bekende" ; "supposed to be a"
+	line "#MANIAK." ; "great #MANIAC."
 	done
 
 BrentGrandpaGossipText:
-	text "Did you know…?"
-	line "Apparently BILL's"
+	text "Wist je dat…" ; "Did you know…?"
+	line "Kennelijk is" ; "Apparently BILL's"
 
-	para "grandpa isn't a"
-	line "#MANIAC."
+	para "BILL's opa geen" ; "grandpa isn't a"
+	line "#MANIAK." ; "#MANIAC."
 	done
 
 BrentGoldenrodGossipText:
-	text "Did you know…?"
-	line "BILL's originally"
-	cont "from GOLDENROD."
+	text "Wist je dat…?" ; "Did you know…?"
+	line "BILL komt oor-" ; "BILL's originally"
+	cont "spronkelijk uit" ; "from GOLDENROD."
+	cont "GOLDENROD."
 	done
 
 BrentRoute25GossipText:
-	text "Did you know…?"
-	line "BILL evidently"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "Kennelijk woont" ; "BILL evidently"
 
-	para "lives on ROUTE 25"
+	para "BILL op ROUTE 25" ; "lives on ROUTE 25"
 	line "in KANTO."
 	done
 
 BrentAbraGossipText:
-	text "Did you know…?"
-	line "ABRA was the first"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "ABRA was de eerste" ; "ABRA was the first"
 
-	para "#MON that BILL"
-	line "ostensibly caught."
+	para "#MON die BILL" ; "#MON that BILL"
+	line "heeft gevangen." ; "ostensibly caught."
 	done
 
 BrentSisterGossipText:
-	text "Did you know…?"
-	line "BILL's younger"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "BILL's jongere zus" ; "BILL's younger"
 
-	para "sister apparently"
-	line "can't wink."
+	para "kan kennelijk niet" ; "sister apparently"
+	line "knipogen." ; "can't wink."
 	done
 
 BrentMilkGossipText:
-	text "Did you know…?"
-	line "BILL supposedly"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "BILL zou melk" ; "BILL supposedly"
 
-	para "hates milk and"
-	line "can't drink it."
+	para "haten en het niet" ; "hates milk and"
+	line "kunnen drinken." ; "can't drink it."
 	done
 
 BrentBattlingGossipText:
-	text "Did you know…?"
-	line "Evidently, BILL"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "Kennelijk is BILL" ; "Evidently, BILL"
 
-	para "isn't very good at"
-	line "battling."
+	para "niet heel goed in" ; "isn't very good at"
+	line "vechten." ; "battling."
 	done
 
 BrentFlowerShopGossipText:
-	text "Did you know…?"
-	line "BILL appears to"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "BILL lijkt de dame" ; "BILL appears to"
 
-	para "like the lady at"
-	line "the FLOWER SHOP."
+	para "van de BLOEMEN-" ; "like the lady at"
+	line "WINKEL leuk te" ; "the FLOWER SHOP."
+	cont "vinden."
 	done
 
 BrentKimonoGirlGossipText:
-	text "Did you know…?"
-	line "BILL's mother is"
+	text "Wist je dat…?" ; "Did you know…?"
+	line "BILL's moeder was" ; "BILL's mother is"
 
-	para "said to have been"
-	line "a KIMONO GIRL."
+	para "naar verluidt een" ; "said to have been"
+	line "KIMONO-MEID." ; "a KIMONO GIRL."
 	done
 
 BrentSorryImTooBusyText:
-	text "You wanted to hear"
-	line "about BILL?"
+	text "Wilde je wat over" ; "You wanted to hear"
+	line "BILL horen?" ; "about BILL?"
 
-	para "Sorry, but I'm too"
-	line "busy for you."
+	para "Sorry, maar ik ben" ; "Sorry, but I'm too"
+	line "nu te druk." ; "busy for you."
 
-	para "I'll call when I"
-	line "have time."
+	para "Ik bel wel als ik" ; "I'll call when I"
+	line "tijd heb." ; "have time."
 	done
 
 BrentReminderText:
-	text "You want to see my"
-	line "rare #MON."
+	text "Je wil mijn zeld-" ; "You want to see my"
+	line "zame #MON zien." ; "rare #MON."
 
-	para "Hurry over to"
+	para "Haast je naar" ; "Hurry over to"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."

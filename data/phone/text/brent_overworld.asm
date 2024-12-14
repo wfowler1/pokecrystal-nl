@@ -1,62 +1,64 @@
 BrentAskNumber1Text:
-	text "By the way, you're"
-	line "a #MANIAC…"
+	text "Trouwens, je bent" ; "By the way, you're"
+	line "een #MANIAK…" ; "a #MANIAC…"
 
-	para "I can tell."
-	line "Yes, you are."
+	para "Ik zie het aan je." ; "I can tell."
+	line "Ja, echt." ; "Yes, you are."
 
-	para "But your knowledge"
-	line "is shallow still!"
+	para "Maar je kennis is" ; "But your knowledge"
+	line "nog oppervlakkig!" ; "is shallow still!"
 
-	para "Do you know BILL?"
-	line "He's an incredible"
+	para "Ken je BILL? Hij" ; "Do you know BILL?"
+	line "is een geweldige" ; "He's an incredible"
 
-	para "#MANIAC."
-	line "I revere him."
+	para "#MANIAK." ; "#MANIAC."
+	line "Ik aanbid hem." ; "I revere him."
 
-	para "I'll teach you all"
-	line "I know about BILL,"
+	para "Ik leer je alles" ; "I'll teach you all"
+	line "dat ik van BILL" ; "I know about BILL,"
 
-	para "so leave me your"
-	line "phone number."
+
+	para "weet, dus geef je" ; "so leave me your"
+	line "telefoonnummer." ; "phone number."
 	done
 
 BrentAskNumber2Text:
-	text "I'll teach you all"
-	line "I know about BILL,"
+	text "Ik leer je alles" ; "I'll teach you all"
+	line "dat ik van BILL" ; "I know about BILL,"
+	
 
-	para "so leave me your"
-	line "phone number."
+	para "weet, dus geef je" ; "so leave me your"
+	line "telefoonnummer." ; "phone number."
 	done
 
 BrentNumberAcceptedText:
-	text "BILL--he's more"
-	line "than amazing!"
+	text "BILL-hij is meer" ; "BILL--he's more"
+	line "dan geweldig!" ; "than amazing!"
 
-	para "To be a #MANIAC"
-	line "like him someday…"
+	para "Om ooit als hem" ; "To be a #MANIAC"
+	line "te zijn…" ; "like him someday…"
 
-	para "That's my dream."
+	para "Dat is mijn droom." ; "That's my dream."
 	done
 
 BrentNumberDeclinedText:
-	text "You're going to"
-	line "regret it…"
+	text "Je krijgt hier" ; "You're going to"
+	line "spijt van…" ; "regret it…"
 
-	para "And I won't care…"
+	para "Mij boeit 't niet…" ; "And I won't care…"
 	done
 
 BrentPhoneFullText:
-	text "Huh? Your phone"
-	line "list's full."
+	text "Huh? Je telefoon-" ; "Huh? Your phone"
+	line "lijst is vol." ; "list's full."
 
-	para "A #MANIAC has"
-	line "to be more tidy!"
+	para "Een #MANIAK moet" ; "A #MANIAC has"
+	line "geordender zijn!" ; "to be more tidy!"
 	done
 
 BrentRematchText:
-	text "I've been waiting."
+	text "Ik wachtte op je." ; "I've been waiting."
 
-	para "Look, check out my"
+	para "Kijk, zie mijn" ; "Look, check out my"
 	line "#MON!"
 	done
