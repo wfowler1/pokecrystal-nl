@@ -19,7 +19,7 @@ GavenAskNumber1Text:
 	done
 
 GavenAskNumber2Text:
-	para "Mag ik anders je" ; "Could I get your"
+	text "Mag ik anders je" ; "Could I get your"
 	line "telefoonnummer?" ; "phone number?"
 
 	para "Ik wil graag weer" ; "I'd like to battle"

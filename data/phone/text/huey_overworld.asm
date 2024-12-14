@@ -14,7 +14,7 @@ HueyAskNumber1Text:
 	done
 
 HueyAskNumber2Text:
-	para "He, geef mij je" ; "Hey, give me your"
+	text "He, geef mij je" ; "Hey, give me your"
 	line "telefoonnummer." ; "phone number."
 
 	para "Het lijkt me leuk" ; "You'd be fun to"

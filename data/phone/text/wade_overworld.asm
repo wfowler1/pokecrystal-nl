@@ -17,7 +17,7 @@ WadeAskNumber1Text:
 	done
 
 WadeAskNumber2Text:
-	para "Als ik in het gras" ; "When I'm in the"
+	text "Als ik in het gras" ; "When I'm in the"
 	line "loop, vind ik" ; "grass, I find all"
 	cont "allerlei BESSEN." ; "kinds of BERRIES."
 
