@@ -44,7 +44,7 @@ DanaBattleRematchText:
 	text "."
 
 	para "Als je in de buurt" ; "If you're close"
-	line "bent, eens vechten?" ; "by, let's battle!"
+	line "bent, 'ns vechten?" ; "by, let's battle!"
 
 	para "Ik zal hier op je" ; "I'll be waiting"
 	line "wachten!" ; "for you!"
