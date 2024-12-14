@@ -15,7 +15,7 @@ TullyAnswerPhoneDayText:
 	text "…"
 
 	para "Die stem…" ; "That voice…"
-	line "<PLAY_G> ", toch?" ; "<PLAY_G> ", right?"
+	line "<PLAY_G>, toch?" ; "<PLAY_G> ", right?"
 	done
 
 TullyAnswerPhoneNiteText:
