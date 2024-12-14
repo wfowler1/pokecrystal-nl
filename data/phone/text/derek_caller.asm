@@ -21,7 +21,7 @@ DerekDefeatedMonText:
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "Een wilde @" ; "A wild @"
+	para "Een @" ; "A wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ","
 	line "zeg ik je!" ; "I tell you!"
@@ -38,7 +38,7 @@ DerekDefeatedMonText:
 
 DerekLostAMonText:
 	text "Oh, en ik zag een" ; "Oh, and I saw a"
-	line "wilde @" ; "wild @"
+	line "@" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "een" ; " a"
 	cont "tijdje geleden." ; "little while ago."
@@ -90,8 +90,8 @@ DerekLetsGetTogetherText:
 	line "jouw PIKACHU?" ; "PIKACHU doing?"
 
 	para "Laten we afspreken" ; "Let's get together"
-	line "en lekker over PIKA-" ; "and brag about our"
-	cont "CHU praten!" ; "PIKACHU!"
+	line "en lekker over" ; "and brag about our"
+	cont "PIKACHU praten!" ; "PIKACHU!"
 	done
 
 DerekComePickUpText:

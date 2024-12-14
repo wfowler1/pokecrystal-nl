@@ -1,26 +1,26 @@
 DerekAnswerPhoneText:
-	text "Hoi, <PLAY_G?" ; "Hi, <PLAY_G>?"
+	text "Hoi, <PLAY_G>?" ; "Hi, <PLAY_G>>?"
 
 	para "Goedemorgen pika." ; "Good morning pika."
 	line "Alles goed pika?" ; "What's up pika?"
 	done
 
 DerekAnswerPhoneDayText:
-	text "Hoi, <PLAY_G?" ; "Hi, <PLAY_G>?"
+	text "Hoi, <PLAY_G>?" ; "Hi, <PLAY_G>>?"
 
 	para "goedendag pika," ; "Good day pika,"
 	line "alles goed pika?" ; "what's up pika?"
 	done
 
 DerekAnswerPhoneNiteText:
-	text "Hoi, <PLAY_G?" ; "Hi, <PLAY_G>?"
+	text "Hoi, <PLAY_G>?" ; "Hi, <PLAY_G>>?"
 
 	para "Goedenavond pika" ; "Good evening pika,"
 	line "alles goed pika?" ; "what's up pika?"
 	done
 
 DerekGreetText:
-	text "<PLAY_G> pika," ; "<PLAY_G> pika, good"
+	text "<PLAY_G>> pika," ; "<PLAY_G>> pika, good"
 	line "goedemorgen!" ; "morning!"
 
 	para "Met @" ; "It's @"
@@ -30,7 +30,7 @@ DerekGreetText:
 	done
 
 DerekGreetDayText:
-	text "<PLAY_G> pika," ; "<PLAY_G> pika, good"
+	text "<PLAY_G>> pika," ; "<PLAY_G>> pika, good"
 	line "fijne pika dag!" ; "pika day!"
 
 	para "Met @" ; "It's @"
@@ -40,7 +40,7 @@ DerekGreetDayText:
 	done
 
 DerekGreetNiteText:
-	text "<PLAY_G> pika," ; "<PLAY_G> pika, good"
+	text "<PLAY_G>> pika," ; "<PLAY_G>> pika, good"
 	line "goedenavond!" ; "evening!"
 
 	para "Met @" ; "It's @"
