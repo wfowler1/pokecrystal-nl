@@ -1,105 +1,107 @@
 DerekCheekPinchingText:
-	text "Listen to this."
-	line "My @"
+	text "Hoor dit eens." ; "Listen to this."
+	line "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	para "grins happily when"
-	line "I pinch its cheek."
+	para "grijnst vrolijk" ; "grins happily when"
+	line "als ik in de" ; "I pinch its cheek."
+	cont "wangen knijp."
 
-	para "But it never grins"
-	line "for anyone else."
+	para "Niks anders krijgt" ; "But it never grins"
+	line "dat voor elkaar." ; "for anyone else."
 
-	para "I must be special."
+	para "Ik ben vast" ; "I must be special."
+	line "speciaal.
 	done
 
 DerekDefeatedMonText:
-	text "Oh, and recently,"
-	line "my PIKACHU beat a"
-	cont "wild @"
+	text "Oh, mijn PIKACHU" ; "Oh, and recently,"
+	line "versloeg net een" ; "my PIKACHU beat a"
+	cont "wilde @" ; " ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "A wild @"
+	para "Een wilde @" ; "A wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ","
-	line "I tell you!"
+	line "zeg ik je!" ; "I tell you!"
 
-	para "Don't you think"
-	line "that's astounding?"
+	para "is dat niet" ; "Don't you think"
+	line "verbluffend?" ; "that's astounding?"
 
-	para "My PIKACHU is"
-	line "awesome!"
+	para "Mijn PIKACHU is" ; "My PIKACHU is"
+	line "geweldig!" ; "awesome!"
 
-	para "My PIKACHU is the"
-	line "greatest!"
+	para "Mijn PIKACHU is" ; "My PIKACHU is the"
+	line "de beste!" ; "greatest!"
 	done
 
 DerekLostAMonText:
-	text "Oh, and I saw a"
-	line "wild @"
+	text "Oh, en ik zag een" ; "Oh, and I saw a"
+	line "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " a"
-	cont "little while ago."
+	text "een" ; " a"
+	cont "tijdje geleden." ; "little while ago."
 
-	para "But it wasn't very"
-	line "cute, so I left"
+	para "Maar het was niet" ; "But it wasn't very"
+	line "heel schattig, dus" ; "cute, so I left"
 
-	para "it…"
-	line "#MON have to be"
+	para "ik liet het gaan…" ; "it…"
+	line "#MON moeten" ; "#MON have to be"
 
-	para "cute. They're no"
-	line "good otherwise."
+	para "schattig zijn. Of" ; "cute. They're no"
+	line "ze zijn niks aan." ; "good otherwise."
 	done
 
 DerekHangUpText:
-	text "Well, let's talk"
-	line "again!"
+	text "Nou, laten we snel" ; "Well, let's talk"
+	line "weer bellen!" ; "again!"
 	done
 
 DerekBugCatchingContestText:
-	text "Did you remember?"
-	line "The Bug-Catching"
-	cont "Contest is today."
+	text "Niet vergeten, het" ; "Did you remember?"
+	line "KEVERTOERNOOIT is" ; "The Bug-Catching"
+	cont "vandaag." ; "Contest is today."
 
-	para "You're going to"
-	line "go, aren't you?"
+	para "Je doet mee, of" ; "You're going to"
+	line "niet soms?" ; "go, aren't you?"
 
-	para "I think I'll"
-	line "participate with"
+	para "Misschien doe ik" ; "I think I'll"
+	line "mee met PIKACHU," ; "participate with"
 
-	para "PIKACHU to show"
-	line "off its cuteness."
+	para "om de schattigheid" ; "PIKACHU to show"
+	line "te laten zien." ; "off its cuteness."
 	done
 
 DerekFoundItemText:
-	text "I'd like you to"
-	line "have a NUGGET."
+	text "Ik wil je een" ; "I'd like you to"
+	line "KLOMPJE geven." ; "have a NUGGET."
 
-	para "My PIKACHU just"
-	line "loves it."
+	para "Mijn PIKACHU is er" ; "My PIKACHU just"
+	line "dol op." ; "loves it."
 
-	para "I'm certain your"
-	line "PIKACHU will love"
-	cont "it too!"
+	para "Jouw PIKACHU is" ; "I'm certain your"
+	line "er vast ook verzot" ; "PIKACHU will love"
+	cont "op!" ; "it too!"
 	done
 
 DerekLetsGetTogetherText:
-	text "How is your"
-	line "PIKACHU doing?"
+	text "Hoe gaat het met" ; "How is your"
+	line "jouw PIKACHU?" ; "PIKACHU doing?"
 
-	para "Let's get together"
-	line "and brag about our"
-	cont "PIKACHU!"
+	para "Laten we afspreken" ; "Let's get together"
+	line "en lekker over PIKA-" ; "and brag about our"
+	cont "CHU praten!" ; "PIKACHU!"
 	done
 
 DerekComePickUpText:
-	text "What's wrong?"
+	text "Wat is er mis?" ; "What's wrong?"
 
-	para "I'm waiting on"
+	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "Come pick this up"
-	line "anytime."
+	para "Kom maar halen als" ; "Come pick this up"
+	line "je tijd hebt." ; "anytime."
 	done
