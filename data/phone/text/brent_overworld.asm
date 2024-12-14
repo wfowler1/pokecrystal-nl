@@ -52,8 +52,9 @@ BrentPhoneFullText:
 	text "Huh? Je telefoon-" ; "Huh? Your phone"
 	line "lijst is vol." ; "list's full."
 
-	para "Een #MANIAK moet" ; "A #MANIAC has"
-	line "geordender zijn!" ; "to be more tidy!"
+	para "Een #MANIAK" ; "A #MANIAC has"
+	line "houdt de zaakjes" ; "to be more tidy!"
+	cont "netjes!"
 	done
 
 BrentRematchText:

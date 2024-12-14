@@ -4,7 +4,7 @@ BrentAnswerPhoneText:
 	text "hier…" ; " here…"
 
 	para "Ah, <PLAYER>. Wat" ; "Ah, <PLAYER>. What"
-	line "kan ik voor je doen?" ; "can I do for you?"
+	line "kan ik doen?" ; "can I do for you?"
 	done
 
 BrentAnswerPhoneDayText:
@@ -13,7 +13,7 @@ BrentAnswerPhoneDayText:
 	text "hier…" ; " here…"
 
 	para "Ah, <PLAYER>. Wat" ; "Ah, <PLAYER>. What"
-	line "kan ik voor je doen?" ; "can I do for you?"
+	line "kan ik doen?" ; "can I do for you?"
 	done
 
 BrentAnswerPhoneNiteText:
@@ -22,7 +22,7 @@ BrentAnswerPhoneNiteText:
 	text "hier…" ; " here…"
 
 	para "Ah, <PLAYER>. Wat" ; "Ah, <PLAYER>. What"
-	line "kan ik voor je doen?" ; "can I do for you?"
+	line "kan ik doen?" ; "can I do for you?"
 	done
 
 BrentGreetText:
@@ -68,7 +68,7 @@ BrentGenericText:
 	para "niet soms? Ik ben" ; "don't you?"
 	line "onder de indruk." ; "I'm impressed."
 
-	para "Heh, m'n @" ; "Heh, my @"
+	para "Heh, @" ; "Heh, my @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "is zo sterk, dat" ; "is so tough, it"
