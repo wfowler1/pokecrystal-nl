@@ -79,47 +79,49 @@ BrunosRoom_EnterMovement:
 	step_end
 
 BrunoScript_BrunoBeforeText:
-	text "I am BRUNO of the"
-	line "ELITE FOUR."
+	text "Ik ben BRUNO van" ; "I am BRUNO of the"
+	line "de ELITE FOUR." ; "ELITE FOUR."
 
-	para "I always train to"
-	line "the extreme be-"
-	cont "cause I believe in"
-	cont "our potential."
+	para "Ik train altijd" ; "I always train to"
+	line "extreem hard omdat" ; "the extreme be-"
+	cont "ik geloof in onze" ; "cause I believe in"
+	cont "potentie." ; "our potential."
 
-	para "That is how we"
-	line "became strong."
+	para "Dat is hoe ik" ; "That is how we"
+	line "sterk werd." ; "became strong."
 
-	para "Can you withstand"
-	line "our power?"
+	para "Kun jij onze" ; "Can you withstand"
+	line "kracht weerstaan?" ; "our power?"
 
-	para "Hm? I see no fear"
-	line "in you. You look"
+	para "Hm? Ik zie geen" ; "Hm? I see no fear"
+	line "angst in je. Je" ; "in you. You look"
 
-	para "determined. Per-"
-	line "fect for battle!"
+	para "bent zeker van je" ; "determined. Per-"
+	line "zaak. Perfect voor" ; "fect for battle!"
 
-	para "Ready, <PLAYER>?"
-	line "You will bow down"
+	para "een gevecht! Ben" ; "Ready, <PLAYER>?"
+	line "je klaar <PLAYER>?" ; "You will bow down"
 
-	para "to our overwhelm-"
-	line "ing power!"
+	para "Buig voor onze" ; "to our overwhelm-"
+	line "overweldigende" ; "ing power!"
+	cont "kracht!"
 
 	para "Hoo hah!"
 	done
 
 BrunoScript_BrunoBeatenText:
-	text "Why? How could we"
-	line "lose?"
+	text "Waarom? Hoe konden" ; "Why? How could we"
+	line "we verliezen?" ; "lose?"
 	done
 
 BrunoScript_BrunoDefeatText:
-	text "Having lost, I"
-	line "have no right to"
-	cont "say anything…"
+	text "Na mijn verlies" ; "Having lost, I"
+	line "heb ik geen recht" ; "have no right to"
+	cont "om iets te zeggen…" ; "say anything…"
 
-	para "Go face your next"
-	line "challenge!"
+	para "Neem het op tegen" ; "Go face your next"
+	line "de volgende uit-" ; "challenge!"
+	cont "daging!"
 	done
 
 BrunosRoom_MapEvents:

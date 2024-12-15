@@ -13,7 +13,7 @@ LizAskNumber1Text:
 	done
 
 LizAskNumber2Text:
-	para "Laten we vrienden" ; "Let's be friends!"
+	text "Laten we vrienden" ; "Let's be friends!"
 	line "worden! Mag ik je" ; "Can I have your"
 	cont "telefoonnummer?" ; "phone number?"
 

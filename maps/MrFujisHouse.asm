@@ -44,37 +44,37 @@ MrFujisHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MrFujisHouseSuperNerdText:
-	text "MR.FUJI does live"
-	line "here, but he's not"
+	text "MR. FUJI woont" ; "MR.FUJI does live"
+	line "hier wel, maar" ; "here, but he's not"
 
-	para "home now."
+	para "is nu niet thuis." ; "home now."
 
-	para "He should be at"
-	line "the SOUL HOUSE."
+	para "Hij is bij het" ; "He should be at"
+	line "GEDENKHUIS." ; "the SOUL HOUSE."
 	done
 
 MrFujisHouseLassText:
-	text "Some cold-hearted"
-	line "people stop caring"
-	cont "for their #MON."
+	text "Ongevoelige mensen" ; "Some cold-hearted"
+	line "verzorgen soms hun" ; "people stop caring"
+	cont "#MON niet meer." ; "for their #MON."
 
-	para "Grandpa takes in"
-	line "the poor homeless"
+	para "Opa geeft deze" ; "Grandpa takes in"
+	line "dakloze #MON" ; "the poor homeless"
 
-	para "#MON and takes"
-	line "care of them."
+	para "een thuis en past" ; "#MON and takes"
+	line "goed op ze." ; "care of them."
 	done
 
 MrFujisPsyduckText:
-	text "PSYDUCK: Gu-guwa?"
+	text "PSYDUCK: Kwa-aak?" ; "PSYDUCK: Gu-guwa?"
 	done
 
 MrFujisNidorinoText:
-	text "NIDORINO: Gyun!"
+	text "NIDORINO: Nido!" ; "NIDORINO: Gyun!"
 	done
 
 MrFujisPidgeyText:
-	text "PIDGEY: Pijji!"
+	text "PIDGEY: Pijji!" ; "PIDGEY: Pijji!"
 	done
 
 MrFujisHouse_MapEvents:

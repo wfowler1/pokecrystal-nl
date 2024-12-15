@@ -1,56 +1,56 @@
 ChadAskNumber1Text:
-	text "Huh? Is that thing"
-	line "a #DEX? Have"
-	cont "you met PROF.OAK?"
+	text "Huh? Is dat ding" ; "Huh? Is that thing"
+	line "een #DEX? Ken" ; "a #DEX? Have"
+	cont "je PROF.OAK" ; "you met PROF.OAK?"
 
-	para "Huh? You have? "
-	line "That's way cool!"
+	para "Huh? Echt waar?" ; "Huh? You have? "
+	line "Wat supercool!" ; "That's way cool!"
 
-	para "I have a dream of"
-	line "becoming a #MON"
+	para "Ik droom ervan om" ; "I have a dream of"
+	line "#MON-professor" ; "becoming a #MON"
 
-	para "researcher like"
+	para "te worden, net als" ; "researcher like"
 	line "PROF.OAK."
 
-	para "May I please have"
-	line "your phone number?"
+	para "Mag ik anders je" ; "May I please have"
+	line "telefoonnummer?" ; "your phone number?"
 
-	para "We should chat"
-	line "about PROF.OAK."
+	para "Dan kunnen we" ; "We should chat"
+	line "kletsen over OAK." ; "about PROF.OAK."
 
-	para "I'm sure it will"
-	line "be loads of fun!"
+	para "Het wordt vast" ; "I'm sure it will"
+	line "hartstikke leuk!" ; "be loads of fun!"
 	done
 
 ChadAskNumber2Text:
-	text "May I please have"
-	line "your phone number?"
+	text "Mag ik je" ; "May I please have"
+	line "telefoonnummer?" ; "your phone number?"
 
-	para "We should chat"
-	line "about PROF.OAK."
-
-	para "I'm sure it will"
-	line "be loads of fun!"
+	para "Dan kunnen we" ; "We should chat"
+	line "kletsen over OAK." ; "about PROF.OAK."
+	
+	para "Het wordt vast" ; "I'm sure it will"
+	line "hartstikke leuk!" ; "be loads of fun!"
 	done
 
 ChadNumberAcceptedText:
-	text "You must listen to"
-	line "PROF.OAK'S #MON"
-	cont "TALK, right?"
+	text "Je luistert vast" ; "You must listen to"
+	line "naar PROF.OAK's" ; "PROF.OAK'S #MON"
+	cont "#MON-PRAAT, he?" ; "TALK, right?"
 	done
 
 ChadNumberDeclinedText:
-	text "Oh… I wish I had a"
-	line "chance to meet"
-	cont "PROF.OAK…"
+	text "Oh… Wat zou ik" ; "Oh… I wish I had a"
+	line "graag PROF.OAK" ; "chance to meet"
+	cont "ontmoeten…" ; "PROF.OAK…"
 	done
 
 ChadPhoneFullText:
-	text "Your phone list is"
-	line "completely full!"
+	text "Je telefoonlijst" ; "Your phone list is"
+	line "is helemaal vol!" ; "completely full!"
 	done
 
 ChadRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Ik wachtte op je!" ; "I've been waiting!"
+	line "laten we vechten!" ; "Let's battle now!"
 	done

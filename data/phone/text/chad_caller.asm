@@ -1,245 +1,247 @@
 ChadObservingWildText:
-	text "I recently began"
-	line "observing wild"
+	text "Ik observeer sinds" ; "I recently began"
+	line "kort wilde" ; "observing wild"
 	cont "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "I've been learning"
-	line "all sorts of new"
+	para "Ik heb allerlei" ; "I've been learning"
+	line "nieuwe dingen met" ; "all sorts of new"
 
-	para "things through my"
-	line "observations."
+	para "mijn observaties" ; "things through my"
+	line "geleerd." ; "observations."
 
-	para "I wish I could"
-	line "become a #MON"
+	para "Hopelijk kan ik" ; "I wish I could"
+	line "snel een #MON-" ; "become a #MON"
 
-	para "researcher like"
-	line "PROF.OAK soon."
+	para "onderzoeker zoals" ; "researcher like"
+	line "PROF.OAK worden." ; "PROF.OAK soon."
 	done
 
 ChadDefeatedMonText:
-	text "Oh yes, I managed"
-	line "to knock out a"
+	text "Oh ja, ik heb nog" ; "Oh yes, I managed"
+	line "laatst een" ; "to knock out a"
 
-	para "wild @"
+	para "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " a"
-	line "while back."
+	text "" ; " a"
+	line "weten te verslaan." ; "while back."
 
-	para "Well, considering"
-	line "all the studying I"
+	para "Gezien mijn" ; "Well, considering"
+	line "constante studie" ; "all the studying I"
 
-	para "do every day, it"
-	line "was inevitable."
+	para "iedere dag, was 't" ; "do every day, it"
+	line "onvermijdelijk." ; "was inevitable."
 	done
 
 ChadLostAMonText:
-	text "Oh yes, I came"
-	line "close to catching"
+	text "Oh ja, ik had" ; "Oh yes, I came"
+	line "laatst bijna een" ; "close to catching"
 
-	para "a wild @"
+	para "wilde @" ; "a wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text ","
-	line "but it got away."
+	line "maar die vluchtte." ; "but it got away."
 
-	para "For the longest"
-	line "time, I've been"
+	para "Al ontzettend" ; "For the longest"
+	line "lang wil ik graag" ; "time, I've been"
 
-	para "wanting to observe"
+	para "een wilde" ; "wanting to observe"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text ". Rats…"
+	text "zien…" ; ". Rats…"
 	done
 
 ChadBattleRematchText:
-	text "Want to battle?"
-	line "I have to battle"
+	text "Wil je vechten?" ; "Want to battle?"
+	line "Ik moet af en toe" ; "I have to battle"
 
-	para "every so often to"
-	line "avoid rusting out."
+	para "een potje doen om" ; "every so often to"
+	line "niet roestig te" ; "avoid rusting out."
+	cont "worden."
 
-	para "I'll be on"
+	para "Ik ben op" ; "I'll be on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 ChadHangUpText:
-	text "See you later!"
+	text "Zie je later!" ; "See you later!"
 	done
 
 ChadBlueGossipText:
-	text "Do you know BLUE?"
+	text "Ken je BLUE?" ; "Do you know BLUE?"
 
-	para "He's PROF.OAK's"
-	line "grandson and a"
+	para "Hij is de klein-" ; "He's PROF.OAK's"
+	line "zoon van PROF.OAK" ; "grandson and a"
 
-	para "former #MON"
-	line "LEAGUE CHAMPION!"
+	para "en voormalig" ; "former #MON"
+	line "#MON-LEAGUE-" ; "LEAGUE CHAMPION!"
+	cont "KAMPIOEN!"
 
-	para "He's one super"
-	line "#MON trainer!"
+	para "Echt een geweldige" ; "He's one super"
+	line "#MON-trainer!" ; "#MON trainer!"
 	done
 
 ChadDaisyGossipText:
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "PROF.OAK heeft een" ; "PROF.OAK has a"
+	line "kleindochter die" ; "granddaughter"
+	cont "DAISY heet." ; "named DAISY."
 
-	para "When she's around,"
-	line "even the most"
+	para "Als zij er is," ; "When she's around,"
+	line "worden zelfs de" ; "even the most"
 
-	para "ferocious #MON"
-	line "calm right down."
+	para "gevaarlijkste" ; "ferocious #MON"
+	line "#MON rustig." ; "calm right down."
 	done
 
 ChadProfElmGossipText:
-	text "Everyone's talking"
-	line "about PROF.ELM."
+	text "Iedereen heeft het" ; "Everyone's talking"
+	line "over PROF.ELM." ; "about PROF.ELM."
 
-	para "He used to be an"
-	line "assistant to the"
-	cont "great PROF.OAK!"
+	para "Vroeger was hij" ; "He used to be an"
+	line "de assistent van" ; "assistant to the"
+	cont "de grote PROF.OAK!" ; "great PROF.OAK!"
 
-	para "That is so cool!"
-	line "I envy him!"
+	para "Dat is zo cool!" ; "That is so cool!"
+	line "Ik benijd hem!" ; "I envy him!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "PROF.OAK's dream"
-	line "is to compile a"
+	text "PROF.OAK's droom" ; "PROF.OAK's dream"
+	line "is om een" ; "is to compile a"
 
-	para "comprehensive"
-	line "#DEX."
+	para "volledige #DEX" ; "comprehensive"
+	line "samen te stellen." ; "#DEX."
 
-	para "I envy you for"
-	line "taking part in"
-	cont "that project…"
+	para "Ik ben jaloers dat" ; "I envy you for"
+	line "jij daar aan mag" ; "taking part in"
+	cont "meewerken…" ; "that project…"
 	done
 
 ChadKurtGossipText:
-	text "Do you know KURT,"
-	line "the BALL creator?"
+	text "Ken je KURT, de" ; "Do you know KURT,"
+	line "BALLEN-maker?" ; "the BALL creator?"
 
-	para "He and PROF.OAK go"
-	line "back a long way."
+	para "Hij en PROF.OAK" ; "He and PROF.OAK go"
+	line "zijn vrienden." ; "back a long way."
 
-	para "I guess great"
-	line "people attract one"
-	cont "another!"
+	para "Grootheden trekken" ; "I guess great"
+	line "elkaar kennelijk" ; "people attract one"
+	cont "aan!" ; "another!"
 	done
 
 ChadLeagueGossipText:
-	text "#MON LEAGUE is"
-	line "the great gather-"
-	cont "ing place for all"
+	text "De #MON-LEAGUE" ; "#MON LEAGUE is"
+	line "is de verzamelplek" ; "the great gather-"
+	cont "voor alle trainers" ; "ing place for all"
 
-	para "trainers who wish"
-	line "to become CHAMP."
+	para "die KAMPIOEN" ; "trainers who wish"
+	line "willen worden." ; "to become CHAMP."
 
-	para "PROF.OAK acts as"
-	line "an advisor to the"
+	para "PROF.OAK is een" ; "PROF.OAK acts as"
+	line "adviseur voor het" ; "an advisor to the"
 
-	para "#MON LEAGUE's"
-	line "headquarters."
+	para "hoofdkwartier van" ; "#MON LEAGUE's"
+	line "de #MON-LEAGUE." ; "headquarters."
 
-	para "He really is a"
-	line "great man."
+	para "Hij is echt een" ; "He really is a"
+	line "groot man." ; "great man."
 	done
 
 ChadPokemonTalkGossipText:
-	text "PROF.OAK'S #MON"
-	line "TALK is a popular"
-	cont "radio show, right?"
+	text "PROF.OAK'S #MON" ; "PROF.OAK'S #MON"
+	line "PRAAT is een hit-" ; "TALK is a popular"
+	cont "radioshow, toch?" ; "radio show, right?"
 
-	para "Did you know that"
-	line "he was going to"
+	para "Wist je dat hij" ; "Did you know that"
+	line "eerst voor de" ; "he was going to"
 
-	para "turn down the show"
-	line "at first?"
+	para "show wilde gaan" ; "wilde gaan" ; "turn down the show"
+	line "bedanken?" ; "at first?"
 
-	para "But MARY's energy"
-	line "and persistence"
-	cont "wore him down."
+	para "Maar MARY wist hem" ; "But MARY's energy"
+	line "na veel aandringen" ; "and persistence"
+	cont "te overtuigen." ; "wore him down."
 
-	para "So we have MARY to"
-	line "thank for it!"
+	para "Dus we hebben dat" ; "So we have MARY to"
+	line "MARY te danken!" ; "thank for it!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "PROF.OAK used to"
-	line "be a trainer a"
-	cont "long time ago."
+	text "PROF.OAK was lang" ; "PROF.OAK used to"
+	line "geden ook een" ; "be a trainer a"
+	cont "#MON-trainer." ; "long time ago."
 
-	para "But rather than"
-	line "battling, he found"
+	para "Maar hij vond de" ; "But rather than"
+	line "#MON" ; "battling, he found"
 
-	para "#MON themselves"
-	line "to be interesting."
+	para "interessanter dan" ; "#MON themselves"
+	line "de gevechten." ; "to be interesting."
 
-	para "So he abandoned"
-	line "his training to"
+	para "Dus hij stopte met" ; "So he abandoned"
+	line "trainen om zich" ; "his training to"
 
-	para "focus on becoming"
-	line "a researcher."
+	para "te richten op zijn" ; "focus on becoming"
+	line "onderzoek." ; "a researcher."
 	done
 
 ChadDaisyTeaGossipText:
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "PROF.OAK heeft een" ; "PROF.OAK has a"
+	line "kleindochter" ; "granddaughter"
+	cont "genaamd DAISY." ; "named DAISY."
 
-	para "She has tea every"
-	line "day for an hour"
+	para "Iedere dag drinkt" ; "She has tea every"
+	line "ze iedere dag voor" ; "day for an hour"
 
-	para "from three in the"
-	line "afternoon."
+	para "een uur thee, om" ; "from three in the"
+	line "3 uur 's middags." ; "afternoon."
 
-	para "I wish I could"
-	line "join her for tea"
+	para "Ik wou dat ik eens" ; "I wish I could"
+	line "een bakkie met d'r" ; "join her for tea"
 
-	para "and chat about"
-	line "PROF.OAK."
+	para "kon doen en over" ; "and chat about"
+	line "PROF.OAK praten." ; "PROF.OAK."
 	done
 
 ChadProfOakTravelingGossipText:
-	text "Did you know?"
-	line "PROF.OAK traveled"
+	text "Wist je dat?" ; "Did you know?"
+	line "PROF.OAK reisde de" ; "PROF.OAK traveled"
 
-	para "all over the world"
-	line "when he was young."
+	para "hele wereld over" ; "all over the world"
+	line "toen hij jong was." ; "when he was young."
 
-	para "While traveling,"
-	line "he must've learned"
+	para "Tijdens die reizen" ; "While traveling,"
+	line "leerde hij vast" ; "he must've learned"
 
-	para "about #MON"
-	line "naturally."
+	para "van alles over" ; "about #MON"
+	line "#MON." ; "naturally."
 
-	para "I envy him…"
-	line "I'd like to travel"
+	para "Ik benijd hem…" ; "I envy him…"
+	line "Ik zou ook graag" ; "I'd like to travel"
 
-	para "and learn about"
-	line "things too…"
+	para "reizen en zo" ; "and learn about"
+	line "dingen leren…" ; "things too…"
 	done
 
 ChadGoingToStudyHardText:
-	text "I'm going to study"
-	line "hard so PROF.OAK"
+	text "Ik ga hard aan de" ; "I'm going to study"
+	line "studie zodat PROF." ; "hard so PROF.OAK"
 
-	para "will make me his"
-	line "assistant!"
+	para "OAK me hopelijk" ; "will make me his"
+	line "assistent maakt!" ; "assistant!"
 	done
 
 ChadReminderText:
-	text "Do you remember"
-	line "about our battle?"
+	text "Herinner je ons" ; "Do you remember"
+	line "gevecht nog?" ; "about our battle?"
 
-	para "The place is"
+	para "De plek is" ; "The place is"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "Hurry over--I'm"
-	line "waiting."
+	para "Kom snel--ik sta" ; "Hurry over--I'm"
+	line "te wachten." ; "waiting."
 	done

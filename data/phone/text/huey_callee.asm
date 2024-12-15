@@ -1,15 +1,15 @@
 HueyAnswerPhoneText:
-	text "Yeah, this is"
+	text "Ja, je spreekt met" ; "Yeah, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "Huh? What's up,"
+	para "Huh? Hoe gaat ie," ; "Huh? What's up,"
 	line "<PLAYER>?"
 	done
 
 HueyAnswerPhoneDayText:
-	text "Yeah, this is"
+	text "Ja, je spreekt met" ; "Yeah, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
@@ -19,41 +19,41 @@ HueyAnswerPhoneDayText:
 	done
 
 HueyAnswerPhoneNiteText:
-	text "Yeah, this is"
+	text "Ja, je spreekt met" ; "Yeah, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "Huh? What's up"
+	para "Huh? Hoe gaat ie," ; "Huh? What's up,"
 	line "<PLAYER>?"
 	done
 
 HueyGreetText:
 	text "Yo, <PLAYER>!"
-	line "You awake?"
+	line "Al wakker?" ; "You awake?"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
-	line "How's it going?"
+	line "Wat is er gaande?" ; "How's it going?"
 	done
 
 HueyGreetDayText:
-	text "Yo, <PLAYER>! You"
-	line "free right now?"
+	text "Yo, <PLAYER>! Heb" ; "Yo, <PLAYER>! You"
+	line "je nu tijd?" ; "free right now?"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
-	line "How's it going?"
+	line "Wat is er gaande?" ; "How's it going?"
 	done
 
 HueyGreetNiteText:
 	text "Yo, <PLAYER>!"
-	line "Were you asleep?"
+	line "Sliep je?" ; "Were you asleep?"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
-	line "How's it going?"
+	line "Wat is er gaande?" ; "How's it going?"
 	done

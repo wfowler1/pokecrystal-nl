@@ -20,9 +20,9 @@ MountMoonGiftShopLassScript:
 	jumptextfaceplayer MountMoonGiftShopLassText
 
 MountMoonGiftShopLassText:
-	text "When the sun goes"
-	line "down, CLEFAIRY"
-	cont "come out to play."
+	text "Als de zon onder-" ; "When the sun goes"
+	line "gaat, komen de" ; "down, CLEFAIRY"
+	cont "CLEFAIRY spelen." ; "come out to play."
 	done
 
 MountMoonGiftShop_MapEvents:

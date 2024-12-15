@@ -48,48 +48,48 @@ CeladonDeptStore3FDirectory:
 	jumptext CeladonDeptStore3FDirectoryText
 
 CeladonDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #MON I"
+	text "Ik kan niet kiezen" ; "I can't decide"
+	line "welke #MON deze" ; "which #MON I"
 
-	para "should use this TM"
-	line "on…"
+	para "TM zou moeten" ; "should use this TM"
+	line "krijgen…" ; "on…"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "Uh-oh! I traded my"
-	line "#MON without"
+	text "Oh jee! Ik ruilde" ; "Uh-oh! I traded my"
+	line "m'n #MON zonder" ; "#MON without"
 
-	para "removing the UP-"
-	line "GRADE from it."
+	para "zonder de UPGRADE" ; "removing the UP-"
+	line "te verwijderen." ; "GRADE from it."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
-	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	text "Yes! Eindelijk een" ; "Yeah! I'm finally"
+	line "PORYGON voor mij!" ; "getting a PORYGON!"
 
-	para "I'm no good at the"
-	line "slots, so I could"
+	para "Ik ben slecht met" ; "I'm no good at the"
+	line "automaten, dus" ; "slots, so I could"
 
-	para "never get enough"
-	line "coins…"
+	para "ik kreeg nooit" ; "never get enough"
+	line "genoeg munten…" ; "coins…"
 
-	para "…Huh?"
+	para "…Huh?" ; "…Huh?"
 
-	para "The traded PORYGON"
-	line "turned into a dif-"
-	cont "ferent #MON!"
+	para "De geruilde" ; "The traded PORYGON"
+	line "PORYGON is nu een" ; "turned into a dif-"
+	cont "andere #MON!" ; "ferent #MON!"
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "The TM SHOP sells"
-	line "some rare moves."
+	text "Hier zijn zeldzame" ; "The TM SHOP sells"
+	line "aanvallen te koop." ; "some rare moves."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "3F: TM SHOP"
+	text "3F: TM-WINKEL" ; "3F: TM SHOP"
 
-	para "Make Your #MON"
-	line "Stronger!"
+	para "Maak je #MON" ; "Make Your #MON"
+	line "Sterker!" ; "Stronger!"
 	done
 
 CeladonDeptStore3F_MapEvents:

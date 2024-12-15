@@ -1,63 +1,65 @@
 GavenAskNumber1Text:
-	text "Wow, you're tough."
-	line "I haven't battled"
+	text "Je bent een taaie." ; "Wow, you're tough."
+	line "Zo'n serieus ge-" ; "I haven't battled"
 
-	para "that seriously in"
-	line "a long time."
+	para "vecht heb ik lang" ; "that seriously in"
+	line "niet gehad." ; "a long time."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Mag ik anders je" ; "Could I get your"
+	line "telefoonnummer?" ; "phone number?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "Ik wil graag weer" ; "I'd like to battle"
+	line "vechten als ik " ; "again when I heal"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " and the"
-	line "rest of my team."
+	text " en de" ; " and the"
+	line "rest van mijn team" ; "rest of my team."
+	cont "weer fit zijn."
 	done
 
 GavenAskNumber2Text:
-	text "Could I get your"
-	line "phone number?"
+	text "Mag ik anders je" ; "Could I get your"
+	line "telefoonnummer?" ; "phone number?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "Ik wil graag weer" ; "I'd like to battle"
+	line "vechten als ik " ; "again when I heal"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " and the"
-	line "rest of my team."
+	text " en de" ; " and the"
+	line "rest van mijn team" ; "rest of my team."
+	cont "weer fit zijn."
 	done
-
+	
 GavenNumberAcceptedText:
-	text "How should I beat"
-	line "you? I'm tormented"
+	text "Hoe kan ik je" ; "How should I beat"
+	line "verslaan? Die" ; "you? I'm tormented"
 
-	para "by those thoughts"
-	line "all the time…"
+	para "vraag houdt me" ; "by those thoughts"
+	line "'s nachts wakker." ; "all the time…"
 	done
 
 GavenNumberDeclinedText:
-	text "OK… I understand…"
-	line "But if you change"
+	text "OK… Ik snap het…" ; "OK… I understand…"
+	line "Als je van gedach-" ; "But if you change"
 
-	para "your mind, give me"
-	line "a shout anytime."
+	para "ten verandert," ; "your mind, give me"
+	line "geef maar een gil." ; "a shout anytime."
 	done
 
 GavenPhoneFullText:
-	text "Your phone's"
-	line "memory is full."
+	text "Je telefoonge-" ; "Your phone's"
+	line "heugen zit vol." ; "je telefoon is vol." ; "memory is full."
 
-	para "You can't register"
-	line "my number."
+	para "Je kunt m'n nummer" ; "You can't register"
+	line "niet registreren." ; "my number."
 	done
 
 GavenRematchText:
-	text "Hi! I've been"
-	line "waiting for you!"
+	text "Hoi! Ik stond op" ; "Hi! I've been"
+	line "je te wachten!" ; "waiting for you!"
 
-	para "This time, I'm"
-	line "going to win!"
+	para "Deze keer ga ik" ; "This time, I'm"
+	line "van je winnen!" ; "going to win!"
 	done

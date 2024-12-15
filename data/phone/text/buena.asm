@@ -1,529 +1,529 @@
 BuenaPhoneMorningAnswerText:
-	text "Hi, this is BUENA…"
+	text "He, dit is BUENA…" ; "Hi, this is BUENA…"
 
-	para "Oh! Good morning,"
+	para "Oh! Goedemorgen," ; "Oh! Good morning,"
 	line "<PLAY_G>!"
 
-	para "I'm kind of foggy"
-	line "in the morning…"
+	para "Ik ben wat wazig" ; "I'm kind of foggy"
+	line "in de ochtend…" ; "in the morning…"
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hi, this is BUENA…"
-	line "Oh! Hi, <PLAY_G>!"
+	text "He, dit is BUENA…" ; "Hi, this is BUENA…"
+	line "Oh! Hoi, <PLAY_G>!" ; "Oh! Hi, <PLAY_G>!"
 
-	para "Do you tune into"
+	para "Luister je naar" ; "Do you tune into"
 	line "BUENA's show?"
 	done
 
 BuenaPhoneMidnightAnswerText:
-	text "This is BUENA."
-	line "I can't come to"
+	text "Dit is BUENA." ; "This is BUENA."
+	line "Ik kan nu niet" ; "I can't come to"
 
-	para "the phone right"
-	line "now."
+	para "de telefoon" ; "the phone right"
+	line "opnemen." ; "now."
 
-	para "If you want to"
-	line "chat, tune into"
+	para "Als je wil klets-" ; "If you want to"
+	line "en, luister dan" ; "chat, tune into"
 
-	para "BUENA's PASSWORD"
-	line "on the radio and"
+	para "naar BUENA'S CODE-" ; "BUENA's PASSWORD"
+	line "woord op de radio" ; "on the radio and"
 
-	para "give me a call"
-	line "after midnight!"
+	para "en bel me na" ; "give me a call"
+	line "middernacht!" ; "after midnight!"
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hi, this is BUENA…"
-	line "Oh! Hi, <PLAY_G>!"
+	text "Hoi, dit is BUENA…" ; "Hi, this is BUENA…"
+	line "Oh! Hoi, <PLAY_G>!" ; "Oh! Hi, <PLAY_G>!"
 
-	para "I just got off"
-	line "work. "
+	para "Ik ben net klaar" ; "I just got off"
+	line "met werken." ; "work. "
 
-	para "Let me tell you,"
-	line "I'm exhausted!"
+	para "Ik moet zeggen, ik" ; "Let me tell you,"
+	line "ben uitgeput!" ; "I'm exhausted!"
 	done
 
 BuenaPhoneMorningText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hoi, dit is BUENA!" ; "Hi, it's BUENA!"
 
-	para "I got up early, so"
-	line "I decided to call!"
+	para "Ik was vroeg op," ; "I got up early, so"
+	line "dus belde je even!" ; "I decided to call!"
 	done
 
 BuenaPhoneDayText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hoi, met BUENA!" ; "Hi, it's BUENA!"
 
-	para "I needed someone"
-	line "to chat with!"
+	para "Ik moest met" ; "I needed someone"
+	line "iemand praten!" ; "to chat with!"
 	done
 
 BuenaPhoneMidnightText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hoi, dit is BUENA!" ; "Hi, it's BUENA!"
 
-	para "I'm just on my"
-	line "break."
+	para "Ik heb nu eventjes" ; "I'm just on my"
+	line "pauze." ; "break."
 	done
 
 BuenaPhoneNiteText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hoi, dit is BUENA!" ; "Hi, it's BUENA!"
 
-	para "I couldn't sleep,"
-	line "so I called you."
+	para "Ik kon niet slapen" ; "I couldn't sleep,"
+	line "en belde je." ; "so I called you."
 	done
 
 BuenaPhoneRocketText:
-	text "Oh. Hi, <PLAY_G>!"
+	text "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
 
-	para "You are how?"
+	para "Jij bent hoe?" ; "You are how?"
 
-	para "Aiyee! This isn't"
-	line "the time for me to"
+	para "Aiyee! Dit is niet" ; "Aiyee! This isn't"
+	line "het moment om" ; "the time for me to"
 
-	para "be cracking silly"
-	line "gag greetings!"
+	para "grappige groeten" ; "be cracking silly"
+	line "te maken!" ; "gag greetings!"
 
-	para "The RADIO TOWER is"
-	line "in deep trouble!"
+	para "De RADIOTOREN zit" ; "The RADIO TOWER is"
+	line "in de problemen!" ; "in deep trouble!"
 
-	para "<PLAY_G>, you'd"
-	line "better be careful!"
+	para "<PLAY_G>, wees erg" ; "<PLAY_G>, you'd"
+	line "voorzichtig!" ; "better be careful!"
 	done
 
 BuenaPhoneWentOutWithBenText:
-	text "The other day, I"
-	line "went out to eat"
+	text "Gisteren ging ik" ; "The other day, I"
+	line "uit eten met DJ" ; "went out to eat"
 
-	para "with DJ BEN!"
-	line "Isn't it great?"
+	para "BEN! Wat leuk," ; "with DJ BEN!"
+	line "vind je ook niet?" ; "Isn't it great?"
 
-	para "Not only that, he"
-	line "said the music on"
+	para "Hij zei ook nog" ; "Not only that, he"
+	line "eens dat de muziek" ; "said the music on"
 
-	para "my program is"
-	line "cool!"
+	para "in mijn programma" ; "my program is"
+	line "cool is!" ; "cool!"
 
-	para "Oh, wow! Like,"
-	line "what should I do?"
+	para "Wauw, zeg! Wat zal" ; "Oh, wow! Like,"
+	line "ik nu doen?" ; "what should I do?"
 
-	para "…Oops, I have to"
-	line "get ready for my"
+	para "…Oeps, ik moet me" ; "…Oops, I have to"
+	line "klaarmaken voor" ; "get ready for my"
 
-	para "show! I'll catch"
-	line "you later!"
+	para "mijn show! Ik" ; "show! I'll catch"
+	line "spreek je later!" ; "you later!"
 	done
 
 BuenaPhoneReceptionistText:
-	text "You know the"
-	line "receptionist at"
-	cont "the RADIO TOWER?"
+	text "Ken je de" ; "You know the"
+	line "receptionist van" ; "receptionist at"
+	cont "de RADIOTOREN?" ; "the RADIO TOWER?"
 
-	para "'Welcome,' is all"
-	line "she ever says."
+	para "Ze zegt alleen" ; "'Welcome,' is all"
+	line "maar 'welkom'. " ; "she ever says."
 
-	para "But she's really"
-	line "the chattiest"
+	para "Maar stiekem is" ; "But she's really"
+	line "ze de grootste" ; "the chattiest"
 
-	para "person at the"
-	line "RADIO TOWER."
+	para "kletskous van de" ; "person at the"
+	line "RADIOTOREN." ; "RADIO TOWER."
 
-	para "So she must be"
-	line "holding back."
+	para "Ze lijkt zich echt" ; "So she must be"
+	line "in te houden." ; "holding back."
 
-	para "Isn't that fun to"
-	line "know?"
+	para "Is dat niet leuk" ; "Isn't that fun to"
+	line "om te weten?" ; "know?"
 
-	para "Catch you later!"
+	para "Spreek je later!" ; "Catch you later!"
 	done
 
 BuenaPhoneLuckyNumberShowText:
-	text "Tell me, <PLAY_G>."
-	line "Have you ever won"
+	text "Zeg eens, <PLAY_G>." ; "Tell me, <PLAY_G>."
+	line "Heb je ooit een" ; "Have you ever won"
 
-	para "a prize on the"
-	line "LUCKY NUMBER SHOW?"
+	para "prijs gewonnen bij" ; "a prize on the"
+	line "de LOTTOSHOW?" ; "LUCKY NUMBER SHOW?"
 
-	para "REED moans that"
-	line "he's never won, so"
+	para "REED klaagt dat" ; "REED moans that"
+	line "hij nooit wint," ; "he's never won, so"
 
-	para "he vows to keep"
-	line "the show on the"
-	cont "air till he does."
+	para "en zweert de show" ; "he vows to keep"
+	line "in leven te houden" ; "the show on the"
+	cont "tot ie wint." ; "air till he does."
 
-	para "Let's chat again!"
+	para "We spreken snel!" ; "Let's chat again!"
 	done
 
 BuenaPhoneStressedFromWorkText:
-	text "You know, last"
-	line "night…"
+	text "Weet je, afgelopen" ; "You know, last"
+	line "nacht…" ; "night…"
 
-	para "I was so stressed"
-	line "out from work, I"
+	para "Ik was zo ge-" ; "I was so stressed"
+	line "stresst van werk," ; "out from work, I"
 
-	para "ate a ton of junk"
-	line "food!"
+	para "dus ik at een hoop" ; "ate a ton of junk"
+	line "junkfood!" ; "food!"
 
-	para "MARY and I have"
-	line "this deal about"
-	cont "losing weight…"
+	para "MARY en ik hebben" ; "MARY and I have"
+	line "afgesproken samen" ; "this deal about"
+	cont "gezond te leven…" ; "losing weight…"
 
-	para "This won't do…"
+	para "Dit is niet oké…" ; "This won't do…"
 
-	para "Huh? What's the"
-	line "weight?"
+	para "Huh? Hoe vaak we" ; "Huh? What's the"
+	line "snoepen?" ; "weight?"
 
-	para "This has to be a"
-	line "total secret!"
+	para "Dit moet geheim" ; "This has to be a"
+	line "blijven!" ; "total secret!"
 
-	para "MARY weighs…"
+	para "MARY eet soms…" ; "MARY weighs…"
 
 	para "Aiyee! M-MARY!"
 
-	para "Uh… Um… I… Sorry,"
-	line "wrong number!"
+	para "Uh… Um… Ik… Sorry," ; "Uh… Um… I… Sorry,"
+	line "verkeerd nummer!" ; "wrong number!"
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Yesterday, PROF."
-	line "OAK was in the"
+	text "PROF.OAK was" ; "Yesterday, PROF."
+	line "gisteren in de" ; "OAK was in the"
 
-	para "studio to tape his"
-	line "show."
+	para "studio om zijn" ; "studio to tape his"
+	line "show op te nemen." ; "show."
 
-	para "So I went over and"
-	line "introduced myself."
+	para "Dus ik heb mezelf" ; "So I went over and"
+	line "even voorgesteld." ; "introduced myself."
 
-	para "Get this--he tunes"
-	line "in to my program!"
+	para "Moet je horen--hij" ; "Get this--he tunes"
+	line "luistert naar mij!" ; "in to my program!"
 
-	para "Oh! Here comes"
-	line "PROF.OAK again!"
+	para "Oh! Hier komt" ; "Oh! Here comes"
+	line "PROF.OAK weer!" ; "PROF.OAK again!"
 
-	para "I'm going to chat"
-	line "him up again!"
+	para "Ik ga weer met hem" ; "I'm going to chat"
+	line "kletsen!" ; "him up again!"
 
-	para "Catch you later!"
+	para "Spreek je later!" ; "Catch you later!"
 	done
 
 BuenaPhoneGotAColdText:
-	text "…Cough, cough!"
+	text "…Kuch, kuych!" ; "…Cough, cough!"
 
-	para "Uhm sorry uh got"
-	line "uh code dite now."
+	para "Uhm fowwy ik bun" ; "Uhm sorry uh got"
+	line "vekouwe nu." ; "uh code dite now."
 
-	para "Buh uma pro so uh"
-	line "hav to cover id ub"
+	para "Mor ek bun un pro" ; "Buh uma pro so uh"
+	line "dus mot ut vustope" ; "hav to cover id ub"
 
-	para "so no un notice"
-	line "while uhm on air."
+	para "Zodut numund ut" ; "so no un notice"
+	line "hort op de radio." ; "while uhm on air."
 
-	para "Uh fidz muh voice"
-	line "now."
+	para "Dut us mun stem" ; "Uh fidz muh voice"
+	line "nu." ; "now."
 
-	para "I'll catch you on"
-	line "the fly. This has"
-	cont "been BUENA!"
+	para "Ik hoor je snel" ; "I'll catch you on"
+	line "onderweg. Dit was" ; "the fly. This has"
+	cont "weer BUENA!" ; "been BUENA!"
 	done
 
 BuenaPhoneRadioCardQuestionsText:
-	text "Hey, <PLAY_G>."
-	line "You won that RADIO"
+	text "He, <PLAY_G>." ; "Hey, <PLAY_G>."
+	line "Je won die RADIO-" ; "You won that RADIO"
 
-	para "CARD by beating"
-	line "the quiz at the"
+	para "KAART bij de quiz" ; "CARD by beating"
+	line "aan de receptie," ; "the quiz at the"
 
-	para "reception desk,"
-	line "didn't you?"
+	para "heb ik dat goed" ; "reception desk,"
+	line "begrepen?" ; "didn't you?"
 
-	para "Guess what? I made"
-	line "up the questions!"
+	para "Raad eens? Ik heb" ; "Guess what? I made"
+	line "meer vragen!" ; "up the questions!"
 
-	para "…Were they too"
-	line "easy for you?"
+	para "…Vond je ze te" ; "…Were they too"
+	line "makkelijk?" ; "easy for you?"
 
-	para "Well, let's chat"
-	line "again!"
+	para "Nou, laten we nog" ; "Well, let's chat"
+	line "eens spreken!" ; "again!"
 	done
 
 BuenaPhonePikachuFanClubText:
-	text "I'm elated that"
-	line "more people are"
+	text "Ik vind het super" ; "I'm elated that"
+	line "dat meer mensen" ; "more people are"
 
-	para "taking part in my"
-	line "PASSWORD show."
+	para "meedoen aan mijn" ; "taking part in my"
+	line "WACHTWOORDSHOW." ; "PASSWORD show."
 
-	para "But when PIKACHU"
-	line "was the password,"
+	para "Maar toen PIKACHU" ; "But when PIKACHU"
+	line "het antwoord was," ; "was the password,"
 
-	para "it was uh… whew…"
-	line "overwhelming."
+	para "was het uh… pfoe…" ; "it was uh… whew…"
+	line "overweldigend." ; "overwhelming."
 
-	para "FAN CLUB people"
-	line "came in out in"
+	para "FANCLUB-mensen" ; "FAN CLUB people"
+	line "kwamen massaal" ; "came in out in"
 
-	para "droves, shouting"
-	line "'PIKACHU!' over"
+	para "langs en riepen" ; "droves, shouting"
+	line "continu 'PIKACHU'." ; "'PIKACHU!' over"
 
-	para "and over. I mean,"
-	line "they were loud."
+	para "met elkaar. En ze" ; "and over. I mean,"
+	line "waren heel luid." ; "they were loud."
 
-	para "Anyone tuning in"
-	line "around then must"
+	para "Iedereen die toen" ; "Anyone tuning in"
+	line "luisterde was vast" ; "around then must"
 
-	para "have been shocked"
-	line "by the racket!"
+	para "geschokt door alle" ; "have been shocked"
+	line "drukte!" ; "by the racket!"
 
-	para "Anyway, back to"
-	line "work for me!"
+	para "Hoe dan ook, ik ga" ; "Anyway, back to"
+	line "weer werken!" ; "work for me!"
 
-	para "Let's chat again!"
+	para "We spreken snel!" ; "Let's chat again!"
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Guess what?"
-	line "The RADIO TOWER's"
+	text "Raad eens?" ; "Guess what?"
+	line "De DIRECTEUR van" ; "The RADIO TOWER's"
 
-	para "DIRECTOR is a big"
-	line "fan of TV!"
+	para "de RADIOTOREN is" ; "DIRECTOR is a big"
+	line "groot fan van TV!" ; "fan of TV!"
 
-	para "A while ago, a"
-	line "fashion show on TV"
+	para "Een tijd terug" ; "A while ago, a"
+	line "zei een modepro-" ; "fashion show on TV"
 
-	para "said that black"
-	line "suits were in."
+	para "gramma dat zwarte" ; "said that black"
+	line "pakken hip zijn." ; "suits were in."
 
-	para "Now all he wears"
-	line "are black suits."
+	para "En nu draagt hij" ; "Now all he wears"
+	line "dat alleen maar." ; "are black suits."
 
-	para "But it's a secret"
-	line "that our DIRECTOR"
+	para "Het is een geheim" ; "But it's a secret"
+	line "dat de DIRECTEUR" ; "that our DIRECTOR"
 
-	para "is a TV fan, so if"
-	line "you see him, don't"
+	para "een TV-fan is, dus" ; "is a TV fan, so if"
+	line "niks zeggen als je" ; "you see him, don't"
 
-	para "you dare mention"
-	line "it!"
+	para "hem een keertje" ; "you dare mention"
+	line "tegenkomt!" ; "it!"
 
-	para "Oh! The DIRECTOR"
-	line "will be here soon!"
+	para "Oh! De DIRECTEUR" ; "Oh! The DIRECTOR"
+	line "komt zo langs!" ; "will be here soon!"
 
-	para "Later! Tune into"
-	line "my show!"
+	para "Tot later! Luister" ; "Later! Tune into"
+	line "naar mijn show!" ; "my show!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
-	text "<PLAY_G>, tell me."
+	text "<PLAY_G>, zeg eens." ; "tell me."
 
-	para "When do you relax"
-	line "the most?"
+	para "Waneer ontspan jij" ; "When do you relax"
+	line "het meeste?" ; "the most?"
 
-	para "For me, it has to"
-	line "be in the studio"
+	para "Voor mij is het" ; "For me, it has to"
+	line "in de studio net" ; "be in the studio"
 
-	para "right after my"
-	line "show, enjoying a"
+	para "na een uitzending," ; "right after my"
+	line "met een lekkere" ; "show, enjoying a"
 
-	para "nice cup of tea."
-	line "It's so pleasant"
+	para "kop thee. Dat is" ; "nice cup of tea."
+	line "zo ontspannen dat" ; "It's so pleasant"
 
-	para "that it gradually"
-	line "makes me drowsy…"
+	para "ik er slaperig van" ; "that it gradually"
+	line "word…" ; "makes me drowsy…"
 
 	para "<……> <……> <……>"
 
 	para "<……> <……> <……>Zzz"
 
-	para "Oops, I drifted"
-	line "off just thinking"
+	para "Oeps, ik viel in" ; "Oops, I drifted"
+	line "slaap door er aan" ; "off just thinking"
 
-	para "about it! How, uh…"
-	line "embarrassing!"
+	para "te denken! Wat," ; "about it! How, uh…"
+	line "uh… genant!" ; "embarrassing!"
 
-	para "Please forget this"
-	line "happened! Later!"
+	para "Vergeet dit maar" ; "Please forget this"
+	line "snel! Later!" ; "happened! Later!"
 	done
 
 BuenaPhoneStarterPokemonText:
-	text "<PLAY_G>, what was"
-	line "the first #MON"
-	cont "you ever caught?"
+	text "<PLAY_G>, welke" ; "<PLAY_G>, what was"
+	line "#MON ving je" ; "the first #MON"
+	cont "als eerst?" ; "you ever caught?"
 
-	para "…Oh, really?"
+	para "…Oh, echt?" ; "…Oh, really?"
 
-	para "I've seen lots of"
-	line "#MON around,"
+	para "Ik heb veel" ; "I've seen lots of"
+	line "#MON gezien," ; "#MON around,"
 
-	para "but I've never"
-	line "caught one."
+	para "maar nog nooit" ; "but I've never"
+	line "eentje gevangen." ; "caught one."
 
-	para "I should give it a"
-	line "try sometime."
+	para "Ik moet het een" ; "I should give it a"
+	line "keer proberen." ; "try sometime."
 
-	para "Did you know that"
-	line "the first #MON"
+	para "Wist je dat de" ; "Did you know that"
+	line "eerste #MON die" ; "the first #MON"
 
-	para "MARY caught was a"
-	line "DROWZEE?"
+	para "MARY ving een" ; "MARY caught was a"
+	line "DROWZEE was?" ; "DROWZEE?"
 
-	para "Isn't that so out"
-	line "of character?"
+	para "Dat past toch" ; "Isn't that so out"
+	line "niet bij haar?" ; "of character?"
 
-	para "But MARY's DROWZEE"
-	line "kept making her"
+	para "Maar MARY's" ; "But MARY's DROWZEE"
+	line "DROWZEE liet haar" ; "kept making her"
 
-	para "fall asleep on the"
-	line "job, so she traded"
+	para "steeds in slaap" ; "fall asleep on the"
+	line "vallen op werk," ; "job, so she traded"
 
-	para "with a fan for a"
-	line "MEOWTH."
+	para "dus ze ruilde hem" ; "with a fan for a"
+	line "voor een MEOWTH." ; "MEOWTH."
 
-	para "Let's chat about"
-	line "#MON again!"
+	para "We praten snel nog" ; "Let's chat about"
+	line "eens over #MON!" ; "#MON again!"
 
-	para "Bye-bye!"
+	para "Doei-doei!" ; "Bye-bye!"
 	done
 
 BuenaPhoneCompanyVacationText:
-	text "Guess what? All of"
-	line "us from the RADIO"
+	text "Raad eens? We gaan" ; "Guess what? All of"
+	line "met de hele RADIO-" ; "us from the RADIO"
 
-	para "TOWER are going on"
-	line "a company vacation"
+	para "TOREN op een" ; "TOWER are going on"
+	line "werkvakantie naar" ; "a company vacation"
 
-	para "to the RADIO TOWER"
-	line "in LAVENDER."
+	para "de RADIOTOREN in" ; "to the RADIO TOWER"
+	line "LAVENDER." ; "in LAVENDER."
 
-	para "We're wasting our"
-	line "vacation on a trip"
+	para "We verspillen onze" ; "We're wasting our"
+	line "vakantie aan een" ; "vacation on a trip"
 
-	para "to another RADIO"
-	line "TOWER?"
+	para "reis naar een" ; "to another RADIO"
+	line "andere RADIOTOREN?" ; "TOWER?"
 
-	para "I'd much rather go"
-	line "to the beach!"
+	para "Ik ga veel liever" ; "I'd much rather go"
+	line "naar het strand!" ; "to the beach!"
 
-	para "<PLAY_G>, I hope"
-	line "you have enough"
+	para "<PLAY_G>, hopelijk" ; "<PLAY_G>, I hope"
+	line "heb jij genoeg lol" ; "you have enough"
 
-	para "fun for both of us"
-	line "on your journey!"
+	para "voor ons allebei" ; "fun for both of us"
+	line "tijdens je reis!" ; "on your journey!"
 
-	para "Bye-bye!"
+	para "Doei-doei!" ; "Bye-bye!"
 	done
 
 BuenaPhoneBenAndFernText:
-	text "Did you know…?"
+	text "Wist je dat…?" ; "Did you know…?"
 
-	para "BEN and FERN talk"
-	line "on the phone for"
+	para "BEN en FERN bellen" ; "BEN and FERN talk"
+	line "urenlang over wat" ; "on the phone for"
 
-	para "hours about what"
-	line "#MON music they"
+	para "voor muziek ze op" ; "hours about what"
+	line "welke dagen van de" ; "#MON music they"
 
-	para "should play on"
-	line "different days of"
-	cont "the week."
+	para "week moeten draai-" ; "should play on"
+	line "en op de radio." ; "different days of"
+	; cont "the week."
 
-	para "One time, FERN's"
-	line "rapping style kind"
+	para "Eén keer raakte" ; "One time, FERN's"
+	line "FERN aangestoken" ; "rapping style kind"
 
-	para "of rubbed off on"
-	line "BEN weirdly."
+	para "door de rap van" ; "of rubbed off on"
+	line "BEN." ; "BEN weirdly."
 
-	para "So we ended up"
-	line "enduring BEN's"
+	para "Dus moesten we" ; "So we ended up"
+	line "BEN's gekke," ; "enduring BEN's"
 
-	para "silly, chilly, a"
-	line "willy-nilly jive-"
-	cont "talking shtick for"
-	cont "a while."
+	para "wacke, gebekke" ; "silly, chilly, a"
+	line "voor een poos van" ; "willy-nilly jive-"
+	cont "hem blijven aan-" ; "talking shtick for"
+	cont "horen." ; "a while."
 
-	para "Let's chat again!"
+	para "We spreken snel!" ; "Let's chat again!"
 	done
 
 BuenaPhoneGoingShoppingText:
-	text "I'm going shopping"
-	line "with MARY and LILY"
-	cont "soon."
+	text "Binnenkort ga ik" ; "I'm going shopping"
+	line "met MARY en LILY" ; "with MARY and LILY"
+	cont "shoppen." ; "soon."
 
-	para "It'll be great if"
-	line "GOLDENROD DEPT."
+	para "Hopelijk is er" ; "It'll be great if"
+	line "uitverkoop in" ; "GOLDENROD DEPT."
 
-	para "STORE has a sale"
-	line "on when we go…"
+	para "GOLDENROD WAREN-" ; "STORE has a sale"
+	line "HUIS als we gaan…" ; "on when we go…"
 
-	para "<PLAY_G>, maybe we"
-	line "can hook up too!"
+	para "<PLAY_G>, wellicht" ; "<PLAY_G>, maybe we"
+	line "kunnen we samen!" ; "can hook up too!"
 
-	para "Catch you later!"
+	para "Spreek je snel!" ; "Catch you later!"
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
-	text "I'm thinking of"
-	line "going to the GAME"
+	text "Ik overweeg morgen" ; "I'm thinking of"
+	line "naar de SPEELHOEK" ; "going to the GAME"
 
-	para "CORNER tomorrow."
-	line "It's been a while."
+	para "te gaan. Het is" ; "CORNER tomorrow."
+	line "al even geleden." ; "It's been a while."
 
 if DEF(_CRYSTAL_AU)
-	para "Some machines pays"
-	line "out a lot."
+	para "Sommige machines" ; "Some machines pays"
+	line "betalen veel uit." ; "out a lot."
 else
-	para "You see, I have my"
-	line "favorite machine…"
+	para "Weet je, ik heb" ; "You see, I have my"
+	line "een favoriet…" ; "favorite machine…"
 
-	para "It pays out a lot,"
-	line "I kid you not!"
+	para "Die betaalt flink" ; "It pays out a lot,"
+	line "uit! Echt waar!" ; "I kid you not!"
 endc
 
-	para "Huh? Nuh-uh, it's"
-	line "my secret!"
+	para "Huh? Nuh-uh, het" ; "Huh? Nuh-uh, it's"
+	line "is geheim!" ; "my secret!"
 
-	para "You have to find"
-	line "it yourself!"
+	para "Kom er zelf maar" ; "You have to find"
+	line "achter!" ; "it yourself!"
 
-	para "Catch you later!"
+	para "Spreek je snel!" ; "Catch you later!"
 	done
 
 BuenaPhonePokegearAnswerText:
-	text "Hey, <PLAY_G>. You"
-	line "use your #GEAR"
+	text "HEy, <PLAY_G>. Jij" ; "Hey, <PLAY_G>. You"
+	line "luistert met je" ; "use your #GEAR"
 
-	para "to listen to the"
-	line "radio, right?"
+	para "#GEAR naar de" ; "to listen to the"
+	line "radio, toch?" ; "radio, right?"
 
-	para "I heard that you"
-	line "can even display"
+	para "Ik hoorde dat je" ; "I heard that you"
+	line "er zelfs land-" ; "can even display"
 
-	para "town maps with"
-	line "#GEAR."
+	para "kaarten op kunt" ; "town maps with"
+	line "bekijken." ; "#GEAR."
 
-	para "I have a bad sense"
-	line "of direction, so"
+	para "Ik heb een slecht" ; "I have a bad sense"
+	line "richtingsgevoel," ; "of direction, so"
 
-	para "#GEAR would be"
-	line "handy…"
+	para "dus een #GEAR" ; "#GEAR would be"
+	line "klinkt handig…" ; "handy…"
 
-	para "Anyway, thanks for"
-	line "calling! Later!"
+	para "Hoe dan ook, dank" ; "Anyway, thanks for"
+	line "voor het bellen!" ; "calling! Later!"
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
-	text "Is it sunny"
-	line "outside today?"
+	text "Is het vandaag" ; "Is it sunny"
+	line "zonnig buiten?" ; "outside today?"
 
-	para "When you're cooped"
-	line "up in the RADIO"
+	para "Als je zoveel in" ; "When you're cooped"
+	line "de RADIOTOREN zit" ; "up in the RADIO"
 
-	para "TOWER as much as I"
-	line "am, you lose touch"
+	para "als ik, vergeet" ; "TOWER as much as I"
+	line "je hoe het buiten" ; "am, you lose touch"
 
-	para "with the outside."
-	line "It can be boring."
+	para "is. Het kan best" ; "with the outside."
+	line "saai zijn." ; "It can be boring."
 
-	para "Please call again!"
+	para "Bel me snel weer!" ; "Please call again!"
 	done

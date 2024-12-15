@@ -31,38 +31,39 @@ HiddenPowerHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 HiddenPowerGuyText1:
-	text "…You have strayed"
-	line "far…"
+	text "Je bent ver" ; "…You have strayed"
+	line "afgezworven…" ; "far…"
 
-	para "Here I have medi-"
-	line "tated. Inside me,"
+	para "Hier mediteerde" ; "Here I have medi-"
+	line "ik. Binnen mij is" ; "tated. Inside me,"
 
-	para "a new power has"
-	line "been awakened."
+	para "een nieuwe kracht" ; "a new power has"
+	line "ontwaakt." ; "been awakened."
 
-	para "Let me share my"
-	line "power with your"
+	para "Laat mij deze" ; "Let me share my"
+	line "kracht delen met" ; "power with your"
 
-	para "#MON."
-	line "Take this, child."
+	para "je #MON." ; "#MON."
+	line "Neem dit, kind." ; "Take this, child."
 	done
 
 HiddenPowerGuyText2:
-	text "Do you see it? It"
-	line "is HIDDEN POWER!"
+	text "Zie je het? Dat is" ; "Do you see it? It"
+	line "VERBORGEN KRACHT!" ; "is HIDDEN POWER!"
 
-	para "It draws out the"
-	line "power of #MON"
-	cont "for attacking."
+	para "Het ontwaakt de" ; "It draws out the"
+	line "kracht van een" ; "power of #MON"
+	cont "#MON om mee aan" ; "for attacking."
+	cont "te vallen."
 
-	para "Remember this: its"
-	line "type and power de-"
-	cont "pend on the #-"
-	cont "MON using it."
+	para "Onthoud dit: het" ; "Remember this: its"
+	line "type en de kracht" ; "type and power de-"
+	cont "hangen af van de" ; "pend on the #-"
+	cont "#MON." ; "MON using it."
 	done
 
 HiddenPowerGuyText3:
-	text "I am meditating…"
+	text "Ik mediteer…" ; "I am meditating…"
 	done
 
 LakeOfRageHiddenPowerHouse_MapEvents:

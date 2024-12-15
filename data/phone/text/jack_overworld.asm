@@ -1,55 +1,55 @@
 JackAskNumber1Text:
-	text "Your knowledge is"
-	line "impressive!"
+	text "Je kennis is" ; "Your knowledge is"
+	line "indrukwekkend!" ; "impressive!"
 
-	para "I like that!"
+	para "Dat zie ik graag!" ; "I like that!"
 
-	para "Want to trade"
-	line "battle tips?"
+	para "Wil je wat tips" ; "Want to trade"
+	line "uitwisselen?" ; "battle tips?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Ik bel je als ik" ; "I'll phone if I"
+	line "goede info heb." ; "get good info."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Wil je jouw nummer" ; "Would you tell me"
+	line "vertellen?" ; "your number?"
 	done
 
 JackAskNumber2Text:
-	text "Want to trade"
-	line "battle tips?"
+	text "Wil je tips met me" ; "Want to trade"
+	line "uitwisselen?" ; "battle tips?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Ik bel als ik wat" ; "I'll phone if I"
+	line "goede info heb." ; "get good info."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Wil je jouw nummer" ; "Would you tell me"
+	line "vertellen?" ; "your number?"
 	done
 
 JackNumberAcceptedText:
-	text "I'll call you if I"
-	line "hear anything!"
+	text "Ik bel je als ik" ; "I'll call you if I"
+	line "iets hoor!" ; "hear anything!"
 	done
 
 JackNumberDeclinedText:
-	text "Oh, OK. Too bad…"
+	text "Oh, OK. Jammer…" ; "Oh, OK. Too bad…"
 
-	para "Well, if you ever"
-	line "want my number,"
-	cont "come see me, OK?"
+	para "Als je ooit mijn" ; "Well, if you ever"
+	line "nummer wil, kom je" ; "want my number,"
+	cont "maar langs, OK?" ; "come see me, OK?"
 	done
 
 JackPhoneFullText:
 	text "Oh?"
-	line "Your phone's full."
+	line "Je hebt geen plek." ; "Your phone's full."
 
-	para "It can't register"
-	line "my number."
+	para "Mijn nummer kan" ; "It can't register"
+	line "er niet bij." ; "my number."
 	done
 
 JackRematchText:
-	text "Hi, I was waiting"
-	line "for you to show!"
+	text "Hoi, ik wachtte al" ; "Hi, I was waiting"
+	line "op je komst!" ; "for you to show!"
 
-	para "Let's get started"
-	line "right away!"
+	para "Laten we meteen" ; "Let's get started"
+	line "gaan beginnen!" ; "right away!"
 	done

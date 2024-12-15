@@ -133,8 +133,8 @@ Script_ChallengeCanceled: ; unreferenced
 	end
 
 Text_ReturnedAfterSave_Mobile: ; unreferenced
-	text "You'll be returned"
-	line "after you SAVE."
+	text "Je keert terug" ; "You'll be returned"
+	line "nadat je OPSLAAT." ; "after you SAVE."
 	done
 
 BattleTowerBattleRoom_MapEvents:

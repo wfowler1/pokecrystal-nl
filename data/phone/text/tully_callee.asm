@@ -1,67 +1,67 @@
 TullyAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; " Hello, this is" ; "
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
-	para "Oh, Good morning,"
+	para "Oh, goedemorgen," ; "Oh, Good morning,"
 	line "<PLAY_G>."
 	done
 
 TullyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; " Hello, this is" ; "
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
-	para "That voice…"
-	line "<PLAY_G>, right?"
+	para "Die stem…" ; "That voice…"
+	line "<PLAY_G>, toch?" ; "<PLAY_G> ", right?"
 	done
 
 TullyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; " Hello, this is" ; "
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
-	para "This must be"
+	para "Dit is vast" ; "This must be"
 	line "<PLAY_G>!"
 	done
 
 TullyGreetText:
-	text "Hello!"
+	text "Hallo!" ; "Hello!"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " here…"
+	text " hier…" ; "here…"
 
-	para "Good morning! The"
-	line "weather's great!"
+	para "Goedemorgen! Wat" ; "Good morning! The"
+	line "een lekker weer!" ; "weather's great!"
 	done
 
 TullyGreetDayText:
-	text "Hello!"
+	text "Hallo!" ; "Hello!"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " here…"
+	text "hier…" ; " here…"
 
-	para "What a perfect day"
-	line "for fishing!"
+	para "Een perfecte dag" ; "What a perfect day"
+	line "om te vissen!" ; "for fishing!"
 	done
 
 TullyGreetNiteText:
-	text "Hello!"
+	text "Hallo!" ; "Hello!"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " here…"
+	text " hier…" ; " here…"
 
-	para "It's a great night"
-	line "for fishing!"
+	para "Een goede nacht om" ; "It's a great night"
+	line "te vissen!" ; "for fishing!"
 	done
 
 TullyGenericText:
-	text "How's your trip"
-	line "coming along?"
+	text "Hoe gaat het met" ; "How's your trip"
+	line "je reis?" ; "coming along?"
 
-	para "I can't complain"
-	line "about my fishing!"
+	para "Ik kan niet klagen" ; "I can't complain"
+	line "over mijn vissen!" ; "about my fishing!"
 	done

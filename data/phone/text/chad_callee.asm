@@ -1,78 +1,78 @@
 ChadAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "Hi, <PLAY_G>!"
-	line "Good morning!"
+	para "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>!"
+	line "goedemorgen!" ; "Good morning!"
 	done
 
 ChadAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "Hi, <PLAY_G>, good"
-	line "day!"
+	para "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>, good"
+	line "goedemiddag!" ; "day!"
 	done
 
 ChadAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "Hi, <PLAY_G>, good"
-	line "evening!"
+	para "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>, good"
+	line "Goedenavond!" ; "evening!"
 	done
 
 ChadGreetText:
-	text "Hi, <PLAY_G>, good"
-	line "morning!"
+	para "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>, good"
+	line "goedemorgen!" ; "morning!"
 
-	para "It's @"
+	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "How are you?"
+	line "Hoe gaat het?" ; "How are you?"
 	done
 
 ChadGreetDayText:
-	text "Hi, <PLAY_G>, good"
-	line "day!"
+	text "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>, good"
+	line "goedendag!" ; "day!"
 
-	para "It's @"
+	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "How are you?"
+	line "Hoe gaat het?" ; "How are you?"
 	done
 
 ChadGreetNiteText:
-	text "Hi, <PLAY_G>, good"
-	line "evening!"
+	text "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>, good"
+	line "goedenavond!" ; "evening!"
 
-	para "It's @"
+	para "Het is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "How are you?"
+	line "hoe gat het?" ; "How are you?"
 	done
 
 ChadGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "You know PROF.OAK,"
-	line "so of course your"
-	cont "#MON are fine!"
+	para "Je kent PROF.OAK," ; "You know PROF.OAK,"
+	line "dus je #MON" ; "so of course your"
+	cont "zijn vast prima!" ; "#MON are fine!"
 
-	para "My #MON are"
-	line "doing well too."
+	para "Mijn #MON zijn" ; "My #MON are"
+	line "ook in orde." ; "doing well too."
 
-	para "But then, I am"
-	line "trying to become a"
+	para "Maar ja, ik wil" ; "But then, I am"
+	line "dan ook #MON-" ; "trying to become a"
 
-	para "#MON professor,"
-	line "so that shouldn't"
-	cont "be a big surprise."
+	para "professor worden," ; "#MON professor,"
+	line "dus dat is vast" ; "so that shouldn't"
+	cont "geen verrassing." ; "be a big surprise."
 	done
