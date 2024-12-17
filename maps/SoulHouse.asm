@@ -58,7 +58,7 @@ SoulHouseTeacherText:
 
 SoulHouseLassText:
 	text "Ik bezoek #MON-" ; "I came with my mom"
-	line "graven met mijn" ; "mee om #MON-graven" to visit #MON"
+	line "graven met mijn" ; "to visit #MON"
 	cont "moeder…" ; "graves…"
 	done
 

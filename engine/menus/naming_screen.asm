@@ -154,7 +154,7 @@ NamingScreen:
 	ret
 
 .MomNameString:
-	db"NAAM MOEDER?@" ; "MOTHER'S NAME?@"
+	db "NAAM MOEDER?@" ; "MOTHER'S NAME?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX

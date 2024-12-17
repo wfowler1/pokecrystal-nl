@@ -32,6 +32,6 @@ FemalePlayerNameArray:
 	db "KRIS@"
 	db "SASKIA@" ; "AMANDA@"
 	db "JULIA@" ; "JUANA@"
-	db "MILA@" ; "JODI@"
+	db "ELINE@" ; "JODI@"
 	db 2 ; title indent
 	db " NAAM @" ; " NAME @" ; title

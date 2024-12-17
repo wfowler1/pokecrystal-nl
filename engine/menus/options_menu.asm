@@ -228,7 +228,7 @@ Options_BattleScene:
 	ret
 
 .On:  db "AAN@" ; "ON @"
-.Off: db "UIT@" ;."OFF@"
+.Off: db "UIT@" ; "OFF@"
 
 Options_BattleStyle:
 	ld hl, wOptions
