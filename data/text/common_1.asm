@@ -1117,8 +1117,8 @@ _EnemyWithdrewText::
 	prompt
 
 _EnemyUsedOnText::
-	text "<ENEMY> deed"
-	line "@" ; "used @"
+	text "<ENEMY>"
+	line "deed @" ; "used @"
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxItemNameLength
 	text_start
 	cont "op @" ; "on @"
@@ -1246,7 +1246,8 @@ _PutCardInCardFolderText::
 _CardWasListedText::
 	text_ram wStringBuffer2 ; MaxLength MaxPlayerNameLength
 	text "'s KAART is" ; "'s CARD was"
-	line "toegevoegd als nr.@" ; "listed as no.@"
+	line "toegevoegd als" ; "listed as no.@"
+	cont "nr.@"
 	text_decimal wStringBuffer1, 1, 2
 	text "."
 	prompt
