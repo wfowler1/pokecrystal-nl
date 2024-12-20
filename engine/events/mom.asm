@@ -7,7 +7,7 @@ BankOfMom:
 	ld [wJumptableIndex], a
 .loop
 	ld a, [wJumptableIndex]
-	bit 7, a
+	bit JUMPTABLE_EXIT_F, a
 	jr nz, .done
 	call .RunJumptable
 	jr .loop
@@ -278,13 +278,13 @@ BankOfMom:
 
 .AskDST:
 	ld hl, wJumptableIndex
-	set 7, [hl]
+	set JUMPTABLE_EXIT_F, [hl]
 	ret
 
 DSTChecks:
 ; check the time; avoid changing DST if doing so would change the current day
 	ld a, [wDST]
-	bit 7, a
+	bit DST_F, a
 	ldh a, [hHours]
 	jr z, .NotDST
 	and a ; within one hour of 00:00?
@@ -313,14 +313,14 @@ DSTChecks:
 	call .ClearBox
 	bccoord 1, 14
 	ld a, [wDST]
-	bit 7, a
+	bit DST_F, a
 	jr z, .SetDST
 	ld hl, .TimesetAskNotDSTText
 	call PrintTextboxTextAt
 	call YesNoBox
 	ret c
 	ld a, [wDST]
-	res 7, a
+	res DST_F, a
 	ld [wDST], a
 	call .SetClockBack
 	call .ClearBox
@@ -335,7 +335,7 @@ DSTChecks:
 	call YesNoBox
 	ret c
 	ld a, [wDST]
-	set 7, a
+	set DST_F, a
 	ld [wDST], a
 	call .SetClockForward
 	call .ClearBox

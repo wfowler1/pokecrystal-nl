@@ -206,7 +206,7 @@ WhitneyShouldntBeSoSeriousText:
 
 	para "Je moet niet zo" ; "You shouldn't be"
 	line "serieus zijn! Jij…" ; "so serious! You…"
-	cont "jij  kleuter, jij!" ; "you child, you!"
+	cont "jij kleuter, jij!" ; "you child, you!"
 	done
 
 WhitneyYouMeanieText:
