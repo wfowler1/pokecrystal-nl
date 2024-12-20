@@ -59,8 +59,8 @@ TiffanyGenericText:
 	line "je #MON?" ; "doing well?"
 
 	para "Hopelijk breng je" ; "I hope you take"
-	line "ze iedere dag naar" ; "them to a #MON"
-	cont "een #MONCENTRUM." ; "CENTER every day."
+	line "ze elke dag naar 't" ; "them to a #MON"
+	cont "#MONCENTRUM." ; "CENTER every day."
 
 	para "Drijf ze niet tot" ; "Don't push them"
 	line "het uiterste." ; "too hard."
