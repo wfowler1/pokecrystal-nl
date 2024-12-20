@@ -933,7 +933,7 @@ ElmDirectionsText3:
 
 GotElmsNumberText:
 	text "<PLAYER> kreeg ELM's" ; "<PLAYER> got ELM's"
-	line "telefoonnummer."
+	line "telefoonnummer." ; "phone number."
 	done
 
 ElmDescribesMrPokemonText:

@@ -205,7 +205,7 @@ LavRadioTower1FDirectoryText:
 	line "4V PRODUCTIE" ; "4F PRODUCTION"
 
 	para "5V KANTOOR VAN" ; "5F DIRECTOR'S"
-	line "DIRECTEUR" ; "   OFFICE"
+	line "   DIRECTEUR" ; "   OFFICE"
 	done
 
 LavRadioTower1FPokeFluteSignText:

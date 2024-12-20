@@ -890,7 +890,7 @@ DecoSideMenuHeader:
 	db 3 ; items
 	db "RECHTERZIJDE@" ; "RIGHT SIDE@"
 	db "LINKERZIJDE@" ; "LEFT SIDE@"
-	db "ANNULEER@" ; "CANCEL@"
+	db "SLUITEN@" ; "CANCEL@"
 
 PutAwayTheDecoText:
 	text_far _PutAwayTheDecoText
