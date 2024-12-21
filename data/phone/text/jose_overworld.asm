@@ -1,5 +1,5 @@
 JoseAskNumber1Text:
-	text "Als mijn @" ; "If my @"
+	text "Als m'n @" ; "If my @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "iets moois" ; "sees anything"

@@ -53,8 +53,8 @@ JoseBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text " is" ; "'s"
-	line "waar ik nu ben." ; "where I'm at."
+	text "" ; "'s"
+	line "is waar ik nu ben." ; "where I'm at."
 
 	para "Houd een oogje op" ; "Keep an eye out"
 	line "me, OK?" ; "for me, OK?"

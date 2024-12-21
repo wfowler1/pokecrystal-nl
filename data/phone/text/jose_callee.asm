@@ -59,9 +59,9 @@ JoseGenericText:
 	line "er wat van te" ; "still cooking?"
 	cont "brouwen?"
 
-	para "Mijn @" ; "My @"
+	para "M'n @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " heeft" ; " has"
+	text " had" ; " has"
 	line "te veel energie." ; "too much energy."
 
 	para "Als ie eenmaal weg" ; "Once it takes off,"
