@@ -110,61 +110,61 @@ Movement_TrainerHouseTurnBack:
 	step_end
 
 TrainerHouseB1FIntroText:
-	text "Hi. Welcome to our"
-	line "TRAINING HALL."
+	text "Hoi. Welkom in" ; "Hi. Welcome to our"
+	line "onze TRAININGHAL." ; "TRAINING HALL."
 
-	para "You may battle a"
-	line "trainer once per"
-	cont "day."
+	para "Hier mag je eens" ; "You may battle a"
+	line "per dag met een" ; "trainer once per"
+	cont "trainer vechten." ; "day."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text " is your"
-	line "opponent today."
+	text " is jouw tegen-" ; " is your"
+	line "stander vandaag." ; "opponent today."
 	done
 
 TrainerHouseB1FAskWantToBattleText:
-	text "Would you like to"
-	line "battle?"
+	text "Heb je zin om te" ; "Would you like to"
+	line "vechten?" ; "battle?"
 	done
 
 TrainerHouseB1FGoRightInText:
-	text "Please go right"
-	line "through."
+	text "Ga alsjeblieft" ; "Please go right"
+	line "verder." ; "through."
 
-	para "You may begin"
-	line "right away."
+	para "Je mag direct" ; "You may begin"
+	line "beginnen." ; "right away."
 	done
 
 TrainerHouseB1FPleaseComeAgainText:
-	text "Sorry. Only those"
-	line "trainers who will"
+	text "Sorry. Alleen" ; "Sorry. Only those"
+	line "trainers die gaan" ; "trainers who will"
 
-	para "be battling are"
-	line "allowed to go in."
+	para "vechten, mogen" ; "be battling are"
+	line "naar binnen." ; "allowed to go in."
 	done
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "I'm sorry."
-	line "This would be your"
+	text "Het spijt me. Dit" ; "I'm sorry."
+	line "zou je tweede keer" ; "This would be your"
 
-	para "second time today."
-	line "You're permitted"
+	para "zijn vandaag. Je" ; "second time today."
+	line "mag maar eens" ; "You're permitted"
 
-	para "to enter just once"
-	line "a day."
+	para "per dag naar" ; "to enter just once"
+	line "binnen." ; "a day."
 	done
 
 TrainerHouseB1FCalBeatenText:
-	text "I lost…"
-	line "Darn…"
+	text "Verloren…" ; "I lost…"
+	line "Verdorie…" ; "Darn…"
 	done
 
 TrainerHouseB1FCalBeforeText:
-	text "I traveled out"
-	line "here just so I"
-	cont "could battle you."
+	text "Speciaal voor een" ; "I traveled out"
+	line "gevecht met jou" ; "here just so I"
+	cont "ben ik nu hier." ; "could battle you."
 	done
 
 TrainerHouseB1F_MapEvents:
