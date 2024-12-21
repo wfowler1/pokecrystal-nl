@@ -1,63 +1,66 @@
 ErinAskNumber1Text:
-	text "It really made me"
-	line "angry to lose."
+	text "Ik werd echt boos" ; "It really made me"
+	line "toen ik verloor." ; "angry to lose."
 
-	para "I'll have to train"
-	line "much harder…"
+	para "Ik moet veel meer" ; "I'll have to train"
+	line "trainen…" ; "much harder…"
 
-	para "Here's my number."
-	line "I'm ERIN--don't"
+	para "Hier heb je mijn" ; "Here's my number."
+	line "nummer. Ik ben" ; "I'm ERIN--don't"
 
-	para "forget! Want to"
-	line "battle me again?"
+	para "ERIN--vergeet me" ; "forget! Want to"
+	line "niet! Wil je weer" ; "battle me again?"
+	cont "vechten?"
 	done
 
 ErinAskNumber2Text:
-	text "I want to battle"
-	line "with you again."
+	text "Ik wil weer met je" ; "I want to battle"
+	line "vechten." ; "with you again."
 
-	para "Do you want to"
-	line "exchange numbers?"
+	para "Wil je nummers" ; "Do you want to"
+	line "uitwisselen?" ; "exchange numbers?"
 	done
 
 ErinNumberAcceptedText:
-	text "I'll remember to"
-	line "call when I want"
-	cont "to battle again!"
+	text "Ik zal je zeker" ; "I'll remember to"
+	line "bellen als ik wil" ; "call when I want"
+	cont "vechten!" ; "to battle again!"
 	done
 
 ErinNumberDeclinedText:
-	text "Oh… I'm sad…"
-	line "If you do want to"
+	text "Oh… Wat droevig…" ; "Oh… I'm sad…"
+	line "Als je wil vechten" ; "If you do want to"
 
-	para "battle, come see"
-	line "ERIN--that's me!"
+	para "moet je naar ERIN." ; "battle, come see"
+	line "komen--dat ben ik!" ; "ERIN--that's me!"
 	done
 
 ErinPhoneFullText:
-	text "Oh no. Your phone"
-	line "is all filled up."
+	text "Oh, nee. Je" ; "Oh no. Your phone"
+	line "telefoon zit vol." ; "is all filled up."
 	done
 
 ErinRematchText:
-	text "Yay! I waited!"
-	line "Let's start now!"
+	text "Yay! Ik wachtte!" ; "Yay! I waited!"
+	line "Laten we beginnen!" ; "Let's start now!"
 	done
 
 ErinPackFullText:
-	text "That's too bad!"
-	line "You have no room…"
+	text "Wat jammer! Je" ; "That's too bad!"
+	line "hebt geen plek…" ; "You have no room…"
 
-	para "I'll give it to"
-	line "you another time."
+	para "Ik geef het je" ; "I'll give it to"
+	line "een andere keer." ; "you another time."
 	done
 
 ErinRematchGiftText:
-	text "Aww… I lost again!"
+	text "Aww… Weer van je" ; "Aww… I lost again!"
+	line "verloren!"
 
-	para "I wonder how many"
-	line "times that is…"
+	para "De hoeveelste keer" ; "I wonder how many"
+	line "zou dat zijn…" ; "times that is…"
 
-	para "Thanks for coming!"
-	line "Here's a present!"
+	para "Dank voor het" ; "Thanks for coming!"
+	line "komen! Hier heb je" ; "Here's a present!"
+	cont "een cadeautje!"
 	done
