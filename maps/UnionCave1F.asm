@@ -85,116 +85,116 @@ UnionCave1FUnusedSign: ; unreferenced
 	jumptext UnionCave1FUnusedSignText
 
 HikerRussellSeenText:
-	text "You're headed to"
-	line "AZALEA, are you?"
+	text "Ben je onderweg" ; "You're headed to"
+	line "naar AZALEA?" ; "AZALEA, are you?"
 
-	para "Let my #MON see"
-	line "if you are good"
-	cont "enough to battle."
+	para "Met mijn #MON" ; "Let my #MON see"
+	line "test ik of je" ; "if you are good"
+	cont "goed genoeg bent." ; "enough to battle."
 	done
 
 HikerRussellBeatenText:
-	text "Oh, oh, oh!"
+	text "Oh, oh, oh!" ; "Oh, oh, oh!"
 	done
 
 HikerRussellAfterBattleText:
-	text "All right, then!"
-	line "I've decided."
+	text "Oké, dan! Ik" ; "All right, then!"
+	line "heb besloten." ; "I've decided."
 
-	para "I'm not leaving"
-	line "until my #MON"
-	cont "get tougher!"
+	para "Ik blijf hier" ; "I'm not leaving"
+	line "tot mijn #MON" ; "until my #MON"
+	cont "sterker zijn!" ; "get tougher!"
 	done
 
 PokemaniacLarrySeenText:
-	text "I roam far and"
-	line "wide in search of"
-	cont "#MON."
+	text "Ik zoek over de" ; "I roam far and"
+	line "hele wereld naar" ; "wide in search of"
+	cont "#MON." ; "#MON."
 
-	para "Are you looking"
-	line "for #MON too?"
+	para "Ben jij ook naar" ; "Are you looking"
+	line "#MON op zoek?" ; "for #MON too?"
 
-	para "Then you're my"
-	line "collecting rival!"
+	para "Dan ben je mijn" ; "Then you're my"
+	line "verzamelrivaal!" ; "collecting rival!"
 	done
 
 PokemaniacLarryBeatenText:
-	text "Ugh. My poor #-"
-	line "MON…"
+	text "Ugh. Mijn arme" ; "Ugh. My poor #-"
+	line "MON…" ; "MON…"
 	done
 
 PokemaniacLarryAfterBattleText:
-	text "Every Friday, you"
-	line "can hear #MON"
+	text "Elke vrijdag hoor" ; "Every Friday, you"
+	line "je het gebrul van" ; "can hear #MON"
 
-	para "roars from deep"
-	line "inside the cave."
+	para "een #MON, diep" ; "roars from deep"
+	line "vanuit de grot." ; "inside the cave."
 	done
 
 HikerDanielSeenText:
-	text "Whoa! What a"
-	line "surprise!"
+	text "Whoa! Wat een" ; "Whoa! What a"
+	line "verrassing!" ; "surprise!"
 
-	para "I didn't expect to"
-	line "see anyone here!"
+	para "Ik had hier" ; "I didn't expect to"
+	line "niemand verwacht!" ; "see anyone here!"
 	done
 
 HikerDanielBeatenText:
-	text "Whoa! I'm beaten"
-	line "big time!"
+	text "Whoa! Ik ben" ; "Whoa! I'm beaten"
+	line "dik verslagen!" ; "big time!"
 	done
 
 HikerDanielAfterBattleText:
-	text "I was conned into"
-	line "buying a SLOWPOKE-"
-	cont "TAIL."
+	text "Er werd mij een" ; "I was conned into"
+	line "SLOWPOKESTAART" ; "buying a SLOWPOKE-"
+	cont "aangesmeerd." ; "TAIL."
 
-	para "I feel sorry for"
-	line "the poor #MON."
+	para "Echt zielig voor" ; "I feel sorry for"
+	line "die arme #MON…" ; "the poor #MON."
 	done
 
 FirebreatherBillSeenText:
-	text "ZUBAT's SUPERSONIC"
-	line "keeps confusing"
-	cont "my #MON."
+	text "ZUBAT's aanvallen" ; "ZUBAT's SUPERSONIC"
+	line "verwarren telkens" ; "keeps confusing"
+	cont "mijn #MON." ; "my #MON."
 
-	para "I'm seriously"
-	line "upset about that!"
+	para "Het irriteert me" ; "I'm seriously"
+	line "mateloos!" ; "upset about that!"
 	done
 
 FirebreatherBillBeatenText:
-	text "I flamed out!"
+	text "Ik ben uitgeblust!" ; "I flamed out!"
 	done
 
 FirebreatherBillAfterBattleText:
-	text "On weekends, you"
-	line "can hear strange"
+	text "In het weekend" ; "On weekends, you"
+	line "hoor je diep in" ; "can hear strange"
 
-	para "roars from deep in"
-	line "the cave."
+	para "de grot een" ; "roars from deep in"
+	line "vreemd gebrul." ; "the cave."
 	done
 
 FirebreatherRaySeenText:
-	text "If it's light, a"
-	line "cave isn't scary."
+	text "Met licht is een" ; "If it's light, a"
+	line "grot niet eng." ; "cave isn't scary."
 
-	para "If you're strong,"
-	line "#MON aren't"
-	cont "scary."
+	para "Als je sterk bent," ; "If you're strong,"
+	line "zijn #MON niet" ; "#MON aren't"
+	cont "eng." ; "scary."
 	done
 
 FirebreatherRayBeatenText:
-	text "FLASH!"
+	text "FLITS!" ; "FLASH!"
 	done
 
 FirebreatherRayAfterBattleText:
-	text "It's my #MON's"
-	line "fire that lights"
-	cont "up this cave."
+	text "Het vuur van mijn" ; "It's my #MON's"
+	line "#MON verlicht" ; "fire that lights"
+	cont "deze grot." ; "up this cave."
 	done
 
 UnionCave1FUnusedSignText:
-	text "UNION CAVE"
+	text "EENHEIDSTUNNEL" ; "UNION CAVE"
 	done
 
 UnionCave1F_MapEvents:

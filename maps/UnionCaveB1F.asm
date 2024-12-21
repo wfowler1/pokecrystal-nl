@@ -66,88 +66,88 @@ UnionCaveB1FBoulder:
 	jumpstd StrengthBoulderScript
 
 HikerPhillipSeenText:
-	text "It's been a while"
-	line "since I last saw"
-	cont "another person."
+	text "Het is even gele-" ; "It's been a while"
+	line "den dat ik voor 't" ; "since I last saw"
+	cont "laatst iemand zag." ; "another person."
 
-	para "Don't be shy."
-	line "Let's battle!"
+	para "Niet zo verlegen." ; "Don't be shy."
+	line "Laten we vechten!" ; "Let's battle!"
 	done
 
 HikerPhillipBeatenText:
-	text "Uurggh…"
+	text "Uurggh…" ; "Uurggh…"
 	done
 
 HikerPhillipAfterBattleText:
-	text "I've been lost for"
-	line "a long time…"
+	text "Ik ben al zo" ; "I've been lost for"
+	line "lang verdwaald…" ; "a long time…"
 
-	para "I don't mind it"
-	line "here, but I am"
-	cont "soooo hungry!"
+	para "Niet zo erg hoor," ; "I don't mind it"
+	line "maar ik heb zooo-" ; "here, but I am"
+	cont "veel honger!" ; "soooo hungry!"
 	done
 
 HikerLeonardSeenText:
-	text "What do you know!"
-	line "A visitor!"
+	text "Nou ja, zeg!" ; "What do you know!"
+	line "Een bezoeker!" ; "A visitor!"
 	done
 
 HikerLeonardBeatenText:
-	text "Wahahah! You're a"
-	line "feisty one!"
+	text "Wahahah! Jij bent" ; "Wahahah! You're a"
+	line "een pittige!" ; "feisty one!"
 	done
 
 HikerLeonardAfterBattleText:
-	text "I live down here."
+	text "Ja, ik woon hier." ; "I live down here."
 
-	para "You can, too, if"
-	line "you'd like."
+	para "Als je wil, kan je" ; "You can, too, if"
+	line "hier ook wonen." ; "you'd like."
 
-	para "There's plenty of"
-	line "room, you see."
+	para "Er is genoeg" ; "There's plenty of"
+	line "ruimte, zie je?" ; "room, you see."
 	done
 
 PokemaniacAndrewSeenText:
-	text "Who's there?"
+	text "Wie is daar?" ; "Who's there?"
 
-	para "Leave me and my"
-	line "#MON alone!"
+	para "Laat mij en mijn" ; "Leave me and my"
+	line "#MON met rust!" ; "#MON alone!"
 	done
 
 PokemaniacAndrewBeatenText:
-	text "Go…"
-	line "Go away!"
+	text "Ga…" ; "Go…"
+	line "Ga weg!" ; "Go away!"
 	done
 
 PokemaniacAndrewAfterBattleText:
-	text "Just me and my"
-	line "#MON. I'm de-"
-	cont "lirious with joy."
+	text "Alleen ik en mijn" ; "Just me and my"
+	line "#MON. Ik ben" ; "#MON. I'm de-"
+	cont "dol van vreugde." ; "lirious with joy."
 	done
 
 PokemaniacCalvinSeenText:
-	text "I came all the way"
-	line "here to conduct my"
-	cont "#MON research."
+	text "Ik ben helemaal" ; "I came all the way"
+	line "hier voor mijn" ; "here to conduct my"
+	cont "#MON-onderzoek." ; "#MON research."
 
-	para "Let me demonstrate"
-	line "my findings in a"
-	cont "real battle!"
+	para "In een echt ge-" ; "Let me demonstrate"
+	line "vecht zal ik je" ; "my findings in a"
+	cont "leren wat ik weet!" ; "real battle!"
 	done
 
 PokemaniacCalvinBeatenText:
-	text "You demonstrated"
-	line "on me!"
+	text "Je hebt mij een" ; "You demonstrated"
+	line "lesje geleerd!" ; "on me!"
 	done
 
 PokemaniacCalvinAfterBattleText:
-	text "I should compile"
-	line "and announce my"
-	cont "study findings."
+	text "Zal ik mijn be-" ; "I should compile"
+	line "vindingen wereld-" ; "and announce my"
+	cont "kundig maken?" ; "study findings."
 
-	para "I might even be-"
-	line "come famous like"
-	cont "PROF.ELM."
+	para "Misschien word ik" ; "I might even be-"
+	line "wel net zo beroemd" ; "come famous like"
+	cont "als PROF.ELM." ; "PROF.ELM."
 	done
 
 UnionCaveB1F_MapEvents:
