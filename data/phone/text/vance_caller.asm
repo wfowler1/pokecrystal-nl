@@ -1,64 +1,64 @@
 VanceMonHasBecomeTougherText:
-	text "My @"
+	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "become tougher."
+	text " is" ; "'s"
+	line "steeds sterker." ; "become tougher."
 
-	para "We've achieved"
-	line "liftoff!"
+	para "Klaar om op te" ; "We've achieved"
+	line "stijgen!" ; "liftoff!"
 	done
 
 VanceDefeatedMonText:
-	text "We can easily beat"
+	text "We winnen zo van" ; "We can easily beat"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "…Huh? You too?"
-	line "Isn't that great?"
+	para "…Huh? Jij ook?" ; "…Huh? You too?"
+	line "Goed nieuws, toch?" ; "Isn't that great?"
 	done
 
 VanceLostAMonText:
-	text "But get this, a"
-	line "wild @"
+	text "Moet je horen, een" ; "But get this, a"
+	line "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	para "just barely eluded"
-	line "us."
+	para "ontglipte ons echt" ; "just barely eluded"
+	line "net." ; "us."
 
-	para "I wanted to FLY"
-	line "after it…"
+	para "Ik wilde daarna" ; "I wanted to FLY"
+	line "VLIEGEN…" ; "after it…"
 	done
 
 VanceBattleRematchText:
-	text "Right now, I'm on"
+	text "Ik ben nu op" ; "Right now, I'm on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "You know, where I"
-	line "first met you?"
+	para "Weet je nog, waar" ; "You know, where I"
+	line "ik je ontmoette?" ; "first met you?"
 
-	para "Want to battle?"
-	line "I'll wait here."
+	para "Wil je vechten?" ; "Want to battle?"
+	line "Ik wacht hier wel." ; "I'll wait here."
 	done
 
 VanceHangUpText:
-	text "OK, bye for now!"
+	text "OK, doei voor nu!" ; "OK, bye for now!"
 	done
 
 VanceLookingForwardText:
-	text "I'll be looking"
-	line "forward to our"
-	cont "next battle!"
+	text "Ik kijk uit naar" ; "I'll be looking"
+	line "ons volgende" ; "forward to our"
+	cont "gevecht!" ; "next battle!"
 	done
 
 VanceHurryHurryText:
 	text "Oh, <PLAY_G>!"
-	line "Hurry, hurry!"
+	line "Maak haast!" ; "Hurry, hurry!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
-	line "FLY over now!"
+	line "VLIEG hierheen!" ; "FLY over now!"
 	done

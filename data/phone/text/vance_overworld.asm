@@ -1,73 +1,75 @@
 VanceAskNumber1Text:
-	text "You know, you are"
-	line "really strong."
+	text "Weet je, jij bent" ; "You know, you are"
+	line "echt sterk." ; "really strong."
 
-	para "But I don't want"
-	line "to just slink off…"
+	para "Maar ik wil niet" ; "But I don't want"
+	line "zomaar weggaan…" ; "to just slink off…"
 
-	para "I know! Could I"
-	line "get your number?"
+	para "Ik weet het! Mag" ; "I know! Could I"
+	line "ik je nummer?" ; "get your number?"
 
-	para "Let's meet up for"
-	line "more battles!"
+	para "Laten we afspreken" ; "Let's meet up for"
+	line "om te vechten!" ; "more battles!"
 	done
 
 VanceAskNumber2Text:
-	text "I want to battle"
-	line "tough trainers as"
-	cont "often as I can!"
+	text "Ik wil zo vaak" ; "I want to battle"
+	line "als maar kan tegen" ; "tough trainers as"
+	cont "sterke trainers" ; "often as I can!"
+	cont "vechten!"
 
-	para "Could I get your"
-	line "number?"
+	para "Mag ik jouw nummer" ; "Could I get your"
+	line "hebben?" ; "number?"
 
-	para "Let's meet up for"
-	line "more battles!"
+	para "Laten we afspreken" ; "Let's meet up for"
+	line "om te vechten!" ; "more battles!"
 	done
 
 VanceNumberAcceptedText:
-	text "Don't forget to"
-	line "come see me when I"
-	cont "challenge you!"
+	text "Vergeet niet om me" ; "Don't forget to"
+	line "op te zoeken als" ; "come see me when I"
+	cont "ik je uitdaag!" ; "challenge you!"
 	done
 
 VanceNumberDeclinedText:
-	text "A bird-user friend"
-	line "isn't a bad thing"
-	cont "to have, I think…"
+	text "Een vriend met" ; "A bird-user friend"
+	line "vogels is goed om" ; "isn't a bad thing"
+	cont "te hebben, toch…" ; "to have, I think…"
 
-	para "Won't you"
-	line "reconsider?"
+	para "Kun je het anders" ; "Won't you"
+	line "heroverwegen?" ; "reconsider?"
 	done
 
 VancePhoneFullText:
-	text "Your phone's out"
-	line "of memory. Delete"
-	cont "a number for me!"
+	text "Je telefoon heeft" ; "Your phone's out"
+	line "geen geheugen. Wis" ; "of memory. Delete"
+	cont "'n nummer voor me!" ; "a number for me!"
 	done
 
 VanceRematchText:
-	text "Am I happy to see"
-	line "you! I won't lose!"
+	text "Wat ben ik blij je" ; "Am I happy to see"
+	line "te zien! Ik ga" ; "you! I won't lose!"
+	cont "niet verliezen!"
 	done
 
 VancePackFullText:
-	text "Oh, too bad. You"
-	line "don't have room."
+	text "Oh, wat jammer. Je" ; "Oh, too bad. You"
+	line "hebt geen plek." ; "don't have room."
 
-	para "I'll give it to"
-	line "you next time!"
+	para "Ik geef het je" ; "I'll give it to"
+	line "volgende keer wel!" ; "you next time!"
 	done
 
 VanceRematchGiftText:
-	text "You are really,"
-	line "really strong!"
+	text "Je bent heel, heel" ; "You are really,"
+	line "erg sterk!" ; "really strong!"
 
-	para "Thanks for taking"
-	line "me on so often--I"
+	para "Bedankt dat je zo" ; "Thanks for taking"
+	line "vaak wil vechten--" ; "me on so often--I"
 
-	para "learned a whole"
-	line "lot from you."
+	para "ik leer heel veel" ; "learned a whole"
+	line "van jou." ; "lot from you."
 
-	para "I know! This will"
-	line "do as my thanks!"
+	para "Ideetje! Hier heb" ; "I know! This will"
+	line "je een bedankje!" ; "do as my thanks!"
 	done
