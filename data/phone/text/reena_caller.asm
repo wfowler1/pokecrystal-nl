@@ -18,9 +18,9 @@ ReenaMonsIsAPerfectMatchText:
 
 ReenaDefeatedMonText:
 	text "Of ik ooit een" ; "Have I ever faced"
-	line "wilde @" ; "a wild @"
+	line " @" ; "a wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "zag?" ; "?"
+	text " zag?" ; "?"
 
 	para "Wat een vraag!" ; "You need to ask?"
 

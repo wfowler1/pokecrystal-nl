@@ -25,7 +25,8 @@ ReenaNumberAcceptedText:
 	text "Wees niet te trots" ; "Don't be too proud"
 	line "omdat je won!" ; "about beating me!"
 
-	para "Het was een foutje!" ; "It was a fluke!"
+	para "Een foutje, niks" ; "It was a fluke!"
+	cont "meer!"
 	done
 
 ReenaNumberDeclinedText:
