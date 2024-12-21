@@ -120,8 +120,8 @@ TrainerHouseB1FIntroText:
 
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text " is je tegen-" ; " is your"
-	line "stander vandaag." ; "opponent today."
+	text " is je" ; " is your"
+	line "tegenstander." ; "opponent today."
 	done
 
 TrainerHouseB1FAskWantToBattleText:
