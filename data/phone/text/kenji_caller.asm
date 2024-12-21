@@ -1,63 +1,63 @@
 KenjiHangUpText:
-	text "Anyway, we'll chat"
-	line "again!"
+	text "Hoe dan ook, we" ; "Anyway, we'll chat"
+	line "praten snel weer!" ; "again!"
 	done
 
 KenjiRemainDedicatedText:
-	text "Are you still on"
-	line "your journey?"
+	text "Ben je nog steeds" ; "Are you still on"
+	line "op reis?" ; "your journey?"
 
-	para "I remain dedicated"
-	line "to my training."
+	para "Ik blijf gericht" ; "I remain dedicated"
+	line "op mijn training." ; "to my training."
 
 	para "Oooooaaarrrgh!"
 	done
 
 KenjiCallMeBackAnotherTimeText:
-	text "I'm in training"
-	line "now. I apologize,"
+	text "Sorry, ik ben nu" ; "I'm in training"
+	line "aan het trainen." ; "now. I apologize,"
 
-	para "but call me back"
-	line "another time."
+	para "Kun je een andere" ; "but call me back"
+	line "keer bellen?" ; "another time."
 
 	para "Oooooaaarrrgh!"
 	done
 
 KenjiIllHaveTimeToChatTomorrowText:
-	text "I apologize, but I"
-	line "don't have time to"
+	text "Sorry, maar ik kan" ; "I apologize, but I"
+	line "niet praten als ik" ; "don't have time to"
 
-	para "chat while I am in"
-	line "training!"
+	para "aan het trainen" ; "chat while I am in"
+	line "ben!" ; "training!"
 
-	para "I'll have time to"
-	line "chat tomorrow!"
+	para "Ik heb morgen tijd" ; "I'll have time to"
+	line "om te praten!" ; "chat tomorrow!"
 
 	para "Yiiihah!"
 	done
 
 KenjiHangUpMorningText:
-	text "I plan to take a"
-	line "lunch break, so"
+	text "Ik ben van plan" ; "I plan to take a"
+	line "straks te lunchen." ; "lunch break, so"
 
-	para "come see me then!"
+	para "kom anders dan!" ; "come see me then!"
 	line "Ayiiiyah!"
 	done
 
 KenjiTakingABreakText:
-	text "I'm taking a break"
-	line "on ROUTE 45!"
+	text "Ik neem pauze op" ; "I'm taking a break"
+	line "ROUTE 45!" ; "on ROUTE 45!"
 
-	para "Why not drop by if"
-	line "you are free?"
+	para "Kom anders langs" ; "Why not drop by if"
+	line "als je tijd hebt?" ; "you are free?"
 	done
 
 KenjiHangUpNightText:
-	text "I rested up over"
-	line "my lunch break."
+	text "Ik heb uitgerust" ; "I rested up over"
+	line "tijdens de lunch." ; "my lunch break."
 
-	para "Now it's time to"
-	line "resume training!"
+	para "Nu moet ik weer" ; "Now it's time to"
+	line "gaan trainen!" ; "resume training!"
 
 	para "Oooryaah!"
 	done

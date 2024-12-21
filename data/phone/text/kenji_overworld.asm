@@ -1,67 +1,68 @@
 KenjiAskNumber1Text:
-	text "Our battle was"
-	line "remarkable!"
+	text "Ons gevecht was" ; "Our battle was"
+	line "bijzonder!" ; "remarkable!"
 
-	para "I wish for some-"
-	line "thing to remember"
-	cont "you by!"
+	para "Ik wil graag iets" ; "I wish for some-"
+	line "om je mee te ont-" ; "thing to remember"
+	cont "houden!" ; "you by!"
 
-	para "Perhaps your phone"
-	line "number will do?"
+	para "Misschien kan dat" ; "Perhaps your phone"
+	line "met je nummer?" ; "number will do?"
 
-	para "My training makes"
-	line "it impossible to"
-	cont "chat much, but…"
+	para "Door mijn training" ; "My training makes"
+	line "kan ik maar weinig" ; "it impossible to"
+	cont "praten, maar…" ; "chat much, but…"
 	done
 
 KenjiAskNumber2Text:
-	text "My training makes"
-	line "chatting tough,"
+	text "M'n training maakt" ; "My training makes"
+	line "praten lastig, wil" ; "chatting tough,"
 
-	para "but will you take"
-	line "down my number?"
+	para "je desondanks mijn" ; "but will you take"
+	line "telefoonnummer?" ; "down my number?"
 	done
 
 KenjiNumberAcceptedText:
-	text "I must train"
-	line "harder to become"
-	cont "the mightiest!"
+	text "Ik moet harder" ; "I must train"
+	line "trainen om de" ; "harder to become"
+	cont "beste te worden!" ; "the mightiest!"
 	done
 
 KenjiNumberDeclinedText:
-	text "If you decide you"
-	line "want my number,"
-	cont "come see me."
+	text "Als je later mijn" ; "If you decide you"
+	line "nummer wil, kom" ; "want my number,"
+	cont "dan bij me langs." ; "come see me."
 	done
 
 KenjiPhoneFullText:
-	text "Your phone appears"
-	line "to be full."
+	text "Je telefoon lijkt" ; "Your phone appears"
+	line " vol te zitten." ; "to be full."
 
-	para "Come back later!"
+	para "Kom later terug!" ; "Come back later!"
 	done
 
 KenjiGiftText:
-	text "I wish to thank"
-	line "you, <PLAYER>!"
+	text "Ik wil mijn dank" ; "I wish to thank"
+	line "tonen, <PLAYER>!" ; "you, <PLAYER>!"
 
-	para "I've been training"
-	line "all alone…"
+	para "Ik train helemaal" ; "I've been training"
+	line "alleen…" ; "all alone…"
 
-	para "I was happy that"
-	line "you cared to call…"
+	para "Ik was blij dat je" ; "I was happy that"
+	line "de moeite nam" ; "you cared to call…"
+	cont "om te bellen…"
 
-	para "I want you to have"
-	line "this!"
+	para "Ik wil je graag" ; "I want you to have"
+	line "dit geven!" ; "this!"
 	done
 
 KenjiPackFullText:
-	text "Your strength will"
-	line "not let you carry"
+	text "Met jouw kracht" ; "Your strength will"
+	line "kun je geen andere" ; "not let you carry"
 
-	para "another thing!"
-	line "I will hold this"
+	para "dingen dragen! Ik" ; "another thing!"
+	line "bewaar dit totdat" ; "I will hold this"
 
-	para "till you lighten"
-	line "your PACK!"
+	para "je jouw TAS hebt" ; "till you lighten"
+	line "geleegd!!" ; "your PACK!"
 	done
