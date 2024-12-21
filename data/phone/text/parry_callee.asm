@@ -1,72 +1,72 @@
 ParryAnswerPhoneText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Yep, yep!" ; "Yup, yup!"
+	line "Het is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
-	para "Hah, and here's"
+	para "Hah, en hier is" ; "Hah, and here's"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneDayText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Yep, yep!" ; "Yup, yup!"
+	line "Het is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
-
-	para "Hah, and here's"
+	
+	para "Hah, en hier is" ; "Hah, and here's"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneNiteText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Yep, yep!" ; "Yup, yup!"
+	line "Het is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
-
-	para "Hah, and here's"
+	
+	para "Hah, en hier is" ; "Hah, and here's"
 	line "<PLAY_G>!"
 	done
 
 ParryGreetText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, met" ; "<PLAY_G>, it's"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
-	para "Have you had a"
-	line "proper breakfast?"
+	para "Heb je wel goed" ; "Have you had a"
+	line "ontbeten?" ; "proper breakfast?"
 	done
 
 ParryGreetDayText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, met" ; "<PLAY_G>, it's"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
-	para "Have you had a"
-	line "proper lunch?"
+	para "Heb je een goede" ; "Have you had a"
+	line "lunch gehad?" ; "proper lunch?"
 	done
 
 ParryGreetNiteText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, met" ; "<PLAY_G>, it's"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 
-	para "Have you had a"
-	line "proper dinner?"
+	para "Heb je goed" ; "Have you had a"
+	line "gegeten?" ; "proper dinner?"
 	done
 
 ParryGenericText:
-	text "Are your #MON"
-	line "looking good?"
+	text "Zien je #MON er" ; "Are your #MON"
+	line "goed uit?" ; "looking good?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " and"
-	line "me--we're looking"
+	text " en" ; " and"
+	line "ik--we zien er" ; "me--we're looking"
 
-	para "mighty dandy!"
+	para "echt tiptop uit!" ; "mighty dandy!"
 	line "Hahahah!"
 	done

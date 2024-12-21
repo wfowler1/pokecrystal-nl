@@ -1,69 +1,71 @@
 ParryNothingCanMatchText:
-	text "Nothing can match"
-	line "my @"
+	text "Niks evenaart nu" ; "Nothing can match"
+	line "m'n @" ; "my @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " now."
+	text "nog." ; " now."
 	done
 
 ParryDefeatedMonText:
-	text "Yeah, we KO'd a"
-	line "wild @"
+	text "We versloegen een" ; "Yeah, we KO'd a"
+	line "wilde " ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "That was OK, but I"
-	line "wanted to get it…"
+	para "Leuk hoor, maar ik" ; "That was OK, but I"
+	line "wilde het vangen…" ; "wanted to get it…"
 	done
 
 ParryLostAMonText:
-	text "And yesterday, we"
-	line "spotted a wild"
+	text "Gisteren zagen we" ; "And yesterday, we"
+	line "nog een wilde" ; "spotted a wild"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
-	line "We were debating"
+	line "We twijfelden of" ; "We were debating"
 
-	para "whether to catch"
-	line "it or beat it."
+	para "we die moesten" ; "whether to catch"
+	line "vangen of ver-" ; "it or beat it."
+	cont "slaan."
 
-	para "When along came"
-	line "another guy who"
+	para "En toen kwam een" ; "When along came"
+	line "andere gast die" ; "another guy who"
 
-	para "caught it!"
-	line "How about that!"
+	para "het ving! Het lef" ; "caught it!"
+	line "van die gozer!" ; "How about that!"
 	done
 
 ParryBattleRematchText:
-	text "You're thinking"
-	line "you'd like to"
+	text "Je overweegt om" ; "You're thinking"
+	line "weer met mij te" ; "you'd like to"
 
-	para "battle me. Am I"
-	line "right or what?"
+	para "vechten. Heb ik" ; "battle me. Am I"
+	line "gelijk of niet?" ; "right or what?"
 
-	para "Yep! We'll meet on"
+	para "Yep! Ik zie je op" ; "Yep! We'll meet on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 ParryHangUpText:
-	text "OK, give me a call"
-	line "again!"
+	text "OK, bel me snel" ; "OK, give me a call"
+	line "nog eens!" ; "again!"
 	done
 
 ParryBattleWithMeText:
-	text "You'll battle with"
-	line "me again, right?"
+	text "Je vecht weer met" ; "You'll battle with"
+	line "me, toch?" ; "me again, right?"
 	done
 
 ParryHaventYouGottenToText:
-	text "Haven't you gotten"
-	line "to @"
+	text "Ben je nog niet" ; "Haven't you gotten"
+	line "bij @" ; "to @"
 	text_ram wStringBuffer5 ; MaxLength 14
 	text "?"
 
-	para "Waiting here isn't"
-	line "bad, but I'd sure"
-	cont "like to battle!"
+	para "Ik vind het niet" ; "Waiting here isn't"
+	line "erg om te wachten," ; "bad, but I'd sure"
+	cont "maar heb zin om te" ; "like to battle!"
+	cont "vechten!"
 	done
