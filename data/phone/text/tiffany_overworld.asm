@@ -1,62 +1,63 @@
 TiffanyAskNumber1Text:
-	text "Hi! You like"
-	line "CLEFAIRY too?"
+	text "Hoi! Vind je" ; "Hi! You like"
+	line "CLEFAIRY ook leuk?" ; "CLEFAIRY too?"
 
-	para "They're so very"
-	line "cute, aren't they?"
+	para "Ze zijn onwijs" ; "They're so very"
+	line "schattig, of niet?" ; "cute, aren't they?"
 
-	para "I think we can be"
-	line "good friends!"
+	para "We kunnen vast" ; "I think we can be"
+	line "vrienden worden!" ; "good friends!"
 
-	para "I want to know"
-	line "your phone number!"
+	para "Ik wil je nummer" ; "I want to know"
+	line "graag weten!" ; "your phone number!"
 
-	para "Let's talk about"
-	line "CLEFAIRY!"
+	para "Laten we praten" ; "Let's talk about"
+	line "over CLEFAIRY!" ; "CLEFAIRY!"
 	done
 
 TiffanyAskNumber2Text:
-	text "I want to know"
-	line "your phone number!"
+	text "Ik wil je nummer" ; "I want to know"
+	line "graag weten!" ; "your phone number!"
 
-	para "Let's talk about"
-	line "CLEFAIRY!"
+	para "Laten we praten" ; "Let's talk about"
+	line "over CLEFAIRY!" ; "CLEFAIRY!"
 	done
 
 TiffanyNumberAcceptedText:
-	text "Isn't my CLEFAIRY"
-	line "super-adorable?"
+	text "Is mijn CLEFAIRY" ; "Isn't my CLEFAIRY"
+	line "niet megaschattig?" ; "super-adorable?"
 	done
 
 TiffanyNumberDeclinedText:
-	text "Aww… Oh well."
-	line "Look for me if you"
+	text "Aww… Helaas." ; "Aww… Oh well."
+	line "Zoek me op als je" ; "Look for me if you"
 
-	para "want to talk about"
+	para "wil praten over" ; "want to talk about"
 	line "CLEFAIRY."
 	done
 
 TiffanyPhoneFullText:
-	text "Oh? Your phone"
-	line "registry is full."
+	text "Oh? Je telefoon-" ; "Oh? Your phone"
+	line "lijst is vol." ; "registry is full."
 	done
 
 TiffanyRematchText:
-	text "There you are!"
+	text "Daar ben je!" ; "There you are!"
 
-	para "CLEFAIRY, I want"
-	line "you to try hard!"
+	para "CLEFAIRY, doe je" ; "CLEFAIRY, I want"
+	line "je uiterste best!" ; "you to try hard!"
 	done
 
 TiffanyGiftText:
-	text "You took a long"
-	line "time. See this?"
+	text "Je deed er lang" ; "You took a long"
+	line "over. Zie je dit?" ; "time. See this?"
 
-	para "Isn't it cute?"
-	line "It's a PINK BOW."
+	para "Schattig, of niet?" ; "Isn't it cute?"
+	line "Het is een ZIJDEN" ; "It's a PINK BOW."
+	cont "SJAAL."
 	done
 
 TiffanyPackFullText:
-	text "Uh-oh. Your PACK"
-	line "is crammed full."
+	text "Uh-oh. Je TAS zit" ; "Uh-oh. Your PACK"
+	line "hartstikke vol." ; "is crammed full."
 	done
