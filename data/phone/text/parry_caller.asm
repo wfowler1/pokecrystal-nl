@@ -7,7 +7,7 @@ ParryNothingCanMatchText:
 
 ParryDefeatedMonText:
 	text "We versloegen een" ; "Yeah, we KO'd a"
-	line "wilde " ; "wild @"
+	line "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
@@ -60,7 +60,7 @@ ParryBattleWithMeText:
 
 ParryHaventYouGottenToText:
 	text "Ben je nog niet" ; "Haven't you gotten"
-	line "bij @" ; "to @"
+	line "op @" ; "to @"
 	text_ram wStringBuffer5 ; MaxLength 14
 	text "?"
 
