@@ -1,130 +1,130 @@
 JoseMonsStickHasADeliciousAromaText:
-	text "Hey listen, my"
+	text "He luister, mijn" ; "Hey listen, my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s stick"
+	text "'s stok" ; "'s stick"
 
-	para "has this really"
-	line "delicious aroma."
+	para "heeft echt een" ; "has this really"
+	line "heerlijk aroma." ; "delicious aroma."
 
-	para "That aroma gets my"
-	line "appetite going!"
+	para "Dat aroma krijg" ; "That aroma gets my"
+	line "trek van!" ; "appetite going!"
 	done
 
 JoseDefeatedMonText:
-	text "A while ago, my"
-	line "FARFETCH'D KO'd"
-	cont "this @"
+	text "Mijn FARFETCH'D" ; "A while ago, my"
+	line "versloeg laatst" ; "FARFETCH'D KO'd"
+	cont "een @" ; "this @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "You should have"
-	line "seen FARFETCH'D"
+	para "Je had FARFETCH'D" ; "You should have"
+	line "moeten zien zwiep-" ; "seen FARFETCH'D"
 
-	para "wield that stick."
-	line "Amazing stuff!"
+	para "en met die stok." ; "wield that stick."
+	line "Fenomenaal!" ; "Amazing stuff!"
 	done
 
 JoseLostAMonText:
-	text "I ran into a wild"
+	text "Ik zag een wilde" ; "I ran into a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "…"
 
-	para "I was trying to"
-	line "catch it, but it"
+	para "Ik probeerde het" ; "I was trying to"
+	line "te vangen, maar 't" ; "catch it, but it"
 
-	para "took off faster"
-	line "than I thought it"
+	para "vluchtte sneller" ; "took off faster"
+	line "dan gedacht. Dat" ; "than I thought it"
 
-	para "would. It was a"
-	line "bit disappointing."
+	para "was best wel een" ; "would. It was a"
+	line "teleurstelling." ; "bit disappointing."
 	done
 
 JoseBattleRematchText:
-	text "Want to battle"
-	line "again?"
+	text "Wil je weer eens" ; "Want to battle"
+	line "vechten?" ; "again?"
 
-	para "For some reason,"
-	line "my FARFETCH'D is"
+	para "Mijn FARFETCH'D" ; "For some reason,"
+	line "lijkt er om een" ; "my FARFETCH'D is"
 
-	para "all worked up and"
-	line "raring to go."
+	para "of andere reden" ; "all worked up and"
+	line "zin in te hebben." ; "raring to go."
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "'s"
-	line "where I'm at."
+	text " is" ; "'s"
+	line "waar ik nu ben." ; "where I'm at."
 
-	para "Keep an eye out"
-	line "for me, OK?"
+	para "Houd een oogje op" ; "Keep an eye out"
+	line "me, OK?" ; "for me, OK?"
 	done
 
 JoseHangUpText:
-	text "Be seeing you!"
+	text "Zie je snel!" ; "Be seeing you!"
 	done
 
 JoseFoundItemText:
-	text "My FARFETCH'D had"
-	line "something pretty"
-	cont "in its beak."
+	text "Mijn FARFETCH'D" ; "My FARFETCH'D had"
+	line "heeft iets moois" ; "something pretty"
+	cont "in de bek." ; "in its beak."
 
-	para "Like I promised,"
-	line "you can have it."
+	para "Zoals beloofd mag" ; "Like I promised,"
+	line "jij het hebben." ; "you can have it."
 
-	para "Catch up to me on"
+	para "Zoek naar me op" ; "Catch up to me on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text ","
 
-	para "and I'll let you"
-	line "have it."
+	para "dan mag je het" ; "and I'll let you"
+	line "hebben." ; "have it."
 	done
 
 JoseHaventGottenItemYetText:
-	text "I haven't gotten"
-	line "what I promised"
-	cont "you yet."
+	text "Ik heb nog niet" ; "I haven't gotten"
+	line "wat voor je" ; "what I promised"
+	cont "gevonden." ; "you yet."
 
-	para "I'll call you as"
-	line "soon as I get it,"
+	para "Ik bel je zodra" ; "I'll call you as"
+	line "het gelukt is," ; "soon as I get it,"
 
-	para "so could you wait"
-	line "a little longer?"
+	para "kun je nog iets" ; "so could you wait"
+	line "langer wachten?" ; "a little longer?"
 	done
 
 JoseReminderText:
-	text "<PLAY_G>, could you"
-	line "hurry over?"
+	text "<PLAY_G>, kun je" ; "<PLAY_G>, could you"
+	line "snel komen?" ; "hurry over?"
 
-	para "FARFETCH'D is"
-	line "agitated."
+	para "FARFETCH'D is" ; "FARFETCH'D is"
+	line "geagiteerd." ; "agitated."
 
-	para "If you don't come"
-	line "soon, it might"
+	para "Als je niet snel" ; "If you don't come"
+	line "komt, mept het mij" ; "soon, it might"
 
-	para "smack me with its"
-	line "stick!"
+	para "met zijn stok in" ; "smack me with its"
+	line "het gezicht!" ; "stick!"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
-	para "Please come as"
-	line "soon as you can!"
+	para "Kom alsjeblieft zo" ; "Please come as"
+	line "snel mogelijk!" ; "soon as you can!"
 	done
 
 JoseComePickUpText:
-	text "What's wrong?"
+	text "Wat is er mis?" ; "What's wrong?"
 
-	para "Don't you want"
-	line "this gift?"
+	para "Wil je dit cadeau" ; "Don't you want"
+	line "niet hebben?" ; "this gift?"
 
-	para "Catch up to me on"
+	para "Kom naar me toe op" ; "Catch up to me on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text ","
 
-	para "and I'll let you"
-	line "have it."
+	para "dan mag je het van" ; "and I'll let you"
+	line "mij hebben." ; "have it."
 	done
