@@ -60,5 +60,5 @@ WiltonGenericText:
 	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is" ; " has"
-	line "best wat groter nu." ; "grown quite a bit."
+	line "flink gegroeid." ; "grown quite a bit."
 	done
