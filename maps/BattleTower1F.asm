@@ -736,15 +736,15 @@ Text_RegisterRecordTimedOut_Mobile: ; unreferenced
 Text_AMonLevelExceeds:
 	text "Eén of meer van je" ; "One or more of"
 	line "#MON is een" ; "your #MON's"
-	cont "hoger level dan @" ; "levels exceeds @"
+	cont "hoger dan L@" ; "levels exceeds @"
 	text_decimal wScriptVar, 1, 2
 	text "."
 	done
 
 Text_MayNotEnterABattleRoomUnderL70:
 	text_ram wcd49 ; MaxLength MaxPokemonNameLength
-	text " mag niet" ; " may not"
-	line "een GEVECHTSKAMER" ; "enter a BATTLE"
+	text " mag" ; " may not"
+	line "niet GEVECHTSKAMER" ; "enter a BATTLE"
 	cont "onder L70 in." ; "ROOM under L70."
 
 	para "Deze GEVECHTSKAMER" ; "This BATTLE ROOM"
