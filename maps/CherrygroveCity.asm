@@ -338,8 +338,8 @@ GuideGentIntroText:
 	line "ginnende trainer," ; "trainer, aren't"
 	cont "zeker? Ik zie het!" ; "you? I can tell!"
 
-	para "Niks mis mee!-" ; "That's OK! Every-"
-	line "iedereen is ooit" ; "one is a rookie"
+	para "Niks mis mee!" ; "That's OK! Every-"
+	line "Iedereen is ooit" ; "one is a rookie"
 	cont "een beginner!" ; "at some point!"
 
 	para "Als je wil, kan ik" ; "If you'd like, I"

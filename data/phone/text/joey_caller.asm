@@ -1,5 +1,5 @@
 JoeyMonLookingSharperText:
-	text "mijn @" ; "My @"
+	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "is" ; "'s"
 	line "scherper dan ooit" ; "looking sharper"

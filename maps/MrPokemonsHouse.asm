@@ -243,7 +243,7 @@ MrPokemonsHouse_OakText1:
 	text "OAK: Aha! Dus jij" ; "OAK: Aha! So"
 	line "bent <PLAY_G>!" ; "you're <PLAY_G>!"
 
-	para "Ik ben OAK! Ik-" ; "I'm OAK! A #MON"
+	para "Ik ben OAK! Ik" ; "I'm OAK! A #MON"
 	line "onderzoek #MON!" ; "researcher."
 
 	para "Ik bezocht net" ; "I was just visit-"
@@ -350,20 +350,20 @@ MrPokemonText_Disappointed:
 
 MrPokemonsHouse_ForeignMagazinesText:
 	text "Het zit vol met" ; "It's packed with"
-	line "tijdschriften in." ; "foreign magazines."
+	line "tijdschriften in" ; "foreign magazines."
 
 	para "een vreemde taal." ; "Can't even read"
 	line "Snap er niks van…" ; "their titles…"
 	done
 
 MrPokemonsHouse_BrokenComputerText:
-	text "het is een grote" ; "It's a big com-"
+	text "Het is een grote" ; "It's a big com-"
 	line "computer. Hmm. Hij" ; "puter. Hmm. It's"
 	cont "is stuk." ; "broken."
 	done
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "een stapel met" ; "A whole pile of"
+	text "Een stapel met" ; "A whole pile of"
 	line "vreemde munten!" ; "strange coins!"
 
 	para "Misschien uit een" ; "Maybe they're from"

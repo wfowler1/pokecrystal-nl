@@ -270,7 +270,7 @@ Route31CooltrainerMText:
 
 	para "Als #MON het" ; "If #MON could"
 	line "konden verlichten," ; "light it up, I'd"
-	cont "zou ik verkennen" ; "explore it."
+	cont "zou ik verkennen." ; "explore it."
 	done
 
 BugCatcherWade1SeenText:
@@ -346,14 +346,14 @@ Text_Route31ReadingMail:
 	cont "bedankje!" ; "return too!"
 
 	para "Ik weet al wat!" ; "I know! I want you"
-	line "je mag dit hebben!" ; "to have this!"
+	line "Je mag dit hebben!" ; "to have this!"
 	done
 
 Text_Route31DescribeNightmare:
 	text "TM50 is" ; "TM50 is NIGHTMARE."
 	line "NACHTMERRIE."
 
-	para "het is een brute" ; "It's a wicked move"
+	para "Het is een brute" ; "It's a wicked move"
 	line "aanval die de LP" ; "that steadily cuts"
 
 	para "van een slapende" ; "the HP of a sleep-"

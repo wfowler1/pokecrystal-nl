@@ -211,7 +211,7 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! de" ; "Oh, <PLAYER>…! Our"
+	text "Oh, <PLAYER>…! De" ; "Oh, <PLAYER>…! Our"
 	line "buurman, PROF." ; "neighbor, PROF."
 
 	para "ELM, was naar je" ; "ELM, was looking"
