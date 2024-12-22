@@ -23,7 +23,7 @@ VioletKylesHousePokefanMText:
 	line "in een ruil kreeg" ; "in a trade grows"
 	cont "groeit snel." ; "quickly."
 
-	para "maar als je niet" ; "But if you don't"
+	para "Maar als je niet" ; "But if you don't"
 	line "de juiste badge" ; "have the right GYM"
 
 	para "hebt, luistert hij" ; "BADGE, they may"
