@@ -199,13 +199,13 @@ BlackthornGrampsGrantsEntryText:
 	done
 
 BlackBeltText_WeirdRadio:
-	text "Mn radio is stuk?" ; "My radio's busted?"
+	text "M'n radio is stuk?" ; "My radio's busted?"
 	line "Ik hoor alleen dit" ; "Lately, I only get"
 	cont "vreemde signaal." ; "this weird signal."
 	done
 
 BlackBeltText_VoicesInMyHead:
-	text "Aroo! Stemmen in" ; "Arooo! Voices in"
+	text "Arooo! Stemmen in" ; "Arooo! Voices in"
 	line "mijn hoofd!" ; "my head!"
 
 	para "Huh? Ik luister" ; "Huh? I'm listening"

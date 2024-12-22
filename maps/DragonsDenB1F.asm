@@ -204,44 +204,44 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_Wait:
-	text "Wait!"
+	text "Wacht!" ; "Wait!"
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
-	line "about this."
+	text "CLAIR: Sorry" ; "CLAIR: I'm sorry"
+	line "hiervoor." ; "about this."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Hier, neem dit om" ; "Here, take this as"
+	line "het goed te maken." ; "my apology."
 	done
 
 Text_ReceivedTM24:
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "TM24."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Dat bevat" ; "That contains"
+	line "DRAKENADEM." ; "DRAGONBREATH."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Nee, het heeft" ; "No, it doesn't"
+	line "niks met mijn adem" ; "have anything to"
+	cont "te maken." ; "do with my breath."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Als je het niet" ; "If you don't want"
+	line "wil, dan neem je" ; "it, you don't have"
+	cont "het niet." ; "to take it."
 	done
 
 ClairText_NoRoom:
-	text "Oh? You don't have"
-	line "any room for this."
+	text "Oh? Je hebt hier" ; "Oh? You don't have"
+	line "geen plek voor." ; "any room for this."
 
-	para "I'm going back to"
-	line "the GYM, so make"
+	para "Ik ga terug naar" ; "I'm going back to"
+	line "de GYM, maak plek" ; "the GYM, so make"
 
-	para "room, then come"
-	line "see me there."
+	para "en kom dan daar" ; "room, then come"
+	line "naar me toe." ; "see me there."
 	done
 
 ClairText_WhatsTheMatterDragonDen:
