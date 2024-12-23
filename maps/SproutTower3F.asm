@@ -223,7 +223,7 @@ SageLiSeenText:
 	para "Laat me de band" ; "Allow me to check"
 	line "tussen jou en je" ; "the ties between"
 
-	para "#MON op de!" ; "your #MON and"
+	para "#MON op de" ; "your #MON and"
 	line "proef stellen!" ; "you!"
 	done
 
