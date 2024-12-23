@@ -261,7 +261,7 @@ SageLiAfterBattleText:
 	done
 
 SageJinSeenText:
-	text "ik train om ver-" ; "I train to find"
+	text "Ik train om ver-" ; "I train to find"
 	line "lichting in #-" ; "enlightenment in"
 	cont "MON te vinden!" ; "#MON!"
 	done
@@ -286,7 +286,7 @@ SageJinAfterBattleText:
 SageTroySeenText:
 	text "Ik laat je zien" ; "Let me see how"
 	line "hoeveel jij je" ; "much you trust"
-	cont "MON vertrouwt." ; "your #MON."
+	cont "#MON vertrouwt." ; "your #MON."
 	done
 
 SageTroyBeatenText:

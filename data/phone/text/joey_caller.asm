@@ -1,7 +1,7 @@
 JoeyMonLookingSharperText:
 	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "is" ; "'s"
+	text " is" ; "'s"
 	line "scherper dan ooit" ; "looking sharper"
 	cont "tevoren!" ; "than before!"
 
@@ -52,7 +52,7 @@ JoeyBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text " " ; "'s"
+	text_start
 	line "is waar ik ben." ; "where I'll be."
 
 	para "Geef een gil als" ; "Give me a shout"

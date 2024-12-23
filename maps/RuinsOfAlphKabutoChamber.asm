@@ -181,7 +181,7 @@ RuinsOfAlphKabutoChamberScientistCrypticText:
 	cont "nog niet…" ; "little while ago…"
 
 	para "Inspecteer de" ; "You should take a"
-	line "muren eens" ; "look at the walls."
+	line "muren eens." ; "look at the walls."
 	done
 
 RuinsOfAlphKabutoChamberScientistHoleText:
