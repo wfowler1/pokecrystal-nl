@@ -21,7 +21,7 @@ Route32RuinsOfAlphGateOfficerText:
 	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
 
 	para "Een attractie om" ; A Look-and-Touch"
-	line "te zien en voelen" ; "Tourist Site"
+	line "te zien en voelen." ; "Tourist Site"
 
 	para "Probeer de stenen" ; "Try the sliding"
 	line "schuifpanelen!" ; "stone panels!"

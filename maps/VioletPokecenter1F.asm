@@ -53,7 +53,7 @@ VioletPokecenter1F_ElmsAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "EI@"
 
 .AideGivesEgg:
 	jumpstd ReceiveTogepiEggScript
@@ -196,7 +196,7 @@ VioletPokecenter1FGentlemanText:
 
 	para "Maar het kwam goed" ; "But justice pre-"
 	line "een jonge knaap" ; "vailed--a young"
-	cont "versloeg ze" ; "kid broke 'em up."
+	cont "versloeg ze." ; "kid broke 'em up."
 	done
 
 VioletPokecenter1FYoungsterText:
