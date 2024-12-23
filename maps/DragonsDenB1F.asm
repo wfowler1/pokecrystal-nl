@@ -245,66 +245,66 @@ ClairText_NoRoom:
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
-	line "matter? Aren't you"
+	text "CLAIR: Wat is er" ; "CLAIR: What's the"
+	line "aan de hand? Ga je" ; "matter? Aren't you"
 
-	para "going on to the"
-	line "#MON LEAGUE?"
+	para "niet naar de" ; "going on to the"
+	line "#MON-LEAGUE?" ; "#MON LEAGUE?"
 
-	para "Do you know how to"
-	line "get there?"
+	para "Weet je hoe je" ; "Do you know how to"
+	line "daar komt?" ; "get there?"
 
-	para "From here, go to"
+	para "Ga vanaf hier naar" ; "From here, go to"
 	line "NEW BARK TOWN."
 
-	para "Then SURF east to"
-	line "#MON LEAGUE."
+	para "SURF dan naar het" ; "Then SURF east to"
+	line "oosten." ; "#MON LEAGUE."
 
-	para "The route there is"
-	line "very tough."
+	para "De weg er naartoe" ; "The route there is"
+	line "is erg pittig." ; "very tough."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "Waag het niet te" ; "Don't you dare"
+	line "verliezen bij de" ; "lose at the #-"
+	cont "#MON-LEAGUE!" ; "MON LEAGUE!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Als je dat doet," ; "If you do, I'll"
+	line "baal ik nog meer" ; "feel even worse"
+	
+	para "van mijn verlies" ; "about having lost"
+	line "tegen jou!" ; "to you!"
 
-	para "about having lost"
-	line "to you!"
-
-	para "Give it everything"
-	line "you've got."
+	para "Geef het alles dat" ; "Give it every-"
+	line "je in je hebt." ; "thing you've got."
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "DRAKENTEMPEL" ; "DRAGON SHRINE"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
+	para "Deze tempel eert" ; "A shrine honoring"
+	line "draak-#MON die" ; "the dragon #MON"
 
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para "vroeger leefden in" ; "said to have lived"
+	line "de DRAKENGROT." ; "in DRAGON'S DEN."
 	done
 
 RivalText_Training1:
 	text "…"
-	line "What? <PLAYER>?"
+	line "Wat? <PLAYER>?" ; "What? <PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…Nee, ik ga niet" ; "…No, I won't"
+	line "tegen je vechten…" ; "battle you now…"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para "Mijn #MON kunnen" ; "My #MON aren't"
+	line "je niet verslaan." ; "ready to beat you."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Ik kan ze niet te" ; "I can't push them"
+	line "hard pushen." ; "too hard now."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Ik moet discipline" ; "I have to be dis-"
+	line "hebben om de beste" ; "ciplined to become"
 
-	para "the greatest #-"
-	line "MON trainer…"
+	para "beste #MON-" ; "the greatest #-"
+	line "trainer te worden…" ; "MON trainer…"
 	done
 
 RivalText_Training2:
@@ -312,96 +312,98 @@ RivalText_Training2:
 
 	para "Whew…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Leer om mij uit de" ; "Learn to stay out"
+	line "weg te gaan…" ; "of my way…"
 	done
 
 CooltrainermDarinSeenText:
-	text "You! How dare you"
-	line "enter uninvited!"
+	text "Jij! Hoe durf je" ; "You! How dare you"
+	line "zonder uitnodiging" ; "enter uninvited!"
+	cont "binnen te komen!"
 	done
 
 CooltrainermDarinBeatenText:
-	text "S-strong!"
+	text "S-sterk!" ; "S-strong!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "The SHRINE ahead"
-	line "is home to the"
+	text "De TEMPEL daar" ; "The SHRINE ahead"
+	line "is het thuis van" ; "is home to the"
 
-	para "MASTER of our"
-	line "dragon-user clan."
+	para "de MEESTER van de" ; "MASTER of our"
+	line "drakenstam." ; "dragon-user clan."
 
-	para "You're not allowed"
-	line "to just go in!"
+	para "Je mag niet zomaar" ; "You're not allowed"
+	line "naar binnen!" ; "to just go in!"
 	done
 
 CooltrainerfCaraSeenText:
-	text "You shouldn't be"
-	line "in here!"
+	text "Je hoort hier niet" ; "You shouldn't be"
+	line "te zijn!" ; "in here!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Oh yikes, I lost!"
+	text "Jakkes, verloren!" ; "Oh yikes, I lost!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Soon I'm going to"
-	line "get permission"
+	text "Mijn meester geeft" ; "Soon I'm going to"
+	line "me binnenkort" ; "get permission"
 
-	para "from our MASTER to"
-	line "use dragons."
+	para "toestemming draken" ; "from our MASTER to"
+	line "te gebruiken." ; "use dragons."
 
-	para "When I do, I'm"
-	line "going to become an"
+	para "Als dat gebeurt," ; "When I do, I'm"
+	line "word ik een heuse" ; "going to become an"
 
-	para "admirable dragon"
-	line "trainer and gain"
+	para "drakentrainer die" ; "admirable dragon"
+	line "goedkeuring van" ; "trainer and gain"
 
-	para "our MASTER's"
-	line "approval."
+	para "de MEESTER zal" ; "our MASTER's"
+	line "verdienen." ; "approval."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Een onbekende" ; "It's a stranger we"
+	line "vreemdeling." ; "don't know."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text "Auwies." ; "Ouchies."
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "It was like having"
-	line "to battle LANCE."
+	text "Het was alsof ik" ; "It was like having"
+	line "met LANCE vocht." ; "to battle LANCE."
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text "Wie ben jij?" ; "Who are you?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Gemenerd." ; "Meanie."
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "We'll tell on you."
+	text "We gaan je" ; "We'll tell on you."
+	line "verklikken."
 
-	para "MASTER will be"
-	line "angry with you."
+	para "De MEESTER zal" ; "MASTER will be"
+	line "woedend zijn." ; "angry with you."
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found"
+	text "<PLAYER> vond" ; "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "Maar <PLAYER> kan" ; "But <PLAYER> can't"
+	line "geen voorwerpen" ; "carry any more"
+	cont "meer dragen." ; "items."
 	done
 
 DragonsDenB1F_MapEvents:

@@ -272,9 +272,9 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Pal@"
-	db "Underling@"
-	db "Friend@"
+	db "Maat@" ; "Pal@"
+	db "Hulpje@" ; "Underling@"
+	db "Vriend@" ; "Friend@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -285,9 +285,9 @@ DragonShrineQuestion2_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Strategy@"
-	db "Raising@"
-	db "Cheating@"
+	db "Strategie@" ; "Strategy@"
+	db "Opvoeden@" ; "Raising@"
+	db "Valsspelen@" ; "Cheating@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -298,9 +298,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Weak person@"
-	db "Tough person@"
-	db "Anybody@"
+	db "Zwakkeling@" ; "Weak person@"
+	db "Sterk persoon@" ; "Tough person@"
+	db "Wie dan ook@" ; "Anybody@"
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -311,9 +311,9 @@ DragonShrineQuestion4_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Love@"
-	db "Violence@"
-	db "Knowledge@"
+	db "Liefde@" ; "Love@"
+	db "Geweld@" ; "Violence@"
+	db "Kennis@" ; "Knowledge@"
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -324,9 +324,9 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Tough@"
-	db "Both@"
-	db "Weak@"
+	db "Sterk@" ; "Tough@"
+	db "Beide@" ; "Both@"
+	db "Zwak@" ; "Weak@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step UP
@@ -392,263 +392,264 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Goed om je" ; "Hm… Good to see"
+	line "hier te zien." ; "you here."
 
-	para "No need to explain"
-	line "why you came."
+	para "Je hoeft niet uit" ; "No need to explain"
+	line "te leggen waarom." ; "why you came."
 
-	para "CLAIR sent you"
-	line "here, didn't she?"
+	para "CLAIR heeft je" ; "CLAIR sent you"
+	line "gestuurd, of niet?" ; "here, didn't she?"
 
-	para "That girl is a"
-	line "handful…"
+	para "Die meid is een" ; "That girl is a"
+	line "handenbindertje." ; "handful…"
 
-	para "I am sorry, but I"
-	line "must test you."
+	para "Het spijt me, maar" ; "I am sorry, but I"
+	line "ik moet je testen." ; "must test you."
 
-	para "Not to worry, you"
-	line "are to answer only"
-	cont "a few questions."
+	para "Geen zorgen hoor," ; "Not to worry, you"
+	line "het zijn slechts" ; "are to answer only"
+	cont "een paar vragen." ; "a few questions."
 
-	para "Ready?"
+	para "Klaar?" ; "Ready?"
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #MON"
-	line "to you?"
+	text "Wat zijn #MON" ; "What are #MON"
+	line "voor jou?" ; "to you?"
 	done
 
 DragonShrineQuestion2Text:
-	text "What helps you to"
-	line "win battles?"
+	text "Wat helpt jou om" ; "What helps you to"
+	line "te winnen?" ; "win battles?"
 	done
 
 DragonShrineQuestion3Text:
-	text "What kind of"
-	line "trainer do you"
-	cont "wish to battle?"
+	text "Tegen wat voor" ; "What kind of"
+	line "trainer vecht je" ; "trainer do you"
+	cont "het liefst?" ; "wish to battle?"
 	done
 
 DragonShrineQuestion4Text:
-	text "What is most"
-	line "important for"
-	cont "raising #MON?"
+	text "Wat is belangrijk" ; "What is most"
+	line "bij het opvoeden" ; "important for"
+	cont "van #MON?" ; "raising #MON?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #MON."
-	line "Weak #MON."
+	text "Sterke #MON." ; "Strong #MON."
+	line "Zwakke #MON." ; "Weak #MON."
 
-	para "Which is more"
-	line "important?"
+	para "Welke zijn het" ; "Which is more"
+	line "belangrijkst?" ; "important?"
 	done
 
 DragonShrinePassedTestText:
-	text "Hm… I see…"
+	text "Hm… Is dat zo…" ; "Hm… I see…"
 
-	para "You care deeply"
-	line "for #MON."
+	para "Je geeft erg veel" ; "You care deeply"
+	line "om #MON." ; "for #MON."
 
-	para "Very commendable."
+	para "Prijzenswaardig." ; "Very commendable."
 
-	para "That conviction is"
-	line "what is important!"
+	para "Die toewijding is" ; "That conviction is"
+	line "heel belangrijk!" ; "what is important!"
 
-	para "<PLAYER>, don't"
-	line "lose that belief."
+	para "<PLAYER>, verlies" ; "<PLAYER>, don't"
+	line "dat gevoel niet." ; "lose that belief."
 
-	para "It will see you"
-	line "through at the"
-	cont "#MON LEAGUE."
+	para "Het zal je helpen" ; "It will see you"
+	line "bij de #MON-" ; "through at the"
+	cont "LEAGUE." ; "#MON LEAGUE."
 	done
 
 DragonShrineMustIInformLanceText:
 	text "CLAIR!"
 
-	para "This child is"
-	line "impeccable, in"
-	cont "skill and spirit!"
+	para "Dit kind is"  "This child is"
+	line "onberispelijk," ; "impeccable, in"
+	cont "zowel in geest als" ; "skill and spirit!"
+	cont "vaardigheid!"
 
-	para "Admit defeat and"
-	line "confer the RISING-"
-	cont "BADGE!"
+	para "Erken je verlies" ; "Admit defeat and"
+	line "en overhandig de" ; "confer the RISING-"
+	cont "RIJZINGSBADGE!" ; "BADGE!"
 
-	para "…Or must I inform"
-	line "LANCE of this?"
+	para "…Of moet ik LANCE" ; "…Or must I inform"
+	line "hiervan vertellen?" ; "LANCE of this?"
 	done
 
 DragonShrineElderScoldsClairText:
 	text "CLAIR…"
 
-	para "Reflect upon what"
-	line "it is that you"
+	para "Reflecteer op wat" ; "Reflect upon what"
+	line "bij jou ontbreekt" ; "it is that you"
 
-	para "lack and this"
-	line "child has."
+	para "en wat dit kind" ; "lack and this"
+	line "wel heeft." ; "child has."
 	done
 
 DragonShrineComeAgainText:
-	text "Come again, if you"
-	line "so desire."
+	text "Kom nog eens, als" ; "Come again, if you"
+	line "je dat wenst." ; "so desire."
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Goed om je" ; "Hm… Good to see"
+	line "hier te zien." ; "you here."
 
-	para "Your arrival is"
-	line "most fortunate."
+	para "Je aankomst hier" ; "Your arrival is"
+	line "is fortuinlijk." ; "most fortunate."
 
-	para "I have something"
-	line "for you."
+	para "Ik heb iets voor" ; "I have something"
+	line "je." ; "for you."
 
-	para "Take this DRATINI"
-	line "as proof that I"
+	para "Neem deze DRATINI" ; "Take this DRATINI"
+	line "als bewijs dat ik" ; "as proof that I"
 
-	para "have recognized"
-	line "your worth."
+	para "jouw waarde heb" ; "have recognized"
+	line "gezien." ; "your worth."
 	done
 
 DragonShrinePlayerReceivedDratiniText:
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "DRATINI!"
 	done
 
 DragonShrinePartyFullText:
-	text "Hm? Your #MON"
-	line "party is full."
+	text "Hm? Je #MON-" ; "Hm? Your #MON"
+	line "team is vol." ; "party is full."
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #MON are"
-	line "symbolic of our"
-	cont "clan."
+	text "Draak-#MON zijn" ; "Dragon #MON are"
+	line "symbolisch voor" ; "symbolic of our"
+	cont "onze stam." ; "clan."
 
-	para "You have shown"
-	line "that you can be"
+	para "Je hebt getoond" ; "You have shown"
+	line "dat ik jou één kan" ; "that you can be"
 
-	para "entrusted with"
-	line "one."
+	para "toevertrouwen." ; "entrusted with"
+	# line "one."
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
-	line "have learned an"
+	text "CLAIR heeft een" ; "CLAIR appears to"
+	line "waardevolle les" ; "have learned an"
 
-	para "invaluable lesson"
-	line "from you."
+	para "van jou geleerd." ; "invaluable lesson"
+	#line "from you."
 
-	para "I thank you as her"
-	line "grandfather."
+	para "Ik dank je als" ; "I thank you as her"
+	line "haar grootvader." ; "grandfather."
 	done
 
 DragonShrineRivalIsInTrainingText:
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text "Een jongen van" ; "A boy close to"
+	line "jouw leeftijd" ; "your age is in"
+	cont "traint hier." ; "training here."
 
-	para "He is much like"
-	line "CLAIR when she was"
+	para "Hij lijkt erg op" ; "He is much like"
+	line "CLAIR toen zij" ; "CLAIR when she was"
 
-	para "younger. It is a"
-	line "little worrisome…"
+	para "jonger was. Het is" ; "younger. It is a"
+	line "zorgwekkend…" ; "little worrisome…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text "Hah? I didn't"
-	line "quite catch that…"
+	text "Hah? Ik hoorde je" ; "Hah? I didn't"
+	line "niet goed…" ; "quite catch that…"
 	done
 
 DragonShrineWrongAnswerText2:
-	text "What was it you"
-	line "said?"
+	text "Wat zei je nou" ; "What was it you"
+	line "precies?" ; "said?"
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, I understand…"
+	text "Oh, duidelijk…" ; "Oh, I understand…"
 	done
 
 DragonShrineElder2Text:
-	text "It's been quite"
-	line "some time since a"
+	text "Het is lang" ; "It's been quite"
+	line "geleden sinds een" ; "some time since a"
 
-	para "trainer has gained"
-	line "our MASTER's rare"
-	cont "approval."
+	para "trainer door onze" ; "trainer has gained"
+	line "MEESTER werd" ; "our MASTER's rare"
+	cont "erkend." ; "approval."
 
-	para "In fact, not since"
-	line "Master LANCE."
+	para "Sterker nog, LANCE" ; "In fact, not since"
+	line "was de laatste." ; "Master LANCE."
 	done
 
 DragonShrineElder3Text:
-	text "You know young"
-	line "Master LANCE?"
+	text "Ken je jonge" ; "You know young"
+	line "meester LANCE?" ; "Master LANCE?"
 
-	para "He looks so much"
-	line "like our MASTER"
-	cont "did in his youth."
+	para "Hij lijkt erg op" ; "He looks so much"
+	line "onze meester toen" ; "like our MASTER"
+	cont "hij jong was." ; "did in his youth."
 
-	para "It's in their"
-	line "blood."
+	para "Het zit in hun" ; "It's in their"
+	line "bloed." ; "blood."
 	done
 
 DragonShrineClairYouPassedText:
-	text "So how did it go?"
+	text "Hoe ging het?" ; "So how did it go?"
 
-	para "I guess there's no"
-	line "point in asking."
+	para "Stom om te vragen," ; "I guess there's no"
+	line "eigenlijk." ; "point in asking."
 
-	para "You did fail?"
+	para "Je faalde?" ; "You did fail?"
 
 	para "<……><……><……><……><……><……>"
 
-	para "…What? You passed?"
+	para "…Wat? Je slaagde?" ; "…What? You passed?"
 	done
 
 DragonShrineClairThatCantBeText:
-	text "That can't be!"
+	text "Dat kan niet!" ; "That can't be!"
 	done
 
 DragonShrineClairYoureLyingText:
-	text "You're lying!"
+	text "Je liegt!" ; "You're lying!"
 
-	para "Even I haven't"
-	line "been approved!"
+	para "Zelfs ik ben niet" ; "Even I haven't"
+	line "goedgekeurd!" ; "been approved!"
 	done
 
 DragonShrineIUnderstandText:
-	text "I-I understand…"
+	text "I-ik snap het…" ; "I-I understand…"
 	done
 
 DragonShrineHereRisingBadgeText:
-	text "Here, this is the"
-	line "RISINGBADGE…"
+	text "Hier, dit is de" ; "Here, this is the"
+	line "RIJZINGSBADGE…" ; "RISINGBADGE…"
 
-	para "Hurry up! Take it!"
+	para "Kom op! Pak aan!" ; "Hurry up! Take it!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
-	text "<PLAYER> received"
-	line "RISINGBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "RIJZINGSBADGE." ; "RISINGBADGE."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
-	line "enable your"
+	text "De RIJZINGSBADGE" ; "RISINGBADGE will"
+	line "laat je #MON" ; "enable your"
 
-	para "#MON to use the"
-	line "move for climbing"
-	cont "waterfalls."
+	para "met een aanval" ; "#MON to use the"
+	line "watervallen be-" ; "move for climbing"
+	cont "klimmen." ; "waterfalls."
 
-	para "Also, all #MON"
-	line "will recognize you"
+	para "Ook zullen alle" ; "Also, all #MON"
+	line "#MON je als" ; "will recognize you"
 
-	para "as a trainer and"
-	line "obey your every"
+	para "trainer erkennen" ; "as a trainer and"
+	line "en ieder commando" ; "obey your every"
 
-	para "command without"
-	line "question."
+	para "gehoorzamen zonder" ; "command without"
+	line "uitzonderingen." ; "question."
 	done
 
 DragonShrineSpeechlessText:
