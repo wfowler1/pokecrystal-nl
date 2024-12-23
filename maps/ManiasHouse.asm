@@ -166,7 +166,7 @@ ManiaText_ShuckleNotThere:
 	done
 
 ManiaText_ShuckleLikesYou:
-	text "Mijn #MON begint" ; "My #MON has"
+	text "M'n #MON begint" ; "My #MON has"
 	line "je leuk te vinden." ; "come to like you."
 
 	para "Oké, zorg jij er" ; "All right, you"
