@@ -466,7 +466,7 @@ DragonShrinePassedTestText:
 DragonShrineMustIInformLanceText:
 	text "CLAIR!"
 
-	para "Dit kind is"  "This child is"
+	para "Dit kind is" ; "This child is"
 	line "onberispelijk," ; "impeccable, in"
 	cont "zowel in geest als" ; "skill and spirit!"
 	cont "vaardigheid!"
@@ -530,7 +530,7 @@ DragonShrineSymbolicDragonText:
 	line "dat ik jou één kan" ; "that you can be"
 
 	para "toevertrouwen." ; "entrusted with"
-	# line "one."
+	line "" ; "one."
 	done
 
 DragonShrineClairsGrandfatherText:
@@ -538,7 +538,7 @@ DragonShrineClairsGrandfatherText:
 	line "waardevolle les" ; "have learned an"
 
 	para "van jou geleerd." ; "invaluable lesson"
-	#line "from you."
+	line "" ; "from you."
 
 	para "Ik dank je als" ; "I thank you as her"
 	line "haar grootvader." ; "grandfather."

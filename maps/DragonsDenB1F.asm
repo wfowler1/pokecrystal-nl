@@ -294,7 +294,7 @@ RivalText_Training1:
 	para "…Nee, ik ga niet" ; "…No, I won't"
 	line "tegen je vechten…" ; "battle you now…"
 
-	para "Mijn #MON kunnen" ; "My #MON aren't"
+	para "M'n #MON kunnen" ; "My #MON aren't"
 	line "je niet verslaan." ; "ready to beat you."
 
 	para "Ik kan ze niet te" ; "I can't push them"
