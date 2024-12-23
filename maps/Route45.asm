@@ -374,7 +374,7 @@ HikerParryAfterBattleText:
 	line "een denker, he?" ; "at thinking, see?"
 
 	para "Dus ik ram gewoon" ; "So, I just plow"
-	line "met kracht vooruit!" ; "ahead with power!"
+	line "hard vooruit!" ; "ahead with power!"
 	done
 
 HikerTimothySeenText:
