@@ -187,7 +187,7 @@ MagikarpLengthRaterText_NotMagikarp:
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… Dus je hebt nog" ; "Oh… So you didn't"
+	text "Oh… Je hebt nog" ; "Oh… So you didn't"
 	line "niet eentje die" ; "get one good"
 
 	para "goed genoeg is?" ; "enough to show me?"
