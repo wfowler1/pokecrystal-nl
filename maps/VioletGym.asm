@@ -152,12 +152,12 @@ ReceivedZephyrBadgeText:
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEFIERBADGE ver-" ; "ZEPHYRBADGE"
-	line "hoogt aanvalkracht" ; "raises the attack"
+	text "De ZEFIERBADGE" ; "ZEPHYRBADGE"
+	line "verhoogt de aanval" ; "raises the attack"
 	cont "van #MON." ; "power of #MON."
 
 	para "Het laat #MON" ; "It also enables"
-	line "ook FLASH altijd" ; "#MON to use"
+	line "ook FLASH" ; "#MON to use"
 
 	para "gebruiken, mits ze" ; "FLASH, if they"
 	line "het hebben." ; "have it, anytime."
@@ -183,17 +183,17 @@ FalknerTMMudSlapText:
 	para "Het verlaagt de" ; "It reduces the"
 	line "precisie van je" ; "enemy's accuracy"
 
-	para "tegenstander en" ; "while it causes"
-	line "doet schade." ; "damage."
+	para "vijand terwijl het" ; "while it causes"
+	line "schade doet." ; "damage."
 
-	para "Kortgezegd, het" ; "In other words, it"
-	line "is een aanval en" ; "is both defensive"
-	cont "verdediging." ; "and offensive."
+	para "Kort gezegd, het" ; "In other words, it"
+	line "is een aanval die" ; "is both defensive"
+	cont "ook verdedigt." ; "and offensive."
 	done
 
 FalknerFightDoneText:
 	text "Er zijn #MON-" ; "There are #MON"
-	line "GYMS in de steden" ; "GYMS in cities and"
+	line "GYMS in steden en" ; "GYMS in cities and"
 	cont "dorpen verderop." ; "towns ahead."
 
 	para "Probeer je vaar-" ; "You should test"
@@ -262,7 +262,7 @@ VioletGymGuideText:
 	line "dromen uitkomen." ; "can come true."
 
 	para "Heb je vertrouwen?" ; "You believe?"
-	line "Luister op, dan." ; "Then listen."
+	line "Luister dan." ; "Then listen."
 
 	para "Gras-types zijn" ; "The grass-type is"
 	line "zwak tegen vlieg-" ; "weak against the"
