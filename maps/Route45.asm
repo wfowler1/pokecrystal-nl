@@ -313,114 +313,116 @@ Route45HiddenPpUp:
 	hiddenitem PP_UP, EVENT_ROUTE_45_HIDDEN_PP_UP
 
 HikerErikSeenText:
-	text "Be prepared for"
-	line "anything!"
+	text "Wees op alles" ; "Be prepared for"
+	line "voorbereid!" ; "anything!"
 
-	para "Let me see if your"
-	line "#MON have been"
-	cont "raised properly!"
+	para "Eens kijken of jij" ; "Let me see if your"
+	line "je #MON goed" ; "#MON have been"
+	cont "hebt opgevoed!" ; "raised properly!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, I lost that!"
+	text "Oh, verloren!" ; "Oh, I lost that!"
 	done
 
 HikerErikAfterBattleText:
-	text "I'll head back to"
-	line "BLACKTHORN's ICE"
+	text "Ik ga naar BLACK-" ; "I'll head back to"
+	line "THORN's IJSPAD om" ; "BLACKTHORN's ICE"
 
-	para "PATH and train"
-	line "some more."
+	para "nog wat meer te" ; "PATH and train"
+	line "trainen." ; "some more."
 	done
 
 HikerMichaelSeenText:
-	text "Yo! You're spunky!"
-	line "But you know what?"
+	text "Yo! Jij hebt pit!" ; "Yo! You're spunky!"
+	line "Maar weet je?" ; "But you know what?"
 
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	para "Als het draait om" ; "When it comes to"
+	line "pure pittigheid," ; "sheer spunkiness,"
+	cont "ben ik de man!" ; "I'm the man!"
 	done
 
 HikerMichaelBeatenText:
-	text "My #MON weren't"
-	line "spunky enough!"
+	text "M'n #MON hadden" ; "My #MON weren't"
+	line "te weinig pit!" ; "spunky enough!"
 	done
 
 HikerMichaelAfterBattleText:
-	text "Boy, do I love"
-	line "HP UP! Mmmm, yum!"
+	text "Joh, wat ben ik" ; "Boy, do I love"
+	line "dol op EP-PLUS!!" ; "HP UP! Mmmm, yum!"
 
-	para "I keep drinking my"
-	line "#MON's!"
+	para "Ik blijf die van" ; "I keep drinking my"
+	line "mijn #MON" ; "#MON's!"
+	cont "steeds opdrinken!"
 
-	para "I can't help it!"
+	para "Ik kan het niet" ; "I can't help it!"
+	line "laten!"
 	done
 
 HikerParry3SeenText:
-	text "My #MON are"
-	line "power packed!"
+	text "M'n #MON zitten" ; "My #MON are"
+	line "vol met kracht!" ; "power packed!"
 	done
 
 HikerParry3BeatenText:
-	text "Wahahah! I'm the"
-	line "big loser!"
+	text "Wahahah! Ik ben de" ; "Wahahah! I'm the"
+	line "grote verliezer!" ; "big loser!"
 	done
 
 HikerParryAfterBattleText:
-	text "I'm not much good"
-	line "at thinking, see?"
+	text "Ik ben niet echt" ; "I'm not much good"
+	line "een denker, he?" ; "at thinking, see?"
 
-	para "So, I just plow"
-	line "ahead with power!"
+	para "Dus ik ram gewoon" ; "So, I just plow"
+	line "met kracht vooruit!" ; "ahead with power!"
 	done
 
 HikerTimothySeenText:
-	text "Why do I climb"
-	line "mountains?"
+	text "Waarom ik bergen" ; "Why do I climb"
+	line "beklim?" ; "mountains?"
 
-	para "Because they're"
-	line "there."
+	para "Gewoon, omdat ze" ; "Because they're"
+	line "er zijn." ; "there."
 
-	para "Why do I train"
+	para "Waarom train ik" ; "Why do I train"
 	line "#MON?"
 
-	para "Because they're"
-	line "there!"
+	para "Gewoon, omdat ze" ; "Because they're"
+	line "er zijn!" ; "there!"
 	done
 
 HikerTimothyBeatenText:
-	text "Losses…"
-	line "They're there too!"
+	text "Verliezen…" ; "Losses…"
+	line "Die zijn er ook!" ; "They're there too!"
 	done
 
 HikerTimothyAfterBattleText:
-	text "The best thing to"
-	line "ever happen to me"
+	text "Het beste wat mij" ; "The best thing to"
+	line "ooit overkwam was" ; "ever happen to me"
 
-	para "was discovering"
+	para "de ontdekking van" ; "was discovering"
 	line "#MON."
 	done
 
 HikerParryGivesIronText:
-	text "I just can't find"
-	line "a way to win!"
+	text "Ik kan maar niet" ; "I just can't find"
+	line "winnen!" ; "a way to win!"
 
-	para "Keep it up!"
+	para "Ga zo door!" ; "Keep it up!"
 
-	para "Oh, and take this"
-	line "--it's the gift"
+	para "Oh, en neem dit--" ; "Oh, and take this"
+	line "het cadeau dat je" ; "--it's the gift"
 
-	para "you couldn't take"
-	line "when we last met."
+	para "vorige keer niet" ; "you couldn't take"
+	line "mee kon nemen." ; "when we last met."
 	done
 
 BlackbeltKenji3SeenText:
-	text "I was training"
-	line "here alone."
+	text "Ik trainde hier" ; "I was training"
+	line "alleen." ; "here alone."
 
-	para "Behold the fruits"
-	line "of my labor!"
+	para "Aanschouw het" ; "Behold the fruits"
+	line "resultaat!" ; "of my labor!"
 	done
 
 BlackbeltKenji3BeatenText:
@@ -428,105 +430,106 @@ BlackbeltKenji3BeatenText:
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "This calls for"
-	line "extreme measures."
+	text "Dit vergt extreme" ; "This calls for"
+	line "maatregelen." ; "extreme measures."
 
-	para "I must take to the"
-	line "hills and train in"
-	cont "solitude."
+	para "Ik moet de heuvels" ; "I must take to the"
+	line "in en eenzaam" ; "hills and train in"
+	cont "trainen." ; "solitude."
 	done
 
 BlackbeltKenjiMorningText:
-	text "I'm going to train"
-	line "a bit more before"
-	cont "I break for lunch."
+	text "Ik ga nog even" ; "I'm going to train"
+	line "trainen voordat" ; "a bit more before"
+	cont "ik ga lunchen." ; "I break for lunch."
 	done
 
 BlackbeltKenjiNightText:
-	text "We had plenty of"
-	line "rest at lunch, so"
+	text "We hebben goed" ; "We had plenty of"
+	line "uitgerust bij de" ; "rest at lunch, so"
 
-	para "now we're all"
-	line "ready to go again!"
+	para "lunch en zijn er" ; "now we're all"
+	line "weer klaar voor!" ; "ready to go again!"
 
-	para "We're going to"
-	line "train again!"
+	para "We gaan weer" ; "We're going to"
+	line "trainen!" ; "train again!"
 	done
 
 CooltrainermRyanSeenText:
-	text "What are your"
-	line "thoughts on rais-"
-	cont "ing #MON?"
+	text "Wat vind jij van" ; "What are your"
+	line "het opvoeden van" ; "thoughts on rais-"
+	cont "#MON?" ; "ing #MON?"
 	done
 
 CooltrainermRyanBeatenText:
-	text "You've won my"
-	line "respect."
+	text "Je hebt mijn" ; "You've won my"
+	line "respect verdiend."
 	done
 
 CooltrainermRyanAfterBattleText:
-	text "I see you're rais-"
-	line "ing your #MON"
-	cont "with care."
+	text "Je voedt je #-" ; "I see you're rais-"
+	line "MON duidelijk met" ; "ing your #MON"
+	cont "zorg op." ; "with care."
 
-	para "The bond you build"
-	line "will save you in"
-	cont "tough situations."
+	para "Jullie band zal je" ; "The bond you build"
+	line "redden in lastige" ; "will save you in"
+	cont "situaties." ; "tough situations."
 	done
 
 CooltrainerfKellySeenText:
-	text "What is your"
-	line "battle strategy?"
+	text "Wat is je" ; "What is your"
+	line "gevechtsstrategie?" ; "battle strategy?"
 
-	para "It is foolish to"
-	line "use strong moves"
-	cont "indiscriminately."
+	para "Het is dom om" ; "It is foolish to"
+	line "alleen maar sterke" ; "use strong moves"
+	cont "aanvallen te doen." ; "indiscriminately."
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Fine. I lost."
+	text "Prima. Ik verloor." ; "Fine. I lost."
 	done
 
 CooltrainerfKellyAfterBattleText:
-	text "I'm not in favor"
-	line "of overly power-"
-	cont "ful moves."
+	text "Ik heb het niet op" ; "I'm not in favor"
+	line "veel te sterke" ; "of overly power-"
+	cont "aanvallen." ; "ful moves."
 
-	para "I want to win, but"
-	line "I also don't want"
-	cont "to harm #MON."
+	para "Ik wil winnen," ; "I want to win, but"
+	line "maar wil #MON" ; "I also don't want"
+	cont "niet pijn doen." ; "to harm #MON."
 	done
 
 Route45DummyText:
-	text "I'm really, really"
-	line "tough!"
+	text "Ik ben heel, heel" ; "I'm really, really"
+	line "sterk!" ; "tough!"
 
-	para "Is there anywhere"
-	line "I can prove how"
-	cont "tough I really am?"
+	para "Kan ik ergens" ; "Is there anywhere"
+	line "bewijzen hoe sterk" ; "I can prove how"
+	cont "ik echt ben?" ; "tough I really am?"
 	done
 
 CamperQuentinSeenText:
-	text "I'm really, really"
-	line "tough!"
+	text "Ik ben heel, heel" ; "I'm really, really"
+	line "sterk!" ; "tough!"
 	done
 
 CamperQuentinBeatenText:
-	text "I was tough at the"
-	line "BATTLE TOWER…"
+	text "Ik was sterk in de" ; "I was tough at the"
+	line "GEVECHTSTOREN…" ; "BATTLE TOWER…"
 	done
 
 CamperQuentinAfterBattleText:
-	text "Have you been to"
-	line "the BATTLE TOWER?"
+	text "Heb je de" ; "Have you been to"
+	line "GEVECHTSTOREN" ; "the BATTLE TOWER?"
+	cont "bezocht?"
 
-	para "I never, ever lose"
-	line "there, but…"
+	para "Ik verlies daar" ; "I never, ever lose"
+	line "nooit, maar…" ; "there, but…"
 	done
 
 Route45SignText:
 	text "ROUTE 45"
-	line "MOUNTAIN RD. AHEAD"
+	line "BERGPAD NABIJ" ; "MOUNTAIN RD. AHEAD"
 	done
 
 Route45_MapEvents:
