@@ -949,7 +949,7 @@ ElmDescribesMrPokemonText:
 
 ElmPokeBallText:
 	text "Het bevat een" ; "It contains a"
-	line "#MON gevangen gevangen" ; "#MON caught by"
+	line "#MON gevangen" ; "#MON caught by"
 	cont "door PROF.ELM."
 	done
 
