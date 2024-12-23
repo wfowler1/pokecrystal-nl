@@ -90,108 +90,108 @@ MagikarpHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "MEER VAN RAZERNIJ" "LAKE OF RAGE is"
-	line "is een krater ooit" "actually a crater"
+	text "MEER VAN RAZERNIJ" ; "LAKE OF RAGE is"
+	line "is een krater ooit" ; "actually a crater"
 
-	para "ooit gemaakt door" "made by rampaging"
-	line "woeste GYARADOS." "GYARADOS."
+	para "ooit gemaakt door" ; "made by rampaging"
+	line "woeste GYARADOS." ; "GYARADOS."
 
-	para "De krater vulde" "The crater filled"
-	line "met regenwater" "up with rainwater"
+	para "De krater vulde" ; "The crater filled"
+	line "met regenwater" ; "up with rainwater"
 
-	para "en zo vormde het" "and the LAKE was"
-	line "MEER." "formed."
+	para "en zo vormde het" ; "and the LAKE was"
+	line "MEER." ; "formed."
 
-	para "Dat verhaal werd" "That's the story"
-	line "al verteld aan" "passed on from my"
+	para "Dat verhaal werd" ; "That's the story"
+	line "al verteld aan" ; "passed on from my"
 
-	para "mijn opa's over-" "Grandpa's great-"
-	line "over-grootvader." "great-grandpa."
+	para "mijn opa's over-" ; "Grandpa's great-"
+	line "over-grootvader." ; "great-grandpa."
 
-	para "Vroeger kon je" "It used to be that"
-	line "daar levendige" "you could catch"
+	para "Vroeger kon je" ; "It used to be that"
+	line "daar levendige" ; "you could catch"
 
-	para "MAGIKARP vangen," "lively MAGIKARP"
-	line "maar nu…" "there, but…"
+	para "MAGIKARP vangen," ; "lively MAGIKARP"
+	line "maar nu…" ; "there, but…"
 
-	para "Ik snap er echt" "I don't understand"
-	line "niks van." "what's happening."
+	para "Ik snap er echt" ; "I don't understand"
+	line "niks van." ; "what's happening."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "Het meer is vreemd" "The LAKE hasn't"
-	line "geworden nadat die" "been normal since"
+	text "Het meer is vreemd" ; "The LAKE hasn't"
+	line "geworden nadat die" ; "been normal since"
 
-	para "zwartgeklede" "those men wearing"
-	line "mannen kwamen." "black arrived."
+	para "zwartgeklede" ; "those men wearing"
+	line "mannen kwamen." ; "black arrived."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "MEER VAN RAZERNIJ" "LAKE OF RAGE is"
-	line "is weer normaal." "back to normal."
+	text "MEER VAN RAZERNIJ" ; "LAKE OF RAGE is"
+	line "is weer normaal." ; "back to normal."
 
-	para "De MAGIKARP zijn" "The MAGIKARP have"
-	line "teruggekeerd." "returned."
+	para "De MAGIKARP zijn" ; "The MAGIKARP have"
+	line "teruggekeerd." ; "returned."
 
-	para "Misschien zie ik" "I may yet realize"
-	line "op een dag toch" "my dream of see-"
-	cont "nog 's werelds'" "ing the world's"
-	cont "grootste MAGIKARP." "largest MAGIKARP."
+	para "Misschien zie ik" ; "I may yet realize"
+	line "op een dag toch" ; "my dream of see-"
+	cont "nog 's werelds'" ; "ing the world's"
+	cont "grootste MAGIKARP." ; "largest MAGIKARP."
 
-	para "Heb je een HENGEL?" "Do you have a ROD?"
-	line "Zo ja, help me dan" "Please help me if"
-	cont "alsjeblieft." "you do."
+	para "Heb je een HENGEL?" ; "Do you have a ROD?"
+	line "Zo ja, help me dan" ; "Please help me if"
+	cont "alsjeblieft." ; "you do."
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, je hebt een" "Ah, you have a"
-	line "MAGIKARP! Eens" "MAGIKARP! Let's"
+	text "Ah, je hebt een" ; "Ah, you have a"
+	line "MAGIKARP! Eens" ; "MAGIKARP! Let's"
 
-	para "zien hoe groot dit" "see how big that"
-	line "schatje is." "baby is."
+	para "zien hoe groot dit" ; "see how big that"
+	line "schatje is." ; "baby is."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wauw! Deze is" "Wow! This one is"
-	line "uitmuntend!" "outstanding!"
+	text "Wauw! Deze is" ; "Wow! This one is"
+	line "uitmuntend!" ; "outstanding!"
 
-	para "Mijn complimenten" "I tip my hat to"
-	line "voor de vangst!" "you!"
+	para "Mijn complimenten" ; "I tip my hat to"
+	line "voor de vangst!" ; "you!"
 
-	para "Neem dit als een" "Take this as a"
-	line "aanteken!" "memento!"
+	para "Neem dit als een" ; "Take this as a"
+	line "aanteken!" ; "memento!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "Het record is hier" "The record is the"
-	line "het belangrijkst." "important thing."
+	text "Het record is hier" ; "The record is the"
+	line "het belangrijkst." ; "important thing."
 
-	para "Zie het maar als" "Think of that as"
-	line "een bonus!" "a bonus!"
+	para "Zie het maar als" ; "Think of that as"
+	line "een bonus!" ; "a bonus!"
 	done
 
 MagikarpLengthRaterText_TooShort:
-	text "Wauw! Deze is" "Wow! This one is"
-	line "uitmuntend!" "outstanding!"
+	text "Wauw! Deze is" ; "Wow! This one is"
+	line "uitmuntend!" ; "outstanding!"
 
-	para "…Dat zou ik graag" "…I wish I could"
-	line "nu zeggen, maar ik" "say that, but I've"
+	para "…Dat zou ik graag" ; "…I wish I could"
+	line "nu zeggen, maar ik" ; "say that, but I've"
 
-	para "heb wel eens" "seen a bigger one"
-	line "groter gezien." "before."
+	para "heb wel eens" ; "seen a bigger one"
+	line "groter gezien." ; "before."
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "Wat? Dat is geen" "What? That's not a"
+	text "Wat? Dat is geen" ; "What? That's not a"
 	line "MAGIKARP!"
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… Dus je hebt nog" "Oh… So you didn't"
-	line "niet eentje die" "get one good"
+	text "Oh… Dus je hebt nog" ; "Oh… So you didn't"
+	line "niet eentje die" ; "get one good"
 
-	para "goed genoeg is?" "enough to show me?"
-	line "Volgende keer…" "Maybe next time."
+	para "goed genoeg is?" ; "enough to show me?"
+	line "Volgende keer…" ; "Maybe next time."
 	done
 
 LakeOfRageMagikarpHouseUnusedRecordText:

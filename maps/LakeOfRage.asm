@@ -371,9 +371,9 @@ FisherAndreBeatenText:
 	done
 
 FisherAndreAfterBattleText:
-	text "Ik verlies niet als" ; "I won't lose as an"
-	line "hengelaar! Elke dag" ; "angler! I catch"
-	cont "vang ik #MON." ; "#MON all day."
+	text "Ik blijf de beste" ; "I won't lose as an"
+	line "hengelaar! Elke" ; "angler! I catch"
+	cont "dag vang ik meer." ; "#MON all day."
 	done
 
 FisherRaymondSeenText:
@@ -436,7 +436,7 @@ CooltrainerfLoisBeatenText:
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Nu ik er over denk," ; "Come to think of"
+	text "Ik bedenk me net," ; "Come to think of"
 	line "ooit zag ik een" ; "it, I've seen a"
 	cont "roze BUTTERFREE." ; "pink BUTTERFREE."
 	done
