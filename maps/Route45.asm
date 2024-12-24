@@ -349,7 +349,7 @@ HikerMichaelBeatenText:
 
 HikerMichaelAfterBattleText:
 	text "Joh, wat ben ik" ; "Boy, do I love"
-	line "dol op EP-PLUS!!" ; "HP UP! Mmmm, yum!"
+	line "dol op LP-PLUS!!" ; "HP UP! Mmmm, yum!"
 
 	para "Ik blijf die van" ; "I keep drinking my"
 	line "mijn #MON" ; "#MON's!"

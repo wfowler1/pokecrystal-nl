@@ -234,7 +234,7 @@ EarlsPokemonAcademyYoungster1Text:
 
 	para "Laat ik ook maar" ; "I'd better copy"
 	line "alles op 't krijt-" ; "the stuff on the"
-	cont "bord opschrijven." ; "blackboard too."
+	cont "bord schrijven." ; "blackboard too."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
@@ -263,7 +263,7 @@ EarlsPokemonAcademyYoungster2Text:
 	done
 
 AcademyBlackboardText:
-	text "Het krijgbord be-" ; "The blackboard"
+	text "Het krijtbord be-" ; "The blackboard"
 	line "schrijft #MON-" ; "describes #MON"
 
 	para "statuswijzigingen" ; "status changes in"
@@ -320,8 +320,7 @@ AcademyBurnText:
 	line "je aanvalskracht." ; "attack power."
 
 	para "Je #MON blijft" ; "A burn lingers"
-	line "na achteraf" ; "after battle."
-	cont "verbrand."
+	line "achteraf verbrand." ; "after battle."
 
 	para "Gebruik BRANDZALF" ; "Use a BURN HEAL as"
 	line "om te genezen." ; "the cure."
@@ -333,9 +332,9 @@ AcademyFreezeText:
 	cont "in een gevecht." ; "do a thing."
 
 	para "Achteraf blijft" ; "It remains frozen"
-	line "ie bevroren." ; "after battle."
+	line "deze bevroren." ; "after battle."
 
-	para "Ontdooi hen met" ; "Thaw it out with"
+	para "Ontdooi dan met" ; "Thaw it out with"
 	line "een IJSGENEZER." ; "an ICE HEAL."
 	done
 
@@ -383,8 +382,8 @@ AcademyNotebookText3:
 	text "Mensen die #MON" ; "People who catch"
 	line "vangen en ermee" ; "and use #MON"
 
-	para "vechten zijn #-" ; "in battle are"
-	line "MON-trainers." ; "#MON trainers."
+	para "vechten zijn" ; "in battle are"
+	line "#MON-trainers." ; "#MON trainers."
 
 	para "Verwacht wordt dat" ; "They are expected"
 	line "ze #MON-gyms" ; "to visit #MON"
