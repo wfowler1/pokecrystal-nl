@@ -55,7 +55,7 @@ SageChowBeatenText:
 
 SageChowAfterBattleText:
 	text "Al het levende" ; "All living beings"
-	line "bestaat samen door" ; "coexist through"
+	line "leeft voort door" ; "coexist through"
 	cont "samen te werken." ; "cooperation."
 
 	para "We moeten er dank-" ; "We must always be"
@@ -70,10 +70,10 @@ SproutTower1FSage1Text:
 
 SproutTower1FSage2Text:
 	text "SPROUT-TOREN werd" ; "SPROUT TOWER was"
-	line "lang geleden ge-" ; "built long ago"
+	line "lang geleden" ; "built long ago"
 
-	para "bouwd om er #-" ; "as a place for"
-	line "MON te trainen." ; "#MON training."
+	para "gebouwd om #MON" ; "as a place for"
+	line "te trainen." ; "#MON training."
 	done
 
 SproutTower1FGrannyText:

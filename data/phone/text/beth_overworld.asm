@@ -1,56 +1,56 @@
 BethAskNumber1Text:
-	text "It's been a while"
-	line "since I lost…"
+	text "Het is lang gelee" ; "It's been a while"
+	line "sinds ik verloor." ; "since I lost…"
 
-	para "You're very good"
-	line "at battling."
+	para "Je bent erg goed" ; "You're very good"
+	line "in vechten." ; "at battling."
 
-	para "We should battle"
-	line "again sometime."
+	para "We moeten nog eens" ; "We should battle"
+	line "vechten." ; "again sometime."
 
-	para "By challenging a"
-	line "tough trainer like"
+	para "Door een sterke" ; "By challenging a"
+	line "trainer als jij" ; "tough trainer like"
 
-	para "you, I think I can"
-	line "get better too."
+	para "uit te dagen, kan" ; "you, I think I can"
+	line "ik beter worden." ; "get better too."
 
-	para "So how about it?"
+	para "Wat zeg je er van?" ; "So how about it?"
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Mag ik je" ; "Would you give me"
+	line "telefoonnummer?" ; "your phone number?"
 	done
 
 BethAskNumber2Text:
-	text "By challenging a"
-	line "tough trainer like"
-
-	para "you, I think I can"
-	line "get better too."
-
-	para "So how about it?"
-
-	para "Would you give me"
-	line "your phone number?"
+	text "Door een sterke" ; "By challenging a"
+	line "trainer als jij" ; "tough trainer like"
+	
+	para "uit te dagen, kan" ; "you, I think I can"
+	line "ik beter worden." ; "get better too."
+	
+	para "Wat zeg je er van?" ; "So how about it?"
+	
+	para "Mag ik je" ; "Would you give me"
+	line "telefoonnummer?" ; "your phone number?"
 	done
 
 BethNumberAcceptedText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Laten we nog eens" ; "Let's battle again"
+	line "vechten!" ; "sometime!"
 	done
 
 BethNumberDeclinedText:
-	text "That's too bad…"
+	text "Dat is jammer…" ; "That's too bad…"
 
-	para "Let me know if you"
-	line "change your mind."
+	para "Laat me weten als" ; "Let me know if you"
+	line "je het toch wil." ; "change your mind."
 	done
 
 BethPhoneFullText:
-	text "Oh no. Your phone"
-	line "is out of memory."
+	text "Oh nee. Je tele-" ; "Oh no. Your phone"
+	line "foon zit vol." ; "is out of memory."
 	done
 
 BethRematchText:
-	text "You sure kept me"
-	line "waiting! Let's go!"
+	text "Dat duurde lang!" ; "You sure kept me"
+	line "We beginnen!" ; "waiting! Let's go!"
 	done

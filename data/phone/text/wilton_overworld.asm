@@ -1,61 +1,62 @@
 WiltonAskNumber1Text:
-	text "Eh, our battle was"
-	line "fun, I'd say…"
+	text "Eh, dat was best" ; "Eh, our battle was"
+	line "een leuk gevecht…" ; "fun, I'd say…"
 
-	para "When I'm fishing,"
-	line "I sometimes snag"
+	para "Tijdens het vissen" ; "When I'm fishing,"
+	line "vang ik soms ook" ; "I sometimes snag"
 
-	para "items that people"
-	line "have dropped."
+	para "voorwerpen die men" ; "items that people"
+	line "is kwijtgeraakt." ; "have dropped."
 
-	para "Do you want them?"
-	line "What's the number?"
+	para "Wil je ze hebben?" ; "Do you want them?"
+	line "Wat is je nummer?" ; "What's the number?"
 	done
 
 WiltonAskNumber2Text:
-	text "If I snag an item"
-	line "while I'm fishing,"
+	text "Als ik 'n voorwerp" ; "If I snag an item"
+	line "vang als ik vis," ; "while I'm fishing,"
 
-	para "it's yours. What's"
-	line "your number?"
+	para "mag je het hebben." ; "it's yours. What's"
+	line "Wat is je nummer?" ; "your number?"
 	done
 
 WiltonNumberAcceptedText:
-	text "If I snag anything"
-	line "good, I'll be sure"
-	cont "to let you know."
+	text "Als ik iets goeds" ; "If I snag anything"
+	line "vang, laat ik het" ; "good, I'll be sure"
+	cont "je zeker weten." ; "to let you know."
 	done
 
 WiltonNumberDeclinedText:
-	text "All right… Come"
-	line "back if you have a"
-	cont "change of heart."
+	text "Oké… Kom terug als" ; "All right… Come"
+	line "je het later toch" ; "back if you have a"
+	cont "wil." ; "change of heart."
 	done
 
 WiltonPhoneFullText:
-	text "You can't register"
-	line "another number."
+	text "Je kunt niet nog" ; "You can't register"
+	line "een nummer" ; "another number."
+	cont "registreren."
 	done
 
 WiltonRematchText:
-	text "Argh! You startled"
-	line "POLIWAG into"
-	cont "fleeing again!"
+	text "ARGH! POLIWAG" ; "Argh! You startled"
+	line "schrok van je en" ; "POLIWAG into"
+	cont "is weer gevlucht!" ; "fleeing again!"
 	done
 
 WiltonGiftText:
-	text "So here you are."
+	text "Daar ben je dan." ; "So here you are."
 
-	para "See this?"
-	line "I snagged it just"
+	para "Zie je dit? Ik" ; "See this?"
+	line "ving het een tijd" ; "I snagged it just"
 
-	para "a little while"
-	line "ago. It's yours."
+	para "terug. Je mag het" ; "a little while"
+	line "hebben." ; "ago. It's yours."
 	done
 
 WiltonPackFullText:
-	text "Your PACK's full?"
+	text "TAS zit vol?" ; "Your PACK's full?"
 
-	para "I'll give it to"
-	line "you later."
+	para "Ik geef het je" ; "I'll give it to"
+	line "later wel." ; "you later."
 	done

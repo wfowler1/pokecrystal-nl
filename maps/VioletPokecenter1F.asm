@@ -195,8 +195,8 @@ VioletPokecenter1FGentlemanText:
 	cont "zin met #MON." ; "#MON."
 
 	para "Maar het kwam goed" ; "But justice pre-"
-	line "een jonge knaap" ; "vailed--a young"
-	cont "versloeg ze." ; "kid broke 'em up."
+	line "toen een jonge" ; "vailed--a young"
+	cont "knaap ze versloeg." ; "versloeg ze." ; "kid broke 'em up."
 	done
 
 VioletPokecenter1FYoungsterText:

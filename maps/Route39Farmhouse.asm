@@ -102,9 +102,9 @@ FarmerMText_SickCow:
 	line "onze melk." ; "got famous milk."
 
 	para "Iedereen lust wel" ; "Most everyone"
-	line "een slokkie." ; "wants a drink."
+	line "een slok." ; "wants a drink."
 
-	para "Wellicht maakt ie" ; "It'll give me lots"
+	para "Wellicht krijg ik" ; "It'll give me lots"
 	line "weer melk als ik" ; "o' milk if'n I"
 
 	para "heel veel bessen" ; "feed it lots o'"
@@ -118,8 +118,8 @@ FarmerMText_BuyMilk:
 	para "Dit koppie melk is" ; "It's my pride and"
 	line "mijn grote trots." ; "joy, there."
 
-	para "Geef het aan #-" ; "Give it to #MON"
-	line "MON om te genezen." ; "to restore HP!"
+	para "Geef het #MON" ; "Give it to #MON"
+	line "om te genezen." ; "to restore HP!"
 
 	para "Je mag 't hebben" ; "I'll give it to ya"
 	line "voor slechts ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}." ; "fer just ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."

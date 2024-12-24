@@ -35,104 +35,104 @@ TrainerHouseIllegibleBook:
 	jumptext TrainerHouseIllegibleText
 
 TrainerHouse1FReceptionistText:
-	text "Welcome to TRAINER"
-	line "HOUSE, the newest"
+	text "Welkom bij het" ; "Welcome to TRAINER"
+	line "TRAINERHUIS, de" ; "HOUSE, the newest"
 
-	para "and most happening"
-	line "place in VIRIDIAN."
+	para "nieuwste en hipste" ; "and most happening"
+	line "plek in VIRIDIAN." ; "place in VIRIDIAN."
 
-	para "We're open to"
-	line "trainers only."
+	para "Alleen trainers" ; "We're open to"
+	line "mogen naar binnen." ; "trainers only."
 
-	para "You can battle"
-	line "against the best"
+	para "Beneden kun je" ; "You can battle"
+	line "vechten tegen de" ; "against the best"
 
-	para "of the best right"
-	line "downstairs."
+	para "beste van de" ; "of the best right"
+	line "beste trainers." ; "downstairs."
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "VIRIDIAN is the"
-	line "town closest to"
-	cont "INDIGO PLATEAU."
+	text "VIRIDIAN ligt het" ; "VIRIDIAN is the"
+	line "dichtst bij het" ; "town closest to"
+	cont "INDIGO-PLATEAU." ; "INDIGO PLATEAU."
 
-	para "They built this"
-	line "place because so"
+	para "Deze plek is ge-" ; "They built this"
+	line "bouwd omdat zoveel" ; "place because so"
 
-	para "many trainers pass"
-	line "through on their"
+	para "trainers hier" ; "many trainers pass"
+	line "passeerden op" ; "through on their"
 
-	para "way up to INDIGO"
-	line "PLATEAU."
+	para "weg naar het" ; "way up to INDIGO"
+	line "INDIGO-PLATEAU." ; "PLATEAU."
 	done
 
 TrainerHouse1FCooltrainerFText:
-	text "They hold practice"
-	line "battles downstairs"
-	cont "here."
+	text "Beneden houden ze" ; "They hold practice"
+	line "oefenpotjes tegen" ; "battles downstairs"
+	cont "elkaar." ; "here."
 
-	para "I would love to"
-	line "see how well a"
+	para "Ik zou graag zien" ; "I would love to"
+	line "hoe een trainer" ; "see how well a"
 
-	para "trainer from JOHTO"
-	line "battles."
+	para "uit JOHTO het er" ; "trainer from JOHTO"
+	line "vanaf brengt." ; "battles."
 	done
 
 TrainerHouse1FYoungsterText:
-	text "I guess you can't"
-	line "become the CHAMP"
+	text "Je wordt geen" ; "I guess you can't"
+	line "KAMPIOEN zonder de" ; "become the CHAMP"
 
-	para "unless you go all"
-	line "over the place and"
+	para "wereld rond te" ; "unless you go all"
+	line "reizen en tegen" ; "over the place and"
 
-	para "battle all kinds"
-	line "of people."
+	para "allerlei soorten" ; "battle all kinds"
+	line "mensen te vechten." ; "of people."
 
-	para "The CHAMPION from"
-	line "PALLET traveled to"
+	para "De KAMPIOEN uit" ; "The CHAMPION from"
+	line "PALLET reisde naar" ; "PALLET traveled to"
 
-	para "all the cities and"
-	line "towns in KANTO."
+	para "alle steden en" ; "all the cities and"
+	line "dorpen van KANTO." ; "towns in KANTO."
 	done
 
 TrainerHouse1FGentlemanText:
-	text "Whew… I'm taking a"
-	line "rest from #MON"
-	cont "battles."
+	text "Pfoe… Even een" ; "Whew… I'm taking a"
+	line "pauze van #MON-" ; "rest from #MON"
+	cont "gevechten." ; "battles."
 	done
 
 TrainerHouseSign1Text:
-	text "Practice battles"
-	line "are held in the"
+	text "Oefengevechten" ; "Practice battles"
+	line "worden beneden in" ; "are held in the"
 
-	para "TRAINING HALL"
-	line "downstairs."
+	para "de TRAININGHAL" ; "TRAINING HALL"
+	line "gehouden." ; "downstairs."
 
-	para "Skilled trainers"
-	line "are invited to"
-	cont "participate."
+	para "Vaardige trainers" ; "Skilled trainers"
+	line "worden uitgenodigd" ; "are invited to"
+	cont "om deel te nemen." ; "participate."
 	done
 
 TrainerHouseSign2Text:
-	text "There are no rules"
-	line "or regulations for"
+	text "Voor oefenpotjes" ; "There are no rules"
+	line "gelden geen voor-" ; "or regulations for"
 
-	para "practice matches."
-	line "Just like in field"
+	para "schriften. Alles" ; "practice matches."
+	line "is toegestaan, net" ; "Just like in field"
 
-	para "battles, anything"
-	line "goes!"
+	para "als in echte" ; "battles, anything"
+	line "gevechten!" ; "goes!"
 	done
 
 TrainerHouseIllegibleText:
-	text "…What's this?"
-	line "A strategy memo?"
+	text "…Wat is dit?" ; "…What's this?"
+	line "Een strategiememo?" ; "A strategy memo?"
 
-	para "This writing looks"
-	line "like ONIX tracks…"
+	para "De tekst lijkt" ; "This writing looks"
+	line "op ONIX-sporen…" ; "like ONIX tracks…"
 
-	para "It's completely"
-	line "illegible…"
+	para "Het is compleet" ; "It's completely"
+	line "onleesbaar…" ; "illegible…"
 	done
 
 TrainerHouse1F_MapEvents:

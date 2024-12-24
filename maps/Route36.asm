@@ -563,7 +563,7 @@ PsychicMarkAfterBattleText:
 SchoolboyAlan1SeenText:
 	text "Dankzij mijn" ; "Thanks to my stud-"
 	line "studie ben ik" ; "ies, I'm ready for"
-	cont "klaar voor iedere" ; "any #MON!"
+	cont "klaar voor elke" ; "any #MON!"
 	cont "#MON!"
 	done
 

@@ -366,14 +366,14 @@ LassDana1SeenText:
 	text "Jij lijkt me goed" ; "You seem to be"
 	line "in #MON." ; "good at #MON."
 
-	para "Zo ja, kun je mij" ; "If you are, how"
-	line "anders wat advies" ; "about giving me"
+	para "Zou jij mij anders" ; "If you are, how"
+	line "wat advies kunnen" ; "about giving me"
 	cont "geven?" ; "some advice?"
 	done
 
 LassDana1BeatenText:
 	text "Ik snap het. Dus" ; "I see. So you can"
-	line "jij vecht zo." ; "battle that way."
+	line "zo kan het ook." ; "battle that way."
 	done
 
 LassDanaMoomooMilkText:

@@ -1,73 +1,72 @@
 JoseAskNumber1Text:
-	text "If my @"
+	text "Als m'n @" ; "If my @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	line "sees anything"
+	line "iets moois" ; "sees anything"
 
-	para "pretty, it goes"
-	line "and gets it."
+	para "ziet, dan pakt het" ; "pretty, it goes"
+	line "dit van de grond." ; "and gets it."
 
-	para "Do you like pretty"
-	line "things?"
+	para "Ben je dol op" ; "Do you like pretty"
+	line "mooie dingen?" ; "things?"
 
-	para "I could share if"
-	line "it gets some more."
+	para "Ik wil wel met je" ; "I could share if"
+	line "delen, anders." ; "it gets some more."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "Wat is je nummer?" ; "What's your phone"
+	line "Dan bel ik je." ; "number? I'll call."
 
-	para "Don't expect a"
-	line "whole lot, OK?"
+	para "Verwacht er niet" ; "Don't expect a"
+	line "veel van, OK?" ; "whole lot, OK?"
 	done
 
 JoseAskNumber2Text:
-	text "Do you like pretty"
-	line "things?"
-
-	para "I could share if"
-	line "FARFETCH'D goes"
-	cont "and gets more."
-
-	para "What's your phone"
-	line "number? I'll call."
+	text "Ben je dol op" ; "Do you like pretty"
+	line "mooie dingen?" ; "things?"
+	
+	para "Ik wil wel met je" ; "I could share if"
+	line "delen, anders." ; "it gets some more."
+	
+	para "Wat is je nummer?" ; "What's your phone"
+	line "Dan bel ik je." ; "number? I'll call."
 	done
 
 JoseNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I get"
-	cont "something pretty."
+	text "Ik bel zodra ik" ; "I'll call you as"
+	line "iets moois heb" ; "soon as I get"
+	cont "gekregen." ; "something pretty."
 	done
 
 JoseNumberDeclinedText:
-	text "You sure? Well,"
-	line "tell me if you"
-	cont "change your mind."
+	text "Zeker weten? Nou," ; "You sure? Well,"
+	line "zeg het als je het" ; "tell me if you"
+	cont "toch wil." ; "change your mind."
 	done
 
 JosePhoneFullText:
-	text "Huh? Your phone"
-	line "list is full."
+	text "Huh? Je telefoon-" ; "Huh? Your phone"
+	line "lijst is vol." ; "list is full."
 	done
 
 JoseRematchText:
-	text "Tweet! Tweeeet!"
+	text "Twiet! Twieeeet!" ; "Tweet! Tweeeet!"
 
-	para "Kept me waiting!"
-	line "Go, FARFETCH'D!"
+	para "Ik wachtte op je!" ; "Kept me waiting!"
+	line "Ga, FARFETCH'D!" ; "Go, FARFETCH'D!"
 	done
 
 JoseGiftText:
-	text "Kept me waiting!"
-	line "Look, this is it!"
+	text "Ik wachtte op je!" ; "Kept me waiting!"
+	line "Kijk, dit is het!" ; "Look, this is it!"
 
-	para "See? Isn't it some"
-	line "kind of pretty?"
+	para "Zie je? Mooi, of" ; "See? Isn't it some"
+	line "niet soms?" ; "kind of pretty?"
 	done
 
 JosePackFullText:
-	text "Huh? You don't"
-	line "have anywhere to"
+	text "Huh? Je hebt geen" ; "Huh? You don't"
+	line "plek om het te" ; "have anywhere to"
 
-	para "put this. Better"
-	line "come back for it."
+	para "bewaren. Kom er" ; "put this. Better"
+	line "later voor terug." ; "come back for it."
 	done

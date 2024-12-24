@@ -1,68 +1,68 @@
 ErinAnswerPhoneText:
-	text "Yes, this is"
+	text "Ja, je spreekt met" ; "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "Oh. Hi, <PLAY_G>!"
-	line "Good morning!"
+	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
+	line "Goedemorgen!" ; "Good morning!"
 	done
 
 ErinAnswerPhoneDayText:
-	text "Yes, this is"
+	text "Ja, je spreekt met" ; "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
-
-	para "Oh, hi, <PLAY_G>!"
-	line "Yahoo!"
+	
+	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
+	line "Jahoe!" ; "Yahoo!"
 	done
 
 ErinAnswerPhoneNiteText:
-	text "Yes, this is"
+	text "Ja, je spreekt met" ; "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
-
-	para "Oh, hi, <PLAY_G>!"
+	
+	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
 	done
 
 ErinGreetText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "Met @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
-	line "Good morning!"
+	line "Goedemorgen!" ; "Good morning!"
 	done
 
 ErinGreetDayText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "Met @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
-	line "Working hard?"
+	line "Hard aan het werk?" ; "Working hard?"
 	done
 
 ErinGreetNiteText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "Met @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
-	line "Were you up?"
+	line "Was je wakker?" ; "Were you up?"
 	done
 
 ErinGenericText:
-	text "Are you raising"
-	line "your #MON?"
+	text "Je #MON aan het" ; "Are you raising"
+	line "trainen?" ; "your #MON?"
 
-	para "Hey, @"
+	para "He, @" ; "Hey, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "'s"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
-	cont "looking good!"
+	cont "dik in orde!" ; "looking good!"
 	done

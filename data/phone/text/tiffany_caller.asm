@@ -1,65 +1,65 @@
 TiffanyMonIsAdorableText:
-	text "My @"
+	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "adorable, don't"
+	text " is" ; "'s"
+	line "aandoenlijk, vind" ; "adorable, don't"
 
-	para "you think so?"
-	line "I always sleep"
+	para "je ook niet?" ; "you think so?"
+	line "Ik slaap er altijd" ; "I always sleep"
 
-	para "with it--it's so"
-	line "fluffy and warm!"
+	para "mee--het is is zo" ; "with it--it's so"
+	line "zacht en warm!" ; "fluffy and warm!"
 	done
 
 TiffanyDefeatedMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Oh, we moesten met" ; "Oh, and we had to"
+	line "een wilde" ; "battle a wild"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " a while"
-	line "ago…"
+	text "vechten" ; " a while"
+	line "een tijd terug…" ; "ago…"
 
-	para "My CLEFAIRY came"
-	line "close to fainting!"
+	para "Mijn CLEFAIRY viel" ; "My CLEFAIRY came"
+	line "bijna flauw!" ; "close to fainting!"
 
-	para "Isn't that awful?"
+	para "Wat erg, he?" ; "Isn't that awful?"
 
-	para "I hate those nasty"
+	para "Ik haat die nare" ; "I hate those nasty"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 	done
 
 TiffanyLostAMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Oh, we moesten met" ; "Oh, and we had to"
+	line "een wilde" ; "battle a wild"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " a while"
-	line "ago…"
+	text "vechten" ; " a while"
+	line "een tijd terug…" ; "ago…"
 
-	para "My CLEFAIRY got"
-	line "frightened, so we"
+	para "Mijn CLEFAIRY werd" ; "My CLEFAIRY got"
+	line "bang, dus we zijn" ; "frightened, so we"
 
-	para "ran away as fast"
-	line "as we could!"
+	para "zo hard mogelijk" ; "ran away as fast"
+	line "weggerend!" ; "as we could!"
 
-	para "I just can't help"
-	line "feeling protective"
-	cont "of my CLEFAIRY."
+	para "Ik wil gewoon erg" ; "I just can't help"
+	line "graag CLEFAIRY" ; "feeling protective"
+	cont "beschermen." ; "of my CLEFAIRY."
 	done
 
 TiffanyBattleRematchText:
-	text "I know this might"
-	line "surprise you, but"
+	text "Dit zal je vast" ; "I know this might"
+	line "verrassen, maar" ; "surprise you, but"
 
-	para "would you like to"
-	line "battle?"
+	para "wil je anders met" ; "would you like to"
+	line "mij vechten?" ; "battle?"
 
-	para "I'll be waiting"
-	line "with CLEFAIRY on"
+	para "Ik wacht met" ; "I'll be waiting"
+	line "CLEFAIRY op" ; "with CLEFAIRY on"
 	cont "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
@@ -69,68 +69,69 @@ TiffanyItsAwfulText:
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "It's awful."
-	line "My CLEFAIRY…"
+	para "Wat erg. Mijn" ; "It's awful."
+	line "CLEFAIRY…" ; "My CLEFAIRY…"
 
 	para "Huh? <PLAY_G>?"
 
-	para "Oh, sorry! I was"
-	line "in a hurry, and I…"
+	para "Oh, sorry! Ik had" ; "Oh, sorry! I was"
+	line "had haast, en ik…" ; "in a hurry, and I…"
 
-	para "I have to go!"
-	line "Bye-bye!"
+	para "Ik moet gaan!" ; "I have to go!"
+	line "Doei-doei!" ; "Bye-bye!"
 	done
 
 TiffanyHangUpText:
-	text "Bye-bye!"
+	text "Doei-doei!" ; "Bye-bye!"
 	done
 
 TiffanyFoundItemText:
-	text "I bought some PINK"
-	line "BOWS at GOLDENROD"
+	text "Ik heb wat ZIJDEN" ; "I bought some PINK"
+	line "SJAALS gekocht in" ; "BOWS at GOLDENROD"
 
-	para "DEPT.STORE for my"
-	line "CLEFAIRY."
+	para "GOLDENROD WAREN-" ; "DEPT.STORE for my"
+	line "HUIS voor mijn" ; "CLEFAIRY."
+	cont "CLEFAIRY."
 
-	para "I got too many, so"
-	line "I'll give you one!"
+	para "Ik heb er te veel," ; "I got too many, so"
+	line "dus je mag er één!" ; "I'll give you one!"
 
-	para "Come collect it on"
+	para "Haal maar op bij" ; "Come collect it on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 	done
 
 TiffanyNoItemText:
-	text "I love dressing up"
-	line "my CLEFAIRY!"
+	text "Ik verkleed graag" ; "I love dressing up"
+	line "mijn CLEFAIRY!" ; "my CLEFAIRY!"
 	done
 
 TiffanyAsleepText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Wat is er mis?" ; "What's wrong?"
+	line "Kun je niet komen?" ; "Can't you visit?"
 
-	para "CLEFAIRY got tired"
-	line "and fell asleep."
+	para "CLEFAIRY werd moe" ; "CLEFAIRY got tired"
+	line "en viel in slaap." ; "and fell asleep."
 
-	para "I'm not sure if I"
-	line "can wake it up…"
+	para "Ik weet niet of ik" ; "I'm not sure if I"
+	line "het kan wekken…" ; "can wake it up…"
 
-	para "Please hurry to"
+	para "Haast je naar" ; "Please hurry to"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 TiffanyHurryText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Wat is er mis?" ; "What's wrong?"
+	line "Kun je niet komen?" ; "Can't you visit?"
 
-	para "I'm sure this will"
-	line "look good on your"
+	para "Dit ziet er vast" ; "I'm sure this will"
+	line "goed uit bij jouw" ; "look good on your"
 	cont "CLEFAIRY."
 
-	para "Please hurry to"
+	para "Haast je naar" ; "Please hurry to"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"

@@ -202,98 +202,98 @@ PlateauRivalLeavesMovement:
 	step_end
 
 IndigoPlateauPokecenter1FCooltrainerMText:
-	text "At the #MON"
-	line "LEAGUE, you'll get"
+	text "Bij de #MON-" ; "At the #MON"
+	line "LEAGUE word je" ; "LEAGUE, you'll get"
 
-	para "tested by the"
+	para "getest door de" ; "tested by the"
 	line "ELITE FOUR."
 
-	para "You have to beat"
-	line "them all. If you"
+	para "Je moet ze" ; "You have to beat"
+	line "allemaal verslaan." ; "them all. If you"
 
-	para "lose, you have to"
-	line "start all over!"
+	para "Als je verliest," ; "lose, you have to"
+	line "moet je opnieuw!" ; "start all over!"
 	done
 
 PlateauRivalText1:
-	text "Hold it."
+	text "Wacht even." ; "Hold it."
 
-	para "You're going to"
-	line "take the #MON"
+	para "Ga jij nu de" ; "You're going to"
+	line "uitdaging van de" ; "take the #MON"
 
-	para "LEAGUE challenge"
-	line "now?"
+	para "de #MON LEAGUE" ; "LEAGUE challenge"
+	line "aan?" ; "now?"
 
-	para "That's not going"
-	line "to happen."
+	para "Dat sta ik niet" ; "That's not going"
+	line "toe." ; "to happen."
 
-	para "My super-well-"
-	line "trained #MON"
+	para "Mijn supergoed" ; "My super-well-"
+	line "getrainde #MON" ; "trained #MON"
 
-	para "are going to pound"
-	line "you."
+	para "stampen je de" ; "are going to pound"
+	line "grond in." ; "you."
 
 	para "<PLAYER>!"
-	line "I challenge you!"
+	line "Ik daag je uit!" ; "I challenge you!"
 	done
 
 PlateauRivalWinText:
 	text "…"
 
-	para "OK--I lost…"
+	para "OK--ik verloor…" ; "OK--I lost…"
 	done
 
 PlateauRivalText2:
-	text "…Darn… I still"
-	line "can't win…"
+	text "…Verdraaid… Nog" ; "…Darn… I still"
+	line "steeds verlies ik…" ; "can't win…"
 
-	para "I… I have to think"
-	line "more about my"
-	cont "#MON…"
+	para "Ik… Ik moet meer" ; "I… I have to think"
+	line "aan mijn #MON" ; "more about my"
+	cont "denken…" ; "#MON…"
 
-	para "Humph! Try not to"
-	line "lose!"
+	para "Humph! Probeer" ; "Humph! Try not to"
+	line "niet te verliezen!" ; "lose!"
 	done
 
 PlateauRivalLoseText:
 	text "…"
 
-	para "Whew…"
-	line "With my partners,"
+	para "Whew…" ; "Whew…"
+	line "Met mijn partners" ; "With my partners,"
 
-	para "I'm going to be"
-	line "the CHAMPION!"
+	para "ga ik de KAMPIOEN" ; "I'm going to be"
+	line "worden!" ; "the CHAMPION!"
 	done
 
 TeleportGuyText1:
-	text "Ah! You're chal-"
-	line "lenging the ELITE"
+	text "Ah! Je daagt de" ; "Ah! You're chal-"
+	line "ELITE FOUR uit?" ; "lenging the ELITE"
 
-	para "FOUR? Are you sure"
-	line "you're ready?"
+	para "Ben je echt goed" ; "FOUR? Are you sure"
+	line "voorbereid?" ; "you're ready?"
 
-	para "If you need to"
-	line "train some more,"
+	para "Als je meer moet" ; "If you need to"
+	line "trainen, kan mijn" ; "train some more,"
 
-	para "my ABRA can help"
-	line "you."
+	para "ABRA je daar bij" ; "my ABRA can help"
+	line "helpen." ; "you."
 
-	para "It can TELEPORT"
-	line "you home."
+	para "Die TELEPORTEERT" ; "It can TELEPORT"
+	line "je naar huis." ; "you home."
 
-	para "Would you like to"
-	line "go home now?"
+	para "Wil je nu naar" ; "Would you like to"
+	line "huis toe?" ; "go home now?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "OK, OK. Probeer" ; "OK, OK. Picture"
+	line "je huis in te" ; "huis voor mij" ; "your house in your"
+	cont "beelden…" ; "mind…"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "OK, OK. Heel veel" ; "OK, OK. The best"
+	line "succes!" ; "of luck to you!"
 	done
 
 AbraText:

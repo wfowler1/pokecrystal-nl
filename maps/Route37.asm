@@ -126,10 +126,10 @@ TwinsAnnandanne1BeatenText:
 	done
 
 TwinsAnnandanne1AfterBattleText:
-	text "ANN: Ik weet wat" ; "ANN: I can tell"
-	line "mijn zus en mijn" ; "what my sister and"
+	text "ANN: Ik weet" ; "ANN: I can tell"
+	line "precies wat mijn" ; "what my sister and"
 
-	para "#MON allemaal" ; "my #MON are"
+	para "zus en #MON" ; "my #MON are"
 	line "denken." ; "thinking."
 	done
 
@@ -145,8 +145,8 @@ TwinsAnnandanne2BeatenText:
 	done
 
 TwinsAnnandanne2AfterBattleText:
-	text "ANNE: Wij delen de" ; "ANNE: We share the"
-	line "gevoelens van onze" ; "same feelings as"
+	text "ANNE: Wij voelen" ; "ANNE: We share the"
+	line "hetzelfde als onze" ; "same feelings as"
 	cont "#MON." ; "our #MON."
 	done
 
@@ -207,7 +207,7 @@ SunnyGaveGiftText:
 	line "elektrische aan-" ; "knows electric"
 
 	para "vallen moet het" ; "moves should hold"
-	line "vasthouden Mijn." ; "it."
+	line "vasthouden. Mijn" ; "it."
 
 	para "zus MONICA zegt" ; "My sis MONICA said"
 	line "dat het hun aan-" ; "it powers up"

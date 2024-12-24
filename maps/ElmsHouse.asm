@@ -63,8 +63,8 @@ ElmsHousePCText:
 	line "toe?" ; "going?"
 
 	para "Waarom zag niemand" ; "Why has no one"
-	line "de geboorte van" ; "ever witnessed a"
-	cont "#MON?" ; "#MON's birth?"
+	line "ooit de geboorte" ; "ever witnessed a"
+	cont "van een #MON?" ; "#MON's birth?"
 
 	para "Ik wil het weten!" ; "I want to know! I"
 	line "Ik wijd mijn leven" ; "will dedicate my"
@@ -75,8 +75,8 @@ ElmsHousePCText:
 	para "…"
 
 	para "Het is deel van" ; "It's a part of"
-	line "PROF.ELM's onder-" ; "PROF.ELM's re-"
-	cont "zoekspapieren." ; "search papers."
+	line "PROF.ELM's" ; "PROF.ELM's re-"
+	cont "onderzoekspaper." ; "search papers."
 	done
 
 ElmsHouse_MapEvents:

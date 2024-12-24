@@ -27,8 +27,8 @@ BlackthornMartCooltrainerMText:
 	para "het herstelt een" ; "fully restores a"
 	line "#MON volledig." ; "fainted #MON."
 
-	para "Let op--AP worden" ; "Beware--it won't"
-	line "niet hersteld, de" ; "restore PP, the"
+	para "Let op--het her-" ; "Beware--it won't"
+	line "stelt niet AP, de" ; "restore PP, the"
 
 	para "ACTIEPUNTEN nodig" ; "POWER POINTS"
 	line "voor aanvallen." ; "needed for moves."

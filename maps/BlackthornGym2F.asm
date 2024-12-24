@@ -81,7 +81,7 @@ TrainerCooltrainerfFran:
 CooltrainermCodySeenText:
 	text "Het is niet dat" ; "It's not as if we"
 	line "we allemaal draak-" ; "all use dragon-"
-	cont "#MON gberuiken." ; "type #MON."
+	cont "#MON gebruiken." ; "type #MON."
 	done
 
 CooltrainermCodyBeatenText:
@@ -91,7 +91,7 @@ CooltrainermCodyBeatenText:
 
 CooltrainermCodyAfterBattleText:
 	text "Leden van onze" ; "Members of our"
-	line "drakenclan" ; "dragon-user clan"
+	line "drakenstam" ; "dragon-user clan"
 
 	para "mogen enkel draak-" ; "can use dragon"
 	line "#MON gebruiken" ; "#MON only after"

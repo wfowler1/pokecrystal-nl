@@ -360,8 +360,8 @@ BirdKeeperBryanAfterBattleText:
 	line "vangen met KURT's" ; "with KURT's FAST"
 	cont "SNELLE BAL." ; "BALL."
 
-	para "Als ik een WT.-" ; "Whenever I find a"
-	line "ABRIKHORN vind," ; "WHT APRICORN, I"
+	para "Als ik een" ; "Whenever I find a"
+	line "WT.ABRIKHORN vind," ; "WHT APRICORN, I"
 	cont "gaat ie naar KURT." ; "take it to KURT."
 
 	para "Hij maakt er een" ; "He turns it into a"
@@ -369,9 +369,8 @@ BirdKeeperBryanAfterBattleText:
 	done
 
 JugglerIrwin1SeenText:
-	text "Aanschouw mijn" ; "Behold my graceful"
-	line "gracieuze BAL-" ; "BALL dexterity!"
-	cont "behendigheid!"
+	text "Zie mijn gracieuze" ; "Behold my graceful"
+	line "BAL-behendigheid!" ; "BALL dexterity!"
 	done
 
 JugglerIrwin1BeatenText:
@@ -384,8 +383,8 @@ JugglerIrwinAfterBattleText:
 	line "blinden met mijn" ; "dazzle you with my"
 	cont "winnende #MON." ; "prize #MON."
 
-	para "Maar je dapperheid" ; "But your prowess"
-	line "heeft me geschokt!" ; "electrified me!"
+	para "Maar je kunsten" ; "But your prowess"
+	line "schokten me!" ; "electrified me!"
 	done
 
 BugCatcherArnieSeenText:

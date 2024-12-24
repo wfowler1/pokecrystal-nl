@@ -1,79 +1,79 @@
 BethAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Oh, <PLAY_G>."
-	line "Good morning."
+	line "Goedemorgen." ; "Good morning."
 
 	para ""
 	done
 
 BethAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "Oh. Hi, <PLAY_G>."
+	para "Oh. Hoi, <PLAY_G>." ; "Oh. Hi, <PLAY_G>."
 	done
 
 BethAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
 	para "Oh, <PLAY_G>."
-	line "Good evening."
+	line "Goedenavond." ; "Good evening."
 	done
 
 BethGreetText:
-	text "Good morning,"
+	text "Goedemorgen," ; "Good morning,"
 	line "<PLAY_G>!"
 
-	para "This is @"
+	para "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
-	line "Were you sleeping?"
+	line "Sliep je?" ; "Were you sleeping?"
 	done
 
 BethGreetDayText:
 	text "<PLAY_G>, hi!"
-	line "This is @"
+	line "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "Do you have some"
-	line "time?"
+	para "Heb je eventjes" ; "Do you have some"
+	line "tijd?" ; "time?"
 	done
 
 BethGreetNiteText:
-	text "Hi, <PLAY_G>."
-	line "Good evening."
+	text "Hoi, <PLAY_G>." ; "Hi, <PLAY_G>."
+	line "Goedenavond." ; "Good evening."
 
-	para "This is @"
+	para "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 
-	para "I hope you were"
-	line "awake."
+	para "Hopelijk was je" ; "I hope you were"
+	line "wakker." ; "awake."
 	done
 
 BethGenericText:
-	text "Are you the kind"
-	line "of person who goes"
+	text "Ben jij het type" ; "Are you the kind"
+	line "persoon dat vaak" ; "of person who goes"
 
-	para "to #MON CENTERS"
-	line "often?"
+	para "naar #MON-" ; "to #MON CENTERS"
+	line "CENTRUMS gaat?" ; "often?"
 
-	para "I go every day."
-	line "Watching out for"
+	para "Ik ga iedere dag." ; "I go every day."
+	line "Een goede trainer" ; "Watching out for"
 
-	para "the health of your"
-	line "#MON is a basic"
+	para "let op de gezond-" ; "the health of your"
+	line "heid van diens" ; "#MON is a basic"
 
-	para "part of being a"
-	line "#MON trainer."
+	para "#MON, dat is" ; "part of being a"
+	line "de basis." ; "#MON trainer."
 	done

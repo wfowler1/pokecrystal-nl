@@ -268,13 +268,13 @@ Text_UseTackle:
 
 Text_ThisIsABigBattle:
 	text "Wat? Dit is een" ; "What? This is a"
-	line "groot gevecht!" ; "big battle!"
+	line "groots gevecht!" ; "big battle!"
 	cont "Laat me met rust!" ; "Leave me alone!"
 	done
 
 YoungsterJoey1SeenText:
 	text "Ik heb net ver-" ; "I just lost, so"
-	line "loren, ik zoek nu" ; "I'm trying to find"
+	line "loren, dus zoek nu" ; "I'm trying to find"
 	cont "nieuwe #MON." ; "more #MON."
 
 	para "Wacht! Jij ziet er" ; "Wait! You look"
@@ -295,8 +295,8 @@ YoungsterJoey1AfterText:
 	line "vechten?" ; "better?"
 
 	para "Nee! Ik blijf" ; "No! I'm sticking"
-	line "ondanks alles bij!" ; "with this one no"
-	cont "Mijn punt!" ; "matter what!"
+	line "ondanks alles bij" ; "with this one no"
+	cont "mijn strategie!" ; "matter what!"
 	done
 
 YoungsterMikeySeenText:
@@ -350,18 +350,17 @@ Route30YoungsterText_DirectionsToMrPokemonsHouse:
 
 Route30YoungsterText_EveryoneIsBattling:
 	text "Iedereen heeft lol" ; "Everyone's having"
-	line "tijdens het vech-" ; "fun battling!"
-	cont "ten! Doe mee!" ; "You should too!"
+	line "tijdens het" ; "fun battling!"
+	cont "vechten! Doe mee!" ; "You should too!"
 	done
 
 Route30CooltrainerFText:
-	text "Ik train zelf" ; "I'm not a trainer."
-	line "niet."
+	text "Ik ben geen" ; "I'm not a trainer."
+	line "trainer."
 
-	para "Kijk je een trai-" ; "But if you look"
-	line "ner in de ogen," ; "one in the eyes,"
-	cont "dan is het" ; "prepare to battle."
-	cont "vechten."
+	para "Kijk een trainer" ; "But if you look"
+	line "in de ogen, en je" ; "one in the eyes,"
+	cont "moet vechten." ; "prepare to battle.
 	done
 
 Route30SignText:

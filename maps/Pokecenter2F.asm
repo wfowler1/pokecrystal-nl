@@ -973,7 +973,7 @@ Text_MysteryGiftDeliveryGuy_NoRoom:
 	text "Oh, je hebt hier" ; "Oh, you have no"
 	line "geen plek voor." ; "space for this."
 
-	para "Kom naar ieder" ; "Stop in at any"
+	para "Ga naar een" ; "Stop in at any"
 	line "#MONCENTRUM in" ; "#MON CENTER"
 
 	para "het land om het" ; "across the country"

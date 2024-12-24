@@ -61,7 +61,7 @@ SupernerdHughAfterBattleText:
 	line "trainer gezien met" ; "trainer who has a"
 
 	para "een SLOWPOKE die" ; "SLOWPOKE that can"
-	line "KRACHT kan?" ; "use STRENGTH?"
+	line "KRACHT kent?" ; "use STRENGTH?"
 	done
 
 MountMortar2FInside_MapEvents:

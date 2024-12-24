@@ -36,34 +36,34 @@ CopycatsHouse1FBlisseyScript:
 	end
 
 CopycatsHouse1FPokefanMText:
-	text "My daughter likes"
-	line "to mimic people."
+	text "Mijn dochter doet" ; "My daughter likes"
+	line "graag mensen na." ; "to mimic people."
 
-	para "Her mimicry has"
-	line "earned her the"
+	para "Door haar" ; "Her mimicry has"
+	line "imitaties wordt ze" ; "earned her the"
 
-	para "nickname COPYCAT"
-	line "around here."
+	para "ook wel de na-aper" ; "nickname COPYCAT"
+	line "genoemd." ; "around here."
 	done
 
 CopycatsHouse1FPokefanFText:
-	text "My daughter is so"
-	line "self-centered…"
+	text "Mijn dochter is zo" ; "My daughter is so"
+	line "egoïstisch…" ; "self-centered…"
 
-	para "She only has a few"
-	line "friends."
+	para "Ze heeft maar een" ; "She only has a few"
+	line "paar vrienden." ; "friends."
 	done
 
 CopycatsHouse1FPokefanFText_ReturnedMachinePart:
-	text "She recently lost"
-	line "the # DOLL that"
+	text "Recent verloor ze" ; "She recently lost"
+	line "de #POP die een" ; "the # DOLL that"
 
-	para "a boy gave her"
-	line "three years ago."
+	para "jongen haar drie" ; "a boy gave her"
+	line "jaar geleden gaf." ; "three years ago."
 
-	para "Ever since then,"
-	line "she's gotten even"
-	cont "better at mimicry…"
+	para "Daarna is ze nog" ; "Ever since then,"
+	line "beter in imiteren" ; "she's gotten even"
+	cont "geworden…" ; "better at mimicry…"
 	done
 
 CopycatsHouse1FBlisseyText:

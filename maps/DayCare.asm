@@ -74,8 +74,8 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "Opa was naar je op" ; "Gramps was looking"
+	line "zoek." ; "for you."
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
@@ -102,55 +102,55 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Ik ben de" ; "I'm the DAY-CARE"
+	line "DAGVERBLIJFT-MAN." ; "MAN."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Heb je al gehoord" ; "Do you know about"
+	line "over EIEREN?" ; "EGGS?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Weet je, ik voedde" ; "I was raising"
+	line "#MON op met" ; "#MON with my"
+	cont "mijn vrouw." ; "wife, you see."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "We schrokken toen" ; "We were shocked to"
+	line "we een EI vonden!" ; "find an EGG!"
 
-	para "How incredible is"
-	line "that?"
+	para "Hoe geweldig is" ; "How incredible is"
+	line "dat?" ; "that?"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
+	para "Zeg, wil jij dit" ; "Well, wouldn't you"
+	line "EI hebben?" ; "like this EGG?"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Prima, dan mag jij" ; "Then fine, this is"
+	line "deze houden!" ; "yours to keep!"
 	done
 
 DayCareText_ComeAgain: ; unreferenced
-	text "Come again."
+	text "Kom snel weer." ; "Come again."
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "VREEMD EI!" ; "ODD EGG!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "Ik vond dat toen" ; "I found that when"
+	line "ik voor andermans" ; "I was caring for"
 
-	para "someone's #MON"
-	line "before."
+	para "#MON aan het" ; "someone's #MON"
+	line "zorgen was." ; "before."
 
-	para "But the trainer"
-	line "didn't want the"
+	para "Maar de trainer" ; "But the trainer"
+	line "wilde het EI niet," ; "didn't want the"
 
-	para "EGG, so I'd kept"
-	line "it around."
+	para "dus ik heb het" ; "EGG, so I'd kept"
+	line "maar bewaard." ; "it around."
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "Je hebt hier geen" ; "You've no room for"
+	line "plek voor." ; "this."
 	done
 
 DayCare_MapEvents:

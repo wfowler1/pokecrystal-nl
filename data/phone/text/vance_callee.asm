@@ -1,81 +1,82 @@
 VanceAnswerPhoneText:
-	text "Yes, hello?"
+	text "Ja, hallo?" ; "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " here!"
+	text "hier!" ; " here!"
 
-	para "Morning, <PLAY_G>!"
+	para "Mogge, <PLAY_G>!" ; "Morning, <PLAY_G>!"
 
-	para "Are you using bird"
+	para "Gebruik je vogel-" ; "Are you using bird"
 	line "#MON?"
 	done
 
 VanceAnswerPhoneDayText:
-	text "Yes, hello?"
+	text "Ja, hallo?" ; "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " here!"
+	text "hier!" ; " here!"
 
-	para "Hi, <PLAY_G>!"
+	para "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
 
-	para "Are your bird"
-	line "#MON flying?"
+	para "Vliegen je vogel-" ; "Are your bird"
+	line "#MON?" ; "#MON flying?"
 	done
 
 VanceAnswerPhoneNiteText:
-	text "Yes, hello?"
+	text "Ja, hallo?" ; "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text " here!"
+	text "hier!" ; " here!"
 
-	para "Evening, <PLAY_G>!"
-	line "Are you letting"
+	para "Goedenavond," ; "Evening, <PLAY_G>!"
+	line "<PLAY_G>! Vergeet" ; "Are you letting"
 
-	para "your bird #MON"
-	line "see some action?"
+	para "niet je vogel-" ; "your bird #MON"
+	line "#MON wat actie" ; "see some action?"
+	cont "te bieden!"
 	done
 
 VanceGreetText:
-	text "Good morning,"
+	text "Goedemorgen," ; "Good morning,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
-	line "Good morning!"
+	line "Goedemorgen!" ; "Good morning!"
 	done
 
 VanceGreetDayText:
-	text "Hi, <PLAY_G>!"
+	text "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
 
-	para "It's @"
+	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
-	line "Remember me?"
+	line "Herinner je me?" ; "Remember me?"
 	done
 
 VanceGreetNiteText:
-	text "Good evening,"
+	text "Goedenavond," ; "Good evening,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
-	line "Are you free now?"
+	line "Heb je even tijd?" ; "Are you free now?"
 	done
 
 VanceGenericText:
-	text "Are you and your"
-	line "#MON fine?"
+	text "Gaat het goed met" ; "Are you and your"
+	line "jou en je #MON?" ; "#MON fine?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	line "looks like it will"
+	line "begint sterk ge-" ; "looks like it will"
 
-	para "get tough enough"
-	line "to face and beat"
+	para "noeg te worden om" ; "get tough enough"
+	line "de legendarische" ; "to face and beat"
 
-	para "the legendary bird"
-	line "#MON!"
+	para "vogel-#MON te" ; "the legendary bird"
+	line "verslaan!" ; "#MON!"
 	done

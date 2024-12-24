@@ -199,144 +199,148 @@ CopycatSpinAroundMovementData:
 	step_end
 
 CopycatText_Male_1:
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Hoi! Ben" ; "<PLAYER>: Hi! Do"
+	line "je dol op #MON?" ; "you like #MON?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: Uh, nee," ; "<PLAYER>: Uh, no, I"
+	line "ik vroeg het jou." ; "just asked you."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Huh? Wat" ; "<PLAYER>: Huh?"
+	line "ben je raar!" ; "You're strange!"
 	done
 
 CopycatText_QuickMimicking:
-	text "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	text "NA-APER: Hm? Stop-" ; "COPYCAT: Hmm?"
+	line "pen met na-apen?" ; "Quit mimicking?"
 
-	para "But that's my"
-	line "favorite hobby!"
+	para "Maar dat is mijn" ; "But that's my"
+	line "favoriete hobby!" ; "favorite hobby!"
 	done
 
 CopycatText_Male_2:
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: Hoi!" ; "<PLAYER>: Hi!"
+	line "Ik hoor dat je" ; "I heard that you"
 
-	para "lost your favorite"
-	line "# DOLL."
+	para "jouw favoriete" ; "lost your favorite"
+	line "#POP kwijt was." ; "# DOLL."
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail PASS?"
+	para "<PLAYER>: Als ik" ; "<PLAYER>: If I find"
+	line "die vind, mag ik" ; "it, you'll give me"
+	cont "een TREINKAARTJE?" ; "a rail PASS?"
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
+	para "<PLAYER>: Ik ga" ; "<PLAYER>: I'll go"
+	line "voor je zoeken." ; "find it for you."
 
-	para "You think you lost"
-	line "it when you went"
-	cont "to VERMILION CITY?"
+	para "Raakte je hem" ; "You think you lost"
+	line "kwijt toen je naar" ; "it when you went"
+	cont "VERMILLION CITY" ; "to VERMILION CITY?"
+	cont "ging?"
 	done
 
 CopycatText_Worried:
-	text "COPYCAT: Pardon?"
+	text "NA-APER: Pardon?" ; "COPYCAT: Pardon?"
 
-	para "I shouldn't decide"
-	line "what you should"
-	cont "do?"
+	para "Ik moet niet" ; "I shouldn't decide"
+	line "beslissen wat je" ; "what you should"
+	cont "moet doen?" ; "do?"
 
-	para "But I'm really"
-	line "worried… What if"
-	cont "someone finds it?"
+	para "Maar ik maak me" ; "But I'm really"
+	line "zorgen… Wat als" ; "worried… What if"
+	cont "iemand hem vindt?" ; "someone finds it?"
 	done
 
 CopycatText_GiveDoll:
-	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
-	cont "# DOLL!"
+	text "NA-APER: Hoera!" ; "COPYCAT: Yay!"
+	line "Dat is de #POP" ; "That's my CLEFAIRY"
+	cont "van CLEFAIRY!" ; "# DOLL!"
 
-	para "See the tear where"
-	line "the right leg is"
+	para "Zie je waar de" ; "See the tear where"
+	line "rechterpoot weer" ; "the right leg is"
 
-	para "sewn on? That's"
-	line "proof!"
+	para "is vastgenaaid?" ; "sewn on? That's"
+	line "Dat is bewijs!" ; "proof!"
 	done
 
 CopycatText_GivePass:
-	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
-	cont "like I promised!"
+	text "OK. Hier is het" ; "OK. Here's the"
+	line "TREINKAARTJE zoals" ; "MAGNET TRAIN PASS"
+	cont "ik had beloofd!" ; "like I promised!"
 	done
 
 CopycatText_ExplainPass:
-	text "COPYCAT: That's"
-	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	text "NA-APER: Dat is" ; "COPYCAT: That's"
+	line "een KAARTJE voor" ; "the PASS for the"
+	cont "de MAGNEETTREIN." ; "MAGNET TRAIN."
 
-	para "The rail company"
-	line "man gave me that"
+	para "De treinmaatschap-" ; "The rail company"
+	line "pij gaf mij dat" ; "man gave me that"
 
-	para "when they tore"
-	line "down our old house"
-	cont "for the STATION."
+	para "toen ze ons oude" ; "when they tore"
+	line "huis sloopten voor" ; "down our old house"
+	cont "het STATION." ; "for the STATION."
 	done
 
 CopycatText_Male_3:
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail PASS!"
+	text "<PLAYER>: Hoi!" ; "<PLAYER>: Hi!"
+	line "Bedankt voor het" ; "Thanks a lot for"
+	cont "TREINKAARTJE!" ; "the rail PASS!"
 
 	para "<PLAYER>: Pardon?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Is het" ; "<PLAYER>: Is it"
+	line "zo leuk om alles" ; "that fun to mimic"
+	cont "na te apen?" ; "my every move?"
 	done
 
 CopycatText_ItsAScream:
-	text "COPYCAT: You bet!"
-	line "It's a scream!"
+	text "NA-APER: Echt wel!" ; "COPYCAT: You bet!"
+	line "Het is dikke lol!" ; "It's a scream!"
 	done
 
 CopycatText_Female_1:
-	text "<PLAYER>: Hi. You"
-	line "must like #MON."
+	text "<PLAYER>: Hoi. Jij" ; "<PLAYER>: Hi. You"
+	line "bent vast dol op" ; "must like #MON."
+	cont "#MON."
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>: Nee, ik" ; "<PLAYER>: No, not"
+	line "ik niet. Ik vroeg" ; "me. I asked you."
+	cont "het aan jou."
 
 	para "<PLAYER>: Pardon?"
-	line "You're weird!"
+	line "Je bent raar!" ; "You're weird!"
 	done
 
 CopycatText_Female_2:
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # DOLL?"
+	text "<PLAYER>: Hoi. Was" ; "<PLAYER>: Hi. Did"
+	line "je echt je #POP" ; "you really lose"
+	cont "kwijt?" ; "your # DOLL?"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "<PLAYER>: geef je" ; "<PLAYER>: You'll"
+	line "mij echt een" ; "really give me a"
 
-	para "rail PASS if I"
-	line "find it for you?"
+	para "TREINKAARTJE als" ; "rail PASS if I"
+	line "ik hem terugvind?" ; "find it for you?"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
+	para "<PLAYER>: Prima," ; "<PLAYER>: Sure,"
+	line "ik ga wel zoeken!" ; "I'll look for it!"
 
-	para "You think you lost"
-	line "it when you were"
-	cont "in VERMILION?"
+	para "Raakte je hem" ; "You think you lost"
+	line "kwijt toen je naar" ; "it when you went"
+	cont "VERMILLION CITY" ; "to VERMILION CITY?"
+	cont "ging?"
 	done
 
 CopycatText_Female_3:
-	text "<PLAYER>: Thank you"
-	line "for the rail PASS!"
+	text "<PLAYER>: Bedankt" ; "<PLAYER>: Thank you"
+	line "voor het KAARTJE!" ; "for the rail PASS!"
 
 	para "<PLAYER>: …Pardon?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
+	para "<PLAYER>: Is het" ; "<PLAYER>: Is it"
+	line "echt zo leuk om" ; "really that fun to"
 
-	para "copy what I say"
-	line "and do?"
+	para "alles van mij na" ; "copy what I say"
+	line "te apen?" ; "and do?"
 	done
 
 CopycatsDodrioText1:
@@ -344,18 +348,19 @@ CopycatsDodrioText1:
 	done
 
 CopycatsDodrioText2:
-	text "MIRROR, MIRROR ON"
-	line "THE WALL, WHO'S"
+	text "SPIEGELTJE," ; "MIRROR, MIRROR ON"
+	line "SPIEGELTJE AAN DE" ; "THE WALL, WHO'S"
 
-	para "THE FAIREST ONE OF"
-	line "ALL?"
+	para "WAND, WIE IS DE" ; "THE FAIREST ONE OF"
+	line "MOOISTE VAN HET" ; "ALL?"
+	cont "LAND?"
 	done
 
 CopycatsHouse2FDollText:
-	text "This is a rare"
+	text "Een zeldzame" ; "This is a rare"
 	line "#MON! Huh?"
 
-	para "It's only a doll…"
+	para "Het is een pop…" ; "It's only a doll…"
 	done
 
 CopycatsHouse2F_MapEvents:

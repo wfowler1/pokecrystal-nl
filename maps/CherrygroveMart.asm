@@ -42,7 +42,7 @@ CherrygroveMartYoungsterScript:
 
 CherrygroveMartCooltrainerMText:
 	text "Alle #BALLEN" ; "They're fresh out"
-	line "zijn op hier!" ; "of # BALLS!"
+	line "zijn hier op!" ; "of # BALLS!"
 
 	para "Wanneer komen er" ; "When will they get"
 	line "nieuwe binnen?" ; "more of them?"
@@ -56,15 +56,15 @@ CherrygroveMartCooltrainerMText_PokeBallsInStock:
 
 CherrygroveMartYoungsterText:
 	text "Toen ik door het" ; "When I was walking"
-	line "gras liep, ver-" ; "in the grass, a"
+	line "gras liep," ; "in the grass, a"
 
-	para "giftigde een" ; "bug #MON poi-"
+	para "vergiftigde een" ; "bug #MON poi-"
 	line "insect-#MON m'n" ; "soned my #MON!"
 	cont "eigen #MON!"
 
 	para "Ik bleef door-" ; "I just kept going,"
 	line "lopen, maar toen" ; "but then my"
-	cont "viel hij flauw." ; "#MON fainted."
+	cont "viel ie flauw." ; "#MON fainted."
 
 	para "Je moet altijd wat" ; "You should keep an"
 	line "ANTIGIF meenemen." ; "ANTIDOTE with you."

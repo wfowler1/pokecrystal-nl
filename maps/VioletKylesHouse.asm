@@ -26,7 +26,7 @@ VioletKylesHousePokefanMText:
 	para "Maar als je niet" ; "But if you don't"
 	line "de juiste badge" ; "have the right GYM"
 
-	para "hebt, luistert hij" ; "BADGE, they may"
+	para "hebt, luistert het" ; "BADGE, they may"
 	line "soms niet naar je." ; "disobey you."
 	done
 

@@ -1,98 +1,98 @@
 BethExhilaratingRideText:
-	text "Do you remember my"
-	line "sweet @"
+	text "Herinner je mijn" ; "Do you remember my"
+	line "lieve @" ; "sweet @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "?"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " runs"
-	line "very fast."
+	text "rent" ; " runs"
+	line "heel snel." ; "very fast."
 
-	para "It's exhilarating"
-	line "to ride on its"
+	para "Het is bevrijdend" ; "It's exhilarating"
+	line "om achterop te" ; "to ride on its"
 
-	para "back when it"
-	line "really gets going."
+	para "rijden bij een" ; "back when it"
+	line "hoge snelheid." ; "really gets going."
 	done
 
 BethDefeatedMonText:
-	text "Oh, have you ever"
-	line "seen a @"
+	text "Oh, heb je eerder" ; "Oh, have you ever"
+	line "een @" ; "seen a @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	cont "before?"
+	cont "gezien?" ; "before?"
 
-	para "I just battled"
-	line "one…"
+	para "Ik vocht er net" ; "I just battled"
+	line "tegen…" ; "one…"
 
-	para "It was much faster"
-	line "than I expected."
+	para "Het was sneller" ; "It was much faster"
+	line "dan gedacht." ; "than I expected."
 
-	para "I was a little"
-	line "shocked."
+	para "Ik schrok er een" ; "I was a little"
+	line "beetje van." ; "shocked."
 
-	para "I still won, of"
-	line "course."
+	para "Uiteraard won ik" ; "I still won, of"
+	line "alsnog." ; "course."
 	done
 
 BethLostAMonText:
-	text "Oh, I just saw a"
-	line "wild @"
+	text "Oh, ik zag net een" ; "Oh, I just saw a"
+	line "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "I was trying to"
-	line "catch it when I"
+	para "Ik probeerde het" ; "I was trying to"
+	line "te vangen, maar ik" ; "catch it when I"
 
-	para "noticed that I was"
-	line "all out of #"
-	cont "BALLS."
+	para "bleek helemaal" ; "noticed that I was"
+	line "geen #BALLEN te" ; "all out of #"
+	cont "hebben. Als je" ; "BALLS."
 
-	para "If you don't check"
-	line "your items, you"
+	para "niet je spullen" ; "If you don't check"
+	line "bijhoudt, zit je" ; "your items, you"
 
-	para "may run out at the"
-	line "worst time."
+	para "soms op 't slecht-'" ; "may run out at the"
+	line "ste moment zonder." ; "worst time."
 
-	para "I hope you learn"
-	line "from my mistake."
+	para "Hopelijk leer je" ; "I hope you learn"
+	line "van mijn fout." ; "from my mistake."
 	done
 
 BethBattleRematchText:
-	text "Do you want to"
-	line "battle? I'm going"
-	cont "to win this time!"
+	text "Wil je vechten?" ; "Do you want to"
+	line "Ditmaal ga ik van" ; "battle? I'm going"
+	cont "je winnen!" ; "to win this time!"
 
-	para "I'll be waiting"
-	line "for you around"
+	para "Ik wacht op je" ; "I'll be waiting"
+	line "in de buurt van" ; "for you around"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
-	line "Look for me, OK?"
+	line "Zoek me op, OK?" ; "Look for me, OK?"
 	done
 
 BethHangUpText:
-	text "OK, bye-bye!"
+	text "OK, doei-doei!" ; "OK, bye-bye!"
 	done
 
 BethLetsBattleAgainSometimeText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Laten we nog eens" ; "Let's battle again"
+	line "vechten!" ; "sometime!"
 	done
 
 BethReminderText:
 	text "Um… <PLAY_G>?"
-	line "What's wrong?"
+	line "Wat is er mis?" ; "What's wrong?"
 
-	para "Did you forget our"
-	line "deal?"
+	para "Ben je onze" ; "Did you forget our"
+	line "afspraak vergeten?" ; "deal?"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
 
-	para "That's where I'm"
-	line "waiting."
+	para "Dat is waar ik op" ; "That's where I'm"
+	line "je wacht." ; "waiting."
 	done

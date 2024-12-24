@@ -83,7 +83,7 @@ MountMortarB1FKiyoIntroText:
 	cont "duister!"
 
 	para "Jij!" ; "You!"
-	line  "Vecht met me!" ; "Battle with me!"
+	line "Vecht met me!" ; "Battle with me!"
 
 	para "Hwaaarggh!"
 	done
@@ -101,7 +101,8 @@ MountMortarB1FTyrogueRewardText:
 	line "nog onvoldoende…" ; "still not enough…"
 
 	para "Maar verloren is" ; "But a loss is a"
-	line "verloren. Eerlijk." ; "loss. I admit it."
+	line "verloren. Ik geef" ; "loss. I admit it."
+	cont "het toe."
 
 	para "Als bewijs dat je" ; "As proof that you"
 	line "van me won, geef" ; "defeated me, I'll"
@@ -116,14 +117,14 @@ MountMortarB1FReceiveMonText:
 	done
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "TUROGUE is een" ; "TYROGUE is a"
+	text "TYROGUE is een" ; "TYROGUE is a"
 	line "vecht-type." ; "fighting-type."
 
 	para "Het evolueert in" ; "It evolves into a"
-	line "een sterkere #-" ; "tougher #MON."
-	cont "MON."
+	line "een sterkere" ; "tougher #MON."
+	cont "#MON."
 
-	para "Blijf hard je best" ; "Keep up the hard"
+	para "Blijf goed je best" ; "Keep up the hard"
 	line "doen. Ik blijf" ; "work. I'll keep"
 	cont "ook trainen." ; "training too."
 

@@ -1,73 +1,74 @@
 ParryAskNumber1Text:
-	text "Sheesh, the way"
-	line "you attacked! That"
+	text "Jeetje, de manier" ; "Sheesh, the way"
+	line "waarop je aanviel!" ; "you attacked! That"
 
-	para "was something! We"
-	line "should meet again!"
+	para "Dat was me wat! We" ; "was something! We"
+	line "moeten nog eens" ; "should meet again!"
+	cont "afspreken!"
 
-	para "How about giving"
-	line "me your number?"
+	para "Wil je anders je" ; "How about giving"
+	line "nummer geven?" ; "me your number?"
 	done
 
 ParryAskNumber2Text:
-	text "So you want to"
-	line "register my phone"
+	text "Dus je wil mijn" ; "So you want to"
+	line "nummer voor een" ; "register my phone"
 
-	para "number for a re-"
-	line "match, huh?"
+	para "rematch, of niet" ; "number for a re-"
+	line "soms?" ; "match, huh?"
 	done
 
 ParryNumberAcceptedText:
-	text "I'll call you"
-	line "whenever I feel"
-	cont "like battling!"
+	text "Ik bel als ik zin" ; "I'll call you"
+	line "heb om tegen je te" ; "whenever I feel"
+	cont "vechten!" ; "like battling!"
 	done
 
 ParryNumberDeclinedText:
-	text "No? That's fine."
+	text "Nee? Prima hoor." ; "No? That's fine."
 
-	para "A definite no is"
-	line "easy to take!"
+	para "Ik weet dat nee" ; "A definite no is"
+	line "ook echt nee is!" ; "easy to take!"
 
-	para "I'll be right here"
-	line "when you're ready"
-	cont "for a rematch."
+	para "Je vindt me hier" ; "I'll be right here"
+	line "als je klaar bent" ; "when you're ready"
+	cont "voor een rematch." ; "for a rematch."
 	done
 
 ParryPhoneFullText:
-	text "Oh? There's no"
-	line "room to register"
-	cont "my phone number."
+	text "Oh? Er is geen" ; "Oh? There's no"
+	line "plek om m'n nummer" ; "room to register"
+	cont "te registreren." ; "my phone number."
 	done
 
 ParryRematchText:
-	text "Hey, here comes"
-	line "the kid! Let's go!"
+	text "He, daar ben je!" ; "Hey, here comes"
+	line "We gaan ervoor!" ; "the kid! Let's go!"
 
-	para "Ready for my usual"
-	line "no-brainer, all-"
-	cont "out offense?"
+	para "Klaar voor mijn" ; "Ready for my usual"
+	line "reguliere hersen-" ; "no-brainer, all-"
+	cont "loze offensief?" ; "out offense?"
 	done
 
 ParryPackFullText:
-	text "Your PACK looks"
-	line "stuffed full!"
+	text "Je TAS zit" ; "Your PACK looks"
+	line "helemaal vol!" ; "stuffed full!"
 
-	para "You can't have"
-	line "this now."
+	para "Je hebt hier geen" ; "You can't have"
+	line "plek voor." ; "this now."
 	done
 
 ParryRematchGiftText:
-	text "Well, you're"
-	line "special all right."
+	text "Je bent echt wel" ; "Well, you're"
+	line "een bijzondere." ; "special all right."
 
-	para "If only I'd begun"
-	line "#MON when I was"
-	cont "a tad younger…"
+	para "Was ik maar met" ; "If only I'd begun"
+	line "#MON begonnen" ; "#MON when I was"
+	cont "in mijn jeugd…" ; "a tad younger…"
 
-	para "I want you to work"
-	line "and succeed for"
+	para "Ik wil dat je voor" ; "I want you to work"
+	line "ons allebei je" ; "and succeed for"
 
-	para "the both of us."
-	line "So take this, OK?"
+	para "best doen. Neem" ; "the both of us."
+	line "daarom dit, OK?" ; "So take this, OK?"
 	done

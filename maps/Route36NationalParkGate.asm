@@ -485,7 +485,7 @@ Route36NationalParkGateOfficer1AskToParticipateText:
 	para "De regels zijn" ; "The rules are sim-"
 	line "simpel." ; "ple."
 
-	para "Van met één van" ; "Using one of your"
+	para "Vang met één van" ; "Using one of your"
 	line "je #MON een" ; "#MON, catch a"
 
 	para "insect-#MON om" ; "bug #MON to be"
@@ -551,7 +551,7 @@ Route36NationalParkGateOfficer1AskToUseFirstMonText:
 Route36NationalParkGateOfficer1WellHoldYourMonText:
 	text "Prima, we bewaren" ; "Fine, we'll hold"
 	line "je andere #MON" ; "your other #MON"
-	cont "tijdens de strijd." ; "while you compete."
+	cont "ondertussen." ; "while you compete."
 	done
 
 Route36NationalParkGatePlayersMonLeftWithHelperText:
@@ -734,11 +734,10 @@ BugCatchingContestant6BText:
 
 BugCatchingContestant6BStillCompetingText:
 	text "BARRY: Winnen is" ; "BARRY: It's easier"
-	line "makkelijker als je" ; "to win if you get"
+	line "makkelijker met" ; "to win if you get"
 
 	para "een insect-#MON" ; "a high-level bug"
 	line "van hoog niveau." ; "#MON."
-	cont "hebt."
 
 	para "Maar andere zaken" ; "But I think they"
 	line "spelen geloof ik" ; "also consider some"
@@ -762,8 +761,7 @@ BugCatchingContestant7BStillCompetingText:
 BugCatchingContestant8BText:
 	text "JOSH: Ik… Ik kan" ; "JOSH: I… I can't"
 	line "niet geloven dat" ; "believe I lost at"
-	cont "ik verloor met" ; "bug-catching…"
-	cont "insecten vangen…"
+	cont "ik verloor" ; "bug-catching…"
 	done
 
 BugCatchingContestant8BStillCompetingText:

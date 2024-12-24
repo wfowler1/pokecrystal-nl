@@ -179,7 +179,7 @@ VioletCitySpinningEarl_MovementData:
 
 Text_EarlAsksIfYouBeatFalkner:
 	text "Hallo! Jij" ; "Hello!"
-	line "bent een trainer?" ; "You are trainer?"
+	line "bent trainer?" ; "You are trainer?"
 
 	para "Vocht tegen GYM-" ; "Battle GYM LEADER,"
 	line "leider, won je?" ; "win you did?"
@@ -268,7 +268,7 @@ SproutTowerSignText:
 	text "SPROUT-TOREN"
 
 	para "Ervaar de weg" ; "Experience the"
-	line "#van #MON." ; "Way of #MON"
+	line "van #MON." ; "Way of #MON"
 	done
 
 EarlsPokemonAcademySignText:

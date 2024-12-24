@@ -25,7 +25,7 @@ ItemNames::
 	li "DONDERSTEEN" ; "THUNDERSTONE"
 	li "WATERSTEEN" ; "WATER STONE"
 	li "TERU-SAMA"
-	li "EP-PLUS" ; "HP UP"
+	li "LP-PLUS" ; "HP UP"
 	li "PROTEÏNE" ; "PROTEIN"
 	li "IJZER" ; "IRON"
 	li "CARBON" ; "CARBOS"
