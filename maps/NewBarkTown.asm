@@ -205,8 +205,7 @@ Text_WhatDoYouThinkYoureDoing:
 
 Text_ItsDangerousToGoAlone:
 	text "Het is gevaarlijk" ; "It's dangerous to"
-	line "te gaan zonder een" ; "go out without a"
-	cont "#MON!"
+	line "zonder #MON!" ; "go out without a"
 
 	para "Wilde #MON" ; "Wild #MON"
 	line "springen uit het" ; "jump out of the"
@@ -236,7 +235,7 @@ Text_CallMomOnGear:
 
 	para "haar te laten" ; "let her know how"
 	line "weten hoe het" ; "you're doing."
-	cont  "gaat."
+	cont "gaat."
 	done
 
 Text_ElmDiscoveredNewMon:
@@ -263,9 +262,9 @@ NewBarkTownRivalText2:
 NewBarkTownSignText:
 	text "NEW BARK TOWN"
 
-	para "Het dorp waar de" ; "The Town Where the"
-	line "wind van een nieuw" ; "Winds of a New"
-	cont "begin waait" ; "Beginning Blow"
+	para "Het Dorp Waar de" ; "The Town Where the"
+	line "Wind van een Nieuw" ; "Winds of a New"
+	cont "Begin Waait" ; "Beginning Blow"
 	done
 
 NewBarkTownPlayersHouseSignText:
@@ -273,7 +272,7 @@ NewBarkTownPlayersHouseSignText:
 	done
 
 NewBarkTownElmsLabSignText:
-	text "ELM #MON LAB"
+	text "ELM #MON-LAB"
 	done
 
 NewBarkTownElmsHouseSignText:
