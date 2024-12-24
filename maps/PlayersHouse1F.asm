@@ -222,7 +222,7 @@ ElmsLookingForYouText:
 	cont "doen." ; "thing for him."
 
 	para "Oh! Bijna ver-" ; "Oh! I almost for-"
-	line "geten! Je #MON" ; "got! Your #MON"
+	line "geten! Je #MON-" ; "got! Your #MON"
 
 	para "GEAR is terug van" ; "GEAR is back from"
 	line "de reparateur." ; "the repair shop."
@@ -231,12 +231,12 @@ ElmsLookingForYouText:
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, of" ; "#MON GEAR, or"
+	text "#MON-GEAR, of" ; "#MON GEAR, or"
 	line "gewoon #GEAR." ; "just #GEAR."
 
 	para "Hij is essentieel" ; "It's essential if"
-	line "om een goede trai-" ;"you want to be a"
-	cont "ner te worden." ; "good trainer."
+	line "om een goede" ;"you want to be a"
+	cont "trainer te worden." ; "good trainer."
 
 	para "Oh, de dag van de" ; "Oh, the day of the"
 	line "week ontbreekt." ; "week isn't set."
@@ -298,7 +298,7 @@ HurryUpElmIsWaitingText:
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "Welke klus had had" ; "So, what was PROF."
+	text "Wat voor klus had" ; "So, what was PROF."
 	line "PROF. ELM??" ; "ELM's errand?"
 
 	para "…"
@@ -360,8 +360,8 @@ PlayersHouse1FStoveText:
 
 PlayersHouse1FSinkText:
 	text "De goot is brand-" ; "The sink is spot-"
-	line "schoon. Mam maakt" ; "less. Mom likes it"
-	cont "graag schoon." ; "clean."
+	line "schoon. Mam poetst" ; "less. Mom likes it"
+	cont "graag." ; "clean."
 	done
 
 PlayersHouse1FFridgeText:
@@ -377,7 +377,7 @@ PlayersHouse1FTVText:
 	line "TV: Sterren vullen" ; "TV: Stars dot the"
 
 	para "de lucht terwijl" ; "sky as two boys"
-	line "een trein rijdt" ; "ride on a train…"
+	line "een trein rijdt…" ; "ride on a train…"
 
 	para "Ik moet ook maar" ; "I'd better get"
 	line "eens gaan!" ; "rolling too!"
