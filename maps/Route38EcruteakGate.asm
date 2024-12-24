@@ -18,7 +18,7 @@ Route38EcruteakGateOfficerText:
 	para "PROF.ELM woont" ; "PROF.ELM lives"
 	line "daar, toch?" ; "over there, right?"
 
-	para "Je bent flink ver" ; "You've come a long"
+	para "Je bent best ver" ; "You've come a long"
 	line "van huis." ; "way to get here."
 	done
 
