@@ -221,7 +221,7 @@ PlateauRivalText1:
 	para "Ga jij nu de" ; "You're going to"
 	line "uitdaging van de" ; "take the #MON"
 
-	para "de #MON LEAGUE" ; "LEAGUE challenge"
+	para "de #MON-LEAGUE" ; "LEAGUE challenge"
 	line "aan?" ; "now?"
 
 	para "Dat sta ik niet" ; "That's not going"

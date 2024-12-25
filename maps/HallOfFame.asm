@@ -65,11 +65,10 @@ HallOfFame_SlowlyApproachMachine:
 HallOfFame_LanceText:
 	text "LANCE: Het is lang" ; "LANCE: It's been a"
 	line "geleden sinds ik" ; "long time since I"
-	cont "hier voor het" ; "last came here."
-	cont "laatst was."
+	cont "hier was." ; "last came here."
 
 	para "Hier eren wij de" ; "This is where we"
-	line "KAMPIOENEN van" ; "honor the LEAGUE"
+	line "KAMPIOENEN van de" ; "honor the LEAGUE"
 
 	para "LEAGUE tot in de" ; "CHAMPIONS for all"
 	line "eeuwigheid." ; "eternity."

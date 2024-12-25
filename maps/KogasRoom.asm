@@ -95,9 +95,8 @@ KogaScript_KogaBeforeText:
 	line "gif…" ; "poison…"
 
 	para "Bereid voor om" ; "Prepare to be the"
-	line "slachtoffer te" ; "victim of my sin-"
-	cont "worden van mijn" ; "ister technique!"
-	cont "techniek!"
+	line "mijn slachtoffer" ; "victim of my sin-"
+	cont "te worden!" ; "ister technique!"
 
 	para "Fwahahahaha!"
 

@@ -103,7 +103,7 @@ KarenScript_KarenBeforeText:
 	done
 
 KarenScript_KarenBeatenText:
-	text "Nou, je bent echt" ; "Well, aren't you"
+	text "Zo, je bent echt" ; "Well, aren't you"
 	line "goed. Ik kan dat" ; "good. I like that"
 	cont "waarderen." ; "in a trainer."
 	done

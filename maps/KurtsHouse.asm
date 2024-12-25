@@ -462,7 +462,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	line "ROCKET? Ah, geen" ; "ROCKET? Ah, don't"
 
 	para "zorgen. Ik vertel" ; "worry. I'll tell"
-	line "het je wel." ; "you anyhow."
+	line "het je sowieso." ; "you anyhow."
 
 	para "TEAM ROCKET is een" ; "TEAM ROCKET's an"
 	line "kwaadaardige bende" ; "evil gang that"
@@ -545,9 +545,8 @@ KurtsHouseKurtThatsALetdownText:
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: Ik ben aan" ; "KURT: I'm working!"
-	line "het werk! Stoor me" ; "Don't bother me!"
-	cont "niet!"
+	text "KURT: Ik werk hier" ; "KURT: I'm working!"
+	line "nu! Stoor me niet!" ; "Don't bother me!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
@@ -579,10 +578,10 @@ KurtsHouseKurtWhatIsThatText:
 	line "nooit gezien." ; "one before."
 
 	para "Het lijkt op een" ; "It looks a lot"
-	line "#BAL, maar het" ; "like a # BALL,"
+	line "#BAL, maar zou" ; "like a # BALL,"
 
-	para "lijkt iets anders" ; "but it appears to"
-	line "te zijn." ; "be something else."
+	para "iets anders moeten" ; "but it appears to"
+	line "zijn." ; "be something else."
 
 	para "Laat mij eens goed" ; "Let me check it"
 	line "kijken." ; "for you."
