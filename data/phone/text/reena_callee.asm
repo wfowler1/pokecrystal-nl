@@ -1,72 +1,72 @@
 ReenaAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
 
-	para "Oh. Hi, <PLAYER>."
-	line "What's up?"
+	para "Oh. Hoi, <PLAYER>." ; "Oh. Hi, <PLAYER>."
+	line "Hoe gaat ie?" ; "What's up?"
 	done
 
 ReenaAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
-
-	para "Oh, hi, <PLAYER>,"
-	line "what's up?"
+	
+	para "Oh. Hoi, <PLAYER>." ; "Oh. Hi, <PLAYER>."
+	line "Hoe gaat ie?" ; "What's up?"
 	done
 
 ReenaAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "…"
-
-	para "Oh, hi, <PLAYER>,"
-	line "what's up?"
+	
+	para "Oh. Hoi, <PLAYER>." ; "Oh. Hi, <PLAYER>."
+	line "Hoe gaat ie?" ; "What's up?"
 	done
 
 ReenaGreetText:
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "Wat ben je traag!" ; "You're slow! Hurry"
+	line "Neem sneller op!" ; "up and answer!"
 
-	para "It's me, @"
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 ReenaGreetDayText:
-	text "You're slow! Hurry"
-	line "up and answer!"
-
-	para "It's me, @"
+	text "Wat ben je traag!" ; "You're slow! Hurry"
+	line "Neem sneller op!" ; "up and answer!"
+	
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 ReenaGreetNiteText:
-	text "You're slow! Hurry"
-	line "up and answer!"
-
-	para "It's me, @"
+	text "Wat ben je traag!" ; "You're slow! Hurry"
+	line "Neem sneller op!" ; "up and answer!"
+	
+	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 ReenaGenericText:
-	text "Hey, how are your"
-	line "#MON doing?"
+	text "He, goe gaat het" ; "Hey, how are your"
+	line "met je #MON?" ; "#MON doing?"
 
-	para "What? Great?"
-	line "I see…"
+	para "Wat? Goed?" ; "What? Great?"
+	line "Interessant…" ; "I see…"
 
-	para "What? My #MON?"
+	para "Wat? Mijn #MON?" ; "What? My #MON?"
 
-	para "Of course they're"
-	line "doing great! What"
+	para "Daar gaat het " ; "Of course they're"
+	line "natuurlijk gewel-" ; "doing great! What"
 
-	para "kind of a question"
-	line "is that?"
+	para "dig mee! Wat een" ; "kind of a question"
+	line "rare vraag?" ; "is that?"
 	done

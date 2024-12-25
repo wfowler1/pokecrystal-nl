@@ -25,7 +25,7 @@ BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "Een clan met" ; "A clan of trainers"
+	text "Een stam met" ; "A clan of trainers"
 	line "trainers die" ; "who can freely"
 
 	para "draken commanderen" ; "command dragons"

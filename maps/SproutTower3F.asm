@@ -166,7 +166,7 @@ SproutTowerElderLecturesRivalText:
 	line "je nu doet." ; "#MON better."
 
 	para "Je vecht op een" ; "The way you battle"
-	line "erg ruwe manier." ; "is far too harsh."
+	line "te ruwe manier." ; "is far too harsh."
 
 	para "#MON zijn geen" ; "#MON are not"
 	line "oorlogswapens…" ; "tools of war…"
@@ -211,9 +211,9 @@ SageLiSeenText:
 	line "een trainingsplek." ; "place of training."
 
 	para "Mensen en #MON" ; "People and #MON"
-	line "testen hun band." ; "test their bonds"
+	line "testen hun band" ; "test their bonds"
 
-	para "Om samen een mooie" ; "to build a bright"
+	para "om samen een mooie" ; "to build a bright"
 	line "toekomst te" ; "future together."
 	cont "bouwen."
 
@@ -223,8 +223,8 @@ SageLiSeenText:
 	para "Laat me de band" ; "Allow me to check"
 	line "tussen jou en je" ; "the ties between"
 
-	para "#MON op de!" ; "your #MON and"
-	line "Proef stellen!" ; "you!"
+	para "#MON op de" ; "your #MON and"
+	line "proef stellen!" ; "you!"
 	done
 
 SageLiBeatenText:
@@ -261,9 +261,9 @@ SageLiAfterBattleText:
 	done
 
 SageJinSeenText:
-	text "Ik train om ver-" ; "I train to find"
-	line "lichting in #-" ; "enlightenment in"
-	cont "MON te vinden!" ; "#MON!"
+	text "Ik train om" ; "I train to find"
+	line "verlichting in" ; "enlightenment in"
+	cont "#MON te vinden!" ; "#MON!"
 	done
 
 SageJinBeatenText:

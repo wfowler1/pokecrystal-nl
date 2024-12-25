@@ -1,88 +1,89 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Listen, dear…"
+	text "Luister, schat…" ; "Listen, dear…"
 
-	para "Do you recall my"
+	para "Herinner je mijn" ; "Do you recall my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "?"
 
-	para "Yes, exactly. That"
-	line "lovely @"
+	para "Ja, precies. Die" ; "Yes, exactly. That"
+	line "lieve @" ; "lovely @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "Wouldn't you agree"
-	line "it's a perfect"
-	cont "match for me?"
+	para "Vind je het ook" ; "Wouldn't you agree"
+	line "niet een perfecte" ; "it's a perfect"
+	cont "match voor mij?" ; "match for me?"
 	done
 
 ReenaDefeatedMonText:
-	text "Have I ever faced"
-	line "a wild @"
+	text "Of ik ooit een" ; "Have I ever faced"
+	line " @" ; "a wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text " zag?" ; "?"
 
-	para "You need to ask?"
+	para "Wat een vraag!" ; "You need to ask?"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " I've"
-	line "beaten on numerous"
-	cont "occasions!"
+	text "ver-" ; " I've"
+	line "sloeg ik meerdere" ; "beaten on numerous"
+	cont "malen!" ; "occasions!"
 	done
 
 ReenaLostAMonText:
-	text "Have I ever failed"
-	line "to catch a wild"
-	cont "#MON?"
+	text "Of het ooit niet" ; "Have I ever failed"
+	line "lukte een wilde" ; "to catch a wild"
+	cont "#MON te vangen?" ; "#MON?"
 
-	para "You need to ask?"
+	para "Wat een vraag!" ; "You need to ask?"
 
-	para "I would never fail"
-	line "to catch a wild"
+	para "Dat zou bij mij" ; "I would never fail"
+	line "nooit mislukken." ; "to catch a wild"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "…"
-	line "Oh! Never mind!"
+	line "Oh! Laat maar!" ; "Oh! Never mind!"
 	done
 
 ReenaBattleRematchText:
-	text "We are going to"
-	line "battle!"
+	text "Wij gaan samen" ; "We are going to"
+	line "vechten!" ; "battle!"
 
-	para "The place shall be"
+	para "De locatie wordt" ; "The place shall be"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 
-	para "Don't make me"
-	line "wait! Got it?"
+	para "Laat me niet" ; "Don't make me"
+	line "wachten! Begrepen?" ; "wait! Got it?"
 	done
 
 ReenaHangUpText:
-	text "Fine, you may go."
+	text "Prima, ga maar." ; "Fine, you may go."
 	done
 
 ReenaForwardText:
-	text "Don't be too proud"
-	line "just because you"
+	text "Maar wees niet" ; "Don't be too proud"
+	line "trots omdat je mij" ; "just because you"
 
-	para "happened to beat"
-	line "me… "
+	para "toevallig wist te" ; "happened to beat"
+	line "verslaan… " ; "me… "
 
-	para "It was a fluke!"
+	para "'t was een foutje!" ; "It was a fluke!"
 	done
 
 ReenaHurryText:
-	text "What are you"
-	line "doing?"
+	text "Wat doe jij nou" ; "What are you"
+	line "weer?" ; "doing?"
 
-	para "I told you that"
-	line "the place was"
+	para "Ik zei waar je" ; "I told you that"
+	line "heen moet." ; "the place was"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
-	line "Don't try to run!"
+	line "Probeer niet te" ; "Don't try to run!"
+	cont "vluchten!"
 	done

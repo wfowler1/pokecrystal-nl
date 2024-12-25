@@ -55,7 +55,7 @@ DarkCaveBlackthornEntrancePharmacistText1:
 
 DarkCaveBlackthornEntrancePharmacistText2:
 	text "De ZWARTE BRIL" ; "BLACKGLASSES ups"
-	line "maakt duistere" ; "the power of dark-"
+	line "maakt duister-" ; "the power of dark-"
 	cont "aanvallen sterker." ; "type moves."
 	done
 

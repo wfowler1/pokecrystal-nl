@@ -113,8 +113,8 @@ PokefanmJoshuaAfterBattleText:
 
 BirdKeeperPerrySeenText:
 	text "Snelheid is de" ; "Agility is the key"
-	line "sleutel van iedere" ; "attribute of bird"
-	cont "vogel-#MON." ; "#MON."
+	line "kernattribuut van" ; "attribute of bird"
+	cont "iedere vogel." ; "#MON."
 	done
 
 BirdKeeperPerryBeatenText:
@@ -142,8 +142,8 @@ BirdKeeperBretBeatenText:
 	done
 
 BirdKeeperBretAfterBattleText:
-	text "#MON zijn dol" ; "If you groom them,"
-	line "op borstelen." ; "#MON get happy."
+	text "#MON worden" ; "If you groom them,"
+	line "graag geborsteld." ; "#MON get happy."
 	done
 
 HikerKennySeenText:
@@ -158,8 +158,8 @@ HikerKennyBeatenText:
 
 HikerKennyAfterBattleText:
 	text "Geologische ob-" ; "Geological fea-"
-	line "jecten veranderen" ; "tures don't appear"
-	cont "nooit, lijkt het." ; "to change."
+	line "jecten lijken niet" ; "tures don't appear"
+	cont "te veranderen." ; "to change."
 
 	para "Maar eigenlijk" ; "But they actually"
 	line "verschuiven ze" ; "change, little by"

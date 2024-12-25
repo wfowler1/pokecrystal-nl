@@ -31,11 +31,12 @@ BattleTowerOutsideSign:
 	jumptext BattleTowerOutsideSignText
 
 BattleTowerOutsideYoungsterText_NotYetOpen: ; unreferenced
-	text "Wow, the BATTLE"
-	line "TOWER is huge! My"
+	text "Wauw, de GEVECHTS-" ; "Wow, the BATTLE"
+	line "TOREN is giga!" ; "TOWER is huge! My"
 
-	para "neck is tired from"
-	line "looking up at it."
+	para "Mijn nek doet pijn" ; "neck is tired from"
+	line "van het omhoog-" ; "looking up at it."
+	cont "kijken."
 	done
 
 BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
@@ -53,12 +54,12 @@ BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
 	done
 
 BattleTowerOutsideYoungsterText:
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "Wauw, de GEVECHTS-" ; "Wow, the BATTLE"
+	line "TOREN is giga!" ; "TOWER is huge!"
 
-	para "There must be many"
-	line "kinds of #MON"
-	cont "in there!"
+	para "Er zijn vast veel" ; "There must be many"
+	line "soorten #MON" ; "kinds of #MON"
+	cont "daarbinnen!" ; "in there!"
 	done
 
 BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
@@ -73,14 +74,14 @@ BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
 	done
 
 BattleTowerOutsideBeautyText:
-	text "You can use only"
-	line "three #MON."
+	text "Je mag maar drie" ; "You can use only"
+	line "#MON kiezen." ; "three #MON."
 
-	para "It's so hard to"
-	line "decide which three"
+	para "Het is lastig" ; "It's so hard to"
+	line "kiezen welke drie" ; "decide which three"
 
-	para "should go into"
-	line "battle…"
+	para "je mee moet gaan" ; "should go into"
+	line "vechten…" ; "battle…"
 	done
 
 BattleTowerOutsideSailorText_Mobile: ; unreferenced
@@ -94,26 +95,26 @@ BattleTowerOutsideSailorText_Mobile: ; unreferenced
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "Hehehe, ik sloop" ; "Hehehe, I snuck"
+	line "weg van werk." ; "out from work."
 
-	para "I can't bail out"
-	line "until I've won!"
+	para "Ik kan niet weg" ; "I can't bail out"
+	line "tot ik win!" ; "until I've won!"
 
-	para "I have to win it"
-	line "all. That I must!"
+	para "Ik moet alles" ; "I have to win it"
+	line "winnen! Echt!" ; "all. That I must!"
 	done
 
 BattleTowerOutsideSignText_NotYetOpen: ; unreferenced
 ; originally shown when the Battle Tower was closed
-	text "BATTLE TOWER"
+	text "GEVECHTSTOREN" ; "BATTLE TOWER"
 	done
 
 BattleTowerOutsideSignText:
-	text "BATTLE TOWER"
+	text "GEVECHTSTOREN" ; "BATTLE TOWER"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "De Ultieme" ; "Take the Ultimate"
+	line "TRAINER-UITDAGING!" ; "Trainer Challenge!"
 	done
 
 BattleTowerOutsideText_DoorsClosed: ; unreferenced

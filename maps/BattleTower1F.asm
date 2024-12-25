@@ -348,36 +348,37 @@ MovementData_BattleTowerBattleRoomPlayerTurnsToFaceNextOpponent:
 	step_end
 
 Text_BattleTowerWelcomesYou:
-	text "BATTLE TOWER"
-	line "welcomes you!"
+	text "De GEVECHTSTOREN" ; "BATTLE TOWER"
+	line "verwelkomt je!" ; "welcomes you!"
 
-	para "I could show you"
-	line "to a BATTLE ROOM."
+	para "Ik kan je naar een" ; "I could show you"
+	line "GEVECHTSKAMER" ; "to a BATTLE ROOM."
+	cont "brengen."
 	done
 
 Text_WantToGoIntoABattleRoom:
-	text "Want to go into a"
-	line "BATTLE ROOM?"
+	text "Wil je naar een" ; "Want to go into a"
+	line "GEVECHTSKAMER?" ; "BATTLE ROOM?"
 	done
 
 Text_RightThisWayToYourBattleRoom:
-	text "Right this way to"
-	line "your BATTLE ROOM."
+	text "Deze kant op naar" ; "Right this way to"
+	line "je GEVECHTSKAMER." ; "your BATTLE ROOM."
 	done
 
 Text_BattleTowerIntroduction_1: ; unreferenced
-	text "BATTLE TOWER is a"
-	line "facility made for"
-	cont "#MON battles."
+	text "De GEVECHTSTOREN" ; "BATTLE TOWER is a"
+	line "is speciaal voor" ; "facility made for"
+	cont "#MON-gevechten." ; "#MON battles."
 
-	para "Countless #MON"
-	line "trainers gather"
+	para "Talloze #MON-" ; "Countless #MON"
+	line "trainers verzamel-" ; "trainers gather"
 
-	para "from all over to"
-	line "hold battles in"
+	para "en hier om te" ; "from all over to"
+	line "vechten in" ; "hold battles in"
 
-	para "specially designed"
-	line "BATTLE ROOMS."
+	para "speciaal ontworpen" ; "specially designed"
+	line "GEVECHTSKAMERS." ; "BATTLE ROOMS."
 
 	para "There are many"
 	line "BATTLE ROOMS in"
@@ -426,63 +427,63 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	done
 
 Text_BattleTowerIntroduction_2:
-	text "BATTLE TOWER is a"
-	line "facility made for"
-	cont "#MON battles."
+	text "De GEVECHTSTOREN" ; "BATTLE TOWER is a"
+	line "is speciaal voor" ; "facility made for"
+	cont "#MON-gevechten." ; "#MON battles."
+	
+	para "Talloze #MON-" ; "Countless #MON"
+	line "trainers verzamel-" ; "trainers gather"
+	
+	para "en hier om te" ; "from all over to"
+	line "vechten in" ; "hold battles in"
+	
+	para "speciaal ontworpen" ; "specially designed"
+	line "GEVECHTSKAMERS." ; "BATTLE ROOMS."
 
-	para "Countless #MON"
-	line "trainers gather"
+	para "Er zijn veel" ; "There are many"
+	line "GEVECHTSKAMER in" ; "BATTLE ROOMS in"
+	cont "de GEVECHTSTOREN." ; "the BATTLE TOWER."
 
-	para "from all over to"
-	line "hold battles in"
+	para "Iedere kamer heeft" ; "Each ROOM holds"
+	line "zeven trainers." ; "seven trainers."
 
-	para "specially designed"
-	line "BATTLE ROOMS."
+	para "Versla ze allemaal" ; "Beat them all, and"
+	line "en win een prijs." ; "win a prize."
 
-	para "There are many"
-	line "BATTLE ROOMS in"
-	cont "the BATTLE TOWER."
+	para "Om de sessie te" ; "To interrupt a"
+	line "pauzeren, moet je" ; "session, you must"
 
-	para "Each ROOM holds"
-	line "seven trainers."
+	para "OPSLAAN. Zo niet," ; "SAVE. If not, you"
+	line "dan kun je niet" ; "won't be able to"
 
-	para "Beat them all, and"
-	line "win a prize."
-
-	para "To interrupt a"
-	line "session, you must"
-
-	para "SAVE. If not, you"
-	line "won't be able to"
-
-	para "resume your ROOM"
-	line "challenge."
+	para "verder met je" ; "resume your ROOM"
+	line "KAMER-uitdaging." ; "challenge."
 
 	para ""
 	done
 
 Text_ReceivedAListOfLeadersOnTheHonorRoll:
-	text "Received a list of"
-	line "LEADERS on the"
-	cont "HONOR ROLL."
+	text "Ontving een lijst" ; "Received a list of"
+	line "van LEIDERS op de" ; "LEADERS on the"
+	cont "ERELIJST." ; "HONOR ROLL."
 
 	para ""
 	done
 
 Text_PleaseConfirmOnThisMonitor:
-	text "Please confirm on"
-	line "this monitor."
+	text "Bevestig a.u.b. op" ; "Please confirm on"
+	line "deze monitor." ; "this monitor."
 	done
 
 Text_ThankYou: ; unreferenced
-	text "Thank you!"
+	text "Bedankt!" ; "Thank you!"
 
 	para ""
 	done
 
 Text_ThanksForVisiting:
-	text "Thanks for"
-	line "visiting!"
+	text "Bedankt voor je" ; "Thanks for"
+	line "bezoek!" ; "visiting!"
 	done
 
 Text_BeatenAllTheTrainers_Mobile: ; unreferenced
@@ -504,13 +505,13 @@ Text_BeatenAllTheTrainers_Mobile: ; unreferenced
 	done
 
 Text_CongratulationsYouveBeatenAllTheTrainers:
-	text "Congratulations!"
+	text "Gefeliciteerd!" ; "Congratulations!"
 
-	para "You've beaten all"
-	line "the trainers!"
+	para "Je versloeg alle" ; "You've beaten all"
+	line "trainers!" ; "the trainers!"
 
-	para "For that, you get"
-	line "this great prize!"
+	para "Hiervoor krijg je" ; "For that, you get"
+	line "deze mooie prijs!" ; "this great prize!"
 
 	para ""
 	done
@@ -524,7 +525,7 @@ Text_AskRegisterRecord_Mobile: ; unreferenced
 	done
 
 Text_PlayerGotFive:
-	text "<PLAYER> got five"
+	text "<PLAYER> kreeg 5" ; "<PLAYER> got five"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
 	text "!@"
@@ -533,111 +534,112 @@ Text_PlayerGotFive:
 	text_end
 
 Text_YourPackIsStuffedFull:
-	text "Oops, your PACK is"
-	line "stuffed full."
+	text "Oeps, je TAS zit" ; "Oops, your PACK is"
+	line "volgepropt." ; "stuffed full."
 
-	para "Please make room"
-	line "and come back."
+	para "Maak plek vrij en" ; "Please make room"
+	line "kom terug." ; "and come back."
 	done
 
 Text_YourRegistrationIsComplete: ; unreferenced
-	text "Your registration"
-	line "is complete."
+	text "Je registratie is" ; "Your registration"
+	line "compleet." ; "is complete."
 
-	para "Please come again!"
+	para "Kom snel weer!" ; "Please come again!"
 	done
 
 Text_WeHopeToServeYouAgain:
-	text "We hope to serve"
-	line "you again."
+	text "We hopen je snel" ; "We hope to serve"
+	line "Weer te helpen." ; "you again."
 	done
 
 Text_PleaseStepThisWay:
-	text "Please step this"
-	line "way."
+	text "Kom deze kant maar" ; "Please step this"
+	line "op." ; "way."
 	done
 
 Text_WouldYouLikeToHearAboutTheBattleTower:
-	text "Would you like to"
-	line "hear about the"
-	cont "BATTLE TOWER?"
+	text "Wil je horen wat" ; "Would you like to"
+	line "gebeurt in de" ; "hear about the"
+	cont "GEVECHTSOREN?" ; "BATTLE TOWER?"
 	done
 
 Text_CantBeRegistered:
-	text "Your record from"
-	line "the previous"
+	text "Bestand voorgaande" ; "Your record from"
+	line "GEVECHTSKAMER kan" ; "the previous"
 
-	para "BATTLE ROOM can't"
-	line "be registered. OK?"
+	para "niet worden" ; "BATTLE ROOM can't"
+	line "geregistreerd. OK?" ; "niet worden bewaard." ; "be registered. OK?"
 	done
 
 Text_CantBeRegistered_PreviousRecordDeleted:
-	text "Your record from"
-	line "the previous"
+	text "Bestand voorgaande" ; "Your record from"
+	line "GEVECHTSKAMER kan" ; "the previous"
+	
+	para "niet worden" ; "BATTLE ROOM can't"
+	line "geregistreerd." ; "niet worden bewaard." ; "be registered.?"
 
-	para "BATTLE ROOM can't"
-	line "be registered."
-
-	para "Also, the existing"
-	line "record will be"
-	cont "deleted. OK?"
+	para "Het vorige bestand" ; "Also, the existing"
+	line "wordt ook gewist." ; "record will be"
+	cont "Is dat OK?" ; "deleted. OK?"
 	done
 
 Text_CheckTheLeaderHonorRoll: ; unreferenced
-	text "Check the LEADER"
-	line "HONOR ROLL?"
+	text "Bekijk ERELIJST" ; "Check the LEADER"
+	line "met LEIDERS?" ; "HONOR ROLL?"
 	done
 
 Text_ReadBattleTowerRules:
-	text "BATTLE TOWER rules"
-	line "are written here."
+	text "De regels voor de" ; "BATTLE TOWER rules"
+	line "GEVECHTSTOREN." ; "are written here."
 
-	para "Read the rules?"
+	para "Wil je ze lezen?" ; "Read the rules?"
 	done
 
 Text_BattleTowerRules:
-	text "Three #MON may"
-	line "enter battles."
+	text "Drie #MON mogen" ; "Three #MON may"
+	line "deelnemen." ; "enter battles."
 
-	para "All three must be"
-	line "different."
+	para "Alle drie moeten" ; "All three must be"
+	line "anders zijn." ; "different."
 
-	para "The items they"
-	line "hold must also be"
-	cont "different."
+	para "Ook moeten ze" ; "The items they"
+	line "andere voorwerpen" ; "hold must also be"
+	cont "vasthouden." ; "different."
 
-	para "Certain #MON"
-	line "may also have"
+	para "Sommige #MON" ; "Certain #MON"
+	line "kunnen ook een" ; "may also have"
 
-	para "level restrictions"
-	line "placed on them."
+	para "restrictie op hun" ; "level restrictions"
+	line "level hebben." ; "placed on them."
 	done
 
 Text_BattleTower_LeftWithoutSaving:
-	text "Excuse me!"
-	line "You didn't SAVE"
+	text "Pardon!" ; "Excuse me!"
+	line "Je hebt niet OPGE-" ; "You didn't SAVE"
 
-	para "before exiting"
-	line "the BATTLE ROOM."
+	para "SLAGEN voor je de" ; "before exiting"
+	line "GEVECHTSKAMER" ; "the BATTLE ROOM."
+	cont "verliet."
 
-	para "I'm awfully sorry,"
-	line "but your challenge"
+	para "Het spijt me zeer," ; "I'm awfully sorry,"
+	line "maar je uitdaging" ; "but your challenge"
 
-	para "will be declared"
-	line "invalid."
+	para "wordt ongeldig" ; "will be declared"
+	line "verklaard." ; "invalid."
 	done
 
 Text_YourMonWillBeHealedToFullHealth:
-	text "Your #MON will"
-	line "be healed to full"
-	cont "health."
+	text "Je #MON worden" ; "Your #MON will"
+	line "volledig voor je" ; "be healed to full"
+	cont "genezen." ; "health."
 	done
 
 Text_NextUpOpponentNo:
-	text "Next up, opponent"
-	line "no.@"
+	text "En nu tegenstander" ; "Next up, opponent"
+	line "nr.@" ; "no.@"
 	text_ram wStringBuffer3 ; MaxLength 1
-	text ". Ready?"
+	text ". Klaar?" ; ". Ready?"
 	done
 
 Text_SaveBeforeConnecting_Mobile: ; unreferenced
@@ -649,70 +651,70 @@ Text_SaveBeforeConnecting_Mobile: ; unreferenced
 	done
 
 Text_SaveBeforeEnteringBattleRoom:
-	text "Before entering"
-	line "the BATTLE ROOM,"
+	text "Voor je naar de" ; "Before entering"
+	line "GEVECHTSKAMER gaat" ; "the BATTLE ROOM,"
 
-	para "your progress will"
-	line "be saved."
+	para "wordt je voortgang" ; "your progress will"
+	line "opgeslagen." ; "be saved."
 	done
 
 Text_SaveAndEndTheSession:
-	text "SAVE and end the"
-	line "session?"
+	text "OPSLAAN en de" ; "SAVE and end the"
+	line "sessie beëindigen?" ; "session?"
 	done
 
 Text_SaveBeforeReentry:
-	text "Your record will"
-	line "be SAVED before"
+	text "Je bestand wordt" ; "Your record will"
+	line "OPGESLAGEN voor je" ; "be SAVED before"
 
-	para "you go back into"
-	line "the previous ROOM."
+	para "terug naar de" ; "you go back into"
+	line "vorige kamer gaat." ; "the previous ROOM."
 	done
 
 Text_CancelYourBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Annuleer uitdaging" ; "Cancel your BATTLE"
+	line "in GEVECHTSKAMER?" ; "ROOM challenge?"
 	done
 
 Text_RegisterRecordOnFile_Mobile: ; unreferenced
-	text "We have your"
-	line "previous record on"
+	text "We hebben je" ; "We have your"
+	line "vorige bestand nog" ; "previous record on"
 
-	para "file. Would you"
-	line "like to register"
-	cont "it at the CENTER?"
+	para "staan. Wil je die" ; "file. Would you"
+	line "registreren in het" ; "like to register"
+	cont "CENTRUM?" ; "it at the CENTER?"
 	done
 
 Text_WeveBeenWaitingForYou:
-	text "We've been waiting"
-	line "for you. This way"
+	text "We stonden op je" ; "We've been waiting"
+	line "te wachten. Deze" ; "for you. This way"
 
-	para "to a BATTLE ROOM,"
-	line "please."
+	para "kant op naar een" ; "to a BATTLE ROOM,"
+	line "GEVECHTSKAMER." ; "please."
 	done
 
 Text_FiveDayBattleLimit_Mobile:
-	text "You may enter only"
-	line "five BATTLE ROOMS"
-	cont "each day."
+	text "Je mag iedere dag" ; "You may enter only"
+	line "vijf GEVECHTS-" ; "five BATTLE ROOMS"
+	cont "KAMERS bezoeken." ; "each day."
 
-	para "Please come back"
-	line "tomorrow."
+	para "Kom alsjeblieft" ; "Please come back"
+	line "morgen weer terug." ; "tomorrow."
 	done
 
 Text_TooMuchTimeElapsedNoRegister:
-	text "Sorry, but it's"
-	line "not possible to"
+	text "Sorry, het is niet" ; "Sorry, but it's"
+	line "mogelijk je" ; "not possible to"
 
-	para "register your"
-	line "current record at"
+	para "huidige bestand te" ; "register your"
+	line "registreren bij" ; "current record at"
 
-	para "the CENTER because"
-	line "too much time has"
+	para "het CENTRUM omdat" ; "the CENTER because"
+	line "teveel tijd is" ; "too much time has"
 
-	para "elapsed since the"
-	line "start of your"
-	cont "challenge."
+	para "verlopen sinds je" ; "elapsed since the"
+	line "de uitdaging bent" ; "start of your"
+	cont "begonnen." ; "challenge."
 	done
 
 Text_RegisterRecordTimedOut_Mobile: ; unreferenced
@@ -732,64 +734,64 @@ Text_RegisterRecordTimedOut_Mobile: ; unreferenced
 	done
 
 Text_AMonLevelExceeds:
-	text "One or more of"
-	line "your #MON's"
-	cont "levels exceeds @"
+	text "Eén of meer van je" ; "One or more of"
+	line "#MON is een" ; "your #MON's"
+	cont "hoger dan L@" ; "levels exceeds @"
 	text_decimal wScriptVar, 1, 2
 	text "."
 	done
 
 Text_MayNotEnterABattleRoomUnderL70:
 	text_ram wcd49 ; MaxLength MaxPokemonNameLength
-	text " may not"
-	line "enter a BATTLE"
-	cont "ROOM under L70."
+	text " mag" ; " may not"
+	line "niet GEVECHTSKAMER" ; "enter a BATTLE"
+	cont "onder L70 in." ; "ROOM under L70."
 
-	para "This BATTLE ROOM"
-	line "is for L@"
+	para "Deze GEVECHTSKAMER" ; "This BATTLE ROOM"
+	line "is voor L@" ; "is for L@"
 	text_decimal wScriptVar, 1, 3
 	text "."
 	done
 
 Text_BattleTowerYoungster:
-	text "Destroyed by the"
-	line "first opponent in"
+	text "Verwoest door de" ; "Destroyed by the"
+	line "eerste vijand in" ; "first opponent in"
 
-	para "no time at all…"
-	line "I'm no good…"
+	para "een mum van tijd…" ; "no time at all…"
+	line "Ik ben een loser…" ; "I'm no good…"
 	done
 
 Text_BattleTowerCooltrainerF:
-	text "There are lots of"
-	line "BATTLE ROOMS, but"
+	text "Er zijn veel" ; "There are lots of"
+	line "GEVECHTSKAMERS," ; "BATTLE ROOMS, but"
 
-	para "I'm going to win"
-	line "them all!"
+	para "maar ik ga ze" ; "I'm going to win"
+	line "allemaal winnen!" ; "them all!"
 	done
 
 Text_BattleTowerGranny:
-	text "It's a grueling"
-	line "task, not being"
+	text "Het is afzien, dat" ; "It's a grueling"
+	line "je geen voorwerpen" ; "task, not being"
 
-	para "able to use items"
-	line "in battle."
+	para "in gevechten mag" ; "able to use items"
+	line "gebruiken." ; "in battle."
 
-	para "Making your"
-	line "#MON hold items"
+	para "De truc is om je" ; "Making your"
+	line "#MON iets vast" ; "#MON hold items"
 
-	para "is the key to"
-	line "winning battles."
+	para "te laten houden in" ; "is the key to"
+	line "het gevecht." ; "winning battles."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "I'm trying to see"
-	line "how far I can go"
+	text "Ik wil zien hoe" ; "I'm trying to see"
+	line "ver ik kan komen" ; "how far I can go"
 
-	para "using just bug"
-	line "#MON."
+	para "met alleen maar" ; "using just bug"
+	line "insect-#MON." ; "#MON."
 
-	para "Don't let there be"
-	line "any fire #MON…"
+	para "Hopelijk zijn er" ; "Don't let there be"
+	line "geen vuur-#MON…" ; "any fire #MON…"
 	done
 
 BattleTower1F_MapEvents:

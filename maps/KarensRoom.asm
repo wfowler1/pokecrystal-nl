@@ -79,55 +79,56 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenBeforeText:
-	text "I am KAREN of the"
-	line "ELITE FOUR."
+	text "Ik ben KAREN van" ; "I am KAREN of the"
+	line "de ELITE FOUR." ; "ELITE FOUR."
 
-	para "You're <PLAYER>?"
-	line "How amusing."
+	para "Jij bent <PLAYER>?" ; "You're <PLAYER>?"
+	line "Wat grappig." ; "How amusing."
 
-	para "I love dark-type"
-	line "#MON."
+	para "Ik ben dol op" ; "I love dark-type"
+	line "duister-type #-" ; "#MON."
+	cont "MON."
 
-	para "I find their wild,"
-	line "tough image to be"
+	para "Ik vind hun wilde," ; "I find their wild,"
+	line "ruwe imago zo" ; "tough image to be"
 
-	para "so appealing. And"
-	line "they're so strong."
+	para "aanlokkelijk. En" ; "so appealing. And"
+	line "ze zijn krachtig." ; "they're so strong."
 
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
+	para "Denk je ze aan te" ; "Think you can take"
+	line "kunnen? Probeer" ; "them? Just try to"
+	cont "het maar." ; "entertain me."
 
-	para "Let's go."
+	para "We beginnen." ; "Let's go."
 	done
 
 KarenScript_KarenBeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Zo, je bent echt" ; "Well, aren't you"
+	line "goed. Ik kan dat" ; "good. I like that"
+	cont "waarderen." ; "in a trainer."
 	done
 
 KarenScript_KarenDefeatText:
-	text "Strong #MON."
+	text "Sterke #MON." ; "Strong #MON."
 
-	para "Weak #MON."
+	para "Zwakke #MON." ; "Weak #MON."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	para "Dat is slechts het" ; "That is only the"
+	line "egoïstische beeld" ; "selfish perception"
+	cont "van mensen." ; "of people."
 
-	para "Truly skilled"
-	line "trainers should"
+	para "Echt vaardige" ; "Truly skilled"
+	line "trainers horen te" ; "trainers should"
 
-	para "try to win with"
-	line "their favorites."
+	para "winnen met hun" ; "try to win with"
+	line "favorieten." ; "their favorites."
 
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
+	para "Ik waardeer je" ; "I like your style."
+	line "stijl. Jij snapt" ; "You understand"
+	cont "wat belangrijk is." ; "what's important."
 
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+	para "Ga verder--de" ; "Go on--the CHAM-"
+	line "KAMPIOEN wacht." ; "PION is waiting."
 	done
 
 KarensRoom_MapEvents:

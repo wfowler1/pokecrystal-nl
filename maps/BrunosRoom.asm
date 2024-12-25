@@ -119,9 +119,8 @@ BrunoScript_BrunoDefeatText:
 	line "heb ik geen recht" ; "have no right to"
 	cont "om iets te zeggen…" ; "say anything…"
 
-	para "Neem het op tegen" ; "Go face your next"
-	line "de volgende uit-" ; "challenge!"
-	cont "daging!"
+	para "Richt je op je" ; "Go face your next"
+	line "volgende strijd!" ; "challenge!"
 	done
 
 BrunosRoom_MapEvents:

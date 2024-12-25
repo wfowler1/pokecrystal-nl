@@ -21,50 +21,50 @@ DayOfWeekSiblingsHousePokedexScript:
 	end
 
 DayOfWeekSiblingsHousePokedexText1:
-	text "There's something"
-	line "written here."
+	text "Er staat hier iets" ; "There's something"
+	line "geschreven." ; "written here."
 
-	para "Read it?"
+	para "Wil je lezen?" ; "Read it?"
 	done
 
 DayOfWeekSiblingsHousePokedexText2:
-	text "To my brothers and"
-	line "sisters:"
+	text "Aan mijn broers en" ; "To my brothers and"
+	line "zussen:" ; "sisters:"
 
-	para "We take pride in"
-	line "serving #MON"
+	para "Met trots dienen" ; "We take pride in"
+	line "wij #MON-" ; "serving #MON"
 	cont "trainers."
 
-	para "When trainers talk"
-	line "to you, give them"
-	cont "something useful."
+	para "Als trainers met" ; "When trainers talk"
+	line "je praten, geef ze" ; "to you, give them"
+	cont "iets nuttigs." ; "something useful."
 
-	para "Love,"
+	para "Liefs," ; "Love,"
 	line "MONICA"
 
-	para "Keep reading?"
+	para "Verder lezen?" ; "Keep reading?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:
-	text "Monday, MONICA"
+	text "Maandag, MONICA" ; "Monday, MONICA"
 	line "ROUTE 40"
 
-	para "Tuesday, TUSCANY"
+	para "Dinsdag, TUSCANY" ; "Tuesday, TUSCANY"
 	line "ROUTE 29"
 
-	para "Wednesday, WESLEY"
-	line "LAKE OF RAGE"
+	para "Woensdag, WESLEY" ; "Wednesday, WESLEY"
+	line "MEER VAN RAZERNIJ" ; "LAKE OF RAGE"
 
-	para "Thursday, ARTHUR"
+	para "Donderdag, ARTHUR" ; "Thursday, ARTHUR"
 	line "ROUTE 36"
 
-	para "Friday, FRIEDA"
+	para "Vrijdag, FRIEDA" ; "Friday, FRIEDA"
 	line "ROUTE 32"
 
-	para "Saturday, SANTOS"
+	para "Zaterdag, SANTOS" ; "Saturday, SANTOS"
 	line "BLACKTHORN CITY"
 
-	para "Sunday, SUNNY"
+	para "Zondag, SUNNY" ; "Sunday, SUNNY"
 	line "ROUTE 37"
 	done
 

@@ -68,7 +68,7 @@ SageEdmondAfterBattleText:
 	text "Ik probeerde BELL-" ; "I tried to copy"
 	line "SPROUTS bewegingen" ; "BELLSPROUT's"
 
-	para "te doen tijdens" ; "gentle movements"
+	para "na te doen tijdens" ; "gentle movements"
 	line "het gevecht…" ; "for battle…"
 
 	para "Maar ik heb niet" ; "But I didn't train"
@@ -78,8 +78,8 @@ SageEdmondAfterBattleText:
 SproutTower2FStatueText:
 	text "Een #MON-beeld…" ; "A #MON statue…"
 
-	para "Die ziet er fraai" ; "It looks very"
-	line "uit." ; "distinguished."
+	para "Het ziet er" ; "It looks very"
+	line "gedegen uit." ; "distinguished."
 	done
 
 SproutTower2F_MapEvents:

@@ -75,68 +75,68 @@ UnionCaveB2FHyperPotion:
 	itemball HYPER_POTION
 
 CooltrainermNickSeenText:
-	text "There are two"
-	line "kinds of people."
+	text "Er zijn twee" ; "There are two"
+	line "soorten mensen." ; "kinds of people."
 
-	para "Those who have"
-	line "style, and those"
-	cont "who don't."
+	para "Mensen met stijl," ; "Those who have"
+	line "en mensen" ; "style, and those"
+	cont "zonder." ; "who don't."
 
-	para "What kind of"
-	line "person are you?"
+	para "Welke van de twee" ; "What kind of"
+	line "ben jij?" ; "person are you?"
 	done
 
 CooltrainermNickBeatenText:
-	text "You've got"
-	line "dazzling style!"
+	text "Jouw stijl is" ; "You've got"
+	line "oogverblindend!" ; "dazzling style!"
 	done
 
 CooltrainermNickAfterBattleText:
-	text "Your #MON style"
-	line "is stunning and"
-	cont "colorful, I admit."
+	text "Ik vind jouw" ; "Your #MON style"
+	line "#MON-stijl mooi" ; "is stunning and"
+	cont "en kleurrijk." ; "colorful, I admit."
 
-	para "You'll just keep"
-	line "getting better!"
+	para "Je wordt alleen" ; "You'll just keep"
+	line "maar beter!" ; "getting better!"
 	done
 
 CooltrainerfGwenSeenText:
-	text "I'm in training."
-	line "Care for a round?"
+	text "Ik ben aan het" ; "I'm in training."
+	line "trainen. Vechten?" ; "Care for a round?"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "Aww, no! You're"
-	line "too good for me."
+	text "Aww, nee! Je bent" ; "Aww, no! You're"
+	line "te sterk voor me." ; "too good for me."
 	done
 
 CooltrainerfGwenAfterBattleText:
-	text "I'm going to train"
-	line "by myself until I"
-	cont "improve."
+	text "Ik blijf trainen" ; "I'm going to train"
+	line "om mezelf te" ; "by myself until I"
+	cont "verbeteren." ; "improve."
 	done
 
 CooltrainerfEmmaSeenText:
-	text "If the #MON I"
-	line "liked were there,"
-	cont "I'd go anywhere."
+	text "Ik ga overal heen" ; "If the #MON I"
+	line "waar m'n favoriete" ; "liked were there,"
+	cont "#MON zijn." ; "I'd go anywhere."
 
-	para "That's what a real"
-	line "trainer does."
+	para "Dat is wat echte" ; "That's what a real"
+	line "trainers doen." ; "trainer does."
 	done
 
 CooltrainerfEmmaBeatenText:
-	text "I'd rather pet my"
-	line "babies than this!"
+	text "Ik aai liever mijn" ; "I'd rather pet my"
+	line "kindjes dan dit!" ; "babies than this!"
 	done
 
 CooltrainerfEmmaAfterBattleText:
-	text "Just once a week,"
-	line "a #MON comes to"
-	cont "the water's edge."
+	text "Eens per week komt" ; "Just once a week,"
+	line "er een #MON" ; "a #MON comes to"
+	cont "naar de waterkant." ; "the water's edge."
 
-	para "I wanted to see"
-	line "that #MON…"
+	para "Ik wilde die" ; "I wanted to see"
+	line "#MON zien…" ; "that #MON…"
 	done
 
 UnionCaveB2F_MapEvents:

@@ -1,78 +1,78 @@
 TiffanyAnswerPhoneText:
-	text "Yes? This is"
+	text "Ja? Met" ; "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh, <PLAY_G>."
-	line "Good morning."
+	line "Goedemorgen." ; "Good morning."
 	done
 
 TiffanyAnswerPhoneDayText:
-	text "Yes? This is"
+	text "Ja? Met" ; "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
 	para "Oh, <PLAY_G>."
-	line "Hello."
+	line "Hallo." ; "Hello."
 	done
 
 TiffanyAnswerPhoneNiteText:
-	text "Yes? This is"
+	text "Ja? Met" ; "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 
-	para "Oh, <PLAY_G>, good"
-	line "evening."
+	para "Oh, <PLAY_G>," ; "Oh, <PLAY_G>, good"
+	line "goedenavond." ; "evening."
 	done
 
 TiffanyGreetText:
-	text "Is this <PLAY_G>?"
+	text "Is dit <PLAY_G>?" ; "Is this <PLAY_G>?"
 
-	para "Good morning. This"
+	para "Goedemorgen. Dit" ; "Good morning. This"
 	line "is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 	done
 
 TiffanyGreetDayText:
-	text "Is this <PLAY_G>?"
+	text "Is dit <PLAY_G>?" ; "Is this <PLAY_G>?"
 
-	para "Hi, it's @"
+	para "Hoi, met @" ; "Hi, it's @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 	done
 
 TiffanyGreetNiteText:
-	text "Is this <PLAY_G>?"
+	text "Is dit <PLAY_G>?" ; "Is this <PLAY_G>?"
 
-	para "Good evening. This"
+	para "Goedenavond. Dit" ; "Good evening. This"
 	line "is @"
 	text_ram wStringBuffer3 ; MaxLength 7
 	text "."
 	done
 
 TiffanyGenericText:
-	text "Are your #MON"
-	line "doing well?"
+	text "Gaat het goed met" ; "Are your #MON"
+	line "je #MON?" ; "doing well?"
 
-	para "I hope you take"
-	line "them to a #MON"
-	cont "CENTER every day."
+	para "Hopelijk breng je" ; "I hope you take"
+	line "ze elke dag naar 't" ; "them to a #MON"
+	cont "#MONCENTRUM." ; "CENTER every day."
 
-	para "Don't push them"
-	line "too hard."
+	para "Drijf ze niet tot" ; "Don't push them"
+	line "het uiterste." ; "too hard."
 
-	para "My @"
+	para "mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
-	line "cute and lively"
+	line "lief en levendig," ; "cute and lively"
 
-	para "precisely because"
-	line "I take it to a"
+	para "juist omdat we" ; "precisely because"
+	line "elke dag naar een" ; "I take it to a"
 
-	para "#MON CENTER"
-	line "every day."
+	para "#MONCENTRUM" ; "#MON CENTER"
+	line "gaan." ; "every day."
 	done

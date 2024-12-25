@@ -308,7 +308,7 @@ MonicaGaveGiftText:
 	line "sterker maakt." ; "ing-type moves."
 
 	para "Geef het aan een" ; "You should equip a"
-	line "vogel #MON in" ; "bird #MON with"
+	line "vogel-#MON in" ; "bird #MON with"
 	cont "je team." ; "that item."
 	done
 

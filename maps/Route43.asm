@@ -323,179 +323,179 @@ Route43MaxEther:
 	itemball MAX_ETHER
 
 PokemaniacBenSeenText:
-	text "I love #MON!"
+	text "Ik ben dol op" ; "I love #MON!"
+	line "#MON!"
 
-	para "That's why I"
-	line "started--and why"
+	para "Daarom begon ik" ; "That's why I"
+	line "met verzamelen--" ; "started--and why"
 
-	para "I'll keep on col-"
-	line "lecting #MON!"
+	para "en blijf ik dat" ; "I'll keep on col-"
+	line "ook doen!" ; "lecting #MON!"
 	done
 
 PokemaniacBenBeatenText:
-	text "How could you do"
-	line "this to me?"
+	text "Hoe kon je mij dit" ; "How could you do"
+	line "aandoen?" ; "this to me?"
 	done
 
 PokemaniacBenAfterBattleText:
-	text "What else do I"
-	line "like besides"
-	cont "#MON?"
+	text "Wat ik leuk vind" ; "What else do I"
+	line "naast #MON?" ; "like besides"
 
-	para "MARY on the radio."
-	line "I bet she's cute!"
+	para "MARY op de radio." ; "MARY on the radio."
+	line "Echt een schatje!" ; "I bet she's cute!"
 	done
 
 PokemaniacBrentSeenText:
-	text "Hey! Do you have"
-	line "any rare #MON?"
+	text "He! Heb jij" ; "Hey! Do you have"
+	line "zeldzame #MON?" ; "any rare #MON?"
 	done
 
 PokemaniacBrentBeatenText:
-	text "Oh, my poor #-"
-	line "MON! Darlings!"
+	text "Oh, mijn arme" ; "Oh, my poor #-"
+	line "#MON! Schatjes!" ; "MON! Darlings!"
 	done
 
 PokemaniacBrentAfterBattleText:
-	text "I'd be happy just"
-	line "to own a single"
-	cont "rare #MON."
+	text "Ik zou al blij" ; "I'd be happy just"
+	line "zijn met één" ; "to own a single"
+	cont "zeldzame #MON." ; "rare #MON."
 	done
 
 PokemaniacRonSeenText:
-	text "Would you get"
-	line "this?"
+	text "Moet je horen wat" ; "Would you get"
+	line "mij gebeurde." ; "this?"
 
-	para "Some <RIVAL> guy"
-	line "made fun of my"
+	para "Ene <RIVAL>-gast" ; "Some <RIVAL> guy"
+	line "bespotte mijn" ; "made fun of my"
 	cont "#MON!"
 
-	para "Darn it! My #-"
-	line "MON's great!"
+	para "Verdorie! Mijn" ; "Darn it! My #-"
+	line "#MON zijn top!" ; "MON's great!"
 	done
 
 PokemaniacRonBeatenText:
-	text "My NIDOKING did"
-	line "pretty right on!"
+	text "Mijn NIDOKING deed" ; "My NIDOKING did"
+	line "het best goed!" ; "pretty right on!"
 	done
 
 PokemaniacRonAfterBattleText:
-	text "It's okay for"
-	line "people to like"
+	text "Mensen kunnen best" ; "It's okay for"
+	line "andere types" ; "people to like"
 
-	para "different types"
-	line "of #MON."
+	para "#MON leuk" ; "different types"
+	line "vinden." ; "of #MON."
 
-	para "#MON isn't just"
-	line "about having the"
-	cont "most powerful one."
+	para "#MON draait" ; "#MON isn't just"
+	line "niet alleen om" ; "about having the"
+	cont "de sterksten." ; "most powerful one."
 	done
 
 FisherMarvinSeenText:
-	text "I'm in a slump."
+	text "Ik zit in een dip." ; "I'm in a slump."
 
-	para "Maybe it's the"
-	line "gear I'm using."
+	para "Misschien is het" ; "Maybe it's the"
+	line "mijn uitrusting." ; "gear I'm using."
 
-	para "Let's battle for a"
-	line "change of pace!"
+	para "Laten we ter af-" ; "Let's battle for a"
+	line "wisseling vechten!" ; "change!"
 	done
 
 FisherMarvinBeatenText:
-	text "I lost, but I feel"
-	line "better anyway."
+	text "Ik verloor, maar" ; "I lost, but I feel"
+	line "ik voel me beter." ; "better anyway."
 	done
 
 FisherMarvinAfterBattleText:
-	text "KURT's LURE BALL"
-	line "is the best for"
+	text "KURT's LOKAASBAL" ; "KURT's LURE BALL"
+	line "is het beste om" ; "is the best for"
 
-	para "catching hooked"
-	line "#MON."
+	para "opgeviste #MON" ; "catching hooked"
+	line "te vangen." ; "#MON."
 
-	para "It's much more"
-	line "effective than a"
-	cont "ULTRA BALL."
+	para "Dan is hij veel" ; "It's much more"
+	line "effectiever dan" ; "effective than a"
+	cont "een HYPERBAL." ; "ULTRA BALL."
 	done
 
 CamperSpencerSeenText:
-	text "I can do so much"
-	line "with my #MON--"
-	cont "it's super-fun!"
+	text "Ik kan zoveel met" ; "I can do so much"
+	line "mijn #MON--echt" ; "with my #MON--"
+	cont "superleuk!" ; "it's super-fun!"
 	done
 
 CamperSpencerBeatenText:
-	text "Losing isn't fun"
-	line "at all…"
+	text "Verliezen is hele-" ; "Losing isn't fun"
+	line "maal niet leuk…" ; "at all…"
 	done
 
 CamperSpencerAfterBattleText:
-	text "What is going on"
-	line "at LAKE OF RAGE?"
+	text "Wat is gaande bij" ; "What is going on"
+	line "MEER VAN RAZERNIJ?" ; "at LAKE OF RAGE?"
 
-	para "We were planning"
-	line "to camp there."
+	para "We wilden daar" ; "We were planning"
+	line "gaan kamperen." ; "to camp there."
 	done
 
 PicnickerTiffanySeenText:
-	text "Are you going to"
-	line "LAKE OF RAGE too?"
+	text "Ga je ook naar" ; "Are you going to"
+	line "MEER VAN RAZERNIJ?" ; "LAKE OF RAGE too?"
 
-	para "Let's play for a "
-	line "little while!"
+	para "Laten we eventjes" ; "Let's play for a "
+	line "spelen!" ; "little while!"
 	done
 
 PicnickerTiffanyBeatenText:
-	text "I played too much!"
+	text "Te veel gespeeld!" ; "I played too much!"
 	done
 
 PicnickerTiffanyWantsPicnicText:
-	text "I'm having a pic-"
-	line "nic with #MON."
+	text "Ik picknick hier" ; "I'm having a pic-"
+	line "met #MON." ; "nic with #MON."
 
-	para "Won't you join us?"
+	para "Wil je meedoen?" ; "Won't you join us?"
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFAIRY"
-	line "just the most"
-	cont "adorable thing?"
+	text "Is mijn CLEFAIRY" ; "Isn't my CLEFAIRY"
+	line "niet onwijs" ; "just the most"
+	cont "schattig?" ; "adorable thing?"
 	done
 
 Route43Sign1Text:
 	text "ROUTE 43"
 
-	para "LAKE OF RAGE -"
+	para "MEER VAN RAZERNIJ" ; "LAKE OF RAGE -"
 	line "MAHOGANY TOWN"
 	done
 
 Route43Sign2Text:
 	text "ROUTE 43"
 
-	para "LAKE OF RAGE -"
+	para "MEER VAN RAZERNIJ" ; "LAKE OF RAGE -"
 	line "MAHOGANY TOWN"
 	done
 
 Route43TrainerTipsText:
 	text "TRAINERTIPS"
 
-	para "All #MON have"
-	line "pros and cons"
+	para "Alle #MON" ; "All #MON have"
+	line "hebben voor- en" ; "pros and cons"
 
-	para "depending on their"
-	line "types."
+	para "nadelen afhangend" ; "depending on their"
+	line "van hun types." ; "types."
 
-	para "If their types"
-	line "differ, a higher-"
+	para "Als types anders" ; "If their types"
+	line "zijn, kan een" ; "differ, a higher-"
 
-	para "level #MON may"
-	line "lose in battle."
+	para "sterkere #MON" ; "level #MON may"
+	line "toch verliezen." ; "lose in battle."
 
-	para "Learn which types"
-	line "are strong and"
+	para "Leer welke types" ; "Learn which types"
+	line "sterk en zwak zijn" ; "are strong and"
 
-	para "weak against your"
-	line "#MON's type."
+	para "tegen het type van" ; "weak against your"
+	line "je #MON." ; "#MON's type."
 	done
 
 Route43_MapEvents:

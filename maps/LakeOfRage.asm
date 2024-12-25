@@ -243,71 +243,72 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 	step_end
 
 LakeOfRageLanceForcedToEvolveText:
-	text "This lake is full"
-	line "of GYARADOS but"
-	cont "nothing else…"
+	text "Dit meer zit vol" ; "This lake is full"
+	line "met alleen maar" ; "of GYARADOS but"
+	cont "GYARADOS…" ; "nothing else…"
 
-	para "So the MAGIKARP"
-	line "are being forced"
-	cont "to evolve…"
+	para "De MAGIKARP worden" ; "So the MAGIKARP"
+	line "dus gedwongen te" ; "are being forced"
+	cont "evolueren…" ; "to evolve…"
 	done
 
 LakeOfRageLanceIntroText:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Kwam je hier omdat" ; "Did you come here"
+	line "je de geruchten" ; "because of the"
+	cont "hebt gehoord?" ; "rumors?"
 
-	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
-	cont "trainer like you."
+	para "Jij bent <PLAYER>?" ; "You're <PLAYER>?"
+	line "Ik ben LANCE, een" ; "I'm LANCE, a"
+	cont "trainer als jij." ; "trainer like you."
 
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate…"
+	para "Ik hoorde wat" ; "I heard some ru-"
+	line "geruchten, dus" ; "mors, so I came to"
+	cont "kwam onderzoeken…" ; "investigate…"
 
-	para "I saw the way you"
-	line "battled earlier,"
+	para "Ik zag hoe je" ; "I saw the way you"
+	line "eerder vocht," ; "battled earlier,"
 	cont "<PLAY_G>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "Ik kan zien dat je" ; "I can tell that"
+	line "een trainer bent" ; "you're a trainer"
 
-	para "with considerable"
-	line "skill."
+	para "met bijzonder veel" ; "with considerable"
+	line "kunde." ; "skill."
 
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	para "Als je tijd hebt," ; "If you don't mind,"
+	line "kun je me helpen" ; "could you help me"
+	cont "onderzoeken?" ; "investigate?"
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "LANCE: Uitstekend!" ; "LANCE: Excellent!"
 
-	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	para "Het lijkt dat de" ; "It seems that the"
+	line "MAGIKARP worden" ; "LAKE's MAGIKARP"
 
-	para "are being forced"
-	line "to evolve."
+	para "gedwongen om te" ; "are being forced"
+	line "evolueren." ; "to evolve."
 
-	para "A mysterious radio"
-	line "broadcast coming"
+	para "Een mysterieuze" ; "A mysterious radio"
+	line "radio-uitzending" ; "broadcast coming"
 
-	para "from MAHOGANY is"
-	line "the cause."
+	para "uit MAHOGANY is de" ; "from MAHOGANY is"
+	line "oorzaak." ; "the cause."
 
-	para "I'll be waiting"
-	line "for you, <PLAY_G>."
+	para "Ik zal op je" ; "I'll be waiting"
+	line "wachten, <PLAY_G>." ; "for you, <PLAY_G>."
 	done
 
 LakeOfRageLanceRefusedText:
-	text "Oh… Well, if you"
-	line "change your mind,"
-	cont "please help me."
+	text "Oh… Nou, als je" ; "Oh… Well, if you"
+	line "van gedachten ver-" ; "change your mind,"
+	cont "andert, help me" ; "please help me."
+	cont "alsjeblieft."
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "LANCE: Hm? Are you"
-	line "going to help me?"
+	text "LANCE: Hm? Ga je" ; "LANCE: Hm? Are you"
+	line "me helpen?" ; "going to help me?"
 	done
 
 LakeOfRageGyaradosCryText:
@@ -315,180 +316,180 @@ LakeOfRageGyaradosCryText:
 	done
 
 LakeOfRageGotRedScaleText:
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER> ontving" ; "<PLAYER> obtained a"
+	line "een RODE SCHAAL." ; "RED SCALE."
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
-	line "angry!"
+	text "De GYARADOS zijn" ; "The GYARADOS are"
+	line "boos!" ; "angry!"
 
-	para "It's a bad omen!"
+	para "Een slecht teken!" ; "It's a bad omen!"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "Hahah! De MAGI-" ; "Hahah! The MAGI-"
+	line "KARP bijten!" ; "KARP are biting!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging GYARADOS."
+	text "Ik hoorde dat dit" ; "I heard this lake"
+	line "meer is gemaakt" ; "was made by ram-"
+	cont "door GYARADOS." ; "paging GYARADOS."
 
-	para "I wonder if there"
-	line "is any connection"
+	para "Zou er een" ; "I wonder if there"
+	line "connectie zijn met" ; "is any connection"
 
-	para "to their mass out-"
-	line "break now?"
+	para "de massa-uitbraak" ; "to their mass out-"
+	line "van nu?" ; "break now?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "Zag ik het echt?" ; "Did my eyes de-"
+	line "Ik spotte een rode" ; "ceive me? I saw a"
 
-	para "red GYARADOS in"
-	line "the LAKE…"
+	para "GYARADOS middenin" ; "red GYARADOS in"
+	line "het MEER…" ; "the LAKE…"
 
-	para "But I thought"
-	line "GYARADOS were"
-	cont "usually blue?"
+	para "Maar GYARADOS zijn" ; "But I thought"
+	line "toch blauw?" ; "GYARADOS were"
+	; cont "usually blue?"
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #MON I just"
-	cont "caught!"
+	text "Laat me tegen je" ; "Let me battle with"
+	line "vechten met mijn" ; "the #MON I just"
+	cont "gevangen #MON!" ; "caught!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
+	text "Ik ben een goede" ; "I might be an ex-"
+	line "hengelaar, maar" ; "pert angler, but"
 
-	para "I stink as a #-"
-	line "MON trainer…"
+	para "vechten kan ik" ; "I stink as a #-"
+	line "niet…" ; "MON trainer…"
 	done
 
 FisherAndreAfterBattleText:
-	text "I won't lose as an"
-	line "angler! I catch"
-	cont "#MON all day."
+	text "Ik blijf de beste" ; "I won't lose as an"
+	line "hengelaar! Elke" ; "angler! I catch"
+	cont "dag vang ik meer." ; "#MON all day."
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
+	text "Wat ik ook doe," ; "No matter what I"
+	line "altijd vang ik" ; "do, all I catch"
 
-	para "are the same #-"
-	line "MON…"
+	para "weer dezelfde" ; "are the same #-"
+	line "#MON…" ; "MON…"
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "Mijn vislijn zit" ; "My line's all"
+	line "in de knoop…" ; "tangled up…"
 	done
 
 FisherRaymondAfterBattleText:
-	text "Why can't I catch"
-	line "any good #MON?"
+	text "Hoezo vang ik geen" ; "Why can't I catch"
+	line "goede #MON?" ; "any good #MON?"
 	done
 
 CooltrainermAaronSeenText:
-	text "If a trainer spots"
-	line "another trainer,"
+	text "Als 'n trainer een" ; "If a trainer spots"
+	line "andere trainer" ; "another trainer,"
 
-	para "he has to make a"
-	line "challenge."
+	para "spot, moet je el-" ; "he has to make a"
+	line "kaar uitdagen." ; "challenge."
 
-	para "That is our"
-	line "destiny."
+	para "Dat is onze" ; "That is our"
+	line "lotsbestemming." ; "destiny."
 	done
 
 CooltrainermAaronBeatenText:
 	text "Whew…"
-	line "Good battle."
+	line "Goed gevecht." ; "Good battle."
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "#MON and their"
-	line "trainer become"
+	text "#MON en hun" ; "#MON and their"
+	line "trainer worden" ; "trainer become"
 
-	para "powerful through"
-	line "constant battling."
+	para "sterker door con-" ; "powerful through"
+	line "tinu te vechten." ; "constant battling."
 	done
 
 CooltrainerfLoisSeenText:
-	text "What happened to"
-	line "the red GYARADOS?"
+	text "Wat gebeurde met" ; "What happened to"
+	line "de rode GYARADOS?" ; "the red GYARADOS?"
 
-	para "It's gone?"
+	para "Weg?" ; "It's gone?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
+	para "Oh, verdraaid." ; "Oh, darn. I came"
+	line "Kwam ik voor niks?" ; "here for nothing?"
 
-	para "I know--let's"
-	line "battle!"
+	para "Ik weet het--laten" ; "I know--let's"
+	line "we vechten!" ; "battle!"
 	done
 
 CooltrainerfLoisBeatenText:
-	text "Good going!"
+	text "Goed bezig!" ; "Good going!"
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	text "Ik bedenk me net," ; "Come to think of"
+	line "ooit zag ik een" ; "it, I've seen a"
+	cont "roze BUTTERFREE." ; "pink BUTTERFREE."
 	done
 
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
+	text "WESLEY: Nou, hoe" ; "WESLEY: Well, how"
+	line "gaat het?" ; "do you do?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
+	para "Gezien het vandaag" ; "Seeing as how it's"
+	line "woensdag is," ; "Wednesday today,"
 
-	para "I'm WESLEY of"
-	line "Wednesday."
+	para "ik ben woensdagse" ; "I'm WESLEY of"
+	line "Wesley." ; "Wednesday."
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Fijn je te ont-" ; "Pleased to meet"
+	line "moeten. Neem deze" ; "you. Please take a"
+	cont "souvenir." ; "souvenir."
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "WESLEY: ZWARTE" ; "WESLEY: BLACKBELT"
+	line "BAND versterkt je" ; "beefs up the power"
+	cont "vecht-aanvallen." ; "of fighting moves."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
+	text "WESLEY: Gezien je" ; "WESLEY: Since you"
+	line "mij vond, moet je" ; "found me, you must"
 
-	para "have met my broth-"
-	line "ers and sisters."
+	para "mijn broers en" ; "have met my broth-"
+	line "zussen hebben" ; "ers and sisters."
 
-	para "Or did you just"
-	line "get lucky?"
+	para "ontmoet. Of had je" ; "Or did you just"
+	line "gewoon geluk?" ; "get lucky?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "WESLEY: Vandaag is" ; "WESLEY: Today's"
+	line "het niet woensdag." ; "not Wednesday."
+	cont "Wat jammer nou." ; "That's too bad."
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GYARADOS LAKE."
+	text "MEER VAN RAZERNIJ," ; "LAKE OF RAGE,"
+	line "ook bekend als" ; "also known as"
+	cont "GYARADOS-MEER." ; "GYARADOS LAKE."
 	done
 
 FishingGurusHouseSignText:
-	text "FISHING GURU'S"
-	line "HOUSE"
+	text "VISGOEROE'S HUIS" ; "FISHING GURU'S"
+	line "" ; "HOUSE"
 	done
 
 LakeOfRage_MapEvents:

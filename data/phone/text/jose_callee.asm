@@ -1,37 +1,37 @@
 JoseAnswerPhoneText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>?"
-	line "Good morning!"
+	line "Goedemorgen!" ; "Good morning!"
 	done
 
 JoseAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
-	para "Oh, <PLAY_G>? Hi!"
+	para "Oh, <PLAY_G>? Hoi!" ; "Oh, <PLAY_G>? Hi!"
 	done
 
 JoseAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "…"
 
 	para "Oh, <PLAY_G>?"
-	line "Good evening!"
+	line "Goedenavond!" ; "Good evening!"
 	done
 
 JoseGreetText:
 	text "Oh, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Twiet! Ja, ik ben" ; "Tweet! Yeah, it's"
+	line "het, @" ; "me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	done
@@ -39,8 +39,8 @@ JoseGreetText:
 JoseGreetDayText:
 	text "Oh, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Twiet! Ja, ik ben" ; "Tweet! Yeah, it's"
+	line "het, @" ; "me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	done
@@ -48,22 +48,23 @@ JoseGreetDayText:
 JoseGreetNiteText:
 	text "Oh, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Twiet! Ja, ik ben" ; "Tweet! Yeah, it's"
+	line "het, @" ; "me, @"
 	text_ram wStringBuffer3 ; MaxLength 4
 	text "."
 	done
 
 JoseGenericText:
-	text "Are your #MON"
-	line "still cooking?"
+	text "Weten je #MON" ; "Are your #MON"
+	line "er wat van te" ; "still cooking?"
+	cont "brouwen?"
 
-	para "My @"
+	para "M'n @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " has"
-	line "too much energy."
+	text " had" ; " has"
+	line "te veel energie." ; "too much energy."
 
-	para "Once it takes off,"
-	line "it won't come back"
-	cont "for a while."
+	para "Als ie eenmaal weg" ; "Once it takes off,"
+	line "is, zie ik die een" ; "it won't come back"
+	cont "tijd niet terug." ; "for a while."
 	done

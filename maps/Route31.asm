@@ -241,8 +241,8 @@ Route31MailRecipientScript:
 	end
 
 ReceivedSpearowMailText:
-	db   "DUISTERE GROT leidt" ; "DARK CAVE leads"
-	next "naar andere weg" ; "to another road@"
+	db   "DUISTERE GROT" ; "DARK CAVE leads"
+	next "leidt elders@" ; "to another road@"
 
 Route31YoungsterScript:
 	jumptextfaceplayer Route31YoungsterText
@@ -285,7 +285,7 @@ BugCatcherWade1BeatenText:
 
 BugCatcherWade1AfterText:
 	text "Zelfs als je zes" ; "You can catch"
-	line "#MON hebt kun" ; "#MON even if"
+	line "#MON hebt, kun" ; "#MON even if"
 
 	para "je er meer" ; "you have six with"
 	line "vangen." ; "you."
@@ -328,8 +328,8 @@ Text_Route31HandOverMailMon:
 Text_Route31ReadingMail:
 	text "Eens zien…" ; "Let's see…"
 
-	para "DUISTERE GROT gaat" ; "…DARK CAVE leads"
-	line "naar andere weg…" ; "to another road…"
+	para "DUISTERE GROT" ; "…DARK CAVE leads"
+	line "leidt elders…" ; "to another road…"
 
 	para "Dat is goed om te" ; "That's good to"
 	line "weten." ; "know."
@@ -339,7 +339,7 @@ Text_Route31ReadingMail:
 
 	para "Mijn vriend is een" ; "My friend's a good"
 	line "goede gast, en jij" ; "guy, and you're"
-	cont "ben ook oke!" ; "swell too!"
+	cont "ben ook oké!" ; "swell too!"
 
 	para "Ik wil ook iets" ; "I'd like to do"
 	line "goeds doen als" ; "something good in"

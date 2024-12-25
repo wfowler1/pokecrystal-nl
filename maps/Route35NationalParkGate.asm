@@ -234,7 +234,7 @@ Route35NationalParkGateOfficer1AskToParticipateText:
 	para "De regels zijn" ; "The rules are sim-"
 	line "simpel." ; "ple."
 
-	para "Van met één van" ; "Using one of your"
+	para "Vang met één van" ; "Using one of your"
 	line "je #MON een" ; "#MON, catch a"
 
 	para "insect-#MON om" ; "bug #MON to be"
@@ -301,7 +301,7 @@ Route35NationalParkGateOfficer1AskToUseFirstMonText:
 Route35NationalParkGateOfficer1WellHoldYourMonText:
 	text "Prima, we bewaren" ; "Fine, we'll hold"
 	line "je andere #MON" ; "your other #MON"
-	cont "tijdens de strijd." ; "while you compete."
+	cont "ondertussen." ; "while you compete."
 	done
 
 Route35NationalParkGatePlayersMonLeftWithHelperText:

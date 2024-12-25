@@ -193,56 +193,56 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
-	text "Hold it there,"
-	line "kiddo!"
+	text "Eventjes wachten," ; "Hold it there,"
+	line "koter!" ; "kiddo!"
 
-	para "The toll is ¥{d:ROUTE43GATE_TOLL}"
-	line "to go through."
+	para "De tol is ¥{d:ROUTE43GATE_TOLL}" ; "The toll is ¥{d:ROUTE43GATE_TOLL}"
+	line "om te passeren." ; "to go through."
 	done
 
 RocketText_ThankYou:
-	text "Thank you very"
-	line "much!"
+	text "Hartelijk" ; "Thank you very"
+	line "bedankt!" ; "much!"
 	done
 
 RocketText_AllYouGot:
-	text "Then pay what you"
-	line "have, please."
+	text "Betaal anders" ; "Then pay what you"
+	line "maar wat je hebt." ; "have, please."
 	done
 
 RocketText_MakingABundle:
-	text "He-he-he. We're"
-	line "making a bundle."
+	text "He-he-he. We" ; "He-he-he. We're"
+	line "verdienen dik." ; "making a bundle."
 
-	para "Everyone wants to"
-	line "see what's going"
+	para "Iedereen wil zien" ; "Everyone wants to"
+	line "wat gaande is bij" ; "see what's going"
 
-	para "on up at LAKE OF"
-	line "RAGE."
+	para "het MEER VAN" ; "on up at LAKE OF"
+	line "RAZERNIJ." ; "RAGE."
 	done
 
 OfficerText_FoundTM:
-	text "I got chased from"
-	line "my post by these"
-	cont "thugs in black."
+	text "Ik werd weggejaagd" ; "I got chased from"
+	line "van mijn plek door" ; "my post by these"
+	cont "dit tuig in zwart." ; "thugs in black."
 
-	para "They left this"
-	line "behind."
+	para "Ze lieten dit" ; "They left this"
+	line "achter." ; "behind."
 
-	para "It makes me uncom-"
-	line "fortable. Could"
-	cont "you take it away?"
+	para "Ik voel me er niet" ; "It makes me uncom-"
+	line "fijn bij. Kun jij" ; "fortable. Could"
+	cont "het meenemen?" ; "you take it away?"
 	done
 
 Text_ReceivedTM30: ; unreferenced
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "TM30."
 	done
 
 OfficerText_AvoidGrass:
-	text "Use this gate to"
-	line "avoid walking in"
-	cont "the grass."
+	text "Gebruik deze poort" ; "Use this gate to"
+	line "om hoog gras te" ; "avoid walking in"
+	cont "vermijden." ; "the grass."
 	done
 
 Route43Gate_MapEvents:

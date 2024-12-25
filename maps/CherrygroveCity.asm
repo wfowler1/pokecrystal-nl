@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "WEGENKAART@" ; "MAP CARD@"
+	db "REGIOKAART@" ; "MAP CARD@"
 
 .No:
 	writetext GuideGentNoText
@@ -357,7 +357,7 @@ GuideGentPokecenterText:
 	line "#MONCENTRUM." ; "CENTER. They heal"
 
 	para "Zij genezen je" ; "your #MON in no"
-	line "#MON heel snel." ; "time at all."
+	line "#MON zomaar." ; "time at all."
 
 	para "Je gaat er veel" ; "You'll be relying"
 	line "gebruik van maken," ; "on them a lot, so"
@@ -414,7 +414,7 @@ GotMapCardText:
 	done
 
 GuideGentPokegearText:
-	text "#GEAR wordt" ; "#GEAR becomes"
+	text "De #GEAR wordt" ; "#GEAR becomes"
 	line "nuttiger als je" ; "more useful as you"
 	cont "functies toevoegt." ; "add CARDS."
 
@@ -537,8 +537,8 @@ MysticWaterGuyTextAfter:
 CherrygroveCitySignText:
 	text "CHERRYGROVE CITY"
 
-	para "Stad van schattige" ; "The City of Cute,"
-	line "geurende bloemen." ; "Fragrant Flowers"
+	para "Stad van Schattige" ; "The City of Cute,"
+	line "Geurende Bloemen." ; "Fragrant Flowers"
 	done
 
 GuideGentsHouseSignText:

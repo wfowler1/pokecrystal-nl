@@ -29,13 +29,13 @@ CherrygroveEvolutionSpeechHouseYoungsterText:
 	line "ervaring in ge-" ; "rience in battle"
 
 	para "vechten en veran-" ; "and change their"
-	line "deren van vorm." ; "form."
+	line "deren hun vorm." ; "form."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
 	text "#MON-evolutie?" ; "#MON change?"
 
-	para "Ik zou me kapot" ; "I would be shocked"
+	para "Ik zou me kapot-" ; "I would be shocked"
 	line "schrikken!" ; "if one did that!"
 	done
 

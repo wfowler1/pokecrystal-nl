@@ -99,102 +99,103 @@ ManiasHouseUnusedBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 ManiaText_AskLookAfterShuckle:
-	text "I, I'm in shock!"
+	text "Ik ben geschokt!" ; "I, I'm in shock!"
 
-	para "A guy about your"
-	line "age with piercing"
+	para "Een jongen van" ; "A guy about your"
+	line "jouw leeftijd met" ; "age with piercing"
 
-	para "eyes and long hair"
-	line "came in."
+	para "indringende ogen" ; "eyes and long hair"
+	line "en lang haar liep" ; "came in."
+	cont "naar binnen."
 
-	para "He scared me into"
-	line "giving him my"
-	cont "prized #MON!"
+	para "Ik schrok zo, dat" ; "He scared me into"
+	line "ik hem mijn beste" ; "giving him my"
+	cont "#MON gaf!" ; "prized #MON!"
 
-	para "I still have one"
-	line "left, but what if"
-	cont "he comes back?"
+	para "Ik heb nog één" ; "I still have one"
+	line "over, maar wat als" ; "left, but what if"
+	cont "hij terugkomt?" ; "he comes back?"
 
-	para "You look strong."
-	line "Could you look"
+	para "Jij ziet er sterk" ; "You look strong."
+	line "uit. Kun jij even" ; "Could you look"
 
-	para "after my #MON"
-	line "for a while?"
+	para "op mijn #MON" ; "after my #MON"
+	line "letten?" ; "for a while?"
 	done
 
 ManiaText_TakeCareOfShuckle:
-	text "Oh, thank you!"
+	text "Oh, dankjewel!" ; "Oh, thank you!"
 
-	para "Take good care of"
-	line "it, please!"
+	para "Pas er alsjeblieft" ; "Take good care of"
+	line "goed op!" ; "it, please!"
 	done
 
 ManiaText_GotShuckle:
-	text "<PLAYER> received a"
-	line "#MON."
+	text "<PLAYER> ontving" ; "<PLAYER> received a"
+	line "een #MON." ; "#MON."
 	done
 
 ManiaText_PartyFull:
-	text "Your #MON party"
-	line "is full."
+	text "Je #MON-team" ; "Your #MON party"
+	line "zit vol." ; "is full."
 	done
 
 ManiaText_IfHeComesBack:
-	text "Oh, no… What'll"
-	line "I do if he comes"
-	cont "back?"
+	text "Oh nee… Wat doe ik" ; "Oh, no… What'll"
+	line "als hij later" ; "I do if he comes"
+	cont "terugkomt?" ; "back?"
 	done
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hi! How's my #-"
-	line "MON?"
+	text "Hoi! Hoe is het" ; "Hi! How's my #-"
+	line "met mijn #MON?" ; "MON?"
 
-	para "I think I'm safe"
-	line "now, so may I have"
-	cont "it back?"
+	para "Ik denk dat ik nu" ; "I think I'm safe"
+	line "veilig ben, mag ik" ; "now, so may I have"
+	cont "het terug?" ; "it back?"
 	done
 
 ManiaText_ThankYou:
-	text "Thank you!"
+	text "Dankjewel!" ; "Thank you!"
 	done
 
 ManiaText_ShuckleNotThere:
-	text "Hey, you don't"
-	line "have my #MON"
-	cont "with you."
+	text "He, je hebt mijn" ; "Hey, you don't"
+	line "#MON niet in je" ; "have my #MON"
+	cont "team." ; "with you."
 	done
 
 ManiaText_ShuckleLikesYou:
-	text "My #MON has"
-	line "come to like you."
+	text "M'n #MON begint" ; "My #MON has"
+	line "je leuk te vinden." ; "come to like you."
 
-	para "All right, you"
-	line "should keep it."
+	para "Oké, zorg jij er" ; "All right, you"
+	line "maar goed voor." ; "should keep it."
 
-	para "But promise to"
-	line "be good to it!"
+	para "Zolang je er goed" ; "But promise to"
+	line "op past!" ; "be good to it!"
 	done
 
 ManiaText_SameAsBeingRobbed:
-	text "Oh, no, no… That's"
-	line "the same as being"
-	cont "robbed."
+	text "Oh, nee, nee… Nu" ; "Oh, no, no… That's"
+	line "ben ik alsnog" ; "the same as being"
+	cont "beroofd." ; "robbed."
 	done
 
 ManiaText_HappinessSpeech:
-	text "For #MON, hap-"
-	line "piness is being"
+	text "#MON zijn het" ; "For #MON, hap-"
+	line "gelukkigst met" ; "piness is being"
 
-	para "with a person who"
-	line "treats them well."
+	para "iemand die goed" ; "with a person who"
+	line "voor ze zorgt." ; "treats them well."
 	done
 
 ManiaText_ShuckleIsYourLastMon:
-	text "If I take my #-"
-	line "MON back, what are"
+	text "Als ik de #MON" ; "If I take my #-"
+	line "terugneem, waar" ; "MON back, what are"
 
-	para "you going to use"
-	line "in battle?"
+	para "ga jij dan mee" ; "you going to use"
+	line "vechten?" ; "in battle?"
 	done
 
 ManiasHouse_MapEvents:

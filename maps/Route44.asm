@@ -319,182 +319,183 @@ Route44HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_44_HIDDEN_ELIXER
 
 FisherWilton1SeenText:
-	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	text "Aack! Een POLIWAG" ; "Aack! You made me"
+	line "schoot los!" ; "lose a POLIWAG!"
 
-	para "What are you going"
-	line "to do about it?"
+	para "Wat ga je daar aan" ; "What are you going"
+	line "doen?" ; "to do about it?"
 	done
 
 FisherWilton1BeatenText:
-	text "Just forget about"
-	line "it."
+	text "Vergeet het anders" ; "Just forget about"
+	line "maar." ; "it."
 	done
 
 FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
-	line "got away…"
-	cont "It was huge."
+	text "Die POLIWAG die" ; "That POLIWAG that"
+	line "ontsnapte…" ; "got away…"
+	cont "Die was giga." ; "It was huge."
 
-	para "I swear it must've"
-	line "been 16 feet long!"
+	para "Ik zweer het je," ; "I swear it must've"
+	line "wel vijf meter!" ; "been 16 feet long!"
 	done
 
 FisherEdgarSeenText:
-	text "I fish until I"
-	line "can't anymore."
+	text "Ik vis tot ik niet" ; "I fish until I"
+	line "meer kan." ; "can't anymore."
 
-	para "I also battle"
-	line "until I drop."
+	para "Ik vecht ook tot" ; "I also battle"
+	line "ik neerval." ; "until I drop."
 
-	para "That's my"
-	line "relationship"
-	cont "with my #MON."
+	para "Dat is de band die" ; "That's my"
+	line "ik heb met mijn" ; "type of bond"
+	cont "#MON." ; "with my #MON."
 	done
 
 FisherEdgarBeatenText:
 	text "Hmmmm… "
-	line "This isn't right."
+	line "Dit is niet goed." ; "This isn't right."
 	done
 
 FisherEdgarAfterBattleText:
-	text "That's 100 wins"
-	line "to 101 losses."
+	text "100 keer gewonnen" ; "That's 100 wins"
+	line "en 101 verloren." ; "to 101 losses."
 
-	para "I won't battle"
-	line "again for a while."
+	para "Ik ga een tijdje" ; "I won't battle"
+	line "niet meer vechten." ; "again for a while."
 	done
 
 BirdKeeperVance1SeenText:
-	text "Do you know about"
-	line "the legendary bird"
-	cont "#MON?"
+	text "Heb je gehoord van" ; "Do you know about"
+	line "de legendarische" ; "the legendary bird"
+	cont "vogel-#MON?" ; "#MON?"
 	done
 
 BirdKeeperVance1BeatenText:
-	text "Whew! You're hot"
-	line "stuff."
+	text "Wauw! Jij bent me" ; "Whew! You're hot"
+	line "er één." ; "stuff."
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
 	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
+	line "en MOLTRES zijn de" ; "and MOLTRES are"
 
-	para "the three legend-"
-	line "ary bird #MON."
+	para "drie legendarische" ; "the three legend-"
+	line "vogel-#MON." ; "ary bird #MON."
 
-	para "I heard there are"
-	line "other legendary"
-	cont "birds, though."
+	para "Ik hoorde ook over" ; "I heard there are"
+	line "andere legendari- " ; "other legendary"
+	cont "sche vogels." ; "birds, though."
 	done
 
 BirdKeeperVance2BeatenText:
-	text "Why can't I ever"
-	line "beat you?"
+	text "Waarom kan ik je" ; "Why can't I ever"
+	line "nooit verslaan?" ; "beat you?"
 
-	para "Oh yeah, here you"
-	line "go. It's that gift"
+	para "Oh ja, dit is" ; "Oh yeah, here you"
+	line "voor jou. Een" ; "go. It's that gift"
 
-	para "I couldn't give"
-	line "you last time."
+	para "cadeau dat ik nog" ; "I couldn't give"
+	line "moest geven." ; "you last time."
 	done
 
 PsychicPhilSeenText:
-	text "I'm gonna win,"
-	line "for sure!"
+	text "Ik ga zeker weten" ; "I'm gonna win,"
+	line "winnen!" ; "for sure!"
 	done
 
 PsychicPhilBeatenText:
-	text "Arrgh… That's a"
-	line "shocking loss…"
+	text "Arrgh… Een" ; "Arrgh… That's a"
+	line "schokkend verlies…" ; "shocking loss…"
 	done
 
 PsychicPhilAfterBattleText:
-	text "It's important to"
-	line "have conviction"
-	cont "on your side."
+	text "Het is belangrijk" ; "It's important to"
+	line "om toegewijd te" ; "have conviction"
+	cont "zijn." ; "on your side."
 	done
 
 PokemaniacZachSeenText:
-	text "I'll do anything"
-	line "to get my hands on"
-	cont "rare #MON!"
+	text "Ik doe alles om" ; "I'll do anything"
+	line "zeldzame #MON" ; "to get my hands on"
+	cont "te bemachtigen!" ; "rare #MON!"
 	done
 
 PokemaniacZachBeatenText:
-	text "Oooh, your #MON"
-	line "are so appealing."
+	text "Oooh, je #MON" ; "Oooh, your #MON"
+	line "zijn aanlokkelijk." ; "are so appealing."
 	done
 
 PokemaniacZachAfterBattleText:
-	text "If a #MON has"
-	line "different colors"
+	text "Als een #MON" ; "If a #MON has"
+	line "andere kleuren" ; "different colors"
 
-	para "from usual, it's"
-	line "more valuable."
+	para "heeft dan normaal," ; "from usual, it's"
+	line "is die meer waard." ; "more valuable."
 
-	para "What? You mean"
-	line "that's not true?"
+	para "Wat? Zeg je dat" ; "What? You mean"
+	line "het niet waar is?" ; "that's not true?"
 	done
 
 CooltrainermAllenSeenText:
-	text "I can tell you're"
-	line "a good trainer by"
-	cont "looking at you."
+	text "Ik zie aan je dat" ; "I can tell you're"
+	line "je een goede" ; "a good trainer by"
+	cont "trainer bent." ; "looking at you."
 
-	para "I'm good at #-"
-	line "MON, and I can see"
-	cont "that you are too."
+	para "Ik ben goed met" ; "I'm good at #-"
+	line "#MON, en jij zo" ; "MON, and I can see"
+	cont "te zien ook." ; "that you are too."
 	done
 
 CooltrainermAllenBeatenText:
-	text "Tch! It's a total"
-	line "loss on my part."
+	text "Tch! Een compleet" ; "Tch! It's a total"
+	line "verlies voor mij." ; "loss on my part."
 	done
 
 CooltrainermAllenAfterBattleText:
-	text "Wow. You have a"
-	line "lot of BADGES."
+	text "Wauw. Je hebt" ; "Wow. You have a"
+	line "echt veel badges." ; "lot of BADGES."
 
-	para "No wonder you're"
-	line "so tough."
+	para "Geen wonder dat je" ; "No wonder you're"
+	line "zo sterk bent." ; "so tough."
 
-	para "I wonder if"
-	line "ECRUTEAK GYM's"
+	para "Zou ECRUTEAK GYM's" ; "I wonder if"
+	line "MORTY nog aan het" ; "ECRUTEAK GYM's"
 
-	para "MORTY is still in"
-	line "training?"
+	para "trainen zijn op" ; "MORTY is still in"
+	line "dit moment?" ; "training?"
 
-	para "He really hammered"
-	line "me."
+	para "Hij ramde me echt" ; "He really hammered"
+	line "in elkaar." ; "me."
 	done
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
+	text "Je ziet er sterk" ; "You look strong."
+	line "uit."
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "Goede trainers" ; "Good trainers seek"
+	line "zoeken instinctief" ; "tough opponents"
+	cont "de sterksten." ; "instinctively."
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "Nope! Dit is het" ; "Nope! This won't"
+	line "niet voor mij." ; "do at all."
 	done
 
 CooltrainerfCybilAfterBattleText:
-	text "We all get better"
-	line "by experiencing"
-	cont "many battles."
+	text "We worden allemaal" ; "We all get better"
+	line "beter door vaak te" ; "by experiencing"
+	cont "vechten." ; "many battles."
 
-	para "I battled a lot to"
-	line "become what I am"
-	cont "today--an elite."
+	para "Ik vocht veel om" ; "I battled a lot to"
+	line "te worden wat ik" ; "become what I am"
+	cont "nu ben--een elite." ; "today--an elite."
 	done
 
 Route44Sign1Text:
 	text "ROUTE 44"
-	line "ICE PATH AHEAD"
+	line "IJSPAD NABIJ" ; "ICE PATH AHEAD"
 	done
 
 Route44Sign2Text:

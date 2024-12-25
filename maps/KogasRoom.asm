@@ -81,50 +81,50 @@ KogasRoom_EnterMovement:
 KogaScript_KogaBeforeText:
 	text "Fwahahahaha!"
 
-	para "I am KOGA of the"
+	para "Ik ben KOGA van de" ; "I am KOGA of the"
 	line "ELITE FOUR."
 
-	para "I live in shadows,"
-	line "a ninja!"
+	para "Ik leef in de" ; "I live in shadows,"
+	line "schaduw als ninja!" ; "a ninja!"
 
-	para "My intricate style"
-	line "will confound and"
-	cont "destroy you!"
+	para "M'n complexe stijl" ; "My intricate style"
+	line "zal je verbazen" ; "will confound and"
+	cont "en verwoesten!" ; "destroy you!"
 
-	para "Confusion, sleep,"
-	line "poison…"
+	para "Verwarring, slaap," ; "Confusion, sleep,"
+	line "gif…" ; "poison…"
 
-	para "Prepare to be the"
-	line "victim of my sin-"
-	cont "ister technique!"
+	para "Bereid voor om" ; "Prepare to be the"
+	line "mijn slachtoffer" ; "victim of my sin-"
+	cont "te worden!" ; "ister technique!"
 
 	para "Fwahahahaha!"
 
-	para "#MON is not"
-	line "merely about brute"
+	para "#MON gaat om" ; "#MON is not"
+	line "meer dan brute" ; "merely about brute"
 
-	para "force--you shall"
-	line "see soon enough!"
+	para "kracht--dat zul je" ; "force--you shall"
+	line "snel zien!" ; "see soon enough!"
 	done
 
 KogaScript_KogaBeatenText:
-	text "Ah!"
-	line "You have proven"
-	cont "your worth!"
+	text "Ah!" ; "Ah!"
+	line "Je hebt je" ; "You have proven"
+	cont "bewezen!" ; "your worth!"
 	done
 
 KogaScript_KogaDefeatText:
-	text "I subjected you to"
-	line "everything I could"
-	cont "muster."
+	text "Ik heb alles" ; "I subjected you to"
+	line "gegeven dat ik in" ; "everything I could"
+	cont "mij had." ; "muster."
 
-	para "But my efforts"
-	line "failed. I must"
-	cont "hone my skills."
+	para "Maar het was niet" ; "But my efforts"
+	line "genoeg. Ik moet" ; "failed. I must"
+	cont "mezelf verbeteren." ; "hone my skills."
 
-	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
+	para "Ga voort en stel" ; "Go on to the next"
+	line "jezelf op de" ; "room, and put your"
+	cont "proef!" ; "abilities to test!"
 	done
 
 KogasRoom_MapEvents:

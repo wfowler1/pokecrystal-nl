@@ -3,64 +3,65 @@ ErinMonIsMuchStrongerText:
 	text "'s @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	line "is much stronger"
-	cont "than before!"
+	line "is veel sterker" ; "is much stronger"
+	cont "dan eerder!" ; "than before!"
 	done
 
 ErinDefeatedMonText:
-	text "And, and…"
-	line "I just battled and"
-	cont "beat @"
+	text "En, en…" ; "And, and…"
+	line "Ik versloeg net" ; "I just battled and"
+	cont "een @" ; "beat @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!"
 
-	para "I've raised my"
-	line "#MON properly!"
+	para "Mijn #MON zijn" ; "I've raised my"
+	line "goed getraind!" ; "#MON properly!"
 	done
 
 ErinLostAMonText:
-	text "But, but…"
+	text "Maar, maar…" ; "But, but…"
 
-	para "A wild @"
+	para "Een @" ; "A wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
-	line "got away from me"
+	line "is mij weer eens" ; "got away from me"
 
-	para "again. It's just"
-	line "not fair!"
+	para "ontglipt. Het is" ; "again. It's just"
+	line "niet eerlijk!" ; "not fair!"
 	done
 
 ErinBattleRematchText:
-	text "I'm ERIN. Want to"
-	line "battle me again?"
+	text "Ik ben ERIN. Wil" ; "I'm ERIN. Want to"
+	line "je weer vechten?" ; "battle me again?"
 
-	para "I won't lose this"
-	line "time!"
+	para "Ditmaal verlies ik" ; "I won't lose this"
+	line "niet!" ; "time!"
 
-	para "I'll be waiting on"
+	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"
 	done
 
 ErinHangUpText:
-	text "See you. Bye-bye!"
+	text "Tot snel. Doeiii!" ; "See you. Bye-bye!"
 	done
 
 ErinWorkingHardText:
-	text "I'm working hard"
-	line "to raise my"
-	cont "#MON!"
+	text "Ik ben hard bezig" ; "I'm working hard"
+	line "om mijn #MON" ; "to raise my"
+	cont "te trainen!" ; "#MON!"
 
-	para "Come back for"
-	line "another battle!"
+	para "Kom terug voor nog" ; "Come back for"
+	line "een gevecht!" ; "another battle!"
 	done
 
 ErinComeBattleText:
 	text "Oh, <PLAY_G>!"
-	line "Come battle ERIN!"
+	line "Kom vechten met" ; "Come battle ERIN!"
+	cont "ERIN!"
 
-	para "I'll be waiting on"
+	para "Ik wacht wel op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!"

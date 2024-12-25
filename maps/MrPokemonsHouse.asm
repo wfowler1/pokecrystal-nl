@@ -289,9 +289,8 @@ MrPokemonsHouse_OakText1:
 	para "Wil je mij anders" ; "How would you like"
 	line "met iets helpen?" ; "to help me out?"
 
-	para "Zie je dat? Het" ; "See? This is the"
-	line "is de nieuwste" ; "latest version of"
-	cont "#DEX."
+	para "Dit hier is de" ; "See? This is the"
+	line "nieuwste #DEX." ; "latest version of"
 
 	para "Hij bewaart auto-" ; "It automatically"
 	line "matisch data van" ; "records data on"

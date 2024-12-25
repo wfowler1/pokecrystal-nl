@@ -298,8 +298,8 @@ Route29YoungsterText:
 	para "Als ze zwak zijn" ; "If they're weak"
 	line "en niet kunnen" ; "and not ready for"
 
-	para "vechten, blijf uit" ; "battle, keep out"
-	line "het gras." ; "of the grass."
+	para "vechten, blijf dan" ; "battle, keep out"
+	line "uit het gras." ; "of the grass."
 	done
 
 Route29TeacherText:
@@ -356,8 +356,8 @@ MeetTuscanyText:
 	para "Laat me mijzelf" ; "Please allow me to"
 	line "voorstellen." ; "introduce myself."
 
-	para "Ik ben TUSCANY van" ; "I am TUSCANY of"
-	line "Dinsdag." ; "Tuesday."
+	para "Ik ben dinsdagse" ; "I am TUSCANY of"
+	line "TUSCANY." ; "Tuesday."
 	done
 
 TuscanyGivesGiftText:
