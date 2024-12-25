@@ -159,14 +159,14 @@ MagikarpLengthRaterText_Memento:
 	line "voor de vangst!" ; "you!"
 
 	para "Neem dit als een" ; "Take this as a"
-	line "aanteken!" ; "memento!"
+	line "aandenken!" ; "memento!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "Het record is hier" ; "The record is the"
-	line "het belangrijkst." ; "important thing."
+	text "Het record is het" ; "The record is the"
+	line "belangrijkst." ; "important thing."
 
-	para "Zie het maar als" ; "Think of that as"
+	para "Zie dat maar als" ; "Think of that as"
 	line "een bonus!" ; "a bonus!"
 	done
 

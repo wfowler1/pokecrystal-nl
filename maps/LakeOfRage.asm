@@ -277,7 +277,7 @@ LakeOfRageLanceIntroText:
 
 	para "Als je tijd hebt," ; "If you don't mind,"
 	line "kun je me helpen" ; "could you help me"
-	cont "met m'n onderzoek?" ; "investigate?"
+	cont "onderzoeken?" ; "investigate?"
 	done
 
 LakeOfRageLanceRadioSignalText:
@@ -302,7 +302,7 @@ LakeOfRageLanceRadioSignalText:
 LakeOfRageLanceRefusedText:
 	text "Oh… Nou, als je" ; "Oh… Well, if you"
 	line "van gedachten ver-" ; "change your mind,"
-	cont "anders, help me" ; "please help me."
+	cont "andert, help me" ; "please help me."
 	cont "alsjeblieft."
 	done
 
@@ -352,8 +352,8 @@ LakeOfRageCooltrainerFText:
 	line "het MEER…" ; "the LAKE…"
 
 	para "Maar GYARADOS zijn" ; "But I thought"
-	line "normaal toch juist" ; "GYARADOS were"
-	cont "blauw?" ; "usually blue?"
+	line "toch blauw?" ; "GYARADOS were"
+	; cont "usually blue?"
 	done
 
 FisherAndreSeenText:
@@ -448,7 +448,7 @@ MeetWesleyText:
 	para "Gezien het vandaag" ; "Seeing as how it's"
 	line "woensdag is," ; "Wednesday today,"
 
-	para "Ik ben woensdagse" ; "I'm WESLEY of"
+	para "ik ben woensdagse" ; "I'm WESLEY of"
 	line "Wesley." ; "Wednesday."
 	done
 
@@ -489,7 +489,7 @@ LakeOfRageSignText:
 
 FishingGurusHouseSignText:
 	text "VISGOEROE'S HUIS" ; "FISHING GURU'S"
-	line "" ; "HOUSE"
+	line ; "HOUSE"
 	done
 
 LakeOfRage_MapEvents:
