@@ -600,7 +600,7 @@ DragonShrineClairYouPassedText:
 	para "Stom om te vragen," ; "I guess there's no"
 	line "eigenlijk." ; "point in asking."
 
-	para "Je faalde?" ; "You did fail?"
+	para "Je faalde, toch?" ; "You did fail?"
 
 	para "<……><……><……><……><……><……>"
 
