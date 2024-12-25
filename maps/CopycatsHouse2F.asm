@@ -232,9 +232,8 @@ CopycatText_Male_2:
 	line "voor je zoeken." ; "find it for you."
 
 	para "Raakte je hem" ; "You think you lost"
-	line "kwijt toen je naar" ; "it when you went"
-	cont "VERMILLION CITY" ; "to VERMILION CITY?"
-	cont "ging?"
+	line "kwijt op bezoek in" ; "it when you went"
+	cont "VERMILLION CITY?" ; "to VERMILION CITY?"
 	done
 
 CopycatText_Worried:
@@ -325,9 +324,8 @@ CopycatText_Female_2:
 	line "ik ga wel zoeken!" ; "I'll look for it!"
 
 	para "Raakte je hem" ; "You think you lost"
-	line "kwijt toen je naar" ; "it when you went"
-	cont "VERMILLION CITY" ; "to VERMILION CITY?"
-	cont "ging?"
+	line "kwijt op bezoek in" ; "it when you went"
+	cont "VERMILLION CITY?" ; "to VERMILION CITY?"
 	done
 
 CopycatText_Female_3:
