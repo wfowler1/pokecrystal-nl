@@ -126,7 +126,7 @@ ManiaText_AskLookAfterShuckle:
 ManiaText_TakeCareOfShuckle:
 	text "Oh, dankjewel!" ; "Oh, thank you!"
 
-	para "Pas er alseblieft" ; "Take good care of"
+	para "Pas er alsjeblieft" ; "Take good care of"
 	line "goed op!" ; "it, please!"
 	done
 
