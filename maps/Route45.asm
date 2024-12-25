@@ -349,14 +349,13 @@ HikerMichaelBeatenText:
 
 HikerMichaelAfterBattleText:
 	text "Joh, wat ben ik" ; "Boy, do I love"
-	line "dol op LP-PLUS!!" ; "HP UP! Mmmm, yum!"
+	line "dol op LP-PLUS!" ; "HP UP! Mmmm, yum!"
 
 	para "Ik blijf die van" ; "I keep drinking my"
 	line "mijn #MON" ; "#MON's!"
 	cont "steeds opdrinken!"
 
-	para "Ik kan het niet" ; "I can't help it!"
-	line "laten!"
+	para "Houd me tegen!" ; "I can't help it!"
 	done
 
 HikerParry3SeenText:
@@ -463,7 +462,7 @@ CooltrainermRyanSeenText:
 
 CooltrainermRyanBeatenText:
 	text "Je hebt mijn" ; "You've won my"
-	line "respect verdiend."
+	line "respect verdiend." ; "respect."
 	done
 
 CooltrainermRyanAfterBattleText:
@@ -496,7 +495,7 @@ CooltrainerfKellyAfterBattleText:
 
 	para "Ik wil winnen," ; "I want to win, but"
 	line "maar wil #MON" ; "I also don't want"
-	cont "niet pijn doen." ; "to harm #MON."
+	cont "geen pijn doen." ; "to harm #MON."
 	done
 
 Route45DummyText:

@@ -319,8 +319,8 @@ Route44HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_44_HIDDEN_ELIXER
 
 FisherWilton1SeenText:
-	text "Aack! Ik verloor" ; "Aack! You made me"
-	line "POLIWAG door je!" ; "lose a POLIWAG!"
+	text "Aack! Een POLIWAG" ; "Aack! You made me"
+	line "schoot los!" ; "lose a POLIWAG!"
 
 	para "Wat ga je daar aan" ; "What are you going"
 	line "doen?" ; "to do about it?"
@@ -348,7 +348,7 @@ FisherEdgarSeenText:
 	line "ik neerval." ; "until I drop."
 
 	para "Dat is de band die" ; "That's my"
-	line "ik heb met mijn"
+	line "ik heb met mijn" ; "type of bond"
 	cont "#MON." ; "with my #MON."
 	done
 
@@ -383,17 +383,16 @@ BirdKeeperVanceLegendaryBirdsText:
 	para "drie legendarische" ; "the three legend-"
 	line "vogel-#MON." ; "ary bird #MON."
 
-	para "Ik hoorde dat er" ; "I heard there are"
-	line "ook andere " ; "other legendary"
-	cont "legendarische" ; "birds, though."
-	cont "vogels zijn."
+	para "Ik hoorde ook over" ; "I heard there are"
+	line "andere legendari- " ; "other legendary"
+	cont "sche vogels." ; "birds, though."
 	done
 
 BirdKeeperVance2BeatenText:
 	text "Waarom kan ik je" ; "Why can't I ever"
 	line "nooit verslaan?" ; "beat you?"
 
-	para "Oh ja, deze is" ; "Oh yeah, here you"
+	para "Oh ja, dit is" ; "Oh yeah, here you"
 	line "voor jou. Een" ; "go. It's that gift"
 
 	para "cadeau dat ik nog" ; "I couldn't give"

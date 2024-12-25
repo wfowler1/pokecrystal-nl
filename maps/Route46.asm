@@ -218,8 +218,8 @@ PicnickerErin1BeatenText:
 	done
 
 PicnickerErinAfterBattleText:
-	text "Ik ben in veel" ; "I've been to many"
-	line "geweest, maar die" ; "GYMS, but the GYM"
+	text "Ik heb veel GYMs" ; "I've been to many"
+	line "bezocht, maar die" ; "GYMS, but the GYM"
 
 	para "in GOLDENROD is" ; "in GOLDENROD is my"
 	line "mijn favoriet." ; "favorite."
