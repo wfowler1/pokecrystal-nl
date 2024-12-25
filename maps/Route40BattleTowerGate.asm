@@ -45,9 +45,8 @@ Route40BattleTowerGateRockerText:
 	para "Het is geheim," ; "This is a secret,"
 	line "maar als je vaak" ; "but if you win a"
 
-	para "wint, kun je" ; "whole lot, you can"
-	line "ook speciale" ; "win special gifts."
-	cont "cadeaus winnen."
+	para "wint, krijg je" ; "whole lot, you can"
+	line "speciale cadeaus." ; "win special gifts."
 	done
 
 Route40BattleTowerGateUnusedText3: ; unreferenced
