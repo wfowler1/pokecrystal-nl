@@ -511,7 +511,7 @@ Text_CongratulationsYouveBeatenAllTheTrainers:
 	line "trainers!" ; "the trainers!"
 
 	para "Hiervoor krijg je" ; "For that, you get"
-	line "deze toffe prijs!" ; "this great prize!"
+	line "deze mooie prijs!" ; "this great prize!"
 
 	para ""
 	done
@@ -620,7 +620,7 @@ Text_BattleTower_LeftWithoutSaving:
 
 	para "SLAGEN voor je de" ; "before exiting"
 	line "GEVECHTSKAMER" ; "the BATTLE ROOM."
-	cont "verlies."
+	cont "verliet."
 
 	para "Het spijt me zeer," ; "I'm awfully sorry,"
 	line "maar je uitdaging" ; "but your challenge"
@@ -689,7 +689,7 @@ Text_WeveBeenWaitingForYou:
 	text "We stonden op je" ; "We've been waiting"
 	line "te wachten. Deze" ; "for you. This way"
 
-	para "kant op voor een" ; "to a BATTLE ROOM,"
+	para "kant op naar een" ; "to a BATTLE ROOM,"
 	line "GEVECHTSKAMER." ; "please."
 	done
 
@@ -780,7 +780,7 @@ Text_BattleTowerGranny:
 	line "#MON iets vast" ; "#MON hold items"
 
 	para "te laten houden in" ; "is the key to"
-	line "gevechten." ; "winning battles."
+	line "het gevecht." ; "winning battles."
 	done
 
 Text_BattleTowerBugCatcher:
