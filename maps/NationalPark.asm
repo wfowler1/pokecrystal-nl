@@ -329,8 +329,8 @@ NationalParkTeacher1Text:
 	para "…Oeps. Ik moet" ; "…Oops, I have to"
 	line "stoppen steeds te" ; "quit thinking like"
 
-	para "denken als een." ; "a teacher all the"
-	line "leraar" ; "time."
+	para "denken als een" ; "a teacher all the"
+	line "leraar." ; "time."
 
 	para "Jij bent vast een" ; "You must be a"
 	line "#MON-trainer." ; "#MON trainer."
@@ -359,8 +359,8 @@ NationalParkYoungster1Text:
 
 NationalParkYoungster2Text:
 	text "Ik krijg stickers" ; "I get the other"
-	line "van die ander als" ; "guy's #DEX"
-	cont "ik win." ; "sticker if I win."
+	line "van die andere" ; "guy's #DEX"
+	cont "gast als ik win." ; "sticker if I win."
 	done
 
 NationalParkTeacher2Text:
@@ -472,7 +472,7 @@ PokefanFBeverlyMarillFriendText:
 
 LassKriseSeenText:
 	text "Hallo? Waarom" ; "Hello? Why are you"
-	line "staar je naar me?" ; "staring at me?"
+	line "staar je zo?" ; "staring at me?"
 
 	para "Oh, een gevecht?" ; "Oh, a battle?"
 	done
