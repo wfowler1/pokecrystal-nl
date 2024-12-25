@@ -616,7 +616,7 @@ Text_MillionDollarSlowpokeTail:
 	done
 
 Text_ThoughtKidsWereLoaded:
-	text "Tch! ik dacht dat" ; "Tch! I thought"
+	text "Tch! Ik dacht dat" ; "Tch! I thought"
 	line "kinderen van nu" ; "kids these days"
 	cont "veel geld hadden…" ; "were loaded…"
 	done
@@ -796,7 +796,7 @@ PicnickerLiz1SeenText:
 	line "weet je…" ; "you know…"
 
 	para "Pardon? Vechten?" ; "Pardon? Battle?"
-	line "Ik ben aan de." ; "I'm on the phone."
+	line "Ik ben aan de" ; "I'm on the phone."
 
 	para "telefoon. Nou," ; "Oh, all right. But"
 	line "vooruit dan, snel." ; "make it fast."

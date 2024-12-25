@@ -1366,7 +1366,6 @@ ElmsLabTrashcanText:
 ElmsLabPCText:
 	text "OBSERVATIES OVER" ; "OBSERVATIONS ON"
 	line "#MON-EVOLUTIE" ; "#MON EVOLUTION"
-	line "#MON-EVOLUTIE" ; "#MON EVOLUTION"
 
 	para "…Op het scherm" ; "…It says on the"
 	line "staat…" ; "screen…"
