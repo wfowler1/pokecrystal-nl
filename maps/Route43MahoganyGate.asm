@@ -27,7 +27,7 @@ Route43MahoganyGateOfficerText:
 	line "weg naar MEER VAN" ; "up to LAKE OF RAGE"
 
 	para "RAZERNIJ passeren" ; "have been through"
-	line "hier deze dagen." ; "here lately."
+	line "laatste tijd hier." ; "here lately."
 	done
 
 Route43MahoganyGateOfficerRocketsClearedText:

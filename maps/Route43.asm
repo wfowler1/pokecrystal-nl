@@ -339,9 +339,8 @@ PokemaniacBenBeatenText:
 	done
 
 PokemaniacBenAfterBattleText:
-	text "Wat ik nog meer" ; "What else do I"
-	line "leuk vindt naast" ; "like besides"
-	cont "#MON?"
+	text "Wat ik leuk" ; "What else do I"
+	line "vind naast #MON?" ; "like besides"
 
 	para "MARY op de radio." ; "MARY on the radio."
 	line "Echt een schatje!" ; "I bet she's cute!"
@@ -389,7 +388,7 @@ PokemaniacRonAfterBattleText:
 
 	para "#MON draait" ; "#MON isn't just"
 	line "niet alleen om" ; "about having the"
-	cont "wat sterk is." ; "most powerful one."
+	cont "de sterksten." ; "most powerful one."
 	done
 
 FisherMarvinSeenText:
@@ -399,7 +398,7 @@ FisherMarvinSeenText:
 	line "mijn uitrusting." ; "gear I'm using."
 
 	para "Laten we ter af-" ; "Let's battle for a"
-	line "wisseling vechten!"
+	line "wisseling vechten!" ; "change!"
 	done
 
 FisherMarvinBeatenText:
@@ -409,10 +408,10 @@ FisherMarvinBeatenText:
 
 FisherMarvinAfterBattleText:
 	text "KURT's LOKAASBAL" ; "KURT's LURE BALL"
-	line "is het beste voor" ; "is the best for"
+	line "is het beste om" ; "is the best for"
 
-	para "opgeviste #MON." ; "catching hooked"
-	line "" ; "#MON."
+	para "opgeviste #MON te" ; "catching hooked"
+	line "vangen." ; "#MON."
 
 	para "Dan is hij veel" ; "It's much more"
 	line "effectiever dan" ; "effective than a"

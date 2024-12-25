@@ -240,7 +240,7 @@ Text_ReceivedTM30: ; unreferenced
 	done
 
 OfficerText_AvoidGrass:
-	text "Gebruik deze deur" ; "Use this gate to"
+	text "Gebruik deze poort" ; "Use this gate to"
 	line "om hoog gras te" ; "avoid walking in"
 	cont "vermijden." ; "the grass."
 	done
