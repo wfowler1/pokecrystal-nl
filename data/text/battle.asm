@@ -445,7 +445,7 @@ AlreadyConfusedText:
 
 BattleText_UsersHurtByStringBuffer1: ; TODO translate
 	text "<USER>'s"
-	line "hurt by"
+	line "bezeerd door"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
