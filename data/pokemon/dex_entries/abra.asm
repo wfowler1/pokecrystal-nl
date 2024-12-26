@@ -2,11 +2,10 @@
 	db 9 ; height
 	dw 195 ; weight
 
-	; TODO: Strings too long
-	db   "Het hypnotiseert" ; "It hypnotizes"
-	next "zichzelf zodat het" ; "itself so that it"
-	next "weg kan teleporteren" ; "can teleport away"
+	db   "Hypnotiseert zich-" ; "It hypnotizes"
+	next "zelf zodat weg kan" ; "itself so that it"
+	next "teleporteren zodra" ; "can teleport away"
 
-	page "wanneer het gevaar" ; "when it senses"
-	next "voelt, zelfs" ; "danger, even"
-	next "als het slaapt.@" ; "if it is asleep.@"
+	page "het gevaar voelt," ; "when it senses"
+	next "zelfs als het" ; "danger, even"
+	next "slaapt.@" ; "if it is asleep.@"

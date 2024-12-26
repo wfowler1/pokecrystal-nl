@@ -3,7 +3,7 @@
 	dw 1200 ; weight
 
 	db   "Door in een goede" ; "Living in a good"
-	next "omgeving te leven" ; "environment makes"
+	next "omgeving te leven," ; "environment makes"
 	next "groeien veel" ; "it grow lots of"
 
 	page "hoofden. Valt er" ; "heads. A head that"

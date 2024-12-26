@@ -6,6 +6,6 @@
 	next "bergpaden te" ; "ling on mountain"
 	next "rollen. Remt" ; "paths. If it gains"
 
-	page "door tegen rotsen" ; "too much speed, it"
-	next "te rammen bij te-" ; "stops by running"
-	next "veel snelheid.@" ; "into huge rocks.@"
+	page "door het lijf" ; "too much speed, it"
+	next "tegen de rotsen" ; "stops by running"
+	next "te rammen.@" ; "into huge rocks.@"

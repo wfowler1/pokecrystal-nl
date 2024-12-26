@@ -8,4 +8,4 @@
 
 	page "het bereisde pad" ; "burning down any"
 	next "tot aan de grond" ; "place it travels"
-	next "gelijk.@" ; "through.@"
+	next "af.@" ; "through.@"
