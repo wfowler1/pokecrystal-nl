@@ -61,7 +61,7 @@ TrainerClassNames::
 	li "BOARDER"
 	li "#FAN"
 	li "KIMONO-MEID"
-	li "TWEELINGEN"
+	li "TWEELING"
 	li "#FAN"
 	li "<PKMN>-TRAINER"
 	li "LEIDER"
