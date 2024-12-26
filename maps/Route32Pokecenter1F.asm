@@ -75,7 +75,7 @@ Route32Pokecenter1FFishingGuruText_GiveOldRod:
 
 Route32Pokecenter1FFishingGuruText_No:
 	text "Oh. Dat is wel" ; "Oh. That's rather"
-	line "Teleurstellend…" ; "disappointing…"
+	line "teleurstellend…" ; "disappointing…"
 	done
 
 Route32Pokecenter1FFishingGuruText_After:

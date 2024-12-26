@@ -36,7 +36,7 @@ WadeLostAMonText:
 	text "Oh ja, een wilde" ; "Oh yeah, a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "ontkwam" ; " got"
+	text " ontkwam" ; " got"
 
 	para "op het laatste" ; "away from me at"
 	line "moment van me." ; "the last second."
@@ -60,7 +60,7 @@ WadeBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text " " ; "'s"
+	text_start
 	line "is waar ik ben." ; "where I'll be."
 
 	para "Laat me weten als" ; "Let me know when"
