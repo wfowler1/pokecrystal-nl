@@ -4,7 +4,7 @@
 
 	db   "Begint iedere dag" ; "It begins to hoot"
 	next "om dezelfde tijd" ; "at the same time"
-	next "met oehoe-georep." ; "every day. Some"
+	next "met oehoe-geroep." ; "every day. Some"
 
 	page "Sommige trainers" ; "trainers use them"
 	next "gebruiken ze als" ; "in place of"
