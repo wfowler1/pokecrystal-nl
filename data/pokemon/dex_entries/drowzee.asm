@@ -4,8 +4,8 @@
 
 	db   "Kan de neus" ; "When it twitches"
 	next "bewegen om te zien" ; "its nose, it can"
-	next "of iemand echt" ; "tell where someone"
+	next "waar iemand slaapt" ; "tell where someone"
 
-	page "slaapt en waar" ; "is sleeping and"
-	next "die persoon over" ; "what that person"
+	page "en waar die" ; "is sleeping and"
+	next "persoon over" ; "what that person"
 	next "droomt.@" ; "is dreaming about.@"

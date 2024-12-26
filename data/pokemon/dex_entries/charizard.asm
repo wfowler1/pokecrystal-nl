@@ -6,6 +6,6 @@
 	next "om hoog te vlieg-" ; "to fly high. The"
 	next "en. Wordt warmer" ; "temperature of its"
 
-	page "na sterker te" ; "fire increases as"
-	next "worden door te" ; "it gains exper-"
-	next "vechten.@" ; "ience in battle.@"
+	page "naarmate het" ; "fire increases as"
+	next "sterker wordt" ; "it gains exper-"
+	next "door gevechten.@" ; "ience in battle.@"

@@ -3,7 +3,7 @@
 	dw 58 ; weight
 
 	db   "Als ze samen" ; "When these dance"
-	next "dansen wrijven de" ; "together, their"
+	next "dansen, wrijven de" ; "together, their"
 	next "bladeren tegen" ; "petals rub against"
 
 	page "elkaar, wat een" ; "each other,"

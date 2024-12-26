@@ -4,7 +4,7 @@
 
 	db   "Gebruikt op jonge" ; "While it is young,"
 	next "leeftijd de" ; "it uses the"
-	next "voedigingsstoffen" ; "nutrients that are"
+	next "voedingsstoffen" ; "nutrients that are"
 
 	page "in de zaden op de" ; "stored in the"
 	next "rug om te kunnen" ; "seeds on its back"
