@@ -1313,7 +1313,7 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (12)
-	db "EXECUTIVE@", TRAINERTYPE_NORMAL
+	db "LEIDER" ; "EXECUTIVE@", TRAINERTYPE_NORMAL
 	db 33, HOUNDOUR
 	db -1 ; end
 
