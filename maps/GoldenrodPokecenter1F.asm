@@ -715,8 +715,8 @@ GoldenrodPokecenter1FLassText:
 	para "Ik denk dat er" ; "I don't think"
 	line "niet één sterkste" ; "there is a single"
 
-	para "#MON bestaat." ; "#MON that is"
-	# line "the toughest."
+	para "#MON te vinden" ; "#MON that is"
+	line "is." ; the toughest."
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
