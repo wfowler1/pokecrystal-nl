@@ -40,8 +40,8 @@ GoldenrodPPSpeechHouseLassText:
 	text "Soms kan een" ; "Sometimes, a"
 	line "gezonde #MON" ; "healthy #MON"
 
-	para "geen van zijn" ; "may be unable to"
-	line "aanvallen doen." ; "use its moves."
+	para "geen aanvallen" ; "may be unable to"
+	line "meer gebruiken." ; "use its moves."
 
 	para "Als dat gebeurt," ; "If that happens,"
 	line "genees het in een" ; "heal it at a #-"
