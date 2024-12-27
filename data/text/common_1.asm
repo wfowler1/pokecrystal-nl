@@ -1364,7 +1364,7 @@ _NoCoinsText::
 
 _NoCoinCaseText::
 	text "Je hebt geen" ; "You don't have a"
-	line "MUNTENZAK." ; "COIN CASE."
+	line "GELDKISTJE." ; "COIN CASE."
 	prompt
 
 _NPCTradeCableText::
