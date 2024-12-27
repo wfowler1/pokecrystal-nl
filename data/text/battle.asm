@@ -55,7 +55,7 @@ BattleText_EnemyFled:
 	prompt
 
 HurtByPoisonText:
-	text "<USER> is" "<USER>"
+	text "<USER> is" ; "<USER>"
 	line "bezeerd door gif!" ; "is hurt by poison!"
 	prompt
 
@@ -187,10 +187,10 @@ TiedAgainstText:
 	prompt
 
 SentSomeToMomText:
-	text "<PLAYER> kreeg" ; "<PLAYER> got ¥@"
+	text "<PLAYER> won" ; "<PLAYER> got ¥@"
 	line "¥@"
 	text_decimal wBattleReward, 3, 6
-	text " voor de winst!" ; text_start
+	text "!" ; text_start
 	cont "Beetje naar MAM" ; "for winning!"
 	cont "gestuurd!" ; "Sent some to MOM!"
 	prompt
@@ -442,8 +442,8 @@ AlreadyConfusedText:
 	prompt
 
 BattleText_UsersHurtByStringBuffer1: ; TODO translate
-	text "<USER> is"
-	line "bezeerd door"
+	text "<USER>"
+	line "is bezeerd door"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "!"
