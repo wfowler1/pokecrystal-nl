@@ -55,8 +55,8 @@ BattleText_EnemyFled:
 	prompt
 
 HurtByPoisonText:
-	text "<USER> is" ; "<USER>"
-	line "bezeerd door gif!" ; "is hurt by poison!"
+	text "<USER>" ; "<USER>"
+	line "lijdt onder gif!" ; "is hurt by poison!"
 	prompt
 
 HurtByBurnText:
