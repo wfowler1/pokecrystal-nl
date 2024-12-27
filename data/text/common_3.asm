@@ -1002,7 +1002,7 @@ Text_MoveForgetCount::
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text " Poof!@"
+	text " Poef!@" ; " Poof!@"
 	text_pause
 	text_start
 
