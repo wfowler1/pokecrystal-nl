@@ -1045,7 +1045,7 @@ SafeguardProtectText:
 	prompt
 
 MagnitudeText:
-	text "Magnitude @"
+	text "Grootheid @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
