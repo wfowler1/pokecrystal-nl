@@ -1,4 +1,4 @@
-	db "SLUB@" ; species name
+	db "SLIB@" ; species name
 	db 12 ; height
 	dw 300 ; weight
 

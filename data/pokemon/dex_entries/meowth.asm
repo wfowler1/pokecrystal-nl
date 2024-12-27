@@ -7,5 +7,5 @@
 	next "een glimmend ob-" ; "it sees a shiny"
 
 	page "ject spot, licht" ; "object, the gold"
-	next "op het hoofd ook" ; "coin on its head"
-	next "op.@" ; "shines too.@"
+	next "de munt op het" ; "coin on its head"
+	next "hoofd ook op.@" ; "shines too.@"

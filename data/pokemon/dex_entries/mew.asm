@@ -4,7 +4,7 @@
 
 	db   "Kan iedere aanval" ; "Because it can"
 	next "leren. Men onder-" ; "learn any move,"
-	next  "zoekt daarom of" ; "some people began"
+	next "zoekt daarom of" ; "some people began"
 
 	page "dit de voorouder" ; "research to see if"
 	next "is van alle be-" ; "it is the ancestor"
