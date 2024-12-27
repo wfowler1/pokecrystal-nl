@@ -3,9 +3,9 @@
 	dw 18 ; weight
 
 	db   "Fladdert met" ; "It rapidly flaps"
-	next "vleugels in het," ; "its wings in the"
-	next "het gras, om met" ; "grass, stirring up"
+	next "vleugels in het" ; "its wings in the"
+	next "gras, om met een" ; "grass, stirring up"
 
-	page "een stofwolk" ; "a dust cloud that"
-	next "insecten naar de" ; "drives insect prey"
-	next "vlakte te drijven.@" ; "out into the open.@"
+	page "stofwolk insecten" ; "a dust cloud that"
+	next "naar de vlakte te" ; "drives insect prey"
+	next "drijven.@" ; "out into the open.@"

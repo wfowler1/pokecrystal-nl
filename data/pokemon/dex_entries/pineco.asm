@@ -7,5 +7,5 @@
 	next "aan het lichaam te" ; "to glue tree bark"
 
 	page "lijmen. De vloei-" ; "to its body. The"
-	next "stof verhardt bij" ; "fluid hardens when"
-	next "bij zuurstof.@" ; "it touches air.@"
+	next "stof verhardt als" ; "fluid hardens when"
+	next "het lucht raakt.@" ; "it touches air.@"

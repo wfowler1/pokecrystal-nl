@@ -3,9 +3,9 @@
 	dw 1520 ; weight
 
 	db   "Blijft niet stil" ; "It will not stay"
-	next "zitten, zelf in" ; "still, even while"
-	next "een cocon. Heeft" ; "it's a pupa. It"
+	next "zitten, zelf niet" ; "still, even while"
+	next "in een cocon." ; "it's a pupa. It"
 
-	page "armen en benen" ; "already has arms"
-	next "onder het stevige" ; "and legs under its"
-	next "schild.@" ; "solid shell.@"
+	page "Heeft armen en" ; "already has arms"
+	next "benen onder het" ; "and legs under its"
+	next "stevige schild.@" ; "solid shell.@"
