@@ -53,7 +53,7 @@ TrainerClassNames::
 	li "ZWARTE BAND"
 	li "ROCKET"
 	li "MEDIUM"
-	li "RECREANT"
+	li "PADVINDER"
 	li "KAMPEERDER"
 	li "ROCKET"
 	li "WIJZE"
