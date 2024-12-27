@@ -461,13 +461,13 @@ GruntM3AfterBattleText:
 	done
 
 RadioTower1FDirectoryText:
-	text "1V RECEPTIE" ; "1F RECEPTION"
-	line "2V SALES" ; "2F SALES"
+	text "BG RECEPTIE" ; "1F RECEPTION"
+	line "1V SALES" ; "2F SALES"
 
-	para "3V PERSONEEL" ; "3F PERSONNEL"
-	line "4V PRODUCTIE" ; "4F PRODUCTION"
+	para "2V PERSONEEL" ; "3F PERSONNEL"
+	line "3V PRODUCTIE" ; "4F PRODUCTION"
 
-	para "5V KANTOOR" ; "5F DIRECTOR'S"
+	para "4V KANTOOR" ; "5F DIRECTOR'S"
 	line "VAN DIRECTEUR" ; "   OFFICE"
 	done
 

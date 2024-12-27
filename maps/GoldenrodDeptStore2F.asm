@@ -93,7 +93,7 @@ GoldenrodDeptStore2FDirectoryText:
 	text "Jouw" ; "Your Travel"
 	line "Reisgenoot" ; "Companion"
 
-	para "2V TRAINER'S" ; "2F TRAINER'S"
+	para "1V TRAINER'S" ; "2F TRAINER'S"
 	line "MARKT" ; "   MARKET"
 	done
 

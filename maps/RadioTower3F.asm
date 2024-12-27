@@ -323,7 +323,7 @@ InsertedTheCardKeyText:
 	done
 
 RadioTower3FPersonnelSignText:
-	text "3V PERSONEEL" ; "3F PERSONNEL"
+	text "2V PERSONEEL" ; "3F PERSONNEL"
 	done
 
 RadioTower3FPokemonMusicSignText:

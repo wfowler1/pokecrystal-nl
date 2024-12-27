@@ -238,11 +238,11 @@ ScientistRichAfterBattleText:
 	done
 
 RadioTower4FProductionSignText:
-	text "4V PRODUCTIE" ; "4F PRODUCTION"
+	text "3V PRODUCTIE" ; "4F PRODUCTION"
 	done
 
 RadioTower4FStudio2SignText:
-	text "4V STUDIO 2" ; "4F STUDIO 2"
+	text "3V STUDIO 2" ; "4F STUDIO 2"
 	done
 
 RadioTower4F_MapEvents:

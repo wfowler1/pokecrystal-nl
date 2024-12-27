@@ -416,12 +416,12 @@ BenText:
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "5V KANTOOR" ; "5F DIRECTOR'S"
+	text "4V KANTOOR" ; "5F DIRECTOR'S"
 	line "VAN DIRECTEUR" ; "   OFFICE"
 	done
 
 RadioTower5FStudio1SignText:
-	text "5V STUDIO 1" ; "5F STUDIO 1"
+	text "4V STUDIO 1" ; "5F STUDIO 1"
 	done
 
 RadioTower5F_MapEvents:
