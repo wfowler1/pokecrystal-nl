@@ -55,8 +55,8 @@ BattleText_EnemyFled:
 	prompt
 
 HurtByPoisonText:
-	text "<USER>"
-	line "lijdt onder gif!" ; "is hurt by poison!"
+	text "<USER> is" "<USER>"
+	line "bezeerd door gif!" ; "is hurt by poison!"
 	prompt
 
 HurtByBurnText:
@@ -76,8 +76,7 @@ HasANightmareText:
 
 HurtByCurseText:
 	text "<USER>" ; "<USER>'s"
-	line "is lijdt onder" ; "hurt by the CURSE!"
-	cont "vloek!"
+	line "lijdt onder vloek!" ; "hurt by the CURSE!"
 	prompt
 
 SandstormHitsText:
@@ -191,10 +190,9 @@ SentSomeToMomText:
 	text "<PLAYER> kreeg" ; "<PLAYER> got ¥@"
 	line "¥@"
 	text_decimal wBattleReward, 3, 6
-	text " voor de" ; text_start
-	cont "winst!" ; "for winning!"
-	cont "Beetje naar MAM" ; "Sent some to MOM!"
-	cont "gestuurd!"
+	text " voor de winst!" ; text_start
+	cont "Beetje naar MAM" ; "for winning!"
+	cont "gestuurd!" ; "Sent some to MOM!"
 	prompt
 
 SentHalfToMomText:
@@ -444,7 +442,7 @@ AlreadyConfusedText:
 	prompt
 
 BattleText_UsersHurtByStringBuffer1: ; TODO translate
-	text "<USER>'s"
+	text "<USER> is"
 	line "bezeerd door"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
@@ -507,7 +505,8 @@ HungOnText:
 
 EnduredText:
 	text "<TARGET>"
-	line "VERDROEG de klap!" ; "ENDURED the hit!"
+	line "bood WEERSTAND" ; "ENDURED the hit!"
+	cont "tegen de klap!"
 	prompt
 
 InLoveWithText:
@@ -608,7 +607,7 @@ AttackMissed2Text:
 
 CrashedText:
 	text "<USER>"
-	line "ging door en" ; "kept going and"
+	line "bleef gaan en" ; "kept going and"
 	cont "botste!" ; "crashed!"
 	prompt
 
@@ -712,7 +711,7 @@ WasPoisonedText:
 
 BadlyPoisonedText:
 	text "<TARGET>" ; "<TARGET>'s"
-	line "is goed ziek!" ; "badly poisoned!"
+	line "werd goed ziek!" ; "badly poisoned!"
 	prompt
 
 AlreadyPoisonedText:
@@ -869,15 +868,14 @@ CoinsScatteredText:
 TransformedTypeText:
 	text "<USER>"
 	line "transformeerde in" ; "transformed into"
-	cont "de @" ; "the @"
+	cont "het @" ; "the @"
 	text_ram wStringBuffer1 ; MaxLength MaxTypeNameLength
 	text "-type!"
 	prompt
 
 EliminatedStatsText:
-	text "Alle wijzigingen" ; "All stat changes"
-	line "in statistieken" ; "were eliminated!"
-	cont "verdwenen!"
+	text "Alle statistiek-" ; "All stat changes"
+	line "wijzigingen weg!" ; "were eliminated!"
 	prompt
 
 TransformedText:
@@ -890,12 +888,12 @@ TransformedText:
 
 LightScreenEffectText:
 	text "<USER>'s"
-	line "SPCL.DEF omhoog!" ; "SPCL.DEF rose!"
+	line "SPCL.VER omhoog!" ; "SPCL.DEF rose!"
 	prompt
 
 ReflectEffectText:
 	text "<USER>'s"
-	line "DEFENSE omhoog!" ; "DEFENSE rose!"
+	line "VERDEDIG omhoog!" ; "DEFENSE rose!"
 	prompt
 
 NothingHappenedText:
