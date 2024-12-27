@@ -245,10 +245,10 @@ LizBeautifulTrainerGossipText:
 	text "!"
 
 	para "Kon ik maar een" ; "I wish I could"
-	line "mooie" ; "become a beautiful"
-	cont "@"
-	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "worden." ; " too."
+	line "mooie @" ; "become a beautiful"
+	text_ram wStringBuffer4 ; MaxLength 12
+	text_start
+	cont "worden." ; " too."
 	done
 
 LizForgotGossipText:
