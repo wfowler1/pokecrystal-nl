@@ -7,5 +7,5 @@
 	next "met een kleine," ; "tects itself with"
 
 	page "giftige hoorn als" ; "its small, poison-"
-	next "het wordt" ; "ous horn when"
-	next "aangevallen.@" ; "attacked.@"
+	next "het wordt aan-" ; "ous horn when"
+	next "gevallen.@" ; "attacked.@"

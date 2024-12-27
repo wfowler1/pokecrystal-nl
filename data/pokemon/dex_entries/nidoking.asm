@@ -6,6 +6,6 @@
 	next "armen, benen en de" ; "arms, legs and"
 	next "staart om hardhan-" ; "tail to attack"
 
-	page "dit aan te vallen." ; "forcefully. Melee"
+	page "dig aan te vallen." ; "forcefully. Melee"
 	next "Vecht vooral goed" ; "combat is its"
 	next "van dichtbij.@" ; "specialty.@"
