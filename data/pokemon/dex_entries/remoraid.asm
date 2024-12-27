@@ -3,7 +3,7 @@
 	dw 120 ; weight
 
 	db   "Kan water uit de" ; "To escape from an"
-	next "mind schieten om" ; "attacker, it may"
+	next "mond schieten om" ; "attacker, it may"
 	next "van een aanvaller" ; "shoot water out of"
 
 	page "te ontsnappen." ; "its mouth, then"
