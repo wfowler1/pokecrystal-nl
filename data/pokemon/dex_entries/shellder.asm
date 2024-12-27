@@ -4,8 +4,8 @@
 
 	db   "Laat de meest" ; "Clamping on to an"
 	next "kwetsbare delen" ; "opponent reveals"
-	next "zien door vast te" ; "its vulnerable"
+	next "zien bij het" ; "its vulnerable"
 
-	page "te klemmen, dus" ; "parts, so it uses"
+	page "vastklemmen, dus" ; "parts, so it uses"
 	next "doet dat alleen" ; "this move only as"
 	next "als laatste optie.@" ; "a last resort.@"

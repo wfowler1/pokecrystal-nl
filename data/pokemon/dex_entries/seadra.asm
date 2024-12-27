@@ -4,7 +4,7 @@
 
 	db   "De mannetjes" ; "The male raises"
 	next "voeden de jonkies" ; "the young. If it"
-	next "op. Steekt bij" ; "is approached, it"
+	next "op. Prikt bij" ; "is approached, it"
 
 	page "benadering met" ; "uses its toxic"
 	next "giftige stekels" ; "spikes to fend off"
