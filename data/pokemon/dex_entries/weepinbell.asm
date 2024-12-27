@@ -2,7 +2,7 @@
 	db 10 ; height
 	dw 64 ; weight
 
-	db   "Slinger bij" ; "When it's hungry,"
+	db   "Slingert bij" ; "When it's hungry,"
 	next "honger met" ; "it swings its"
 	next "messcherpe" ; "razor-sharp"
 

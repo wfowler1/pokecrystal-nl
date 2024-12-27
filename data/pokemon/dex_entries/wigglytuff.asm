@@ -7,5 +7,5 @@
 	next "bedekt voelt zo" ; "its body feels so"
 
 	page "goed, dat iedereen" ; "good that anyone"
-	next "die het voelt het" ; "who feels it can't"
+	next "die het voelt maar" ; "who feels it can't"
 	next "blijft aanraken.@" ; "stop touching it.@"

@@ -7,5 +7,5 @@
 	next "een sterk gif." ; "a strong poison."
 
 	page "Met deze prikker" ; "It uses this toxic"
-	next "berschermt het" ; "barb to protect"
+	next "beschermt het" ; "barb to protect"
 	next "zichzelf.@" ; "itself.@"
