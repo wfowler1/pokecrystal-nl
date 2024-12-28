@@ -119,7 +119,7 @@ CeladonPrizeRoom_TMMenuHeader:
 	db "TM32    {d:CELADONGAMECORNERPRIZEROOM_TM32_COINS}@"
 	db "TM29    {d:CELADONGAMECORNERPRIZEROOM_TM29_COINS}@"
 	db "TM15    {d:CELADONGAMECORNERPRIZEROOM_TM15_COINS}@"
-	db "CANCEL@"
+	db "SLUITEN@" ; "CANCEL@"
 
 CeladonGameCornerPrizeRoomPokemonVendor:
 	faceplayer
@@ -205,7 +205,7 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "PIKACHU    {d:CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS}@"
 	db "PORYGON    {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
 	db "LARVITAR   {d:CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS}@"
-	db "CANCEL@"
+	db "SLUITEN@" ; "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
 	text "Ik wilde PORYGON," ; "I wanted PORYGON,"
