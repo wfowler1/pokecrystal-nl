@@ -29,7 +29,7 @@ TrainerClassNames::
 	li "LEIDER" ; "LEADER"
 	li "COOLE KIKKER" ; "COOLTRAINER"
 	li "COOLE KIKKER" ; "COOLTRAINER"
-	li "SCHOONHEID" ; "BEAUTY"
+	li "PRACHTIGE" ; "BEAUTY"
 	li "#MANIAK"
 	li "ROCKET"
 	li "HEER" ; "GENTLEMAN"
