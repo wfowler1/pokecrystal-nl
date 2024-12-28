@@ -8,4 +8,4 @@
 
 	page "#MON wel" ; "body temperature"
 	next "duizend graden" ; "can reach up to"
-	next "warm worden.@" ; "1700 degrees.@"
+	next "heet worden.@" ; "1700 degrees.@"

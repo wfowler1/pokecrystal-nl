@@ -4,8 +4,8 @@
 
 	db   "De geur van de" ; "The scent that"
 	next "bladeren rond de" ; "wafts from the"
-	next "nek geeft" ; "leaves on its neck"
+	next "nek geeft ieder" ; "leaves on its neck"
 
-	page "iedereen die het" ; "causes anyone who"
-	next "ruikt extra" ; "smells it to"
+	page "die het ruikt" ; "causes anyone who"
+	next "een extra lading" ; "smells it to"
 	next "energie.@" ; "become energetic.@"

@@ -2,7 +2,7 @@
 	db 11 ; height
 	dw 900 ; weight
 
-	db   "De luchtblauwe" ; "The light blue fur"
+	db   "De lichtblauwe" ; "The light blue fur"
 	next "vacht die het" ; "that covers it"
 	next "bedekt, beschermt" ; "keeps it protected"
 

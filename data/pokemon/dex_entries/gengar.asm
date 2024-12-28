@@ -7,5 +7,5 @@
 	next "mensen en absor-" ; "it absorbs their"
 
 	page "beert hun warmte." ; "heat. The chill it"
-	next "De kou laat mensen" ; "causes makes the"
-	next "beven.@" ; "victims shake.@"
+	next "De kou laat het" ; "causes makes the"
+	next "doelwit beven.@" ; "victims shake.@"

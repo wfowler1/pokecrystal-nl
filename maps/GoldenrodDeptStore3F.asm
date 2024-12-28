@@ -51,7 +51,7 @@ GoldenrodDeptStore3FDirectoryText:
 	text "Voor Winst-" ; "For Victory"
 	line "zoekers" ; "Seekers"
 
-	para "3V GEVECHT" ; "3F BATTLE"
+	para "2V GEVECHT" ; "3F BATTLE"
 	line "COLLECTIE" ; "   COLLECTION"
 	done
 

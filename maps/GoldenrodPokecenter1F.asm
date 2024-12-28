@@ -704,19 +704,19 @@ GoldenrodPokecomCenterPerson13Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text "Een #MON van" ; "A higher level"
+	line "een hoger level" ; "#MON doesn't"
+	cont "wint niet altijd." ; "always win."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Het type kan bij-" ; "After all, it may"
+	line "voorbeeld niet" ; "have a type dis-"
+	cont "gunstig zijn." ; "advantage."
 
-	para "I don't think"
-	line "there is a single"
+	para "Ik denk dat er" ; "I don't think"
+	line "niet één sterkste" ; "there is a single"
 
-	para "#MON that is"
-	line "the toughest."
+	para "#MON te vinden" ; "#MON that is"
+	line "is." ; the toughest."
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:

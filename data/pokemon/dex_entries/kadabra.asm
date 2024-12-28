@@ -7,5 +7,5 @@
 	next "het oppervlak van" ; "many alpha parti-"
 
 	page "het lichaam als" ; "cles come out of"
-	next "de ogen sluiten" ; "the surface of its"
-	next "van deze #MON.@" ; "body.@"
+	next "deze #MON de" ; "the surface of its"
+	next "ogen sluit.@" ; "body.@"

@@ -7,5 +7,5 @@
 	next "stof uit de staart" ; "secreted from its"
 
 	page "is anders voor" ; "tail is predeter-"
-	next "iedere" ; "mined for each"
+	next "iedere wilde" ; "mined for each"
 	next "SMEARGLE.@"

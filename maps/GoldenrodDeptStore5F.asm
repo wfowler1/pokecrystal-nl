@@ -203,8 +203,8 @@ GoldenrodDeptStore5FPokefanMText:
 	cont "ruild geen nieuwe" ; "a trade."
 	cont "naam geven." ; 
 
-	para "De naam is een" ; "The name is a re-"
-	line "teken van de" ; "flection of the"
+	para "De naam" ; "The name is a re-"
+	line "symboliseert de" ; "flection of the"
 
 	para "gevoelens van" ; "original trainer's"
 	line "de originele" ; "feelings for it."
@@ -215,7 +215,7 @@ GoldenrodDeptStore5FDirectoryText:
 	text "Pas je" ; "Customize Your"
 	line "#MON aan" ; "#MON"
 
-	para "5V TM-HOEK" ; "5F TM CORNER"
+	para "4V TM-HOEK" ; "5F TM CORNER"
 	done
 
 GoldenrodDeptStore5F_MapEvents:

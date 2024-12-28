@@ -6,6 +6,6 @@
 	next "vlammen wanneer" ; "agitated during"
 	next "het geagiteerd" ; "battle, it spouts"
 
-	page "raakt, en ver-" ; "intense flames,"
-	next "brandt de gehele" ; "incinerating its"
-	next "omgeving.@" ; "surroundings.@"
+	page "raakt. Verbrandt" ; "intense flames,"
+	next "op die manier de" ; "incinerating its"
+	next "de omgeving.@" ; "surroundings.@"

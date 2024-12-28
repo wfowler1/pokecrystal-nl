@@ -59,9 +59,8 @@ _RidOfParalysisText::
 
 _BurnWasHealedText::
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "is" ; "'s"
-	line "niet meer" ; "burn was healed."
-	cont "verbrand."
+	text "'s" ; "'s"
+	line "brandwond genas." ; "burn was healed."
 	done
 
 _WasDefrostedText::
@@ -78,8 +77,8 @@ _WokeUpText::
 
 _HealthReturnedText::
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " kreeg" ; "'s"
-	line "leven terug." ; "health returned."
+	text "'s" ; "'s"
+	line "leven kwam terug." ; "health returned."
 	done
 
 _RevitalizedText::
@@ -122,12 +121,12 @@ _PasscodesNotSameText::
 	done
 
 _PasscodeSetText::
-	text "Je PASCODE is" ; "Your PASSCODE has"
+	text "Je CIJFERCODE is" ; "Your PASSCODE has"
 	line "ingesteld." ; "been set."
 
-	para "Voer de nummer" ; "Enter this number"
-	line "voor de KAART-" ; "next time to open"
-	cont "MAP openen." ; "the CARD FOLDER."
+	para "Voer dit nummer in" ; "Enter this number"
+	line "om de KAARTMAP te" ; "next time to open"
+	cont "openen." ; "the CARD FOLDER."
 
 	para ""
 	done
@@ -139,13 +138,13 @@ _FourZerosInvalidText::
 	done
 
 _EnterPasscodeText::
-	text "Voer de PASCODE" ; "Enter the CARD"
-	next "van de KAARTMAP." ; "FOLDER PASSCODE."
+	text "Voer de CIJFERCODE" ; "Enter the CARD"
+	next "in van KAARTMAP." ; "FOLDER PASSCODE."
 	done
 
 _IncorrectPasscodeText::
-	text "Incorrect"
-	line "PASSCODE!"
+	text "Onjuiste" ; "Incorrect"
+	line "CIJFERCODE!" ; "PASSCODE!"
 
 	para ""
 	done
@@ -192,8 +191,8 @@ _OakTimeMinutesQuestionMarkText::
 
 _OakTimeOversleptText::
 	text "!"
-	line "Ik heb me ver-" ; "I overslept!"
-	cont "slapen!"
+	line "Ik heb me" ; "I overslept!"
+	cont "verslapen!"
 	done
 
 _OakTimeYikesText::
@@ -298,19 +297,19 @@ _NothingToPutAwayText::
 	prompt
 
 _SetUpTheDecoText::
-	text "Plaatst de" ; "Set up the"
+	text "Plaats de" ; "Set up the"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxDecorationNameLength
 	text "."
 	prompt
 
 _PutAwayAndSetUpText::
-	text "Verwijdert de" ; "Put away the"
+	text "Verwijder de" ; "Put away the"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxDecorationNameLength
 	text_start
 
-	para "en plaatst de" ; "and set up the"
+	para "en plaats de" ; "and set up the"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxDecorationNameLength
 	text "."
@@ -435,8 +434,8 @@ _OTSendsText::
 
 _WillTradeText::
 	text_ram wOTTrademonSenderName
-	text " wil" ; " will"
-	line "ruilen @" ; "trade @"
+	text " ruilt" ; " will"
+	line "graag @" ; "trade @"
 	text_ram wOTTrademonSpeciesName
 	text_end
 
@@ -453,8 +452,8 @@ _ForYourMonWillTradeText::
 
 _MobilePlayerWillTradeMonText::
 	text_ram wPlayerTrademonSenderName
-	text " wil" ; " will"
-	line "ruilen @" ; "trade @"
+	text " ruilt" ; " will"
+	line "graag @" ; "trade @"
 	text_ram wPlayerTrademonSpeciesName
 	text_end
 
@@ -514,7 +513,7 @@ _OPT_IntroText1::
 
 _OPT_IntroText2::
 	text_start
-	line "#MON PRAAT!" ; "#MON TALK!"
+	line "#MON-PRAAT!" ; "#MON TALK!"
 	done
 
 _OPT_IntroText3::
@@ -676,7 +675,7 @@ _OPT_GroovyText::
 
 _OPT_InspiringText::
 	text_start
-	line "inspirerend."
+	line "inspirerend." ; '"inspiring.'
 	done
 
 _OPT_FriendlyText::
@@ -767,12 +766,12 @@ _BenFernText2B::
 
 _BenFernText3A::
 	text_start
-	line "#MON Mars!" ; "#MON March!"
+	line "#MON-Mars!" ; "#MON March!"
 	done
 
 _BenFernText3B::
 	text_start
-	line "#MON Slaaplied!" ; "#MON Lullaby!"
+	line "#MON-Slaaplied!" ; "#MON Lullaby!"
 	done
 
 ; Lucky Channel
@@ -784,7 +783,7 @@ _LC_Text1::
 
 _LC_Text2::
 	text_start
-	line "hoe istie?" ; "y'all doin' now?"
+	line "hoe issie?" ; "y'all doin' now?"
 	done
 
 _LC_Text3::
@@ -1257,7 +1256,7 @@ _StartingLinkText::
 	done
 
 _LinkTerminatedText::
-	text "Link beendigd." ; "Link terminated."
+	text "Link beëindigd." ; "Link terminated."
 	done
 
 _ClosingLinkText::
@@ -1312,7 +1311,7 @@ _BugCatchingContestIsOverText::
 
 _RepelWoreOffText::
 	text "Effect van VERJAAG" ; "REPEL's effect"
-	line "is voorbij." ; "wore off."
+	line "is uitgewerkt." ; "wore off."
 	done
 
 _PlayerFoundItemText::
@@ -1364,12 +1363,12 @@ _NoCoinsText::
 
 _NoCoinCaseText::
 	text "Je hebt geen" ; "You don't have a"
-	line "MUNTENZAK." ; "COIN CASE."
+	line "GELDKISTJE." ; "COIN CASE."
 	prompt
 
 _NPCTradeCableText::
-	text "OK, verbind de" ; "OK, connect the"
-	line "Game Link Cable."
+	text "OK, verbind het" ; "OK, connect the"
+	line "Game Link-snoer" ; "Game Link Cable."
 	prompt
 
 Text_NPCTraded::
@@ -1427,7 +1426,7 @@ _NPCTradeAfterText1::
 	text "Hoe gaat ie met" ; "Hi, how's my old"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text " doing?"
+	text "nu?" ; " doing?"
 	done
 
 _NPCTradeIntroText2::
@@ -1483,7 +1482,7 @@ _NPCTradeIntroText3::
 	text "is" ; "'s cute,"
 	line "schattig, maar ik" ; "but I don't have"
 
-	para "heb 'm niet. Heb" ; "it. Do you have"
+	para "heb er geen. Heb" ; "it. Do you have"
 	line "jij @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "?"
@@ -1658,8 +1657,8 @@ _MomTakenMoneyText::
 	done
 
 _MomJustDoWhatYouCanText::
-	text "Doe gewoon wat" ; "Just do what"
-	line "je kunt." ; "you can."
+	text "Doe gewoon je" ; "Just do what"
+	line "best." ; "you can."
 	done
 
 _DaycareDummyText::
@@ -1668,7 +1667,7 @@ _DaycareDummyText::
 
 _DayCareManIntroText::
 	text "Ik ben de OPVANG-" ; "I'm the DAY-CARE"
-	line "MAN. Moet ik een" ; "MAN. Want me to"
+	line "MAN. Zal ik je" ; "MAN. Want me to"
 	cont "#MON opvoeden?" ; "raise a #MON?"
 	done
 
@@ -1739,7 +1738,7 @@ _RemoveMailText::
 	prompt
 
 _LastHealthyMonText::
-	text "Als je dat geeft" ; "If you give me"
+	text "Als je dat geeft," ; "If you give me"
 	line "waar vecht jij" ; "that, what will"
 	cont "dan mee?" ; "you battle with?"
 	prompt
@@ -1758,8 +1757,8 @@ _ComeBackLaterText::
 
 _AreWeGeniusesText::
 	text "Zijn we briljant" ; "Are we geniuses or"
-	line "of niet? Wil je" ; "what? Want to see"
-	cont "zien @" ; "your @"
+	line "of niet? Check" ; "what? Want to see"
+	cont "je @" ; "your @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "?"
 	done
@@ -1842,7 +1841,7 @@ _FoundAnEggText::
 	line "een EI!" ; "an EGG!"
 
 	para "We weten niet waar" ; "We don't know how"
-	line "vandaan kwam, maar" ; "it got there, but"
+	line "die weg kwam, maar" ; "it got there, but"
 
 	para "je #MON had" ; "your #MON had"
 	line "hem. Wil je hem?" ; "it. You want it?"

@@ -3,9 +3,9 @@
 	dw 1220 ; weight
 
 	db   "Zou in een on-" ; "Said to rest qui-"
-	next "ontdekte grot" ; "etly in an"
-	next "rusten." ; "undiscovered cave,"
+	next "bekende grot een-" ; "etly in an"
+	next "zaam rusten." ; "undiscovered cave,"
 
 	page "Deze #MON is" ; "this #MON was"
-	next "gemaakt om enkel" ; "created solely for"
+	next "enkel gemaakt om" ; "created solely for"
 	next "te vechten.@" ; "battling.@"

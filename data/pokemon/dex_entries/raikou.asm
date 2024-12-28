@@ -4,7 +4,7 @@
 
 	db   "Deze ruige #MON" ; "This rough #MON"
 	next "bewaart energie in" ; "stores energy"
-	next "het lichaam, en" ; "inside its body,"
+	next "het lichaam en" ; "inside its body,"
 
 	page "rent door het" ; "then sweeps across"
 	next "land terwijl elek-" ; "the land, shooting"

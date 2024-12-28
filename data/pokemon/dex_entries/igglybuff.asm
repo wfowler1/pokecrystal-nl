@@ -6,6 +6,6 @@
 	next "gebruikt het" ; "with its short"
 	next "zachte lijf om" ; "legs, it moves"
 
-	page "rond te stuiteren" ; "around by bouncing"
-	next "door de omgeving" ; "on its soft,"
-	next "van de #MON.@" ; "tender body.@"
+	page "door de omgeving" ; "around by bouncing"
+	next "heen en weer te" ; "on its soft,"
+	next "stuiteren.@" ; "tender body.@"

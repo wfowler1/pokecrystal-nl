@@ -701,7 +701,7 @@ RadioTower2FBuenaReceptionistNoCardText:
 	done
 
 RadioTower2FSalesSignText:
-	text "2V SALES" ; "2F SALES"
+	text "1V SALES" ; "2F SALES"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:

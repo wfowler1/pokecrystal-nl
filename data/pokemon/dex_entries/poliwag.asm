@@ -8,4 +8,4 @@
 
 	page "de huid heen. Is" ; "through the skin."
 	next "transparanter na" ; "It looks clearer"
-	next "te eten.@" ; "after it eats.@"
+	next "het eten.@" ; "after it eats.@"

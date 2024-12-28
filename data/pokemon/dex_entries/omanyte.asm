@@ -8,4 +8,4 @@
 
 	page "daar plankton." ; "eating plankton."
 	next "Soms duiken er" ; "Its fossils are"
-	next "fossielen op.@" ; "sometimes found.@"
+	next "fossielen van op.@" ; "sometimes found.@"

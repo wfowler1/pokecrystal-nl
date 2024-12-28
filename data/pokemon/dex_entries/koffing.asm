@@ -4,7 +4,7 @@
 
 	db   "Als je te dichtbij" ; "If one gets close"
 	next "komt, laat het" ; "enough to it when"
-	next "gifas vrij. Dit" ; "it expels poison-"
+	next "gifgas vrij. Dit" ; "it expels poison-"
 
 	page "gas zie je aan" ; "ous gas, the gas"
 	next "de binnenzijde" ; "swirling inside it"

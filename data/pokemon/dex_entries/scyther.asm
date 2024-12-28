@@ -6,6 +6,6 @@
 	next "hoe snel het is." ; "its speed. It"
 	next "Beweegt zo snel" ; "moves so fast that"
 
-	page "dat tegenstander" ; "its opponent does"
-	next "niet weet wat het" ; "not even know what"
-	next "neersloeg.@" ; "knocked it down.@"
+	page "dat tegenstanders" ; "its opponent does"
+	next "niet weten wat hen" ; "not even know what"
+	next "raakte.@" ; "knocked it down.@"

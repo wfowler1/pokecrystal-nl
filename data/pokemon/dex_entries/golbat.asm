@@ -4,7 +4,7 @@
 
 	db   "Als het de" ; "When it plunges"
 	next "tanden zet in een" ; "its fangs into its"
-	next  "prooi, wordt" ; "prey, it instantly"
+	next "prooi, wordt" ; "prey, it instantly"
 
 	page "direct meer dan" ; "draws and gulps"
 	next "drie deciliter" ; "down more than ten"

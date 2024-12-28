@@ -4,7 +4,7 @@
 
 	db   "In de nacht van" ; "On the night of a"
 	next "een volle maan of" ; "full moon, or when"
-	next "als het blij wordt" ; "it gets excited,"
+	next "bij blijdschap" ; "it gets excited,"
 
 	page "gloeien de" ; "the ring patterns"
 	next "patronen op het" ; "on its body glow"

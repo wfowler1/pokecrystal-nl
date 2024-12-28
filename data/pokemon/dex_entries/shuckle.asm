@@ -3,7 +3,7 @@
 	dw 205 ; weight
 
 	db   "De vloeistof uit" ; "The fluid secreted"
-	next "de tenen snijdt" ; "by its toes carves"
+	next "de tenen brandt" ; "by its toes carves"
 	next "gaten in stenen" ; "holes in rocks for"
 
 	page "om in te nestelen" ; "nesting and can be"

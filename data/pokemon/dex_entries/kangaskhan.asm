@@ -8,4 +8,4 @@
 
 	page "wordt, slaapt deze" ; "its pouch, it"
 	next "#MON altijd" ; "always sleeps"
-	next "rechtop staand.@" ; "standing up.@"
+	next "rechtopstaand.@" ; "standing up.@"

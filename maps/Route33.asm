@@ -181,7 +181,7 @@ Route33LassText:
 	para "Veel groter dan" ; "It was much bigger"
 	line "ik had verwacht." ; "than I'd expected."
 
-	para "Ik was te moet om" ; "I got too tired to"
+	para "Ik was te moe om" ; "I got too tired to"
 	line "echt alles te ont-" ; "explore the whole"
 
 	para "dekken, dus ik" ; "thing, so I came"

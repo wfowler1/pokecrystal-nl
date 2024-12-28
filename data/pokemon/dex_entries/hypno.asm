@@ -8,4 +8,4 @@
 
 	page "duur van de" ; "longer the effects"
 	next "hypnose op het" ; "of its hypnosis"
-	next "slachtoffer..@" ; "last.@"
+	next "slachtoffer.@" ; "last.@"

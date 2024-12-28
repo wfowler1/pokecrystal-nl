@@ -73,7 +73,7 @@ GoldenrodDeptStore4FDirectoryText:
 	text "Laat ons je #-" ; "Let Us Pump Up"
 	line "MON versterken!" ; "Your #MON!"
 
-	para "4V MEDICIJNDOOS" ; "4F MEDICINE BOX"
+	para "3V MEDICIJNDOOS" ; "4F MEDICINE BOX"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

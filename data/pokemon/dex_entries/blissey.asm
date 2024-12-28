@@ -6,6 +6,6 @@
 	next "van de heerlijke" ; "of the delicious"
 	next "eieren die BLISSEY" ; "eggs that BLISSEY"
 
-	page "verschaft zal" ; "provides will make"
-	next "iedereen ziels-" ; "everyone around"
-	next "gelukkig maken.@" ; "smile with joy.@"
+	page "verschaft, maakt" ; "provides will make"
+	next "iedere eter echt" ; "everyone around"
+	next "zielsgelukkig.@" ; "smile with joy.@"

@@ -4,7 +4,7 @@
 
 	db   "De paddestoel op" ; "The tochukaso"
 	next "de rug commandeert" ; "growing on this"
-	next "de #MON om" ; "#MON's back"
+	next "de #MON om alle" ; "#MON's back"
 
 	page "sappen uit" ; "orders it to"
 	next "boomstammen te" ; "extract juice from"

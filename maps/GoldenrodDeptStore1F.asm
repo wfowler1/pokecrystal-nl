@@ -60,19 +60,19 @@ GoldenrodDeptStore1FBugCatcherText:
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "1V SERVICEBALIE" ; "1F SERVICE COUNTER"
+	text "BG SERVICEBALIE" ; "1F SERVICE COUNTER"
 
-	para "2V TRAINER'S" ; "2F TRAINER'S"
+	para "1V TRAINER'S" ; "2F TRAINER'S"
 	line "MARKT" ; "   MARKET"
 
-	para "3V GEVECHT" ; "3F BATTLE"
+	para "2V GEVECHT" ; "3F BATTLE"
 	line "COLLECTIE" ; "   COLLECTION"
 
-	para "4V MEDICIJNDOOS" ; "4F MEDICINE BOX"
+	para "3V MEDICIJNDOOS" ; "4F MEDICINE BOX"
 
-	para "5V TM-HOEK" ; "5F TM CORNER"
+	para "4V TM-HOEK" ; "5F TM CORNER"
 
-	para "6V RUSTPLEIN" ; "6F TRANQUIL SQUARE"
+	para "5V RUSTPLEIN" ; "6F TRANQUIL SQUARE"
 
 	para "DAKTERRAS" ; "ROOFTOP LOOKOUT"
 	done

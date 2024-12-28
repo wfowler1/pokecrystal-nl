@@ -6,6 +6,6 @@
 	next "elektrische kracht" ; "storing electric"
 	next "kracht bewaren." ; "power. Any kind of"
 
-	page "raakt bij ieder" ; "shock causes it to"
+	page "raakt bij iedere" ; "shock causes it to"
 	next "soort schok de" ; "discharge energy"
 	next "lading kwijt.@" ; "spontaneously.@"

@@ -6,6 +6,6 @@
 	next "blijkt dat mensen" ; "scroll shows that"
 	next "waren aangetrokken" ; "people were"
 
-	page "door hoe het door" ; "attracted to its"
-	next "de praires kon" ; "movement as it ran"
+	page "door hoe het over" ; "attracted to its"
+	next "de prairies kon" ; "movement as it ran"
 	next "rennen.@" ; "through prairies.@"

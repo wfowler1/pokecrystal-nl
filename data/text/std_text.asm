@@ -305,7 +305,7 @@ CoinVendor_NoCoinCaseText:
 	line "nodig?" ; "coins?"
 
 	para "Oh, je hebt geen" ; "Oh, you don't have"
-	line "MUNTENZAK voor" ; "a COIN CASE for"
+	line "GELDKISTJE voor" ; "a COIN CASE for"
 	cont "je munten." ; "your coins."
 	done
 

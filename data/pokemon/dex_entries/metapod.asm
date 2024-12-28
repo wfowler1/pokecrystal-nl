@@ -1,4 +1,4 @@
-	db "KOKON@" ; species name
+	db "COCON@" ; species name
 	db 7 ; height
 	dw 99 ; weight
 
@@ -8,4 +8,4 @@
 
 	page "harden en beweegt" ; "only harden, so it"
 	next "niet om vijanden" ; "remains motionless"
-	next "te vermijden.@" ; "to avoid attack.@"
+	next "te ontwijken.@" ; "to avoid attack.@"

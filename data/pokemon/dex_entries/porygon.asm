@@ -7,5 +7,5 @@
 	next "uitgebreid onder-" ; "due to extensive"
 
 	page "zoek. Kan alleen" ; "research, it can"
-	next "waar het voor" ; "perform only what"
-	next "geprogrammeerd is.@" ; "is in its program.@"
+	next "uitvoeren waar het" ; "perform only what"
+	next "voor gemaakt is.@" ; "is in its program.@"

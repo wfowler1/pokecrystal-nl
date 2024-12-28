@@ -7,5 +7,5 @@
 	next "fin, en geleidt" ; "fin, have both po-"
 
 	page "positieve en nega-" ; "sitive and neg-"
-	next "tieve ladingen er" ; "ative charges flo-"
-	next "doorheen.@" ; "wing through them.@"
+	next "tieve ladingen" ; "ative charges flo-"
+	next "elektriciteit.@" ; "wing through them.@"

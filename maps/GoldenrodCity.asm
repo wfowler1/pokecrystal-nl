@@ -463,7 +463,7 @@ GoldenrodCityGameCornerSignText:
 	done
 
 GoldenrodCityNameRaterSignText:
-	text "NAMENKENNER" ; "NAME RATER"
+	text "NAAM-BEOORDELER." ; "NAME RATER"
 
 	para "Laat je #MON-" ; "Get Your #MON"
 	line "namen beoordelen!" ; "Nicknames Rated"
