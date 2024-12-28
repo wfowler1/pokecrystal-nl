@@ -724,7 +724,7 @@ _PokedexShowText::
 
 _BenIntroText1::
 	text_start
-	line "BEN: #MONMUZIEK-" ; "BEN: #MON MUSIC"
+	line "BEN: #MONMUZIEK" ; "BEN: #MON MUSIC"
 	done
 
 _BenIntroText2::
@@ -1757,10 +1757,10 @@ _ComeBackLaterText::
 
 _AreWeGeniusesText::
 	text "Zijn we briljant" ; "Are we geniuses or"
-	line "of niet? Wil je" ; "what? Want to see"
-	cont "jouw @" ; "your @"
+	line "of niet? Kijken" ; "what? Want to see"
+	cont "naar je @" ; "your @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " zien?"
+	text "?"
 	done
 
 _YourMonHasGrownText::
