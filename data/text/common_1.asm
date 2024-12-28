@@ -1757,8 +1757,8 @@ _ComeBackLaterText::
 
 _AreWeGeniusesText::
 	text "Zijn we briljant" ; "Are we geniuses or"
-	line "of niet? Kijken" ; "what? Want to see"
-	cont "naar je @" ; "your @"
+	line "of niet? Check" ; "what? Want to see"
+	cont "je @" ; "your @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "?"
 	done
