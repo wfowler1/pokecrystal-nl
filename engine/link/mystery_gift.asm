@@ -163,8 +163,8 @@ endc
 
 .String_PressAToLink_BToCancel:
 	db   "Druk op A voor" ; "Press A to"
-	next "IR koppelen." ; "link IR-Device"
-	next "Druk op B voor" ; "Press B to"
+	next "IR-koppeling." ; "link IR-Device"
+	next "Druk op B om te" ; "Press B to"
 	next "annuleren." ; "cancel it."
 	db   "@"
 
