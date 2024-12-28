@@ -55,8 +55,8 @@ Route16GateCannotPassText:
 	line "FIETSPAD zonder" ; "on the CYCLING"
 	cont "een FIETS."
 
-	#para "zonder een" ; "ROAD without a"
-	#line "FIETS." ; "BICYCLE."
+	;para "zonder een" ; "ROAD without a"
+	;line "FIETS." ; "BICYCLE."
 	done
 
 Route16Gate_MapEvents:
