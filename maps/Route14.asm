@@ -51,11 +51,11 @@ TrainerPokefanmTrevor:
 	end
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
+	text "Ik zeg je, het was" ; "Let me tell you,"
+	line "lastig om mijn" ; "I had a hard time"
 
-	para "catching my prized"
-	line "#MON."
+	para "geprezen #MON" ; "catching my prized"
+	line "te vangen." ; "#MON."
 	done
 
 PokefanmCarterBeatenText:
@@ -64,53 +64,55 @@ PokefanmCarterBeatenText:
 
 PokefanmCarterAfterBattleText:
 	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	line "DER en BULBASAUR…" ; "DER and BULBASAUR…"
 
-	para "I think that's a"
-	line "well-balanced mix."
+	para "Ik denk dat het" ; "I think that's a"
+	line "een goed gebalan-" ; "well-balanced mix."
+	cont "ceerde mix is." ;
 	done
 
 BirdKeeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #MON."
+	text "Het is mijn droom" ; "My dream is to fly"
+	line "om met mijn lieve" ; "with my beloved"
+	cont "vogel-#MON te" ; "bird #MON."
+	cont "vliegen." ;
 	done
 
 BirdKeeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Ik kan dromen maar" ; "I can dream, but I"
+	line "nooit vliegen…" ; "can't ever fly…"
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "You have #MON"
-	line "that know the HM"
+	text "Je hebt #MON" ; "You have #MON"
+	line "die de VM VLIEG" ; "that know the HM"
 
-	para "move FLY, don't"
-	line "you? I envy you."
+	para "kennen, toch?" ; "move FLY, don't"
+	line "Ik ben jaloers." ; "you? I envy you."
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Did you know…?"
+	text "Hoi. Wist je dat…?" ; "Hi. Did you know…?"
 
-	para "#MON get more"
-	line "friendly if you"
+	para "#MON worden" ; "#MON get more"
+	line "vriendelijker als" ; "friendly if you"
 
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "je ze traint op" ; "train them in a"
+	line "een plek die ze" ; "place that they"
+	cont "kennen." ; "remember."
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this PSYDUCK?"
+	text "Waar heb ik deze" ; "Where did I meet"
+	line "PSYDUCK ontmoet?" ; "this PSYDUCK?"
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "If only there were"
-	line "an easy way to"
+	text "Was er maar een" ; "If only there were"
+	line "makkelijke manier" ; "an easy way to"
 
-	para "identify where I"
-	line "got my #MON…"
+	para "om te zien waar ik" ; "identify where I"
+	line "m'n #MON kreeg…" ; "got my #MON…"
 	done
 
 Route14_MapEvents:

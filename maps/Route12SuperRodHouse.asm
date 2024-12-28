@@ -36,44 +36,44 @@ SuperRodHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 OfferSuperRodText:
-	text "I'm the FISHING"
-	line "GURU's younger"
-	cont "brother."
+	text "Ik ben de" ; "I'm the FISHING"
+	line "VISGOEROE's" ; "GURU's younger"
+	cont "jongere broer." ; "brother."
 
-	para "I can see that you"
-	line "like fishing."
+	para "Ik zie dat je" ; "I can see that you"
+	line "van vissen houdt." ; "like fishing."
 
-	para "There's no doubt"
-	line "in my mind at all!"
+	para "Geen twijfel" ; "There's no doubt"
+	line "mogelijk!" ; "in my mind at all!"
 
-	para "So? I know I'm"
-	line "right."
+	para "Dus? Ik weet dat" ; "So? I know I'm"
+	line "ik gelijk heb." ; "right."
 	done
 
 GiveSuperRodText:
-	text "Yes, yes. Just as"
-	line "I thought!"
+	text "Ja, ja. Net als ik" ; "Yes, yes. Just as"
+	line "dacht!" ; "I thought!"
 
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "SUPER ROD."
+	para "Hier, visfan! Neem" ; "Here, fishing fan!"
+	line "dit--het is een" ; "Take this--it's a"
+	cont "SUPERHENGEL." ; "SUPER ROD."
 	done
 
 GaveSuperRodText:
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
+	text "Probeer te vissen" ; "Try your hand at"
+	line "in elk water dat" ; "fishing wherever"
+	cont "je tegenkomt." ; "there is water."
 
-	para "Remember--you can"
-	line "catch different"
+	para "Onthoud--je kan" ; "Remember--you can"
+	line "verschillende" ; "catch different"
 
-	para "#MON using"
-	line "different RODS."
+	para "#MON vangen met" ; "#MON using"
+	line "andere HENGELS." ; "different RODS."
 	done
 
 DontWantSuperRodText:
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "Huh? Mijn eigen" ; "Huh? My own eyes"
+	line "ogen bedrogen me?" ; "deceived me?"
 	done
 
 Route12SuperRodHouse_MapEvents:

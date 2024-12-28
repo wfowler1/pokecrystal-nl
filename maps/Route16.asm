@@ -22,8 +22,8 @@ CyclingRoadSign:
 CyclingRoadSignText:
 	text "CYCLING ROAD"
 
-	para "DOWNHILL COASTING"
-	line "ALL THE WAY!"
+	para "DE HELE WEG" ; "DOWNHILL COASTING"
+	line "BERGAFWAARTS!" ; "ALL THE WAY!"
 	done
 
 Route16_MapEvents:
