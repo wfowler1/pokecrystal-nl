@@ -1009,7 +1009,7 @@ _ContestJudging_SecondPlaceText::
 	para "Wie een" ; "who caught a"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "ving!@" ; "!@"
+	text " ving!@" ; "!@"
 	text_end
 
 _ContestJudging_SecondPlaceScoreText::
@@ -1030,7 +1030,7 @@ _ContestJudging_ThirdPlaceText::
 	para "wie een" ; "who caught a"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "ving!@" ; "!@"
+	text " ving!@" ; "!@"
 	text_end
 
 _ContestJudging_ThirdPlaceScoreText::

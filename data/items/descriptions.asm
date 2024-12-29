@@ -669,7 +669,7 @@ PinkBowDesc:
 	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 StickDesc:
-	db   "Gewone stock." ; "An ordinary stick."
+	db   "Gewone stok." ; "An ordinary stick."
 	next "Weinig waard.@" ; "Sell low.@"
 
 SmokeBallDesc:
