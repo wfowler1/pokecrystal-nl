@@ -24,7 +24,7 @@ namespace PokeGen2TextValidator
             bool merge = false;
 
             int currentArg = 0;
-            if (args[currentArg].ToLowerInvariant().StartsWith("-") && args.Length > 1)
+            if (args[currentArg].ToLowerInvariant().StartsWith("-"))
             {
                 switch (args[currentArg])
                 {
@@ -35,6 +35,37 @@ namespace PokeGen2TextValidator
                         compare = false;
                         merge = false;
                         break;
+                    }
+                    case "-vt":
+                    case "--validatetrainers":
+                    {
+                        string path = ".";
+                        if (args.Length > 1)
+                        {
+                            path = args[currentArg + 1];
+                        }
+
+                        ASMFile classesFile = new ASMFile(Path.Combine(path, "data/trainers/class_names.asm"));
+                        ASMFile trainersFile = new ASMFile(Path.Combine(path, "data/trainers/parties.asm"));
+                        Console.WriteLine("Validating trainer classes and names");
+                        TrainerDataValidator validator = new TrainerDataValidator(classesFile, trainersFile);
+                        string message = validator.Validate();
+                        bool problem = false;
+                        if (!string.IsNullOrWhiteSpace(message))
+                        {
+                            if (message.Contains("Error"))
+                            {
+                                problem = true;
+                            }
+                            Console.Write(message);
+                        }
+
+                        Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+
+                        problem |= Validate(classesFile);
+                        problem |= Validate(trainersFile);
+
+                        return problem ? 1 : 0;
                     }
                     case "-c":
                     case "--compare":
@@ -54,7 +85,7 @@ namespace PokeGen2TextValidator
                     }
                     default:
                     {
-                        Console.WriteLine("Unknown option: " + args[currentArg][1]);
+                        Console.WriteLine("Unknown option: " + args[currentArg]);
                         PrintHelpText();
                         return 1;
                     }
@@ -71,25 +102,7 @@ namespace PokeGen2TextValidator
 
             if (validate)
             {
-                Console.WriteLine("Validating file: " + source.File.Name + " Type: " + source.Type + " Source: " + source.Source);
-
-                bool problem = false;
-                foreach (KeyValuePair<string, Block> pair in source.blocks)
-                {
-                    Validator validator = new Validator(pair.Value);
-                    string message = validator.Validate();
-                    if (!string.IsNullOrWhiteSpace(message))
-                    {
-                        if (message.Contains("Error"))
-                        {
-                            problem = true;
-                        }
-                        Console.Write(message);
-                    }
-                }
-
-                Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
-                return problem ? 1 : 0;
+                return Validate(source) ? 1 : 0;
             }
             else if (compare || merge)
             {
@@ -122,6 +135,7 @@ namespace PokeGen2TextValidator
             Console.WriteLine("Usage: PokeGen2TextValidator [-vcm] Source [Target] [BaseSource] [BaseTarget]");
             Console.WriteLine("  Options:");
             Console.WriteLine("    -v, --validate: Validate Source. Default behavior.");
+            Console.WriteLine("    -vt, --ValidateTrainers: Validates trainer names to ensure they are not too long.");
             Console.WriteLine("    -c, --compare:  Compare Source to Target.");
             Console.WriteLine("    -m, --merge:    Compare BaseSource to BaseTarget, then merge matching blocks from Source into Target.");
             Console.WriteLine("  Source: Primary file to operate on.");
@@ -144,6 +158,29 @@ namespace PokeGen2TextValidator
                 return null;
             }
             return new ASMFile(path);
+        }
+
+        private static bool Validate(ASMFile asmFile)
+        {
+            Console.WriteLine("Validating file: " + asmFile.File.Name + " Type: " + asmFile.Type + " Source: " + asmFile.Source);
+
+            bool problem = false;
+            foreach (KeyValuePair<string, Block> pair in asmFile.blocks)
+            {
+                Validator validator = new Validator(pair.Value);
+                string message = validator.Validate();
+                if (!string.IsNullOrWhiteSpace(message))
+                {
+                    if (message.Contains("Error"))
+                    {
+                        problem = true;
+                    }
+                    Console.Write(message);
+                }
+            }
+
+            Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+            return problem;
         }
     }
 
@@ -170,6 +207,8 @@ namespace PokeGen2TextValidator
         Landmark = 7,
         /// <summary> Trainer class names. </summary>
         TrainerClass = 8,
+        /// <summary> Trainer names. </summary>
+        TrainerParty = 9,
     }
 
     public enum Source
@@ -263,6 +302,10 @@ namespace PokeGen2TextValidator
                 )
             {
                 return FileType.TextBox;
+            }
+            else if (path.EndsWith("data/trainers/parties.asm"))
+            {
+                return FileType.TrainerParty;
             }
             else if (path.Contains("mobile/"))
             {
@@ -424,11 +467,6 @@ namespace PokeGen2TextValidator
             for (int i = 0; i < lines.Count; i++)
             {
                 Line line = lines[i];
-                Line nextLine = null;
-                if (i < lines.Count - 1)
-                {
-                    nextLine = lines[i + 1];
-                }
 
                 if ((line.Text.StartsWith("INCLUDE") || line.Text.StartsWith("INCBIN")) && line.Text.Contains("/"))
                 {
@@ -450,7 +488,7 @@ namespace PokeGen2TextValidator
                                 text.Add(line.formattedText.Text);
                             }
                         }
-                        else if (line.Text.StartsWith("line ") || line.Text.StartsWith("para ") || line.Text.StartsWith("cont ") || line.Text.StartsWith("text_low") || line.Text.StartsWith("next "))
+                        else if (line.Text.StartsWith("line ") || line.Text.StartsWith("para ") || line.Text.StartsWith("cont ") || line.Text.StartsWith("text_low") || line.Text.StartsWith("next ") || line.Text.StartsWith("db "))
                         {
                             if (!string.IsNullOrWhiteSpace(text?.Text))
                             {
@@ -579,6 +617,7 @@ namespace PokeGen2TextValidator
                     case FileType.Type:
                     case FileType.Landmark:
                     case FileType.Pokemon:
+                    case FileType.TrainerParty:
                     {
                         if (line.Text.Contains("db \""))
                         {
@@ -820,6 +859,18 @@ namespace PokeGen2TextValidator
             { "{d:ROUTE39FARMHOUSE_MILK_PRICE}", 3 },
             { "{d:ROUTE43GATE_TOLL}", 4 },
             { "{d:NUM_UNOWN}", 2 },
+            { "{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}", 3 },
+            { "{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}", 3 },
+            { "{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}", 3 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_TM32_COINS}", 4 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_TM29_COINS}", 4 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_TM15_COINS}", 4 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS}", 4 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}", 4 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS}", 4 },
+            { "{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}", 3 },
+            { "{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}", 3 },
+            { "{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}", 3 },
         };
         public static readonly Dictionary<string, int> ramLengths = new Dictionary<string, int>
         {
@@ -1029,6 +1080,12 @@ namespace PokeGen2TextValidator
                     maxLength = MaxTrainerClassNameLength;
                     break;
                 }
+                case FileType.TrainerParty:
+                {
+                    mustTerminate = true;
+                    maxLength = MaxTrainerNameLength;
+                    break;
+                }
             }
 
             List<FormattedText> text = _block.GetFormattedTexts();
@@ -1057,6 +1114,11 @@ namespace PokeGen2TextValidator
                 StringBuilder unmappedCharactersBuilder = new StringBuilder();
                 foreach (char c in formattedText.Unformatted)
                 {
+                    if (c > 12000)
+                    {
+                        unmappedCharactersBuilder.Clear();
+                        break;
+                    }
                     if (!PrintableChars.Contains(c.ToString()))
                     {
                         unmappedCharactersBuilder.Append(c);
@@ -1139,7 +1201,7 @@ namespace PokeGen2TextValidator
             }
         }
 
-        public bool CheckTextboxNextLineValid(string line, string nextLine)
+        private static bool CheckTextboxNextLineValid(string line, string nextLine)
         {
             if (nextLine == null)
             {
@@ -1591,6 +1653,58 @@ namespace PokeGen2TextValidator
             }
 
             targetBlock.lines = newLines;
+        }
+
+    }
+	
+	// TrainerDataValidator.cs
+    internal class TrainerDataValidator
+    {
+
+        private ASMFile _trainerClassesFile;
+        private ASMFile _trainerDataFile;
+        private StringBuilder output;
+
+        public TrainerDataValidator(ASMFile trainerClassesFile, ASMFile trainerDataFile)
+        {
+            _trainerClassesFile = trainerClassesFile;
+            _trainerDataFile = trainerDataFile;
+            output = new StringBuilder();
+        }
+
+        public string Validate()
+        {
+            if (!_trainerClassesFile.blocks.ContainsKey("TrainerClassNames::"))
+            {
+                output.Append("Error: No block with name \"TrainerClassNames\" exists.");
+                return output.ToString();
+            }
+
+            Block trainerClassNamesBlock = _trainerClassesFile.blocks["TrainerClassNames::"];
+            List<FormattedText> classNameTexts = trainerClassNamesBlock.GetFormattedTexts();
+            List<Block> trainerBlocks = _trainerDataFile.blocks.Values.Where((block) => { return block.Name.EndsWith("Group:"); }).ToList();
+
+            if (trainerBlocks.Count != classNameTexts.Count)
+            {
+                output.Append("Error: List of class names does not match list of trainers.");
+                return output.ToString();
+            }
+
+            for (int i = 0; i < classNameTexts.Count; ++i)
+            {
+                int classLength = classNameTexts[i].Length;
+                List<FormattedText> trainerBlockTexts = trainerBlocks[i].GetFormattedTexts();
+                for (int j = 0; j < trainerBlockTexts.Count; ++j)
+                {
+                    int trainerNameLength = trainerBlockTexts[j].Length;
+                    if (classLength + trainerNameLength + 1 > FormattedText.maxLengths["<ENEMY>"] + 1)
+                    {
+                        output.Append("\tError: ").Append(classNameTexts[i]).Append(' ').Append(trainerBlockTexts[j]).Append(" is too long!").Append('\n');
+                    }
+                }
+            }
+
+            return output.Length > 0 ? output.ToString() : null;
         }
 
     }
