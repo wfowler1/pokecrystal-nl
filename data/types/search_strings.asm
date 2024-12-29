@@ -12,7 +12,7 @@ PokedexTypeSearchStrings:
 	db "  GIF   @" ; " POISON @"
 	db " GROND  @" ; " GROUND @"
 	db "VLIEGEN @" ; " FLYING @"
-	db "MENTAAL @" ; "PSYCHIC @"
+	db "PSYCH.  @" ; "PSYCHIC @"
 	db " INSECT @" ; "  BUG   @"
 	db " STEEN  @" ; "  ROCK  @"
 	db " GEEST  @" ; " GHOST  @"
