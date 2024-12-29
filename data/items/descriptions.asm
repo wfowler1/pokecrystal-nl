@@ -595,8 +595,8 @@ RedApricornDesc:
 	next "ABRIKHORN.@"
 
 TinyMushroomDesc: ; TODO string too long
-	db   "Een gewone padde-" ; "An ordinary mush-"
-	next "stoel. Weinig waard.@" ; "room. Sell low.@"
+	db   "Gewone paddestoel." ; "An ordinary mush-"
+	next "Weinig waard.@" ; "room. Sell low.@"
 
 BigMushroomDesc:
 	db   "Zeldzame padde-" ; "A rare mushroom."
@@ -736,8 +736,8 @@ EnergyPowderDesc:
 	next "LP met 50. Bitter.@" ; "HP by 50. Bitter.@"
 
 EnergyRootDesc:
-	db   "Herstelt #MON" ; "Restores #MON"
-	next "LP met 200. Bitter.@" ; "HP by 200. Bitter.@"
+	db   "Herstelt LP met" ; "Restores #MON"
+	next "200. Bitter.@" ; "HP by 200. Bitter.@"
 
 HealPowderDesc:
 	db   "Geneest status-" ; "Cures all status"
