@@ -160,119 +160,122 @@ BurnedTower1FEusineMovement:
 BurnedTowerRival_BeforeText:
 	text "<……> <……> <……>"
 
-	para "…Oh, it's you."
+	para "…Oh, jij bent het." ; "…Oh, it's you."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Ik kwam om een" ; "I came looking for"
+	line "legendarische" ; "some legendary"
 
-	para "#MON that they"
-	line "say roosts here."
+	para "#MON te vinden" ; "#MON that they"
+	line "die zich kennelijk" ; "say roosts here."
+	cont "hier nestelt" ;
 
-	para "But there's"
-	line "nothing here!"
+	para "Maar er is niks" ; "But there's"
+	line "hier!" ; "nothing here!"
 
-	para "Nothing after all"
-	line "the trouble of"
+	para "Niets na alle" ; "Nothing after all"
+	line "moeite om naar" ; "the trouble of"
 
-	para "coming to this"
-	line "dump? No way!"
+	para "deze zwijnenstal" ; "coming to this"
+	line "te komen?" ; "dump? No way!"
+	cont "Meen je niet!" ;
 
-	para "It's all your"
-	line "fault!"
+	para "Het is allemaal" ; "It's all your"
+	line "jouw schuld!" ; "fault!"
 	done
 
 BurnedTowerRival_WinText:
-	text "…Humph!"
+	text "…Pff!" ; "…Humph!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Dit is waarom ik" ; "This is why I hate"
+	line "vechten met watjes" ; "battling wimps."
 
-	para "There's no"
-	line "challenge in it."
+	para "haat. Gebrek aan" ; "There's no"
+	line "uitdaging." ; "challenge in it."
 	done
 
 BurnedTowerRival_AfterText1:
-	text "…Aw, whatever."
+	text "…Aw, boeien." ; "…Aw, whatever."
 
-	para "You would never be"
-	line "able to catch a"
+	para "Je zal toch nooit" ; "You would never be"
+	line "een legendarische" ; "able to catch a"
 
-	para "legendary #MON"
-	line "anyway."
+	para "#MON kunnen" ; "legendary #MON"
+	line "vangen." ; "anyway."
 	done
 
 BurnedTowerRival_LossText:
-	text "…Humph!"
+	text "…Pff!" ; "…Humph!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Dit is waarom ik" ; "This is why I hate"
+	line "vechten met watjes" ; "battling wimps."
 
-	para "It's just a waste"
-	line "of my time."
+	para "haat. Zonde van" ; "It's just a waste"
+	line "mijn tijd." ; "of my time."
 	done
 
 BurnedTowerRival_AfterText2:
-	text "Humph!"
+	text "Pff!" ; "Humph!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "Wat doe je, je" ; "What are you doing"
+	line "pleurt in een" ; "falling into a"
 
-	para "hole? Some genius"
-	line "you are!"
+	para "gat? Wat een" ; "hole? Some genius"
+	line "kneus ben je!" ; "you are!"
 
-	para "Serves you right!"
+	para "Lekker voor je!" ; "Serves you right!"
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "EUSINE: Mijn" ; "EUSINE: My name's"
+	line "naam is EUSINE." ; "EUSINE."
 
-	para "I'm on the trail"
-	line "of a #MON named"
-	cont "SUICUNE."
+	para "Ik volg het" ; "I'm on the trail"
+	line "spoor van de" ; "of a #MON named"
+	cont "#MON SUICUNE." ; "SUICUNE."
 
-	para "And you are…?"
+	para "En jij bent…?" ; "And you are…?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "<PLAYER>?" ; "<PLAYER>? Glad to"
+	line "Aangenaam!" ; "meet you!"
 
-	para "I heard rumors"
-	line "that SUICUNE is in"
+	para "Er zijn geruchten" ; "I heard rumors"
+	line "dat SUICUNE in" ; "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "deze VERBRANDE" ; "this BURNED TOWER,"
+	line "TOREN is, dus ging" ; "so I came to look."
 
-	para "But where exactly"
-	line "could it be?"
+	para "ik kijken. Maar" ; "But where exactly"
+	line "waar zou het zijn?" ; "could it be?"
 	done
 
 BurnedTower1FEusineText:
-	text "EUSINE: I heard"
-	line "that SUICUNE is in"
+	text "EUSINE: Ik heb" ; "EUSINE: I heard"
+	line "gehoord dat" ;
+	cont "SUICUNE in deze" ; "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "VERBRANDE TOREN" ; "this BURNED TOWER,"
+	line "is, dus ging ik" ; "so I came to look."
 
-	para "But where exactly"
-	line "could it be?"
+	para "kijken. Maar waar" ; "But where exactly"
+	line "zou het zijn?" ; "could it be?"
 	done
 
 BurnedTower1FMortyText:
 	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	line "GYMLEIDER hoort de" ; "GYM LEADER has to"
 
-	para "study what are"
-	line "said to be the"
+	para "naar zeggen legen-" ; "study what are"
+	line "darische #MON" ; "said to be the"
 
-	para "legendary #MON"
-	line "--SUICUNE, ENTEI"
-	cont "and RAIKOU."
+	para "te bestuderen--" ; "legendary #MON"
+	line "SUICUNE, ENTEI en."
+	cont "RAIKOU." ; "and RAIKOU."
 
-	para "EUSINE is here, so"
-	line "I've decided to"
+	para "EUSINE is hier," ; "EUSINE is here, so"
+	line "dus besloot ik" ; "I've decided to"
 
-	para "investigate the"
-	line "TOWER with him."
+	para "de TOREN met hem" ; "investigate the"
+	line "te verkennen." ; "TOWER with him."
 	done
 
 BurnedTower1F_MapEvents:
