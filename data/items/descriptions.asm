@@ -335,8 +335,8 @@ EscapeRopeDesc:
 	next "uit grotten, enz.@" ; "from caves, etc.@"
 
 RepelDesc: ; TODO string too long
-	db   "Verjaag zwakke #-" ; "Repels weak #-"
-	next "MON 100 stappen.@" ; "MON for 100 steps.@"
+	db   "Verjaagt zwakke" ; "Repels weak #-"
+	next "#MON 100 stpn.@" ; "MON for 100 steps.@"
 
 MaxElixerDesc:
 	db   "Herstel AP van een" ; "Fully restores the"
@@ -422,12 +422,12 @@ GuardSpecDesc:
 	next "stats. (1 BTL)@" ; "reduction. (1 BTL)@"
 
 SuperRepelDesc: ; TODO string too long
-	db   "Verjaag zwakke #-" ; "Repels weak #-"
-	next "MON 200 stappen.@" ; "MON for 200 steps.@"
+	db   "Verjaag zwakke" ; "Repels weak #-"
+	next "#MON 200 stpn.@" ; "MON for 200 steps.@"
 
 MaxRepelDesc: ; TODO string too long
-	db   "Verjaag zwakke #-" ; "Repels weak #-"
-	next "MON 250 stappen.@" ; "MON for 250 steps.@"
+	db   "Verjaag zwakke" ; "Repels weak #-"
+	next "#MON 250 stpn.@" ; "MON for 250 steps.@"
 
 DireHitDesc:
 	db   "Verhoog kritieke" ; "Ups critical hit"
