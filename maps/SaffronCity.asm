@@ -106,161 +106,161 @@ SaffronCityMartSign:
 	jumpstd MartSignScript
 
 SaffronCityLass1Text:
-	text "A little girl who"
-	line "is an expert at"
+	text "Een meisje dat" ; "A little girl who"
+	line "mensen heel goed" ; "is an expert at"
 
-	para "mimicking people"
-	line "lives here."
+	para "na kan doen woont" ; "mimicking people"
+	line "hier." ; "lives here."
 
-	para "She even mimics"
-	line "the people she's"
+	para "Ze doet zelfs ge-" ; "She even mimics"
+	line "sprekspartners na." ; "the people she's"
 
-	para "conversing with."
-	line "It's confusing."
+	para "Erg verwarrend." ; "conversing with."
+	;line "Erg verwarrend." ; "It's confusing."
 	done
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The COPYCAT girl"
-	line "looked unhappy."
+	text "Het NA-AAP-meisje" ; "The COPYCAT girl"
+	line "keek erg sip." ; "looked unhappy."
 
-	para "She said she lost"
-	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	para "Ze is haar favo-" ; "She said she lost"
+	line "riete #POP van" ; "her favorite #"
+	cont "CLEFAIRY kwijt." ; "DOLL--CLEFAIRY."
 	done
 
 SaffronCityPokefanMText:
-	text "You came out from"
-	line "JOHTO?"
+	text "Kom je uit" ; "You came out from"
+	line "JOHTO?" ; "JOHTO?"
 
-	para "You can zip back"
-	line "home if the MAGNET"
-	cont "TRAIN's running."
+	para "Je kan naar huis" ; "You can zip back"
+	line "met de ZWEEFTREIN," ; "home if the MAGNET"
+	cont "als hij rijdt." ; "TRAIN's running."
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
-	text "You came out from"
-	line "JOHTO?"
+	text "Kom je uit" ; "You came out from"
+	line "JOHTO?" ; "JOHTO?"
 
-	para "You can zip back"
-	line "home by hopping on"
-	cont "the MAGNET TRAIN."
+	para "Je kan snel naar" ; "You can zip back"
+	line "huis met de" ; "home by hopping on"
+	cont "ZWEEFTREIN." ; "the MAGNET TRAIN."
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the GYM,"
-	line "raring for battles"
-	cont "against trainers…"
+	text "Ik ging naar de" ; "I went to the GYM,"
+	line "GYM, op zoek naar" ; "raring for battles"
+	cont "trainer-gevechten…" ; "against trainers…"
 
-	para "It turns out, I"
-	line "stumbled into the"
+	para "Blijkt het dat ik" ; "It turns out, I"
+	line "naar binnen liep" ; "stumbled into the"
 
-	para "unused GYM next"
-	line "door."
+	para "bij de ongebruikte" ; "unused GYM next"
+	line "GYM hiernaast." ; "door."
 
-	para "Boy, I was pretty"
-	line "embarrassed."
+	para "Man, wat was dat" ; "Boy, I was pretty"
+	line "genant, zeg." ; "embarrassed."
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is SILPH CO.,"
-	line "famous for #MON"
-	cont "merchandise."
+	text "Dit is SILPH B.V," ; "This is SILPH CO.,"
+	line "bekend van hun" ; "famous for #MON"
+	cont "#MON-producten." ; "merchandise."
 
-	para "In the past, TEAM"
-	line "ROCKET wanted the"
+	para "Daarom wilde TEAM" ; "In the past, TEAM"
+	line "ROCKET in het verleden" ; "ROCKET wanted the"
 
-	para "company because of"
-	line "that."
+	para "het bedrijf" ; "company because of"
+	line "overnemen." ; "that."
 	done
 
 SaffronCityFisherText:
-	text "Chew… Chew…"
+	text "Kauw… Kauw…" ; "Chew… Chew…"
 
-	para "I hear there's big"
-	line "trouble brewing at"
-	cont "the POWER PLANT."
+	para "Volgens mij is de" ; "I hear there's big"
+	line "ENERGIECENTRALE in" ; "trouble brewing at"
+	cont "grote problemen." ; "the POWER PLANT."
 
-	para "Chew… Chew…"
+	para "Kauw… Kauw…" ; "Chew… Chew…"
 	done
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Chew… Chew…"
+	text "Kauw… Kauw…" ; "Chew… Chew…"
 
-	para "I hear there was"
-	line "big trouble at the"
-	cont "POWER PLANT."
+	para "Volgens mij was de" ; "I hear there was"
+	line "ENERGIECENTRALE in" ; "big trouble at the"
+	cont "grote problemen." ; "POWER PLANT."
 
-	para "Chew… Chew…"
-	line "Haaah, I'm full!"
+	para "Kauw… Kauw…" ; "Chew… Chew…"
+	line "Haaah, ik zit vol!" ; "Haaah, I'm full!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Going into an"
-	line "alley for the"
+	text "Voor het eerst in" ; "Going into an"
+	line "een steegje lopen" ; "alley for the"
 
-	para "first time makes"
-	line "me sorta anxious."
+	para "maakt me een" ; "first time makes"
+	line "beetje nerveus." ; "me sorta anxious."
 	done
 
 SaffronCityYoungster2Text:
-	text "There's a place"
-	line "called TRAINER"
+	text "Er is een plek" ; "There's a place"
+	line "genaamd TRAINER-" ; "called TRAINER"
 
-	para "HOUSE in VIRIDIAN"
-	line "where trainers"
+	para "HUIS in VIRIDIAN" ; "HOUSE in VIRIDIAN"
+	line "waar trainers van" ; "where trainers"
 
-	para "gather from all"
-	line "over the place."
+	para "overal zich" ; "gather from all"
+	line "verzamelen." ; "over the place."
 	done
 
 SaffronCityLass2Text:
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
+	text "Onze stad werd" ; "Our city was"
+	line "besproken in een" ; "featured on a"
+	cont "radioprogramma." ; "radio program."
 
-	para "It's nice to hear"
-	line "praise for your"
+	para "Het is fijn om" ; "It's nice to hear"
+	line "goede dingen over" ; "praise for your"
 
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	para "je stad te horen," ; "city, but it's a"
+	line "maar ook een" ; "bit embarrassing"
+	cont "beetje genant." ; "too."
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
+	text "SAFFRON CITY" ; "SAFFRON CITY"
 
-	para "Shining, Golden"
-	line "Land of Commerce"
+	para "Glanzend, Gouden" ; "Shining, Golden"
+	line "Land van de Handel" ; "Land of Commerce"
 	done
 
 SaffronGymSignText:
-	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	text "SAFFRON CITY" ; "SAFFRON CITY"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
+	cont "SABRINA" ; "LEADER: SABRINA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "De Psychische" ; "The Master of"
+	line "#MON-Meesteres!" ; "Psychic #MON!"
 	done
 
 FightingDojoSignText:
-	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	text "Iedereen welkom!" ; "Everyone Welcome!"
+	line "VECHTDOJO" ; "FIGHTING DOJO"
 	done
 
 SilphCoSignText:
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "SILPH B.V." ; "SILPH CO."
+	line "KANTOOR" ; "OFFICE BUILDING"
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "Huis van" ; "MR.PSYCHIC'S"
+	line "MR. PSYCHISCH" ; "HOUSE"
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
-	line "MAGNET TRAIN"
-	cont "STATION"
+	text "SAFFRON CITY" ; "SAFFRON CITY"
+	line "ZWEEFTREIN-STATION" ; "MAGNET TRAIN"
+	;cont "STATION" ; "STATION"
 	done
 
 SaffronCity_MapEvents:

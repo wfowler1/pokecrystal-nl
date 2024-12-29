@@ -113,179 +113,180 @@ SaffronGymStatue:
 	jumpstd GymStatue2Script
 
 SabrinaIntroText:
-	text "SABRINA: I knew"
-	line "you were coming…"
+	text "SABRINA: Ik wist" ; "SABRINA: I knew"
+	line "dat je zou komen…" ; "you were coming…"
 
-	para "Three years ago I"
-	line "had a vision of"
-	cont "your arrival."
+	para "Drie jaar geleden" ; "Three years ago I"
+	line "had ik een visioen" ; "had a vision of"
+	cont "over jouw komst." ; "your arrival."
 
-	para "You're after my"
-	line "BADGE."
+	para "Je wil mijn BADGE" ; "You're after my"
+	line "hebben. Ik vecht" ; "BADGE."
 
-	para "I don't enjoy bat-"
-	line "tling, but it's my"
+	para "niet graag, maar" ; "I don't enjoy bat-"
+	line "het is mijn plicht" ; "tling, but it's my"
 
-	para "duty as a LEADER"
-	line "to confer BADGES"
+	para "als LEIDER om" ; "duty as a LEADER"
+	line "BADGES toe te" ; "to confer BADGES"
 
-	para "on anyone who has"
-	line "proven him- or"
-	cont "herself worthy."
+	para "kennen aan ieder" ; "on anyone who has"
+	line "die zichzelf" ; "proven him- or"
+	cont "waardig bewijst." ; "herself worthy."
 
-	para "Since you wish it,"
-	line "I will show you my"
-	cont "psychic powers!"
+	para "Omdat je het" ; "Since you wish it,"
+	line "wenst, laat ik je" ; "I will show you my"
+	cont "mijn psychische" ; "psychic powers!"
+	cont "krachten zien!"
 	done
 
 SabrinaWinLossText:
-	text "SABRINA: Your"
-	line "power…"
+	text "SABRINA: Wat een" ; "SABRINA: Your"
+	line "kracht…" ; "power…"
 
-	para "It far exceeds"
-	line "what I foresaw…"
+	para "Het overtreft" ; "It far exceeds"
+	line "mijn visioenen…" ; "what I foresaw…"
 
-	para "Maybe it isn't"
-	line "possible to fully"
+	para "Misschien kan je" ; "Maybe it isn't"
+	line "niet voorspellen" ; "possible to fully"
 
-	para "predict what the"
-	line "future holds…"
+	para "wat de toekomst" ; "predict what the"
+	line "in petto heeft…" ; "future holds…"
 
-	para "OK, you win. You"
-	line "earned yourself"
-	cont "MARSHBADGE."
+	para "OK, jij wint. Je" ; "OK, you win. You"
+	line "hebt de MOERAS-" ; "earned yourself"
+	cont "BADGE verdiend." ; "MARSHBADGE."
 	done
 
 ReceivedMarshBadgeText:
-	text "<PLAYER> received"
-	line "MARSHBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "MOERASBADGE." ; "MARSHBADGE."
 	done
 
 SabrinaMarshBadgeText:
-	text "SABRINA: MARSH-"
-	line "BADGE draws out"
+	text "SABRINA: MOERAS-" ; "SABRINA: MARSH-"
+	line "BADGE haalt je" ; "BADGE draws out"
 
-	para "your subliminal"
-	line "powers…"
+	para "subliminale kracht" ; "your subliminal"
+	line "krachten boven…" ; "powers…"
 
-	para "Although I failed"
-	line "to accurately pre-"
-	cont "dict your power,"
-	cont "this much I know"
-	cont "to be true."
+	para "Hoewel ik niet" ; "Although I failed"
+	line "exact jouw kracht" ; "to accurately pre-"
+	cont "kon voorspellen," ; "dict your power,"
+	cont "weet ik dat dit " ; "this much I know"
+	cont "waar is." ; "to be true."
 
-	para "You will become a"
-	line "celebrated and"
-	cont "beloved CHAMPION!"
+	para "Jij wordt een" ; "You will become a"
+	line "gevierde en" ; "celebrated and"
+	cont "geliefde KAMPIOEN!" ; "beloved CHAMPION!"
 	done
 
 SabrinaFightDoneText:
-	text "SABRINA: Your love"
-	line "for your #MON"
+	text "SABRINA: De liefde" ; "SABRINA: Your love"
+	line "voor jouw #MON" ; "for your #MON"
 
-	para "overwhelmed my"
-	line "psychic power…"
+	para "overtrof mijn" ; "overwhelmed my"
+	line "psychische kracht…" ; "psychic power…"
 
-	para "The power of love,"
-	line "I think, is also a"
+	para "De kracht van" ; "The power of love,"
+	line "liefde is, denk" ; "I think, is also a"
 
-	para "kind of psychic"
-	line "power…"
+	para "ik, ook een soort" ; "kind of psychic"
+	line "psychische kracht…" ; "power…"
 	done
 
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "De kracht van elke" ; "The power of all"
+	line "verslagen trainer" ; "those you defeated"
+	cont "komt naar mij!" ; "comes to me!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "Sterk…" ; "Strong…"
+	line "Veel te sterk…" ; "Far too strong…"
 	done
 
 MediumRebeccaAfterBattleText:
-	text "What is the source"
-	line "of your power?"
+	text "Wat is de bron" ; "What is the source"
+	line "van jouw kracht?" ; "of your power?"
 	done
 
 PsychicFranklinSeenText:
-	text "Psychic power is"
-	line "the power of your"
-	cont "soul."
+	text "Psychische kracht" ; "Psychic power is"
+	line "is de kracht van" ; "the power of your"
+	cont "je ziel." ; "soul."
 	done
 
 PsychicFranklinBeatenText:
-	text "Your soul has more"
-	line "power than mine!"
+	text "Je ziel is sterker" ; "Your soul has more"
+	line "dan de mijne!" ; "power than mine!"
 	done
 
 PsychicFranklinAfterBattleText:
-	text "You made your soul"
-	line "stronger, not just"
-	cont "your abilities."
+	text "Naast je vaardig-" ; "You made your soul"
+	line "heid is ook je" ; "stronger, not just"
+	cont "ziel sterker." ; "your abilities."
 	done
 
 MediumDorisSeenText:
-	text "Fufufufu…"
-	line "I see it clearly."
+	text "Hahahaha…" ; "Fufufufu…"
+	line "Het is glashelder." ; "I see it clearly."
 
-	para "I can see into"
-	line "your soul!"
+	para "Ik kan in je ziel" ; "I can see into"
+	line "kijken!" ; "your soul!"
 	done
 
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "Hoewel ik je las," ; "Though I read you,"
+	line "verloor ik toch…" ; "I still lost…"
 	done
 
 MediumDorisAfterBattleText:
-	text "Darn! I forgot"
-	line "that I predicted I"
-	cont "would lose to you."
+	text "Deksels! Ik vergat" ; "Darn! I forgot"
+	line "mijn voorspelde" ; "that I predicted I"
+	cont "verlies." ; "would lose to you."
 	done
 
 PsychicJaredSeenText:
-	text "The FIGHTING DOJO"
-	line "next door was once"
-	cont "this city's GYM."
+	text "De VECHTDOJO hier-" ; "The FIGHTING DOJO"
+	line "naast was ooit de" ; "next door was once"
+	cont "GYM van deze stad." ; "this city's GYM."
 	done
 
 PsychicJaredBeatenText:
-	text "I was no match…"
+	text "Ik was kansloos…" ; "I was no match…"
 	done
 
 PsychicJaredAfterBattleText:
-	text "KARATE KING, the"
-	line "master of the"
+	text "KARATEMEESTER, de" ; "KARATE KING, the"
+	line "meester van de" ; "master of the"
 
-	para "FIGHTING DOJO, was"
-	line "just destroyed by"
-	cont "SABRINA."
+	para "KARATESCHOOL, werd" ; "FIGHTING DOJO, was"
+	line "echt gesloopt door" ; "just destroyed by"
+	cont "SABRINA." ; "SABRINA."
 	done
 
 SaffronGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "Yo, KAMPIOEN in" ; "Yo, CHAMP in"
+	line "het verschiet!" ; "making!"
 
-	para "A trainer as"
-	line "skilled as you"
+	para "Trainers van jouw" ; "A trainer as"
+	line "kaliber hoef ik" ; "skilled as you"
 
-	para "doesn't need to be"
-	line "told how to deal"
+	para "niet te vertellen" ; "doesn't need to be"
+	line "hoe om te gaan met" ; "told how to deal"
 
-	para "with psychic-type"
-	line "#MON, right?"
+	para "PSYCHISCH-type" ; "with psychic-type"
+	line "#MON, toch?" ; "#MON, right?"
 
-	para "I expect great"
-	line "things from you!"
+	para "Ik verwacht grote" ; "I expect great"
+	line "dingen van je!" ; "things from you!"
 
-	para "Good luck!"
+	para "Veel succes!" ; "Good luck!"
 	done
 
 SaffronGymGuideWinText:
-	text "That was another"
-	line "fantastic battle!"
+	text "Dat was weer een" ; "That was another"
+	line "geweldig gevecht!" ; "fantastic battle!"
 	done
 
 SaffronGym_MapEvents:
