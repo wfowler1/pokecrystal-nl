@@ -167,7 +167,7 @@ SaffronCityCooltrainerFText:
 	cont "#MON-producten." ; "merchandise."
 
 	para "Daarom wilde TEAM" ; "In the past, TEAM"
-	line "ROCKET in het verleden" ; "ROCKET wanted the"
+	line "ROCKET vroeger het" ; "ROCKET wanted the"
 
 	para "het bedrijf" ; "company because of"
 	line "overnemen." ; "that."
