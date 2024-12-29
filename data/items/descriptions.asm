@@ -422,11 +422,11 @@ GuardSpecDesc:
 	next "stats. (1 BTL)@" ; "reduction. (1 BTL)@"
 
 SuperRepelDesc: ; TODO string too long
-	db   "Verjaag zwakke" ; "Repels weak #-"
+	db   "Verjaagt zwakke" ; "Repels weak #-"
 	next "#MON 200 stpn.@" ; "MON for 200 steps.@"
 
 MaxRepelDesc: ; TODO string too long
-	db   "Verjaag zwakke" ; "Repels weak #-"
+	db   "Verjaagt zwakke" ; "Repels weak #-"
 	next "#MON 250 stpn.@" ; "MON for 250 steps.@"
 
 DireHitDesc:
@@ -886,8 +886,8 @@ TeruSama21Desc:
 	db   "?@"
 
 LightBallDesc:
-	db   "Vreemde, elektrische" ; "An odd, electrical"
-	next "bol. (VAST)@" ; "orb. (HOLD)@"
+	db   "Vreemde, elektri-" ; "An odd, electrical"
+	next "sche bol. (VAST)@" ; "orb. (HOLD)@"
 
 FriendBallDesc:
 	db   "BAL die #MON" ; "A BALL that makes"
