@@ -640,7 +640,7 @@ ConfusionDescription:
 	next "verwarren.@" ; "cause confusion.@"
 
 PsychicMDescription:
-	db   "Kan SPCL.VERDEDIG.-" ; "An attack that may"
+	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 HypnosisDescription:
@@ -1232,7 +1232,7 @@ SunnyDayDescription:
 	next "klappen 5 beurten.@" ; "moves for 5 turns.@"
 
 CrunchDescription:
-	db   "Kan SPCL.VERDEDIG.-" ; "An attack that may"
+	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 MirrorCoatDescription:
@@ -1252,7 +1252,7 @@ AncientpowerDescription:
 	next "stats verhoogt.@" ; "raise all stats.@"
 
 ShadowBallDescription:
-	db   "Kan SPCL.VERDEDIG.-" ; "An attack that may"
+	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 FutureSightDescription:
