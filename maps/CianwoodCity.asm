@@ -195,7 +195,7 @@ ChucksWifeEasierToFlyText:
 	done
 
 ChucksWifeBeatChuckText:
-	text "Maar VLIEGEN werkt" ; "But you can't use"
+	text "Maar VLIEG werkt" ; "But you can't use"
 	line "niet zonder GYM-" ; "FLY without this"
 	cont "BADGE van de stad." ; "city's GYM BADGE."
 
@@ -217,7 +217,7 @@ ChucksWifeGiveHMText:
 
 ChucksWifeFlySpeechText:
 	text "Leer je #MON" ; "Teach FLY to your"
-	line "VLIEGEN." ; "#MON."
+	line "VLIEG." ; "#MON."
 
 	para "Je zal direct" ; "You will be able"
 	line "kunnen VLIEGEN" ; "to FLY instantly"

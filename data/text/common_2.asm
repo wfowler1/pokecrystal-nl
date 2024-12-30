@@ -308,7 +308,7 @@ _CantUseItemText::
 _UseCutText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " deed" ; " used"
-	line "SNIJDEN!" ; "CUT!"
+	line "SNIJD!" ; "CUT!"
 	prompt
 
 _CutNothingText::
@@ -328,12 +328,12 @@ _UsedSurfText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	; text " used"
 	text_start
-	line "gebruikte SURFEN!" ; "SURF!"
+	line "gebruikte SURF!" ; "SURF!"
 	done
 
 _CantSurfText::
 	text "Hier kun je geen" ; "You can't SURF"
-	line "SURFEN gebruiken." ; "here."
+	line "SURF gebruiken." ; "here."
 	prompt
 
 _AlreadySurfingText::
@@ -522,7 +522,7 @@ _AskCutText::
 	text "Deze boom kun je" ; "This tree can be"
 	line "SNIJDEN!" ; "CUT!"
 
-	para "SNIJDEN gebruiken?" ; "Want to use CUT?"
+	para "SNIJD gebruiken?" ; "Want to use CUT?"
 	done
 
 _CanCutText::
