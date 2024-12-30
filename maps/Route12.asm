@@ -72,8 +72,8 @@ Route12HiddenElixer:
 
 FisherMartinSeenText:
 	text "Geduld is de" ; "Patience is the"
-	line "sleutel tot zowel" ; "key to both fish-"
-	cont "vissen als #MON." ; "ing and #MON."
+	line "sleutel tot vissen" ; "key to both fish-"
+	cont "en #MON." ; "ing and #MON."
 	done
 
 FisherMartinBeatenText:

@@ -28,9 +28,9 @@ Route19FuchsiaGateOfficerText:
 	cont "gebarsten." ;
 
 	para "Er slingerden" ; "It hurled boulders"
-	line "rotsen die ROUTE 19" ; "that cut off ROUTE"
-	cont "voor onbepaalde tijd" ; "19 indefinitely."
-	cont "blokkeren." ;
+	line "rotsen die ROUTE" ; "that cut off ROUTE"
+	cont "19 voor onbepaalde" ; "19 indefinitely."
+	cont "tijd blokkeren." ;
 
 	para "Ik vraag me af of" ; "I wonder if the"
 	line "de mensen van" ; "people of CINNABAR"
@@ -42,8 +42,8 @@ Route19FuchsiaGateOfficerText_RocksCleared:
 	text "CINNABAR-inwoners" ; "No CINNABAR citi-"
 	line "bleven ongedeerd" ; "zens were injured"
 
-	para "bij de uitbarsting." ; "by the eruption."
-	line "Dat is fijn!" ; "That's great!"
+	para "bij de uitbarst-" ; "by the eruption."
+	line "ing. Dat is fijn!" ; "That's great!"
 	done
 
 Route19FuchsiaGate_MapEvents:

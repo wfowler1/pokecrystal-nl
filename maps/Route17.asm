@@ -127,7 +127,7 @@ BikerCharlesBeatenText:
 BikerCharlesAfterBattleText:
 	text "Roekeloos rijden" ; "Reckless driving"
 	line "veroorzaakt onge-" ; "causes accidents!"
-	cont "lukken! Rustig aan!" ; "Take it easy!"
+	cont "lukken! Rustig!" ; "Take it easy!"
 	done
 
 Route17_MapEvents:
