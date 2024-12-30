@@ -88,74 +88,74 @@ MountMoonRivalMovementAfter:
 MountMoonRivalTextBefore:
 	text "<……> <……> <……>"
 
-	para "It's been a while,"
+	para "Lang geleden," ; "It's been a while,"
 	line "<PLAYER>."
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "…Sinds ik van" ; "…Since I lost to"
+	line "je verloor, heb" ; "you, I thought"
 
-	para "about what I was"
-	line "lacking with my"
+	para "ik nagedacht wat" ; "about what I was"
+	line "ik ontbrak met m'n" ; "lacking with my"
 	cont "#MON…"
 
-	para "And we came up"
-	line "with an answer."
+	para "En we hebben een" ; "And we came up"
+	line "antwoord bedacht." ; "with an answer."
 
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "<PLAYER>, we laten" ; "<PLAYER>, now we'll"
+	line "het je nu zien!" ; "show you!"
 	done
 
 MountMoonRivalTextWin:
 	text "<……> <……> <……>"
 
-	para "I thought I raised"
-	line "my #MON to be"
+	para "Ik dacht dat ik" ; "I thought I raised"
+	line "mijn #MON het" ; "my #MON to be"
 
-	para "the best they"
-	line "could be…"
+	para "allerbeste had" ; "the best they"
+	line "opgevoed…" ; "could be…"
 
-	para "…But it still "
-	line "wasn't enough…"
+	para "…Maar het was" ; "…But it still"
+	line "weer onvoldoende…" ; "wasn't enough…"
 	done
 
 MountMoonRivalTextAfter:
 	text "<……> <……> <……>"
 
-	para "…You won, fair"
-	line "and square."
+	para "…Je won," ; "…You won, fair"
+	line "eerlijk en wel." ; "and square."
 
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
+	para "Ik geef het toe." ; "I admit it. But"
+	line "Maar dit is niet" ; "this isn't the"
+	cont "het einde." ; "end."
 
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "MON trainer ever."
+	para "Ik word de beste" ; "I'm going to be"
+	line "#MON-trainer" ; "the greatest #-"
+	cont "ooit." ; "MON trainer ever."
 
-	para "Because these guys"
-	line "are behind me."
+	para "Want deze lui" ; "Because these guys"
+	line "staan achter me." ; "are behind me."
 
-	para "…Listen, <PLAYER>."
+	para "…luister, <PLAYER>." ; "…Listen, <PLAYER>."
 
-	para "One of these days"
-	line "I'm going to prove"
+	para "Op een dag ga" ; "One of these days"
+	line "ik bewijzen hoe" ; "I'm going to prove"
 
-	para "how good I am by"
-	line "beating you."
+	para "goed ik ben door" ; "how good I am by"
+	line "je te verslaan." ; "beating you."
 	done
 
 MountMoonRivalTextLoss:
 	text "<……> <……> <……>"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "Ik heb mijn schuld" ; "I've repaid my"
+	line "aan jou afgelost." ; "debt to you."
 
-	para "With my #MON,"
-	line "I'm going to beat"
+	para "Met mijn #MON" ; "With my #MON,"
+	line "ga ik de KAMPIOEN" ; "I'm going to beat"
 
-	para "the CHAMPION and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "verslaan en word" ; "the CHAMPION and"
+	line "ik 's werelds" ; "become the world's"
+	cont "beste trainer." ; "greatest trainer."
 	done
 
 MountMoon_MapEvents:
