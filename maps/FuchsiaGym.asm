@@ -252,7 +252,7 @@ JanineText_ToughOne:
 	line "een taaie. Je hebt" ; "tough one. You"
 	cont "echt gewonnen…" ; "definitely won…"
 
-	para "Hier is de ZIELBADGE." ; "Here's SOULBADGE."
+	para "Hier de ZIELBADGE." ; "Here's SOULBADGE."
 	line "Neem maar." ; "Take it."
 	done
 
@@ -355,7 +355,7 @@ CamperBarryBeatenText:
 
 CamperBarryAfterText:
 	text "Hé, jij. Was mijn" ; "Hey, you. Was my"
-	line "vermomming schattig" ; "disguise cute or"
+	line "kostuum schattig" ; "disguise cute or"
 	cont "of niet?" ; "what, huh?"
 	done
 
