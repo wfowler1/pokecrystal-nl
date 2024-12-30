@@ -28,29 +28,29 @@ SilphCoOfficerScript:
 	end
 
 SilphCoReceptionistText:
-	text "Welcome. This is"
-	line "SILPH CO.'s HEAD"
-	cont "OFFICE BUILDING."
+	text "Welkom. Dit is" ; "Welcome. This is"
+	line "SILPH B.V's" ; "SILPH CO.'s HEAD"
+	cont "HOOFDKANTOOR." ; "OFFICE BUILDING."
 	done
 
 SilphCoOfficerText:
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
+	text "Alleen werknemers" ; "Only employees are"
+	line "zijn boven" ; "permitted to go"
+	cont "toegestaan." ; "upstairs."
 
-	para "But since you came"
-	line "such a long way,"
+	para "Maar omdat je" ; "But since you came"
+	line "van zo ver komt," ; "such a long way,"
 
-	para "have this neat"
-	line "little souvenir."
+	para "neem dit leuke" ; "have this neat"
+	line "kleine souvenir." ; "little souvenir."
 	done
 
 SilphCoOfficerText_GotUpGrade:
-	text "It's SILPH CO.'s"
-	line "latest product."
+	text "Het is SILPH B.V's" ; "It's SILPH CO.'s"
+	line "nieuwste product." ; "latest product."
 
-	para "It's not for sale"
-	line "anywhere yet."
+	para "Het is nog nergens" ; "It's not for sale"
+	line "te koop." ; "anywhere yet."
 	done
 
 SilphCo1F_MapEvents:
