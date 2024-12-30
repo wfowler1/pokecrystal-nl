@@ -79,7 +79,7 @@ SwimmerfLoriBeatenText:
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF is niet langer" ; "SURF is no longer"
+	text "SURF is niet meer" ; "SURF is no longer"
 	line "de enige VM die je" ; "the only HM move"
 	cont "in water gebruikt." ; "you use in water."
 	done

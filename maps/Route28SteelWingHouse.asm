@@ -50,7 +50,7 @@ CelebrityText1:
 
 	para "Ik geef je dit om" ; "I'll give you this"
 	line "mijn geheim te be-" ; "for keeping my"
-	cont "waren. Alsjeblieft?" ; "secret. Please?"
+	cont "waren. Toe?" ; "secret. Please?"
 	done
 
 CelebrityText2:
