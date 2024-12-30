@@ -32,46 +32,48 @@ WardensHomeBookshelf:
 	jumpstd PictureBookshelfScript
 
 WardensGranddaughterText1:
-	text "My grandpa is the"
-	line "SAFARI ZONE WAR-"
-	cont "DEN."
+	text "Mijn opa is de" ; "My grandpa is the"
+	line "SAFARIZONE-" ; "SAFARI ZONE WAR-"
+	cont "BOSWACHTER." ; "DEN."
 
-	para "At least he was…"
+	para "Tenminste, dat" ; "At least he was…"
+	line "was hij…" ;
 
-	para "He decided to go"
-	line "on a vacation and"
+	para "Hij besloot op" ; "He decided to go"
+	line "vakantie te gaan" ; "on a vacation and"
 
-	para "took off overseas"
-	line "all by himself."
+	para "en vertrok alleen" ; "took off overseas"
+	line "overzee." ; "all by himself."
 
-	para "He quit running"
-	line "SAFARI ZONE just"
-	cont "like that."
+	para "Zo stopte hij" ; "He quit running"
+	line "zomaar met de" ; "SAFARI ZONE just"
+	cont "SAFARIZONE." ; "like that."
 	done
 
 WardensGranddaughterText2:
-	text "Many people were"
-	line "disappointed that"
+	text "Veel mensen waren" ; "Many people were"
+	line "teleurgesteld dat" ; "disappointed that"
 
-	para "SAFARI ZONE closed"
-	line "down, but Grandpa"
-	cont "is so stubborn…"
+	para "SAFARIZONE dicht-" ; "SAFARI ZONE closed"
+	line "ging, maar Opa" ; "down, but Grandpa"
+	cont "is zo koppig…" ; "is so stubborn…"
 	done
 
 WardenPhotoText:
-	text "It's a photo of a"
-	line "grinning old man"
+	text "Het is een foto" ; "It's a photo of a"
+	line "van een lachende" ; "grinning old man"
 
-	para "who's surrounded"
-	line "by #MON."
+	para "oude man omringd" ; "who's surrounded"
+	line "door #MON." ; "by #MON."
 	done
 
 SafariZonePhotoText:
-	text "It's a photo of a"
-	line "huge grassy plain"
+	text "Het is een foto" ; "It's a photo of a"
+	line "van een groot" ; "huge grassy plain"
 
-	para "with rare #MON"
-	line "frolicking in it."
+	para "grasveld waar" ; "with rare #MON"
+	line "zeldzame #MON" ; "frolicking in it."
+	cont "huppelen." ;
 	done
 
 SafariZoneWardensHome_MapEvents:
