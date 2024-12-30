@@ -34,19 +34,19 @@ Route17Route18GateCannotPassMovement:
 	step_end
 
 Route17Route18GateOfficerText:
-	text "CYCLING ROAD"
-	line "Uphill Starts Here"
+	text "FIETSPAD" ; "CYCLING ROAD"
+	line "Bergop Begint Hier" ; "Uphill Starts Here"
 	done
 
 Route17Route18GateCannotPassText:
-	text "Hang on! Don't you"
-	line "have a BICYCLE?"
+	text "Wacht! Heb je" ; "Hang on! Don't you"
+	line "geen FIETS?" ; "have a BICYCLE?"
 
-	para "The CYCLING ROAD"
-	line "is beyond here."
+	para "Het FIETSPAD is" ; "The CYCLING ROAD"
+	line "hierachter." ; "is beyond here."
 
-	para "You have to have a"
-	line "BICYCLE to go on."
+	para "Je vanaf hier een" ; "You have to have a"
+	line "FIETS hebben." ; "BICYCLE to go on."
 	done
 
 Route17Route18Gate_MapEvents:
