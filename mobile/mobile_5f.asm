@@ -490,8 +490,8 @@ MenuHeader_ChallengeExplanationCancel:
 MenuData_ChallengeExplanationCancel:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 3
-	db "Challenge@"
-	db "Explanation@"
+	db "Daag uit@"
+	db "Uitleg@"
 	db "Cancel@"
 
 Function17d2b6:
