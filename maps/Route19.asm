@@ -107,129 +107,129 @@ CarefulSwimmingSign:
 	jumptext CarefulSwimmingSignText
 
 SwimmermHaroldSeenText:
-	text "Have you ever gone"
-	line "swimming in the"
-	cont "sea at night?"
+	text "Heb je ooit" ; "Have you ever gone"
+	line "'s nachts in de" ; "swimming in the"
+	cont "zee gezwommen?" ; "sea at night?"
 	done
 
 SwimmermHaroldBeatenText:
-	text "Glub…"
+	text "Blub…" ; "Glub…"
 	done
 
 SwimmermHaroldAfterBattleText:
-	text "At night, the sea"
-	line "turns black. It"
+	text "'s Nachts is de" ; "At night, the sea"
+	line "zee superdonker." ; "turns black. It"
 
-	para "feels like it will"
-	line "swallow you up."
+	para "Haast alsof het" ; "feels like it will"
+	line "je gaat opslokken." ; "swallow you up."
 	done
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
+	text "Hijg, Hijg…" ; "Pant, pant…"
+	line "Nog… een klein…" ; "Just… a little…"
 
-	para "farther… to…"
-	line "FUCHSIA…"
+	para "stukje… naar…" ; "farther… to…"
+	line "FUCHSIA…" ; "FUCHSIA…"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "Ik verdrink!" ; "I'm drowning!"
 	done
 
 SwimmermTuckerAfterBattleText:
-	text "I… asked my girl-"
-	line "friend to swim to"
-	cont "FUCHSIA… Gasp…"
+	text "Ik… wilde met mijn" ; "I… asked my girl-"
+	line "vriendin naar" ; "friend to swim to"
+	cont "FUCHSIA zwemmen…" ; "FUCHSIA… Gasp…"
 	done
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "Ik heb een hekel" ; "I'm disgusted by"
+	line "aan watjes!" ; "wimpy people!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "Met zwemmen zou ik" ; "I could beat you"
+	line "je verslaan…" ; "at swimming…"
 	done
 
 SwimmerfDawnAfterBattleText:
-	text "It's a quick swim"
-	line "between FUCHSIA"
+	text "Het is maar kort" ; "It's a quick swim"
+	line "zwemmen tussen" ; "between FUCHSIA"
 
-	para "and SEAFOAM IS-"
-	line "LANDS…"
+	para "FUCHSIA en de ZEE-" ; "and SEAFOAM IS-"
+	line "SCHUIM-EILANDEN…" ; "LANDS…"
 
-	para "Sheesh, some big"
-	line "man my boyfriend"
+	para "Tjee, m'n vriendje" ; "Sheesh, some big"
+	line "valt door de mand." ; "man my boyfriend"
 
-	para "is! What a wimp!"
+	para "Wat een watje!" ; "is! What a wimp!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "I'm lousy at it."
+	text "Zwemmen?" ; "Swimming?"
+	line "Kan ik niks van." ; "I'm lousy at it."
 
-	para "I'm just splashing"
-	line "around in these"
-	cont "shallow waters."
+	para "Ik spetter maar" ; I'm just splashing"
+	line "wat rond in het" ; "around in these"
+	cont "ondiepe water." ; "shallow waters."
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "Ik dacht dat ik" ; "I thought I could"
+	line "kon winnen." ; "win."
 	done
 
 SwimmermJeromeAfterBattleText:
-	text "I might be bad at"
-	line "swimming, but I"
-	cont "love the sea."
+	text "Ik hou van de zee," ; "I might be bad at"
+	line "ook al ben ik" ; "swimming, but I"
+	cont "slecht in zwemmen." ; "love the sea."
 	done
 
 Route19Fisher1Text:
-	text "Sorry. This road"
-	line "is closed for"
-	cont "construction."
+	text "Sorry. Deze weg" ; "Sorry. This road"
+	line "is gesloten wegens" ; "is closed for"
+	cont "onderhoud." ; "construction."
 
-	para "If you want to get"
-	line "to CINNABAR, you'd"
+	para "Ga zuidwaarts via" ; "If you want to get"
+	line "PALLET TOWN als" ; "to CINNABAR, you'd"
 
-	para "better go south"
-	line "from PALLET TOWN."
+	para "je naar CINNABAR" ; "beter zuidwaarts" ; "better go south"
+	line "toe wil gaan." ; "from PALLET TOWN."
 	done
 
 Route19Fisher1Text_RocksCleared:
-	text "I'm all sweaty."
-	line "Time for a swim!"
+	text "Ik zweet helemaal." ; "I'm all sweaty."
+	line "Snel even zwemmen!" ; "Time for a swim!"
 	done
 
 Route19Fisher2Text:
-	text "Who knows how long"
-	line "it would take to"
-	cont "move this boulder…"
+	text "Wie weet wanneer" ; "Who knows how long"
+	line "deze rots ooit" ; "it would take to"
+	cont "verplaatst wordt…" ; "move this boulder…"
 	done
 
 Route19Fisher2Text_RocksCleared:
-	text "The roadwork is"
-	line "finally finished."
+	text "De wegwerkzaam-" ; "The roadwork is"
+	line "heden zijn klaar." ; "finally finished."
 
-	para "Now I can go"
-	line "fishing again."
+	para "Eindelijk kan ik" ; "Now I can go"
+	line "weer vissen." ; "fishing again."
 	done
 
 Route19SignText:
-	text "ROUTE 19"
+	text "ROUTE 19" ; "ROUTE 19"
 
-	para "FUCHSIA CITY -"
-	line "SEAFOAM ISLANDS"
+	para "FUCHSIA CITY -" ; "FUCHSIA CITY -"
+	line "ZEESCHUIM-EILANDEN" ; "SEAFOAM ISLANDS"
 	done
 
 CarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to SEAFOAM"
-	cont "ISLANDS."
+	text "Wees alsjeblieft" ; "Please be careful"
+	line "voorzichtig als je" ; "if you are swim-"
+	cont "naar de ZEESCHUIM-" ; "ming to SEAFOAM"
+	cont "EILANDEN zwemt." ; "ISLANDS."
 
-	para "FUCHSIA POLICE"
+	para "FUCHSIA POLITIE" ; "FUCHSIA POLICE"
 	done
 
 Route19_MapEvents:
