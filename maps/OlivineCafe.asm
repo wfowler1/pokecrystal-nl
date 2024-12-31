@@ -48,8 +48,8 @@ OlivineCafeStrengthSailorText_GotStrength:
 	text "Op zee kan" ; "On the sea, the"
 	line "je alleen op" ; "only thing you can"
 
-	para "je eigen" ; "count on is your"
-	line "rekenen!" ; "own good self!"
+	para "je eigen rekenen!" ; "count on is your"
+	;line "rekenen!" ; "own good self!"
 
 	para "Ik ben zo trots" ; "I'm so proud of my"
 	line "op m'n gespierde" ; "buff bod!"
@@ -61,13 +61,13 @@ OlivineCafeFishingGuruText:
 	line "OLIVINE CAFE is" ; "menu is chock full"
 
 	para "gevuld met hartige" ; "of hearty fare for"
-	line "kost voor" ; "beefy SAILORS!"
-	cont "potige MATROZEN!" ; 
+	line "kost voor potige" ; "beefy SAILORS!"
+	cont "MATROZEN!" ; 
 	done
 
 OlivineCafeSailorText:
 	text "Elke keer als" ; "Whenever I roll"
-	line "ik hier aankom" ; "into this town, I"
+	line "ik hier aanmeer" ; "into this town, I"
 
 	para "bezoek ik het" ; "always visit the"
 	line "OLIVINE CAFE." ; "OLIVINE CAFE."

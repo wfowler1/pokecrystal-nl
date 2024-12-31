@@ -193,13 +193,13 @@ MortyIntroText:
 	line "dalen om zich te" ; "down to appear"
 
 	para "tonen voor een" ; "before a truly"
-	line "echt machtige" ; "powerful trainer."
+	line "echt sterke" ; "powerful trainer."
 	cont "trainer." ; 
 
 	para "Ik geloofde dat" ; "I believed that"
 	line "verhaal, dus heb" ; "tale, so I have"
 
-	para "ik hier stiekem" ; "secretly trained"
+	para "ik in het geheim" ; "secretly trained"
 	line "mijn hele leven" ; "here all my life."
 	cont "getraind." ; 
 
@@ -240,7 +240,7 @@ MortyText_FogBadgeSpeech:
 	text "Met de MISTBADGE" ; "By having FOG-"
 	line "luisteren #MON" ; "BADGE, #MON up"
 
-	para "tot N50" ; "to L50 will obey"
+	para "tot L50" ; "to L50 will obey"
 	line "naar je." ; "you."
 
 	para "En, #MON die" ; "Also, #MON that"
