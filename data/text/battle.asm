@@ -597,12 +597,12 @@ RegainedHealthText:
 
 AttackMissedText:
 	text "<USER>'s"
-	line "aanval mistte!" ; "attack missed!"
+	line "aanval miste!" ; "attack missed!"
 	prompt
 
 AttackMissed2Text:
 	text "<USER>'s"
-	line "aanval mistte!" ; "attack missed!"
+	line "aanval miste!" ; "attack missed!"
 	prompt
 
 CrashedText:
@@ -1045,7 +1045,7 @@ SafeguardProtectText:
 	prompt
 
 MagnitudeText:
-	text "Grootheid @"
+	text "Grootheid @" ; "Magnitude @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt

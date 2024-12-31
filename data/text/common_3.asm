@@ -1197,7 +1197,7 @@ _BallDodgedText::
 	prompt
 
 _BallMissedText::
-	text "Je mistte de" ; "You missed the"
+	text "Je miste de" ; "You missed the"
 	line "#MON!"
 	prompt
 
