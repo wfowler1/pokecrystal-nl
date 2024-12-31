@@ -85,8 +85,8 @@ Route15PPUp:
 	itemball PP_UP
 
 TeacherColetteSeenText:
-	text "Have you forgotten"
-	line "anything?"
+	text "Ben je iets" ; "Have you forgotten"
+	line "vergeten?" ; "anything?"
 	done
 
 TeacherColetteBeatenText:
@@ -94,102 +94,104 @@ TeacherColetteBeatenText:
 	done
 
 TeacherColetteAfterBattleText:
-	text "Before I became a"
-	line "teacher, I used to"
+	text "Voordat ik lerares" ; "Before I became a"
+	line "werd, vergat ik" ; "teacher, I used to"
 
-	para "forget a lot of"
-	line "things."
+	para "vroeger een hoop" ; "forget a lot of"
+	line "dingen." ; "things."
 	done
 
 TeacherHillarySeenText:
-	text "On sunny days, I"
-	line "think that the"
+	text "Op zonnige dagen" ; "On sunny days, I"
+	line "denk ik dat de" ; "think that the"
 
-	para "kids would rather"
-	line "be playing in the"
+	para "kinderen liever" ; "kids would rather"
+	line "op het schoolplein" ; "be playing in the"
 
-	para "schoolyard than"
-	line "studying in class."
+	para "spelen dan in de" ; "schoolyard than"
+	line "klas leren." ; "studying in class."
 	done
 
 TeacherHillaryBeatenText:
-	text "I didn't want to"
-	line "lose…"
+	text "Ik wou niet" ; "I didn't want to"
+	line "verliezen…" ; "lose…"
 	done
 
 TeacherHillaryAfterBattleText:
-	text "Studying is impor-"
-	line "tant, but exercise"
-	cont "is just as vital."
+	text "Leren is belang-" ; "Studying is impor-"
+	line "rijk, maar sport" ; "tant, but exercise"
+	cont "is net zo" ; "is just as vital."
+	cont "essentieel." ;
 	done
 
 SchoolboyKippSeenText:
-	text "Hang on. I have to"
-	line "phone my mom."
+	text "Wacht. Ik moet" ; "Hang on. I have to"
+	line "m'n moeder bellen." ; "phone my mom."
 	done
 
 SchoolboyKippBeatenText:
-	text "Sorry, Mom!"
-	line "I was beaten!"
+	text "Sorry, mam!" ; "Sorry, Mom!"
+	line "Ik ben verslagen!" ; "I was beaten!"
 	done
 
 SchoolboyKippAfterBattleText:
-	text "My mom worries so"
-	line "much about me, I"
+	text "Mijn moeder maakt" ; "My mom worries so"
+	line "zich veel zorgen," ; "much about me, I"
 
-	para "have to phone her"
-	line "all the time."
+	para "ik moet haar vaak" ; "have to phone her"
+	line "bellen." ; "all the time."
 	done
 
 SchoolboyTommySeenText:
-	text "Let's battle."
-	line "I won't lose!"
+	text "Laten we vechten." ; "Let's battle."
+	line "Ik verlies niet!" ; "I won't lose!"
 	done
 
 SchoolboyTommyBeatenText:
-	text "I forgot to do my"
-	line "homework!"
+	text "Ik vergat mijn" ; "I forgot to do my"
+	line "huiswerk te maken!" ; "homework!"
 	done
 
 SchoolboyTommyAfterBattleText:
-	text "Sayonara! I just"
-	line "learned that in my"
-	cont "Japanese class."
+	text "Sayonara! Ik" ; "Sayonara! I just"
+	line "heb dat geleerd" ; "learned that in my"
+	cont "in m'n les Japans." ; "Japanese class."
 	done
 
 SchoolboyJohnnySeenText:
-	text "We're on a field"
-	line "trip to LAVENDER"
+	text "We zijn op" ; "We're on a field"
+	line "excursie naar" ; "trip to LAVENDER"
 
-	para "RADIO TOWER for"
-	line "social studies."
+	para "LAVENDER RADIO-" ; "RADIO TOWER for"
+	line "TOREN voor" ; "social studies."
+	cont "maatschappijleer." ;
 	done
 
 SchoolboyJohnnyBeatenText:
-	text "You're wickedly"
-	line "tough!"
+	text "Je bent waanzinnig" ; "You're wickedly"
+	line "sterk!" ; "tough!"
 	done
 
 SchoolboyJohnnyAfterBattleText:
-	text "I'm tired of walk-"
-	line "ing. I need to"
-	cont "take a break."
+	text "Ik ben moe van" ; "I'm tired of walk-"
+	line "het lopen. Ik" ; "ing. I need to"
+	cont "neem pauze." ; "take a break."
 	done
 
 SchoolboyBillySeenText:
-	text "My favorite class"
-	line "is gym!"
+	text "Mijn favoriete vak" ; "My favorite class"
+	line "is gym!" ; "is gym!"
 	done
 
 SchoolboyBillyBeatenText:
-	text "Oh, no!"
-	line "How could I lose?"
+	text "Oh, nee! Hoe kon" ; "Oh, no!"
+	line "ik verliezen?" ; "How could I lose?"
 	done
 
 SchoolboyBillyAfterBattleText:
-	text "If #MON were a"
-	line "subject at school,"
-	cont "I'd be the best!"
+	text "Als #MON een" ; "If #MON were a"
+	line "schoolvak was, zou" ; "subject at school,"
+	cont "ik de beste zijn!" ; "I'd be the best!"
 	done
 
 Route15SignText:

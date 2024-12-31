@@ -71,97 +71,97 @@ Route12HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_12_HIDDEN_ELIXER
 
 FisherMartinSeenText:
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #MON."
+	text "Geduld is de" ; "Patience is the"
+	line "sleutel tot vissen" ; "key to both fish-"
+	cont "en #MON." ; "ing and #MON."
 	done
 
 FisherMartinBeatenText:
-	text "Gwaaah!"
+	text "Waaah!" ; "Gwaaah!"
 	done
 
 FisherMartinAfterBattleText:
-	text "I'm too impatient"
-	line "for fishing…"
+	text "Ik heb geen geduld" ; "I'm too impatient"
+	line "voor vissen…" ; "for fishing…"
 	done
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "Ik voel me zo" ; "I feel so content,"
+	line "prettig, vissend" ; "fishing while lis-"
+	cont "terwijl ik naar de" ; "tening to some"
+	cont "radio luister." ; "tunes on my radio."
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "Mijn stomme radio" ; "My stupid radio"
+	line "leidde me af!" ; "distracted me!"
 	done
 
 FisherStephenAfterBattleText:
-	text "Have you checked"
-	line "out KANTO's radio"
+	text "Heb je KANTO's" ; "Have you checked"
+	line "radioprogramma's" ; "out KANTO's radio"
 
-	para "programs? We get a"
-	line "good variety here."
+	para "geluisterd? We" ; "programs? We get a"
+	line "hebben veel keuze." ; "good variety here."
 	done
 
 FisherBarneySeenText:
-	text "What's most impor-"
-	line "tant in our every-"
-	cont "day lives?"
+	text "Wat is het belang-" ; "What's most impor-"
+	line "rijkste in onze" ; "tant in our every-"
+	cont "dagelijkse levens?" ; "day lives?"
 	done
 
 FisherBarneyBeatenText:
-	text "The answer is"
-	line "coming up next!"
+	text "Het antwoord komt" ; "The answer is"
+	line "hierna!" ; "coming up next!"
 	done
 
 FisherBarneyAfterBattleText:
-	text "I think electric-"
-	line "ity is the most"
+	text "Ik vind elektri-" ; "I think electric-"
+	line "citeit het belang-" ; "ity is the most"
 
-	para "important thing in"
-	line "our daily lives."
+	para "rijkste in onze" ; "important thing in"
+	line "dagelijkse levens." ; "our daily lives."
 
-	para "If it weren't,"
-	line "people wouldn't"
+	para "Als dat niet zo" ; "If it weren't,"
+	line "was, zou men zich" ; "people wouldn't"
 
-	para "have made such a"
-	line "fuss when the"
+	para "niet zo opwinden" ; "have made such a"
+	line "toen de ENERGIE-" ; "fuss when the"
 
-	para "POWER PLANT went"
-	line "out of commission."
+	para "CENTRALE buiten" ; "POWER PLANT went"
+	line "gebruik was." ; "out of commission."
 	done
 
 FisherKyleSeenText:
-	text "Do you remember?"
+	text "Weet je nog?" ; "Do you remember?"
 	done
 
 FisherKyleBeatenText:
-	text "You do remember?"
+	text "Je weet het nog?" ; "You do remember?"
 	done
 
 FisherKyleAfterBattleText:
-	text "The tug you feel"
-	line "on the ROD when"
+	text "De ruk die je aan" ; "The tug you feel"
+	line "de hengel voelt" ; "on the ROD when"
 
-	para "you hook a #-"
-	line "MON…"
+	para "als je een #MON" ; "you hook a #-"
+	line "aan de lijn hebt…" ; "MON…"
 
-	para "That's the best"
-	line "feeling ever for"
-	cont "an angler like me."
+	para "Dat is het beste" ; "That's the best"
+	line "gevoel ooit voor" ; "feeling ever for"
+	cont "een visser als ik." ; "an angler like me."
 	done
 
 Route12SignText:
 	text "ROUTE 12"
 
-	para "NORTH TO LAVENDER"
-	line "TOWN"
+	para "NOORDWAARTS NAAR" ; "NORTH TO LAVENDER"
+	line "LAVENDER TOWN" ; "TOWN"
 	done
 
 FishingSpotSignText:
-	text "FISHING SPOT"
+	text "VISPLEK" ; "FISHING SPOT"
 	done
 
 Route12_MapEvents:

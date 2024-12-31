@@ -44,8 +44,8 @@ SailorKentBeatenText:
 	done
 
 SailorKentAfterBattleText:
-	text "Over ziek ge-" ; "Speaking of sick,"
-	line "sproken, ik heb" ; "I've heard there's"
+	text "Over ziek zijn" ; "Speaking of sick,"
+	line "gesproken, ik heb" ; "I've heard there's"
 
 	para "gehoord dat er" ; "a good PHARMACY in"
 	line "een goede APOTHEEK" ; "CIANWOOD."

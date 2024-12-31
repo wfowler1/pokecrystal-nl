@@ -192,7 +192,7 @@ BurnedTowerB1FEusineMovement1:
 
 BurnedTowerB1FEusineText:
 	text "EUSINE: Ik groef" ; "EUSINE: I dug a"
-	line "hier ook een gat…" ; "hole here, too…"
+	line "hier maar een gat…" ; "hole here, too…"
 
 	para "Ik stond perplex!" ; "I was shocked!"
 

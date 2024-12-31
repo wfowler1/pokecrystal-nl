@@ -50,64 +50,64 @@ CinnabarGymSign:
 	jumptext CinnabarGymSignText
 
 SwimmerfNicoleSeenText:
-	text "I feel so much"
-	line "lighter in water."
+	text "Ik voel me zo veel" ; "I feel so much"
+	line "lichter in water." ; "lighter in water."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Oh, no!"
+	text "Oh nee!" ; "Oh, no!"
 	done
 
 SwimmerfNicoleAfterBattleText:
-	text "Swimming exercises"
-	line "your full body."
+	text "Zwemmen gebruikt" ; "Swimming exercises"
+	line "je hele lichaam." ; "your full body."
 
-	para "It's really good"
-	line "for you."
+	para "Het is heel goed" ; "It's really good"
+	line "voor je." ; "for you."
 	done
 
 SwimmerfLoriSeenText:
-	text "What an impressive"
-	line "collection of GYM"
+	text "Wat een indruk-" ; "What an impressive"
+	line "wekkende collectie" ; "collection of GYM"
 
-	para "BADGES. We should"
-	line "battle!"
+	para "aan GYMBADGES. We" ; "BADGES. We should"
+	line "moeten vechten!" ; "battle!"
 	done
 
 SwimmerfLoriBeatenText:
-	text "No!"
+	text "Nee!" ; "No!"
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF is no longer"
-	line "the only HM move"
-	cont "you use in water."
+	text "SURF is niet meer" ; "SURF is no longer"
+	line "de enige VM die je" ; "the only HM move"
+	cont "in water gebruikt." ; "you use in water."
 	done
 
 SwimmermCameronSeenText:
-	text "I guess it's im-"
-	line "possible to swim"
+	text "Volgens mij is het" ; "I guess it's im-"
+	line "onmogelijk om de" ; "possible to swim"
 
-	para "all the way to"
-	line "JOHTO."
+	para "hele weg naar" ; "all the way to"
+	line "JOHTO te zwemmen." ; "JOHTO."
 	done
 
 SwimmermCameronBeatenText:
-	text "Aiyah!"
+	text "Aiiii!" ; "Aiyah!"
 	done
 
 SwimmermCameronAfterBattleText:
-	text "Besides the sea, I"
-	line "can also swim in"
-	cont "ponds and rivers."
+	text "Behalve de zee kan" ; "Besides the sea, I"
+	line "ik ook in meren en" ; "can also swim in"
+	cont "rivieren zwemmen." ; "ponds and rivers."
 	done
 
 CinnabarGymSignText:
-	text "What does this"
-	line "sign say?"
+	text "Wat staat er op" ; "What does this"
+	line "dit bord?" ; "sign say?"
 
-	para "CINNABAR GYM"
-	line "LEADER: BLAINE"
+	para "CINNABAR-GYMLEIDER"
+	line "BLAINE" ; "LEADER: BLAINE"
 	done
 
 Route20_MapEvents:

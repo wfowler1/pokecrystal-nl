@@ -254,7 +254,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "De TIN TOREN" ; "The TIN TOWER"
+	text "De TINTOREN" ; "The TIN TOWER"
 	line "is een toren met" ; "ahead is a nine-"
 
 	para "negen verdiep-" ; "tier tower of"

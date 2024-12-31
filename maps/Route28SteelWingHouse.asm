@@ -42,26 +42,28 @@ CelebrityHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CelebrityText1:
-	text "Oh, dear."
-	line "You've found me."
+	text "Lieve help. Je" ; "Oh, dear."
+	line "hebt me gevonden." ; "You've found me."
 
-	para "Please don't tell"
-	line "anyone about me."
+	para "Vertel niemand" ; "Please don't tell"
+	line "over me." ; "anyone about me."
 
-	para "I'll give you this"
-	line "for keeping my"
-	cont "secret. Please?"
+	para "Ik geef je dit om" ; "I'll give you this"
+	line "mijn geheim te be-" ; "for keeping my"
+	cont "waren. Toe?" ; "secret. Please?"
 	done
 
 CelebrityText2:
-	text "It's tough being a"
-	line "top celebrity."
+	text "Het is lastig om" ; "It's tough being a"
+	line "beroemd te zijn." ; "top celebrity."
 
-	para "Everywhere I go,"
-	line "people chase me."
+	para "Overal waar ik ben" ; "Everywhere I go,"
+	line "gaan mensen me" ; "people chase me."
+	cont "achterna." ;
 
-	para "I just want to be"
-	line "left alone…"
+	para "Ik wil gewoon met" ; "I just want to be"
+	line "rust gelaten" ; "left alone…"
+	cont "worden…" ;
 	done
 
 CelebritysFearowText:

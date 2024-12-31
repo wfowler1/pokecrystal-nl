@@ -23,24 +23,27 @@ Route19FuchsiaGateOfficerScript:
 	end
 
 Route19FuchsiaGateOfficerText:
-	text "CINNABAR's volcano"
-	line "erupted."
+	text "De vulkaan van" ; "CINNABAR's volcano"
+	line "CINNABAR is uit-" ; "erupted."
+	cont "gebarsten." ;
 
-	para "It hurled boulders"
-	line "that cut off ROUTE"
-	cont "19 indefinitely."
+	para "Er slingerden" ; "It hurled boulders"
+	line "rotsen die ROUTE" ; "that cut off ROUTE"
+	cont "19 voor onbepaalde" ; "19 indefinitely."
+	cont "tijd blokkeren." ;
 
-	para "I wonder if the"
-	line "people of CINNABAR"
-	cont "are safe…"
+	para "Ik vraag me af of" ; "I wonder if the"
+	line "de mensen van" ; "people of CINNABAR"
+	cont "CINNABAR veilig" ; "are safe…"
+	cont "zijn…" ;
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No CINNABAR citi-"
-	line "zens were injured"
+	text "CINNABAR-inwoners" ; "No CINNABAR citi-"
+	line "bleven ongedeerd" ; "zens were injured"
 
-	para "by the eruption."
-	line "That's great!"
+	para "bij de uitbarst-" ; "by the eruption."
+	line "ing. Dat is fijn!" ; "That's great!"
 	done
 
 Route19FuchsiaGate_MapEvents:

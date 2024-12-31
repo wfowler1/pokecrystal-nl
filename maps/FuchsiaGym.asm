@@ -236,146 +236,148 @@ Movement_NinjaSpin:
 JanineText_DisappointYou:
 	text "Fufufufu…"
 
-	para "I'm sorry to dis-"
-	line "appoint you…"
+	para "Sorry om je teleur" ; "I'm sorry to dis-"
+	line "te stellen…" ; "appoint you…"
 
-	para "I'm only joking!"
+	para "Grapje!" ; "I'm only joking!"
 
-	para "I'm the real deal!"
+	para "Ik ben de echte!" ; "I'm the real deal!"
 
-	para "JANINE of FUCHSIA"
-	line "GYM, that's me!"
+	para "JANINE van FUCHSIA" ; "JANINE of FUCHSIA"
+	line "GYM, dat ben ik!" ; "GYM, that's me!"
 	done
 
 JanineText_ToughOne:
-	text "JANINE: You're a"
-	line "tough one. You"
-	cont "definitely won…"
+	text "JANINE: Je bent" ; "JANINE: You're a"
+	line "een taaie. Je hebt" ; "tough one. You"
+	cont "echt gewonnen…" ; "definitely won…"
 
-	para "Here's SOULBADGE."
-	line "Take it."
+	para "Hier de ZIELBADGE." ; "Here's SOULBADGE."
+	line "Neem maar." ; "Take it."
 	done
 
 Text_ReceivedSoulBadge:
-	text "<PLAYER> received"
-	line "SOULBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "ZIELBADGE." ; "SOULBADGE."
 	done
 
 JanineText_ToxicSpeech:
-	text "JANINE: You're so"
-	line "tough! I have a"
-	cont "special gift!"
+	text "JANINE: Je bent" ; "JANINE: You're so"
+	line "zo sterk! Ik heb" ; "tough! I have a"
+	cont "iets speciaals!" ; "special gift!"
 
-	para "It's TOXIC, a pow-"
-	line "erful poison that"
+	para "Het is VERGIFTIG," ; "It's TOXIC, a pow-"
+	line "een krachtig gif" ; "erful poison that"
 
-	para "steadily saps the"
-	line "victim's HP."
+	para "dat gestaag de" ; "steadily saps the"
+	line "LP afbreekt." ; "victim's HP."
 	done
 
 JanineText_ApplyMyself:
-	text "JANINE: I'm going"
-	line "to really apply"
+	text "JANINE: Ik ga" ; "JANINE: I'm going"
+	line "mijn eigen" ; "to really apply"
 
-	para "myself and improve"
-	line "my skills."
+	para "vaardigheden echt" ; "myself and improve"
+	line "verbeteren." ; "my skills."
 
-	para "I want to become"
-	line "better than both"
-	cont "Father and you!"
+	para "Ik wil beter" ; "I want to become"
+	line "worden dan mijn" ; "better than both"
+	cont "vader en jij!" ; "Father and you!"
 	done
 
 LassAliceBeforeText:
 	text "Fufufu!"
 
-	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	para "Ik ben JANINE, de" ; "I'm JANINE, the"
+	line "GYMLEIDER!" ; "GYM LEADER!"
 
-	para "No, I'm not!"
-	line "Gotcha, sucker!"
+	para "Nee, toch niet!" ; "No, I'm not!"
+	line "Hebbes, sukkel!" ; "Gotcha, sucker!"
 	done
 
 LassAliceBeatenText:
-	text "I had you fooled…"
+	text "Ik nam je in de" ; "I had you fooled…"
+	line "maling…" ;
 	done
 
 LassAliceAfterText:
-	text "How will you dis-"
-	line "tinguish our real"
-	cont "LEADER?"
+	text "Hoe zal je onze" ; "How will you dis-"
+	line "echte LEIDER" ; "tinguish our real"
+	cont "herkennen?" ; "LEADER?"
 	done
 
 LassLindaBeforeText:
-	text "Fooled you!"
+	text "Gefopt!" ; "Fooled you!"
 	line "Hahaha!"
 	done
 
 LassLindaBeatenText:
-	text "Ooh… I lost…"
-	line "You're not weak…"
+	text "Ooh… Ik verloor…" ; "Ooh… I lost…"
+	line "Je bent niet zwak…" ; "You're not weak…"
 	done
 
 LassLindaAfterText:
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "Nou? Was mijn ver-" ; "Well? Wasn't my"
+	line "momming niet" ; "disguise perfect?"
+	cont "perfect?" ;
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm JANINE!"
+	text "Ik ben JANINE!" ; "I'm JANINE!"
 
-	para "How did you know I"
-	line "was real?"
+	para "Hoe wist je dat" ; "How did you know I"
+	line "ik echt was?" ; "was real?"
 
-	para "Let's battle!"
+	para "Laten we vechten!" ; "Let's battle!"
 	done
 
 PicnickerCindyBeatenText:
-	text "Darn it!"
-	line "I wanted to win!"
+	text "Verdorie!" ; "Darn it!"
+	line "Ik wou winnen!" ; "I wanted to win!"
 	done
 
 PicnickerCindyAfterText:
-	text "You must be"
-	line "getting tired."
+	text "Je bent vast moe" ; "You must be"
+	line "inmiddels." ; "getting tired."
 	done
 
 CamperBarryBeforeText:
 	text "Wahahaha!"
 
-	para "You betcha!"
-	line "I'm JANINE!"
+	para "Zeker!" ; "You betcha!"
+	line "Ik ben JANINE!" ; "I'm JANINE!"
 	done
 
 CamperBarryBeatenText:
-	text "My disguise was"
-	line "right on! Dang!"
+	text "Mijn vermomming" ; "My disguise was"
+	line "was goed! Balen!" ; "right on! Dang!"
 	done
 
 CamperBarryAfterText:
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Hé, jij. Was mijn" ; "Hey, you. Was my"
+	line "kostuum schattig" ; "disguise cute or"
+	cont "of niet?" ; "what, huh?"
 	done
 
 FuchsiaGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "Yo, KAMPIOEN in 't" ; "Yo, CHAMP in"
+	line "verschiet!" ; "making!"
 
-	para "Whoops! Take a"
-	line "good look around"
+	para "Oeps! Kijk goed" ; "Whoops! Take a"
+	line "rond. De trainers" ; "good look around"
 
-	para "you. The trainers"
-	line "all look like the"
-	cont "LEADER, JANINE."
+	para "lijken allemaal" ; "you. The trainers"
+	line "op de LEIDER," ; "all look like the"
+	cont "JANINE." ; "LEADER, JANINE."
 
-	para "Which of them is"
-	line "the real JANINE?"
+	para "Wie van hen is" ; "Which of them is"
+	line "de echte JANINE?" ; "the real JANINE?"
 	done
 
 FuchsiaGymGuideWinText:
-	text "That was a great"
-	line "battle, trainer"
-	cont "from JOHTO!"
+	text "Dat was een goed" ; "That was a great"
+	line "gevecht, trainer" ; "battle, trainer"
+	cont "uit JOHTO!" ; "from JOHTO!"
 	done
 
 FuchsiaGym_MapEvents:

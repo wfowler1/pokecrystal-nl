@@ -187,7 +187,7 @@ RageCandyBarMerchantSoldOutText:
 
 MahoganyTownGrampsText:
 	text "Ga je de GYARADOS-" ; "Are you off to see"
-	line "woede bekijken" ; "the GYARADOS ram-"
+	line "stampij bekijken" ; "the GYARADOS ram-"
 	cont "bij het MEER?" ; "page at the LAKE?"
 	done
 
@@ -212,8 +212,8 @@ MahoganyTownFisherText:
 	para "Ga naar het noord-" ; "You should head"
 	line "en en bekijk het" ; "north and check"
 
-	para "MEER VAN RAZERNIJ" ; "out LAKE OF RAGE"
-	line "nu." ; "right now."
+	para "MEER VAN RAZERNIJ." ; "out LAKE OF RAGE"
+	;line "nu." ; "right now."
 	done
 
 MahoganyTownLassText:

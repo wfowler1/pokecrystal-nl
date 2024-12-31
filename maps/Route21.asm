@@ -42,49 +42,51 @@ TrainerFisherArnold:
 	end
 
 SwimmermSethSeenText:
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "Hoi daar! Ik" ; "Land ho! Gotta"
+	line "moet doorgaan!" ; "keep going!"
 	done
 
 SwimmermSethBeatenText:
-	text "Glug…"
+	text "Kloek…" ; "Glug…"
 	done
 
 SwimmermSethAfterBattleText:
-	text "This arrogant guy"
-	line "was at CINNABAR's"
-	cont "volcano."
+	text "Er was een arro-" ; "This arrogant guy"
+	line "gante gast bij de" ; "was at CINNABAR's"
+	cont "vulkaan van" ; "volcano."
+	cont "CINNABAR." ;
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "Als ik win, moet" ; "If I win, you have"
+	line "je me helpen met" ; "to help me with my"
+	cont "mijn zonnebrand!" ; "suntan lotion!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "Ik ben bang te" ; "I'm worried about"
+	line "verbranden…" ; "sunburn…"
 	done
 
 SwimmerfNikkiAfterBattleText:
-	text "I have to watch"
-	line "out for blemishes"
-	cont "caused by the sun."
+	text "Ik moet oppassen" ; "I have to watch"
+	line "voor vlekjes door" ; "out for blemishes"
+	cont "de zon." ; "caused by the sun."
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "Ik ben het vissen" ; "I'm bored by fish-"
+	line "zat. Laten we" ; "ing. Let's battle!"
+	cont "vechten!" ;
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "Totaal gefaald…" ; "Utter failure…"
 	done
 
 FisherArnoldAfterBattleText:
-	text "I'll just go back"
-	line "to fishing…"
+	text "Ik ga wel weer" ; "I'll just go back"
+	line "vissen…" ; "to fishing…"
 	done
 
 Route21_MapEvents:

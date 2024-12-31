@@ -13,11 +13,11 @@ Route16FuchsiaSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 Route16FuchsiaSpeechHouseSuperNerdText:
-	text "If you cruise down"
-	line "CYCLING ROAD, you"
+	text "Als je 't FIETSPAD" ; "If you cruise down"
+	line "afrijdt, kom je" ; "CYCLING ROAD, you"
 
-	para "will end up in"
-	line "FUCHSIA CITY."
+	para "in FUCHSIA CITY" ; "will end up in"
+	line "terecht." ; "FUCHSIA CITY."
 	done
 
 Route16FuchsiaSpeechHouse_MapEvents:

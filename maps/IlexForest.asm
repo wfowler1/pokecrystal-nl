@@ -795,7 +795,7 @@ Text_CharcoalMasterIntro:
 	done
 
 Text_CharcoalMasterOutro:
-	text "Dit is de SNIJDEN-" ; "That's the CUT HM."
+	text "Dit is de SNIJD-" ; "That's the CUT HM."
 	line "VM. Hiermee kan" ; "Teach that to a"
 
 	para "een #MON kleine" ; "#MON to clear"

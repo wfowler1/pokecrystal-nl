@@ -47,11 +47,11 @@ OlivineLighthouse3FEther:
 
 BirdKeeperTheoSeenText:
 	text "Waarom ben je" ; "Why are you here?"
-	line "hier? Ga je 't" ; "Are you just going"
+	line "hier? Ga je alleen" ; "Are you just going"
 
-	para "enkel aangapen?" ; "to gawk? I suggest"
-	line "Ik stel voor" ; "that you leave!"
-	cont "dat je gaat!" ; 
+	para "maar wat aangapen?" ; "to gawk? I suggest"
+	line "Ik stel voor dat" ; "that you leave!"
+	cont "je gaat!" ; 
 	done
 
 BirdKeeperTheoBeatenText:

@@ -64,43 +64,43 @@ Route11HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_11_HIDDEN_REVIVE
 
 YoungsterOwenSeenText:
-	text "There's no cheat-"
-	line "ing in #MON."
+	text "Je kan niet vals-" ; "There's no cheat-"
+	line "spelen in #MON." ; "ing in #MON."
 
-	para "Let's keep it fair"
-	line "and square!"
+	para "Laten we het" ; "Let's keep it fair"
+	line "eerlijk houden!" ; "and square!"
 	done
 
 YoungsterOwenBeatenText:
-	text "Huh? How did this"
-	line "happen?"
+	text "Huh? Hoe kon" ; "Huh? How did this"
+	line "dit gebeuren?" ; "happen?"
 	done
 
 YoungsterOwenAfterBattleText:
-	text "I fought fair and"
-	line "square with honor."
+	text "Ik vocht eerlijk" ; "I fought fair and"
+	line "en met trots." ; "square with honor."
 
-	para "I don't regret"
-	line "this at all."
+	para "Ik heb er geen" ; "I don't regret"
+	line "spijt van." ; "this at all."
 	done
 
 YoungsterJasonSeenText:
-	text "It itches and"
-	line "tickles a bit when"
+	text "Het kietelt een" ; "It itches and"
+	line "beetje als ik" ; "tickles a bit when"
 
-	para "I wear shorts in"
-	line "the grass."
+	para "een korte broek" ; "I wear shorts in"
+	line "in het gras draag." ; "the grass."
 	done
 
 YoungsterJasonBeatenText:
-	text "Aiyaaah!"
-	line "I got stomped!"
+	text "Aiiiiiii!" ; "Aiyaaah!"
+	line "Ik werd vertrapt!" ; "I got stomped!"
 	done
 
 YoungsterJasonAfterBattleText:
-	text "I'm going to catch"
-	line "more #MON in"
-	cont "the grass."
+	text "Ik ga meer #MON" ; "I'm going to catch"
+	line "in het gras" ; "more #MON in"
+	cont "vangen." ; "the grass."
 	done
 
 PsychicHermanSeenText:
@@ -114,29 +114,30 @@ PsychicHermanBeatenText:
 PsychicHermanAfterBattleText:
 	text "…"
 
-	para "I lost while I had"
-	line "my eyes closed…"
+	para "Ik verloor terwijl" ; "I lost while I had"
+	line "ik mijn ogen dicht" ; "my eyes closed…"
+	cont "had…" ;
 	done
 
 PsychicFidelSeenText:
-	text "I can see it…"
+	text "Ik kan het zien…" ; "I can see it…"
 
-	para "Everything to see"
-	line "about you…"
+	para "Alles over jou" ; "Everything to see"
+	line "zien…" ; "about you…"
 	done
 
 PsychicFidelBeatenText:
-	text "I couldn't foresee"
-	line "your power…"
+	text "Ik kon je kracht" ; "I couldn't foresee"
+	line "niet voorzien…" ; "your power…"
 	done
 
 PsychicFidelAfterBattleText:
-	text "Strength in con-"
-	line "viction…"
+	text "Kracht in over-" ; "Strength in con-"
+	line "tuiging…" ; "viction…"
 
-	para "You're strong be-"
-	line "cause you believe"
-	cont "in your #MON."
+	para "Je bent sterk" ; "You're strong be-"
+	line "omdat je in je" ; "cause you believe"
+	cont "#MON gelooft." ; "in your #MON."
 	done
 
 Route11SignText:

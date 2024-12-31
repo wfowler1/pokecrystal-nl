@@ -213,177 +213,177 @@ PowerPlantOfficer1ReturnToPostMovement:
 	step_end
 
 PowerPlantOfficer1AThiefBrokeInText:
-	text "A thief broke into"
-	line "the POWER PLANT…"
+	text "Een dief heeft bij" ; "A thief broke into"
+	line "de ENERGIECENTRALE" ; "the POWER PLANT…"
 
-	para "What is the world"
-	line "coming to?"
+	para "ingebroken… Waarom" ; "What is the world"
+	line "zou je dat doen?" ; "coming to?"
 	done
 
 PowerPlantOfficer1CeruleanShadyCharacterText:
-	text "I just got word"
-	line "from CERULEAN."
+	text "Ik heb net gehoord" ; "I just got word"
+	line "van CERULEAN." ; "from CERULEAN."
 
-	para "It appears that a"
-	line "shady character"
+	para "Het lijkt er op" ; "It appears that a"
+	line "dat er hier een" ; "shady character"
 
-	para "has been loitering"
-	line "around."
+	para "schimmig figuur" ; "has been loitering"
+	line "rondhing." ; "around."
 	done
 
 PowerPlantOfficer1CouldIAskForYourCooperationText:
-	text "Could I ask for"
-	line "your cooperation?"
+	text "Mag ik je vragen" ; "Could I ask for"
+	line "om je medewerking?" ; "your cooperation?"
 	done
 
 PowerPlantOfficer1HaveToBeefUpSecurityText:
-	text "We'll have to beef"
-	line "up our security"
-	cont "presence."
+	text "We moeten onze" ; "We'll have to beef"
+	line "veiligheidsmaat-" ; "up our security"
+	cont "regelen opkrikken." ; "presence."
 	done
 
 PowerPlantGymGuide1SomeoneStoleAPartText:
-	text "Someone made off"
-	line "with a part that's"
+	text "Iemand ging er met" ; "Someone made off"
+	line "een essentieel" ; with a part that's"
 
-	para "essential for the"
-	line "generator."
+	para "onderdeel van de" ; "essential for the"
+	line "generator vandoor." ; "generator."
 
-	para "Without it, the"
-	line "new generator's"
-	cont "useless!"
+	para "Zonder dit deel" ; "Without it, the"
+	line "is de nieuwe gene-" ; "new generator's"
+	cont "rator nutteloos!" ; "useless!"
 	done
 
 PowerPlantGymGuide1GeneratorUpAndRunningText:
-	text "The generator's up"
-	line "and running. It's"
+	text "De generator werkt" ; "The generator's up"
+	line "weer en produceert" ; "and running. It's"
 
-	para "making electricity"
-	line "to spare."
+	para "elektriciteit in" ; "making electricity"
+	line "overvloed." ; "to spare."
 	done
 
 PowerPlantGymGuide2PowerPlantUpAndRunningText:
-	text "This POWER PLANT"
-	line "had been abandoned"
-	cont "in the past."
+	text "Vroeger is deze" ; "This POWER PLANT"
+	line "ENERGIECENTRALE" ; "had been abandoned"
+	cont "stopgezet." ; "in the past."
 
-	para "We got it back up"
-	line "and running to"
+	para "Om de ZWEEFTREIN" ; "We got it back up"
+	line "van energie te" ; "and running to"
 
-	para "provide power to"
-	line "the MAGNET TRAIN."
+	para "voorzien, is ie" ; "provide power to"
+	line "weer opgestart." ; "the MAGNET TRAIN."
 	done
 
 PowerPlantGymGuide2GeneratorIsRunningAgainText:
-	text "The generator's"
-	line "running again!"
+	text "De generator" ; "The generator's"
+	line "doet het weer!" ; "running again!"
 	done
 
 PowerPlantOfficer2ManagerHasBeenSadAndFuriousText:
-	text "The POWER PLANT's"
-	line "MANAGER is up"
-	cont "ahead."
+	text "De MANAGER van de" ; "The POWER PLANT's"
+	line "ENERGIECENTRALE is" ; "MANAGER is up"
+	cont "verderop." ; "ahead."
 
-	para "But since someone"
-	line "wrecked the gener-"
-	cont "ator, he's been"
-	cont "both sad and"
-	cont "furious…"
+	para "Hij is boos en" ; "But since someone"
+	line "verdrietig omdat" ; "wrecked the gener-"
+	cont "iemand de" ; "ator, he's been"
+	cont "generator heeft" ; "both sad and"
+	cont "vernield…" ; "furious…"
 	done
 
 PowerPlantOfficer2ManagerHasBeenCheerfulText:
-	text "Since the gener-"
-	line "ator's been fixed,"
+	text "Sinds de generator" ; "Since the gener-"
+	line "weer werkt, is de" ; "ator's been fixed,"
 
-	para "the MANAGER has"
-	line "been cheerful."
+	para "MANAGER ook weer" ; "the MANAGER has"
+	line "in een blije bui." ; "been cheerful."
 	done
 
 PowerPlantGymGuide4MagnetTrainConsumesElectricityText:
-	text "The MAGNET TRAIN"
-	line "consumes a lot of"
-	cont "electricity."
+	text "De ZWEEFTREIN" ; "The MAGNET TRAIN"
+	line "heeft veel elek-" ; "consumes a lot of"
+	cont "triciteit nodig." ; "electricity."
 
-	para "It can't move if"
-	line "the new generator"
-	cont "isn't operating."
+	para "Zonder de nieuwe" ; "It can't move if"
+	line "generator beweegt" ; "the new generator"
+	cont "ie niet." ; "isn't operating."
 	done
 
 PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
-	text "All right! We can"
-	line "finally get the"
+	text "Oké dan! We" ; "All right! We can"
+	line "kunnen de ZWEEF-" ; "finally get the"
 
-	para "MAGNET TRAIN"
-	line "running again."
+	para "TREIN weer aan" ; "MAGNET TRAIN"
+	line "de praat krijgen." ; "running again."
 	done
 
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
-	text "MANAGER: I, I, I'm"
-	line "ready to blast"
-	cont "someone!"
+	text "MANAGER: Ik, ik," ; "MANAGER: I, I, I'm"
+	line "ik kan wel iemand" ; "ready to blast"
+	cont "opblazen!" ; "someone!"
 
-	para "Who would dare"
-	line "ruin my generator?"
+	para "Wie ruïneerde mijn" ; "Who would dare"
+	line "generator?" ; "ruin my generator?"
 
-	para "I spent so much"
-	line "time on it!"
+	para "Ik ben er zo lang" ; "I spent so much"
+	line "mee bezig geweest!" ; "time on it!"
 
-	para "If I catch him,"
-	line "he's going to get"
+	para "Als ik hem in z'n" ; "If I catch him,"
+	line "kraag vat, krijgt" ; "he's going to get"
 
-	para "a taste of my ZAP"
-	line "CANNON!"
+	para "ie m'n ZAPKANON" ; "a taste of my ZAP"
+	line "voor zijn kiezen!" ; "CANNON!"
 	done
 
 PowerPlantManagerIWontForgiveCulpritText:
-	text "MANAGER: I won't"
-	line "forgive him!"
+	text "MANAGER: Ik ver-" ; "MANAGER: I won't"
+	line "geef hem nooit!" ;  "forgive him!"
 
-	para "The culprit can"
-	line "cry and apologize,"
+	para "De dader krijgt" ; "The culprit can"
+	line "er van langs, ook" ; "cry and apologize,"
 
-	para "but I'll still"
-	line "hammer him!"
+	para "al verontschuldigt" ; "but I'll still"
+	line "hij zich nog zo." ; "hammer him!"
 
-	para "Gahahahah!"
+	para "Gahahahah!" ; "Gahahahah!"
 	done
 
 PowerPlantManagerThatsThePartText:
-	text "MANAGER: Ah! Yeah!"
+	text "MANAGER: Ah! Ja!" ; "MANAGER: Ah! Yeah!"
 
-	para "That's the missing"
-	line "PART from my be-"
-	cont "loved generator!"
-	cont "You found it?"
+	para "Dat DEEL miste" ; "That's the missing"
+	line "van mijn geliefde" ; "PART from my be-"
+	cont "generator. Je hebt" ; "loved generator!"
+	cont "het gevonden?" ; "You found it?"
 	done
 
 PowerPlantManagerTakeThisTMText:
-	text "Wahah! Thanks!"
+	text "Wahah! Dank je!" ; "Wahah! Thanks!"
 
-	para "Here! Take this TM"
-	line "as a reward!"
+	para "Hier! Een TM" ; "Here! Take this TM"
+	line "als beloning!" ; "as a reward!"
 	done
 
 PowerPlantManagerTM07IsZapCannonText:
-	text "MANAGER: TM07 is"
-	line "my ZAP CANNON."
+	text "MANAGER: TM07 is" ; "MANAGER: TM07 is"
+	line "mijn ZAPKANON." ; "my ZAP CANNON."
 
-	para "It's a powerful"
-	line "technique!"
+	para "Een hele sterke" ; "It's a powerful"
+	line "techniek!" ; "technique!"
 
-	para "It's not what any-"
-	line "one would consider"
+	para "Niet erg accuraat," ; "It's not what any-"
+	line "maar hij komt" ; "one would consider"
 
-	para "accurate, but it"
-	line "packs a wallop!"
+	para "zeker hard aan" ; "accurate, but it"
+	line "als ie raakt!" ; "packs a wallop!"
 	done
 
 PowerPlantManagerMyBelovedGeneratorText:
-	text "MANAGER: My be-"
-	line "loved generator!"
+	text "MANAGER: Mijn ge-" ; "MANAGER: My be-"
+	line "liefde generator!" ; "loved generator!"
 
-	para "Keep pumping the"
-	line "electricity out!"
+	para "Blijf de elektri-" ; "Keep pumping the"
+	line "citeit opwekken!" ; "electricity out!"
 	done
 
 PowerPlant_MapEvents:

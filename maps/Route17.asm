@@ -66,68 +66,68 @@ Route17HiddenMaxElixer:
 	hiddenitem MAX_ELIXER, EVENT_ROUTE_17_HIDDEN_MAX_ELIXER
 
 BikerRileySeenText:
-	text "Hey, you! You're"
-	line "from JOHTO, huh?"
+	text "Hé, jij! Je komt" ; "Hey, you! You're"
+	line "uit JOHTO, hè?" ; "from JOHTO, huh?"
 	done
 
 BikerRileyBeatenText:
-	text "Whoa, you kick!"
+	text "Wow, je beukt!" ; "Whoa, you kick!"
 	done
 
 BikerRileyAfterBattleText:
-	text "Don't get cocky,"
-	line "you JOHTO punk!"
+	text "Niet arrogant wor-" ; "Don't get cocky,"
+	line "den, JOHTO-boef!" ; "you JOHTO punk!"
 	done
 
 BikerJoelSeenText:
-	text "Wow. That's a cool"
-	line "BICYCLE!"
+	text "Wow. Wat een" ; "Wow. That's a cool"
+	line "coole FIETS!" ; "BICYCLE!"
 	done
 
 BikerJoelBeatenText:
-	text "But you don't just"
-	line "look cool…"
+	text "Maar je lijkt niet" ; "But you don't just"
+	line "alleen cool…" ; "look cool…"
 	done
 
 BikerJoelAfterBattleText:
-	text "I look cool, but"
-	line "I'm weak, so I'm"
-	cont "not really cool."
+	text "Ik lijk cool, maar" ; "I look cool, but"
+	line "ik ben zwak, dus" ; "I'm weak, so I'm"
+	cont "ik ben niet echt" ; "not really cool."
 
-	para "I have to train"
-	line "harder…"
+	para "cool. Ik moet" ; "I have to train"
+	line "harder trainen…" ; "harder…"
 	done
 
 BikerGlennSeenText:
-	text "Hey! Want to have"
-	line "a speed battle?"
+	text "Hé! Wil je een" ; "Hey! Want to have"
+	line "snel gevecht?" ; "a speed battle?"
 	done
 
 BikerGlennBeatenText:
-	text "Yikes! You've got"
-	line "awesome torque!"
+	text "Oef! Je hebt" ; "Yikes! You've got"
+	line "een goeie draai!" ; "awesome torque!"
 	done
 
 BikerGlennAfterBattleText:
-	text "Hands-free riding"
-	line "is considered cool"
-	cont "on CYCLING ROAD."
+	text "Fietsen zonder" ; "Hands-free riding"
+	line "handen is cool" ; "is considered cool"
+	cont "op het FIETSPAD." ; "on CYCLING ROAD."
 	done
 
 BikerCharlesSeenText:
-	text "We're fearless"
-	line "highway stars!"
+	text "We zijn onbevree-" ; "We're fearless"
+	line "sde snelweghelden!" ; "highway stars!"
 	done
 
 BikerCharlesBeatenText:
-	text "Arrrgh! Crash and"
-	line "burn!"
+	text "Arrrgh!" ; "Arrrgh! Crash and"
+	line "Neergestort!" ; "burn!"
 	done
 
 BikerCharlesAfterBattleText:
-	text "Reckless driving"
-	line "causes accidents!"
-	cont "Take it easy!"
+	text "Roekeloos rijden" ; "Reckless driving"
+	line "veroorzaakt onge-" ; "causes accidents!"
+	cont "lukken! Rustig!" ; "Take it easy!"
 	done
 
 Route17_MapEvents:

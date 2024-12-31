@@ -51,75 +51,75 @@ FuchsiaCityFruitTree:
 	fruittree FRUITTREE_FUCHSIA_CITY
 
 FuchsiaCityYoungsterText:
-	text "One of the ELITE"
-	line "FOUR used to be"
+	text "Een van de ELITE" ; "One of the ELITE"
+	line "FOUR was vroeger" ; "FOUR used to be"
 
-	para "the LEADER of"
+	para "de LEIDER van" ; "the LEADER of"
 	line "FUCHSIA's GYM."
 	done
 
 FuchsiaCityPokefanMText:
-	text "KOGA's daughter"
-	line "succeeded him as"
+	text "KOGA's dochter" ; "KOGA's daughter"
+	line "volgde hem op als" ; "succeeded him as"
 
-	para "the GYM LEADER"
-	line "after he joined"
-	cont "the ELITE FOUR."
+	para "de GYMLEIDER nadat" ; "the GYM LEADER"
+	line "hij zich aansloot" ; "after he joined"
+	cont "bij de ELITE FOUR." ; "the ELITE FOUR."
 	done
 
 FuchsiaCityTeacherText:
-	text "The SAFARI ZONE is"
-	line "closed… It's sad,"
+	text "De SAFARI ZONE is" ; "The SAFARI ZONE is"
+	line "dicht… Jammer," ; "closed… It's sad,"
 
-	para "considering it's"
-	line "FUCHSIA's main"
-	cont "attraction."
+	para "want het is" ; "considering it's"
+	line "FUCHSIA's hoofd-" ; "FUCHSIA's main"
+	cont "attractie." ; "attraction."
 	done
 
 FuchsiaCitySignText:
 	text "FUCHSIA CITY"
 
-	para "Behold! It's"
-	line "Passion Pink!"
+	para "Aanschouw! Het is" ; "Behold! It's"
+	line "passie-roze!" ; "Passion Pink!"
 	done
 
 FuchsiaGymSignText:
 	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: JANINE"
+	line "#MON-GYMLEIDER:"
+	cont "JANINE" ; "LEADER: JANINE"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "De Giftige" ; "The Poisonous"
+	line "Ninja-Meester" ; "Ninja Master"
 	done
 
 SafariZoneOfficeSignText:
-	text "There's a notice"
-	line "here…"
+	text "Er is een" ; "There's a notice"
+	line "briefje hier…" ; "here…"
 
-	para "SAFARI ZONE OFFICE"
-	line "is closed until"
-	cont "further notice."
+	para "SAFARIZONE-KANTOOR" ; "SAFARI ZONE OFFICE"
+	line "is dicht tot" ; "is closed until"
+	cont "nader order." ; "further notice."
 	done
 
 WardensHomeSignText:
-	text "SAFARI ZONE"
-	line "WARDEN'S HOME"
+	text "SAFARIZONE" ; "SAFARI ZONE"
+	line "BOSWACHTERSHUISJE" ; "WARDEN'S HOME"
 	done
 
 SafariZoneClosedSignText:
-	text "The WARDEN is"
-	line "traveling abroad."
+	text "De BOSWACHTER is" ; "The WARDEN is"
+	line "op reis." ; "traveling abroad."
 
-	para "Therefore, the"
-	line "SAFARI ZONE is"
-	cont "closed."
+	para "Daarom is de" ; "Therefore, the"
+	line "SAFARIZONE" ; "SAFARI ZONE is"
+	cont "gesloten." ; "closed."
 	done
 
 NoLitteringSignText:
-	text "No littering."
+	text "Geen zwerfvuil." ; "No littering."
 
-	para "Please take your"
-	line "waste with you."
+	para "Neem je afval" ; "Please take your"
+	line "met je mee." ; "waste with you."
 	done
 
 FuchsiaCity_MapEvents:

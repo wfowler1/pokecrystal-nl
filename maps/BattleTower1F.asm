@@ -441,7 +441,7 @@ Text_BattleTowerIntroduction_2:
 	line "GEVECHTSKAMERS." ; "BATTLE ROOMS."
 
 	para "Er zijn veel" ; "There are many"
-	line "GEVECHTSKAMER in" ; "BATTLE ROOMS in"
+	line "GEVECHTSKAMERS in" ; "BATTLE ROOMS in"
 	cont "de GEVECHTSTOREN." ; "the BATTLE TOWER."
 
 	para "Iedere kamer heeft" ; "Each ROOM holds"

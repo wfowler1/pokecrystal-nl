@@ -135,10 +135,10 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "Ik ga oefenen" ; "I'm going to prac-"
-	line "in het DANS-." ; "tice at the DANCE"
+	line "in 't DANSTHEATER." ; "tice at the DANCE"
 
-	para "THEATER. Zin om" ; "THEATER. Care to"
-	line "mee te gaan?" ; "join me?"
+	para "Zin om mee te" ; "THEATER. Care to"
+	line "gaan?" ; "join me?"
 	done
 
 EcruteakCityLass2Text:

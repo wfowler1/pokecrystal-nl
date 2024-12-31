@@ -1,4 +1,4 @@
-	db "FOSSIEL@" ; species name
+	db "FOSSIEL@" ; "FOSSIL@" ; species name
 	db 18 ; height
 	dw 590 ; weight
 

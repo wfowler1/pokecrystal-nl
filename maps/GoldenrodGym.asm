@@ -221,8 +221,8 @@ WhitneyYouMeanieText:
 WhitneyWhatDoYouWantText:
 	text "…Snotter…" ; "…Sniff…"
 
-	para "Wat? Wat wil" ; "What? What do you"
-	line "je? Een BADGE?" ; "want? A BADGE?"
+	para "Wat? Wat wil je?" ; "What? What do you"
+	line "Een BADGE?" ; "want? A BADGE?"
 
 	para "Oh, juist." ; "Oh, right."
 	line "Vergeten. Hier is" ; "I forgot. Here's"
@@ -245,8 +245,8 @@ WhitneyPlainBadgeText:
 	line "ook je #MON's" ; "your #MON's"
 	cont "SNELHEID." ; "SPEED."
 
-	para "Oh, je mag" ; "Oh, you can have"
-	line "dit ook houden!" ; "this too!"
+	para "Oh, je mag dit ook" ; "Oh, you can have"
+	line "houden!" ; "this too!"
 	done
 
 WhitneyAttractText:
@@ -346,8 +346,8 @@ BeautyVictoriaBeatenText:
 BeautyVictoriaAfterBattleText:
 	text "Wow, je moet wel" ; "Wow, you must be"
 	line "goed zijn om me te" ; "good to beat me!"
-	cont "verslaan! Ga" ; "Keep it up!"
-	cont "zo door!" ; 
+	cont "verslaan! Ga zo" ; "Keep it up!"
+	cont "door!" ; 
 	done
 
 BeautySamanthaSeenText:
@@ -369,8 +369,8 @@ BeautySamanthaAfterBattleText:
 	done
 
 GoldenrodGymGuideText:
-	text "Jo! Toe-" ; "Yo! CHAMP in"
-	line "komstige kampioen!" ; "making!"
+	text "Yo! KAMPIOEN in" ; "Yo! CHAMP in"
+	line "het verschiet!" ; "making!"
 
 	para "Deze GYM is vol" ; "This GYM is home"
 	line "met normaal-type" ; "to normal-type"

@@ -194,10 +194,10 @@ BugsyText_HiveBadgeSpeech:
 	line "ook geruilde." ; "even traded ones."
 
 	para "Als je #MON met" ; "#MON that know"
-	line "SNIJDEN hebt," ; "CUT will be able"
+	line "SNIJD hebt, werkt" ; "CUT will be able"
 
-	para "werkt dit ook" ; "to use it outside"
-	line "buiten gevechten." ; "of battle too."
+	para "dit ook buiten" ; "to use it outside"
+	line "gevechten." ; "of battle too."
 
 	para "Hier, deze mag je" ; "Here, I also want"
 	line "ook van me hebben." ; "you to have this."

@@ -4,7 +4,7 @@
 
 	db   "Gebruikt scherpe," ; "It uses sharp,"
 	next "giftige prikken om" ; "poisonous stings"
-	next "prooien te ver-,"  ;"to defeat prey,"
+	next "prooien te ver-"  ;"to defeat prey,"
 
 	page "slaan en neemt ze" ; "then takes the"
 	next "mee naar het nest" ; "victim back to its"

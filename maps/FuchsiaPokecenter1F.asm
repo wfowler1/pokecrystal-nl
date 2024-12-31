@@ -59,31 +59,31 @@ FuchsiaPokecenter1FJanineImpersonatorSpinMovement:
 	step_end
 
 FuchsiaPokecenter1FCooltrainerMText:
-	text "Hey! You have a"
-	line "brand new kind of"
+	text "Hé! Je hebt een" ; "Hey! You have a"
+	line "gloednieuw type" ; "brand new kind of"
 	cont "#DEX."
 
-	para "Did PROF.OAK give"
-	line "that to you?"
+	para "Heeft PROF.OAK je" ; "Did PROF.OAK give"
+	line "dat gegeven?" ; "that to you?"
 	done
 
 FuchsiaPokecenter1FCooltrainerFText:
-	text "I got quite a"
-	line "shock at the GYM."
+	text "Ik ben flink ge-" ; "I got quite a"
+	line "schrokken in de" ; "shock at the GYM."
 
-	para "There were all"
-	line "these girls who"
-	cont "looked identical."
+	para "GYM. Er waren al" ; "There were all"
+	line "die meiden die" ; "these girls who"
+	cont "op elkaar leken." ; "looked identical."
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText1:
-	text "I'm JANINE! Hocus-"
-	line "pocus… Poof!"
+	text "Ik ben JANINE!" ; "I'm JANINE! Hocus-"
+	line "Hokus pokus… Poef!" ; "pocus… Poof!"
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText2:
-	text "See? I look just"
-	line "like her now!"
+	text "Kijk! Ik lijk nu" ; "See? I look just"
+	line "precies op haar!" ; "like her now!"
 	done
 
 FuchsiaPokecenter1F_MapEvents:

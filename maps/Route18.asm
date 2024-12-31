@@ -33,39 +33,39 @@ Route18Sign:
 	jumptext Route18SignText
 
 BirdKeeperBorisSeenText:
-	text "If you're looking"
-	line "for #MON, you"
+	text "Als je naar" ; "If you're looking"
+	line "#MON zoekt," ; "for #MON, you"
 
-	para "have to look in"
-	line "the tall grass."
+	para "moet je in het" ; "have to look in"
+	line "hoge gras zoeken." ; "the tall grass."
 	done
 
 BirdKeeperBorisBeatenText:
-	text "Ayieee!"
+	text "Aaaiiiii!" ; "Ayieee!"
 	done
 
 BirdKeeperBorisAfterBattleText:
-	text "Since you're so"
-	line "strong, it must be"
-	cont "fun to battle."
+	text "Het moet leuk zijn" ; "Since you're so"
+	line "om te vechten als" ; "strong, it must be"
+	cont "je zo sterk bent." ; "fun to battle."
 	done
 
 BirdKeeperBobSeenText:
-	text "CYCLING ROAD is a"
-	line "quick shortcut to"
-	cont "CELADON."
+	text "Het FIETSPAD is" ; "CYCLING ROAD is a"
+	line "een kortere route" ; "quick shortcut to"
+	cont "naar CELADON." ; "CELADON."
 	done
 
 BirdKeeperBobBeatenText:
-	text "…Whew!"
+	text "…Poeh!" ; "…Whew!"
 	done
 
 BirdKeeperBobAfterBattleText:
-	text "If you don't have"
-	line "a BICYCLE, you're"
+	text "Als je geen FIETS" ; "If you don't have"
+	line "hebt, kun je de" ; "a BICYCLE, you're"
 
-	para "not allowed to use"
-	line "the shortcut."
+	para "kortere weg hier" ; "not allowed to use"
+	line "niet gebruiken." ; "the shortcut."
 	done
 
 Route18SignText:
