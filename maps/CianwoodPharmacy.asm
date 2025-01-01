@@ -47,7 +47,7 @@ PharmacistGiveSecretpotionText:
 
 	para "…"
 
-	para "De VUURTOREN" ; "The LIGHTHOUSE"
+	para "De VUURTOREN-" ; "The LIGHTHOUSE"
 	line "#MON is in" ; "#MON is in"
 	cont "nood?" ; "trouble?"
 
