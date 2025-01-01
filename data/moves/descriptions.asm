@@ -289,7 +289,7 @@ MegaPunchDescription:
 
 PayDayDescription:
 	db   "Gooit munten." ; "Throws coins. Gets"
-	next "Krijg je terug." ; "them back later.@"
+	next "Krijg je terug.@" ; "them back later.@"
 
 FirePunchDescription:
 	db   "Vlammende klap." ; "A fiery punch. May"
@@ -369,7 +369,7 @@ MegaKickDescription:
 
 JumpKickDescription:
 	db   "kan missen en ge-" ; "May miss, damaging"
-	next "bruiker pijn doen." ; "the user.@"
+	next "bruiker pijn doen.@" ; "the user.@"
 
 RollingKickDescription:
 	db   "Een snelle," ; "A fast, spinning"
@@ -405,7 +405,7 @@ BodySlamDescription:
 
 WrapDescription:
 	db   "Knijpt vijand voor" ; "Squeezes the foe"
-	next "2-5 beurten." ; "for 2-5 turns.@"
+	next "2-5 beurten.@" ; "for 2-5 turns.@"
 
 TakeDownDescription:
 	db   "Tackle die ook ge-" ; "A tackle that also"
@@ -557,7 +557,7 @@ MegaDrainDescription:
 
 LeechSeedDescription:
 	db   "Steelt elke beurt" ; "Steals HP from the"
-	next "LP van vijand." ; "foe on every turn.@"
+	next "LP van vijand.@" ; "foe on every turn.@"
 
 GrowthDescription:
 	db   "Verhoogt SPCL.-" ; "Raises the SPCL."
@@ -585,7 +585,7 @@ SleepPowderDescription:
 
 PetalDanceDescription:
 	db   "Werkt 2-3beurten" ; "Works 2-3 turns"
-	next "en verwart je MON." ; "and confuses user.@"
+	next "en verwart je MON.@" ; "and confuses user.@"
 
 StringShotDescription:
 	db   "Kan SNELHEID van" ; "A move that lowers"
@@ -597,7 +597,7 @@ DragonRageDescription:
 
 FireSpinDescription:
 	db   "Vangt vijand 2-5" ; "Traps foe in fire"
-	next "beurten in vuur" ; "for 2-5 turns.@"
+	next "beurten in vuur.@" ; "for 2-5 turns.@"
 
 ThundershockDescription:
 	db   "Aanval die kan" ; "An attack that may"
@@ -677,7 +677,7 @@ MimicDescription:
 
 ScreechDescription:
 	db   "Verlaagt" ; "Sharply reduces"
-	next "VERDEDIGING flink." ; "the foe's DEFENSE.@"
+	next "VERDEDIGING flink.@" ; "the foe's DEFENSE.@"
 
 DoubleTeamDescription:
 	db   "Verhoogt ontwijk-" ; "Heightens evasive-"
@@ -801,7 +801,7 @@ AmnesiaDescription:
 
 KinesisDescription:
 	db   "Verlaagt precisie" ; "Reduces the foe's"
-	next "van tegenstander." ; "accuracy.@"
+	next "van tegenstander.@" ; "accuracy.@"
 
 SoftboiledDescription:
 	db   "Herstelt LP met" ; "Restores HP by 1/2"
