@@ -953,7 +953,7 @@ _LearnedMoveText::
 
 _MoveAskForgetText::
 	text "Welke aanval wordt" ; "Which move should"
-	next "vergeten?" ; "be forgotten?"
+	line "vergeten?" ; "be forgotten?"
 	done
 
 _StopLearningMoveText::

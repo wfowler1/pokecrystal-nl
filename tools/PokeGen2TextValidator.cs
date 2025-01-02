@@ -977,7 +977,7 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘";
+        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№";
 
         private Block _block;
         private StringBuilder output;
@@ -1009,24 +1009,19 @@ namespace PokeGen2TextValidator
                 for (int i = 0; i < lines.Count; ++i)
                 {
                     string line = lines[i];
+                    string nextLine = null;
                     if (lines.Count > i + 1)
                     {
-                        string nextLine = lines[i + 1];
-                        if (CheckTextboxLineNeedsTerminator(line, nextLine) && !lines[i].EndsWith("@\""))
-                        {
-                            output.Append(GetTerminatorErrorMessage(line));
-                        }
-                        if (!CheckTextboxNextLineValid(line, nextLine))
-                        {
-                            output.Append(GetInvalidNextLineErrorMessage(line, nextLine));
-                        }
+                        nextLine = lines[i + 1];
                     }
-                    else
+
+                    if (CheckTextboxLineNeedsTerminator(line, nextLine) && !lines[i].EndsWith("@\""))
                     {
-                        if (!CheckTextboxNextLineValid(line, null))
-                        {
-                            output.Append(GetInvalidLastLineErrorMessage(line));
-                        }
+                        output.Append(GetTerminatorErrorMessage(line));
+                    }
+                    if (!CheckTextboxNextLineValid(line, nextLine))
+                    {
+                        output.Append(GetInvalidNextLineErrorMessage(line, nextLine));
                     }
                 }
             }
@@ -1282,11 +1277,16 @@ namespace PokeGen2TextValidator
             if (line.StartsWith("text ")
                 || line.StartsWith("line ")
                 || line.StartsWith("para ")
-                || line.StartsWith("cont ")
-                || line.StartsWith("next "))
+                || line.StartsWith("cont "))
             {
-                if (nextLine.StartsWith("sound_")
-                    || nextLine.StartsWith("text_"))
+                if (nextLine != null && (nextLine.StartsWith("sound_") || nextLine.StartsWith("text_")))
+                {
+                    return true;
+                }
+            }
+            if (line.StartsWith("db ") || line.StartsWith("next "))
+            {
+                if (line.Contains("\"") && !line.Contains("@\"") && (nextLine == null || !nextLine.StartsWith("next ")))
                 {
                     return true;
                 }
@@ -1656,8 +1656,8 @@ namespace PokeGen2TextValidator
         }
 
     }
-	
-	// TrainerDataValidator.cs
+    
+    // TrainerDataValidator.cs
     internal class TrainerDataValidator
     {
 

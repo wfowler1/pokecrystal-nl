@@ -955,7 +955,7 @@ ProtectedByText:
 
 MirrorMoveFailedText:
 	text "De SPIEGELAANVAL" ; "The MIRROR MOVE"
-	next "mislukte!" ; "failed!"
+	line "mislukte!" ; "failed!"
 	prompt
 
 StoleText:

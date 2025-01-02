@@ -139,7 +139,7 @@ _FourZerosInvalidText::
 
 _EnterPasscodeText::
 	text "Voer de CIJFERCODE" ; "Enter the CARD"
-	next "in van KAARTMAP." ; "FOLDER PASSCODE."
+	line "in van KAARTMAP." ; "FOLDER PASSCODE."
 	done
 
 _IncorrectPasscodeText::
