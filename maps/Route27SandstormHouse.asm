@@ -40,55 +40,56 @@ SandstormHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 SandstormHouseWomanText1:
-	text "Where are you off"
-	line "to with #MON?"
+	text "Waar ga je met" ; "Where are you off"
+	line "je #MON heen?" ; "to with #MON?"
 
-	para "#MON LEAGUE?"
+	para "#MON-LEAGUE?"
 
-	para "Are your #MON"
-	line "loyal enough for"
-	cont "you to win?"
+	para "Zijn je #MON" ; "Are your #MON"
+	line "trouw genoeg om" ; "loyal enough for"
+	cont "te winnen?" ; "you to win?"
 
-	para "Let me see…"
+	para "Eens zien…" ; "Let me see…"
 	done
 
 SandstormHouseWomanLoyalText:
-	text "Ah! Your #MON"
-	line "trusts you very"
-	cont "much."
+	text "Ah! Je #MON" ; "Ah! Your #MON"
+	line "vertrouwt je" ; "trusts you very"
+	cont "volledig." ; "much."
 
-	para "It's nice to see a"
-	line "good trainer."
+	para "Fijn om een goede" ; "It's nice to see a"
+	line "trainer te zien." ; "good trainer."
 
-	para "Here. A gift for"
-	line "your journey."
+	para "Hier. Iets kleins" ; "Here. A gift for"
+	line "voor je reis." ; "your journey."
 	done
 
 SandstormHouseSandstormDescription:
-	text "TM37 happens to be"
-	line "SANDSTORM."
+	text "TM37 is ZANDSTORM." ; "TM37 happens to be"
+	;line "ZANDSTORM." ; "SANDSTORM."
 
-	para "It's a move that"
-	line "inflicts damage on"
-	cont "both battlers."
+	para "Het is een aanval" ; "It's a move that"
+	line "beide trainers" ; "inflicts damage on"
+	cont "schade aanricht." ; "both battlers."
 
-	para "It's for advanced"
-	line "trainers only."
+	para "Het is alleen voor" ; "It's for advanced"
+	line "gevorderde" ; "trainers only."
+	cont "trainers." ;
 
-	para "Use it if you"
-	line "dare. Good luck!"
+	para "Gebruik het als" ; "Use it if you"
+	line "je durft. Succes!" ; "dare. Good luck!"
 	done
 
 SandstormHouseWomanDisloyalText:
-	text "If it doesn't come"
-	line "to trust you some"
+	text "Als het je niet" ; "If it doesn't come"
+	line "meer gaat ver-" ; "to trust you some"
 
-	para "more, it could be"
-	line "tough going."
+	para "trouwen, zal het" ; "more, it could be"
+	line "lastig worden." ; "tough going."
 
-	para "Trust is the tie"
-	line "that binds #MON"
-	cont "and trainers."
+	para "Vertrouwen is de" ; "Trust is the tie"
+	line "band die #MON" ; "that binds #MON"
+	cont "en trainers bindt." ; "and trainers."
 	done
 
 Route27SandstormHouse_MapEvents:

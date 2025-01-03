@@ -208,8 +208,8 @@ JasmineDontBeOffendedText:
 	cont "niet beledigd…" ; "offended…"
 
 	para "…AMPHY neemt" ; "…AMPHY will not"
-	line "alleen iets" ; "take anything from"
-	cont "van mij…" ; "anyone but me…"
+	line "alleen iets van" ; "take anything from"
+	cont "mij…" ; "anyone but me…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:

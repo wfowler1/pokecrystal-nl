@@ -123,7 +123,7 @@ InitTradeSpeciesList:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "SLUITEN@" ; "CANCEL@"
 
 _LoadTradeScreenBorderGFX:
 	call __LoadTradeScreenBorderGFX
@@ -178,7 +178,7 @@ PlaceWaitingTextAndSyncAndExchangeNybble:
 	jp DelayFrames
 
 .Waiting:
-	db "WAITING..!@"
+	db "WACHTEN..!@" ; "WAITING..!@"
 
 LinkTradeMenu:
 	call .MenuAction

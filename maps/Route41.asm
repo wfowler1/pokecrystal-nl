@@ -141,7 +141,7 @@ SwimmermCharlieSeenText:
 	done
 
 SwimmermCharlieBeatenText:
-	text "Jeetje! M'n huid" ; "Yikes! I've got"
+	text "Jeetje! Mijn huid" ; "Yikes! I've got"
 	line "is verrimpeld!" ; "prune skin!"
 	done
 

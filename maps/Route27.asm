@@ -315,154 +315,156 @@ Route27FisherStepLeftOnceMovement:
 	step_end
 
 Route27FisherHeyText:
-	text "Hey!"
+	text "Hé!" ; "Hey!"
 	done
 
 Route27FisherText:
-	text "Do you know what"
-	line "you just did?"
+	text "Weet je wat je" ; "Do you know what"
+	line "zojuist deed?" ; "you just did?"
 
-	para "You've taken your"
-	line "first step into"
-	cont "KANTO."
+	para "Je hebt je eerste" ; "You've taken your"
+	line "stap in KANTO" ; "first step into"
+	cont "gezet." ; "KANTO."
 
-	para "Check your #-"
-	line "GEAR MAP and see."
+	para "Kijk maar eens op" ; "Check your #-"
+	line "je #GEAR-kaart." ; "GEAR MAP and see."
 	done
 
 CooltrainermBlakeSeenText:
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "Je ziet er best" ; "You look pretty"
+	line "sterk uit. Laat" ; "strong."
+	cont "me met je vechten!" ; "Let me battle you!"
 	done
 
 CooltrainermBlakeBeatenText:
-	text "Yow!"
+	text "Auw!" ; "Yow!"
 	done
 
 CooltrainermBlakeAfterBattleText:
-	text "If you prevail on"
-	line "this harsh trek,"
+	text "Als je dit zware" ; "If you prevail on"
+	line "pad volhoudt, zal" ; "this harsh trek,"
 
-	para "the truth will be"
-	line "revealed!"
+	para "de waarheid naar" ; "the truth will be"
+	line "boven komen!" ; "revealed!"
 
-	para "Heh, sorry, I just"
-	line "wanted to say"
-	cont "something cool."
+	para "Heh, sorry. Ik" ; "Heh, sorry, I just"
+	line "wou gewoon wat" ; "wanted to say"
+	cont "cools zeggen." ; "something cool."
 	done
 
 CooltrainermBrianSeenText:
-	text "Hm? You're good,"
-	line "aren't you?"
+	text "Hm? Je bent" ; "Hm? You're good,"
+	line "goed, of niet?" ; "aren't you?"
 	done
 
 CooltrainermBrianBeatenText:
-	text "Just as I thought!"
+	text "Ik wist het!" ; "Just as I thought!"
 	done
 
 CooltrainermBrianAfterBattleText:
-	text "A good trainer can"
-	line "recognize other"
-	cont "good trainers."
+	text "Een goede trainer" ; "A good trainer can"
+	line "herkent andere" ; "recognize other"
+	cont "goede trainers." ; "good trainers."
 	done
 
 CooltrainerfReenaSeenText:
-	text "You shouldn't"
-	line "underestimate the"
+	text "Je moet de wilde" ; "You shouldn't"
+	line "#MON in dit" ; "underestimate the"
 
-	para "wild #MON in"
-	line "these parts."
+	para "gebied niet" ; "wild #MON in"
+	line "onderschatten." ; "these parts."
 	done
 
 CooltrainerfReenaBeatenText:
-	text "Oh! You're much"
-	line "too strong!"
+	text "Oh! Je bent veel" ; "Oh! You're much"
+	line "te sterk!" ; "too strong!"
 	done
 
 CooltrainerfReenaAfterBattleText:
-	text "You're just a kid,"
-	line "but you're not to"
+	text "Je bent maar een" ; "You're just a kid,"
+	line "kind, maar je" ; "but you're not to"
 
-	para "be underestimated"
-	line "either."
+	para "moet ook niet" ; "be underestimated"
+	line "worden onderschat." ; "either."
 	done
 
 CooltrainerfMeganSeenText:
-	text "It's rare to see"
-	line "anyone come here."
+	text "Je ziet hier niet" ; "It's rare to see"
+	line "veel mensen komen." ; "anyone come here."
 
-	para "Are you training"
-	line "on your own?"
+	para "Train je in je" ; "Are you training"
+	line "eentje?" ; "on your own?"
 	done
 
 CooltrainerfMeganBeatenText:
-	text "Oh! You're really"
-	line "strong!"
+	text "Oh! Je bent echt" ; "Oh! You're really"
+	line "sterk!" ; "strong!"
 	done
 
 CooltrainerfMeganAfterBattleText:
-	text "I'm checking out"
-	line "pre- and post-"
-	cont "evolution #MON."
+	text "Ik bestudeer pre-" ; "I'm checking out"
+	line "en post-evolutie" ; "pre- and post-"
+	cont "#MON." ; "evolution #MON."
 
-	para "Evolution really"
-	line "does make #MON"
-	cont "stronger."
+	para "Evolutie maakt" ; "Evolution really"
+	line "#MON echt" ; "does make #MON"
+	cont "sterker." ; "stronger."
 
-	para "But evolved forms"
-	line "also learn moves"
-	cont "later on."
+	para "Maar geëvolueerde" ; "But evolved forms"
+	line "vormen leren aan-" ; "also learn moves"
+	cont "vallen ook later." ; "later on."
 	done
 
 PsychicGilbertSeenText:
-	text "Don't say a thing!"
+	text "Zeg niets!" ; "Don't say a thing!"
 
-	para "Let me guess what"
-	line "you're thinking."
+	para "Laat me raden" ; "Let me guess what"
+	line "wat je denkt." ; "you're thinking."
 
 	para "Mmmmmmm…"
 
-	para "I got it! You're"
-	line "on the #MON"
-	cont "LEAGUE challenge!"
+	para "Ik heb het! Je" ; "I got it! You're"
+	line "bent bezig met" ; "on the #MON"
+	cont "de #MON-LEAGUE-" ; "LEAGUE challenge!"
+	cont "uitdaging!" ;
 	done
 
 PsychicGilbertBeatenText:
-	text "You're too much!"
+	text "Je bent te veel!" ; "You're too much!"
 	done
 
 PsychicGilbertAfterBattleText:
-	text "With your skills,"
-	line "you'll do well at"
-	cont "the LEAGUE."
+	text "Met jouw vaardig-" ; "With your skills,"
+	line "heden zal je het" ; "you'll do well at"
+	cont "goed doen in" ; "the LEAGUE."
+	cont "de LEAGUE." ;
 
-	para "That's what my"
-	line "premonition says."
+	para "Dat zegt" ; "That's what my"
+	line "mijn voorspelling." ; "premonition says."
 	done
 
 BirdKeeperJose2SeenText:
-	text "Tweet! Tweet!"
-	line "Tetweet!"
+	text "Tjilp! Tjilp!" ; "Tweet! Tweet!"
+	line "Ts-tjilp!" ; "Tetweet!"
 	done
 
 BirdKeeperJose2BeatenText:
-	text "Tweet!"
+	text "Tjilp!" ; "Tweet!"
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "BIRD KEEPERS like"
-	line "me mimic bird"
+	text "VOGELHOUDERS zoals" ; "BIRD KEEPERS like"
+	line "ik geven commando's" ; "me mimic bird"
 
-	para "whistles to com-"
-	line "mand #MON."
+	para "door te fluiten" ; "whistles to com-"
+	line "als een vogel." ; "mand #MON."
 	done
 
 TohjoFallsSignText:
-	text "TOHJO FALLS"
+	text "TOHJO-WATERVAL" ; "TOHJO FALLS"
 
-	para "THE LINK BETWEEN"
-	line "KANTO AND JOHTO"
+	para "DE LINK TUSSEN" ; "THE LINK BETWEEN"
+	line "KANTO EN JOHTO" ; "KANTO AND JOHTO"
 	done
 
 Route27_MapEvents:

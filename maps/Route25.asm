@@ -236,195 +236,197 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Why"
-	line "did you have to"
+	text "MISTY: Aww!" ; "MISTY: Aww! Why"
+	line "Waarom kom je" ; "did you have to"
 
-	para "show up and bug us"
-	line "now?"
+	para "hier en onderbreek" ; "show up and bug us"
+	line "je ons nu?" ; "now?"
 
-	para "Do you know what"
-	line "they call people"
-	cont "like you?"
+	para "Weet je hoe ze" ; "Do you know what"
+	line "mensen zoals jij" ; "they call people"
+	cont "noemen?" ; "like you?"
 
-	para "Pests! You heard"
-	line "me right, pest!"
+	para "Ettertjes! Je" ; "Pests! You heard"
+	line "hoort me ettertje!" ; "me right, pest!"
 
 	para "…"
 
-	para "…Oh? Those BADGES"
-	line "you have… Are they"
-	cont "JOHTO GYM BADGES?"
+	para "…Oh? Die BADGES" ; "…Oh? Those BADGES"
+	line "die je hebt… Zijn" ; "you have… Are they"
+	cont "dat JOHTO-BADGES?" ; "JOHTO GYM BADGES?"
 
-	para "If you have eight,"
-	line "you must be good."
+	para "Als je acht hebt," ; "If you have eight,"
+	line "ben je vast goed." ; "you must be good."
 
-	para "OK, then. Come to"
-	line "CERULEAN GYM."
+	para "Oké dan. Kom naar" ; "OK, then. Come to"
+	line "de CERULEAN GYM." ; "CERULEAN GYM."
 
-	para "I'll be happy to"
-	line "take you on."
+	para "Ik neem het graag" ; "I'll be happy to"
+	line "tegen je op." ; "take you on."
 
-	para "I'm MISTY, the"
-	line "GYM LEADER in"
+	para "Ik ben MISTY, de" ; "I'm MISTY, the"
+	line "GYMLEIDER in" ; "GYM LEADER in"
 	cont "CERULEAN."
 	done
 
 SchoolboyDudleySeenText:
-	text "Beat the six of us"
-	line "trainers to win a"
-	cont "fabulous prize!"
+	text "Versla zes van" ; "Beat the six of us"
+	line "ons trainers om" ; "trainers to win a"
+	cont "een fantastische" ; "fabulous prize!"
+	cont "prijs te winnen!" ;
 
-	para "Think you've got"
-	line "what it takes?"
+	para "Denk je dat je" ; "Think you've got"
+	line "het aan kan?" ; "what it takes?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "Wow! Goed gedaan." ; "Whoo! Good stuff."
 	done
 
 SchoolboyDudleyAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ik deed mijn best." ; "I did my best."
+	line "Ik heb geen spijt." ; "I have no regrets."
 	done
 
 LassEllenSeenText:
-	text "I'm second."
-	line "Now it's serious!"
+	text "Ik ben tweede. Nu" ; "I'm second."
+	line "wordt het menens!" ; "Now it's serious!"
 	done
 
 LassEllenBeatenText:
-	text "How could I lose?"
+	text "Hoe kon ik" ; "How could I lose?"
+	line "verliezen?" ;
 	done
 
 LassEllenAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ik deed mijn best." ; "I did my best."
+	line "Ik heb geen spijt." ; "I have no regrets."
 	done
 
 SchoolboyJoeSeenText:
-	text "Here's No. 3!"
-	line "I won't be easy."
+	text "Hier is nr. 3!" ; "Here's No. 3!"
+	line "Ik hou me niet in." ; "I won't be easy."
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+	text "Auw! Verpletterd!" ; "Ow! Stomped flat!"
 	done
 
 SchoolboyJoeAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ik deed mijn best." ; "I did my best."
+	line "Ik heb geen spijt." ; "I have no regrets."
 	done
 
 LassLauraSeenText:
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Ik ben nr. 4!" ; "I'm No. 4!"
+	line "Ben je al moe?" ; "Getting tired?"
 	done
 
 LassLauraBeatenText:
-	text "I lost too…"
+	text "Ik verloor ook…" ; "I lost too…"
 	done
 
 LassLauraAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ik deed mijn best." ; "I did my best."
+	line "Ik heb geen spijt." ; "I have no regrets."
 	done
 
 CamperLloydSeenText:
-	text "OK! I'm No. 5."
-	line "I'll stomp you!"
+	text "Oké! Ik ben nr. 5." ; "OK! I'm No. 5."
+	line "Ik maak je af!" ; "I'll stomp you!"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "Wow! Te veel." ; "Whoa! Too much."
 	done
 
 CamperLloydAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ik deed mijn best." ; "I did my best."
+	line "Ik heb geen spijt." ; "I have no regrets."
 	done
 
 LassShannonSeenText:
-	text "I'm the last in"
-	line "line, but I tell"
-	cont "you, I'm tough!"
+	text "Ik ben de laatste," ; "I'm the last in"
+	line "maar ik zeg je," ; "line, but I tell"
+	cont "ik ben pittig!" ; "you, I'm tough!"
 	done
 
 LassShannonBeatenText:
-	text "You're kidding."
+	text "Meen je niet." ; "You're kidding."
 	done
 
 LassShannonAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ik deed mijn best." ; "I did my best."
+	line "Ik heb geen spijt." ; "I have no regrets."
 	done
 
 SupernerdPatSeenText:
-	text "Mufufufu…"
+	text "Mehehehe…" ; "Mufufufu…"
 
-	para "I have nothing to"
-	line "do with the six-"
-	cont "pack trainers."
+	para "Ik heb niets met" ; "I have nothing to"
+	line "het zestal" ; "do with the six-"
+	cont "trainers te maken." ; "pack trainers."
 
-	para "I waited here to"
-	line "beat you when you"
+	para "Ik wachtte hier om" ; "I waited here to"
+	line "je te verslaan" ; "beat you when you"
 
-	para "were tired out by"
-	line "all the battles."
+	para "zodra de gevechten" ; "were tired out by"
+	line "je vermoeiden." ; "all the battles."
 	done
 
 SupernerdPatBeatenText:
-	text "Aren't you tired"
-	line "at all?"
+	text "Ben je helemaal" ; "Aren't you tired"
+	line "niet moe?" ; "at all?"
 	done
 
 SupernerdPatAfterBattleText:
-	text "I'm sorry… I won't"
-	line "cheat anymore…"
+	text "Sorry… Ik zal niet" ; "I'm sorry… I won't"
+	line "meer valsspelen…" ; "cheat anymore…"
 	done
 
 CooltrainermKevinNuggetText:
-	text "You took on one"
-	line "more battle than"
+	text "Je deed één" ; "You took on one"
+	line "gevecht meer dan" ; "more battle than"
 
-	para "you expected, but"
-	line "you won anyway."
+	para "je verwachtte," ; "you expected, but"
+	line "maar je won toch." ; "you won anyway."
 
-	para "As promised, you"
-	line "win a prize."
+	para "Zoals beloofd win" ; "As promised, you"
+	line "je een prijs." ; "win a prize."
 	done
 
 CooltrainermKevinSeenText:
-	text "But after seeing"
-	line "how you battle, I"
+	text "Maar nu ik zag hoe" ; "But after seeing"
+	line "je vecht, wil ik," ; "how you battle, I"
 
-	para "want to see how"
-	line "I'll fare."
+	para "weten hoe ik het" ; "want to see how"
+	line "doe." ; "I'll fare."
 
-	para "How about it? Let"
-	line "me take you on."
+	para "Wat denk je? Laat" ; "How about it? Let"
+	line "mij je uitdagen." ; "me take you on."
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "Zo'n goed gevecht" ; "I've never had a"
+	line "had ik nog nooit!" ; "battle this good!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
+	text "Dat was een" ; "That was a great"
+	line "goed gevecht!" ; "battle!"
 
-	para "You and your #-"
-	line "MON are truly out-"
-	cont "standing!"
+	para "Jij en je #MON" ; "You and your #-"
+	line "zijn echt" ; "MON are truly out-"
+	cont "indrukwekkend!" ; "standing!"
 	done
 
 BillsHouseSignText:
-	text "SEA COTTAGE"
-	line "BILL'S HOUSE"
+	text "ZEEHUISJE" ; "SEA COTTAGE"
+	line "HUIS VAN BILL" ; "BILL'S HOUSE"
 	done
 
 UnusedBillsHouseSignText: ; unreferenced
-	text "BILL'S HOUSE"
+	text "HUISJE VAN BILL" ; "BILL'S HOUSE"
 	done
 
 Route25_MapEvents:
