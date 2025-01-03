@@ -171,7 +171,7 @@ SaffronMagnetTrainStationGymGuideText:
 	para "moderne spoorlijn" ; "rail liner that"
 	line "die elektriciteit" ; "uses electricity"
 
-	para "en magneten gebruikt" ; "and magnets to"
+	para "en magneten benut" ; "and magnets to"
 	line "om geweldige snel-" ; "attain incredible"
 	cont "heid te bereiken." ; "speed."
 
