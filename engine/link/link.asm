@@ -2068,7 +2068,7 @@ LinkAskTradeForText:
 	text_end
 
 String_TradeCompleted:
-	db   "Ruil voltooid!@" "Trade completed!@"
+	db   "Ruil voltooid!@" ; "Trade completed!@"
 
 String_TooBadTheTradeWasCanceled:
 	db   "Helaas! De ruil is" ; "Too bad! The trade"
