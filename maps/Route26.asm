@@ -253,161 +253,162 @@ Route26MaxElixer:
 	itemball MAX_ELIXER
 
 CooltrainermJakeSeenText:
-	text "I'm making my"
-	line "final preparations"
+	text "Ik doe m'n laatste" ; "I'm making my"
+	line "voorbereidingen" ; "final preparations"
 
-	para "for the #MON"
+	para "voor de #MON-" ; "for the #MON"
 	line "LEAGUE."
 	done
 
 CooltrainermJakeBeatenText:
-	text "I blew it!"
+	text "Verknald!" ; "I blew it!"
 	done
 
 CooltrainermJakeAfterBattleText:
-	text "It's going to be"
-	line "tough to win at"
-	cont "the LEAGUE."
+	text "Het gaat lastig" ; "It's going to be"
+	line "worden om bij de" ; "tough to win at"
+	cont "LEAGUE te winnen." ; "the LEAGUE."
 
-	para "I need to do some"
-	line "more training."
+	para "Ik moet wat meer" ; "I need to do some"
+	line "trainen." ; "more training."
 
-	para "I hear that the"
+	para "Ik hoorde dat de" ; "I hear that the"
 	line "LEAGUE's ELITE"
 
-	para "FOUR are tougher"
-	line "than GYM LEADERS."
+	para "FOUR sterker zijn" ; "FOUR are tougher"
+	line "dan GYMLEIDERS." ; "than GYM LEADERS."
 	done
 
 CooltrainermGaven3SeenText:
-	text "By experiencing"
-	line "tough battles, you"
-	cont "gain power."
+	text "Je wordt sterker" ; "By experiencing"
+	line "door moeilijke" ; "tough battles, you"
+	cont "gevechten." ; "gain power."
 	done
 
 CooltrainermGaven3BeatenText:
-	text "Gaah! Life is even"
-	line "tougher!"
+	text "Aaah! Het leven" ; "Gaah! Life is even"
+	line "is nog moeilijker!" ; "tougher!"
 	done
 
 CooltrainermGavenAfterText:
-	text "To get to #MON"
-	line "LEAGUE, you have"
+	text "Om bij de #MON" ; "To get to #MON"
+	line "LEAGUE te komen," ; "LEAGUE, you have"
 
-	para "to get through"
-	line "VICTORY ROAD."
+	para "moet je door" ; "to get through"
+	line "VICTORY ROAD heen." ; "VICTORY ROAD."
 
-	para "But VICTORY ROAD"
-	line "is tough."
+	para "Maar VICTORY ROAD" ; "But VICTORY ROAD"
+	line "is moeilijk." ; "is tough."
 
-	para "Practically nobody"
-	line "goes there!"
+	para "Praktisch niemand" ; "Practically nobody"
+	line "gaat daar heen!" ; "goes there!"
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Since you've come"
-	line "this far, you must"
-	cont "be good."
+	text "Als je zo ver" ; "Since you've come"
+	line "bent gekomen, moet" ; "this far, you must"
+	cont "je wel goed zijn." ; "be good."
 
-	para "I'm going to give"
-	line "this battle every-"
-	cont "thing I've got!"
+	para "Ik ga dit gevecht" ; "I'm going to give"
+	line "alles geven wat" ; "this battle every-"
+	cont "ik in me heb!" ; "thing I've got!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "No! I don't"
-	line "believe this!"
+	text "Nee! Ik geloof" ; "No! I don't"
+	line "dit niet!" ; "believe this!"
 	done
 
 CooltrainerfJoyceAfterBattleText:
-	text "I've defeated"
-	line "eight GYM LEADERS,"
+	text "Ik heb acht" ; "I've defeated"
+	line "GYMLEIDERS ver-" ; "eight GYM LEADERS,"
 
-	para "so I was feeling"
-	line "confident."
+	para "slagen, dus ik" ; "so I was feeling"
+	line "was vol vertrouwen." ; "confident."
 
-	para "I'll have to try"
-	line "harder next time."
+	para "Ik moet harder m'n" ; "I'll have to try"
+	line "best doen." ; "harder next time."
 	done
 
 CooltrainerfBeth1SeenText:
-	text "I lost to a train-"
-	line "er named <RIVAL>."
+	text "Ik verloor tegen" ; "I lost to a train-"
+	line "een trainer genaamd" ; "er named <RIVAL>."
 
-	para "He was really"
-	line "strong, but…"
+	para "<RIVAL>. Hij was" ; "He was really"
+	line "erg sterk, maar…" ; "strong, but…"
 
-	para "It was as if he"
-	line "absolutely had to"
-	cont "win at any cost."
+	para "Het leek alsof hij" ; "It was as if he"
+	line "koste wat het kost" ; "absolutely had to"
+	cont "moest winnen." ; "win at any cost."
 
-	para "I felt sorry for"
-	line "his #MON."
+	para "Ik had medelijden" ; "I felt sorry for"
+	line "met zijn #MON." ; "his #MON."
 	done
 
 CooltrainerfBeth1BeatenText:
-	text "#MON aren't"
-	line "tools of war."
+	text "#MON zijn geen" ; "#MON aren't"
+	line "oorlogswapens." ; "tools of war."
 	done
 
 CooltrainerfBethAfterText:
-	text "#MON are in-"
-	line "valuable, lifelong"
-	cont "partners."
+	text "#MON zijn on-" ; "#MON are in-"
+	line "schatbare partners" ; "valuable, lifelong"
+	cont "voor het leven." ; "partners."
 	done
 
 PsychicRichardSeenText:
-	text "Wow, look at all"
-	line "those BADGES!"
-	cont "I'm impressed."
+	text "Wow, kijk al die" ; "Wow, look at all"
+	line "BADGES! Ik ben" ; "those BADGES!"
+	cont "onder de indruk." ; "I'm impressed."
 
-	para "But you're not"
-	line "satisfied by just"
+	para "Maar ze gewoon" ; "But you're not"
+	line "verzamelen is niet" ; "satisfied by just"
 
-	para "collecting them,"
-	line "right?"
+	para "genoeg voor je," ; "collecting them,"
+	line "toch?" ; "right?"
 	done
 
 PsychicRichardBeatenText:
-	text "Good battle!"
+	text "Goed gevecht!" ; "Good battle!"
 	done
 
 PsychicRichardAfterBattleText:
-	text "People and #MON"
-	line "grow from their"
-	cont "experiences."
+	text "Mensen en #MON" ; "People and #MON"
+	line "groeien van hun" ; "grow from their"
+	cont "ervaringen." ; "experiences."
 
-	para "Don't get lazy and"
-	line "complacent."
+	para "Word niet lui" ; "Don't get lazy and"
+	line "en zelfingenomen." ; "complacent."
 	done
 
 FisherScottSeenText:
-	text "I'm feeling great"
-	line "today!"
+	text "Ik voel me ge-" ; "I'm feeling great"
+	line "weldig vandaag!" ; "today!"
 
-	para "I feel like I"
-	line "could boot even"
-	cont "the LEAGUE CHAMP!"
+	para "Ik denk dat ik" ; "I feel like I"
+	line "zelfs de LEAGUE-" ; "could boot even"
+	cont "KAMPIOEN kan" ; "the LEAGUE CHAMP!"
+	cont "verslaan!" ;
 	done
 
 FisherScottBeatenText:
-	text "No! Not in this"
-	line "battle!"
+	text "Nee! Niet in" ; "No! Not in this"
+	line "dit gevecht!" ; "battle!"
 	done
 
 FisherScottAfterBattleText:
-	text "Just like in fish-"
-	line "ing, it's all over"
+	text "Net als met vissen" ; "Just like in fish-"
+	line "is het voorbij" ; "ing, it's all over"
 
-	para "in #MON if you"
-	line "give up."
+	para "met #MON als" ; "in #MON if you"
+	line "je opgeeft." ; "give up."
 	done
 
 Route26SignText:
 	text "ROUTE 26"
 
-	para "#MON LEAGUE"
-	line "RECEPTION GATE"
+	para "#MON-LEAGUE"
+	line "ONTVANGSTPOORT" ; "RECEPTION GATE"
 	done
 
 Route26_MapEvents:
