@@ -256,9 +256,8 @@ CianwoodCityPokefanMText:
 	line "ze iets." ; "something."
 
 	para "Je #MON kunnen" ; "Your #MON could"
-	line "STEENKNAL gebruik-" ; "use ROCK SMASH to"
-	cont "en om ze te" ; "break them."
-	cont "breken." ;
+	line "ze breken met" ; "use ROCK SMASH to"
+	cont "STEENKNAL." ; "break them."
 	done
 
 CianwoodCityLassText:

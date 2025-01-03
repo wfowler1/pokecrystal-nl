@@ -172,8 +172,8 @@ ChuckIntroText2:
 	done
 
 ChuckIntroText3:
-	text "Zo! Ben je" ; "There! Scared now,"
-	line "nu bang?" ; "are you?"
+	text "Zo! Ben je nu" ; "There! Scared now,"
+	line "bang?" ; "are you?"
 
 	para "Wat?" ; "What?"
 	line "Dat heeft niets" ; "It has nothing to"

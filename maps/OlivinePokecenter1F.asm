@@ -22,7 +22,7 @@ OlivinePokecenter1FTeacherScript:
 	jumptextfaceplayer OlivinePokecenter1FTeacherText
 
 OlivinePokecenter1FFisherText:
-	text "De MATROOS in de" ; "The SAILOR in the"
+	text "De MATROOS in het" ; "The SAILOR in the"
 	line "OLIVINE CAFE" ; "OLIVINE CAFE next"
 
 	para "hiernaast is" ; "door is really"
