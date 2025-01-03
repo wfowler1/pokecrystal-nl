@@ -307,7 +307,9 @@ namespace PokeGen2TextValidator
             {
                 return FileType.TrainerParty;
             }
-            else if (path.Contains("mobile/"))
+            else if (path.Contains("mobile/")
+                || path.Contains("asserts.asm")
+                || path.Contains("charmap.asm"))
             {
                 return FileType.Ignore;
             }
@@ -468,11 +470,11 @@ namespace PokeGen2TextValidator
             {
                 Line line = lines[i];
 
-                if ((line.Text.StartsWith("INCLUDE") || line.Text.StartsWith("INCBIN")) && line.Text.Contains("/"))
+                if ((line.Text.Contains("INCLUDE") || line.Text.Contains("INCBIN")) && line.Text.Contains("/"))
                 {
                     continue;
                 }
-                if (line.Text.StartsWith("assert") || line.Text.StartsWith("fail"))
+                if (line.Text.StartsWith("assert") || line.Text.StartsWith("vc_assert") || line.Text.StartsWith("fail") || line.Text.StartsWith("DEF"))
                 {
                     continue;
                 }
@@ -842,8 +844,11 @@ namespace PokeGen2TextValidator
             { "<COLON>", 1 },
             { "<PO>", 1 },
             { "<KE>", 1 },
+            { "<PK>", 1 },
+            { "<MN>", 1 },
             { "<LV>", 1 },
             { "<DO>", 1 },
+            { "<DOT>", 1 },
             { "<ID>", 1 },
             { "'d", 1 },
             { "'l", 1 },
@@ -871,6 +876,20 @@ namespace PokeGen2TextValidator
             { "{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}", 3 },
             { "{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}", 3 },
             { "{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}", 3 },
+            { "{UNOWNWORD_{d:x}}", 7 },
+            { "{d:MONS_PER_BOX}", 2 },
+            { "<JP_18>", 2 },
+            { "<NI>", 2 },
+            { "<TTE>", 2 },
+            { "<WO>", 2 },
+            { "<TA!>", 2 },
+            { "<KOUGEKI>", 4 },
+            { "<WA>", 2 },
+            { "<NO>", 2 },
+            { "<ROUTE>", 6 },
+            { "<WATASHI>", 3 },
+            { "<KOKO_WA>", 3 },
+            { "<GA>", 2 },
         };
         public static readonly Dictionary<string, int> ramLengths = new Dictionary<string, int>
         {
@@ -1101,7 +1120,7 @@ namespace PokeGen2TextValidator
                 {
                     continue;
                 }
-                if (formattedText.Text.StartsWith("assert") || formattedText.Text.StartsWith("fail"))
+                if (formattedText.Text.StartsWith("assert") || formattedText.Text.StartsWith("vc_assert") || formattedText.Text.StartsWith("fail") || formattedText.Text.StartsWith("DEF"))
                 {
                     continue;
                 }
@@ -1217,9 +1236,10 @@ namespace PokeGen2TextValidator
                 return true;
             }
 
-            if (nextLine.StartsWith("if DEF") ||
+            if (nextLine.StartsWith("if") ||
                 nextLine.StartsWith("else") ||
-                nextLine.StartsWith("endc"))
+                nextLine.StartsWith("endc") ||
+                nextLine.StartsWith("elif"))
             {
                 // These are rare enough that they can be checked manually
                 return true;
