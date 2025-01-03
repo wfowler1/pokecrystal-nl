@@ -1571,7 +1571,7 @@ LinkTrade_TradeStatsMenu:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS	 RUIL@" ; "STATS     TRADE@"
+	db "STATS    RUIL@" ; "STATS     TRADE@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
