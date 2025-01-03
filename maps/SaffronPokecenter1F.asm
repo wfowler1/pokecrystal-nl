@@ -40,73 +40,73 @@ SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
 SaffronPokecenter1FTeacherText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Hoe zijn de" ; "What are JOHTO's"
+	line "#MONCENTRA in" ; "#MON CENTERS"
+	cont "JOHTO?" ; "like?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "…Oh, oké. Dus" ; "…Oh, I see. So"
+	line "niet heel anders" ; "they're not much"
 
-	para "different from the"
-	line "ones in KANTO."
+	para "dan degenen hier" ; "different from the"
+	line "in KANTO." ; "ones in KANTO."
 
-	para "I can go to JOHTO"
-	line "without worrying,"
-	cont "then!"
+	para "Dan kan ik zonder" ; "I can go to JOHTO"
+	line "zorgen naar JOHTO!" ; "without worrying,"
+	;cont "JOHTO!" ; "then!"
 	done
 
 SaffronPokecenter1FTeacherMobileText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Hoe zijn de" ; "What are JOHTO's"
+	line "#MONCENTRA in" ; "#MON CENTERS"
+	cont "JOHTO?" ; "like?"
 
-	para "…Oh, I see."
-	line "So they let you"
+	para "Oh, oké. Dus ze" ; "…Oh, I see."
+	line "laten je linken" ; "So they let you"
 
-	para "link with people"
-	line "far away?"
+	para "met mensen van" ; "link with people"
+	line "ver weg?" ; "far away?"
 
-	para "Then I'll get my"
-	line "friend in JOHTO to"
+	para "Dan zal ik mijn" ; "Then I'll get my"
+	line "vriend in JOHTO" ; "friend in JOHTO to"
 
-	para "catch a MARILL and"
-	line "trade it to me!"
+	para "een MARILL laten" ; "catch a MARILL and"
+	line "vangen en ruilen!" ; "trade it to me!"
 	done
 
 SaffronPokecenter1FFisherText:
-	text "I just happened to"
-	line "come through ROCK"
+	text "Ik kwam toevallig" ; "I just happened to"
+	line "door ROTSTUNNEL." ; "come through ROCK"
 
-	para "TUNNEL. There was"
-	line "some commotion at"
-	cont "the POWER PLANT."
+	para "Er was wat" ; "TUNNEL. There was"
+	line "commotie bij de" ; "some commotion at"
+	cont "ENERGIECENTRALE." ; "the POWER PLANT."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
-	text "Caves collapse"
-	line "easily."
+	text "Grotten storten" ; "Caves collapse"
+	line "makkelijk in." ; "easily."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "Verscheidene grot-" ; "Several caves have"
+	line "ten zijn verdwenen" ; "disappeared in the"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side CERULEAN."
+	para "in de afgelopen" ; "past few years,"
+	line "jaren, zoals die" ; "like the one out-"
+	cont "buiten CERULEAN." ; "side CERULEAN."
 
-	para "As a pro HIKER,"
-	line "that's common"
-	cont "knowledge."
+	para "Als een pro-" ; "As a pro HIKER,"
+	line "WANDELAAR is dat" ; "that's common"
+	cont "algemene kennis." ; "knowledge."
 	done
 
 SaffronPokecenter1FYoungsterText:
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "SILPH B.V's" ; "SILPH CO.'s HEAD"
+	line "HOOFDKANTOOR en" ; "OFFICE and the"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "het ZWEEFTREIN-" ; "MAGNET TRAIN STA-"
+	line "STATION--dat zijn" ; "TION--they're the"
 
-	para "places to see in"
-	line "SAFFRON."
+	para "de bezienswaardig-" ; "places to see in"
+	line "heden in SAFFRON." ; "SAFFRON."
 	done
 
 SaffronPokecenter1F_MapEvents:

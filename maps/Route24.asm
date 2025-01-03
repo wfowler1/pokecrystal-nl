@@ -35,85 +35,85 @@ Route24RocketScript:
 	end
 
 Route24RocketSeenText:
-	text "Hey, kid! Me am a"
-	line "TEAM ROCKET member"
-	cont "kind of guy!"
+	text "Hé, ettertje!" ; "Hey, kid! Me am a"
+	line "Een lid van TEAM" ; "TEAM ROCKET member"
+	cont "ROCKET ik ben!" ; "kind of guy!"
 
-	para "Come from another"
-	line "country, a trainer"
-	cont "number one, me!"
+	para "Uit ander land," ; "Come from another"
+	line "een trainer" ; "country, a trainer"
+	cont "nummer één, ik!" ; "number one, me!"
 
-	para "Think I did, if"
-	line "stop the energy,"
+	para "Denken deed ik," ; "Think I did, if"
+	line "als stop energie," ; "stop the energy,"
 
-	para "be big panic for"
-	line "here people!"
+	para "grote paniek hier" ; "be big panic for"
+	line "voor mensen!" ; "here people!"
 
-	para "Secret it is my"
-	line "mission, so tell"
-	cont "you I not!"
+	para "Geheim het is mijn" ; "Secret it is my"
+	line "missie, dus vertel" ; "mission, so tell"
+	cont "je ik niet!" ; "you I not!"
 
-	para "But! If win you do"
-	line "versus me, a man I"
+	para "Maar! Als win je" ; "But! If win you do"
+	line "tegen mij, een" ; "versus me, a man I"
 
-	para "be and mine secret"
-	line "to you I tell."
+	para "man ben ik en mijn" ; "be and mine secret"
+	line "geheim vertel." ; "to you I tell."
 
-	para "Hey, kid! Battle"
-	line "begin we do!"
+	para "Hé, snotneus!" ; "Hey, kid! Battle"
+	line "Vecht begin!" ; "begin we do!"
 	done
 
 Route24RocketBeatenText:
-	text "Ayieeeh! No, no,"
-	line "no, believe it I"
-	cont "can't!"
+	text "Aiii! Nee, nee," ; "Ayieeeh! No, no,"
+	line "nee, geloof ik" ; "no, believe it I"
+	cont "kan niet!" ; "can't!"
 
-	para "Strong very much"
-	line "be you! Match I am"
-	cont "not to you!"
+	para "Sterk heel zijn" ; "Strong very much"
+	line "jij! Kans ik" ; "be you! Match I am"
+	cont "niet maak jou!" ; "not to you!"
 	done
 
 Route24RocketAfterBattleText:
-	text "OK. Tell you mine"
-	line "secret will I."
+	text "Oké. Vertel ik" ; "OK. Tell you mine"
+	line "mijn geheim jou." ; "secret will I."
 
-	para "MACHINE PART steal"
-	line "by me, hide it I"
+	para "MACHINEDEEL steel" ; "MACHINE PART steal"
+	line "door mij, verstopt" ; "by me, hide it I"
 
-	para "did in GYM of the"
+	para "ik in GYM van de" ; "did in GYM of the"
 	line "CERULEAN."
 
-	para "Inside water put"
-	line "it I did. Look for"
+	para "In water stopte" ; "Inside water put"
+	line "deed ik. Zoek" ; "it I did. Look for"
 
-	para "in water center of"
-	line "GYM at."
+	para "in water midden" ; "in water center of"
+	line "van GYM." ; "GYM at."
 
-	para "But you forget me"
-	line "not!"
+	para "Maar mij niet" ; "But you forget me"
+	line "vergeten!" ; "not!"
 
-	para "Beat you for sure"
-	line "will TEAM ROCKET."
+	para "Versla jou zeker" ; "Beat you for sure"
+	line "zal TEAM ROCKET." ; "will TEAM ROCKET."
 
-	para "Come from JOHTO"
-	line "will they, mine"
+	para "Komen uit JOHTO" ; "Come from JOHTO"
+	line "zullen ze, mijn" ; "will they, mine"
 
-	para "friends, yes. Will"
-	line "revenge they are."
+	para "vrienden, ja." ; "friends, yes. Will"
+	line "Wraak zij nemen." ; "revenge they are."
 	done
 
 Route24RocketDisappearsText:
 	text "…"
 
-	para "You say what? TEAM"
-	line "ROCKET bye-bye a"
+	para "Je zegt wat? TEAM" ; "You say what? TEAM"
+	line "ROCKET houdt voor" ; "ROCKET bye-bye a"
 
-	para "go-go? Broken it"
-	line "is says you?"
+	para "gezien? Opgebroken" ; "go-go? Broken it"
+	line "zegt jij?" ; "is says you?"
 
-	para "Oh, no! Should I"
-	line "do what now on"
-	cont "from, me?"
+	para "Oh nee! Zal ik" ; "Oh, no! Should I"
+	line "doen wat nu vanaf?" ; "do what now on"
+	;cont "vanaf?" ; "from, me?"
 	done
 
 Route24_MapEvents:

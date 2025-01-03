@@ -252,7 +252,7 @@ PokefanfRuthAfterBattleText:
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "Het is Pikachu!" ; "PIKACHU is it!"
+	text "PIKACHU is het!" ; "PIKACHU is it!"
 	line "Vind je ook?" ; "Don't you agree?"
 	done
 

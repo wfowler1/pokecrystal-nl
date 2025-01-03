@@ -125,92 +125,93 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
-	text "I'm sorry, but the"
-	line "MAGNET TRAIN isn't"
-	cont "operating now."
+	text "Sorry, de" ; "I'm sorry, but the"
+	line "ZWEEFTREIN is" ; "MAGNET TRAIN isn't"
+	cont "buiten gebruik." ; "operating now."
 	done
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
-	text "We'll soon depart"
-	line "for GOLDENROD."
+	text "We vertrekken zo" ; "We'll soon depart"
+	line "naar GOLDENROD." ; "for GOLDENROD."
 
-	para "Are you coming on"
-	line "board?"
+	para "Kom je aan boord?" ; "Are you coming on"
+	;line "boord?" ; "board?"
 	done
 
 SaffronMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail PASS, please?"
+	text "Mag ik je" ; "May I see your"
+	line "TREINKAARTJE zien?" ; "rail PASS, please?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Oké. Deze kant" ; "OK. Right this"
+	line "op, alsjeblieft." ; "way, please."
 	done
 
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
-	text "Sorry, but you"
-	line "don't have a PASS."
+	text "Je hebt geen" ; "Sorry, but you"
+	line "TREINKAARTJE." ; "don't have a PASS."
 	done
 
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again."
+	text "Tot ziens!" ; "We hope to see you"
+	;line "" ; "again."
 	done
 
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
-	text "We have arrived in"
-	line "SAFFRON."
+	text "We zijn in SAFFRON" ; "We have arrived in"
+	line "aangekomen." ; "SAFFRON."
 
-	para "We hope to see you"
-	line "again."
+	para "Tot ziens!" ; "We hope to see you"
+	;line "" ; "again."
 	done
 
 SaffronMagnetTrainStationGymGuideText:
-	text "The MAGNET TRAIN"
-	line "is a super-modern"
+	text "De ZWEEFTREIN" ; "The MAGNET TRAIN"
+	line "is een super-" ; "is a super-modern"
 
-	para "rail liner that"
-	line "uses electricity"
+	para "moderne spoorlijn" ; "rail liner that"
+	line "die elektriciteit" ; "uses electricity"
 
-	para "and magnets to"
-	line "attain incredible"
-	cont "speed."
+	para "en magneten benut" ; "and magnets to"
+	line "om geweldige snel-" ; "attain incredible"
+	cont "heid te bereiken." ; "speed."
 
-	para "However, if there"
-	line "isn't any elec-"
-	cont "tricity…"
+	para "Maar als er geen" ; "However, if there"
+	line "elektriciteit is…" ; "isn't any elec-"
+	;cont "tricity…"
 	done
 
 SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
-	text "Whew…"
+	text "Poeh…" ; "Whew…"
 
-	para "How many times"
-	line "have I gone back"
+	para "Hoe vaak ben" ; "How many times"
+	line "ik heen en weer" ; "have I gone back"
 
-	para "and forth between"
-	line "KANTO and JOHTO?"
+	para "gegaan tussen" ; "and forth between"
+	line "KANTO en JOHTO?" ; "KANTO and JOHTO?"
 	done
 
 SaffronMagnetTrainStationTeacherText:
-	text "Before the MAGNET"
-	line "TRAIN STATION was"
+	text "Voordat het ZWEEF-" ; "Before the MAGNET"
+	line "TREINSTATION er" ; "TRAIN STATION was"
 
-	para "built, there was a"
-	line "house there."
+	para "was, was er een" ; "built, there was a"
+	line "huis daar." ; "house there."
 
-	para "A little girl"
-	line "named COPYCAT used"
-	cont "to live there."
+	para "Een klein meisje" ; "A little girl"
+	line "genaamd de NA-APER" ; "named COPYCAT used"
+	cont "woonde daar." ; "to live there."
 	done
 
 SaffronMagnetTrainStationLassText:
-	text "Hi. Do you have a"
-	line "rail PASS? I have"
+	text "Hoi. Heb je een" ; "Hi. Do you have a"
+	line "TREINKAARTJE? Ik" ; "rail PASS? I have"
 
-	para "one. All the peo-"
-	line "ple in SAFFRON who"
+	para "heb er een. Alle" ; "one. All the peo-"
+	line "mensen in SAFFRON" ; "ple in SAFFRON who"
 
-	para "ride the MAGNET"
-	line "TRAIN have PASSES."
+	para "die de ZWEEFTREIN" ; "ride the MAGNET"
+	line "nemen, hebben" ; "TRAIN have PASSES."
+	cont "TREINKAARTJES." ;
 	done
 
 SaffronMagnetTrainStation_MapEvents:
