@@ -21,18 +21,17 @@ SaffronMartCooltrainerFScript:
 	jumptextfaceplayer SaffronMartCooltrainerFText
 
 SaffronMartCooltrainerMText:
-	text "There's a big"
-	line "RADIO TOWER in"
-	cont "LAVENDER."
+	text "In LAVENDER is een" ; "There's a big"
+	line "grote RADIOTOREN." ; "RADIO TOWER in"
 	done
 
 SaffronMartCooltrainerFText:
-	text "I want to become"
-	line "stronger, but I'm"
-	cont "not good yet…"
+	text "Ik wil sterker" ; "I want to become"
+	line "worden, maar ik" ; "stronger, but I'm"
+	cont "ben nog niet goed…" ; "not good yet…"
 
-	para "Could you show me"
-	line "how sometime?"
+	para "Zou je het eens" ; "Could you show me"
+	line "voor kunnen doen?" ; "how sometime?"
 	done
 
 SaffronMart_MapEvents:
