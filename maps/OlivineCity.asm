@@ -214,7 +214,7 @@ OlivineCitySailor1Text:
 	line "donker van de" ; "black of night,"
 
 	para "nacht, is de zee" ; "the sea is even"
-	line "nog verraderlijker!" ; "more treacherous!"
+	line "verraderlijker!" ; "more treacherous!"
 
 	para "Zonder het baken" ; "Without the beacon"
 	line "van de VUURTOREN" ; "of the LIGHTHOUSE"
