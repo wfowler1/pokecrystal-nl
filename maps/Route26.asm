@@ -323,16 +323,16 @@ CooltrainerfJoyceAfterBattleText:
 	text "Ik heb acht" ; "I've defeated"
 	line "GYMLEIDERS ver-" ; "eight GYM LEADERS,"
 
-	para "slagen, dus ik" ; "so I was feeling"
-	line "was vol vertrouwen." ; "confident."
+	para "slagen, dus ik was" ; "so I was feeling"
+	line "vol vertrouwen." ; "confident."
 
 	para "Ik moet harder m'n" ; "I'll have to try"
 	line "best doen." ; "harder next time."
 	done
 
 CooltrainerfBeth1SeenText:
-	text "Ik verloor tegen" ; "I lost to a train-"
-	line "een trainer genaamd" ; "er named <RIVAL>."
+	text "Ik verloor van een" ; "I lost to a train-"
+	line "trainer genaamd" ; "er named <RIVAL>."
 
 	para "<RIVAL>. Hij was" ; "He was really"
 	line "erg sterk, maar…" ; "strong, but…"

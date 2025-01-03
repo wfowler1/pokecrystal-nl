@@ -69,8 +69,8 @@ SandstormHouseSandstormDescription:
 	;line "ZANDSTORM." ; "SANDSTORM."
 
 	para "Het is een aanval" ; "It's a move that"
-	line "die schade doet aan" ; "inflicts damage on"
-	cont "beide vechters." ; "both battlers."
+	line "beide trainers" ; "inflicts damage on"
+	cont "schade aanricht." ; "both battlers."
 
 	para "Het is alleen voor" ; "It's for advanced"
 	line "gevorderde" ; "trainers only."

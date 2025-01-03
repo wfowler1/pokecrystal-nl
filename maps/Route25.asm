@@ -247,15 +247,15 @@ Route25MistyDateText:
 	cont "noemen?" ; "like you?"
 
 	para "Ettertjes! Je" ; "Pests! You heard"
-	line "hoort me, ettertje!" ; "me right, pest!"
+	line "hoort me ettertje!" ; "me right, pest!"
 
 	para "…"
 
 	para "…Oh? Die BADGES" ; "…Oh? Those BADGES"
 	line "die je hebt… Zijn" ; "you have… Are they"
-	cont "dat JOHTO-GYMBADGES?" ; "JOHTO GYM BADGES?"
+	cont "dat JOHTO-BADGES?" ; "JOHTO GYM BADGES?"
 
-	para "Als je er acht hebt," ; "If you have eight,"
+	para "Als je acht hebt," ; "If you have eight,"
 	line "ben je vast goed." ; "you must be good."
 
 	para "Oké dan. Kom naar" ; "OK, then. Come to"
@@ -364,8 +364,8 @@ SupernerdPatSeenText:
 	text "Mehehehe…" ; "Mufufufu…"
 
 	para "Ik heb niets met" ; "I have nothing to"
-	line "het zestal trainers" ; "do with the six-"
-	cont "te maken." ; "pack trainers."
+	line "het zestal" ; "do with the six-"
+	cont "trainers te maken." ; "pack trainers."
 
 	para "Ik wachtte hier om" ; "I waited here to"
 	line "je te verslaan" ; "beat you when you"
@@ -396,11 +396,11 @@ CooltrainermKevinNuggetText:
 	done
 
 CooltrainermKevinSeenText:
-	text "Maar nadat ik heb" ; "But after seeing"
-	line "gezien hoe je vecht," ; "how you battle, I"
+	text "Maar nu ik zag hoe" ; "But after seeing"
+	line "je vecht, wil ik," ; "how you battle, I"
 
-	para "wil ik weten hoe" ; "want to see how"
-	line "ik het doe." ; "I'll fare."
+	para "weten hoe ik het" ; "want to see how"
+	line "doe." ; "I'll fare."
 
 	para "Wat denk je? Laat" ; "How about it? Let"
 	line "mij je uitdagen." ; "me take you on."

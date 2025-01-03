@@ -363,8 +363,8 @@ CooltrainermBrianBeatenText:
 
 CooltrainermBrianAfterBattleText:
 	text "Een goede trainer" ; "A good trainer can"
-	line "kan andere goede" ; "recognize other"
-	cont "trainers herkennen." ; "good trainers."
+	line "herkent andere" ; "recognize other"
+	cont "goede trainers." ; "good trainers."
 	done
 
 CooltrainerfReenaSeenText:
