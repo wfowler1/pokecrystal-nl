@@ -34,8 +34,7 @@ The offset is translated into a correct bank by `FixPicBank` in [engine/gfx/load
 FixPicBank:
 ; This is a thing for some reason.
 
-DEF PICS_FIX EQU $36
-GLOBAL PICS_FIX
+EXPORT DEF PICS_FIX EQU $36
 
 	push hl
 	push bc
@@ -155,7 +154,7 @@ DEF footprint_bottom EQUS "2 * LEN_1BPP_TILE, 2 * LEN_1BPP_TILE"
 
 Footprints:
 ; Entries correspond to Pokémon species, two apiece, 8 tops then 8 bottoms
-	table_width LEN_1BPP_TILE * 4, Footprints
+	table_width LEN_1BPP_TILE * 4
 
 ; 001-008 top halves
 INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_top
@@ -187,7 +186,7 @@ Store footprints contiguously:
 ```asm
 
 Footprints:
-	table_width LEN_1BPP_TILE * 4, Footprints
+	table_width LEN_1BPP_TILE * 4
 
 INCBIN "gfx/footprints/bulbasaur.1bpp"
 INCBIN "gfx/footprints/ivysaur.1bpp"
