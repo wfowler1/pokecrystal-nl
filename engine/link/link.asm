@@ -598,7 +598,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "EVEN GEDULD!" ; "PLEASE WAIT!@"
+	db "EVEN GEDULD!@" ; "PLEASE WAIT!@"
 
 ClearLinkData:
 	ld hl, wLinkData
