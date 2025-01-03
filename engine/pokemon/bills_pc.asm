@@ -20,7 +20,7 @@ _DepositPKMN:
 .loop
 	call JoyTextDelay
 	ld a, [wJumptableIndex]
-	bit 7, a
+	bit JUMPTABLE_EXIT_F, a
 	jr nz, .done
 	call .RunJumptable
 	call DelayFrame
@@ -276,7 +276,7 @@ _WithdrawPKMN:
 .loop
 	call JoyTextDelay
 	ld a, [wJumptableIndex]
-	bit 7, a
+	bit JUMPTABLE_EXIT_F, a
 	jr nz, .done
 	call .RunJumptable
 	call DelayFrame
@@ -516,7 +516,7 @@ _MovePKMNWithoutMail:
 .loop
 	call JoyTextDelay
 	ld a, [wJumptableIndex]
-	bit 7, a
+	bit JUMPTABLE_EXIT_F, a
 	jr nz, .done
 	call .RunJumptable
 	call DelayFrame
@@ -796,7 +796,7 @@ BillsPC_IncrementJumptableIndex:
 
 BillsPC_EndJumptableLoop:
 	ld hl, wJumptableIndex
-	set 7, [hl]
+	set JUMPTABLE_EXIT_F, [hl]
 	ret
 
 _StatsScreenDPad:
@@ -1918,6 +1918,10 @@ ReleasePKMN_ByePKMN:
 	call DelayFrames
 	ret
 
+; move pkmn w/o mail jumptable bits
+DEF MOVE_MON_FROM_PARTY_F EQU 0
+DEF MOVE_MON_TO_PARTY_F   EQU 1
+
 MovePKMNWithoutMail_InsertMon:
 	push hl
 	push de
@@ -1941,13 +1945,13 @@ MovePKMNWithoutMail_InsertMon:
 	ld a, [wBillsPC_BackupLoadedBox]
 	and a
 	jr nz, .moving_from_box
-	set 0, c
+	set MOVE_MON_FROM_PARTY_F, c
 
 .moving_from_box
 	ld a, [wBillsPC_LoadedBox]
 	and a
 	jr nz, .moving_to_box
-	set 1, c
+	set MOVE_MON_TO_PARTY_F, c
 
 .moving_to_box
 	ld hl, .Jumptable
@@ -2152,7 +2156,7 @@ GetBoxPointer:
 	ret
 
 .BoxBankAddresses:
-	table_width 3, GetBoxPointer.BoxBankAddresses
+	table_width 3
 for n, 1, NUM_BOXES + 1
 	dba sBox{d:n}
 endr
@@ -2359,7 +2363,7 @@ GetBoxCount:
 	ret
 
 .BoxBankAddresses:
-	table_width 3, GetBoxCount.BoxBankAddresses
+	table_width 3
 for n, 1, NUM_BOXES + 1
 	dba sBox{d:n}
 endr

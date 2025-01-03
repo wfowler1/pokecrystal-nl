@@ -34,8 +34,7 @@ The offset is translated into a correct bank by `FixPicBank` in [engine/gfx/load
 FixPicBank:
 ; This is a thing for some reason.
 
-DEF PICS_FIX EQU $36
-GLOBAL PICS_FIX
+EXPORT DEF PICS_FIX EQU $36
 
 	push hl
 	push bc
@@ -155,7 +154,7 @@ DEF footprint_bottom EQUS "2 * LEN_1BPP_TILE, 2 * LEN_1BPP_TILE"
 
 Footprints:
 ; Entries correspond to Pokémon species, two apiece, 8 tops then 8 bottoms
-	table_width LEN_1BPP_TILE * 4, Footprints
+	table_width LEN_1BPP_TILE * 4
 
 ; 001-008 top halves
 INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_top
@@ -187,7 +186,7 @@ Store footprints contiguously:
 ```asm
 
 Footprints:
-	table_width LEN_1BPP_TILE * 4, Footprints
+	table_width LEN_1BPP_TILE * 4
 
 INCBIN "gfx/footprints/bulbasaur.1bpp"
 INCBIN "gfx/footprints/ivysaur.1bpp"
@@ -248,7 +247,8 @@ Redefine the special music constants in [constants/music_constants.asm](https://
 
 ```diff
 -; GetMapMusic picks music for this value (see home/map.asm)
--DEF MUSIC_MAHOGANY_MART EQU $64
+-; this overlaps with a Crystal song ID, but not one that is used for map music
+-DEF MUSIC_MAHOGANY_MART EQU MUSIC_SUICUNE_BATTLE
 +; GetMapMusic picks music for these values (see home/map.asm)
 +DEF MUSIC_MAHOGANY_MART EQU $fc
 +DEF MUSIC_RADIO_TOWER   EQU $fd
@@ -256,10 +256,12 @@ Redefine the special music constants in [constants/music_constants.asm](https://
  ; ExitPokegearRadio_HandleMusic uses these values
  DEF RESTART_MAP_MUSIC EQU $fe
  DEF ENTER_MAP_MUSIC   EQU $ff
--
+
 -; GetMapMusic picks music for this bit flag
--DEF RADIO_TOWER_MUSIC_F EQU 7
--DEF RADIO_TOWER_MUSIC EQU 1 << RADIO_TOWER_MUSIC_F
+-	const_def 7
+-	shift_const RADIO_TOWER_MUSIC
+-assert NUM_MUSIC_SONGS <= RADIO_TOWER_MUSIC, "song IDs overlap RADIO_TOWER_MUSIC"
++assert NUM_MUSIC_SONGS <= MUSIC_MAHOGANY_MART, "song IDs overlap special values"
 ```
 
 Edit `GetMapMusic`:

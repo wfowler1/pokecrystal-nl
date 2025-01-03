@@ -477,8 +477,7 @@ MobilePassword_IncrementJumptable:
 	inc [hl]
 	ret
 
-pushc
-setcharmap ascii
+pushc ascii
 
 Unknown_117a0f:
 	db "ABCDEFGHIJKLMNOPQRSTUVWXYZ  "
@@ -489,6 +488,7 @@ Unknown_117a47:
 	db "!\"#$%&'()*+   "
 	db ",-./:;<=>?@   "
 	db "[\\]^_`\{|}~    "
+
 popc
 
 ; everything from here to the end of the bank is related to the
@@ -532,7 +532,7 @@ Function117ab4:
 Function117acd:
 	call JoyTextDelay
 	ld a, [wJumptableIndex]
-	bit 7, a
+	bit JUMPTABLE_EXIT_F, a
 	jr nz, .asm_117ae2
 	call Function117ae9
 	farcall HDMATransferAttrmapAndTilemapToWRAMBank3
@@ -640,7 +640,7 @@ Function117b4f:
 	call ExitMenu
 	call ExitMenu
 	farcall HDMATransferTilemapAndAttrmap_Overworld
-	ld a, $80
+	ld a, JUMPTABLE_EXIT
 	ld [wJumptableIndex], a
 	ret
 
@@ -659,12 +659,12 @@ Function117bb6:
 	ld a, $2
 	ld [wc303], a
 	farcall DisplayMobileError
-	ld a, $80
+	ld a, JUMPTABLE_EXIT
 	ld [wJumptableIndex], a
 	ret
 
 .asm_117be1
-	ld a, $80
+	ld a, JUMPTABLE_EXIT
 	ld [wJumptableIndex], a
 	ret
 
@@ -749,7 +749,7 @@ Function117c4a:
 	call RotateThreePalettesRight
 	pop af
 	ldh [rSVBK], a
-	ld a, $80
+	ld a, JUMPTABLE_EXIT
 	ld [wJumptableIndex], a
 	ret
 

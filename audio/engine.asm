@@ -223,7 +223,7 @@ UpdateChannels:
 	jp hl
 
 .ChannelFunctions:
-	table_width 2, UpdateChannels.ChannelFunctions
+	table_width 2
 ; music channels
 	dw .Channel1
 	dw .Channel2
@@ -1371,7 +1371,7 @@ ParseMusicCommand:
 
 MusicCommands:
 ; entries correspond to audio constants (see macros/scripts/audio.asm)
-	table_width 2, MusicCommands
+	table_width 2
 	dw Music_Octave8
 	dw Music_Octave7
 	dw Music_Octave6
@@ -2205,8 +2205,8 @@ SetNoteDuration:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	; add ??? to the next result
-	ld hl, CHANNEL_FIELD16
+	; add duration modifier to the next result
+	ld hl, CHANNEL_NOTE_DURATION_MODIFIER
 	add hl, bc
 	ld l, [hl]
 	; multiply Tempo by last result (NoteLength * LOW(delay))
@@ -2214,11 +2214,10 @@ SetNoteDuration:
 	; copy result to de
 	ld e, l
 	ld d, h
-	; store result in ???
-	ld hl, CHANNEL_FIELD16
+	; store result in NoteDuration and NoteDurationModifier
+	ld hl, CHANNEL_NOTE_DURATION_MODIFIER
 	add hl, bc
 	ld [hl], e
-	; store result in NoteDuration
 	ld hl, CHANNEL_NOTE_DURATION
 	add hl, bc
 	ld [hl], d
@@ -2283,9 +2282,9 @@ Tempo:
 	ld [hl], e
 	inc hl
 	ld [hl], d
-	; clear ???
+	; clear duration modifier
 	xor a
-	ld hl, CHANNEL_FIELD16
+	ld hl, CHANNEL_NOTE_DURATION_MODIFIER
 	add hl, bc
 	ld [hl], a
 	ret
@@ -2783,7 +2782,7 @@ StereoTracks:
 	db $11, $22, $44, $88
 
 ChannelPointers:
-	table_width 2, ChannelPointers
+	table_width 2
 ; music channels
 	dw wChannel1
 	dw wChannel2

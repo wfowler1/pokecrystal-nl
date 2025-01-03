@@ -462,7 +462,7 @@ DoPlayerMovement::
 
 .Steps:
 ; entries correspond to STEP_* constants (see constants/map_object_constants.asm)
-	table_width 2, DoPlayerMovement.Steps
+	table_width 2
 	dw .SlowStep
 	dw .NormalStep
 	dw .FastStep
@@ -665,7 +665,7 @@ ENDM
 
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
-	set 2, [hl]
+	set BOULDER_MOVING_F, [hl]
 
 	ld a, [wWalkingDirection]
 	ld d, a

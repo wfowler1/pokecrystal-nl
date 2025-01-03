@@ -1100,10 +1100,16 @@ This can occur if your party and current PC box are both full when you start the
 
 ### Moon Ball does not boost catch rate
 
+The Moon Ball checks the wrong memory address for the wrong item ID, so no Pokémon can receive the boost.
+
 **Fix:** Edit `MoonBallMultiplier` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
 ```diff
 -; BUG: Moon Ball does not boost catch rate (see docs/bugs_and_glitches.md)
+ 	inc hl
+-	inc hl
+-	inc hl
+
  	push bc
  	ld a, BANK("Evolutions and Attacks")
  	call GetFarByte
@@ -1112,6 +1118,8 @@ This can occur if your party and current PC box are both full when you start the
  	pop bc
  	ret nz
 ```
+
+Note that this fix only accounts for Pokémon that evolve via Moon Stone as their first evolution method. However, that is sufficient to cover all Pokémon in the game that can evolve by Moon Stone.
 
 
 ### Love Ball boosts catch rate for the wrong gender
@@ -1259,13 +1267,13 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Smart" AI does not encourage Solar Beam, Flame Wheel, or Moonlight during Sunny Day
+### "Smart" AI does not encourage Sunny Day when it knows Solar Beam, Flame Wheel, or Moonlight
 
 **Fix:** Edit `SunnyDayMoves` in [data/battle/ai/sunny_day_moves.asm](https://github.com/pret/pokecrystal/blob/master/data/battle/ai/sunny_day_moves.asm):
 
 ```diff
  SunnyDayMoves:
--; BUG: "Smart" AI does not encourage Solar Beam, Flame Wheel, or Moonlight during Sunny Day (see docs/bugs_and_glitches.md)
+-; BUG: "Smart" AI does not encourage Sunny Day when it knows Solar Beam, Flame Wheel, or Moonlight (see docs/bugs_and_glitches.md)
  	db FIRE_PUNCH
  	db EMBER
  	db FLAMETHROWER
@@ -1289,7 +1297,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
  .FutureSight:
 -; BUG: AI does not discourage Future Sight when it's already been used (see docs/bugs_and_glitches.md)
 -	ld a, [wEnemyScreens]
--	bit 5, a
+-	bit SCREENS_UNUSED, a
 +	ld a, [wEnemyFutureSightCount]
 +	and a
  	ret
@@ -2000,7 +2008,7 @@ Finally, edit [engine/battle/read_trainer_party.asm](https://github.com/pret/pok
 +	ld [wCurPartyLevel], a
 +
 +	ld a, [wInBattleTowerBattle]
-+	bit 0, a
++	bit IN_BATTLE_TOWER_BATTLE_F, a
 +	ret nz
 +
 +	ld a, [wLinkMode]
@@ -2055,6 +2063,7 @@ Most trainer classes always use the same sprite and color for their overworld NP
 - [maps/Route44.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route44.asm): `TrainerPokemaniacZach` should use `PAL_NPC_BLUE`, not `PAL_NPC_GREEN`
 - [maps/UnionCaveB2F.asm](https://github.com/pret/pokecrystal/blob/master/maps/UnionCaveB2F.asm): `TrainerCooltrainermNick` should use `SPRITE_COOLTRAINER_M`, not `SPRITE_ROCKER`
 - [maps/FuchsiaPokecenter1F.asm](https://github.com/pret/pokecrystal/blob/master/maps/FuchsiaPokecenter1F.asm): `FuchsiaPokecenter1FNurseScript` should use `PAL_NPC_RED`, not `PAL_NPC_GREEN`
+- [maps/IlexForest.asm](https://github.com/pret/pokecrystal/blob/master/maps/IlexForest.asm): `TrainerBugCatcherWayne` should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_GREEN`
 
 Most of the NPCs in [maps/NationalParkBugContest.asm](https://github.com/pret/pokecrystal/blob/master/maps/NationalParkBugContest.asm) and [maps/Route36NationalParkGate.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route36NationalParkGate.asm) are also inconsistent with their trainers from other maps:
 

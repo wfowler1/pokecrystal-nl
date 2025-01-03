@@ -104,7 +104,7 @@ tools:
 	$(MAKE) -C tools/
 
 
-RGBASMFLAGS = -Q8 -P includes.asm -Weverything -Wnumeric-string=2 -Wtruncation=1
+RGBASMFLAGS = -Q8 -P includes.asm -Weverything -Wtruncation=1
 # Create a sym/map for debug purposes if `make` run with `DEBUG=1`
 ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
@@ -117,7 +117,7 @@ $(pokecrystal_debug_obj):   RGBASMFLAGS += -D _DEBUG
 $(pokecrystal11_debug_obj): RGBASMFLAGS += -D _CRYSTAL11 -D _DEBUG
 $(pokecrystal11_vc_obj):    RGBASMFLAGS += -D _CRYSTAL11 -D _CRYSTAL11_VC
 
-%.patch: vc/%.constants.sym %_vc.gbc %.gbc vc/%.patch.template
+%.patch: %_vc.gbc %.gbc vc/%.patch.template
 	tools/make_patch $*_vc.sym $^ $@
 
 rgbdscheck.o: rgbdscheck.asm
@@ -146,19 +146,15 @@ $(foreach obj, $(pokecrystal_debug_obj), $(eval $(call DEP,$(obj),$(obj:_debug.o
 $(foreach obj, $(pokecrystal11_debug_obj), $(eval $(call DEP,$(obj),$(obj:11_debug.o=.asm))))
 $(foreach obj, $(pokecrystal11_vc_obj), $(eval $(call DEP,$(obj),$(obj:11_vc.o=.asm))))
 
-# Dependencies for VC files that need to run scan_includes
-%.constants.sym: %.constants.asm $(shell tools/scan_includes %.constants.asm) $(preinclude_deps) | rgbdscheck.o
-	$(RGBASM) $(RGBASMFLAGS) $< > $@
-
 endif
 
 
-pokecrystal_opt         = -Cjv -t PM_CRYSTAL -i BYTE -n 0 -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokecrystal11_opt       = -Cjv -t PM_CRYSTAL -i BYTE -n 1 -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokecrystal_au_opt      = -Cjv -t PM_CRYSTAL -i BYTU -n 0 -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokecrystal_debug_opt   = -Cjv -t PM_CRYSTAL -i BYTE -n 0 -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokecrystal11_debug_opt = -Cjv -t PM_CRYSTAL -i BYTE -n 1 -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokecrystal11_vc_opt    = -Cjv -t PM_CRYSTAL -i BYTE -n 1 -k 01 -l 0x33 -m 0x10 -r 3 -p 0
+pokecrystal_opt         = -Cjv -t PM_CRYSTAL -i BYTE -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal11_opt       = -Cjv -t PM_CRYSTAL -i BYTE -n 1 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal_au_opt      = -Cjv -t PM_CRYSTAL -i BYTU -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal_debug_opt   = -Cjv -t PM_CRYSTAL -i BYTE -n 0 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal11_debug_opt = -Cjv -t PM_CRYSTAL -i BYTE -n 1 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokecrystal11_vc_opt    = -Cjv -t PM_CRYSTAL -i BYTE -n 1 -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
 
 %.gbc: $$(%_obj) layout.link
 	$(RGBLINK) -n $*.sym -m $*.map -l layout.link -o $@ $(filter %.o,$^)
@@ -207,14 +203,48 @@ gfx/pokemon/girafarig/front.animated.tilemap: gfx/pokemon/girafarig/front.2bpp g
 	tools/pokemon_animation_graphics --girafarig -t $@ $^
 
 
+### Pokemon and trainer sprite rules
+
+gfx/pokemon/%/back.2bpp: rgbgfx += --columns
+gfx/pokemon/%/back.2bpp: gfx/pokemon/%/back.png gfx/pokemon/%/normal.gbcpal
+	$(RGBGFX) $(rgbgfx) --colors gbc:$(word 2,$^) -o $@ $<
+gfx/pokemon/%/front.2bpp: gfx/pokemon/%/front.png gfx/pokemon/%/normal.gbcpal
+	$(RGBGFX) $(rgbgfx) --colors gbc:$(word 2,$^) -o $@ $<
+gfx/pokemon/%/normal.gbcpal: gfx/pokemon/%/front.gbcpal gfx/pokemon/%/back.gbcpal
+	tools/gbcpal $(tools/gbcpal) $@ $^
+
+gfx/trainers/%.2bpp: rgbgfx += --columns
+gfx/trainers/%.2bpp: gfx/trainers/%.png gfx/trainers/%.gbcpal
+	$(RGBGFX) $(rgbgfx) --colors gbc:$(word 2,$^) -o $@ $<
+
+# Egg does not have a back sprite, so it only uses front.gbcpal
+gfx/pokemon/egg/front.2bpp: gfx/pokemon/egg/front.png gfx/pokemon/egg/front.gbcpal
+gfx/pokemon/egg/front.2bpp: rgbgfx += --colors gbc:$(word 2,$^)
+
+# Unown letters share one normal.gbcpal
+unown_pngs := $(wildcard gfx/pokemon/unown_*/front.png) $(wildcard gfx/pokemon/unown_*/back.png)
+$(foreach png, $(unown_pngs),\
+	$(eval $(png:.png=.2bpp): $(png) gfx/pokemon/unown/normal.gbcpal))
+gfx/pokemon/unown_%/back.2bpp: rgbgfx += --colors gbc:$(word 2,$^)
+gfx/pokemon/unown_%/front.2bpp: rgbgfx += --colors gbc:$(word 2,$^)
+gfx/pokemon/unown/normal.gbcpal: $(subst .png,.gbcpal,$(unown_pngs))
+	tools/gbcpal $(tools/gbcpal) $@ $^
+
+
 ### Misc file-specific graphics rules
 
-gfx/pokemon/%/back.2bpp: rgbgfx += --columns --colors embedded
-gfx/pokemon/%/front.2bpp: rgbgfx += --colors embedded
-
-gfx/trainers/%.2bpp: rgbgfx += --columns --colors embedded
-
 gfx/pokemon/egg/unused_front.2bpp: rgbgfx += --columns
+
+gfx/pokemon/spearow/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/fearow/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/farfetch_d/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/hitmonlee/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/scyther/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/jynx/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/porygon/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/porygon2/normal.gbcpal: tools/gbcpal += --reverse
+
+gfx/trainers/swimmer_m.gbcpal: tools/gbcpal += --reverse
 
 gfx/new_game/shrink1.2bpp: rgbgfx += --columns
 gfx/new_game/shrink2.2bpp: rgbgfx += --columns
@@ -307,15 +337,16 @@ gfx/mobile/stadium2_n64.2bpp: tools/gfx += --trim-whitespace
 %.2bpp: %.png
 	$(RGBGFX) $(rgbgfx) -o $@ $<
 	$(if $(tools/gfx),\
-		tools/gfx $(tools/gfx) -o $@ $@)
+		tools/gfx $(tools/gfx) -o $@ $@ || $$($(RM) $@ && false))
 
 %.1bpp: %.png
 	$(RGBGFX) $(rgbgfx) --depth 1 -o $@ $<
 	$(if $(tools/gfx),\
-		tools/gfx $(tools/gfx) --depth 1 -o $@ $@)
+		tools/gfx $(tools/gfx) --depth 1 -o $@ $@ || $$($(RM) $@ && false))
 
 %.gbcpal: %.png
-	$(RGBGFX) --colors embedded -p $@ $<
+	$(RGBGFX) -p $@ $<
+	tools/gbcpal $(tools/gbcpal) $@ $@ || $$($(RM) $@ && false)
 
 %.dimensions: %.png
 	tools/png_dimensions $< $@

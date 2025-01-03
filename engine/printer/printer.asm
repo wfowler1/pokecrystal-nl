@@ -4,7 +4,7 @@ SendScreenToPrinter:
 	call CheckCancelPrint
 	jr c, .cancel
 	ld a, [wJumptableIndex]
-	bit 7, a
+	bit JUMPTABLE_EXIT_F, a
 	jr nz, .finished
 	call PrinterJumptableIteration
 	call CheckPrinterStatus
@@ -245,7 +245,7 @@ PrintUnownStamp:
 	call CheckCancelPrint
 	jr c, .done
 	ld a, [wJumptableIndex]
-	bit 7, a
+	bit JUMPTABLE_EXIT_F, a
 	jr nz, .done
 	call PrinterJumptableIteration
 	ld a, [wJumptableIndex]
@@ -524,12 +524,12 @@ CheckPrinterStatus:
 	jr z, .error_2
 .printer_connected
 	ld a, [wPrinterStatusFlags]
-	and %11100000
+	and PRINTER_STATUS_ERROR_3 | PRINTER_STATUS_ERROR_4 | PRINTER_STATUS_ERROR_1
 	ret z ; no error
 
-	bit 7, a
+	bit PRINTER_STATUS_ERROR_1_F, a
 	jr nz, .error_1
-	bit 6, a
+	bit PRINTER_STATUS_ERROR_4_F, a
 	jr nz, .error_4
 	; paper error
 	ld a, PRINTER_ERROR_3
