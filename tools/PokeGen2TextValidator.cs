@@ -873,6 +873,8 @@ namespace PokeGen2TextValidator
             { "{d:CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS}", 4 },
             { "{d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}", 4 },
             { "{d:CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS}", 4 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_MR_MIME_COINS}", 4 },
+            { "{d:CELADONGAMECORNERPRIZEROOM_EEVEE_COINS}", 4 },
             { "{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}", 3 },
             { "{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}", 3 },
             { "{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}", 3 },
@@ -996,7 +998,7 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№";
+        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲";
 
         private Block _block;
         private StringBuilder output;

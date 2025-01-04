@@ -387,8 +387,7 @@ _MomItsInYourRoomText::
 _MonWasSentToText::
 	text_ram wPlayerTrademonSpeciesName
 	text " werd" ; " was"
-	line "gestuurd naar" ; "sent to @"
-	cont "@"
+	line "ging naar @" ; "sent to @"
 	text_ram wOTTrademonSenderName
 	text "."
 	done

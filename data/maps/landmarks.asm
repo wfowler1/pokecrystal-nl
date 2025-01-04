@@ -145,7 +145,7 @@ CinnabarIslandName:  db "CINNABAR<BSP>EILAND@" ; "CINNABAR<BSP>ISLAND@"
 IndigoPlateauName:   db "INDIGO<BSP>PLATEAU@"
 VictoryRoadName:     db "VICTORY<BSP>ROAD@"
 MtMoonName:          db "MAANBERG@" ; "MT.MOON@"
-RockTunnelName:      db "ROTSTUNNEL@"
+RockTunnelName:      db "ROTSTUNNEL@" ; "ROCK TUNNEL@"
 LavRadioTowerName:   db "LAV<BSP>RADIOTOREN@" ; "LAV<BSP>RADIO TOWER@"
 SilphCoName:         db "SILPH CO.@" ; unreferenced
 SafariZoneName:      db "SAFARI-ZONE@" ; "SAFARI ZONE@" ; unreferenced
