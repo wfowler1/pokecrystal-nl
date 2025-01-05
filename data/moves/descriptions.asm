@@ -869,7 +869,7 @@ SplashDescription:
 
 AcidArmorDescription:
 	db   "Verhoogt" ; "Sharply raises the"
-	next "VERDEDIGING flink.@" ; "user's DEFENSE.@"
+	next "AFWEER flink.@" ; "user's DEFENSE.@"
 
 CrabhammerDescription:
 	db   "Heeft hoge kans op" ; "Has a high criti-"
@@ -1188,7 +1188,7 @@ SweetScentDescription:
 	next "ing tegenstander.@" ; "evasiveness.@"
 
 IronTailDescription:
-	db   "Kan VERDEDIGING" ; "An attack that may"
+	db   "Kan AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "reduce DEFENSE.@"
 
 MetalClawDescription:
@@ -1260,7 +1260,7 @@ FutureSightDescription:
 	next "in derde beurt.@" ; "hits on 3rd turn.@"
 
 RockSmashDescription:
-	db   "Kan VERDEDIGING" ; "An attack that may"
+	db   "Kan AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower DEFENSE.@"
 
 WhirlpoolDescription:

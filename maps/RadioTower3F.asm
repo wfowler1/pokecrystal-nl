@@ -195,10 +195,10 @@ RadioTower3FCooltrainerFPleaseSaveDirectorText:
 	cont "zelf opgesloten." ; "himself in."
 
 	para "Maar de DIRECTEUR" ; "But the DIRECTOR"
-	line "kan 't openen." ; "can open it."
+	line "kan het openen." ; "can open it."
 
 	para "Hij is boven," ; "He's up on the"
-	line "op de vijfde." ; "fifth floor."
+	line "op de vierde." ; "fifth floor."
 
 	para "Red hem," ; "Please save him!"
 	line "alsjeblieft!" ; 
@@ -252,7 +252,7 @@ GruntM7AfterBattleText:
 	done
 
 GruntM8SeenText:
-	text "Het voelt top" ; "It feels great"
+	text "Het voelt geweldig" ; "It feels great"
 	line "#MON te bevelen" ; "ordering #MON"
 	cont "om misdaad te" ; "to commit crimes."
 	cont "plegen." ;
@@ -264,7 +264,7 @@ GruntM8BeatenText:
 
 GruntM8AfterBattleText:
 	text "Ik voel me beroerd" ; "I feel lousy over"
-	line "over verliezen!" ; "losing!"
+	line "over mijn verlies!" ; "losing!"
 
 	para "Verdorie! Ik haat" ; "Darn it! I hate"
 	line "nutteloze #MON!" ; "useless #MON!"

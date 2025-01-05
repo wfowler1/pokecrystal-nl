@@ -213,9 +213,9 @@ FakeDirectorTextBefore2:
 	cont "DIRECTEUR hebben" ; "the real DIRECTOR?"
 	cont "verstopt?" ; 
 
-	para "Tuurlijk, ik ver-" ; "Sure, I'll tell"
-	line "tel het. Als" ; "you. But only if"
-	cont "je me verslaat!" ; "you can beat me!"
+	para "Ja hoor, ik zal" ; "Sure, I'll tell"
+	line "het zeggen. Al je" ; "you. But only if"
+	cont "mij verslaat!" ; "you can beat me!"
 	done
 
 FakeDirectorWinText:
@@ -230,7 +230,7 @@ FakeDirectorTextAfter:
 	para "verstopt in de" ; "the UNDERGROUND"
 	line "OPSLAGKELDER." ; "WAREHOUSE."
 
-	para "Het is aan 't" ; "It's at the far"
+	para "Het is aan het" ; "It's at the far"
 	line "einde van het" ; "end of the UNDER-"
 	cont "ONDERGRONDSE." ; "GROUND."
 
