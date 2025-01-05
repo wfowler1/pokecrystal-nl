@@ -358,7 +358,7 @@ MahoganyGymGuideText:
 	para "Hij schijnt goed" ; "He's said to be"
 	line "te zijn in tegen-" ; "good at freezing"
 
-	para "standers bevriezen-" ; "opponents with"
+	para "standers bevriezen" ; "opponents with"
 	line "met ijs-aanvallen." ; "ice-type moves."
 
 	para "Dus je moet hem" ; "That means you"
