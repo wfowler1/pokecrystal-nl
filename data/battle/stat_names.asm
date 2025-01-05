@@ -2,10 +2,10 @@ StatNames: ; For printing during battles
 ; entries correspond to stat ids
 	list_start
 	li "AANVAL" ; "ATTACK"
-	li "VERDEDIG" ; "DEFENSE"
+	li "AFWEER" ; "DEFENSE"
 	li "SNELHEID" ; "SPEED"
 	li "SPCL.AAN" ; "SPCL.ATK"
-	li "SPCL.VER" ; "SPCL.DEF"
+	li "SPCL.AFW" ; "SPCL.DEF"
 	li "PRECISIE" ; "ACCURACY"
 	li "ONTWIJK" ; "EVASION"
 	li "VERMOGEN" ; "ABILITY" ; used for BattleCommand_Curse
