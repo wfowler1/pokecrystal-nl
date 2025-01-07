@@ -445,7 +445,7 @@ GruntM6AfterBattleText:
 
 	para "Ze hebben een of" ; "They have some big"
 	line "ander groot plan." ; "plan. I wonder"
-	cont "Wat zou 't zijn?" ; "what that is?"
+	cont "Wat zou het zijn?" ; "what that is?"
 	done
 
 GruntF2SeenText:

@@ -695,7 +695,7 @@ RockerBaseLanceElectrodeFaintText:
 	para "Dat zou deze" ; "That should stop"
 	line "machine moeten" ; "this machine from"
 
-	para "stoppen om dat" ; "transmitting that"
+	para "stoppen  dat" ; "transmitting that"
 	line "vreemde signaal" ; "strange signal."
 	cont "uit te zenden." ;
 
@@ -813,15 +813,15 @@ LanceHealsText2:
 	done
 
 GruntM17SeenText:
-	text "De deur gaat" ; "The door won't"
-	line "niet open?" ; "open?"
+	text "De deur gaat niet" ; "The door won't"
+	line "open?" ; "open?"
 
 	para "Ja, duh." ; "Well, duh."
 	line "Het heeft een" ; "It has to have a"
 
 	para "wachtwoord dat" ; "password that only"
-	line "alleen TEAM" ; "TEAM ROCKET knows."
-	cont "ROCKET weet." ;
+	line "alleen TEAM ROCKET" ; "TEAM ROCKET knows."
+	cont "weet." ;
 	done
 
 GruntM17BeatenText:
@@ -882,13 +882,13 @@ GruntM19AfterBattleText:
 	cont "die deur." ;
 
 	para "Waar is de baas?" ; "Where's the boss?"
-	line "Wie weet 't? Ga" ; "Who knows? Go look"
-	cont "zelf kijken." ; "for yourself."
+	line "Wie weet het? Ga" ; "Who knows? Go look"
+	cont "zelf maar zoeken." ; "for yourself."
 	done
 
 RocketBaseDoorNoPasswordText:
 	text "De deur is" ; "The door's closed…"
-	cont "op slot…" ;
+	line "op slot…" ;
 
 	para "Het heeft een" ; "It needs a pass-"
 	line "wachtwoord nodig" ; "word to open."

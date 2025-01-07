@@ -365,8 +365,8 @@ PlayersHouse1FSinkText:
 	done
 
 PlayersHouse1FFridgeText:
-	text "Eens zien wat er" ; "Let's see what's"
-	line "in de koelkast zit" ; "in the fridge…"
+	text "Eens zien wat in" ; "Let's see what's"
+	line "de koelkast zit…" ; "in the fridge…"
 
 	para "VERS WATER en" ; "FRESH WATER and"
 	line "lekkere LIMONADE!" ; "tasty LEMONADE!"

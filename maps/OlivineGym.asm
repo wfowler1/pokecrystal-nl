@@ -142,7 +142,7 @@ Text_ReceivedMineralBadge:
 Jasmine_BadgeSpeech:
 	text "MINERAALBADGE" ; "MINERALBADGE"
 	line "verhoogt #MON-" ; "raises #MON's"
-	cont "VERDEDIGING." ; "DEFENSE."
+	cont "AFWEER." ; "DEFENSE."
 
 	para "…Um… Neem" ; "…Um… Please take"
 	line "dit ook…" ; "this too…"
@@ -155,7 +155,7 @@ Text_ReceivedTM09: ; unreferenced
 
 Jasmine_IronTailSpeech:
 	text "…Met die TM" ; "…You could use"
-	line "kan je IJZER-" ; "that TM to teach"
+	line "kun je IJZER-" ; "that TM to teach"
 	cont "STAART leren." ; "IRON TAIL."
 	done
 

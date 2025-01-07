@@ -155,7 +155,7 @@ CamperJerrySeenText:
 
 	para "Het rotstype" ; "The rock-type has"
 	line "heeft hoge" ; "high DEFENSE."
-	cont "VERDEDIGING." ;
+	cont "AFWEER." ;
 
 	para "Gevechten kunnen" ; "Battles could end"
 	line "wellicht lang" ; "up going a long"
