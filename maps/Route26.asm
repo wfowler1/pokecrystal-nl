@@ -377,8 +377,8 @@ PsychicRichardAfterBattleText:
 	line "groeien van hun" ; "grow from their"
 	cont "ervaringen." ; "experiences."
 
-	para "Word niet lui" ; "Don't get lazy and"
-	line "en zelfingenomen." ; "complacent."
+	para "Word niet lui en" ; "Don't get lazy and"
+	line "zelfingenomen." ; "complacent."
 	done
 
 FisherScottSeenText:
