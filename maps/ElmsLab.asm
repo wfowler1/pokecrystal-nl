@@ -1016,7 +1016,7 @@ ElmAfterTheftText5:
 	cont "je #MON." ; "with #MON too."
 
 	para "Je zou de #MON-" ; "You should take"
-	line "GYM-uitdaging-" ; "the #MON GYM"
+	line "GYM-uitdaging" ; "the #MON GYM"
 	cont "moeten proberen." ; "challenge."
 
 	para "De eerste GYM is" ; "The closest GYM"
