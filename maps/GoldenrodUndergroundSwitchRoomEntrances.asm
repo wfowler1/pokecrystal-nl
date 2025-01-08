@@ -668,11 +668,11 @@ UndergroundRivalRetreatMovement2:
 UndergroundRivalBeforeText:
 	text "Stop!" ; "Hold it!"
 
-	para "Ik zag je dus" ; "I saw you, so I"
-	line "ben je gevolgd." ; "tailed you."
+	para "Ik zag je, dus ben" ; "I saw you, so I"
+	line "je gevolgd." ; "tailed you."
 
-	para "Loop me niet" ; "I don't need you"
-	line "in de weg terwijl" ; "underfoot while I"
+	para "Loop me niet in de" ; "I don't need you"
+	line "weg terwijl ik" ; "underfoot while I"
 
 	para "ik TEAM ROCKET" ; "take care of TEAM"
 	line "uitschakel." ; "ROCKET."
@@ -681,8 +681,8 @@ UndergroundRivalBeforeText:
 	line "Je hebt me eerder" ; "You beat me be-"
 	cont "verslagen, toch?" ; "fore, didn't you?"
 
-	para "Dat was" ; "That was just a"
-	line "slechts geluk." ; "fluke."
+	para "Dat was slechts" ; "That was just a"
+	line "geluk." ; "fluke."
 
 	para "Maar nu is je" ; "But I repay my"
 	line "geluk op!" ; "debts!"
@@ -897,9 +897,9 @@ GruntF3SeenText:
 	para "niet. Je bent" ; "You don't have"
 	line "niet bang." ; "that scared look."
 
-	para "Ik geef je iets" ; "I'll give you"
-	line "om bang voor" ; "something to be"
-	cont "te zijn!" ; "scared about!"
+	para "Ik geef je iets om" ; "I'll give you"
+	line "om bang voor te" ; "something to be"
+	cont "zijn!" ; "scared about!"
 	done
 
 GruntF3BeatenText:
@@ -908,7 +908,7 @@ GruntF3BeatenText:
 
 GruntF3AfterBattleText:
 	text "Ga maar verder!" ; "Go wherever you'd"
-	line "Uit m'n zicht!" ; "like! Get lost!"
+	line "Uit mijn zicht!" ; "like! Get lost!"
 	cont "Kan me niet" ; "See if I care!"
 	cont "schelen!" ; 
 	done
