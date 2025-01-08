@@ -1278,7 +1278,7 @@ ElmsLabOfficerText1:
 
 	para "PROF.ELM vertelde" ; "I was just getting"
 	line "mij er net alles" ; "some information"
-	cont "alles over." ; "from PROF.ELM."
+	cont "over." ; "from PROF.ELM."
 
 	para "Kennelijk was het" ; "Apparently, it was"
 	line "een jongeman met" ; "a young male with"
