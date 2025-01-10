@@ -215,8 +215,8 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	para "Het… is subliem!" ; "It… It's sublime!"
 
 	para "Ik heb nog nooit" ; "I've never heard"
-	line "zo'n mooi" ; "so beautiful a"
-	cont "geluid gehoord!" ; "sound before!"
+	line "zo'n mooi geluid" ; "so beautiful a"
+	cont "gehoord!" ; "sound before!"
 
 	para "De klank van die" ; "That bell's chime"
 	line "bel is een" ; "is indicative of"

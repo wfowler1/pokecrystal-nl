@@ -80,8 +80,8 @@ GoldenrodDeptStoreB1FBlackBelt1Text:
 	para "We werken achter" ; "Our policy is to"
 	line "de schermen waar" ; "work behind the"
 
-	para "niemand ons" ; "scenes where no"
-	line "kan zien!" ; "one can see us!"
+	para "niemand ons kan" ; "scenes where no"
+	line "zien!" ; "one can see us!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:

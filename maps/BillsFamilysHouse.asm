@@ -150,7 +150,7 @@ BillEeveeMayEvolveText:
 	line "claimt dat EEVEE" ; "claims EEVEE may"
 
 	para "op nieuwe manieren" ; "evolve in new and"
-	line "evoluren kan." ; "unknown ways."
+	line "evolueren kan." ; "unknown ways."
 	done
 
 BillPartyFullText:

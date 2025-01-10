@@ -125,8 +125,8 @@ GruntM14SeenText:
 
 	para "Ik toon geen" ; "I don't show mercy"
 	line "genade aan mijn" ; "to my enemies, not"
-	cont "vijanden, ook" ; "even brats!"
-	cont "geen ettertjes!" ;
+	cont "vijanden, ook niet" ; "even brats!"
+	cont "aan ettertjes!" ;
 	done
 
 GruntM14BeatenText:
@@ -157,14 +157,14 @@ GruntM15BeatenText:
 GruntM15AfterBattleText:
 	text "Whahahaha!" ; "Hyuck-hyuck-hyuck!"
 	line "Dat was geweldig!" ; "That was a blast!"
-	cont "Ik zal je" ; "I'll remember you!"
-	cont "onthouden!" ;
+	cont "Ik zal je niet" ; "I'll remember you!"
+	cont "vergeten!" ;
 	done
 
 DirectorIntroText:
 	text "DIRECTEUR: Wie?" ; "DIRECTOR: Who?"
-	line "Wat? Je komt" ; "What? You came to"
-	cont "me redden?" ; "rescue me?"
+	line "Wat? Je komt me" ; "What? You came to"
+	cont "redden?" ; "rescue me?"
 
 	para "Dankjewel!" ; "Thank you!"
 
@@ -188,8 +188,8 @@ DirectorCardKeyText:
 	done
 
 DirectorAfterText:
-	text "Ik smeek je" ; "I'm begging you to"
-	line "om hulp." ; "help."
+	text "Ik smeek om jouw" ; "I'm begging you to"
+	line "hulp hulp." ; "help."
 
 	para "Wie weet wat ze" ; "There's no telling"
 	line "doen als ze de" ; "what they'll do if"

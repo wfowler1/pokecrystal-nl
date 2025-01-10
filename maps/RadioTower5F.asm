@@ -239,7 +239,7 @@ FakeDirectorTextAfter:
 	done
 
 Executivef1SeenText:
-	text "Herken je me van" ; "Remember me from"
+	text "Herken je mij van" ; "Remember me from"
 	line "de SCHUILPLAATS" ; "the HIDEOUT in"
 	cont "in MAHOGANY TOWN?" ; "MAHOGANY TOWN?"
 

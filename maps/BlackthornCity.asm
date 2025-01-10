@@ -277,8 +277,8 @@ BlackthornCooltrainerF2Text:
 BlackthornCitySignText:
 	text "BLACKTHORN CITY"
 
-	para "Stil toevluchts-" ; "A Quiet Mountain"
-	line "oord in de bergen." ; "Retreat"
+	para "Stil Toevluchts-" ; "A Quiet Mountain"
+	line "oord in de Bergen." ; "Retreat"
 	done
 
 BlackthornGymSignText:
