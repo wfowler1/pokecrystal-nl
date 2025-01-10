@@ -348,10 +348,10 @@ RocketBaseRivalText:
 	text "…"
 
 	para "Zei ik je niet" ; "Didn't I tell you"
-	line "dat ik TEAM" ; "that I was going"
+	line "dat ik TEAM ROCKET" ; "that I was going"
 
-	para "ROCKET ging" ; "to destroy TEAM"
-	line "vernietigen?" ; "ROCKET?"
+	para "ging vernietigen?" ; "to destroy TEAM"
+	;line "vernietigen?" ; "ROCKET?"
 
 	para "…Zeg eens, wie" ; "…Tell me, who was"
 	line "was die gast in" ; "the guy in the"
@@ -381,12 +381,11 @@ RocketBaseRivalText:
 
 	para "Ik ben woedend" ; "I'm furious that I"
 	line "dat ik verloor" ; "lost to a bleeding"
-	cont "van zo'n" ; "heart like him."
-	cont "zielepoot." ;
+	cont "van zo'n softie." ; "heart like him."
 
 	para "…Pff! Ik heb" ; "…Humph! I don't"
 	line "geen tijd voor" ; "have the time for"
-	cont "jouw soort!" ; "the likes of you!"
+	cont "types als jij!" ; "the likes of you!"
 	done
 
 ExecutiveM4BeforeText:
@@ -418,8 +417,8 @@ ExecutiveM4BeforeText:
 	done
 
 ExecutiveM4BeatenText:
-	text "Ik… Ik kon" ; "I… I couldn't do a"
-	line "niets doen…" ; "thing…"
+	text "Ik… Ik kon niets" ; "I… I couldn't do a"
+	line "doen…" ; "thing…"
 
 	para "GIOVANNI, vergeef" ; "GIOVANNI, please"
 	line "me alsjeblieft…" ; "forgive me…"
@@ -427,7 +426,7 @@ ExecutiveM4BeatenText:
 
 ExecutiveM4AfterText:
 	text "Nee, dit mag me" ; "No, I can't let"
-	line "niet raken." ; "this affect me."
+	line "niet deren." ; "this affect me."
 
 	para "Ik moet de ander-" ; "I have to inform"
 	line "en informeren…" ; "the others…"
@@ -447,7 +446,7 @@ GruntF5SeenText:
 	para "Misschien." ; "Maybe."
 
 	para "Maar een zwakke-" ; "But no weakling's"
-	line "ling krijgt 't" ; "going to get it!"
+	line "ling krijgt het" ; "going to get it!"
 	cont "niet!" ;
 	done
 

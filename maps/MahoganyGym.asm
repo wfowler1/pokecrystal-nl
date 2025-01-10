@@ -191,7 +191,7 @@ PryceText_Impressed:
 	cont "doorstaan." ;
 
 	para "Je bent deze" ; "You are worthy of"
-	line "BADGE waard!" ; "this BADGE!"
+	line "BADGE waardig!" ; "this BADGE!"
 	done
 
 Text_ReceivedGlacierBadge:
@@ -268,9 +268,9 @@ BoarderBradSeenText:
 	para "Erg leuk, vind" ; "It's fun, isn't"
 	line "je niet?" ; "it?"
 
-	para "Maar hé--we" ; "But hey--we're"
-	line "spelen geen" ; "not playing games"
-	cont "spelletjes hier!" ; "here!"
+	para "Maar hé--we spelen" ; "But hey--we're"
+	line "spelen spelletjes" ; "not playing games"
+	cont "hier!" ; "here!"
 	done
 
 BoarderBradBeatenText:
@@ -303,7 +303,7 @@ BoarderDouglasAfterBattleText:
 	para "Hij mediteert elke" ; "He meditates under"
 	line "dag onder een" ; "a waterfall daily"
 
-	para "waterval om z'n" ; "to strengthen his"
+	para "waterval om zijn" ; "to strengthen his"
 	line "geest en lichaam" ; "mind and body."
 	cont "te versterken." ;
 	done
@@ -327,9 +327,9 @@ SkierRoxanneAfterBattleText:
 	text "Als je niet nauw-" ; "If you don't skate"
 	line "keurig schaatst," ; "with precision,"
 
-	para "zal je in deze" ; "you won't get far"
-	line "GYM niet ver" ; "in this GYM."
-	cont "komen." ;
+	para "kom je niet ver in" ; "you won't get far"
+	line "deze GYM." ; "in this GYM."
+	;cont "komen." ;
 	done
 
 SkierClarissaSeenText:
@@ -355,17 +355,17 @@ MahoganyGymGuideText:
 	para "jaar #MON" ; "#MON for some"
 	line "traint." ; "50 years."
 
-	para "Hij is naar zeggen" ; "He's said to be"
-	line "goed in tegen-" ; "good at freezing"
+	para "Hij schijnt goed" ; "He's said to be"
+	line "te zijn in tegen-" ; "good at freezing"
 
-	para "standers met ijs-" ; "opponents with"
-	line "type aanvallen" ; "ice-type moves."
+	para "standers bevriezen" ; "opponents with"
+	line "met ijs-aanvallen." ; "ice-type moves."
 
-	para "bevriezen. Dus" ; "That means you"
-	line "moet je hem" ; "should melt him"
+	para "Dus je moet hem" ; "That means you"
+	line "met je vurige" ; "should melt him"
 
-	para "met je vurige" ; "with your burning"
-	line "ambitie ontdooien!" ; "ambition!"
+	para "ambitie ontdooien!" ; "with your burning"
+	line ;"ambitie ontdooien!" ; "ambition!"
 	done
 
 MahoganyGymGuideWinText:

@@ -33,15 +33,15 @@ Route26HealHouseRestAWhileText:
 	text "Je #MON lijken" ; "Your #MON look"
 	line "een beetje moe." ; "a little tired."
 
-	para "Geef ze een" ; "You should rest"
-	line "tijdje rust." ; "them a while."
+	para "Laat ze eventjes" ; "You should rest"
+	line "uitrusten." ; "them a while."
 	done
 
 Route26HealHouseKeepAtItText:
 	text "Zo!" ; "There!"
 
-	para "Je #MON zien" ; "Your #MON are"
-	line "er goed uit!" ; "looking good!"
+	para "Je #MON zien er" ; "Your #MON are"
+	line "goed uit!" ; "looking good!"
 
 	para "Ga zo door!" ; "Keep at it!"
 	done

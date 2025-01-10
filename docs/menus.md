@@ -247,8 +247,8 @@ If bit 4 is set, a string at the end of the items array will be put at an offset
 
 ```asm
 	db 2 ; # items
-	db "GIVE@"
-	db "TAKE@"
+	db "GEEF@" ; "GIVE@"
+	db "NEEM@" ; "TAKE@"
 	db 2 ; x offset
 	db "TEST@"
 ```

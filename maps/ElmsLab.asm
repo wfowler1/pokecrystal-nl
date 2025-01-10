@@ -1016,7 +1016,7 @@ ElmAfterTheftText5:
 	cont "je #MON." ; "with #MON too."
 
 	para "Je zou de #MON-" ; "You should take"
-	line "GYM-uitdaging-" ; "the #MON GYM"
+	line "GYM-uitdaging" ; "the #MON GYM"
 	cont "moeten proberen." ; "challenge."
 
 	para "De eerste GYM is" ; "The closest GYM"
@@ -1278,7 +1278,7 @@ ElmsLabOfficerText1:
 
 	para "PROF.ELM vertelde" ; "I was just getting"
 	line "mij er net alles" ; "some information"
-	cont "alles over." ; "from PROF.ELM."
+	cont "over." ; "from PROF.ELM."
 
 	para "Kennelijk was het" ; "Apparently, it was"
 	line "een jongeman met" ; "a young male with"
