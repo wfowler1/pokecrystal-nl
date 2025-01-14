@@ -366,7 +366,7 @@ ProteinDesc:
 	next "van een #MON.@" ; "one #MON.@"
 
 IronDesc:
-	db   "Verhoogt VERDEDIG." ; "Raises DEFENSE of"
+	db   "Verhoogt AFWEER" ; "Raises DEFENSE of"
 	next "van een #MON.@" ; "one #MON.@"
 
 CarbosDesc:
@@ -394,7 +394,7 @@ LeafStoneDesc:
 	next "fieke #MON.@" ; "kinds of #MON.@"
 
 MetalPowderDesc:
-	db   "Verhoogt VERDEDIG." ; "Raises DEFENSE of"
+	db   "Verhoogt AFWEER" ; "Raises DEFENSE of"
 	next "van DITTO. (VAST)@" ; "DITTO. (HOLD)@"
 
 NuggetDesc:
@@ -456,7 +456,7 @@ TeruSama4Desc:
 	db   "?@"
 
 XDefendDesc:
-	db   "Verhoog VERDEDIG." ; "Raises DEFENSE."
+	db   "Verhoog AFWEER" ; "Raises DEFENSE."
 	next "(1 BTL)@" ; "(1 BTL)@"
 
 XSpeedDesc:

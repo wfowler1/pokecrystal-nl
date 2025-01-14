@@ -115,7 +115,7 @@ PrintTempMonStats:
 
 .StatNames: ; For stats screen only
 	db   "AANVAL" ; "ATTACK"
-	next "VERDEDIG" ; "DEFENSE"
+	next "AFWEER" ; "DEFENSE"
 	next "SPCL.AAN" ; "SPCL.ATK"
 	next "SPCL.VER" ; "SPCL.DEF"
 	next "SNELHEID" ; "SPEED"

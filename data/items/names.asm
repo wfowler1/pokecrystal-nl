@@ -50,7 +50,7 @@ ItemNames::
 	li "LIMONADE" ; "LEMONADE"
 	li "X-AANVAL" ; "X ATTACK"
 	li "TERU-SAMA"
-	li "X-VERDEDIG" ; "X DEFEND"
+	li "X-AFWEER" ; "X DEFEND"
 	li "X-SNELHEID" ; "X SPEED"
 	li "X-SPECIAAL" ; "X SPECIAL"
 	li "GELDKISTJE" ; "COIN CASE"
