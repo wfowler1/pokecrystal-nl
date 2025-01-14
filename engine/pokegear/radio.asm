@@ -705,7 +705,7 @@ PokedexShow2:
 	pop hl
 	pop af
 	call CopyDexEntryPart2
-rept 4
+rept 3
 	inc hl
 endr
 	ld a, l
