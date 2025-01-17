@@ -26,7 +26,7 @@ VioletMartGrannyText:
 	cont "wellicht zwak." ; "it may be weak."
 
 	para "Maar uiteindelijk" ; "But it will even-"
-	line "Zal deze groot" ; "tually grow to be"
+	line "zal deze groot" ; "tually grow to be"
 	cont "en sterk worden." ; "strong."
 
 	para "Het is van belang" ; "It's important to"
