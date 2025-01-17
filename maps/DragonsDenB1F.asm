@@ -357,10 +357,10 @@ CooltrainerfCaraAfterBattleText:
 	line "word ik een heuse" ; "going to become an"
 
 	para "drakentrainer die" ; "admirable dragon"
-	line "goedkeuring van" ; "trainer and gain"
+	line "door de MEESTER" ; "trainer and gain"
 
-	para "de MEESTER zal" ; "our MASTER's"
-	line "verdienen." ; "approval."
+	para "erkend zal worden." ; "our MASTER's"
+	line ;"verdienen." ; "approval."
 	done
 
 TwinsLeaandpia1SeenText:
