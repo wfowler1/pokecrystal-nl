@@ -640,7 +640,7 @@ ConfusionDescription:
 	next "verwarren.@" ; "cause confusion.@"
 
 PsychicMDescription:
-	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
+	db   "Kan SPCL.AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 HypnosisDescription:
@@ -677,7 +677,7 @@ MimicDescription:
 
 ScreechDescription:
 	db   "Verlaagt" ; "Sharply reduces"
-	next "VERDEDIGING flink.@" ; "the foe's DEFENSE.@"
+	next "AFWEER flink.@" ; "the foe's DEFENSE.@"
 
 DoubleTeamDescription:
 	db   "Verhoogt ontwijk-" ; "Heightens evasive-"
@@ -797,7 +797,7 @@ ConstrictDescription:
 
 AmnesiaDescription:
 	db   "Verhoogt SPCL.-" ; "Sharply raises the"
-	next "VERDEDIGING flink.@" ; "user's SPCL.DEF.@"
+	next "AFWEER flink.@" ; "user's SPCL.DEF.@"
 
 KinesisDescription:
 	db   "Verlaagt precisie" ; "Reduces the foe's"
@@ -1232,7 +1232,7 @@ SunnyDayDescription:
 	next "klappen 5 beurten.@" ; "moves for 5 turns.@"
 
 CrunchDescription:
-	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
+	db   "Kan SPCL.AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 MirrorCoatDescription:
@@ -1252,7 +1252,7 @@ AncientpowerDescription:
 	next "stats verhoogt.@" ; "raise all stats.@"
 
 ShadowBallDescription:
-	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
+	db   "Kan SPCL.AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 FutureSightDescription:

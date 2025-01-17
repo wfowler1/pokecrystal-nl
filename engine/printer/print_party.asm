@@ -336,7 +336,7 @@ PrintParty_IDNoString:
 
 PrintParty_StatsString:
 	db   "AANVAL" ; "ATTACK"
-	next "VERDEDIG" ; "DEFENSE"
+	next "AFWEER" ; "DEFENSE"
 	next "SPCL.AAN" ; "SPCL.ATK"
 	next "SPCL.VER" ; "SPCL.DEF"
 	next "SNELHEID" ; "SPEED"

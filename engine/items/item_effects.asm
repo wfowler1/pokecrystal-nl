@@ -1232,7 +1232,7 @@ StatStrings:
 
 .health  db "LP@" ; "HEALTH@"
 .attack  db "AANVAL@" ; "ATTACK@"
-.defense db "VERDEDIG@" ; "DEFENSE@"
+.defense db "AFWEER@" ; "DEFENSE@"
 .speed   db "SNELHEID@" ; "SPEED@"
 .special db "SPECIAAL@" ; "SPECIAL@"
 

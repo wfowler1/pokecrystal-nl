@@ -888,12 +888,12 @@ TransformedText:
 
 LightScreenEffectText:
 	text "<USER>'s"
-	line "SPCL.VER omhoog!" ; "SPCL.DEF rose!"
+	line "SPCL.AFW omhoog!" ; "SPCL.DEF rose!"
 	prompt
 
 ReflectEffectText:
 	text "<USER>'s"
-	line "VERDEDIG omhoog!" ; "DEFENSE rose!"
+	line "AFWEER omhoog!" ; "DEFENSE rose!"
 	prompt
 
 NothingHappenedText:
