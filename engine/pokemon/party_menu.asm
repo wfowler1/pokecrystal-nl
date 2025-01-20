@@ -49,7 +49,7 @@ WritePartyMenuTilemap:
 	ldh [hBGMapMode], a
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
-	ld a, " ; "
+	ld a, " "
 	call ByteFill ; blank the tilemap
 	call GetPartyMenuQualityIndexes
 .loop
@@ -344,7 +344,7 @@ PlacePartyMonTMHMCompatibility:
 	db "IN STAAT@" ; "ABLE@"
 
 .string_not_able
-	db "NIET" ; "NOT ABLE@"
+	db "NIET@" ; "NOT ABLE@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -473,7 +473,7 @@ PlacePartyMonGender:
 	db "♀…VROUW@" ; "♀…FEMALE@"
 
 .unknown
-	db "…ONBEKEND" ; "…UNKNOWN@"
+	db "…ONBEKEND@" ; "…UNKNOWN@"
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]
@@ -756,22 +756,22 @@ WhichPKMNString:
 	db "Welke <PK><MN>?@" ; "Which <PK><MN>?@"
 
 TeachWhichPKMNString:
-	db "Leer welke <PK><MN>?" ; "Teach which <PK><MN>?@"
+	db "Leer welke <PK><MN>?@" ; "Teach which <PK><MN>?@"
 
 MoveToWhereString:
-	db "Waarheen?" ; "Move to where?@"
+	db "Waarheen?@" ; "Move to where?@"
 
 ChooseAFemalePKMNString: ; unreferenced
-	db "Kies een ♀<PK><MN>" ; "Choose a ♀<PK><MN>.@"
+	db "Kies een ♀<PK><MN>.@" ; "Choose a ♀<PK><MN>.@"
 
 ChooseAMalePKMNString: ; unreferenced
-	db "Kies een ♂<PK><MN>" ; "Choose a ♂<PK><MN>.@"
+	db "Kies een ♂<PK><MN>.@" ; "Choose a ♂<PK><MN>.@"
 
 ToWhichPKMNString:
-	db "Naar welke <PK><MN>?" ; "To which <PK><MN>?@"
+	db "Naar welke <PK><MN>@?" ; "To which <PK><MN>?@"
 
 YouHaveNoPKMNString:
-	db "Je hebt geen <PK><MN>!" ; "You have no <PK><MN>!@"
+	db "Je hebt geen <PK><MN>!@" ; "You have no <PK><MN>!@"
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]
