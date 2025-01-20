@@ -298,8 +298,8 @@ OlivinePortAskBoardText:
 	text "Welkom op SNEL-" ; "Welcome to FAST"
 	line "SCHIP S.S.AQUA." ; "SHIP S.S.AQUA."
 
-	para "Ga je vandaag" ; "Will you be board-"
-	line "aan boord?" ; "ing today?"
+	para "Ga je vandaag aan" ; "Will you be board-"
+	line "boord?" ; "ing today?"
 	done
 
 OlivinePortAskTicketText:
