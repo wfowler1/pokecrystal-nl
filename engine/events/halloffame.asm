@@ -132,7 +132,7 @@ AnimateHallOfFame:
 	ret
 
 .String_NewHallOfFamer:
-	db "Nieuw Erelid!" ; "New Hall of Famer!@"
+	db "Nieuw Erelid!@" ; "New Hall of Famer!@"
 
 GetHallOfFameParty:
 	ld hl, wHallOfFamePokemonList
