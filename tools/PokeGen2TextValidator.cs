@@ -22,100 +22,76 @@ namespace PokeGen2TextValidator
             bool validate = true;
             bool compare = false;
             bool merge = false;
-            bool silent = false;
 
             int currentArg = 0;
-            bool stop = false;
-            for (currentArg = 0; currentArg < args.Length; )
+            if (args[currentArg].ToLowerInvariant().StartsWith("-"))
             {
-                if (args[currentArg].ToLowerInvariant().StartsWith("-"))
+                switch (args[currentArg])
                 {
-                    switch (args[currentArg])
+                    case "-v":
+                    case "--validate":
                     {
-                        case "-s":
-                        case "--silent":
-                        {
-                            silent = true;
-                            break;
-                        }
-                        case "-v":
-                        case "--validate":
-                        {
-                            validate = true;
-                            compare = false;
-                            merge = false;
-                            stop = true;
-                            break;
-                        }
-                        case "-vt":
-                        case "--validatetrainers":
-                        {
-                            string path = ".";
-                            if (args.Length > 1)
-                            {
-                                path = args[currentArg + 1];
-                            }
-
-
-                            StringBuilder sb = new StringBuilder();
-                            ASMFile classesFile = new ASMFile(Path.Combine(path, "data/trainers/class_names.asm"));
-                            ASMFile trainersFile = new ASMFile(Path.Combine(path, "data/trainers/parties.asm"));
-                            sb.Append("Validating trainer classes and names\n");
-                            TrainerDataValidator validator = new TrainerDataValidator(classesFile, trainersFile);
-                            string message = validator.Validate();
-                            bool problem = false;
-                            if (!string.IsNullOrWhiteSpace(message))
-                            {
-                                if (message.Contains("Error"))
-                                {
-                                    problem = true;
-                                }
-                                sb.Append(message);
-                            }
-
-                            sb.Append("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
-                            if (!silent || problem)
-                            {
-                                Console.WriteLine(sb.ToString());
-                            }
-
-                            problem |= Validate(classesFile, silent);
-                            problem |= Validate(trainersFile, silent);
-
-                            return problem ? 1 : 0;
-                        }
-                        case "-c":
-                        case "--compare":
-                        {
-                            validate = false;
-                            compare = true;
-                            merge = false;
-                            stop = true;
-                            break;
-                        }
-                        case "-m":
-                        case "--merge":
-                        {
-                            validate = false;
-                            compare = false;
-                            merge = true;
-                            stop = true;
-                            break;
-                        }
-                        default:
-                        {
-                            Console.WriteLine("Unknown option: " + args[currentArg]);
-                            PrintHelpText();
-                            return 1;
-                        }
+                        validate = true;
+                        compare = false;
+                        merge = false;
+                        break;
                     }
+                    case "-vt":
+                    case "--validatetrainers":
+                    {
+                        string path = ".";
+                        if (args.Length > 1)
+                        {
+                            path = args[currentArg + 1];
+                        }
 
-                    ++currentArg;
+                        ASMFile classesFile = new ASMFile(Path.Combine(path, "data/trainers/class_names.asm"));
+                        ASMFile trainersFile = new ASMFile(Path.Combine(path, "data/trainers/parties.asm"));
+                        Console.WriteLine("Validating trainer classes and names");
+                        TrainerDataValidator validator = new TrainerDataValidator(classesFile, trainersFile);
+                        string message = validator.Validate();
+                        bool problem = false;
+                        if (!string.IsNullOrWhiteSpace(message))
+                        {
+                            if (message.Contains("Error"))
+                            {
+                                problem = true;
+                            }
+                            Console.Write(message);
+                        }
+
+                        Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+
+                        problem |= Validate(classesFile);
+                        problem |= Validate(trainersFile);
+
+                        return problem ? 1 : 0;
+                    }
+                    case "-c":
+                    case "--compare":
+                    {
+                        validate = false;
+                        compare = true;
+                        merge = false;
+                        break;
+                    }
+                    case "-m":
+                    case "--merge":
+                    {
+                        validate = false;
+                        compare = false;
+                        merge = true;
+                        break;
+                    }
+                    default:
+                    {
+                        Console.WriteLine("Unknown option: " + args[currentArg]);
+                        PrintHelpText();
+                        return 1;
+                    }
                 }
-                if (stop)
-                {
-                    break;
-                }
+
+                ++currentArg;
             }
 
             ASMFile source = GetASMFile(args[currentArg++]);
@@ -126,7 +102,7 @@ namespace PokeGen2TextValidator
 
             if (validate)
             {
-                return Validate(source, silent) ? 1 : 0;
+                return Validate(source) ? 1 : 0;
             }
             else if (compare || merge)
             {
@@ -158,11 +134,10 @@ namespace PokeGen2TextValidator
         {
             Console.WriteLine("Usage: PokeGen2TextValidator [-vcm] Source [Target] [BaseSource] [BaseTarget]");
             Console.WriteLine("  Options:");
-            Console.WriteLine("    -v, --validate:          Validate Source. Default behavior.");
+            Console.WriteLine("    -v, --validate: Validate Source. Default behavior.");
             Console.WriteLine("    -vt, --ValidateTrainers: Validates trainer names to ensure they are not too long.");
-            Console.WriteLine("    -c, --compare:           Compare Source to Target.");
-            Console.WriteLine("    -m, --merge:             Compare BaseSource to BaseTarget, then merge matching blocks from Source into Target.");
-            Console.WriteLine("    -s, --silent:            Validator silent mode. Only prints a message if a check failed (error or warning).");
+            Console.WriteLine("    -c, --compare:  Compare Source to Target.");
+            Console.WriteLine("    -m, --merge:    Compare BaseSource to BaseTarget, then merge matching blocks from Source into Target.");
             Console.WriteLine("  Source: Primary file to operate on.");
             Console.WriteLine("  Target: Target file to compare to Source. Required for compares and merges.");
             Console.WriteLine("  BaseSource: Original version of Source to compare to BaseTarget to see if merge from Source to Target should occur.");
@@ -185,10 +160,9 @@ namespace PokeGen2TextValidator
             return new ASMFile(path);
         }
 
-        private static bool Validate(ASMFile asmFile, bool silent)
+        private static bool Validate(ASMFile asmFile)
         {
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Validating file: " + asmFile.File.Name + " Type: " + asmFile.Type + " Source: " + asmFile.Source + "\n");
+            Console.WriteLine("Validating file: " + asmFile.File.Name + " Type: " + asmFile.Type + " Source: " + asmFile.Source);
 
             bool problem = false;
             foreach (KeyValuePair<string, Block> pair in asmFile.blocks)
@@ -201,15 +175,11 @@ namespace PokeGen2TextValidator
                     {
                         problem = true;
                     }
-                    sb.Append(message);
+                    Console.Write(message);
                 }
             }
 
-            sb.Append("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
-            if (!silent || problem)
-            {
-                Console.WriteLine(sb.ToString());
-            }
+            Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
             return problem;
         }
     }
