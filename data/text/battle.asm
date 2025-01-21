@@ -458,9 +458,9 @@ BattleText_UserWasReleasedFromStringBuffer1:
 	prompt
 
 UsedBindText:
-	text "<USER>" ; "<USER> geb-"
+	text "<USER>" ; "<USER>"
 	line "deed KOPPEL op" ; "used BIND on"
-	cont "<TARGET>"
+	cont "<TARGET>!"
 	prompt
 
 WhirlpoolTrapText:

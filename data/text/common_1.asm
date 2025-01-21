@@ -782,7 +782,7 @@ _LC_Text1::
 
 _LC_Text2::
 	text_start
-	line "hoe issie?" ; "y'all doin' now?"
+	line "issie?" ; "y'all doin' now?"
 	done
 
 _LC_Text3::
