@@ -439,8 +439,8 @@ PsychicGilbertAfterBattleText:
 	cont "goed doen in" ; "the LEAGUE."
 	cont "de LEAGUE." ;
 
-	para "Dat zegt" ; "That's what my"
-	line "mijn voorspelling." ; "premonition says."
+	para "Dat zegt mijn" ; "That's what my"
+	line "voorspelling." ; "premonition says."
 	done
 
 BirdKeeperJose2SeenText:
