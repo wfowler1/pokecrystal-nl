@@ -228,7 +228,7 @@ LanceBattleIntroText:
 	para "Als de machtigste" ; "As the most power-"
 	line "trainer en als de" ; "ful trainer and as"
 
-	para "#MON-LEAGUE" ; "the #MON LEAGUE"
+	para "#MON-LEAGUE-" ; "the #MON LEAGUE"
 	line "KAMPIOEN…" ; "CHAMPION…"
 
 	para "Ik, LANCE de" ; "I, LANCE the drag-"
@@ -264,9 +264,9 @@ LanceBattleAfterText:
 	cont "<PLAY_G>."
 
 	para "Je #MON hebben" ; "Your #MON have"
-	line "je sterke en op-" ; "responded to your"
+	line "je sterke en" ; "responded to your"
 
-	para "rechte aard" ; "strong and up-"
+	para "oprechte aard" ; "strong and up-"
 	line "aangevoeld." ; "standing nature."
 
 	para "Als een trainer" ; "As a trainer, you"
@@ -313,8 +313,8 @@ LancesRoomOakCongratulationsText:
 	para "Omdat ze in jou" ; "Because they be-"
 	line "als een trainer" ; "lieved in you as a"
 
-	para "geloven,-" ; "trainer, they per-"
-	line "volhardden ze." ; "severed."
+	para "geloven, lukte het" ; "trainer, they per-"
+	line "te winnen." ; "severed."
 
 	para "Gefeliciteerd," ; "Congratulations,"
 	line "<PLAY_G>!"
