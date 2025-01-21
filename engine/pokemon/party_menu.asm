@@ -768,7 +768,7 @@ ChooseAMalePKMNString: ; unreferenced
 	db "Kies een ♂<PK><MN>.@" ; "Choose a ♂<PK><MN>.@"
 
 ToWhichPKMNString:
-	db "Naar welke <PK><MN>@?" ; "To which <PK><MN>?@"
+	db "Naar welke <PK><MN>?@" ; "To which <PK><MN>?@"
 
 YouHaveNoPKMNString:
 	db "Je hebt geen <PK><MN>!@" ; "You have no <PK><MN>!@"

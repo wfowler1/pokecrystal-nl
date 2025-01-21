@@ -360,7 +360,7 @@ CooltrainerfCaraAfterBattleText:
 	line "door de MEESTER" ; "trainer and gain"
 
 	para "erkend zal worden." ; "our MASTER's"
-	line ;"verdienen." ; "approval."
+	; line "verdienen." ; "approval."
 	done
 
 TwinsLeaandpia1SeenText:

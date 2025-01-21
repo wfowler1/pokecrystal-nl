@@ -1367,7 +1367,7 @@ _NoCoinCaseText::
 
 _NPCTradeCableText::
 	text "OK, verbind het" ; "OK, connect the"
-	line "Game Link-snoer" ; "Game Link Cable."
+	line "Game Link-snoer." ; "Game Link Cable."
 	prompt
 
 Text_NPCTraded::
@@ -1409,12 +1409,12 @@ _NPCTradeWrongText1::
 	text "Huh? Dat is geen" ; "Huh? That's not"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text ". "
+	text "."
 	cont "Teleurstellend…" ; "What a letdown…"
 	done
 
 _NPCTradeCompleteText1::
-	text "Hoera! ik heb een" ; "Yay! I got myself"
+	text "Hoera! Ik heb een" ; "Yay! I got myself"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "!"
