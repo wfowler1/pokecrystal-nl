@@ -179,7 +179,7 @@ BugsyText_ResearchIncomplete:
 
 Text_ReceivedHiveBadge:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "KORFBADGE" ; "HIVEBADGE."
+	line "KORFBADGE." ; "HIVEBADGE."
 	done
 
 BugsyText_HiveBadgeSpeech:
@@ -224,7 +224,7 @@ BugsyText_BugMonsAreDeep:
 	line "#MON zijn nog" ; "deep. There are"
 
 	para "veel mysteries om" ; "many mysteries to"
-	line "te ontrafelen" ; "be explored."
+	line "te ontrafelen." ; "be explored."
 
 	para "Bestudeer je favo-" ; "Study your favor-"
 	line "rieten uitvoerig." ; "ites thoroughly."

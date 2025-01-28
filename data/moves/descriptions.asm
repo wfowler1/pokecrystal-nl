@@ -420,8 +420,8 @@ DoubleEdgeDescription:
 	next "bruiker pijn doet.@" ; "hurts the user.@"
 
 TailWhipDescription:
-	db   "Verlaagt VERDE-" ; "Lowers the foe's"
-	next "DIGING gebruiker.@" ; "DEFENSE.@"
+	db   "Verlaagt AFWEER" ; "Lowers the foe's"
+	next "gebruiker.@" ; "DEFENSE.@"
 
 PoisonStingDescription:
 	db   "Aanval die doelwit" ; "An attack that may"
@@ -436,8 +436,8 @@ PinMissileDescription:
 	next "2-5 keer raken.@" ; "strike 2-5 times.@"
 
 LeerDescription:
-	db   "Verlaagt VERDEDI-" ; "Reduces the foe's"
-	next "GING val doelwit.@" ; "DEFENSE.@"
+	db   "Verlaagt AFWEER" ; "Reduces the foe's"
+	next "val doelwit.@" ; "DEFENSE.@"
 
 BiteDescription:
 	db   "Aanval die kan" ; "An attack that may"
@@ -688,8 +688,8 @@ RecoverDescription:
 	next "1/2 van max LP.@" ; "the max HP.@"
 
 HardenDescription:
-	db   "Verhoogt VERDEDI-" ; "Raises the user's"
-	next "GING gebruiker.@" ; "DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Raises the user's"
+	next "gebruiker.@" ; "DEFENSE.@"
 
 MinimizeDescription:
 	db   "Verhoogt ontwijk-" ; "Heightens evasive-"
@@ -704,16 +704,16 @@ ConfuseRayDescription:
 	next "verwart.@" ; "confusion.@"
 
 WithdrawDescription:
-	db   "Verhoogt VERDEDI-" ; "Heightens the"
-	next "GING gebruiker.@" ; "user's DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Heightens the"
+	next "gebruiker.@" ; "user's DEFENSE.@"
 
 DefenseCurlDescription:
-	db   "Verhoogt VERDEDI-" ; "Heightens the"
-	next "GING gebruiker.@" ; "user's DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Heightens the"
+	next "gebruiker.@" ; "user's DEFENSE.@"
 
 BarrierDescription:
-	db   "Verhoogt VERDEDI-" ; "Sharply increases"
-	next "GING flink.@" ; "user's DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Sharply increases"
+	next "flink.@" ; "user's DEFENSE.@"
 
 LightScreenDescription:
 	db   "Hogere SPCR.VERD." ; "Ups SPCL.DEF with"
@@ -724,8 +724,8 @@ HazeDescription:
 	next "veranderingen weg.@" ; "stat changes.@"
 
 ReflectDescription:
-	db   "Verhoogt VERDEDI-" ; "Raises DEFENSE"
-	next "GING met barriere.@" ; "with a barrier.@"
+	db   "Verhoogt AFWEER" ; "Raises DEFENSE"
+	next "met barriere.@" ; "with a barrier.@"
 
 FocusEnergyDescription:
 	db   "Verhoogt kans op" ; "Raises the criti-"

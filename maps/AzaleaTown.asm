@@ -449,7 +449,7 @@ AzaleaTownIlexForestSignText:
 	text "EIKENWOUD" ; "ILEX FOREST"
 
 	para "Treed binnen door" ; "Enter through the"
-	line "de poort" ; "gate."
+	line "de poort." ; "gate."
 	done
 
 AzaleaTown_MapEvents:
