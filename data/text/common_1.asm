@@ -1425,7 +1425,7 @@ _NPCTradeAfterText1::
 	text "Hoe gaat ie met" ; "Hi, how's my old"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "nu?" ; " doing?"
+	text " nu?" ; " doing?"
 	done
 
 _NPCTradeIntroText2::
@@ -1478,7 +1478,7 @@ _NPCTradeAfterText2::
 
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text "is" ; "'s cute,"
+	text " is" ; "'s cute,"
 	line "schattig, maar ik" ; "but I don't have"
 
 	para "heb er geen. Heb" ; "it. Do you have"

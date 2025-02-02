@@ -42,7 +42,7 @@ TullyGreetDayText:
 	text "Hallo!" ; "Hello!"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " here…"
+	text " hier…" ; " here…"
 
 	para "Een perfecte dag" ; "What a perfect day"
 	line "om te vissen!" ; "for fishing!"

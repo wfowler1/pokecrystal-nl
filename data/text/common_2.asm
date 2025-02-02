@@ -1049,7 +1049,7 @@ _MagikarpGuruMeasureText::
 	para "…Hm, hij is" ; "…Hm, it measures"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength 6
-	text "groot." ; "."
+	text " groot." ; "."
 	prompt
 
 _KarpGuruRecordText::

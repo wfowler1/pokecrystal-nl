@@ -6,7 +6,7 @@ BethExhilaratingRideText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "rent" ; " runs"
+	text " rent" ; " runs"
 	line "heel snel." ; "very fast."
 
 	para "Het is bevrijdend" ; "It's exhilarating"

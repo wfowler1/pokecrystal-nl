@@ -57,11 +57,12 @@ DanaGreetNiteText:
 DanaGenericText:
 	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "zit" ; " is"
-	line "vol met energie," ; "so full of energy,"
+	text_start ; " is"
+	line "zit vol met" ; "so full of energy,"
 
-	para "best een beetje" ; "it's a little"
-	line "eng, eigenlijk." ; "scary."
+	para "energie, best een" ; "it's a little"
+	line "beetje eng," ; "scary."
+	cont "eigenlijk."
 
 	para "Hoe gaat het met" ; "How are your"
 	line "jouw #MON?" ; "#MON doing?"
