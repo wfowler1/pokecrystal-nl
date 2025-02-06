@@ -782,7 +782,7 @@ _LC_Text1::
 
 _LC_Text2::
 	text_start
-	line "hoe issie?" ; "y'all doin' now?"
+	line "issie?" ; "y'all doin' now?"
 	done
 
 _LC_Text3::
@@ -1367,7 +1367,7 @@ _NoCoinCaseText::
 
 _NPCTradeCableText::
 	text "OK, verbind het" ; "OK, connect the"
-	line "Game Link-snoer" ; "Game Link Cable."
+	line "Game Link-snoer." ; "Game Link Cable."
 	prompt
 
 Text_NPCTraded::
@@ -1409,12 +1409,12 @@ _NPCTradeWrongText1::
 	text "Huh? Dat is geen" ; "Huh? That's not"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text ". "
+	text "."
 	cont "Teleurstellend…" ; "What a letdown…"
 	done
 
 _NPCTradeCompleteText1::
-	text "Hoera! ik heb een" ; "Yay! I got myself"
+	text "Hoera! Ik heb een" ; "Yay! I got myself"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "!"
@@ -1425,7 +1425,7 @@ _NPCTradeAfterText1::
 	text "Hoe gaat ie met" ; "Hi, how's my old"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "nu?" ; " doing?"
+	text " nu?" ; " doing?"
 	done
 
 _NPCTradeIntroText2::
@@ -1478,7 +1478,7 @@ _NPCTradeAfterText2::
 
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text "is" ; "'s cute,"
+	text " is" ; "'s cute,"
 	line "schattig, maar ik" ; "but I don't have"
 
 	para "heb er geen. Heb" ; "it. Do you have"

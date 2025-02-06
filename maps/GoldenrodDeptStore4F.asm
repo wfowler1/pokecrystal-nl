@@ -48,8 +48,7 @@ GoldenrodDeptStore4FCooltrainerMText:
 
 GoldenrodDeptStore4FBugCatcherText:
 	text "IJZER verhoogt je" ; "IRON adds to your"
-	line "#MON's VERDEDI-" ; "#MON's DEFENSE."
-	cont "GING." ; 
+	line "#MON's AFWEER." ; "#MON's DEFENSE."
 	done
 
 GoldenrodDeptStore4FGameboyKidText:

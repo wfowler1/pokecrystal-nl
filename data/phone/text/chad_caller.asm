@@ -24,7 +24,7 @@ ChadDefeatedMonText:
 
 	para "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "" ; " a"
+	text_start ; " a"
 	line "weten te verslaan." ; "while back."
 
 	para "Gezien mijn" ; "Well, considering"
@@ -49,7 +49,7 @@ ChadLostAMonText:
 	para "een wilde" ; "wanting to observe"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "zien…" ; ". Rats…"
+	text " zien…" ; ". Rats…"
 	done
 
 ChadBattleRematchText:

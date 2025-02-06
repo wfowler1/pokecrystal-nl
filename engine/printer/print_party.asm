@@ -338,7 +338,7 @@ PrintParty_StatsString:
 	db   "AANVAL" ; "ATTACK"
 	next "AFWEER" ; "DEFENSE"
 	next "SPCL.AAN" ; "SPCL.ATK"
-	next "SPCL.VER" ; "SPCL.DEF"
+	next "SPCL.AFW" ; "SPCL.DEF"
 	next "SNELHEID" ; "SPEED"
 	db   "@"
 

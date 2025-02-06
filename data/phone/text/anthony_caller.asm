@@ -4,7 +4,7 @@ AnthonyMonAteSomeBerriesText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "wat" ; " eat"
+	text " wat" ; " eat"
 	line "BESSEN at." ; "some BERRIES."
 
 	para "Het leek te ge-" ; "It looked like it"
@@ -39,7 +39,7 @@ AnthonyLostAMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "een" ; " the"
+	text " een" ; " the"
 	line "dag geleden…" ; "other day…"
 
 	para "Het vluchtte toen" ; "It took off when I"

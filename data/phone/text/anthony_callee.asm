@@ -1,7 +1,7 @@
 AnthonyAnswerPhoneText:
 	text "Ja, met @" ; "Yeah, @"
 	text_ram wStringBuffer3  ; MaxLength 7
-	text "de" ; " the"
+	text " de" ; " the"
 	line "WANDELAAR hier." ; "HIKER here."
 
 	para "Ah, <PLAYER>!"
@@ -10,7 +10,7 @@ AnthonyAnswerPhoneText:
 AnthonyAnswerPhoneDayText:
 	text "Ja, met @" ; "Yeah, @"
 	text_ram wStringBuffer3  ; MaxLength 7
-	text "de" ; " the"
+	text " de" ; " the"
 	line "WANDELAAR hier." ; "HIKER here."
 
 	para "Ah, <PLAYER>,"
@@ -20,7 +20,7 @@ AnthonyAnswerPhoneDayText:
 AnthonyAnswerPhoneNiteText:
 	text "Ja, met @" ; "Yeah, @"
 	text_ram wStringBuffer3  ; MaxLength 7
-	text "de" ; " the"
+	text " de" ; " the"
 	line "WANDELAAR hier." ; "HIKER here."
 
 	para "Ah, <PLAYER>, was" ; "Ah, <PLAYER>, isn't"

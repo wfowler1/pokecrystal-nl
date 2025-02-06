@@ -18,7 +18,7 @@ GavenDefeatedMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "een" ; " the"
+	text " een" ; " the"
 	line "poos terug." ; "other day."
 
 	para "Ik heb een" ; "I've never seen a"

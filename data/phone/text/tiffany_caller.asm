@@ -17,7 +17,7 @@ TiffanyDefeatedMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "vechten" ; " a while"
+	text " vechten" ; " a while"
 	line "een tijd terug…" ; "ago…"
 
 	para "Mijn CLEFAIRY viel" ; "My CLEFAIRY came"
@@ -37,7 +37,7 @@ TiffanyLostAMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "vechten" ; " a while"
+	text " vechten" ; " a while"
 	line "een tijd terug…" ; "ago…"
 
 	para "Mijn CLEFAIRY werd" ; "My CLEFAIRY got"

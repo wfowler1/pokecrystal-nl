@@ -64,7 +64,7 @@ AzaleaPokecenter1FPokefanFText:
 	para "stop er een spe-" ; "fit it with a"
 	line "ciaal apparaat in." ; "special device."
 
-	para "Zo kun je er" ; "Then you can catch"
+	para "Zo kun je er #-" ; "Then you can catch"
 	line "MON mee vangen." ; "#MON with it."
 
 	para "Voordat BALLEN" ; "Before # BALLS"

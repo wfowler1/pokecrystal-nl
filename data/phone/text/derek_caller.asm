@@ -40,7 +40,7 @@ DerekLostAMonText:
 	text "Oh, en ik zag een" ; "Oh, and I saw a"
 	line "@" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "een" ; " a"
+	text " een" ; " a"
 	cont "tijdje geleden." ; "little while ago."
 
 	para "Maar het was niet" ; "But it wasn't very"

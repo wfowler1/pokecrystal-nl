@@ -1,7 +1,7 @@
 BrentAnswerPhoneText:
 	text "Ja? @" ; "Yes? @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " here…"
+	text " hier…" ; " here…"
 
 	para "Ah, <PLAYER>. Wat" ; "Ah, <PLAYER>. What"
 	line "kan ik doen?" ; "can I do for you?"
@@ -10,7 +10,7 @@ BrentAnswerPhoneText:
 BrentAnswerPhoneDayText:
 	text "Ja? @" ; "Yes? @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " here…"
+	text " hier…" ; " here…"
 
 	para "Ah, <PLAYER>. Wat" ; "Ah, <PLAYER>. What"
 	line "kan ik doen?" ; "can I do for you?"
@@ -19,7 +19,7 @@ BrentAnswerPhoneDayText:
 BrentAnswerPhoneNiteText:
 	text "Ja? @" ; "Yes? @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " here…"
+	text " hier…" ; " here…"
 
 	para "Ah, <PLAYER>. Wat" ; "Ah, <PLAYER>. What"
 	line "kan ik doen?" ; "can I do for you?"

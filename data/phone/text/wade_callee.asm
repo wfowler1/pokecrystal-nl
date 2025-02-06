@@ -2,7 +2,7 @@ WadeAnswerPhoneText:
 	text "Hallo? Met" ; "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "spreek je." ; " speaking."
+	text " spreek je." ; " speaking."
 
 	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
 	line "Goedemorgen!" ; "Good morning!"
@@ -12,7 +12,7 @@ WadeAnswerPhoneDayText:
 	text "Hallo? Met" ; "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "spreek je." ; " speaking."
+	text " spreek je." ; " speaking."
 
 	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
 	done
@@ -21,7 +21,7 @@ WadeAnswerPhoneNiteText:
 	text "Hallo? Met" ; "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "spreek je." ; " speaking."
+	text " spreek je." ; " speaking."
 
 	para "Oh. Hoi, <PLAY_G>!" ; "Oh. Hi, <PLAY_G>!"
 	line "Goedenavond!" ; "Good evening!"
@@ -69,7 +69,7 @@ WadeGenericText:
 	para "Van m'n #MON is" ; "Of all my #MON,"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "het" ; " is the"
+	text " het" ; " is the"
 	cont "drukste." ; "hardest to handle."
 
 	para "Het is vermoeiend" ; "Working with it is"

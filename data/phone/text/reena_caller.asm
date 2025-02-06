@@ -26,7 +26,7 @@ ReenaDefeatedMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "ver-" ; " I've"
+	text " ver-" ; " I've"
 	line "sloeg ik meerdere" ; "beaten on numerous"
 	cont "malen!" ; "occasions!"
 	done
