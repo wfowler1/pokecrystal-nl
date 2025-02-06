@@ -124,10 +124,10 @@ DrawGBCOnlyGraphic:
 	ret
 
 GBCOnlyString:
-	db   "Deze spelcassette"
-	next "is uitsluitend"
-	next "compatibel met de"
-	next "Game Boy Color.@"
+	db   "Deze Game Pak" ; "This Game Pak is"
+	next "is uitsluitend" ;" designed only for"
+	next "compatibel met de" ; "use on the"
+	next "Game Boy Color.@" ; "Game Boy Color.@"
 
 GBCOnlyGFX:
 INCBIN "gfx/sgb/gbc_only.2bpp.lz"
