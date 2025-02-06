@@ -2,7 +2,7 @@ BeverlyMadeMonEvenCuterText:
 	text "Ik verfraaide mijn" ; "I fancied up my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "en" ; " and"
+	text " en" ; " and"
 
 	para "maakte het nog" ; "made it even cuter"
 	line "schattiger!" ; "than before!"

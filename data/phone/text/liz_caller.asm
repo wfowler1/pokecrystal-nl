@@ -17,7 +17,7 @@ LizDefeatedMonText:
 	para "We versloegen een" ; "We beat a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "met" ; " with"
+	text " met" ; " with"
 
 	para "maar één klap" ; "just one hit a"
 	line "laatst." ; "little while ago."
@@ -246,7 +246,7 @@ LizBeautifulTrainerGossipText:
 
 	para "Kon ik maar een" ; "I wish I could"
 	line "mooie @" ; "become a beautiful"
-	text_ram wStringBuffer4 ; MaxLength 12
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	cont "worden." ; " too."
 	done
@@ -272,7 +272,7 @@ LizFawningOverMonText:
 	line "stoer… ja… maar…" ; "awesome… yes… but…"
 
 	para "echt heel… eeek!" ; "very much… eeek!"
-	line "en lieftallig…" ; "And… lovely…"
+	line "En lieftallig…" ; "And… lovely…"
 
 	para "Zo verrukkelijk…" ; "Just ravishing…"
 	line "Oh, het is teveel!" ; "Oh, too much!"

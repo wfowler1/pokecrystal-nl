@@ -2,7 +2,7 @@ ParryNothingCanMatchText:
 	text "Niks evenaart nu" ; "Nothing can match"
 	line "m'n @" ; "my @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "nog." ; " now."
+	text " nog." ; " now."
 	done
 
 ParryDefeatedMonText:

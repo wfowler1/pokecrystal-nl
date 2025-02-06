@@ -2,7 +2,7 @@ GavenAnswerPhoneText:
 	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " speaking…"
+	text " hier…" ; " speaking…"
 
 	para "Hi, <PLAY_G>!"
 	line "Good morning!"
@@ -12,7 +12,7 @@ GavenAnswerPhoneDayText:
 	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " speaking…"
+	text " hier…" ; " speaking…"
 
 	para "Hi, <PLAY_G>!"
 	done
@@ -21,7 +21,7 @@ GavenAnswerPhoneNiteText:
 	text "Hallo, je spreekt" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " speaking…"
+	text " hier…" ; " speaking…"
 
 	para "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
 	line "Goedenavond!" ; "Good evening!"
@@ -62,7 +62,7 @@ GavenGenericText:
 
 	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "" ; "'s"
+	text_start ; "'s"
 	line "is zoals altijd" ; "doing as great as"
 	cont "prima in orde." ; "ever."
 

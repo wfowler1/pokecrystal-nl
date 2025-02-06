@@ -14,7 +14,7 @@ ArnieDefeatedMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "voor de" ; " for the"
+	text " voor de" ; " for the"
 	line "eerste keer." ; "first time."
 
 	para "Best makkelijk te" ; "It was easy to"
@@ -63,7 +63,7 @@ ArnieSwarmText:
 	para "Een heleboel" ; "A whole bunch of"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "zijn" ; " have"
+	text " zijn" ; " have"
 
 	para "verschenen rond" ; "appeared around"
 	line "@"

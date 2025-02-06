@@ -1,7 +1,7 @@
 GinaGettingInSyncWithMonText:
 	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "en" ; " and"
+	text " en" ; " and"
 	line "ik beginnen elkaar" ; "I are getting more"
 
 	para "goed aan te" ; "in sync with each"
@@ -12,7 +12,7 @@ GinaDefeatedMonText:
 	text "We versloegen een" ; "We battled a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "in" ; " and"
+	text " in" ; " and"
 
 	para "een spannend" ; "managed to drop it"
 	line "gevecht." ; "in a close match."

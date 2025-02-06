@@ -1,7 +1,7 @@
 ToddLooksCuteLikeMeText:
 	text "M'n @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "ziet" ; " is"
+	text " ziet" ; " is"
 	line "er steeds meer als" ; "looking more and"
 
 	para "mij uit. Het wordt" ; "more like me. It's"
@@ -26,7 +26,7 @@ ToddLostAMonText:
 
 	para "niet @" ; "beat @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "" ; " by"
+	text_start ; " by"
 	line "verslaan." ; "a tiny margin."
 
 	para "Het leven van mijn" ; "I'm guessing my"

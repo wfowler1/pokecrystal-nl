@@ -2,7 +2,7 @@ VanceAnswerPhoneText:
 	text "Ja, hallo?" ; "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier!" ; " here!"
+	text " hier!" ; " here!"
 
 	para "Mogge, <PLAY_G>!" ; "Morning, <PLAY_G>!"
 
@@ -14,7 +14,7 @@ VanceAnswerPhoneDayText:
 	text "Ja, hallo?" ; "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier!" ; " here!"
+	text " hier!" ; " here!"
 
 	para "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
 
@@ -26,7 +26,7 @@ VanceAnswerPhoneNiteText:
 	text "Ja, hallo?" ; "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier!" ; " here!"
+	text " hier!" ; " here!"
 
 	para "Goedenavond," ; "Evening, <PLAY_G>!"
 	line "<PLAY_G>! Vergeet" ; "Are you letting"

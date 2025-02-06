@@ -4,7 +4,7 @@ RalphNeglectingKidsText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "dan" ; " than I"
+	text " dan" ; " than I"
 	line "met mijn kinderen." ; "have with my kids."
 
 	para "Dat is eigenlijk" ; "That's a bit sad,"

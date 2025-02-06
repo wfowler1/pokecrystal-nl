@@ -7,7 +7,7 @@ HueyBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "" ; "'s"
+	text_start ; "'s"
 	line "is waar ik wacht." ; "where I'm waiting"
 
 	para "Als de wiede-" ; "for you. Hustle"

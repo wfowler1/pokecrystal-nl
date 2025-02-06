@@ -209,13 +209,17 @@ namespace PokeGen2TextValidator
         TrainerClass = 8,
         /// <summary> Trainer names. </summary>
         TrainerParty = 9,
+        /// <summary> Text input </summary>
+        Keyboard = 10,
     }
 
     public enum Source
     {
         Unknown = -1,
-        GoldSilver = 0,
-        Crystal = 1
+        RedBlue = 0,
+        Yellow = 1,
+        GoldSilver = 2,
+        Crystal = 3
     }
 
     internal class ASMFile : IEnumerable<Block>
@@ -231,11 +235,17 @@ namespace PokeGen2TextValidator
         {
             File = new FileInfo(path);
             Name = File.Name;
-            Type = GetType(File);
-            blocks = new Dictionary<string, Block>();
 
             Source = Source.Unknown;
-            if (File.FullName.Contains("pokegold"))
+            if (File.FullName.Contains("pokered"))
+            {
+                Source = Source.RedBlue;
+            }
+            else if (File.FullName.Contains("pokeyellow"))
+            {
+                Source = Source.Yellow;
+            }
+            else if (File.FullName.Contains("pokegold"))
             {
                 Source = Source.GoldSilver;
             }
@@ -243,6 +253,9 @@ namespace PokeGen2TextValidator
             {
                 Source = Source.Crystal;
             }
+
+            Type = GetType(File);
+            blocks = new Dictionary<string, Block>();
 
             string[] lines = System.IO.File.ReadAllLines(path);
             ParseBlocks(lines);
@@ -253,12 +266,13 @@ namespace PokeGen2TextValidator
             blocks.Add(block.Name, block);
         }
 
-        public static FileType GetType(FileInfo fileInfo)
+        public FileType GetType(FileInfo fileInfo)
         {
             string path = fileInfo.FullName;
             path = path.Replace('\\', '/');
 
-            if (path.Contains("data/pokemon/dex_entries"))
+            if (path.Contains("data/pokemon/dex_entries/") ||
+                path.EndsWith("data/pokemon/dex_text.asm"))
             {
                 return FileType.Pokedex;
             }
@@ -274,9 +288,8 @@ namespace PokeGen2TextValidator
             {
                 return FileType.Item;
             }
-            else if (path.Contains("data/types/names.asm")
-                || path.Contains("data/types/search_strings.asm")
-                )
+            else if (path.Contains("data/types/names.asm") ||
+                path.Contains("data/types/search_strings.asm"))
             {
                 return FileType.Type;
             }
@@ -288,18 +301,20 @@ namespace PokeGen2TextValidator
             {
                 return FileType.TrainerClass;
             }
-            else if (path.EndsWith("data/battle_tower/trainer_text.asm")
-                || path.EndsWith("data/items/descriptions.asm")
-                || path.EndsWith("data/moves/descriptions.asm")
-                || path.EndsWith("data/text/battle.asm")
-                || path.EndsWith("data/text/common_1.asm")
-                || path.EndsWith("data/text/common_2.asm")
-                || path.EndsWith("data/text/common_3.asm")
-                || path.EndsWith("data/text/std_text.asm")
-                || path.EndsWith("data/text/unused_sweet_honey.asm")
-                || path.Contains("data/phone/text/")
-                || path.EndsWith("maps/" + fileInfo.Name)
-                )
+            else if (path.EndsWith("data/battle_tower/trainer_text.asm") ||
+                path.EndsWith("data/items/descriptions.asm") ||
+                path.EndsWith("data/moves/descriptions.asm") ||
+                path.EndsWith("data/text/battle.asm") ||
+                path.EndsWith("data/text/common_1.asm") ||
+                path.EndsWith("data/text/common_2.asm") ||
+                path.EndsWith("data/text/common_3.asm") ||
+                path.EndsWith("data/text/std_text.asm") ||
+                path.EndsWith("data/text/unused_sweet_honey.asm") ||
+                path.Contains("data/phone/text/") ||
+                path.EndsWith("maps/" + fileInfo.Name) ||
+                path.Contains("data/text/text_") ||
+                path.Contains("data/battle_tower/trainer_text.asm") ||
+                (Source <= Source.Yellow && path.Contains("text/")))
             {
                 return FileType.TextBox;
             }
@@ -307,9 +322,16 @@ namespace PokeGen2TextValidator
             {
                 return FileType.TrainerParty;
             }
-            else if (path.Contains("mobile/")
-                || path.Contains("asserts.asm")
-                || path.Contains("charmap.asm"))
+            else if (path.EndsWith("data/text/name_input_chars.asm") ||
+                path.EndsWith("data/text/mail_input_chars.asm"))
+            {
+                return FileType.Keyboard;
+            }
+            else if (path.Contains("mobile/") ||
+                path.Contains("asserts.asm") ||
+                path.Contains("charmap.asm") ||
+                path.Contains("debug_room.asm") ||
+                path.Contains("unused"))
             {
                 return FileType.Ignore;
             }
@@ -381,7 +403,8 @@ namespace PokeGen2TextValidator
         /// Finds unconditional replacement annotations and returns the name of the source block to use.
         /// </summary>
         /// <returns>Name of block in source to use. <c>null</c> if unspecified.</returns>
-        public string ReplaceWith {
+        public string ReplaceWith
+        {
             get
             {
                 string comment = lines[0].Comment;
@@ -465,7 +488,7 @@ namespace PokeGen2TextValidator
         {
             List<FormattedText> formattedTexts = new List<FormattedText>();
 
-            FormattedText text = new FormattedText();
+            FormattedText text = null;
             for (int i = 0; i < lines.Count; i++)
             {
                 Line line = lines[i];
@@ -474,7 +497,18 @@ namespace PokeGen2TextValidator
                 {
                     continue;
                 }
-                if (line.Text.StartsWith("assert") || line.Text.StartsWith("vc_assert") || line.Text.StartsWith("fail") || line.Text.StartsWith("DEF"))
+                if (line.Text.StartsWith("assert ") ||
+                    line.Text.StartsWith("vc_assert ") ||
+                    line.Text.StartsWith("fail") ||
+                    line.Text.StartsWith("DEF ") ||
+                    line.Text.StartsWith("SECTION ") ||
+                    line.Text.StartsWith("REDEF ") ||
+                    line.Text.StartsWith("MACRO ") ||
+                    line.Text.StartsWith("charmap ") ||
+                    line.Text.StartsWith("ENDM") ||
+                    line.Text.StartsWith("if ") ||
+                    line.Text.StartsWith("IF ") ||
+                    line.Text.StartsWith("elif "))
                 {
                     continue;
                 }
@@ -483,23 +517,33 @@ namespace PokeGen2TextValidator
                 {
                     case FileType.TextBox:
                     {
+                        string lineStrings = line.GetStrings();
+
                         if (line.Text.StartsWith("text "))
                         {
-                            if (line.formattedText != null)
+                            if (!string.IsNullOrWhiteSpace(lineStrings))
                             {
-                                text.Add(line.formattedText.Text);
+                                if (text == null)
+                                {
+                                    text = new FormattedText(line);
+                                }
+                                else
+                                {
+                                    text.Add(lineStrings);
+                                }
                             }
                         }
                         else if (line.Text.StartsWith("line ") || line.Text.StartsWith("para ") || line.Text.StartsWith("cont ") || line.Text.StartsWith("text_low") || line.Text.StartsWith("next ") || line.Text.StartsWith("db "))
                         {
-                            if (!string.IsNullOrWhiteSpace(text?.Text))
+                            if (text != null)
                             {
                                 formattedTexts.Add(text);
-                                text = new FormattedText();
+                                text = null;
                             }
-                            if (line.formattedText != null)
+
+                            if (!string.IsNullOrWhiteSpace(lineStrings))
                             {
-                                text.Add(line.formattedText.Text);
+                                text = new FormattedText(line);
                             }
                         }
                         else if (line.Text.StartsWith("text_decimal"))
@@ -508,68 +552,73 @@ namespace PokeGen2TextValidator
                             int length;
                             if (int.TryParse(split[split.Length - 1], out length))
                             {
+                                StringBuilder sb = new StringBuilder();
                                 for (int j = 0; j < length; ++j)
                                 {
-                                    text.Add(((char)('0' + j)).ToString());
+                                    sb.Append(((char)('0' + j)).ToString());
+                                }
+                                if (sb.Length > 0)
+                                {
+                                    if (text == null)
+                                    {
+                                        text = new FormattedText(line.Number, "text_decimal", sb.ToString());
+                                    }
+                                    else
+                                    {
+                                        text.Add(sb.ToString());
+                                    }
                                 }
                             }
                         }
                         else if (line.Text.StartsWith("text_ram"))
                         {
                             string[] split = line.Text.Split(' ');
+
                             if (split.Length > 1)
                             {
+                                StringBuilder sb = new StringBuilder();
+                                bool lengthUnknown = false;
+
                                 if (FormattedText.ramLengths.ContainsKey(split[1]))
                                 {
                                     for (int j = 0; j < FormattedText.ramLengths[split[1]]; ++j)
                                     {
-                                        text.Add(split[1][j % split[1].Length].ToString());
+                                        sb.Append(split[1][j % split[1].Length].ToString());
                                     }
                                 }
                                 else if (line.Comment.Contains("MaxLength "))
                                 {
-                                    string[] commentWords = line.Comment.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                                    int length = -1;
-                                    for (int j = 0; j < commentWords.Length; ++j)
-                                    {
-                                        if (commentWords[j] == "MaxLength" && j <= commentWords.Length - 2)
-                                        {
-                                            if (!int.TryParse(commentWords[j + 1], out length))
-                                            {
-                                                length = -1;
-                                                FieldInfo[] fields = typeof(Validator).GetFields(BindingFlags.Public | BindingFlags.Static);
-                                                foreach (FieldInfo field in fields)
-                                                {
-                                                    if (field.Name == commentWords[j + 1])
-                                                    {
-                                                        length = (int)field.GetValue(null);
-                                                        break;
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-
+                                    int length = line.MaxLength;
                                     if (length >= 0)
                                     {
                                         for (int j = 0; j < length; ++j)
                                         {
-                                            text.Add(split[1][j % split[1].Length].ToString());
+                                            sb.Append(split[1][j % split[1].Length].ToString());
                                         }
                                     }
                                     else
                                     {
-                                        text.Add(split[1], true);
+                                        lengthUnknown = true;
+                                        sb.Append(split[1]);
                                     }
                                 }
                                 else
                                 {
-                                    text.Add(split[1], true);
+                                    lengthUnknown = true;
+                                    sb.Append(split[1]);
                                 }
-                            }
-                            else
-                            {
-                                text.Add(split[1], true);
+
+                                if (sb.Length > 0)
+                                {
+                                    if (text == null)
+                                    {
+                                        text = new FormattedText(line.Number, "text_ram", sb.ToString(), lengthUnknown);
+                                    }
+                                    else
+                                    {
+                                        text.Add(sb.ToString(), lengthUnknown);
+                                    }
+                                }
                             }
                         }
                         else if (line.Text == "prompt" || line.Text == "done" || line.Text == "text_end")
@@ -577,7 +626,7 @@ namespace PokeGen2TextValidator
                             if (!string.IsNullOrWhiteSpace(text?.Text))
                             {
                                 formattedTexts.Add(text);
-                                text = new FormattedText();
+                                text = null;
                             }
                         }
                         break;
@@ -586,14 +635,17 @@ namespace PokeGen2TextValidator
                     {
                         if (line.Text.StartsWith("db ") || line.Text.StartsWith("next ") || line.Text.StartsWith("page "))
                         {
-                            if (!string.IsNullOrWhiteSpace(text?.Text))
+                            if (text != null)
                             {
                                 formattedTexts.Add(text);
-                                text = new FormattedText();
+                                text = null;
                             }
-                            if (line.formattedText != null)
+
+                            string lineStrings = line.GetStrings();
+
+                            if (!string.IsNullOrWhiteSpace(lineStrings))
                             {
-                                text.Add(line.formattedText.Text);
+                                text = new FormattedText(line);
                             }
                         }
                         break;
@@ -604,14 +656,17 @@ namespace PokeGen2TextValidator
                     {
                         if (line.Text.StartsWith("li "))
                         {
-                            if (!string.IsNullOrWhiteSpace(text?.Text))
+                            if (text != null)
                             {
                                 formattedTexts.Add(text);
-                                text = new FormattedText();
+                                text = null;
                             }
-                            if (line.formattedText != null)
+
+                            string lineStrings = line.GetStrings();
+
+                            if (!string.IsNullOrWhiteSpace(lineStrings))
                             {
-                                text.Add(line.formattedText.Text);
+                                text = new FormattedText(line);
                             }
                         }
                         break;
@@ -623,26 +678,33 @@ namespace PokeGen2TextValidator
                     {
                         if (line.Text.Contains("db \""))
                         {
-                            if (!string.IsNullOrWhiteSpace(text?.Text))
+                            if (text != null)
                             {
                                 formattedTexts.Add(text);
-                                text = new FormattedText();
+                                text = null;
                             }
-                            if (line.formattedText != null)
+
+                            string lineStrings = line.GetStrings();
+
+                            if (!string.IsNullOrWhiteSpace(lineStrings))
                             {
-                                text.Add(line.formattedText.Text);
+                                text = new FormattedText(line);
                             }
                         }
                         break;
                     }
                     default:
                     {
+                        string lineStrings = line.GetStrings();
+
                         // Just add every found string
-                        if (line.formattedText != null)
+                        if (!string.IsNullOrWhiteSpace(lineStrings))
                         {
-                            text.Add(line.formattedText.Text);
-                            formattedTexts.Add(text);
-                            text = new FormattedText();
+                            if (text != null)
+                            {
+                                formattedTexts.Add(text);
+                            }
+                            text = new FormattedText(line);
                         }
                         break;
                     }
@@ -690,10 +752,14 @@ namespace PokeGen2TextValidator
     }
     
     // Line.cs
+    /// <summary> Class representing one line of code from an <see cref="ASMFile"/>. </summary>
     internal class Line
     {
+        /// <summary> Line number in the file. </summary>
         public int Number { get; private set; }
+        /// <inheritdoc cref="Raw"/>
         private string _raw;
+        /// <summary> The raw text from this line with no preprocessing. </summary>
         public string Raw
         {
             get
@@ -727,30 +793,76 @@ namespace PokeGen2TextValidator
 
                 Text = sb.ToString().Trim();
                 Comment = comment;
-
-                string stringLiteral = GetFormattedText();
-                if (stringLiteral != null)
-                {
-                    formattedText = new FormattedText(stringLiteral);
-                }
             }
         }
+        /// <summary> All text from the line, except the comment. </summary>
         public string Text { get; private set; }
+        /// <summary> The comment from the line. </summary>
         public string Comment { get; private set; }
-        public FormattedText formattedText;
 
+        /// <summary>
+        /// Gives the annotated MaxLength of the line if provided.
+        /// </summary>
+        /// <returns>Annotated maximum possible length of the line. <c>-1</c> if unspecified.</returns>
+        public int MaxLength
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(Comment))
+                {
+                    return -1;
+                }
+
+                string[] commentTokens = Comment.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                int length = -1;
+                for (int j = 0; j < commentTokens.Length; ++j)
+                {
+                    if (commentTokens[j] == "MaxLength" && j <= commentTokens.Length - 2)
+                    {
+                        if (!int.TryParse(commentTokens[j + 1], out length))
+                        {
+                            FieldInfo[] fields = typeof(Validator).GetFields(BindingFlags.Public | BindingFlags.Static);
+                            foreach (FieldInfo field in fields)
+                            {
+                                if (field.Name == commentTokens[j + 1])
+                                {
+                                    length = (int)field.GetValue(null);
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                return length;
+            }
+        }
+
+        /// <inheritdoc cref="Line(int, string, string)"/>
+        /// <param name="text">All text from the line.</param>
         public Line(int number, string text)
         {
             Number = number;
             Raw = text;
         }
 
-        public Line(string text, string comment)
+        /// <summary>
+        /// Constructs a new <see cref="Line"/> object using the supplied data.
+        /// </summary>
+        /// <param name="number">Line number in the file.</param>
+        /// <param name="code">The code in the line (without comments).</param>
+        /// <param name="comment">The comment in the line.</param>
+        public Line(int number, string code, string comment)
         {
-            Raw = text + " ; " + comment;
+            Number = number;
+            Raw = code + " ; " + comment;
         }
 
-        public string GetFormattedText()
+        /// <summary>
+        /// Gets all strings within quote marks on this line.
+        /// </summary>
+        /// <returns>All strings within quote marks on this line.</returns>
+        public string GetStrings()
         {
             if (Text.Contains('\"'))
             {
@@ -881,6 +993,7 @@ namespace PokeGen2TextValidator
             { "{UNOWNWORD_{d:x}}", 7 },
             { "{d:MONS_PER_BOX}", 2 },
             { "<JP_18>", 2 },
+            { "<JP_14>", 2 },
             { "<NI>", 2 },
             { "<TTE>", 2 },
             { "<WO>", 2 },
@@ -895,38 +1008,59 @@ namespace PokeGen2TextValidator
         };
         public static readonly Dictionary<string, int> ramLengths = new Dictionary<string, int>
         {
+            { "wBoxNumString", 2 },
+
             { "wSeerCaughtLevelString", 3 },
 
-            { "wPlayerTrademonSenderName", Validator.MaxPlayerNameLength },
-            { "wOTTrademonSenderName", Validator.MaxPlayerNameLength },
-            { "wPlayerName", Validator.MaxPlayerNameLength },
-            { "wMysteryGiftPartnerName", Validator.MaxPlayerNameLength },
-            { "wMysteryGiftPlayerName", Validator.MaxPlayerNameLength },
-            { "wMysteryGiftCardHolderName", Validator.MaxPlayerNameLength },
+            { "wLinkEnemyTrainerName", Validator.MaxPlayerNameLength },
             { "wMagikarpRecordHoldersName", Validator.MaxPlayerNameLength },
-            { "wSeerOT", Validator.MaxPlayerNameLength },
             { "wMobileParticipant1Nickname", Validator.MaxPlayerNameLength },
             { "wMobileParticipant2Nickname", Validator.MaxPlayerNameLength },
             { "wMobileParticipant3Nickname", Validator.MaxPlayerNameLength },
+            { "wMysteryGiftPartnerName", Validator.MaxPlayerNameLength },
+            { "wMysteryGiftPlayerName", Validator.MaxPlayerNameLength },
+            { "wMysteryGiftCardHolderName", Validator.MaxPlayerNameLength },
+            { "wOTTrademonSenderName", Validator.MaxPlayerNameLength },
+            { "wPlayerName", Validator.MaxPlayerNameLength },
+            { "wPlayerTrademonSenderName", Validator.MaxPlayerNameLength },
+            { "wSeerOT", Validator.MaxPlayerNameLength },
             { "wSeerTimeOfDay", 7 },
 
-            { "wBugContestWinnerName", Validator.MaxTrainerNameLength },
+            { "wGymLeaderName", 8 },
 
-            { "wEnemyMonNickname", Validator.MaxPokemonNameLength },
+            { "wBugContestWinnerName", Validator.MaxTrainerNameLength },
+            { "wTrainerName", Validator.MaxTrainerNameLength },
+
+            { "wBattleMonNick", Validator.MaxPokemonNameLength },
             { "wBattleMonNickname", Validator.MaxPokemonNameLength },
-            { "wPlayerTrademonSpeciesName", Validator.MaxPokemonNameLength },
-            { "wOTTrademonSpeciesName", Validator.MaxPokemonNameLength },
-            { "wBreedMon2Nickname", Validator.MaxPokemonNameLength },
             { "wBreedMon1Nickname", Validator.MaxPokemonNameLength },
+            { "wBreedMon2Nickname", Validator.MaxPokemonNameLength },
+            { "wBoxMonNicks", Validator.MaxPokemonNameLength },
             { "wBufferTrademonNickname", Validator.MaxPokemonNameLength },
+            { "wDayCareMonName", Validator.MaxPokemonNameLength },
+            { "wEnemyMonNick", Validator.MaxPokemonNameLength },
+            { "wEnemyMonNickname", Validator.MaxPokemonNameLength },
+            { "wInGameTradeGiveMonName", Validator.MaxPokemonNameLength },
+            { "wInGameTradeReceiveMonName", Validator.MaxPokemonNameLength },
+            { "wLearnMoveMonName", Validator.MaxPokemonNameLength },
+            { "wNameOfPlayerMonToBeTraded", Validator.MaxPokemonNameLength },
+            { "wOTTrademonSpeciesName", Validator.MaxPokemonNameLength },
+            { "wPlayerTrademonSpeciesName", Validator.MaxPokemonNameLength },
             { "wSeerNickname", Validator.MaxPokemonNameLength },
 
+            { "wOaksAideRewardItemName", Validator.MaxItemNameLength },
+
             { "wSeerCaughtLocation", Validator.MaxLandmarkLength },
+            { "wGymCityName", Validator.MaxLandmarkLength },
         };
 
-        public static char Terminator = '@';
+        public const char Terminator = '@';
 
-        /// <summary>  Raw text. </summary>
+        /// <summary> The instruction starting this formatted text ("text", "db", "para" etc.). </summary>
+        public string Instruction { get; private set; }
+        /// <summary> The line number starting this formatted text (<see cref="Instruction"/>). </summary>
+        public int LineNumber { get; private set; }
+        /// <summary> Raw text. </summary>
         public string Text { get; private set; }
         /// <summary> The remaining text after the formatted strings are stripped out. </summary>
         public string Unformatted { get; private set; }
@@ -937,14 +1071,26 @@ namespace PokeGen2TextValidator
         /// <summary> Does the text have an '@' terminator? </summary>
         public bool IsTerminated { get; private set; }
 
-        public FormattedText()
+        public FormattedText(Line line)
         {
-            Text = string.Empty;
-            Unformatted = string.Empty;
+            Instruction = "";
+            int indexOfSpace = line.Text.IndexOf(' ');
+            if (indexOfSpace > 0)
+            {
+                string instruction = line.Text.Substring(0, indexOfSpace);
+                if (!instruction.Contains("\""))
+                {
+                    Instruction = line.Text.Substring(0, indexOfSpace);
+                }
+            }
+            Add(line.GetStrings());
+            LineNumber = line.Number;
         }
 
-        public FormattedText(string text, bool lengthUnknown = false)
+        public FormattedText(int lineNumber, string instruction, string text, bool lengthUnknown = false)
         {
+            Instruction = instruction;
+            LineNumber = lineNumber;
             Add(text);
             LengthUnknown = lengthUnknown;
         }
@@ -981,6 +1127,7 @@ namespace PokeGen2TextValidator
     internal class Validator
     {
         public const int MaxTextboxLength = 18;
+        public const int MaxRBYTextboxSecondLineLength = 17;
         public const int MaxPlayerNameLength = 7;
         public const int MaxTrainerNameLength = 10; // "ANN & ANNE"
         public const int MaxTrainerClassNameLength = 13; // "POKéMON PROF."
@@ -998,7 +1145,7 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲";
+        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎";
 
         private Block _block;
         private StringBuilder output;
@@ -1025,27 +1172,167 @@ namespace PokeGen2TextValidator
         private void ValidateLines()
         {
             List<string> lines = _block.GetLinesSanitized();
-            if (_block.Type == FileType.TextBox)
+            for (int i = 0; i < lines.Count; ++i)
             {
-                for (int i = 0; i < lines.Count; ++i)
+                string line = lines[i];
+                string nextLine = null;
+                if (lines.Count > i + 1)
                 {
-                    string line = lines[i];
-                    string nextLine = null;
-                    if (lines.Count > i + 1)
-                    {
-                        nextLine = lines[i + 1];
-                    }
+                    nextLine = lines[i + 1];
+                }
 
-                    if (CheckTextboxLineNeedsTerminator(line, nextLine) && !lines[i].EndsWith("@\""))
+                switch (_block.Type)
+                {
+                    case FileType.Keyboard:
                     {
-                        output.Append(GetTerminatorErrorMessage(line));
+                        break;
                     }
-                    if (!CheckTextboxNextLineValid(line, nextLine))
+                    case FileType.TextBox:
                     {
-                        output.Append(GetInvalidNextLineErrorMessage(line, nextLine));
+                        if (!CheckTextboxNextLineValid(line, nextLine))
+                        {
+                            output.Append(GetInvalidNextLineErrorMessage(line, nextLine));
+                        }
+                        goto default;
+                    }
+                    case FileType.Pokedex:
+                    {
+                        if (CheckPokedexLineNeedsTerminator(line, nextLine) && !lines[i].EndsWith(FormattedText.Terminator.ToString() + "\"") && lines[i].EndsWith("\""))
+                        {
+                            output.Append(GetTerminatorErrorMessage(line));
+                        }
+                        if (!CheckPokedexNextLineValid(line, nextLine))
+                        {
+                            output.Append(GetInvalidNextLineErrorMessage(line, nextLine));
+                        }
+                        break;
+                    }
+                    default:
+                    {
+                        if (CheckTextboxLineNeedsTerminator(line, nextLine) && !lines[i].EndsWith(FormattedText.Terminator.ToString() + "\"") && lines[i].EndsWith("\""))
+                        {
+                            output.Append(GetTerminatorErrorMessage(line));
+                        }
+                        break;
                     }
                 }
             }
+        }
+
+        private static bool CheckTextboxNextLineValid(string line, string nextLine)
+        {
+            if (nextLine == null)
+            {
+                if (line == "text_end")
+                {
+                    return true;
+                }
+
+                if (line.StartsWith("line ") ||
+                    line.StartsWith("para ") ||
+                    line.StartsWith("cont ") ||
+                    line.StartsWith("text_") ||
+                    line.StartsWith("sound_"))
+                {
+                    return false;
+                }
+
+                return true;
+            }
+
+            if (nextLine.StartsWith("if") ||
+                nextLine.StartsWith("else") ||
+                nextLine.StartsWith("endc") ||
+                nextLine.StartsWith("elif") ||
+                nextLine.StartsWith("IF") ||
+                nextLine.StartsWith("ELSE") ||
+                nextLine.StartsWith("ENDC") ||
+                nextLine.StartsWith("ELIF"))
+            {
+                // These are rare enough that they can be checked manually
+                return true;
+            }
+
+            if (line.StartsWith("text "))
+            {
+                if (nextLine.StartsWith("line ") ||
+                    nextLine.StartsWith("para ") ||
+                    nextLine.StartsWith("cont ") ||
+                    nextLine.StartsWith("next ") ||
+                    nextLine == "prompt" ||
+                    nextLine == "done" ||
+                    nextLine.StartsWith("text_") ||
+                    nextLine.StartsWith("sound_"))
+                {
+                    return true;
+                }
+            }
+            else if (line.StartsWith("line ") || line.StartsWith("cont "))
+            {
+                if (nextLine.StartsWith("para ") ||
+                    nextLine.StartsWith("cont ") ||
+                    nextLine == "prompt" ||
+                    nextLine == "done" ||
+                    nextLine.StartsWith("text_") ||
+                    nextLine.StartsWith("sound_"))
+                {
+                    return true;
+                }
+            }
+            else if (line.StartsWith("text_ram ") || line.StartsWith("text_decimal ") || line == "text_promptbutton")
+            {
+                if (nextLine.StartsWith("text ") ||
+                    nextLine.StartsWith("text_"))
+                {
+                    return true;
+                }
+            }
+            else if (line == "text_end" || line == "prompt" || line == "done")
+            {
+                return true;
+            }
+            else
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        private static bool CheckPokedexNextLineValid(string line, string nextLine)
+        {
+            if (nextLine == null || line.StartsWith("_"))
+            {
+                return true;
+            }
+
+            if (line.StartsWith("text ") || line.StartsWith("db ") || line.StartsWith("dw "))
+            {
+                if (nextLine.StartsWith("next ") ||
+                    nextLine.StartsWith("db ") ||
+                    nextLine.StartsWith("dw "))
+                {
+                    return true;
+                }
+            }
+            else if (line.StartsWith("next "))
+            {
+                if (nextLine.StartsWith("next ") ||
+                    nextLine.StartsWith("page ") ||
+                    nextLine == "dex")
+                {
+                    return true;
+                }
+            }
+            else if (line.StartsWith("page "))
+            {
+                if (nextLine.StartsWith("next "))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private void ValidateText()
@@ -1108,21 +1395,28 @@ namespace PokeGen2TextValidator
             for (int i = 0; i < text.Count; ++i)
             {
                 FormattedText formattedText = text[i];
-                FormattedText nextText = null;
-                if (text.Count > i + 1)
-                {
-                    nextText = text[i + 1];
-                }
 
                 if (string.IsNullOrWhiteSpace(formattedText?.Text))
                 {
                     continue;
                 }
-                if ((formattedText.Text.Contains("INCLUDE") || formattedText.Text.Contains("INCBIN")) && formattedText.Text.Contains("/"))
+                if ((formattedText.Instruction == "INCLUDE" || formattedText.Instruction == "INCBIN") && formattedText.Text.Contains("/"))
                 {
                     continue;
                 }
-                if (formattedText.Text.StartsWith("assert") || formattedText.Text.StartsWith("vc_assert") || formattedText.Text.StartsWith("fail") || formattedText.Text.StartsWith("DEF"))
+                if (string.IsNullOrWhiteSpace(formattedText.Instruction) ||
+                    formattedText.Instruction == "assert" ||
+                    formattedText.Instruction == "vc_assert" ||
+                    formattedText.Instruction == "fail" ||
+                    formattedText.Instruction == "DEF" ||
+                    formattedText.Instruction == "SECTION" ||
+                    formattedText.Instruction == "REDEF" ||
+                    formattedText.Instruction == "MACRO" ||
+                    formattedText.Instruction == "charmap" ||
+                    formattedText.Instruction == "ENDM" ||
+                    formattedText.Instruction == "if" ||
+                    formattedText.Instruction == "IF" ||
+                    formattedText.Instruction == "elif")
                 {
                     continue;
                 }
@@ -1145,9 +1439,29 @@ namespace PokeGen2TextValidator
                     output.Append(GetUnmappedCharErrorMessage(formattedText, unmappedCharactersBuilder.ToString()));
                 }
 
-                if (_block.Type == FileType.Pokedex)
+                if (_block.Type == FileType.TextBox)
                 {
-                    if (i == 0)
+                    if (_block.Source <= Source.Yellow)
+                    {
+                        if (formattedText.Instruction == "line" || formattedText.Instruction == "cont" || formattedText.Instruction == "next" || formattedText.Instruction == "text_low")
+                        {
+                            //maxLength = MaxRBYTextboxSecondLineLength;
+                        }
+                        else
+                        {
+                            maxLength = MaxTextboxLength;
+                        }
+                    }
+
+                    string message = GetLengthValidationMessage(formattedText, maxLength);
+                    if (!string.IsNullOrEmpty(message))
+                    {
+                        output.Append(message);
+                    }
+                }
+                else if (_block.Type == FileType.Pokedex)
+                {
+                    if (i == 0 && _block.Name == "default")
                     {
                         // First string is species name
                         string message = GetLengthValidationMessage(formattedText, MaxSpeciesNameLength);
@@ -1155,21 +1469,9 @@ namespace PokeGen2TextValidator
                         {
                             output.Append(message);
                         }
-                        if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
-                        {
-                            output.Append(GetTerminatorErrorMessage(formattedText.Text));
-                        }
                     }
                     else
                     {
-                        if (i == text.Count - 1)
-                        {
-                            // last string is last line of entry
-                            if (!formattedText.Text.EndsWith(FormattedText.Terminator.ToString()))
-                            {
-                                output.Append(GetTerminatorErrorMessage(formattedText.Text));
-                            }
-                        }
                         string message = GetLengthValidationMessage(formattedText, maxLength);
                         if (!string.IsNullOrEmpty(message))
                         {
@@ -1217,89 +1519,52 @@ namespace PokeGen2TextValidator
             }
         }
 
-        private static bool CheckTextboxNextLineValid(string line, string nextLine)
+        private bool CheckTextboxLineNeedsTerminator(string line, string nextLine)
         {
-            if (nextLine == null)
+            if (nextLine != null &&
+                (nextLine.StartsWith("if") ||
+                nextLine.StartsWith("else") ||
+                nextLine.StartsWith("endc") ||
+                nextLine.StartsWith("elif") ||
+                nextLine.StartsWith("IF") ||
+                nextLine.StartsWith("ELSE") ||
+                nextLine.StartsWith("ENDC") ||
+                nextLine.StartsWith("ELIF")))
             {
-                if (line == "text_end")
-                {
-                    return true;
-                }
+                // These are rare enough that they can be checked manually
+                return false;
+            }
 
-                if (line.StartsWith("line ") ||
-                    line.StartsWith("para ") ||
-                    line.StartsWith("cont ") ||
-                    line.StartsWith("text_") ||
-                    line.StartsWith("sound_"))
+            // Special case evilness, these are too convoluted to implement properly here
+            if (_block.Source == Source.GoldSilver || _block.Source == Source.Crystal)
+            {
+                // home/names.asm
+                if (_block.Name == "GetTMHMName::")
                 {
                     return false;
                 }
-
-                return true;
             }
-
-            if (nextLine.StartsWith("if") ||
-                nextLine.StartsWith("else") ||
-                nextLine.StartsWith("endc") ||
-                nextLine.StartsWith("elif"))
+            if (_block.Source == Source.GoldSilver)
             {
-                // These are rare enough that they can be checked manually
-                return true;
-            }
-
-            if (line.StartsWith("text "))
-            {
-                if (nextLine.StartsWith("line ") ||
-                    nextLine.StartsWith("para ") ||
-                    nextLine.StartsWith("cont ") ||
-                    nextLine.StartsWith("next ") ||
-                    nextLine == "prompt" ||
-                    nextLine == "done" ||
-                    nextLine.StartsWith("text_") ||
-                    nextLine.StartsWith("sound_"))
+                // home/print_num.asm
+                if (_block.Name == "PrintHexNumber::")
                 {
-                    return true;
+                    return false;
                 }
             }
-            else if (line.StartsWith("line ") || line.StartsWith("cont "))
+            if (_block.Source == Source.Crystal)
             {
-                if (nextLine.StartsWith("para ") ||
-                    nextLine.StartsWith("cont ") ||
-                    nextLine == "prompt" ||
-                    nextLine == "done" ||
-                    nextLine.StartsWith("text_") ||
-                    nextLine.StartsWith("sound_"))
+                // engine/movie/trade_animation.asm
+                if (_block.Name == "TrademonStats_PrintOTName:")
                 {
-                    return true;
+                    return false;
                 }
             }
-            else if (line.StartsWith("text_ram ") || line.StartsWith("text_decimal ") || line == "text_promptbutton")
-            {
-                if (nextLine.StartsWith("text ") ||
-                    nextLine.StartsWith("text_"))
-                {
-                    return true;
-                }
-            }
-            else if (line == "text_end" || line == "prompt" || line == "done")
-            {
-                return true;
-            }
-            else
-            {
-                return true;
-            }
 
-            return false;
-        }
-
-        private static bool CheckTextboxLineNeedsTerminator(string line, string nextLine)
-        {
-
-            if (line.StartsWith("text ")
-                || line.StartsWith("line ")
-                || line.StartsWith("para ")
-                || line.StartsWith("cont "))
+            if (line.StartsWith("text ") ||
+                line.StartsWith("line ") ||
+                line.StartsWith("para ") ||
+                line.StartsWith("cont "))
             {
                 if (nextLine != null && (nextLine.StartsWith("sound_") || nextLine.StartsWith("text_")))
                 {
@@ -1308,7 +1573,34 @@ namespace PokeGen2TextValidator
             }
             if (line.StartsWith("db ") || line.StartsWith("next "))
             {
-                if (line.Contains("\"") && !line.Contains("@\"") && (nextLine == null || !nextLine.StartsWith("next ")))
+                if (line.StartsWith("db BANK("))
+                {
+                    return false;
+                }
+                if (line.Contains("\"") && !line.Contains(FormattedText.Terminator + "\"") && (nextLine == null || !(nextLine.StartsWith("next ") || nextLine.StartsWith("db "))))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private bool CheckPokedexLineNeedsTerminator(string line, string nextLine)
+        {
+            if (line.StartsWith("db") && line.Contains("\"") && !nextLine.StartsWith("next "))
+            {
+                return true;
+            }
+            else if (line.StartsWith("next "))
+            {
+                if (nextLine == null)
+                {
+                    return true;
+                }
+                if (!nextLine.StartsWith("page ")
+                    && !nextLine.StartsWith("next ")
+                    && nextLine != "dex")
                 {
                     return true;
                 }
@@ -1361,13 +1653,15 @@ namespace PokeGen2TextValidator
         private string GetTerminatorErrorMessage(string text)
         {
             StringBuilder sb = new StringBuilder();
-            return sb.Append("\tError: text \"").Append(text).Append("\" in ").Append(_block.Name).Append(" is missing a terminator! Add @ to the end of the string.\n").ToString();
+            return sb.Append("\tError: \"").Append(text).Append("\" in ").Append(_block.Name).Append(" is missing a terminator! Add @ to the end of the string.\n").ToString();
         }
+
         private string GetInvalidNextLineErrorMessage(string text, string nextLine)
         {
             StringBuilder sb = new StringBuilder();
-            return sb.Append("\tError: text \"").Append(text).Append("\" in ").Append(_block.Name).Append(" cannot be followed by \"").Append(nextLine).Append("\".\n").ToString();
+            return sb.Append("\tError: line \"").Append(text).Append("\" in ").Append(_block.Name).Append(" cannot be followed by \"").Append(nextLine).Append("\".\n").ToString();
         }
+
         private string GetInvalidLastLineErrorMessage(string text)
         {
             StringBuilder sb = new StringBuilder();

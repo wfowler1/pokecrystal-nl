@@ -82,7 +82,7 @@ GoldenrodVendingMachine:
 	db "VERS WATER   ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
 	db "FRISDRANK    ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
 	db "LIMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "ANNULEER@"
+	db "SLUITEN@"
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText

@@ -930,7 +930,7 @@ Text_RejectMonWithMail:
 	text "Je mag niet de" ; "You can't take the"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "met" ; " that"
+	text " met" ; " that"
 	cont "POST meenemen." ; "has MAIL with you."
 	prompt
 
