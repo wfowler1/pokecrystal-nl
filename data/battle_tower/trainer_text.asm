@@ -1,124 +1,124 @@
 _BTGreetingM1Text:
-	text "Hello, glad to"
-	line "meet you!"
+	text "Hallo, fijn je te" ; "Hello, glad to"
+	line "ontmoeten!" ; "meet you!"
 
-	para "I do hope we have"
-	line "a good battle."
+	para "Hopelijk hebben we" ; "I do hope we have"
+	line "een goed gevecht." ; "a good battle."
 	done
 
 _BTLossM1Text:
-	text "Thank you! A most"
-	line "enjoyable battle!"
+	text "Bedankt! Een ver-" ; "Thank you! A most"
+	line "makelijk gevecht!" ; "enjoyable battle!"
 	done
 
 _BTWinM1Text:
-	text "Thank you. You are"
-	line "formidable."
+	text "Bedankt. Je bent" ; "Thank you. You are"
+	line "formidabel." ; "formidable."
 	done
 
 _BTGreetingM2Text:
-	text "Work, work, work…"
-	line "I'm always busy!"
+	text "Werk, werk, werk…" ; "Work, work, work…"
+	line "Altijd druk hier!" ; "I'm always busy!"
 	done
 
 _BTLossM2Text:
-	text "But, I work hard"
-	line "in battle too!"
+	text "Maar ik werk ook" ; "But, I work hard"
+	line "hard in gevechten!" ; "in battle too!"
 	done
 
 _BTWinM2Text:
-	text "I'm too busy to be"
-	line "battling!"
+	text "Ik heb het te druk" ; "I'm too busy to be"
+	line "om te vechten!" ; "battling!"
 	done
 
 _BTGreetingM3Text:
-	text "Brace yourself for"
-	line "my all-out attack!"
+	text "Bereid je voor op" ; "Brace yourself for"
+	line "mijn grote aanval!" ; "my all-out attack!"
 	done
 
 _BTLossM3Text:
-	text "What a cakewalk!"
-	line "You're too easy!"
+	text "Dat was een eitje!" ; "What a cakewalk!"
+	line "Stelde niks voor!" ; "You're too easy!"
 	done
 
 _BTWinM3Text:
-	text "I won't lose next"
-	line "time, all right?"
+	text "Volgende keer ver-" ; "I won't lose next"
+	line "lies ik niet, oké?" ; "time, all right?"
 	done
 
 _BTGreetingM4Text:
-	text "Heh, your #MON"
-	line "look pretty cool."
+	text "Heh, je #MON" ; "Heh, your #MON"
+	line "zien er cool uit." ; "look pretty cool."
 	done
 
 _BTLossM4Text:
-	text "Hey, hey, no way!"
-	line "You won't win!"
+	text "Hé, hé, echt niet!" ; "Hey, hey, no way!"
+	line "Je wint niet!" ; "You won't win!"
 	done
 
 _BTWinM4Text:
-	text "You serious?"
-	line "This is brutal!"
+	text "Meen je dat?" ; "You serious?"
+	line "Dit is echt bruut!" ; "This is brutal!"
 	done
 
 _BTGreetingM5Text:
-	text "#MON every day!"
-	line "I love battling!"
+	text "Elke dag #MON!" ; "#MON every day!"
+	line "Ik vecht graag!" ; "I love battling!"
 	done
 
 _BTLossM5Text:
-	text "I'm on top of my"
-	line "game, but not you!"
+	text "Ik zit er bovenop," ; "I'm on top of my"
+	line "jij niet!" ; "game, but not you!"
 	done
 
 _BTWinM5Text:
-	text "I don't care that"
-	line "I lost, really!"
+	text "Het boeit me niet" ; "I don't care that"
+	line "dat ik verloor!" ; "I lost, really!"
 	done
 
 _BTGreetingM6Text:
-	text "Hi, there! Let's"
-	line "keep this clean!"
+	text "Hallo daar, houd" ; "Hi, there! Let's"
+	line "het wel netjes!" ; "keep this clean!"
 	done
 
 _BTLossM6Text:
-	text "Whoops, sorry for"
-	line "that wipeout!"
+	text "Oeps, sorry voor" ; "Whoops, sorry for"
+	line "die nederlaag!" ; "that wipeout!"
 	done
 
 _BTWinM6Text:
-	text "Whoops! Come on,"
-	line "let me win one!"
+	text "Oeps! Kom op, ik" ; "Whoops! Come on,"
+	line "wil ook winnen!" ; "let me win one!"
 	done
 
 _BTGreetingM7Text:
-	text "Do you want to see"
-	line "my battle level?"
+	text "Wil je zien hoe" ; "Do you want to see"
+	line "sterk ik ben?" ; "my battle level?"
 	done
 
 _BTLossM7Text:
-	text "Hehehe, I know"
-	line "your level now!"
+	text "Hehehe, ik weet nu" ; "Hehehe, I know"
+	line "hoe sterk je bent!" ; "your level now!"
 	done
 
 _BTWinM7Text:
-	text "Ouch… I'm just too"
-	line "weak…"
+	text "Auw… Ik ben gewoon" ; "Ouch… I'm just too"
+	line "te zwak…" ; "weak…"
 	done
 
 _BTGreetingM8Text:
-	text "Hey, let's battle."
-	line "I'm your opponent."
+	text "Kom, vecht tegen" ; "Hey, let's battle."
+	line "mij." ; "I'm your opponent."
 	done
 
 _BTLossM8Text:
-	text "Wow, you're not"
-	line "serious about it!"
+	text "Wauw, je neemt het" ; "Wow, you're not"
+	line "niet serieus!" ; "serious about it!"
 	done
 
 _BTWinM8Text:
-	text "…Urgh… Nothing"
-	line "positive here…"
+	text "…Ugh… Niks" ; "…Urgh… Nothing"
+	line "positiefs hier…" ; "positive here…"
 	done
 
 _BTGreetingM9Text:
