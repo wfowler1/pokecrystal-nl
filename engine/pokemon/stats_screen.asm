@@ -980,7 +980,7 @@ StatsScreen_LoadTextboxSpaceGFX:
 	ldh [rVBK], a
 	ld de, TextboxSpaceGFX
 	lb bc, BANK(TextboxSpaceGFX), 1
-	ld hl, vTiles2 tile " "
+	ld hl, vTiles2 tile " ; "
 	call Get2bpp
 	pop af
 	ldh [rVBK], a
@@ -1058,31 +1058,31 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "EI@" ; "EGG@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "Het maakt geluid" "It's making sounds"
-	next "van binnen. Het" "inside. It's going"
-	next "komt bijna uit!@" "to hatch soon!@"
+	db   "Het maakt geluid" ; "It's making sounds"
+	next "van binnen. Het" ; "inside. It's going"
+	next "komt bijna uit!@" ; "to hatch soon!@"
 
 EggCloseString:
-	db   "Het beweegt soms" "It moves around"
-	next "van binnen. Zal" "inside sometimes."
-	next "vast bijna uit-" "It must be close"
-	next "komen.@" "to hatching.@"
+	db   "Het beweegt soms" ; "It moves around"
+	next "van binnen. Zal" ; "inside sometimes."
+	next "vast bijna uit-" ; "It must be close"
+	next "komen.@" ; "to hatching.@"
 
 EggMoreTimeString:
-	db   "Wat zou er in" "Wonder what's"
-	next "zitten? Heeft nog" "inside? It needs"
-	next "meer tijd nodig.@" "more time, though.@"
+	db   "Wat zou er in" ; "Wonder what's"
+	next "zitten? Heeft nog" ; "inside? It needs"
+	next "meer tijd nodig.@" ; "more time, though.@"
 
 EggALotMoreTimeString:
-	db   "Dit EI heeft meer" "This EGG needs a"
-	next "tijd nodig om uit" "lot more time to"
-	next "te komen.@" "hatch.@"
+	db   "Dit EI heeft meer" ; "This EGG needs a"
+	next "tijd nodig om uit" ; "lot more time to"
+	next "te komen.@" ; "hatch.@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam
@@ -1116,10 +1116,10 @@ StatsScreen_LoadPageIndicators:
 	ld a, $36 ; first of 4 small square tiles
 	call .load_square
 	hlcoord 15, 5
-	ld a, $36 ; " " " "
+	ld a, $36 ; " ; " " ; "
 	call .load_square
 	hlcoord 17, 5
-	ld a, $36 ; " " " "
+	ld a, $36 ; " ; " " ; "
 	call .load_square
 	ld a, c
 	cp GREEN_PAGE
