@@ -229,7 +229,7 @@ FastShip1FSailor2Text_FirstTime:
 	text "Hier is je kajuit." ; "Here's your cabin."
 
 	para "Doe een dutje in" ; "If your #MON"
-	line "dit bed als je" ; "are hurt, take a"
+	line "het bed als je" ; "are hurt, take a"
 	cont "#MON bezeerd" ; "nap in the bed."
 
 	para "zijn. Dat zal" ; "That will heal"
