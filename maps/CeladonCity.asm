@@ -199,7 +199,7 @@ CeladonCitySignText:
 
 CeladonGymSignText:
 	text "CELADON CITY" ; "CELADON CITY"
-	line "#MONGYMLEIDER:" ; "#MON GYM"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "ERIKA" ; "LEADER: ERIKA"
 
 	para "De Natuurlief-" ; "The Nature-Loving"

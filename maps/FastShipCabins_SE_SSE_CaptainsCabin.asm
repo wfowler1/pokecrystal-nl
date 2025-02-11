@@ -293,7 +293,7 @@ SSAquaGrandpaTravellingText:
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "KAPITEIN, wil je" ; "CAPTAIN, play with"
+	text "KAPITEIN, wilt u" ; "CAPTAIN, play with"
 	line "met me spelen?" ; "me, please?"
 
 	para "Ik verveel me! Ik" ; "I'm bored! I want"
@@ -311,7 +311,7 @@ SSAquaGranddaughterHasToFindGrandpaText:
 
 	para "Ik moet gaan!" ; "I have to go!"
 
-	para "Ik moet Opa" ; "I have to go find"
+	para "Ik moet opa" ; "I have to go find"
 	line "vinden!" ; "Grandpa!"
 	done
 
@@ -355,8 +355,8 @@ PokefanmColinAfterBattleText:
 
 TwinsMegandpeg1SeenText:
 	text "Denk je dat ik een" ; "You think I'm a"
-	line "Baby ben? Dat" ; "baby?"
-	cont "is niet eerlijk!" ; "That's not fair!"
+	line "baby ben? Dat is" ; "baby?"
+	cont "niet eerlijk!" ; "That's not fair!"
 	done
 
 TwinsMegandpeg1BeatenText:

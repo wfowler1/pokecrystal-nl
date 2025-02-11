@@ -126,7 +126,7 @@ PewterCitySignText:
 
 PewterGymSignText:
 	text "PEWTER CITY"
-	line "#MONGYMLEIDER:"
+	line "#MON-GYMLEIDER:"
 	cont "BROCK" ; "LEADER: BROCK"
 
 	para "De Rotsvaste" ; "The Rock Solid"

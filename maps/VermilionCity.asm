@@ -159,7 +159,7 @@ VermilionCitySuperNerdText:
 	line "in KANTO." ; "GYMS in KANTO."
 
 	para "Dat grote gebouw" ; "That big building"
-	line "is de #MONGYM" ; "is VERMILION's"
+	line "is de #MON-GYM" ; "is VERMILION's"
 	cont "van VERMILION." ; "#MON GYM."
 	done
 
@@ -245,17 +245,17 @@ VermilionCitySignText:
 
 VermilionGymSignText:
 	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEIDER: LT.SURGE" ; "LEADER: LT.SURGE"
+	line "#MON-GYMLEIDER:"
+	cont "LT.SURGE" ; "LEADER: LT.SURGE"
 
 	para "De Flitsende" ; "The Lightning"
 	line "Amerikaan" ; "American"
 	done
 
 PokemonFanClubSignText:
-	text "#MON FANCLUB" ; "#MON FAN CLUB"
+	text "#MON-FANCLUB" ; "#MON FAN CLUB"
 
-	para "Alle #MON Fans" ; "All #MON Fans"
+	para "Alle #MON-Fans" ; "All #MON Fans"
 	line "Welkom!" ; "Welcome!"
 	done
 
@@ -265,7 +265,7 @@ VermilionCityDiglettsCaveSignText:
 
 VermilionCityPortSignText:
 	text "INGANG" ; "VERMILION PORT"
-	line "VERMILION HAVEN" ; "ENTRANCE"
+	line "VERMILION-HAVEN" ; "ENTRANCE"
 	done
 
 VermilionCity_MapEvents:

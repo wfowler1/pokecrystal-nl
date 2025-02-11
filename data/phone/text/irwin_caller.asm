@@ -133,7 +133,7 @@ IrwinTrainPassGossipText:
 	text "Ik hoorde het!" ; "I heard, I heard!"
 
 	para "Jij hebt een" ; "You got a MAGNET"
-	line "MAGNEETTREIN-PAS!" ; "TRAIN PASS!"
+	line "ZWEEFTREIN-PAS!" ; "TRAIN PASS!"
 
 	para "Toen je vertrok op" ; "When I saw you"
 	line "het schip, was" ; "departing on the"

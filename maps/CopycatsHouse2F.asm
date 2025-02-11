@@ -269,7 +269,7 @@ CopycatText_GivePass:
 CopycatText_ExplainPass:
 	text "NA-APER: Dat is" ; "COPYCAT: That's"
 	line "een KAARTJE voor" ; "the PASS for the"
-	cont "de MAGNEETTREIN." ; "MAGNET TRAIN."
+	cont "de ZWEEFTREIN." ; "MAGNET TRAIN."
 
 	para "De treinmaatschap-" ; "The rail company"
 	line "pij gaf mij dat" ; "man gave me that"

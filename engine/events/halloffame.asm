@@ -400,10 +400,10 @@ _HallOfFamePC:
 	db "@"
 
 .HOFMaster:
-	db "    HOF Master!@"
+	db "    Ere-meester!@" ; "    HOF Master!@"
 
 .TimeFamer:
-	db "    -Time Famer@"
+	db "    -maal ERELID@" ; "    -Time Famer@"
 
 LoadHOFTeam:
 	ld a, [wJumptableIndex]
