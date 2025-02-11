@@ -142,7 +142,7 @@ PokemonFanClubChairmanRapidashText:
 	para "Dus… m'n favoriete" ; "So… my favorite"
 	line "RAPIDASH…"
 
-	para "Het… schattig…" ; "It… cute… lovely…"
+	para "Het is… schattig…" ; "It… cute… lovely…"
 	line "lief… slim…" ; "smart… unbearably…"
 	cont "onweerstaanbaar…" ; "plus… amazing… oh…"
 	cont "plus… geweldig…" ; "you think so?…"
@@ -157,7 +157,7 @@ PokemonFanClubChairmanRapidashText:
 	cont "en… spectaculair…" ; "spectacular…"
 	cont "betoverend… gewoon" ; "ravishing… simply"
 	cont "goddelijk…" ; "divine…"
-	cont "Oeps! Kijk de" ; "Oops! Look at the"
+	cont "Oeps! Zie de" ; "Oops! Look at the"
 	cont "tijd! Ik hou je" ; "time! I've kept"
 	cont "te lang vast!" ; "you too long!"
 	done

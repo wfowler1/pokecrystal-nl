@@ -226,7 +226,7 @@ FastShip1FSailor1Text_ToOlivine:
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Hier is je cabine." ; "Here's your cabin."
+	text "Hier is je kajuit." ; "Here's your cabin."
 
 	para "Doe een dutje in" ; "If your #MON"
 	line "dit bed als je" ; "are hurt, take a"
@@ -237,7 +237,7 @@ FastShip1FSailor2Text_FirstTime:
 	done
 
 FastShip1FSailor2Text:
-	text "Hier is je cabine." ; "Here's your cabin."
+	text "Hier is je kajuit." ; "Here's your cabin."
 
 	para "Je kan je #MON" ; "You can heal your"
 	line "genezen door in" ; "#MON by taking"

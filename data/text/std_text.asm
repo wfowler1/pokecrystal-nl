@@ -190,8 +190,8 @@ HomepageText:
 	done
 
 TrashCanText:
-	text "Er staat niks" ; "There's nothing in"
-	line "in…" ; "here…"
+	text "Er zit niks in…" ; "There's nothing in"
+	line ;"in…" ; "here…"
 	done
 
 ; not used

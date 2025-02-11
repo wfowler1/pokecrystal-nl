@@ -62,14 +62,13 @@ VermilionPokecenter1FSailorText:
 	line "SCHIP kun je" ; "great place to"
 
 	para "trainers ontmoeten" ; "meet and battle"
-	line "en tegen ze" ; "trainers."
-	cont "vechten."
+	line "en bevechten." ; "trainers."
 	done
 
 VermilionPokecenter1FBugCatcherText:
 	text "Oh? Die BADGES heb" ; "Oh? You have some"
-	line "ik nog nooit" ; "BADGES I've never"
-	cont "gezien." ; "seen before."
+	line "zag ik nog nooit." ; "BADGES I've never"
+	;cont "gezien." ; "seen before."
 
 	para "Oh, ik zie het. Je" ; "Oh, I get it. You"
 	line "hebt ze uit JOHTO." ; "got them in JOHTO."
