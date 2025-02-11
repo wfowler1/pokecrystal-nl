@@ -191,7 +191,7 @@ HomepageText:
 
 TrashCanText:
 	text "Er zit niks in…" ; "There's nothing in"
-	line ;"in…" ; "here…"
+	;line "in…" ; "here…"
 	done
 
 ; not used
