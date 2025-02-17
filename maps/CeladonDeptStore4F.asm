@@ -37,15 +37,15 @@ CeladonDeptStore4FYoungsterText:
 	text "Dit is de enige" ; "This is the only"
 	line "plek waar je" ; "place where you"
 
-	para "LIEVE POST" ; "can buy LOVELY"
-	line "kan kopen." ; "MAIL."
+	para "LIEVE POST kunt" ; "can buy LOVELY"
+	line "kopen." ; "MAIL."
 	done
 
 CeladonDeptStore4FDirectoryText:
 	text "Druk Jezelf Uit" ; "Express Yourself"
 	line "Met Geschenken!" ; "With Gifts!"
 
-	para "4F: CADEAUWINKEL" ; "4F: WISEMAN GIFTS"
+	para "3V: CADEAUWINKEL" ; "4F: WISEMAN GIFTS"
 	done
 
 CeladonDeptStore4F_MapEvents:

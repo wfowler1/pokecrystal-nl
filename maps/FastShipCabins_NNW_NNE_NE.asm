@@ -196,8 +196,8 @@ HikerNolandAfterBattleText:
 	text "Zouden er bergen" ; "I wonder if there"
 	line "in KANTO de moeite" ; "are any mountains"
 
-	para "waard zijn om" ; "worth climbing in"
-	line "te beklimmen?" ; "KANTO?"
+	para "waard zijn om te" ; "worth climbing in"
+	line "beklimmen?" ; "KANTO?"
 	done
 
 SailorStanlySeenText:
@@ -207,7 +207,7 @@ SailorStanlySeenText:
 	para "Ik was niet aan" ; "I wasn't goofing"
 	line "het niksen!" ; "off!"
 
-	para "Deze kabine was" ; "This cabin was"
+	para "Deze kajuit was" ; "This cabin was"
 	line "vrij, dus ik deed" ; "vacant, so I just"
 	cont "snel een dutje!" ; "took a quick nap!"
 

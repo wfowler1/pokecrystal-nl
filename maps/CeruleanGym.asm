@@ -198,7 +198,7 @@ CeruleanGymGruntBacksAwayMovement:
 CeruleanGymGruntIntroText:
 	text "Oeps! Ik spijt!" ; "Oops! I so sorry!"
 	line "Jij niet pijn," ; "You not hurt,"
-	cont "okay?" ; "okay?"
+	cont "oké?" ; "okay?"
 
 	para "Ik heel druk." ; "I very busy."
 	line "Geen tijd voor" ; "No time for talk-"
@@ -215,7 +215,7 @@ CeruleanGymGruntBigMistakeText:
 
 CeruleanGymGruntByeText:
 	text "He, jij! Vergeet" ; "Hey, you! Forget"
-	line "jij mij zag, okay?" ; "you see me, okay?"
+	line "jij mij zag, oké?" ; "you see me, okay?"
 
 	para "Jij zag, hoorde," ; "You see, hear,"
 	line "weet niets," ; "know nothing,"

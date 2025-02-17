@@ -84,7 +84,7 @@ LavRadioTower1FReceptionistText:
 	done
 
 LavRadioTower1FOfficerText:
-	text "Sorry, maar je kan" ; "Sorry, but you can"
+	text "Sorry, je kunt" ; "Sorry, but you can"
 	line "alleen op de be-" ; "only tour the"
 	cont "gane grond komen." ; "ground floor."
 

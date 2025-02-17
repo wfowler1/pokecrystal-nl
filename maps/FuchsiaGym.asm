@@ -317,9 +317,8 @@ LassLindaBeatenText:
 	done
 
 LassLindaAfterText:
-	text "Nou? Was mijn ver-" ; "Well? Wasn't my"
-	line "momming niet" ; "disguise perfect?"
-	cont "perfect?" ;
+	text "Nou? Perfecte" ; "Well? Wasn't my"
+	line "vermomming, toch?" ; "disguise perfect?"
 	done
 
 PicnickerCindyBeforeText:

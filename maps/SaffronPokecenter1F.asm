@@ -47,8 +47,8 @@ SaffronPokecenter1FTeacherText:
 	para "…Oh, oké. Dus" ; "…Oh, I see. So"
 	line "niet heel anders" ; "they're not much"
 
-	para "dan degenen hier" ; "different from the"
-	line "in KANTO." ; "ones in KANTO."
+	para "dan die hier in" ; "different from the"
+	line "KANTO." ; "ones in KANTO."
 
 	para "Dan kan ik zonder" ; "I can go to JOHTO"
 	line "zorgen naar JOHTO!" ; "without worrying,"

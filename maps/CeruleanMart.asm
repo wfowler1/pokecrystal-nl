@@ -22,15 +22,15 @@ CeruleanMart_CooltrainerF:
 
 CeruleanMart_CooltrainerMText:
 	text "Er zijn veel trai-" ; "You'll run into"
-	line "ners richting" ; "many trainers on"
+	line "ners als je naar" ; "many trainers on"
 
-	para "de KAAP van" ; "the way to CERU-"
-	line "CERULEAN" ; "LEAN's CAPE."
+	para "KAAP CERULEAN" ; "the way to CERU-"
+	 line "gaat." ; "LEAN's CAPE."
 
 	para "Ze willen weten" ; "They want to see"
 	line "of ze andere" ; "how they stack"
 
-	para "trainer kunnen" ; "up against other"
+	para "trainers kunnen" ; "up against other"
 	line "verslaan" ; "trainers."
 	done
 

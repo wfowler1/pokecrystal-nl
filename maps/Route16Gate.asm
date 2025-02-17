@@ -44,7 +44,7 @@ Route16GateOfficerText:
 	para "Zo'n geweldig" ; "It's a great sort"
 	line "gevoel krijg je" ; "of feeling that"
 
-	para "niet van een scnip" ; "you can't get from"
+	para "niet van een schip" ; "you can't get from"
 	line "of trein." ; "a ship or train."
 	done
 

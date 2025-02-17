@@ -64,7 +64,7 @@ FuchsiaPokecenter1FCooltrainerMText:
 	cont "#DEX."
 
 	para "Heeft PROF.OAK je" ; "Did PROF.OAK give"
-	line "dat gegeven?" ; "that to you?"
+	line "die gegeven?" ; "that to you?"
 	done
 
 FuchsiaPokecenter1FCooltrainerFText:
@@ -78,7 +78,7 @@ FuchsiaPokecenter1FCooltrainerFText:
 
 FuchsiaPokecenter1FJanineImpersonatorText1:
 	text "Ik ben JANINE!" ; "I'm JANINE! Hocus-"
-	line "Hokus pokus… Poef!" ; "pocus… Poof!"
+	line "Hocus pocus… Poef!" ; "pocus… Poof!"
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText2:

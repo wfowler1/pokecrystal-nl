@@ -62,7 +62,7 @@ CeladonDeptStore2FDirectoryText:
 	text "Topvoorwerpen" ; "Top Grade Items"
 	line "voor Trainers!" ; "for Trainers!"
 
-	para "2F: TRAINER-" ; "2F: TRAINER'S"
+	para "1V: TRAINER-" ; "2F: TRAINER'S"
 	line "    MARKT" ; "    MARKET"
 	done
 
