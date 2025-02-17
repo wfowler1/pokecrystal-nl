@@ -130,7 +130,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 SaffronCityPokefanMText:
 	text "Kom je uit JOHTO?" ; "You came out from"
-	line ;"JOHTO?" ; "JOHTO?"
+	;line "JOHTO?" ; "JOHTO?"
 
 	para "Je kunt naar huis" ; "You can zip back"
 	line "met de ZWEEFTREIN," ; "home if the MAGNET"
