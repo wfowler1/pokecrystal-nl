@@ -1115,7 +1115,7 @@ _PlayersPCAskWhatDoText::
 
 _PlayersPCHowManyWithdrawText::
 	text "Hoeveel wil je" ; "How many do you"
-	line "er uit halen??" ; "want to withdraw?"
+	line "er uit halen?" ; "want to withdraw?"
 	done
 
 _PlayersPCWithdrewItemsText::
@@ -1125,7 +1125,7 @@ _PlayersPCWithdrewItemsText::
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text_start
-	line "terug." ; text "(S)."
+	cont "terug." ; text "(S)."
 	prompt
 
 _PlayersPCNoRoomWithdrawText::

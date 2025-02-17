@@ -22,18 +22,32 @@ namespace PokeGen2TextValidator
             bool validate = true;
             bool compare = false;
             bool merge = false;
+            bool silent = false;
 
             int currentArg = 0;
-            if (args[currentArg].ToLowerInvariant().StartsWith("-"))
+            bool stop = false;
+            for (currentArg = 0; currentArg < args.Length; )
             {
+                if (!args[currentArg].ToLowerInvariant().StartsWith("-"))
+                {
+                    break;
+                }
+
                 switch (args[currentArg])
                 {
+                    case "-s":
+                    case "--silent":
+                    {
+                        silent = true;
+                        break;
+                    }
                     case "-v":
                     case "--validate":
                     {
                         validate = true;
                         compare = false;
                         merge = false;
+                        stop = true;
                         break;
                     }
                     case "-vt":
@@ -45,9 +59,10 @@ namespace PokeGen2TextValidator
                             path = args[currentArg + 1];
                         }
 
+                        StringBuilder sb = new StringBuilder();
                         ASMFile classesFile = new ASMFile(Path.Combine(path, "data/trainers/class_names.asm"));
                         ASMFile trainersFile = new ASMFile(Path.Combine(path, "data/trainers/parties.asm"));
-                        Console.WriteLine("Validating trainer classes and names");
+                        sb.Append("Validating trainer classes and names\n");
                         TrainerDataValidator validator = new TrainerDataValidator(classesFile, trainersFile);
                         string message = validator.Validate();
                         bool problem = false;
@@ -57,13 +72,17 @@ namespace PokeGen2TextValidator
                             {
                                 problem = true;
                             }
-                            Console.Write(message);
+                            sb.Append(message);
                         }
 
-                        Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+                        sb.Append("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+                        if (!silent || problem)
+                        {
+                            Console.WriteLine(sb.ToString());
+                        }
 
-                        problem |= Validate(classesFile);
-                        problem |= Validate(trainersFile);
+                        problem |= Validate(classesFile, silent);
+                        problem |= Validate(trainersFile, silent);
 
                         return problem ? 1 : 0;
                     }
@@ -73,6 +92,7 @@ namespace PokeGen2TextValidator
                         validate = false;
                         compare = true;
                         merge = false;
+                        stop = true;
                         break;
                     }
                     case "-m":
@@ -81,6 +101,7 @@ namespace PokeGen2TextValidator
                         validate = false;
                         compare = false;
                         merge = true;
+                        stop = true;
                         break;
                     }
                     default:
@@ -92,6 +113,10 @@ namespace PokeGen2TextValidator
                 }
 
                 ++currentArg;
+                if (stop)
+                {
+                    break;
+                }
             }
 
             ASMFile source = GetASMFile(args[currentArg++]);
@@ -102,7 +127,7 @@ namespace PokeGen2TextValidator
 
             if (validate)
             {
-                return Validate(source) ? 1 : 0;
+                return Validate(source, silent) ? 1 : 0;
             }
             else if (compare || merge)
             {
@@ -134,10 +159,11 @@ namespace PokeGen2TextValidator
         {
             Console.WriteLine("Usage: PokeGen2TextValidator [-vcm] Source [Target] [BaseSource] [BaseTarget]");
             Console.WriteLine("  Options:");
-            Console.WriteLine("    -v, --validate: Validate Source. Default behavior.");
+            Console.WriteLine("    -v, --validate:          Validate Source. Default behavior.");
             Console.WriteLine("    -vt, --ValidateTrainers: Validates trainer names to ensure they are not too long.");
-            Console.WriteLine("    -c, --compare:  Compare Source to Target.");
-            Console.WriteLine("    -m, --merge:    Compare BaseSource to BaseTarget, then merge matching blocks from Source into Target.");
+            Console.WriteLine("    -c, --compare:           Compare Source to Target.");
+            Console.WriteLine("    -m, --merge:             Compare BaseSource to BaseTarget, then merge matching blocks from Source into Target.");
+            Console.WriteLine("    -s, --silent:            Validator silent mode. Only prints a message if a check failed (error or warning).");
             Console.WriteLine("  Source: Primary file to operate on.");
             Console.WriteLine("  Target: Target file to compare to Source. Required for compares and merges.");
             Console.WriteLine("  BaseSource: Original version of Source to compare to BaseTarget to see if merge from Source to Target should occur.");
@@ -160,9 +186,10 @@ namespace PokeGen2TextValidator
             return new ASMFile(path);
         }
 
-        private static bool Validate(ASMFile asmFile)
+        private static bool Validate(ASMFile asmFile, bool silent)
         {
-            Console.WriteLine("Validating file: " + asmFile.File.Name + " Type: " + asmFile.Type + " Source: " + asmFile.Source);
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Validating file: " + asmFile.File.Name + " Type: " + asmFile.Type + " Source: " + asmFile.Source + "\n");
 
             bool problem = false;
             foreach (KeyValuePair<string, Block> pair in asmFile.blocks)
@@ -175,11 +202,15 @@ namespace PokeGen2TextValidator
                     {
                         problem = true;
                     }
-                    Console.Write(message);
+                    sb.Append(message);
                 }
             }
 
-            Console.WriteLine("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+            sb.Append("Result: " + (problem ? "Failed!\n" : "Passed!\n"));
+            if (!silent || problem)
+            {
+                Console.WriteLine(sb.ToString());
+            }
             return problem;
         }
     }
@@ -969,6 +1000,7 @@ namespace PokeGen2TextValidator
             { "'s", 1 },
             { "'t", 1 },
             { "'v", 1 },
+            { "'n", 1 },
             { "{d:NUM_TMS}", 2 },
             { "{d:BLUE_CARD_POINT_CAP}", 2 },
             { "{d:BUG_CONTEST_BALLS}", 2 },
@@ -1221,6 +1253,7 @@ namespace PokeGen2TextValidator
 
         private static bool CheckTextboxNextLineValid(string line, string nextLine)
         {
+            line = line.ToLower();
             if (nextLine == null)
             {
                 if (line == "text_end")
@@ -1240,14 +1273,11 @@ namespace PokeGen2TextValidator
                 return true;
             }
 
+            nextLine = nextLine.ToLower();
             if (nextLine.StartsWith("if") ||
                 nextLine.StartsWith("else") ||
                 nextLine.StartsWith("endc") ||
-                nextLine.StartsWith("elif") ||
-                nextLine.StartsWith("IF") ||
-                nextLine.StartsWith("ELSE") ||
-                nextLine.StartsWith("ENDC") ||
-                nextLine.StartsWith("ELIF"))
+                nextLine.StartsWith("elif"))
             {
                 // These are rare enough that they can be checked manually
                 return true;
@@ -1281,8 +1311,7 @@ namespace PokeGen2TextValidator
             }
             else if (line.StartsWith("text_ram ") || line.StartsWith("text_decimal ") || line == "text_promptbutton")
             {
-                if (nextLine.StartsWith("text ") ||
-                    nextLine.StartsWith("text_"))
+                if (nextLine.StartsWith("text_") || nextLine.StartsWith("text "))
                 {
                     return true;
                 }
