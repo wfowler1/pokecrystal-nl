@@ -99,7 +99,7 @@ VolunteerPokemonHouseSignText:
 	done
 
 SoulHouseSignText:
-	text "ZIELENHUIS" ; "SOUL HOUSE"
+	text "GEDENKHUIS" ; "SOUL HOUSE"
 
 	para "Moge de Zielen" ; "May the Souls of"
 	line "van #MON Vredig" ; "#MON Rest Easy"

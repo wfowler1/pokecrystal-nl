@@ -396,11 +396,11 @@ CooltrainermKevinNuggetText:
 	done
 
 CooltrainermKevinSeenText:
-	text "Maar nu ik zag hoe" ; "But after seeing"
-	line "je vecht, wil ik," ; "how you battle, I"
+	text "Na die gevechten" ; "But after seeing"
+	line "wil ik zien hoe ik" ; "how you battle, I"
 
-	para "weten hoe ik het" ; "want to see how"
-	line "doe." ; "I'll fare."
+	para "het tegen jou doe." ; "want to see how"
+	line ; "doe." ; "I'll fare."
 
 	para "Wat denk je? Laat" ; "How about it? Let"
 	line "mij je uitdagen." ; "me take you on."

@@ -37,14 +37,14 @@ Route6SaffronGuardWelcomeText:
 	para "zeggen, maar de" ; "the MAGNET TRAIN"
 	line "ZWEEFTREIN rijdt" ; "isn't running now."
 
-	para "nu niet. Het heeft" ; "It's not getting"
+	para "nu niet. Er is" ; "It's not getting"
 	line "geen elektriciteit" ; "any electricity"
 
 	para "omdat er iets" ; "because there's"
 	line "mis is met de" ; "something wrong"
 
 	para "ENERGIECENTRALE." ; "with the POWER"
-	line "" ; "PLANT."
+	line ;"" ; "PLANT."
 	done
 
 Route6SaffronGuardMagnetTrainText:

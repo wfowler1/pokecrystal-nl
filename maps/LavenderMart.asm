@@ -43,8 +43,7 @@ LavenderMartRockerText:
 	line "maakt in het" ; "in the JOHTO town"
 
 	para "JOHTO-dorp AZALEA." ; "of AZALEA. I wish"
-	line "Ik wou dat ik er" ; "I had some."
-	cont "wat had." ; 
+	line "Had ik die maar." ; "I had some."
 	done
 
 LavenderMart_MapEvents:

@@ -66,8 +66,8 @@ SoulHouseGrannyText:
 	text "De #MON die bij" ; "The #MON that"
 	line "me woonden…" ; "lived with me…"
 
-	para "Ik had ze lief als" ; "I loved them like"
-	line "m'n kleinkinderen…" ; "my grandchildren…"
+	para "Het waren net mijn" ; "I loved them like"
+	line "kleinkinderen…" ; "my grandchildren…"
 	done
 
 SoulHouse_MapEvents:

@@ -201,7 +201,7 @@ CeruleanCityCooltrainerFText3:
 
 CeruleanCityFisherText:
 	text "Ik ben enorm fan" ; "I'm a huge fan of"
-	line "van CERULIAN's" ; "CERULEAN GYM's"
+	line "van CERULEAN's" ; "CERULEAN GYM's"
 	cont "gymleider MISTY." ; "MISTY."
 	done
 
@@ -261,7 +261,7 @@ CeruleanPoliceSignText:
 	para "delijker en vro-" ; "a friendlier, more"
 	line "lijker te maken!" ; "cheerful place!"
 
-	para "CERULIAN POLITIE" ; "CERULEAN POLICE"
+	para "CERULEAN POLITIE" ; "CERULEAN POLICE"
 	done
 
 CeruleanCapeSignText:

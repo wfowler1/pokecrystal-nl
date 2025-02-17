@@ -68,7 +68,7 @@ FuchsiaCityPokefanMText:
 	done
 
 FuchsiaCityTeacherText:
-	text "De SAFARI ZONE is" ; "The SAFARI ZONE is"
+	text "De SAFARIZONE is" ; "The SAFARI ZONE is"
 	line "dicht… Jammer," ; "closed… It's sad,"
 
 	para "want het is" ; "considering it's"

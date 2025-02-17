@@ -110,12 +110,12 @@ BikerGlennBeatenText:
 
 BikerGlennAfterBattleText:
 	text "Fietsen zonder" ; "Hands-free riding"
-	line "handen is cool" ; "is considered cool"
-	cont "op het FIETSPAD." ; "on CYCLING ROAD."
+	line "handen is cool op" ; "is considered cool"
+	cont "het FIETSPAD." ; "on CYCLING ROAD."
 	done
 
 BikerCharlesSeenText:
-	text "We zijn onbevree-" ; "We're fearless"
+	text "Wij zijn onbevree-" ; "We're fearless"
 	line "sde snelweghelden!" ; "highway stars!"
 	done
 

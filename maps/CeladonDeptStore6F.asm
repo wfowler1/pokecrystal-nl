@@ -142,7 +142,7 @@ CeladonDeptStore6FYoungsterText:
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: DAKTERRAS" ; "6F: ROOFTOP SQUARE"
+	text "5V: DAKTERRAS" ; "6F: ROOFTOP SQUARE"
 	line "DRANKAUTOMATEN" ; "VENDING MACHINES"
 	done
 

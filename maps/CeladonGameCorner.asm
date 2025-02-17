@@ -224,10 +224,10 @@ CeladonGameCornerFisherText2:
 	text "Gahahaha!" ; "Gahahaha!"
 
 	para "Het voelt goed om" ; "It makes me feel"
-	line "aardige dingen te" ; "good to do nice"
+	line "andere mensen een" ; "good to do nice"
 
-	para "doen voor andere" ; "things for other"
-	line "mensen!" ; "people!"
+	para "gunst te verlenen!" ; "things for other"
+	; line "mensen!" ; "people!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
