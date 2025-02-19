@@ -10,7 +10,7 @@ AlanGettingStrongerText:
 
 AlanDefeatedMonText:
 	text "Trouwens, we ver-" ; "By the way, we"
-	line "sloegen een wilde " ; "knocked out a wild"
+	line "sloegen een wilde" ; "knocked out a wild"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength

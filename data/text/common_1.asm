@@ -1028,7 +1028,7 @@ _BuenaRadioText2::
 
 _BuenaRadioText3::
 	text_start
-	line "vandaag, uhm… Is" ; "Let me think… It's"
+	line "Vandaag, uhm… Is" ; "Let me think… It's"
 	done
 
 _BuenaRadioText4::
