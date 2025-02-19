@@ -23,7 +23,7 @@ BlackthornPokecenter1FCooltrainerMScript:
 
 BlackthornPokecenter1FGentlemanText:
 	text "Diep in 't afgele-" ; "Deep inside far-"
-	line "gen INDIGO PLATEAU" ; "off INDIGO PLATEAU"
+	line "gen INDIGO-PLATEAU" ; "off INDIGO PLATEAU"
 
 	para "is de #MON-" ; "is the #MON"
 	line "LEAGUE."

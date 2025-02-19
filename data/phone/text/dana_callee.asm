@@ -58,7 +58,7 @@ DanaGenericText:
 	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start ; " is"
-	line "zit vol met" ; "so full of energy,"
+	line " zit vol met" ; "so full of energy,"
 
 	para "energie, best een" ; "it's a little"
 	line "beetje eng," ; "scary."

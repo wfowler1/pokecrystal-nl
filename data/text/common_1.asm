@@ -1309,8 +1309,8 @@ _BugCatchingContestIsOverText::
 	done
 
 _RepelWoreOffText::
-	text "Effect van VERJAAG" ; "REPEL's effect"
-	line "is uitgewerkt." ; "wore off."
+	text "Effect VERDRIJF is" ; "REPEL's effect"
+	line "uitgewerkt." ; "wore off."
 	done
 
 _PlayerFoundItemText::

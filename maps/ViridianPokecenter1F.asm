@@ -38,7 +38,7 @@ ViridianPokecenter1FCooltrainerMText:
 	text "Waar is VIRIDIAN's" ; "Where in the world"
 	line "GYMLEIDER heen?" ; "is VIRIDIAN's GYM"
 
-	para "Ik wou hem" ; "LEADER? I wanted"
+	para "Ik wilde hem" ; "LEADER? I wanted"
 	line "uitdagen." ; "to challenge him."
 	done
 
