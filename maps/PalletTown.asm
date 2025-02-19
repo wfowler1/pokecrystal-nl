@@ -61,7 +61,7 @@ RedsHouseSignText:
 	done
 
 OaksLabSignText:
-	text "OAM #MON-" ; "OAK #MON"
+	text "OAK's #MON-" ; "OAK #MON"
 	line "ONDERZOEKSLAB" ; "RESEARCH LAB"
 	done
 

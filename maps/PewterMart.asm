@@ -24,8 +24,8 @@ PewterMartYoungsterText:
 	text "Hoi! Check mijn" ; "Hi! Check out my"
 	line "GYARADOS!"
 
-	para "Ik heb 't opgevoed" ; "I raised it from a"
-	line "van een MAGIKARP." ; "MAGIKARP. I can't"
+	para "Die was al bij me" ; "I raised it from a"
+	line "als een MAGIKARP." ; "MAGIKARP. I can't"
 
 	para "Ik kan niet ge-" ; "believe how strong"
 	line "loven hoe sterk" ; "it has become."

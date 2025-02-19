@@ -22,17 +22,16 @@ ViridianMartCooltrainerMScript:
 
 ViridianMartLassText:
 	text "De GYMLEIDER" ; "The GYM LEADER"
-	line "hier is" ; "here is totally"
-	cont "supercool." ; "cool."
+	line "hier is supercool." ; "here is totally"
+	;cont "supercool." ; "cool."
 	done
 
 ViridianMartCooltrainerMText:
 	text "Ben je naar" ; "Have you been to"
 	line "CINNABAR geweest?" ; "CINNABAR?"
 
-	para "Het is een" ; "It's an island way"
-	line "eiland in" ; "south of here."
-	cont "het zuiden." ;
+	para "Het is een eiland" ; "It's an island way"
+	line "zuid van hier." ; "south of here."
 	done
 
 ViridianMart_MapEvents:

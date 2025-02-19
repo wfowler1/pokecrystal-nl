@@ -16,10 +16,10 @@ SilverCavePokecenter1FGrannyScript:
 SilverCavePokecenter1FGrannyText:
 	text "Trainers die sterk" ; "Trainers who seek"
 	line "willen worden, be-" ; "power climb MT."
-	cont "klimmen MT.SILVER"
+	cont "klimmen de ZILVER-"
 
-	para "ondanks de vele" ; "SILVER despite its"
-	line "gevaren…" ; "many dangers…"
+	para "BERG ondanks de" ; "SILVER despite its"
+	line "vele gevaren…" ; "many dangers…"
 
 	para "Met hun vertrouwde" ; "With their trusted"
 	line "#MON denken ze" ; "#MON, they must"

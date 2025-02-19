@@ -131,8 +131,8 @@ BugCatcherDougAfterBattleText:
 	line "in hun buikjes" ; "their bellies."
 	cont "knijpt." ;
 
-	para "Ik hou van" ; "I love how they"
-	line "dat gevoel!" ; "feel!"
+	para "Ik hou van dat" ; "I love how they"
+	line "gevoel!" ; "feel!"
 	done
 
 Route2SignText:

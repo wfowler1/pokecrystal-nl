@@ -64,7 +64,7 @@ DaisyScript:
 	end
 
 DaisyHelloText:
-	text "DAISY: Hoi! M'n" ; "DAISY: Hi! My kid"
+	text "DAISY: Hoi! Mijn" ; "DAISY: Hi! My kid"
 	line "broertje is de" ; "brother is the GYM"
 
 	para "GYMLEIDER van" ; "LEADER in VIRIDIAN"

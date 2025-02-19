@@ -94,12 +94,12 @@ MountMoonRivalTextBefore:
 	para "…Sinds ik van" ; "…Since I lost to"
 	line "je verloor, heb" ; "you, I thought"
 
-	para "ik nagedacht wat" ; "about what I was"
-	line "ik ontbrak met m'n" ; "lacking with my"
-	cont "#MON…"
+	para "ik nagedacht over" ; "about what I was"
+	line "wat mij ontbrak." ; "lacking with my"
+	;cont "#MON…"
 
-	para "En we hebben een" ; "And we came up"
-	line "antwoord bedacht." ; "with an answer."
+	para "En ik heb nu het" ; "And we came up"
+	line "antwoord gevonden." ; "with an answer."
 
 	para "<PLAYER>, we laten" ; "<PLAYER>, now we'll"
 	line "het je nu zien!" ; "show you!"
