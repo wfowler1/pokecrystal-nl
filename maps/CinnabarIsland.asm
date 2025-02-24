@@ -51,8 +51,8 @@ CinnabarIslandBlueText:
 	para "Ik was ooit de" ; "I was once the"
 	line "KAMPIOEN, al was" ; "CHAMPION, although"
 
-	para "was dat maar van" ; "it was for only a"
-	line "korte duur…" ; "short time…"
+	para "dat maar van korte" ; "it was for only a"
+	line "duur…" ; "short time…"
 
 	para "Die bemoeial RED" ; "That meddling RED"
 	line "pakte me aan…" ; "did me in…"
