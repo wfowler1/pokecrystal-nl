@@ -1006,7 +1006,7 @@ _ContestJudging_SecondPlaceText::
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "Wie een" ; "who caught a"
+	para "wie een" ; "who caught a"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " ving!@" ; "!@"
