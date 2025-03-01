@@ -16,7 +16,7 @@ MonMenuOptionStrings:
 	li "WISSEL" ; "SWITCH"
 	li "VOORWERP" ; "ITEM"
 	li "ANNULEER" ; "CANCEL"
-	li "ACTIES" ; "MOVE"
+	li "AANVAL" ; "MOVE"
 	li "MAIL"
 	li "FOUT!" ; "ERROR!"
 	assert_list_length NUM_MONMENUVALUES

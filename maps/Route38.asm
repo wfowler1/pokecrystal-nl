@@ -380,7 +380,7 @@ LassDanaMoomooMilkText:
 	text "Ik weet iets" ; "I know something"
 	line "interessants!" ; "good!"
 
-	para "melk van BOERDERIJ" ; "MOOMOO FARM's milk"
+	para "Melk van BOERDERIJ" ; "MOOMOO FARM's milk"
 	line "MOOMOO is beroemd" ; "is famous for its"
 	cont "om zijn smaak." ; "flavor."
 	done
