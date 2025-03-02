@@ -267,7 +267,7 @@ BugCatcherAlAfterBattleText:
 	line "maar veel meiden" ; "but most girls"
 
 	para "houden niet van" ; "don't like bug"
-	line "insect-#MON" ; "#MON."
+	line "insect-#MON." ; "#MON."
 
 	para "Geen idee waarom…" ; "I don't know why…"
 	done
@@ -332,7 +332,7 @@ AzaleaGymGuideText:
 	line "maar hij weet" ; "his knowledge of"
 
 	para "veel van insect-" ; "bug #MON is for"
-	line "#MON" ; "real."
+	line "#MON." ; "real."
 
 	para "Zonder mijn" ; "It's going to be"
 	line "advies wordt het" ; "tough without my"

@@ -171,7 +171,7 @@ _BootedTMText::
 	prompt
 
 _BootedHMText::
-	text "Startte een HM op." ; "Booted up an HM."
+	text "Startte een VM op." ; "Booted up an HM."
 	prompt
 
 _ContainedMoveText::
