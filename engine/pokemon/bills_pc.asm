@@ -2214,7 +2214,7 @@ PCString_NoMoreUsablePKMN: db "Geen bruikbare <PK><MN>!@" ; "No more usable <PK>
 PCString_RemoveMail: db "Verwijder POST.@" ; "Remove MAIL.@"
 PCString_ReleasedPKMN: db "<PK><MN> vrijgelaten.@" ; "Released <PK><MN>.@"
 PCString_Bye: db "Doei,@" ; "Bye,@"
-PCString_Stored: db "Bewaard @" ; "Stored @"
+PCString_Stored: db "Bewaar @" ; "Stored @"
 PCString_Got: db "Kreeg @" ; "Got @"
 PCString_Non: db "Non.@" ; unreferenced
 PCString_BoxFull: db "De BOX is vol.@" ; "The BOX is full.@"
