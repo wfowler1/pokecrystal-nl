@@ -1,7 +1,7 @@
 ChadAskNumber1Text:
 	text "Huh? Is dat ding" ; "Huh? Is that thing"
 	line "een #DEX? Ken" ; "a #DEX? Have"
-	cont "je PROF.OAK" ; "you met PROF.OAK?"
+	cont "je PROF.OAK?" ; "you met PROF.OAK?"
 
 	para "Huh? Echt waar?" ; "Huh? You have? "
 	line "Wat supercool!" ; "That's way cool!"

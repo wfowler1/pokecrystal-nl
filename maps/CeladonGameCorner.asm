@@ -74,7 +74,7 @@ CeladonGameCornerFisherScript:
 	end
 
 .coinname
-	db "COIN@"
+	db "MUNT@" ; "COIN@"
 
 .NoCoinCase:
 	writetext CeladonGameCornerFisherNoCoinCaseText

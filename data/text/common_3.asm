@@ -688,7 +688,7 @@ _MartBoughtText::
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Hoeveel munten" ; "Bet how many"
+	text "Hoeveel" ; "Bet how many"
 	line "wedden?" ; "coins?"
 	done
 

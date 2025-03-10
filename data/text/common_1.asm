@@ -380,7 +380,7 @@ _MomFoundADollText::
 	prompt
 
 _MomItsInYourRoomText::
-	text "staat in je kamer." ; "It's in your room."
+	text "Staat in je kamer." ; "It's in your room."
 	line "Vind je vast leuk!" ; "You'll love it!"
 	done
 

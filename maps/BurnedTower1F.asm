@@ -167,7 +167,7 @@ BurnedTowerRival_BeforeText:
 
 	para "#MON te vinden" ; "#MON that they"
 	line "die zich kennelijk" ; "say roosts here."
-	cont "hier nestelt" ;
+	cont "hier nestelt." ;
 
 	para "Maar er is niks" ; "But there's"
 	line "hier!" ; "nothing here!"
@@ -268,7 +268,7 @@ BurnedTower1FMortyText:
 	line "darische #MON" ; "said to be the"
 
 	para "te bestuderen--" ; "legendary #MON"
-	line "SUICUNE, ENTEI en."
+	line "SUICUNE, ENTEI en"
 	cont "RAIKOU." ; "and RAIKOU."
 
 	para "EUSINE is hier," ; "EUSINE is here, so"
