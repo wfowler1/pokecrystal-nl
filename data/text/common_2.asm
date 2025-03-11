@@ -1148,7 +1148,7 @@ _PlayersPCDepositItemsText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)."
+	text "." ; "(S)."
 	prompt
 
 _PlayersPCNoRoomDepositText::

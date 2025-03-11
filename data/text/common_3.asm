@@ -488,7 +488,7 @@ _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -517,7 +517,7 @@ _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -601,7 +601,7 @@ _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "kost je ¥@" ; "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -684,7 +684,7 @@ _MartBoughtText::
 	text " voor" ; " for"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)."
+	text "." ; "(S)."
 	done
 
 _SlotsBetHowManyCoinsText::
