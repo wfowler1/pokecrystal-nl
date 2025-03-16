@@ -216,7 +216,7 @@ RandolfAfterBattleText:
 CalvinBeforeBattleText:
 	text "CALVIN: Hey,"
 	line "probeer jij eens"
-	cont "deze Virtual Boy!"
+	cont "deze VIRTUAL BOY!"
 	done
 	
 CalvinBeatenText:
@@ -251,9 +251,11 @@ WilliamBeforeBattleText:
 WilliamBeatenText:
 	text "PLACEHOLDER"
 	done
+	
 WilliamAfterBattleText:
 	text "PLACEHOLDER"
 	done
+	
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
 	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
