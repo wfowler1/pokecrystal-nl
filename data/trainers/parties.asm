@@ -3330,6 +3330,16 @@ PokefanMGroup:
 	db 35, TEDDIURSA,  BERRY
 	db -1 ; end
 
+	; POKEFANM (14)
+	db "BAS@", TRAINERTYPE_ITEM
+	db 50, ALAKAZAM,  BERRY
+	db 50, SCIZOR,  BERRY
+	db 50, POLITOED,  BERRY
+	db 50, JOLTEON,  BERRY
+	db 50, SLOWKING,  BERRY
+	db 50, RAICHU,  BERRY
+	db -1 ; end
+	
 KimonoGirlGroup:
 	; KIMONO_GIRL (1)
 	db "NAOKO@", TRAINERTYPE_NORMAL
