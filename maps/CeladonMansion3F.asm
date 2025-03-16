@@ -223,12 +223,12 @@ CalvinBeatenText:
 	done
 	
 CalvinAfterBattleText:
-	text "#MON-gevechten"
-	line "zijn een stuk"
+	text "CALVIN: #MON-"
+	line "gevechten zijn"
 	done
 	
-	text "moeilijker in het"
-	line "zwart-rood."
+	text "een stuk lastiger"
+	line "in het zwart-rood."
 	done
 	
 ElineBeforeBattleText:
