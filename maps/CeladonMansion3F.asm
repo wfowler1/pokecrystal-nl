@@ -72,7 +72,14 @@ GameFreakCharacterDesignerScript:
 	jumptextfaceplayer GameFreakCharacterDesignerText
 	
 BasScript:
-	jumptextfaceplayer BasBeforeBattleText
+	trainer POKEFANM, BAS, EVENT_BEAT_POKEFANM_BAS, BasBeforeBattleText, BasBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext BasAfterBattleText
+	waitbutton
+	closetext
 
 RandolfScript:
 	jumptextfaceplayer RandolfBeforeBattleText
