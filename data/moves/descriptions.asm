@@ -324,7 +324,7 @@ SwordsDanceDescription:
 	next "VAL verhoogt.@" ; "creases ATTACK.@"
 
 CutDescription:
-	db   "Snijdt met, klauw" ; "Cuts using claws,"
+	db   "Snijdt met klauw," ; "Cuts using claws,"
 	next "zeis, etc.@" ; "scythes, etc.@"
 
 GustDescription:
