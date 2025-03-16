@@ -71,13 +71,13 @@ GameFreakProgrammerScript:
 GameFreakCharacterDesignerScript:
 	jumptextfaceplayer GameFreakCharacterDesignerText
 	
-BasScript:
-	trainer POKEFANM, BAS1, EVENT_BEAT_POKEFANM_BAS1, BasBeforeBattleText, BasBeatenText, 0, .Script
+TrainerPokefanmBas:
+	trainer POKEFANM, BAS1, EVENT_BEAT_POKEFANM_BAS1, PokefanmBasSeenText, PokefanmBasBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext BasAfterBattleText
+	writetext PokefanmBasAfterBattleText
 	waitbutton
 	closetext
 
@@ -187,17 +187,17 @@ GameFreakCharacterDesignerText:
 	para "Oh, ik hou van ze!" ; "Oh, I love them!"
 	done
 	
-BasBeforeBattleText:
+PokefanmBasSeenText:
 	text "BAS: Hier vertalen"
 	line "wij de game naar"
 	cont "het Nederlands."
 	done
 	
-BasBeatenText:
+PokefanmBasBeatenText:
 	text "Helaas!"
 	done
 
-BasAfterBattleText:
+PokefanmBasAfterBattleText:
 	text "BAS: We zitten"
 	line "te zwoegen, de"
 	cont "game heeft 24.000"
