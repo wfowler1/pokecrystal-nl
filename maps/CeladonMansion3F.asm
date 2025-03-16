@@ -82,7 +82,7 @@ ElineScript:
 	jumptextfaceplayer ElineBeforeBattleText
 	
 WilliamScript:
-	jimptextfaceplayer WilliamBeforeBattleText
+	jumptextfaceplayer WilliamBeforeBattleText
 
 CeladonMansion3FDevRoomSign:
 	jumptext CeladonMansion3FDevRoomSignText
