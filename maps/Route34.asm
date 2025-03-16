@@ -690,7 +690,7 @@ CooltrainerfJennAfterText1:
 CooltrainerfJennAfterText2:
 	text "JENN: Van zonlicht" ; "JENN: Sunlight"
 	line "wordt je lichaam" ; "makes your body"
-	cont "sterker" ; "stronger."
+	cont "sterker." ; "stronger."
 	done
 
 CooltrainerfKateSeenText:
