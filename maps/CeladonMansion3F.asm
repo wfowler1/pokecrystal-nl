@@ -240,17 +240,25 @@ CalvinAfterBattleText:
 	done
 	
 ElineBeforeBattleText:
-	text "PLACEHOLDER"
+	text "Ik schreef vroeger"
+	line "mijn eigen"
+	
+	para "#MON-verhalen."
+	line "Nu maak ik mijn"
+	cont "eigen videogames!"
 	done
 
 ElineBeatenText:
-	text "PLACEHOLDER"
+	text "In m'n verhaal was"
+	line "ik onverslaanbaar…"
 	done
 
 ElineAfterBattleText:
-	text "PLACEHOLDER"
+	text "Wat voor game zou"
+	line "jij willen maken?"
+	cont "Probeer het eens!"
 	done
-	
+
 WilliamBeforeBattleText:
 	text "PLACEHOLDER"
 	done
