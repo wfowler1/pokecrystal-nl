@@ -225,9 +225,8 @@ CalvinBeatenText:
 CalvinAfterBattleText:
 	text "CALVIN: #MON-"
 	line "gevechten zijn"
-	done
 	
-	text "een stuk lastiger"
+	para "een stuk lastiger"
 	line "in het zwart-rood."
 	done
 	
@@ -258,7 +257,7 @@ CeladonMansion3FDevRoomSignText:
 	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
 	cont "RUIMTE" ;
 	
-	text "LOKALISATIE-"
+	para "LOKALISATIE-"
 	line "TEAM aan linker-"
 	cont "zijde."
 	done
