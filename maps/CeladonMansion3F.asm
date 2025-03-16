@@ -68,6 +68,21 @@ GameFreakProgrammerScript:
 
 GameFreakCharacterDesignerScript:
 	jumptextfaceplayer GameFreakCharacterDesignerText
+	
+BasScript:
+	jumptextfaceplayer BasBeforeBattleText
+
+RandolfScript:
+	jumptextfaceplayer RandolfBeforeBattleText
+	
+CalvinScript:
+	jumptextfaceplayer CalvinBeforeBattleText
+
+ElineScript:
+	jumptextfaceplayer ElineBeforeBattleText
+	
+WilliamScript:
+	jimptextfaceplayer WilliamBeforeBattleText
 
 CeladonMansion3FDevRoomSign:
 	jumptext CeladonMansion3FDevRoomSignText
@@ -162,6 +177,63 @@ GameFreakCharacterDesignerText:
 
 	para "Oh, ik hou van ze!" ; "Oh, I love them!"
 	done
+	
+BasBeforeBattleText:
+	text "BAS: Hier vertalen"
+	line "wij de game naar"
+	cont "het Nederlands."
+	done
+	
+BasBeatenText:
+	text "Helaas!"
+	done
+
+BasAfterBattleText:
+	text "BAS: We zitten"
+	line "te zwoegen, de"
+	cont "game heeft 24.000"
+	cont "regels tekst!"
+	done	
+	
+RandolfBeforeBattleText:
+	text "RANDOLF: Kun je"
+	line "mijn favoriete"
+	cont "#MON verslaan?"
+
+RandolfBeatenText:
+	text "Wow, knap gedaan!"
+
+RandolfAfterBattleText:
+	text "RANDOLF: Ik was 13"
+	line "toen dit spel"
+	cont "uitkwam."
+	
+CalvinBeforeBattleText:
+	text "PLACEHOLDER"
+	
+CalvinBeatenText:
+	text "PLACEHOLDER"
+	
+CalvinAfterBattleText:
+	text "PLACEHOLDER"
+	
+ElineBeforeBattleText:
+	text "PLACEHOLDER"
+
+ElineBeatenText:
+	text "PLACEHOLDER"
+
+ElineAfterBattleText:
+	text "PLACEHOLDER"
+
+WilliamBeforeBattleText:
+	text "PLACEHOLDER"
+	
+WilliamBeatenText:
+	text "PLACEHOLDER"
+
+WilliamAfterBattleText:
+	text "PLACEHOLDER"
 
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
@@ -195,21 +267,26 @@ CeladonMansion3F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  0,  0, CELADON_MANSION_ROOF, 1
-	warp_event  1,  0, CELADON_MANSION_2F, 2
-	warp_event  6,  0, CELADON_MANSION_2F, 3
-	warp_event  7,  0, CELADON_MANSION_ROOF, 2
+	warp_event 12,  0, CELADON_MANSION_ROOF, 1
+	warp_event 13,  0, CELADON_MANSION_2F, 2
+	warp_event 18,  0, CELADON_MANSION_2F, 3
+	warp_event 19,  0, CELADON_MANSION_ROOF, 2
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  5,  8, BGEVENT_UP, CeladonMansion3FDevRoomSign
-	bg_event  4,  3, BGEVENT_UP, CeladonMansion3FDrawing
-	bg_event  1,  6, BGEVENT_UP, CeladonMansion3FGameProgram
-	bg_event  1,  3, BGEVENT_UP, CeladonMansion3FReferenceMaterial
+	bg_event 17,  8, BGEVENT_UP, CeladonMansion3FDevRoomSign
+	bg_event 16,  3, BGEVENT_UP, CeladonMansion3FDrawing
+	bg_event 13,  6, BGEVENT_UP, CeladonMansion3FGameProgram
+	bg_event 13,  3, BGEVENT_UP, CeladonMansion3FReferenceMaterial
 
 	def_object_events
-	object_event  3,  6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GameFreakGameDesignerScript, -1
-	object_event  3,  4, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GameFreakGraphicArtistScript, -1
-	object_event  0,  7, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GameFreakProgrammerScript, -1
-	object_event  0,  4, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GameFreakCharacterDesignerScript, -1
+	object_event 15,  6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GameFreakGameDesignerScript, -1
+	object_event 15,  4, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GameFreakGraphicArtistScript, -1
+	object_event 12,  7, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GameFreakProgrammerScript, -1
+	object_event 12,  4, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GameFreakCharacterDesignerScript, -1
+	object_event  4,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BasScript, -1
+	object_event  8,  4, SPRITE_JUGGLER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RandolfScript, -1
+	object_event  4,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CalvinScript, -1
+	object_event  8,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ElineScript, -1
+	object_event  0,  5, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, WilliamScript, -1
