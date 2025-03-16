@@ -199,53 +199,68 @@ RandolfBeforeBattleText:
 	text "RANDOLF: Kun je"
 	line "mijn favoriete"
 	cont "#MON verslaan?"
+	done
 
 RandolfBeatenText:
 	text "Wow, knap gedaan!"
+	done
 
 RandolfAfterBattleText:
 	text "RANDOLF: Ik was 13"
 	line "toen dit spel"
 	cont "uitkwam."
+	done
 	
 CalvinBeforeBattleText:
 	text "CALVIN: Hey,"
 	line "probeer jij eens"
 	cont "deze Virtual Boy!"
+	done
 	
 CalvinBeatenText:
 	text "Dit ding geeft me"
 	line "hoofdpijn…"
+	done
 	
 CalvinAfterBattleText:
 	text "#MON-gevechten"
 	line "zijn een stuk"
+	done
 	
 	text "moeilijker in het"
 	line "zwart-rood."
+	done
 	
 ElineBeforeBattleText:
 	text "PLACEHOLDER"
+	done
 
 ElineBeatenText:
 	text "PLACEHOLDER"
+	done
 
 ElineAfterBattleText:
 	text "PLACEHOLDER"
-
+	done
+	
 WilliamBeforeBattleText:
 	text "PLACEHOLDER"
+	done
 	
 WilliamBeatenText:
 	text "PLACEHOLDER"
-
+	done
 WilliamAfterBattleText:
 	text "PLACEHOLDER"
-
+	done
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
 	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
 	cont "RUIMTE" ;
+	
+	text "LOKALISATIE-"
+	line "TEAM aan linker-"
+	cont "zijde."
 	done
 
 CeladonMansion3FDrawingText:
