@@ -3331,13 +3331,13 @@ PokefanMGroup:
 	db -1 ; end
 
 	; POKEFANM (15)
-	db "BAS@", TRAINERTYPE_ITEM
-	db 50, ALAKAZAM,   BERRY
-	db 50, SCIZOR,     BERRY
-	db 50, POLITOED,   BERRY
-	db 50, JOLTEON,    BERRY
-	db 50, SLOWKING,   BERRY
-	db 50, RAICHU,     BERRY
+	db "BAS@", TRAINERTYPE_NORMAL
+	db 50, ALAKAZAM
+	db 50, SCIZOR
+	db 50, POLITOED
+	db 50, JOLTEON
+	db 50, SLOWKING
+	db 50, RAICHU
 	db -1 ; end
 	
 KimonoGirlGroup:
