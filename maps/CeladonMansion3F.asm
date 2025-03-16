@@ -209,13 +209,20 @@ RandolfAfterBattleText:
 	cont "uitkwam."
 	
 CalvinBeforeBattleText:
-	text "PLACEHOLDER"
+	text "CALVIN: Hey,"
+	line "probeer jij eens"
+	cont "deze Virtual Boy!"
 	
 CalvinBeatenText:
-	text "PLACEHOLDER"
+	text "Dit ding geeft me"
+	line "hoofdpijn…"
 	
 CalvinAfterBattleText:
-	text "PLACEHOLDER"
+	text "#MON-gevechten"
+	line "zijn een stuk"
+	
+	text "moeilijker in het"
+	line "zwart-rood."
 	
 ElineBeforeBattleText:
 	text "PLACEHOLDER"
@@ -287,6 +294,6 @@ CeladonMansion3F_MapEvents:
 	object_event 12,  4, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GameFreakCharacterDesignerScript, -1
 	object_event  4,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BasScript, -1
 	object_event  8,  4, SPRITE_JUGGLER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RandolfScript, -1
-	object_event  4,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CalvinScript, -1
+	object_event  4,  7, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CalvinScript, -1
 	object_event  8,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ElineScript, -1
 	object_event  0,  5, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, WilliamScript, -1
