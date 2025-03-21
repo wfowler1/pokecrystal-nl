@@ -257,7 +257,7 @@ CeladonLocalizationRoom_MapEvents:
 	bg_event  5,  4, BGEVENT_UP, CeladonLocalizationComputerCalvin
 	bg_event  9,  4, BGEVENT_UP, CeladonLocalizationComputerEline
 	bg_event  1,  2, BGEVENT_UP, CeladonLocalizationComputerWilliam
-	bg_event  1,  2, BGEVENT_UP, CeladonLocalizationPlant
+	bg_event  7,  1, BGEVENT_UP, CeladonLocalizationPlant
 
 
 	def_object_events
