@@ -790,6 +790,16 @@ LassGroup:
 	db 36, AMPHAROS,   SWIFT, THUNDERPUNCH, THUNDER_WAVE, COTTON_SPORE
 	db 36, GOLDUCK,    DISABLE, SURF, PSYCHIC_M, SCREECH
 	db -1 ; end
+	
+	; LASS (18)
+	db "ELINE@", TRAINERTYPE_NORMAL
+	db 50, TOTODILE
+	db 50, BLASTOISE
+	db 50, CLEFFA
+	db 50, DRATINI
+	db 50, PONYTA
+	db 50, FLAREON
+	db -1 ; end
 
 JanineGroup:
 	; JANINE (1)
@@ -2630,6 +2640,16 @@ JugglerGroup:
 	db 30, ELECTRODE
 	db -1 ; end
 
+	; JUGGLER (7)
+	db "RANDOLF@", TRAINERTYPE_NORMAL
+	db 50, EEVEE
+	db 50, PSYDUCK
+	db 50, PIDGEOT
+	db 50, AMPHAROS
+	db 50, MEGANIUM
+	db 50, BLASTOISE
+	db -1 ; end	
+
 BlackbeltGroup:
 	; BLACKBELT_T (1)
 	db "KENJI@", TRAINERTYPE_NORMAL
@@ -3247,6 +3267,16 @@ BoarderGroup:
 	db 25, CLOYSTER
 	db 24, SHELLDER
 	db -1 ; end
+	
+	; BOARDER (4)
+	db "CALVIN@", TRAINERTYPE_NORMAL
+	db 50, ELECTABUZZ
+	db 50, PORYGON2
+	db 50, CROBAT
+	db 50, POLIWRATH
+	db 50, TYRANITAR
+	db 50, TYPHLOSION
+	db -1 ; end
 
 PokefanMGroup:
 	; POKEFANM (1)
@@ -3333,6 +3363,11 @@ PokefanMGroup:
 	; POKEFANM (15)
 	db "BAS@", TRAINERTYPE_NORMAL
 	db 50, ALAKAZAM
+	db 50, SCIZOR
+	db 50, POLITOED
+	db 50, JOLTEON
+	db 50, SLOWKING
+	db 50, RAICHU
 	db -1 ; end
 	
 KimonoGirlGroup:

@@ -403,7 +403,7 @@ ENDM
 	map_const CELADON_DEPT_STORE_ELEVATOR,                  2,  2 ; 11
 	map_const CELADON_MANSION_1F,                           4,  5 ; 12
 	map_const CELADON_MANSION_2F,                           4,  5 ; 13
-	map_const CELADON_MANSION_3F,                          10,  5 ; 14
+	map_const CELADON_MANSION_3F,                           4,  5 ; 14
 	map_const CELADON_MANSION_ROOF,                         4,  5 ; 15
 	map_const CELADON_MANSION_ROOF_HOUSE,                   4,  4 ; 16
 	map_const CELADON_POKECENTER_1F,                        5,  4 ; 17
@@ -416,6 +416,7 @@ ENDM
 	map_const ROUTE_16_GATE,                                5,  4 ; 24
 	map_const ROUTE_7_SAFFRON_GATE,                         5,  4 ; 25
 	map_const ROUTE_17_ROUTE_18_GATE,                       5,  4 ; 26
+	map_const CELADON_LOCALIZATION_ROOM,					6,  4 ; 27
 	endgroup
 
 	newgroup CIANWOOD                                             ; 22
