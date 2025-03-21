@@ -97,7 +97,7 @@ CeladonLocalizationComputerEline:
 CeladonLocalizationComputerWilliam:
 	jumptext CeladonLocalizationComputerWilliamText
 	
-CeladonLocalizationPlan:
+CeladonLocalizationPlant:
 	jumptext CeladonLocalizationPlantText
 	
 PokefanmBasSeenText:
