@@ -229,8 +229,7 @@ CeladonLocalizationComputerElineText:
 	done
 	
 CeladonLocalizationComputerWilliamText:
-	text "Een webbrowser met"
-	line "de website van een"
+	text "De website van een"
 	cont "taalcursus…"
 	done
 	
