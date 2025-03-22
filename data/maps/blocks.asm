@@ -423,6 +423,9 @@ CeladonMansion3F_Blocks:
 
 CeladonMansionRoof_Blocks:
 	INCBIN "maps/CeladonMansionRoof.blk"
+	
+CeladonLocalizationRoom_Blocks:
+	INCBIN "maps/CeladonLocalizationRoom.blk"
 
 BetaHouse_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaHouse.blk"

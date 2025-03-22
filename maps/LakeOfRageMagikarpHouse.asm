@@ -93,7 +93,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	text "MEER VAN RAZERNIJ" ; "LAKE OF RAGE is"
 	line "is een krater ooit" ; "actually a crater"
 
-	para "ooit gemaakt door" ; "made by rampaging"
+	para "gemaakt door" ; "made by rampaging"
 	line "woeste GYARADOS." ; "GYARADOS."
 
 	para "De krater vulde" ; "The crater filled"
