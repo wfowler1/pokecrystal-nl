@@ -224,14 +224,14 @@ CeladonLocalizationComputerCalvinText:
 	done
 	
 CeladonLocalizationComputerElineText:
-	text "De trailer voor"
-	line "On Your Tail!"
+	text "Speciale software"
+	line "om games te maken!"
 	done
 	
 CeladonLocalizationComputerWilliamText:
 	text "Een webbrowser met"
-	line "de website van"
-	cont "Duolingo…"
+	line "de website van een"
+	cont "taalcursus…"
 	done
 	
 CeladonLocalizationPlantText:
