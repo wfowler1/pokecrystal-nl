@@ -898,8 +898,8 @@ GruntF3SeenText:
 	line "niet bang." ; "that scared look."
 
 	para "Ik geef je iets om" ; "I'll give you"
-	line "om bang voor te" ; "something to be"
-	cont "zijn!" ; "scared about!"
+	line "bang voor te zijn!" ; "something to be"
+	; cont "scared about!"
 	done
 
 GruntF3BeatenText:
