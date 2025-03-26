@@ -173,10 +173,6 @@ CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
 	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
 	cont "RUIMTE" ;
-	
-	para "LOKALISATIE-"
-	line "TEAM aan linker-"
-	cont "zijde."
 	done
 
 CeladonMansion3FDrawingText:
