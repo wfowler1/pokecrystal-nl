@@ -544,7 +544,7 @@ _OPT_MaryText1::
 	text_start
 	line "MARY: @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "'s"
+	text "…"
 	done
 
 _OPT_SweetAdorablyText::
