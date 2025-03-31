@@ -719,7 +719,8 @@ assert NUM_BATTLE_ANIM_OAMSETS <= FIRST_OAM_CMD, \
 	"BATTLE_ANIM_OAMSET_* constants overlap oam*_command constants"
 
 ; BattleBGEffects indexes (see engine/battle_anims/bg_effects.asm)
-	const_def 1
+	const_def
+	const BATTLE_BG_EFFECT_END                              ; 00
 	const BATTLE_BG_EFFECT_FLASH_INVERTED                   ; 01
 	const BATTLE_BG_EFFECT_FLASH_WHITE                      ; 02
 	const BATTLE_BG_EFFECT_WHITE_HUES                       ; 03
@@ -773,7 +774,7 @@ assert NUM_BATTLE_ANIM_OAMSETS <= FIRST_OAM_CMD, \
 	const BATTLE_BG_EFFECT_VIBRATE_MON                      ; 33
 	const BATTLE_BG_EFFECT_WOBBLE_PLAYER                    ; 34
 	const BATTLE_BG_EFFECT_WOBBLE_SCREEN                    ; 35
-DEF NUM_BATTLE_BG_EFFECTS EQU const_value - 1
+DEF NUM_BATTLE_BG_EFFECTS EQU const_value
 
 ; wBattleAnimTileDict keys (see wram.asm)
 ; AnimObjGFX indexes (see data/battle_anims/object_gfx.asm)
@@ -818,7 +819,7 @@ DEF NUM_BATTLE_BG_EFFECTS EQU const_value - 1
 	const BATTLE_ANIM_GFX_WAVE       ; 26
 	const BATTLE_ANIM_GFX_AEROBLAST  ; 27
 	const BATTLE_ANIM_GFX_PLAYERHEAD ; 28
-	const BATTLE_ANIM_GFX_ENEMYFEET   ; 29
+	const BATTLE_ANIM_GFX_ENEMYFEET  ; 29
 DEF NUM_BATTLE_ANIM_GFX EQU const_value - 1
 
 ; battle_bg_effect struct members (see macros/ram.asm)
