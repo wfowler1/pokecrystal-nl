@@ -674,7 +674,7 @@ UndergroundRivalBeforeText:
 	para "Loop me niet in de" ; "I don't need you"
 	line "weg terwijl ik" ; "underfoot while I"
 
-	para "ik TEAM ROCKET" ; "take care of TEAM"
+	para "TEAM ROCKET" ; "take care of TEAM"
 	line "uitschakel." ; "ROCKET."
 
 	para "…Wacht eens." ; "…Wait a second."
