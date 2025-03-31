@@ -65,7 +65,7 @@ HurtByBurnText:
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED zuigt" ; "LEECH SEED saps"
+	text "ZUIGZAAD zuigt" ; "LEECH SEED saps"
 	line "<USER>!"
 	prompt
 
