@@ -189,7 +189,7 @@ DirectorCardKeyText:
 
 DirectorAfterText:
 	text "Ik smeek om jouw" ; "I'm begging you to"
-	line "hulp hulp." ; "help."
+	line "hulp." ; "help."
 
 	para "Wie weet wat ze" ; "There's no telling"
 	line "doen als ze de" ; "what they'll do if"

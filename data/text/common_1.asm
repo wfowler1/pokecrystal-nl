@@ -544,7 +544,7 @@ _OPT_MaryText1::
 	text_start
 	line "MARY: @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "'s"
+	text "…"
 	done
 
 _OPT_SweetAdorablyText::
@@ -569,7 +569,7 @@ _OPT_UndeniablyKindOfText::
 
 _OPT_UnbearablyText::
 	text_start
-	line "Zo onweerstaanbaar" ; "so, so unbearably"
+	line "zo onweerstaanbaar" ; "so, so unbearably"
 	done
 
 _OPT_WowImpressivelyText::

@@ -269,7 +269,7 @@ BoarderBradSeenText:
 	line "je niet?" ; "it?"
 
 	para "Maar hé--we spelen" ; "But hey--we're"
-	line "spelen spelletjes" ; "not playing games"
+	line "geen spelletjes" ; "not playing games"
 	cont "hier!" ; "here!"
 	done
 
