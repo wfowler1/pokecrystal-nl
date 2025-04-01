@@ -1049,7 +1049,7 @@ _MagikarpGuruMeasureText::
 	para "…Hm, hij is" ; "…Hm, it measures"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength 6
-	text "cm groot." ; "."
+	text " cm groot." ; "."
 	prompt
 
 _KarpGuruRecordText::
@@ -1057,7 +1057,7 @@ _KarpGuruRecordText::
 
 	para "@"
 	text_ram wStringBuffer1 ; MaxLength 6
-	text "cm gevangen" ; " caught by"
+	text " cm gevangen" ; " caught by"
 	line "door @" ; "@"
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton

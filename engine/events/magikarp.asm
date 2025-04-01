@@ -84,7 +84,7 @@ PrintMagikarpLength:
 	ld [wStringBuffer1 + 5], a
 	ld a, [wStringBuffer1 + 3]
 	ld [wStringBuffer1 + 4], a
-	ld a, "."
+	ld a, ","
 	ld [wStringBuffer1 + 3], a
 	ld hl, wStringBuffer1
 
