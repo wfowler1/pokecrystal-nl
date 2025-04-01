@@ -695,7 +695,7 @@ RockerBaseLanceElectrodeFaintText:
 	para "Dat zou deze" ; "That should stop"
 	line "machine moeten" ; "this machine from"
 
-	para "stoppen  dat" ; "transmitting that"
+	para "stoppen dat" ; "transmitting that"
 	line "vreemde signaal" ; "strange signal."
 	cont "uit te zenden." ;
 
@@ -751,7 +751,7 @@ RocketBaseLanceWhirlpoolText:
 	para "MON om door wild" ; "#MON to get"
 	line "water te gaan." ; "across wild water."
 
-	para "Maar knoop dit in." ; "But keep this in"
+	para "Maar knoop dit in" ; "But keep this in"
 	line "je oren." ; "mind."
 
 	para "Je kan het alleen" ; "You can use that"
@@ -897,7 +897,7 @@ RocketBaseDoorNoPasswordText:
 
 RocketBaseDoorKnowPasswordText:
 	text "De deur is" ; "The door's closed…"
-	cont "op slot…" ;
+	line "op slot…" ;
 
 	para "<PLAYER> vulde" ; "<PLAYER> entered"
 	line "het wachtwoord in." ; "the password."

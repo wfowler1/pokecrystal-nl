@@ -285,7 +285,7 @@ PlayersPCMenuData:
 .DepositItem:  db "STORT VOORWERP@" ; "DEPOSIT ITEM@"
 .TossItem:     db "GOOI WEG@" ; "TOSS ITEM@"
 .MailBox:      db "MAILBOX@" ; "MAIL BOX@"
-.Decoration:   db "DEOCRATIE@" ; "DECORATION@"
+.Decoration:   db "DECORATIE@" ; "DECORATION@"
 .TurnOff:      db "SCHAKEL UIT@" ; "TURN OFF@"
 .LogOff:       db "LOG UIT@" ; "LOG OFF@"
 
