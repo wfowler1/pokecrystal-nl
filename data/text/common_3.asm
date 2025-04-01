@@ -974,7 +974,7 @@ _DidNotLearnMoveText::
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text " is"
+	text " " ; " is"
 	line "probeert" ; "trying to learn"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength

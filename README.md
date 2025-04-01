@@ -9,9 +9,11 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 ## Intentional translation differences
 
 Although this isn't intended as a direct translation of the English version, there are cases where things are intentionally changed from their original meaning. This is usually done to update terminology to match later generations more closely.
-* The "PINK BOW" and "POLKADOT BOW" items have been renamed to "ZIJDEN SJAAL" (SILK SCARF) to match later generations. Aside from the names, these items behaved identically.
-* The "OLD POKéDEX" is now referred to as "NATIONAAL POKéDEX" to match later generations.
-* The "NEW POKéDEX" is now referred to as "JOHTO POKéDEX" to match later generations.
+* The "PINK BOW" and "POLKADOT BOW" items have been renamed to "ZIJDEN SJAAL" (SILK SCARF) to match later generations. Aside from the names, these items behave identically.
+* The "OLD POKéDEX" is now referred to as "NATIONALE POKéDEX" to match later generations.
+* The "NEW POKéDEX" is now referred to as "JOHTO-POKéDEX" to match later generations.
+* ILEX FOREST has been changed to EIKENWOUD, to more closely match the Japanese, French and German translations.
+* Some moves more closely match translations in other languages, like LEECH LIFE becoming VAMPIER and SEISMIC TOSS becoming GEOWORP. We've looked for the most logical translation in each individual case, referring to original source material primarily.
 
 ## See also
 
