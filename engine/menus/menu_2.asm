@@ -158,7 +158,7 @@ StartMenu_PrintBugContestStatus:
 	hlcoord 1, 5
 	ld de, .BallsString
 	call PlaceString
-	hlcoord 9, 5
+	hlcoord 8, 5
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
@@ -198,7 +198,7 @@ StartMenu_PrintBugContestStatus:
 .CaughtString:
 	db "VANGST@" ; "CAUGHT@"
 .BallsString:
-	db "BALLEN:@" ; "BALLS:@"
+	db "BALLEN@" ; "BALLS:@"
 .NoneString:
 	db "Geen@" ; "None@"
 .LevelString:

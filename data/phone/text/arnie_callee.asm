@@ -29,7 +29,7 @@ ArnieGreetText:
 	text "Ja, hallo?" ; "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "spreek je." ; " calling."
+	text " spreek je." ; " calling."
 
 	para "Wat ben je aan het" ; "What are you up"
 	line "doen, <PLAY_G>?" ; "to, <PLAY_G>?"
@@ -39,7 +39,7 @@ ArnieGreetDayText:
 	text "Ja, hallo?" ;  "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "spreek je." ; " calling."
+	text " spreek je." ; " calling."
 
 	para "Waar ben je nu," ; "Where are you now,"
 	line "<PLAY_G>?"
@@ -49,7 +49,7 @@ ArnieGreetNiteText:
 	text "Ja, hallo?" ; "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "spreek je." ; " calling."
+	text " spreek je." ; " calling."
 
 	para "Ben je nu wakker," ; "Are you awake now,"
 	line "<PLAY_G>?"

@@ -1739,16 +1739,16 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NewMode:
-	db   "JOHTO #DEX" ; "<PK><MN> are listed by"
+	db   "JOHTO-#DEX" ; "<PK><MN> are listed by"
 	next "Evoluties samen.@" ; "evolution type.@"
 
 .OldMode:
-	db   "NATIONAAL #DEX" ; "<PK><MN> are listed by"
+	db   "NATIONALE #DEX" ; "<PK><MN> are listed by"
 	next "Vermeld op nummer.@" ; "official type.@"
 
 .ABCMode:
 	db   "<PK><MN> vermeld" ; "<PK><MN> are listed"
-	next "alfabetisch.@" ; "alphabetically.@"
+	next "van A tot Z.@" ; "alphabetically.@"
 
 .UnownMode:
 	db   "UNOWN vermeld op" ; "UNOWN are listed"

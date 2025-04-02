@@ -191,6 +191,7 @@ DEF KRIS EQU __trainer_class__
 	const DANA3
 	const DANA4
 	const DANA5
+	const ELINE
 
 	trainerclass JANINE ; 1a
 	const JANINE1
@@ -523,6 +524,7 @@ DEF KRIS EQU __trainer_class__
 	const IRWIN2 ; unused
 	const IRWIN3 ; unused
 	const IRWIN4 ; unused
+	const RANDOLF
 
 	trainerclass BLACKBELT_T ; 32
 	const KENJI1 ; unused
@@ -638,6 +640,7 @@ DEF KRIS EQU __trainer_class__
 	const RONALD
 	const BRAD
 	const DOUGLAS
+	const CALVIN2
 
 	trainerclass POKEFANM ; 3b
 	const WILLIAM
@@ -654,6 +657,7 @@ DEF KRIS EQU __trainer_class__
 	const ALEX
 	const REX
 	const ALLAN
+	const BAS1
 
 	trainerclass KIMONO_GIRL ; 3c
 	const NAOKO_UNUSED ; unused

@@ -89,7 +89,7 @@ WadeFoundItemText:
 	text "Ik vond allerlei" ; "I found all kinds"
 	line "soorten BESSEN." ; "of BERRIES. If you"
 
-	para "als je het wil," ; "want, I'll share"
+	para "Als je het wil," ; "want, I'll share"
 	line "kan ik wel delen." ; "some with you."
 
 	para "Ik wacht op" ; "I'll be waiting on"

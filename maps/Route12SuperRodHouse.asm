@@ -64,7 +64,7 @@ GaveSuperRodText:
 	line "in elk water dat" ; "fishing wherever"
 	cont "je tegenkomt." ; "there is water."
 
-	para "Onthoud--je kan" ; "Remember--you can"
+	para "Onthoud--je kunt" ; "Remember--you can"
 	line "verschillende" ; "catch different"
 
 	para "#MON vangen met" ; "#MON using"

@@ -14,8 +14,8 @@ Route5SaffronGateOfficerText:
 	line "toch?" ; "aren't you?"
 
 	para "Wat vind je van" ; "How do you like"
-	line "KANTO? Het is" ; "KANTO? It's nice,"
-	cont "mooi hè?" ; "don't you agree?"
+	line "KANTO? Het is mooi" ; "KANTO? It's nice,"
+	cont "toch?" ; "don't you agree?"
 	done
 
 Route5SaffronGate_MapEvents:

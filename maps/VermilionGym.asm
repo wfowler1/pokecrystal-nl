@@ -103,7 +103,7 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey jij," ; "SURGE: Hey, you"
+	text "SURGE: He jij," ; "SURGE: Hey, you"
 	line "kleintje!" ; "little tyke!"
 
 	para "Ik moet toegeven." ; "I have to hand it"
@@ -146,7 +146,7 @@ LtSurgeThunderBadgeText:
 	para "Het is bewijs dat" ; "Consider it proof"
 	line "je me versloeg." ; "that you defeated"
 
-	para "Draag 'm met" ; "me. You wear it"
+	para "Draag hem met" ; "me. You wear it"
 	line "trots, oké?" ; "proudly, hear?"
 	done
 

@@ -179,7 +179,7 @@ BugsyText_ResearchIncomplete:
 
 Text_ReceivedHiveBadge:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "KORFBADGE" ; "HIVEBADGE."
+	line "KORFBADGE." ; "HIVEBADGE."
 	done
 
 BugsyText_HiveBadgeSpeech:
@@ -224,7 +224,7 @@ BugsyText_BugMonsAreDeep:
 	line "#MON zijn nog" ; "deep. There are"
 
 	para "veel mysteries om" ; "many mysteries to"
-	line "te ontrafelen" ; "be explored."
+	line "te ontrafelen." ; "be explored."
 
 	para "Bestudeer je favo-" ; "Study your favor-"
 	line "rieten uitvoerig." ; "ites thoroughly."
@@ -267,7 +267,7 @@ BugCatcherAlAfterBattleText:
 	line "maar veel meiden" ; "but most girls"
 
 	para "houden niet van" ; "don't like bug"
-	line "insect-#MON" ; "#MON."
+	line "insect-#MON." ; "#MON."
 
 	para "Geen idee waarom…" ; "I don't know why…"
 	done
@@ -332,7 +332,7 @@ AzaleaGymGuideText:
 	line "maar hij weet" ; "his knowledge of"
 
 	para "veel van insect-" ; "bug #MON is for"
-	line "#MON" ; "real."
+	line "#MON." ; "real."
 
 	para "Zonder mijn" ; "It's going to be"
 	line "advies wordt het" ; "tough without my"

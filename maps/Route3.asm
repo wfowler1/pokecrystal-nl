@@ -86,9 +86,8 @@ YoungsterWarrenAfterBattleText:
 	text "Je zag er sterk" ; "You looked strong."
 	line "uit." ;
 
-	para "Ik was bang om het" ; "I was afraid to"
-	line "tegen je op te" ; "take you on…"
-	cont "nemen…" ;
+	para "Ik was bang om met" ; "I was afraid to"
+	line "je te vechten…" ; "take you on…"
 	done
 
 YoungsterJimmySeenText:
@@ -106,7 +105,7 @@ YoungsterJimmyAfterBattleText:
 	cont "broeken." ;
 
 	para "Dat is mijn" ; "That's my fashion"
-	line "moderegel." ; "policy."
+	line "fashionbeleid." ; "policy."
 	done
 
 FirebreatherBurtSeenText:

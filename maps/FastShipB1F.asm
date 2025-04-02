@@ -221,7 +221,7 @@ FastShipB1FSailorBlocksLeftMovement:
 FastShipB1FOnDutySailorText:
 	text "He, kind. Zou je" ; "Hey, kid. Could I"
 	line "mijn maatje voor" ; "get you to look"
-	cont "me willen vinden?" ; "for my buddy?"
+	cont "me kunnen zoeken?" ; "for my buddy?"
 
 	para "hij is ergens aan" ; "He's goofing off"
 	line "het niksen, de" ; "somewhere, that"
@@ -259,8 +259,8 @@ FastShipB1FOnDutySailorDirectionsText:
 	line "verderop." ; "up ahead."
 
 	para "De trap daar gaat" ; "The stairs at the"
-	line "naar de kabine" ; "end lead to the"
-	cont "van de KAPITEIN." ; "CAPTAIN's cabin."
+	line "naar de kajuit van" ; "end lead to the"
+	cont "de KAPITEIN." ; "CAPTAIN's cabin."
 	done
 
 SailorJeffSeenText:
@@ -286,8 +286,8 @@ PicnickerDebraSeenText:
 	done
 
 PicnickerDebraBeatenText:
-	text "Auw! Je bent" ; "Yow! You're too"
-	line "te sterk!" ; "strong!"
+	text "Auw! Je bent te" ; "Yow! You're too"
+	line "sterk!" ; "strong!"
 	done
 
 PicnickerDebraAfterBattleText:

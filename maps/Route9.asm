@@ -108,11 +108,11 @@ CamperDeanAfterBattleText:
 	done
 
 PicnickerHeidiSeenText:
-	text "Ben je ooit naar" ; "Have you ever been"
-	line "een picknick" ; "to a picnic?"
+	text "Ben je ooit wezen" ; "Have you ever been"
+	line "picknicken?" ; "to a picnic?"
 
-	para "geweest? Dat" ; "They're so much"
-	line "is zo leuk!" ; "fun!"
+	para "Dat is zo leuk om" ; "They're so much"
+	line "te doen!" ; "fun!"
 	done
 
 PicnickerHeidiBeatenText:
@@ -185,8 +185,8 @@ HikerTimAfterBattleText:
 
 HikerSidneySeenText:
 	text "Ik zal je een" ; "I'll tell you a"
-	line "geheimpje ver-" ; "secret."
-	cont "tellen." ;
+	line "geheimpje" ; "secret."
+	cont "vertellen." ;
 
 	para "Maar eerst" ; "But first, we"
 	line "vechten we!" ; "battle!"
@@ -199,8 +199,8 @@ HikerSidneyBeatenText:
 
 HikerSidneyAfterBattleText:
 	text "De ENERGIECENTRALE" ; "The POWER PLANT is"
-	line "is voorbij een" ; "across a small"
-	cont "kleine rivier." ; "river."
+	line "is aan de overkant" ; "across a small"
+	cont "van een rivier." ; "river."
 	done
 
 Route9SignText:

@@ -556,7 +556,7 @@ Route36NationalParkGateOfficer1WellHoldYourMonText:
 
 Route36NationalParkGatePlayersMonLeftWithHelperText:
 	text "<PLAYER>'s #MON"
-	line "Zijn achtergelaten" ; "were left with the"
+	line "zijn achtergelaten" ; "were left with the"
 	cont "bij TOERNOOIHULP." ; "CONTEST HELPER."
 	done
 

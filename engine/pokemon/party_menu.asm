@@ -473,7 +473,7 @@ PlacePartyMonGender:
 	db "♀…VROUW@" ; "♀…FEMALE@"
 
 .unknown
-	db "…ONBEKEND@" ; "…UNKNOWN@"
+	db "ONBEKEND@" ; "…UNKNOWN@"
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]

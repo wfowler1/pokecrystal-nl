@@ -65,7 +65,7 @@ HurtByBurnText:
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED zuigt" ; "LEECH SEED saps"
+	text "ZUIGZAAD zuigt" ; "LEECH SEED saps"
 	line "<USER>!"
 	prompt
 
@@ -458,9 +458,9 @@ BattleText_UserWasReleasedFromStringBuffer1:
 	prompt
 
 UsedBindText:
-	text "<USER>" ; "<USER> geb-"
+	text "<USER>" ; "<USER>"
 	line "deed KOPPEL op" ; "used BIND on"
-	cont "<TARGET>"
+	cont "<TARGET>!"
 	prompt
 
 WhirlpoolTrapText:

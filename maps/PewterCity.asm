@@ -77,8 +77,8 @@ PewterCityCooltrainerFText:
 PewterCityBugCatcherText:
 	text "CLEFAIRY komen" ; "At night, CLEFAIRY"
 	line "'s nachts naar" ; "come out to play"
-	cont "buiten om op MAAN-" ; "at MT.MOON."
-	cont "BERG te spelen." ; 
+	cont "om te spelen op de" ; "at MT.MOON."
+	cont "MAANBERG." ; 
 
 	para "Maar niet elke" ; "But not every"
 	line "nacht." ; "night."
@@ -126,7 +126,7 @@ PewterCitySignText:
 
 PewterGymSignText:
 	text "PEWTER CITY"
-	line "#MONGYMLEIDER:"
+	line "#MON-GYMLEIDER:"
 	cont "BROCK" ; "LEADER: BROCK"
 
 	para "De Rotsvaste" ; "The Rock Solid"

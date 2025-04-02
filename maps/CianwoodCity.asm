@@ -352,7 +352,7 @@ CianwoodCitySignText:
 
 CianwoodGymSignText:
 	text "CIANWOOD CITY"
-	line "#MONGYMLEIDER:" ; "#MON GYM"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
 
 	para "CHUCK" ; "LEADER: CHUCK" ; "LEADER: CHUCK"
 

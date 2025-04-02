@@ -10,10 +10,9 @@ Route7LockedDoor:
 	jumptext Route7LockedDoorText
 
 Route7UndergroundPathSignText:
-	text "Wat is deze" ; "What's this flyer?"
-	line "folder?"
+	text "Wat staat hier?" ; "What's this flyer?"
 
-	para "…Ongure trainers" ; "… Uncouth trainers"
+	para "… Ongure trainers" ; "… Uncouth trainers"
 	line "hebben gevochten" ; "have been holding"
 
 	para "in het ONDERGRONDS" ; "battles in the"

@@ -1,7 +1,7 @@
 TullyMonHasGrownText:
 	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "is" ; " has"
+	text " is" ; " has"
 	line "weer gegroeid." ; "grown again."
 
 	para "Het was ongeveer" ; "It was only about"

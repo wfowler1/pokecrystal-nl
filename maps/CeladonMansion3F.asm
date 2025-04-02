@@ -1,8 +1,14 @@
 	object_const_def
-	const CELADONMANSION3F_COOLTRAINER_M
-	const CELADONMANSION3F_GYM_GUIDE
+	const CELADONMANSION3F_COOLTRAINER_M1
+	const CELADONMANSION3F_COOLTRAINER_M2
+	const CELADONMANSION3F_GYM_GUIDE1
+	const CELADONMANSION3F_GYM_GUIDE2
+	const CELADONMANSION3F_SUPER_NERD1
 	const CELADONMANSION3F_SUPER_NERD
-	const CELADONMANSION3F_FISHER
+	const CELADONMANSION3F_FISHER1
+	const CELADONMANSION3F_FISHER2
+	const CELADONMANSION3F_LASS
+	const CELADONMANSION3F_POKEFAN_M
 
 CeladonMansion3F_MapScripts:
 	def_scene_scripts
@@ -162,7 +168,7 @@ GameFreakCharacterDesignerText:
 
 	para "Oh, ik hou van ze!" ; "Oh, I love them!"
 	done
-
+	
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
 	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
@@ -199,7 +205,8 @@ CeladonMansion3F_MapEvents:
 	warp_event  1,  0, CELADON_MANSION_2F, 2
 	warp_event  6,  0, CELADON_MANSION_2F, 3
 	warp_event  7,  0, CELADON_MANSION_ROOF, 2
-
+	warp_event  3,  0, CELADON_LOCALIZATION_ROOM, 1
+	
 	def_coord_events
 
 	def_bg_events

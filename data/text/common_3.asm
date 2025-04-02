@@ -488,7 +488,7 @@ _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -517,7 +517,7 @@ _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -601,7 +601,7 @@ _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "kost je ¥@" ; "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -684,11 +684,11 @@ _MartBoughtText::
 	text " voor" ; " for"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)."
+	text "." ; "(S)."
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Hoeveel munten" ; "Bet how many"
+	text "Hoeveel" ; "Bet how many"
 	line "wedden?" ; "coins?"
 	done
 
@@ -974,7 +974,7 @@ _DidNotLearnMoveText::
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text " is"
+	text " " ; " is"
 	line "probeert" ; "trying to learn"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength

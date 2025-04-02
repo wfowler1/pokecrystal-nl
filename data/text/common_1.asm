@@ -380,14 +380,14 @@ _MomFoundADollText::
 	prompt
 
 _MomItsInYourRoomText::
-	text "staat in je kamer." ; "It's in your room."
+	text "Staat in je kamer." ; "It's in your room."
 	line "Vind je vast leuk!" ; "You'll love it!"
 	done
 
 _MonWasSentToText::
 	text_ram wPlayerTrademonSpeciesName
-	text " werd" ; " was"
-	line "ging naar @" ; "sent to @"
+	text " ging" ; " was"
+	line "naar @" ; "sent to @"
 	text_ram wOTTrademonSenderName
 	text "."
 	done
@@ -544,7 +544,7 @@ _OPT_MaryText1::
 	text_start
 	line "MARY: @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "'s"
+	text "…"
 	done
 
 _OPT_SweetAdorablyText::
@@ -569,7 +569,7 @@ _OPT_UndeniablyKindOfText::
 
 _OPT_UnbearablyText::
 	text_start
-	line "Zo onweerstaanbaar" ; "so, so unbearably"
+	line "zo onweerstaanbaar" ; "so, so unbearably"
 	done
 
 _OPT_WowImpressivelyText::
@@ -782,7 +782,7 @@ _LC_Text1::
 
 _LC_Text2::
 	text_start
-	line "hoe issie?" ; "y'all doin' now?"
+	line "issie?" ; "y'all doin' now?"
 	done
 
 _LC_Text3::
@@ -1028,7 +1028,7 @@ _BuenaRadioText2::
 
 _BuenaRadioText3::
 	text_start
-	line "vandaag, uhm… Is" ; "Let me think… It's"
+	line "Vandaag, uhm… Is" ; "Let me think… It's"
 	done
 
 _BuenaRadioText4::
@@ -1309,8 +1309,8 @@ _BugCatchingContestIsOverText::
 	done
 
 _RepelWoreOffText::
-	text "Effect van VERJAAG" ; "REPEL's effect"
-	line "is uitgewerkt." ; "wore off."
+	text "Effect VERDRIJF is" ; "REPEL's effect"
+	line "uitgewerkt." ; "wore off."
 	done
 
 _PlayerFoundItemText::
@@ -1425,7 +1425,7 @@ _NPCTradeAfterText1::
 	text "Hoe gaat ie met" ; "Hi, how's my old"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "nu?" ; " doing?"
+	text " nu?" ; " doing?"
 	done
 
 _NPCTradeIntroText2::
@@ -1478,7 +1478,7 @@ _NPCTradeAfterText2::
 
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text "is" ; "'s cute,"
+	text " is" ; "'s cute,"
 	line "schattig, maar ik" ; "but I don't have"
 
 	para "heb er geen. Heb" ; "it. Do you have"

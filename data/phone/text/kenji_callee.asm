@@ -1,6 +1,6 @@
 KenjiAnswerPhoneText:
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " here…"
+	text " hier…" ; " here…"
 
 	para "<PLAYER>! Fraaie" ; "<PLAYER>! Beautiful"
 	line "ochtend, he?" ; "morning, hey?"
@@ -8,7 +8,7 @@ KenjiAnswerPhoneText:
 
 KenjiAnswerPhoneDayText:
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " here…"
+	text " hier…" ; " here…"
 
 	para "<PLAYER>! Lekker" ; "<PLAYER>! Beautiful"
 	line "weertje, he?" ; "weather, hey?"
@@ -16,7 +16,7 @@ KenjiAnswerPhoneDayText:
 
 KenjiAnswerPhoneNiteText:
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "hier…" ; " here…"
+	text " hier…" ; " here…"
 
 	para "<PLAYER>! Fraai" ; "<PLAYER>! Beautiful"
 	line "maanlicht, he?" ; "moonlight, hey?"

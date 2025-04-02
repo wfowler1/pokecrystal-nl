@@ -71,7 +71,7 @@ SafariZonePhotoText:
 	text "Het is een foto" ; "It's a photo of a"
 	line "van een groot" ; "huge grassy plain"
 
-	para "grasveld waar" ; "with rare #MON"
+	para "grasveld waarop" ; "with rare #MON"
 	line "zeldzame #MON" ; "frolicking in it."
 	cont "huppelen." ;
 	done

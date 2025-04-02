@@ -809,12 +809,10 @@ wSlotsEnd::
 
 NEXTU
 ; card flip
-wDeck:: ds 4 * 6
-wDeckEnd::
+wDeck:: ds CARDFLIP_DECK_SIZE
 wCardFlipNumCardsPlayed:: db
 wCardFlipFaceUpCard:: db
-wDiscardPile:: ds 4 * 6
-wDiscardPileEnd::
+wDiscardPile:: ds CARDFLIP_DECK_SIZE
 
 ; beta poker game
 wBetaPokerSGBPals:: dw
@@ -2978,7 +2976,7 @@ wStatusFlags2::
 ; bit 2: bug contest timer
 ; bit 3: unused
 ; bit 4: bike shop call
-; bit 5: can use sweet scent
+; bit 5: unused
 ; bit 6: reached goldenrod
 ; bit 7: rockets in mahogany
 	db

@@ -86,7 +86,7 @@ CeladonDeptStore3FSuperNerdText:
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "3F: TM-WINKEL" ; "3F: TM SHOP"
+	text "2V: TM-WINKEL" ; "3F: TM SHOP"
 
 	para "Maak je #MON" ; "Make Your #MON"
 	line "Sterker!" ; "Stronger!"

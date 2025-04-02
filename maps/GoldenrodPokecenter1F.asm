@@ -201,11 +201,11 @@ GoldenrodPokecomCenterWeWillTradeYourMonForMonText: ; unreferenced
 
 GoldenrodPokecomCenterWeWillTradeYourMonForNewText: ; unreferenced
 	text "Prima. We ruilen" ; "Fine. We will try"
-	line "jouw" ; "to trade your"
-
-	para "@"
+	line "jouw @" ; "to trade your"
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text "voor een" ; "for a"
+	text_start
+
+	para "voor een" ; "for a"
 	line "#MON die je" ; "#MON that you"
 	cont "nooit hebt gezien." ; "have never seen."
 

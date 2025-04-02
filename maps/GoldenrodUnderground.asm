@@ -539,7 +539,7 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 	line "mooi maken voor"; "#MON beautiful"
 	cont "slechts ¥500."; "for just ¥500."
 
-	para "Wil je graag een?"; "Would you like me"
+	para "Wil je graag een"; "Would you like me"
 	line "knipbeurt?"; "to do that?"
 	done
 
@@ -625,19 +625,19 @@ GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText:
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text "ziet er"; " looks a"
+	text " ziet er"; " looks a"
 	line "iets blijer uit."; "little happier."
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text "ziet er"; " looks"
+	text " ziet er"; " looks"
 	line "gelukkig uit."; "happy."
 	done
 
 HaircutBrosText_MuchHappier:
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text "ziet er"; " looks"
+	text " ziet er"; " looks"
 	line "opgetogen uit!"; "delighted!"
 	done
 

@@ -1058,31 +1058,31 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "EI@" ; "EGG@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Het maakt geluid" ; "It's making sounds"
+	next "van binnen. Het" ; "inside. It's going"
+	next "komt bijna uit!@" ; "to hatch soon!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Het beweegt soms" ; "It moves around"
+	next "van binnen. Zal" ; "inside sometimes."
+	next "vast bijna uit-" ; "It must be close"
+	next "komen.@" ; "to hatching.@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Wat zou er in" ; "Wonder what's"
+	next "zitten? Heeft nog" ; "inside? It needs"
+	next "meer tijd nodig.@" ; "more time, though.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Dit EI heeft meer" ; "This EGG needs a"
+	next "tijd nodig om uit" ; "lot more time to"
+	next "te komen.@" ; "hatch.@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam
@@ -1116,10 +1116,10 @@ StatsScreen_LoadPageIndicators:
 	ld a, $36 ; first of 4 small square tiles
 	call .load_square
 	hlcoord 15, 5
-	ld a, $36 ; " " " "
+	ld a, $36 ; " ; " " ; "
 	call .load_square
 	hlcoord 17, 5
-	ld a, $36 ; " " " "
+	ld a, $36 ; " ; " " ; "
 	call .load_square
 	ld a, c
 	cp GREEN_PAGE

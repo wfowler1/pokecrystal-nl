@@ -18,7 +18,7 @@ VermilionMagnetTrainSpeechHouseBookshelf:
 
 VermilionMagnetTrainSpeechHousePokefanFText:
 	text "Ken je de" ; "Do you know about"
-	line "MAGNEETTREIN?" ; "the MAGNET TRAIN?"
+	line "ZWEEFTREIN?" ; "the MAGNET TRAIN?"
 
 	para "Het is een spoor-" ; "It's a railway"
 	line "lijn die naar" ; "that goes to GOL-"
@@ -29,7 +29,7 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 VermilionMagnetTrainSpeechHouseYoungsterText:
 	text "Ik wil naar" ; "I want to go to"
 	line "SAFFRON en de" ; "SAFFRON to see"
-	cont "MAGNEETTREIN zien." ; "the MAGNET TRAIN."
+	cont "ZWEEFTREIN zien." ; "the MAGNET TRAIN."
 	done
 
 VermilionMagnetTrainSpeechHouse_MapEvents:

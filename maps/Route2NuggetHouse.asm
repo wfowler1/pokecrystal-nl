@@ -35,8 +35,8 @@ Route2NuggetHouseFisherText:
 	cont "lange tijd." ; "in a long time."
 
 	para "Ik ben superblij!" ; "I'm super-happy!"
-	line "Ik heb iets" ; "Let me give you a"
-	cont "kleins voor je." ; "little present."
+	line "Ik heb iets kleins" ; "Let me give you a"
+	cont "voor je." ; "little present."
 	done
 
 Route2NuggetHouseFisherText_GotNugget:

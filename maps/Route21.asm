@@ -42,8 +42,8 @@ TrainerFisherArnold:
 	end
 
 SwimmermSethSeenText:
-	text "Hoi daar! Ik" ; "Land ho! Gotta"
-	line "moet doorgaan!" ; "keep going!"
+	text "Hoi daar! Ik moet" ; "Land ho! Gotta"
+	line "verder gaan!" ; "keep going!"
 	done
 
 SwimmermSethBeatenText:

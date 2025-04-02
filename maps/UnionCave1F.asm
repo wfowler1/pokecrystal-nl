@@ -120,7 +120,7 @@ PokemaniacLarrySeenText:
 
 PokemaniacLarryBeatenText:
 	text "Ugh. Mijn arme" ; "Ugh. My poor #-"
-	line "MON…" ; "MON…"
+	line "#MON…" ; "MON…"
 	done
 
 PokemaniacLarryAfterBattleText:

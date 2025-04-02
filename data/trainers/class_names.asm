@@ -45,7 +45,7 @@ TrainerClassNames::
 	li "RIVAAL" ; "RIVAL"
 	li "GITARIST" ; "GUITARIST"
 	li "WANDELAAR" ; "HIKER"
-	li "BIKER"
+	li "MOTORMUIS" ; "BIKER"
 	li "LEIDER" ; "LEADER"
 	li "INBREKER" ; "BURGLAR"
 	li "VUURSPUWER" ; "FIREBREATHER"

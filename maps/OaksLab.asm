@@ -196,7 +196,7 @@ OaksAssistant1Text:
 	cont "uitgezonden." ;
 
 	para "Jammer--Ik zou" ; "It's a shame--I'd"
-	line "'t graag horen." ; "like to hear it."
+	line "het graag horen." ; "like to hear it."
 	done
 
 OaksAssistant2Text:

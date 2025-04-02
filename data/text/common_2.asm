@@ -171,7 +171,7 @@ _BootedTMText::
 	prompt
 
 _BootedHMText::
-	text "Startte een HM op." ; "Booted up an HM."
+	text "Startte een VM op." ; "Booted up an HM."
 	prompt
 
 _ContainedMoveText::
@@ -1006,7 +1006,7 @@ _ContestJudging_SecondPlaceText::
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "Wie een" ; "who caught a"
+	para "wie een" ; "who caught a"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " ving!@" ; "!@"
@@ -1049,15 +1049,15 @@ _MagikarpGuruMeasureText::
 	para "…Hm, hij is" ; "…Hm, it measures"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength 6
-	text "groot." ; "."
+	text " cm groot." ; "."
 	prompt
 
 _KarpGuruRecordText::
 	text "HUIDIG RECORD" ; "CURRENT RECORD"
 
 	para "@"
-	text_ram wStringBuffer1 ; MaxLength 5
-	text " gevangen" ; " caught by"
+	text_ram wStringBuffer1 ; MaxLength 6
+	text " cm gevangen" ; " caught by"
 	line "door @" ; "@"
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton
@@ -1115,7 +1115,7 @@ _PlayersPCAskWhatDoText::
 
 _PlayersPCHowManyWithdrawText::
 	text "Hoeveel wil je" ; "How many do you"
-	line "er uit halen??" ; "want to withdraw?"
+	line "er uit halen?" ; "want to withdraw?"
 	done
 
 _PlayersPCWithdrewItemsText::
@@ -1125,7 +1125,7 @@ _PlayersPCWithdrewItemsText::
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text_start
-	line "terug." ; text "(S)."
+	cont "terug." ; text "(S)."
 	prompt
 
 _PlayersPCNoRoomWithdrawText::
@@ -1148,7 +1148,7 @@ _PlayersPCDepositItemsText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)."
+	text "." ; "(S)."
 	prompt
 
 _PlayersPCNoRoomDepositText::

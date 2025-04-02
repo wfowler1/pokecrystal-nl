@@ -190,8 +190,8 @@ HomepageText:
 	done
 
 TrashCanText:
-	text "Er staat niks" ; "There's nothing in"
-	line "in…" ; "here…"
+	text "Er zit niks in…" ; "There's nothing in"
+	;line "in…" ; "here…"
 	done
 
 ; not used
@@ -275,7 +275,7 @@ ContestResults_ReturnPartyText:
 
 ContestResults_PartyFullText:
 	text "Your team zit vol," ; "Your party's full,"
-	line "Dus de #MON is" ; "so the #MON was"
+	line "dus de #MON is" ; "so the #MON was"
 
 	para "gestuurd naar je" ; "sent to your BOX"
 	line "BOX in BILL's PC." ; "in BILL's PC."
