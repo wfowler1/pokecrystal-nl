@@ -36,7 +36,7 @@ KenjiNumberDeclinedText:
 
 KenjiPhoneFullText:
 	text "Je telefoon lijkt" ; "Your phone appears"
-	line " vol te zitten." ; "to be full."
+	line "vol te zitten." ; "to be full."
 
 	para "Kom later terug!" ; "Come back later!"
 	done
