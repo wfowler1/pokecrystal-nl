@@ -135,7 +135,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 
 	para "Misschien zie ik" ; "I may yet realize"
 	line "op een dag toch" ; "my dream of see-"
-	cont "nog 's werelds'" ; "ing the world's"
+	cont "nog 's werelds" ; "ing the world's"
 	cont "grootste MAGIKARP." ; "largest MAGIKARP."
 
 	para "Heb je een HENGEL?" ; "Do you have a ROD?"
