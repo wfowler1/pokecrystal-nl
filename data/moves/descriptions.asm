@@ -1048,7 +1048,7 @@ PerishSongDescription:
 	next "in 3 beurten KO.@" ; "faint in 3 turns.@"
 
 IcyWindDescription:
-	db   "IJzige aanval die" ; "An icy attack that"
+	db   "Ijzige aanval die" ; "An icy attack that"
 	next "snelheid verlaagt.@" ; "lowers SPEED.@"
 
 DetectDescription:

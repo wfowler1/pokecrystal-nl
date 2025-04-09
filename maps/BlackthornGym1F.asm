@@ -192,7 +192,7 @@ ClairText_GoToDragonsDen:
 
 	para "Ik weet het. Je" ; "I know. You should"
 	line "moet de draken-" ; "take the dragon"
-	cont "test doen" ; "user challenge."
+	cont "test doen." ; "user challenge."
 
 	para "Achter deze GYM is" ; "Behind this GYM is"
 	line "een plek genaamd" ; "a place called"
