@@ -1156,8 +1156,8 @@ MagnitudeDescription:
 	next "wisselende kracht.@" ; "with random power.@"
 
 DynamicpunchDescription:
-	db   "aanval die altijd" ; "An attack that"
-	next "verwart.@" ; "always confuses.@"
+	db   "Een aanval die" ; "An attack that"
+	next "altijd verwart.@" ; "always confuses.@"
 
 MegahornDescription:
 	db   "Een krachtige" ; "A powerful charge"
