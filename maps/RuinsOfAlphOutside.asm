@@ -149,7 +149,7 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 
 RuinsOfAlphOutsideScientistText:
 	text "Is dat een #-" ; "Hm? That's a #-"
-	line "DEX? Meg ik hem" ; "DEX, isn't it?"
+	line "DEX? Mag ik hem" ; "DEX, isn't it?"
 	cont "eens bekijken?" ; "May I see it?"
 
 	para "Er zijn heel veel" ; "There are so many"
