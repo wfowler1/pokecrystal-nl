@@ -2,10 +2,10 @@ AlanGettingStrongerText:
 	text "De @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start ; "'s"
-	line "wordt steeds ster-" ; "getting stronger,"
+	line "wordt steeds" ; "getting stronger,"
 
-	para "ker, precies zoals" ; "exactly as I"
-	line "ik had berekend!" ; "calculated!"
+	para "sterker, precies" ; "exactly as I"
+	line "zoals berekend!" ; "calculated!"
 	done
 
 AlanDefeatedMonText:

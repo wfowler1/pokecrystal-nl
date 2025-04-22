@@ -101,6 +101,6 @@ ArnieHurryText:
 	para "Je mist hier een" ; "You're missing out"
 	line "YANMA!" ; "on seeing YANMA!"
 
-	para "Kom onmiddelijk" ; "Get down to ROUTE"
+	para "Kom onmiddellijk" ; "Get down to ROUTE"
 	line "naar ROUTE 35!" ; "35 right now!"
 	done
