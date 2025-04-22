@@ -5706,7 +5706,7 @@ MoveInfoBox:
 	ret
 
 .Disabled:
-	db "Inactief!@" ; "Disabled!@"
+	db "Uitgesch.@" ; "Disabled!@"
 .Type:
 	db "TYPE/@"
 
