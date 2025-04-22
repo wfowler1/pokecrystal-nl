@@ -5706,7 +5706,7 @@ MoveInfoBox:
 	ret
 
 .Disabled:
-	db "Disabled!@"
+	db "Uitgeschakeld!@" "Disabled!@"
 .Type:
 	db "TYPE/@"
 
@@ -8425,11 +8425,11 @@ DisplayLinkBattleResult:
 	ret
 
 .YouWin:
-	db "YOU WIN@"
+	db "JE WINT@" ; "YOU WIN@"
 .YouLose:
-	db "YOU LOSE@"
+	db "VERLIES@" ; "YOU LOSE@"
 .Draw:
-	db "  DRAW@"
+	db "GELIJK@" ; "  DRAW@"
 
 .Mobile_InvalidBattle:
 	hlcoord 6, 8
@@ -8441,7 +8441,7 @@ DisplayLinkBattleResult:
 	ret
 
 .InvalidBattle:
-	db "INVALID BATTLE@"
+	db "INVALIDE" ;  "INVALID BATTLE@"
 
 IsMobileBattle2:
 	ld a, [wLinkMode]
