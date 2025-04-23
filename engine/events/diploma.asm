@@ -36,7 +36,7 @@ PlaceDiplomaOnScreen:
 	ret
 
 .Player:
-	db "PLAYER@"
+	db "SPELER@" ; "PLAYER@"
 
 .EmptyString:
 	db "@"
