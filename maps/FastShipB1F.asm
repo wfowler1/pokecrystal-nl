@@ -223,7 +223,7 @@ FastShipB1FOnDutySailorText:
 	line "mijn maatje voor" ; "get you to look"
 	cont "me kunnen zoeken?" ; "for my buddy?"
 
-	para "hij is ergens aan" ; "He's goofing off"
+	para "Hij is ergens aan" ; "He's goofing off"
 	line "het niksen, de" ; "somewhere, that"
 	cont "flierefluiter!" ; "lazy bum!"
 

@@ -174,7 +174,7 @@ LavRadioTower1FSuperNerd2Text:
 	para "Heb je de UTBRD-" ; "If you get an EXPN"
 	line "KAART-upgrade," ; "CARD upgrade, you"
 
-	para "dan kun je luis-." ; "can tune in. You'd"
+	para "dan kun je luis-" ; "can tune in. You'd"
 	line "teren. Haal één!" ; "better get one!"
 	done
 

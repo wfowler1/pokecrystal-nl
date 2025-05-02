@@ -118,7 +118,7 @@ LtSurgeIntroText:
 	cont "nummer één!" ; "I'm number one!"
 
 	para "Op het slagveld" ; "I've never lost on"
-	line "verloor ik nooit" ; "the battlefield."
+	line "verloor ik nooit." ; "the battlefield."
 
 	para "Ik sloop je net" ; "I'll zap you just"
 	line "als mijn vijanden " ; "like I did my"
@@ -185,7 +185,7 @@ GuitaristVincentSeenText:
 	text "LT.SURGE herkent" ; "LT.SURGE recog-"
 	line "mijn potentie met" ; "nized my potential"
 
-	para "elektrische #-." ; "with electric"
+	para "elektrische #-" ; "with electric"
 	line "MON. Denk jij dat" ; "#MON."
 
 	para "je mij kan" ; "Think you can beat"
@@ -234,7 +234,7 @@ VermilionGymGuideText:
 	line "voorzichtige. Hij" ; "cautious. He has"
 
 	para "heeft door de hele" ; "traps set all over"
-	line "GYM vallen gezet" ; "the GYM."
+	line "GYM vallen gezet." ; "the GYM."
 
 	para "Maar--he-heh--de" ; "But--he-heh--the"
 	line "vallen zijn nu" ; "traps aren't"
@@ -242,20 +242,21 @@ VermilionGymGuideText:
 
 	para "Je kan zonder" ; "You'll have no"
 	line "problemen bij" ; "problem getting to"
-	cont "LT. SURGE komen." ; "LT.SURGE."
+	cont "LT.SURGE komen." ; "LT.SURGE."
 	done
 
 VermilionGymGuideWinText:
 	text "Pfoei! Dat was een" ; "Whew! That was an"
-	line "spannend gevecht" ; "electrifying bout!"
+	line "spannend gevecht!" ; "electrifying bout!"
 
 	para "Ik werd er een"; "It sure made me"
-	line "beetje nerveus van" ; "nervous."
+	line "beetje nerveus" ; "nervous."
+	cont "van."
 	done
 
 VermilionGymTrashCanText:
 	text "Nee! Hier ligt" ; "Nope! Nothing here"
-	line "alleen maar afval" ; "but trash."
+	line "alleen maar afval." ; "but trash."
 	done
 
 VermilionGym_MapEvents:
