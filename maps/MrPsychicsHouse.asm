@@ -41,9 +41,9 @@ MrPsychicText1:
 MrPsychicText2:
 	text "TM29 is PSYCHISCH." ; "TM29 is PSYCHIC."
 
-	para "Het kan van het" ; "It may lower the"
-	line "doel SPCL.AFW" ; "target's SPCL.DEF."
-	cont "verlagen."
+	para "'Het kan de" ; "It may lower the"
+	line "SPCL.AFW van je" ; "target's SPCL.DEF."
+	cont "doelwit verlagen."
 	done
 
 MrPsychicsHouse_MapEvents:
