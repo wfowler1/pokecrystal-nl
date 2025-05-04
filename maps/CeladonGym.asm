@@ -120,7 +120,7 @@ ErikaBeforeBattleText:
 	para "Straks droom ik" ; "…I'm afraid I may"
 	line "nog weg…" ; "doze off…"
 
-	para "Mijn naam is ERIKA" ; "My name is ERIKA."
+	para "Ik heet ERIKA." ; "My name is ERIKA."
 	line "Ik ben de LEIDER" ; "I am the LEADER of"
 	cont "van CELADON GYM." ; "CELADON GYM."
 
