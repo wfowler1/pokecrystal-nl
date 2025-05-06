@@ -120,7 +120,7 @@ ErikaBeforeBattleText:
 	para "Straks droom ik" ; "…I'm afraid I may"
 	line "nog weg…" ; "doze off…"
 
-	para "Mijn naam is ERIKA" ; "My name is ERIKA."
+	para "Ik heet ERIKA." ; "My name is ERIKA."
 	line "Ik ben de LEIDER" ; "I am the LEADER of"
 	cont "van CELADON GYM." ; "CELADON GYM."
 
@@ -155,14 +155,14 @@ PlayerReceivedRainbowBadgeText:
 	done
 
 ErikaExplainTMText:
-	text "ERIKA: dat was een" ; "ERIKA: That was a"
+	text "ERIKA: Dat was een" ; "ERIKA: That was a"
 	line "zalig gevecht." ; "delightful match."
 
 	para "Je inspireerde me." ; "I felt inspired."
 	line "Alsjeblieft, deze" ; "Please, I wish you"
 	cont "TM is voor jou." ; "to have this TM."
 
-	para "Het is GIGADRAIN" ; "It is GIGA DRAIN."
+	para "Het is GIGADRAIN." ; "It is GIGA DRAIN."
 
 	para "Deze prachtige" ; "It is a wonderful"
 	line "aanval geneest" ; "move that drains"
@@ -204,7 +204,7 @@ LassMichelleAfterBattleText:
 
 PicnickerTanyaSeenText:
 	text "Oh, een gevecht?" ; "Oh, a battle?"
-	line "Wel een beetje," ; "That's kind of"
+	line "Wel een beetje" ; "That's kind of"
 	cont "eng, maar OK!" ; "scary, but OK!"
 	done
 

@@ -59,8 +59,8 @@ CeladonDeptStore3FGameboyKid1Text:
 	text "Oh jee! Ik ruilde" ; "Uh-oh! I traded my"
 	line "m'n #MON zonder" ; "#MON without"
 
-	para "zonder de UPGRADE" ; "removing the UP-"
-	line "te verwijderen." ; "GRADE from it."
+	para "de UPGRADE te" ; "removing the UP-"
+	line "verwijderen." ; "GRADE from it."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:

@@ -43,18 +43,18 @@ CeladonMansion1FBookshelf:
 	jumpstd PictureBookshelfScript
 
 CeladonMansionManagerText:
-	text "My dear #MON"
-	line "keep me company,"
+	text "Mijn lieve #MON" ; "My dear #MON"
+	line "zorgen dat ik mij" ; "keep me company,"
 
-	para "so I don't ever"
-	line "feel lonely."
+	para "hier nooit eenzaam" ; "so I don't ever"
+	line "voel." ; "feel lonely."
 
-	para "MEOWTH even brings"
-	line "money home."
+	para "MEOWTH verzamelt" ; "MEOWTH even brings"
+	line "zelfs geld." ; "money home."
 	done
 
 CeladonMansion1FMeowthText:
-	text "MEOWTH: Meow!"
+	text "MEOWTH: Miauw!" ; "MEOWTH: Meow!"
 	done
 
 CeladonMansion1FClefairyText:
@@ -69,7 +69,7 @@ CeladonMansion1FNidoranFText:
 
 CeladonMansionManagersSuiteSignText:
 	text "CELADON MANSION"
-	line "MANAGER'S SUITE"
+	line "SUITE VAN MANAGER" ; "MANAGER'S SUITE"
 	done
 
 CeladonMansion1F_MapEvents:
