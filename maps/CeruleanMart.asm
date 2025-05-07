@@ -25,13 +25,13 @@ CeruleanMart_CooltrainerMText:
 	line "ners als je naar" ; "many trainers on"
 
 	para "KAAP CERULEAN" ; "the way to CERU-"
-	 line "gaat." ; "LEAN's CAPE."
+	line "gaat." ; "LEAN's CAPE."
 
 	para "Ze willen weten" ; "They want to see"
 	line "of ze andere" ; "how they stack"
 
 	para "trainers kunnen" ; "up against other"
-	line "verslaan" ; "trainers."
+	line "verslaan." ; "trainers."
 	done
 
 CeruleanMart_CooltrainerFText:

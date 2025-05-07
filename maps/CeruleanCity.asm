@@ -155,7 +155,7 @@ CeruleanCityCooltrainerMText1:
 	line "achteraan ROUTE 9," ; "of ROUTE 9, the"
 
 	para "het pad ten oosten" ; "road that heads"
-	line "van hier" ; "east from here."
+	line "van hier." ; "east from here."
 
 	para "Volgens mij is" ; "I think there was"
 	line "daar een soort" ; "an accident of"
@@ -192,7 +192,7 @@ CeruleanCityCooltrainerFText1:
 
 CeruleanCityCooltrainerFText2:
 	text "SLOWBRO, doe je" ; "SLOWBRO, show me"
-	line "VERWARRING" ; "your CONFUSION!"
+	line "VERWARRING!" ; "your CONFUSION!"
 	done
 
 CeruleanCityCooltrainerFText3:
@@ -238,7 +238,7 @@ CeruleanGymSignText:
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "MISTY" ; "LEADER: MISTY"
 
-	para "De mondige" ; "The Tomboyish"
+	para "De Mondige" ; "The Tomboyish"
 	line "Zeemeermin" ; "Mermaid"
 	done
 
