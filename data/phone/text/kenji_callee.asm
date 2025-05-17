@@ -11,7 +11,7 @@ KenjiAnswerPhoneDayText:
 	text " hier…" ; " here…"
 
 	para "<PLAYER>! Lekker" ; "<PLAYER>! Beautiful"
-	line "weertje, he?" ; "weather, hey?"
+	line "weertje, hé?" ; "weather, hey?"
 	done
 
 KenjiAnswerPhoneNiteText:
@@ -19,7 +19,7 @@ KenjiAnswerPhoneNiteText:
 	text " hier…" ; " here…"
 
 	para "<PLAYER>! Fraai" ; "<PLAYER>! Beautiful"
-	line "maanlicht, he?" ; "moonlight, hey?"
+	line "maanlicht, hé?" ; "moonlight, hey?"
 	done
 
 KenjiGreetText:

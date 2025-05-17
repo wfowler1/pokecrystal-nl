@@ -66,7 +66,7 @@ JoeyRematchGiftText:
 	para "Hier, neem dit." ; "Here, take this. "
 	line "Gebruik het om" ; "Use it to get even"
 
-	para "Nog sterker te" ; "tougher. That will"
+	para "nog sterker te" ; "tougher. That will"
 	line "worden. Doe ik" ; "toughen me up too!"
 	cont "hetzelfde!"
 	done
