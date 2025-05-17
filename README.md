@@ -1,6 +1,6 @@
 # Pokémon Kristal-editie
 
-![image](https://github.com/basvroegop/pokecrystal-nl/blob/master/logo-github.png)
+![image](https://github.com/basvroegop/pokecrystal-nl/blob/master/logo-github.png?)
 
 Pokémon Kristal is een volledige, Nederlandstalige lokalisatie van Pokémon Crystal, gebaseerd op de disassembly van Pokémon Crystal [door pret](https://github.com/pret/pokecrystal). Daarbij is veel gekeken naar andere Pokémon-media die naar het Nederlands zijn vertaald, zoals het ruilkaartspel, de animatieserie en de manga. 
 
