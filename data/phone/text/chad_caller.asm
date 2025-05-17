@@ -6,7 +6,7 @@ ChadObservingWildText:
 	text "."
 
 	para "Ik heb allerlei" ; "I've been learning"
-	line "nieuwe dingen met" ; "all sorts of new"
+	line "nieuwe dingen door" ; "all sorts of new"
 
 	para "mijn observaties" ; "things through my"
 	line "geleerd." ; "observations."
@@ -77,8 +77,8 @@ ChadBlueGossipText:
 	line "zoon van PROF.OAK" ; "grandson and a"
 
 	para "en voormalig" ; "former #MON"
-	line "#MON-LEAGUE-" ; "LEAGUE CHAMPION!"
-	cont "KAMPIOEN!"
+	line "KAMPIOEN van de" ; "LEAGUE CHAMPION!"
+	cont "#MON-LEAGUE!"
 
 	para "Echt een geweldige" ; "He's one super"
 	line "#MON-trainer!" ; "#MON trainer!"
@@ -193,10 +193,10 @@ ChadDaisyTeaGossipText:
 	cont "genaamd DAISY." ; "named DAISY."
 
 	para "Iedere dag drinkt" ; "She has tea every"
-	line "ze iedere dag voor" ; "day for an hour"
+	line "ze een uur lang" ; "day for an hour"
 
-	para "een uur thee, om" ; "from three in the"
-	line "3 uur 's middags." ; "afternoon."
+	para "een kopje thee, om" ; "from three in the"
+	line "drie uur." ; "afternoon."
 
 	para "Ik wou dat ik eens" ; "I wish I could"
 	line "een bakkie met d'r" ; "join her for tea"

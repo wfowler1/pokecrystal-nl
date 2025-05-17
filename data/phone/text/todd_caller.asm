@@ -29,7 +29,7 @@ ToddLostAMonText:
 	text_start ; " by"
 	line "verslaan." ; "a tiny margin."
 
-	para "Het leven van mijn" ; "I'm guessing my"
+	para "Het level van mijn" ; "I'm guessing my"
 	line "#MON is denk ik" ; "#MON's levels"
 
 	para "nog niet hoog" ; "aren't high enough"

@@ -28,7 +28,7 @@ WadeDefeatedMonText:
 	para "Het ging zo snel" ; "It went down so"
 	line "neer, ik kreeg" ; "easily, I felt a"
 
-	para "medelijden voor" ; "little sorry for"
+	para "medelijden met" ; "little sorry for"
 	line "het arme beestje." ; "the poor thing."
 	done
 
@@ -41,11 +41,11 @@ WadeLostAMonText:
 	para "op het laatste" ; "away from me at"
 	line "moment van me." ; "the last second."
 
-	para "Ik weet dat het" ; "I know it's a"
+	para "Ik weet dat 'ie" ; "I know it's a"
 	line "niet zeldzaam is…" ; "common #MON…"
 
 	para "Maar het is irri-" ; "But it does annoy"
-	line "tant dat het" ; "me that it got"
+	line "tant dat 'ie" ; "me that it got"
 
 	para "ontkwam toen ik" ; "away when I almost"
 	line "het bijna had." ; "had it."
@@ -119,7 +119,7 @@ WadeQuickBattleText:
 	line "waar ik ben." ; "where I am."
 
 	para "Kom alsjeblieft zo" ; "Please get here as"
-	line "snel ogelijk!" ; "soon as you can!"
+	line "snel mogelijk!" ; "soon as you can!"
 	done
 
 WadeComeQuickText:
@@ -132,5 +132,5 @@ WadeComeQuickText:
 	line "waar ik ben." ; "where I am."
 
 	para "Kom alsjeblieft zo" ; "Please get here as"
-	line "snel ogelijk!" ; "soon as you can!"
+	line "snel mogelijk!" ; "soon as you can!"
 	done

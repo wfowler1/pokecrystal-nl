@@ -52,7 +52,7 @@ ToddGreetNiteText:
 	text "."
 
 	para "<PLAY_G>, sorry" ; "<PLAY_G>, sorry to"
-	line "Dat ik laat bel." ; "call you so late."
+	line "dat ik laat bel." ; "call you so late."
 	done
 
 ToddGenericText:

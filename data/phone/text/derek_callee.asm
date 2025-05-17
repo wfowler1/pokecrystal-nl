@@ -8,7 +8,7 @@ DerekAnswerPhoneText:
 DerekAnswerPhoneDayText:
 	text "Hoi, <PLAY_G>?" ; "Hi, <PLAY_G>?"
 
-	para "goedendag pika," ; "Good day pika,"
+	para "Goedendag pika," ; "Good day pika,"
 	line "alles goed pika?" ; "what's up pika?"
 	done
 

@@ -64,5 +64,5 @@ KenjiPackFullText:
 	line "bewaar dit totdat" ; "I will hold this"
 
 	para "je jouw TAS hebt" ; "till you lighten"
-	line "geleegd!!" ; "your PACK!"
+	line "geleegd!" ; "your PACK!"
 	done

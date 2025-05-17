@@ -33,8 +33,8 @@ DanaLostAMonText:
 	para "Bijna lukte het!" ; "It was so close!"
 	line "Nog een beetje en" ; "Really, just a"
 
-	para "dan zou ik nu dan" ; "little bit more,"
-	line "toch echt…" ; "and I would've…"
+	para "dan zou ik nu toch" ; "little bit more,"
+	line "echt…" ; "and I would've…"
 	done
 
 DanaBattleRematchText:
@@ -44,7 +44,7 @@ DanaBattleRematchText:
 	text "."
 
 	para "Als je in de buurt" ; "If you're close"
-	line "bent, 'ns vechten?" ; "by, let's battle!"
+	line "bent, vechten?" ; "by, let's battle!"
 
 	para "Ik zal hier op je" ; "I'll be waiting"
 	line "wachten!" ; "for you!"

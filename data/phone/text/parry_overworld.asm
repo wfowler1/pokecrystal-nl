@@ -69,6 +69,6 @@ ParryRematchGiftText:
 	para "Ik wil dat je voor" ; "I want you to work"
 	line "ons allebei je" ; "and succeed for"
 
-	para "best doen. Neem" ; "the both of us."
+	para "best doet. Neem" ; "the both of us."
 	line "daarom dit, OK?" ; "So take this, OK?"
 	done

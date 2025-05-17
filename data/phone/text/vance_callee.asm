@@ -52,7 +52,7 @@ VanceGreetDayText:
 	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
-	line "Herinner je me?" ; "Remember me?"
+	line "Ken je me nog?" ; "Remember me?"
 	done
 
 VanceGreetNiteText:

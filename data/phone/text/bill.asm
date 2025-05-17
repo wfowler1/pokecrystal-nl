@@ -11,8 +11,8 @@ BillPhoneMornGreetingText:
 BillPhoneDayGreetingText:
 	text "Goedendag!"
 
-	para "Dit is de ADMIN-" ; "This is the #-"
-	line "ISTRATIEDIENST van" ; "MON STORAGE SYSTEM"
+	para "Dit is de" ; "This is the #-"
+	line "ADMINISTRATIE van" ; "MON STORAGE SYSTEM"
 	
 	para "het #MON-" ; "ADMINISTRATION"
 	line "OPSLAGSYSTEEM." ; "SERVICE."
@@ -21,8 +21,8 @@ BillPhoneDayGreetingText:
 BillPhoneNiteGreetingText:
 	text "Goedenavond!"
 
-	para "Dit is de ADMIN-" ; "This is the #-"
-	line "ISTRATIEDIENST van" ; "MON STORAGE SYSTEM"
+	para "Dit is de" ; "This is the #-"
+	line "ADMINISTRATIE van" ; "MON STORAGE SYSTEM"
 	
 	para "het #MON-" ; "ADMINISTRATION"
 	line "OPSLAGSYSTEEM." ; "SERVICE."
@@ -57,10 +57,10 @@ BillPhoneNearlyFullText:
 	line "wachten!" ; "waiting!"
 
 	para "<PLAY_G>, je BOX" ; "<PLAY_G>, your BOX"
-	line "heeft plek voor" ; "has room for only"
+	line "kan nog maar" ; "has room for only"
 	cont "@"
 	text_ram wStringBuffer3 ; MaxLength 2
-	text " #MON maar." ; " more #MON."
+	text " #MON kwijt." ; " more #MON."
 
 	para "Wellicht moet je" ; "Maybe you should"
 	line "van BOX wisselen." ; "switch your BOX."

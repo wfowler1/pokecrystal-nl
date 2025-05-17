@@ -60,7 +60,7 @@ BrentGenericText:
 	line "vertrekken uit een" ; "coming out of a"
 
 	para "#MONCENTRUM een" ; "#MON CENTER the"
-	line "tijdje geleden." ; "other day."
+	line "tijdje terug." ; "other day."
 
 	para "Je geneest je" ; "You heal your"
 	line "#MON vaak, of" ; "#MON regularly,"

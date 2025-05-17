@@ -37,8 +37,8 @@ BeverlyLostAMonText:
 	done
 
 BeverlyHangUpText:
-	text "Reken maar op" ; "You can expect a"
-	line "mijn belletje." ; "call from me."
+	text "Reken er maar op" ; "You can expect a"
+	line "dat ik je bel." ; "call from me."
 	done
 
 BeverlyFoundItemText:
@@ -64,8 +64,8 @@ BeverlyLetsChatAboutMonAgainText:
 	text "Zijn je #MON in" ; "Are your #MON"
 	line "topvorm?" ; "in prime form?"
 
-	para "We kletsen nog" ; "Let's chat about"
-	line "eens over #MON." ; "#MON again."
+	para "We kletsen later" ; "Let's chat about"
+	line "weer over #MON." ; "#MON again."
 	done
 
 BeverlyComePickUpText:

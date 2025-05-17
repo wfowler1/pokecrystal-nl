@@ -28,7 +28,7 @@ ToddNumberAcceptedText:
 	line "bij GOLDENROD" ; "DEPT.STORE every"
 
 	para "WARENHUIS, dus ik" ; "day, so I know"
-	line "weet wel als er" ; "when there's a"
+	line "weet het als er" ; "when there's a"
 	cont "uitverkoop is." ; "sale."
 	done
 
@@ -60,7 +60,7 @@ ToddRematchText:
 
 ToddSaleText: ; unreferenced
 ; This is a duplicate of CamperToddSaleText in maps/Route34.asm.
-	text "Hoppen in de" ; "Shopping under the"
+	text "Shoppen in de" ; "Shopping under the"
 	line "buitenlucht!" ; "sky!"
 
 	para "Het voelt zo fijn" ; "It feels so nice"

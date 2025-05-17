@@ -51,7 +51,7 @@ BrentBattleRematchText:
 	line "mijn zeldzame" ; "to see my rare"
 
 	para "#MON te zien." ; "#MON. It'll be"
-	line "Je tijd waard!" ; "worth your time!"
+	line "De moeite waard!" ; "worth your time!"
 
 	para "Je weet waar--" ; "You know where--"
 	line "@"
@@ -81,9 +81,8 @@ BrentGrandpaGossipText:
 
 BrentGoldenrodGossipText:
 	text "Wist je dat…?" ; "Did you know…?"
-	line "BILL komt oor-" ; "BILL's originally"
-	cont "spronkelijk uit" ; "from GOLDENROD."
-	cont "GOLDENROD."
+	line "BILL is geboren" ; "BILL's originally"
+	cont "in GOLDENROD." ; "from GOLDENROD."
 	done
 
 BrentRoute25GossipText:
@@ -155,7 +154,7 @@ BrentSorryImTooBusyText:
 	done
 
 BrentReminderText:
-	text "Je wil mijn zeld-" ; "You want to see my"
+	text "Je moet mijn zeld-" ; "You want to see my"
 	line "zame #MON zien." ; "rare #MON."
 
 	para "Haast je naar" ; "Hurry over to"
