@@ -359,6 +359,7 @@ namespace PokeGen2TextValidator
                 return FileType.Keyboard;
             }
             else if (path.Contains("mobile/") ||
+                path.Contains("macros/") ||
                 path.Contains("asserts.asm") ||
                 path.Contains("charmap.asm") ||
                 path.Contains("debug_room.asm") ||

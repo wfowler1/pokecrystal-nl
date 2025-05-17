@@ -199,7 +199,7 @@ GuitaristClydeAfterBattleText:
 	done
 
 FastShipBedText1:
-	text "Een knus bed Even!" ; "A comfy bed!"
+	text "Een knus bed! Even" ; "A comfy bed!"
 	line "'n uiltje knappen…" ; "Time to sleep…"
 	done
 

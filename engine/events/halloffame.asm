@@ -476,7 +476,7 @@ DisplayHOFMon:
 	hlcoord 1, 13
 	ld a, "№"
 	ld [hli], a
-	ld [hl], "<DOT>"
+	ld [hl], "."
 	hlcoord 3, 13
 	ld de, wTextDecimalByte
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3

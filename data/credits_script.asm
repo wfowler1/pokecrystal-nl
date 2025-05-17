@@ -18,13 +18,10 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 0 ; Pichu
 
-	db             DIRECTOR, 1
-	db       SATOSHI_TAJIRI, 2
-
-	db CREDITS_WAIT, 12
-
-	db           CODIRECTOR, 1
-	db       JUNICHI_MASUDA, 2
+	db             DIRECTOR, 0
+	db       SATOSHI_TAJIRI, 1
+	db           CODIRECTOR, 3
+	db       JUNICHI_MASUDA, 4
 
 	db CREDITS_WAIT, 12
 
@@ -53,7 +50,6 @@ CreditsScript:
 	db    MOTOFUMI_FUJIWARA, 2
 	db     SHIGEKI_MORIMOTO, 3
 	db     HIRONOBU_YOSHIDA, 4
-	db         SATOSHI_OOTA, 5
 
 	db CREDITS_WAIT, 12
 
@@ -61,6 +57,7 @@ CreditsScript:
 	db       ATSUKO_NISHIDA, 1
 	db          MUNEO_SAITO, 2
 	db       RENA_YOSHIKAWA, 3
+	db         SATOSHI_OOTA, 4
 
 	db CREDITS_WAIT, 12
 
@@ -174,11 +171,7 @@ CreditsScript:
 	db         SATORU_IWATA, 1
 	db       SATOSHI_YAMATO, 2
 	db     SHIGERU_MIYAMOTO, 3
-
-	db CREDITS_WAIT, 12
-
-	db            PRODUCERS, 1
-	db   TSUNEKAZU_ISHIHARA, 2
+	db   TSUNEKAZU_ISHIHARA, 4
 
 	db CREDITS_WAIT, 12
 
@@ -189,6 +182,24 @@ CreditsScript:
 
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Igglybuff
+	
+	db     NL_VERSION_STAFF, 2
+
+	db CREDITS_WAIT, 12
+	
+	db          PROGRAMMERS, 1
+	db       WILLIAM_FOWLER, 2
+	db     BASTIAAN_VROEGOP, 3
+
+	db CREDITS_WAIT, 12
+	
+	db            VERTALERS, 0
+	db     BASTIAAN_VROEGOP, 1
+	db        ELINE_MUIJRES, 2
+	db       RANDOLF_BOUWMA, 3
+	db           CALVIN_FOE, 4
+
+	db CREDITS_WAIT, 12
 
 	db     US_VERSION_STAFF, 2
 
@@ -197,18 +208,14 @@ CreditsScript:
 	db      US_COORDINATION, 1
 	db          GAIL_TILDEN, 2
 	db        HIRO_NAKAMURA, 3
+	db        SETH_MCMAHILL, 4
 
 	db CREDITS_WAIT, 12
 
 	db      US_COORDINATION, 1
 	db       JUNICHI_MASUDA, 2
-	db        SETH_MCMAHILL, 3
-
-	db CREDITS_WAIT, 12
-
-	db      US_COORDINATION, 1
-	db     HIROTO_ALEXANDER, 2
-	db     TERESA_LILLYGREN, 3
+	db     HIROTO_ALEXANDER, 3
+	db     TERESA_LILLYGREN, 4
 
 	db CREDITS_WAIT, 12
 

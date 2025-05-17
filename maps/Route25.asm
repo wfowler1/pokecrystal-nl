@@ -400,7 +400,7 @@ CooltrainermKevinSeenText:
 	line "wil ik zien hoe ik" ; "how you battle, I"
 
 	para "het tegen jou doe." ; "want to see how"
-	line ; "doe." ; "I'll fare."
+	; line "I'll fare."
 
 	para "Wat denk je? Laat" ; "How about it? Let"
 	line "mij je uitdagen." ; "me take you on."

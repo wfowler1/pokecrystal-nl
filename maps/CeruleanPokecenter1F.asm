@@ -31,7 +31,7 @@ CeruleanPokecenter1FSuperNerdText:
 
 	para "ook al zijn ze" ; "they're weaker"
 	line "zwakker dan nieuw" ; "than some newly"
-	cont "gevangen #MON" ; "caught #MON."
+	cont "gevangen #MON." ; "caught #MON."
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
@@ -48,13 +48,13 @@ CeruleanPokecenter1FSuperNerdText_Mobile:
 
 CeruleanPokecenter1FGymGuideText:
 	text "De ZWEEFTREIN" ; "The MAGNET TRAIN"
-	line "haalt wel" ; "travels at over"
+	line "haalt wel 550 kmu." ; "travels at over"
 
-	para "550 kmu. Binnen" ; "340 mph. It goes"
-	line "no-time reis je" ; "between KANTO and"
+	para "Binnen no-time" ; "340 mph. It goes"
+	line "reis je tussen" ; "between KANTO and"
 
-	para "tussen JOHTO" ; "JOHTO in almost no"
-	line "en KANTO." ; "time at all."
+	para "JOHTO en KANTO." ; "JOHTO in almost no"
+	; line "time at all."
 
 	para "JOHTO, je bent" ; "It really makes"
 	line "er zo!" ; "JOHTO accessible."
