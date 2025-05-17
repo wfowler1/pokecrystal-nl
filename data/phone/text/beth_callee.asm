@@ -65,8 +65,8 @@ BethGenericText:
 	text "Ben jij het type" ; "Are you the kind"
 	line "persoon dat vaak" ; "of person who goes"
 
-	para "naar #MON-" ; "to #MON CENTERS"
-	line "CENTRUMS gaat?" ; "often?"
+	para "naar #MONCENTRA" ; "to #MON CENTERS"
+	line "gaat?" ; "often?"
 
 	para "Ik ga iedere dag." ; "I go every day."
 	line "Een goede trainer" ; "Watching out for"
