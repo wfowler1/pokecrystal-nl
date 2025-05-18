@@ -4,8 +4,8 @@ GavenAnswerPhoneText:
 	text_ram wStringBuffer3 ; MaxLength 5
 	text " hier…" ; " speaking…"
 
-	para "Hi, <PLAY_G>!"
-	line "Good morning!"
+	para "Hi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
+	line "Goedemorgen!" ; "Good morning!"
 	done
 
 GavenAnswerPhoneDayText:

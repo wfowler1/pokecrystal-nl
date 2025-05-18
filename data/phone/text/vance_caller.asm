@@ -2,7 +2,7 @@ VanceMonHasBecomeTougherText:
 	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is" ; "'s"
-	line "steeds sterker." ; "become tougher."
+	line "nu sterker." ; "become tougher."
 
 	para "Klaar om op te" ; "We've achieved"
 	line "stijgen!" ; "liftoff!"

@@ -2,7 +2,7 @@ ElmPhoneHealYourMonText:
 	text "Hallo, <PLAY_G>?" ; "Hello, <PLAY_G>?"
 
 	para "Ga niet te hard" ; "Try not to overdo"
-	line "door, he." ; "it."
+	line "door, hé." ; "it."
 
 	para "Genees je #MON" ; "Be sure to heal"
 	line "als ze bezeerd" ; "your #MON if"
@@ -182,7 +182,7 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	line "waar zijn." ; "be true."
 
 	para "Sorry voor het" ; "Sorry to bug you."
-	line "Storen. Groetjes!" ; "Take care!"
+	line "storen. Groetjes!" ; "Take care!"
 	done
 
 ElmPhoneGiftText:

@@ -76,7 +76,7 @@ GavenHangUpNotThursdayText:
 
 GavenReminderText:
 	text "<PLAY_G>, waarom" ; "<PLAY_G>, why"
-	line "je er niet?" ; "aren't you here?"
+	line "ben je hier niet?" ; "aren't you here?"
 
 	para "Ik haal je neer" ; "I'll take you down"
 	line "met @" ; "with @"

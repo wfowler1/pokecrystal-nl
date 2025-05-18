@@ -43,8 +43,8 @@ DanaNumberDeclinedText:
 	done
 
 DanaPhoneFullText:
-	text "Je hebt geen" ; "But your phone's"
-	line "geheugen meer!" ; "out of memory!"
+	text "Je hebt geen plek" ; "But your phone's"
+	line "in je telefoon!" ; "out of memory!"
 	done
 
 DanaRematchText:

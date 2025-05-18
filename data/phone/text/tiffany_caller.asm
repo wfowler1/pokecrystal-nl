@@ -7,7 +7,7 @@ TiffanyMonIsAdorableText:
 	para "je ook niet?" ; "you think so?"
 	line "Ik slaap er altijd" ; "I always sleep"
 
-	para "mee--het is is zo" ; "with it--it's so"
+	para "mee--het is zo" ; "with it--it's so"
 	line "zacht en warm!" ; "fluffy and warm!"
 	done
 
@@ -23,7 +23,7 @@ TiffanyDefeatedMonText:
 	para "Mijn CLEFAIRY viel" ; "My CLEFAIRY came"
 	line "bijna flauw!" ; "close to fainting!"
 
-	para "Wat erg, he?" ; "Isn't that awful?"
+	para "Wat erg, hé?" ; "Isn't that awful?"
 
 	para "Ik haat die nare" ; "I hate those nasty"
 	line "@"

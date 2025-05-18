@@ -12,7 +12,7 @@ BethExhilaratingRideText:
 	para "Het is bevrijdend" ; "It's exhilarating"
 	line "om achterop te" ; "to ride on its"
 
-	para "rijden bij een" ; "back when it"
+	para "rijden met een" ; "back when it"
 	line "hoge snelheid." ; "really gets going."
 	done
 

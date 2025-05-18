@@ -56,7 +56,7 @@ ReenaGreetNiteText:
 	done
 
 ReenaGenericText:
-	text "He, goe gaat het" ; "Hey, how are your"
+	text "He, hoe gaat het" ; "Hey, how are your"
 	line "met je #MON?" ; "#MON doing?"
 
 	para "Wat? Goed?" ; "What? Great?"
@@ -68,5 +68,5 @@ ReenaGenericText:
 	line "natuurlijk gewel-" ; "doing great! What"
 
 	para "dig mee! Wat een" ; "kind of a question"
-	line "rare vraag?" ; "is that?"
+	line "rare vraag!" ; "is that?"
 	done

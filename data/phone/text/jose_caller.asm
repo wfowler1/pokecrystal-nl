@@ -7,8 +7,8 @@ JoseMonsStickHasADeliciousAromaText:
 	para "heeft echt een" ; "has this really"
 	line "heerlijk aroma." ; "delicious aroma."
 
-	para "Dat aroma krijg" ; "That aroma gets my"
-	line "trek van!" ; "appetite going!"
+	para "Die geur krijg" ; "That aroma gets my"
+	line "ik trek van!" ; "appetite going!"
 	done
 
 JoseDefeatedMonText:
@@ -67,12 +67,12 @@ JoseHangUpText:
 JoseFoundItemText:
 	text "Mijn FARFETCH'D" ; "My FARFETCH'D had"
 	line "heeft iets moois" ; "something pretty"
-	cont "in de bek." ; "in its beak."
+	cont "in z'n bek." ; "in its beak."
 
 	para "Zoals beloofd mag" ; "Like I promised,"
 	line "jij het hebben." ; "you can have it."
 
-	para "Zoek naar me op" ; "Catch up to me on"
+	para "Vind me maar op" ; "Catch up to me on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text ","
