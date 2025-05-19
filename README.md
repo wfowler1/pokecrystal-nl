@@ -1,35 +1,26 @@
-# Pokémon Kristal-Editie
+# Pokémon Kristal-editie
 
-This is a work-in-progress Dutch translation of the [Pokémon Crystal Disassembly](https://github.com/pret/pokecrystal) by [pret](https://pret.github.io/).
+![image](https://github.com/basvroegop/pokecrystal-nl/blob/master/logo-github.png?)
 
-This is NOT meant to be a direct 1:1 translation of the English version, but a localization which might have released in 2001. Therefore the exact phrasing of certain lines may be different, but the overall meaning and message should be the same.
+Pokémon Kristal is een volledige, Nederlandstalige lokalisatie van Pokémon Crystal, gebaseerd op de disassembly van Pokémon Crystal [door pret](https://github.com/pret/pokecrystal). Daarbij is veel gekeken naar andere Pokémon-media die naar het Nederlands zijn vertaald, zoals het ruilkaartspel, de animatieserie en de manga. 
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+![image](https://github.com/basvroegop/pokecrystal-nl/blob/master/screenshots-github.png)
 
-## Intentional translation differences
+## Wat is er veranderd?
 
-Although this isn't intended as a direct translation of the English version, there are cases where things are intentionally changed from their original meaning. This is usually done to update terminology to match later generations more closely.
-* The "PINK BOW" and "POLKADOT BOW" items have been renamed to "ZIJDEN SJAAL" (SILK SCARF) to match later generations. Aside from the names, these items behave identically.
-* The "OLD POKéDEX" is now referred to as "NATIONALE POKéDEX" to match later generations.
-* The "NEW POKéDEX" is now referred to as "JOHTO-POKéDEX" to match later generations.
-* ILEX FOREST has been changed to EIKENWOUD, to more closely match the Japanese, French and German translations.
-* Some moves more closely match translations in other languages, like LEECH LIFE becoming VAMPIER and SEISMIC TOSS becoming GEOWORP. We've looked for the most logical translation in each individual case, referring to original source material primarily.
+- **Meer dan 24.000 vertaalde regels aan tekst.** Iedere regel is achteraf door een tweede persoon geredigeerd, waarna her en der nog iets is getweakt na een uitbundige testperiode. Loop je toch nog tegen foutjes aan? Laat het ons weten in [onze Discord](https://discord.gg/WkBX2Hqqgh), dan corrigeren we het!
+- **Alle menu's, voorwerpen en aanvallen zijn vertaald.** Er is altijd eerst gekeken of er al een officiële Nederlandse vertaling voor een term bestond. Voor nog niet eerdere lokalisaties is een logische optie bedacht. Hier en daar zijn aanpassingen gemaakt om de game consistent met latere generaties te maken: De 'PINK BOW' en 'POLKADOT  BOW' heten bijvoorbeeld de 'ZIJDEN SJAAL', gebaseerd op de latere 'SILK SCARF'. 
+- **Namen van Pokémon, NPC's, steden en dorpen zijn grotendeels Engels gebleven.** Op die manier proberen we consistent te blijven met de animatieserie en manga, waarin ook de Engelse namen worden gehanteerd. Dit maakt het ook makkelijker om online iets op te zoeken wanneer je vast komt te zitten. Specifiekere locaties zijn her en der wel gelokaliseerd: 'MT. MORTAR' is bijvoorbeeld de 'VIJZELBERG', 'ILEX FOREST' is het 'EIKENWOUD'.
+- **Een zo authentiek mogelijke ervaring.** De game is grotendeels onaangeraakt gebleven, zodat het aanvoelt als een lokalisatie die in 2001 had kunnen verschijnen. Wel is het mogelijk Celebi te vangen nadat je de game hebt uitgespeeld - het is immers niet meer mogelijk die Pokémon nog op ouderwetse wijze op een evenement te bemachtigen.
 
-## See also
 
-- [**FAQ**](FAQ.md)
-- [**Documentation**][docs]
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-- [**Tools**][tools]
+## Hoe speel je Pokémon Kristal-editie?
 
-You can find the pret team on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+Om Pokémon Kristal te spelen heb je een ROM-bestand nodig van een door jou eerder gekocht exemplaar van Pokémon Crystal. Je kunt bijvoorbeeld met een [GB Operator](https://www.epilogue.co/product/gb-operator) je cartridge dumpen op je computer. Je vindt op deze pagina geen links naar illegaal verkrijgbare ROM-bestanden, noch zullen we je helpen deze te vinden.
 
-For other pret projects, see [pret.github.io](https://pret.github.io/).
+Bij [releases](https://github.com/wfowler1/pokecrystal-nl/releases) kun je een patch-bestand downloaden met daarin alleen de aangepaste Nederlandse schermteksten. Door dit bestand met je ROM te combineren, maak je de gelokaliseerde game. Dat kan door beide bestanden te laden op een site zoals [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/).
 
-[docs]: https://pret.github.io/pokecrystal/
-[wiki]: https://github.com/pret/pokecrystal/wiki
-[tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
-[symbols]: https://github.com/pret/pokecrystal/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/wfowler1/pokecrystal-nl/actions
+## Credits
+
+- Programmeurs: William Fowler, Bastiaan Vroegop
+- Vertalers: Bastiaan Vroegop, Eline Muijres, Randolf Bouwma, Calvin Foe

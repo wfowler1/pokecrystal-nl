@@ -266,7 +266,7 @@ BuenaPhonePikachuFanClubText:
 	line "kwamen massaal" ; "came in out in"
 
 	para "langs en riepen" ; "droves, shouting"
-	line "continu 'PIKACHU'." ; "'PIKACHU!' over"
+	line "continu 'PIKACHU'" ; "'PIKACHU!' over"
 
 	para "met elkaar. En ze" ; "and over. I mean,"
 	line "waren heel luid." ; "they were loud."
@@ -418,8 +418,8 @@ BuenaPhoneCompanyVacationText:
 BuenaPhoneBenAndFernText:
 	text "Wist je dat…?" ; "Did you know…?"
 
-	para "BEN en FERN bellen" ; "BEN and FERN talk"
-	line "urenlang over wat" ; "on the phone for"
+	para "BEN en FERN uren" ; "BEN and FERN talk"
+	line "bellen over wat" ; "on the phone for"
 
 	para "voor muziek ze op" ; "hours about what"
 	line "welke dagen van de" ; "#MON music they"

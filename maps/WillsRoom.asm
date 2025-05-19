@@ -79,8 +79,9 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillBeforeText:
-	text "Welkom bij #MON" ; "Welcome to #MON"
-	line "LEAGUE, <PLAYER>." ; "LEAGUE, <PLAYER>."
+	text "Welkom bij de" ; "Welcome to #MON"
+	line "#MON-LEAGUE," ; "LEAGUE, <PLAYER>."
+	cont "<PLAYER>."
 
 	para "Laat mij mezelf" ; "Allow me to intro-"
 	line "introduceren." ; "duce myself. I am"

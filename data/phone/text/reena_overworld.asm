@@ -31,7 +31,7 @@ ReenaNumberAcceptedText:
 
 ReenaNumberDeclinedText:
 	text "Ik geloof 't niet!" ; "I don't believe"
-	line "Hier ga jij spijt" ; "it! You're going"
+	line "Hier ga je spijt" ; "it! You're going"
 	cont "van krijgen!" ; "to regret this!"
 	done
 

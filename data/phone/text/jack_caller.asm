@@ -78,7 +78,7 @@ JackRolloutTriviaText:
 JackSolarbeamTriviaText:
 	text "Wist je dat?" ; "Did you know?"
 
-	para "Als ze zon fel" ; "If the sunlight is"
+	para "Als de zon fel" ; "If the sunlight is"
 	line "schijnt, hoeft" ; "harsh, SOLARBEAM"
 
 	para "ZONNESTRAAL niet" ; "doesn't need to be"
