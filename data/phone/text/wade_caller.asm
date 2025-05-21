@@ -41,11 +41,11 @@ WadeLostAMonText:
 	para "op het laatste" ; "away from me at"
 	line "moment van me." ; "the last second."
 
-	para "Ik weet dat 'ie" ; "I know it's a"
+	para "Ik weet dat ie" ; "I know it's a"
 	line "niet zeldzaam is…" ; "common #MON…"
 
 	para "Maar het is irri-" ; "But it does annoy"
-	line "tant dat 'ie" ; "me that it got"
+	line "tant dat ie" ; "me that it got"
 
 	para "ontkwam toen ik" ; "away when I almost"
 	line "het bijna had." ; "had it."
