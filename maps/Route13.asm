@@ -107,7 +107,7 @@ PokefanmJoshuaAfterBattleText:
 	text "Jij hebt zo te" ; "You look like you"
 	line "zien veel #MON," ; "have many #MON,"
 
-	para "maar Pikachu" ; "but PIKACHU is"
+	para "maar PIKACHU" ; "but PIKACHU is"
 	line "blijft de beste." ; "still the best."
 	done
 

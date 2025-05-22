@@ -135,7 +135,7 @@ MountMoonRivalTextAfter:
 	para "Want deze lui" ; "Because these guys"
 	line "staan achter me." ; "are behind me."
 
-	para "…luister, <PLAYER>." ; "…Listen, <PLAYER>."
+	para "…Luister, <PLAYER>." ; "…Listen, <PLAYER>."
 
 	para "Op een dag ga" ; "One of these days"
 	line "ik bewijzen hoe" ; "I'm going to prove"
