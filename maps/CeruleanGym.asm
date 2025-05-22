@@ -271,7 +271,7 @@ ReceivedCascadeBadgeText:
 	done
 
 MistyFightDoneText:
-	text "MISTY: zijn er" ; "MISTY: Are there"
+	text "MISTY: Zijn er" ; "MISTY: Are there"
 	line "veel sterke train-" ; "many strong train-"
 	cont "ers in JOHTO? Ik" ; "ers in JOHTO? Like"
 	cont "bedoel, als jij?"; "you, I mean."

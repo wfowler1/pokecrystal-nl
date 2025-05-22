@@ -23,7 +23,7 @@ CinnabarPokecenter1FCooltrainerFText:
 
 	para "z'n eentje in de" ; "lives alone in the"
 	line "grot van de ZEE-" ; "SEAFOAM ISLANDS"
-	cont "SCHUIM-EILANDEN" ; "cave…"
+	cont "SCHUIM-EILANDEN." ; "cave…"
 	done
 
 CinnabarPokecenter1FFisherText:

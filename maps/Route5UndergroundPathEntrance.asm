@@ -13,7 +13,7 @@ Route5UndergroundPathEntranceTeacherText:
 	text "Veel steden in" ; "Many cities in"
 	line "JOHTO hebben een" ; "JOHTO have long"
 
-	para "rijk verleden Ik." ; "histories. I'd"
+	para "rijk verleden. Ik" ; "histories. I'd"
 	line "wil er graag heen!" ; "love to visit!"
 	done
 
