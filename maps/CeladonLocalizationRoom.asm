@@ -59,13 +59,13 @@ TrainerLassEline:
 	closetext
 	end
 	
-TrainerWilliam:
-	trainer COOLTRAINERM, BAS1, EVENT_BEAT_POKEFANM_BAS1, WilliamSeenText, WilliamBeatenText, 0, .Script
+TrainerSailorWillem:
+	trainer SAILOR, WILLEM, EVENT_BEAT_SAILOR_WILLEM, WillemSeenText, WillemBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext WilliamAfterBattleText
+	writetext WillemAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -94,8 +94,8 @@ CeladonLocalizationComputerCalvin:
 CeladonLocalizationComputerEline:
 	jumptext CeladonLocalizationComputerElineText
 
-CeladonLocalizationComputerWilliam:
-	jumptext CeladonLocalizationComputerWilliamText
+CeladonLocalizationComputerWillem:
+	jumptext CeladonLocalizationComputerWillemText
 	
 CeladonLocalizationPlant:
 	jumptext CeladonLocalizationPlantText
@@ -172,17 +172,25 @@ LassElineAfterBattleText:
 	cont "Probeer het eens!"
 	done
 
-WilliamSeenText:
-	text "PLACEHOLDER"
+WillemSeenText:
+	text "Ik zorg dat alle"
+	line "vertaalde tekst in"
+	cont "de gamecode komt."
+
+	para "Best lastig!"
+
 	done
 	
-WilliamBeatenText:
-	text "PLACEHOLDER"
+WillemBeatenText:
+	text "Ik ben hard bezig"
+	line "om Nederlands te"
+	cont "leren!"
 	done
 	
-WilliamAfterBattleText:
-	text "PLACEHOLDER"
-	done
+WillemAfterBattleText:
+	text "Ik heet WILLIAM,"
+	line "maar WILLEM is"
+	cont "hier gepaster."
 	done
 	
 CeladonLocalizationRoomBookcaseAText:
@@ -228,9 +236,12 @@ CeladonLocalizationComputerElineText:
 	line "om games te maken!"
 	done
 	
-CeladonLocalizationComputerWilliamText:
-	text "De website van een"
-	cont "taalcursus…"
+CeladonLocalizationComputerWillemText:
+	text "Een grote hamster"
+	line "in een bal die aan"
+	cont "een kabel zwaait?"
+	
+	para "Welke game is dit?"
 	done
 	
 CeladonLocalizationPlantText:
@@ -255,7 +266,7 @@ CeladonLocalizationRoom_MapEvents:
 	bg_event 10,  1, BGEVENT_UP, CeladonLocalizationComputerRandolf
 	bg_event  5,  4, BGEVENT_UP, CeladonLocalizationComputerCalvin
 	bg_event  9,  4, BGEVENT_UP, CeladonLocalizationComputerEline
-	bg_event  1,  2, BGEVENT_UP, CeladonLocalizationComputerWilliam
+	bg_event  1,  2, BGEVENT_UP, CeladonLocalizationComputerWillem
 	bg_event  7,  1, BGEVENT_UP, CeladonLocalizationPlant
 
 
@@ -264,4 +275,4 @@ CeladonLocalizationRoom_MapEvents:
 	object_event  9,  2, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerJugglerRandolf, -1
 	object_event  4,  5, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerBoarderCalvin, -1
 	object_event  8,  5, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerLassEline, -1
-	object_event  0,  3, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerWilliam, -1
+	object_event  0,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerSailorWillem, -1

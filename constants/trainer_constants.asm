@@ -435,6 +435,7 @@ DEF KRIS EQU __trainer_class__
 	const HUEY2
 	const HUEY3
 	const HUEY4
+	const WILLEM
 
 	trainerclass SUPER_NERD ; 29
 	const STAN
