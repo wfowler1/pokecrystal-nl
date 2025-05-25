@@ -193,7 +193,6 @@
 	charmap "'t",        $d5
 	charmap "'v",        $d6
 	charmap "'n",        $d7
-	charmap "'i",        $d8
 	
 	charmap "È",         $de
 	charmap "É",         $df

@@ -34,11 +34,11 @@ jobs:
         run: |
           make -j$(nproc)
           
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: pokecrystal
-          path: pokecrystal.gbc
+      # - name: Upload artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: pokecrystal
+      #     path: pokecrystal.gbc
           
   validate:
     runs-on: ubuntu-latest
