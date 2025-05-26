@@ -209,7 +209,7 @@ UnownDexDoWhatString:
 	db "Wat te doen?@" ; "Do what?@"
 
 UnownDexMenuString:
-	db   UNOWNSTAMP_BOLD_A, " AFDRUKKEN" ; " PRINT"
+	db   UNOWNSTAMP_BOLD_A, " DRUK AF" ; " PRINT"
 	next UNOWNSTAMP_BOLD_B, " SLUITEN" ; " CANCEL"
 	next "← VORIGE" ; "← PREVIOUS"
 	next "→ VOLGENDE" ; "→ NEXT"
