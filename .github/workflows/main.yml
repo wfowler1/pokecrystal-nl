@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@master
         with:
           path: rgbds
-          ref: v0.9.0
+          ref: v0.9.2
           repository: gbdev/rgbds
 
       - name: Install rgbds
@@ -34,11 +34,11 @@ jobs:
         run: |
           make -j$(nproc)
           
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: pokecrystal
-          path: pokecrystal.gbc
+      # - name: Upload artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: pokecrystal
+      #     path: pokecrystal.gbc
           
   validate:
     runs-on: ubuntu-latest
