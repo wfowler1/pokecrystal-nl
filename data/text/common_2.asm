@@ -1249,7 +1249,7 @@ _OakRating05::
 	line "al aardig." ; "coming together."
 	done
 
-_OakRating06:: ; TODO: String too long
+_OakRating06::
 	text "Om te evolueren" ; "To evolve, some"
 	line "groeien #MON," ; "#MON grow,"
 

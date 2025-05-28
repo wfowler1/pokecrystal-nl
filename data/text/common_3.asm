@@ -465,7 +465,7 @@ _EvolvedIntoText::
 	text "!"
 	done
 
-_StoppedEvolvingText:: ; TODO: String too long
+_StoppedEvolvingText::
 	text "Huh? @"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text_start
