@@ -41,7 +41,7 @@ MrPsychicText1:
 MrPsychicText2:
 	text "TM29 is PSYCHISCH." ; "TM29 is PSYCHIC."
 
-	para "'Het kan de" ; "It may lower the"
+	para "Het kan de" ; "It may lower the"
 	line "SPCL.AFW van je" ; "target's SPCL.DEF."
 	cont "doelwit verlagen."
 	done

@@ -334,7 +334,7 @@ EscapeRopeDesc:
 	db   "Om te ontsnappen" ; "Use for escaping"
 	next "uit grotten, enz.@" ; "from caves, etc.@"
 
-RepelDesc: ; TODO string too long
+RepelDesc:
 	db   "Verjaagt zwakke" ; "Repels weak #-"
 	next "#MON 100 stpn.@" ; "MON for 100 steps.@"
 
@@ -421,11 +421,11 @@ GuardSpecDesc:
 	db   "Voorkomt lagere" ; "Prevents stats"
 	next "stats. (1 BTL)@" ; "reduction. (1 BTL)@"
 
-SuperRepelDesc: ; TODO string too long
+SuperRepelDesc:
 	db   "Verjaagt zwakke" ; "Repels weak #-"
 	next "#MON 200 stpn.@" ; "MON for 200 steps.@"
 
-MaxRepelDesc: ; TODO string too long
+MaxRepelDesc:
 	db   "Verjaagt zwakke" ; "Repels weak #-"
 	next "#MON 250 stpn.@" ; "MON for 250 steps.@"
 
@@ -594,7 +594,7 @@ RedApricornDesc:
 	db   "Een rode" ; "A red APRICORN.@"
 	next "ABRIKHORN.@"
 
-TinyMushroomDesc: ; TODO string too long
+TinyMushroomDesc:
 	db   "Gewone paddestoel." ; "An ordinary mush-"
 	next "Weinig waard.@" ; "room. Sell low.@"
 
