@@ -7,5 +7,5 @@
 	next "takken te hangen." ; "branches. It uses"
 
 	page "Slingert met" ; "its momentum to"
-	next "momentum van" ; "swing from one"
+	next "impuls van" ; "swing from one"
 	next "tak naar tak.@" ; "branch to another.@"
