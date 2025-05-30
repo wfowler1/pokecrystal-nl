@@ -1179,7 +1179,7 @@ Pokedex_DrawDexEntryScreenBG:
 	db "GEW  ???kg", -1
 	; db "WT   ???lb", -1
 .MenuItems:
-	db $3b, " PAG GEB GIL  DRUK ", -1
+	db $3b, " PAG GEB ROEP DRUK ", -1
 	; db $3b, " PAGE AREA CRY PRNT", -1
 
 Pokedex_DrawOptionScreenBG:
