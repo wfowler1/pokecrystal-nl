@@ -6,7 +6,7 @@ TrainerClassNames::
 	li "LEIDER" ; "LEADER"
 	li "LEIDER" ; "LEADER"
 	li "LEIDER" ; "LEADER"
-	li "LEIDER" ; "LEADER'
+	li "LEIDER" ; "LEADER"
 	li "LEIDER" ; "LEADER"
 	li "LEIDER" ; "LEADER"
 	li "RIVAAL" ; "RIVAL"

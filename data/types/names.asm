@@ -37,7 +37,7 @@ Poison:    db "GIF@" ; "POISON@"
 CurseType: db "???@"
 Fire:      db "VUUR@" ; "FIRE@"
 Water:     db "WATER@"
-Grass:     db "GRAS@" ; "GRASS@" 
+Grass:     db "GRAS@" ; "GRASS@"
 Electric:  db "ELEKTRO@" ; "ELECTRIC@" "ELEKTRISCH" longer than 8 chars
 Psychic:   db "PSYCH.@" ; "PSYCHIC@" "PSYCHISCH" longer than 8 chars
 Ice:       db "IJS@" ; "ICE@"

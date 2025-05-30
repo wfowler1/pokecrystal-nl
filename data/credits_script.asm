@@ -193,7 +193,7 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 	
-	db            VERTALERS, 0
+	db     TEXT_TRANSLATION, 0
 	db     BASTIAAN_VROEGOP, 1
 	db        ELINE_MUIJRES, 2
 	db       RANDOLF_BOUWMA, 3

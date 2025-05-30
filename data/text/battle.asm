@@ -441,7 +441,7 @@ AlreadyConfusedText:
 	line "is al verward!" ; "already confused!"
 	prompt
 
-BattleText_UsersHurtByStringBuffer1: ; TODO translate
+BattleText_UsersHurtByStringBuffer1:
 	text "<USER>"
 	line "is bezeerd door"
 	cont "@"
@@ -924,7 +924,7 @@ HPIsFullText:
 	line "LP zit vol!" ; "HP is full!"
 	prompt
 
-DraggedOutText: ; TODO: string too long. <USER> can be up to 10 characters
+DraggedOutText:
 	text "<USER>" ; "<USER>"
 	line "is eruit gesleept!" ; "was dragged out!"
 	prompt
@@ -966,7 +966,7 @@ StoleText:
 	cont "van tegenstander!" ; "from its foe!"
 	prompt
 
-CantEscapeNowText: ; TODO string too long, <TARGET> can be up to 10 characters
+CantEscapeNowText:
 	text "<TARGET>" ; "<TARGET>"
 	line "kan niet weg!" ; "can't escape now!"
 	prompt
@@ -1076,7 +1076,7 @@ SunGotBrightText:
 	line "fel geworden!" ; "bright!"
 	prompt
 
-BellyDrumText: ; TODO string too long, <USER> can be 10 chars
+BellyDrumText:
 	text "<USER>"
 	line "verlaagde LP voor" ; "cut its HP and"
 	cont "maximale AANVAL!" ; "maximized ATTACK!"
