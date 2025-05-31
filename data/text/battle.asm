@@ -622,7 +622,7 @@ DoesntAffectText:
 	prompt
 
 CriticalHitText:
-	text "Een kritieke klap!" ; "A critical hit!"
+	text "Een voltreffer!" ; "A critical hit!"
 	prompt
 
 OneHitKOText:
