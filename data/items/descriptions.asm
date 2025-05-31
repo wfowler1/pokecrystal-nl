@@ -634,7 +634,7 @@ MysticWaterDesc:
 	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 TwistedSpoonDesc:
-	db   "Versterkt mentaal-" ; "Powers up psychic-"
+	db   "Versterkt psych-" ; "Powers up psychic-"
 	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 WhtApricornDesc:

@@ -1173,7 +1173,7 @@ Pokedex_DrawDexEntryScreenBG:
 .Number: ; unreferenced
 	db $5c, $5d, -1 ; No.
 .Height:
-	db "HT.  ???m", -1 ; HT  ?'??"
+	db "LT.  ???m", -1 ; HT  ?'??"
 	; db "HT  ?", $5e, "??", $5f, -1 ; HT  ?'??"
 .Weight:
 	db "GEW  ???kg", -1

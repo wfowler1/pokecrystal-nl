@@ -565,7 +565,7 @@ GrowthDescription:
 
 RazorLeafDescription:
 	db   "Hoge kans op" ; "Has a high criti-"
-	next "kritieke aanval.@" ; "cal hit ratio.@"
+	next "voltreffers.@" ; "cal hit ratio.@"
 
 SolarbeamDescription:
 	db   "Beurt 1: Opladen" ; "1st turn: Prepare"
@@ -729,7 +729,7 @@ ReflectDescription:
 
 FocusEnergyDescription:
 	db   "Verhoogt kans op" ; "Raises the criti-"
-	next "kritieke klappen.@" ; "cal hit ratio.@"
+	next "voltreffers.@" ; "cal hit ratio.@"
 
 BideDescription:
 	db   "Wacht 2-3 beurten" ; "Waits 2-3 turns &"
@@ -873,7 +873,7 @@ AcidArmorDescription:
 
 CrabhammerDescription:
 	db   "Heeft hoge kans op" ; "Has a high criti-"
-	next "kritieke klap.@" ; "cal hit ratio.@"
+	next "voltreffer.@" ; "cal hit ratio.@"
 
 ExplosionDescription:
 	db   "Krachtig, maar ge-" ; "Powerful but makes"
@@ -917,7 +917,7 @@ SuperFangDescription:
 
 SlashDescription:
 	db   "Heeft hoge kans op" ; "Has a high criti-"
-	next "kritieke klap.@" ; "cal hit ratio.@"
+	next "voltreffer.@" ; "cal hit ratio.@"
 
 SubstituteDescription:
 	db   "Maakt afleiding" ; "Makes a decoy with"
@@ -973,7 +973,7 @@ Conversion2Description:
 
 AeroblastDescription:
 	db   "Heeft hoge kans op" ; "Has a high criti-"
-	next "kritieke klap.@" ; "cal hit ratio.@"
+	next "voltreffer.@" ; "cal hit ratio.@"
 
 CottonSporeDescription:
 	db   "Verlaagt SNELHEID" ; "Sharply reduces"
@@ -1217,7 +1217,7 @@ HiddenPowerDescription:
 
 CrossChopDescription:
 	db   "Heeft hoge kans op" ; "Has a high criti-"
-	next "kritieke klap.@" ; "cal hit ratio.@"
+	next "voltreffer.@" ; "cal hit ratio.@"
 
 TwisterDescription:
 	db   "Start tornado om" ; "Whips up a tornado"
