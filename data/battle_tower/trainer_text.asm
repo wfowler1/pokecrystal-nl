@@ -609,7 +609,7 @@ _BTWinF14Text:
 
 _BTGreetingF15Text:
 	text "OK, daar gaan we!" ; "OK, here goes!"
-	line "Ik heb momentum!" ; "I have momentum!"
+	line "Ik ben op dreef!" ; "I have momentum!"
 	done
 
 _BTLossF15Text:

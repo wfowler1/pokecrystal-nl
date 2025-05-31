@@ -60,8 +60,8 @@ CianwoodGymGuideText:
 	line "het vecht-type." ; "fighting-type."
 
 	para "Je kan hem dus" ; "So you should"
-	line "verrassen met" ; "confound him with"
-	cont "mentale #MON." ; "psychic #MON."
+	line "verrassen met psy-" ; "confound him with"
+	cont "chische #MON." ; "psychic #MON."
 
 	para "Versla z'n #MON" ; "Wipe out his #-"
 	line "voordat ze hun" ; "MON before they"
