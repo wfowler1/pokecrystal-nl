@@ -67,7 +67,7 @@ CherrygroveMartYoungsterText:
 	cont "viel ie flauw." ; "#MON fainted."
 
 	para "Je moet altijd wat" ; "You should keep an"
-	line "ANTIGIF meenemen." ; "ANTIDOTE with you."
+	line "TEGENGIF meenemen." ; "ANTIDOTE with you."
 	done
 
 CherrygroveMart_MapEvents:
