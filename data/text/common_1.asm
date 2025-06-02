@@ -835,7 +835,7 @@ _LC_Text11::
 
 _LC_DragText1::
 	text_start
-	line "…Herhaal mezelf" ; "…Repeating myself"
+	line "…Mijzelf herhalen" ; "…Repeating myself"
 	done
 
 _LC_DragText2::
