@@ -302,8 +302,8 @@ CopycatText_Female_1:
 	cont "#MON."
 
 	para "<PLAYER>: Nee, ik" ; "<PLAYER>: No, not"
-	line "ik niet. Ik vroeg" ; "me. I asked you."
-	cont "het aan jou."
+	line "niet. Ik vroeg het" ; "me. I asked you."
+	cont "aan jou."
 
 	para "<PLAYER>: Pardon?"
 	line "Je bent raar!" ; "You're weird!"
