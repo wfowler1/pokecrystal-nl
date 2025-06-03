@@ -339,7 +339,7 @@ Text_Route31ReadingMail:
 
 	para "Mijn vriend is een" ; "My friend's a good"
 	line "goede gast, en jij" ; "guy, and you're"
-	cont "ben ook oké!" ; "swell too!"
+	cont "bent ook oké!" ; "swell too!"
 
 	para "Ik wil ook iets" ; "I'd like to do"
 	line "goeds doen als" ; "something good in"
