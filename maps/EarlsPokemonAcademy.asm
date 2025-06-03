@@ -286,7 +286,7 @@ AcademyPoisonText:
 	line "als je loopt." ; "you walk."
 
 	para "Je geneest het met" ; "To cure it, use an"
-	line "een ANTIGIF." ; "ANTIDOTE."
+	line "een TEGENGIF." ; "ANTIDOTE."
 	done
 
 AcademyParalysisText:

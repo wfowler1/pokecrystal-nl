@@ -18,14 +18,14 @@ CeladonMansion2FComputerText:
 
 	para "…"
 
-	para "Iemand was aan het" ; "Someone was in the"
-	line "componeren een" ; "middle of compos-"
-	cont "e-mail…" ; "ing an e-mail."
+	para "Iemand was een" ; "Someone was in the"
+	line "e-mail aan het" ; "middle of compos-"
+	cont "schrijven…" ; "ing an e-mail."
 
-	para "…Ik hoop je KANTO" ; "…I hope you'll"
-	line "komt bezoeken." ; "come visit KANTO."
+	para "…Hopelijk kom je" ; "…I hope you'll"
+	line "KANTO bezoeken." ; "come visit KANTO."
 
-	para "Ik denk je" ; "I think you'll be"
+	para "Ik denk dat je" ; "I think you'll be"
 	line "verbaasd zult zijn" ; "surprised at how"
 
 	para "hoeveel er hier" ; "much things have"

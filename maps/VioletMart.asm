@@ -35,9 +35,9 @@ VioletMartGrannyText:
 	done
 
 VioletMartCooltrainerMText:
-	text "#MON kunnen" ; "#MON can hold"
-	line "zaken als DRANKJE" ; "items like POTION"
-	cont "en ANTIGIF dragen." ; "and ANTIDOTE."
+	text "#MON kunnen een" ; "#MON can hold"
+	line "DRANKJE of TEGEN-" ; "items like POTION"
+	cont "GIF vasthouden." ; "and ANTIDOTE."
 
 	para "Maar ze weten niet" ; "But they don't"
 	line "hoe mensgemaakte" ; "appear to know how"
