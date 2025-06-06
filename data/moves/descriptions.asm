@@ -925,7 +925,7 @@ SubstituteDescription:
 
 StruggleDescription:
 	db   "Gebruikt als alle" ; "Used only if all"
-	next "PP op is.@" ; "PP are exhausted.@"
+	next "AP op is.@" ; "PP are exhausted.@"
 
 SketchDescription:
 	db   "Kopieert aanval" ; "Copies the foe's"

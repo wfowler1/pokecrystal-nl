@@ -49,7 +49,7 @@ SailorErnestSeenText:
 	line "JASMINE vechten," ; "JASMINE, but she's"
 
 	para "maar ze kan niet." ; "not up to it now."
-	line "Dus, jij wel dan?," ; "So, how about you?"
+	line "Dus, jij wel dan?" ; "So, how about you?"
 	done
 
 SailorErnestBeatenText:

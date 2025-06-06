@@ -130,7 +130,7 @@ MagazineBookshelfText:
 	line "tijdschriften…"
 	cont "#MON PAL,"
 
-	para "#MON-HANBOEK," ; "#MON HANDBOOK,"
+	para "#MON-HANDBOEK," ; "#MON HANDBOOK,"
 	line "#MON GRAPH…"
 	done
 

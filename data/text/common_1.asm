@@ -4,7 +4,7 @@ _FruitBearingTreeText::
 	done
 
 _HeyItsFruitText::
-	text "Hé! Het is" ; "Hey! It's"
+	text "Hé! Het is een" ; "Hey! It's"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "!"
