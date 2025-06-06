@@ -925,7 +925,7 @@ SubstituteDescription:
 
 StruggleDescription:
 	db   "Gebruikt als alle" ; "Used only if all"
-	next "PP op is.@" ; "PP are exhausted.@"
+	next "AP op is.@" ; "PP are exhausted.@"
 
 SketchDescription:
 	db   "Kopieert aanval" ; "Copies the foe's"
@@ -984,7 +984,7 @@ ReversalDescription:
 	next "gebruiker laag is.@" ; "user's HP is low.@"
 
 SpiteDescription:
-	db   "Verlaagt PP vorige" ; "Cuts the PP of the"
+	db   "Verlaagt AP vorige" ; "Cuts the PP of the"
 	next "aanval vijand.@" ; "foe's last move.@"
 
 PowderSnowDescription:

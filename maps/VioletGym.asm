@@ -157,7 +157,7 @@ FalknerZephyrBadgeText:
 	cont "van #MON." ; "power of #MON."
 
 	para "Het laat #MON" ; "It also enables"
-	line "ook FLASH" ; "#MON to use"
+	line "ook FLITS" ; "#MON to use"
 
 	para "gebruiken, mits ze" ; "FLASH, if they"
 	line "het hebben." ; "have it, anytime."

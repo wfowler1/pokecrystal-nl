@@ -101,7 +101,7 @@ BattleText_TargetRecoveredWithItem:
 
 BattleText_UserRecoveredPPUsing:
 	text "<USER>"
-	line "herstelde PP door" ; "recovered PP using"
+	line "herstelde AP door" ; "recovered PP using"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text "."
