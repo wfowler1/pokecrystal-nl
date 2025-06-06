@@ -984,7 +984,7 @@ ReversalDescription:
 	next "gebruiker laag is.@" ; "user's HP is low.@"
 
 SpiteDescription:
-	db   "Verlaagt PP vorige" ; "Cuts the PP of the"
+	db   "Verlaagt AP vorige" ; "Cuts the PP of the"
 	next "aanval vijand.@" ; "foe's last move.@"
 
 PowderSnowDescription:
