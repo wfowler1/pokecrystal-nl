@@ -1511,9 +1511,9 @@ namespace PokeGen2TextValidator
                 }
                 else if (_block.Type == FileType.Pokemon)
                 {
-                    if (formattedText.Text.Length != MaxPokemonNameLength)
+                    if (formattedText.Text.Length > MaxPokemonNameLength)
                     {
-                        output.Append(GetLengthExactlyErrorMessage(formattedText, MaxPokemonNameLength));
+                        output.Append(GetLengthErrorMessage(formattedText, MaxPokemonNameLength));
                     }
                 }
                 else if (_block.Type != FileType.Misc)
