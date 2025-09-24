@@ -251,4 +251,6 @@ MoveNames::
 	li "STEENKNAL" ; "ROCK SMASH"
 	li "DRAAIKOLK" ; "WHIRLPOOL"
 	li "PAK RAMMEL" ; "BEAT UP"
+	li "RUW SPEL" ; "PLAY ROUGH"
+	li "MAANKNAL" ; "MOONBLAST"
 	assert_list_length NUM_ATTACKS

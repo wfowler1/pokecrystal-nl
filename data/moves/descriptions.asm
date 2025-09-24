@@ -252,16 +252,14 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw PlayRoughDescription
+	dw MoonblastDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFCDescription
-	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFCDescription:
-MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1270,3 +1268,11 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "#MON in team" ; "Party #MON join"
 	next "vallen ook aan.@" ; "in the attack.@"
+
+PlayRoughDescription:
+	db   "Aanval die AANVAL" ; "An attack that may"
+	next "kan verlagen.@" ; "lower ATTACK.@"
+
+MoonblastDescription:
+	db   "Kan SPCL.AANVAL" ; "An attack that may"
+	next "verlagen.@" ; "lower SPCL.DEF.@"
