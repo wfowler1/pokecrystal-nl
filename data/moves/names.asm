@@ -164,7 +164,7 @@ MoveNames::
 	li "SUPERTAND" ; "SUPER FANG"
 	li "HAK" ; "SLASH"
 	li "KLOON" ; "SUBSTITUTE"
-	li "SPARTEL" ; "STRUGGLE"
+	li "FEEËNWIND" ; "FAIRY WIND"
 	li "SCHETS" ; "SKETCH"
 	li "DRIDUBLSCHOP" ; "TRIPLE KICK"
 	li "DIEF" ; "THIEF"
@@ -253,4 +253,6 @@ MoveNames::
 	li "PAK RAMMEL" ; "BEAT UP"
 	li "RUW SPEL" ; "PLAY ROUGH"
 	li "MAANKNAL" ; "MOONBLAST"
+	li "VLEIENDESTEM" ; "DISARMING VOICE"
+	li "SPARTEL" ; "STRUGGLE"
 	assert_list_length NUM_ATTACKS

@@ -170,7 +170,7 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-	const STRUGGLE     ; a5
+	const FAIRY_WIND   ; a5
 	const SKETCH       ; a6
 	const TRIPLE_KICK  ; a7
 	const THIEF        ; a8
@@ -259,12 +259,14 @@
 	const BEAT_UP      ; fb
 	const PLAY_ROUGH   ; fc
 	const MOONBLAST    ; fd
+	const DISARMINGVOX ; fe
+	const STRUGGLE     ; ff
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $ff
+; DEF CANNOT_MOVE EQU $ff
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $ff
+	; const_next $ff
 	const ANIM_SWEET_SCENT_2     ; ff
 	const ANIM_THROW_POKE_BALL   ; 100
 	const ANIM_SEND_OUT_MON      ; 101

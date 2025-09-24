@@ -113,8 +113,9 @@ BattleCommand_CheckTurn:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	assert CANNOT_MOVE == $ff
-	inc a
+;	assert CANNOT_MOVE == $ff
+;	inc a
+	and a ; NO_MOVE?
 	jp z, EndTurn
 
 	xor a

@@ -165,7 +165,7 @@ MoveDescriptions::
 	dw SuperFangDescription
 	dw SlashDescription
 	dw SubstituteDescription
-	dw StruggleDescription
+	dw FairyWindDescription
 	dw SketchDescription
 	dw TripleKickDescription
 	dw ThiefDescription
@@ -254,14 +254,12 @@ MoveDescriptions::
 	dw BeatUpDescription
 	dw PlayRoughDescription
 	dw MoonblastDescription
+	dw DisarmingVoiceDescription
+	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFEDescription
-	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFEDescription:
-MoveFFDescription:
 Move00Description:
 	db "?@"
 
@@ -1276,3 +1274,11 @@ PlayRoughDescription:
 MoonblastDescription:
 	db   "Kan SPCL.AANVAL" ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
+
+DisarmingVoiceDescription:
+	db   "Aanval die nooit" ; "An attack that"
+	next "kan missen.@" ; "never misses.@"
+
+FairyWindDescription:
+	db   "Aanval doelwit met" ; "Hits target with a"
+	next "een fee windstroom@" ; "a fairy wind.@"

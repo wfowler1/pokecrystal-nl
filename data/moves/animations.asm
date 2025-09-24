@@ -166,7 +166,7 @@ BattleAnimations::
 	dw BattleAnim_SuperFang
 	dw BattleAnim_Slash
 	dw BattleAnim_Substitute
-	dw BattleAnim_Struggle
+	dw BattleAnim_FairyWind
 	dw BattleAnim_Sketch
 	dw BattleAnim_TripleKick
 	dw BattleAnim_Thief
@@ -255,11 +255,12 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_PlayRough
 	dw BattleAnim_Moonblast
-	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
-	dw BattleAnim_SweetScent2
+	dw BattleAnim_DisarmingVoice
+	dw BattleAnim_Struggle
+	; assert_table_length NUM_ATTACKS + 1
 	assert_table_length $100
 ; $100
+	dw BattleAnim_SweetScent2
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
 	dw BattleAnim_ReturnMon
@@ -1858,6 +1859,7 @@ BattleAnim_Growl:
 	anim_wait 8
 	anim_ret
 
+BattleAnim_DisarmingVoice:
 BattleAnim_Roar:
 	anim_1gfx BATTLE_ANIM_GFX_NOISE
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -2159,6 +2161,7 @@ BattleAnim_Submission:
 	anim_call BattleAnim_ShowMon_1
 	anim_ret
 
+BattleAnim_FairyWind:
 BattleAnim_Whirlwind:
 	anim_1gfx BATTLE_ANIM_GFX_WIND
 .loop

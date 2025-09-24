@@ -167,18 +167,20 @@ CorrectPartyErrors: ; unreferenced
 	ld c, NUM_MOVES
 	ld a, [hl]
 	and a
-	jr z, .invalid_move
-	cp NUM_ATTACKS + 1
-	jr c, .moves_loop
-.invalid_move
+;	jr z, .invalid_move
+;	cp NUM_ATTACKS + 1
+;	jr c, .moves_loop
+	jr nz, .moves_loop
+;.invalid_move
 	ld [hl], POUND
 
 .moves_loop
 	ld a, [hl]
 	and a
-	jr z, .fill_invalid_moves
-	cp NUM_ATTACKS + 1
-	jr c, .next_move
+;	jr z, .fill_invalid_moves
+;	cp NUM_ATTACKS + 1
+;	jr c, .next_move
+	jr nz, .next_move
 
 .fill_invalid_moves
 	xor a
