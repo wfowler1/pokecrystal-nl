@@ -19,4 +19,5 @@ PokedexTypeSearchStrings:
 	db " DRAAK  @" ; " DRAGON @"
 	db "DUISTER @" ; "  DARK  @"
 	db " STAAL  @" ; " STEEL  @"
+	db "  FEE   @" ; " FAIRY  @"
 	assert_table_length NUM_TYPES + 1

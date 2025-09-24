@@ -913,8 +913,8 @@ SunStoneDesc:
 	db   "Evolueert bepaalde" ; "Evolves certain"
 	next "soorten #MON.@" ; "kinds of #MON.@"
 
-PolkadotBowDesc:
-	db   "Versterkt normaal-" ; "Powers up normal-"
+PolkadotBowDesc: ; Actually Fairy Feather
+	db   "Versterkt fee-" ; "Powers up fairy-"
 	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 TeruSama22Desc:
