@@ -169,7 +169,7 @@ ItemNames::
 	li "NORMALE DOOS" ; "NORMAL BOX"
 	li "FRAAIE DOOS" ; "GORGEOUS BOX"
 	li "ZONSTEEN" ; "SUN STONE"
-	li "FEE VEER" ; "FAIRYFEATHER" replaces Polkadot Bow
+	li "FEEËNVEER" ; "FAIRYFEATHER" replaces Polkadot Bow
 	li "TERU-SAMA"
 	li "UPGRADE" ; "UP-GRADE"
 	li "BES" ; "BERRY"
