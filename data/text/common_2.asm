@@ -562,19 +562,19 @@ _ItemfinderNopeText::
 	line "reageert niet." ; "isn't responding."
 	prompt
 
-_PoisonFaintText::
+_PoisonRecoveryText::
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text_start
-	line "viel flauw!" ; "fainted!"
+	text " over-" ; text_start
+	line "leefde het gif!" ; "fainted!"
 	prompt
 
-_PoisonWhiteoutText::
-	text "<PLAYER> heeft geen" ; "<PLAYER> is out of"
-	line "bruikbare #MON!" ; "useable #MON!"
+; _PoisonWhiteoutText::
+;	text "<PLAYER> heeft geen" ; "<PLAYER> is out of"
+;	line "bruikbare #MON!" ; "useable #MON!"
 
-	para "<PLAYER> werd" ; "<PLAYER> whited"
-	line "uitgeschakeld!" ; "out!"
-	prompt
+;	para "<PLAYER> werd" ; "<PLAYER> whited"
+;	line "uitgeschakeld!" ; "out!"
+;	prompt
 
 _UseSweetScentText::
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
