@@ -200,11 +200,11 @@ _SavedTheGameText::
 	line "spel op." ; "the game."
 	done
 
-_AlreadyASaveFileText::
-	text "Er is al een op-" ; "There is already a"
-	line "slagbestand. OK om" ; "save file. Is it"
-	cont "te overschrijven?" ; "OK to overwrite?"
-	done
+; _AlreadyASaveFileText::
+;	text "Er is al een op-" ; "There is already a"
+;	line "slagbestand. OK om" ; "save file. Is it"
+;	cont "te overschrijven?" ; "OK to overwrite?"
+;	done
 
 _AnotherSaveFileText::
 	text "Er is nog een op-" ; "There is another"
