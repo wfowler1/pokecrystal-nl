@@ -231,7 +231,7 @@ BlackthornGymClairText_YouKeptMeWaiting:
 
 BlackthornGymText_ReceivedTM24:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TM24."
+	line "TM24 DRAKENADEM."
 	done
 
 BlackthornGymClairText_DescribeTM24:
