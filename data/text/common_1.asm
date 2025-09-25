@@ -1312,6 +1312,16 @@ _RepelWoreOffText::
 	text "Effect VERDRIJF is" ; "REPEL's effect"
 	line "uitgewerkt." ; "wore off."
 	done
+	
+_UseAnotherRepelText::
+	text "Effect"
+	line "@"
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
+	text " is"
+	cont "uitgewerkt."
+
+	para "Nog één gebruiken?"
+	done
 
 _PlayerFoundItemText::
 	text "<PLAYER> vond" ; "<PLAYER> found"
