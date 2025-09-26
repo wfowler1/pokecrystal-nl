@@ -909,12 +909,15 @@ MoveScreenLoop:
 .moving_move
 	ld a, " "
 	hlcoord 1, 11
-	ld bc, 8
+	ld bc, 5
 	call ByteFill
+	hlcoord 1, 11
+	lb bc, 5, 7
+	call ClearBox
 	hlcoord 1, 12
 	lb bc, 5, SCREEN_WIDTH - 2
 	call ClearBox
-	hlcoord 1, 12
+	hlcoord 2, 13
 	ld de, String_MoveWhere
 	call PlaceString
 	jp .joy_loop
@@ -947,6 +950,8 @@ MoveScreenLoop:
 	ld a, [wCurPartyMon]
 	cp b
 	jp z, .joy_loop
+	ld de, SFX_SWITCH_POCKETS
+	call PlaySFX
 	jp MoveScreenLoop
 
 .d_left
@@ -961,6 +966,8 @@ MoveScreenLoop:
 	ld a, [wCurPartyMon]
 	cp b
 	jp z, .joy_loop
+	ld de, SFX_SWITCH_POCKETS
+	call PlaySFX
 	jp MoveScreenLoop
 
 .cycle_right
@@ -1087,7 +1094,7 @@ MoveScreen2DMenuData:
 	db PAD_CTRL_PAD | PAD_A | PAD_B ; accepted buttons
 
 String_MoveWhere:
-	db "Waar?@" ; "Where?@"
+	db "Kies een aanval<NEXT>om te wisselen.@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1106,8 +1113,8 @@ SetUpMoveScreenBG:
 	ld [wTempIconSpecies], a
 	ld e, MONICON_MOVES
 	farcall LoadMenuMonIcon
-	hlcoord 0, 1
-	ld b, 9
+	hlcoord 0, -1
+	ld b, 1
 	ld c, 18
 	call Textbox
 	hlcoord 0, 11
@@ -1181,27 +1188,81 @@ PrepareToPlaceMoveData:
 PlaceMoveData:
 	xor a
 	ldh [hBGMapMode], a
+
+; Print UI elements
 	hlcoord 0, 10
 	ld de, String_MoveType_Top
 	call PlaceString
 	hlcoord 0, 11
 	ld de, String_MoveType_Bottom
 	call PlaceString
-	hlcoord 12, 12
+	hlcoord 1, 11
 	ld de, String_MoveAtk
 	call PlaceString
+	hlcoord 1, 12
+	ld de, String_MoveAcc
+	call PlaceString
+	hlcoord 1, 13
+	ld de, String_MoveEff
+	call PlaceString
+
+; Print move category
 	ld a, [wCurSpecies]
 	ld b, a
 	farcall GetMoveCategoryName
-	hlcoord 1, 11
+	hlcoord 11, 13
 	ld de, wStringBuffer1
 	call PlaceString
-	ld a, [wCurSpecies]
-	ld b, a
-	hlcoord 1, 12
+	hlcoord 10, 13
 	ld [hl], "/"
 	inc hl
+
+; Print move effect chance
+	ld a, [wCurSpecies]
+	ld bc, MOVE_LENGTH
+	ld hl, (Moves + MOVE_CHANCE) - MOVE_LENGTH
+	call AddNTimes
+	ld a, BANK(Moves)
+	call GetFarByte
+	cp 1
+	jr c, .if_null_chance
+	Call ConvertPercentages
+	ld [wBuffer1], a
+	ld de, wBuffer1
+	lb bc, 1, 3
+	hlcoord 5, 13
+	call PrintNum
+	jr .skip_null_chance
+
+.if_null_chance
+	ld de, String_MoveNoPower
+	ld bc, 3
+	hlcoord 5, 13
+	call PlaceString
+
+.skip_null_chance
+	
+; Print move accuracy
+	ld a, [wCurSpecies]
+	ld bc, MOVE_LENGTH
+	ld hl, (Moves + MOVE_ACC) - MOVE_LENGTH
+	call AddNTimes
+	ld a, BANK(Moves)
+	call GetFarByte
+	Call ConvertPercentages
+	ld [wBuffer1], a
+	ld de, wBuffer1
+	lb bc, 1, 3
+	hlcoord 5, 12
+	call PrintNum
+
+; Print move type
+	ld a, [wCurSpecies]
+	ld b, a
+	hlcoord 10, 12
 	predef PrintMoveType
+
+; Print move power
 	ld a, [wCurSpecies]
 	dec a
 	ld hl, Moves + MOVE_POWER
@@ -1209,7 +1270,7 @@ PlaceMoveData:
 	call AddNTimes
 	ld a, BANK(Moves)
 	call GetFarByte
-	hlcoord 16, 12
+	hlcoord 5, 11
 	cp 2
 	jr c, .no_power
 	ld [wTextDecimalByte], a
@@ -1222,19 +1283,74 @@ PlaceMoveData:
 	ld de, String_MoveNoPower
 	call PlaceString
 
+; Print move description
 .description
-	hlcoord 1, 14
+	hlcoord 1, 15
 	predef PrintMoveDescription
 	ld a, $1
 	ldh [hBGMapMode], a
 	ret
+	
+; This converts values out of 256 into a value
+; out of 100. It achieves this by multiplying
+; the value by 100 and dividing it by 256.
+ConvertPercentages:
 
+	; Overwrite the "hl" register.
+	ld l, a
+	ld h, 0
+	push af
+
+	; Multiplies the value of the "hl" register by 3.
+	add hl, hl
+	add a, l
+	ld l, a
+	adc h
+	sub l
+	ld h, a
+
+	; Multiplies the value of the "hl" register
+	; by 8. The value of the "hl" register
+	; is now 24 times its original value.
+	add hl, hl
+	add hl, hl
+	add hl, hl
+
+	; Add the original value of the "hl" value to itself,
+	; making it 25 times its original value.
+	pop af
+	add a, l
+	ld l, a
+	adc h
+	sbc l
+	ld h, a
+
+	; Multiply the value of the "hl" register by
+	; 4, making it 100 times its original value.
+	add hl, hl
+	add hl, hl
+
+	; Set the "l" register to 0.5, otherwise the rounded
+	; value may be lower than expected. Round the
+	; high byte to nearest and drop the low byte.
+	ld l, 0.5
+	sla l
+	sbc a
+	and 1
+	add a, h
+	ret
+
+; UI elements
 String_MoveType_Top:
-	db "┌────────┐@"
+	db "┌───────┐@"
 String_MoveType_Bottom:
-	db "│        └@"
+	db "│       └@"
 String_MoveAtk:
-	db "AAN/@" ; "ATTK/@"
+	db "AAN/@" ; "ATK/@"
+String_MoveAcc:
+	db "PRC/@"
+String_MoveEff:
+	db "KNS/@"
 String_MoveNoPower:
 	db "---@"
 

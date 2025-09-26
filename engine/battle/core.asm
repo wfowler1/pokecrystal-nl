@@ -5696,17 +5696,16 @@ MoveInfoBox:
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
 	ld b, a
 	farcall GetMoveCategoryName
-	hlcoord 1, 9
+	hlcoord 2, 10
 	ld de, wStringBuffer1
 	call PlaceString
-
-	ld h, b
-	ld l, c
+	hlcoord 1, 10
 	ld [hl], "/"
+	inc hl
 
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
 	ld b, a
-	hlcoord 2, 10
+	hlcoord 1, 9
 	predef PrintMoveType
 
 .done
