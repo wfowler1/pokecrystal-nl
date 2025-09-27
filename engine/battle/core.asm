@@ -91,6 +91,7 @@ DoBattle:
 	call BreakAttraction
 	call SendOutPlayerMon
 	call EmptyBattleTextbox
+	call GetTimeOfDayImage
 	call LoadTilemapToTempTilemap
 	call SetPlayerTurn
 	call SpikesDamage
@@ -197,6 +198,9 @@ BattleTurn:
 	jr nz, .quit
 .skip_iteration
 	call ParsePlayerAction
+	push af
+	call ClearSprites
+	pop af
 	jr nz, .loop1
 
 	call EnemyTriesToFlee
@@ -4879,6 +4883,7 @@ BattleMenu:
 	xor a
 	ldh [hBGMapMode], a
 	call LoadTempTilemapToTilemap
+	call GetTimeOfDayImage
 
 	ld a, [wBattleType]
 	cp BATTLETYPE_DEBUG
@@ -4923,6 +4928,7 @@ BattleMenu:
 	jr .loop
 
 BattleMenu_Fight:
+	call ClearSprites
 	xor a
 	ld [wNumFleeAttempts], a
 	call SafeLoadTempTilemapToTilemap
@@ -4985,6 +4991,7 @@ BattleMenu_Pack:
 	jr .got_item
 
 .contest
+	call ClearSprites
 	ld a, PARK_BALL
 	ld [wCurItem], a
 	call DoItemEffect
@@ -5003,6 +5010,7 @@ BattleMenu_Pack:
 	call WaitBGMap
 	call FinishBattleAnim
 	call LoadTilemapToTempTilemap
+	call GetTimeOfDayImage
 	jp BattleMenu
 
 .ItemsCantBeUsed:
@@ -5101,6 +5109,7 @@ BattleMenuPKMN_Loop:
 	call LoadTilemapToTempTilemap
 	call GetMemSGBLayout
 	call SetDefaultBGPAndOBP
+	call GetTimeOfDayImage
 	jp BattleMenu
 
 .GetMenu:
@@ -5301,6 +5310,7 @@ PassedBattleMonEntrance:
 	jp SpikesDamage
 
 BattleMenu_Run:
+	call ClearSprites
 	call SafeLoadTempTilemapToTilemap
 	ld a, $3
 	ld [wMenuCursorY], a
@@ -5439,6 +5449,7 @@ MoveSelectionScreen:
 
 .battle_player_moves
 	call MoveInfoBox
+	call GetWeatherImage
 	ld a, [wSwappingMove]
 	and a
 	jr z, .interpret_joypad
@@ -5525,6 +5536,9 @@ MoveSelectionScreen:
 	ld hl, BattleText_TheresNoPPLeftForThisMove
 
 .place_textbox_start_over
+	push hl
+	call ClearSprites
+	pop hl
 	call StdBattleTextbox
 	call SafeLoadTempTilemapToTilemap
 	jp MoveSelectionScreen
@@ -5636,6 +5650,107 @@ MoveSelectionScreen:
 	ld a, [wMenuCursorY]
 	ld [wSwappingMove], a
 	jp MoveSelectionScreen
+	
+GetWeatherImage:
+	ld a, [wBattleWeather]
+	and a
+	ret z
+	ld de, RainWeatherImage
+	lb bc, PAL_BATTLE_OB_BLUE, 4
+	dec a
+	jr z, .done
+	ld de, SunWeatherImage
+	ld b, PAL_BATTLE_OB_YELLOW
+	dec a
+	jr z, .done
+	ld de, SandstormWeatherImage
+	ld b, PAL_BATTLE_OB_BROWN
+	dec a
+	ret nz
+	
+.done
+	push bc
+	ld b, BANK(WeatherImages) ; c = 4
+	ld hl, vTiles0
+	call Request2bpp
+	pop bc
+	ld hl, wShadowOAMSprite00
+	ld de, .WeatherImageOAMData
+.loop
+	ld a, [de]
+	inc de
+	ld [hli], a
+	ld a, [de]
+	inc de
+	ld [hli], a
+	dec c
+	ld a, c
+	ld [hli], a
+	ld a, b
+	ld [hli], a
+	jr nz, .loop
+	ret
+
+.WeatherImageOAMData
+; positions are backwards since
+; we load them in reverse order
+	db $88, $1c ; y/x - bottom right
+	db $88, $14 ; y/x - bottom left
+	db $80, $1c ; y/x - top right
+	db $80, $14 ; y/x - top left
+	
+GetTimeOfDayImage:
+	ld a, [wTimeOfDay]
+	cp MORN_F
+	jr z, .MorningImage
+	cp DAY_F
+	jr z, .DayImage
+	cp NITE_F
+	jr z, .NightImage
+.MorningImage
+	ld de, MorningTimeImage
+	lb bc, PAL_BATTLE_OB_RED, 4
+	jr .done
+
+.DayImage
+	ld de, DayTimeImage
+	lb bc, PAL_BATTLE_OB_YELLOW, 4
+	jr .done
+	
+ .NightImage
+	ld de, NightTimeImage
+	lb bc, PAL_BATTLE_OB_BLUE, 4
+
+.done
+	push bc
+	ld b, BANK(TimeOfDayImages) ; c = 4
+	ld hl, vTiles0
+	call Request2bpp
+	pop bc
+	ld hl, wShadowOAMSprite00
+	ld de, .TimeOfDayImageOAMData
+.loop
+	ld a, [de]
+	inc de
+	ld [hli], a
+	ld a, [de]
+	inc de
+	ld [hli], a
+	dec c
+	ld a, c
+	ld [hli], a
+	ld a, b
+	ld [hli], a
+	jr nz, .loop
+	ret
+
+.TimeOfDayImageOAMData
+; positions are backwards since
+; we load them in reverse order
+	db $88, $1c ; y/x - bottom right
+	db $88, $14 ; y/x - bottom left
+	db $80, $1c ; y/x - top right
+	db $80, $14 ; y/x - top left
 
 MoveInfoBox:
 	xor a

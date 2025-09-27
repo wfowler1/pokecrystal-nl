@@ -161,6 +161,16 @@ INCLUDE "engine/battle/core.asm"
 INCLUDE "data/battle/effect_command_pointers.asm"
 
 
+SECTION "Battle Weather Images", ROMX
+
+INCLUDE "gfx/weather_images.asm"
+
+
+SECTION "Time Of Day Images", ROMX
+
+INCLUDE "gfx/timeofday_images.asm"
+
+
 SECTION "bank10", ROMX
 
 INCLUDE "engine/pokedex/pokedex.asm"
