@@ -74,11 +74,11 @@ MeetMomScript:
 .ExplainPhone:
 	writetext DontKnowTheInstructionsText
 	promptbutton
+	writetext InstructionsNextText
+	waitbutton
 	sjump .FinishPhone
 
 .FinishPhone:
-	writetext InstructionsNextText
-	waitbutton
 	closetext
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue .FromRight
@@ -263,11 +263,11 @@ ComeHomeForDSTText:
 	done
 
 KnowTheInstructionsText:
-	text "Je zet toch de" ; "Don't you just"
-	line "#GEAR aan" ; "turn the #GEAR"
+	text "Je bent een" ; "Don't you just"
+	line "slim kind." ; "turn the #GEAR"
 
-	para "en selecteert het" ; "on and select the"
-	line "TELEFOON-icoon?" ; "PHONE icon?"
+	; para "en selecteert het" ; "on and select the"
+	; line "TELEFOON-icoon?" ; "PHONE icon?"
 	done
 
 DontKnowTheInstructionsText:
