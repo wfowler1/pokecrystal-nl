@@ -3129,6 +3129,26 @@ AI_Status:
 	inc de
 	call AIGetEnemyMove
 
+; Check if the opponent is immune to powder/spore moves.      
+	ld a, [wEnemyMoveStruct + MOVE_ANIM]
+	push bc
+	push de
+	push hl
+	ld hl, PowderMoves
+	call IsInByteArray
+	pop hl
+	pop de
+	pop bc
+	jr nc, .normal_check
+
+	ld a, [wBattleMonType1]
+	cp GRASS
+	jr z, .immune
+	ld a, [wBattleMonType2]
+	cp GRASS
+	jr z, .immune
+
+.normal_check
 	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
 	cp EFFECT_TOXIC
 	jr z, .poisonimmunity
