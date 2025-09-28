@@ -63,11 +63,11 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [`HELD_CATCH_CHANCE` has no effect](#held_catch_chance-has-no-effect)
   - [Credits sequence changes move selection menu behavior](#credits-sequence-changes-move-selection-menu-behavior)
 - [Overworld engine](#overworld-engine)
-  - [(FIXED) `LoadMetatiles` wraps around past 128 blocks](#loadmetatiles-wraps-around-past-128-blocks)
-  - [(FIXED) Surfing directly across a map connection does not load the new map](#surfing-directly-across-a-map-connection-does-not-load-the-new-map)
-  - [(FIXED) Swimming NPCs aren't limited by their movement radius](#swimming-npcs-arent-limited-by-their-movement-radius)
-  - [(FIXED) You can fish on top of NPCs](#you-can-fish-on-top-of-npcs)
-  - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
+  - [(FIXED) `LoadMetatiles` wraps around past 128 blocks](#(FIXED)-loadmetatiles-wraps-around-past-128-blocks)
+  - [(FIXED) Surfing directly across a map connection does not load the new map](#(FIXED)-surfing-directly-across-a-map-connection-does-not-load-the-new-map)
+  - [(FIXED) Swimming NPCs aren't limited by their movement radius](#(FIXED)-swimming-npcs-arent-limited-by-their-movement-radius)
+  - [(FIXED) You can fish on top of NPCs](#(FIXED)-you-can-fish-on-top-of-npcs)
+  - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#(FIXED)-pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
 - [Graphics](#graphics)
   - [In-battle “`…`” ellipsis is too high](#in-battle--ellipsis-is-too-high)
   - [Two tiles in the `port` tileset are drawn incorrectly](#two-tiles-in-the-port-tileset-are-drawn-incorrectly)
@@ -104,15 +104,15 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon](#mania-uses-wrong-dialogue-for-trying-to-return-shuckie-with-no-other-pok%C3%A9mon)
 - [Internal engine routines](#internal-engine-routines)
   - [Saves corrupted by mid-save shutoff are not handled](#saves-corrupted-by-mid-save-shutoff-are-not-handled)
-  - [`ScriptCall` can overflow `wScriptStack` and crash](#scriptcall-can-overflow-wscriptstack-and-crash)
-  - [(FIXED) `LoadSpriteGFX` does not limit the capacity of `UsedSprites`](#loadspritegfx-does-not-limit-the-capacity-of-usedsprites)
-  - [`ChooseWildEncounter` doesn't really validate the wild Pokémon species](#choosewildencounter-doesnt-really-validate-the-wild-pok%C3%A9mon-species)
-  - [`RandomUnseenWildMon` always picks a morning Pokémon species](#randomunseenwildmon-always-picks-a-morning-pok%C3%A9mon-species)
-  - [`TryObjectEvent` arbitrary code execution](#tryobjectevent-arbitrary-code-execution)
-  - [`ReadObjectEvents` overflows into `wObjectMasks`](#readobjectevents-overflows-into-wobjectmasks)
-  - [`ClearWRAM` only clears WRAM bank 1](#clearwram-only-clears-wram-bank-1)
-  - [`BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects](#battleanimcmd_clearobjs-only-clears-the-first-6-objects)
-  - [Options menu fails to clear joypad state on initialization](#options-menu-fails-to-clear-joypad-state-on-initialization)
+  - [(FIXED) `ScriptCall` can overflow `wScriptStack` and crash](#(FIXED)-scriptcall-can-overflow-wscriptstack-and-crash)
+  - [(FIXED) `LoadSpriteGFX` does not limit the capacity of `UsedSprites`](#(FIXED)-loadspritegfx-does-not-limit-the-capacity-of-usedsprites)
+  - [(FIXED) `ChooseWildEncounter` doesn't really validate the wild Pokémon species](#(FIXED)-choosewildencounter-doesnt-really-validate-the-wild-pok%C3%A9mon-species)
+  - [(FIXED) `RandomUnseenWildMon` always picks a morning Pokémon species](#(FIXED)-randomunseenwildmon-always-picks-a-morning-pok%C3%A9mon-species)
+  - [(FIXED) `TryObjectEvent` arbitrary code execution](#(FIXED)-tryobjectevent-arbitrary-code-execution)
+  - [(FIXED) `ReadObjectEvents` overflows into `wObjectMasks`](#(FIXED)-readobjectevents-overflows-into-wobjectmasks)
+  - [(FIXED) `ClearWRAM` only clears WRAM bank 1](#(FIXED)-clearwram-only-clears-wram-bank-1)
+  - [(FIXED) `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects](#(FIXED)-battleanimcmd_clearobjs-only-clears-the-first-6-objects)
+  - [(FIXED) Options menu fails to clear joypad state on initialization](#(FIXED)-options-menu-fails-to-clear-joypad-state-on-initialization)
 
 
 ## Multi-player battle engine
@@ -2597,8 +2597,10 @@ You can also delete the now-unused `BrokenPlaceFarString` routine in the same fi
 
 This allows Pokémon to be duplicated, among other effects. It does not have a simple and accurate fix. A fix would involve redesigning parts of the save system for Pokémon boxes.
 
+This can be partially mitigated by removing the artificial delays around the save process, dramatically shortening the window of time for the player to shut off the system.
 
-### `ScriptCall` can overflow `wScriptStack` and crash
+
+### (FIXED) `ScriptCall` can overflow `wScriptStack` and crash
 
 **Fix:** Edit `ScriptCall` in [engine/overworld/scripting.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/scripting.asm):
 
@@ -2670,7 +2672,7 @@ This allows Pokémon to be duplicated, among other effects. It does not have a s
 ```
 
 
-### `ChooseWildEncounter` doesn't really validate the wild Pokémon species
+### (FIXED) `ChooseWildEncounter` doesn't really validate the wild Pokémon species
 
 **Fix:** Edit `ChooseWildEncounter` in [engine/overworld/wildmons.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/wildmons.asm):
 
@@ -2690,7 +2692,7 @@ This allows Pokémon to be duplicated, among other effects. It does not have a s
 ```
 
 
-### `RandomUnseenWildMon` always picks a morning Pokémon species
+### (FIXED) `RandomUnseenWildMon` always picks a morning Pokémon species
 
 **Fix:** Edit `RandomUnseenWildMon` in [engine/overworld/wildmons.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/wildmons.asm):
 
@@ -2709,7 +2711,7 @@ This allows Pokémon to be duplicated, among other effects. It does not have a s
 ```
 
 
-### `TryObjectEvent` arbitrary code execution
+### (FIXED) `TryObjectEvent` arbitrary code execution
 
 If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 
@@ -2737,7 +2739,7 @@ If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 ```
 
 
-### `ReadObjectEvents` overflows into `wObjectMasks`
+### (FIXED) `ReadObjectEvents` overflows into `wObjectMasks`
 
 **Fix:** Edit `ReadObjectEvents` in [home/map.asm](https://github.com/pret/pokecrystal/blob/master/home/map.asm):
 
@@ -2768,7 +2770,7 @@ If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 ```
 
 
-### `ClearWRAM` only clears WRAM bank 1
+### (FIXED) `ClearWRAM` only clears WRAM bank 1
 
 **Fix:** Edit `ClearWRAM` in [home/init.asm](https://github.com/pret/pokecrystal/blob/master/home/init.asm):
 
@@ -2795,7 +2797,7 @@ If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 ```
 
 
-### `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects
+### (FIXED) `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects
 
 **Fix:** Edit `BattleAnimCmd_ClearObjs` in [engine/battle_anims/anim_commands.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle_anims/anim_commands.asm):
 
@@ -2814,7 +2816,7 @@ If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 ```
 
 
-### Options menu fails to clear joypad state on initialization
+### (FIXED) Options menu fails to clear joypad state on initialization
 
 ([Video](https://www.youtube.com/watch?v=uhDSIkXkl3g))
 
