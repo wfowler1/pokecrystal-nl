@@ -79,7 +79,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) HP bar animation off-by-one error for low HP](#(FIXED)-hp-bar-animation-off-by-one-error-for-low-hp)
   - [(FIXED) Using a Park Ball in non-Contest battles has a corrupt animation](#(FIXED)-using-a-park-ball-in-non-contest-battles-has-a-corrupt-animation)
   - [(FIXED) Battle transitions fail to account for the enemy's level](#(FIXED)-battle-transitions-fail-to-account-for-the-enemys-level)
-  - [(FIXED) Some trainer NPCs have inconsistent overworld sprites](#(FIXED)-some-trainer-npcs-have-inconsistent-overworld-sprites)
+  - [Some trainer NPCs have inconsistent overworld sprites](#some-trainer-npcs-have-inconsistent-overworld-sprites)
   - [(FIXED) Tackle is missing part of its hit animation](#(FIXED)-tackle-is-missing-part-of-its-hit-animation)
 - [Audio](#audio)
   - [Slot machine payout sound effects cut each other off](#slot-machine-payout-sound-effects-cut-each-other-off)
@@ -2079,7 +2079,7 @@ Finally, edit [engine/battle/read_trainer_party.asm](https://github.com/pret/pok
 ```
 
 
-### (FIXED) Some trainer NPCs have inconsistent overworld sprites
+### Some trainer NPCs have inconsistent overworld sprites
 
 *Some of these may have been intentional behavior; use your own judgment for whether to fix them.*
 
