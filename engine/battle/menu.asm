@@ -75,25 +75,25 @@ SafariBattleMenuHeader:
 
 ContestBattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 2, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 4, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	dn 2, 2 ; rows, columns
-	db 12 ; spacing
+	db 9 ; spacing
 	dba .Text
 	dba .PrintParkBallsRemaining
 
 .Text:
 	db "VECHT@" ; "FIGHT@"
 	db "<PKMN>@"
-	db "PARKBAL×   @" ; "PARKBALL×  @"
+	db "BAL×   @" ; "PARKBALL×  @"
 	db "REN@" ; "RUN@"
 
 .PrintParkBallsRemaining:
-	hlcoord 13, 16
+	hlcoord 11, 16
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
