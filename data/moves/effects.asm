@@ -577,8 +577,6 @@ DefenseDownHit:
 	supereffectivetext
 	checkfaint
 	buildopponentrage
-; BUG: Moves that lower Defense can do so after breaking a Substitute (see docs/bugs_and_glitches.md)
-	effectchance
 	defensedown
 	statdownmessage
 	endmove
@@ -709,11 +707,10 @@ DefenseUpHit:
 	applydamage
 	criticaltext
 	supereffectivetext
-; BUG: Moves that do damage and increase your stats do not increase stats after a KO (see docs/bugs_and_glitches.md)
-	checkfaint
-	buildopponentrage
 	defenseup
 	statupmessage
+	checkfaint
+	buildopponentrage
 	endmove
 
 AttackUpHit:
@@ -732,10 +729,10 @@ AttackUpHit:
 	applydamage
 	criticaltext
 	supereffectivetext
-	checkfaint
-	buildopponentrage
 	attackup
 	statupmessage
+	checkfaint
+	buildopponentrage
 	endmove
 
 AllUpHit:
@@ -754,9 +751,9 @@ AllUpHit:
 	applydamage
 	criticaltext
 	supereffectivetext
+	allstatsup
 	checkfaint
 	buildopponentrage
-	allstatsup
 	endmove
 
 PayDay:

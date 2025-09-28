@@ -299,8 +299,20 @@ HandleBetweenTurnEffects:
 	call LoadTilemapToTempTilemap
 	jp HandleEncore
 
+HasAnyoneFainted:
+	call HasPlayerFainted
+	jp nz, HasEnemyFainted
+	ret
+
 CheckFaint_PlayerThenEnemy:
-; BUG: Perish Song and Spikes can leave a Pokemon with 0 HP and not faint (see docs/bugs_and_glitches.md)
+.faint_loop
+	call .Function
+	ret c
+	call HasAnyoneFainted
+	ret nz
+	jr .faint_loop
+
+.Function:
 	call HasPlayerFainted
 	jr nz, .PlayerNotFainted
 	call HandlePlayerMonFaint
@@ -325,7 +337,14 @@ CheckFaint_PlayerThenEnemy:
 	ret
 
 CheckFaint_EnemyThenPlayer:
-; BUG: Perish Song and Spikes can leave a Pokemon with 0 HP and not faint (see docs/bugs_and_glitches.md)
+.faint_loop
+	call .Function
+	ret c
+	call HasAnyoneFainted
+	ret nz
+	jr .faint_loop
+
+.Function:
 	call HasEnemyFainted
 	jr nz, .EnemyNotFainted
 	call HandleEnemyMonFaint
@@ -394,11 +413,20 @@ HandleBerserkGene:
 	call GetPartyLocation
 	xor a
 	ld [hl], a
-; BUG: Berserk Gene's confusion lasts for 256 turns or the previous Pokémon's confusion count (see docs/bugs_and_glitches.md)
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVarAddr
 	push af
 	set SUBSTATUS_CONFUSED, [hl]
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wPlayerConfuseCount
+	jr z, .set_confuse_count
+	ld hl, wEnemyConfuseCount
+.set_confuse_count
+	call BattleRandom
+	and %11
+	add 2
+	ld [hl], a
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVarAddr
 	push hl
@@ -4204,11 +4232,13 @@ PursuitSwitch:
 	ld [wCryTracks], a
 	ld a, [wBattleMonSpecies]
 	call PlayStereoCry
+	ld a, [wCurBattleMon]
+	push af
 	ld a, [wLastPlayerMon]
-	ld c, a
-	ld hl, wBattleParticipantsNotFainted
-	ld b, RESET_FLAG
-	predef SmallFarFlagAction
+	ld [wCurBattleMon], a
+	call UpdateFaintedPlayerMon
+	pop af
+	ld [wCurBattleMon], a
 	call PlayerMonFaintedAnimation
 	ld hl, BattleText_MonFainted
 	jr .done_fainted
@@ -5885,8 +5915,7 @@ CheckPlayerHasUsableMoves:
 	jr .loop
 
 .done
-; BUG: A Disabled but PP Up–enhanced move may not trigger Struggle (see docs/bugs_and_glitches.md)
-	and a
+	and PP_MASK
 	ret nz
 
 .force_struggle
@@ -7752,7 +7781,6 @@ SendOutMonText:
 	ld hl, GoMonText
 	jr z, .skip_to_textbox
 
-; BUG: Switching out or switching against a Pokémon with max HP below 4 freezes the game (see docs/bugs_and_glitches.md)
 	; compute enemy health remaining as a percentage
 	xor a
 	ldh [hMultiplicand + 0], a
@@ -7763,16 +7791,22 @@ SendOutMonText:
 	ld a, [hl]
 	ld [wEnemyHPAtTimeOfPlayerSwitch + 1], a
 	ldh [hMultiplicand + 2], a
-	ld a, 25
-	ldh [hMultiplier], a
-	call Multiply
 	ld hl, wEnemyMonMaxHP
 	ld a, [hli]
 	ld b, [hl]
-	srl a
+	ld c, 100
+	and a
+	jr z, .shift_done
+.shift
+	rra
 	rr b
-	srl a
-	rr b
+	srl c
+	and a
+	jr nz, .shift
+.shift_done
+	ld a, c
+	ldh [hMultiplier], a
+	call Multiply
 	ld a, b
 	ld b, 4
 	ldh [hDivisor], a
@@ -7844,16 +7878,22 @@ WithdrawMonText:
 	ld a, [de]
 	sbc b
 	ldh [hMultiplicand + 1], a
-	ld a, 25
-	ldh [hMultiplier], a
-	call Multiply
 	ld hl, wEnemyMonMaxHP
 	ld a, [hli]
 	ld b, [hl]
-	srl a
+	ld c, 100
+	and a
+	jr z, .shift_done
+.shift
+	rra
 	rr b
-	srl a
-	rr b
+	srl c
+	and a
+	jr nz, .shift
+.shift_done
+	ld a, c
+	ldh [hMultiplier], a
+	call Multiply
 	ld a, b
 	ld b, 4
 	ldh [hDivisor], a

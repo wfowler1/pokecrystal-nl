@@ -16,27 +16,27 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
 ## Contents
 
 - [Multi-player battle engine](#multi-player-battle-engine)
-  - [Perish Song and Spikes can leave a Pokémon with 0 HP and not faint](#perish-song-and-spikes-can-leave-a-pok%C3%A9mon-with-0-hp-and-not-faint)
-  - [Thick Club and Light Ball can make (Special) Attack wrap around above 1024](#thick-club-and-light-ball-can-make-special-attack-wrap-around-above-1024)
-  - [Metal Powder can increase damage taken with boosted (Special) Defense](#metal-powder-can-increase-damage-taken-with-boosted-special-defense)
-  - [Reflect and Light Screen can make (Special) Defense wrap around above 1024](#reflect-and-light-screen-can-make-special-defense-wrap-around-above-1024)
-  - [Moves with a 100% secondary effect chance will not trigger it in 1/256 uses](#moves-with-a-100-secondary-effect-chance-will-not-trigger-it-in-1256-uses)
-  - [Belly Drum sharply boosts Attack even with under 50% HP](#belly-drum-sharply-boosts-attack-even-with-under-50-hp)
-  - [Berserk Gene's confusion lasts for 256 turns or the previous Pokémon's confusion count](#berserk-genes-confusion-lasts-for-256-turns-or-the-previous-pok%C3%A9mons-confusion-count)
-  - [Confusion damage is affected by type-boosting items and Explosion/Self-Destruct doubling](#confusion-damage-is-affected-by-type-boosting-items-and-explosionself-destruct-doubling)
-  - [Moves that lower Defense can do so after breaking a Substitute](#moves-that-lower-defense-can-do-so-after-breaking-a-substitute)
-  - [Counter and Mirror Coat still work if the opponent uses an item](#counter-and-mirror-coat-still-work-if-the-opponent-uses-an-item)
-  - [A Disabled but PP Up–enhanced move may not trigger Struggle](#a-disabled-but-pp-upenhanced-move-may-not-trigger-struggle)
-  - [A Pokémon that fainted from Pursuit will have its old status condition when revived](#a-pok%C3%A9mon-that-fainted-from-pursuit-will-have-its-old-status-condition-when-revived)
-  - [Lock-On and Mind Reader don't always bypass Fly and Dig](#lock-on-and-mind-reader-dont-always-bypass-fly-and-dig)
-  - [Beat Up can desynchronize link battles](#beat-up-can-desynchronize-link-battles)
-  - [Beat Up works incorrectly with only one Pokémon in the party](#beat-up-works-incorrectly-with-only-one-pok%C3%A9mon-in-the-party)
-  - [Beat Up may trigger King's Rock even if it failed](#beat-up-may-trigger-kings-rock-even-if-it-failed)
-  - [Present damage is incorrect in link battles](#present-damage-is-incorrect-in-link-battles)
-  - [Return and Frustration deal no damage when the user's happiness is low or high, respectively](#return-and-frustration-deal-no-damage-when-the-users-happiness-is-low-or-high-respectively)
-  - [Dragon Scale, not Dragon Fang, boosts Dragon-type moves](#dragon-scale-not-dragon-fang-boosts-dragon-type-moves)
-  - [Switching out or switching against a Pokémon with max HP below 4 freezes the game](#switching-out-or-switching-against-a-pok%C3%A9mon-with-max-HP-below-4-freezes-the-game)
-  - [Moves that do damage and increase your stats do not increase stats after a KO](#moves-that-do-damage-and-increase-your-stats-do-not-increase-stats-after-a-ko)
+  - [(FIXED) Perish Song and Spikes can leave a Pokémon with 0 HP and not faint](#(FIXED)-perish-song-and-spikes-can-leave-a-pok%C3%A9mon-with-0-hp-and-not-faint)
+  - [(FIXED) Thick Club and Light Ball can make (Special) Attack wrap around above 1024](#(FIXED)-thick-club-and-light-ball-can-make-special-attack-wrap-around-above-1024)
+  - [(FIXED) Metal Powder can increase damage taken with boosted (Special) Defense](#(FIXED)-metal-powder-can-increase-damage-taken-with-boosted-special-defense)
+  - [(FIXED) Reflect and Light Screen can make (Special) Defense wrap around above 1024](#(FIXED)-reflect-and-light-screen-can-make-special-defense-wrap-around-above-1024)
+  - [(FIXED) Moves with a 100% secondary effect chance will not trigger it in 1/256 uses](#(FIXED)-moves-with-a-100-secondary-effect-chance-will-not-trigger-it-in-1256-uses)
+  - [(FIXED) Belly Drum sharply boosts Attack even with under 50% HP](#(FIXED)-belly-drum-sharply-boosts-attack-even-with-under-50-hp)
+  - [(FIXED) Berserk Gene's confusion lasts for 256 turns or the previous Pokémon's confusion count](#(FIXED)-berserk-genes-confusion-lasts-for-256-turns-or-the-previous-pok%C3%A9mons-confusion-count)
+  - [(FIXED) Confusion damage is affected by type-boosting items and Explosion/Self-Destruct doubling](#(FIXED)-confusion-damage-is-affected-by-type-boosting-items-and-explosionself-destruct-doubling)
+  - [(FIXED) Moves that lower Defense can do so after breaking a Substitute](#(FIXED)-moves-that-lower-defense-can-do-so-after-breaking-a-substitute)
+  - [(FIXED) Counter and Mirror Coat still work if the opponent uses an item](#(FIXED)-counter-and-mirror-coat-still-work-if-the-opponent-uses-an-item)
+  - [(FIXED) A Disabled but PP Up–enhanced move may not trigger Struggle](#(FIXED)-a-disabled-but-pp-upenhanced-move-may-not-trigger-struggle)
+  - [(FIXED) A Pokémon that fainted from Pursuit will have its old status condition when revived](#(FIXED)-a-pok%C3%A9mon-that-fainted-from-pursuit-will-have-its-old-status-condition-when-revived)
+  - [(FIXED) Lock-On and Mind Reader don't always bypass Fly and Dig](#(FIXED)-lock-on-and-mind-reader-dont-always-bypass-fly-and-dig)
+  - [(FIXED) Beat Up can desynchronize link battles](#(FIXED)-beat-up-can-desynchronize-link-battles)
+  - [(FIXED) Beat Up works incorrectly with only one Pokémon in the party](#(FIXED)-beat-up-works-incorrectly-with-only-one-pok%C3%A9mon-in-the-party)
+  - [(FIXED) Beat Up may trigger King's Rock even if it failed](#(FIXED)-beat-up-may-trigger-kings-rock-even-if-it-failed)
+  - [(FIXED) Present damage is incorrect in link battles](#(FIXED)-present-damage-is-incorrect-in-link-battles)
+  - [(FIXED) Return and Frustration deal no damage when the user's happiness is low or high, respectively](#(FIXED)-return-and-frustration-deal-no-damage-when-the-users-happiness-is-low-or-high-respectively)
+  - [(FIXED) Dragon Scale, not Dragon Fang, boosts Dragon-type moves](#(FIXED)-dragon-scale-not-dragon-fang-boosts-dragon-type-moves)
+  - [(FIXED) Switching out or switching against a Pokémon with max HP below 4 freezes the game](#(FIXED)-switching-out-or-switching-against-a-pok%C3%A9mon-with-max-HP-below-4-freezes-the-game)
+  - [(FIXED) Moves that do damage and increase your stats do not increase stats after a KO](#(FIXED)-moves-that-do-damage-and-increase-your-stats-do-not-increase-stats-after-a-ko)
 - [Single-player battle engine](#single-player-battle-engine)
   - [A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves](#a-transformed-pok%C3%A9mon-can-use-sketch-and-learn-otherwise-unobtainable-moves)
   - [Catching a Transformed Pokémon always catches a Ditto](#catching-a-transformed-pok%C3%A9mon-always-catches-a-ditto)
@@ -118,7 +118,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
 ## Multi-player battle engine
 
 
-### Perish Song and Spikes can leave a Pokémon with 0 HP and not faint
+### (FIXED) Perish Song and Spikes can leave a Pokémon with 0 HP and not faint
 
 ([Video](https://www.youtube.com/watch?v=1IiPWw5fMf8&t=85))
 
@@ -166,7 +166,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
 ```
 
 
-### Thick Club and Light Ball can make (Special) Attack wrap around above 1024
+### (FIXED) Thick Club and Light Ball can make (Special) Attack wrap around above 1024
 
 ([Video](https://www.youtube.com/watch?v=rGqu3d3pdok&t=450))
 
@@ -192,7 +192,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
 ```
 
 
-### Metal Powder can increase damage taken with boosted (Special) Defense
+### (FIXED) Metal Powder can increase damage taken with boosted (Special) Defense
 
 ([Video](https://www.youtube.com/watch?v=rGqu3d3pdok&t=450))
 
@@ -279,7 +279,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
 ```
 
 
-### Reflect and Light Screen can make (Special) Defense wrap around above 1024
+### (FIXED) Reflect and Light Screen can make (Special) Defense wrap around above 1024
 
 This bug existed for all battles in Gold and Silver, and was only fixed for single-player battles in Crystal to preserve link compatibility.
 
@@ -306,7 +306,7 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
 (This fix also affects Thick Club, Light Ball, and Metal Powder, as described above, but their specific fixes in the above bugs allow more accurate damage calculations.)
 
 
-### Moves with a 100% secondary effect chance will not trigger it in 1/256 uses
+### (FIXED) Moves with a 100% secondary effect chance will not trigger it in 1/256 uses
 
 ([Video](https://www.youtube.com/watch?v=mHkyO5T5wZU&t=206))
 
@@ -347,7 +347,7 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
  	call c, BattleRandom
 ```
 
-### Belly Drum sharply boosts Attack even with under 50% HP
+### (FIXED) Belly Drum sharply boosts Attack even with under 50% HP
 
 ([Video](https://www.youtube.com/watch?v=zuCLMikWo4Y))
 
@@ -374,7 +374,7 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
 ```
 
 
-### Berserk Gene's confusion lasts for 256 turns or the previous Pokémon's confusion count
+### (FIXED) Berserk Gene's confusion lasts for 256 turns or the previous Pokémon's confusion count
 
 ([Video](https://youtube.com/watch?v=Pru3mohq20A))
 
@@ -406,7 +406,7 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
 This makes the Berserk Gene use the regular confusion duration (2–5 turns).
 
 
-### Confusion damage is affected by type-boosting items and Explosion/Self-Destruct doubling
+### (FIXED) Confusion damage is affected by type-boosting items and Explosion/Self-Destruct doubling
 
 ([Video](https://twitter.com/crystal_rby/status/874626362287562752))
 
@@ -499,7 +499,7 @@ Then edit four routines in [engine/battle/effect_commands.asm](https://github.co
 ```
 
 
-### Moves that lower Defense can do so after breaking a Substitute
+### (FIXED) Moves that lower Defense can do so after breaking a Substitute
 
 ([Video](https://www.youtube.com/watch?v=OGwKPRJLaaI))
 
@@ -534,7 +534,7 @@ This bug affects Acid, Iron Tail, and Rock Smash.
 ```
 
 
-### Counter and Mirror Coat still work if the opponent uses an item
+### (FIXED) Counter and Mirror Coat still work if the opponent uses an item
 
 ([Video](https://www.youtube.com/watch?v=uRYyzKRatFk))
 
@@ -560,7 +560,7 @@ Add this to the end of each file:
 ```
 
 
-### A Disabled but PP Up–enhanced move may not trigger Struggle
+### (FIXED) A Disabled but PP Up–enhanced move may not trigger Struggle
 
 ([Video](https://www.youtube.com/watch?v=1v9x4SgMggs))
 
@@ -583,7 +583,7 @@ Add this to the end of each file:
 ```
 
 
-### A Pokémon that fainted from Pursuit will have its old status condition when revived
+### (FIXED) A Pokémon that fainted from Pursuit will have its old status condition when revived
 
 ([Video](https://www.youtube.com/watch?v=tiRvw-Nb2ME))
 
@@ -612,7 +612,7 @@ Add this to the end of each file:
 ```
 
 
-### Lock-On and Mind Reader don't always bypass Fly and Dig
+### (FIXED) Lock-On and Mind Reader don't always bypass Fly and Dig
 
 This bug affects Attract, Curse, Foresight, Mean Look, Mimic, Nightmare, Spider Web, Transform, and stat-lowering effects of moves like String Shot or Bubble during the semi-invulnerable turn of Fly or Dig.
 
@@ -634,7 +634,7 @@ This bug affects Attract, Curse, Foresight, Mean Look, Mimic, Nightmare, Spider 
 ```
 
 
-### Beat Up can desynchronize link battles
+### (FIXED) Beat Up can desynchronize link battles
 
 ([Video](https://www.youtube.com/watch?v=202-iAsrIa8))
 
@@ -667,7 +667,7 @@ This bug affects Attract, Curse, Foresight, Mean Look, Mimic, Nightmare, Spider 
 ```
 
 
-### Beat Up works incorrectly with only one Pokémon in the party
+### (FIXED) Beat Up works incorrectly with only one Pokémon in the party
 
 This bug prevents the rest of Beat Up's effect from being executed if the player or enemy only has one Pokémon in their party while using it. It prevents Substitute from being raised and King's Rock from working.
 
@@ -698,7 +698,7 @@ This bug prevents the rest of Beat Up's effect from being executed if the player
 ```
 
 
-### Beat Up may trigger King's Rock even if it failed
+### (FIXED) Beat Up may trigger King's Rock even if it failed
 
 **Fix:** Edit `BattleCommand_BeatUpFailText` in [engine/battle/move_effects/beat_up.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/move_effects/beat_up.asm):
 
@@ -716,7 +716,7 @@ This bug prevents the rest of Beat Up's effect from being executed if the player
 ```
 
 
-### Present damage is incorrect in link battles
+### (FIXED) Present damage is incorrect in link battles
 
 ([Video](https://www.youtube.com/watch?v=XJaQoKtrEuw))
 
@@ -745,7 +745,7 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
 ```
 
 
-### Return and Frustration deal no damage when the user's happiness is low or high, respectively
+### (FIXED) Return and Frustration deal no damage when the user's happiness is low or high, respectively
 
 This happens because the user's happiness (or 255 − happiness for Frustration) is multiplied by 10 and divided by 25, which rounds down to zero when the happiness is 0–2 (or 253–255 for Frustration).
 
@@ -794,7 +794,7 @@ And edit [engine/battle/move_effects/frustration.asm](https://github.com/pret/po
 ```
 
 
-### Dragon Scale, not Dragon Fang, boosts Dragon-type moves
+### (FIXED) Dragon Scale, not Dragon Fang, boosts Dragon-type moves
 
 **Fix:** Edit `ItemAttributes` in [data/items/attributes.asm](https://github.com/pret/pokecrystal/blob/master/data/items/attributes.asm):
 
@@ -810,7 +810,7 @@ And edit [engine/battle/move_effects/frustration.asm](https://github.com/pret/po
 ```
 
 
-### Switching out or switching against a Pokémon with max HP below 4 freezes the game
+### (FIXED) Switching out or switching against a Pokémon with max HP below 4 freezes the game
 
 This happens because switching involves calculating a percentage of maximum enemy HP. Directly calculating *HP* × 100 / *max HP* would require a two-byte denominator, so instead the game calculates *HP* × 25 / (*max HP* / 4), since even a maximum HP of 999 divided by 4 is 249, which fits in one byte. However, if the maximum HP is below 4 this will divide by 0, which enters an infinite loop in `_Divide`.
 
@@ -905,7 +905,7 @@ Then edit `WithdrawMonText` in the same file:
 This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the smallest necessary *N*, which will be at least 1, so it avoids dividing by zero and is also more accurate.
 
 
-### Moves that do damage and increase your stats do not increase stats after a KO
+### (FIXED) Moves that do damage and increase your stats do not increase stats after a KO
 
 `BattleCommand_CheckFaint` "ends the move effect if the opponent faints", and these moves attempt to raise the user's stats *after* `checkfaint`. Note that fixing this can lead to stats being increased at the end of battle, but will not have any negative effects.
 
