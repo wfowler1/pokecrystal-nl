@@ -16,27 +16,27 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
 ## Contents
 
 - [Multi-player battle engine](#multi-player-battle-engine)
-  - [(FIXED) Perish Song and Spikes can leave a Pokémon with 0 HP and not faint](#(FIXED)-perish-song-and-spikes-can-leave-a-pok%C3%A9mon-with-0-hp-and-not-faint)
-  - [(FIXED) Thick Club and Light Ball can make (Special) Attack wrap around above 1024](#(FIXED)-thick-club-and-light-ball-can-make-special-attack-wrap-around-above-1024)
-  - [(FIXED) Metal Powder can increase damage taken with boosted (Special) Defense](#(FIXED)-metal-powder-can-increase-damage-taken-with-boosted-special-defense)
-  - [(FIXED) Reflect and Light Screen can make (Special) Defense wrap around above 1024](#(FIXED)-reflect-and-light-screen-can-make-special-defense-wrap-around-above-1024)
-  - [(FIXED) Moves with a 100% secondary effect chance will not trigger it in 1/256 uses](#(FIXED)-moves-with-a-100-secondary-effect-chance-will-not-trigger-it-in-1256-uses)
-  - [(FIXED) Belly Drum sharply boosts Attack even with under 50% HP](#(FIXED)-belly-drum-sharply-boosts-attack-even-with-under-50-hp)
-  - [(FIXED) Berserk Gene's confusion lasts for 256 turns or the previous Pokémon's confusion count](#(FIXED)-berserk-genes-confusion-lasts-for-256-turns-or-the-previous-pok%C3%A9mons-confusion-count)
-  - [(FIXED) Confusion damage is affected by type-boosting items and Explosion/Self-Destruct doubling](#(FIXED)-confusion-damage-is-affected-by-type-boosting-items-and-explosionself-destruct-doubling)
-  - [(FIXED) Moves that lower Defense can do so after breaking a Substitute](#(FIXED)-moves-that-lower-defense-can-do-so-after-breaking-a-substitute)
-  - [(FIXED) Counter and Mirror Coat still work if the opponent uses an item](#(FIXED)-counter-and-mirror-coat-still-work-if-the-opponent-uses-an-item)
-  - [(FIXED) A Disabled but PP Up–enhanced move may not trigger Struggle](#(FIXED)-a-disabled-but-pp-upenhanced-move-may-not-trigger-struggle)
-  - [(FIXED) A Pokémon that fainted from Pursuit will have its old status condition when revived](#(FIXED)-a-pok%C3%A9mon-that-fainted-from-pursuit-will-have-its-old-status-condition-when-revived)
-  - [(FIXED) Lock-On and Mind Reader don't always bypass Fly and Dig](#(FIXED)-lock-on-and-mind-reader-dont-always-bypass-fly-and-dig)
-  - [(FIXED) Beat Up can desynchronize link battles](#(FIXED)-beat-up-can-desynchronize-link-battles)
-  - [(FIXED) Beat Up works incorrectly with only one Pokémon in the party](#(FIXED)-beat-up-works-incorrectly-with-only-one-pok%C3%A9mon-in-the-party)
-  - [(FIXED) Beat Up may trigger King's Rock even if it failed](#(FIXED)-beat-up-may-trigger-kings-rock-even-if-it-failed)
-  - [(FIXED) Present damage is incorrect in link battles](#(FIXED)-present-damage-is-incorrect-in-link-battles)
-  - [(FIXED) Return and Frustration deal no damage when the user's happiness is low or high, respectively](#(FIXED)-return-and-frustration-deal-no-damage-when-the-users-happiness-is-low-or-high-respectively)
-  - [(FIXED) Dragon Scale, not Dragon Fang, boosts Dragon-type moves](#(FIXED)-dragon-scale-not-dragon-fang-boosts-dragon-type-moves)
-  - [(FIXED) Switching out or switching against a Pokémon with max HP below 4 freezes the game](#(FIXED)-switching-out-or-switching-against-a-pok%C3%A9mon-with-max-HP-below-4-freezes-the-game)
-  - [(FIXED) Moves that do damage and increase your stats do not increase stats after a KO](#(FIXED)-moves-that-do-damage-and-increase-your-stats-do-not-increase-stats-after-a-ko)
+  - [(FIXED) Perish Song and Spikes can leave a Pokémon with 0 HP and not faint](#(fixed)-perish-song-and-spikes-can-leave-a-pok%C3%A9mon-with-0-hp-and-not-faint)
+  - [(FIXED) Thick Club and Light Ball can make (Special) Attack wrap around above 1024](#(fixed)-thick-club-and-light-ball-can-make-special-attack-wrap-around-above-1024)
+  - [(FIXED) Metal Powder can increase damage taken with boosted (Special) Defense](#(fixed)-metal-powder-can-increase-damage-taken-with-boosted-special-defense)
+  - [(FIXED) Reflect and Light Screen can make (Special) Defense wrap around above 1024](#(fixed)-reflect-and-light-screen-can-make-special-defense-wrap-around-above-1024)
+  - [(FIXED) Moves with a 100% secondary effect chance will not trigger it in 1/256 uses](#(fixed)-moves-with-a-100-secondary-effect-chance-will-not-trigger-it-in-1256-uses)
+  - [(FIXED) Belly Drum sharply boosts Attack even with under 50% HP](#(fixed)-belly-drum-sharply-boosts-attack-even-with-under-50-hp)
+  - [(FIXED) Berserk Gene's confusion lasts for 256 turns or the previous Pokémon's confusion count](#(fixed)-berserk-genes-confusion-lasts-for-256-turns-or-the-previous-pok%C3%A9mons-confusion-count)
+  - [(FIXED) Confusion damage is affected by type-boosting items and Explosion/Self-Destruct doubling](#(fixed)-confusion-damage-is-affected-by-type-boosting-items-and-explosionself-destruct-doubling)
+  - [(FIXED) Moves that lower Defense can do so after breaking a Substitute](#(fixed)-moves-that-lower-defense-can-do-so-after-breaking-a-substitute)
+  - [(FIXED) Counter and Mirror Coat still work if the opponent uses an item](#(fixed)-counter-and-mirror-coat-still-work-if-the-opponent-uses-an-item)
+  - [(FIXED) A Disabled but PP Up–enhanced move may not trigger Struggle](#(fixed)-a-disabled-but-pp-upenhanced-move-may-not-trigger-struggle)
+  - [(FIXED) A Pokémon that fainted from Pursuit will have its old status condition when revived](#(fixed)-a-pok%C3%A9mon-that-fainted-from-pursuit-will-have-its-old-status-condition-when-revived)
+  - [(FIXED) Lock-On and Mind Reader don't always bypass Fly and Dig](#(fixed)-lock-on-and-mind-reader-dont-always-bypass-fly-and-dig)
+  - [(FIXED) Beat Up can desynchronize link battles](#(fixed)-beat-up-can-desynchronize-link-battles)
+  - [(FIXED) Beat Up works incorrectly with only one Pokémon in the party](#(fixed)-beat-up-works-incorrectly-with-only-one-pok%C3%A9mon-in-the-party)
+  - [(FIXED) Beat Up may trigger King's Rock even if it failed](#(fixed)-beat-up-may-trigger-kings-rock-even-if-it-failed)
+  - [(FIXED) Present damage is incorrect in link battles](#(fixed)-present-damage-is-incorrect-in-link-battles)
+  - [(FIXED) Return and Frustration deal no damage when the user's happiness is low or high, respectively](#(fixed)-return-and-frustration-deal-no-damage-when-the-users-happiness-is-low-or-high-respectively)
+  - [(FIXED) Dragon Scale, not Dragon Fang, boosts Dragon-type moves](#(fixed)-dragon-scale-not-dragon-fang-boosts-dragon-type-moves)
+  - [(FIXED) Switching out or switching against a Pokémon with max HP below 4 freezes the game](#(fixed)-switching-out-or-switching-against-a-pok%C3%A9mon-with-max-HP-below-4-freezes-the-game)
+  - [(FIXED) Moves that do damage and increase your stats do not increase stats after a KO](#(fixed)-moves-that-do-damage-and-increase-your-stats-do-not-increase-stats-after-a-ko)
 - [Single-player battle engine](#single-player-battle-engine)
   - [A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves](#a-transformed-pok%C3%A9mon-can-use-sketch-and-learn-otherwise-unobtainable-moves)
   - [Catching a Transformed Pokémon always catches a Ditto](#catching-a-transformed-pok%C3%A9mon-always-catches-a-ditto)
@@ -63,30 +63,30 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [`HELD_CATCH_CHANCE` has no effect](#held_catch_chance-has-no-effect)
   - [Credits sequence changes move selection menu behavior](#credits-sequence-changes-move-selection-menu-behavior)
 - [Overworld engine](#overworld-engine)
-  - [(FIXED) `LoadMetatiles` wraps around past 128 blocks](#(FIXED)-loadmetatiles-wraps-around-past-128-blocks)
-  - [(FIXED) Surfing directly across a map connection does not load the new map](#(FIXED)-surfing-directly-across-a-map-connection-does-not-load-the-new-map)
-  - [(FIXED) Swimming NPCs aren't limited by their movement radius](#(FIXED)-swimming-npcs-arent-limited-by-their-movement-radius)
-  - [(FIXED) You can fish on top of NPCs](#(FIXED)-you-can-fish-on-top-of-npcs)
-  - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#(FIXED)-pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
+  - [(FIXED) `LoadMetatiles` wraps around past 128 blocks](#(fixed)-loadmetatiles-wraps-around-past-128-blocks)
+  - [(FIXED) Surfing directly across a map connection does not load the new map](#(fixed)-surfing-directly-across-a-map-connection-does-not-load-the-new-map)
+  - [(FIXED) Swimming NPCs aren't limited by their movement radius](#(fixed)-swimming-npcs-arent-limited-by-their-movement-radius)
+  - [(FIXED) You can fish on top of NPCs](#(fixed)-you-can-fish-on-top-of-npcs)
+  - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#(fixed)-pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
 - [Graphics](#graphics)
-  - [(FIXED) In-battle “`…`” ellipsis is too high](#(FIXED)-in-battle--ellipsis-is-too-high)
-  - [(FIXED) Two tiles in the `port` tileset are drawn incorrectly](#(FIXED)-two-tiles-in-the-port-tileset-are-drawn-incorrectly)
+  - [(FIXED) In-battle “`…`” ellipsis is too high](#(fixed)-in-battle--ellipsis-is-too-high)
+  - [(FIXED) Two tiles in the `port` tileset are drawn incorrectly](#(fixed)-two-tiles-in-the-port-tileset-are-drawn-incorrectly)
   - [The Ruins of Alph research center's roof color at night looks wrong](#the-ruins-of-alph-research-centers-roof-color-at-night-looks-wrong)
   - [Slowpoke Well's stones use the wrong corner tile](#slowpoke-wells-stones-use-the-wrong-corner-tile)
-  - [(FIXED) A hatching Unown egg would not show the right letter](#(FIXED)-a-hatching-unown-egg-would-not-show-the-right-letter)
-  - [(FIXED) Beat Up may fail to raise Substitute](#(FIXED)-beat-up-may-fail-to-raise-substitute)
-  - [(FIXED) HP bar animation is slow for high HP](#(FIXED)-hp-bar-animation-is-slow-for-high-hp)
-  - [(FIXED) HP bar animation off-by-one error for low HP](#(FIXED)-hp-bar-animation-off-by-one-error-for-low-hp)
-  - [(FIXED) Using a Park Ball in non-Contest battles has a corrupt animation](#(FIXED)-using-a-park-ball-in-non-contest-battles-has-a-corrupt-animation)
-  - [(FIXED) Battle transitions fail to account for the enemy's level](#(FIXED)-battle-transitions-fail-to-account-for-the-enemys-level)
+  - [(FIXED) A hatching Unown egg would not show the right letter](#(fixed)-a-hatching-unown-egg-would-not-show-the-right-letter)
+  - [(FIXED) Beat Up may fail to raise Substitute](#(fixed)-beat-up-may-fail-to-raise-substitute)
+  - [(FIXED) HP bar animation is slow for high HP](#(fixed)-hp-bar-animation-is-slow-for-high-hp)
+  - [(FIXED) HP bar animation off-by-one error for low HP](#(fixed)-hp-bar-animation-off-by-one-error-for-low-hp)
+  - [(FIXED) Using a Park Ball in non-Contest battles has a corrupt animation](#(fixed)-using-a-park-ball-in-non-contest-battles-has-a-corrupt-animation)
+  - [(FIXED) Battle transitions fail to account for the enemy's level](#(fixed)-battle-transitions-fail-to-account-for-the-enemys-level)
   - [Some trainer NPCs have inconsistent overworld sprites](#some-trainer-npcs-have-inconsistent-overworld-sprites)
-  - [(FIXED) Tackle is missing part of its hit animation](#(FIXED)-tackle-is-missing-part-of-its-hit-animation)
+  - [(FIXED) Tackle is missing part of its hit animation](#(fixed)-tackle-is-missing-part-of-its-hit-animation)
 - [Audio](#audio)
-  - [Slot machine payout sound effects cut each other off](#slot-machine-payout-sound-effects-cut-each-other-off)
-  - [Team Rocket battle music is not used for Executives or Scientists](#team-rocket-battle-music-is-not-used-for-executives-or-scientists)
-  - [No bump noise if standing on tile `$3E`](#no-bump-noise-if-standing-on-tile-3e)
-  - [Playing Entei's Pokédex cry can distort Raikou's and Suicune's](#playing-enteis-pok%C3%A9dex-cry-can-distort-raikous-and-suicunes)
-  - [`SFX_RUN` does not play correctly when a wild Pokémon flees from battle](#sfx_run-does-not-play-correctly-when-a-wild-pok%C3%A9mon-flees-from-battle)
+  - [(FIXED) Slot machine payout sound effects cut each other off](#(fixed)-slot-machine-payout-sound-effects-cut-each-other-off)
+  - [(FIXED) Team Rocket battle music is not used for Executives or Scientists](#(fixed)-team-rocket-battle-music-is-not-used-for-executives-or-scientists)
+  - [(FIXED) No bump noise if standing on tile `$3E`](#(fixed)-no-bump-noise-if-standing-on-tile-3e)
+  - [(FIXED) Playing Entei's Pokédex cry can distort Raikou's and Suicune's](#(fixed)-playing-enteis-pok%C3%A9dex-cry-can-distort-raikous-and-suicunes)
+  - [(FIXED) `SFX_RUN` does not play correctly when a wild Pokémon flees from battle](#(fixed)-sfx_run-does-not-play-correctly-when-a-wild-pok%C3%A9mon-flees-from-battle)
 - [Text](#text)
   - [Five-digit experience gain is printed incorrectly](#five-digit-experience-gain-is-printed-incorrectly)
   - [Only the first three evolution entries can have Stone compatibility reported correctly](#only-the-first-three-evolution-entries-can-have-stone-compatibility-reported-correctly)
@@ -104,15 +104,15 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon](#mania-uses-wrong-dialogue-for-trying-to-return-shuckie-with-no-other-pok%C3%A9mon)
 - [Internal engine routines](#internal-engine-routines)
   - [Saves corrupted by mid-save shutoff are not handled](#saves-corrupted-by-mid-save-shutoff-are-not-handled)
-  - [(FIXED) `ScriptCall` can overflow `wScriptStack` and crash](#(FIXED)-scriptcall-can-overflow-wscriptstack-and-crash)
-  - [(FIXED) `LoadSpriteGFX` does not limit the capacity of `UsedSprites`](#(FIXED)-loadspritegfx-does-not-limit-the-capacity-of-usedsprites)
-  - [(FIXED) `ChooseWildEncounter` doesn't really validate the wild Pokémon species](#(FIXED)-choosewildencounter-doesnt-really-validate-the-wild-pok%C3%A9mon-species)
-  - [(FIXED) `RandomUnseenWildMon` always picks a morning Pokémon species](#(FIXED)-randomunseenwildmon-always-picks-a-morning-pok%C3%A9mon-species)
-  - [(FIXED) `TryObjectEvent` arbitrary code execution](#(FIXED)-tryobjectevent-arbitrary-code-execution)
-  - [(FIXED) `ReadObjectEvents` overflows into `wObjectMasks`](#(FIXED)-readobjectevents-overflows-into-wobjectmasks)
-  - [(FIXED) `ClearWRAM` only clears WRAM bank 1](#(FIXED)-clearwram-only-clears-wram-bank-1)
-  - [(FIXED) `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects](#(FIXED)-battleanimcmd_clearobjs-only-clears-the-first-6-objects)
-  - [(FIXED) Options menu fails to clear joypad state on initialization](#(FIXED)-options-menu-fails-to-clear-joypad-state-on-initialization)
+  - [(FIXED) `ScriptCall` can overflow `wScriptStack` and crash](#(fixed)-scriptcall-can-overflow-wscriptstack-and-crash)
+  - [(FIXED) `LoadSpriteGFX` does not limit the capacity of `UsedSprites`](#(fixed)-loadspritegfx-does-not-limit-the-capacity-of-usedsprites)
+  - [(FIXED) `ChooseWildEncounter` doesn't really validate the wild Pokémon species](#(fixed)-choosewildencounter-doesnt-really-validate-the-wild-pok%C3%A9mon-species)
+  - [(FIXED) `RandomUnseenWildMon` always picks a morning Pokémon species](#(fixed)-randomunseenwildmon-always-picks-a-morning-pok%C3%A9mon-species)
+  - [(FIXED) `TryObjectEvent` arbitrary code execution](#(fixed)-tryobjectevent-arbitrary-code-execution)
+  - [(FIXED) `ReadObjectEvents` overflows into `wObjectMasks`](#(fixed)-readobjectevents-overflows-into-wobjectmasks)
+  - [(FIXED) `ClearWRAM` only clears WRAM bank 1](#(fixed)-clearwram-only-clears-wram-bank-1)
+  - [(FIXED) `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects](#(fixed)-battleanimcmd_clearobjs-only-clears-the-first-6-objects)
+  - [(FIXED) Options menu fails to clear joypad state on initialization](#(fixed)-options-menu-fails-to-clear-joypad-state-on-initialization)
 
 
 ## Multi-player battle engine
@@ -2129,7 +2129,7 @@ Copying two rows causes `BATTLE_BG_EFFECT_TACKLE` to hit the horizontal sprite l
 ## Audio
 
 
-### Slot machine payout sound effects cut each other off
+### (FIXED) Slot machine payout sound effects cut each other off
 
 ([Video](https://www.youtube.com/watch?v=ojq3xqfRF6I))
 
@@ -2151,7 +2151,7 @@ Copying two rows causes `BATTLE_BG_EFFECT_TACKLE` to hit the horizontal sprite l
 ```
 
 
-### Team Rocket battle music is not used for Executives or Scientists
+### (FIXED) Team Rocket battle music is not used for Executives or Scientists
 
 **Fix:** Edit `PlayBattleMusic` in [engine/battle/start_battle.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/start_battle.asm):
 
@@ -2171,7 +2171,7 @@ Copying two rows causes `BATTLE_BG_EFFECT_TACKLE` to hit the horizontal sprite l
 ```
 
 
-### No bump noise if standing on tile `$3E`
+### (FIXED) No bump noise if standing on tile `$3E`
 
 If `[wWalkingDirection]` is `STANDING` (`$FF`), this will check `[.EdgeWarps + $ff]`, which happens to be `$3E`.
 
@@ -2200,7 +2200,7 @@ If `[wWalkingDirection]` is `STANDING` (`$FF`), this will check `[.EdgeWarps + $
 ```
 
 
-### Playing Entei's Pokédex cry can distort Raikou's and Suicune's
+### (FIXED) Playing Entei's Pokédex cry can distort Raikou's and Suicune's
 
 ([Video](https://www.youtube.com/watch?v=z305e4sIO24))
 
@@ -2223,7 +2223,7 @@ The exact cause of this bug is unknown.
 ```
 
 
-### `SFX_RUN` does not play correctly when a wild Pokémon flees from battle
+### (FIXED) `SFX_RUN` does not play correctly when a wild Pokémon flees from battle
 
 **Fix:** Edit `WildFled_EnemyFled_LinkBattleCanceled` in [engine/battle/core.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/core.asm):
 
