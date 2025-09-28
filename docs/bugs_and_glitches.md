@@ -63,11 +63,11 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [`HELD_CATCH_CHANCE` has no effect](#held_catch_chance-has-no-effect)
   - [Credits sequence changes move selection menu behavior](#credits-sequence-changes-move-selection-menu-behavior)
 - [Overworld engine](#overworld-engine)
-  - [`LoadMetatiles` wraps around past 128 blocks](#loadmetatiles-wraps-around-past-128-blocks)
-  - [Surfing directly across a map connection does not load the new map](#surfing-directly-across-a-map-connection-does-not-load-the-new-map)
-  - [Swimming NPCs aren't limited by their movement radius](#swimming-npcs-arent-limited-by-their-movement-radius)
-  - [You can fish on top of NPCs](#you-can-fish-on-top-of-npcs)
-  - [Pokémon deposited in the Day-Care might lose experience](#pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
+  - [(FIXED) `LoadMetatiles` wraps around past 128 blocks](#loadmetatiles-wraps-around-past-128-blocks)
+  - [(FIXED) Surfing directly across a map connection does not load the new map](#surfing-directly-across-a-map-connection-does-not-load-the-new-map)
+  - [(FIXED) Swimming NPCs aren't limited by their movement radius](#swimming-npcs-arent-limited-by-their-movement-radius)
+  - [(FIXED) You can fish on top of NPCs](#you-can-fish-on-top-of-npcs)
+  - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
 - [Graphics](#graphics)
   - [In-battle “`…`” ellipsis is too high](#in-battle--ellipsis-is-too-high)
   - [Two tiles in the `port` tileset are drawn incorrectly](#two-tiles-in-the-port-tileset-are-drawn-incorrectly)
@@ -105,7 +105,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
 - [Internal engine routines](#internal-engine-routines)
   - [Saves corrupted by mid-save shutoff are not handled](#saves-corrupted-by-mid-save-shutoff-are-not-handled)
   - [`ScriptCall` can overflow `wScriptStack` and crash](#scriptcall-can-overflow-wscriptstack-and-crash)
-  - [`LoadSpriteGFX` does not limit the capacity of `UsedSprites`](#loadspritegfx-does-not-limit-the-capacity-of-usedsprites)
+  - [(FIXED) `LoadSpriteGFX` does not limit the capacity of `UsedSprites`](#loadspritegfx-does-not-limit-the-capacity-of-usedsprites)
   - [`ChooseWildEncounter` doesn't really validate the wild Pokémon species](#choosewildencounter-doesnt-really-validate-the-wild-pok%C3%A9mon-species)
   - [`RandomUnseenWildMon` always picks a morning Pokémon species](#randomunseenwildmon-always-picks-a-morning-pok%C3%A9mon-species)
   - [`TryObjectEvent` arbitrary code execution](#tryobjectevent-arbitrary-code-execution)
@@ -1564,7 +1564,7 @@ The `[hInMenu]` value determines this button behavior. However, the battle moves
 ## Overworld engine
 
 
-### `LoadMetatiles` wraps around past 128 blocks
+### (FIXED) `LoadMetatiles` wraps around past 128 blocks
 
 This bug prevents you from using blocksets with more than 128 blocks.
 
@@ -1589,7 +1589,7 @@ This bug prevents you from using blocksets with more than 128 blocks.
 ```
 
 
-### Surfing directly across a map connection does not load the new map
+### (FIXED) Surfing directly across a map connection does not load the new map
 
 ([Video](https://www.youtube.com/watch?v=XFOWvMNG-zw))
 
@@ -1658,7 +1658,7 @@ Then edit `SurfStartStep` in [engine/overworld/player_object.asm](https://github
 This fix will make the player enter the water at a normal walking speed, not with a slow step.
 
 
-### Swimming NPCs aren't limited by their movement radius
+### (FIXED) Swimming NPCs aren't limited by their movement radius
 
 This bug is why the Lapras in [maps/UnionCaveB2F.asm](https://github.com/pret/pokecrystal/blob/master/maps/UnionCaveB2F.asm), which uses `SPRITEMOVEDATA_SWIM_WANDER`, is not restricted by its `1, 1` movement radius.
 
@@ -1673,7 +1673,7 @@ This bug is why the Lapras in [maps/UnionCaveB2F.asm](https://github.com/pret/po
 ```
 
 
-### You can fish on top of NPCs
+### (FIXED) You can fish on top of NPCs
 
 **Fix**: Edit [engine/events/overworld.asm](https://github.com/pret/pokecrystal/blob/master/engine/events/overworld.asm):
 
@@ -1701,7 +1701,7 @@ This bug is why the Lapras in [maps/UnionCaveB2F.asm](https://github.com/pret/po
 ```
 
 
-### Pokémon deposited in the Day-Care might lose experience
+### (FIXED) Pokémon deposited in the Day-Care might lose experience
 
 When a Pokémon is withdrawn from the Day-Care, its Exp. Points are reset to the minimum required for its level. This means that if it hadn't gained any levels while in the Day-Care, it may lose experience.
 
@@ -2637,7 +2637,7 @@ This allows Pokémon to be duplicated, among other effects. It does not have a s
 ```
 
 
-### `LoadSpriteGFX` does not limit the capacity of `UsedSprites`
+### (FIXED) `LoadSpriteGFX` does not limit the capacity of `UsedSprites`
 
 **Fix:** Edit `LoadSpriteGFX` in [engine/overworld/overworld.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/overworld.asm):
 

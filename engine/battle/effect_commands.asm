@@ -1862,6 +1862,7 @@ BattleCommand_CheckPowder:
 	ret nc
 
 ; If the opponent is Grass-type, the move fails.
+; TODO: Use CheckIfTargetIsGivenType
 	ld hl, wEnemyMonType1
 	ldh a, [hBattleTurn]
 	and a
