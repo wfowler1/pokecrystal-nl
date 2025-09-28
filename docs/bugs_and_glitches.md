@@ -88,10 +88,10 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) Playing Entei's Pokédex cry can distort Raikou's and Suicune's](#(fixed)-playing-enteis-pok%C3%A9dex-cry-can-distort-raikous-and-suicunes)
   - [(FIXED) `SFX_RUN` does not play correctly when a wild Pokémon flees from battle](#(fixed)-sfx_run-does-not-play-correctly-when-a-wild-pok%C3%A9mon-flees-from-battle)
 - [Text](#text)
-  - [Five-digit experience gain is printed incorrectly](#five-digit-experience-gain-is-printed-incorrectly)
-  - [Only the first three evolution entries can have Stone compatibility reported correctly](#only-the-first-three-evolution-entries-can-have-stone-compatibility-reported-correctly)
-  - [`EVOLVE_STAT` can break Stone compatibility reporting](#evolve_stat-can-break-stone-compatibility-reporting)
-  - [A "HOF Master!" title for 200-Time Famers is defined but inaccessible](#a-hof-master-title-for-200-time-famers-is-defined-but-inaccessible)
+  - [(FIXED) Five-digit experience gain is printed incorrectly](#(fixed)-five-digit-experience-gain-is-printed-incorrectly)
+  - [(FIXED) Only the first three evolution entries can have Stone compatibility reported correctly](#(fixed)-only-the-first-three-evolution-entries-can-have-stone-compatibility-reported-correctly)
+  - [(FIXED) `EVOLVE_STAT` can break Stone compatibility reporting](#(fixed)-evolve_stat-can-break-stone-compatibility-reporting)
+  - [(FIXED) A "HOF Master!" title for 200-Time Famers is defined but inaccessible](#(fixed)-a-hof-master-title-for-200-time-famers-is-defined-but-inaccessible)
 - [Scripted events](#scripted-events)
   - [Clair can give TM24 Dragonbreath twice](#clair-can-give-tm24-dragonbreath-twice)
   - [Daisy's grooming doesn't always increase happiness](#daisys-grooming-doesnt-always-increase-happiness)
@@ -2238,7 +2238,7 @@ The exact cause of this bug is unknown.
 ## Text
 
 
-### Five-digit experience gain is printed incorrectly
+### (FIXED) Five-digit experience gain is printed incorrectly
 
 ([Video](https://www.youtube.com/watch?v=o54VjpAEoO8))
 
@@ -2266,7 +2266,7 @@ The exact cause of this bug is unknown.
 ```
 
 
-### Only the first three evolution entries can have Stone compatibility reported correctly
+### (FIXED) Only the first three evolution entries can have Stone compatibility reported correctly
 
 **Workaround:** Edit `PlacePartyMonEvoStoneCompatibility.DetermineCompatibility` in [engine/pokemon/party_menu.asm](https://github.com/pret/pokecrystal/blob/master/engine/pokemon/party_menu.asm):
 
@@ -2291,7 +2291,7 @@ The exact cause of this bug is unknown.
 This supports up to six entries.
 
 
-### `EVOLVE_STAT` can break Stone compatibility reporting
+### (FIXED) `EVOLVE_STAT` can break Stone compatibility reporting
 
 **Fix:** Edit `PlacePartyMonEvoStoneCompatibility.DetermineCompatibility` in [engine/pokemon/party_menu.asm](https://github.com/pret/pokecrystal/blob/master/engine/pokemon/party_menu.asm):
 
@@ -2312,7 +2312,7 @@ This supports up to six entries.
 ```
 
 
-### A "HOF Master!" title for 200-Time Famers is defined but inaccessible
+### (FIXED) A "HOF Master!" title for 200-Time Famers is defined but inaccessible
 
 ([Video](https://www.youtube.com/watch?v=iHkWubvxmSg))
 
