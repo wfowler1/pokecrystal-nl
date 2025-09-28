@@ -89,7 +89,7 @@ SproutTower1FTeacherText:
 	text "Zie je hoe de pi-" ; "See the pillar"
 	line "laar schudt?" ; "shaking?"
 
-	para "mensen trainen" ; "People are train-"
+	para "Mensen trainen" ; "People are train-"
 	line "hierboven." ; "ing upstairs."
 	done
 
