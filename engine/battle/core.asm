@@ -158,6 +158,11 @@ WildFled_EnemyFled_LinkBattleCanceled:
 	ret
 
 BattleTurn:
+	ldh a, [hInMenu]
+	push af
+	ld a, 1 ; or "xor a" for the value 0
+	ldh [hInMenu], a
+
 .loop
 	call Stubbed_Increments5_a89a
 	call CheckContestBattleOver
@@ -230,6 +235,8 @@ BattleTurn:
 	jp .loop
 
 .quit
+	pop af
+	ldh [hInMenu], a
 	ret
 
 Stubbed_Increments5_a89a:
@@ -6555,7 +6562,7 @@ LoadEnemyMon:
 	ld bc, NUM_BATTLE_STATS * 2
 	call CopyBytes
 
-; BUG: PRZ and BRN stat reductions don't apply to switched Pokémon (see docs/bugs_and_glitches.md)
+	call ApplyStatusEffectOnEnemyStats
 	ret
 
 CheckSleepingTreeMon:
@@ -6948,10 +6955,11 @@ BadgeStatBoosts:
 	ld hl, wBattleMonAttack
 	ld c, 4
 .CheckBadge:
-; BUG: Glacier Badge may not boost Special Defense depending on the value of Special Attack (see docs/bugs_and_glitches.md)
 	ld a, b
 	srl b
+	push af
 	call c, BoostStat
+	pop af
 	inc hl
 	inc hl
 ; Check every other badge.
