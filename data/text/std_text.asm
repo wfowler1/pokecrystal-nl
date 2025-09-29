@@ -274,7 +274,7 @@ ContestResults_ReturnPartyText:
 	done
 
 ContestResults_PartyFullText:
-	text "Your team zit vol," ; "Your party's full,"
+	text "Je team zit vol," ; "Your party's full,"
 	line "dus de #MON is" ; "so the #MON was"
 
 	para "gestuurd naar je" ; "sent to your BOX"

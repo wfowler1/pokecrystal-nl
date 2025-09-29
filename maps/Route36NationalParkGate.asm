@@ -761,7 +761,7 @@ BugCatchingContestant7BStillCompetingText:
 BugCatchingContestant8BText:
 	text "JOSH: Ik… Ik kan" ; "JOSH: I… I can't"
 	line "niet geloven dat" ; "believe I lost at"
-	cont "ik verloor" ; "bug-catching…"
+	cont "ik verloor…" ; "bug-catching…"
 	done
 
 BugCatchingContestant8BStillCompetingText:
