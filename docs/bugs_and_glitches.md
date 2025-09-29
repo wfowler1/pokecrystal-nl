@@ -952,7 +952,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ## Single-player battle engine
 
 
-### A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves
+### (FIXED) A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves
 
 ([Video](https://www.youtube.com/watch?v=AFiBxAOkCGI))
 
@@ -970,7 +970,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ```
 
 
-### Catching a Transformed Pokémon always catches a Ditto
+### (FIXED) Catching a Transformed Pokémon always catches a Ditto
 
 **Fix:** Edit `PokeBallEffect` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1011,7 +1011,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ```
 
 
-### Experience underflow for level 1 Pokémon with Medium-Slow growth rate
+### (FIXED) Experience underflow for level 1 Pokémon with Medium-Slow growth rate
 
 ([Video](https://www.youtube.com/watch?v=SXH8u0plHrE))
 
@@ -1043,7 +1043,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ```
 
 
-### The Dude's catching tutorial may crash if his Poké Ball can't be used
+### (FIXED) The Dude's catching tutorial may crash if his Poké Ball can't be used
 
 ([Video](https://www.youtube.com/watch?v=A8zaTOkjKS4&t=407))
 
@@ -1075,7 +1075,7 @@ This can occur if your party and current PC box are both full when you start the
 ```
 
 
-### BRN/PSN/PAR do not affect catch rate
+### (FIXED) BRN/PSN/PAR do not affect catch rate
 
 **Fix:** Edit `PokeBallEffect` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1101,7 +1101,7 @@ This can occur if your party and current PC box are both full when you start the
 ```
 
 
-### Moon Ball does not boost catch rate
+### (FIXED) Moon Ball does not boost catch rate
 
 The Moon Ball checks the wrong memory address for the wrong item ID, so no Pokémon can receive the boost.
 
@@ -1125,7 +1125,7 @@ The Moon Ball checks the wrong memory address for the wrong item ID, so no Poké
 Note that this fix only accounts for Pokémon that evolve via Moon Stone as their first evolution method. However, that is sufficient to cover all Pokémon in the game that can evolve by Moon Stone.
 
 
-### Love Ball boosts catch rate for the wrong gender
+### (FIXED) Love Ball boosts catch rate for the wrong gender
 
 **Fix:** Edit `LoveBallMultiplier` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1142,7 +1142,7 @@ Note that this fix only accounts for Pokémon that evolve via Moon Stone as thei
 ```
 
 
-### Fast Ball only boosts catch rate for three Pokémon
+### (FIXED) Fast Ball only boosts catch rate for three Pokémon
 
 **Fix:** Edit `FastBallMultiplier` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1163,7 +1163,7 @@ Note that this fix only accounts for Pokémon that evolve via Moon Stone as thei
 ```
 
 
-### Heavy Ball uses wrong weight value for three Pokémon
+### (FIXED) Heavy Ball uses wrong weight value for three Pokémon
 
 `HeavyBall_GetDexEntryBank` gets the wrong bank for Kadabra (64), Tauros (128), and Sunflora (192).
 
@@ -1196,7 +1196,7 @@ Note that this fix only accounts for Pokémon that evolve via Moon Stone as thei
 ```
 
 
-### PRZ and BRN stat reductions don't apply to switched Pokémon
+### (FIXED) PRZ and BRN stat reductions don't apply to switched Pokémon
 
 This does not affect link battles or Battle Tower battles because those jump from `LoadEnemyMon` to `InitEnemyMon`, which already calls `ApplyStatusEffectOnEnemyStats`.
 
@@ -1214,7 +1214,7 @@ This does not affect link battles or Battle Tower battles because those jump fro
 ```
 
 
-### Glacier Badge may not boost Special Defense depending on the value of Special Attack
+### (FIXED) Glacier Badge may not boost Special Defense depending on the value of Special Attack
 
 Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies that Glacier Badge is intended to boost both Special Attack and Special Defense, but the Special Defense boost will not happen unless the unboosted Special Attack stat is 206–432, or 661 or above.
 
@@ -1240,7 +1240,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Smart" AI encourages Mean Look if its own Pokémon is badly poisoned
+### (FIXED) "Smart" AI encourages Mean Look if its own Pokémon is badly poisoned
 
 ([Video](https://www.youtube.com/watch?v=cygMO-zHTls))
 
@@ -1256,7 +1256,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Smart" AI discourages Conversion2 after the first turn
+### (FIXED) "Smart" AI discourages Conversion2 after the first turn
 
 **Fix:** Edit `AI_Smart_Conversion2` in [engine/battle/ai/scoring.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/scoring.asm):
 
@@ -1270,7 +1270,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Smart" AI does not encourage Sunny Day when it knows Solar Beam, Flame Wheel, or Moonlight
+### (FIXED) "Smart" AI does not encourage Sunny Day when it knows Solar Beam, Flame Wheel, or Moonlight
 
 **Fix:** Edit `SunnyDayMoves` in [data/battle/ai/sunny_day_moves.asm](https://github.com/pret/pokecrystal/blob/master/data/battle/ai/sunny_day_moves.asm):
 
@@ -1292,7 +1292,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Cautious" AI may fail to discourage residual moves
+### (FIXED) "Cautious" AI may fail to discourage residual moves
 
 **Fix:** Edit `AI_Cautious` in [engine/battle/ai/scoring.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/scoring.asm):
 
@@ -1318,7 +1318,7 @@ AI_Cautious:
 ```
 
 
-### AI does not discourage Future Sight when it's already been used
+### (FIXED) AI does not discourage Future Sight when it's already been used
 
 **Fix:** Edit `AI_Redundant` in [engine/battle/ai/redundant.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/redundant.asm):
 
@@ -1333,7 +1333,7 @@ AI_Cautious:
 ```
 
 
-### AI makes a false assumption about `CheckTypeMatchup`
+### (FIXED) AI makes a false assumption about `CheckTypeMatchup`
 
 **Fix:** Edit `BattleCheckTypeMatchup` in [engine/battle/effect_commands.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/effect_commands.asm):
 
@@ -1361,7 +1361,7 @@ AI_Cautious:
 ```
 
 
-### AI use of Full Heal or Full Restore does not cure Nightmare status
+### (FIXED) AI use of Full Heal or Full Restore does not cure Nightmare status
 
 ([Video](https://www.youtube.com/watch?v=rGqu3d3pdok&t=322))
 
@@ -1385,7 +1385,7 @@ AI_Cautious:
 ```
 
 
-### AI use of Full Heal does not cure confusion status
+### (FIXED) AI use of Full Heal does not cure confusion status
 
 **Fix:** Edit `EnemyUsedFullRestore`, and `AI_HealStatus` in [engine/battle/ai/items.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/items.asm):
 
@@ -1420,7 +1420,7 @@ AI_Cautious:
  	ret
 ```
 
-### AI might use its base reward value as an item
+### (FIXED) AI might use its base reward value as an item
 
 In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and then increments to `wEnemyTrainerItem2` to see if either of the AI's items are in the `AI_Items` list. However, if the AI has used its first item (or its first one is `ITEM_NONE`) and hasn't used its second item, the item pointer can increment from `wEnemyTrainerItem2` to `wEnemyTrainerBaseReward`. If the value at this address then matches an item in the `AI_Items` list, the AI could mistakenly use it.
 
@@ -1448,7 +1448,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### Wild Pokémon can always Teleport regardless of level difference
+### (FIXED) Wild Pokémon can always Teleport regardless of level difference
 
 **Fix:** Edit `BattleCommand_Teleport` in [engine/battle/move_effects/teleport.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/move_effects/teleport.asm):
 
@@ -1468,7 +1468,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### `RIVAL2` has lower DVs than `RIVAL1`
+### (FIXED) `RIVAL2` has lower DVs than `RIVAL1`
 
 `RIVAL1` is battled throughout the game. `RIVAL2` is battled at Indigo Plateau, and would not be expected to have worse DVs.
 
@@ -1483,7 +1483,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### `HELD_CATCH_CHANCE` has no effect
+### (FIXED) `HELD_CATCH_CHANCE` has no effect
 
 **Fix:** Edit `PokeBallEffect` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1506,7 +1506,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### Credits sequence changes move selection menu behavior
+### (FIXED) Credits sequence changes move selection menu behavior
 
 ([Video](https://www.youtube.com/watch?v=vjFUo6Jr4po&t=438))
 
