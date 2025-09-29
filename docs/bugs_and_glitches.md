@@ -93,15 +93,15 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) `EVOLVE_STAT` can break Stone compatibility reporting](#(fixed)-evolve_stat-can-break-stone-compatibility-reporting)
   - [(FIXED) A "HOF Master!" title for 200-Time Famers is defined but inaccessible](#(fixed)-a-hof-master-title-for-200-time-famers-is-defined-but-inaccessible)
 - [Scripted events](#scripted-events)
-  - [Clair can give TM24 Dragonbreath twice](#clair-can-give-tm24-dragonbreath-twice)
-  - [Daisy's grooming doesn't always increase happiness](#daisys-grooming-doesnt-always-increase-happiness)
-  - [Magikarp in Lake of Rage are shorter, not longer](#magikarp-in-lake-of-rage-are-shorter-not-longer)
-  - [Magikarp length limits have a unit conversion error](#magikarp-length-limits-have-a-unit-conversion-error)
-  - [Magikarp lengths can be miscalculated](#magikarp-lengths-can-be-miscalculated)
-  - [`CheckOwnMon` only checks the first five letters of OT names](#checkownmon-only-checks-the-first-five-letters-of-ot-names)
-  - [`CheckOwnMonAnywhere` does not check the Day-Care](#checkownmonanywhere-does-not-check-the-day-care)
-  - [The unused `phonecall` script command may crash](#the-unused-phonecall-script-command-may-crash)
-  - [Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon](#mania-uses-wrong-dialogue-for-trying-to-return-shuckie-with-no-other-pok%C3%A9mon)
+  - [(FIXED) Clair can give TM24 Dragonbreath twice](#(fixed)-clair-can-give-tm24-dragonbreath-twice)
+  - [(FIXED) Daisy's grooming doesn't always increase happiness](#(fixed)-daisys-grooming-doesnt-always-increase-happiness)
+  - [(FIXED) Magikarp in Lake of Rage are shorter, not longer](#(fixed)-magikarp-in-lake-of-rage-are-shorter-not-longer)
+  - [(FIXED) Magikarp length limits have a unit conversion error](#(fixed)-magikarp-length-limits-have-a-unit-conversion-error)
+  - [(FIXED) Magikarp lengths can be miscalculated](#(fixed)-magikarp-lengths-can-be-miscalculated)
+  - [(FIXED) `CheckOwnMon` only checks the first five letters of OT names](#(fixed)-checkownmon-only-checks-the-first-five-letters-of-ot-names)
+  - [(FIXED) `CheckOwnMonAnywhere` does not check the Day-Care](#(fixed)-checkownmonanywhere-does-not-check-the-day-care)
+  - [(FIXED) The unused `phonecall` script command may crash](#(fixed)-the-unused-phonecall-script-command-may-crash)
+  - [(FIXED) Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon](#(fixed)-mania-uses-wrong-dialogue-for-trying-to-return-shuckie-with-no-other-pok%C3%A9mon)
 - [Internal engine routines](#internal-engine-routines)
   - [Saves corrupted by mid-save shutoff are not handled](#saves-corrupted-by-mid-save-shutoff-are-not-handled)
   - [(FIXED) `ScriptCall` can overflow `wScriptStack` and crash](#(fixed)-scriptcall-can-overflow-wscriptstack-and-crash)
@@ -2335,7 +2335,7 @@ This supports up to six entries.
 ## Scripted events
 
 
-### Clair can give TM24 Dragonbreath twice
+### (FIXED) Clair can give TM24 Dragonbreath twice
 
 ([Video](https://www.youtube.com/watch?v=8BvBjqxmyOk))
 
@@ -2360,7 +2360,7 @@ And edit [maps/DragonsDenB1F.asm](https://github.com/pret/pokecrystal/blob/maste
 ```
 
 
-### Daisy's grooming doesn't always increase happiness
+### (FIXED) Daisy's grooming doesn't always increase happiness
 
 Subtracting `$FF` from `$FF` fails to set the carry flag, which results in a 0.4% chance that Daisy's grooming will not affect your Pokémon's happiness.
 
@@ -2405,7 +2405,7 @@ CopyPokemonName_Buffer1_Buffer3:
 ```
 
 
-### Magikarp in Lake of Rage are shorter, not longer
+### (FIXED) Magikarp in Lake of Rage are shorter, not longer
 
 `cp HIGH(1024)` should be `cp 3`, since 1024 mm = 3'4", but `HIGH(1024)` = 4.
 
@@ -2434,7 +2434,7 @@ CopyPokemonName_Buffer1_Buffer3:
 ```
 
 
-### Magikarp length limits have a unit conversion error
+### (FIXED) Magikarp length limits have a unit conversion error
 
 - `cp HIGH(1536)` should be `cp 5`, since 1536 mm = 5'0", but `HIGH(1536)` = 6.
 - `cp LOW(1616)` should be `cp 4`, since 1616 mm = 5'4", but `LOW(1616)` = 80.
@@ -2479,7 +2479,7 @@ CopyPokemonName_Buffer1_Buffer3:
 **Better fix:** Rewrite the whole system to use millimeters instead of feet and inches, since they have better precision (1 in = 25.4 mm); and only convert from metric to imperial units for display purposes (or don't, of course).
 
 
-### Magikarp lengths can be miscalculated
+### (FIXED) Magikarp lengths can be miscalculated
 
 **Fix:** Edit `CalcMagikarpLength.BCLessThanDE` in [engine/events/magikarp.asm](https://github.com/pret/pokecrystal/blob/master/engine/events/magikarp.asm):
 
@@ -2496,7 +2496,7 @@ CopyPokemonName_Buffer1_Buffer3:
 ```
 
 
-### `CheckOwnMon` only checks the first five letters of OT names
+### (FIXED) `CheckOwnMon` only checks the first five letters of OT names
 
 ([Video](https://www.youtube.com/watch?v=GVTTmReM4nQ))
 
@@ -2527,7 +2527,7 @@ This bug can allow you to talk to Eusine in Celadon City and encounter Ho-Oh wit
 ```
 
 
-### `CheckOwnMonAnywhere` does not check the Day-Care
+### (FIXED) `CheckOwnMonAnywhere` does not check the Day-Care
 
 *This may have been intentional behavior; use your own judgment for whether to fix it.*
 
@@ -2554,7 +2554,7 @@ This bug can prevent you from talking to Eusine in Celadon City or encountering 
 ```
 
 
-### The unused `phonecall` script command may crash
+### (FIXED) The unused `phonecall` script command may crash
 
 The `phonecall` script command calls the `PhoneCall` routine, which calls the `BrokenPlaceFarString` routine; this switches banks without being in bank 0, so it would start running arbitrary data as code.
 
@@ -2577,7 +2577,7 @@ The `phonecall` script command calls the `PhoneCall` routine, which calls the `B
 You can also delete the now-unused `BrokenPlaceFarString` routine in the same file.
 
 
-### Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon
+### (FIXED) Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon
 
 **Fix**: Edit `ManiaScript.returnshuckie` in [maps/ManiasHouse.asm](https://github.com/pret/pokecrystal/blob/master/maps/ManiasHouse.asm):
 
