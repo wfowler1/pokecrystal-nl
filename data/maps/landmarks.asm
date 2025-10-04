@@ -203,7 +203,7 @@ IlexForestName:      db "EIKENWOUD@" ; "ILEX FOREST"
 BurnedTowerName:     db "VERBRANDE<BSP>TOREN@" ; "BURNED<BSP>TOWER@"
 FastShipName:        db "SNELSCHIP@" ; "FAST SHIP"
 ViridianForestName:  db "VIRIDIAN<BSP>FOREST@" ; unreferenced
-DiglettsCaveName:    db "DIGLETT'S<BSP>CAVE@"
+DiglettsCaveName:    db "DIGLETT<BSP>GROT"
 TohjoFallsName:      db "TOHJO<BSP>WATERVAL@" ; "TOHJO FALLS@"
 UndergroundName:     db "ONDERGRONDS@" ; "UNDERGROUND"
 BattleTowerName:     db "GEVECHTS<BSP>TOREN@" ; "BATTLE<BSP>TOWER@"
