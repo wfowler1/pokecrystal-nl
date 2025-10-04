@@ -117,7 +117,7 @@ Route34IlexForestGateTeacher_ForestIsRestless:
 	done
 
 Route34IlexForestGateButterfreeText:
-	text "BUTTERFREE: Freeh!" ; "BUTTERFREE: Freeh!"
+	text "VLINDEVRIJ: Freeh!" ; "BUTTERFREE: Freeh!"
 	done
 
 Route34IlexForestGateLassText:

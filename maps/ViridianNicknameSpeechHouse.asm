@@ -47,7 +47,7 @@ ViridianNicknameSpeechHousePokefanMText:
 
 ViridianNicknameSpeechHouseLassText:
 	text "Dat zijn SPEER-" ; "They're SPEARY--"
-	line "TJE--een SPEAROW--" ; "a SPEAROW--and"
+	line "TJE--een SPEERUW--" ; "a SPEAROW--and"
 	cont "en RATJE--een" ; "RATTEY--a RATTATA."
 	cont "RATTATA." ;
 	done

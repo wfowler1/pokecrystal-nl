@@ -399,7 +399,7 @@ BugCatcherArnieBeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "Mijn VENONAT won" ; "My VENONAT won me"
+	text "Mijn GIFFERT won" ; "My VENONAT won me"
 	line "het KEVERTOERNOOI" ; "the Bug-Catching"
 
 	para "in het NATIONAAL" ; "Contest at the"

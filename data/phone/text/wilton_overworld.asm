@@ -39,7 +39,7 @@ WiltonPhoneFullText:
 	done
 
 WiltonRematchText:
-	text "ARGH! POLIWAG" ; "Argh! You startled"
+	text "ARGH! POLISPEL" ; "Argh! You startled"
 	line "schrok van je en" ; "POLIWAG into"
 	cont "is weer gevlucht!" ; "fleeing again!"
 	done

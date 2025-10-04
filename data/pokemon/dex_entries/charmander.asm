@@ -6,6 +6,6 @@
 	next "staart brandt fel" ; "the flame on the"
 	next "bij een gezonde" ; "tip of its tail"
 
-	page "CHARMANDER, zelfs" ; "will burn vigor-"
+	page "VLAMANDER, zelfs" ; "will burn vigor-"
 	next "als het een beetje" ; "ously, even if it"
 	next "nat wordt.@" ; "gets a bit wet.@"

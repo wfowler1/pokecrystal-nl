@@ -357,12 +357,12 @@ BeautySamanthaSeenText:
 	done
 
 BeautySamanthaBeatenText:
-	text "Nee! Oh, MEOWTH," ; "No! Oh, MEOWTH,"
+	text "Nee! Oh, MIAUWS," ; "No! Oh, MEOWTH,"
 	line "het spijt me zo!" ; "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "Ik heb MEOWTH" ; "I taught MEOWTH"
+	text "Ik heb MIAUWS" ; "I taught MEOWTH"
 	line "aanvallen geleerd" ; "moves for taking"
 	cont "om elk type aan" ; 
 	cont "te pakken…" ; "on any type…"

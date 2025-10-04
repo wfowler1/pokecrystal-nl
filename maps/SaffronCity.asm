@@ -125,7 +125,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 	para "Ze is haar favo-" ; "She said she lost"
 	line "riete #POP van" ; "her favorite #"
-	cont "CLEFAIRY kwijt." ; "DOLL--CLEFAIRY."
+	cont "CLEFEE kwijt." ; "DOLL--CLEFAIRY."
 	done
 
 SaffronCityPokefanMText:

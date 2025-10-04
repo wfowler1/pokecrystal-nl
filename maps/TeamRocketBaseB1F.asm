@@ -714,7 +714,7 @@ GruntM16AfterBattleText:
 
 TeamRocketBaseB1FSecurityCameraText:
 	text "Het is een" ; "It's a PERSIAN"
-	line "PERSIAN-beeld…" ; "statue…"
+	line "PERZ-beeld…" ; "statue…"
 
 	para "De ogen glanzen" ; "Its eyes are oddly"
 	line "vreemd." ; "shiny."

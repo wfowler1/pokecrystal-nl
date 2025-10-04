@@ -47,7 +47,7 @@ PewterPokecenter1FTeacherText:
 	done
 
 PewterJigglypuffText:
-	text "JIGGLYPUFF: Puu" ; "JIGGLYPUFF: Puu"
+	text "SGUDIEPOEF: Puu" ; "JIGGLYPUFF: Puu"
 	line "pupuff." ; "pupuu."
 	done
 
@@ -55,7 +55,7 @@ PewterPokecenter1FBugCatcherText:
 	text "De meeste #MON" ; "Most #MON get"
 	line "worden slaperig" ; "drowsy if they"
 
-	para "als ze JIGGLYPUFF" ; "hear a JIGGLYPUFF"
+	para "als ze SGUDIEPOEF" ; "hear a JIGGLYPUFF"
 	line "horen zingen." ; "singing."
 
 	para "Er zijn enkele" ; "There are several"

@@ -152,13 +152,13 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_MEOWTH ; a3 CeladonMansion1F.asm RadioTower4F.asm
 	const SPRITE_NIDORAN_F ; a4 CeladonMansion1F.asm
 	const SPRITE_NIDORINO ; a5 MrFujisHouse.asm
-	const SPRITE_PERSIAN ; a6 NationalPark.asm !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	const SPRITE_PERSIAN ; a6 NationalPark.asm
 	const SPRITE_NIDORAN_M ; a7 PewterNidoranSpeechHouse.asm
 	const SPRITE_RATTATA ; a8 ViridianNicknameSpeechHouse.asm
 	; SPRITE_ODDISH
 	const SPRITE_BAYLEEF ; a9 PokemonFanClub.asm
 	; SPRITE_POLIWAG
-	const SPRITE_POLIWRATH ; aa CeladonCity.asm !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	const SPRITE_POLIWRATH ; aa CeladonCity.asm
 	; SPRITE_CLEFAIRY
 	const SPRITE_BLISSEY ; ab CopycatsHouse1F.asm
 	; SPRITE_JYNX
@@ -168,7 +168,7 @@ DEF SPRITE_POKEMON EQU const_value
 	; SPRITE_EKANS
 	const SPRITE_DRATINI ; ae BlackthornDragonSpeechHouse.asm
 	; SPRITE_TAUROS
-	const SPRITE_MILTANK ; af Route39.asm !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Route39Barn.asm
+	const SPRITE_MILTANK ; af Route39.asm Route39Barn.asm
 	; SPRITE_VOLTORB
 	const SPRITE_ELECTRODE ; b0 TeamRocketBaseB2F.asm
 	; SPRITE_RHYDON

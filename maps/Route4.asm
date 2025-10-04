@@ -91,7 +91,7 @@ PicnickerHopeBeatenText:
 
 PicnickerHopeAfterBattleText:
 	text "Ik hoorde dat" ; "I heard CLEFAIRY"
-	line "CLEFAIRY op de" ; "appear at MT.MOON."
+	line "CLEFEE op de" ; "appear at MT.MOON."
 	cont "MAANBERG ver-" ;
 
 	para "schijnen. Maar" ; "But where could"

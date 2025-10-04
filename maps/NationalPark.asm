@@ -375,7 +375,7 @@ NationalParkTeacher2Text:
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "PERZ: Fufushaa!"
 	done
 
 NationalParkGameboyKidText:

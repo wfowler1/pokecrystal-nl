@@ -767,7 +767,7 @@ BugCatchingContestant8BText:
 BugCatchingContestant8BStillCompetingText:
 	text "JOSH: Ik hoorde" ; "JOSH: I heard that"
 	line "dat iemand won met" ; "somebody won with"
-	cont "een CATERPIE!" ; "a CATERPIE!"
+	cont "een RUBS!" ; "a CATERPIE!"
 	done
 
 BugCatchingContestant9BText:

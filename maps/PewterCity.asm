@@ -75,7 +75,7 @@ PewterCityCooltrainerFText:
 	done
 
 PewterCityBugCatcherText:
-	text "CLEFAIRY komen" ; "At night, CLEFAIRY"
+	text "CLEFEE komen" ; "At night, CLEFAIRY"
 	line "'s nachts naar" ; "come out to play"
 	cont "om te spelen op de" ; "at MT.MOON."
 	cont "MAANBERG." ; 

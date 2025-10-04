@@ -1,6 +1,6 @@
 TiffanyAskNumber1Text:
 	text "Hoi! Vind je" ; "Hi! You like"
-	line "CLEFAIRY ook leuk?" ; "CLEFAIRY too?"
+	line "CLEFEE ook leuk?" ; "CLEFAIRY too?"
 
 	para "Ze zijn onwijs" ; "They're so very"
 	line "schattig, of niet?" ; "cute, aren't they?"
@@ -12,7 +12,7 @@ TiffanyAskNumber1Text:
 	line "graag weten!" ; "your phone number!"
 
 	para "Laten we praten" ; "Let's talk about"
-	line "over CLEFAIRY!" ; "CLEFAIRY!"
+	line "over CLEFEE!" ; "CLEFAIRY!"
 	done
 
 TiffanyAskNumber2Text:
@@ -20,11 +20,11 @@ TiffanyAskNumber2Text:
 	line "graag weten!" ; "your phone number!"
 
 	para "Laten we praten" ; "Let's talk about"
-	line "over CLEFAIRY!" ; "CLEFAIRY!"
+	line "over CLEFEE!" ; "CLEFAIRY!"
 	done
 
 TiffanyNumberAcceptedText:
-	text "Is mijn CLEFAIRY" ; "Isn't my CLEFAIRY"
+	text "Is mijn CLEFEE" ; "Isn't my CLEFAIRY"
 	line "niet megaschattig?" ; "super-adorable?"
 	done
 
@@ -33,7 +33,7 @@ TiffanyNumberDeclinedText:
 	line "Zoek me op als je" ; "Look for me if you"
 
 	para "wil praten over" ; "want to talk about"
-	line "CLEFAIRY."
+	line "CLEFEE."
 	done
 
 TiffanyPhoneFullText:
@@ -44,7 +44,7 @@ TiffanyPhoneFullText:
 TiffanyRematchText:
 	text "Daar ben je!" ; "There you are!"
 
-	para "CLEFAIRY, doe je" ; "CLEFAIRY, I want"
+	para "CLEFEE, doe je" ; "CLEFAIRY, I want"
 	line "je uiterste best!" ; "you to try hard!"
 	done
 

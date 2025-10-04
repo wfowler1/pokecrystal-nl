@@ -22,7 +22,7 @@ MountMoonGiftShopLassScript:
 MountMoonGiftShopLassText:
 	text "Als de zon onder-" ; "When the sun goes"
 	line "gaat, komen de" ; "down, CLEFAIRY"
-	cont "CLEFAIRY spelen." ; "come out to play."
+	cont "CLEFEE spelen." ; "come out to play."
 	done
 
 MountMoonGiftShop_MapEvents:

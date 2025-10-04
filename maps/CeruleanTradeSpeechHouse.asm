@@ -48,7 +48,8 @@ CeruleanTradeSpeechHouseRhydonText:
 	done
 
 CeruleanTradeSpeechHouseZubatText:
-	text "ZUBAT: Zuba zubaa." ; "ZUBAT: Zuba zubaa."
+	text "VLEEMUIS: Zuba" ; "ZUBAT: Zuba zubaa."
+	line "zubaa."
 	done
 
 CeruleanTradeSpeechHouse_MapEvents:

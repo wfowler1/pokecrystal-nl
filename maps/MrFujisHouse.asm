@@ -66,15 +66,16 @@ MrFujisHouseLassText:
 	done
 
 MrFujisPsyduckText:
-	text "PSYDUCK: Kwa-aak?" ; "PSYDUCK: Gu-guwa?"
+	text "PSYCHEEND:" ; "PSYDUCK: Gu-guwa?"
+	line "Kwa-aak?"
 	done
 
 MrFujisNidorinoText:
-	text "NIDORINO: Nido!" ; "NIDORINO: Gyun!"
+	text "NAKORINO: Nido!" ; "NIDORINO: Gyun!"
 	done
 
 MrFujisPidgeyText:
-	text "PIDGEY: Pijji!" ; "PIDGEY: Pijji!"
+	text "DUIVJE: Pijji!" ; "PIDGEY: Pijji!"
 	done
 
 MrFujisHouse_MapEvents:

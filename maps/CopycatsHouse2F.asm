@@ -251,7 +251,7 @@ CopycatText_Worried:
 CopycatText_GiveDoll:
 	text "NA-APER: Hoera!" ; "COPYCAT: Yay!"
 	line "Dat is de #POP" ; "That's my CLEFAIRY"
-	cont "van CLEFAIRY!" ; "# DOLL!"
+	cont "van CLEFEE!" ; "# DOLL!"
 
 	para "Zie je waar de" ; "See the tear where"
 	line "rechterpoot weer" ; "the right leg is"

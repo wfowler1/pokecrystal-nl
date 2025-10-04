@@ -7,5 +7,5 @@
 	next "liedje te kwaken," ; "croak out a tune,"
 
 	page "verzamelen nabije" ; "nearby POLIWAG and"
-	next "POLIWAG en POLI-" ; "POLIWHIRL gather"
-	next "WHIRL meteen.@" ; "immediately.@"
+	next "POLISPEL en POLI-" ; "POLIWHIRL gather"
+	next "MEER meteen.@" ; "immediately.@"

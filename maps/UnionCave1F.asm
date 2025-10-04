@@ -154,9 +154,10 @@ HikerDanielAfterBattleText:
 	done
 
 FirebreatherBillSeenText:
-	text "ZUBAT's aanvallen" ; "ZUBAT's SUPERSONIC"
-	line "verwarren telkens" ; "keeps confusing"
-	cont "mijn #MON." ; "my #MON."
+	text "VLEEMUIS's aan-" ; "ZUBAT's SUPERSONIC"
+	line "vallen verwarren" ; "keeps confusing"
+	cont "telkens mijn #-" ; "my #MON."
+	cont "MON."
 
 	para "Het irriteert me" ; "I'm seriously"
 	line "mateloos!" ; "upset about that!"

@@ -11,7 +11,7 @@ VermilionDiglettsCaveSpeechHouseGentlemanScript:
 
 VermilionDiglettsCaveSpeechHouseGentlemanText:
 	text "Jarenlang hebben" ; "Over many years,"
-	line "DIGLETT een grote" ; "DIGLETT dug a"
+	line "GRAAFJE een grote" ; "DIGLETT dug a"
 	cont "tunnel gegraven." ; "large tunnel."
 
 	para "Die tunnel gaat" ; "That tunnel goes"

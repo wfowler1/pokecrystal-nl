@@ -319,7 +319,7 @@ Route44HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_44_HIDDEN_ELIXER
 
 FisherWilton1SeenText:
-	text "Aack! Een POLIWAG" ; "Aack! You made me"
+	text "Aack! Een POLISPEL" ; "Aack! You made me"
 	line "schoot los!" ; "lose a POLIWAG!"
 
 	para "Wat ga je daar aan" ; "What are you going"
@@ -332,7 +332,7 @@ FisherWilton1BeatenText:
 	done
 
 FisherWiltonHugePoliwagText:
-	text "Die POLIWAG die" ; "That POLIWAG that"
+	text "Die POLISPEL die" ; "That POLIWAG that"
 	line "ontsnapte…" ; "got away…"
 	cont "Die was giga." ; "It was huge."
 

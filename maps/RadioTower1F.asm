@@ -375,7 +375,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "automaten van GOL-" ; "CORNER's slots"
 
 	para "DENROD-SPELHOEK" ; "have CHARMANDER"
-	line "CHARMANDER op" ; "on their reels?"
+	line "VLAMANDER op" ; "on their reels?"
 	cont "de rollen?" ; 
 	done
 

@@ -297,7 +297,7 @@ PokefanfJaimeBeatenText:
 
 PokefanfJaimeAfterBattleText:
 	text "Ik ontmoette mijn" ; "I met my MEOWTH at"
-	line "MEOWTH 's nachts," ; "night, right here"
+	line "MIAUWS 's nachts," ; "night, right here"
 	cont "hier op ROUTE 39." ; "on ROUTE 39."
 
 	para "Ik weet niet" ; "I'm not sure why,"
@@ -306,7 +306,7 @@ PokefanfJaimeAfterBattleText:
 	para "vindt het fijn als" ; "like it when I"
 	line "ik hier train." ; "train here."
 
-	para "MEOWTH wordt" ; "It seems to become"
+	para "MIAUWS wordt" ; "It seems to become"
 	line "vriendelijker als" ; "friendlier by"
 
 	para "ik hier train dan" ; "training here than"

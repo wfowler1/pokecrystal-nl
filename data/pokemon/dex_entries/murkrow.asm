@@ -7,5 +7,5 @@
 	next "vindt op een" ; "a secret location."
 
 	page "geheime plek." ; "MURKROW and"
-	next "MURKROW en MEOWTH" ; "MEOWTH loot one"
+	next "MURKROW en MIAUWS" ; "MEOWTH loot one"
 	next "stelen van elkaar.@" ; "another's stashes.@"

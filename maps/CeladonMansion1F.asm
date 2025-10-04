@@ -49,21 +49,21 @@ CeladonMansionManagerText:
 	para "hier nooit eenzaam" ; "so I don't ever"
 	line "voel." ; "feel lonely."
 
-	para "MEOWTH verzamelt" ; "MEOWTH even brings"
+	para "MIAUWS verzamelt" ; "MEOWTH even brings"
 	line "zelfs geld." ; "money home."
 	done
 
 CeladonMansion1FMeowthText:
-	text "MEOWTH: Miauw!" ; "MEOWTH: Meow!"
+	text "MIAUWS: Miauw!" ; "MEOWTH: Meow!"
 	done
 
 CeladonMansion1FClefairyText:
-	text "CLEFAIRY: Clef"
+	text "CLEFEE: Clef" ; "CLEFAIRY: Clef"
 	line "cleff!"
 	done
 
 CeladonMansion1FNidoranFText:
-	text "NIDORAN: Kya"
+	text "NAKORON: Kya" ; "NIDORAN: Kya"
 	line "kyaoo!"
 	done
 

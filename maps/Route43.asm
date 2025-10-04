@@ -375,7 +375,7 @@ PokemaniacRonSeenText:
 	done
 
 PokemaniacRonBeatenText:
-	text "Mijn NIDOKING deed" ; "My NIDOKING did"
+	text "Mijn NAKONING deed" ; "My NIDOKING did"
 	line "het best goed!" ; "pretty right on!"
 	done
 
@@ -457,7 +457,7 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Is mijn CLEFAIRY" ; "Isn't my CLEFAIRY"
+	text "Is mijn CLEFEE" ; "Isn't my CLEFAIRY"
 	line "niet onwijs" ; "just the most"
 	cont "schattig?" ; "adorable thing?"
 	done

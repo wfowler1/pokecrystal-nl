@@ -208,7 +208,7 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	text "Ik hou van de" ; "I love the way"
 	line "manier waarop" ; "CLEFAIRY waggles"
 
-	para "CLEFAIRY hun" ; "its finger when"
+	para "CLEFEE hun" ; "its finger when"
 	line "vingers wiebelen" ; "it's trying to use"
 
 	para "als ze METRONOOM" ; "METRONOME."
@@ -218,7 +218,7 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	text "Ik hou van" ; "I love CLEFAIRY,"
-	line "CLEFAIRY, maar ik" ; "but I could never"
+	line "CLEFEE, maar ik" ; "but I could never"
 
 	para "kon er nooit een" ; "catch one. So I'm"
 	line "vangen. Dus ik" ; "making do with a"
@@ -245,7 +245,7 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	line "vrienden worden" ; "real CLEFAIRY on"
 
 	para "met een echte" ; "my own one day."
-	line "CLEFAIRY. Geen" ; "No worries!"
+	line "CLEFEE. Geen" ; "No worries!"
 	cont "zorgen!" ;
 	done
 
@@ -258,7 +258,7 @@ PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
 	text "Je zal zien. Ik" ; "You watch. I'm"
 	line "ga een echte" ; "going to get a"
 
-	para "CLEFAIRY als m'n" ; "real CLEFAIRY as"
+	para "CLEFEE als m'n" ; "real CLEFAIRY as"
 	line "vriend krijgen!" ; "my friend."
 	done
 
@@ -276,11 +276,11 @@ PokemonFanClubTeacherText:
 	done
 
 PokemonFanClubClefairyDollText:
-	text "'Tis een CLEFAIRY!" ; "It's a CLEFAIRY!"
+	text "'Tis een CLEFEE!" ; "It's a CLEFAIRY!"
 	line "Huh?"
 
 	para "Oh, oké. Het is" ; "Oh, right. It's a"
-	line "een CLEFAIRY-" ; "CLEFAIRY #"
+	line "een CLEFEE-" ; "CLEFAIRY #"
 	cont "#POP." ; "DOLL."
 	done
 

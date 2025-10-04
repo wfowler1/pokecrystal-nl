@@ -227,12 +227,12 @@ LizBugCatchingContestGossipText:
 
 	para "Ik wel, ooit, maar" ; "I did once, but"
 	line "ik ving toen enkel" ; "all I could catch"
-	cont "een CATERPIE." ; "was a CATERPIE."
+	cont "een RUBS." ; "was a CATERPIE."
 
 	para "Maar raad eens!" ; "But guess what!"
 
 	para "Ik won met die" ; "I won with that"
-	line "CATERPIE. Hoe gaaf" ; "CATERPIE. Isn't"
+	line "RUBS. Hoe gaaf" ; "CATERPIE. Isn't"
 	cont "is dat?" ; "that great?"
 	done
 

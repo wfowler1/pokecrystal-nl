@@ -76,7 +76,7 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "Deze POLIWRATH is" ; "This POLIWRATH is"
+	text "Deze POLIWRAAK is" ; "This POLIWRATH is"
 	line "mijn partner." ; "my partner."
 
 	para "Zou die ooit" ; "I wonder if it'll"
@@ -85,7 +85,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Kwaak!" ; "POLIWRATH: Croak!"
+	text "POLIWRAAK: Kwaak!" ; "POLIWRATH: Croak!"
 	done
 
 CeladonCityTeacher1Text:

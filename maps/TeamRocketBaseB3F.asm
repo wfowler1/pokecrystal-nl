@@ -501,7 +501,7 @@ GruntM28AfterBattleText:
 
 	para "Uh…, volgens mij" ; "Uh…, I think it is"
 	line "is het" ; "RATICATE TAIL."
-	cont "RATICATE-STAART." ;
+	cont "RATICAAL-STAART." ;
 	done
 
 ScientistRossSeenText:

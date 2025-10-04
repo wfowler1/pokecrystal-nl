@@ -63,8 +63,8 @@ PokefanmCarterBeatenText:
 	done
 
 PokefanmCarterAfterBattleText:
-	text "SQUIRTLE, CHARMAN-"
-	line "DER en BULBASAUR…" ; "DER and BULBASAUR…"
+	text "SCHILDNAT, VLAMAN-"
+	line "DER en KNOPSAURUS…" ; "DER and BULBASAUR…"
 
 	para "Ik denk dat het" ; "I think that's a"
 	line "een goed gebalan-" ; "well-balanced mix."
@@ -104,7 +104,7 @@ PokefanmTrevorSeenText:
 
 PokefanmTrevorBeatenText:
 	text "Waar heb ik deze" ; "Where did I meet"
-	line "PSYDUCK ontmoet?" ; "this PSYDUCK?"
+	line "PSYCHEEND ontmoet?" ; "this PSYDUCK?"
 	done
 
 PokefanmTrevorAfterBattleText:

@@ -379,7 +379,7 @@ BuenaPhoneStarterPokemonText:
 	line "vallen op werk," ; "job, so she traded"
 
 	para "dus ze ruilde hem" ; "with a fan for a"
-	line "voor een MEOWTH." ; "MEOWTH."
+	line "voor een MIAUWS." ; "MEOWTH."
 
 	para "We praten snel nog" ; "Let's chat about"
 	line "eens over #MON!" ; "#MON again!"

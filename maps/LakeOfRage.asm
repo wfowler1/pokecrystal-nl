@@ -438,7 +438,7 @@ CooltrainerfLoisBeatenText:
 CooltrainerfLoisAfterBattleText:
 	text "Ik bedenk me net," ; "Come to think of"
 	line "ooit zag ik een" ; "it, I've seen a"
-	cont "roze BUTTERFREE." ; "pink BUTTERFREE."
+	cont "roze VLINDEVRIJ." ; "pink BUTTERFREE."
 	done
 
 MeetWesleyText:

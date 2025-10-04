@@ -332,12 +332,12 @@ _LookPikachuPosterText::
 
 _LookClefairyPosterText::
 	text "Een poster van een" ; "It's a poster of a"
-	line "lieve CLEFAIRY." ; "cute CLEFAIRY."
+	line "lieve CLEFEE." ; "cute CLEFAIRY."
 	done
 
 _LookJigglypuffPosterText::
 	text "Een poster van een" ; "It's a poster of a"
-	line "lieve JIGGLYPUFF." ; "cute JIGGLYPUFF."
+	line "lieve SGUDIEPOEF." ; "cute JIGGLYPUFF."
 	done
 
 _LookAdorableDecoText::

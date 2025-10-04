@@ -20,7 +20,7 @@ TiffanyDefeatedMonText:
 	text " vechten" ; " a while"
 	line "een tijd terug…" ; "ago…"
 
-	para "Mijn CLEFAIRY viel" ; "My CLEFAIRY came"
+	para "Mijn CLEFEE viel" ; "My CLEFAIRY came"
 	line "bijna flauw!" ; "close to fainting!"
 
 	para "Wat erg, hé?" ; "Isn't that awful?"
@@ -40,14 +40,14 @@ TiffanyLostAMonText:
 	text " vechten" ; " a while"
 	line "een tijd terug…" ; "ago…"
 
-	para "Mijn CLEFAIRY werd" ; "My CLEFAIRY got"
+	para "Mijn CLEFEE werd" ; "My CLEFAIRY got"
 	line "bang, dus we zijn" ; "frightened, so we"
 
 	para "zo hard mogelijk" ; "ran away as fast"
 	line "weggerend!" ; "as we could!"
 
 	para "Ik wil gewoon erg" ; "I just can't help"
-	line "graag CLEFAIRY" ; "feeling protective"
+	line "graag CLEFEE" ; "feeling protective"
 	cont "beschermen." ; "of my CLEFAIRY."
 	done
 
@@ -59,7 +59,7 @@ TiffanyBattleRematchText:
 	line "mij vechten?" ; "battle?"
 
 	para "Ik wacht met" ; "I'll be waiting"
-	line "CLEFAIRY op" ; "with CLEFAIRY on"
+	line "CLEFEE op" ; "with CLEFAIRY on"
 	cont "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "."
@@ -70,7 +70,7 @@ TiffanyItsAwfulText:
 	text "!"
 
 	para "Wat erg. Mijn" ; "It's awful."
-	line "CLEFAIRY…" ; "My CLEFAIRY…"
+	line "CLEFEE…" ; "My CLEFAIRY…"
 
 	para "Huh? <PLAY_G>?"
 
@@ -91,7 +91,7 @@ TiffanyFoundItemText:
 
 	para "GOLDENROD WAREN-" ; "DEPT.STORE for my"
 	line "HUIS voor mijn" ; "CLEFAIRY."
-	cont "CLEFAIRY."
+	cont "CLEFEE."
 
 	para "Ik heb er te veel," ; "I got too many, so"
 	line "dus je mag er één!" ; "I'll give you one!"
@@ -104,14 +104,14 @@ TiffanyFoundItemText:
 
 TiffanyNoItemText:
 	text "Ik verkleed graag" ; "I love dressing up"
-	line "mijn CLEFAIRY!" ; "my CLEFAIRY!"
+	line "mijn CLEFEE!" ; "my CLEFAIRY!"
 	done
 
 TiffanyAsleepText:
 	text "Wat is er mis?" ; "What's wrong?"
 	line "Kun je niet komen?" ; "Can't you visit?"
 
-	para "CLEFAIRY werd moe" ; "CLEFAIRY got tired"
+	para "CLEFEE werd moe" ; "CLEFAIRY got tired"
 	line "en viel in slaap." ; "and fell asleep."
 
 	para "Ik weet niet of ik" ; "I'm not sure if I"
@@ -129,7 +129,7 @@ TiffanyHurryText:
 
 	para "Dit ziet er vast" ; "I'm sure this will"
 	line "goed uit bij jouw" ; "look good on your"
-	cont "CLEFAIRY."
+	cont "CLEFEE."
 
 	para "Haast je naar" ; "Please hurry to"
 	line "@"

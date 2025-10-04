@@ -29,7 +29,7 @@ OlivineMartCooltrainerFText:
 	done
 
 OlivineMartLassText:
-	text "Mijn BUTTERFREE" ; "My BUTTERFREE came"
+	text "Mijn VLINDEVRIJ" ; "My BUTTERFREE came"
 	line "kwam van mijn" ; "from my boyfriend"
 	cont "vriendje overzee." ; "overseas."
 

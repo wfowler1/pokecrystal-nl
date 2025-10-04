@@ -13,7 +13,7 @@ DiglettsCaveHiddenMaxRevive:
 	hiddenitem MAX_REVIVE, EVENT_DIGLETTS_CAVE_HIDDEN_MAX_REVIVE
 
 DiglettsCavePokefanMText:
-	text "Een groep DIGLETT" ; "A bunch of DIGLETT"
+	text "Een groep GRAAFJE" ; "A bunch of DIGLETT"
 	line "springt omhoog uit" ; "popped out of the"
 
 	para "de grond! Dat was" ; "ground! That was"
