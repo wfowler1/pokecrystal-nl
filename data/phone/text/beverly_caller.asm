@@ -22,7 +22,7 @@ BeverlyDefeatedMonText:
 
 BeverlyLostAMonText:
 	text "Ik zag een wilde" ; "I happened to see"
-	line "MARRILL laatst. Of" ; "a wild MARILL the"
+	line "MARILL laatst. Of" ; "a wild MARILL the"
 
 	para "dat dacht ik" ; "other day."
 	line "tenminste." ; "Or so I thought."
