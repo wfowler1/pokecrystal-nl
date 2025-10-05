@@ -106,14 +106,20 @@ ENDM
 	ld b, a
 .party_loop
 	call .PlaceHealingMachineTile
+;	push de
+;	ld de, SFX_SECOND_PART_OF_ITEMFINDER
+;	call PlaySFX
+;	pop de
+;	ld c, 1
+;	call DelayFrames
+	dec b
+	jr nz, .party_loop
 	push de
 	ld de, SFX_SECOND_PART_OF_ITEMFINDER
 	call PlaySFX
 	pop de
 	ld c, 30
 	call DelayFrames
-	dec b
-	jr nz, .party_loop
 	ret
 
 .PlayHealMusic:
