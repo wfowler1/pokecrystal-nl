@@ -461,13 +461,13 @@ PokefanmWilliamAfterBattleText:
 
 PokefanFBeverlyMarillFriendText:
 	text "Mijn vriend heeft" ; "My friend keeps a"
-	line "een MARRILL!" ; "MARILL!"
+	line "een MARIL!" ; "MARILL!"
 
 	para "Ik vind ze erg" ; "I find them very"
 	line "vertederend." ; "endearing."
 
 	para "Oh, had ik maar" ; "Oh, I wish for a"
-	line "een eigen MARRILL…" ; "MARILL of my own…"
+	line "een eigen MARIL…" ; "MARILL of my own…"
 	done
 
 LassKriseSeenText:

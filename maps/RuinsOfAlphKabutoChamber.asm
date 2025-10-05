@@ -229,7 +229,7 @@ RuinsOfAlphKabutoChamberWallPatternLeftText:
 
 RuinsOfAlphKabutoChamberUnownText: ; unreferenced
 	text "Het is tekst" ; "It's UNOWN text!"
-	line "van UNOWN!"
+	line "van ONKEND!"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternRightText:

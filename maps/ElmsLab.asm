@@ -859,19 +859,19 @@ LabWhereGoingText:
 
 TakeCyndaquilText:
 	text "ELM: Je kiest" ; "ELM: You'll take"
-	line "CYNDAQUIL, de" ; "CYNDAQUIL, the"
+	line "BRANDAVEER, de" ; "CYNDAQUIL, the"
 	cont "vuur-#MON?" ; "fire #MON?"
 	done
 
 TakeTotodileText:
 	text "ELM: Wil je" ; "ELM: Do you want"
-	line "TOTODILE, de" ; "TOTODILE, the"
+	line "TOTODIL, de" ; "TOTODILE, the"
 	cont "water-#MON?" ; "water #MON?"
 	done
 
 TakeChikoritaText:
 	text "ELM: Dus, het is" ; "ELM: So, you like"
-	line "CHIKORITA, de" ; "CHIKORITA, the"
+	line "CHICOREITA, de" ; "CHIKORITA, the"
 	cont "gras-#MON?" ; "grass #MON?"
 	done
 

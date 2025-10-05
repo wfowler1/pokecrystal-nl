@@ -69,7 +69,7 @@ SaffronPokecenter1FTeacherMobileText:
 	para "Dan zal ik mijn" ; "Then I'll get my"
 	line "vriend in JOHTO" ; "friend in JOHTO to"
 
-	para "een MARILL laten" ; "catch a MARILL and"
+	para "een MARIL laten" ; "catch a MARILL and"
 	line "vangen en ruilen!" ; "trade it to me!"
 	done
 

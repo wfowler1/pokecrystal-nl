@@ -3,7 +3,7 @@
 	dw 50 ; weight
 
 	db   "Omdat meerdere" ; "Because different"
-	next "types UNOWN" ; "types of UNOWN"
+	next "types ONKEND" ; "types of UNOWN"
 	next "bestaan, zegt men" ; "exist, it is said"
 
 	page "dat ze allerlei" ; "that they must"

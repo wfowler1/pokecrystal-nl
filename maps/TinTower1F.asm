@@ -515,10 +515,10 @@ TinTower1FSage6Text2:
 	para "Ik hoorde dat er" ; "I hear there may"
 	line "ook een link met" ; "also be a link to"
 
-	para "#MON als UNOWN" ; "#MON known as"
+	para "#MON als ONKEND" ; "#MON known as"
 	line "zou zijn." ; "UNOWN."
 
-	para "De #MON UNOWN" ; "The #MON UNOWN"
+	para "De #MON ONKEND" ; "The #MON UNOWN"
 	line "moet een samen-" ; "must be sharing a"
 
 	para "werking hebben" ; "cooperative bond"

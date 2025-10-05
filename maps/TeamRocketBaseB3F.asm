@@ -433,7 +433,7 @@ ExecutiveM4AfterText:
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: Het" ; "MURKROW: The"
+	text "DONKRAAI: Het" ; "MURKROW: The"
 	line "wachtwoord is…" ; "password is…"
 
 	para "LEVE GIOVANNI." ; "HAIL GIOVANNI."

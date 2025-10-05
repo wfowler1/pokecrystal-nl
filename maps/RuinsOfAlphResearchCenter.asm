@@ -196,7 +196,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 
 	para "Hij heeft nu een" ; "I added an"
 	line "nieuwe modus voor" ; "optional #DEX"
-	cont "UNOWN-gegevens."
+	cont "ONKEND-gegevens."
 
 	; para "to store UNOWN"
 	; line "data."
@@ -212,7 +212,7 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "De UNOWN die je" ; "The UNOWN you"
+	text "De ONKEND die je" ; "The UNOWN you"
 	line "vangt worden alle-" ; "catch will all be"
 	cont "maal vastgelegd." ; "recorded."
 
@@ -223,7 +223,7 @@ RuinsOfAlphResearchCenterScientist3Text:
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	text "Heb je alle" ; "You caught all the"
-	line "soorten UNOWN" ; "UNOWN variations?"
+	line "soorten ONKEND" ; "UNOWN variations?"
 	cont "gevangen?"
 
 	para "Die is een grote" ; "That's a great"
@@ -360,7 +360,7 @@ RuinsOfAlphResearchCenterComputerText:
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	text "Mysterieuze" ; "Mystery #MON"
 	line "#MON"
-	cont "Naam: UNOWN" ; "Name: UNOWN"
+	cont "Naam: ONKEND" ; "Name: UNOWN"
 
 	para "{d:NUM_UNOWN} soorten" ; "A total of {d:NUM_UNOWN}"
 	line "ontdekt." ; "kinds found."
@@ -372,7 +372,7 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:
-	text "Je mag UNOWN" ; "UNOWN may be"
+	text "Je mag ONKEND" ; "UNOWN may be"
 	line "afdrukken." ; "printed out."
 	done
 

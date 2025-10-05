@@ -269,7 +269,7 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 
 PokemonFanClubTeacherText:
 	text "Kijk mijn lieve" ; "Look at my darling"
-	line "BAYLEEF!"
+	line "BLALIEF!"
 
 	para "Het blad op de" ; "The leaf on its"
 	line "kop is zo leuk!" ; "head is so cute!"
@@ -285,7 +285,7 @@ PokemonFanClubClefairyDollText:
 	done
 
 PokemonFanClubBayleefText:
-	text "BAYLEEF: Li liif!"
+	text "BLALIEF: Li liif!"
 	done
 
 PokemonFanClubListenSignText:

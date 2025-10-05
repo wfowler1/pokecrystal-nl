@@ -1,5 +1,5 @@
 BeverlyAskNumber1Text:
-	text "Je MARILL is zo" ; "Your MARILL is so"
+	text "Je MARIL is zo" ; "Your MARILL is so"
 	line "lief en schattig!" ; "cute and adorable!"
 
 	para "Jij houdt net als" ; "You love #MON"
@@ -13,7 +13,7 @@ BeverlyAskNumber1Text:
 	done
 
 BeverlyAskNumber2Text:
-	text "Je MARILL is zo" ; "Your MARILL is so"
+	text "Je MARIL is zo" ; "Your MARILL is so"
 	line "lief en schattig!" ; "cute and adorable!"
 
 	para "We moeten kletsen," ; "We should chat, it"
@@ -25,7 +25,7 @@ BeverlyAskNumber2Text:
 
 BeverlyNumberAcceptedText:
 	text "Eerlijk gezegd wil" ; "To be honest, I"
-	line "ik een MARILL." ; "want a MARILL."
+	line "ik een MARIL." ; "want a MARILL."
 
 	para "Maar mijn SNUBBULL" ; "But I make do with"
 	line "is ook een schat." ; "my cute SNUBBULL."
@@ -35,7 +35,7 @@ BeverlyNumberDeclinedText:
 	text "Oh… Dat is" ; "Oh… That's"
 	line "teleurstellend…" ; "disappointing…"
 
-	para "Dag, MARILL…" ; "Goodbye, MARILL…"
+	para "Dag, MARIL…" ; "Goodbye, MARILL…"
 	done
 
 BeverlyPhoneFullText:

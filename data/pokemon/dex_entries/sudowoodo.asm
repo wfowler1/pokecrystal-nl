@@ -6,6 +6,6 @@
 	next "schudt terwijl het" ; "shakes when there"
 	next "niet waait, dan is" ; "is no wind, it's a"
 
-	page "het een SUDOWOODO." ; "SUDOWOODO, not a"
-	next "Verbergt zich voor" ; "tree. It hides"
-	next "regen.@" ; "from the rain.@"
+	page "het een STENO-" ; "SUDOWOODO, not a"
+	next "HOUTO. Verbergt" ; "tree. It hides"
+	next "zich voor regen.@" ; "from the rain.@"

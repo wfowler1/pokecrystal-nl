@@ -266,11 +266,11 @@ RuinsOfAlphOutsideFisherText2:
 
 RuinsOfAlphOutsideYoungster1Text:
 	text "Er zijn veel" ; "There are many"
-	line "soorten UNOWN, dus" ; "kinds of UNOWN, so"
+	line "soorten ONKEND," ; "kinds of UNOWN, so"
 
-	para "we gebruiken ze" ; "we use them for"
-	line "voor geheime ber-" ; "our secret codes."
-	cont "ichten."
+	para "dus we gebruiken" ; "we use them for"
+	line "ze voor geheime" ; "our secret codes."
+	cont "berichten."
 	done
 
 RuinsOfAlphOutsideYoungster2Text:

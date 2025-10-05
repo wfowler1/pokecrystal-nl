@@ -589,7 +589,7 @@ GoldenrodPokecomCenterPerson4Text: ; unreferenced
 	text "Some girl I don't"
 	line "know sent me her"
 
-	para "HOPPIP."
+	para "HUPPIP."
 	line "You should trade"
 
 	para "for a #MON that"
@@ -598,7 +598,7 @@ GoldenrodPokecomCenterPerson4Text: ; unreferenced
 
 GoldenrodPokecomCenterPerson5Text: ; unreferenced
 	text "I received a"
-	line "female HOPPIP, but"
+	line "female HUPPIP, but"
 	cont "its named STANLEY!"
 
 	para "That's my dad's"

@@ -1234,7 +1234,7 @@ Pokedex_DrawOptionScreenBG:
 	db   "@"
 
 .UnownMode:
-	db "UNOWN LIJST@" ; "UNOWN MODE@"
+	db "ONKEND LIJST@" ; "UNOWN MODE@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1770,7 +1770,7 @@ Pokedex_DisplayModeDescription:
 	next "van A tot Z.@" ; "alphabetically.@"
 
 .UnownMode:
-	db   "UNOWN vermeld op" ; "UNOWN are listed"
+	db   "ONKEND vermeld op" ; "UNOWN are listed"
 	next "volgorde gevangen.@" ; "in catching order.@"
 
 Pokedex_DisplayChangingModesMessage:
