@@ -3,7 +3,7 @@
 	dw 785 ; weight
 
 	db   "Een vastgeklampte" ; "An attached"
-	next "SHELLDER laat de" ; "SHELLDER won't let"
+	next "MUSSEL laat de" ; "SHELLDER won't let"
 	next "staart nooit los" ; "go because of the"
 
 	page "wegens de extreem" ; "tasty flavor that"

@@ -740,7 +740,7 @@ IlexForestApprenticeIntroText:
 	line "zal behoorlijk" ; "is going to be"
 	cont "boos op me zijn…" ; "steaming…"
 
-	para "De FARFETCH'D" ; "The FARFETCH'D"
+	para "De VERG'HAALD" ; "The FARFETCH'D"
 	line "die bomen SNIJDT" ; "that CUTS trees"
 
 	para "voor houtskool is" ; "for charcoal took"
@@ -770,11 +770,11 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!" ; "FARFETCH'D: Kwaa!"
+	text "VERG'HAALD: Kwaa!" ; "FARFETCH'D: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Mijn FARFETCH'D!" ; "Ah! My FARFETCH'D!"
+	text "Mijn VERG'HAALD!" ; "Ah! My FARFETCH'D!"
 
 	para "Heb je die voor" ; "You found it for"
 	line "ons gevonden?" ; "us, kid?"

@@ -207,9 +207,9 @@ GruntM29BeatenText:
 
 GruntM29AfterBattleText:
 	text "Klopt, we snijden" ; "Sure, we've been"
-	line "staarten van SLOW-" ; "hacking the tails"
+	line "staarten van LANG-" ; "hacking the tails"
 
-	para "POKE af om ze te" ; "off SLOWPOKE and"
+	para "SAAM af om ze te" ; "off SLOWPOKE and"
 	line "verkopen." ; "selling them."
 
 	para "We doen echt alles" ; "Everything we do"
@@ -251,7 +251,7 @@ TrainerGruntM1WhenTalkText:
 	done
 
 GruntM2SeenText:
-	text "Geen SLOWPOKE-" ; "Quit taking SLOW-"
+	text "Geen LANGSAAM-" ; "Quit taking SLOW-"
 	line "STAARTEN stelen?" ; "POKETAILS?"
 
 	para "Dat zou TEAM" ; "If we obeyed you,"
@@ -266,7 +266,7 @@ GruntM2BeatenText:
 
 GruntM2AfterBattleText:
 	text "We willen geld," ; "We need the money,"
-	line "maar SLOWPOKE-" ; "but selling SLOW-"
+	line "maar LANGSAAM-" ; "but selling SLOW-"
 	cont "STAARTEN verkopen?" ; "POKETAILS?"
 
 	para "TEAM ROCKET-lid" ; "It's tough being a"
@@ -285,7 +285,7 @@ GruntF1BeatenText:
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKESTAARTEN" ; "SLOWPOKETAILS"
+	text "LANGSAAMSTAARTEN" ; "SLOWPOKETAILS"
 	line "groeien wel terug!" ; "grow back fast!"
 
 	para "Wat is er mis met" ; "What's wrong with"
@@ -293,7 +293,7 @@ GruntF1AfterBattleText:
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "Een SLOWPOKE met" ; "A SLOWPOKE with"
+	text "Een LANGSAAM met" ; "A SLOWPOKE with"
 	line "afgesneden staart…" ; "its TAIL cut off…"
 
 	para "Huh? Hij heeft een" ; "Huh? It has MAIL."
@@ -308,13 +308,13 @@ SlowpokeWellB1FSlowpokeMailText:
 	line "pas op het huis" ; "after the house"
 
 	para "met opa en met" ; "with Grandpa and"
-	line "SLOWPOKE." ; "SLOWPOKE."
+	line "LANGSAAM." ; "SLOWPOKE."
 
 	para "Liefs, Pa" ; "Love, Dad"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "Een SLOWPOKE met" ; "A SLOWPOKE with"
+	text "Een LANGSAAM met" ; "A SLOWPOKE with"
 	line "afgesneden staart…" ; "its TAIL cut off…"
 	done
 

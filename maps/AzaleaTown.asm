@@ -316,7 +316,7 @@ AzaleaTownRocket1Text:
 	done
 
 AzaleaTownRocket2Text:
-	text "Ken je SLOWPOKE-" ; "Do you know about"
+	text "Ken je LANGSAAM-" ; "Do you know about"
 	line "STAART? Schijnt" ; "SLOWPOKETAIL? I"
 	cont "lekker te zijn!" ; "heard it's tasty!"
 
@@ -325,7 +325,7 @@ AzaleaTownRocket2Text:
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "De SLOWPOKE zijn" ; "The SLOWPOKE have"
+	text "De LANGSAAM zijn" ; "The SLOWPOKE have"
 	line "uit de stad ver-" ; "disappeared from"
 	cont "dwenen…" ; "town…"
 
@@ -335,7 +335,7 @@ AzaleaTownGrampsTextBefore:
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "De SLOWPOKE zijn" ; "The SLOWPOKE have"
+	text "De LANGSAAM zijn" ; "The SLOWPOKE have"
 	line "weer terug." ; "returned."
 
 	para "Hen kennende," ; "Knowing them, they"
@@ -371,7 +371,7 @@ AzaleaTownYoungsterText:
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …" ; "SLOWPOKE: …"
+	text "LANGSAAM: …" ; "SLOWPOKE: …"
 
 	para "<……> <……> <……>" ; "<……> <……> <……>"
 	done
@@ -425,16 +425,16 @@ AzaleaGymSignText:
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE-PUT" ; "SLOWPOKE WELL"
+	text "LANGSAAM-PUT" ; "SLOWPOKE WELL"
 
 	para "Ook bekend als" ; "Also known as the"
 	line "REGENMAKERPUT." ; "RAINMAKER WELL."
 
-	para "De geeuw van SLOW-" ; "Locals believe"
-	line "POKES roept regen" ; "that a SLOWPOKE's"
+	para "De geeuw van LANG-" ; "Locals believe"
+	line "SAAMS roept regen" ; "that a SLOWPOKE's"
 	cont "op, zegt men." ; g"yawn summons rain."
 
-	para "Een SLOWPOKE-gaap" ; "Records show that"
+	para "Een LANGSAAM-gaap" ; "Records show that"
 	line "stopte 400 jaar" ; "a SLOWPOKE's yawn"
 
 	para "terug een droogte," ; "ended a drought"

@@ -347,7 +347,7 @@ OlivinePortFridayShipText:
 	done
 
 OlivinePortFishingGuru1Text:
-	text "SHELLDER zijn" ; "SHELLDER are easy"
+	text "MUSSEL zijn" ; "SHELLDER are easy"
 	line "eenvoudig te" ; "to catch here."
 
 	para "vangen hier. Ze" ; "They're kind of"

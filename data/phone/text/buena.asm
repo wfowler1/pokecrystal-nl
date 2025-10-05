@@ -367,13 +367,13 @@ BuenaPhoneStarterPokemonText:
 	line "eerste #MON die" ; "the first #MON"
 
 	para "MARY ving een" ; "MARY caught was a"
-	line "DROWZEE was?" ; "DROWZEE?"
+	line "SLUIMER was?" ; "DROWZEE?"
 
 	para "Dat past toch" ; "Isn't that so out"
 	line "niet bij haar?" ; "of character?"
 
 	para "Maar MARY's" ; "But MARY's DROWZEE"
-	line "DROWZEE liet haar" ; "kept making her"
+	line "SLUIMER liet haar" ; "kept making her"
 
 	para "steeds in slaap" ; "fall asleep on the"
 	line "vallen op werk," ; "job, so she traded"

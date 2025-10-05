@@ -3,7 +3,7 @@ IrwinAskNumber1Text:
 	line "tegenstander ooit!" ; "I've ever battled!"
 
 	para "Huh? Jij hebt alle" ; "Huh? You're the"
-	line "SLOWPOKE in de" ; "one who saved all"
+	line "LANGSAAM in de" ; "one who saved all"
 	cont "grot gered?" ; "the SLOWPOKE?"
 
 	para "Nou, geen wonder" ; "Well, no wonder I"

@@ -12,13 +12,13 @@ JoseMonsStickHasADeliciousAromaText:
 	done
 
 JoseDefeatedMonText:
-	text "Mijn FARFETCH'D" ; "A while ago, my"
+	text "Mijn VERG'HAALD" ; "A while ago, my"
 	line "versloeg laatst" ; "FARFETCH'D KO'd"
 	cont "een @" ; "this @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "Je had FARFETCH'D" ; "You should have"
+	para "Je had VERG'HAALD" ; "You should have"
 	line "moeten zien zwiep-" ; "seen FARFETCH'D"
 
 	para "en met die stok." ; "wield that stick."
@@ -45,7 +45,7 @@ JoseBattleRematchText:
 	text "Wil je weer eens" ; "Want to battle"
 	line "vechten?" ; "again?"
 
-	para "Mijn FARFETCH'D" ; "For some reason,"
+	para "Mijn VERG'HAALD" ; "For some reason,"
 	line "lijkt er om een" ; "my FARFETCH'D is"
 
 	para "of andere reden" ; "all worked up and"
@@ -65,7 +65,7 @@ JoseHangUpText:
 	done
 
 JoseFoundItemText:
-	text "Mijn FARFETCH'D" ; "My FARFETCH'D had"
+	text "Mijn VERG'HAALD" ; "My FARFETCH'D had"
 	line "heeft iets moois" ; "something pretty"
 	cont "in z'n bek." ; "in its beak."
 
@@ -97,7 +97,7 @@ JoseReminderText:
 	text "<PLAY_G>, kun je" ; "<PLAY_G>, could you"
 	line "snel komen?" ; "hurry over?"
 
-	para "FARFETCH'D is" ; "FARFETCH'D is"
+	para "VERG'HAALD is" ; "FARFETCH'D is"
 	line "geagiteerd." ; "agitated."
 
 	para "Als je niet snel" ; "If you don't come"

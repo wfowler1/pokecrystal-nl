@@ -273,8 +273,8 @@ BugCatcherAlAfterBattleText:
 	done
 
 BugCatcherJoshSeenText:
-	text "Je hebt alle SLOW-" ; "You saved all the"
-	line "POKE gered? Tjee," ; "SLOWPOKE? Whew,"
+	text "Je hebt alle LANG-" ; "You saved all the"
+	line "SAAM gered? Tjee," ; "SLOWPOKE? Whew,"
 	cont "indrukwekkend!" ; "you're mighty!"
 
 	para "Maar mijn ge-" ; "But my grown-up"

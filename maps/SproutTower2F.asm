@@ -65,8 +65,8 @@ SageEdmondBeatenText:
 	done
 
 SageEdmondAfterBattleText:
-	text "Ik probeerde BELL-" ; "I tried to copy"
-	line "SPROUTS bewegingen" ; "BELLSPROUT's"
+	text "Ik probeerde BEL-" ; "I tried to copy"
+	line "SCHEUTS bewegingen" ; "BELLSPROUT's"
 
 	para "na te doen tijdens" ; "gentle movements"
 	line "het gevecht…" ; "for battle…"

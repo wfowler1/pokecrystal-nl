@@ -140,7 +140,7 @@ PokemonFanClubChairmanRapidashText:
 	line "Luister maar!" ; "Then listen up!"
 
 	para "Dus… m'n favoriete" ; "So… my favorite"
-	line "RAPIDASH…"
+	line "GALLOPAARD…"
 
 	para "Het is… schattig…" ; "It… cute… lovely…"
 	line "lief… slim…" ; "smart… unbearably…"

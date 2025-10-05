@@ -606,7 +606,7 @@ Text_MillionDollarSlowpokeTail:
 	text "Wil je deze" ; "How would you like"
 	line "heerlijke voedzame" ; "to have this"
 
-	para "SLOWPOKESTAART" ; "tasty, nutritious"
+	para "LANGSAAMSTAART" ; "tasty, nutritious"
 	line "van me kopen?" ; SLOWPOKETAIL?"
 
 	para "Kost je maar" ; "For you right now,"

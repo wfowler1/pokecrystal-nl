@@ -144,12 +144,12 @@ VermilionMachopOwnerText:
 	done
 
 VermilionMachopText1:
-	text "MACHOP: Guooh"
+	text "BIKKEL: Guooh"
 	line "gogogoh!"
 	done
 
 VermilionMachopText2:
-	text "Een MACHOP gromt" ; "A MACHOP is growl-"
+	text "Een BIKKEL gromt" ; "A MACHOP is growl-"
 	line "terwijl het de" ; "ing while stomping"
 	cont "grond platstampt." ; "the ground flat."
 	done

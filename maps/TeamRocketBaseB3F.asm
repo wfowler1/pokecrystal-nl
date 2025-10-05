@@ -460,7 +460,7 @@ GruntF5AfterBattleText:
 	line "voor de kamer van" ; "the boss's room is"
 	cont "de baas is" ;
 
-	para "SLOWPOKESTAART." ; "SLOWPOKETAIL."
+	para "LANGSAAMSTAART." ; "SLOWPOKETAIL."
 
 	para "Maar je hebt er" ; "But it's useless"
 	line "niks aan tenzij" ; "unless you have"

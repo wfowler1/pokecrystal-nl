@@ -76,7 +76,7 @@ CharcoalKilnRadio:
 	jumpstd Radio2Script
 
 CharcoalKilnBossText1:
-	text "Alle SLOWPOKE zijn" ; "All the SLOWPOKE"
+	text "Alle LANGSAAM zijn" ; "All the SLOWPOKE"
 	line "uit de stad ver-" ; "have disappeared"
 	cont "dwenen." ; "from the town."
 
@@ -90,7 +90,7 @@ CharcoalKilnBossText1:
 	done
 
 CharcoalKilnBossText2:
-	text "De SLOWPOKE zijn" ; "The SLOWPOKE have"
+	text "De LANGSAAM zijn" ; "The SLOWPOKE have"
 	line "teruggekeerd…" ; "returned…"
 
 	para "Maar mijn LEERLING" ; "But my APPRENTICE"
@@ -115,7 +115,7 @@ CharcoalKilnBossText3:
 
 CharcoalKilnApprenticeText1:
 	text "Waar zijn alle" ; "Where have all the"
-	line "SLOWPOKE naartoe?" ; "SLOWPOKE gone?"
+	line "LANGSAAM naartoe?" ; "SLOWPOKE gone?"
 
 	para "Zijn ze ergens aan" ; "Are they out play-"
 	line "het spelen?" ; "ing somewhere?"
@@ -134,16 +134,16 @@ CharcoalKilnApprenticeText2:
 	done
 
 CharcoalKilnApprenticeText3:
-	text "De SLOWPOKE zijn" ; "The SLOWPOKE came"
+	text "De LANGSAAM zijn" ; "The SLOWPOKE came"
 	line "terug en je vond" ; "back, and you even"
-	cont "zelfs FARFETCH'D." ; "found FARFETCH'D."
+	cont "zelfs VERG'HAALD." ; "found FARFETCH'D."
 
 	para "Jij bent echt" ; "You're the cool-"
 	line "de allercoolste!" ; "est, man!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!" ; "FARFETCH'D: Kwaa!"
+	text "VERG'HAALD: Kwaa!" ; "FARFETCH'D: Kwaa!"
 	done
 
 CharcoalKiln_MapEvents:

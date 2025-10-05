@@ -146,7 +146,7 @@ HikerDanielBeatenText:
 
 HikerDanielAfterBattleText:
 	text "Er werd mij een" ; "I was conned into"
-	line "SLOWPOKESTAART" ; "buying a SLOWPOKE-"
+	line "LANGSAAMSTAART" ; "buying a SLOWPOKE-"
 	cont "aangesmeerd." ; "TAIL."
 
 	para "Echt zielig voor" ; "I feel sorry for"

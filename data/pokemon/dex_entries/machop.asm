@@ -7,5 +7,5 @@
 	next "bergen te tillen." ; "the mountains. It"
 
 	page "Kan zelfs met" ; "can even pick up a"
-	next "gemak een GRAVELER" ; "GRAVELER with"
+	next "gemak een ZTEEN" ; "GRAVELER with"
 	next "optillen.@" ; "ease.@"

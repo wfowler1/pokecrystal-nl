@@ -477,7 +477,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "Hoe dan ook, ze" ; "Anyway, they're at"
 	line "zijn in de PUT, en" ; "the WELL, cutting"
 
-	para "hakken SLOWPOKE-" ; "off SLOWPOKETAILS"
+	para "hakken LANGSAAM-" ; "off SLOWPOKETAILS"
 	line "STAARTEN af om te" ; "for sale!"
 	cont "verkopen!"
 
@@ -485,7 +485,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	line "om ze een lesje te" ; "go give them a"
 	cont "leren!" ; "lesson in pain!"
 
-	para "Hou vol, SLOWPOKE!" ; "Hang on, SLOWPOKE!"
+	para "Hou vol, LANGSAAM!" ; "Hang on, SLOWPOKE!"
 	line "Ouwe KURT komt" ; "Old KURT is on his"
 	cont "er aan!" ; "way!"
 	done
@@ -609,7 +609,7 @@ KurtsHouseKurtThisBallStartedToShakeText:
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "De SLOWPOKE zijn" ; "The SLOWPOKE are"
+	text "De LANGSAAM zijn" ; "The SLOWPOKE are"
 	line "weg… Hebben" ; "gone… Were they"
 
 	para "slechte mensen ze" ; "taken away by bad"
@@ -622,7 +622,7 @@ KurtsGranddaughterLonelyText:
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "De SLOWPOKE die" ; "The SLOWPOKE my"
+	text "De LANGSAAM die" ; "The SLOWPOKE my"
 	line "mijn vader gaf" ; "dad gave me came"
 
 	para "kwam terug! De" ; "back! Its TAIL is"
@@ -636,7 +636,7 @@ KurtsGranddaughterDadText:
 	cont "zocht #BALLEN." ; "# BALLS."
 
 	para "Ik moet bij Opa" ; "I have to stay"
-	line "en SLOWPOKE" ; "home with Grandpa"
+	line "en LANGSAAM" ; "home with Grandpa"
 	cont "thuisblijven." ; "and SLOWPOKE."
 	done
 
@@ -663,7 +663,7 @@ KurtsGranddaughterGSBallText:
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
+	text "LANGSAAM: …"
 	line "Gaap?" ; "Yawn?"
 	done
 

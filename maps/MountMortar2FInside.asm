@@ -60,7 +60,7 @@ SupernerdHughAfterBattleText:
 	para "Heb jij een" ; "Have you seen a"
 	line "trainer gezien met" ; "trainer who has a"
 
-	para "een SLOWPOKE die" ; "SLOWPOKE that can"
+	para "een LANGSAAM die" ; "SLOWPOKE that can"
 	line "KRACHT kent?" ; "use STRENGTH?"
 	done
 

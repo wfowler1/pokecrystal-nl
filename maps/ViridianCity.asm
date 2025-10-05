@@ -152,7 +152,7 @@ ViridianCityDreamEaterFisherText:
 	line "in de zon." ; "off in the sun."
 
 	para "…Ik had een droom" ; "…I had this dream"
-	line "over een DROWZEE" ; "about a DROWZEE"
+	line "over een SLUIMER" ; "about a DROWZEE"
 
 	para "die mijn droom" ; "eating my dream."
 	line "opat. Raar, hè?" ; "Weird, huh?"

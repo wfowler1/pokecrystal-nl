@@ -32,18 +32,18 @@ SlowpokeWellB2FTMRainDance:
 
 SlowpokeWellB2FGymGuideText:
 	text "Ik wacht tot ik" ; "I'm waiting to see"
-	line "zie hoe een SLOW-" ; "SLOWPOKE's moment"
-	cont "POKE evolueert." ; "of evolution."
+	line "zie hoe een LANG-" ; "SLOWPOKE's moment"
+	cont "SAAM evolueert." ; "of evolution."
 
 	para "En ik ontdekte" ; "Through observa-"
 	line "iets tijdens het" ; "tion, I made a new"
 	cont "observeren." ; "discovery."
 
-	para "Een SLOWPOKE met" ; "A SLOWPOKE with a"
+	para "Een LANGSAAM met" ; "A SLOWPOKE with a"
 	line "een KONINGSSTEEN" ; "KING'S ROCK often"
 
 	para "wordt vaak door" ; "gets bitten by a"
-	line "SHELLDER gebeten." ; "SHELLDER."
+	line "MUSSEL gebeten." ; "SHELLDER."
 
 	para "Hier, deze" ; "Here, I'll share a"
 	line "KONINGSSTEEN deel" ; "KING'S ROCK with"
@@ -52,7 +52,7 @@ SlowpokeWellB2FGymGuideText:
 
 SlowpokeWellB2FGymGuideText_GotKingsRock:
 	text "Ik zal me als een" ; "I'm going to be"
-	line "SLOWPOKE gedragen." ; "like SLOWPOKE."
+	line "LANGSAAM gedragen." ; "like SLOWPOKE."
 
 	para "Ik wacht geduldig" ; "I'll wait patient-"
 	line "af, tot er eentje" ; "ly, so I can see"

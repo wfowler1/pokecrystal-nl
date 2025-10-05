@@ -318,7 +318,7 @@ SageNealAfterBattleText:
 SproutTower3FPaintingText:
 	text "Het is een mooi" ; "It's a powerful"
 	line "schilderij van een" ; "painting of a"
-	cont "BELLSPROUT."
+	cont "BELSCHEUT."
 	done
 
 SproutTower3FStatueText:

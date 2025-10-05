@@ -106,14 +106,14 @@ else
 endc
 
 CeladonCityGramps1Text:
-	text "GRIMER verschijnt" ; "GRIMER have been"
+	text "GRIMEUR verschijnt" ; "GRIMER have been"
 	line "hier sinds kort." ; "appearing lately."
 
 	para "Zie je die vijver" ; "See that pond out"
 	line "voor het huis?" ; "in front of the"
 
 	para "Daar wonen nu" ; "house? GRIMER live"
-	line "GRIMER." ; "there now."
+	line "GRIMEUR." ; "there now."
 
 	para "Waar komen ze van-" ; "Where did they"
 	line "daan? Dit is echt" ; "come from? This is"

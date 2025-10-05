@@ -52,7 +52,7 @@ JoseRematchText:
 	text "Twiet! Twieeeet!" ; "Tweet! Tweeeet!"
 
 	para "Ik wachtte op je!" ; "Kept me waiting!"
-	line "Ga, FARFETCH'D!" ; "Go, FARFETCH'D!"
+	line "Ga, VERG'HAALD!" ; "Go, FARFETCH'D!"
 	done
 
 JoseGiftText:

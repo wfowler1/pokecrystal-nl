@@ -181,17 +181,17 @@ CeruleanCitySuperNerdText:
 	done
 
 CeruleanCitySlowbroText:
-	text "SLOWBRO: Yara?" ; "SLOWBRO: Yarah?"
+	text "LANGSAMEN: Yara?" ; "SLOWBRO: Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "Mijn SLOWBRO en ik" ; "My SLOWBRO and I"
-	line "zijn een geweldige" ; "make an awesome"
-	cont "combinatie!" ; "combination!"
+	text "Mijn LANGSAMEN en" ; "My SLOWBRO and I"
+	line "ik zijn een gewel-" ; "make an awesome"
+	cont "dige combinatie!" ; "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, doe je" ; "SLOWBRO, show me"
+	text "LANGSAMEN, doe je" ; "SLOWBRO, show me"
 	line "VERWARRING!" ; "your CONFUSION!"
 	done
 

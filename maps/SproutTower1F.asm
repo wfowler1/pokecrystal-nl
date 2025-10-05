@@ -77,7 +77,7 @@ SproutTower1FSage2Text:
 	done
 
 SproutTower1FGrannyText:
-	text "Een BELLSPROUT van" ; "A BELLSPROUT over"
+	text "Een BELSCHEUT van" ; "A BELLSPROUT over"
 	line "meer dan 30 meter…" ; "100 feet tall…"
 
 	para "Men zegt dat het" ; "People say that it"
