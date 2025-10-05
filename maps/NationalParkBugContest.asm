@@ -144,7 +144,7 @@ BugCatchingContestant4AText:
 
 BugCatchingContestant5AText:
 	text "BENNY: Ssh! Je" ; "BENNY: Ssh! You'll"
-	line "jaagt SCYTHER weg." ; "scare off SCYTHER."
+	line "jaagt ZEISER weg." ; "scare off SCYTHER."
 
 	para "Ik spreek je" ; "I'll talk to you"
 	line "later." ; "later."

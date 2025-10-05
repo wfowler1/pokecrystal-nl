@@ -26,17 +26,18 @@ FishingDudeText:
 
 	para "Zijn droom is om" ; "He dreams about"
 	line "'s werelds grootste" ; "seeing the world's"
-	cont "MAGIKARP te zien." ; "greatest MAGIKARP."
+	cont "MAGIKARPER te" ; "greatest MAGIKARP."
+	cont "zien."
 
 	para "Wil je hem alle" ; "If you don't mind,"
-	line "MAGIKARP tonen" ; "could you show him"
+	line "MAGIKARPER tonen" ; "could you show him"
 
 	para "die je vangt?" ; "any MAGIKARP you"
 	line "Wie weet, mogelijk" ; "catch?"
 
 	para "vang je wel de" ; "Who knows, you may"
-	line "MAGIKARP van zijn" ; "catch the MAGIKARP"
-	cont "dromen." ; "of his dreams."
+	line "MAGIKARPER van" ; "catch the MAGIKARP"
+	cont "zijn dromen." ; "of his dreams."
 	done
 
 FishingDudesHousePhotoText:

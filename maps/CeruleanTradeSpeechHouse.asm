@@ -43,7 +43,7 @@ CeruleanTradeSpeechHouseGrampsText:
 	done
 
 CeruleanTradeSpeechHouseRhydonText:
-	text "KANGASKHAN: Kanga" ; "KANGASKHAN: Garu"
+	text "KANGEKHAN: Kanga" ; "KANGASKHAN: Garu"
 	line "kangaa." ; "garuu."
 	done
 

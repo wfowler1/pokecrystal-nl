@@ -6,6 +6,6 @@
 	next "stekende ogen een" ; "vision allows it"
 	next "spetterende" ; "to spot splashing"
 
-	page "MAGIKARP spotten" ; "MAGIKARP, even"
+	page "MAGIKARPER spotten" ; "MAGIKARP, even"
 	next "op een kilometer" ; "while flying at"
 	next "afstand.@" ; "3300 feet.@"

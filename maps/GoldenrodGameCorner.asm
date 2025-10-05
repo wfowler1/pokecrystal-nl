@@ -239,7 +239,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "ABRA        100@"
-	db "CUBONE      800@"
+	db "WELBEEN     800@"
 	db "WOBBUFFET  1500@"
 	db "SLUITEN@" ; "CANCEL@"
 

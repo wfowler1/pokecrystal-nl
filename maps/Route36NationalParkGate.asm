@@ -722,7 +722,7 @@ BugCatchingContestant5BText:
 
 BugCatchingContestant5BStillCompetingText:
 	text "BENNY: Ik ving" ; "BENNY: I caught a"
-	line "ooit een SCYTHER," ; "SCYTHER before,"
+	line "ooit een ZEISER," ; "SCYTHER before,"
 	cont "maar won niet." ; "but I didn't win."
 	done
 

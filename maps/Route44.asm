@@ -377,11 +377,11 @@ BirdKeeperVance1BeatenText:
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "ARTICUNO, ZAPDOS"
-	line "en MOLTRES zijn de" ; "and MOLTRES are"
+	text "ARTICUNO, FLITSDOS"
+	line "en SMELTRES zijn" ; "and MOLTRES are"
 
-	para "drie legendarische" ; "the three legend-"
-	line "vogel-#MON." ; "ary bird #MON."
+	para "de drie legendar-" ; "the three legend-"
+	line "ische vogel-#MON." ; "ary bird #MON."
 
 	para "Ik hoorde ook over" ; "I heard there are"
 	line "andere legendari- " ; "other legendary"

@@ -34,7 +34,8 @@ OlivineHouseBetaTeacherText:
 	done
 
 OlivineHouseBetaRhydonText:
-	text "RHYDON: Grugoooh!" ; "RHYDON: Gugooh!"
+	text "RINHOORNOS:" ; "RHYDON: Gugooh!"
+	line "Grugoooh!"
 	done
 
 OlivineHouseBeta_MapEvents:

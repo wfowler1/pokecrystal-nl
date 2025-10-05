@@ -298,13 +298,14 @@ SurfGuyElegantKimonoGirlsText:
 	done
 
 RhydonText:
-	text "RHYDON: Grugoh" ; "RHYDON: Gugooh"
+	text "RINHOORNOS: Grugoh" ; "RHYDON: Gugooh"
 	line "grugoooh!" ; "gugogooh!"
 	done
 
 DanceTheaterCooltrainerMText:
 	text "Die man is altijd" ; "That man's always"
-	line "bij zijn RHYDON." ; "with his RHYDON."
+	line "bij zijn" ; "with his RHYDON."
+	cont "RINHOORNOS."
 
 	para "Zegt dat ie een" ; "Says he wants a"
 	line "#MON wil die" ; "#MON that can"

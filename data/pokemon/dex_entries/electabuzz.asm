@@ -3,7 +3,7 @@
 	dw 300 ; weight
 
 	db   "Als twee" ; "When two"
-	next "ELECTABUZZ elkaar" ; "ELECTABUZZ touch,"
+	next "ELECTIJGER elkaar" ; "ELECTABUZZ touch,"
 	next "aanraken, communi-" ; "they control the"
 
 	page "ceren ze met met" ; "electric currents"

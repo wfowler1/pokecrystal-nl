@@ -1016,7 +1016,7 @@ _ContestJudging_ThirdPlaceScoreText::
 
 _MagikarpGuruMeasureText::
 	text "Laat me die" ; "Let me measure"
-	line "MAGIKARP meten." ; "that MAGIKARP."
+	line "MAGIKARPER meten." ; "that MAGIKARP."
 
 	para "…Hm, hij is" ; "…Hm, it measures"
 	line "@"

@@ -65,7 +65,7 @@ CeladonDeptStore3FGameboyKid1Text:
 
 CeladonDeptStore3FGameboyKid2Text:
 	text "Yes! Eindelijk een" ; "Yeah! I'm finally"
-	line "PORYGON voor mij!" ; "getting a PORYGON!"
+	line "PORYGOON voor mij!" ; "getting a PORYGON!"
 
 	para "Ik ben slecht met" ; "I'm no good at the"
 	line "automaten, dus" ; "slots, so I could"
@@ -76,7 +76,7 @@ CeladonDeptStore3FGameboyKid2Text:
 	para "…Huh?" ; "…Huh?"
 
 	para "De geruilde" ; "The traded PORYGON"
-	line "PORYGON is nu een" ; "turned into a dif-"
+	line "PORYGOON is nu een" ; "turned into a dif-"
 	cont "andere #MON!" ; "ferent #MON!"
 	done
 

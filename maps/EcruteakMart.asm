@@ -21,16 +21,16 @@ EcruteakMartGrannyScript:
 	jumptextfaceplayer EcruteakMartGrannyText
 
 EcruteakMartSuperNerdText:
-	text "Mijn EEVEE" ; "My EEVEE evolved"
+	text "Mijn EEVIE" ; "My EEVEE evolved"
 	line "evolueerde in" ; "into an ESPEON."
-	cont "een ESPEON." ; 
+	cont "een ESPERK." ; 
 
-	para "Maar de EEVEE" ; "But my friend's"
+	para "Maar de EEVIE" ; "But my friend's"
 	line "van mijn vriend" ; "EEVEE turned into"
-	cont "werd een UMBREON." ; "an UMBREON."
+	cont "werd een UMBRAPERK." ; "an UMBREON."
 
 	para "Waarom? We hebben" ; "I wonder why? We"
-	line "onze EEVEE op" ; "both were raising"
+	line "onze EEVIE op" ; "both were raising"
 
 	para "dezelfde manier" ; "our EEVEE in the"
 	line "opgevoed…" ; "same way…"

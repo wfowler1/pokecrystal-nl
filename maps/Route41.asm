@@ -321,7 +321,7 @@ SwimmerfKaraAfterBattleText:
 
 SwimmerfWendySeenText:
 	text "Rond middernacht" ; "At night, STARYU"
-	line "komen STARYU naar" ; "gather near the"
+	line "komen STERJIJ naar" ; "gather near the"
 	cont "het oppervlak." ; "water's surface."
 	done
 
@@ -330,8 +330,8 @@ SwimmerfWendyBeatenText:
 	done
 
 SwimmerfWendyAfterBattleText:
-	text "De clusters STARYU" ; "The clusters of"
-	line "geven tegelijk" ; "STARYU light up"
+	text "De clusters STER-" ; "The clusters of"
+	line "JIJ geven tegelijk" ; "STARYU light up"
 	cont "licht met elkaar." ; "at the same time."
 
 	para "Zo mooi dat het" ; "It's so beautiful,"

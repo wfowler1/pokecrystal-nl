@@ -504,7 +504,7 @@ DragonShrineTakeThisDratiniText:
 	para "Ik heb iets voor" ; "I have something"
 	line "je." ; "for you."
 
-	para "Neem deze DRATINI" ; "Take this DRATINI"
+	para "Neem deze DRAKIE" ; "Take this DRATINI"
 	line "als bewijs dat ik" ; "as proof that I"
 
 	para "jouw waarde heb" ; "have recognized"
@@ -513,7 +513,7 @@ DragonShrineTakeThisDratiniText:
 
 DragonShrinePlayerReceivedDratiniText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "DRATINI!"
+	line "DRAKIE!"
 	done
 
 DragonShrinePartyFullText:

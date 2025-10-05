@@ -375,7 +375,7 @@ CarbosDesc:
 
 LuckyPunchDesc:
 	db   "Hoge kritieke klap" ; "Ups critical hit"
-	next "ratio CHANSEY.@" ; "ratio of CHANSEY.@"
+	next "ratio GOKKIE.@" ; "ratio of CHANSEY.@"
 
 CalciumDesc:
 	db   "Verhoogt SPECIALE" ; "Ups SPECIAL stats"
@@ -395,7 +395,7 @@ LeafStoneDesc:
 
 MetalPowderDesc:
 	db   "Verhoogt AFWEER" ; "Raises DEFENSE of"
-	next "van DITTO. (VAST)@" ; "DITTO. (HOLD)@"
+	next "van IDEM. (VAST)@" ; "DITTO. (HOLD)@"
 
 NuggetDesc:
 	db   "Van puur goud." ; "Made of pure gold."
@@ -959,7 +959,7 @@ SurfMailDesc:
 	next "afdruk. (VAST)@" ; "(HOLD)@"
 
 LiteBlueMailDesc:
-	db   "Post met DRATINI-" ; "DRATINI-print"
+	db   "Post met DRAKIE-" ; "DRATINI-print"
 	next "afdruk. (VAST)@" ; "MAIL. (HOLD)@"
 
 PortraitMailDesc:
@@ -971,11 +971,11 @@ LovelyMailDesc:
 	next "afdruk. (VAST)@" ; "(HOLD)@"
 
 EonMailDesc:
-	db   "Post met EEVEE-" ; "EEVEE-print MAIL."
+	db   "Post met EEVIE-" ; "EEVEE-print MAIL."
 	next "afdruk. (VAST)@" ; "(HOLD)@"
 
 MorphMailDesc:
-	db   "Post met DITTO-" ; "DITTO-print MAIL."
+	db   "Post met IDEM-" ; "DITTO-print MAIL."
 	next "afdruk. (VAST)@" ; "(HOLD)@"
 
 BlueSkyMailDesc:
@@ -987,7 +987,7 @@ MusicMailDesc:
 	next "afdruk. (vast)@" ; "(HOLD)@"
 
 MirageMailDesc:
-	db   "Post met MEW-" ; "MEW-print MAIL."
+	db   "Post met MIEW-" ; "MEW-print MAIL."
 	next "afdruk. (VAST)@" ; "(HOLD)@"
 
 TeruSama25Desc:

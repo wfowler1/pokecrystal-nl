@@ -111,7 +111,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "Vroeger kon je" ; "It used to be that"
 	line "daar levendige" ; "you could catch"
 
-	para "MAGIKARP vangen," ; "lively MAGIKARP"
+	para "MAGIKARPER vangen," ; "lively MAGIKARP"
 	line "maar nu…" ; "there, but…"
 
 	para "Ik snap er echt" ; "I don't understand"
@@ -130,13 +130,14 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	text "MEER VAN RAZERNIJ" ; "LAKE OF RAGE is"
 	line "is weer normaal." ; "back to normal."
 
-	para "De MAGIKARP zijn" ; "The MAGIKARP have"
+	para "De MAGIKARPER zijn" ; "The MAGIKARP have"
 	line "teruggekeerd." ; "returned."
 
 	para "Misschien zie ik" ; "I may yet realize"
 	line "op een dag toch" ; "my dream of see-"
 	cont "nog 's werelds" ; "ing the world's"
-	cont "grootste MAGIKARP." ; "largest MAGIKARP."
+	cont "grootste MAGI-" ; "largest MAGIKARP."
+	cont "KARPER."
 
 	para "Heb je een HENGEL?" ; "Do you have a ROD?"
 	line "Zo ja, help me dan" ; "Please help me if"
@@ -145,7 +146,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
 	text "Ah, je hebt een" ; "Ah, you have a"
-	line "MAGIKARP! Eens" ; "MAGIKARP! Let's"
+	line "MAGIKARPER! Eens" ; "MAGIKARP! Let's"
 
 	para "zien hoe groot dit" ; "see how big that"
 	line "schatje is." ; "baby is."
@@ -183,7 +184,7 @@ MagikarpLengthRaterText_TooShort:
 
 MagikarpLengthRaterText_NotMagikarp:
 	text "Wat? Dat is geen" ; "What? That's not a"
-	line "MAGIKARP!"
+	line "MAGIKARPER!"
 	done
 
 MagikarpLengthRaterText_Refused:

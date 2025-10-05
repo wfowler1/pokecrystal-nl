@@ -25,7 +25,8 @@ PewterMartYoungsterText:
 	line "GYARADOS!"
 
 	para "Die was al bij me" ; "I raised it from a"
-	line "als een MAGIKARP." ; "MAGIKARP. I can't"
+	line "als een MAGI-" ; "MAGIKARP. I can't"
+	cont "KARPER."
 
 	para "Ik kan niet ge-" ; "believe how strong"
 	line "loven hoe sterk" ; "it has become."
@@ -35,11 +36,11 @@ PewterMartYoungsterText:
 PewterMartSuperNerdText:
 	text "Er was vroeger" ; "There once was a"
 	line "een rare oude man" ; "weird old man who"
-	cont "die MAGIKARP" ; "sold MAGIKARP."
+	cont "die MAGIKARPER" ; "sold MAGIKARP."
 	cont "verkocht." ; 
 
 	para "Hij zei dat de" ; "He was saying the"
-	line "MAGIKARP van het" ; "MAGIKARP from the"
+	line "MAGIKARPER van het" ; "MAGIKARP from the"
 
 	para "MEER VAN RAZERNIJ" ; "LAKE OF RAGE were"
 	line "uitstekend waren." ; "excellent."

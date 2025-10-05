@@ -192,7 +192,7 @@ MahoganyTownGrampsText:
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP zijn" ; "MAGIKARP have"
+	text "MAGIKARPER zijn" ; "MAGIKARP have"
 	line "teruggekeerd in" ; "returned to LAKE"
 	cont "het MEER VAN" ; "OF RAGE."
 	cont "RAZERNIJ." ;

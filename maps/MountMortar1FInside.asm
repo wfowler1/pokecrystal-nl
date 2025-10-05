@@ -110,7 +110,7 @@ SupernerdMarkusAfterBattleText:
 	para "Heb je een trainer" ; "Did you run into a"
 	line "gezien met een" ; "trainer who uses a"
 
-	para "SEADRA die" ; "SEADRA that knows"
+	para "ZEEDRA die" ; "SEADRA that knows"
 	line "WATERVAL kent?" ; "WATERFALL?"
 	done
 

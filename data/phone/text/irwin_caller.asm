@@ -161,7 +161,7 @@ IrwinSnorlaxGossipText:
 	text "Ik zag het, echt!" ; "I saw, I saw!"
 
 	para "Jij wekte een" ; "You waking up"
-	line "SNORLAX!"
+	line "SNURLEX!"
 
 	para "Ik keek van ver," ; "I was watching you"
 	line "dus zag niet" ; "from afar, so I"

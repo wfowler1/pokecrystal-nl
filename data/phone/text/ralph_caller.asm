@@ -104,7 +104,7 @@ RalphNoItemText:
 
 	para "De laatste tijd" ; "Recently, all I've"
 	line "vang ik alleen" ; "been catching are"
-	cont "maar MAGIKARP…" ; "MAGIKARP, though…"
+	cont "maar MAGIKARPER…" ; "MAGIKARP, though…"
 	done
 
 RalphReminderText:

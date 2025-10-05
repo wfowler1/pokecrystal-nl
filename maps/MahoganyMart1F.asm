@@ -175,7 +175,7 @@ MahoganyMart1FBlackBeltText:
 	line "ment werkt" ; "ment worked like a"
 	cont "geweldig." ; "charm."
 
-	para "MAGIKARP zijn" ; "MAGIKARP are just"
+	para "MAGIKARPER zijn" ; "MAGIKARP are just"
 	line "waardeloos, maar" ; "worthless, but"
 
 	para "GYARADOS zijn" ; "GYARADOS are big"
@@ -191,7 +191,7 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "LANCE: DRAGONITE,"
+	text "LANCE: DRAKONIET,"
 	line "HYPERSTRAAL." ; "HYPER BEAM."
 	done
 

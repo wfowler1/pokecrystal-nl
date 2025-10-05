@@ -190,7 +190,8 @@ Binoculars2Text:
 
 Binoculars3Text:
 	text "Een VISSER ving" ; "A FISHER caught a"
-	line "een hoop MAGIKARP…" ; "lot of MAGIKARP…"
+	line "een hoop" ; "lot of MAGIKARP…"
+	cont "MAGIKARPER…"
 
 	para "Ze SPETTERen" ; "They're SPLASHing"
 	line "tegelijkertijd!" ; "at the same time!"

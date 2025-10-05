@@ -108,7 +108,7 @@ BillsHouseRadio:
 
 BillTakeThisEeveeText:
 	text "BILL: He, <PLAYER>!" ; "BILL: Hi, <PLAYER>!"
-	line "Wil je deze EEVEE" ; "Do us a favor and"
+	line "Wil je deze EEVIE" ; "Do us a favor and"
 	cont "overnemen?" ; "take this EEVEE."
 
 	para "Hij kwam aan toen" ; "It came over when"
@@ -142,12 +142,12 @@ BillImCountingOnYouText:
 
 ReceivedEeveeText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "EEVEE!" ; "EEVEE!"
+	line "EEVIE!" ; "EEVEE!"
 	done
 
 BillEeveeMayEvolveText:
 	text "BILL: PROF.ELM" ; "BILL: PROF.ELM"
-	line "claimt dat EEVEE" ; "claims EEVEE may"
+	line "claimt dat EEVIE" ; "claims EEVEE may"
 
 	para "op nieuwe manieren" ; "evolve in new and"
 	line "evolueren kan." ; "unknown ways."

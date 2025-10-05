@@ -6,6 +6,6 @@
 	next "is een kerkhof" ; "world is a ceme-"
 	next "alleen voor" ; "tery just for"
 
-	page "MAROWAK. In de" ; "MAROWAK. It gets"
+	page "MILDMEP. In de" ; "MAROWAK. It gets"
 	next "graven daar vindt" ; "its bones from"
 	next "het botten.@" ; "those graves.@"

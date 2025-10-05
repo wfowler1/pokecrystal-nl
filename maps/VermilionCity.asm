@@ -164,18 +164,18 @@ VermilionCitySuperNerdText:
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "SNORLAX is vredig" ; "SNORLAX is snoring"
+	text "SNURLEX is vredig" ; "SNORLAX is snoring"
 	line "aan het snurken…" ; "peacefully…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
 	text "De #GEAR werd" ; "The #GEAR was"
 	line "naast de slapende" ; "placed near the"
-	cont "SNORLAX geplaatst…" ; "sleeping SNORLAX…"
+	cont "SNURLEX geplaatst…" ; "sleeping SNORLAX…"
 
 	para "…"
 
-	para "SNORLAX werd" ; "SNORLAX woke up!"
+	para "SNURLEX werd" ; "SNORLAX woke up!"
 	line "wakker!"
 	done
 

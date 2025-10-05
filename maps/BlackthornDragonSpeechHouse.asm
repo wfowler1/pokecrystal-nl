@@ -40,7 +40,7 @@ BlackthornDragonSpeechHouseGrannyText:
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
-	text "DRATINI: Draa!"
+	text "DRAKIE: Draa!"
 	done
 
 BlackthornDragonSpeechHouse_MapEvents:

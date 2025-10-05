@@ -8,4 +8,4 @@
 
 	page "hoofden. Valt er" ; "heads. A head that"
 	next "één, dan wordt dat" ; "drops off becomes"
-	next "een EXEGGCUTE.@" ; "an EXEGGCUTE.@"
+	next "een EITVOERING.@" ; "an EXEGGCUTE.@"

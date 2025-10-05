@@ -203,12 +203,12 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "PIKACHU    {d:CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS}@"
-	db "PORYGON    {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
+	db "PORYGOON   {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
 	db "LARVITAR   {d:CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS}@"
 	db "SLUITEN@" ; "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "Ik wilde PORYGON," ; "I wanted PORYGON,"
+	text "Ik wilde PORYGOON," ; "I wanted PORYGON,"
 	line "maar kwam 100" ; "but I was short by"
 	cont "munten tekort…" ; "100 coins…"
 	done

@@ -247,9 +247,10 @@ LakeOfRageLanceForcedToEvolveText:
 	line "met alleen maar" ; "of GYARADOS but"
 	cont "GYARADOS…" ; "nothing else…"
 
-	para "De MAGIKARP worden" ; "So the MAGIKARP"
-	line "dus gedwongen te" ; "are being forced"
-	cont "evolueren…" ; "to evolve…"
+	para "De MAGIKARPER" ; "So the MAGIKARP"
+	line "worden dus ged-" ; "are being forced"
+	cont "wongen te" ; "to evolve…"
+	cont "evolueren…"
 	done
 
 LakeOfRageLanceIntroText:
@@ -329,7 +330,7 @@ LakeOfRageGrampsText:
 
 LakeOfRageGrampsText_ClearedRocketHideout:
 	text "Hahah! De MAGI-" ; "Hahah! The MAGI-"
-	line "KARP bijten!" ; "KARP are biting!"
+	line "KARPER bijten!" ; "KARP are biting!"
 	done
 
 LakeOfRageSuperNerdText:
