@@ -27,7 +27,8 @@ EcruteakMartSuperNerdText:
 
 	para "Maar de EEVIE" ; "But my friend's"
 	line "van mijn vriend" ; "EEVEE turned into"
-	cont "werd een UMBRAPERK." ; "an UMBREON."
+	cont "werd een" ; "an UMBREON."
+	cont "UMBRAPERK."
 
 	para "Waarom? We hebben" ; "I wonder why? We"
 	line "onze EEVIE op" ; "both were raising"

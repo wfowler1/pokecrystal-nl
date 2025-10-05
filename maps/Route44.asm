@@ -381,7 +381,8 @@ BirdKeeperVanceLegendaryBirdsText:
 	line "en SMELTRES zijn" ; "and MOLTRES are"
 
 	para "de drie legendar-" ; "the three legend-"
-	line "ische vogel-#MON." ; "ary bird #MON."
+	line "ische vogel-" ; "ary bird #MON."
+	cont "#MON."
 
 	para "Ik hoorde ook over" ; "I heard there are"
 	line "andere legendari- " ; "other legendary"
