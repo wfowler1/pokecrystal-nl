@@ -124,14 +124,14 @@ AnthonyReminderText:
 
 AnthonyHurryText:
 	text "Hallo? Wat? Waar" ; "Hello? What? Where"
-	line "is DUNSPARCE?"
+	line "is TRAAGZAAM?"
 
 	para "DONKERE GROT! Ga!" ; "DARK CAVE! Hurry!"
 
 	para "Ik weet dat ik het" ; "I know I've said"
 	line "eerder zei, maar" ; "it before, but"
 
-	para "DUNSPARCE" ; "DUNSPARCE don't"
+	para "TRAAGZAAM" ; "DUNSPARCE don't"
 	line "verschijnen niet" ; "appear when there"
 
 	para "in de buurt van" ; "are strong #MON"

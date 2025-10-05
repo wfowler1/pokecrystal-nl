@@ -8,4 +8,4 @@
 
 	page "is anders voor" ; "tail is predeter-"
 	next "iedere wilde" ; "mined for each"
-	next "SMEARGLE.@"
+	next "SMEERGEL.@"

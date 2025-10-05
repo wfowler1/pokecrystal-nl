@@ -163,7 +163,7 @@ HikerAnthony2AfterText:
 
 HikerAnthonyDunsparceText:
 	text "Hé, ving je zonet" ; "Hey, did you get a"
-	line "een DUNSPARCE?" ; "DUNSPARCE?"
+	line "een TRAAGZAAM?" ; "DUNSPARCE?"
 
 	para "Ik ook." ; "I caught one too."
 

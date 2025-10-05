@@ -113,11 +113,11 @@ MountMortarB1FTyrogueRewardText:
 
 MountMortarB1FReceiveMonText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TYROGUE."
+	line "TUUROST."
 	done
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "TYROGUE is een" ; "TYROGUE is a"
+	text "TUUROST is een" ; "TYROGUE is a"
 	line "vecht-type." ; "fighting-type."
 
 	para "Het evolueert in" ; "It evolves into a"

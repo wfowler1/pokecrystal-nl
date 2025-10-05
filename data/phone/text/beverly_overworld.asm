@@ -27,7 +27,7 @@ BeverlyNumberAcceptedText:
 	text "Eerlijk gezegd wil" ; "To be honest, I"
 	line "ik een MARIL." ; "want a MARILL."
 
-	para "Maar mijn SNUBBULL" ; "But I make do with"
+	para "Maar mijn SNOBBUL" ; "But I make do with"
 	line "is ook een schat." ; "my cute SNUBBULL."
 	done
 

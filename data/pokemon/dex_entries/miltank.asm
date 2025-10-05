@@ -2,7 +2,7 @@
 	db 12 ; height
 	dw 755 ; weight
 
-	db   "Om een MILTANK te" ; "In order to milk a"
+	db   "Om een MELTANK te" ; "In order to milk a"
 	next "melken, moet je" ; "MILTANK, one must"
 	next "met het juiste" ; "have a knack for"
 

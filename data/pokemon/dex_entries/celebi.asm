@@ -4,7 +4,7 @@
 
 	db   "Aanbeden als de" ; "Revered as a"
 	next "wachter van het" ; "guardian of the"
-	next "woud, CELEBI" ; "forest, CELEBI"
+	next "woud, VIERENI" ; "forest, CELEBI"
 
 	page "verschijnt waar er" ; "appears wherever"
 	next "een prachtig bos" ; "beautiful forests"

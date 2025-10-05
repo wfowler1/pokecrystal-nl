@@ -67,7 +67,7 @@ CopycatsHouse1FPokefanFText_ReturnedMachinePart:
 	done
 
 CopycatsHouse1FBlisseyText:
-	text "BLISSEY: Bliisii!"
+	text "ZEGELIE: Bliisii!"
 	done
 
 CopycatsHouse1F_MapEvents:

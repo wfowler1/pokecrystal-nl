@@ -53,18 +53,18 @@ Route6UndergroundPathSignText:
 	done
 
 PokefanmRexSeenText:
-	text "Mijn PHANPY is" ; "My PHANPY is the"
+	text "Mijn FANPIE is" ; "My PHANPY is the"
 	line "de schattigste van" ; "cutest in the"
 	cont "de wereld." ; "world."
 	done
 
 PokefanmRexBeatenText:
-	text "Mijn PHANPY!" ; "My PHANPY!"
+	text "Mijn FANPIE!" ; "My PHANPY!"
 	done
 
 PokefanmRexAfterBattleText:
 	text "Kijk hoe lief mijn" ; "Look how adorable"
-	line "PHANPY doet!" ; "my PHANPY acts!"
+	line "FANPIE doet!" ; "my PHANPY acts!"
 
 	para "Is het niet zo" ; "Isn't it cute"
 	line "schattig dat je" ; "enough to make"

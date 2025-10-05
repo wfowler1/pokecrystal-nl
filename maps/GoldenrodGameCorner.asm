@@ -240,7 +240,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db 4 ; items
 	db "ABRA        100@"
 	db "WELBEEN     800@"
-	db "WOBBUFFET  1500@"
+	db "WOBBUFFER  1500@"
 	db "SLUITEN@" ; "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:

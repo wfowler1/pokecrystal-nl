@@ -94,7 +94,7 @@ FarmhouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 FarmerMText_SickCow:
-	text "Mijn MILTANK geeft" ; "My MILTANK ain't"
+	text "Mijn MELTANK geeft" ; "My MILTANK ain't"
 	line "geen druppeltje" ; "givin' me milk"
 	cont "melk meer." ; "n'more."
 
@@ -154,7 +154,7 @@ FarmerFText_InTrouble:
 	text "We bezorgen zelfs" ; "Our milk even goes"
 	line "in KANTO." ; "out to KANTO."
 
-	para "Dus als MILTANK" ; "So if our own"
+	para "Dus als MELTANK" ; "So if our own"
 	line "geen melk geeft," ; "MILTANK won't give"
 
 	para "hebben we een dik" ; "us any milk, we're"
@@ -162,7 +162,7 @@ FarmerFText_InTrouble:
 	done
 
 FarmerFText_HealedMiltank:
-	text "Je hebt MILTANK" ; "You fixed our"
+	text "Je hebt MELTANK" ; "You fixed our"
 	line "gefixt, schat. Nu" ; "MILTANK, hon. Now"
 
 	para "hebben we weer" ; "it gives MOOMOO"

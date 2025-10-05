@@ -138,7 +138,7 @@ Route39BarnTwinWereFeedingMoomooText:
 	done
 
 MoomooWeakMooText:
-	text "MILTANK: …Moo…"
+	text "MELTANK: …Moo…"
 	done
 
 Route39BarnItsCryIsWeakText:
@@ -146,31 +146,31 @@ Route39BarnItsCryIsWeakText:
 	done
 
 MoomooHappyMooText:
-	text "MILTANK: Mooo!"
+	text "MELTANK: Mooo!"
 	done
 
 Route39BarnAskGiveBerryText:
 	text "Geef een BES aan" ; "Give a BERRY to"
-	line "MILTANK?"
+	line "MELTANK?"
 	done
 
 Route39BarnGaveBerryText:
 	text "<PLAYER> gaf een" ; "<PLAYER> gave a"
-	line "BES aan MILTANK." ; "BERRY to MILTANK."
+	line "BES aan MELTANK." ; "BERRY to MILTANK."
 	done
 
 Route39BarnLittleHealthierText:
-	text "MILTANK werd iets" ; "MILTANK became a"
+	text "MELTANK werd iets" ; "MILTANK became a"
 	line "gezonder!" ; "little healthier!"
 	done
 
 Route39BarnQuiteHealthyText:
-	text "MILTANK werd best" ; "MILTANK became"
+	text "MELTANK werd best" ; "MILTANK became"
 	line "gezond!" ; "quite healthy!"
 	done
 
 Route39BarnTotallyHealthyText:
-	text "MILTANK werd" ; "MILTANK became"
+	text "MELTANK werd" ; "MILTANK became"
 	line "helemaal gezond!" ; "totally healthy!"
 	done
 
@@ -183,7 +183,7 @@ Route39BarnRefusedBerryText:
 	text "<PLAYER> gaf geen" ; "<PLAYER> wouldn't"
 	line "BES." ; "give a BERRY."
 
-	para "MILTANK kijkt sip." ; "MILTANK looks sad."
+	para "MELTANK kijkt sip." ; "MILTANK looks sad."
 	done
 
 Route39Barn_MapEvents:

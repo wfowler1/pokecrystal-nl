@@ -10,10 +10,10 @@ BeverlyMadeMonEvenCuterText:
 
 BeverlyDefeatedMonText:
 	text "Laatst kwam ik een" ; "I happened to come"
-	line "wilde SNUBBUL" ; "across a wild"
+	line "wilde SNOBBUL" ; "across a wild"
 	cont "tegen." ; "SNUBBULL recently."
 
-	para "Mijn SNUBBUL was," ; "My SNUBBULL, I"
+	para "Mijn SNOBBUL was," ; "My SNUBBULL, I"
 	line "verzeker ik je," ; "assure you, was"
 
 	para "veel schattiger" ; "far cuter than the"

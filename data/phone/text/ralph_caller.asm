@@ -125,7 +125,7 @@ RalphHurryText:
 	line "met je?" ; "matter with you?"
 
 	para "Kom je niet langs" ; "Aren't you coming"
-	line "om naar QWILFISH" ; "over to fish for"
+	line "om naar STERFIS" ; "over to fish for"
 	cont "te vissen?" ; "QWILFISH?"
 
 	para "Het is bij ROUTE," ; "I'm on ROUTE 32,"
