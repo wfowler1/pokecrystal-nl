@@ -58,8 +58,6 @@ StdScripts::
 	add_stdscript HappinessCheckScript
 
 PokecenterNurseScript:
-; EVENT_WELCOMED_TO_POKECOM_CENTER is never set
-
 	opentext
 	checktime MORN
 	iftrue .morn
@@ -70,42 +68,31 @@ PokecenterNurseScript:
 	sjump .ok
 
 .morn
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftrue .morn_comcenter
 	farwritetext NurseMornText
 	promptbutton
-	sjump .ok
-.morn_comcenter
-	farwritetext PokeComNurseMornText
-	promptbutton
+	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	iffalse .ok_first_time
 	sjump .ok
 
 .day
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftrue .day_comcenter
 	farwritetext NurseDayText
 	promptbutton
-	sjump .ok
-.day_comcenter
-	farwritetext PokeComNurseDayText
-	promptbutton
+	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	iffalse .ok_first_time
 	sjump .ok
 
 .nite
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftrue .nite_comcenter
 	farwritetext NurseNiteText
 	promptbutton
+	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	iffalse .ok_first_time
 	sjump .ok
-.nite_comcenter
-	farwritetext PokeComNurseNiteText
+
+.ok_first_time
+	farwritetext NurseCenterWelcomeText
 	promptbutton
-	sjump .ok
-
+	
 .ok
-	; only do this once
-	clearevent EVENT_WELCOMED_TO_POKECOM_CENTER
-
 	farwritetext NurseAskHealText
 	yesorno
 	iffalse .done
@@ -125,18 +112,21 @@ PokecenterNurseScript:
 	pause 10
 
 	checkphonecall ; elm already called about pokerus
-	iftrue .no
+	iftrue .no_pokerus
 	checkflag ENGINE_CAUGHT_POKERUS
-	iftrue .no
+	iftrue .no_pokerus
 	special CheckPokerus
 	iftrue .pokerus
-.no
-
+	
+.no_pokerus
+	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	iftrue .done
 	farwritetext NurseReturnPokemonText
 	pause 20
 
 .done
 	farwritetext NurseGoodbyeText
+	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
 
 	turnobject LAST_TALKED, UP
 	pause 10

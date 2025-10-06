@@ -1,60 +1,27 @@
 NurseMornText:
 	text "Goedemorgen!" ; "Good morning!"
-	line "Welkom bij ons" ; "Welcome to our"
-	cont "#MONCENTRUM." ; "#MON CENTER."
 	done
 
 NurseDayText:
 	text "Hallo!" ; "Hello!"
-	line "Welkom bij ons" ; "Welcome to our"
-	cont "#MONCENTRUM." ; "#MON CENTER."
 	done
 
 NurseNiteText:
 	text "Goedenavond!" ; "Good evening!"
 	line "Het is al laat." ; "You're out late."
+	done
 
-	para "Welkom bij ons" ; "Welcome to our"
+NurseCenterWelcomeText:
+	text "Welkom bij ons" ; "Welcome to our"
 	line "#MONCENTRUM." ; "#MON CENTER."
-	done
-
-PokeComNurseMornText:
-	text "Goedemorgen!" ; "Good morning!"
-
-	para "Dit is het #-" ; "This is the #-"
-	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
-
-	para "CENTRUM--of het" ; "CENTER--or the"
-	line "#COMCENTRUM." ; "#COM CENTER."
-	done
-
-PokeComNurseDayText:
-	text "Hallo!" ; "Hello!"
-
-	para "Dit is het #-" ; "This is the #-"
-	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
-
-	para "CENTRUM--of het" ; "CENTER--or the"
-	line "#COMCENTRUM." ; "#COM CENTER."
-	done
-
-PokeComNurseNiteText:
-	text "Goed je te zien" ; "Good to see you"
-	line "laat bezig nog." ; "working so late."
-
-	para "Dit is het #-" ; "This is the #-"
-	line "MON COMMUNICATIE" ; "MON COMMUNICATION"
-
-	para "CENTRUM--of het" ; "CENTER--or the"
-	line "#COMCENTRUM." ; "#COM CENTER."
+	
+	para "We kunnen je #-" ; "We can heal your"
+	line "MON weer helemaal" ; #MON to perfect"
+	cont "genezen." ; "health."
 	done
 
 NurseAskHealText:
-	text "We kunnen je #-" ; "We can heal your"
-	line "MON weer helemaal" ; #MON to perfect"
-	cont "genezen." ; "health."
-
-	para "Zal ik je" ; "Shall we heal your"
+	text "Zal ik je" ; "Shall we heal your"
 	line "#MON genezen?" ; "#MON?"
 	done
 
@@ -72,11 +39,6 @@ NurseReturnPokemonText:
 	done
 
 NurseGoodbyeText:
-	text "We hopen je weer" ; "We hope to see you"
-	line "te zien." ; "again."
-	done
-
-; not used
 	text "We hopen je weer" ; "We hope to see you"
 	line "te zien." ; "again."
 	done
