@@ -57,4 +57,5 @@ SpriteMons:
 	db FEAROW ; Route28SteelWingHouse.asm
 	db MURKROW ; TeamRocketBaseB3F.asm
 	db SPEAROW ; ViridianNicknameSpeechHouse.asm
+	db AMPHAROS ; OlivineLightouse6F.asm
 	assert_table_length NUM_POKEMON_SPRITES
