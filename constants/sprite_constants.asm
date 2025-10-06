@@ -180,6 +180,8 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_FEAROW ; b5 Route28SteelWingHouse.asm
 	const SPRITE_MURKROW ; b6 TeamRocketBaseB3F.asm
 	const SPRITE_SPEAROW ; b7 ViridianNicknameSpeechHouse.asm
+	; SPRITE_MONSTER
+	const SPRITE_AMPHAROS ; OlivineLightouse6F.asm
 	
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
