@@ -1384,7 +1384,7 @@ PlaceMoveScreenLeftArrow:
 	ret
 
 .legal
-	hlcoord 16, 0
+	hlcoord 1, 0
 	ld [hl], "◀"
 	ret
 
