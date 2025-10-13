@@ -229,7 +229,7 @@ StrengthBoulderScript:
 	farsjump AskStrengthScript
 
 SmashRockScript:
-	farsjump AskRockSmashScript
+	farsjump RockSmashScript
 
 PokecenterSignScript:
 	farjumptext PokecenterSignText

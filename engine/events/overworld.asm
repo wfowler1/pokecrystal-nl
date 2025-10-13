@@ -1376,6 +1376,10 @@ RockSmashFromMenuScript:
 	special UpdateTimePals
 
 RockSmashScript:
+	callasm HasRockSmash
+	ifequal 1, .no
+	
+	opentext
 	callasm GetPartyNickname
 	writetext UseRockSmashText
 	closetext
@@ -1393,6 +1397,8 @@ RockSmashScript:
 	reloadmapafterbattle
 .done
 	end
+.no
+	jumptext MaySmashText
 
 MovementData_RockSmash:
 	rock_smash 10
@@ -1402,18 +1408,18 @@ UseRockSmashText:
 	text_far _UseRockSmashText
 	text_end
 
-AskRockSmashScript:
-	callasm HasRockSmash
-	ifequal 1, .no
+; AskRockSmashScript:
+;	callasm HasRockSmash
+;	ifequal 1, .no
 
-	opentext
-	writetext AskRockSmashText
-	yesorno
-	iftrue RockSmashScript
-	closetext
-	end
-.no
-	jumptext MaySmashText
+;	opentext
+;	writetext AskRockSmashText
+;	yesorno
+;	iftrue RockSmashScript
+;	closetext
+;	end
+; .no
+;	jumptext MaySmashText
 
 MaySmashText:
 	text_far _MaySmashText
