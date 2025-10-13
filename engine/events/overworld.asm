@@ -1179,6 +1179,7 @@ Script_WhirlpoolFromMenu:
 	special UpdateTimePals
 
 Script_UsedWhirlpool:
+	opentext
 	callasm GetPartyNickname
 	writetext UseWhirlpoolText
 	refreshmap
@@ -1212,8 +1213,8 @@ TryWhirlpoolOW::
 	jr c, .failed
 	call TryWhirlpoolMenu
 	jr c, .failed
-	ld a, BANK(Script_AskWhirlpoolOW)
-	ld hl, Script_AskWhirlpoolOW
+	ld a, BANK(Script_UsedWhirlpool)
+	ld hl, Script_UsedWhirlpool
 	call CallScript
 	scf
 	ret
@@ -1232,13 +1233,13 @@ Script_MightyWhirlpool:
 	text_far _MayPassWhirlpoolText
 	text_end
 
-Script_AskWhirlpoolOW:
-	opentext
-	writetext AskWhirlpoolText
-	yesorno
-	iftrue Script_UsedWhirlpool
-	closetext
-	end
+; Script_AskWhirlpoolOW:
+;	opentext
+;	writetext AskWhirlpoolText
+;	yesorno
+;	iftrue Script_UsedWhirlpool
+;	closetext
+;	end
 
 AskWhirlpoolText:
 	text_far _AskWhirlpoolText
