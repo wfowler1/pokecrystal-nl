@@ -672,6 +672,7 @@ Script_WaterfallFromMenu:
 	special UpdateTimePals
 
 Script_UsedWaterfall:
+	opentext
 	callasm GetPartyNickname
 	writetext .UseWaterfallText
 	waitbutton
@@ -711,8 +712,8 @@ TryWaterfallOW::
 	jr c, .failed
 	call CheckMapCanWaterfall
 	jr c, .failed
-	ld a, BANK(Script_AskWaterfall)
-	ld hl, Script_AskWaterfall
+	ld a, BANK(Script_UsedWaterfall)
+	ld hl, Script_UsedWaterfall
 	call CallScript
 	scf
 	ret
@@ -731,13 +732,13 @@ Script_CantDoWaterfall:
 	text_far _HugeWaterfallText
 	text_end
 
-Script_AskWaterfall:
-	opentext
-	writetext .AskWaterfallText
-	yesorno
-	iftrue Script_UsedWaterfall
-	closetext
-	end
+; Script_AskWaterfall:
+;	opentext
+;	writetext .AskWaterfallText
+;	yesorno
+;	iftrue Script_UsedWaterfall
+;	closetext
+;	end
 
 .AskWaterfallText:
 	text_far _AskWaterfallText
