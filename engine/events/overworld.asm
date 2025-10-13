@@ -1006,11 +1006,13 @@ Script_StrengthFromMenu:
 
 Script_UsedStrength:
 	callasm SetStrengthFlag
+	opentext
 	writetext .UseStrengthText
 	readmem wStrengthSpecies
 	cry 0 ; plays [wStrengthSpecies] cry
-	pause 3
-	writetext .MoveBoulderText
+;	pause 3
+;	writetext .MoveBoulderText
+	waitbutton
 	closetext
 	end
 
@@ -1024,7 +1026,7 @@ Script_UsedStrength:
 
 AskStrengthScript:
 	callasm TryStrengthOW
-	iffalse .AskStrength
+	iffalse Script_UsedStrength
 	ifequal $1, .DontMeetRequirements
 	sjump .AlreadyUsedStrength
 
@@ -1034,13 +1036,13 @@ AskStrengthScript:
 .AlreadyUsedStrength:
 	jumptext BouldersMoveText
 
-.AskStrength:
-	opentext
-	writetext AskStrengthText
-	yesorno
-	iftrue Script_UsedStrength
-	closetext
-	end
+; .AskStrength:
+;	opentext
+;	writetext AskStrengthText
+;	yesorno
+;	iftrue Script_UsedStrength
+;	closetext
+;	end
 
 AskStrengthText:
 	text_far _AskStrengthText
