@@ -400,6 +400,7 @@ SurfFromMenuScript:
 	special UpdateTimePals
 
 UsedSurfScript:
+	opentext
 	writetext UsedSurfText ; "used SURF!"
 	waitbutton
 	closetext
@@ -515,8 +516,8 @@ TrySurfOW::
 	ld [wSurfingPlayerState], a
 	call GetPartyNickname
 
-	ld a, BANK(AskSurfScript)
-	ld hl, AskSurfScript
+	ld a, BANK(UsedSurfScript)
+	ld hl, UsedSurfScript
 	call CallScript
 
 	scf
@@ -526,13 +527,13 @@ TrySurfOW::
 	xor a
 	ret
 
-AskSurfScript:
-	opentext
-	writetext AskSurfText
-	yesorno
-	iftrue UsedSurfScript
-	closetext
-	end
+; AskSurfScript:
+;	opentext
+;	writetext AskSurfText
+;	yesorno
+;	iftrue UsedSurfScript
+;	closetext
+;	end
 
 AskSurfText:
 	text_far _AskSurfText
