@@ -204,12 +204,25 @@ Script_CutFromMenu:
 	special UpdateTimePals
 
 Script_Cut:
+	callasm .CheckMap
+	iffalse .nothing_to_cut
+	opentext
 	callasm GetPartyNickname
 	writetext UseCutText
 	refreshmap
 	callasm CutDownTreeOrGrass
 	closetext
+.nothing_to_cut
 	end
+	
+.CheckMap:
+	xor a
+	ld [wScriptVar], a
+	call CheckMapForSomethingToCut
+	ret c
+	ld a, TRUE
+	ld [wScriptVar], a
+	ret
 
 CutDownTreeOrGrass:
 	ld hl, wCutWhirlpoolOverworldBlockAddr
@@ -1769,8 +1782,8 @@ TryCutOW::
 	call CheckEngineFlag
 	jr c, .cant_cut
 
-	ld a, BANK(AskCutScript)
-	ld hl, AskCutScript
+	ld a, BANK(Script_Cut)
+	ld hl, Script_Cut
 	call CallScript
 	scf
 	ret
@@ -1782,25 +1795,25 @@ TryCutOW::
 	scf
 	ret
 
-AskCutScript:
-	opentext
-	writetext AskCutText
-	yesorno
-	iffalse .declined
-	callasm .CheckMap
-	iftrue Script_Cut
-.declined
-	closetext
-	end
+; AskCutScript:
+;	opentext
+;	writetext AskCutText
+;	yesorno
+;	iffalse .declined
+;	callasm .CheckMap
+;	iftrue Script_Cut
+; .declined
+;	closetext
+;	end
 
-.CheckMap:
-	xor a
-	ld [wScriptVar], a
-	call CheckMapForSomethingToCut
-	ret c
-	ld a, TRUE
-	ld [wScriptVar], a
-	ret
+; .CheckMap:
+;	xor a
+;	ld [wScriptVar], a
+;	call CheckMapForSomethingToCut
+;	ret c
+;	ld a, TRUE
+;	ld [wScriptVar], a
+;	ret
 
 AskCutText:
 	text_far _AskCutText
