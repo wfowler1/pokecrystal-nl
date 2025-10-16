@@ -217,7 +217,7 @@ ChuckExplainBadgeText:
 	done
 
 ChuckExplainTMText:
-	text "Dat is DYNAMISCHE" ; "That is DYNAMIC-"
+	text "Dat is DYNAMISCHE-" ; "That is DYNAMIC-"
 	line "SLAG." ; "PUNCH."
 
 	para "Het raakt niet" ; "It doesn't always"
