@@ -73,7 +73,7 @@ BirdKeeperHankAfterBattleText:
 	line "sel 'm gelijk om." ; "it right away."
 
 	para "Zo doe ik het." ; "That's how to do"
-	line "" ; "it."
+	; line "it."
 	done
 
 PicnickerHopeSeenText:

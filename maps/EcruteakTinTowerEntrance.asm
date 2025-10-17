@@ -166,7 +166,7 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 	line "zonder ECRUTEAK-" ; "limits to anyone"
 
 	para "GYMBADGE." ; "without ECRUTEAK"
-	line "" ; "GYM's BADGE."
+	; line "GYM's BADGE."
 
 	para "Ah!" ; "Ah!"
 

@@ -310,7 +310,7 @@ SwimmerfKaraSeenText:
 
 SwimmerfKaraBeatenText:
 	text "Oh! Je hebt meer" ; "Oh! You have more"
-	line "energie dan ik" ; "energy than I do."
+	line "energie dan ik." ; "energy than I do."
 	done
 
 SwimmerfKaraAfterBattleText:

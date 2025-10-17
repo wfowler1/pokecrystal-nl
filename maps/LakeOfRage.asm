@@ -490,7 +490,7 @@ LakeOfRageSignText:
 
 FishingGurusHouseSignText:
 	text "VISGOEROE'S HUIS" ; "FISHING GURU'S"
-	line "" ; "HOUSE"
+	; line "HOUSE"
 	done
 
 LakeOfRage_MapEvents:

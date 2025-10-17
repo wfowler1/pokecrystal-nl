@@ -331,7 +331,7 @@ RadioTower5FDirectorThankYouText:
 	line "hebben #MON" ; "actions have saved"
 
 	para "wereldwijd gered." ; "#MON nation-"
-	line "" ; "wide."
+	; line "wide."
 
 	para "Ik weet dat het" ; "I know it's not"
 	line "niet veel is," ; "much, but please"

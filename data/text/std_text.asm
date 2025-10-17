@@ -43,6 +43,11 @@ NurseGoodbyeText:
 	line "te zien." ; "again."
 	done
 
+; not used
+;	text "We hopen je weer" ; "We hope to see you"
+;	line "te zien." ; "again."
+;	done
+
 NursePokerusText:
 	text "Je #MON" ; "Your #MON"
 	line "lijken te zijn" ; "appear to be"
@@ -145,11 +150,11 @@ HomepageText:
 	done
 
 ; not used
-	text "#MON RADIO!"
+;	text "#MON RADIO!"
 
-	para "Bel nu met je" ; "Call in with your"
-	line "verzoekjes!" ; "requests now!"
-	done
+;	para "Bel nu met je" ; "Call in with your"
+;	line "verzoekjes!" ; "requests now!"
+;	done
 
 TrashCanText:
 	text "Er zit niks in…" ; "There's nothing in"
@@ -157,15 +162,15 @@ TrashCanText:
 	done
 
 ; not used
-	text "Een #MON kan" ; "A #MON may be"
-	line "dit wellicht" ; "able to move this."
-	cont "duwen."
-	done
+;	text "Een #MON kan" ; "A #MON may be"
+;	line "dit wellicht" ; "able to move this."
+;	cont "duwen."
+;	done
 
 ; not used
-	text "Kan een #MON" ; "Maybe a #MON"
-	line "dit breken?" ; "can break this."
-	done
+;	text "Kan een #MON" ; "Maybe a #MON"
+;	line "dit breken?" ; "can break this."
+;	done
 
 PokecenterSignText:
 	text "Genees je #MON!" ; "Heal Your #MON!"
