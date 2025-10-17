@@ -755,7 +755,7 @@ _UsedMove2Text::
 	line "deed @" ; "used @"
 	text_end
 
-_UsedInsteadText::
+_UsedInsteadText:: ; PreviousInstruction line
 	text "in plaats" ; "instead,"
 	cont "van, @" ; "@"
 	text_end

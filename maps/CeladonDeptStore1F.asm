@@ -68,7 +68,7 @@ CeladonDeptStore1FDirectoryText:
 	para "4V: APOTHEEK" ; "5F: DRUG STORE"
 
 	para "5V: DAKTERRAS" ; "6F: ROOFTOP"
-	line ;"    TERRAS" ; "    SQUARE"
+	; line "    SQUARE"
 	done
 
 CeladonDeptStore1F_MapEvents:

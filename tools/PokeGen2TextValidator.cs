@@ -573,7 +573,7 @@ namespace PokeGen2TextValidator
                                 text = null;
                             }
 
-                            if (!string.IsNullOrWhiteSpace(lineStrings))
+                            if (!string.IsNullOrWhiteSpace(lineStrings) || line.Text.StartsWith("text_low"))
                             {
                                 text = new FormattedText(line);
                             }
@@ -593,7 +593,7 @@ namespace PokeGen2TextValidator
                                 {
                                     if (text == null)
                                     {
-                                        text = new FormattedText(line.Number, "text_decimal", sb.ToString());
+                                        text = new FormattedText(line.Number, "text", sb.ToString());
                                     }
                                     else
                                     {
@@ -644,7 +644,7 @@ namespace PokeGen2TextValidator
                                 {
                                     if (text == null)
                                     {
-                                        text = new FormattedText(line.Number, "text_ram", sb.ToString(), lengthUnknown);
+                                        text = new FormattedText(line.Number, "text", sb.ToString(), lengthUnknown);
                                     }
                                     else
                                     {
@@ -1116,11 +1116,18 @@ namespace PokeGen2TextValidator
                     Instruction = line.Text.Substring(0, indexOfSpace);
                 }
             }
+            else
+            {
+                if (!line.Text.Contains("\""))
+                {
+                    Instruction = line.Text;
+                }
+            }
             Add(line.GetStrings());
             LineNumber = line.Number;
         }
 
-        public FormattedText(int lineNumber, string instruction, string text, bool lengthUnknown = false)
+        public FormattedText(int lineNumber, string instruction, string text = "", bool lengthUnknown = false)
         {
             Instruction = instruction;
             LineNumber = lineNumber;
@@ -1135,6 +1142,11 @@ namespace PokeGen2TextValidator
         /// <param name="lengthUnknown"><c>true</c> if something about this text makes it so length cannot be determined (text_ram with ambiguous length).</param>
         public void Add(string text, bool lengthUnknown = false)
         {
+            if (text == null)
+            {
+                return;
+            }
+
             Text += text;
 
             foreach (KeyValuePair<string, int> pair in maxLengths)
@@ -1252,9 +1264,19 @@ namespace PokeGen2TextValidator
             }
         }
 
+        /// <summary>
+        /// Check if next line is a valid line in a textbox. Does not check text flow,
+        /// see <see cref="CheckTextboxNextTextFlowValid(int, List{FormattedText})"/>.
+        /// Prevents issues like the Coin Case glitch in English Gold/Silver.
+        /// </summary>
+        /// <param name="line">Line of code.</param>
+        /// <param name="nextLine">Next line of code.</param>
+        /// <returns><c>true</c> if <paramref name="line"/> can legally be followed by <paramref name="nextLine"/> in a textbox.</returns>
         private static bool CheckTextboxNextLineValid(string line, string nextLine)
         {
             line = line.ToLower();
+
+            // Last line. Ensure valid way to end a block.
             if (nextLine == null)
             {
                 if (line == "text_end")
@@ -1284,24 +1306,12 @@ namespace PokeGen2TextValidator
                 return true;
             }
 
-            if (line.StartsWith("text "))
+            if (line.StartsWith("text ") || line.StartsWith("line ") || line.StartsWith("cont ") || line.StartsWith("para "))
             {
                 if (nextLine.StartsWith("line ") ||
                     nextLine.StartsWith("para ") ||
                     nextLine.StartsWith("cont ") ||
                     nextLine.StartsWith("next ") ||
-                    nextLine == "prompt" ||
-                    nextLine == "done" ||
-                    nextLine.StartsWith("text_") ||
-                    nextLine.StartsWith("sound_"))
-                {
-                    return true;
-                }
-            }
-            else if (line.StartsWith("line ") || line.StartsWith("cont "))
-            {
-                if (nextLine.StartsWith("para ") ||
-                    nextLine.StartsWith("cont ") ||
                     nextLine == "prompt" ||
                     nextLine == "done" ||
                     nextLine.StartsWith("text_") ||
@@ -1488,6 +1498,11 @@ namespace PokeGen2TextValidator
                     {
                         output.Append(message);
                     }
+
+                    if (!CheckTextboxNextTextFlowValid(i, text))
+                    {
+                        output.Append(GetInvalidNextTextFlowInstructionErrorMessage(formattedText, text[i + 1]));
+                    }
                 }
                 else if (_block.Type == FileType.Pokedex)
                 {
@@ -1545,6 +1560,82 @@ namespace PokeGen2TextValidator
                 if (_block.Source == Source.GoldSilver && formattedText.Text.Contains("<PLAY_G>"))
                 {
                     output.Append(GetGoldSilverPLAYGUnsupportedMessage(formattedText));
+                }
+            }
+        }
+
+        /// <summary>
+        /// Ensures the next FormattedText is a valid flow from the one at index <paramref name="number"/>.
+        /// Prevents issues like in Red/Blue the text used by Prof. Oak, when he gives you 5 Pokéballs, overwrites the second line with the last line.
+        /// </summary>
+        /// <param name="number">Index of the current FormattedText.</param>
+        /// <param name="texts">List of FormattedTexts in this block.</param>
+        /// <returns><c>true</c> if the FormattedText at <paramref name="number"/> + 1 is valid.</returns>
+        private bool CheckTextboxNextTextFlowValid(int number, List<FormattedText> texts)
+        {
+            if (number + 1 == texts.Count)
+            {
+                // Any text instruction is valid as a last one. "text" "cont" "para" "line"
+                return true;
+            }
+
+            FormattedText text = texts[number];
+            FormattedText next = texts[number + 1];
+            string instruction = text.Instruction;
+
+            // Sometimes the current block is meant to be appended after a previous one. Allow that case to be handled through an annotation.
+            if (number == 0 && _block.lines[0]?.Comment != null && _block.lines[0].Comment.Contains("PreviousInstruction "))
+            {
+                string[] commentTokens = _block.lines[0].Comment.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+                for (int i= 0; i < commentTokens.Length; ++i)
+                {
+                    if (commentTokens[i] == "PreviousInstruction" && i <= commentTokens.Length - 2)
+                    {
+                        instruction = commentTokens[i + 1];
+                        break;
+                    }
+                }
+            }
+
+            switch (instruction)
+            {
+                case "text":
+                case "para":
+                {
+                    if (next.Instruction == "line" ||
+                        next.Instruction == "para" ||
+                        next.Instruction == "next" ||
+                        next.Instruction == "text_low")
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+                case "line":
+                case "cont":
+                {
+                    if (next.Instruction == "para" ||
+                        next.Instruction == "cont" ||
+                        next.Instruction == "next")
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+                case "db":
+                case "next":
+                {
+                    if (next.Instruction == "db" ||
+                        next.Instruction == "next")
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+                default:
+                {
+                    return false;
                 }
             }
         }
@@ -1690,6 +1781,12 @@ namespace PokeGen2TextValidator
         {
             StringBuilder sb = new StringBuilder();
             return sb.Append("\tError: line \"").Append(text).Append("\" in ").Append(_block.Name).Append(" cannot be followed by \"").Append(nextLine).Append("\".\n").ToString();
+        }
+
+        private string GetInvalidNextTextFlowInstructionErrorMessage(FormattedText text, FormattedText next)
+        {
+            StringBuilder sb = new StringBuilder();
+            return sb.Append("\tError: Text flow in ").Append(_block.Name).Append(" Instruction \"").Append(text.Instruction).Append("\" cannot be followed by instruction \"").Append(next.Instruction).Append("\". Text: ").Append(text).Append("//").Append(next).Append("\n").ToString();
         }
 
         private string GetInvalidLastLineErrorMessage(string text)

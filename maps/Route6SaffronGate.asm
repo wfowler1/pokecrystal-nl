@@ -44,7 +44,7 @@ Route6SaffronGuardWelcomeText:
 	line "mis is met de" ; "something wrong"
 
 	para "ENERGIECENTRALE." ; "with the POWER"
-	line ;"" ; "PLANT."
+	; line "" ; "PLANT."
 	done
 
 Route6SaffronGuardMagnetTrainText:
@@ -52,7 +52,7 @@ Route6SaffronGuardMagnetTrainText:
 	line "het meest beroemde" ; "is the most famous"
 
 	para "icoon van SAFFRON." ; "thing about SAF-"
-	line "" ; "FRON."
+	; line "FRON."
 	done
 
 Route6SaffronGate_MapEvents:

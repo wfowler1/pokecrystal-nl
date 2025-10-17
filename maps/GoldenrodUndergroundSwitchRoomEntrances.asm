@@ -854,7 +854,7 @@ BurglarEddieBeatenText:
 
 BurglarEddieAfterBattleText:
 	text "OPSLAGKELDER?" ; "UNDERGROUND WARE-"
-	line "" ; "HOUSE?"
+	; line "HOUSE?"
 
 	para "Waarom wil je" ; "What do you want"
 	line "daar heen?" ; "to go there for?"

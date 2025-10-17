@@ -365,7 +365,7 @@ MahoganyGymGuideText:
 	line "met je vurige" ; "should melt him"
 
 	para "ambitie ontdooien!" ; "with your burning"
-	line ;"ambitie ontdooien!" ; "ambition!"
+	; line "ambition!"
 	done
 
 MahoganyGymGuideWinText:

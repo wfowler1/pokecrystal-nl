@@ -85,7 +85,7 @@ AnthonySwarmText:
 	line "veel @" ; "tons of @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "!" ; "around! You have"
-	line "Je moet het zien!" ; "to see it!"
+	para "Je moet het zien!" ; "to see it!"
 
 	para "Ik vermoed dat" ; "I get this feeling"
 	line "de @" ; "that @"
