@@ -116,7 +116,7 @@ Kurt_SelectQuantity:
 	jr z, .done
 	ld a, [wItemQuantityChange]
 	ld [wItemQuantity], a
-	ld a, $1
+	; ld a, $1
 	ld [wItemQuantityChange], a
 	ld hl, .MenuHeader
 	call LoadMenuHeader
