@@ -771,6 +771,11 @@ LoadGreenPage:
 
 LoadBluePage:
 	call .PlaceOTInfo
+	call .placeCaughtLocation
+	ld de, MetAtMapString
+	hlcoord 0, 12
+	call PlaceString
+	call .placeCaughtLevel
 	hlcoord 10, 8
 	ld de, SCREEN_WIDTH
 	ld b, 10
@@ -787,12 +792,12 @@ LoadBluePage:
 
 .PlaceOTInfo:
 	ld de, IDNoString
-	hlcoord 0, 9
+	hlcoord 1, 10
 	call PlaceString
 	ld de, OTString
-	hlcoord 0, 12
+	hlcoord 0, 8
 	call PlaceString
-	hlcoord 2, 10
+	hlcoord 5, 10
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	ld de, wTempMonID
 	call PrintNum
@@ -800,7 +805,7 @@ LoadBluePage:
 	call GetNicknamePointer
 	call CopyNickname
 	farcall CorrectNickErrors
-	hlcoord 2, 13
+	hlcoord 1, 9
 	call PlaceString
 	ld a, [wTempMonCaughtGender]
 	and a
@@ -812,7 +817,7 @@ LoadBluePage:
 	jr z, .got_gender
 	ld a, "♀"
 .got_gender
-	hlcoord 9, 13
+	hlcoord 9, 9
 	ld [hl], a
 .done
 	ret
@@ -823,11 +828,97 @@ LoadBluePage:
 	dw sBoxMonOTs
 	dw wBufferMonOT
 
+.placeCaughtLocation
+	ld a, [wTempMonCaughtLocation]
+	and CAUGHT_LOCATION_MASK
+	jr z, .unknown_location
+	cp LANDMARK_EVENT
+	jr z, .unknown_location
+	cp LANDMARK_GIFT
+	jr z, .unknown_location
+	ld e, a
+	farcall GetLandmarkName
+	farcall TownMap_ConvertLineBreakCharacters
+	ld de, wStringBuffer1
+	hlcoord 0, 13
+	call PlaceString
+	ld de, TimeString
+	hlcoord 0, 16
+	call PlaceString
+	ld a, [wTempMonCaughtTime]
+	and CAUGHT_TIME_MASK
+	ret z ; no time
+	rlca
+	rlca
+	dec a
+	ld hl, .times
+	call GetNthString
+	ld d, h
+	ld e, l
+	call CopyName1
+	ld de, wStringBuffer2
+	hlcoord 6, 16
+	call PlaceString
+	ret
+
+.unknown_location:
+	ld de, MetUnknownMapString
+	hlcoord 0, 13
+	call PlaceString
+	ret
+
+.times
+	db "OCHT@"
+	db " DAG@"
+	db "NCHT@"
+
+.placeCaughtLevel
+	ld de, MetAtLevelString
+	hlcoord 0, 17
+	call PlaceString
+	; caught level
+	; Limited to between 1 and 63 since it's a 6-bit quantity.
+	ld a, [wTempMonCaughtLevel]
+	and CAUGHT_LEVEL_MASK
+	jr z, .unknown_level
+	cp CAUGHT_EGG_LEVEL ; egg marker value
+	jr nz, .print_met_level
+	ld a, EGG_LEVEL ; egg hatch level
+
+.print_met_level
+	ld [wTextDecimalByte], a
+	hlcoord 8, 17
+	ld de, wTextDecimalByte
+	lb bc, 1, 2
+	call PrintNum
+	ret
+
+.unknown_level
+	ld de, MetUnknownLevelString
+	hlcoord 7, 17
+	call PlaceString
+	ret
+
 IDNoString:
 	db "<ID>№.@"
 
 OTString:
 	db "OT/@"
+
+MetAtMapString:
+	db "ONTMOET:@"
+	
+MetUnknownMapString:
+	db "ONBEKEND@"
+	
+MetAtLevelString:
+	db "LEVEL:@"
+
+TimeString:
+	db "TIJD:@"
+	
+MetUnknownLevelString:
+	db "???@"
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs

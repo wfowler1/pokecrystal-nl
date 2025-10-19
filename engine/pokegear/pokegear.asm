@@ -707,6 +707,9 @@ PokegearMap_UpdateLandmarkName:
 	farcall GetLandmarkName
 	pop de
 	farcall TownMap_ConvertLineBreakCharacters
+	ld de, wStringBuffer1
+	hlcoord 9, 0
+	call PlaceString
 	hlcoord 8, 0
 	ld [hl], $34
 	ret
