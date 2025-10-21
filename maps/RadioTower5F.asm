@@ -140,7 +140,7 @@ Ben:
 	jumptextfaceplayer BenText
 
 RadioTower5FUltraBall:
-	itemball ULTRA_BALL
+	itemball LINKING_CORD
 
 RadioTower5FDirectorsOfficeSign:
 	jumptext RadioTower5FDirectorsOfficeSignText

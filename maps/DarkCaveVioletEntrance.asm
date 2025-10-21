@@ -23,7 +23,7 @@ DarkCaveVioletEntranceHyperPotion:
 	itemball HYPER_POTION
 
 DarkCaveVioletEntranceDireHit:
-	itemball DIRE_HIT
+	itemball LINKING_CORD
 
 DarkCaveVioletEntranceRock:
 	jumpstd SmashRockScript

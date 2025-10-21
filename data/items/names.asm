@@ -24,7 +24,7 @@ ItemNames::
 	li "VUURSTEEN" ; "FIRE STONE"
 	li "DONDERSTEEN" ; "THUNDERSTONE"
 	li "WATERSTEEN" ; "WATER STONE"
-	li "TERU-SAMA"
+	li "LINKING CORD"
 	li "LP-PLUS" ; "HP UP"
 	li "PROTEÏNE" ; "PROTEIN"
 	li "IJZER" ; "IRON"

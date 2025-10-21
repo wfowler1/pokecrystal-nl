@@ -25,7 +25,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw TeruSama2Desc
+	dw LinkingCordDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
@@ -354,8 +354,9 @@ WaterStoneDesc:
 	db   "Evolueert bepaalde" ; "Evolves certain"
 	next "soorten #MON.@" ; "kinds of #MON.@"
 
-TeruSama2Desc:
-	db   "?@"
+LinkingCordDesc:
+	db   "Evolueert bepaalde" ; "Evolves certain"
+	next "soorten #MON.@" ; "kinds of #MON.@"
 
 HPUpDesc:
 	db   "Verhoogt LP van" ; "Raises the HP of"
