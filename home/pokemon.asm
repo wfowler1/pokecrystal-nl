@@ -209,6 +209,17 @@ PrintLevel::
 ; Print wTempMonLevel at hl
 	ld a, [wTempMonLevel]
 	jp PrintLevelA
+
+PrintMetLevel::
+; caught level
+; Limited to between 1 and 63 since it's a 6-bit quantity.
+	ld a, [wTempMonCaughtLevel]
+	and CAUGHT_LEVEL_MASK
+	ret z
+	cp CAUGHT_EGG_LEVEL ; egg marker value
+	jp nz, PrintLevelA
+	ld a, EGG_LEVEL ; egg hatch level
+	jp PrintLevelA
 	
 PrintLevelA::
 ; Print level in a at hl with leading :L

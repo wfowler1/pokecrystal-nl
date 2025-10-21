@@ -769,6 +769,7 @@ LoadBluePage:
 	call PlaceString
 	call .placeCaughtLevel
 	call .placeCaughtLocationAndTime
+	call .placeEggHatch
 	hlcoord 10, 8
 	ld de, SCREEN_WIDTH
 	ld b, 10
@@ -863,19 +864,19 @@ LoadBluePage:
 	db "NACHT@"
 
 .placeCaughtLevel
-	; caught level
-	; Limited to between 1 and 63 since it's a 6-bit quantity.
+	hlcoord 1, 14
+	call PrintMetLevel
+	ret
+
+.placeEggHatch
 	ld a, [wTempMonCaughtLevel]
 	and CAUGHT_LEVEL_MASK
 	ret z
 	cp CAUGHT_EGG_LEVEL ; egg marker value
-	jr nz, .print_met_level
-	ld a, EGG_LEVEL ; egg hatch level
-
-.print_met_level
-	ld [wTextDecimalByte], a
-	hlcoord 1, 14
-	call PrintLevelA
+	ret nz
+	ld de, FromAnEggString
+	hlcoord 0, 16
+	call PlaceString
 	ret
 
 IDNoString:
@@ -889,6 +890,9 @@ MetAtMapString:
 	
 MetUnknownMapString:
 	db "ONBEKEND@" ; "UNKNOWN@"
+	
+FromAnEggString:
+	db "UIT EEN EI@" ; "FROM EGG@"
 	
 LoadOrangePage:
 	ld de, .DV_Stat_Names
