@@ -288,7 +288,7 @@ MartVermilion:
 	db -1 ; end
 
 MartCeladon2F1:
-	db 7 ; # items
+	db 8 ; # items
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
@@ -296,6 +296,7 @@ MartCeladon2F1:
 	db REVIVE
 	db SUPER_REPEL
 	db MAX_REPEL
+	db LINKING_CORD
 	db -1 ; end
 
 MartCeladon2F2:
@@ -313,12 +314,14 @@ MartCeladon2F2:
 	db -1 ; end
 
 MartCeladon3F:
-	db 5 ; # items
+	db 7 ; # items
 	db TM_HIDDEN_POWER
 	db TM_SUNNY_DAY
 	db TM_PROTECT
 	db TM_RAIN_DANCE
 	db TM_SANDSTORM
+	db TM_HEADBUTT
+	db TM_ROCK_SMASH
 	db -1 ; end
 
 MartCeladon4F:
