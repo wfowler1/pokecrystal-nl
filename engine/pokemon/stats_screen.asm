@@ -764,11 +764,11 @@ LoadGreenPage:
 
 LoadBluePage:
 	call .PlaceOTInfo
-	call .placeCaughtLocation
 	ld de, MetAtMapString
-	hlcoord 0, 12
+	hlcoord 0, 11
 	call PlaceString
 	call .placeCaughtLevel
+	call .placeCaughtLocationAndTime
 	hlcoord 10, 8
 	ld de, SCREEN_WIDTH
 	ld b, 10
@@ -784,22 +784,22 @@ LoadBluePage:
 	ret
 
 .PlaceOTInfo:
-	ld de, IDNoString
-	hlcoord 1, 10
-	call PlaceString
 	ld de, OTString
 	hlcoord 0, 8
 	call PlaceString
-	hlcoord 5, 10
-	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
-	ld de, wTempMonID
-	call PrintNum
 	ld hl, .OTNamePointers
 	call GetNicknamePointer
 	call CopyNickname
 	farcall CorrectNickErrors
-	hlcoord 1, 9
+	hlcoord 3, 8
 	call PlaceString
+	ld de, IDNoString
+	hlcoord 0, 9
+	call PlaceString
+	hlcoord 3, 9
+	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
+	ld de, wTempMonID
+	call PrintNum
 	ld a, [wTempMonCaughtGender]
 	and a
 	jr z, .done
@@ -821,22 +821,19 @@ LoadBluePage:
 	dw sBoxMonOTs
 	dw wBufferMonOT
 
-.placeCaughtLocation
+.placeCaughtLocationAndTime
 	ld a, [wTempMonCaughtLocation]
 	and CAUGHT_LOCATION_MASK
-	jr z, .unknown_location
+	jr z, .unknown_location_and_time
 	cp LANDMARK_EVENT
-	jr z, .unknown_location
+	jr z, .unknown_location_and_time
 	cp LANDMARK_GIFT
-	jr z, .unknown_location
+	jr z, .unknown_location_and_time
 	ld e, a
 	farcall GetLandmarkName
 	farcall TownMap_ConvertLineBreakCharacters
 	ld de, wStringBuffer1
-	hlcoord 0, 13
-	call PlaceString
-	ld de, TimeString
-	hlcoord 0, 16
+	hlcoord 0, 12
 	call PlaceString
 	ld a, [wTempMonCaughtTime]
 	and CAUGHT_TIME_MASK
@@ -850,46 +847,35 @@ LoadBluePage:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 6, 16
+	hlcoord 1, 15
 	call PlaceString
 	ret
 
-.unknown_location:
+.unknown_location_and_time:
 	ld de, MetUnknownMapString
-	hlcoord 0, 13
+	hlcoord 0, 12
 	call PlaceString
 	ret
 
 .times
-	db "OCHT@"
-	db " DAG@"
-	db "NCHT@"
+	db "OCHTEND@"
+	db "DAG@"
+	db "NACHT@"
 
 .placeCaughtLevel
-	ld de, MetAtLevelString
-	hlcoord 0, 17
-	call PlaceString
 	; caught level
 	; Limited to between 1 and 63 since it's a 6-bit quantity.
 	ld a, [wTempMonCaughtLevel]
 	and CAUGHT_LEVEL_MASK
-	jr z, .unknown_level
+	ret z
 	cp CAUGHT_EGG_LEVEL ; egg marker value
 	jr nz, .print_met_level
 	ld a, EGG_LEVEL ; egg hatch level
 
 .print_met_level
 	ld [wTextDecimalByte], a
-	hlcoord 8, 17
-	ld de, wTextDecimalByte
-	lb bc, 1, 2
-	call PrintNum
-	ret
-
-.unknown_level
-	ld de, MetUnknownLevelString
-	hlcoord 7, 17
-	call PlaceString
+	hlcoord 1, 14
+	call PrintLevelA
 	ret
 
 IDNoString:
@@ -899,19 +885,10 @@ OTString:
 	db "OT/@"
 
 MetAtMapString:
-	db "ONTMOET:@"
+	db "ONTMOET:@" ; "MET:@"
 	
 MetUnknownMapString:
-	db "ONBEKEND@"
-	
-MetAtLevelString:
-	db "LEVEL:@"
-
-TimeString:
-	db "TIJD:@"
-	
-MetUnknownLevelString:
-	db "???@"
+	db "ONBEKEND@" ; "UNKNOWN@"
 	
 LoadOrangePage:
 	ld de, .DV_Stat_Names

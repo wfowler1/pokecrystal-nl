@@ -207,8 +207,12 @@ GetCryIndex::
 
 PrintLevel::
 ; Print wTempMonLevel at hl
-
 	ld a, [wTempMonLevel]
+	jp PrintLevelA
+	
+PrintLevelA::
+; Print level in a at hl with leading :L
+; For times you want PrintLevel but not with wTempMonLevel
 	ld [hl], "<LV>"
 	inc hl
 
