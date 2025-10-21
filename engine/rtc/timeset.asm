@@ -706,7 +706,7 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
-.nite_string: db "NACH@" ; "NITE@"
+.nite_string: db "NCHT@" ; "NITE@"
 .morn_string: db "OCHT@" ; "MORN@"
 .day_string:  db "DAG@" ; "DAY@"
 
