@@ -172,6 +172,10 @@ SetBoxmonOrEggmonCaughtData:
 	rrca
 	ld b, a
 	ld a, [wCurPartyLevel]
+	cp 64
+	jr c, .level_less_than_64
+	ld a, 0
+.level_less_than_64
 	or b
 	ld [hli], a
 	ld a, [wMapGroup]
