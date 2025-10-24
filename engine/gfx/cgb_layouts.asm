@@ -224,10 +224,10 @@ _CGB_StatsScreenHPPals:
 	ld a, $1 ; mon palette
 	call FillBoxCGB
 
-	hlcoord 10, 16, wAttrmap
-	ld bc, 10
+	hlcoord 10, 8, wAttrmap
+	lb bc, 10, 10
 	ld a, $2 ; exp palette
-	call ByteFill
+	call FillBoxCGB
 
 	hlcoord 11, 5, wAttrmap
 	lb bc, 2, 2

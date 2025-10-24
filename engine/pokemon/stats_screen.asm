@@ -895,33 +895,91 @@ FromAnEggString:
 	db "UIT EEN EI@" ; "FROM EGG@"
 	
 LoadOrangePage:
+	hlcoord 8, 8
+	ld de, SCREEN_WIDTH
+	ld b, 10
+	ld a, $31 ; vertical divider
+.vertical_divider
+	ld [hl], a
+	add hl, de
+	dec b
+	jr nz, .vertical_divider
+	
 	ld de, .DV_Stat_Names
-	hlcoord 1, 8
+	hlcoord 0, 8
 	call PlaceString
 	
 	ld a, [wTempMonDVs]
 	and a, %11110000
 	swap a
+	ld b, a
+	push bc
+	hlcoord 6, 11
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	ld de, DVString
 	hlcoord 2, 11
+	call PlaceString
+	hlcoord 9, 11
+	pop bc
+	ld a, b
 	call .Print_Judge_String
 	
 .print_def_judge
 	ld a, [wTempMonDVs]
 	and a, %00001111
+	ld b, a
+	push bc
+	hlcoord 6, 13
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	ld de, DVString
 	hlcoord 2, 13
+	call PlaceString
+	hlcoord 9, 13
+	pop bc
+	ld a, b
 	call .Print_Judge_String
 	
 .print_spc_judge
 	ld a, [wTempMonDVs + 1]
 	and a, %00001111
+	ld b, a
+	push bc
+	hlcoord 6, 15
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	ld de, DVString
 	hlcoord 2, 15
+	call PlaceString
+	hlcoord 9, 15
+	pop bc
+	ld a, b
 	call .Print_Judge_String
 
 .print_spd_judge
 	ld a, [wTempMonDVs + 1]
 	and a, %11110000
 	swap a
+	ld b, a
+	push bc
+	hlcoord 6, 17
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	ld de, DVString
 	hlcoord 2, 17
+	call PlaceString
+	hlcoord 9, 17
+	pop bc
+	ld a, b
 	call .Print_Judge_String
 
 .print_hp_judge
@@ -957,8 +1015,150 @@ LoadOrangePage:
 	ld c, a
 .spc_not_odd
 	ld a, c
+	ld b, a
+	push bc
+	hlcoord 6, 9
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	ld de, DVString
 	hlcoord 2, 9
+	call PlaceString
+	hlcoord 9, 9
+	pop bc
+	ld a, b
 	call .Print_Judge_String
+
+; Stat EXP bars and DV values
+	ld a, [wTempMonHPExp + 1]
+	cp $ff
+	ld a, [wTempMonHPExp]
+	jr nz, .hp_exp_not_full
+	cp $ff
+	jr nz, .hp_exp_not_full
+	ld a, 64
+	jr .hp_exp_cont
+.hp_exp_not_full
+	srl a
+	srl a
+.hp_exp_cont
+	ld b, a
+	hlcoord 9, 8
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonHPExp]
+	cp $ff
+	jr nz, .atk_exp_bar
+	ld a, [wTempMonHPExp + 1]
+	cp $ff
+	jr nz, .atk_exp_bar
+	hlcoord 19, 8
+	ld [hl], "⁂"
+
+.atk_exp_bar
+	ld a, [wTempMonAtkExp + 1]
+	cp $ff
+	ld a, [wTempMonAtkExp]
+	jr nz, .atk_exp_not_full
+	cp $ff
+	jr nz, .atk_exp_not_full
+	ld a, 64
+	jr .atk_exp_cont
+.atk_exp_not_full
+	srl a
+	srl a
+.atk_exp_cont
+	ld b, a
+	hlcoord 9, 10
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonAtkExp]
+	cp $ff
+	jr nz, .def_exp_bar
+	ld a, [wTempMonAtkExp + 1]
+	cp $ff
+	jr nz, .def_exp_bar
+	hlcoord 19, 10
+	ld [hl], "⁂"
+
+.def_exp_bar
+	ld a, [wTempMonDefExp + 1]
+	cp $ff
+	ld a, [wTempMonDefExp]
+	jr nz, .def_exp_not_full
+	cp $ff
+	jr nz, .def_exp_not_full
+	ld a, 64
+	jr .def_exp_cont
+.def_exp_not_full
+	srl a
+	srl a
+.def_exp_cont
+	ld b, a
+	hlcoord 9, 12
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonDefExp]
+	cp $ff
+	jr nz, .spc_exp_bar
+	ld a, [wTempMonDefExp + 1]
+	cp $ff
+	jr nz, .spc_exp_bar
+	hlcoord 19, 12
+	ld [hl], "⁂"
+
+.spc_exp_bar
+	ld a, [wTempMonSpcExp + 1]
+	cp $ff
+	ld a, [wTempMonSpcExp]
+	jr nz, .spc_exp_not_full
+	cp $ff
+	jr nz, .spc_exp_not_full
+	ld a, 64
+	jr .spc_exp_cont
+.spc_exp_not_full
+	srl a
+	srl a
+.spc_exp_cont
+	ld b, a
+	hlcoord 9, 14
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonSpcExp]
+	cp $ff
+	jr nz, .spd_exp_bar
+	ld a, [wTempMonSpcExp + 1]
+	cp $ff
+	jr nz, .spd_exp_bar
+	hlcoord 19, 14
+	ld [hl], "⁂"
+
+.spd_exp_bar
+	ld a, [wTempMonSpdExp + 1]
+	cp $ff
+	ld a, [wTempMonSpdExp]
+	jr nz, .spd_exp_not_full
+	cp $ff
+	jr nz, .spd_exp_not_full
+	ld a, 64
+	jr .spd_exp_cont
+.spd_exp_not_full
+	srl a
+	srl a
+.spd_exp_cont
+	ld b, a
+	hlcoord 9, 16
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonSpdExp]
+	cp $ff
+	ret nz
+	ld a, [wTempMonSpdExp + 1]
+	cp $ff
+	ret nz
+	hlcoord 19, 16
+	ld [hl], "⁂"
 	ret
 
 ; Prints judgment string based on the value in "a"
@@ -1000,23 +1200,60 @@ LoadOrangePage:
 	next "SPECIAAL"
 	next "SNELHEID@"
 
+DVString:
+	db "DV:@"
+
 NoGoodString:
-	db "NIET GOED@" ; "NO GOOD@"
+	db "Niet goed@" ; "No good@"
 
 DecentString:
-	db "REDELIJK@" ; "DECENT@"
+	db "Redelijk@" ; "Decent@"
 
 PrettyGoodString:
-	db "GOED@" ; "PRETTY GOOD@"
+	db "Goed@" ; "Pretty good@"
 
 VeryGoodString:
-	db "HEEL GOED@" ; "VERY GOOD@"
+	db "Heel goed@" ; "Very good@"
 
 FantasticString:
-	db "FANTASTISCH@" ; "FANTASTIC@"
+	db "Fantastisch@" ; "Fantastic@"
 
 BestString:
-	db "BEST@"
+	db "Best@"
+
+PlaceStatExpBar:
+	ld a, $40
+	ld [hli], a ; left exp bar end cap
+	ld c, $8 ; number of tiles
+.loop1
+	ld a, b
+	sub $8
+	jr c, .next
+	ld b, a
+	ld a, $6a ; full bar
+	ld [hli], a
+	dec c
+	jr z, .finish
+	jr .loop1
+
+.next
+	add $8
+	jr z, .loop2
+	add $62
+	jr .skip
+
+.loop2
+	ld a, $62 ; empty bar
+
+.skip
+	ld [hli], a
+	ld a, $62 ; empty bar
+	dec c
+	jr nz, .loop2
+
+.finish
+	ld [hl], $41 ; right exp bar end cap
+	ret
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs
