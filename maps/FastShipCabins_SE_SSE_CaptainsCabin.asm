@@ -319,7 +319,7 @@ SSAquaGranddaughterWasPlayingMText:
 	text "Opa, hier ben ik!" ; "Grandpa, here I"
 	line "Ik speelde met de" ; "am! I was playing"
 
-	para "de KAPITEIN en met" ; "with the CAPTAIN"
+	para "KAPITEIN en met" ; "with the CAPTAIN"
 	line "deze jongen!" ; "and this guy!"
 	done
 
@@ -327,7 +327,7 @@ SSAquaGranddaughterWasPlayingFText:
 	text "Opa, hier ben ik!" ; "Grandpa, here I"
 	line "Ik speelde met de" ; "am! I was playing"
 
-	para "de KAPITEIN en met" ; "with the CAPTAIN"
+	para "KAPITEIN en met" ; "with the CAPTAIN"
 	line "dit grote meisje!" ; "and this big girl!"
 	done
 
