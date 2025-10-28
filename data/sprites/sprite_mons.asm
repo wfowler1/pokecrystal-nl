@@ -58,4 +58,5 @@ SpriteMons:
 	db MURKROW ; TeamRocketBaseB3F.asm
 	db SPEAROW ; ViridianNicknameSpeechHouse.asm
 	db AMPHAROS ; OlivineLightouse6F.asm
+	db SLOWBRO ; CeruleanCity.asm
 	assert_table_length NUM_POKEMON_SPRITES

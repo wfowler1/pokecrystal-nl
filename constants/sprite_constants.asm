@@ -181,7 +181,9 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_MURKROW ; b6 TeamRocketBaseB3F.asm
 	const SPRITE_SPEAROW ; b7 ViridianNicknameSpeechHouse.asm
 	; SPRITE_MONSTER
-	const SPRITE_AMPHAROS ; OlivineLightouse6F.asm
+	const SPRITE_AMPHAROS ; b8 OlivineLightouse6F.asm
+	; SPRITE_SLOWPOKE
+	const SPRITE_SLOWBRO ; b9 CeruleanCity.asm
 	
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
@@ -197,9 +199,9 @@ DEF SPRITE_VARS EQU const_value
 	const SPRITE_DOLL_1 ; f1
 	const SPRITE_DOLL_2 ; f2
 	const SPRITE_BIG_DOLL ; f3
-	; const SPRITE_WEIRD_TREE ; f4
-	; const SPRITE_OLIVINE_RIVAL ; f5
-	; const SPRITE_AZALEA_ROCKET ; f6
+	const SPRITE_WEIRD_TREE ; f4
+	const SPRITE_OLIVINE_RIVAL ; f5
+	const SPRITE_AZALEA_ROCKET ; f6
 	const SPRITE_FUCHSIA_GYM_1 ; f7
 	const SPRITE_FUCHSIA_GYM_2 ; f8
 	const SPRITE_FUCHSIA_GYM_3 ; f9
