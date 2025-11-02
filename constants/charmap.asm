@@ -194,6 +194,8 @@
 	charmap "'v",        $d6
 	charmap "'n",        $d7
 	
+	charmap "♦",         $dc
+	charmap "♥",         $dd
 	charmap "È",         $de
 	charmap "É",         $df
 

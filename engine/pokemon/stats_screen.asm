@@ -625,34 +625,75 @@ LoadPinkPage:
 	dec b
 	jr nz, .vertical_divider
 	ld de, .ExpPointStr
-	hlcoord 10, 9
+	hlcoord 10, 8
 	call PlaceString
-	hlcoord 17, 14
+	hlcoord 17, 13
 	call .PrintNextLevel
-	hlcoord 13, 10
+	hlcoord 13, 9
 	lb bc, 3, 7
 	ld de, wTempMonExp
 	call PrintNum
 	call .CalcExpToNextLevel
-	hlcoord 13, 13
+	hlcoord 13, 12
 	lb bc, 3, 7
 	ld de, wExpToNextLevel
 	call PrintNum
 	ld de, .LevelUpStr
-	hlcoord 10, 12
+	hlcoord 10, 11
 	call PlaceString
 	ld de, .ToStr
-	hlcoord 12, 14
+	hlcoord 12, 13
 	call PlaceString
-	hlcoord 11, 16
+	hlcoord 11, 14
 	ld a, [wTempMonLevel]
 	ld b, a
 	ld de, wTempMonExp + 2
 	predef FillInExpBar
-	hlcoord 10, 16
+	hlcoord 10, 14
 	ld [hl], $40 ; left exp bar end cap
-	hlcoord 19, 16
+	hlcoord 19, 14
 	ld [hl], $41 ; right exp bar end cap
+	
+	ld de, .HappinessStr
+	hlcoord 10, 16
+	call PlaceString
+	ld a, [wTempMonHappiness]
+	cp 0
+	jr z, .HappinessZero
+	hlcoord 15, 17
+	ld [hl], "♥"
+	cp 50
+	jr c, .HappinessOne
+	hlcoord 16, 17
+	ld [hl], "♥"
+	cp 100
+	jr c, .HappinessTwo
+	hlcoord 17, 17
+	ld [hl], "♥"
+	cp 150
+	jr c, .HappinessThree
+	hlcoord 18, 17
+	ld [hl], "♥"
+	cp $ff
+	jr c, .HappinessFour
+	hlcoord 19, 17
+	ld [hl], "♥"
+	ret
+.HappinessZero
+	hlcoord 15, 17
+	ld [hl], "♦"
+.HappinessOne
+	hlcoord 16, 17
+	ld [hl], "♦"
+.HappinessTwo
+	hlcoord 17, 17
+	ld [hl], "♦"
+.HappinessThree
+	hlcoord 18, 17
+	ld [hl], "♦"
+.HappinessFour
+	hlcoord 19, 17
+	ld [hl], "♦"
 	ret
 
 .PrintNextLevel:
@@ -716,6 +757,9 @@ LoadPinkPage:
 
 .PkrsStr:
 	db "#RUS@"
+
+.HappinessStr:
+	db "BLIJDSCHAP@" ; "HAPPINESS@"
 
 LoadGreenPage:
 	ld de, .Item
@@ -859,9 +903,9 @@ LoadBluePage:
 	ret
 
 .times
-	db "OCHTEND@"
-	db "DAG@"
-	db "NACHT@"
+	db "OCHTEND@" ; "MORNING@"
+	db "DAG@" ; "DAY@"
+	db "NACHT@" ; "NIGHT@"
 
 .placeCaughtLevel
 	hlcoord 1, 14
@@ -886,7 +930,7 @@ OTString:
 	db "OT/@"
 
 MetAtMapString:
-	db "ONTMOET:@" ; "MET:@"
+	db "ONTMOET/@" ; "MET/@"
 	
 MetUnknownMapString:
 	db "ONBEKEND@" ; "UNKNOWN@"
@@ -919,9 +963,6 @@ LoadOrangePage:
 	ld [de], a
 	lb bc, 1, 2
 	call PrintNum
-	ld de, DVString
-	hlcoord 2, 11
-	call PlaceString
 	hlcoord 9, 11
 	pop bc
 	ld a, b
@@ -937,9 +978,6 @@ LoadOrangePage:
 	ld [de], a
 	lb bc, 1, 2
 	call PrintNum
-	ld de, DVString
-	hlcoord 2, 13
-	call PlaceString
 	hlcoord 9, 13
 	pop bc
 	ld a, b
@@ -955,9 +993,6 @@ LoadOrangePage:
 	ld [de], a
 	lb bc, 1, 2
 	call PrintNum
-	ld de, DVString
-	hlcoord 2, 15
-	call PlaceString
 	hlcoord 9, 15
 	pop bc
 	ld a, b
@@ -974,9 +1009,6 @@ LoadOrangePage:
 	ld [de], a
 	lb bc, 1, 2
 	call PrintNum
-	ld de, DVString
-	hlcoord 2, 17
-	call PlaceString
 	hlcoord 9, 17
 	pop bc
 	ld a, b
@@ -1022,9 +1054,6 @@ LoadOrangePage:
 	ld [de], a
 	lb bc, 1, 2
 	call PrintNum
-	ld de, DVString
-	hlcoord 2, 9
-	call PlaceString
 	hlcoord 9, 9
 	pop bc
 	ld a, b
@@ -1194,14 +1223,11 @@ LoadOrangePage:
 	ret
 
 .DV_Stat_Names:
-	db "LP"
-	next "AANVAL"
-	next "AFWEER"
-	next "SPECIAAL"
-	next "SNELHEID@"
-
-DVString:
-	db "DV:@"
+	db "LP" ; "HP"
+	next "AANVAL" ; "ATTACK"
+	next "AFWEER" ; "DEFENSE"
+	next "SPECIAAL" ; "SPECIAL"
+	next "SNELHEID@" ; "SPEED@"
 
 NoGoodString:
 	db "Niet goed@" ; "No good@"

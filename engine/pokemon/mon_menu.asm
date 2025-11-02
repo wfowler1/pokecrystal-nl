@@ -1094,7 +1094,7 @@ MoveScreen2DMenuData:
 	db PAD_CTRL_PAD | PAD_A | PAD_B ; accepted buttons
 
 String_MoveWhere:
-	db "Kies een aanval<NEXT>om te wisselen.@"
+	db "Kies een aanval<NEXT>om te wisselen.@" ; "Select a move<NEXT>to swap places.@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1348,9 +1348,9 @@ String_MoveType_Bottom:
 String_MoveAtk:
 	db "AAN/@" ; "ATK/@"
 String_MoveAcc:
-	db "PRC/@"
+	db "PRC/@" ; "ACC/@"
 String_MoveEff:
-	db "KNS/@"
+	db "KNS/@" ; "EFF/@"
 String_MoveNoPower:
 	db "---@"
 
