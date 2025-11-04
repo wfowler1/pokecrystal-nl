@@ -1126,9 +1126,9 @@ SetUpMoveScreenBG:
 	call ClearBox
 	xor a
 	ld [wMonType], a
-	ld hl, wPartyMonNicknames
-	ld a, [wCurPartyMon]
-	call GetNickname
+	ld a, [wCurPartySpecies]
+	ld [wNamedObjectIndex], a
+	call GetPokemonName
 	hlcoord 5, 1
 	call PlaceString
 	push bc
