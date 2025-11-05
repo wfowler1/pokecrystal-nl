@@ -291,8 +291,8 @@ BlackthornGymSignText:
 	done
 
 MoveDeletersHouseSignText:
-	text "AANVALWISSER en" ; "MOVE DELETER and"
-	line "AANVALHERINNER'S" ; "MOVE REMINDER'S"
+	text "AANVALSHERINNERAAR" ; "MOVE DELETER and"
+	line "en AANVALWISSER'S" ; "MOVE REMINDER'S"
 	cont "HUIS" ; "HOUSE"
 	done
 
