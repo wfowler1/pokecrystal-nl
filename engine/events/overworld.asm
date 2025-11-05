@@ -1376,13 +1376,25 @@ RockSmashFromMenuScript:
 	special UpdateTimePals
 
 RockSmashScript:
+	; Check if move exists in party
 	callasm HasRockSmash
-	ifequal 1, .no
-	
-	opentext
+	ifequal 1, .does_not_have
+	; If move exists in party, get nickname of mon
 	callasm GetPartyNickname
+	opentext
 	writetext UseRockSmashText
 	closetext
+	ifequal 0, .do_smash
+	
+.does_not_have
+	; Check if the TM08 event has triggered yet
+	checkevent EVENT_GOT_TM08_ROCK_SMASH
+	iffalse .no
+	opentext
+	writetext WildUseRockSmashText
+	closetext
+
+.do_smash
 	special WaitSFX
 	playsound SFX_STRENGTH
 	earthquake 84
@@ -1415,6 +1427,10 @@ MovementData_RockSmash:
 
 UseRockSmashText:
 	text_far _UseRockSmashText
+	text_end
+
+WildUseRockSmashText:
+	text_far _WildUseRockSmashText
 	text_end
 
 ; AskRockSmashScript:

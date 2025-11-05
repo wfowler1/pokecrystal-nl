@@ -469,6 +469,12 @@ _UseRockSmashText::
 	line "bruikte STEENKNAL!" ; "ROCK SMASH!"
 	prompt
 
+_WildUseRockSmashText::
+	text "Een wilde BIKKEL" ; "A wild MACHOP"
+	line "helpt je met" ; "helped out with"
+	cont "STEENKNAL!" ; "ROCK SMASH!"
+	prompt
+
 _MaySmashText::
 	text "Een #MON kan" ; "Maybe a #MON"
 	line "dit breken." ; "can break this."
