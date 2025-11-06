@@ -33,6 +33,16 @@ GetPartyNickname:
 	call CopyName2
 	ret
 
+SetCurPartyMonToFieldMoveSpecies:
+	ld a, [wCurPartyMon]
+	ld e, a
+	ld d, 0
+	ld hl, wPartySpecies
+	add hl, de
+	ld a, [hl]
+	ld [wFieldMoveSpecies], a
+	ret
+
 CheckEngineFlag:
 ; Check engine flag de
 ; Return carry if flag is not set
@@ -1003,14 +1013,6 @@ StrengthFunction:
 SetStrengthFlag:
 	ld hl, wBikeFlags
 	set BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
-	ld a, [wCurPartyMon]
-	ld e, a
-	ld d, 0
-	ld hl, wPartySpecies
-	add hl, de
-	ld a, [hl]
-	ld [wStrengthSpecies], a
-	call GetPartyNickname
 	ret
 
 Script_StrengthFromMenu:
@@ -1019,10 +1021,12 @@ Script_StrengthFromMenu:
 
 Script_UsedStrength:
 	callasm SetStrengthFlag
+	callasm SetCurPartyMonToFieldMoveSpecies
+	callasm GetPartyNickname
 	opentext
 	writetext .UseStrengthText
-	readmem wStrengthSpecies
-	cry 0 ; plays [wStrengthSpecies] cry
+	readmem wFieldMoveSpecies
+	cry 0 ; plays [wFieldMoveSpecies] cry
 ;	pause 3
 ;	writetext .MoveBoulderText
 	waitbutton
@@ -1339,13 +1343,17 @@ HeadbuttFromMenuScript:
 
 ; Headbutt used from party. Display text for party mon
 HeadbuttFromPartyScript:
+	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext UseHeadbuttText
+	readmem wFieldMoveSpecies
+	cry 0 ; plays [wFieldMoveSpecies] cry
 	sjump HeadbuttScript
 
 ; Headbutt used by wild mon
 HeadbuttNotFromPartyScript:
 	writetext WildUseHeadbuttText
+	cry RATTATA
 	; fallthrough
 
 ; Shake tree and trigger battle
@@ -1436,9 +1444,12 @@ RockSmashScript:
 	callasm HasRockSmash
 	ifequal 1, .does_not_have
 	; If move exists in party, get nickname of mon
+	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	opentext
 	writetext UseRockSmashText
+	readmem wFieldMoveSpecies
+	cry 0 ; plays [wFieldMoveSpecies] cry
 	closetext
 	sjump .do_smash
 	
@@ -1448,6 +1459,7 @@ RockSmashScript:
 	iffalse .no
 	opentext
 	writetext WildUseRockSmashText
+	cry MACHOP
 	closetext
 
 .do_smash
