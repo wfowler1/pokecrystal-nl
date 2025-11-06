@@ -1245,12 +1245,19 @@ AskWhirlpoolText:
 	text_far _AskWhirlpoolText
 	text_end
 
+
+; HEADBUTT field move
+
+
+; PARTY MENU
+; Farcall from mon_menu.asm
 HeadbuttFunction:
 	call TryHeadbuttFromMenu
 	and JUMPTABLE_INDEX_MASK
 	ld [wFieldMoveSucceeded], a
 	ret
 
+; Checks for a tree, runs HeadbuttFromMenuScript if true
 TryHeadbuttFromMenu:
 	call GetFacingTileCoord
 	call CheckHeadbuttTreeTile
@@ -1265,23 +1272,84 @@ TryHeadbuttFromMenu:
 	call FieldMoveFailed
 	ld a, JUMPTABLE_EXIT
 	ret
+	
 
+; OVERWORLD
+; farcall from events.asm
+TryHeadbuttOW::
+	; ld d, HEADBUTT
+	; call CheckPartyMove
+	; jr c, .no
+
+	ld a, BANK(AskHeadbuttScript)
+	ld hl, AskHeadbuttScript
+	call CallScript
+	scf
+	ret
+
+; Check if something in party knows headbutt, or if TM02 has been obtained. If not, do nothing.
+AskHeadbuttScript:
+	callasm HasHeadbutt
+	ifequal 1, .does_not_have
+	opentext
+	writetext AskHeadbuttText
+	yesorno
+	iftrue HeadbuttFromPartyScript
+	closetext
+	end
+	
+.does_not_have
+	checkevent EVENT_GOT_TM02_HEADBUTT
+	iffalse .end
+	opentext
+	writetext AskHeadbuttText
+	yesorno
+	iftrue HeadbuttNotFromPartyScript
+	closetext
+.end
+	end
+
+; "Want to HEADBUTT?"
+AskHeadbuttText:
+	text_far _AskHeadbuttText
+	text_end
+
+; "Party mon did a HEADBUTT!"
 UseHeadbuttText:
 	text_far _UseHeadbuttText
 	text_end
 
+; "Wild RATTATA did a HEADBUTT!"
+WildUseHeadbuttText:
+	text_far _WildUseHeadbuttText
+	text_end
+
+; "Nope. Nothing…"
 HeadbuttNothingText:
 	text_far _HeadbuttNothingText
 	text_end
 
+
+; SCRIPTS
+; Do stuff for exiting from menu first
 HeadbuttFromMenuScript:
 	refreshmap
 	special UpdateTimePals
+	;fallthrough
 
-HeadbuttScript:
+; Headbutt used from party. Display text for party mon
+HeadbuttFromPartyScript:
 	callasm GetPartyNickname
 	writetext UseHeadbuttText
+	sjump HeadbuttScript
 
+; Headbutt used by wild mon
+HeadbuttNotFromPartyScript:
+	writetext WildUseHeadbuttText
+	; fallthrough
+
+; Shake tree and trigger battle
+HeadbuttScript:
 	refreshmap
 	callasm ShakeHeadbuttTree
 
@@ -1299,32 +1367,20 @@ HeadbuttScript:
 	closetext
 	end
 
-TryHeadbuttOW::
+; Does anything in the party have headbutt?
+HasHeadbutt:
 	ld d, HEADBUTT
 	call CheckPartyMove
-	jr c, .no
-
-	ld a, BANK(AskHeadbuttScript)
-	ld hl, AskHeadbuttScript
-	call CallScript
-	scf
-	ret
-
-.no
+	jr nc, .yes
+; no
+	ld a, 1
+	jr .done
+.yes
 	xor a
+	jr .done
+.done
+	ld [wScriptVar], a
 	ret
-
-AskHeadbuttScript:
-	opentext
-	writetext AskHeadbuttText
-	yesorno
-	iftrue HeadbuttScript
-	closetext
-	end
-
-AskHeadbuttText:
-	text_far _AskHeadbuttText
-	text_end
 
 RockSmashFunction:
 	call TryRockSmashFromMenu
@@ -1384,7 +1440,7 @@ RockSmashScript:
 	opentext
 	writetext UseRockSmashText
 	closetext
-	ifequal 0, .do_smash
+	sjump .do_smash
 	
 .does_not_have
 	; Check if the TM08 event has triggered yet

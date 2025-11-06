@@ -1127,7 +1127,7 @@ TryTileCollisionEvent::
 	call CheckHeadbuttTreeTile
 	jr nz, .surf
 	farcall TryHeadbuttOW
-	jr c, .done
+	jr c, .done_quiet
 	jr .noevent
 
 .surf
@@ -1141,6 +1141,7 @@ TryTileCollisionEvent::
 
 .done
 	call PlayClickSFX
+.done_quiet
 	ld a, PLAYEREVENT_MAPSCRIPT
 	scf
 	ret

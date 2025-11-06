@@ -451,6 +451,12 @@ _UseHeadbuttText::
 	line "een KOPSTOOT!" ; "HEADBUTT!"
 	prompt
 
+_WildUseHeadbuttText::
+	text "Een wilde RATTATA" ; "A wild RATTATA"
+	line "hielp je met" ; "helped out with"
+	cont "KOPSTOOT!" ; "HEADBUTT!"
+	prompt
+
 _HeadbuttNothingText::
 	text "Nope. Niks…" ; "Nope. Nothing…"
 	done
@@ -471,7 +477,7 @@ _UseRockSmashText::
 
 _WildUseRockSmashText::
 	text "Een wilde BIKKEL" ; "A wild MACHOP"
-	line "helpt je met" ; "helped out with"
+	line "hielp je met" ; "helped out with"
 	cont "STEENKNAL!" ; "ROCK SMASH!"
 	prompt
 
