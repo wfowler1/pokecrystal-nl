@@ -401,6 +401,7 @@ SurfFunction:
 .DoSurf:
 	call GetSurfType
 	ld [wSurfingPlayerState], a
+	call SetCurPartyMonToFieldMoveSpecies
 	call GetPartyNickname
 	ld hl, SurfFromMenuScript
 	call QueueScript
@@ -422,12 +423,21 @@ SurfFunction:
 SurfFromMenuScript:
 	special UpdateTimePals
 
-UsedSurfScript:
+UsedSurfFromPartyScript:
 	opentext
 	writetext UsedSurfText ; "used SURF!"
-	waitbutton
+	readmem wFieldMoveSpecies
+	cry 0 ; plays [wFieldMoveSpecies] cry
+	closetext
+	sjump DoSurf
+
+UsedSurfNotFromPartyScript:
+	opentext
+	writetext WildUsedSurfText ; "used SURF!"
+	cry AZUMARILL
 	closetext
 
+DoSurf:
 	callasm .stubbed_fn
 
 	readmem wSurfingPlayerState
@@ -441,6 +451,10 @@ UsedSurfScript:
 .stubbed_fn
 	farcall StubbedTrainerRankings_Surf
 	ret
+
+WildUsedSurfText:
+	text_far _WildUsedSurfText
+	text_end
 
 UsedSurfText:
 	text_far _UsedSurfText
@@ -527,22 +541,37 @@ TrySurfOW::
 	call CheckEngineFlag
 	jr c, .quit
 
-	ld d, SURF
-	call CheckPartyMove
-	jr c, .quit
-
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
 	jr nz, .quit
 
+	ld d, SURF
+	call CheckPartyMove
+	jr c, .not_in_party
+
 	call GetSurfType
 	ld [wSurfingPlayerState], a
+	call SetCurPartyMonToFieldMoveSpecies
 	call GetPartyNickname
 
-	ld a, BANK(UsedSurfScript)
-	ld hl, UsedSurfScript
+	ld a, BANK(UsedSurfFromPartyScript)
+	ld hl, UsedSurfFromPartyScript
 	call CallScript
+	jr .done
+	
+.not_in_party
+	ld a, HM_SURF
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr nc, .quit
 
+	ld a, PLAYER_SURF
+	ld [wSurfingPlayerState], a
+	ld a, BANK(UsedSurfNotFromPartyScript)
+	ld hl, UsedSurfNotFromPartyScript
+	call CallScript
+.done
 	scf
 	ret
 
@@ -558,9 +587,9 @@ TrySurfOW::
 ;	closetext
 ;	end
 
-AskSurfText:
-	text_far _AskSurfText
-	text_end
+; AskSurfText:
+;	text_far _AskSurfText
+;	text_end
 
 FlyFunction:
 	call FieldMoveJumptableReset
@@ -1295,6 +1324,7 @@ TryHeadbuttOW::
 AskHeadbuttScript:
 	callasm HasHeadbutt
 	ifequal 1, .does_not_have
+	callasm PlayClickSFX
 	opentext
 	writetext AskHeadbuttText
 	yesorno
@@ -1305,6 +1335,7 @@ AskHeadbuttScript:
 .does_not_have
 	checkevent EVENT_GOT_TM02_HEADBUTT
 	iffalse .end
+	callasm PlayClickSFX
 	opentext
 	writetext AskHeadbuttText
 	yesorno

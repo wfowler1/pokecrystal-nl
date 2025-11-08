@@ -320,7 +320,11 @@ _BlindingFlashText::
 	text_promptbutton
 	text_end
 
-	text_end ; unreferenced
+_WildUsedSurfText::
+	text "Een wilde AZUMARIL" ; "A wild AZUMARILL"
+	line "hielp je met" ; "helped out with"
+	cont "SURF!" ; "SURF!"
+	prompt
 
 _UsedSurfText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
