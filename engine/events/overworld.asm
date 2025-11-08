@@ -124,6 +124,7 @@ FieldMoveFailed:
 	text_far _CantUseItemText
 	text_end
 
+; farcall from engine/pokemon/mon_menu.asm
 CutFunction:
 	call FieldMoveJumptableReset
 .loop
@@ -168,14 +169,6 @@ CutFunction:
 	ld a, JUMPTABLE_EXIT
 	ret
 
-UseCutText:
-	text_far _UseCutText
-	text_end
-
-CutNothingText:
-	text_far _CutNothingText
-	text_end
-
 CheckMapForSomethingToCut:
 	; Does the collision data of the facing tile permit cutting?
 	call GetFacingTileCoord
@@ -209,21 +202,43 @@ CheckMapForSomethingToCut:
 	scf
 	ret
 
+; From CutFunction
 Script_CutFromMenu:
 	refreshmap
 	special UpdateTimePals
+	; fallthrough
 
+; From TryCutOW
+; At this point, we have ensured the player has the hive badge
 Script_Cut:
+	; We also already know we're facing something cuttable but for some reason we're checking again here
 	callasm .CheckMap
 	iffalse .nothing_to_cut
+	
+	callasm HasCut
+	ifequal 1, .does_not_have
+	
 	opentext
+	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext UseCutText
+	readmem wFieldMoveSpecies
+	cry 0 ; plays [wFieldMoveSpecies] cry
+	sjump .do_cut
+.does_not_have
+	checkitem HM_CUT
+	iffalse .cant_cut
+	opentext
+	writetext WildUseCutText
+	cry SCYTHER
+.do_cut
 	refreshmap
 	callasm CutDownTreeOrGrass
 	closetext
 .nothing_to_cut
 	end
+.cant_cut
+	sjump CantCutScript
 	
 .CheckMap:
 	xor a
@@ -255,6 +270,63 @@ CutDownTreeOrGrass:
 	call DelayFrame
 	call LoadStandardFont
 	ret
+
+; farcall from overworld/events.asm
+TryCutOW::
+	ld de, ENGINE_HIVEBADGE
+	call CheckEngineFlag
+	jr c, .cant_cut
+
+	ld a, BANK(Script_Cut)
+	ld hl, Script_Cut
+	call CallScript
+	scf
+	ret
+
+.cant_cut
+	ld a, BANK(CantCutScript)
+	ld hl, CantCutScript
+	call CallScript
+	scf
+	ret
+
+CantCutScript:
+	jumptext CanCutText
+
+; Does anything in the party have cut?
+HasCut:
+	ld d, CUT
+	call CheckPartyMove
+	jr nc, .yes
+; no
+	ld a, 1
+	jr .done
+.yes
+	xor a
+	jr .done
+.done
+	ld [wScriptVar], a
+	ret
+
+AskCutText:
+	text_far _AskCutText
+	text_end
+
+CanCutText:
+	text_far _CanCutText
+	text_end
+
+WildUseCutText:
+	text_far _WildUseCutText
+	text_end
+
+UseCutText:
+	text_far _UseCutText
+	text_end
+
+CutNothingText:
+	text_far _CutNothingText
+	text_end
 
 CheckOverworldTileArrays:
 	; Input: c contains the tile you're facing
@@ -1902,57 +1974,4 @@ GotOnBikeText:
 
 GotOffBikeText:
 	text_far _GotOffBikeText
-	text_end
-
-TryCutOW::
-	ld d, CUT
-	call CheckPartyMove
-	jr c, .cant_cut
-
-	ld de, ENGINE_HIVEBADGE
-	call CheckEngineFlag
-	jr c, .cant_cut
-
-	ld a, BANK(Script_Cut)
-	ld hl, Script_Cut
-	call CallScript
-	scf
-	ret
-
-.cant_cut
-	ld a, BANK(CantCutScript)
-	ld hl, CantCutScript
-	call CallScript
-	scf
-	ret
-
-; AskCutScript:
-;	opentext
-;	writetext AskCutText
-;	yesorno
-;	iffalse .declined
-;	callasm .CheckMap
-;	iftrue Script_Cut
-; .declined
-;	closetext
-;	end
-
-; .CheckMap:
-;	xor a
-;	ld [wScriptVar], a
-;	call CheckMapForSomethingToCut
-;	ret c
-;	ld a, TRUE
-;	ld [wScriptVar], a
-;	ret
-
-AskCutText:
-	text_far _AskCutText
-	text_end
-
-CantCutScript:
-	jumptext CanCutText
-
-CanCutText:
-	text_far _CanCutText
 	text_end

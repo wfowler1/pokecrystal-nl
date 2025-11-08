@@ -303,6 +303,12 @@ _CantUseItemText::
 	line "gebruiken." ; "here."
 	prompt
 
+_WildUseCutText::
+	text "Een wilde ZEISER" ; "A wild SCYTHER"
+	line "hielp je met" ; "helped out with"
+	cont "SNIJD!" ; "CUT!"
+	prompt
+
 _UseCutText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " deed" ; " used"
