@@ -1466,13 +1466,21 @@ HeadbuttFromPartyScript:
 	callasm GetPartyNickname
 	writetext UseHeadbuttText
 	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
 	cry 0 ; plays [wFieldMoveSpecies] cry
+	waitsfx
+	closepokepic
 	sjump HeadbuttScript
 
 ; Headbutt used by wild mon
 HeadbuttNotFromPartyScript:
 	writetext WildUseHeadbuttText
+	refreshmap
+	pokepic RATTATA
 	cry RATTATA
+	waitsfx
+	closepokepic
 	; fallthrough
 
 ; Shake tree and trigger battle
@@ -1568,7 +1576,11 @@ RockSmashScript:
 	opentext
 	writetext UseRockSmashText
 	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
 	cry 0 ; plays [wFieldMoveSpecies] cry
+	waitsfx
+	closepokepic
 	closetext
 	sjump .do_smash
 	
@@ -1578,7 +1590,11 @@ RockSmashScript:
 	iffalse .no
 	opentext
 	writetext WildUseRockSmashText
+	refreshmap
+	pokepic MACHOP
 	cry MACHOP
+	waitsfx
+	closepokepic
 	closetext
 
 .do_smash
