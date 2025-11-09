@@ -507,14 +507,22 @@ UsedSurfFromPartyScript:
 	opentext
 	writetext UsedSurfText ; "used SURF!"
 	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
 	cry 0 ; plays [wFieldMoveSpecies] cry
+	waitsfx
+	closepokepic
 	closetext
 	sjump DoSurf
 
 UsedSurfNotFromPartyScript:
 	opentext
 	writetext WildUsedSurfText ; "used SURF!"
+	refreshmap
+	pokepic AZUMARILL
 	cry AZUMARILL
+	waitsfx
+	closepokepic
 	closetext
 
 DoSurf:

@@ -337,7 +337,7 @@ _UsedSurfText::
 	; text " used"
 	text_start
 	line "gebruikte SURF!" ; "SURF!"
-	done
+	prompt
 
 _CantSurfText::
 	text "Hier kun je geen" ; "You can't SURF"
