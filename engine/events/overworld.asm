@@ -223,14 +223,22 @@ Script_Cut:
 	callasm GetPartyNickname
 	writetext UseCutText
 	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
 	cry 0 ; plays [wFieldMoveSpecies] cry
+	waitsfx
+	closepokepic
 	sjump .do_cut
 .does_not_have
 	checkitem HM_CUT
 	iffalse .cant_cut
 	opentext
 	writetext WildUseCutText
+	refreshmap
+	pokepic SCYTHER
 	cry SCYTHER
+	waitsfx
+	closepokepic
 .do_cut
 	refreshmap
 	callasm CutDownTreeOrGrass

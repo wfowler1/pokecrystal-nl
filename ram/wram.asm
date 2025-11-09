@@ -2516,9 +2516,8 @@ wFishingRodUsed:: db
 wCutWhirlpoolOverworldBlockAddr:: dw
 wCutWhirlpoolReplacementBlock:: db
 wCutWhirlpoolAnimationType::
-wFieldMoveSpecies::
 wFishingResult:: db
-	ds 1
+wFieldMoveSpecies:: db
 wFieldMoveDataEnd::
 
 NEXTU
