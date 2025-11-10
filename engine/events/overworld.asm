@@ -769,6 +769,9 @@ FlyFunction:
 	farcall LoadOverworldFont
 	ret
 
+; WATERFALL field move
+
+; farcall from engine/pokemon/mon_menu.asm
 WaterfallFunction:
 	call .TryWaterfall
 	and JUMPTABLE_INDEX_MASK
@@ -807,15 +810,40 @@ CheckMapCanWaterfall:
 	scf
 	ret
 
+; from WaterfallFunction (mon_menu.asm)
 Script_WaterfallFromMenu:
 	refreshmap
 	special UpdateTimePals
+	; Fallthrough
 
+; from TryWaterfallOW
 Script_UsedWaterfall:
+	callasm HasWaterfall
+	ifequal 1, .does_not_have
+	
 	opentext
+	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext .UseWaterfallText
-	waitbutton
+	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
+	cry 0 ; plays [wFieldMoveSpecies] cry
+	waitsfx
+	closepokepic
+	sjump .do_waterfall
+.does_not_have
+	checkitem HM_WATERFALL
+	iffalse .cant_waterfall
+	opentext
+	writetext .WildUseWaterfallText
+	refreshmap
+	pokepic AZUMARILL
+	cry AZUMARILL
+	waitsfx
+	closepokepic
+.do_waterfall
+	refreshmap
 	closetext
 	playsound SFX_BUBBLEBEAM
 .loop
@@ -823,6 +851,8 @@ Script_UsedWaterfall:
 	callasm .CheckContinueWaterfall
 	iffalse .loop
 	end
+.cant_waterfall
+	sjump Script_CantDoWaterfall
 
 .CheckContinueWaterfall:
 	xor a
@@ -843,10 +873,14 @@ Script_UsedWaterfall:
 	text_far _UseWaterfallText
 	text_end
 
+.WildUseWaterfallText:
+	text_far _WildUseWaterfallText
+	text_end
+
 TryWaterfallOW::
-	ld d, WATERFALL
-	call CheckPartyMove
-	jr c, .failed
+	; ld d, WATERFALL
+	; call CheckPartyMove
+	; jr c, .failed
 	ld de, ENGINE_RISINGBADGE
 	call CheckEngineFlag
 	jr c, .failed
@@ -880,9 +914,24 @@ Script_CantDoWaterfall:
 ;	closetext
 ;	end
 
-.AskWaterfallText:
-	text_far _AskWaterfallText
-	text_end
+; .AskWaterfallText:
+;	text_far _AskWaterfallText
+;	text_end
+
+; Does anything in the party have Waterfall?
+HasWaterfall:
+	ld d, WATERFALL
+	call CheckPartyMove
+	jr nc, .yes
+; no
+	ld a, 1
+	jr .done
+.yes
+	xor a
+	jr .done
+.done
+	ld [wScriptVar], a
+	ret
 
 EscapeRopeFunction:
 	call FieldMoveJumptableReset

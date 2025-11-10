@@ -358,7 +358,13 @@ _UseWaterfallText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte WATERVAL!" ; "WATERFALL!"
-	done
+	prompt
+
+_WildUseWaterfallText::
+	text "Een wilde AZUMARIL" ; "A wild AZUMARILL"
+	line "hielp je met" ; "helped out with"
+	cont "WATERVAL!" ; "SURF!"
+	prompt
 
 _HugeWaterfallText::
 	text "Wauw, een gigan-" ; "Wow, it's a huge"
