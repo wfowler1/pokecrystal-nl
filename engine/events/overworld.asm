@@ -114,6 +114,21 @@ CheckPartyMove:
 .no
 	scf
 	ret
+	
+; Script wrapper for CheckPartyMove. Places result in wScriptVar
+HasMove:
+	call CheckPartyMove
+	jr nc, .yes
+; no
+	ld a, 1
+	jr .done
+.yes
+	xor a
+	jr .done
+.done
+	ld [wScriptVar], a
+	ret
+
 
 FieldMoveFailed:
 	ld hl, .CantUseItemText
@@ -211,7 +226,6 @@ Script_CutFromMenu:
 ; From TryCutOW
 ; At this point, we have ensured the player has the hive badge
 Script_Cut:
-	; We also already know we're facing something cuttable but for some reason we're checking again here
 	callasm .CheckMap
 	iffalse .nothing_to_cut
 	
@@ -243,7 +257,11 @@ Script_Cut:
 	refreshmap
 	callasm CutDownTreeOrGrass
 	closetext
+	end
 .nothing_to_cut
+	opentext
+	writetext CutNothingText
+	closetext
 	end
 .cant_cut
 	sjump CantCutScript
@@ -304,16 +322,7 @@ CantCutScript:
 ; Does anything in the party have cut?
 HasCut:
 	ld d, CUT
-	call CheckPartyMove
-	jr nc, .yes
-; no
-	ld a, 1
-	jr .done
-.yes
-	xor a
-	jr .done
-.done
-	ld [wScriptVar], a
+	call HasMove
 	ret
 
 AskCutText:
@@ -921,16 +930,7 @@ Script_CantDoWaterfall:
 ; Does anything in the party have Waterfall?
 HasWaterfall:
 	ld d, WATERFALL
-	call CheckPartyMove
-	jr nc, .yes
-; no
-	ld a, 1
-	jr .done
-.yes
-	xor a
-	jr .done
-.done
-	ld [wScriptVar], a
+	call HasMove
 	ret
 
 EscapeRopeFunction:
@@ -1144,6 +1144,9 @@ TeleportFunction:
 	teleport_to
 	step_end
 
+; STRENGTH field move
+
+; farcall from engine/pokemon/mon_menu.asm
 StrengthFunction:
 	call .TryStrength
 	and JUMPTABLE_INDEX_MASK
@@ -1155,16 +1158,6 @@ StrengthFunction:
 	call CheckBadge
 	jr c, .Failed
 	jr .UseStrength
-
-.AlreadyUsingStrength: ; unreferenced
-	ld hl, .AlreadyUsingStrengthText
-	call MenuTextboxBackup
-	ld a, JUMPTABLE_EXIT
-	ret
-
-.AlreadyUsingStrengthText:
-	text_far _AlreadyUsingStrengthText
-	text_end
 
 .Failed:
 	ld a, JUMPTABLE_EXIT
@@ -1181,42 +1174,66 @@ SetStrengthFlag:
 	set BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
 	ret
 
+; From StrengthFunction, used from menu
 Script_StrengthFromMenu:
 	refreshmap
 	special UpdateTimePals
+	; Fallthrough
 
+; From AskStrengthScript
 Script_UsedStrength:
-	callasm SetStrengthFlag
+	callasm HasStrength
+	ifequal 1, .does_not_have
+	
+	opentext
 	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
-	opentext
 	writetext .UseStrengthText
 	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
 	cry 0 ; plays [wFieldMoveSpecies] cry
-;	pause 3
-;	writetext .MoveBoulderText
-	waitbutton
-	closetext
+	waitsfx
+	closepokepic
+	sjump .do_strength
+.does_not_have
+	checkitem HM_STRENGTH
+	iffalse .cant_strength
+	opentext
+	writetext .WildUseStrengthText
+	refreshmap
+	pokepic MACHOP
+	cry MACHOP
+	waitsfx
+	closepokepic
+.do_strength
+	callasm SetStrengthFlag
 	end
+.cant_strength
+	sjump DontMeetRequirements
 
 .UseStrengthText:
 	text_far _UseStrengthText
 	text_end
 
+.WildUseStrengthText
+	text_far _WildUseStrengthText
+	text_end
+
 .MoveBoulderText:
 	text_far _MoveBoulderText
 	text_end
-
+	
 AskStrengthScript:
 	callasm TryStrengthOW
 	iffalse Script_UsedStrength
-	ifequal $1, .DontMeetRequirements
-	sjump .AlreadyUsedStrength
+	ifequal $1, DontMeetRequirements
+	sjump AlreadyUsedStrength
 
-.DontMeetRequirements:
+DontMeetRequirements:
 	jumptext BouldersMayMoveText
 
-.AlreadyUsedStrength:
+AlreadyUsedStrength:
 	jumptext BouldersMoveText
 
 ; .AskStrength:
@@ -1227,9 +1244,9 @@ AskStrengthScript:
 ;	closetext
 ;	end
 
-AskStrengthText:
-	text_far _AskStrengthText
-	text_end
+; AskStrengthText:
+;	text_far _AskStrengthText
+;	text_end
 
 BouldersMoveText:
 	text_far _BouldersMoveText
@@ -1240,13 +1257,13 @@ BouldersMayMoveText:
 	text_end
 
 TryStrengthOW:
-	ld d, STRENGTH
-	call CheckPartyMove
-	jr c, .nope
-
 	ld de, ENGINE_PLAINBADGE
 	call CheckEngineFlag
 	jr c, .nope
+	
+	; ld d, STRENGTH
+	; call CheckPartyMove
+	; jr c, .nope
 
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
@@ -1265,6 +1282,12 @@ TryStrengthOW:
 
 .done
 	ld [wScriptVar], a
+	ret
+	
+; Does anything in the party have strength?
+HasStrength:
+	ld d, STRENGTH
+	call HasMove
 	ret
 
 
@@ -1454,16 +1477,7 @@ Script_MightyWhirlpool:
 ; Does anything in the party have Whirlpool?
 HasWhirlpool:
 	ld d, WHIRLPOOL
-	call CheckPartyMove
-	jr nc, .yes
-; no
-	ld a, 1
-	jr .done
-.yes
-	xor a
-	jr .done
-.done
-	ld [wScriptVar], a
+	call HasMove
 	ret
 
 
@@ -1604,16 +1618,7 @@ HeadbuttScript:
 ; Does anything in the party have headbutt?
 HasHeadbutt:
 	ld d, HEADBUTT
-	call CheckPartyMove
-	jr nc, .yes
-; no
-	ld a, 1
-	jr .done
-.yes
-	xor a
-	jr .done
-.done
-	ld [wScriptVar], a
+	call HasMove
 	ret
 
 RockSmashFunction:
@@ -1758,16 +1763,7 @@ AskRockSmashText:
 
 HasRockSmash:
 	ld d, ROCK_SMASH
-	call CheckPartyMove
-	jr nc, .yes
-; no
-	ld a, 1
-	jr .done
-.yes
-	xor a
-	jr .done
-.done
-	ld [wScriptVar], a
+	call HasMove
 	ret
 
 FishFunction:

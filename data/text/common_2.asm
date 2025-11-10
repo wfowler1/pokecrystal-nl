@@ -404,16 +404,17 @@ _CantUseTeleportText::
 	para ""
 	done
 
-_AlreadyUsingStrengthText::
-	text "Een #MON ge-" ; "A #MON is using"
-	line "bruikt al KRACHT." ; "STRENGTH already."
-	prompt
-
 _UseStrengthText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte KRACHT!" ; "STRENGTH!"
-	done
+	prompt
+
+_WildUseStrengthText::
+	text "Een wilde BIKKEL" ; "A wild MACHOP"
+	line "hielp je met" ; "helped out with"
+	cont "KRACHT!" ; "STRENGTH!"
+	prompt
 
 _MoveBoulderText::
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
