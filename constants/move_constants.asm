@@ -170,6 +170,7 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
+DEF GEN_2_MOVE EQU const_value
 	const FAIRY_WIND   ; a5
 	const SKETCH       ; a6
 	const TRIPLE_KICK  ; a7

@@ -439,8 +439,16 @@ LearnLevelMoves:
 	ld a, [hli]
 	jr nz, .find_move
 
-	push hl
 	ld d, a
+	cp GEN_2_MOVE
+	jr c, .old_move
+
+	ld a, [wLinkMode]
+	cp LINK_TIMECAPSULE
+	jr z, .done
+
+.old_move
+	push hl
 	ld hl, wPartyMon1Moves
 	ld a, [wCurPartyMon]
 	ld bc, PARTYMON_STRUCT_LENGTH
