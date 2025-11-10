@@ -1218,6 +1218,10 @@ TryStrengthOW:
 	ld [wScriptVar], a
 	ret
 
+
+;WHIRLPOOL field move
+
+; farcall from engine/pokemon/mon_menu.asm
 WhirlpoolFunction:
 	call FieldMoveJumptableReset
 .loop
@@ -1265,6 +1269,10 @@ UseWhirlpoolText:
 	text_far _UseWhirlpoolText
 	text_end
 
+WildUseWhirlpoolText:
+	text_far _WildUseWhirlpoolText
+	text_end
+
 TryWhirlpoolMenu:
 	call GetFacingTileCoord
 	ld c, a
@@ -1295,18 +1303,45 @@ TryWhirlpoolMenu:
 	scf
 	ret
 
+; From WhirlpoolFunction (from mon_menu)
 Script_WhirlpoolFromMenu:
 	refreshmap
 	special UpdateTimePals
+	; Fallthrough
 
+; From TryWhirlpoolOW
 Script_UsedWhirlpool:
+	callasm HasWhirlpool
+	ifequal 1, .does_not_have
+	
 	opentext
+	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext UseWhirlpoolText
+	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
+	cry 0 ; plays [wFieldMoveSpecies] cry
+	waitsfx
+	closepokepic
+	sjump .do_whirlpool
+.does_not_have
+	checkitem HM_WHIRLPOOL
+	iffalse .cant_whirlpool
+	opentext
+	writetext WildUseWhirlpoolText
+	refreshmap
+	pokepic AZUMARILL
+	cry AZUMARILL
+	waitsfx
+	closepokepic
+.do_whirlpool
 	refreshmap
 	callasm DisappearWhirlpool
 	closetext
 	end
+.cant_whirlpool
+	sjump Script_MightyWhirlpool
 
 DisappearWhirlpool:
 	ld hl, wCutWhirlpoolOverworldBlockAddr
@@ -1325,10 +1360,11 @@ DisappearWhirlpool:
 	call GetMovementPermissions
 	ret
 
+; farcall from engine/overworld/events.asm
 TryWhirlpoolOW::
-	ld d, WHIRLPOOL
-	call CheckPartyMove
-	jr c, .failed
+	; ld d, WHIRLPOOL
+	; call CheckPartyMove
+	; jr c, .failed
 	ld de, ENGINE_GLACIERBADGE
 	call CheckEngineFlag
 	jr c, .failed
@@ -1362,13 +1398,27 @@ Script_MightyWhirlpool:
 ;	closetext
 ;	end
 
-AskWhirlpoolText:
-	text_far _AskWhirlpoolText
-	text_end
+; AskWhirlpoolText:
+;	text_far _AskWhirlpoolText
+;	text_end
+
+; Does anything in the party have Whirlpool?
+HasWhirlpool:
+	ld d, WHIRLPOOL
+	call CheckPartyMove
+	jr nc, .yes
+; no
+	ld a, 1
+	jr .done
+.yes
+	xor a
+	jr .done
+.done
+	ld [wScriptVar], a
+	ret
 
 
 ; HEADBUTT field move
-
 
 ; PARTY MENU
 ; Farcall from mon_menu.asm
@@ -1396,7 +1446,7 @@ TryHeadbuttFromMenu:
 	
 
 ; OVERWORLD
-; farcall from events.asm
+; farcall from overworld/events.asm
 TryHeadbuttOW::
 	; ld d, HEADBUTT
 	; call CheckPartyMove

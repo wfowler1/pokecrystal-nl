@@ -328,8 +328,8 @@ _BlindingFlashText::
 
 _WildUsedSurfText::
 	text "Een wilde AZUMARIL" ; "A wild AZUMARILL"
-	line "hielp je met" ; "helped out with"
-	cont "SURF!" ; "SURF!"
+	line "hielp je met SURF!" ; "helped out with"
+	; cont "SURF!"
 	prompt
 
 _UsedSurfText::
@@ -437,6 +437,12 @@ _UseWhirlpoolText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte DRAAIKOLK!" ; "WHIRLPOOL!"
+	prompt
+
+_WildUseWhirlpoolText::
+	text "Een wilde AZUMARIL" ; "A wild AZUMARILL"
+	line "hielp je met" ; "helped out with"
+	cont "DRAAIKOLK!" ; "WHIRLPOOL!"
 	prompt
 
 _MayPassWhirlpoolText::
