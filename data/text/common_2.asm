@@ -386,8 +386,6 @@ _TeleportReturnText::
 _CantUseTeleportText::
 	text "Kun je hier niet" ; "Can't use that"
 	line "gebruiken." ; "here."
-
-	para ""
 	done
 
 _AlreadyUsingStrengthText::
