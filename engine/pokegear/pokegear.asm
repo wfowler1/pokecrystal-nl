@@ -2192,6 +2192,7 @@ TownMapBubble:
 	add hl, de
 	ld e, [hl]
 	farcall GetLandmarkName
+	farcall TownMap_ConvertLineBreakCharacters
 	hlcoord 2, 1
 	ld de, wStringBuffer1
 	call PlaceString
