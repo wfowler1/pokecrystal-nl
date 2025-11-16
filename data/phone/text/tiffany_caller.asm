@@ -86,14 +86,17 @@ TiffanyHangUpText:
 	done
 
 TiffanyFoundItemText:
-	text "Ik heb wat ZIJDEN" ; "I bought some PINK"
-	line "SJAALS gekocht in" ; "BOWS at GOLDENROD"
+	; text "Ik heb wat ZIJDEN" ; "I bought some PINK"
+	; line "SJAALS gekocht in" ; "BOWS at GOLDENROD"
 
-	para "GOLDENROD WAREN-" ; "DEPT.STORE for my"
-	line "HUIS voor mijn" ; "CLEFAIRY."
-	cont "CLEFEE."
+	; para "GOLDENROD WAREN-" ; "DEPT.STORE for my"
+	; line "HUIS voor mijn" ; "CLEFAIRY."
+	; cont "CLEFEE."
+	
+	text "Ik vond wat FEE-" ; "I found some FAIRY"
+	line "ENVEREN, maar" ; "FEATHERs, but"
 
-	para "Ik heb er te veel," ; "I got too many, so"
+	para "ik heb er te veel," ; "I got too many, so"
 	line "dus je mag er één!" ; "I'll give you one!"
 
 	para "Haal maar op bij" ; "Come collect it on"
