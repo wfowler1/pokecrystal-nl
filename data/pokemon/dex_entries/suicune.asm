@@ -3,7 +3,7 @@
 	dw 1870 ; weight
 
 	db   "Deze heilige" ; "This divine"
-	next "MON schiet" ; "#MON blows"
+	next "#MON schiet" ; "#MON blows"
 	next "over de hele" ; "around the world,"
 
 	page "wereld heen," ; "always in search"

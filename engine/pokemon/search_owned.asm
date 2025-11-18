@@ -235,7 +235,7 @@ rept PLAYER_NAME_LENGTH - 2
 	ld a, [de]
 	cp [hl]
 	jr nz, .notfound
-	cp "@"
+	cp '@'
 	jr z, .found
 	inc hl
 	inc de

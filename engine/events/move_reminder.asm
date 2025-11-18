@@ -422,7 +422,7 @@ ChooseMoveToLearn:
 .print_pp
 	ld hl, wStringBuffer1
 	ld bc, wStringBuffer2 - wStringBuffer1
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 	ld a, [wMenuSelection]
 	inc a
@@ -442,12 +442,12 @@ ChooseMoveToLearn:
 	lb bc, 1, 2
 	call PrintNum
 	ld hl, wStringBuffer1 + 11
-	ld [hl], "/"
+	ld [hl], '/'
 	ld hl, wStringBuffer1 + 12
 	call PrintNum
 	
 	ld hl, wStringBuffer1 + 14
-	ld [hl], "@"
+	ld [hl], '@'
 
 	pop hl
 	ld de, wStringBuffer1
@@ -542,7 +542,7 @@ ChooseMoveToLearn:
 	ld de, wStringBuffer1
 	call PlaceString
 	hlcoord 10, 13
-	ld [hl], "/"
+	ld [hl], '/'
 	inc hl
 ; This code falls through into the ".print_move_chance" local jump.
 

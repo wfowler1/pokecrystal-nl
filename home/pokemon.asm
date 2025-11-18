@@ -224,7 +224,7 @@ PrintMetLevel::
 PrintLevelA::
 ; Print level in a at hl with leading :L
 ; For times you want PrintLevel but not with wTempMonLevel
-	ld [hl], "<LV>"
+	ld [hl], '<LV>'
 	inc hl
 
 ; How many digits?
@@ -239,7 +239,7 @@ PrintLevelA::
 
 PrintLevel_Force3Digits::
 ; Print :L and all 3 digits
-	ld [hl], "<LV>"
+	ld [hl], '<LV>'
 	inc hl
 	ld c, 3
 

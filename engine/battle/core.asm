@@ -4738,11 +4738,11 @@ PrintPlayerHUD:
 	ld a, TEMPMON
 	ld [wMonType], a
 	callfar GetGender
-	ld a, " "
+	ld a, ' '
 	jr c, .got_gender_char
-	ld a, "♂"
+	ld a, '♂'
 	jr nz, .got_gender_char
-	ld a, "♀"
+	ld a, '♀'
 
 .got_gender_char
 	hlcoord 17, 8
@@ -4756,7 +4756,7 @@ PrintPlayerHUD:
 	pop bc
 ;	ret nz
 	ld a, b
-	cp " "
+	cp ' '
 	hlcoord 14, 8
 	jr nz, .copy_level ; male or female
 	dec hl ; genderless
@@ -4815,11 +4815,11 @@ DrawEnemyHUD:
 	ld a, TEMPMON
 	ld [wMonType], a
 	callfar GetGender
-	ld a, " "
+	ld a, ' '
 	jr c, .got_gender
-	ld a, "♂"
+	ld a, '♂'
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, '♀'
 
 .got_gender
 	hlcoord 9, 1
@@ -4834,7 +4834,7 @@ DrawEnemyHUD:
 	pop bc
 ;	jr nz, .skip_level
 	ld a, b
-	cp " "
+	cp ' '
 	hlcoord 6, 1
 	jr nz, .print_level
 	dec hl
@@ -5505,7 +5505,7 @@ MoveSelectionScreen:
 	ld bc, SCREEN_WIDTH
 	dec a
 	call AddNTimes
-	ld [hl], "▷"
+	ld [hl], '▷'
 
 .interpret_joypad
 	ld a, $1
@@ -5863,7 +5863,7 @@ MoveInfoBox:
 	ld de, wStringBuffer1
 	call PlaceString
 	hlcoord 1, 10
-	ld [hl], "/"
+	ld [hl], '/'
 	inc hl
 
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
@@ -5891,7 +5891,7 @@ MoveInfoBox:
 	pop hl
 	inc hl
 	inc hl
-	ld [hl], "/"
+	ld [hl], '/'
 	inc hl
 	ld de, wNamedObjectIndex
 	lb bc, 1, 2
@@ -8691,7 +8691,7 @@ ReadAndPrintLinkBattleRecord:
 	ld de, wLinkBattleRecordName
 	ld bc, NAME_LENGTH - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, '@'
 	ld [de], a
 	inc de ; wLinkBattleRecordWins
 	ld bc, 6
@@ -9157,7 +9157,7 @@ InitBattleDisplay:
 
 	ld hl, wDecompressScratch
 	ld bc, TILEMAP_AREA
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 
 	ld de, wDecompressScratch

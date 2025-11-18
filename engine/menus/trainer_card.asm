@@ -371,7 +371,7 @@ TrainerCard_InitBorder:
 	ld [hli], a
 
 	ld e, SCREEN_WIDTH - 3
-	ld a, " "
+	ld a, ' '
 .loop2
 	ld [hli], a
 	dec e
@@ -387,7 +387,7 @@ TrainerCard_InitBorder:
 	ld [hli], a
 
 	ld e, SCREEN_WIDTH - 2
-	ld a, " "
+	ld a, ' '
 .loop4
 	ld [hli], a
 	dec e
@@ -405,7 +405,7 @@ TrainerCard_InitBorder:
 	ld [hli], a
 
 	ld e, SCREEN_WIDTH - 3
-	ld a, " "
+	ld a, ' '
 .loop5
 	ld [hli], a
 	dec e
@@ -467,7 +467,7 @@ TrainerCard_Page1_PrintGameTime:
 	ret nz
 	hlcoord 15, 12
 	ld a, [hl]
-	xor " " ^ $2e ; alternate between space and small colon ($2e) tiles
+	xor ' ' ^ $2e ; alternate between space and small colon ($2e) tiles
 	ld [hl], a
 	ret
 

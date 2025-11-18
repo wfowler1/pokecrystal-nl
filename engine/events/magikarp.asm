@@ -80,17 +80,17 @@ PrintMagikarpLength:
 	ld de, wMagikarpLength
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 4
 	call PrintNum
-	ld a, "@"
+	ld a, '@'
 	ld [wStringBuffer1 + 5], a
 	ld a, [wStringBuffer1 + 3]
 	ld [wStringBuffer1 + 4], a
-	ld a, ","
+	ld a, ','
 	ld [wStringBuffer1 + 3], a
 	ld hl, wStringBuffer1
 
 .loop:
 	ld a, [hli]
-	cp "0"
+	cp '0'
 	jr z, .loop
 
 	dec hl

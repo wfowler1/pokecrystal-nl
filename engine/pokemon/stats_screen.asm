@@ -418,9 +418,9 @@ StatsScreen_InitUpperHalf:
 	ld [wTextDecimalByte], a
 	ld [wCurSpecies], a
 	hlcoord 8, 0
-	ld [hl], "№"
+	ld [hl], '№'
 	inc hl
-	ld [hl], "."
+	ld [hl], '.'
 	inc hl
 	hlcoord 10, 0
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
@@ -436,7 +436,7 @@ StatsScreen_InitUpperHalf:
 	hlcoord 18, 0
 	call .PlaceGenderChar
 	hlcoord 9, 4
-	ld a, "/"
+	ld a, '/'
 	ld [hli], a
 	ld a, [wBaseDexNo]
 	ld [wNamedObjectIndex], a
@@ -469,9 +469,9 @@ StatsScreen_InitUpperHalf:
 	farcall GetGender
 	pop hl
 	ret c
-	ld a, "♂"
+	ld a, '♂'
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, '♀'
 .got_gender
 	ld [hl], a
 	ret
@@ -507,9 +507,9 @@ StatsScreen_PlaceHorizontalDivider:
 
 StatsScreen_PlacePageSwitchArrows:
 	hlcoord 10, 6
-	ld [hl], "◀"
+	ld [hl], '◀'
 	hlcoord 19, 6
-	ld [hl], "▶"
+	ld [hl], '▶'
 	ret
 
 StatsScreen_PlaceShinyIcon:
@@ -517,7 +517,7 @@ StatsScreen_PlaceShinyIcon:
 	farcall CheckShininess
 	ret nc
 	hlcoord 19, 0
-	ld [hl], "⁂"
+	ld [hl], '⁂'
 	ret
 
 StatsScreen_LoadGFX:
@@ -592,7 +592,7 @@ LoadPinkPage:
 	and $f0
 	jr z, .NotImmuneToPkrs
 	hlcoord 8, 8
-	ld [hl], "." ; Pokérus immunity dot
+	ld [hl], '.' ; Pokérus immunity dot
 .NotImmuneToPkrs:
 	ld a, [wMonType]
 	cp BOXMON
@@ -661,39 +661,39 @@ LoadPinkPage:
 	cp 0
 	jr z, .HappinessZero
 	hlcoord 15, 17
-	ld [hl], "♥"
+	ld [hl], '♥'
 	cp 50
 	jr c, .HappinessOne
 	hlcoord 16, 17
-	ld [hl], "♥"
+	ld [hl], '♥'
 	cp 100
 	jr c, .HappinessTwo
 	hlcoord 17, 17
-	ld [hl], "♥"
+	ld [hl], '♥'
 	cp 150
 	jr c, .HappinessThree
 	hlcoord 18, 17
-	ld [hl], "♥"
+	ld [hl], '♥'
 	cp $ff
 	jr c, .HappinessFour
 	hlcoord 19, 17
-	ld [hl], "♥"
+	ld [hl], '♥'
 	ret
 .HappinessZero
 	hlcoord 15, 17
-	ld [hl], "♦"
+	ld [hl], '♦'
 .HappinessOne
 	hlcoord 16, 17
-	ld [hl], "♦"
+	ld [hl], '♦'
 .HappinessTwo
 	hlcoord 17, 17
-	ld [hl], "♦"
+	ld [hl], '♦'
 .HappinessThree
 	hlcoord 18, 17
-	ld [hl], "♦"
+	ld [hl], '♦'
 .HappinessFour
 	hlcoord 19, 17
-	ld [hl], "♦"
+	ld [hl], '♦'
 	ret
 
 .PrintNextLevel:
@@ -851,9 +851,9 @@ LoadBluePage:
 	cp $7f
 	jr z, .done
 	and CAUGHT_GENDER_MASK
-	ld a, "♂"
+	ld a, '♂'
 	jr z, .got_gender
-	ld a, "♀"
+	ld a, '♀'
 .got_gender
 	hlcoord 9, 9
 	ld [hl], a
@@ -1083,7 +1083,7 @@ LoadOrangePage:
 	cp $ff
 	jr nz, .atk_exp_bar
 	hlcoord 19, 8
-	ld [hl], "⁂"
+	ld [hl], '⁂'
 
 .atk_exp_bar
 	ld a, [wTempMonAtkExp + 1]
@@ -1109,7 +1109,7 @@ LoadOrangePage:
 	cp $ff
 	jr nz, .def_exp_bar
 	hlcoord 19, 10
-	ld [hl], "⁂"
+	ld [hl], '⁂'
 
 .def_exp_bar
 	ld a, [wTempMonDefExp + 1]
@@ -1135,7 +1135,7 @@ LoadOrangePage:
 	cp $ff
 	jr nz, .spc_exp_bar
 	hlcoord 19, 12
-	ld [hl], "⁂"
+	ld [hl], '⁂'
 
 .spc_exp_bar
 	ld a, [wTempMonSpcExp + 1]
@@ -1161,7 +1161,7 @@ LoadOrangePage:
 	cp $ff
 	jr nz, .spd_exp_bar
 	hlcoord 19, 14
-	ld [hl], "⁂"
+	ld [hl], '⁂'
 
 .spd_exp_bar
 	ld a, [wTempMonSpdExp + 1]
@@ -1187,7 +1187,7 @@ LoadOrangePage:
 	cp $ff
 	ret nz
 	hlcoord 19, 16
-	ld [hl], "⁂"
+	ld [hl], '⁂'
 	ret
 
 ; Prints judgment string based on the value in "a"
@@ -1432,7 +1432,7 @@ StatsScreen_LoadTextboxSpaceGFX:
 	ldh [rVBK], a
 	ld de, TextboxSpaceGFX
 	lb bc, BANK(TextboxSpaceGFX), 1
-	ld hl, vTiles2 tile " "
+	ld hl, vTiles2 tile ' '
 	call Get2bpp
 	pop af
 	ldh [rVBK], a
