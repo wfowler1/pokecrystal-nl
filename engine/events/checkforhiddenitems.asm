@@ -112,6 +112,8 @@ RockItemEncounter:
 	db 2, STAR_PIECE
 	db 3, BIG_PEARL
 	db 4, STARDUST
+	db 4, SOFT_SAND
+	db 4, HARD_STONE
 	db 8, HEART_SCALE
 	db 8, PEARL
 	db 32, BRICK_PIECE

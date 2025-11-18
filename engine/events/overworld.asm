@@ -34,6 +34,7 @@ GetPartyNickname:
 	ret
 
 SetCurPartyMonToFieldMoveSpecies:
+; Takes the species of wCurPartyMon and puts it into wFieldMoveSpecies
 	ld a, [wCurPartyMon]
 	ld e, a
 	ld d, 0
@@ -43,37 +44,106 @@ SetCurPartyMonToFieldMoveSpecies:
 	ld [wFieldMoveSpecies], a
 	ret
 
-CheckEngineFlag:
-; Check engine flag de
-; Return carry if flag is not set
-	ld b, CHECK_FLAG
-	farcall EngineFlagAction
+GetFieldMoveSpeciesName:
+; Puts the name of wFieldMoveSpecies into wStringBuffer1
+	ld a, [wFieldMoveSpecies]
+	ld [wNamedObjectIndex], a
+	call GetPokemonName
+	ret
+
+Script_DisplayFieldMoveMonWithCry:
+; Shows wFieldMoveSpecies in a pokepic and play its cry
+	readmem wFieldMoveSpecies
+	refreshmap
+	pokepic 0
+	cry 0
+	waitsfx
+	closepokepic
+	;refreshmap
+	end
+
+CheckFlagResult:
 	ld a, c
 	and a
-	jr nz, .isset
+	jr nz, .yes
+;.no
+	ld a, 1
 	scf
-	ret
-.isset
+	jr .done
+.yes
 	xor a
+.done
+	ld [wScriptVar], a
 	ret
+
+CheckEventFlag:
+; Check event flag de
+; Carry and wScriptVar are 0 if set, otherwise no.
+	ld b, CHECK_FLAG
+	farcall EventFlagAction
+	jr CheckFlagResult
+
+GotTM08RockSmash:
+	ld de, EVENT_GOT_TM08_ROCK_SMASH
+	jr CheckEventFlag
+
+GotTM02Headbutt:
+	ld de, EVENT_GOT_TM02_HEADBUTT
+	jr CheckEventFlag
+
+CheckEngineFlag:
+; Check engine flag de
+; Carry and wScriptVar are 0 if set, otherwise no.
+	ld b, CHECK_FLAG
+	farcall EngineFlagAction
+	jr CheckFlagResult
 
 CheckBadge:
 ; Check engine flag a (ENGINE_ZEPHYRBADGE thru ENGINE_EARTHBADGE)
-; Display "Badge required" text and return carry if the badge is not owned
+; Display "Badge required" text and set carry if the badge is not owned
 	call CheckEngineFlag
 	ret nc
-	ld hl, .BadgeRequiredText
-	call MenuTextboxBackup ; push text to queue
 	scf
 	ret
 
-.BadgeRequiredText:
+PrintBadgeRequiredText:
+	ld hl, BadgeRequiredText
+	call MenuTextboxBackup ; push text to queue
+
+BadgeRequiredText:
 	text_far _BadgeRequiredText
 	text_end
+	
+CheckZephyrBadge:
+	ld de, ENGINE_ZEPHYRBADGE
+	jr CheckBadge
+
+CheckHiveBadge:
+	ld de, ENGINE_HIVEBADGE
+	jr CheckBadge
+
+CheckPlainBadge:
+	ld de, ENGINE_PLAINBADGE
+	jr CheckBadge
+
+CheckFogBadge:
+	ld de, ENGINE_FOGBADGE
+	jr CheckBadge
+
+CheckStormBadge:
+	ld de, ENGINE_STORMBADGE
+	jr CheckBadge
+
+CheckGlacierBadge:
+	ld de, ENGINE_GLACIERBADGE
+	jr CheckBadge
+
+CheckRisingBadge:
+	ld de, ENGINE_RISINGBADGE
+	jr CheckBadge
 
 CheckPartyMove:
-; Check if a monster in your party has move d.
-
+; Check if a monster in your party has move d. If yes, sets wCurPartyMon. If no, set carry.
 	ld e, 0
 	xor a
 	ld [wCurPartyMon], a
@@ -114,21 +184,6 @@ CheckPartyMove:
 .no
 	scf
 	ret
-	
-; Script wrapper for CheckPartyMove. Places result in wScriptVar
-HasMove:
-	call CheckPartyMove
-	jr nc, .yes
-; no
-	ld a, 1
-	jr .done
-.yes
-	xor a
-	jr .done
-.done
-	ld [wScriptVar], a
-	ret
-
 
 FieldMoveFailed:
 	ld hl, .CantUseItemText
@@ -139,7 +194,114 @@ FieldMoveFailed:
 	text_far _CantUseItemText
 	text_end
 
-; farcall from engine/pokemon/mon_menu.asm
+HasMove:
+; Calls CheckPartyMove to check if the move in d exists in the party.
+; Carry and wScriptVar are 0 if yes, otherwise no.
+; If yes, wCurPartyMon will contain the mon with the move.
+	call CheckPartyMove
+	jr nc, .yes
+; no
+	ld a, 1
+	jr .done
+.yes
+	xor a
+	; jr .done
+.done
+	ld [wScriptVar], a
+	ret
+
+HasCut:
+	ld d, CUT
+	jr HasMove
+
+HasFly:
+	ld d, FLY
+	jr HasMove
+
+HasSurf:
+	ld d, SURF
+	jr HasMove
+
+HasStrength:
+	ld d, STRENGTH
+	jr HasMove
+
+HasFlash:
+	ld d, FLASH
+	jr HasMove
+
+HasWhirlpool:
+	ld d, WHIRLPOOL
+	jr HasMove
+
+HasWaterfall:
+	ld d, WATERFALL
+	jr HasMove
+
+HasHeadbutt:
+	ld d, HEADBUTT
+	jr HasMove
+
+HasRockSmash:
+	ld d, ROCK_SMASH
+	jr HasMove
+
+HasDig:
+	ld d, DIG
+	jr HasMove
+
+HasTeleport:
+	ld d, TELEPORT
+	jr HasMove
+
+HasItem:
+; Calls CheckItem to check if item a is in the player's bag
+; Carry and wScriptVar are 0 if yes, otherwise no.
+    ld [wCurItem], a
+    ld hl, wNumItems
+    call CheckItem
+    jr c, .yes
+	ld a, 1
+	scf
+	jr .done
+.yes
+	xor a
+.done
+	ld [wScriptVar], a
+	ret
+	
+HasHM01:
+	ld a, HM_CUT
+	jr HasItem
+	
+HasHM02:
+	ld a, HM_FLY
+	jr HasItem
+	
+HasHM03:
+	ld a, HM_SURF
+	jr HasItem
+	
+HasHM04:
+	ld a, HM_STRENGTH
+	jr HasItem
+
+HasHM05:
+	ld a, HM_FLASH
+	jr HasItem
+	
+HasHM06:
+	ld a, HM_WHIRLPOOL
+	jr HasItem
+
+HasHM07:
+	ld a, HM_WATERFALL
+	jr HasItem
+
+
+; CUT field move
+
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 CutFunction:
 	call FieldMoveJumptableReset
 .loop
@@ -156,15 +318,16 @@ CutFunction:
 	dw .FailCut
 
 .CheckAble:
-	ld de, ENGINE_HIVEBADGE
-	call CheckBadge
+	call CheckHiveBadge
 	jr c, .nohivebadge
 	call CheckMapForSomethingToCut
 	jr c, .nothingtocut
+	call SaveCutWhirlpoolFieldMoveData
 	ld a, $1
 	ret
 
 .nohivebadge
+	call PrintBadgeRequiredText
 	ld a, JUMPTABLE_EXIT
 	ret
 
@@ -184,6 +347,18 @@ CutFunction:
 	ld a, JUMPTABLE_EXIT
 	ret
 
+UseCutText:
+	text_far _UseCutText
+	text_end
+
+WildUseCutText:
+	text_far _WildUseCutText
+	text_end
+
+CutNothingText:
+	text_far _CutNothingText
+	text_end
+
 CheckMapForSomethingToCut:
 	; Does the collision data of the facing tile permit cutting?
 	call GetFacingTileCoord
@@ -201,15 +376,6 @@ CheckMapForSomethingToCut:
 	call CheckOverworldTileArrays
 	pop hl
 	jr nc, .fail
-	; Save the Cut field move data
-	ld a, l
-	ld [wCutWhirlpoolOverworldBlockAddr], a
-	ld a, h
-	ld [wCutWhirlpoolOverworldBlockAddr + 1], a
-	ld a, b
-	ld [wCutWhirlpoolReplacementBlock], a
-	ld a, c
-	ld [wCutWhirlpoolAnimationType], a
 	xor a
 	ret
 
@@ -217,74 +383,37 @@ CheckMapForSomethingToCut:
 	scf
 	ret
 
-; From CutFunction
 Script_CutFromMenu:
 	refreshmap
 	special UpdateTimePals
-	; fallthrough
 
-; From TryCutOW
-; At this point, we have ensured the player has the hive badge
 Script_Cut:
-	callasm .CheckMap
-	iffalse .nothing_to_cut
+	opentext
 	
 	callasm HasCut
-	ifequal 1, .does_not_have
+	ifequal 1, .not_in_party
 	
-	opentext
 	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext UseCutText
-	readmem wFieldMoveSpecies
-	refreshmap
-	pokepic 0
-	cry 0 ; plays [wFieldMoveSpecies] cry
-	waitsfx
-	closepokepic
 	sjump .do_cut
-.does_not_have
-	checkitem HM_CUT
-	iffalse .cant_cut
-	opentext
+.not_in_party
+	callasm .LoadWildCutMon
+	callasm GetFieldMoveSpeciesName
 	writetext WildUseCutText
-	refreshmap
-	pokepic SCYTHER
-	cry SCYTHER
-	waitsfx
-	closepokepic
 .do_cut
-	refreshmap
+	scall Script_DisplayFieldMoveMonWithCry
 	callasm CutDownTreeOrGrass
 	closetext
 	end
-.nothing_to_cut
-	opentext
-	writetext CutNothingText
-	closetext
-	end
-.cant_cut
-	sjump CantCutScript
-	
-.CheckMap:
-	xor a
-	ld [wScriptVar], a
-	call CheckMapForSomethingToCut
-	ret c
-	ld a, TRUE
-	ld [wScriptVar], a
+
+.LoadWildCutMon:
+	ld a, SCYTHER
+	ld [wFieldMoveSpecies], a
 	ret
 
 CutDownTreeOrGrass:
-	ld hl, wCutWhirlpoolOverworldBlockAddr
-	ld a, [hli]
-	ld h, [hl]
-	ld l, a
-	ld a, [wCutWhirlpoolReplacementBlock]
-	ld [hl], a
-	xor a
-	ldh [hBGMapMode], a
-	call LoadOverworldTilemapAndAttrmapPals
+	call SetUpCutWhirlpoolAnim
 	call UpdateSprites
 	call DelayFrame
 	ld a, [wCutWhirlpoolAnimationType]
@@ -296,54 +425,6 @@ CutDownTreeOrGrass:
 	call DelayFrame
 	call LoadStandardFont
 	ret
-
-; farcall from overworld/events.asm
-TryCutOW::
-	ld de, ENGINE_HIVEBADGE
-	call CheckEngineFlag
-	jr c, .cant_cut
-
-	ld a, BANK(Script_Cut)
-	ld hl, Script_Cut
-	call CallScript
-	scf
-	ret
-
-.cant_cut
-	ld a, BANK(CantCutScript)
-	ld hl, CantCutScript
-	call CallScript
-	scf
-	ret
-
-CantCutScript:
-	jumptext CanCutText
-
-; Does anything in the party have cut?
-HasCut:
-	ld d, CUT
-	call HasMove
-	ret
-
-AskCutText:
-	text_far _AskCutText
-	text_end
-
-CanCutText:
-	text_far _CanCutText
-	text_end
-
-WildUseCutText:
-	text_far _WildUseCutText
-	text_end
-
-UseCutText:
-	text_far _UseCutText
-	text_end
-
-CutNothingText:
-	text_far _CutNothingText
-	text_end
 
 CheckOverworldTileArrays:
 	; Input: c contains the tile you're facing
@@ -381,8 +462,247 @@ CheckOverworldTileArrays:
 	xor a
 	ret
 
+TryCutOW::
+	call CheckHiveBadge
+	jr c, .cant_cut
+	call HasCut
+	jr nc, .can_cut
+	call HasHM01
+	jr c, .cant_cut
+.can_cut
+	ld a, BANK(AskCutScript)
+	ld hl, AskCutScript
+	call CallScript
+	scf
+	ret
+
+.cant_cut
+	ld a, BANK(CantCutScript)
+	ld hl, CantCutScript
+	call CallScript
+	scf
+	ret
+
+AskCutScript:
+	;opentext
+	;writetext AskCutText
+	;yesorno
+	;iffalse .declined
+	callasm .CheckMap
+	iftrue Script_Cut
+.declined
+	;closetext
+	end
+
+.CheckMap:
+	xor a
+	ld [wScriptVar], a
+	call CheckMapForSomethingToCut
+	ret c
+	call SaveCutWhirlpoolFieldMoveData
+	ld a, TRUE
+	ld [wScriptVar], a
+	ret
+
+;AskCutText:
+;	text_far _AskCutText
+;	text_end
+
+CantCutScript:
+	jumptext CanCutText
+
+CanCutText:
+	text_far _CanCutText
+	text_end
+
+
+; WHIRLPOOL field move
+
+; Farcall from menu (engine/pokemon/mon_menu.asm)
+WhirlpoolFunction:
+	call FieldMoveJumptableReset
+.loop
+	ld hl, .Jumptable
+	call FieldMoveJumptable
+	jr nc, .loop
+	and JUMPTABLE_INDEX_MASK
+	ld [wFieldMoveSucceeded], a
+	ret
+
+.Jumptable:
+	dw .TryWhirlpool
+	dw .DoWhirlpool
+	dw .FailWhirlpool
+
+.TryWhirlpool:
+	call CheckGlacierBadge
+	jr c, .noglacierbadge
+	call TryWhirlpoolMenu
+	jr c, .failed
+	call SaveCutWhirlpoolFieldMoveData
+	ld a, $1
+	ret
+
+.failed
+	ld a, $2
+	ret
+
+.noglacierbadge
+	call PrintBadgeRequiredText
+	ld a, JUMPTABLE_EXIT
+	ret
+
+.DoWhirlpool:
+	ld hl, Script_WhirlpoolFromMenu
+	call QueueScript
+	ld a, JUMPTABLE_EXIT | $1
+	ret
+
+.FailWhirlpool:
+	call FieldMoveFailed
+	ld a, JUMPTABLE_EXIT
+	ret
+
+UseWhirlpoolText:
+	text_far _UseWhirlpoolText
+	text_end
+
+WildUseWhirlpoolText:
+	text_far _WildUseWhirlpoolText
+	text_end
+
+TryWhirlpoolMenu:
+	call GetFacingTileCoord
+	ld c, a
+	push de
+	call CheckWhirlpoolTile
+	pop de
+	jr c, .failed
+	call GetBlockLocation
+	ld c, [hl]
+	push hl
+	ld hl, WhirlpoolBlockPointers
+	call CheckOverworldTileArrays
+	pop hl
+	jr nc, .failed
+	xor a
+	ret
+
+.failed
+	scf
+	ret
+
+Script_WhirlpoolFromMenu:
+	refreshmap
+	special UpdateTimePals
+
+Script_UsedWhirlpool:
+	opentext
+	
+	callasm HasWhirlpool
+	ifequal 1, .not_in_party
+	
+	callasm SetCurPartyMonToFieldMoveSpecies
+	callasm GetPartyNickname
+	writetext UseWhirlpoolText
+	sjump .do_whirlpool
+.not_in_party
+	callasm .LoadWildWhirlpoolMon
+	callasm GetFieldMoveSpeciesName
+	writetext WildUseWhirlpoolText
+.do_whirlpool
+	scall Script_DisplayFieldMoveMonWithCry
+	callasm DisappearWhirlpool
+	closetext
+	end
+
+.LoadWildWhirlpoolMon:
+	ld a, AZUMARILL
+	ld [wFieldMoveSpecies], a
+	ret
+	
+DisappearWhirlpool:
+	call SetUpCutWhirlpoolAnim
+	ld a, [wCutWhirlpoolAnimationType]
+	ld e, a
+	farcall PlayWhirlpoolSound
+	call BufferScreen
+	call GetMovementPermissions
+	ret
+
+TryWhirlpoolOW::
+	call CheckGlacierBadge
+	jr c, .failed
+	call TryWhirlpoolMenu
+	jr c, .failed
+	call SaveCutWhirlpoolFieldMoveData
+	call HasWhirlpool
+	jr nc, .success
+	call HasHM06
+	jr c, .failed
+.success
+	ld a, BANK(Script_UsedWhirlpool)
+	ld hl, Script_UsedWhirlpool
+	call CallScript
+	scf
+	ret
+
+.failed
+	ld a, BANK(Script_MightyWhirlpool)
+	ld hl, Script_MightyWhirlpool
+	call CallScript
+	scf
+	ret
+
+Script_MightyWhirlpool:
+	jumptext .MayPassWhirlpoolText
+
+.MayPassWhirlpoolText:
+	text_far _MayPassWhirlpoolText
+	text_end
+
+;Script_AskWhirlpoolOW:
+	;opentext
+	;writetext AskWhirlpoolText
+	;yesorno
+	;iftrue Script_UsedWhirlpool
+	;closetext
+	;end
+
+;AskWhirlpoolText:
+;	text_far _AskWhirlpoolText
+;	text_end
+
+SaveCutWhirlpoolFieldMoveData:
+	; Save the field move data
+	ld a, l
+	ld [wCutWhirlpoolOverworldBlockAddr], a
+	ld a, h
+	ld [wCutWhirlpoolOverworldBlockAddr + 1], a
+	ld a, b
+	ld [wCutWhirlpoolReplacementBlock], a
+	ld a, c
+	ld [wCutWhirlpoolAnimationType], a
+	ret
+
+SetUpCutWhirlpoolAnim:
+	ld hl, wCutWhirlpoolOverworldBlockAddr
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	ld a, [wCutWhirlpoolReplacementBlock]
+	ld [hl], a
+	xor a
+	ldh [hBGMapMode], a
+	call LoadOverworldTilemapAndAttrmapPals
+	ret
+
 INCLUDE "data/collision/field_move_blocks.asm"
 
+
+; FLASH field move
+	
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 FlashFunction:
 	call .CheckUseFlash
 	and JUMPTABLE_INDEX_MASK
@@ -390,16 +710,10 @@ FlashFunction:
 	ret
 
 .CheckUseFlash:
-	ld de, ENGINE_ZEPHYRBADGE
-	farcall CheckBadge
+	call CheckZephyrBadge
 	jr c, .nozephyrbadge
-	push hl
-	farcall SpecialAerodactylChamber
-	pop hl
-	jr c, .useflash
-	ld a, [wTimeOfDayPalset]
-	cp DARKNESS_PALSET
-	jr nz, .notadarkcave
+	call CheckFlashLocation
+	jr c, .notadarkcave
 .useflash
 	call UseFlash
 	ld a, JUMPTABLE_EXIT | $1
@@ -411,21 +725,61 @@ FlashFunction:
 	ret
 
 .nozephyrbadge
+	call PrintBadgeRequiredText
 	ld a, JUMPTABLE_EXIT
 	ret
+
+CheckFlashLocation:
+; Can we use flash here? c = no
+	push hl
+	farcall SpecialAerodactylChamber
+	pop hl
+	jr c, .yes
+	
+	ld a, [wTimeOfDayPalset]
+	cp DARKNESS_PALSET
+	jr z, .yes
+	
+	scf
+	ret
+	
+.yes
+	xor a
+	ret
+	
 
 UseFlash:
 	ld hl, Script_UseFlash
 	jp QueueScript
 
 Script_UseFlash:
-	refreshmap
+; We've confirmed the player can use flash here, they have the badge, and the HM or a mon with the move.
+	opentext
+	
 	special UpdateTimePals
+	callasm HasFlash
+	ifequal 1, .not_in_party
+	
+	callasm SetCurPartyMonToFieldMoveSpecies
+	callasm GetPartyNickname
+	writetext UseFlashText
+	sjump .do_flash
+.not_in_party
+	callasm .LoadWildFlashMon
+	callasm GetFieldMoveSpeciesName
+	writetext WildUseFlashText
+.do_flash
+	scall Script_DisplayFieldMoveMonWithCry
 	writetext UseFlashTextScript
-	callasm BlindingFlash
 	closetext
+	callasm BlindingFlash
 	end
 
+.LoadWildFlashMon:
+	ld a, MAREEP
+	ld [wFieldMoveSpecies], a
+	ret
+	
 UseFlashTextScript:
 	text_far _BlindingFlashText
 	text_asm
@@ -439,6 +793,20 @@ UseFlashTextScript:
 .BlankText:
 	text_end
 
+; "Party Pokémon used FLASH!"
+UseFlashText:
+	text_far _UseFlashText
+	text_end
+
+; "A wild Pokémon helped out with FLASH!"
+WildUseFlashText:
+	text_far _WildUseFlashText
+	text_end
+
+
+; SURF field move
+
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 SurfFunction:
 	call FieldMoveJumptableReset
 .loop
@@ -456,28 +824,24 @@ SurfFunction:
 	dw .AlreadySurfing
 
 .TrySurf:
-	ld de, ENGINE_FOGBADGE
-	call CheckBadge
+; Check badge eligibility
+	call CheckFogBadge
 	jr c, .nofogbadge
-	ld hl, wBikeFlags
-	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
-	jr nz, .cannotsurf
-	ld a, [wPlayerState]
-	cp PLAYER_SURF
-	jr z, .alreadyfail
-	cp PLAYER_SURF_PIKA
-	jr z, .alreadyfail
+; Don't surf if already surfing.
+	call CheckAlreadySurfing
+	jr c, .alreadyfail
+; Ensure target tile is a surfable tile
 	call GetFacingTileCoord
-	call GetTilePermission
-	cp WATER_TILE
-	jr nz, .cannotsurf
-	call CheckDirection
+	ld [wFacingTileID], a
+	call CheckCanSurfHere
 	jr c, .cannotsurf
+; Ensure we're not about to surf onto an object like an NPC
 	farcall CheckFacingObject
 	jr c, .cannotsurf
 	ld a, $1
 	ret
 .nofogbadge
+	call PrintBadgeRequiredText
 	ld a, JUMPTABLE_EXIT
 	ret
 .alreadyfail
@@ -488,10 +852,6 @@ SurfFunction:
 	ret
 
 .DoSurf:
-	call GetSurfType
-	ld [wSurfingPlayerState], a
-	call SetCurPartyMonToFieldMoveSpecies
-	call GetPartyNickname
 	ld hl, SurfFromMenuScript
 	call QueueScript
 	ld a, JUMPTABLE_EXIT | $1
@@ -512,30 +872,26 @@ SurfFunction:
 SurfFromMenuScript:
 	special UpdateTimePals
 
-UsedSurfFromPartyScript:
+UsedSurfScript:
+; We've confirmed the player can use surf here, they have the badge, and the HM or a mon with the move.
 	opentext
+	
+	callasm HasSurf
+	ifequal 1, .not_in_party
+
+	callasm SetCurPartyMonToFieldMoveSpecies
+	callasm GetPartyNickname
 	writetext UsedSurfText ; "used SURF!"
-	readmem wFieldMoveSpecies
-	refreshmap
-	pokepic 0
-	cry 0 ; plays [wFieldMoveSpecies] cry
-	waitsfx
-	closepokepic
-	closetext
-	sjump DoSurf
-
-UsedSurfNotFromPartyScript:
-	opentext
-	writetext WildUsedSurfText ; "used SURF!"
-	refreshmap
-	pokepic AZUMARILL
-	cry AZUMARILL
-	waitsfx
-	closepokepic
+	sjump .do_surf
+.not_in_party
+	callasm .LoadWildSurfMon
+	callasm GetFieldMoveSpeciesName
+	writetext WildUsedSurfText
+.do_surf
+	scall Script_DisplayFieldMoveMonWithCry
 	closetext
 
-DoSurf:
-	callasm .stubbed_fn
+	callasm GetSurfType
 
 	readmem wSurfingPlayerState
 	writevar VAR_MOVEMENT
@@ -545,16 +901,17 @@ DoSurf:
 	special SurfStartStep
 	end
 
-.stubbed_fn
-	farcall StubbedTrainerRankings_Surf
+.LoadWildSurfMon:
+	ld a, AZUMARILL
+	ld [wFieldMoveSpecies], a
 	ret
-
-WildUsedSurfText:
-	text_far _WildUsedSurfText
-	text_end
 
 UsedSurfText:
 	text_far _UsedSurfText
+	text_end
+
+WildUsedSurfText:
+	text_far _WildUsedSurfText
 	text_end
 
 CantSurfText:
@@ -568,18 +925,50 @@ AlreadySurfingText:
 GetSurfType:
 ; Surfing on Pikachu uses an alternate sprite.
 ; This is done by using a separate movement type.
-
-	ld a, [wCurPartyMon]
-	ld e, a
-	ld d, 0
-	ld hl, wPartySpecies
-	add hl, de
-
-	ld a, [hl]
+	ld a, [wFieldMoveSpecies]
 	cp PIKACHU
 	ld a, PLAYER_SURF_PIKA
-	ret z
+	jr z, .done
 	ld a, PLAYER_SURF
+.done
+	ld [wSurfingPlayerState], a
+	ret
+
+CheckCanSurfHere:
+; carry = no
+; Make sure we're not in a location where the player can't dismount the bike
+	ld hl, wBikeFlags
+	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
+	jr nz, .no
+
+; Check tile permissions.
+	call CheckDirection
+	jr c, .no
+	
+; Must be facing water.
+	ld a, [wFacingTileID]
+	call GetTilePermission
+	cp WATER_TILE
+	jr nz, .no
+	
+;.yes
+	xor a
+	ret
+.no
+	scf
+	ret
+
+CheckAlreadySurfing:
+; carry = yes
+	ld a, [wPlayerState]
+	cp PLAYER_SURF_PIKA
+	jr z, .yes
+	cp PLAYER_SURF
+	jr z, .yes
+	xor a
+	ret
+.yes
+	scf
 	ret
 
 CheckDirection:
@@ -613,62 +1002,36 @@ CheckDirection:
 	db FACE_LEFT
 	db FACE_RIGHT
 
+; Farcall from overworld TryTileCollisionEvent (engine/overworld/events.asm)
 TrySurfOW::
-; Checking a tile in the overworld.
-; Return carry if fail is allowed.
-
-; Don't ask to surf if already fail.
-	ld a, [wPlayerState]
-	cp PLAYER_SURF_PIKA
-	jr z, .quit
-	cp PLAYER_SURF
-	jr z, .quit
-
-; Must be facing water.
-	ld a, [wFacingTileID]
-	call GetTilePermission
-	cp WATER_TILE
-	jr nz, .quit
-
-; Check tile permissions.
-	call CheckDirection
-	jr c, .quit
-
-	ld de, ENGINE_FOGBADGE
-	call CheckEngineFlag
-	jr c, .quit
-
-	ld hl, wBikeFlags
-	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
-	jr nz, .quit
-
-	ld d, SURF
-	call CheckPartyMove
-	jr c, .not_in_party
-
-	call GetSurfType
-	ld [wSurfingPlayerState], a
-	call SetCurPartyMonToFieldMoveSpecies
-	call GetPartyNickname
-
-	ld a, BANK(UsedSurfFromPartyScript)
-	ld hl, UsedSurfFromPartyScript
-	call CallScript
-	jr .done
+; Checks if player can use SURF here and now.
+; Return carry if surf is allowed.
 	
-.not_in_party
-	ld a, HM_SURF
-	ld [wCurItem], a
-	ld hl, wNumItems
-	call CheckItem
-	jr nc, .quit
+; Check badge eligibility
+	call CheckFogBadge
+	jr c, .quit
 
-	ld a, PLAYER_SURF
-	ld [wSurfingPlayerState], a
-	ld a, BANK(UsedSurfNotFromPartyScript)
-	ld hl, UsedSurfNotFromPartyScript
+; Don't ask to surf if already surfing.
+	call CheckAlreadySurfing
+	jr c, .quit
+
+; Ensure target tile is a surfable tile
+	call CheckCanSurfHere
+	jr c, .quit
+
+; Check player has HM
+	call HasHM03
+	jr nc, .yes
+	
+; If player does not have HM, check party for move
+	call HasSurf
+	jr c, .quit
+
+.yes
+	ld a, BANK(UsedSurfScript)
+	ld hl, UsedSurfScript
 	call CallScript
-.done
+	
 	scf
 	ret
 
@@ -676,18 +1039,22 @@ TrySurfOW::
 	xor a
 	ret
 
-; AskSurfScript:
-;	opentext
-;	writetext AskSurfText
-;	yesorno
-;	iftrue UsedSurfScript
-;	closetext
-;	end
+;AskSurfScript:
+	;opentext
+	;writetext AskSurfText
+	;yesorno
+	;iftrue UsedSurfScript
+	;closetext
+	;end
 
-; AskSurfText:
+;AskSurfText:
 ;	text_far _AskSurfText
 ;	text_end
 
+
+; FLY field move
+
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 FlyFunction:
 	call FieldMoveJumptableReset
 .loop
@@ -704,8 +1071,7 @@ FlyFunction:
 	dw .FailFly
 
 .TryFly:
-	ld de, ENGINE_STORMBADGE
-	call CheckBadge
+	call CheckStormBadge
 	jr c, .nostormbadge
 	call GetMapEnvironment
 	call CheckOutdoorMap
@@ -717,6 +1083,15 @@ FlyFunction:
 	ldh [hMapAnims], a
 	call LoadStandardMenuHeader
 	call ClearSprites
+	
+	call HasFly
+	jr c, .does_not_have_fly
+	call SetCurPartyMonToFieldMoveSpecies
+	jr .flymap
+.does_not_have_fly
+	call .LoadWildFlyMon
+
+.flymap
 	farcall _FlyMap
 	ld a, e
 	cp -1
@@ -730,6 +1105,7 @@ FlyFunction:
 	ret
 
 .nostormbadge
+	call PrintBadgeRequiredText
 	ld a, JUMPTABLE_EXIT | $2
 	ret
 
@@ -739,11 +1115,25 @@ FlyFunction:
 
 .illegal
 	call CloseWindow
+	ld a, [wUsingItemWithSelect]
+	and a
+	jr z, .done_tiles
+	call ExitFlyMap
+	xor a
+	ld [wUsingItemWithSelect], a
+.done_tiles
 	call WaitBGMap
 	ld a, JUMPTABLE_EXIT
 	ret
 
 .DoFly:
+	ld a, [wUsingItemWithSelect]
+	and a
+	jr z, .done_select
+	call ExitFlyMap
+	xor a
+	ld [wUsingItemWithSelect], a
+.done_select
 	ld hl, .FlyScript
 	call QueueScript
 	ld a, JUMPTABLE_EXIT | $1
@@ -755,7 +1145,22 @@ FlyFunction:
 	ret
 
 .FlyScript:
-	refreshmap
+; We've confirmed the player can use fly here, they have the badge, and the HM or a mon with the move.
+	opentext
+	
+	callasm HasFly
+	ifequal 1, .not_in_party
+	
+	callasm GetPartyNickname
+	writetext UsedFlyText ; "used SURF!"
+	sjump .do_fly
+.not_in_party
+	callasm GetFieldMoveSpeciesName
+	writetext WildUsedFlyText
+.do_fly
+	scall Script_DisplayFieldMoveMonWithCry
+	closetext
+	
 	callasm HideSprites
 	special UpdateTimePals
 	callasm FlyFromAnim
@@ -778,9 +1183,23 @@ FlyFunction:
 	farcall LoadOverworldFont
 	ret
 
+.LoadWildFlyMon:
+	ld a, PIDGEOT
+	ld [wFieldMoveSpecies], a
+	ret
+
+UsedFlyText:
+	text_far _UsedFlyText
+	text_end
+
+WildUsedFlyText:
+	text_far _WildUsedFlyText
+	text_end
+
+
 ; WATERFALL field move
 
-; farcall from engine/pokemon/mon_menu.asm
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 WaterfallFunction:
 	call .TryWaterfall
 	and JUMPTABLE_INDEX_MASK
@@ -788,15 +1207,18 @@ WaterfallFunction:
 	ret
 
 .TryWaterfall:
-	ld de, ENGINE_RISINGBADGE
-	farcall CheckBadge
-	ld a, JUMPTABLE_EXIT
-	ret c
+	call CheckRisingBadge
+	jr c, .norisingbadge
 	call CheckMapCanWaterfall
 	jr c, .failed
 	ld hl, Script_WaterfallFromMenu
 	call QueueScript
 	ld a, JUMPTABLE_EXIT | $1
+	ret
+
+.norisingbadge
+	call PrintBadgeRequiredText
+	ld a, JUMPTABLE_EXIT
 	ret
 
 .failed
@@ -819,49 +1241,39 @@ CheckMapCanWaterfall:
 	scf
 	ret
 
-; from WaterfallFunction (mon_menu.asm)
 Script_WaterfallFromMenu:
 	refreshmap
 	special UpdateTimePals
-	; Fallthrough
 
-; from TryWaterfallOW
 Script_UsedWaterfall:
-	callasm HasWaterfall
-	ifequal 1, .does_not_have
-	
 	opentext
+	
+	callasm HasWaterfall
+	ifequal 1, .not_in_party
+	
 	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext .UseWaterfallText
-	readmem wFieldMoveSpecies
-	refreshmap
-	pokepic 0
-	cry 0 ; plays [wFieldMoveSpecies] cry
-	waitsfx
-	closepokepic
 	sjump .do_waterfall
-.does_not_have
-	checkitem HM_WATERFALL
-	iffalse .cant_waterfall
-	opentext
+.not_in_party
+	callasm .LoadWildWaterfallMon
+	callasm GetFieldMoveSpeciesName
 	writetext .WildUseWaterfallText
-	refreshmap
-	pokepic AZUMARILL
-	cry AZUMARILL
-	waitsfx
-	closepokepic
 .do_waterfall
-	refreshmap
+	scall Script_DisplayFieldMoveMonWithCry
 	closetext
+	
 	playsound SFX_BUBBLEBEAM
 .loop
 	applymovement PLAYER, .WaterfallStep
 	callasm .CheckContinueWaterfall
 	iffalse .loop
 	end
-.cant_waterfall
-	sjump Script_CantDoWaterfall
+
+.LoadWildWaterfallMon
+	ld a, AZUMARILL
+	ld [wFieldMoveSpecies], a
+	ret
 
 .CheckContinueWaterfall:
 	xor a
@@ -887,14 +1299,15 @@ Script_UsedWaterfall:
 	text_end
 
 TryWaterfallOW::
-	; ld d, WATERFALL
-	; call CheckPartyMove
-	; jr c, .failed
-	ld de, ENGINE_RISINGBADGE
-	call CheckEngineFlag
+	call CheckRisingBadge
 	jr c, .failed
 	call CheckMapCanWaterfall
 	jr c, .failed
+	call HasWaterfall
+	jr nc, .success
+	call HasHM07
+	jr c, .failed
+.success
 	ld a, BANK(Script_UsedWaterfall)
 	ld hl, Script_UsedWaterfall
 	call CallScript
@@ -915,29 +1328,27 @@ Script_CantDoWaterfall:
 	text_far _HugeWaterfallText
 	text_end
 
-; Script_AskWaterfall:
-;	opentext
-;	writetext .AskWaterfallText
-;	yesorno
-;	iftrue Script_UsedWaterfall
-;	closetext
-;	end
+;Script_AskWaterfall:
+	;opentext
+	;writetext .AskWaterfallText
+	;yesorno
+	;iftrue Script_UsedWaterfall
+	;closetext
+	;end
 
-; .AskWaterfallText:
+;.AskWaterfallText:
 ;	text_far _AskWaterfallText
 ;	text_end
 
-; Does anything in the party have Waterfall?
-HasWaterfall:
-	ld d, WATERFALL
-	call HasMove
-	ret
+
+; DIG field move
 
 EscapeRopeFunction:
 	call FieldMoveJumptableReset
 	ld a, $1
 	jr EscapeRopeOrDig
 
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 DigFunction:
 	call FieldMoveJumptableReset
 	ld a, $2
@@ -958,27 +1369,11 @@ EscapeRopeOrDig:
 	dw .FailDig
 
 .CheckCanDig:
-	call GetMapEnvironment
-	cp CAVE
-	jr z, .incave
-	cp DUNGEON
-	jr z, .incave
-.fail
-	ld a, $2
-	ret
-
-.incave
-	ld hl, wDigWarpNumber
-	ld a, [hli]
-	and a
-	jr z, .fail
-	ld a, [hli]
-	and a
-	jr z, .fail
-	ld a, [hl]
-	and a
-	jr z, .fail
+	call CanDig
 	ld a, $1
+	jr nc, .done
+	ld a, $2
+.done
 	ret
 
 .DoDig:
@@ -986,6 +1381,8 @@ EscapeRopeOrDig:
 	ld de, wNextWarp
 	ld bc, 3
 	call CopyBytes
+	call HasDig
+	call SetCurPartyMonToFieldMoveSpecies
 	call GetPartyNickname
 	ld a, [wEscapeRopeOrDigType]
 	cp $2
@@ -1031,16 +1428,18 @@ EscapeRopeOrDig:
 	refreshmap
 	special UpdateTimePals
 	writetext .UseEscapeRopeText
+	waitbutton
+	closetext
 	sjump .UsedDigOrEscapeRopeScript
 
 .UsedDigScript:
 	refreshmap
 	special UpdateTimePals
 	writetext .UseDigText
+	scall Script_DisplayFieldMoveMonWithCry
+	closetext
 
 .UsedDigOrEscapeRopeScript:
-	waitbutton
-	closetext
 	playsound SFX_WARP_TO
 	applymovement PLAYER, .DigOut
 	farscall Script_AbortBugContest
@@ -1061,6 +1460,35 @@ EscapeRopeOrDig:
 	return_dig 32
 	step_end
 
+CanDig:
+; carry = no
+	call GetMapEnvironment
+	cp CAVE
+	jr z, .incave
+	cp DUNGEON
+	jr z, .incave
+.fail
+	scf
+	ret
+
+.incave
+	ld hl, wDigWarpNumber
+	ld a, [hli]
+	and a
+	jr z, .fail
+	ld a, [hli]
+	and a
+	jr z, .fail
+	ld a, [hl]
+	and a
+	jr z, .fail
+	xor a
+	ret
+
+
+; TELEPORT field move
+
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 TeleportFunction:
 	call FieldMoveJumptableReset
 .loop
@@ -1083,11 +1511,7 @@ TeleportFunction:
 	jr .nope
 
 .CheckIfSpawnPoint:
-	ld a, [wLastSpawnMapGroup]
-	ld d, a
-	ld a, [wLastSpawnMapNumber]
-	ld e, a
-	farcall IsSpawnPoint
+	call CheckSpawnPointValid
 	jr nc, .nope
 	ld a, c
 	ld [wDefaultSpawnpoint], a
@@ -1099,6 +1523,8 @@ TeleportFunction:
 	ret
 
 .DoTeleport:
+	call HasTeleport
+	call SetCurPartyMonToFieldMoveSpecies
 	call GetPartyNickname
 	ld hl, .TeleportScript
 	call QueueScript
@@ -1111,6 +1537,10 @@ TeleportFunction:
 	ld a, JUMPTABLE_EXIT
 	ret
 
+.UseTeleportText:
+	text_far _UseTeleportText
+	text_end
+
 .TeleportReturnText:
 	text_far _TeleportReturnText
 	text_end
@@ -1121,11 +1551,13 @@ TeleportFunction:
 
 .TeleportScript:
 	refreshmap
+	writetext .UseTeleportText
 	special UpdateTimePals
+	scall Script_DisplayFieldMoveMonWithCry
 	writetext .TeleportReturnText
-	pause 60
-	refreshmap
 	closetext
+	pause 20
+	refreshmap
 	playsound SFX_WARP_TO
 	applymovement PLAYER, .TeleportFrom
 	farscall Script_AbortBugContest
@@ -1144,9 +1576,17 @@ TeleportFunction:
 	teleport_to
 	step_end
 
+CheckSpawnPointValid:
+	ld a, [wLastSpawnMapGroup]
+	ld d, a
+	ld a, [wLastSpawnMapNumber]
+	ld e, a
+	farcall IsSpawnPoint
+	ret
+
 ; STRENGTH field move
 
-; farcall from engine/pokemon/mon_menu.asm
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 StrengthFunction:
 	call .TryStrength
 	and JUMPTABLE_INDEX_MASK
@@ -1154,12 +1594,22 @@ StrengthFunction:
 	ret
 
 .TryStrength:
-	ld de, ENGINE_PLAINBADGE
-	call CheckBadge
-	jr c, .Failed
+	call CheckPlainBadge
+	jr c, .noplainbadge
+	ld hl, wBikeFlags
+	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
+	jr nz, .already_using
 	jr .UseStrength
 
-.Failed:
+.noplainbadge:
+	call PrintBadgeRequiredText
+	ld a, JUMPTABLE_EXIT
+	ret
+
+.already_using
+	ld a, BANK(AlreadyUsedStrength)
+	ld hl, AlreadyUsedStrength
+	call CallScript
 	ld a, JUMPTABLE_EXIT
 	ret
 
@@ -1174,43 +1624,36 @@ SetStrengthFlag:
 	set BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
 	ret
 
-; From StrengthFunction, used from menu
 Script_StrengthFromMenu:
 	refreshmap
 	special UpdateTimePals
-	; Fallthrough
 
-; From AskStrengthScript
 Script_UsedStrength:
+	opentext
+	
 	callasm HasStrength
 	ifequal 1, .does_not_have
 	
-	opentext
 	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext .UseStrengthText
-	readmem wFieldMoveSpecies
-	refreshmap
-	pokepic 0
-	cry 0 ; plays [wFieldMoveSpecies] cry
-	waitsfx
-	closepokepic
 	sjump .do_strength
 .does_not_have
-	checkitem HM_STRENGTH
-	iffalse .cant_strength
-	opentext
+	callasm .LoadWildStrengthMon
+	callasm GetFieldMoveSpeciesName
 	writetext .WildUseStrengthText
-	refreshmap
-	pokepic MACHOP
-	cry MACHOP
-	waitsfx
-	closepokepic
 .do_strength
 	callasm SetStrengthFlag
+	
+	scall Script_DisplayFieldMoveMonWithCry
+	writetext .MoveBoulderText
+	closetext
 	end
-.cant_strength
-	sjump DontMeetRequirements
+
+.LoadWildStrengthMon
+	ld a, MACHOP
+	ld [wFieldMoveSpecies], a
+	ret
 
 .UseStrengthText:
 	text_far _UseStrengthText
@@ -1223,28 +1666,29 @@ Script_UsedStrength:
 .MoveBoulderText:
 	text_far _MoveBoulderText
 	text_end
-	
+
+; Script farsjump from StrengthBoulderScript (engine/events/std_scripts.asm)
 AskStrengthScript:
 	callasm TryStrengthOW
 	iffalse Script_UsedStrength
-	ifequal $1, DontMeetRequirements
+	ifequal $1, .DontMeetRequirements
 	sjump AlreadyUsedStrength
 
-DontMeetRequirements:
+.DontMeetRequirements:
 	jumptext BouldersMayMoveText
 
 AlreadyUsedStrength:
 	jumptext BouldersMoveText
 
-; .AskStrength:
-;	opentext
-;	writetext AskStrengthText
-;	yesorno
-;	iftrue Script_UsedStrength
-;	closetext
-;	end
+;.AskStrength:
+	;opentext
+	;writetext AskStrengthText
+	;yesorno
+	;iftrue Script_UsedStrength
+	;closetext
+	;end
 
-; AskStrengthText:
+;AskStrengthText:
 ;	text_far _AskStrengthText
 ;	text_end
 
@@ -1257,14 +1701,16 @@ BouldersMayMoveText:
 	text_end
 
 TryStrengthOW:
-	ld de, ENGINE_PLAINBADGE
-	call CheckEngineFlag
+	call CheckPlainBadge
 	jr c, .nope
 	
-	; ld d, STRENGTH
-	; call CheckPartyMove
-	; jr c, .nope
+	call HasStrength
+	jr nc, .checkbikeflags
+	
+	call HasHM04
+	jr c, .nope
 
+.checkbikeflags
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
 	jr z, .already_using
@@ -1283,215 +1729,17 @@ TryStrengthOW:
 .done
 	ld [wScriptVar], a
 	ret
-	
-; Does anything in the party have strength?
-HasStrength:
-	ld d, STRENGTH
-	call HasMove
-	ret
-
-
-;WHIRLPOOL field move
-
-; farcall from engine/pokemon/mon_menu.asm
-WhirlpoolFunction:
-	call FieldMoveJumptableReset
-.loop
-	ld hl, .Jumptable
-	call FieldMoveJumptable
-	jr nc, .loop
-	and JUMPTABLE_INDEX_MASK
-	ld [wFieldMoveSucceeded], a
-	ret
-
-.Jumptable:
-	dw .TryWhirlpool
-	dw .DoWhirlpool
-	dw .FailWhirlpool
-
-.TryWhirlpool:
-	ld de, ENGINE_GLACIERBADGE
-	call CheckBadge
-	jr c, .noglacierbadge
-	call TryWhirlpoolMenu
-	jr c, .failed
-	ld a, $1
-	ret
-
-.failed
-	ld a, $2
-	ret
-
-.noglacierbadge
-	ld a, JUMPTABLE_EXIT
-	ret
-
-.DoWhirlpool:
-	ld hl, Script_WhirlpoolFromMenu
-	call QueueScript
-	ld a, JUMPTABLE_EXIT | $1
-	ret
-
-.FailWhirlpool:
-	call FieldMoveFailed
-	ld a, JUMPTABLE_EXIT
-	ret
-
-UseWhirlpoolText:
-	text_far _UseWhirlpoolText
-	text_end
-
-WildUseWhirlpoolText:
-	text_far _WildUseWhirlpoolText
-	text_end
-
-TryWhirlpoolMenu:
-	call GetFacingTileCoord
-	ld c, a
-	push de
-	call CheckWhirlpoolTile
-	pop de
-	jr c, .failed
-	call GetBlockLocation
-	ld c, [hl]
-	push hl
-	ld hl, WhirlpoolBlockPointers
-	call CheckOverworldTileArrays
-	pop hl
-	jr nc, .failed
-	; Save the Whirlpool field move data
-	ld a, l
-	ld [wCutWhirlpoolOverworldBlockAddr], a
-	ld a, h
-	ld [wCutWhirlpoolOverworldBlockAddr + 1], a
-	ld a, b
-	ld [wCutWhirlpoolReplacementBlock], a
-	ld a, c
-	ld [wCutWhirlpoolAnimationType], a
-	xor a
-	ret
-
-.failed
-	scf
-	ret
-
-; From WhirlpoolFunction (from mon_menu)
-Script_WhirlpoolFromMenu:
-	refreshmap
-	special UpdateTimePals
-	; Fallthrough
-
-; From TryWhirlpoolOW
-Script_UsedWhirlpool:
-	callasm HasWhirlpool
-	ifequal 1, .does_not_have
-	
-	opentext
-	callasm SetCurPartyMonToFieldMoveSpecies
-	callasm GetPartyNickname
-	writetext UseWhirlpoolText
-	readmem wFieldMoveSpecies
-	refreshmap
-	pokepic 0
-	cry 0 ; plays [wFieldMoveSpecies] cry
-	waitsfx
-	closepokepic
-	sjump .do_whirlpool
-.does_not_have
-	checkitem HM_WHIRLPOOL
-	iffalse .cant_whirlpool
-	opentext
-	writetext WildUseWhirlpoolText
-	refreshmap
-	pokepic AZUMARILL
-	cry AZUMARILL
-	waitsfx
-	closepokepic
-.do_whirlpool
-	refreshmap
-	callasm DisappearWhirlpool
-	closetext
-	end
-.cant_whirlpool
-	sjump Script_MightyWhirlpool
-
-DisappearWhirlpool:
-	ld hl, wCutWhirlpoolOverworldBlockAddr
-	ld a, [hli]
-	ld h, [hl]
-	ld l, a
-	ld a, [wCutWhirlpoolReplacementBlock]
-	ld [hl], a
-	xor a
-	ldh [hBGMapMode], a
-	call LoadOverworldTilemapAndAttrmapPals
-	ld a, [wCutWhirlpoolAnimationType]
-	ld e, a
-	farcall PlayWhirlpoolSound
-	call BufferScreen
-	call GetMovementPermissions
-	ret
-
-; farcall from engine/overworld/events.asm
-TryWhirlpoolOW::
-	; ld d, WHIRLPOOL
-	; call CheckPartyMove
-	; jr c, .failed
-	ld de, ENGINE_GLACIERBADGE
-	call CheckEngineFlag
-	jr c, .failed
-	call TryWhirlpoolMenu
-	jr c, .failed
-	ld a, BANK(Script_UsedWhirlpool)
-	ld hl, Script_UsedWhirlpool
-	call CallScript
-	scf
-	ret
-
-.failed
-	ld a, BANK(Script_MightyWhirlpool)
-	ld hl, Script_MightyWhirlpool
-	call CallScript
-	scf
-	ret
-
-Script_MightyWhirlpool:
-	jumptext .MayPassWhirlpoolText
-
-.MayPassWhirlpoolText:
-	text_far _MayPassWhirlpoolText
-	text_end
-
-; Script_AskWhirlpoolOW:
-;	opentext
-;	writetext AskWhirlpoolText
-;	yesorno
-;	iftrue Script_UsedWhirlpool
-;	closetext
-;	end
-
-; AskWhirlpoolText:
-;	text_far _AskWhirlpoolText
-;	text_end
-
-; Does anything in the party have Whirlpool?
-HasWhirlpool:
-	ld d, WHIRLPOOL
-	call HasMove
-	ret
 
 
 ; HEADBUTT field move
 
-; PARTY MENU
-; Farcall from mon_menu.asm
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 HeadbuttFunction:
 	call TryHeadbuttFromMenu
 	and JUMPTABLE_INDEX_MASK
 	ld [wFieldMoveSucceeded], a
 	ret
 
-; Checks for a tree, runs HeadbuttFromMenuScript if true
 TryHeadbuttFromMenu:
 	call GetFacingTileCoord
 	call CheckHeadbuttTreeTile
@@ -1506,99 +1754,41 @@ TryHeadbuttFromMenu:
 	call FieldMoveFailed
 	ld a, JUMPTABLE_EXIT
 	ret
-	
 
-; OVERWORLD
-; farcall from overworld/events.asm
-TryHeadbuttOW::
-	; ld d, HEADBUTT
-	; call CheckPartyMove
-	; jr c, .no
-
-	ld a, BANK(AskHeadbuttScript)
-	ld hl, AskHeadbuttScript
-	call CallScript
-	scf
-	ret
-
-; Check if something in party knows headbutt, or if TM02 has been obtained. If not, do nothing.
-AskHeadbuttScript:
-	callasm HasHeadbutt
-	ifequal 1, .does_not_have
-	callasm PlayClickSFX
-	opentext
-	writetext AskHeadbuttText
-	yesorno
-	iftrue HeadbuttFromPartyScript
-	closetext
-	end
-	
-.does_not_have
-	checkevent EVENT_GOT_TM02_HEADBUTT
-	iffalse .end
-	callasm PlayClickSFX
-	opentext
-	writetext AskHeadbuttText
-	yesorno
-	iftrue HeadbuttNotFromPartyScript
-	closetext
-.end
-	end
-
-; "Want to HEADBUTT?"
-AskHeadbuttText:
-	text_far _AskHeadbuttText
-	text_end
-
-; "Party mon did a HEADBUTT!"
 UseHeadbuttText:
 	text_far _UseHeadbuttText
 	text_end
 
-; "Wild RATTATA did a HEADBUTT!"
+; "Wild pokemon did a HEADBUTT!"
 WildUseHeadbuttText:
 	text_far _WildUseHeadbuttText
 	text_end
 
-; "Nope. Nothing…"
 HeadbuttNothingText:
 	text_far _HeadbuttNothingText
 	text_end
 
-
-; SCRIPTS
-; Do stuff for exiting from menu first
 HeadbuttFromMenuScript:
 	refreshmap
 	special UpdateTimePals
-	;fallthrough
 
-; Headbutt used from party. Display text for party mon
-HeadbuttFromPartyScript:
+HeadbuttScript:
+	opentext
+	
+	callasm HasHeadbutt
+	ifequal 1, .not_in_party
+	
 	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext UseHeadbuttText
-	readmem wFieldMoveSpecies
-	refreshmap
-	pokepic 0
-	cry 0 ; plays [wFieldMoveSpecies] cry
-	waitsfx
-	closepokepic
-	sjump HeadbuttScript
-
-; Headbutt used by wild mon
-HeadbuttNotFromPartyScript:
+	sjump .do_headbutt
+.not_in_party
+	callasm .LoadWildHeadbuttMon
+	callasm GetFieldMoveSpeciesName
 	writetext WildUseHeadbuttText
-	refreshmap
-	pokepic RATTATA
-	cry RATTATA
-	waitsfx
-	closepokepic
-	; fallthrough
+.do_headbutt
+	scall Script_DisplayFieldMoveMonWithCry
 
-; Shake tree and trigger battle
-HeadbuttScript:
-	refreshmap
 	callasm ShakeHeadbuttTree
 
 	callasm TreeMonEncounter
@@ -1609,18 +1799,52 @@ HeadbuttScript:
 	reloadmapafterbattle
 	end
 
+.LoadWildHeadbuttMon
+	ld a, RATTATA
+	ld [wFieldMoveSpecies], a
+	ret
+
 .no_battle
 	writetext HeadbuttNothingText
 	waitbutton
 	closetext
 	end
 
-; Does anything in the party have headbutt?
-HasHeadbutt:
-	ld d, HEADBUTT
-	call HasMove
+; Farcall from overworld TryTileCollisionEvent (engine/overworld/events.asm)
+TryHeadbuttOW::
+	call GotTM02Headbutt
+	jr nc, .yes
+
+	call HasHeadbutt
+	jr c, .no
+
+.yes
+	ld a, BANK(HeadbuttScript)
+	ld hl, HeadbuttScript
+	call CallScript
+	scf
 	ret
 
+.no
+	xor a
+	ret
+
+;AskHeadbuttScript:
+;	opentext
+;	writetext AskHeadbuttText
+;	yesorno
+;	iftrue HeadbuttScript
+;	closetext
+;	end
+
+;AskHeadbuttText:
+;	text_far _AskHeadbuttText
+;	text_end
+
+
+; ROCK SMASH field move
+
+; Farcall from menu (engine/pokemon/mon_menu.asm)
 RockSmashFunction:
 	call TryRockSmashFromMenu
 	and JUMPTABLE_INDEX_MASK
@@ -1671,37 +1895,23 @@ RockSmashFromMenuScript:
 	special UpdateTimePals
 
 RockSmashScript:
-	; Check if move exists in party
+	opentext
+	
 	callasm HasRockSmash
-	ifequal 1, .does_not_have
-	; If move exists in party, get nickname of mon
+	ifequal 1, .not_in_party
+	
 	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
-	opentext
 	writetext UseRockSmashText
-	readmem wFieldMoveSpecies
-	refreshmap
-	pokepic 0
-	cry 0 ; plays [wFieldMoveSpecies] cry
-	waitsfx
-	closepokepic
-	closetext
-	sjump .do_smash
-	
-.does_not_have
-	; Check if the TM08 event has triggered yet
-	checkevent EVENT_GOT_TM08_ROCK_SMASH
-	iffalse .no
-	opentext
+	sjump .do_rock_smash
+.not_in_party
+	callasm .LoadWildRockSmashMon
+	callasm GetFieldMoveSpeciesName
 	writetext WildUseRockSmashText
-	refreshmap
-	pokepic MACHOP
-	cry MACHOP
-	waitsfx
-	closepokepic
+.do_rock_smash
+	scall Script_DisplayFieldMoveMonWithCry
 	closetext
-
-.do_smash
+	
 	special WaitSFX
 	playsound SFX_STRENGTH
 	earthquake 84
@@ -1725,8 +1935,10 @@ RockSmashScript:
 .no_item
 	end
 
-.no
-	jumptext MaySmashText
+.LoadWildRockSmashMon
+	ld a, MACHOP
+	ld [wFieldMoveSpecies], a
+	ret
 
 MovementData_RockSmash:
 	rock_smash 10
@@ -1740,31 +1952,35 @@ WildUseRockSmashText:
 	text_far _WildUseRockSmashText
 	text_end
 
-; AskRockSmashScript:
-;	callasm HasRockSmash
-;	ifequal 1, .no
+AskRockSmashScript:
+	callasm HasRockSmash
+	ifequal $0, .yes
 
-;	opentext
-;	writetext AskRockSmashText
-;	yesorno
-;	iftrue RockSmashScript
-;	closetext
-;	end
-; .no
-;	jumptext MaySmashText
+	callasm GotTM08RockSmash
+	ifequal $1, .no
+
+.yes
+	;opentext
+	;writetext AskRockSmashText
+	;yesorno
+	;iftrue RockSmashScript
+	sjump RockSmashScript
+	;closetext
+	end
+.no
+	jumptext MaySmashText
 
 MaySmashText:
 	text_far _MaySmashText
 	text_end
 
-AskRockSmashText:
-	text_far _AskRockSmashText
-	text_end
+;AskRockSmashText:
+;	text_far _AskRockSmashText
+;	text_end
 
-HasRockSmash:
-	ld d, ROCK_SMASH
-	call HasMove
-	ret
+
+
+; Fishing
 
 FishFunction:
 	ld a, e
@@ -1958,10 +2174,6 @@ RodNothingText:
 	text_far _RodNothingText
 	text_end
 
-UnusedNothingHereText: ; unreferenced
-	text_far _UnusedNothingHereText
-	text_end
-
 BikeFunction:
 	call .TryBike
 	and JUMPTABLE_INDEX_MASK
@@ -2063,10 +2275,6 @@ Script_GetOnBike_Register:
 	closetext
 	special UpdatePlayerSprite
 	end
-
-Overworld_DummyFunction: ; unreferenced
-	nop
-	ret
 
 Script_GetOffBike:
 	refreshmap

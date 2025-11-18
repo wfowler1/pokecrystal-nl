@@ -303,21 +303,37 @@ _CantUseItemText::
 	line "gebruiken." ; "here."
 	prompt
 
-_WildUseCutText::
-	text "Een wilde ZEISER" ; "A wild SCYTHER"
-	line "hielp je met" ; "helped out with"
-	cont "SNIJD!" ; "CUT!"
-	prompt
-
 _UseCutText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " deed" ; " used"
 	line "SNIJD!" ; "CUT!"
 	prompt
 
+_WildUseCutText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met SNIJD!" ; "out with CUT!"
+	prompt
+
 _CutNothingText::
 	text "Er is niks om" ; "There's nothing to"
 	line "SNIJD op te doen." ; "CUT here."
+	prompt
+
+_UseFlashText::
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
+	text " deed" ; " used"
+	line "FLITS!" ; "FLASH!"
+	prompt
+
+_WildUseFlashText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met FLITS!" ; "out with FLASH!"
 	prompt
 
 _BlindingFlashText::
@@ -326,10 +342,18 @@ _BlindingFlashText::
 	text_promptbutton
 	text_end
 
-_WildUsedSurfText::
-	text "Een wilde AZUMARIL" ; "A wild AZUMARILL"
-	line "hielp je met SURF!" ; "helped out with"
-	; cont "SURF!"
+_UsedFlyText::
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
+	text " deed" ; " used"
+	line "VLIEG!" ; "FLY!"
+	prompt
+
+_WildUsedFlyText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met VLIEG!" ; "out with FLY!"
 	prompt
 
 _UsedSurfText::
@@ -337,6 +361,14 @@ _UsedSurfText::
 	; text " used"
 	text_start
 	line "gebruikte SURF!" ; "SURF!"
+	prompt
+
+_WildUsedSurfText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met SURF!" ; "out with SURF!"
 	prompt
 
 _CantSurfText::
@@ -361,9 +393,11 @@ _UseWaterfallText::
 	prompt
 
 _WildUseWaterfallText::
-	text "Een wilde AZUMARIL" ; "A wild AZUMARILL"
-	line "hielp je met" ; "helped out with"
-	cont "WATERVAL!" ; "SURF!"
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met WATERVAL!" ; "with WATERFALL!"
 	prompt
 
 _HugeWaterfallText::
@@ -380,22 +414,29 @@ _UseDigText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
 	text " ge-" ; " used"
 	line "bruikte GRAVEN!" ; "DIG!"
-	done
+	prompt
 
 _UseEscapeRopeText::
 	text "<PLAYER> gebruikte" ; "<PLAYER> used an"
 	line "ONTSNAPSTOUW." ; "ESCAPE ROPE."
-	done
+	prompt
 
 _CantUseDigText::
 	text "Kun je hier niet" ; "Can't use that"
 	line "gebruiken." ; "here."
 	done
 
+_UseTeleportText::
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
+	text_start ; " used"
+	line "gebruikte" ; "TELEPORT!"
+	cont "TELEPORTEER!"
+	prompt
+
 _TeleportReturnText::
 	text "Terug naar vorig" ; "Return to the last"
 	line "#MONCENTRUM." ; "#MON CENTER."
-	done
+	prompt
 
 _CantUseTeleportText::
 	text "Kun je hier niet" ; "Can't use that"
@@ -411,9 +452,11 @@ _UseStrengthText::
 	prompt
 
 _WildUseStrengthText::
-	text "Een wilde BIKKEL" ; "A wild MACHOP"
-	line "hielp je met" ; "helped out with"
-	cont "KRACHT!" ; "STRENGTH!"
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met KRACHT!" ; "out with STRENGTH!"
 	prompt
 
 _MoveBoulderText::
@@ -447,9 +490,11 @@ _UseWhirlpoolText::
 	prompt
 
 _WildUseWhirlpoolText::
-	text "Een wilde AZUMARIL" ; "A wild AZUMARILL"
-	line "hielp je met" ; "helped out with"
-	cont "DRAAIKOLK!" ; "WHIRLPOOL!"
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met DRAAIKOLK!" ; "WHIRLPOOL!"
 	prompt
 
 _MayPassWhirlpoolText::
@@ -475,9 +520,11 @@ _UseHeadbuttText::
 	prompt
 
 _WildUseHeadbuttText::
-	text "Een wilde RATTATA" ; "A wild RATTATA"
-	line "hielp je met" ; "helped out with"
-	cont "KOPSTOOT!" ; "HEADBUTT!"
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met KOPSTOOT!" ; "out with HEADBUTT!"
 	prompt
 
 _HeadbuttNothingText::
@@ -499,9 +546,11 @@ _UseRockSmashText::
 	prompt
 
 _WildUseRockSmashText::
-	text "Een wilde BIKKEL" ; "A wild MACHOP"
-	line "hielp je met" ; "helped out with"
-	cont "STEENKNAL!" ; "ROCK SMASH!"
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met STEENKNAL!" ; "with ROCK SMASH!"
 	prompt
 
 _MaySmashText::
@@ -525,11 +574,6 @@ _RodBiteText::
 _RodNothingText::
 	text "Niet eens" ; "Not even a nibble!"
 	line "een hapje!"
-	prompt
-
-_UnusedNothingHereText::
-	text "Zo te zien is hier" ; "Looks like there's"
-	line "niks te vinden." ; "nothing here."
 	prompt
 
 _CantGetOffBikeText::
