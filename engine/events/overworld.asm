@@ -254,6 +254,10 @@ HasTeleport:
 	ld d, TELEPORT
 	jr HasMove
 
+HasSweetScent:
+	ld d, SWEET_SCENT
+	jr HasMove
+
 HasItem:
 ; Calls CheckItem to check if item a is in the player's bag
 ; Carry and wScriptVar are 0 if yes, otherwise no.
@@ -1978,6 +1982,77 @@ MaySmashText:
 ;	text_far _AskRockSmashText
 ;	text_end
 
+
+; SWEET SCENT field move
+
+; Farcall from menu (engine/pokemon/mon_menu.asm)
+SweetScentFromMenu:
+	ld hl, .SweetScent
+	call QueueScript
+	ld a, $1
+	ld [wFieldMoveSucceeded], a
+	ret
+
+.SweetScent:
+	refreshmap
+	special UpdateTimePals
+	callasm SetCurPartyMonToFieldMoveSpecies
+	callasm GetPartyNickname
+	writetext UseSweetScentText
+	scall Script_DisplayFieldMoveMonWithCry
+	callasm SweetScentEncounter
+	iffalse SweetScentNothing
+	checkflag ENGINE_BUG_CONTEST_TIMER
+	iftrue .BugCatchingContest
+	randomwildmon
+	startbattle
+	reloadmapafterbattle
+	end
+
+.BugCatchingContest:
+	farsjump BugCatchingContestBattleScript
+
+SweetScentNothing:
+	writetext SweetScentNothingText
+	waitbutton
+	closetext
+	end
+
+SweetScentEncounter:
+	farcall CanEncounterWildMon
+	jr nc, .no_battle
+	ld hl, wStatusFlags2
+	bit STATUSFLAGS2_BUG_CONTEST_TIMER_F, [hl]
+	jr nz, .in_bug_contest
+	farcall GetMapEncounterRate
+	ld a, b
+	and a
+	jr z, .no_battle
+	farcall ChooseWildEncounter
+	jr nz, .no_battle
+	jr .start_battle
+
+.in_bug_contest
+	farcall ChooseWildEncounter_BugContest
+
+.start_battle
+	ld a, $1
+	ld [wScriptVar], a
+	ret
+
+.no_battle
+	xor a
+	ld [wScriptVar], a
+	ld [wBattleType], a
+	ret
+
+UseSweetScentText:
+	text_far _UseSweetScentText
+	text_end
+
+SweetScentNothingText:
+	text_far _SweetScentNothingText
+	text_end
 
 
 ; Fishing

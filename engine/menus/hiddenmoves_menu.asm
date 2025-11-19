@@ -11,6 +11,7 @@
 	const HIDDENMOVEMENUITEM_ROCKSMASH ; 8
 	const HIDDENMOVEMENUITEM_TELEPORT ; 9
 	const HIDDENMOVEMENUITEM_DIG ; 10
+	const HIDDENMOVEMENUITEM_SWEET_SCENT ; 11
 
 HiddenMoveMenu::
 	call ClearWindowData
@@ -186,19 +187,20 @@ HiddenMoveMenu::
 	dw HiddenMoveMenu_RockSmash,  .RockSmashString,       .RockSmashString
 	dw HiddenMoveMenu_Teleport,   .TeleportString,        .TeleportString
 	dw HiddenMoveMenu_Dig,        .DigString,             .DigString
+	dw HiddenMoveMenu_SweetScent, .SweetScentString,      .SweetScentString
 
-.FieldMoveString: db "VERBORGEN@" ; "HIDDEN MOVES@"
-.CutString:       db "SNIJD@" ; "CUT@"
-.FlyString:       db "VLIEG@" ; "FLY@"
-.SurfString:      db "SURF@"
-.StrengthString:  db "KRACHT@" ; "STRENGTH@"
-.FlashString:     db "FLITS@" ; "FLASH@"
-.WhirlpoolString: db "DRAAIKOLK@" ; "WHIRLPOOL@"
-.WaterfallString: db "WATERVAL@" ; "WATERFALL@"
-.HeadbuttString:  db "KOPSTOOT@" ; "HEADBUTT@"
-.RockSmashString: db "STEENKNAL@" ; "ROCK SMASH@"
-.TeleportString:  db "TELEPORTEER@" ; "TELEPORT@"
-.DigString:       db "GRAVEN@" ; "DIG@"
+.CutString:        db "SNIJD@" ; "CUT@"
+.FlyString:        db "VLIEG@" ; "FLY@"
+.SurfString:       db "SURF@"
+.StrengthString:   db "KRACHT@" ; "STRENGTH@"
+.FlashString:      db "FLITS@" ; "FLASH@"
+.WhirlpoolString:  db "DRAAIKOLK@" ; "WHIRLPOOL@"
+.WaterfallString:  db "WATERVAL@" ; "WATERFALL@"
+.HeadbuttString:   db "KOPSTOOT@" ; "HEADBUTT@"
+.RockSmashString:  db "STEENKNAL@" ; "ROCK SMASH@"
+.TeleportString:   db "TELEPORTEER@" ; "TELEPORT@"
+.DigString:        db "GRAVEN@" ; "DIG@"
+.SweetScentString: db "ZOETE GEUR@" ; "SWEET SCENT@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]
@@ -240,7 +242,7 @@ endr
 	push bc
 	push de
 
-; Check in front of player for something interactable with a field move.
+; Interactions moves. Player interacts with something directly in front of them to activate.
 ; Cut, Surf, Whirlpool, Waterfall, Headbutt and Rock Smash are all mutually exclusive.
 ;.check_cut
 	call CheckHiveBadge
@@ -263,7 +265,7 @@ endr
 	call .AppendMenuList
 	push bc
 	push de
-	jp c, .check_fly
+	jp c, .check_fly_teleport_map_usability
 
 .check_surf
 	call CheckFogBadge
@@ -295,7 +297,7 @@ endr
 	call .AppendMenuList
 	push bc
 	push de
-	jr c, .check_fly
+	jr c, .check_fly_teleport_map_usability
 
 .check_whirlpool
 	call CheckGlacierBadge
@@ -318,7 +320,7 @@ endr
 	call .AppendMenuList
 	push bc
 	push de
-	jr c, .check_fly
+	jr c, .check_fly_teleport_map_usability
 
 .check_waterfall
 	call CheckRisingBadge
@@ -341,7 +343,7 @@ endr
 	call .AppendMenuList
 	push bc
 	push de
-	jr c, .check_fly
+	jr c, .check_fly_teleport_map_usability
 
 .check_headbutt
 	call GotTM02Headbutt
@@ -362,21 +364,21 @@ endr
 	call .AppendMenuList
 	push bc
 	push de
-	jr c, .check_fly
+	jr c, .check_fly_teleport_map_usability
 
 .check_rocksmash
 	call GotTM08RockSmash
 	jr nc, .check_rocksmash_map_usability
 
 	call HasRockSmash
-	jr c, .check_fly
+	jr c, .check_fly_teleport_map_usability
 
 .check_rocksmash_map_usability
 	call GetFacingObject
-	jr c, .check_fly
+	jr c, .check_fly_teleport_map_usability
 	ld a, d
 	cp SPRITEMOVEDATA_SMASHABLE_ROCK
-	jr nz, .check_fly
+	jr nz, .check_fly_teleport_map_usability
 
 .add_rocksmash
 	pop de
@@ -386,20 +388,23 @@ endr
 	push bc
 	push de
 
-.check_fly
-	call CheckStormBadge
-	jr c, .check_strength
-
-	call HasHM02
-    jr nc, .check_fly_map_usability
-
-	call HasFly
-	jr c, .check_strength
-
-.check_fly_map_usability
+; Teleportation moves. Fast travel player from one place to another.
+; Teleport and fly can only be used from outdoor environments.
+; Dig can only be used in caves or dungeons, exclusive from teleport and fly.
+.check_fly_teleport_map_usability
 	call GetMapEnvironment
 	call CheckOutdoorMap
-	jr nz, .check_strength
+	jr nz, .check_dig
+
+.check_fly
+	call CheckStormBadge
+	jr c, .check_teleport
+
+	call HasHM02
+    jr nc, .add_fly
+
+	call HasFly
+	jr c, .check_teleport
 
 .add_fly
 	pop de
@@ -409,6 +414,38 @@ endr
 	push bc
 	push de
 
+.check_teleport
+	call HasTeleport
+	jr c, .check_strength
+	
+	call CheckSpawnPointValid
+	jr nc, .check_strength
+
+.add_teleport
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_TELEPORT
+	call .AppendMenuList
+	push bc
+	push de
+	jr .check_strength
+
+.check_dig
+	call HasDig
+	jr c, .check_strength
+
+	call CanDig
+	jr c, .check_strength
+
+.add_dig
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_DIG
+	call .AppendMenuList
+	push bc
+	push de
+
+; Strength just sets a flag allowing the player to move stuff. Usable anywhere.
 .check_strength
 	call CheckPlainBadge
 	jr c, .check_flash
@@ -427,19 +464,20 @@ endr
 	push bc
 	push de
 
+; Flash just changes the loaded palette
 .check_flash
 	call CheckZephyrBadge
-	jr c, .check_teleport
+	jr c, .check_sweet_scent
 	
 	call HasHM05
     jr nc, .check_flash_map_usability
 	
 	call HasFlash
-	jr c, .check_teleport
+	jr c, .check_sweet_scent
 
 .check_flash_map_usability
 	call CheckFlashLocation
-	jr c, .check_teleport
+	jr c, .check_sweet_scent
 	
 .add_flash
 	pop de
@@ -449,36 +487,23 @@ endr
 	push bc
 	push de
 
-.check_teleport
-	call HasTeleport
-	jr c, .check_dig
-	
-	call GetMapEnvironment
-	call CheckOutdoorMap
-	jr nz, .check_dig
-	
-	call CheckSpawnPointValid
-	jr nc, .check_dig
-
-.add_teleport
-	pop de
-	pop bc
-	ld a, HIDDENMOVEMENUITEM_TELEPORT
-	call .AppendMenuList
-	push bc
-	push de
-
-.check_dig
-	call HasDig
+; Sweet scent triggers a wild battle if possible.
+.check_sweet_scent
+	call HasSweetScent
 	jr c, .finish_menu
 
-	call CanDig
-	jr c, .finish_menu
-
-.add_dig
+.check_swet_scent_map_usability
+	farcall CanEncounterWildMon
+	jr nc, .finish_menu
+	farcall GetMapEncounterRate
+	ld a, b
+	and a
+	jr z, .finish_menu
+	
+.add_sweet_scent
 	pop de
 	pop bc
-	ld a, HIDDENMOVEMENUITEM_DIG
+	ld a, HIDDENMOVEMENUITEM_SWEET_SCENT
 	call .AppendMenuList
 	jr .finish_menu_2
 
@@ -558,4 +583,8 @@ HiddenMoveMenu_Teleport:
 
 HiddenMoveMenu_Dig:
 	farcall MonMenu_Dig
+	ret
+
+HiddenMoveMenu_SweetScent:
+	farcall MonMenu_SweetScent
 	ret

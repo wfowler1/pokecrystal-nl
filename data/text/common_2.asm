@@ -656,7 +656,7 @@ _UseSweetScentText::
 	text " ge-" ; " used"
 	line "bruikte ZOETE" ; "SWEET SCENT!"
 	cont "GEUR!"
-	done
+	prompt
 
 _SweetScentNothingText::
 	text "Zo te zien is hier" ; "Looks like there's"
@@ -992,21 +992,21 @@ _PCMonHoldingMailText::
 	line "de POST." ; "MAIL."
 	prompt
 
-_PCNoSingleMonText::
-	text "Je hebt geen" ; "You don't have a"
-	line "enkele #MON!" ; "single #MON!"
-	prompt
+;_PCNoSingleMonText::
+;	text "Je hebt geen" ; "You don't have a"
+;	line "enkele #MON!" ; "single #MON!"
+;	prompt
 
-_PCCantDepositLastMonText::
-	text "Je laatste #MON" ; "You can't deposit"
-	line "is niet te" ; "your last #MON!"
-	cont "plaatsen!";
-	prompt
+;_PCCantDepositLastMonText::
+;	text "Je laatste #MON" ; "You can't deposit"
+;	line "is niet te" ; "your last #MON!"
+;	cont "plaatsen!";
+;	prompt
 
-_PCCantTakeText::
-	text "Je kunt niet meer" ; "You can't take any"
-	line "#MON nemen." ; "more #MON."
-	prompt
+;_PCCantTakeText::
+;	text "Je kunt niet meer" ; "You can't take any"
+;	line "#MON nemen." ; "more #MON."
+;	prompt
 
 _ContestCaughtMonText::
 	text "Ving @" ; "Caught @"
