@@ -877,6 +877,7 @@ SurfFromMenuScript:
 	special UpdateTimePals
 
 UsedSurfScript:
+; BUG: Surfing directly across a map connection does not load the new map (see docs/bugs_and_glitches.md)
 ; We've confirmed the player can use surf here, they have the badge, and the HM or a mon with the move.
 	opentext
 	
@@ -902,7 +903,9 @@ UsedSurfScript:
 
 	special UpdatePlayerSprite
 	special PlayMapMusic
+; step into the water (slow_step DIR, step_end)
 	special SurfStartStep
+	applymovement PLAYER, wMovementBuffer
 	end
 
 .LoadWildSurfMon:

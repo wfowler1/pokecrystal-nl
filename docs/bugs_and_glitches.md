@@ -64,22 +64,22 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) Credits sequence changes move selection menu behavior](#fixed-credits-sequence-changes-move-selection-menu-behavior)
 - [Overworld engine](#overworld-engine)
   - [(FIXED) `LoadMetatiles` wraps around past 128 blocks](#fixed-loadmetatiles-wraps-around-past-128-blocks)
-  - [(FIXED) Surfing directly across a map connection does not load the new map](#fixed-surfing-directly-across-a-map-connection-does-not-load-the-new-map)
+  - [(WONTFIX) Surfing directly across a map connection does not load the new map](#wontfix-surfing-directly-across-a-map-connection-does-not-load-the-new-map)
   - [(FIXED) Swimming NPCs aren't limited by their movement radius](#fixed-swimming-npcs-arent-limited-by-their-movement-radius)
   - [(FIXED) You can fish on top of NPCs](#fixed-you-can-fish-on-top-of-npcs)
   - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#fixed-pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
 - [Graphics](#graphics)
   - [(FIXED) In-battle “`…`” ellipsis is too high](#fixed-in-battle--ellipsis-is-too-high)
   - [(FIXED) Two tiles in the `port` tileset are drawn incorrectly](#fixed-two-tiles-in-the-port-tileset-are-drawn-incorrectly)
-  - [The Ruins of Alph research center's roof color at night looks wrong](#the-ruins-of-alph-research-centers-roof-color-at-night-looks-wrong)
-  - [Slowpoke Well's stones use the wrong corner tile](#slowpoke-wells-stones-use-the-wrong-corner-tile)
+  - [(WONTFIX) The Ruins of Alph research center's roof color at night looks wrong](#wontfix-the-ruins-of-alph-research-centers-roof-color-at-night-looks-wrong)
+  - [(WONTFIX) Slowpoke Well's stones use the wrong corner tile](#wontfix-slowpoke-wells-stones-use-the-wrong-corner-tile)
   - [(FIXED) A hatching Unown egg would not show the right letter](#fixed-a-hatching-unown-egg-would-not-show-the-right-letter)
   - [(FIXED) Beat Up may fail to raise Substitute](#fixed-beat-up-may-fail-to-raise-substitute)
   - [(FIXED) HP bar animation is slow for high HP](#fixed-hp-bar-animation-is-slow-for-high-hp)
   - [(FIXED) HP bar animation off-by-one error for low HP](#fixed-hp-bar-animation-off-by-one-error-for-low-hp)
   - [(FIXED) Using a Park Ball in non-Contest battles has a corrupt animation](#fixed-using-a-park-ball-in-non-contest-battles-has-a-corrupt-animation)
   - [(FIXED) Battle transitions fail to account for the enemy's level](#fixed-battle-transitions-fail-to-account-for-the-enemys-level)
-  - [Some trainer NPCs have inconsistent overworld sprites](#some-trainer-npcs-have-inconsistent-overworld-sprites)
+  - [(WONTFIX) Some trainer NPCs have inconsistent overworld sprites](#wontfix-some-trainer-npcs-have-inconsistent-overworld-sprites)
   - [(FIXED) Tackle is missing part of its hit animation](#fixed-tackle-is-missing-part-of-its-hit-animation)
 - [Audio](#audio)
   - [(FIXED) Slot machine payout sound effects cut each other off](#fixed-slot-machine-payout-sound-effects-cut-each-other-off)
@@ -1589,7 +1589,7 @@ This bug prevents you from using blocksets with more than 128 blocks.
 ```
 
 
-### (FIXED) Surfing directly across a map connection does not load the new map
+### (WONTFIX) Surfing directly across a map connection does not load the new map
 
 ([Video](https://www.youtube.com/watch?v=XFOWvMNG-zw))
 
@@ -1776,7 +1776,7 @@ This is a mistake with the left-hand warp carpet corner tiles in [gfx/tilesets/p
 ![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/port.png)
 
 
-### The Ruins of Alph research center's roof color at night looks wrong
+### (WONTFIX) The Ruins of Alph research center's roof color at night looks wrong
 
 The dungeons' map group mostly has indoor maps that don't need roof colors, but [maps/RuinsOfAlphOutside.blk](https://github.com/pret/pokecrystal/blob/master/maps/RuinsOfAlphOutside.blk) is an exception. It appears to have poorly-chosen roof colors: the morning/day colors are the same default gray as the unused group 0, and the night colors combine the light default gray and the dark red of Cinnabar's night roofs.
 
@@ -1795,7 +1795,7 @@ The dungeons' map group mostly has indoor maps that don't need roof colors, but 
 ![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/ruins_of_alph_outside_cinnabar.png)
 
 
-### Slowpoke Well's stones use the wrong corner tile
+### (WONTFIX) Slowpoke Well's stones use the wrong corner tile
 
 This is a mistake with block $5B in the `johto_modern` tileset. The bottom-left corners of the three stones around Slowpoke Well use tile $4B, but should use tile $47.
 
@@ -2079,7 +2079,7 @@ Finally, edit [engine/battle/read_trainer_party.asm](https://github.com/pret/pok
 ```
 
 
-### Some trainer NPCs have inconsistent overworld sprites
+### (WONTFIX) Some trainer NPCs have inconsistent overworld sprites
 
 *Some of these may have been intentional behavior; use your own judgment for whether to fix them.*
 
