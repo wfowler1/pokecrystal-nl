@@ -1058,13 +1058,13 @@ LevelBallMultiplier:
 
 ; BallDodgedText and BallMissedText were used in Gen 1.
 
-BallDodgedText: ; unreferenced
-	text_far _BallDodgedText
-	text_end
+;BallDodgedText: ; unreferenced
+;	text_far _BallDodgedText
+;	text_end
 
-BallMissedText: ; unreferenced
-	text_far _BallMissedText
-	text_end
+;BallMissedText: ; unreferenced
+;	text_far _BallMissedText
+;	text_end
 
 BallBrokeFreeText:
 	text_far _BallBrokeFreeText
@@ -1889,19 +1889,19 @@ LoadCurHPIntoBuffer3:
 	ld [wHPBuffer3], a
 	ret
 
-LoadHPIntoBuffer3: ; unreferenced
-	ld a, d
-	ld [wHPBuffer3 + 1], a
-	ld a, e
-	ld [wHPBuffer3], a
-	ret
+;LoadHPIntoBuffer3: ; unreferenced
+;	ld a, d
+;	ld [wHPBuffer3 + 1], a
+;	ld a, e
+;	ld [wHPBuffer3], a
+;	ret
 
-LoadHPFromBuffer3: ; unreferenced
-	ld a, [wHPBuffer3 + 1]
-	ld d, a
-	ld a, [wHPBuffer3]
-	ld e, a
-	ret
+;LoadHPFromBuffer3: ; unreferenced
+;	ld a, [wHPBuffer3 + 1]
+;	ld d, a
+;	ld a, [wHPBuffer3]
+;	ld e, a
+;	ret
 
 LoadCurHPIntoBuffer2:
 	ld a, MON_HP
@@ -2645,16 +2645,16 @@ WontHaveAnyEffectMessage:
 	ld hl, ItemWontHaveEffectText
 	jr CantUseItemMessage
 
-BelongsToSomeoneElseMessage: ; unreferenced
-	ld hl, ItemBelongsToSomeoneElseText
-	jr CantUseItemMessage
+;BelongsToSomeoneElseMessage: ; unreferenced
+;	ld hl, ItemBelongsToSomeoneElseText
+;	jr CantUseItemMessage
 
-CyclingIsntAllowedMessage: ; unreferenced
-	ld hl, NoCyclingText
-	jr CantUseItemMessage
+;CyclingIsntAllowedMessage: ; unreferenced
+;	ld hl, NoCyclingText
+;	jr CantUseItemMessage
 
-CantGetOnYourBikeMessage: ; unreferenced
-	ld hl, ItemCantGetOnText
+;CantGetOnYourBikeMessage: ; unreferenced
+;	ld hl, ItemCantGetOnText
 	; fallthrough
 
 CantUseItemMessage:
@@ -2675,9 +2675,9 @@ ItemOakWarningText:
 	text_far _ItemOakWarningText
 	text_end
 
-ItemBelongsToSomeoneElseText:
-	text_far _ItemBelongsToSomeoneElseText
-	text_end
+;ItemBelongsToSomeoneElseText:
+;	text_far _ItemBelongsToSomeoneElseText
+;	text_end
 
 ItemWontHaveEffectText:
 	text_far _ItemWontHaveEffectText
@@ -2691,13 +2691,13 @@ BallDontBeAThiefText:
 	text_far _BallDontBeAThiefText
 	text_end
 
-NoCyclingText:
-	text_far _NoCyclingText
-	text_end
+;NoCyclingText:
+;	text_far _NoCyclingText
+;	text_end
 
-ItemCantGetOnText:
-	text_far _ItemCantGetOnText
-	text_end
+;ItemCantGetOnText:
+;	text_far _ItemCantGetOnText
+;	text_end
 
 BallBoxFullText:
 	text_far _BallBoxFullText
@@ -2707,13 +2707,13 @@ ItemUsedText:
 	text_far _ItemUsedText
 	text_end
 
-ItemGotOnText: ; unreferenced
-	text_far _ItemGotOnText
-	text_end
+;ItemGotOnText: ; unreferenced
+;	text_far _ItemGotOnText
+;	text_end
 
-ItemGotOffText: ; unreferenced
-	text_far _ItemGotOffText
-	text_end
+;ItemGotOffText: ; unreferenced
+;	text_far _ItemGotOffText
+;	text_end
 
 ApplyPPUp:
 	ld a, MON_MOVES

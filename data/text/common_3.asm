@@ -1189,18 +1189,18 @@ _YouCantTakeAnEggText::
 	para ""
 	done
 
-_BallDodgedText::
-	text "Hij ontweek de" ; "It dodged the"
-	line "geworpen BAL!" ; "thrown BALL!"
+;_BallDodgedText::
+;	text "Hij ontweek de" ; "It dodged the"
+;	line "geworpen BAL!" ; "thrown BALL!"
 
-	para "Deze #MON" ; "This #MON"
-	line "is niet te vangen!" ; "can't be caught!"
-	prompt
+;	para "Deze #MON" ; "This #MON"
+;	line "is niet te vangen!" ; "can't be caught!"
+;	prompt
 
-_BallMissedText::
-	text "Je miste de" ; "You missed the"
-	line "#MON!"
-	prompt
+;_BallMissedText::
+;	text "Je miste de" ; "You missed the"
+;	line "#MON!"
+;	prompt
 
 _BallBrokeFreeText::
 	text "Oh nee! De #MON" ; "Oh no! The #MON"
@@ -1370,10 +1370,10 @@ _ItemOakWarningText::
 	cont "moment daarvoor!" ; "time to use that!"
 	prompt
 
-_ItemBelongsToSomeoneElseText::
-	text "Dat is van iemand" ; "That belongs to"
-	line "anders!" ; "someone else!"
-	prompt
+;_ItemBelongsToSomeoneElseText::
+;	text "Dat is van iemand" ; "That belongs to"
+;	line "anders!" ; "someone else!"
+;	prompt
 
 _ItemWontHaveEffectText::
 	text "Het zal geen" ; "It won't have any"
@@ -1389,17 +1389,17 @@ _BallDontBeAThiefText::
 	text "Niet stelen!" ; "Don't be a thief!"
 	prompt
 
-_NoCyclingText::
-	text "Fietsen is hier" ; "Cycling isn't"
-	line "niet toegestaan." ; "allowed here."
-	prompt
+;_NoCyclingText::
+;	text "Fietsen is hier" ; "Cycling isn't"
+;	line "niet toegestaan." ; "allowed here."
+;	prompt
 
-_ItemCantGetOnText::
-	text "Kunt niet rijden" ; "Can't get on your"
-	line "op @"
-	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "." ; " now."
-	prompt
+;_ItemCantGetOnText::
+;	text "Kunt niet rijden" ; "Can't get on your"
+;	line "op @"
+;	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
+;	text "." ; " now."
+;	prompt
 
 _BallBoxFullText::
 	text "De #MON BOX" ; "The #MON BOX"
@@ -1414,20 +1414,20 @@ _ItemUsedText::
 	text "."
 	done
 
-_ItemGotOnText::
-	text "<PLAYER> ging op de@" ; "<PLAYER> got on the@"
-	text_low
-	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "."
-	prompt
+;_ItemGotOnText::
+;	text "<PLAYER> ging op de@" ; "<PLAYER> got on the@"
+;	text_low
+;	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
+;	text "."
+;	prompt
 
-_ItemGotOffText::
-	text "<PLAYER> stapte van@" ; "<PLAYER> got off@"
-	text_low
-	text "de @" ; "the @"
-	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "."
-	prompt
+;_ItemGotOffText::
+;	text "<PLAYER> stapte van@" ; "<PLAYER> got off@"
+;	text_low
+;	text "de @" ; "the @"
+;	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
+;	text "."
+;	prompt
 
 _KnowsMoveText::
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
