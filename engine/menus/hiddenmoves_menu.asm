@@ -16,9 +16,6 @@
 HiddenMoveMenu::
 	call ClearWindowData
 
-	ld de, SFX_MENU
-	call PlaySFX
-
 	farcall ReanchorBGMap_NoOAMUpdate
 
 	ld hl, .MenuHeader
@@ -26,6 +23,11 @@ HiddenMoveMenu::
 .GotMenuData:
 	call LoadMenuHeader
 	call .SetUpMenuItems
+	ld a, [wBuffer1]
+	and a
+	jr z, .ExitNoFieldMoves
+	ld de, SFX_MENU
+	call PlaySFX
 	ld a, [wBattleMenuCursorPosition]
 	ld [wMenuCursorPosition], a
 	call DrawVariableLengthMenuBox
@@ -39,6 +41,11 @@ HiddenMoveMenu::
 	call UpdateSprites
 	call UpdateTimePals
 	call .SetUpMenuItems
+	ld a, [wBuffer1]
+	and a
+	jr z, .ExitNoFieldMoves
+	ld de, SFX_MENU
+	call PlaySFX
 	ld a, [wBattleMenuCursorPosition]
 	ld [wMenuCursorPosition], a
 
@@ -81,6 +88,11 @@ HiddenMoveMenu::
 	dw .ReturnEnd
 	dw .ReturnRedraw
 
+.ExitNoFieldMoves:
+	ld a, BANK(NoFieldMovesScript)
+	ld hl, NoFieldMovesScript
+	call CallScript
+
 .Exit:
 	ldh a, [hOAMUpdate]
 	push af
@@ -110,16 +122,10 @@ HiddenMoveMenu::
 	jr z, .b
 	cp PAD_A
 	jr z, .a
-	cp PAD_SELECT
-	jr z, .select
 	jr .loop
 .a
 	call PlayClickSFX
 	and a
-	ret
-.select
-	farcall UseRegisteredItem
-	scf
 	ret
 .b
 	scf
@@ -238,6 +244,7 @@ endr
 .SetUpMenuItems:
 	xor a
 	ld [wWhichIndexSet], a
+	ld [wBuffer1], a
 	call .FillMenuList
 	push bc
 	push de
@@ -512,13 +519,6 @@ endr
 	pop bc
 .finish_menu_2
 	ld a, c
-	cp 0
-	jr nc, .finalize
-	ld a, HIDDENMOVEMENUITEM_ROCKSMASH
-	call .AppendMenuList
-	ld a, c
-	
-.finalize
 	ld [wMenuItemsList], a
 	ret
 
@@ -537,6 +537,9 @@ endr
 	ld [de], a
 	inc de
 	inc c
+	ld a, [wBuffer1]
+	inc a
+	ld [wBuffer1], a
 	ret
 
 HiddenMoveMenu_Cut:
@@ -588,3 +591,11 @@ HiddenMoveMenu_Dig:
 HiddenMoveMenu_SweetScent:
 	farcall MonMenu_SweetScent
 	ret
+
+NoFieldMovesScript:
+	jumptext NoFieldMovesText
+
+NoFieldMovesText:
+	text_far _NoFieldMovesText
+	text_end
+	

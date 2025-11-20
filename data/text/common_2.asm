@@ -1637,3 +1637,8 @@ _OakText5::
 	para "Daarom bestudeer" ; "That's why I study"
 	line "ik #MON." ; "#MON every day."
 	prompt
+
+_NoFieldMovesText::
+	text "There are no moves"
+	line "to use right now!"
+	done
