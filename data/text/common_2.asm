@@ -370,7 +370,7 @@ _UseDigText::
 
 _UseEscapeRopeText::
 	text "<PLAYER> gebruikte" ; "<PLAYER> used an"
-	line "ONTSNAPSTOUW." ; "ESCAPE ROPE."
+	line "ONTSNAPTOUW." ; "ESCAPE ROPE."
 	done
 
 _CantUseDigText::

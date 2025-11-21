@@ -468,7 +468,7 @@ DisableDescription:
 	next "cente aanval uit.@" ; "most recent move.@"
 
 AcidDescription:
-	db   "Aanval die VERD." ; "An attack that may"
+	db   "Aanval die AFWEER" ; "An attack that may"
 	next "kan verlagen.@" ; "lower DEFENSE.@"
 
 EmberDescription:
@@ -716,7 +716,7 @@ BarrierDescription:
 	next "flink.@" ; "user's DEFENSE.@"
 
 LightScreenDescription:
-	db   "Hogere SPCR.VERD." ; "Ups SPCL.DEF with"
+	db   "Hogere SPCL.AFW" ; "Ups SPCL.DEF with"
 	next "met lichtmuur.@" ; "a wall of light.@"
 
 HazeDescription:
