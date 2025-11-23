@@ -4715,6 +4715,13 @@ PrintPlayerHUD:
 	ld hl, wPartyMon1DVs
 	call GetPartyLocation
 	ld de, wTempMonDVs
+	push hl
+	call BattleCheckPlayerShininess
+	jr nc, .not_shiny
+	hlcoord 18, 8
+	ld [hl], '♣'
+.not_shiny
+	pop hl
 	ld a, [hli]
 	ld [de], a
 	inc de
@@ -4824,6 +4831,14 @@ DrawEnemyHUD:
 .got_gender
 	hlcoord 9, 1
 	ld [hl], a
+	
+	push hl
+	call BattleCheckEnemyShininess
+	jr nc, .not_shiny
+	hlcoord 10, 1
+	ld [hl], '♣'
+.not_shiny
+	pop hl
 
 	hlcoord 2, 1
 	push af
