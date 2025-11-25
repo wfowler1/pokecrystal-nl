@@ -3867,23 +3867,23 @@ String_119d07:
 	db "   ▼@"
 
 Strings_L10ToL100:
-	db " N:10 @@" ; " L:10 @@"
-	db " N:20 @@" ; " L:20 @@"
-	db " N:30 @@" ; " L:30 @@"
-	db " N:40 @@" ; " L:40 @@"
-	db " N:50 @@" ; " L:50 @@"
-	db " N:60 @@" ; " L:60 @@"
-	db " N:70 @@" ; " L:70 @@"
-	db " N:80 @@" ; " L:80 @@"
-	db " N:90 @@" ; " L:90 @@"
-	db " N:100 @@" ; " L:100@@"
+	db " L:10 @@"
+	db " L:20 @@"
+	db " L:30 @@"
+	db " L:40 @@"
+	db " L:50 @@"
+	db " L:60 @@"
+	db " L:70 @@"
+	db " L:80 @@"
+	db " L:90 @@"
+	db " L:100@@"
 	db "SLUITEN@@" ; "CANCEL@@"
 
 Strings_Ll0ToL40:
-	db " N:10 @@" ; " L:10 @@"
-	db " N:20 @@" ; " L:20 @@"
-	db " N:30 @@" ; " L:30 @@"
-	db " N:40 @@" ; " L:40 @@"
+	db " L:10 @@"
+	db " L:20 @@"
+	db " L:30 @@"
+	db " L:40 @@"
 	db "SLUITEN@@" ; "CANCEL@@"
 
 BattleTowerCancelString: ; unreferenced
@@ -5462,7 +5462,7 @@ Text_PartyMonTopsThisLevel:
 	done
 
 Text_UberRestriction:
-	text_ram wcd49
+	text_ram wcd49 ; MaxLength MaxPokemonNameLength
 	text " may go"
 	line "only to BATTLE"
 
@@ -5505,10 +5505,10 @@ Text_WhichBattleRoom: ; unreferenced
 	done
 
 Text_ThisBattleRoomPleaseWait: ; unreferenced
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
 	text "'s ROOM"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxTrainerNameLength
 	text "?"
 	cont "Please wait…"
 	done
