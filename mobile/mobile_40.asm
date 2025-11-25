@@ -5701,7 +5701,7 @@ Function1027eb:
 	ret
 
 .Stats_Trade:
-	db "STATS    RUIL@" ; "STATS     TRADE@"
+	db "STATS     RUIL@" ; "STATS     TRADE@"
 
 Function102814:
 	ld a, [wMenuCursorY]

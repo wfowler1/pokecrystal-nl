@@ -75,7 +75,7 @@ TiffanyItsAwfulText:
 	para "Huh? <PLAY_G>?"
 
 	para "Oh, sorry! Ik had" ; "Oh, sorry! I was"
-	line "had haast, en ik…" ; "in a hurry, and I…"
+	line "haast, en ik…" ; "in a hurry, and I…"
 
 	para "Ik moet gaan!" ; "I have to go!"
 	line "Doei-doei!" ; "Bye-bye!"
