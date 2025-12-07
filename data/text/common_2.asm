@@ -416,6 +416,14 @@ _UseDigText::
 	line "bruikte GRAVEN!" ; "DIG!"
 	prompt
 
+_WildUseDigText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met GRAVEN!" ; "with DIG!"
+	prompt
+
 _UseEscapeRopeText::
 	text "<PLAYER> gebruikte" ; "<PLAYER> used an"
 	line "ONTSNAPTOUW." ; "ESCAPE ROPE."
@@ -656,6 +664,15 @@ _UseSweetScentText::
 	text " ge-" ; " used"
 	line "bruikte ZOETE" ; "SWEET SCENT!"
 	cont "GEUR!"
+	prompt
+
+_WildUseSweetScentText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met ZOETE GEUR!" ; "out with SWEET"
+	; cont "SCENT!"
 	prompt
 
 _SweetScentNothingText::
@@ -1639,6 +1656,7 @@ _OakText5::
 	prompt
 
 _NoFieldMovesText::
-	text "There are no moves"
-	line "to use right now!"
+	text "Er zijn nu geen" ; "There are no moves"
+	line "acties om te" ; "to use right now!"
+	cont "gebruiken!"
 	done

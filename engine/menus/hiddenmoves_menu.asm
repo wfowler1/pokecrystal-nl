@@ -255,7 +255,7 @@ endr
 	call CheckHiveBadge
 	jr c, .check_surf
 
-	call HasHM01
+	call GotHM01
     jr nc, .check_cut_map_usability
 
 	call HasCut
@@ -278,7 +278,7 @@ endr
 	call CheckFogBadge
 	jr c, .check_whirlpool
 	
-	call HasHM03
+	call GotHM03
     jr nc, .check_surf_map_usability
 	
 	call HasSurf
@@ -310,7 +310,7 @@ endr
 	call CheckGlacierBadge
 	jr c, .check_waterfall
 	
-	call HasHM06
+	call GotHM06
     jr nc, .check_whirlpool_map_usability
 	
 	call HasWhirlpool
@@ -333,7 +333,7 @@ endr
 	call CheckRisingBadge
 	jr c, .check_headbutt
 
-	call HasHM07
+	call GotHM07
     jr nc, .check_waterfall_map_usability
 
 	call HasWaterfall
@@ -407,7 +407,7 @@ endr
 	call CheckStormBadge
 	jr c, .check_teleport
 
-	call HasHM02
+	call GotHM02
     jr nc, .add_fly
 
 	call HasFly
@@ -438,10 +438,13 @@ endr
 	jr .check_strength
 
 .check_dig
-	call HasDig
-	jr c, .check_strength
-
 	call CanDig
+	jr c, .check_strength
+	
+	call HasDig
+	jr nc, .add_dig
+	
+	call GotTM28Dig
 	jr c, .check_strength
 
 .add_dig
@@ -457,7 +460,11 @@ endr
 	call CheckPlainBadge
 	jr c, .check_flash
 	
-	call HasHM04
+	ld hl, wBikeFlags
+	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
+	jr nz, .check_flash
+	
+	call GotHM04
     jr nc, .add_strength
 	
 	call HasStrength
@@ -476,7 +483,7 @@ endr
 	call CheckZephyrBadge
 	jr c, .check_sweet_scent
 	
-	call HasHM05
+	call GotHM05
     jr nc, .check_flash_map_usability
 	
 	call HasFlash
@@ -497,6 +504,9 @@ endr
 ; Sweet scent triggers a wild battle if possible.
 .check_sweet_scent
 	call HasSweetScent
+	jr nc, .check_swet_scent_map_usability
+	
+	call GotTM12SweetScent
 	jr c, .finish_menu
 
 .check_swet_scent_map_usability

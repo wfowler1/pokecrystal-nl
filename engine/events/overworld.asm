@@ -91,6 +91,42 @@ GotTM02Headbutt:
 	ld de, EVENT_GOT_TM02_HEADBUTT
 	jr CheckEventFlag
 
+GotTM12SweetScent:
+	ld de, EVENT_GOT_TM12_SWEET_SCENT
+	jr CheckEventFlag
+
+GotTM28Dig:
+	ld de, EVENT_NATIONAL_PARK_TM_DIG
+	jr CheckEventFlag
+	
+GotHM01:
+	ld de, EVENT_GOT_HM01_CUT
+	jr CheckEventFlag
+	
+GotHM02:
+	ld de, EVENT_GOT_HM02_FLY
+	jr CheckEventFlag
+	
+GotHM03:
+	ld de, EVENT_GOT_HM03_SURF
+	jr CheckEventFlag
+	
+GotHM04:
+	ld de, EVENT_GOT_HM04_STRENGTH
+	jr CheckEventFlag
+
+GotHM05:
+	ld de, EVENT_GOT_HM05_FLASH
+	jr CheckEventFlag
+	
+GotHM06:
+	ld de, EVENT_GOT_HM06_WHIRLPOOL
+	jr CheckEventFlag
+
+GotHM07:
+	ld de, EVENT_GOT_HM07_WATERFALL
+	jr CheckEventFlag
+
 CheckEngineFlag:
 ; Check engine flag de
 ; Carry and wScriptVar are 0 if set, otherwise no.
@@ -258,49 +294,21 @@ HasSweetScent:
 	ld d, SWEET_SCENT
 	jr HasMove
 
-HasItem:
+; HasItem:
 ; Calls CheckItem to check if item a is in the player's bag
 ; Carry and wScriptVar are 0 if yes, otherwise no.
-    ld [wCurItem], a
-    ld hl, wNumItems
-    call CheckItem
-    jr c, .yes
-	ld a, 1
-	scf
-	jr .done
-.yes
-	xor a
-.done
-	ld [wScriptVar], a
-	ret
-	
-HasHM01:
-	ld a, HM_CUT
-	jr HasItem
-	
-HasHM02:
-	ld a, HM_FLY
-	jr HasItem
-	
-HasHM03:
-	ld a, HM_SURF
-	jr HasItem
-	
-HasHM04:
-	ld a, HM_STRENGTH
-	jr HasItem
-
-HasHM05:
-	ld a, HM_FLASH
-	jr HasItem
-	
-HasHM06:
-	ld a, HM_WHIRLPOOL
-	jr HasItem
-
-HasHM07:
-	ld a, HM_WATERFALL
-	jr HasItem
+    ; ld [wCurItem], a
+    ; ld hl, wNumItems
+    ; call CheckItem
+    ; jr c, .yes
+	; ld a, 1
+	; scf
+	; jr .done
+; .yes
+	; xor a
+; .done
+	; ld [wScriptVar], a
+	; ret
 
 
 ; CUT field move
@@ -471,7 +479,7 @@ TryCutOW::
 	jr c, .cant_cut
 	call HasCut
 	jr nc, .can_cut
-	call HasHM01
+	call GotHM01
 	jr c, .cant_cut
 .can_cut
 	ld a, BANK(AskCutScript)
@@ -642,7 +650,7 @@ TryWhirlpoolOW::
 	call SaveCutWhirlpoolFieldMoveData
 	call HasWhirlpool
 	jr nc, .success
-	call HasHM06
+	call GotHM06
 	jr c, .failed
 .success
 	ld a, BANK(Script_UsedWhirlpool)
@@ -1027,7 +1035,7 @@ TrySurfOW::
 	jr c, .quit
 
 ; Check player has HM
-	call HasHM03
+	call GotHM03
 	jr nc, .yes
 	
 ; If player does not have HM, check party for move
@@ -1312,7 +1320,7 @@ TryWaterfallOW::
 	jr c, .failed
 	call HasWaterfall
 	jr nc, .success
-	call HasHM07
+	call GotHM07
 	jr c, .failed
 .success
 	ld a, BANK(Script_UsedWaterfall)
@@ -1423,6 +1431,10 @@ EscapeRopeOrDig:
 	text_far _UseDigText
 	text_end
 
+.WildUseDigText:
+	text_far _WildUseDigText
+	text_end
+
 .UseEscapeRopeText:
 	text_far _UseEscapeRopeText
 	text_end
@@ -1442,7 +1454,19 @@ EscapeRopeOrDig:
 .UsedDigScript:
 	refreshmap
 	special UpdateTimePals
+	
+	callasm HasDig
+	ifequal 1, .not_in_party
+	
+	callasm SetCurPartyMonToFieldMoveSpecies
+	callasm GetPartyNickname
 	writetext .UseDigText
+	sjump .do_dig
+.not_in_party
+	callasm .LoadWildDigMon
+	callasm GetFieldMoveSpeciesName
+	writetext .WildUseDigText
+.do_dig
 	scall Script_DisplayFieldMoveMonWithCry
 	closetext
 
@@ -1456,6 +1480,11 @@ EscapeRopeOrDig:
 	playsound SFX_WARP_FROM
 	applymovement PLAYER, .DigReturn
 	end
+
+.LoadWildDigMon
+	ld a, SANDSHREW
+	ld [wFieldMoveSpecies], a
+	ret
 
 .DigOut:
 	step_dig 32
@@ -1714,7 +1743,7 @@ TryStrengthOW:
 	call HasStrength
 	jr nc, .checkbikeflags
 	
-	call HasHM04
+	call GotHM04
 	jr c, .nope
 
 .checkbikeflags
@@ -1999,10 +2028,23 @@ SweetScentFromMenu:
 .SweetScent:
 	refreshmap
 	special UpdateTimePals
+	
+	opentext
+	
+	callasm HasSweetScent
+	ifequal 1, .not_in_party
+	
 	callasm SetCurPartyMonToFieldMoveSpecies
 	callasm GetPartyNickname
 	writetext UseSweetScentText
+	sjump .do_sweet_scent
+.not_in_party
+	callasm .LoadWildSweetScentMon
+	callasm GetFieldMoveSpeciesName
+	writetext WildUseSweetScentText
+.do_sweet_scent
 	scall Script_DisplayFieldMoveMonWithCry
+	closetext
 	callasm SweetScentEncounter
 	iffalse SweetScentNothing
 	checkflag ENGINE_BUG_CONTEST_TIMER
@@ -2011,6 +2053,11 @@ SweetScentFromMenu:
 	startbattle
 	reloadmapafterbattle
 	end
+
+.LoadWildSweetScentMon:
+	ld a, GLOOM
+	ld [wFieldMoveSpecies], a
+	ret
 
 .BugCatchingContest:
 	farsjump BugCatchingContestBattleScript
@@ -2051,6 +2098,10 @@ SweetScentEncounter:
 
 UseSweetScentText:
 	text_far _UseSweetScentText
+	text_end
+
+WildUseSweetScentText:
+	text_far _WildUseSweetScentText
 	text_end
 
 SweetScentNothingText:
