@@ -298,13 +298,6 @@ ChooseMoveToLearn:
 	ld [wMenuCursorPosition], a
 	ld [wMenuScrollPosition], a
 
-	; This creates a border around the move list.
-	; "hlcoord" configures the position.
-	; "lb bc" configures the size.
-	hlcoord 0,  -1
-	lb bc, 1, 18
-	call TextboxBorder
-
 	; This replaces the tile using the identifier
 	; of "$6e" with the fourteenth tile of the
 	; "FontBattleExtra gfx" font. Also, only 1
@@ -316,45 +309,55 @@ ChooseMoveToLearn:
 	lb bc, BANK(FontBattleExtra), 1
 	call Get2bppViaHDMA
 
+	call SetUpMoveScreenBG
+
+	; This creates a border around the move list.
+	; "hlcoord" configures the position.
+	; "lb bc" configures the size.
+	;hlcoord 0,  -1
+	;lb bc, 1, 18
+	;call TextboxBorder
+
 	; This is used for displaying the symbol that
 	; appears before the Pokémon's level. Without
 	; it, an incorrect symbol will appear.
-	farcall LoadStatsScreenPageTilesGFX
+	;farcall LoadStatsScreenPageTilesGFX
 	
 	; Display menu sprite
-	; farcall ClearSpriteAnims2
-	; ld a, [wCurPartyMon]
-	; ld e, a
-	; ld d, 0
-	; ld hl, wPartySpecies
-	; add hl, de
-	; ld a, [hl]
-	; ld [wTempIconSpecies], a
-	; ld e, MONICON_MOVES
-	; farcall LoadMenuMonIcon
-	; hlcoord 2, 0
-	; lb bc, 2, 3
-	; call ClearBox
+	;call ClearSprites
+	;farcall ClearSpriteAnims2
+	;ld a, [wCurPartyMon]
+	;ld e, a
+	;ld d, 0
+	;ld hl, wPartySpecies
+	;add hl, de
+	;ld a, [hl]
+	;ld [wTempIconSpecies], a
+	;ld e, MONICON_MOVES
+	;farcall LoadMenuMonIcon
+	;hlcoord 2, 0
+	;lb bc, 2, 3
+	;call ClearBox
 
 	; This displays the Pokémon's species
 	; name (not nickname) at the
 	; coordinates defined at "hlcoord".
 	; In this case that is the
 	; top left of the screen.
-	xor a
-	ld [wMonType], a
-	ld a, [wCurPartySpecies]
-	ld [wNamedObjectIndex], a
-	call GetPokemonName
-	hlcoord  4, 1
-	call PlaceString
+	;xor a
+	;ld [wMonType], a
+	;ld a, [wCurPartySpecies]
+	;ld [wNamedObjectIndex], a
+	;call GetPokemonName
+	;hlcoord 5, 1
+	;call PlaceString
 
 	; This displays the Pokémon's level
 	; right after the Pokémon's name.
-	push bc
-	farcall CopyMonToTempMon
-	pop hl
-	call PrintLevel
+	;push bc
+	;farcall CopyMonToTempMon
+	;pop hl
+	;call PrintLevel
 
 	; Creates the menu, sets the "B_BUTTON"
 	; to cancel and sets up each entry
@@ -473,19 +476,18 @@ ChooseMoveToLearn:
 ; This begins the printing of all of the move's details,
 ; including the border around the description.
 .print_move_details
-
 	; This creates a border around the description.
 	hlcoord 0, 11
 	lb bc, 5, 18
 	call TextboxBorder
 	; Add notch for move stats
 	hlcoord 0, 10
-	ld de, MoveTypeTopString
+	ld de, String_MoveType_Top
 	call PlaceString
 	hlcoord 0, 11
-	ld de, MoveTypeString
+	ld de, String_MoveType_Bottom
 	call PlaceString
-
+	
 	; This code will relative jump to the
 	; ".cancel_border_fix" local jump if
 	; the cancel entry is highlighted.
@@ -493,76 +495,80 @@ ChooseMoveToLearn:
 	cp -1
 	ret z
 	; jr z, .cancel_border_fix
+	
+	ld [wCurSpecies], a
+	jp PlaceMoveData
+
 ; This code falls through into the ".print_move_desc" local jump.
 
 ; This prints the moves description.
-.print_move_desc
-	push de
-	ld a, [wMenuSelection]
-	inc a
-	pop de
-	ret z
-	dec a
-	ld [wCurSpecies], a
-	hlcoord 1, 15
-	predef PrintMoveDescription
-	ld a, $1
-	ldh [hBGMapMode], a
+;.print_move_desc
+	;push de
+	;ld a, [wMenuSelection]
+	;inc a
+	;pop de
+	;ret z
+	;dec a
+	;ld [wCurSpecies], a
+	;hlcoord 1, 15
+	;predef PrintMoveDescription
+	;ld a, $1
+	;ldh [hBGMapMode], a
 ; This code falls through into the ".print_move_type" local jump.
 
 ; This prints the move's type.
-.print_move_type
-	ld a, [wCurSpecies]
-	ld b, a
-	hlcoord 10, 12
-	predef PrintMoveType
+;.print_move_type
+	;ld a, [wCurSpecies]
+	;ld b, a
+	;hlcoord 10, 12
+	;predef PrintMoveType
 ; This code falls through into the ".print_move_stat_strings" local jump.
 
 ; This prints the notch in the description text box border
 ; and the "TYPE/", "ATK/", "EFF/" and "ACC/" strings.
-.print_move_stat_strings
-	hlcoord 1, 11
-	ld de, MoveAttackString
-	call PlaceString
-	hlcoord 1, 12
-	ld de, MoveAccuracyString
-	call PlaceString
-	hlcoord 1, 13
-	ld de, MoveChanceString
-	call PlaceString
+;.print_move_stat_strings
+	;hlcoord 1, 11
+	;ld de, MoveAttackString
+	;call PlaceString
+	;hlcoord 1, 12
+	;ld de, MoveAccuracyString
+	;call PlaceString
+	;hlcoord 1, 13
+	;ld de, MoveChanceString
+	;call PlaceString
 ; This code falls through into the ".print_move_category" local jump.
 
 ; This prints the move's category ("PHYSICAL",
 ; "SPECIAL" or "STATUS").
-.print_move_category
-	ld a, [wCurSpecies]
-	ld b, a
-	farcall GetMoveCategoryName
-	hlcoord 11, 13
-	ld de, wStringBuffer1
-	call PlaceString
-	hlcoord 10, 13
-	ld [hl], '/'
-	inc hl
+;.print_move_category
+	;ld a, [wCurSpecies]
+	;ld b, a
+	;farcall GetMoveCategoryName
+	;hlcoord 11, 13
+	;ld de, wStringBuffer1
+	;call PlaceString
+	;hlcoord 10, 13
+	;ld [hl], '/'
+	;inc hl
 ; This code falls through into the ".print_move_chance" local jump.
 
 ; This prints the move's status effect chance number.
-.print_move_chance
-	ld a, [wMenuSelection]
-	ld bc, MOVE_LENGTH
-	ld hl, (Moves + MOVE_CHANCE) - MOVE_LENGTH
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	cp 1
-	jr c, .print_move_null_chance
-	Call ConvertPercentagesReminder
-	ld [wBuffer1], a
-	ld de, wBuffer1
-	lb bc, 1, 3
-	hlcoord  5, 13
-	call PrintNum
-	jr .print_move_accuracy
+;.print_move_chance
+	;ld a, [wMenuSelection]
+	;ld bc, MOVE_LENGTH
+	;ld hl, (Moves + MOVE_CHANCE) - MOVE_LENGTH
+	;call AddNTimes
+	;ld a, BANK(Moves)
+	;call GetFarByte
+	;cp 1
+	;jr c, .print_move_null_chance
+	;Call ConvertPercentages
+	;ld [wBuffer1], a
+	;ld de, wBuffer1
+	;lb bc, 1, 3
+	;hlcoord  5, 13
+	;call PrintNum
+	;jr .print_move_accuracy
 
 ; This prints "---" if the move has a status effect chance of "0".
 ; This means one of three things:
@@ -570,204 +576,136 @@ ChooseMoveToLearn:
 ; It is always successful in inflicting a status
 ; effect unless something blocks it.
 ; Causes a weather effect.
-.print_move_null_chance
-	ld de, MoveNullValueString
-	ld bc, 3
-	hlcoord  5, 13
-	call PlaceString
+;.print_move_null_chance
+	;ld de, MoveNullValueString
+	;ld bc, 3
+	;hlcoord  5, 13
+	;call PlaceString
 ; This code falls through into the ".print_move_accuracy" local jump.
 
 ; This prints the move's accuracy number.
-.print_move_accuracy
-	ld a, [wMenuSelection]
-	ld bc, MOVE_LENGTH
-	ld hl, (Moves + MOVE_ACC) - MOVE_LENGTH
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	Call ConvertPercentagesReminder
-	ld [wBuffer1], a
-	ld de, wBuffer1
-	lb bc, 1, 3
-	hlcoord 5, 12
-	call PrintNum
+;.print_move_accuracy
+	;ld a, [wMenuSelection]
+	;ld bc, MOVE_LENGTH
+	;ld hl, (Moves + MOVE_ACC) - MOVE_LENGTH
+	;call AddNTimes
+	;ld a, BANK(Moves)
+	;call GetFarByte
+	;Call ConvertPercentages
+	;ld [wBuffer1], a
+	;ld de, wBuffer1
+	;lb bc, 1, 3
+	;hlcoord 5, 12
+	;call PrintNum
 ; This code falls through into the ".print_move_attack" local jump.
 
 ; This prints the move's attack number.
-.print_move_attack
-	ld a, [wMenuSelection]
-	ld bc, MOVE_LENGTH
-	ld hl, (Moves + MOVE_POWER) - MOVE_LENGTH
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	cp 2
-	jr c, .print_move_null_attack
-	ld [wBuffer1], a
-	ld de, wBuffer1
-	lb bc, 1, 3
-	hlcoord 5, 11
-	jp PrintNum
+;.print_move_attack
+	;ld a, [wMenuSelection]
+	;ld bc, MOVE_LENGTH
+	;ld hl, (Moves + MOVE_POWER) - MOVE_LENGTH
+	;call AddNTimes
+	;ld a, BANK(Moves)
+	;call GetFarByte
+	;cp 2
+	;jr c, .print_move_null_attack
+	;ld [wBuffer1], a
+	;ld de, wBuffer1
+	;lb bc, 1, 3
+	;hlcoord 5, 11
+	;jp PrintNum
 
 ; This prints "---" if the move has an attack of "0".
 ; This means that the move does not initially cause
 ; damage or is a one hit knockout move.
-.print_move_null_attack
-	hlcoord 5, 11
-	ld de, MoveNullValueString
-	ld bc, 3
-	jp PlaceString
-
-; This converts values out of 256 into a value
-; out of 100. It achieves this by multiplying
-; the value by 100 and dividing it by 256.
-ConvertPercentagesReminder:
-
-	; Overwrite the "hl" register.
-	ld l, a
-	ld h, 0
-	push af
-
-	; Multiplies the value of the "hl" register by 3.
-	add hl, hl
-	add a, l
-	ld l, a
-	adc h
-	sub l
-	ld h, a
-
-	; Multiplies the value of the "hl" register
-	; by 8. The value of the "hl" register
-	; is now 24 times its original value.
-	add hl, hl
-	add hl, hl
-	add hl, hl
-
-	; Add the original value of the "hl" value to itself,
-	; making it 25 times its original value.
-	pop af
-	add a, l
-	ld l, a
-	adc h
-	sbc l
-	ld h, a
-
-	; Multiply the value of the "hl" register by
-	; 4, making it 100 times its original value.
-	add hl, hl
-	add hl, hl
-
-	; Round up value of the "h" register by adding 1.
-	; Return the result in the "a" register.
-	; The "l" register is ignored.
-	inc h
-	ld a, h
-	ret
+;.print_move_null_attack
+	;hlcoord 5, 11
+	;ld de, MoveNullValueString
+	;ld bc, 3
+	;jp PlaceString
 
 ; This is a notch that will be placed on
 ; the top left of the description box.
-MoveTypeTopString:
-	db "┌───────┐@"
+;MoveTypeTopString:
+	;db "┌───────┐@"
 
 ; This is the string that displays
 ; above the move's type.
-MoveTypeString:
-	db "│       └@"
+;MoveTypeString:
+	;db "│       └@"
 
 ; This is the string that precedes
 ; the move's attack number.
-MoveAttackString:
-	db "AAN/@" ; "ATK/@"
+;MoveAttackString:
+	;db "AAN/@" ; "ATK/@"
 
 ; This displays when a move has
 ; a metric with a null value.
-MoveNullValueString:
-	db "---@"
+;MoveNullValueString:
+	;db "---@"
 
 ; This is the string that precedes
 ; the move's accuracy number.
-MoveAccuracyString:
-	db "PRC/@" ; "ACC/@"
+;MoveAccuracyString:
+	;db "PRC/@" ; "ACC/@"
 
 ; This is the string that precedes the
 ; move's status effect chance number.
-MoveChanceString:
-	db "KNS/@" ; "EFF/@"
+;MoveChanceString:
+	;db "KNS/@" ; "EFF/@"
 	
 ; This is the text that displays when the player
 ; first talks to the move reminder.
 MoveReminderIntroText:
-	text "Hi, I'm the Move"
-	line "Reminder!"
-
-	para "For a HEART SCALE,"
-	line "I can make #MON"
-	cont "remember moves."
-
-	para "Are you"
-	line "interested?"
-	done
+	text_far _MoveReminderIntroText
+	text_end
 
 ; This is the text that displays just
 ; before the party menu opens.
 MoveReminderWhichMonText:
-	text "Which #MON?"
-	prompt
+	text_far _MoveReminderWhichMonText
+	text_end
 
 ; This is the text that displays after
 ; a Pokémon has been selected.
 MoveReminderWhichMoveText:
-	text "Which move should"
-	line "it remember, then?"
-	prompt
+	text_far _MoveReminderWhichMoveText
+	text_end
 
 ; This is the text that displays just before
 ; the player ends the dialogue
 ; with the move reminder.
 MoveReminderCancelText:
-	text "Come visit me"
-	line "again."
-	done
+	text_far _MoveReminderCancelText
+	text_end
 
 ; This is the text that displays if the player
 ; selects an egg in the party menu.
 MoveReminderEggText:
-	text "An EGG can't learn"
-	line "any moves!"
-	done
+	text_far _MoveReminderEggText
+	text_end
 
 ; This is the text that displays if the player
 ; selects an entry in the party menu that
 ; is neither a Pokémon or an egg.
 MoveReminderNotaMonText:
-	text "What is that!?"
-
-	para "I'm sorry, but I"
-	line "can only teach"
-	cont "moves to #MON!"
-	done
+	text_far _MoveReminderNotaMonText
+	text_end
 
 ; This is the text that displays if the player
 ; selects a Pokémon in the party menu that
 ; has no moves that can be learned.
 MoveReminderNoMovesText:
-	text "There are no moves"
-	line "for this #MON"
-	cont "to learn."
-	done
+	text_far _MoveReminderNoMovesText
+	text_end
 
 ; Prints if player has no heart scales
 MoveReminderNoHeartScaleText:
-	text "You don't have"
-	line "a HEART SCALE…"
-	cont "Come and see me"
-	cont "when you do!"
-	done
+	text_far _MoveReminderNoHeartScaleText
+	text_end
 
 ; This is the text that displays after a
 ; Pokémon successfully learns a move.
 MoveReminderMoveLearnedText:
-	text "Done! Your #MON"
-	line "remembered the"
-	cont "move."
-	done
+	text_far _MoveReminderMoveLearnedText
+	text_end

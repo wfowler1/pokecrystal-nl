@@ -1892,3 +1892,61 @@ _PrestoAllDoneText::
 	text "Presto! Klaar." ; "Presto! All done."
 	line "Kom nog eens, OK?" ; "Come again, OK?"
 	done
+
+_MoveReminderIntroText::
+	text "Hi, I'm the Move"
+	line "Reminder!"
+
+	para "For a HEART SCALE,"
+	line "I can make #MON"
+	cont "remember moves."
+
+	para "Are you"
+	line "interested?"
+	done
+
+_MoveReminderWhichMonText::
+	text "Which #MON?"
+	prompt
+
+_MoveReminderWhichMoveText::
+	text "Which move should"
+	line "it remember, then?"
+	prompt
+
+_MoveReminderCancelText::
+	text "Come visit me"
+	line "again."
+	done
+
+_MoveReminderEggText::
+	text "An EGG can't learn"
+	line "any moves!"
+	done
+
+_MoveReminderNotaMonText::
+	text "What is that!?"
+
+	para "I'm sorry, but I"
+	line "can only teach"
+	cont "moves to #MON!"
+	done
+
+_MoveReminderNoMovesText::
+	text "There are no moves"
+	line "for this #MON"
+	cont "to learn."
+	done
+
+_MoveReminderNoHeartScaleText::
+	text "You don't have"
+	line "a HEART SCALE…"
+	cont "Come and see me"
+	cont "when you do!"
+	done
+
+_MoveReminderMoveLearnedText::
+	text "Done! Your #MON"
+	line "remembered the"
+	cont "move."
+	done

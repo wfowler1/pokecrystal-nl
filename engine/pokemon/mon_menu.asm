@@ -593,17 +593,21 @@ OpenPartyStats:
 	ld a, 0
 	ret
 
-MonMenu_Cut:
-	farcall CutFunction
-	ld a, [wFieldMoveSucceeded]
-	cp $1
-	jr nz, .Fail
+SetFieldMoveSuccess:
 	ld b, $4
 	ld a, b
 	swap a
 	or $2
 	ld [wFieldMoveSucceeded], a
 	ld a, $2
+	ret
+
+MonMenu_Cut:
+	farcall CutFunction
+	ld a, [wFieldMoveSucceeded]
+	cp $1
+	jr nz, .Fail
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -619,12 +623,7 @@ MonMenu_Fly:
 	cp $0
 	jr z, .Error
 	farcall StubbedTrainerRankings_Fly
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -645,12 +644,7 @@ MonMenu_Flash:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -663,12 +657,7 @@ MonMenu_Strength:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -681,12 +670,7 @@ MonMenu_Whirlpool:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -699,12 +683,7 @@ MonMenu_Waterfall:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -717,12 +696,7 @@ MonMenu_Teleport:
 	ld a, [wFieldMoveSucceeded]
 	and a
 	jr z, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -735,12 +709,7 @@ MonMenu_Surf:
 	ld a, [wFieldMoveSucceeded]
 	and a
 	jr z, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -753,12 +722,7 @@ MonMenu_Dig:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -812,12 +776,7 @@ MonMenu_Headbutt:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -830,12 +789,7 @@ MonMenu_RockSmash:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -845,12 +799,7 @@ MonMenu_RockSmash:
 
 MonMenu_SweetScent:
 	farcall SweetScentFromMenu
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 ChooseMoveToDelete:
@@ -1155,6 +1104,7 @@ MoveScreen2DMenuData:
 String_MoveWhere:
 	db "Kies een aanval<NEXT>om te wisselen.@" ; "Select a move<NEXT>to swap places.@"
 
+; Places texbox boundaries on top and bottom, mon name, level and sprite
 SetUpMoveScreenBG:
 	call ClearBGPalettes
 	call ClearTilemap
@@ -1172,24 +1122,28 @@ SetUpMoveScreenBG:
 	ld [wTempIconSpecies], a
 	ld e, MONICON_MOVES
 	farcall LoadMenuMonIcon
+	; Top textbox (top part is offscreen)
 	hlcoord 0, -1
-	ld b, 1
-	ld c, 18
+	lb bc, 1, 18
 	call Textbox
+	; Bottom textbox, containing move description and stats. Notch at the top is added in PlaceMoveData
 	hlcoord 0, 11
-	ld b, 5
-	ld c, 18
+	lb bc, 5, 18
 	call Textbox
+	; Clear space for mon sprite
 	hlcoord 2, 0
 	lb bc, 2, 3
 	call ClearBox
+	; Get Mon info
 	xor a
 	ld [wMonType], a
 	ld a, [wCurPartySpecies]
 	ld [wNamedObjectIndex], a
+	; Place mon name
 	call GetPokemonName
 	hlcoord 5, 1
 	call PlaceString
+	; Place mon level
 	push bc
 	farcall CopyMonToTempMon
 	pop hl
@@ -1224,8 +1178,7 @@ SetUpMoveList:
 	inc a
 	ld [w2DMenuNumRows], a
 	hlcoord 0, 11
-	ld b, 5
-	ld c, 18
+	lb bc, 5, 18
 	jp Textbox
 
 PrepareToPlaceMoveData:
