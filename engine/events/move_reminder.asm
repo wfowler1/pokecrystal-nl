@@ -79,6 +79,8 @@ MoveReminder:
 ; Exits the menu and goes back to the
 ; map with a speech text box open.
 .exit_menu
+	xor a
+	ld [wMenuHasSpriteAnim], a
 	call ReturnToMapWithSpeechTextbox
 ; This code falls through into the ".cancel" local jump.
 
@@ -310,6 +312,7 @@ ChooseMoveToLearn:
 	call Get2bppViaHDMA
 
 	call SetUpMoveScreenBG
+	farcall PlaySpriteAnimationsAndDelayFrame
 
 	; This creates a border around the move list.
 	; "hlcoord" configures the position.
@@ -362,6 +365,8 @@ ChooseMoveToLearn:
 	; Creates the menu, sets the "B_BUTTON"
 	; to cancel and sets up each entry
 	; to behave like a tm/hm.
+	ld a, 1
+	ld [wMenuHasSpriteAnim], a
 	call ScrollingMenu
 	ld a, [wMenuJoypad]
 	cp B_BUTTON

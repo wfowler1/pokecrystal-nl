@@ -1658,7 +1658,7 @@ wMenuBorderBottomCoord:: db
 wMenuBorderRightCoord:: db
 wMenuDataPointer:: dw
 wMenuCursorPosition:: db
-	ds 1
+wMenuHasSpriteAnim:: db
 wMenuDataBank:: db
 	ds 6
 wMenuHeaderEnd::

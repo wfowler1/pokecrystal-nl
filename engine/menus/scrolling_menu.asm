@@ -53,6 +53,11 @@ ScrollingMenu_InitDisplay:
 
 ScrollingMenuJoyAction:
 .loop
+	ld a, [wMenuHasSpriteAnim]
+	and a
+	jr z, .skip_anims
+	farcall PlaySpriteAnimationsAndDelayFrame
+.skip_anims
 	call ScrollingMenuJoypad
 	ldh a, [hJoyLast]
 	and PAD_CTRL_PAD
