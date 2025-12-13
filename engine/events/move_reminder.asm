@@ -79,8 +79,6 @@ MoveReminder:
 ; Exits the menu and goes back to the
 ; map with a speech text box open.
 .exit_menu
-	xor a
-	ld [wMenuHasSpriteAnim], a
 	call ReturnToMapWithSpeechTextbox
 ; This code falls through into the ".cancel" local jump.
 
@@ -88,30 +86,40 @@ MoveReminder:
 ; This ends the dialogue.
 .cancel
 	ld hl, MoveReminderCancelText
+	ld a, 0
+	ld [wMenuHasSpriteAnim], a
 	jp PrintText
 
 ; Loads and prints the "MoveReminderEggText" text.
 ; This ends the dialogue.
 .is_an_egg
 	ld hl, MoveReminderEggText
+	ld a, 0
+	ld [wMenuHasSpriteAnim], a
 	jp PrintText
 
 ; Loads and prints the "MoveReminderNotaMonText" text.
 ; This ends the dialogue.
 .not_a_pokemon
 	ld hl, MoveReminderNotaMonText
+	ld a, 0
+	ld [wMenuHasSpriteAnim], a
 	jp PrintText
 
 ; Loads and prints the "MoveReminderNoMovesText" text.
 ; This ends the dialogue.
 .no_moves_to_learn
 	ld hl, MoveReminderNoMovesText
+	ld a, 0
+	ld [wMenuHasSpriteAnim], a
 	jp PrintText
 
 ; Prints "MoveReminderNoHeartScaleText"
 ; This ends the dialogue.
 .no_heart_scale
 	ld hl, MoveReminderNoHeartScaleText
+	ld a, 0
+	ld [wMenuHasSpriteAnim], a
 	jp PrintText
 
 ; Exits the menu and goes back to the map with a
@@ -130,6 +138,8 @@ MoveReminder:
 
 	call ReturnToMapWithSpeechTextbox
 	ld hl, MoveReminderMoveLearnedText
+	ld a, 0
+	ld [wMenuHasSpriteAnim], a
 	jp PrintText
 
 ; Checks for moves that can be learned and returns

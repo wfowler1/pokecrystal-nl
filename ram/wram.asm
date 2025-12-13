@@ -271,7 +271,8 @@ wGlobalAnimXOffset:: db
 
 wSpriteAnimDataEnd::
 
-	ds 11
+wMenuHasSpriteAnim:: db
+	ds 10
 
 ; mobile data
 wc3cc:: ds 1
@@ -1658,7 +1659,7 @@ wMenuBorderBottomCoord:: db
 wMenuBorderRightCoord:: db
 wMenuDataPointer:: dw
 wMenuCursorPosition:: db
-wMenuHasSpriteAnim:: db
+	ds 1
 wMenuDataBank:: db
 	ds 6
 wMenuHeaderEnd::
