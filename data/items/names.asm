@@ -1,5 +1,5 @@
 ItemNames::
-	list_start
+	list_start ITEM_NAME_LENGTH - 1
 	li "MEESTERBAL" ; "MASTER BALL"
 	li "HYPERBAL" ; "ULTRA BALL"
 	li "LICHTPOEDER" ; "BRIGHTPOWDER"

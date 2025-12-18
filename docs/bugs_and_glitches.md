@@ -58,6 +58,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) AI makes a false assumption about `CheckTypeMatchup`](#fixed-ai-makes-a-false-assumption-about-checktypematchup)
   - [(FIXED) AI use of Full Heal or Full Restore does not cure Nightmare status](#fixed-ai-use-of-full-heal-or-full-restore-does-not-cure-nightmare-status)
   - [(FIXED) AI use of Full Heal does not cure confusion status](#fixed-ai-use-of-full-heal-does-not-cure-confusion-status)
+  - [(FIXED) AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis](#fixed-ai-use-of-full-heal-or-full-restore-does-not-cure-attack-or-speed-drops-from-Burn-or-Paralysis)
   - [(FIXED) AI might use its base reward value as an item](#fixed-ai-might-use-its-base-reward-value-as-an-item)
   - [(FIXED) Wild Pokémon can always Teleport regardless of level difference](#fixed-wild-pok%C3%A9mon-can-always-teleport-regardless-of-level-difference)
   - [(FIXED) `RIVAL2` has lower DVs than `RIVAL1`](#fixed-rival2-has-lower-dvs-than-rival1)
@@ -1406,6 +1407,7 @@ AI_Cautious:
 ```diff
  AI_HealStatus:
 -; BUG: AI use of Full Heal or Full Restore does not cure Nightmare status (see docs/bugs_and_glitches.md)
+ ; BUG: AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis (see docs/bugs_and_glitches.md)
  	ld a, [wCurOTMon]
  	ld hl, wOTPartyMon1Status
  	ld bc, PARTYMON_STRUCT_LENGTH
@@ -1441,6 +1443,7 @@ AI_Cautious:
 ```diff
  AI_HealStatus:
  ; BUG: AI use of Full Heal or Full Restore does not cure Nightmare status (see docs/bugs_and_glitches.md)
+ ; BUG: AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis (see docs/bugs_and_glitches.md)
  	ld a, [wCurOTMon]
  	ld hl, wOTPartyMon1Status
  	ld bc, PARTYMON_STRUCT_LENGTH
@@ -1453,6 +1456,27 @@ AI_Cautious:
 +	res SUBSTATUS_CONFUSED, [hl]
  	ld hl, wEnemySubStatus5
  	res SUBSTATUS_TOXIC, [hl]
+ 	ret
+```
+
+### (FIXED) AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis
+
+**Fix:** Edit `AI_HealStatus` in [engine/battle/ai/items.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/items.asm):
+
+```diff
+ AI_HealStatus:
+ ; BUG: AI use of Full Heal or Full Restore does not cure Nightmare status (see docs/bugs_and_glitches.md)
+-; BUG: AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis (see docs/bugs_and_glitches.md)
+ 	ld a, [wCurOTMon]
+ 	ld hl, wOTPartyMon1Status
+ 	ld bc, PARTYMON_STRUCT_LENGTH
+ 	call AddNTimes
+ 	xor a
+ 	ld [hl], a
+ 	ld [wEnemyMonStatus], a
+ 	ld hl, wEnemySubStatus5
+ 	res SUBSTATUS_TOXIC, [hl]
++	farcall CalcEnemyStats
  	ret
 ```
 

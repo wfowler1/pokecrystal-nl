@@ -1,6 +1,6 @@
 StatNames: ; For printing during battles
 ; entries correspond to stat ids
-	list_start
+	list_start STRING_BUFFER_LENGTH - 1
 	li "AANVAL" ; "ATTACK"
 	li "AFWEER" ; "DEFENSE"
 	li "SNELHEID" ; "SPEED"
