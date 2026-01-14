@@ -203,14 +203,14 @@ CheckPokerusTick::
 	xor a
 	ret
 
-SetUnusedTwoDayTimer: ; unreferenced
-	ld a, 2
-	ld hl, wUnusedTwoDayTimer
-	ld [hl], a
-	call UpdateTime
-	ld hl, wUnusedTwoDayTimerStartDate
-	call CopyDayToHL
-	ret
+;SetUnusedTwoDayTimer: ; unreferenced
+;	ld a, 2
+;	ld hl, wUnusedTwoDayTimer
+;	ld [hl], a
+;	call UpdateTime
+;	ld hl, wUnusedTwoDayTimerStartDate
+;	call CopyDayToHL
+;	ret
 
 CheckUnusedTwoDayTimer:
 	ld hl, wUnusedTwoDayTimerStartDate
@@ -220,18 +220,18 @@ CheckUnusedTwoDayTimer:
 	call UpdateTimeRemaining
 	ret
 
-UnusedSetSwarmFlag: ; unreferenced
-	ld hl, wDailyFlags1
-	set DAILYFLAGS1_FISH_SWARM_F, [hl]
-	ret
+;UnusedSetSwarmFlag: ; unreferenced
+;	ld hl, wDailyFlags1
+;	set DAILYFLAGS1_FISH_SWARM_F, [hl]
+;	ret
 
-UnusedCheckSwarmFlag: ; unreferenced
-	and a
-	ld hl, wDailyFlags1
-	bit DAILYFLAGS1_FISH_SWARM_F, [hl]
-	ret nz
-	scf
-	ret
+;UnusedCheckSwarmFlag: ; unreferenced
+;	and a
+;	ld hl, wDailyFlags1
+;	bit DAILYFLAGS1_FISH_SWARM_F, [hl]
+;	ret nz
+;	scf
+;	ret
 
 RestartLuckyNumberCountdown:
 	call .GetDaysUntilNextFriday
@@ -308,17 +308,17 @@ UpdateTimeRemaining:
 	scf
 	ret
 
-GetSecondsSinceIfLessThan60: ; unreferenced
-	ld a, [wDaysSince]
-	and a
-	jr nz, GetTimeElapsed_ExceedsUnitLimit
-	ld a, [wHoursSince]
-	and a
-	jr nz, GetTimeElapsed_ExceedsUnitLimit
-	ld a, [wMinutesSince]
-	jr nz, GetTimeElapsed_ExceedsUnitLimit
-	ld a, [wSecondsSince]
-	ret
+;GetSecondsSinceIfLessThan60: ; unreferenced
+;	ld a, [wDaysSince]
+;	and a
+;	jr nz, GetTimeElapsed_ExceedsUnitLimit
+;	ld a, [wHoursSince]
+;	and a
+;	jr nz, GetTimeElapsed_ExceedsUnitLimit
+;	ld a, [wMinutesSince]
+;	jr nz, GetTimeElapsed_ExceedsUnitLimit
+;	ld a, [wSecondsSince]
+;	ret
 
 GetMinutesSinceIfLessThan60:
 	ld a, [wDaysSince]
@@ -330,12 +330,12 @@ GetMinutesSinceIfLessThan60:
 	ld a, [wMinutesSince]
 	ret
 
-GetHoursSinceIfLessThan24: ; unreferenced
-	ld a, [wDaysSince]
-	and a
-	jr nz, GetTimeElapsed_ExceedsUnitLimit
-	ld a, [wHoursSince]
-	ret
+;GetHoursSinceIfLessThan24: ; unreferenced
+;	ld a, [wDaysSince]
+;	and a
+;	jr nz, GetTimeElapsed_ExceedsUnitLimit
+;	ld a, [wHoursSince]
+;	ret
 
 GetDaysSince:
 	ld a, [wDaysSince]
@@ -349,10 +349,10 @@ CalcDaysSince:
 	xor a
 	jr _CalcDaysSince
 
-CalcHoursDaysSince: ; unreferenced
-	inc hl
-	xor a
-	jr _CalcHoursDaysSince
+;CalcHoursDaysSince: ; unreferenced
+;	inc hl
+;	xor a
+;	jr _CalcHoursDaysSince
 
 CalcMinsHoursDaysSince:
 	inc hl
@@ -423,12 +423,12 @@ CopyDayToHL:
 	ld [hl], a
 	ret
 
-CopyDayHourToHL: ; unreferenced
-	ld a, [wCurDay]
-	ld [hli], a
-	ldh a, [hHours]
-	ld [hli], a
-	ret
+;CopyDayHourToHL: ; unreferenced
+;	ld a, [wCurDay]
+;	ld [hli], a
+;	ldh a, [hHours]
+;	ld [hli], a
+;	ret
 
 CopyDayHourMinToHL:
 	ld a, [wCurDay]

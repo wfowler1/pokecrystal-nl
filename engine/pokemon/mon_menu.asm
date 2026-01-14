@@ -1257,6 +1257,15 @@ PlaceMoveData:
 ; Print move accuracy
 	ld a, [wCurSpecies]
 	ld bc, MOVE_LENGTH
+	;ld hl, (Moves + MOVE_ACC) - MOVE_LENGTH
+	ld hl, (Moves + MOVE_EFFECT) - MOVE_LENGTH
+	call AddNTimes
+	ld a, BANK(Moves)
+	call GetFarByte
+	cp EFFECT_MIRROR_MOVE
+	jr nc, .perfect_accuracy
+	ld a, [wMenuSelection]
+	ld bc, MOVE_LENGTH
 	ld hl, (Moves + MOVE_ACC) - MOVE_LENGTH
 	call AddNTimes
 	ld a, BANK(Moves)
@@ -1267,8 +1276,18 @@ PlaceMoveData:
 	lb bc, 1, 3
 	hlcoord 5, 12
 	call PrintNum
+	jr .print_move_type
+
+; This prints "---" if the move
+; has perfect accuracy.
+.perfect_accuracy
+	ld de, String_MoveNoPower
+	ld bc, 3
+	hlcoord 5, 12
+	call PlaceString
 
 ; Print move type
+.print_move_type
 	ld a, [wCurSpecies]
 	ld b, a
 	hlcoord 10, 12
