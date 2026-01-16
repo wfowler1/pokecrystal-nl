@@ -130,6 +130,12 @@ CeladonGameCornerCardFlipScript:
 	closetext
 	end
 
+CeladonGameCornerMemoryGameScript:
+	reanchormap
+	special UnusedMemoryGame
+	closetext
+	end
+
 CeladonGameCornerLighterScript:
 	jumptext CeladonGameCornerLighterText
 
@@ -360,12 +366,12 @@ CeladonGameCorner_MapEvents:
 	bg_event 13,  9, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
 	bg_event 13, 10, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
 	bg_event 13, 11, BGEVENT_LEFT, CeladonGameCornerLuckySlotMachineScript
-	bg_event 18,  6, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
-	bg_event 18,  7, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
+	bg_event 18,  6, BGEVENT_READ, CeladonGameCornerMemoryGameScript
+	bg_event 18,  7, BGEVENT_READ, CeladonGameCornerMemoryGameScript
 	bg_event 18,  8, BGEVENT_READ, CeladonGameCornerLighterScript
-	bg_event 18,  9, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
-	bg_event 18, 10, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
-	bg_event 18, 11, BGEVENT_RIGHT, CeladonGameCornerLuckySlotMachineScript
+	bg_event 18,  9, BGEVENT_READ, CeladonGameCornerMemoryGameScript
+	bg_event 18, 10, BGEVENT_READ, CeladonGameCornerMemoryGameScript
+	bg_event 18, 11, BGEVENT_RIGHT, CeladonGameCornerMemoryGameScript
 	bg_event 15,  0, BGEVENT_READ, CeladonGameCornerPoster1Script
 	bg_event  9,  0, BGEVENT_READ, CeladonGameCornerPoster2Script
 

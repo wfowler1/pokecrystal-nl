@@ -1446,12 +1446,33 @@ _TrainerRankingNoDataText:: ; unreferenced
 	done
 
 _MemoryGameYeahText::
-	text " , ja!" ; " , yeah!"
+	text " ! @"
+	text_decimal wStringBuffer2, 1, 2
+	text " Munt(en)!" ; " Coin(s)!"
+	done
+
+_MemoryGameNoPrizeText::
+	text " ! Geen belon-" ; " ! No prize…"
+	line "ing…"
+	done
+
+_MemoryGameExtraTurnText::
+	text " ! Een extra" ; " ! An extra"
+	line "poging!" ; "turn!"
+	done
+
+_MemoryGameGameOverCardText::
+	text " ! Spel" ; " ! Game"
+	line "voorbij…" ; "over…"
+	prompt
+
+_MemoryGameGameOverText::
+	text "Spel voorbij!" ; "Game over!"
 	done
 
 _MemoryGameDarnText::
 	text "Verdorie…" ; "Darn…"
-	done
+	prompt
 
 _StartMenuContestEndText::
 	text "Wil je de Wed-" ; "Would you like to"
