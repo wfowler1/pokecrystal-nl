@@ -1456,7 +1456,7 @@ _MemoryGameNoPrizeText::
 	line "ing…"
 	done
 
-_MemoryGameExtraTurnText::
+_MemoryGameExtraTryText::
 	text " ! Een extra" ; " ! An extra"
 	line "poging!" ; "turn!"
 	done
@@ -1472,7 +1472,7 @@ _MemoryGameGameOverText::
 
 _MemoryGameDarnText::
 	text "Verdorie…" ; "Darn…"
-	prompt
+	done
 
 _StartMenuContestEndText::
 	text "Wil je de Wed-" ; "Would you like to"
