@@ -242,7 +242,7 @@ endr
 	call MemoryGame_Card2Coord
 	call MemoryGame_PlaceCard
 	ld a, [wMemoryGameLastCardPicked]
-	cp $8
+	cp 8
 	jr z, .GameOverCard
 	ld a, 20
 	ld [wMemoryGameCounter], a
