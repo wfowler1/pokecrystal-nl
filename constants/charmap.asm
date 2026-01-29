@@ -90,8 +90,8 @@
 	charmap "☎",         $62 ; gfx/font/phone_icon.2bpp
 
 	; needed for MagikarpHouseSign (see engine/events/magikarp.asm)
-	charmap "′",         $6e ; gfx/font/feet_inches.png
-	charmap "″",         $6f ; gfx/font/feet_inches.png
+	;charmap "′",         $6e ; gfx/font/feet_inches.png
+	;charmap "″",         $6f ; gfx/font/feet_inches.png
 
 	; needed for StatsScreen_PlaceShinyIcon and PrintPartyMonPage1
 	charmap "⁂",         $3f ; gfx/stats/stats_tiles.png, tile 14

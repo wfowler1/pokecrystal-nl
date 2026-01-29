@@ -103,8 +103,8 @@ PokeComNursePokerusText:
 	text "Je #MON zijn" ; "Your #MON"
 	line "lijken te zijn" ; "appear to be"
 	
-	para "besmet met kleine"
-	line "levensvormen."
+	para "besmet met kleine" ; "infected by tiny"
+	line "levensvormen." ; "life forms."
 
 	para "Je #MON zijn" ; "Your #MON are"
 	line "gezond en lijken" ; "healthy and seem"

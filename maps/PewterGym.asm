@@ -84,7 +84,7 @@ BrockIntroText:
 	line "PEWTER-GYMLEIDER." ; "PEWTER GYM LEADER."
 
 	para "Ik ben een expert" ; "I'm an expert on"
-	line "in rotstype-" ; "rock-type #MON."
+	line "in steentype-" ; "rock-type #MON."
 	cont "#MON." ;
 
 	para "Mijn #MON zijn" ; "My #MON are im-"

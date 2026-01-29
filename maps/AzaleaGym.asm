@@ -188,7 +188,7 @@ BugsyText_HiveBadgeSpeech:
 	cont "KORFBADGE?" ; "BADGE?"
 
 	para "Hiermee zullen" ; "If you have it,"
-	line "MON tot L30" ; "#MON up to L30"
+	line "#MON tot L30" ; "#MON up to L30"
 
 	para "naar je luisteren," ; "will obey you,"
 	line "ook geruilde." ; "even traded ones."
