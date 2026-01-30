@@ -76,7 +76,7 @@
 
 	charmap "<LV>",      $6e
 
-	charmap "<DO>",      $70 ; hiragana small do, unused
+	charmap "<DO>",      $70 ; precomposed hiragana do (ど), unused
 	charmap "◀",         $71
 	charmap "『",         $72 ; Japanese opening quote, unused
 	charmap "<ID>",      $73
@@ -90,8 +90,8 @@
 	charmap "☎",         $62 ; gfx/font/phone_icon.2bpp
 
 	; needed for MagikarpHouseSign (see engine/events/magikarp.asm)
-	charmap "′",         $6e ; gfx/font/feet_inches.png
-	charmap "″",         $6f ; gfx/font/feet_inches.png
+	;charmap "′",         $6e ; gfx/font/feet_inches.png
+	;charmap "″",         $6f ; gfx/font/feet_inches.png
 
 	; needed for StatsScreen_PlaceShinyIcon and PrintPartyMonPage1
 	charmap "⁂",         $3f ; gfx/stats/stats_tiles.png, tile 14
@@ -249,6 +249,7 @@
 	charmap "<WATASHI>", $36 ; "わたし"
 	charmap "<KOKO_WA>", $37 ; "ここは"
 	charmap "<GA>",      $4a ; "が　"
+	charmap "<POKEMON>", $54 ; "ポケモン"
 
 ; Japanese kana, for those bits of text that were not translated to English
 

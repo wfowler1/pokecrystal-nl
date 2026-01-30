@@ -35,7 +35,7 @@ ElmPhoneCheckingTheEggText:
 	line "Het EI. Het lijkt" ; "EGG now. It does"
 
 	para "echt een #MON-" ; "appear to be a"
-	line "#EI te zijn." ; "#MON EGG."
+	line "EI te zijn." ; "#MON EGG."
 	done
 
 ElmPhoneAssistantText:

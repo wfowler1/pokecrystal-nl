@@ -957,7 +957,7 @@ SnoreDescription:
 
 CurseDescription:
 	db   "Werkt anders voor" ; "Works differently"
-	line "spook-types.@" ; "for ghost-types.@"
+	line "geest-types.@" ; "for ghost-types.@"
 
 FlailDescription:
 	db   "Sterker als LP van" ; "Stronger if the"

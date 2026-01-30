@@ -214,7 +214,7 @@ FakeDirectorTextBefore2:
 	cont "verstopt?" ; 
 
 	para "Ja hoor, ik zal" ; "Sure, I'll tell"
-	line "het zeggen. Al je" ; "you. But only if"
+	line "het zeggen. Als je" ; "you. But only if"
 	cont "mij verslaat!" ; "you can beat me!"
 	done
 

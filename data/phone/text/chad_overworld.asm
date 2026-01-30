@@ -52,5 +52,5 @@ ChadPhoneFullText:
 
 ChadRematchText:
 	text "Ik wachtte op je!" ; "I've been waiting!"
-	line "laten we vechten!" ; "Let's battle now!"
+	line "Laten we vechten!" ; "Let's battle now!"
 	done
