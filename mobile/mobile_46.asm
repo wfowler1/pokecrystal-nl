@@ -5415,102 +5415,102 @@ Function11a9f4: ; unreferenced
 	ret
 
 Text_SaveFileWillBeSent:
-	text "OPSLAANBESTAND wordt" ; "SAVE FILE will be"
+	text "OPSLAGBESTAND wordt" ; "SAVE FILE will be"
 	line "verzonden." ; "sent."
 	done
 
 Text_SentSaveFileReadingNews:
-	text "Sent SAVE FILE."
-	line "Reading NEWS…"
+	text "BESTAND verzonden." ; "Sent SAVE FILE."
+	line "NIEUWS lezen…" ; "Reading NEWS…"
 	done
 
 Text_ReadingNews:
-	text "Reading NEWS…"
+	text "NIEUWS lezen…" ; "Reading NEWS…"
 	done
 
 Text_ReceivedNews:
-	text "Received NEWS!"
+	text "NIEUWS ontvangen!" ; "Received NEWS!"
 	done
 
 Text_QuitReadingNews:
-	text "Quit reading NEWS?"
+	text "Stop NIEUWS lezen?" ; "Quit reading NEWS?"
 	done
 
 Text_CanceledSendingSaveFile: ; unreferenced
-	text "Canceled sending"
-	line "SAVE FILE."
+	text "BESTAND versturen" ; "Canceled sending"
+	line "geannuleerd." ; "SAVE FILE."
 	done
 
 Text_ReceivedOddEgg: ; unreferenced
-	text "ODD EGG"
-	line "was received!"
+	text "VREEMD EI" ; "ODD EGG"
+	line "ontvangen!" ; "was received!"
 	done
 
 Text_RegisteringRecord:
-	text "Registering your"
-	line "record…"
+	text "Record aan het" ; "Registering your"
+	line "registreren…" ; "record…"
 	done
 
 Text_BattleRoomVisitLimit: ; unreferenced
-	text "One visit per day"
-	line "per BATTLE ROOM!"
+	text "Eén bezoek per dag" ; "One visit per day"
+	line "per GEVECHTSKAMER!" ; "per BATTLE ROOM!"
 	done
 
 Text_PartyMonTopsThisLevel:
-	text "A party #MON"
-	line "tops this level."
+	text "Een #MON in je" ; "A party #MON"
+	line "team is te sterk." ; "tops this level."
 	done
 
 Text_UberRestriction:
 	text_ram wcd49 ; MaxLength MaxPokemonNameLength
-	text " may go"
-	line "only to BATTLE"
+	text " mag" ; " may go"
+	line "alleen naar" ; "only to BATTLE"
 
-	para "ROOMS that are"
-	line "Lv.70 or higher."
+	para "GEVECHTSKAMERS van" ; "ROOMS that are"
+	line "Lv.70 of hoger." ; "Lv.70 or higher."
 	done
 
 Text_CancelBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Annuleer uitdaging" ; "Cancel your BATTLE"
+	line "GEVECHTSKAMER?" ; "ROOM challenge?"
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Exit GYM LEADER"
-	line "HONOR ROLL?"
+	text "Sluit GYMLEIDER-" ; "Exit GYM LEADER"
+	line "ERELIJST?" ; "HONOR ROLL?"
 	done
 
 Text_LinkingWithCenter: ; unreferenced
-	text "Linking with the"
-	line "CENTER…"
+	text "Linken met het" ; "Linking with the"
+	line "CENTRUM…" ; "CENTER…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:
-	text "What level do you"
-	line "want to challenge?"
+	text "Welk niveau wil je" ; "What level do you"
+	line "uitdagen?" ; "want to challenge?"
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Check BATTLE ROOM"
-	line "list by max level?"
+	text "GEVECHTSKAMERS van" ; "Check BATTLE ROOM"
+	line "max. level zien?" ; "list by max level?"
 	done
 
 Text_EnterWhichBattleRoom: ; unreferenced
-	text "Enter which"
-	line "BATTLE ROOM?"
+	text "Betreed welke" ; "Enter which"
+	line "GEVECHTSKAMER?" ; "BATTLE ROOM?"
 	done
 
 Text_WhichBattleRoom: ; unreferenced
-	text "Which BATTLE ROOM?"
+	text "Welke KAMER?" ; "Which BATTLE ROOM?"
 	done
 
 Text_ThisBattleRoomPleaseWait: ; unreferenced
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text "'s ROOM"
+	text "'s KAMER" ; "'s ROOM"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxTrainerNameLength
 	text "?"
-	cont "Please wait…"
+	cont "Even geduld…" ; "Please wait…"
 	done
 
 Function11ac3e:
