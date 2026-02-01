@@ -54,6 +54,6 @@ RalphGenericText:
 	line "je #MON? Je" ; "good care of your"
 
 	para "moet goed zorgen" ; "#MON? You have"
-	line "voor al je!" ; "to be good to your"
+	line "voor al je" ; "to be good to your"
 	cont "partners!"
 	done
