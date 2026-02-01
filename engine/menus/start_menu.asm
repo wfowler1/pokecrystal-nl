@@ -108,11 +108,15 @@ StartMenu::
 	jr z, .b
 	cp PAD_A
 	jr z, .a
+	cp PAD_SELECT
+	jr z, .select_button
 	jr .loop
 .a
 	call PlayClickSFX
 	and a
 	ret
+.select_button
+	farcall HiddenMoveMenu
 .b
 	scf
 	ret
@@ -168,7 +172,7 @@ StartMenu::
 	db 1 ; default selection
 
 .MenuData:
-	db STATICMENU_CURSOR | STATICMENU_WRAP | STATICMENU_ENABLE_START ; flags
+	db STATICMENU_CURSOR | STATICMENU_WRAP | STATICMENU_ENABLE_START | STATICMENU_ENABLE_SELECT ; flags
 	dn 0, 0 ; rows, columns
 	dw wMenuItemsList
 	dw .MenuString
