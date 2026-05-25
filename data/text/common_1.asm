@@ -669,7 +669,7 @@ _OPT_ExcitingText::
 
 _OPT_GroovyText::
 	text_start
-	line "groovy!"
+	line "gaaf!" ; "groovy!"
 	done
 
 _OPT_InspiringText::

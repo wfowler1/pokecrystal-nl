@@ -89,9 +89,10 @@ HiddenMoveMenu::
 	dw .ReturnRedraw
 
 .ExitNoFieldMoves:
-	ld a, BANK(NoFieldMovesScript)
-	ld hl, NoFieldMovesScript
-	call CallScript
+	call OpenText
+	ld hl, .NoFieldMovesText
+	call PrintText
+	jp CloseText
 
 .Exit:
 	ldh a, [hOAMUpdate]
@@ -107,6 +108,10 @@ HiddenMoveMenu::
 	call CloseText
 	call UpdateTimePals
 	ret
+
+.NoFieldMovesText:
+	text_far _NoFieldMovesText
+	text_end
 
 .GetInput:
 ; Return carry on exit, and no-carry on selection.
@@ -601,11 +606,4 @@ HiddenMoveMenu_Dig:
 HiddenMoveMenu_SweetScent:
 	farcall MonMenu_SweetScent
 	ret
-
-NoFieldMovesScript:
-	jumptext NoFieldMovesText
-
-NoFieldMovesText:
-	text_far _NoFieldMovesText
-	text_end
 	

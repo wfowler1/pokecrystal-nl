@@ -80,7 +80,7 @@ CheckEventFlag:
 ; Check event flag de
 ; Carry and wScriptVar are 0 if set, otherwise no.
 	ld b, CHECK_FLAG
-	farcall EventFlagAction
+	call EventFlagAction
 	jr CheckFlagResult
 
 GotTM08RockSmash:

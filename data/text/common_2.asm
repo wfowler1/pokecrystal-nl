@@ -187,7 +187,7 @@ _ContainedMoveText::
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text " is"
-	line "not compatibel" ; "not compatible"
+	line "niet compatibel" ; "not compatible"
 	cont "met @" ; "with @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
