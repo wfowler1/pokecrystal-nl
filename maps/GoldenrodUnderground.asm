@@ -537,7 +537,7 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 
 	para "Ik kan je #MON"; "I can make your"
 	line "mooi maken voor"; "#MON beautiful"
-	cont "slechts ¥500."; "for just ¥500."
+	cont "slechts ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."; "for just ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."
 
 	para "Wil je graag een"; "Would you like me"
 	line "knipbeurt?"; "to do that?"
@@ -585,7 +585,7 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 
 	para "Ik knap je #MON"; "I'll spiff up your"
 	line "op voor slechts"; "#MON for just"
-	cont "¥300."; "¥300."
+	cont "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}." ; "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}."
 
 	para "Dus? Wat denk je?"; "So? How about it?"
 	done
