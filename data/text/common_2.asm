@@ -419,8 +419,9 @@ _BouldersMoveText::
 	done
 
 _BouldersMayMoveText::
-	text "A #MON zou dit" ; "A #MON may be"
-	line "kunnen bewegen." ; "able to move this."
+	text "Een #MON zou" ; "A #MON may be"
+	line "dit kunnen" ; "able to move this."
+	cont "bewegen."
 	done
 
 _UseWhirlpoolText::

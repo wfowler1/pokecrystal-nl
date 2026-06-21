@@ -453,7 +453,7 @@ RoarDescription:
 
 SingDescription:
 	db   "Kan doelwit in" ; "May cause the foe"
-	next "slaap bengen.@" ; "to fall asleep.@"
+	next "slaap brengen.@" ; "to fall asleep.@"
 
 SupersonicDescription:
 	db   "Geluidsgolven die" ; "Sound waves that"
