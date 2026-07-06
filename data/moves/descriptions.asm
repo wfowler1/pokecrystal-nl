@@ -616,8 +616,8 @@ ThunderDescription:
 	next "verlammen.@" ; "cause paralysis.@"
 
 RockThrowDescription:
-	db   "Drops rocks on the"
-	next "enemy.@"
+	db   "Laat stenen vallen" ; "Drops rocks on the"
+	next "op tegenstander.@" ; "enemy.@"
 
 EarthquakeDescription:
 	db   "Sterk maar nutte-" ; "Tough but useless"
