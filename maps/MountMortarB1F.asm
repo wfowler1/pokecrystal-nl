@@ -95,7 +95,7 @@ MountMortarB1FKiyoWinText:
 
 MountMortarB1FTyrogueRewardText:
 	text "Ik… Ik ben" ; "I… I'm crushed…"
-	cont "vermorzeld…"
+	line "vermorzeld…"
 
 	para "Mijn training is" ; "My training is"
 	line "nog onvoldoende…" ; "still not enough…"

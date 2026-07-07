@@ -451,17 +451,17 @@ Mom_WithdrawDepositMenuJoypad:
 	call JoyTextDelay
 	ld hl, hJoyPressed
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	jr nz, .pressedB
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .pressedA
 	call .dpadaction
 	xor a
 	ldh [hBGMapMode], a
 	hlcoord 12, 6
 	ld bc, 7
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 	hlcoord 12, 6
 	ld de, wStringBuffer2
@@ -475,7 +475,7 @@ Mom_WithdrawDepositMenuJoypad:
 	ld c, a
 	ld b, 0
 	add hl, bc
-	ld [hl], " "
+	ld [hl], ' '
 
 .skip
 	call WaitBGMap
@@ -492,16 +492,16 @@ Mom_WithdrawDepositMenuJoypad:
 .dpadaction
 	ld hl, hJoyLast
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .incrementdigit
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .decrementdigit
 	ld a, [hl]
-	and D_LEFT
+	and PAD_LEFT
 	jr nz, .movecursorleft
 	ld a, [hl]
-	and D_RIGHT
+	and PAD_RIGHT
 	jr nz, .movecursorright
 	and a
 	ret

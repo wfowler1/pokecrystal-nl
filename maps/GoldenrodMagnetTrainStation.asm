@@ -145,7 +145,7 @@ GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 	line "GOLDENROD." ; "GOLDENROD."
 
 	para "Tot ziens." ; "We hope to see you"
-	line "" ; "again."
+	; line "again."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:

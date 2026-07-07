@@ -245,15 +245,15 @@ SetDefaultBoxNames:
 	cp 10
 	jr c, .less
 	sub 10
-	ld [hl], "1"
+	ld [hl], '1'
 	inc hl
 
 .less
-	add "0"
+	add '0'
 	ld [hli], a
-	ld [hl], "@"
+	ld [hl], '@'
 	pop hl
-	ld de, 9
+	ld de, BOX_NAME_LENGTH
 	add hl, de
 	inc c
 	ld a, c
@@ -402,7 +402,7 @@ PostCreditsSpawn:
 Continue_MobileAdapterMenu: ; unused
 	farcall CheckMobileAdapterStatus
 	ret nc
-	ld hl, wd479
+	ld hl, wCrystalFlags
 	bit 1, [hl]
 	ret nz
 	ld a, 5
@@ -431,9 +431,9 @@ ConfirmContinue:
 	call DelayFrame
 	call GetJoypad
 	ld hl, hJoyPressed
-	bit A_BUTTON_F, [hl]
+	bit B_PAD_A, [hl]
 	jr nz, .PressA
-	bit B_BUTTON_F, [hl]
+	bit B_PAD_B, [hl]
 	jr z, .loop
 	scf
 	ret
@@ -607,11 +607,7 @@ Continue_DisplayPokedexNumCaught:
 	ret z
 	push hl
 	ld hl, wPokedexCaught
-if NUM_POKEMON % 8
-	ld b, NUM_POKEMON / 8 + 1
-else
-	ld b, NUM_POKEMON / 8
-endc
+	ld b, (NUM_POKEMON + 7) / 8
 	call CountSetBits
 	pop hl
 	ld de, wNumSetBits
@@ -622,7 +618,7 @@ Continue_DisplayGameTime:
 	ld de, wGameTimeHours
 	lb bc, 2, 3
 	call PrintNum
-	ld [hl], "<COLON>"
+	ld [hl], '<COLON>'
 	inc hl
 	ld de, wGameTimeMinutes
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
@@ -780,9 +776,9 @@ NamePlayer:
 	ret
 
 .Chris:
-	db "CHRIS@@@@@@"
+	dname "CHRIS", NAME_LENGTH
 .Kris:
-	db "KRIS@@@@@@@"
+	dname "KRIS", NAME_LENGTH
 
 GSShowPlayerNamingChoices: ; unreferenced
 	call LoadMenuHeader
@@ -794,7 +790,7 @@ GSShowPlayerNamingChoices: ; unreferenced
 	ret
 
 StorePlayerName:
-	ld a, "@"
+	ld a, '@'
 	ld bc, NAME_LENGTH
 	ld hl, wPlayerName
 	call ByteFill
@@ -973,10 +969,10 @@ IntroSequence:
 	; fallthrough
 
 StartTitleScreen:
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(wLYOverrides)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	call .TitleScreen
 	call DelayFrame
@@ -988,10 +984,10 @@ StartTitleScreen:
 	call ClearBGPalettes
 
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	ld hl, rLCDC
-	res rLCDC_SPRITE_SIZE, [hl] ; 8x8
+	res B_LCDC_OBJ_SIZE, [hl] ; 8x8
 	call ClearScreen
 	call WaitBGMap2
 	xor a
@@ -1158,8 +1154,8 @@ TitleScreenMain:
 	call GetJoypad
 	ld hl, hJoyDown
 	ld a, [hl]
-	and D_UP + B_BUTTON + SELECT
-	cp  D_UP + B_BUTTON + SELECT
+	and PAD_UP + PAD_B + PAD_SELECT
+	cp  PAD_UP + PAD_B + PAD_SELECT
 	jr z, .delete_save_data
 
 ; To bring up the clock reset dialog:
@@ -1170,8 +1166,8 @@ TitleScreenMain:
 	jr z, .check_clock_reset
 
 	ld a, [hl]
-	and D_DOWN + B_BUTTON + SELECT
-	cp  D_DOWN + B_BUTTON + SELECT
+	and PAD_DOWN + PAD_B + PAD_SELECT
+	cp  PAD_DOWN + PAD_B + PAD_SELECT
 	jr nz, .check_start
 
 	ld a, $34
@@ -1181,21 +1177,21 @@ TitleScreenMain:
 ; Keep Select pressed, and hold Left + Up.
 ; Then let go of Select.
 .check_clock_reset
-	bit SELECT_F, [hl]
+	bit B_PAD_SELECT, [hl]
 	jr nz, .check_start
 
 	xor a
 	ldh [hClockResetTrigger], a
 
 	ld a, [hl]
-	and D_LEFT + D_UP
-	cp  D_LEFT + D_UP
+	and PAD_LEFT + PAD_UP
+	cp  PAD_LEFT + PAD_UP
 	jr z, .reset_clock
 
 ; Press Start or A to start the game.
 .check_start
 	ld a, [hl]
-	and START | A_BUTTON
+	and PAD_START | PAD_A
 	jr nz, .incave
 	ret
 
@@ -1328,19 +1324,7 @@ Copyright:
 	jp PlaceString
 
 CopyrightString:
-	; ©1995-2001 Nintendo
-	db   $60, $61, $62, $63, $64, $65, $66
-	db   $67, $68, $69, $6a, $6b, $6c
-
-	; ©1995-2001 Creatures inc.
-	next $60, $61, $62, $63, $64, $65, $66
-	db   $6d, $6e, $6f, $70, $71, $72, $7a, $7b, $7c
-
-	; ©1995-2001 GAME FREAK inc.
-	next $60, $61, $62, $63, $64, $65, $66
-	db   $73, $74, $75, $76, $77, $78, $79, $7a, $7b, $7c
-
-	db "@"
+INCLUDE "data/copyright.asm"
 
 GameInit::
 	farcall TryLoadSaveData

@@ -1,37 +1,38 @@
 DEF NUM_ODD_EGGS EQU 14
 
-MACRO prob
-	DEF prob_total += \1
-	dw prob_total * $ffff / 100
+DEF odd_egg_prob_total = 0
+
+MACRO odd_egg_prob
+	DEF odd_egg_prob_total += \1
+	dw odd_egg_prob_total * $ffff / 100
 ENDM
 
 OddEggProbabilities:
 ; entries correspond to OddEggs (below)
 	table_width 2
-DEF prob_total = 0
 ; Pichu
-	prob 8
-	prob 1
+	odd_egg_prob 8
+	odd_egg_prob 1
 ; Cleffa
-	prob 16
-	prob 3
+	odd_egg_prob 16
+	odd_egg_prob 3
 ; Igglybuff
-	prob 16
-	prob 3
+	odd_egg_prob 16
+	odd_egg_prob 3
 ; Smoochum
-	prob 14
-	prob 2
+	odd_egg_prob 14
+	odd_egg_prob 2
 ; Magby
-	prob 10
-	prob 2
+	odd_egg_prob 10
+	odd_egg_prob 2
 ; Elekid
-	prob 12
-	prob 2
+	odd_egg_prob 12
+	odd_egg_prob 2
 ; Tyrogue
-	prob 10
-	prob 1
+	odd_egg_prob 10
+	odd_egg_prob 1
 	assert_table_length NUM_ODD_EGGS
-	assert prob_total == 100, "OddEggProbabilities do not sum to 100%!"
+	assert odd_egg_prob_total == 100, "OddEggProbabilities sum to {d:odd_egg_prob_total}%, not 100%!"
 
 OddEggs:
 	table_width NICKNAMED_MON_STRUCT_LENGTH
@@ -60,7 +61,7 @@ OddEggs:
 	bigdw 11 ; Spd
 	bigdw 8 ; SAtk
 	bigdw 8 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db PICHU
 	db NO_ITEM
@@ -86,7 +87,7 @@ OddEggs:
 	bigdw 12 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db CLEFFA
 	db NO_ITEM
@@ -112,7 +113,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 10 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db CLEFFA
 	db NO_ITEM
@@ -138,7 +139,7 @@ OddEggs:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 11 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db IGGLYBUFF
 	db NO_ITEM
@@ -164,7 +165,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 7 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db IGGLYBUFF
 	db NO_ITEM
@@ -190,7 +191,7 @@ OddEggs:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 8 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db SMOOCHUM
 	db NO_ITEM
@@ -216,7 +217,7 @@ OddEggs:
 	bigdw 11 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db SMOOCHUM
 	db NO_ITEM
@@ -242,7 +243,7 @@ OddEggs:
 	bigdw 12 ; Spd
 	bigdw 14 ; SAtk
 	bigdw 12 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db MAGBY
 	db NO_ITEM
@@ -268,7 +269,7 @@ OddEggs:
 	bigdw 13 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 10 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db MAGBY
 	db NO_ITEM
@@ -294,7 +295,7 @@ OddEggs:
 	bigdw 14 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db ELEKID
 	db NO_ITEM
@@ -320,7 +321,7 @@ OddEggs:
 	bigdw 14 ; Spd
 	bigdw 11 ; SAtk
 	bigdw 10 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db ELEKID
 	db NO_ITEM
@@ -346,7 +347,7 @@ OddEggs:
 	bigdw 15 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 11 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db TYROGUE
 	db NO_ITEM
@@ -372,7 +373,7 @@ OddEggs:
 	bigdw 8 ; Spd
 	bigdw 8 ; SAtk
 	bigdw 8 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	db TYROGUE
 	db NO_ITEM
@@ -398,6 +399,6 @@ OddEggs:
 	bigdw 9 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EI@@@@@@@@@"
+	dname "EI", MON_NAME_LENGTH
 
 	assert_table_length NUM_ODD_EGGS

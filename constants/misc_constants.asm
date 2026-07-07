@@ -6,6 +6,9 @@ DEF TRUE  EQU 1
 DEF MALE   EQU 0
 DEF FEMALE EQU 1
 
+; input
+DEF NO_INPUT EQU %00000000
+
 ; FlagAction arguments (see home/flag.asm)
 	const_def
 	const RESET_FLAG
@@ -50,3 +53,6 @@ DEF HOF_MASTER_COUNT EQU 200
 
 ; card flip
 DEF CARDFLIP_DECK_SIZE EQU 4 * 6
+
+; SGB command MLT_REQ can be used to detect SGB hardware
+DEF JOYP_SGB_MLT_REQ EQU %00000011

@@ -25,17 +25,17 @@ GoldenrodUndergroundResetSwitchesCallback:
 	clearevent EVENT_SWITCH_2
 	clearevent EVENT_SWITCH_3
 	clearevent EVENT_EMERGENCY_SWITCH
-	clearevent EVENT_SWITCH_4
-	clearevent EVENT_SWITCH_5
-	clearevent EVENT_SWITCH_6
-	clearevent EVENT_SWITCH_7
-	clearevent EVENT_SWITCH_8
-	clearevent EVENT_SWITCH_9
-	clearevent EVENT_SWITCH_10
-	clearevent EVENT_SWITCH_11
-	clearevent EVENT_SWITCH_12
-	clearevent EVENT_SWITCH_13
-	clearevent EVENT_SWITCH_14
+	clearevent EVENT_DOOR_1_OPEN
+	clearevent EVENT_DOOR_2_OPEN
+	clearevent EVENT_DOOR_3_OPEN
+	clearevent EVENT_DOOR_4_OPEN
+	clearevent EVENT_DOOR_5_OPEN
+	clearevent EVENT_DOOR_6_OPEN
+	clearevent EVENT_DOOR_7_OPEN
+	clearevent EVENT_DOOR_8_OPEN
+	clearevent EVENT_DOOR_9_OPEN
+	clearevent EVENT_DOOR_10_OPEN
+	clearevent EVENT_DOOR_11_OPEN
 	setval 0
 	writemem wUndergroundSwitchPositions
 	endcallback
@@ -537,7 +537,7 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 
 	para "Ik kan je #MON"; "I can make your"
 	line "mooi maken voor"; "#MON beautiful"
-	cont "slechts ¥500."; "for just ¥500."
+	cont "slechts ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."; "for just ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."
 
 	para "Wil je graag een"; "Would you like me"
 	line "knipbeurt?"; "to do that?"
@@ -585,7 +585,7 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 
 	para "Ik knap je #MON"; "I'll spiff up your"
 	line "op voor slechts"; "#MON for just"
-	cont "¥300."; "¥300."
+	cont "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}." ; "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}."
 
 	para "Dus? Wat denk je?"; "So? How about it?"
 	done

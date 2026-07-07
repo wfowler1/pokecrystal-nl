@@ -226,7 +226,7 @@ CopyLastCoordsToCoords:
 UpdateTallGrassFlags:
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
-	bit OVERHEAD_F, [hl]
+	bit IN_GRASS_F, [hl]
 	jr z, .ok
 	ld hl, OBJECT_TILE_COLLISION
 	add hl, bc
@@ -252,13 +252,13 @@ SetTallGrassFlags:
 .set
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
-	set OVERHEAD_F, [hl]
+	set IN_GRASS_F, [hl]
 	ret
 
 .reset
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
-	res OVERHEAD_F, [hl]
+	res IN_GRASS_F, [hl]
 	ret
 
 UselessAndA:
@@ -1144,7 +1144,7 @@ StepFunction_NPCJump:
 	call GetNextTile
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
-	res OVERHEAD_F, [hl]
+	res IN_GRASS_F, [hl]
 	call ObjectStep_IncAnonJumptableIndex
 	ret
 
@@ -1183,7 +1183,7 @@ StepFunction_PlayerJump:
 	call CopyCoordsTileToLastCoordsTile
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
-	res OVERHEAD_F, [hl]
+	res IN_GRASS_F, [hl]
 	ld hl, wPlayerStepFlags
 	set PLAYERSTEP_STOP_F, [hl]
 	set PLAYERSTEP_MIDAIR_F, [hl]
@@ -1249,7 +1249,7 @@ StepFunction_TeleportFrom:
 	ld [hl], 16
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
-	res OVERHEAD_F, [hl]
+	res IN_GRASS_F, [hl]
 	call ObjectStep_IncAnonJumptableIndex
 .DoSpinRise:
 	ld hl, OBJECT_ACTION
@@ -2348,7 +2348,7 @@ CheckObjectCoveredByTextbox:
 	srl a
 	cp SCREEN_WIDTH
 	jr c, .ok3
-	sub BG_MAP_WIDTH
+	sub TILEMAP_WIDTH
 .ok3
 	ldh [hCurSpriteXCoord], a
 
@@ -2381,7 +2381,7 @@ CheckObjectCoveredByTextbox:
 	srl a
 	cp SCREEN_HEIGHT
 	jr c, .ok6
-	sub BG_MAP_HEIGHT
+	sub TILEMAP_HEIGHT
 .ok6
 	ldh [hCurSpriteYCoord], a
 
@@ -2524,13 +2524,13 @@ _SetPlayerPalette:
 	ld [hl], a
 	ld a, d
 	swap a
-	and PALETTE_MASK
+	and OAM_PALETTE
 	ld d, a
 	ld bc, wPlayerStruct
 	ld hl, OBJECT_PALETTE
 	add hl, bc
 	ld a, [hl]
-	and ~PALETTE_MASK
+	and ~OAM_PALETTE
 	or d
 	ld [hl], a
 	ret
@@ -2746,16 +2746,16 @@ _UpdateSprites::
 .fill
 	ld a, [wStateFlags]
 	bit LAST_12_SPRITE_OAM_STRUCTS_RESERVED_F, a
-	ld b, NUM_SPRITE_OAM_STRUCTS * SPRITEOAMSTRUCT_LENGTH
+	ld b, OAM_SIZE
 	jr z, .ok
-	ld b, (NUM_SPRITE_OAM_STRUCTS - 12) * SPRITEOAMSTRUCT_LENGTH
+	ld b, (OAM_COUNT - 12) * OBJ_SIZE
 .ok
 	ldh a, [hUsedSpriteIndex]
 	cp b
 	ret nc
 	ld l, a
 	ld h, HIGH(wShadowOAM)
-	ld de, SPRITEOAMSTRUCT_LENGTH
+	ld de, OBJ_SIZE
 	ld a, b
 	ld c, OAM_YCOORD_HIDDEN
 .loop
@@ -2898,33 +2898,33 @@ InitSprites:
 	and ~(1 << 7)
 	ldh [hCurSpriteTile], a
 	xor a
-	bit 7, [hl] ; tiles $80+ are in VRAM bank 0
+	bit 7, [hl] ; tiles $80+ are in VRAM bank 1
 	jr nz, .not_vram1
-	or VRAM_BANK_1
+	or OAM_BANK1
 .not_vram1
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
 	ld e, [hl]
-	bit OBJ_FLAGS2_7_F, e
-	jr z, .not_priority
-	or PRIORITY
-.not_priority
+	bit UNDER_TILES_F, e
+	jr z, .not_under_tiles
+	or OAM_PRIO
+.not_under_tiles
 	bit USE_OBP1_F, e
 	jr z, .not_obp_num
-	or OBP_NUM
+	or OAM_PAL1
 .not_obp_num
 	ld hl, OBJECT_PALETTE
 	add hl, bc
 	ld d, a
 	ld a, [hl]
-	and PALETTE_MASK
+	and OAM_PALETTE
 	or d
 	ld d, a
 	xor a
-	bit OVERHEAD_F, e
-	jr z, .not_overhead
-	or PRIORITY
-.not_overhead
+	bit IN_GRASS_F, e
+	jr z, .not_in_grass
+	or OAM_PRIO
+.not_in_grass
 	ldh [hCurSpriteOAMFlags], a
 	ld hl, OBJECT_SPRITE_X
 	add hl, bc
@@ -2932,7 +2932,7 @@ InitSprites:
 	ld hl, OBJECT_SPRITE_X_OFFSET
 	add hl, bc
 	add [hl]
-	add 8
+	add OAM_X_OFS
 	ld e, a
 	ld a, [wPlayerBGMapOffsetX]
 	add e
@@ -2943,7 +2943,7 @@ InitSprites:
 	ld hl, OBJECT_SPRITE_Y_OFFSET
 	add hl, bc
 	add [hl]
-	add 12
+	add OAM_Y_OFS - 4
 	ld e, a
 	ld a, [wPlayerBGMapOffsetY]
 	add e
@@ -2999,7 +2999,7 @@ InitSprites:
 	ldh a, [hCurSpriteOAMFlags]
 	or e
 .nope2
-	and OBP_NUM | X_FLIP | Y_FLIP | PRIORITY
+	and OAM_PAL1 | OAM_XFLIP | OAM_YFLIP | OAM_PRIO
 	or d
 	ld [bc], a ; attributes
 	inc c
@@ -3029,16 +3029,10 @@ InitSprites:
 	ret
 
 .Addresses:
+	table_width 2
 	dw wPlayerStruct
-	dw wObject1Struct
-	dw wObject2Struct
-	dw wObject3Struct
-	dw wObject4Struct
-	dw wObject5Struct
-	dw wObject6Struct
-	dw wObject7Struct
-	dw wObject8Struct
-	dw wObject9Struct
-	dw wObject10Struct
-	dw wObject11Struct
-	dw wObject12Struct
+; wObjectStruct1 - wObjectStruct12
+for n, 1, NUM_OBJECT_STRUCTS
+	dw wObject{d:n}Struct
+endr
+	assert_table_length NUM_OBJECT_STRUCTS

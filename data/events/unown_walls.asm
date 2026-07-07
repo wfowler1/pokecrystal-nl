@@ -6,9 +6,9 @@ DEF UNOWNWORD_{d:UNOWNWORDS_HO_OH}  EQUS "HO-OH"
 
 UnownWalls:
 ; entries correspond to UNOWNWORDS_* constants
-	list_start
+	list_start 9
 	for x, NUM_UNOWN_WALLS
-		li "{UNOWNWORD_{d:x}}"
+		li #UNOWNWORD_{d:x}
 	endr
 	assert_list_length NUM_UNOWN_WALLS
 
@@ -16,7 +16,7 @@ MenuHeaders_UnownWalls:
 ; entries correspond to UNOWNWORDS_* constants
 	table_width UNOWN_WALL_MENU_HEADER_SIZE
 	for x, NUM_UNOWN_WALLS
-		DEF n = CHARLEN("{UNOWNWORD_{d:x}}")
+		DEF n = CHARLEN(#UNOWNWORD_{d:x})
 		db MENU_BACKUP_TILES ; flags
 		menu_coords 9 - n, 4, 10 + n, 9
 	endr

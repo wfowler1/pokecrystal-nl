@@ -56,7 +56,7 @@ PrintDexEntry:
 	push af
 	xor a
 	ldh [rIF], a
-	ld a, (1 << SERIAL) | (1 << VBLANK)
+	ld a, IE_SERIAL | IE_VBLANK
 	ldh [rIE], a
 
 	call Printer_StartTransmission
@@ -140,7 +140,7 @@ PrintPCBox:
 	push af
 	xor a
 	ldh [rIF], a
-	ld a, (1 << SERIAL) | (1 << VBLANK)
+	ld a, IE_SERIAL | IE_VBLANK
 	ldh [rIE], a
 
 	ld hl, hVBlank
@@ -221,7 +221,7 @@ PrintUnownStamp:
 	push af
 	xor a
 	ldh [rIF], a
-	ld a, (1 << SERIAL) | (1 << VBLANK)
+	ld a, IE_SERIAL | IE_VBLANK
 	ldh [rIE], a
 
 	ld hl, hVBlank
@@ -291,7 +291,7 @@ PrintMail:
 	push af
 	xor a
 	ldh [rIF], a
-	ld a, (1 << SERIAL) | (1 << VBLANK)
+	ld a, IE_SERIAL | IE_VBLANK
 	ldh [rIE], a
 
 	xor a
@@ -333,7 +333,7 @@ PrintPartymon:
 	push af
 	xor a
 	ldh [rIF], a
-	ld a, (1 << SERIAL) | (1 << VBLANK)
+	ld a, IE_SERIAL | IE_VBLANK
 	ldh [rIE], a
 
 	xor a
@@ -397,7 +397,7 @@ _PrintDiploma:
 	push af
 	xor a
 	ldh [rIF], a
-	ld a, (1 << SERIAL) | (1 << VBLANK)
+	ld a, IE_SERIAL | IE_VBLANK
 	ldh [rIE], a
 
 	ld hl, hVBlank
@@ -448,7 +448,7 @@ _PrintDiploma:
 
 CheckCancelPrint:
 	ldh a, [hJoyDown]
-	and B_BUTTON
+	and PAD_B
 	jr nz, .pressed_b
 	and a
 	ret
@@ -467,9 +467,9 @@ CheckCancelPrint:
 	ld [wPrinterOpcode], a
 	ld a, $88
 	ldh [rSB], a
-	ld a, (0 << rSC_ON) | (1 << rSC_CLOCK)
+	ld a, SC_INTERNAL
 	ldh [rSC], a
-	ld a, (1 << rSC_ON) | (1 << rSC_CLOCK)
+	ld a, SC_START | SC_INTERNAL
 	ldh [rSC], a
 .loop2
 	ld a, [wPrinterOpcode]
@@ -485,14 +485,14 @@ CheckCancelPrint:
 Printer_CopyTilemapToBuffer:
 	hlcoord 0, 0
 	ld de, wPrinterTilemapBuffer
-	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
+	ld bc, SCREEN_AREA
 	call CopyBytes
 	ret
 
 Printer_CopyBufferToTilemap:
 	ld hl, wPrinterTilemapBuffer
 	decoord 0, 0
-	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
+	ld bc, SCREEN_AREA
 	call CopyBytes
 	ret
 
@@ -634,14 +634,14 @@ PrintPCBox_Page1:
 	xor a
 	ld [wWhichBoxMonToPrint], a
 	hlcoord 0, 0
-	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
-	ld a, " "
+	ld bc, SCREEN_AREA
+	ld a, ' '
 	call ByteFill
 	call Printer_PlaceEmptyBoxSlotString
 
 	hlcoord 0, 0
 	ld bc, 9 * SCREEN_WIDTH
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 
 	call Printer_PlaceSideBorders
@@ -671,8 +671,8 @@ PrintPCBox_Page1:
 
 PrintPCBox_Page2:
 	hlcoord 0, 0
-	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
-	ld a, " "
+	ld bc, SCREEN_AREA
+	ld a, ' '
 	call ByteFill
 	call Printer_PlaceEmptyBoxSlotString
 	call Printer_PlaceSideBorders
@@ -688,8 +688,8 @@ PrintPCBox_Page2:
 
 PrintPCBox_Page3:
 	hlcoord 0, 0
-	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
-	ld a, " "
+	ld bc, SCREEN_AREA
+	ld a, ' '
 	call ByteFill
 	call Printer_PlaceEmptyBoxSlotString
 	call Printer_PlaceSideBorders
@@ -705,8 +705,8 @@ PrintPCBox_Page3:
 
 PrintPCBox_Page4:
 	hlcoord 0, 0
-	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
-	ld a, " "
+	ld bc, SCREEN_AREA
+	ld a, ' '
 	call ByteFill
 	call Printer_PlaceEmptyBoxSlotString
 	hlcoord 1, 15
@@ -744,7 +744,7 @@ Printer_PrintBoxListSegment:
 
 	push hl
 	ld bc, 16
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 	pop hl
 
@@ -764,12 +764,12 @@ Printer_PrintBoxListSegment:
 	call Printer_GetMonGender
 	ld bc, SCREEN_WIDTH - MON_NAME_LENGTH
 	add hl, bc
-	ld a, "/"
+	ld a, '/'
 	ld [hli], a
 
 	push hl
 	ld bc, 14
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 	pop hl
 
@@ -846,11 +846,11 @@ Printer_GetMonGender:
 	ld a, TEMPMON
 	ld [wMonType], a
 	farcall GetGender
-	ld a, " "
+	ld a, ' '
 	jr c, .got_gender
-	ld a, "♂"
+	ld a, '♂'
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, '♀'
 .got_gender
 	pop hl
 	ld [hli], a
@@ -872,15 +872,15 @@ Printer_GetBoxMonSpecies:
 
 Printer_PlaceTopBorder:
 	hlcoord 0, 0
-	ld a, "┌"
+	ld a, '┌'
 	ld [hli], a
-	ld a, "─"
+	ld a, '─'
 	ld c, SCREEN_WIDTH - 2
 .loop
 	ld [hli], a
 	dec c
 	jr nz, .loop
-	ld a, "┐"
+	ld a, '┐'
 	ld [hl], a
 	ret
 
@@ -889,10 +889,10 @@ Printer_PlaceSideBorders:
 	ld de, SCREEN_WIDTH - 1
 	ld c, SCREEN_HEIGHT
 .loop
-	ld a, "│"
+	ld a, '│'
 	ld [hl], a
 	add hl, de
-	ld a, "│"
+	ld a, '│'
 	ld [hli], a
 	dec c
 	jr nz, .loop
@@ -900,15 +900,15 @@ Printer_PlaceSideBorders:
 
 Printer_PlaceBottomBorders:
 	hlcoord 0, 17
-	ld a, "└"
+	ld a, '└'
 	ld [hli], a
-	ld a, "─"
+	ld a, '─'
 	ld c, SCREEN_WIDTH - 2
 .loop
 	ld [hli], a
 	dec c
 	jr nz, .loop
-	ld a, "┘"
+	ld a, '┘'
 	ld [hl], a
 	ret
 

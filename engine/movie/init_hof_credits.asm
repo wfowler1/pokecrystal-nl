@@ -7,10 +7,10 @@ InitDisplayForHallOfFame:
 	call LoadFontsBattleExtra
 	hlbgcoord 0, 0
 	ld bc, vBGMap1 - vBGMap0
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 	hlcoord 0, 0, wAttrmap
-	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
+	ld bc, SCREEN_AREA
 	xor a
 	call ByteFill
 	xor a
@@ -36,10 +36,10 @@ InitDisplayForRedCredits:
 	call LoadFontsBattleExtra
 	hlbgcoord 0, 0
 	ld bc, vBGMap1 - vBGMap0
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 	hlcoord 0, 0, wAttrmap
-	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
+	ld bc, SCREEN_AREA
 	xor a
 	call ByteFill
 	ld hl, wBGPals1
@@ -60,13 +60,13 @@ InitDisplayForRedCredits:
 	ret
 
 ResetDisplayBetweenHallOfFameMons:
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(wDecompressScratch)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld hl, wDecompressScratch
 	ld bc, wScratchAttrmap - wDecompressScratch
-	ld a, " "
+	ld a, ' '
 	call ByteFill
 	hlbgcoord 0, 0
 	ld de, wDecompressScratch
@@ -74,5 +74,5 @@ ResetDisplayBetweenHallOfFameMons:
 	ld c, 4 tiles
 	call Request2bpp
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ret

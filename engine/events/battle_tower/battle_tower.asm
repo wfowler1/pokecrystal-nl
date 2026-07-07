@@ -11,10 +11,10 @@ Function1700ba:
 	ret
 
 Function1700c4:
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(w3_d202TrainerData) ; aka BANK(w3_dffc) and BANK(w3_d202Name)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	call Function17042c
 
@@ -48,7 +48,7 @@ Function1700c4:
 	call CopyBytes
 	call CloseSRAM
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ret
 
 Function170114:
@@ -244,9 +244,9 @@ RunBattleTowerTrainer:
 	call CloseSRAM
 	ld hl, wStringBuffer3
 	ld a, [wNrOfBeatenBattleTowerTrainers]
-	add "1"
+	add '1'
 	ld [hli], a
-	ld a, "@"
+	ld a, '@'
 	ld [hl], a
 
 .lost
@@ -308,7 +308,7 @@ ReadBTTrainerParty:
 
 .skip_mon_3
 ; Add the terminator character to each of these names
-	ld a, "@"
+	ld a, '@'
 	ld [wBT_OTTempMon1Name + MON_NAME_LENGTH - 1], a
 	ld [wBT_OTTempMon2Name + MON_NAME_LENGTH - 1], a
 	ld [wBT_OTTempMon3Name + MON_NAME_LENGTH - 1], a
@@ -329,7 +329,7 @@ ReadBTTrainerParty:
 	ld de, wOTPlayerName
 	ld bc, NAME_LENGTH - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, '@'
 	ld [de], a
 
 	ld hl, wBT_OTTempTrainerClass
@@ -548,10 +548,10 @@ INCLUDE "data/battle_tower/unknown_levels.asm"
 
 CopyBTTrainer_FromBT_OT_TowBT_OTTemp:
 ; copy the BattleTower-Trainer data that lies at 'wBT_OTTrainer' to 'wBT_OTTemp'
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(wBT_OTTrainer)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	ld hl, wBT_OTTrainer
 	ld de, wBT_OTTemp
@@ -559,7 +559,7 @@ CopyBTTrainer_FromBT_OT_TowBT_OTTemp:
 	call CopyBytes
 
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	ld a, BANK(sBattleTowerChallengeState)
 	call OpenSRAM
@@ -660,16 +660,16 @@ Function1704e1:
 .Jumptable_2:
 	ld hl, hJoyPressed
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .pressed_a_or_b
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	jr nz, .pressed_a_or_b
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .pressed_up
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .pressed_down
 	ret
 
@@ -703,39 +703,39 @@ Function1704e1:
 
 .DrawBorder:
 	hlcoord 0, 4
-	ld a, "┌"
+	ld a, '┌'
 	ld [hli], a
 	ld c, SCREEN_WIDTH - 2
 .top_border_loop
-	ld a, "─"
+	ld a, '─'
 	ld [hli], a
 	dec c
 	jr nz, .top_border_loop
-	ld a, "┐"
+	ld a, '┐'
 	ld [hli], a
 	ld de, SCREEN_WIDTH
 	ld c, 12
 .left_border_loop
-	ld a, "│"
+	ld a, '│'
 	ld [hl], a
 	add hl, de
 	dec c
 	jr nz, .left_border_loop
-	ld a, "└"
+	ld a, '└'
 	ld [hli], a
 	ld c, SCREEN_WIDTH - 2
 .bottom_border_loop
-	ld a, "─"
+	ld a, '─'
 	ld [hli], a
 	dec c
 	jr nz, .bottom_border_loop
-	ld a, "┘"
+	ld a, '┘'
 	ld [hl], a
 	ld de, -SCREEN_WIDTH
 	add hl, de
 	ld c, 12
 .right_border_loop
-	ld a, "│"
+	ld a, '│'
 	ld [hl], a
 	add hl, de
 	dec c
@@ -831,7 +831,7 @@ Function1704e1:
 	and a
 	jr z, .nope
 	hlcoord 18, 5
-	ld a, "▲"
+	ld a, '▲'
 	ld [hl], a
 
 .nope
@@ -839,7 +839,7 @@ Function1704e1:
 	cp 60
 	ret z
 	hlcoord 18, 16
-	ld a, "▼"
+	ld a, '▼'
 	ld [hl], a
 	ret
 
@@ -922,7 +922,7 @@ BattleTower_GiveReward:
 	cp c
 	jr nz, .next
 	ld a, [hl]
-	cp 95
+	cp MAX_ITEM_STACK - BATTLETOWER_REWARD_QUANTITY + 1
 	ret c
 .next
 	inc hl
@@ -957,12 +957,14 @@ BattleTower_RandomlyChooseReward:
 .loop
 	call Random
 	ldh a, [hRandomAdd]
-	and $7
-	cp 6
+	maskbits BATTLETOWER_MAX_REWARD - BATTLETOWER_MIN_REWARD + 1
+	cp BATTLETOWER_MAX_REWARD - BATTLETOWER_MIN_REWARD + 1
 	jr c, .okay
-	sub 6
+	sub BATTLETOWER_MAX_REWARD - BATTLETOWER_MIN_REWARD + 1
 .okay
-	add HP_UP
+	add BATTLETOWER_MIN_REWARD
+	; LUCKY_PUNCH is in-between the stat boosting items, but is not a valid reward
+	assert LUCKY_PUNCH >= BATTLETOWER_MIN_REWARD && LUCKY_PUNCH <= BATTLETOWER_MAX_REWARD
 	cp LUCKY_PUNCH
 	jr z, .loop
 	push af
@@ -1127,28 +1129,28 @@ BattleTowerAction_17:
 SaveBattleTowerLevelGroup:
 	ld a, BANK(sBTChoiceOfLevelGroup)
 	call OpenSRAM
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(wBTChoiceOfLvlGroup)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [wBTChoiceOfLvlGroup]
 	ld [sBTChoiceOfLevelGroup], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseSRAM
 	ret
 
 LoadBattleTowerLevelGroup: ; Load level group choice
 	ld a, BANK(sBTChoiceOfLevelGroup)
 	call OpenSRAM
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(wBTChoiceOfLvlGroup)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [sBTChoiceOfLevelGroup]
 	ld [wBTChoiceOfLvlGroup], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseSRAM
 	ret
 
@@ -1281,7 +1283,7 @@ BattleTowerAction_EggTicket:
 rept 4
 	dec hl
 endr
-	ld a, "@"
+	ld a, '@'
 	ld [hli], a
 	ld [hli], a
 	pop hl
@@ -1307,17 +1309,17 @@ endr
 	ret
 
 String_MysteryJP:
-	db "なぞナゾ@@" ; MYSTERY
+	dname "なぞナゾ", NAME_LENGTH_JAPANESE ; "MYSTERY"
 
 BattleTowerAction_0F:
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(w3_d090)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [w3_d090]
 	ld [wScriptVar], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ret
 
 BattleTowerAction_10:
@@ -1531,17 +1533,17 @@ BattleTowerAction_UbersCheck:
 
 LoadOpponentTrainerAndPokemonWithOTSprite:
 	farcall LoadOpponentTrainerAndPokemon
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(wBT_OTTrainerClass)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld hl, wBT_OTTrainerClass
 	ld a, [hl]
 	dec a
 	ld c, a
 	ld b, 0
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld hl, BTTrainerClassSprites
 	add hl, bc
 	ld a, [hl]

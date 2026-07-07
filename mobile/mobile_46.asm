@@ -15,10 +15,10 @@ asm_11800b:
 	ld [wcd34], a
 	ld a, $4
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .loop
 	call JoyTextDelay
 	call Function118473
@@ -39,7 +39,7 @@ asm_11800b:
 	cp [hl]
 	jr nz, .loop
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	call ReturnToMapFromSubmenu
 BattleTowerRoomMenu_DoNothing:
@@ -55,10 +55,10 @@ Function11805f:
 	ld [wcd34], a
 	ld a, $4
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_11807d
 	call JoyTextDelay
 	call Function118473
@@ -79,7 +79,7 @@ Function11805f:
 	cp [hl]
 	jr nz, .asm_11807d
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	call ReturnToMapFromSubmenu
 	ret
@@ -92,10 +92,10 @@ Function1180b8:
 	ld [wcd34], a
 	ld a, $4
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_1180d1
 	call JoyTextDelay
 	call Function118473
@@ -124,7 +124,7 @@ Function1180b8:
 	cp [hl]
 	jr nz, .asm_1180d1
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	call ReturnToMapFromSubmenu
 	ret
@@ -145,10 +145,10 @@ Function118125:
 	ld [wcd34], a
 	ld a, $4
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .loop
 	call JoyTextDelay
 	call Function118473
@@ -170,7 +170,7 @@ Function118125:
 	xor a
 	ld [w3_d000], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	call Function118180
 	call ReturnToMapFromSubmenu
@@ -190,10 +190,10 @@ Function118180:
 	ld bc, 22
 	call CopyBytes
 
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(w3_d202)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	ld de, w3_d202
 	ld c, $96
@@ -211,7 +211,7 @@ Function118180:
 	call CopyBytes
 .reset_banks
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseSRAM
 	ret
 
@@ -231,10 +231,10 @@ Function1181da:
 	ld [wcd34], a
 	ld a, $4
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_1181f8
 	call JoyTextDelay
 	call Function118473
@@ -255,7 +255,7 @@ Function1181da:
 	cp [hl]
 	jr nz, .asm_1181f8
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	call ReturnToMapFromSubmenu
 	ret
@@ -268,10 +268,10 @@ Function118233:
 	ld [wcd34], a
 	ld a, $6
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_11824c
 	call JoyTextDelay
 	call Function118473
@@ -292,7 +292,7 @@ Function118233:
 	cp [hl]
 	jr nz, .asm_11824c
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	ret
 
@@ -304,10 +304,10 @@ Function118284:
 	ld [wcd34], a
 	ld a, $5
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_11829d
 	call JoyTextDelay
 	call Function118473
@@ -327,7 +327,7 @@ Function118284:
 	cp [hl]
 	jr nz, .asm_11829d
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	ret
 
@@ -339,10 +339,10 @@ Function1182d5: ; unreferenced
 	ld [wcd34], a
 	ld a, $4
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_1182ee
 	call JoyTextDelay
 	call Function118473
@@ -363,7 +363,7 @@ Function1182d5: ; unreferenced
 	cp [hl]
 	jr nz, .asm_1182ee
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	call ReturnToMapFromSubmenu
 	ret
@@ -376,10 +376,10 @@ Function118329:
 	ld [wcd34], a
 	ld a, $6
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_118342
 	call JoyTextDelay
 	call Function118473
@@ -400,7 +400,7 @@ Function118329:
 	cp [hl]
 	jr nz, .asm_118342
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	ret
 
@@ -412,10 +412,10 @@ Function11837a:
 	ld [wcd34], a
 	ld a, $6
 	ld [wc3f0], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_118393
 	call JoyTextDelay
 	call Function118473
@@ -436,7 +436,7 @@ Function11837a:
 	cp [hl]
 	jr nz, .asm_118393
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_Cleanup
 	ret
 
@@ -467,7 +467,7 @@ BattleTowerRoomMenu_InitRAM:
 	ld a, [hl]
 	ld [wcd7f], a
 	set LAST_12_SPRITE_OAM_STRUCTS_RESERVED_F, [hl]
-	ld a, (1 << SERIAL) | (1 << TIMER) | (1 << LCD_STAT) | (1 << VBLANK)
+	ld a, IE_SERIAL | IE_TIMER | IE_STAT | IE_VBLANK
 	ldh [rIE], a
 	ld a, $1
 	ldh [hMobileReceive], a
@@ -902,7 +902,7 @@ Function11878d:
 	and $1
 	jr z, .asm_1187a7
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_1187a7
 	jp BattleTowerRoomMenu_IncrementJumptable
 .asm_1187aa
@@ -930,7 +930,7 @@ Function11878d:
 	jr nz, .asm_118803
 	set 0, [hl]
 	ld a, BANK(w6_d000)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld de, w6_d000
 	ld bc, $1000
 	ld a, [hl]
@@ -1152,7 +1152,7 @@ BattleTowerRoomMenu_PlacePickLevelMenu:
 	ld a, $1
 	ld [wcd4f], a
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [wStatusFlags]
 	bit STATUSFLAGS_HALL_OF_FAME_F, a
 	jr nz, .asm_11896b
@@ -1171,7 +1171,7 @@ BattleTowerRoomMenu_PlacePickLevelMenu:
 	ld a, h
 	ld [wcd4c], a
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call BattleTowerRoomMenu_IncrementJumptable
 
 BattleTowerRoomMenu_UpdatePickLevelMenu:
@@ -1197,10 +1197,10 @@ BattleTowerRoomMenu_UpdatePickLevelMenu:
 	ld e, a
 	ld a, h
 	ld d, a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld bc, wStringBuffer3
 .asm_1189b5
 	ld a, [hli]
@@ -1218,21 +1218,21 @@ BattleTowerRoomMenu_UpdatePickLevelMenu:
 .asm_1189c4
 	ld [bc], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	hlcoord 13, 9
 	call PlaceString
 	ld hl, hJoyPressed
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	jr nz, .b_button
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .a_button
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .d_down
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .d_up
 .asm_1189e5
 	ret
@@ -1265,13 +1265,13 @@ BattleTowerRoomMenu_UpdatePickLevelMenu:
 	and $fe
 	srl a
 	ld [wcf65], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseWindow
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [wcd38]
 	and a
 	jr nz, .asm_118a30
@@ -1289,13 +1289,13 @@ BattleTowerRoomMenu_UpdatePickLevelMenu:
 	call PlayClickSFX
 
 .asm_118a3c
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseWindow
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, $7
 	ld [wBattleTowerRoomMenuJumptableIndex], a
 	ld a, $0
@@ -1344,7 +1344,7 @@ SetNewsDownloadURL:
 	ld bc, $80
 	call CopyBytes
 	ld a, $5
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld de, w3_d100
 	ld bc, $e00
 	jr Function118b10
@@ -1608,13 +1608,13 @@ Function118ded:
 	ld a, [wcd38]
 	and a
 	jr z, .asm_118e03
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	farcall Function11b93b
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 .asm_118e03
 	jp BattleTowerRoomMenu_IncrementJumptable
@@ -1957,7 +1957,7 @@ Function119054:
 	and $1
 	jr z, .asm_11908a
 	ld a, $6
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld hl, wd002
 	ld a, [w3_d000]
 	ld c, a
@@ -1969,7 +1969,7 @@ Function119054:
 .asm_11908a
 	call CloseSRAM
 	ld a, $3 ; ???
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, BANK(s5_b1b3) ; aka BANK(s5_b1b4) and BANK(s5_aa7f) and BANK(s5_b2f3) and BANK(s5_b2f4)
 	call OpenSRAM
 	ld a, [wcd4f]
@@ -1980,24 +1980,24 @@ Function119054:
 	ld de, s5_aa7f
 	ld bc, 12
 	call CopyBytes
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
-	ld a, BANK(wd474) ; aka BANK(wd475)
-	ldh [rSVBK], a
-	ld a, [wd474]
+	ld a, BANK(wPlayerPrefecture) ; aka BANK(wPlayerPostalCode)
+	ldh [rWBK], a
+	ld a, [wPlayerPrefecture]
 	ld [s5_b2f3], a
-	ld hl, wd475
+	ld hl, wPlayerPostalCode
 	ld de, s5_b2f4
 	ld bc, 4
 	call CopyBytes
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseSRAM
 	jp BattleTowerRoomMenu_IncrementJumptable
 
 Function1190d0:
 	ld a, BANK(w3_d000)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [wcd57]
 	ld l, a
 	ld a, [wcd58]
@@ -2036,7 +2036,7 @@ Function1190ec:
 	and $1
 	jr z, .asm_11913e
 	ld a, BANK(w6_d000)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [w6_d000]
 	ld c, a
 	ld a, [w6_d000 + 1]
@@ -2047,7 +2047,7 @@ Function1190ec:
 
 .asm_11913e
 	ld a, BANK("Battle Tower RAM")
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseSRAM
 	ld hl, Text_ReceivedNews
 	call BattleTowerRoomMenu_SetMessage
@@ -2124,7 +2124,7 @@ Function1191ad:
 	push bc
 	ld c, $0
 	ld a, $5
-	ldh [rSVBK], a
+	ldh [rWBK], a
 .asm_1191b4
 	ld a, [hli]
 	ld [de], a
@@ -2138,14 +2138,14 @@ Function1191ad:
 	ld a, $da
 	call SetMobileErrorCode
 	ld a, BANK("Battle Tower RAM")
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	pop bc
 	scf
 	ret
 
 .asm_1191cc
 	ld a, BANK("Battle Tower RAM")
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	pop bc
 	and a
 	ret
@@ -2516,7 +2516,7 @@ Function119413:
 	and $1
 	jr z, .asm_119447
 	ld a, BANK(w6_d000)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [w6_d000]
 	ld c, a
 	ld a, [w6_d000 + 1]
@@ -2527,7 +2527,7 @@ Function119413:
 
 .asm_119447
 	ld a, BANK("Battle Tower RAM")
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call CloseSRAM
 	jp BattleTowerRoomMenu_IncrementJumptable
 
@@ -3163,13 +3163,13 @@ Function119800:
 	ld a, [wBattleTowerRoomMenuJumptableIndex]
 	push af
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call FadeToMenu
 	farcall Function10803d
 	call Function11a9ce
 	call RestartMapMusic
 	ld a, BANK("Battle Tower RAM")
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	pop af
 	ld [wBattleTowerRoomMenuJumptableIndex], a
 	pop af
@@ -3198,13 +3198,13 @@ Function11984e:
 	ld a, [wBattleTowerRoomMenuJumptableIndex]
 	push af
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call FadeToMenu
 	farcall MobileTradeAnimation_SendGivemonToGTS
 	call Function11a9ce
 	call RestartMapMusic
 	ld a, BANK("Battle Tower RAM")
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	pop af
 	ld [wBattleTowerRoomMenuJumptableIndex], a
 	pop af
@@ -3232,13 +3232,13 @@ Function11984e:
 	ld a, [wBattleTowerRoomMenuJumptableIndex]
 	push af
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call FadeToMenu
 	farcall MobileTradeAnimation_RetrieveGivemonFromGTS
 	call Function11a9ce
 	call RestartMapMusic
 	ld a, BANK("Battle Tower RAM")
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	pop af
 	ld [wBattleTowerRoomMenuJumptableIndex], a
 	pop af
@@ -3718,26 +3718,26 @@ Function119b6b:
 pushc ascii
 
 .decodeBase64Character
-	cp "+"
+	cp '+'
 	jr c, .asm_119c68
 	jr z, .asm_119c80
-	cp "/"
+	cp '/'
 	jr c, .asm_119c68
 	jr z, .asm_119c84
-	cp "0"
+	cp '0'
 	jr c, .asm_119c68
-	cp "9" + 1
+	cp '9' + 1
 	jr c, .asm_119c88
-	cp "="
+	cp '='
 	jr c, .asm_119c68
 	jr z, .asm_119c8c
-	cp "A"
+	cp 'A'
 	jr c, .asm_119c68
-	cp "Z" + 1
+	cp 'Z' + 1
 	jr c, .asm_119c8f
-	cp "a"
+	cp 'a'
 	jr c, .asm_119c68
-	cp "z" + 1
+	cp 'z' + 1
 	jr c, .asm_119c93
 
 popc
@@ -3867,33 +3867,33 @@ String_119d07:
 	db "   ▼@"
 
 Strings_L10ToL100:
-	db " N:10 @@" ; " L:10 @@"
-	db " N:20 @@" ; " L:20 @@"
-	db " N:30 @@" ; " L:30 @@"
-	db " N:40 @@" ; " L:40 @@"
-	db " N:50 @@" ; " L:50 @@"
-	db " N:60 @@" ; " L:60 @@"
-	db " N:70 @@" ; " L:70 @@"
-	db " N:80 @@" ; " L:80 @@"
-	db " N:90 @@" ; " L:90 @@"
-	db " N:100 @@" ; " L:100@@"
+	db " L:10 @@"
+	db " L:20 @@"
+	db " L:30 @@"
+	db " L:40 @@"
+	db " L:50 @@"
+	db " L:60 @@"
+	db " L:70 @@"
+	db " L:80 @@"
+	db " L:90 @@"
+	db " L:100@@"
 	db "SLUITEN@@" ; "CANCEL@@"
 
 Strings_Ll0ToL40:
-	db " N:10 @@" ; " L:10 @@"
-	db " N:20 @@" ; " L:20 @@"
-	db " N:30 @@" ; " L:30 @@"
-	db " N:40 @@" ; " L:40 @@"
+	db " L:10 @@"
+	db " L:20 @@"
+	db " L:30 @@"
+	db " L:40 @@"
 	db "SLUITEN@@" ; "CANCEL@@"
 
 BattleTowerCancelString: ; unreferenced
 	db "SLUITEN@" ; "CANCEL@@"
 
 BattleTower_LevelCheck:
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, BANK(wPartyMons)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [wcd4f]
 	ld c, 10
 	call SimpleMultiply
@@ -3920,7 +3920,7 @@ BattleTower_LevelCheck:
 	dec a
 	jr nz, .party_loop
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	and a
 	ret
 
@@ -3929,18 +3929,18 @@ BattleTower_LevelCheck:
 	ld a, $4
 	ld [wBattleTowerRoomMenuJumptableIndex], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	scf
 	ret
 
 BattleTower_UbersCheck:
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, [wcd4f]
 	cp 70 / 10
 	jr nc, .level_70_or_more
 	ld a, BANK(wPartyMons)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld hl, wPartyMon1Level
 	ld bc, PARTYMON_STRUCT_LENGTH
 	ld de, wPartySpecies
@@ -3968,7 +3968,7 @@ BattleTower_UbersCheck:
 	jr nz, .loop
 .level_70_or_more
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	and a
 	ret
 
@@ -3984,7 +3984,7 @@ BattleTower_UbersCheck:
 	ld a, $a
 	ld [wBattleTowerRoomMenuJumptableIndex], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	scf
 	ret
 
@@ -4034,7 +4034,7 @@ Function119e4f:
 	ld a, [de]
 	inc de
 pushc ascii
-	cp "\n"
+	cp '\n'
 popc
 	jr z, .newline
 	cp [hl]
@@ -4061,7 +4061,7 @@ popc
 	ld [de], a
 	inc de
 pushc ascii
-	cp "\r"
+	cp '\r'
 popc
 	jr z, .finish
 	dec c
@@ -4136,15 +4136,15 @@ Function119ec2:
 	ret
 
 BattleTowerRoomMenu2:
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	ld [wcd8c], a
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	call .RunJumptable
 
 	ld a, [wcd8c]
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, $1
 	ldh [hBGMapMode], a
 	ret
@@ -4311,24 +4311,24 @@ Function11a00e:
 
 .asm_11a039
 	ld a, BANK(w3_d800)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld hl, wc608
 	ld de, w3_d800
 	ld bc, 246
 	call CopyBytes
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call FadeToMenu
 	farcall Function11765d
 	call Function11a9ce
 	ld a, BANK(w3_d800)
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld hl, w3_d800
 	ld de, wc608
 	ld bc, 246
 	call CopyBytes
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	farcall Function115d99
 	ld c, $0
 	farcall Function115e18
@@ -4535,16 +4535,16 @@ BattleTowerRoomMenu2_PlaceYesNoMenu:
 BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ld hl, hJoyPressed
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .a_button
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	jr nz, .b_button
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .d_up
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .d_down
 .asm_11a24c
 	call Function11a9f0
@@ -4928,16 +4928,16 @@ Function11a4fe:
 Function11a536:
 	ld hl, hJoyPressed
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .asm_11a5a7
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	jr nz, .asm_11a5a2
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .asm_11a564
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .asm_11a583
 .asm_11a54d
 	ld a, [wBattleTowerRoomMenu2JumptableIndex]
@@ -5263,7 +5263,7 @@ BattleTowerRoomMenu_WriteMessage:
 
 Function11a90f:
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	call SpeechTextbox
 	ld a, $50
 	ld hl, wc320
@@ -5317,7 +5317,7 @@ Function11a90f:
 	ld hl, wc31a
 	inc [hl]
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 BattleTowerRoomMenu_WriteMessage_DoNothing:
 	ret
@@ -5415,102 +5415,102 @@ Function11a9f4: ; unreferenced
 	ret
 
 Text_SaveFileWillBeSent:
-	text "OPSLAANBESTAND wordt" ; "SAVE FILE will be"
+	text "OPSLAGBESTAND wordt" ; "SAVE FILE will be"
 	line "verzonden." ; "sent."
 	done
 
 Text_SentSaveFileReadingNews:
-	text "Sent SAVE FILE."
-	line "Reading NEWS…"
+	text "BESTAND verzonden." ; "Sent SAVE FILE."
+	line "NIEUWS lezen…" ; "Reading NEWS…"
 	done
 
 Text_ReadingNews:
-	text "Reading NEWS…"
+	text "NIEUWS lezen…" ; "Reading NEWS…"
 	done
 
 Text_ReceivedNews:
-	text "Received NEWS!"
+	text "NIEUWS ontvangen!" ; "Received NEWS!"
 	done
 
 Text_QuitReadingNews:
-	text "Quit reading NEWS?"
+	text "Stop NIEUWS lezen?" ; "Quit reading NEWS?"
 	done
 
 Text_CanceledSendingSaveFile: ; unreferenced
-	text "Canceled sending"
-	line "SAVE FILE."
+	text "BESTAND versturen" ; "Canceled sending"
+	line "geannuleerd." ; "SAVE FILE."
 	done
 
 Text_ReceivedOddEgg: ; unreferenced
-	text "ODD EGG"
-	line "was received!"
+	text "VREEMD EI" ; "ODD EGG"
+	line "ontvangen!" ; "was received!"
 	done
 
 Text_RegisteringRecord:
-	text "Registering your"
-	line "record…"
+	text "Record aan het" ; "Registering your"
+	line "registreren…" ; "record…"
 	done
 
 Text_BattleRoomVisitLimit: ; unreferenced
-	text "One visit per day"
-	line "per BATTLE ROOM!"
+	text "Eén bezoek per dag" ; "One visit per day"
+	line "per GEVECHTSKAMER!" ; "per BATTLE ROOM!"
 	done
 
 Text_PartyMonTopsThisLevel:
-	text "A party #MON"
-	line "tops this level."
+	text "Een #MON in je" ; "A party #MON"
+	line "team is te sterk." ; "tops this level."
 	done
 
 Text_UberRestriction:
-	text_ram wcd49
-	text " may go"
-	line "only to BATTLE"
+	text_ram wcd49 ; MaxLength MaxPokemonNameLength
+	text " mag" ; " may go"
+	line "alleen naar" ; "only to BATTLE"
 
-	para "ROOMS that are"
-	line "Lv.70 or higher."
+	para "GEVECHTSKAMERS van" ; "ROOMS that are"
+	line "Lv.70 of hoger." ; "Lv.70 or higher."
 	done
 
 Text_CancelBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Annuleer uitdaging" ; "Cancel your BATTLE"
+	line "GEVECHTSKAMER?" ; "ROOM challenge?"
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Exit GYM LEADER"
-	line "HONOR ROLL?"
+	text "Sluit GYMLEIDER-" ; "Exit GYM LEADER"
+	line "ERELIJST?" ; "HONOR ROLL?"
 	done
 
 Text_LinkingWithCenter: ; unreferenced
-	text "Linking with the"
-	line "CENTER…"
+	text "Linken met het" ; "Linking with the"
+	line "CENTRUM…" ; "CENTER…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:
-	text "What level do you"
-	line "want to challenge?"
+	text "Welk niveau wil je" ; "What level do you"
+	line "uitdagen?" ; "want to challenge?"
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Check BATTLE ROOM"
-	line "list by max level?"
+	text "GEVECHTSKAMERS van" ; "Check BATTLE ROOM"
+	line "max. level zien?" ; "list by max level?"
 	done
 
 Text_EnterWhichBattleRoom: ; unreferenced
-	text "Enter which"
-	line "BATTLE ROOM?"
+	text "Betreed welke" ; "Enter which"
+	line "GEVECHTSKAMER?" ; "BATTLE ROOM?"
 	done
 
 Text_WhichBattleRoom: ; unreferenced
-	text "Which BATTLE ROOM?"
+	text "Welke KAMER?" ; "Which BATTLE ROOM?"
 	done
 
 Text_ThisBattleRoomPleaseWait: ; unreferenced
-	text_ram wStringBuffer3
-	text "'s ROOM"
+	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
+	text "'s KAMER" ; "'s ROOM"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxTrainerNameLength
 	text "?"
-	cont "Please wait…"
+	cont "Even geduld…" ; "Please wait…"
 	done
 
 Function11ac3e:
@@ -5553,7 +5553,7 @@ Function11ac51:
 	call Function11b314
 	call Function11acb7
 	call Function11ad6e
-	ld a, 30 * SPRITEOAMSTRUCT_LENGTH
+	ld a, 30 * OBJ_SIZE
 	ld [wCurSpriteOAMAddr], a
 	farcall DoNextFrameForAllSprites
 	farcall HDMATransferTilemapAndAttrmap_Overworld
@@ -5705,16 +5705,16 @@ Function11adc4:
 	and a
 	ret z
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .asm_11ade6
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .asm_11aded
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .asm_11ae06
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	ret z
 	call PlayClickSFX
 	xor a
@@ -5818,16 +5818,16 @@ Function11ae98:
 	and a
 	ret z
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .asm_11aec1
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .asm_11aec8
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .asm_11aee1
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	ret z
 	call PlayClickSFX
 .asm_11aeb4
@@ -5908,16 +5908,16 @@ Function11af4e:
 	and a
 	ret z
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .asm_11af77
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .asm_11af7e
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .asm_11af97
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	ret z
 	call PlayClickSFX
 .asm_11af6a
@@ -6021,7 +6021,7 @@ MenuHeader_11afe8:
 
 String_11aff0:
 	db   "この　じょうけんで"
-	next "よろしいですか?@"
+	next "よろしいですか？@"
 
 String_11b003:
 	db   "こうかんを"
@@ -6060,18 +6060,18 @@ Function11b03d:
 	ld c, $1
 .loop
 	ld a, [hli]
-	cp "♂"
+	cp '♂'
 	jr z, .gender
-	cp "♀"
+	cp '♀'
 	jr z, .gender
-	cp "@"
+	cp '@'
 	jr z, .done
 	inc c
 	jr .loop
 
 .gender
 	dec hl
-	ld a, "@"
+	ld a, '@'
 	ld [hli], a
 
 .done
@@ -6192,10 +6192,10 @@ Function11b099:
 Function11b0ff:
 	ld hl, hJoyPressed
 	ld a, [hl]
-	and B_BUTTON
+	and PAD_B
 	jr nz, .asm_11b141
 	ld a, [hl]
-	and A_BUTTON
+	and PAD_A
 	jr nz, .asm_11b131
 	call Function11b175
 	jr nc, .asm_11b125
@@ -6274,19 +6274,19 @@ Function11b175:
 	ld e, a
 	ld hl, hJoyLast
 	ld a, [hl]
-	and D_UP
+	and PAD_UP
 	jr nz, .asm_11b19a
 	ld a, [hl]
-	and D_DOWN
+	and PAD_DOWN
 	jr nz, .asm_11b1ae
 	ld a, d
 	cp e
 	jr nc, .asm_11b1ed
 	ld a, [hl]
-	and D_LEFT
+	and PAD_LEFT
 	jr nz, .asm_11b1c6
 	ld a, [hl]
-	and D_RIGHT
+	and PAD_RIGHT
 	jr nz, .asm_11b1d8
 	jr .asm_11b1ed
 
@@ -6375,7 +6375,7 @@ Function11b175:
 FillScreenWithTile32: ; unreferenced
 	hlcoord 0, 0
 	ld a, $32
-	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
+	ld bc, SCREEN_AREA
 	call ByteFill
 	ret
 
@@ -6548,10 +6548,10 @@ Function11b295:
 	ret
 
 String_11b2fe: ; unreferenced
-	db "あげる#@"
+	db "あげる<POKEMON>@"
 
 String_11b303: ; unreferenced
-	db "ほしい#@"
+	db "ほしい<POKEMON>@"
 
 String_11b308:
 	db "　　　　　@"
@@ -7018,7 +7018,7 @@ Function11b570:
 
 .SaveData:
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 	ld hl, w3_d800
 	ld de, wc608
@@ -7026,7 +7026,7 @@ Function11b570:
 	call CopyBytes
 
 	ld a, $1
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, BANK(s5_a800)
 	call OpenSRAM
 
@@ -7129,14 +7129,14 @@ Function11b66d:
 	ld a, [wScriptVar]
 	and a
 	jr nz, .asm_11b6b0
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, [w3_d090]
 	ld b, a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, b
 	and a
 	jr z, .asm_11b691
@@ -7152,14 +7152,14 @@ Function11b66d:
 	jr z, .asm_11b6b0
 	xor a
 	ld [wScriptVar], a
-	ldh a, [rSVBK]
+	ldh a, [rWBK]
 	push af
 	ld a, $3
-	ldh [rSVBK], a
+	ldh [rWBK], a
 	ld a, $2
 	ld [w3_d090], a
 	pop af
-	ldh [rSVBK], a
+	ldh [rWBK], a
 
 .asm_11b6b0
 	jp MobileIncJumptableIndex
@@ -7314,7 +7314,7 @@ Function11b7e5:
 	ld de, wOTTrademonOTName
 	ld bc, 5
 	call CopyBytes
-	ld a, "@"
+	ld a, '@'
 	ld [de], a
 	ld a, [wMobileMonID]
 	ld [wOTTrademonID], a
@@ -7564,7 +7564,7 @@ AddMobileMonToParty:
 	ld h, a
 	ld bc, MON_NAME_LENGTH - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, '@'
 	ld [de], a
 
 	ld hl, wPartyMonNicknames
@@ -7583,7 +7583,7 @@ AddMobileMonToParty:
 	ld h, a
 	ld bc, MON_NAME_LENGTH - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, '@'
 	ld [de], a
 
 	ld hl, sPartyMail

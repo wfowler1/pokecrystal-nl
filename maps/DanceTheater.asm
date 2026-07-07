@@ -187,10 +187,9 @@ KimonoGirlZukiBeatenText:
 	done
 
 KimonoGirlZukiAfterBattleText:
-	text "Ik stop elke" ; "I put a different"
-	line "maand een nieuwe" ; "flower in my bar-"
-	cont "bloem in mijn" ; "rette every month."
-	cont "haarspeld." ;
+	text "Ik stop elke maand" ; "I put a different"
+	line "een nieuwe bloem" ; "flower in my bar-"
+	cont "in mijn haarspeld." ; "rette every month."
 	done
 
 KimonoGirlKuniSeenText:
@@ -220,9 +219,8 @@ KimonoGirlMikiSeenText:
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, jij bent" ; "Ooh, you're good"
-	line "ook goed met" ; "at #MON too."
-	cont "#MON." ; 
+	text "Ooh, jij bent ook" ; "Ooh, you're good"
+	line "goed met #MON." ; "at #MON too."
 	done
 
 KimonoGirlMikiAfterBattleText:

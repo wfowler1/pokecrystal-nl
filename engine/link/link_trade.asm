@@ -11,7 +11,7 @@ __LoadTradeScreenBorderGFX:
 LoadMobileTradeBorderTilemap:
 	ld hl, MobileTradeBorderTilemap
 	decoord 0, 0
-	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
+	ld bc, SCREEN_AREA
 	call CopyBytes
 	ret
 
@@ -88,7 +88,7 @@ _LinkTextbox:
 	push hl
 	ld a, $33
 	ld [hli], a
-	ld a, " "
+	ld a, ' '
 	call .PlaceRow
 	ld [hl], $34
 	pop hl
@@ -189,10 +189,10 @@ LinkTradeMenu:
 	push bc
 	push af
 	ldh a, [hJoyLast]
-	and D_PAD
+	and PAD_CTRL_PAD
 	ld b, a
 	ldh a, [hJoyPressed]
-	and BUTTONS
+	and PAD_BUTTONS
 	or b
 	ld b, a
 	pop af

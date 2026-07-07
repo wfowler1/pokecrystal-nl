@@ -453,7 +453,7 @@ RoarDescription:
 
 SingDescription:
 	db   "Kan doelwit in" ; "May cause the foe"
-	next "slaap bengen.@" ; "to fall asleep.@"
+	next "slaap brengen.@" ; "to fall asleep.@"
 
 SupersonicDescription:
 	db   "Geluidsgolven die" ; "Sound waves that"
@@ -468,7 +468,7 @@ DisableDescription:
 	next "cente aanval uit.@" ; "most recent move.@"
 
 AcidDescription:
-	db   "Aanval die VERD." ; "An attack that may"
+	db   "Aanval die AFWEER" ; "An attack that may"
 	next "kan verlagen.@" ; "lower DEFENSE.@"
 
 EmberDescription:
@@ -716,7 +716,7 @@ BarrierDescription:
 	next "flink.@" ; "user's DEFENSE.@"
 
 LightScreenDescription:
-	db   "Hogere SPCR.VERD." ; "Ups SPCL.DEF with"
+	db   "Hogere SPCL.AFW" ; "Ups SPCL.DEF with"
 	next "met lichtmuur.@" ; "a wall of light.@"
 
 HazeDescription:
@@ -961,7 +961,7 @@ SnoreDescription:
 
 CurseDescription:
 	db   "Werkt anders voor" ; "Works differently"
-	next "spook-types.@" ; "for ghost-types.@"
+	next "geest-types.@" ; "for ghost-types.@"
 
 FlailDescription:
 	db   "Sterker als LP van" ; "Stronger if the"

@@ -154,10 +154,10 @@ INCLUDE "data/events/unown_walls.asm"
 
 _DisplayUnownWords_FillAttr:
 	ld a, [de]
-	cp "@"
+	cp '@'
 	ret z
-	cp "Y"
-	ld a, VRAM_BANK_1 | PAL_BG_BROWN
+	cp 'Y'
+	ld a, OAM_BANK1 | PAL_BG_BROWN
 	jr c, .got_pal
 	ld a, PAL_BG_BROWN
 .got_pal
@@ -184,7 +184,7 @@ _DisplayUnownWords_CopyWord:
 	push de
 .word_loop
 	ld a, [de]
-	cp "@"
+	cp '@'
 	jr z, .word_done
 	ld c, a
 	call .ConvertChar
@@ -201,11 +201,11 @@ _DisplayUnownWords_CopyWord:
 .ConvertChar:
 	push hl
 	ld a, c
-	cp "Y"
+	cp 'Y'
 	jr z, .YChar
-	cp "Z"
+	cp 'Z'
 	jr z, .ZChar
-	cp "-"
+	cp '-'
 	jr z, .DashChar
 	ld [hli], a
 	inc a

@@ -65,7 +65,7 @@ TiffanyGenericText:
 	para "Drijf ze niet tot" ; "Don't push them"
 	line "het uiterste." ; "too hard."
 
-	para "mijn @" ; "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "lief en levendig," ; "cute and lively"

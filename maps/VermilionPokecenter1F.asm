@@ -37,7 +37,7 @@ VermilionPokecenter1FBugCatcherScript:
 VermilionPokecenter1FFishingGuruText:
 	text "Er ligt een sla-" ; "A sleeping #MON"
 	line "pende #MON voor" ; "is lying in front"
-	cont "DIGLETT'S GROT." ; "of DIGLETT'S CAVE."
+	cont "DIGLETT-GROT." ; "of DIGLETT'S CAVE."
 
 	para "Een goede kans om" ; "It's a fantastic"
 	line "die te vangen," ; "opportunity to get"
@@ -51,7 +51,7 @@ VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
 	line "slapende #MON" ; "sleeping #MON"
 
 	para "voor de ingang van" ; "lying in front of"
-	line "DIGLETT GROT," ; "DIGLETT'S CAVE."
+	line "DIGLETT-GROT," ; "DIGLETT'S CAVE."
 
 	para "maar het lijkt te" ; "But it seems to"
 	line "zijn verdwenen." ; "have disappeared."

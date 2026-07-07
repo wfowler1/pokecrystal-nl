@@ -285,7 +285,7 @@ _WhichSidePutAwayText::
 	done
 
 _PutAwayTheDecoText::
-	text "Verwijdert de" ; "Put away the"
+	text "Verwijdert" ; "Put away the"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxDecorationNameLength
 	text "."
@@ -579,7 +579,7 @@ _OPT_WowImpressivelyText::
 
 _OPT_AlmostPoisonouslyText::
 	text_start
-	line "bijja giftig" ; "almost poisonously"
+	line "bijna giftig" ; "almost poisonously"
 	done
 
 _OPT_SensuallyText::
@@ -669,7 +669,7 @@ _OPT_ExcitingText::
 
 _OPT_GroovyText::
 	text_start
-	line "groovy!"
+	line "gaaf!" ; "groovy!"
 	done
 
 _OPT_InspiringText::

@@ -189,7 +189,7 @@ _ContainedMoveText::
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text " is"
-	line "not compatibel" ; "not compatible"
+	line "niet compatibel" ; "not compatible"
 	cont "met @" ; "with @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
@@ -370,7 +370,7 @@ _UseDigText::
 
 _UseEscapeRopeText::
 	text "<PLAYER> gebruikte" ; "<PLAYER> used an"
-	line "ONTSNAPSTOUW." ; "ESCAPE ROPE."
+	line "ONTSNAPTOUW." ; "ESCAPE ROPE."
 	done
 
 _CantUseDigText::
@@ -386,8 +386,6 @@ _TeleportReturnText::
 _CantUseTeleportText::
 	text "Kun je hier niet" ; "Can't use that"
 	line "gebruiken." ; "here."
-
-	para ""
 	done
 
 _AlreadyUsingStrengthText::
@@ -421,8 +419,9 @@ _BouldersMoveText::
 	done
 
 _BouldersMayMoveText::
-	text "A #MON zou dit" ; "A #MON may be"
-	line "kunnen bewegen." ; "able to move this."
+	text "Een #MON zou" ; "A #MON may be"
+	line "dit kunnen" ; "able to move this."
+	cont "bewegen."
 	done
 
 _UseWhirlpoolText::
@@ -755,7 +754,7 @@ _UsedMove2Text::
 	line "deed @" ; "used @"
 	text_end
 
-_UsedInsteadText::
+_UsedInsteadText:: ; PreviousInstruction line
 	text "in plaats" ; "instead,"
 	cont "van, @" ; "@"
 	text_end

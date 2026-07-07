@@ -163,12 +163,12 @@ CeladonGameCornerPokefanMText:
 	done
 
 CeladonGameCornerTeacherText:
-if DEF(_CRYSTAL_AU)
-	text "The weather"
-	line "outside is very"
-	cont "nice."
-	done
-else
+;if DEF(_CRYSTAL_AU)
+;	text "The weather"
+;	line "outside is very"
+;	cont "nice."
+;	done
+;else
 	text "Deze spelautomaat" ; "It's this machine"
 	line "wil ik." ; "I want."
 
@@ -178,15 +178,15 @@ else
 	para "daag zal hij" ; "should pay out"
 	line "vast uitbetalen." ; "today."
 	done
-endc
+;endc
 
 CeladonGameCornerFishingGuruText:
-if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
-	done
-else
+;if DEF(_CRYSTAL_AU)
+;	text "This machine looks"
+;	line "the same as the"
+;	cont "others."
+;	done
+;else
 	text "Ik denk dat deze" ; "I think this slot"
 	line "spelautomaat zal" ; "machine will pay"
 	cont "uitbetalen…" ; "out…"
@@ -194,19 +194,19 @@ else
 	para "De winkansen ver-" ; "The odds vary"
 	line "schillen nogal.";  "among machines."
 	done
-endc
+;endc
 
 CeladonGameCornerFisherText1:
-if DEF(_CRYSTAL_AU)
-	text "Whoa!"
+;if DEF(_CRYSTAL_AU)
+;	text "Whoa!"
 
-	para "What? You want to"
-	line "play this machine?"
+;	para "What? You want to"
+;	line "play this machine?"
 
-	para "Here, take my"
-	line "coins."
-	done
-else
+;	para "Here, take my"
+;	line "coins."
+;	done
+;else
 	text "Gahahaha!" ; "Gahahaha!"
 
 	para "De munten blijven" ; "The coins just"
@@ -218,7 +218,7 @@ else
 	para "Ik zal mijn geluk" ; "I'll share my luck"
 	line "met je delen!" ; "with you!"
 	done
-endc
+;endc
 
 CeladonGameCornerFisherText2:
 	text "Gahahaha!" ; "Gahahaha!"
@@ -240,11 +240,11 @@ CeladonGameCornerFisherNoCoinCaseText:
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-if DEF(_CRYSTAL_AU)
-	text "Your COIN CASE is"
-	line "full."
-	done
-else
+;if DEF(_CRYSTAL_AU)
+;	text "Your COIN CASE is"
+;	line "full."
+;	done
+;else
 	text "Hey kind, je GELD-" ; "Hey, your COIN"
 	line "KISTJE zit vol." ; "CASE is full, kid."
 
@@ -252,18 +252,18 @@ else
 	line "de hele tijd aan" ; "a winning streak"
 	cont "het winnen." ; "too."
 	done
-endc
+;endc
 
 CeladonGymGuideText:
 	text "He! KAMPIOEN in" ; "Hey! CHAMP in"
 	line "wording!" ; "making!"
 
 	para "Speel jij ook met" ; "Are you playing"
-if DEF(_CRYSTAL_AU)
-	line "too?"
-else
+;if DEF(_CRYSTAL_AU)
+;	line "too?"
+;else
 	line "de spelautomaten?" ; "the slots too?"
-endc
+;endc
 
 	para "Ik wil genoeg" ; "I'm trying to get"
 	line "munten hebben voor" ; "enough coins for a"
@@ -274,19 +274,19 @@ endc
 	done
 
 CeladonGameCornerGrampsText:
-if DEF(_CRYSTAL_AU)
-	text "Is there any"
-	line "difference between"
-	cont "these lines?"
-	done
-else
+;if DEF(_CRYSTAL_AU)
+;	text "Is there any"
+;	line "difference between"
+;	cont "these lines?"
+;	done
+;else
 	text "Hm. De kansen zijn" ; "Hmmm… The odds are"
 	line "vast beter bij" ; "surely better for"
 
 	para "PIKACHU's baan," ; "PIKACHU's line,"
 	line "maar… Wat nu?" ; "but… What to do?"
 	done
-endc
+;endc
 
 CeladonGameCornerPoster1Text:
 	text "He!" ; "Hey!"

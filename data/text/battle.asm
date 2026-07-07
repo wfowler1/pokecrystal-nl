@@ -197,12 +197,12 @@ SentSomeToMomText:
 
 SentHalfToMomText:
 	text "Helft naar MAM" ; "Sent half to MOM!"
-	cont "gestuurd!"
+	line "gestuurd!"
 	prompt
 
 SentAllToMomText:
 	text "Alles naar MAM" ; "Sent all to MOM!"
-	cont "gestuurd!"
+	line "gestuurd!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced

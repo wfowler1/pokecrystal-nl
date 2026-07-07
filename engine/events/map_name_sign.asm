@@ -161,9 +161,9 @@ PlaceMapNameCenterAlign:
 	ld hl, wStringBuffer1
 .loop
 	ld a, [hli]
-	cp "@"
+	cp '@'
 	jr z, .stop
-	cp "<WBR>"
+	cp '<WBR>'
 	jr z, .loop
 	inc c
 	jr .loop
@@ -178,7 +178,7 @@ InitMapSignAttrmap:
 	inc b
 	inc c
 	inc c
-	ld a, PAL_BG_TEXT | PRIORITY
+	ld a, PAL_BG_TEXT | OAM_PRIO
 .loop
 	push bc
 	push hl

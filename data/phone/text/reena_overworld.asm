@@ -26,7 +26,7 @@ ReenaNumberAcceptedText:
 	line "omdat je won!" ; "about beating me!"
 
 	para "Een foutje, niks" ; "It was a fluke!"
-	cont "meer!"
+	line "meer!"
 	done
 
 ReenaNumberDeclinedText:

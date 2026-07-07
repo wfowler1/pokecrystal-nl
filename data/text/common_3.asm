@@ -918,7 +918,8 @@ _SpaceSpaceColonText:: ; unreferenced
 _PasswordAskResetText::
 	text "Wachtwoord OK." ; "Password OK."
 	line "Kies VERDER &" ; "Select CONTINUE &"
-	cont "reset instellingen" ; "reset settings."
+	cont "reset" ; "reset settings."
+	cont "instellingen."
 	prompt
 
 _PasswordWrongText::

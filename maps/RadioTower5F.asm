@@ -214,7 +214,7 @@ FakeDirectorTextBefore2:
 	cont "verstopt?" ; 
 
 	para "Ja hoor, ik zal" ; "Sure, I'll tell"
-	line "het zeggen. Al je" ; "you. But only if"
+	line "het zeggen. Als je" ; "you. But only if"
 	cont "mij verslaat!" ; "you can beat me!"
 	done
 
@@ -331,7 +331,7 @@ RadioTower5FDirectorThankYouText:
 	line "hebben #MON" ; "actions have saved"
 
 	para "wereldwijd gered." ; "#MON nation-"
-	line "" ; "wide."
+	; line "wide."
 
 	para "Ik weet dat het" ; "I know it's not"
 	line "niet veel is," ; "much, but please"

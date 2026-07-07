@@ -293,7 +293,7 @@ GruntF1AfterBattleText:
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "Een SLOWOKE met" ; "A SLOWPOKE with"
+	text "Een SLOWPOKE met" ; "A SLOWPOKE with"
 	line "afgesneden staart…" ; "its TAIL cut off…"
 
 	para "Huh? Hij heeft een" ; "Huh? It has MAIL."
@@ -314,7 +314,7 @@ SlowpokeWellB1FSlowpokeMailText:
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "Een SLOWOKE met" ; "A SLOWPOKE with"
+	text "Een SLOWPOKE met" ; "A SLOWPOKE with"
 	line "afgesneden staart…" ; "its TAIL cut off…"
 	done
 

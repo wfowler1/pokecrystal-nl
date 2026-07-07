@@ -181,13 +181,13 @@ CreditsStringsPointers:
 .KazuyoshiOsawa:      db "  KAZUYOSHI OSAWA@"
 .KimikoNakamichi:     db "  KIMIKO NAKAMICHI@"
 .Staff:               db "    STAF #MON"              ; "      #MON"                 ; "ポケットモンスター"
-                    next "   KRISTAL-EDITIE@"         ;"  CRYSTAL VERSION"           ; "　　クりスタル　バージョン"
+                    next "   KRISTAL-EDITIE@"         ; "  CRYSTAL VERSION"          ; "　　クりスタル　バージョン"
                     ; next "       STAFF@"            ; "　　　　スタッフ@"
 .Director:            db "     REGISSEUR@"            ; "      DIRECTOR@"            ; "エグゼクティブ　ディレクター@"
 .CoDirector:          db "    CO-REGISSEUR@"          ; "    CO-DIRECTOR@"           ; "ディレクター@"
 .Programmers:         db "    PROGRAMMEURS@"          ; "    PROGRAMMERS@"           ; "プログラム@"
 .GraphicsDirector:    db " VISUEEL REGISSEUR@"        ; " GRAPHICS DIRECTOR@"        ; "グラフィック　ディレクター@"
-.MonsterDesign:       db "   MONSTERONTWERP@"         ; "   MONSTER DESIGN@"         ; "#　デザイン@"
+.MonsterDesign:       db "   MONSTERONTWERP@"         ; "   MONSTER DESIGN@"         ; "<POKEMON>　デザイン@"
 .GraphicsDesign:      db "   VISUEEL ONTWERP@"        ; "  GRAPHICS DESIGN@"         ; "グラフィック　デザイン@"
 .Music:               db "      MUZIEK@"              ; "       MUSIC@"              ; "おんがく@"
 .SoundEffects:        db "   GELUIDSEFFECTEN@"        ; "   SOUND EFFECTS@"          ; "サウンド　エフェクト@"
@@ -202,7 +202,7 @@ CreditsStringsPointers:
 .SpecialThanks:       db "    MET DANK AAN@"          ; "   SPECIAL THANKS@"         ; "スぺシャルサンクス@"
 .Producers:           db "     PRODUCENTEN@"          ; "     PRODUCERS@"            ; "プロデューサー@"
 .ExecutiveProducer:   db "    HOOFDPRODUCER@"         ; " EXECUTIVE PRODUCER@"       ; "エグゼクティブ　プロデューサー@"
-.PokemonAnimation:    db "  #MON-ANIMATIE@"           ; " #MON ANIMATION@"           ; "#　アニメーション@"
+.PokemonAnimation:    db "  #MON-ANIMATIE@"           ; " #MON ANIMATION@"           ; "<POKEMON>　アニメーション@"
 .PokedexText:         db "    #DEX-TEKST@"            ; "    #DEX TEXT@"             ; "ずかん　テキスト@"
 .MobilePrjLeader:     db " MOBILE PRJ. LEADER@"       ; "モバイルプロジェクト　りーダー@"
 .Vertalers:           db "      VERTALERS@"           ; " MOBILE SYSTEM AD.@"        ; "モバイル　システムアドバイザー@"
@@ -214,10 +214,4 @@ CreditsStringsPointers:
 .PaadTesting:         db "     PAAD-TESTEN@"          ; "    PAAD TESTING@"
 
 .Copyright:
-	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o
-	db   $60,$61,$62,$63,$64,$65,$66,$67,$68,$69,$6a,$6b,$6c
-	;    (C) 1  9  9  5 - 2  0  0  1    C  r  e  a  t  u  r  e  s     i  n  c .
-	next $60,$61,$62,$63,$64,$65,$66,$6d,$6e,$6f,$70,$71,$72,  $7a,$7b,$7c
-	;    (C) 1  9  9  5 - 2  0  0  1  G  A  M  E  F  R  E  A  K     i  n  c .
-	next $60,$61,$62,$63,$64,$65,$66,$73,$74,$75,$76,$77,$78,$79,  $7a,$7b,$7c
-	db "@"
+INCLUDE "data/copyright.asm"

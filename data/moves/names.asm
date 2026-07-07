@@ -1,5 +1,5 @@
 MoveNames::
-	list_start
+	list_start MOVE_NAME_LENGTH - 1
 	li "STAMP" ; "POUND"
 	li "KARATESLAG" ; "KARATE CHOP"
 	li "DUBBELSLAG" ; "DOUBLESLAP"

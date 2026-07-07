@@ -73,7 +73,7 @@ EcruteakItemfinderTrueSpiritText:
 	line "de ware aard" ; "stand the true"
 
 	para "van avontuur." ; "spirit of adven-"
-	line "" ; "ture."
+	; line "ture."
 
 	para "Daar hou ik van!" ; "I like that! Take"
 	line "Neem dit mee." ; "this with you."

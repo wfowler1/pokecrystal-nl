@@ -189,13 +189,13 @@ EggStatsJoypad:
 	ret
 
 .check
-	bit A_BUTTON_F, a
+	bit B_PAD_A, a
 	jr nz, .quit
 if DEF(_DEBUG)
-	cp START
+	cp PAD_START
 	jr z, .hatch
 endc
-	and D_DOWN | D_UP | A_BUTTON | B_BUTTON
+	and PAD_DOWN | PAD_UP | PAD_A | PAD_B
 	jp StatsScreen_JoypadAction
 
 .quit
@@ -253,7 +253,7 @@ MonStatsJoypad:
 	ret
 
 .next
-	and D_DOWN | D_UP | D_LEFT | D_RIGHT | A_BUTTON | B_BUTTON
+	and PAD_CTRL_PAD | PAD_A | PAD_B
 	jp StatsScreen_JoypadAction
 
 StatsScreenWaitCry:
@@ -303,7 +303,7 @@ StatsScreen_GetJoypad:
 	pop de
 	pop hl
 	ld a, [wMenuJoypad]
-	and D_DOWN | D_UP
+	and PAD_DOWN | PAD_UP
 	jr nz, .set_carry
 	ld a, [wMenuJoypad]
 	jr .clear_carry
@@ -324,17 +324,17 @@ StatsScreen_JoypadAction:
 	maskbits NUM_STAT_PAGES
 	ld c, a
 	pop af
-	bit B_BUTTON_F, a
+	bit B_PAD_B, a
 	jp nz, .b_button
-	bit D_LEFT_F, a
+	bit B_PAD_LEFT, a
 	jr nz, .d_left
-	bit D_RIGHT_F, a
+	bit B_PAD_RIGHT, a
 	jr nz, .d_right
-	bit A_BUTTON_F, a
+	bit B_PAD_A, a
 	jr nz, .a_button
-	bit D_UP_F, a
+	bit B_PAD_UP, a
 	jr nz, .d_up
-	bit D_DOWN_F, a
+	bit B_PAD_DOWN, a
 	jr nz, .d_down
 	jr .done
 
@@ -425,9 +425,9 @@ StatsScreen_InitUpperHalf:
 	ld [wTextDecimalByte], a
 	ld [wCurSpecies], a
 	hlcoord 8, 0
-	ld [hl], "№"
+	ld [hl], '№'
 	inc hl
-	ld [hl], "."
+	ld [hl], '.'
 	inc hl
 	hlcoord 10, 0
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
@@ -443,7 +443,7 @@ StatsScreen_InitUpperHalf:
 	hlcoord 18, 0
 	call .PlaceGenderChar
 	hlcoord 9, 4
-	ld a, "/"
+	ld a, '/'
 	ld [hli], a
 	ld a, [wBaseDexNo]
 	ld [wNamedObjectIndex], a
@@ -476,9 +476,9 @@ StatsScreen_InitUpperHalf:
 	farcall GetGender
 	pop hl
 	ret c
-	ld a, "♂"
+	ld a, '♂'
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, '♀'
 .got_gender
 	ld [hl], a
 	ret
@@ -514,9 +514,9 @@ StatsScreen_PlaceHorizontalDivider:
 
 StatsScreen_PlacePageSwitchArrows:
 	hlcoord 12, 6
-	ld [hl], "◀"
+	ld [hl], '◀'
 	hlcoord 19, 6
-	ld [hl], "▶"
+	ld [hl], '▶'
 	ret
 
 StatsScreen_PlaceShinyIcon:
@@ -524,7 +524,7 @@ StatsScreen_PlaceShinyIcon:
 	farcall CheckShininess
 	ret nc
 	hlcoord 19, 0
-	ld [hl], "⁂"
+	ld [hl], '⁂'
 	ret
 
 StatsScreen_LoadGFX:
@@ -599,7 +599,7 @@ LoadPinkPage:
 	and $f0
 	jr z, .NotImmuneToPkrs
 	hlcoord 8, 8
-	ld [hl], "." ; Pokérus immunity dot
+	ld [hl], '.' ; Pokérus immunity dot
 .NotImmuneToPkrs:
 	ld a, [wMonType]
 	cp BOXMON
@@ -808,9 +808,9 @@ LoadBluePage:
 	cp $7f
 	jr z, .done
 	and CAUGHT_GENDER_MASK
-	ld a, "♂"
+	ld a, '♂'
 	jr z, .got_gender
-	ld a, "♀"
+	ld a, '♀'
 .got_gender
 	hlcoord 9, 13
 	ld [hl], a
@@ -980,7 +980,7 @@ StatsScreen_LoadTextboxSpaceGFX:
 	ldh [rVBK], a
 	ld de, TextboxSpaceGFX
 	lb bc, BANK(TextboxSpaceGFX), 1
-	ld hl, vTiles2 tile " "
+	ld hl, vTiles5 tile ' '
 	call Get2bpp
 	pop af
 	ldh [rVBK], a
