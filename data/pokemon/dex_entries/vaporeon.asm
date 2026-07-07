@@ -1,4 +1,4 @@
-	db "BUBBELJET@" ; "BUBBLE JET@" ; species name
+	db "BUBBELJET@" ; "BUBBLE JET@" species name
 	db 10 ; height
 	dw 290 ; weight
 

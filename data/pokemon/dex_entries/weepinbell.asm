@@ -1,4 +1,4 @@
-	db "VLIEGVANGR@" ; "FLYCATCHER@" ; species name
+	db "VLIEGVANGR@" ; "FLYCATCHER@" species name
 	db 10 ; height
 	dw 64 ; weight
 

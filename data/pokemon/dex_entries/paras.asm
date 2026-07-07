@@ -1,4 +1,4 @@
-	db "PADDESTOEL@" ; species name
+	db "PADDESTOEL@" ; "MUSHROOM@" species name
 	db 3 ; height
 	dw 54 ; weight
 

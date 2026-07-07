@@ -1,4 +1,4 @@
-	db "STEKELS@" ; species name
+	db "STEKELS@" ; "SPIKES@" species name
 	db 10 ; height
 	dw 1150 ; weight
 

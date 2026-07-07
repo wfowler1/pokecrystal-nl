@@ -1,4 +1,4 @@
-	db "SUPERSTERK@" ; species name
+	db "SUPERSTERK@" ; "SUPERPOWER@" species name
 	db 8 ; height
 	dw 195 ; weight
 

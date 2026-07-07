@@ -1,4 +1,4 @@
-	db "TRIOVOGEL@" ; species name
+	db "TRIOVOGEL@" ; "TRIPLEBIRD@" species name
 	db 18 ; height
 	dw 852 ; weight
 

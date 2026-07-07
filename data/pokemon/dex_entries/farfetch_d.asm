@@ -1,4 +1,4 @@
-	db "WILDE EEND@" ; species name
+	db "WILDE EEND@" ; "WILD DUCK@" species name
 	db 8 ; height
 	dw 150 ; weight
 

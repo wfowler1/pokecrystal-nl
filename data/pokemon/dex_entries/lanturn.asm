@@ -1,4 +1,4 @@
-	db "LICHT@" ; species name
+	db "LICHT@" ; "LIGHT@" species name
 	db 12 ; height
 	dw 225 ; weight
 

@@ -1,4 +1,4 @@
-	db "AURORA@" ; species name
+	db "AURORA@" ; "AURORA@" species name
 	db 20 ; height
 	dw 1870 ; weight
 

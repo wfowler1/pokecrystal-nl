@@ -1,4 +1,4 @@
-	db "VARKENSAAP@" ; species name
+	db "VARKENSAAP@" ; "PIG MONKEY@" species name
 	db 10 ; height
 	dw 320 ; weight
 

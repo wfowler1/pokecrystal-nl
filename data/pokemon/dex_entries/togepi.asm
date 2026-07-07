@@ -1,4 +1,4 @@
-	db "STEKELBAL@" ; "SPIKE BALL@" ; species name
+	db "STEKELBAL@" ; "SPIKE BALL@" species name
 	db 3 ; height
 	dw 15 ; weight
 

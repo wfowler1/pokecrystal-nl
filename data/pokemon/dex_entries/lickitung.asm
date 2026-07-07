@@ -1,4 +1,4 @@
-	db "LIKKER@" ; species name
+	db "LIKKER@" ; "LICKING@" species name
 	db 12 ; height
 	dw 655 ; weight
 

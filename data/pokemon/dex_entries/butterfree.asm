@@ -1,4 +1,4 @@
-	db "VLINDER@" ; species name
+	db "VLINDER@" ; "BUTTERFLY@" species name
 	db 11 ; height
 	dw 320 ; weight
 

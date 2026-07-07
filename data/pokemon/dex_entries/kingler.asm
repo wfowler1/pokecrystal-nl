@@ -1,4 +1,4 @@
-	db "TANG@" ; species name
+	db "TANG@" ; "PINCER@" species name
 	db 13 ; height
 	dw 600 ; weight
 

@@ -1,4 +1,4 @@
-	db "SLAPER@" ; species name
+	db "SLAPER@" ; "SLEEPING@" species name
 	db 21 ; height
 	dw 4600 ; weight
 

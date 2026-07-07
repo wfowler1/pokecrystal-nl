@@ -1,4 +1,4 @@
-	db "OVERWINTER@" ; "HIBERNANT@" ; species name
+	db "OVERWINTER@" ; "HIBERNANT@" species name
 	db 18 ; height
 	dw 1258 ; weight
 

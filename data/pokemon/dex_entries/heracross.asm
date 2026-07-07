@@ -1,4 +1,4 @@
-	db "ENKELHOORN@" ; species name
+	db "ENKELHOORN@" ; "SINGLEHORN@" species name
 	db 15 ; height
 	dw 540 ; weight
 

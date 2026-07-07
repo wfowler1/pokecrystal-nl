@@ -1,4 +1,4 @@
-	db "GAS@" ; species name
+	db "GAS@" ; "GAS@" species name
 	db 13 ; height
 	dw 1 ; weight
 

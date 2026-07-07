@@ -1,4 +1,4 @@
-	db "MOL@" ; species name
+	db "MOL@" ; "MOLE@" species name
 	db 7 ; height
 	dw 333 ; weight
 

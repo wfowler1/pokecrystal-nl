@@ -1,4 +1,4 @@
-	db "BALLON@" ; species name
+	db "BALLON@" ; "BALLOON@" species name
 	db 5 ; height
 	dw 55 ; weight
 

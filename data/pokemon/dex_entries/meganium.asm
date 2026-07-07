@@ -1,4 +1,4 @@
-	db "KRUID@" ; species name
+	db "KRUID@" ; "HERB@" species name
 	db 18 ; height
 	dw 1005 ; weight
 

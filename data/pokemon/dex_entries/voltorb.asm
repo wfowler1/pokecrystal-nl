@@ -1,4 +1,4 @@
-	db "BAL@" ; "BALL@" ; species name
+	db "BAL@" ; "BALL@" species name
 	db 5 ; height
 	dw 104 ; weight
 

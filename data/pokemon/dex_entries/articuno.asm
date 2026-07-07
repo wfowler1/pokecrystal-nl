@@ -1,4 +1,4 @@
-	db "BEVRIEZER@" ; species name
+	db "BEVRIEZER@" ; "FREEZE@" species name
 	db 17 ; height
 	dw 554 ; weight
 

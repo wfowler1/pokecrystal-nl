@@ -1,4 +1,4 @@
-	db "BARRIERE@" ; species name
+	db "BARRIERE@" ; "BARRIER@" species name
 	db 13 ; height
 	dw 545 ; weight
 

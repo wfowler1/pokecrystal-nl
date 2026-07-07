@@ -1,4 +1,4 @@
-	db "SNAVEL@" ; species name
+	db "SNAVEL@" ; "BEAK@" species name
 	db 12 ; height
 	dw 380 ; weight
 

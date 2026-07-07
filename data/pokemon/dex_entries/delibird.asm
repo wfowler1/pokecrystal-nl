@@ -1,4 +1,4 @@
-	db "BEZORGER@" ; species name
+	db "BEZORGER@" ; "DELIVERY@" species name
 	db 9 ; height
 	dw 160 ; weight
 

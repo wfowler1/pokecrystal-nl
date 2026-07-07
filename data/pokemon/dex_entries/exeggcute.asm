@@ -1,4 +1,4 @@
-	db "EI@" ; species name
+	db "EI@" ; "EGG@" species name
 	db 4 ; height
 	dw 25 ; weight
 

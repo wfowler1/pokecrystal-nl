@@ -1,4 +1,4 @@
-	db "KLASSEKAT@" ; species name
+	db "KLASSEKAT@" ; "CLASSY CAT@" species name
 	db 10 ; height
 	dw 320 ; weight
 

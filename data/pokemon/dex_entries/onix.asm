@@ -1,4 +1,4 @@
-	db "ROTSSLANG@" ; species name
+	db "ROTSSLANG@" ; "ROCK SNAKE@" species name
 	db 88 ; height
 	dw 2100 ; weight
 

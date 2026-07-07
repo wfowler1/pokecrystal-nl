@@ -1,4 +1,4 @@
-	db "LAVA@" ; species name
+	db "LAVA@" ; "LAVA@" species name
 	db 7 ; height
 	dw 350 ; weight
 

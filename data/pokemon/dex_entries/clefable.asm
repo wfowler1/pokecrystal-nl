@@ -1,4 +1,4 @@
-	db "FEE@" ; species name
+	db "FEE@" ; "FAIRY@" species name
 	db 13 ; height
 	dw 400 ; weight
 

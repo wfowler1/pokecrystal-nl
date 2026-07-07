@@ -1,4 +1,4 @@
-	db "VERANDER@" ; species name
+	db "VERANDER@" ; "TRANSFORM@" species name
 	db 3 ; height
 	dw 40 ; weight
 

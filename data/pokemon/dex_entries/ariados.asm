@@ -1,4 +1,4 @@
-	db "LANGPOOT@" ; species name
+	db "LANGPOOT@" ; "LONG LEG@" species name
 	db 11 ; height
 	dw 335 ; weight
 

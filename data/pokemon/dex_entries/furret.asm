@@ -1,4 +1,4 @@
-	db "LANGLIJF@" ; species name
+	db "LANGLIJF@" ; "LONG BODY@" species name
 	db 18 ; height
 	dw 325 ; weight
 
