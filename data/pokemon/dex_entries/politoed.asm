@@ -1,4 +1,4 @@
-	db "KIKKER@" ; species name
+	db "KIKKER@" ; "FROG@" species name
 	db 11 ; height
 	dw 339 ; weight
 

@@ -1,4 +1,4 @@
-	db "IMITATIE@" ; "IMITATION@" ; species name
+	db "IMITATIE@" ; "IMITATION@" species name
 	db 12 ; height
 	dw 380 ; weight
 

@@ -1,4 +1,4 @@
-	db "PANTSER@" ; "ARMOR@" ; species name
+	db "PANTSER@" ; "ARMOR@" species name
 	db 20 ; height
 	dw 2020 ; weight
 

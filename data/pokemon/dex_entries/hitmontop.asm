@@ -1,4 +1,4 @@
-	db "HANDSTAND@" ; species name
+	db "HANDSTAND@" ; "HANDSTAND@" species name
 	db 14 ; height
 	dw 480 ; weight
 

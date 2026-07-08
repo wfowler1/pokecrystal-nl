@@ -1,4 +1,4 @@
-	db "WEBSPUUG@" ; "STRINGSPIT@" ; species name
+	db "WEBSPUUG@" ; "STRINGSPIT@" species name
 	db 5 ; height
 	dw 85 ; weight
 	

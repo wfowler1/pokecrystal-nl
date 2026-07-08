@@ -1,4 +1,4 @@
-	db "IJZERVOGEL@" ; species name
+	db "IJZERVOGEL@" ; "ARMOR BIRD@" species name
 	db 17 ; height
 	dw 505 ; weight
 

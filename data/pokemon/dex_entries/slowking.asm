@@ -1,4 +1,4 @@
-	db "KONINKLIJK@" ; species name
+	db "KONINKLIJK@" ; "ROYAL@" species name
 	db 20 ; height
 	dw 795 ; weight
 

@@ -1,4 +1,4 @@
-	db "LANDSLANG@" ; species name
+	db "LANDSLANG@" ; "LAND SNAKE@" species name
 	db 15 ; height
 	dw 140 ; weight
 

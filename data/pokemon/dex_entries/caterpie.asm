@@ -1,4 +1,4 @@
-	db "WORM@" ; species name
+	db "WORM@" ; "WORM@" species name
 	db 3 ; height
 	dw 29 ; weight
 

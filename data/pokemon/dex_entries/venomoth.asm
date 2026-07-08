@@ -1,4 +1,4 @@
-	db "GIFMOT@" ; "POISONMOTH@" ; species name
+	db "GIFMOT@" ; "POISONMOTH@" species name
 	db 15 ; height
 	dw 125 ; weight
 

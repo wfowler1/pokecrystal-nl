@@ -1,4 +1,4 @@
-	db "SCHREEUW@" ; species name
+	db "SCHREEUW@" ; "SCREECH@" species name
 	db 7 ; height
 	dw 10 ; weight
 

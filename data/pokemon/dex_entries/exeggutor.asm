@@ -1,4 +1,4 @@
-	db "KOKOSNOOT@" ; species name
+	db "KOKOSNOOT@" ; "COCONUT@" species name
 	db 20 ; height
 	dw 1200 ; weight
 

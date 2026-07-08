@@ -1,4 +1,4 @@
-	db "ROTS@" ; species name
+	db "ROTS@" ; "ROCK@" species name
 	db 4 ; height
 	dw 200 ; weight
 

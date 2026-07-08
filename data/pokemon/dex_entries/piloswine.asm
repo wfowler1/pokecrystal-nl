@@ -1,4 +1,4 @@
-	db "ZWIJN@" ; species name
+	db "ZWIJN@" ; "SWINE@" species name
 	db 11 ; height
 	dw 558 ; weight
 

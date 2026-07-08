@@ -1,4 +1,4 @@
-	db "SCHOP@" ; species name
+	db "SCHOP@" ; "KICKING@" species name
 	db 15 ; height
 	dw 498 ; weight
 

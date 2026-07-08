@@ -1,4 +1,4 @@
-	db "VLEERMUIS@" ; species name
+	db "VLEERMUIS@" ; "BAT@" species name
 	db 16 ; height
 	dw 550 ; weight
 

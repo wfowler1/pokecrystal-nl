@@ -1,4 +1,4 @@
-	db "SCHILDER@" ; species name
+	db "SCHILDER@" ; "PAINTER@" species name
 	db 12 ; height
 	dw 580 ; weight
 

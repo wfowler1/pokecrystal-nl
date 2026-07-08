@@ -1,4 +1,4 @@
-	db "MAGNEET@" ; species name
+	db "MAGNEET@" ; "MAGNET@" species name
 	db 3 ; height
 	dw 60 ; weight
 

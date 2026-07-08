@@ -1,4 +1,4 @@
-	db "DRAAK@" ; species name
+	db "DRAAK@" ; "DRAGON@" species name
 	db 12 ; height
 	dw 250 ; weight
 

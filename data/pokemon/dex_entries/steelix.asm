@@ -1,4 +1,4 @@
-	db "IJZERSLANG@" ; "IRON SNAKE@" ; species name
+	db "IJZERSLANG@" ; "IRON SNAKE@" species name
 	db 92 ; height
 	dw 4000 ; weight
 

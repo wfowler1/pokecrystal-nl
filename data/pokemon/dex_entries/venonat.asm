@@ -1,4 +1,4 @@
-	db "INSECT@" ; species name
+	db "INSECT@" ; "INSECT@" species name
 	db 10 ; height
 	dw 300 ; weight
 

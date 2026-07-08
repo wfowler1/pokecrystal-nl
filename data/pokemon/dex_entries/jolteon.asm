@@ -1,4 +1,4 @@
-	db "BLIKSEM@" ; species name
+	db "BLIKSEM@" ; "LIGHTNING@" species name
 	db 8 ; height
 	dw 245 ; weight
 

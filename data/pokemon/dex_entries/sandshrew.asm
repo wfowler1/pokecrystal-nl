@@ -1,4 +1,4 @@
-	db "MUIS@" ; species name
+	db "MUIS@" ; "MOUSE@" species name
 	db 6 ; height
 	dw 120 ; weight
 

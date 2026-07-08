@@ -1,4 +1,4 @@
-	db "GENETISCH@" ; species name
+	db "GENETISCH@" ; "GENETIC@" species name
 	db 20 ; height
 	dw 1220 ; weight
 

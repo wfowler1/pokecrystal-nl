@@ -1,4 +1,4 @@
-	db "KIKKERVIS@" ; species name
+	db "KIKKERVIS@" ; "TADPOLE@" species name
 	db 10 ; height
 	dw 200 ; weight
 

@@ -1,4 +1,4 @@
-	db "UIL@" ; species name
+	db "UIL@" ; "OWL@" species name
 	db 7 ; height
 	dw 212 ; weight
 

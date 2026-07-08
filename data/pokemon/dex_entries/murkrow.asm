@@ -1,4 +1,4 @@
-	db "DUISTERNIS@" ; species name
+	db "DUISTERNIS@" ; "DARKNESS@" species name
 	db 5 ; height
 	dw 21 ; weight
 

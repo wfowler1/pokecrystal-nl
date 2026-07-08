@@ -1,4 +1,4 @@
-	db "GROOTHOORN@" ; "BIG HORN@" ; species name
+	db "GROOTHOORN@" ; "BIG HORN@" species name
 	db 14 ; height
 	dw 712 ; weight
 

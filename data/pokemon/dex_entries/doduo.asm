@@ -1,4 +1,4 @@
-	db "DUOVOGEL@" ; species name
+	db "DUOVOGEL@" ; "TWIN BIRD@" species name
 	db 14 ; height
 	dw 392 ; weight
 

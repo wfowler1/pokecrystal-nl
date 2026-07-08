@@ -449,7 +449,7 @@ RoarDescription:
 
 SingDescription:
 	db   "Kan doelwit in" ; "May cause the foe"
-	line "slaap bengen.@" ; "to fall asleep.@"
+	line "slaap brengen.@" ; "to fall asleep.@"
 
 SupersonicDescription:
 	db   "Geluidsgolven die" ; "Sound waves that"
@@ -612,8 +612,8 @@ ThunderDescription:
 	line "verlammen.@" ; "cause paralysis.@"
 
 RockThrowDescription:
-	db   "Drops rocks on the"
-	line "enemy.@"
+	db   "Laat stenen vallen" ; "Drops rocks on the"
+	line "op tegenstander.@" ; "enemy.@"
 
 EarthquakeDescription:
 	db   "Sterk maar nutte-" ; "Tough but useless"

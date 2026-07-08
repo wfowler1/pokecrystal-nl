@@ -1,4 +1,4 @@
-	db "BOTDRAGER@" ; species name
+	db "BOTDRAGER@" ; "BONEKEEPER@" species name
 	db 10 ; height
 	dw 450 ; weight
 

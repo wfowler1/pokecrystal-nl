@@ -1,4 +1,4 @@
-	db "VUURPAARD@" ; species name
+	db "VUURPAARD@" ; "FIRE HORSE@" species name
 	db 17 ; height
 	dw 950 ; weight
 

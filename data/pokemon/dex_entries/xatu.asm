@@ -1,4 +1,4 @@
-	db "MYSTIEK@" ; "MYSTIC@" ; species name
+	db "MYSTIEK@" ; "MYSTIC@" species name
 	db 15 ; height
 	dw 150 ; weight
 
