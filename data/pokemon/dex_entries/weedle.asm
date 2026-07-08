@@ -1,4 +1,4 @@
-	db "INSECT@" ; "HAIRY BUG@" ; species name
+	db "INSECT@" ; "HAIRY BUG@" species name
 	db 3 ; height
 	dw 32 ; weight
 

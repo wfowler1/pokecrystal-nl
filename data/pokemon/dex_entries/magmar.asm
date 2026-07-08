@@ -1,4 +1,4 @@
-	db "SPUUGVUUR@" ; species name
+	db "SPUUGVUUR@" ; "SPITFIRE@" species name
 	db 13 ; height
 	dw 445 ; weight
 

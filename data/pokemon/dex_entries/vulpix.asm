@@ -1,4 +1,4 @@
-	db "VOS@" ; "FOX@" ; species name
+	db "VOS@" ; "FOX@" species name
 	db 6 ; height
 	dw 99 ; weight
 

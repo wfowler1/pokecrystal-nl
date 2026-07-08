@@ -1,4 +1,4 @@
-	db "WILDESTIER@" ; "WILD BULL@" ; species name
+	db "WILDESTIER@" ; "WILD BULL@" species name
 	db 14 ; height
 	dw 884 ; weight
 

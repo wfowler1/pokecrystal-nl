@@ -1,4 +1,4 @@
-	db "VULKAAN@" ; species name
+	db "VULKAAN@" ; "VOLCANO@" species name
 	db 9 ; height
 	dw 190 ; weight
 

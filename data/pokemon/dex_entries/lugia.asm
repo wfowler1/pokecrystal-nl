@@ -1,4 +1,4 @@
-	db "DUIKER@" ; species name
+	db "DUIKER@" ; "DIVING@" species name
 	db 52 ; height
 	dw 2160 ; weight
 

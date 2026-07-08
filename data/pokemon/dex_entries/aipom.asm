@@ -1,4 +1,4 @@
-	db "LANGSTAART@" ; species name
+	db "LANGSTAART@" ; "LONG TAIL@" species name
 	db 8 ; height
 	dw 115 ; weight
 

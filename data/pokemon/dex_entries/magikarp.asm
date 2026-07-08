@@ -1,4 +1,4 @@
-	db "VIS@" ; species name
+	db "VIS@" ; "FISH@" species name
 	db 9 ; height
 	dw 100 ; weight
 

@@ -1,4 +1,4 @@
-	db "TWEEKLEP@" ; species name
+	db "TWEEKLEP@" ; "BIVALVE@" species name
 	db 15 ; height
 	dw 1325 ; weight
 

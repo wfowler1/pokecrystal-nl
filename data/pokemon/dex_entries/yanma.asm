@@ -1,4 +1,4 @@
-	db "DUNVLEUGEL@" ; "CLEAR WING@" ; species name
+	db "DUNVLEUGEL@" ; "CLEAR WING@" species name
 	db 12 ; height
 	dw 380 ; weight
 

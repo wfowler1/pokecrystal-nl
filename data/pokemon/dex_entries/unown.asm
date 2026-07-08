@@ -1,4 +1,4 @@
-	db "SYMBOOL@" ; "SYMBOL@" ; species name
+	db "SYMBOOL@" ; "SYMBOL@" species name
 	db 5 ; height
 	dw 50 ; weight
 

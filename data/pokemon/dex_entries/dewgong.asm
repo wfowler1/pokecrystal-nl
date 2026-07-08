@@ -1,4 +1,4 @@
-	db "ZEELEEUW@" ; species name
+	db "ZEELEEUW@" ; "SEA LION@" species name
 	db 17 ; height
 	dw 1200 ; weight
 

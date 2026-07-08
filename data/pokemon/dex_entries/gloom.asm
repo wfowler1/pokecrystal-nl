@@ -1,4 +1,4 @@
-	db "ONKRUID@" ; species name
+	db "ONKRUID@" ; "WEED@" species name
 	db 8 ; height
 	dw 86 ; weight
 

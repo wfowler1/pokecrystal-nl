@@ -1,4 +1,4 @@
-	db "HAGEDIS@" ; species name
+	db "HAGEDIS@" ; "LIZARD@" species name
 	db 6 ; height
 	dw 85 ; weight
 

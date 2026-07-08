@@ -1,4 +1,4 @@
-	db "SLAG@" ; species name
+	db "SLAG@" ; "PUNCHING@" species name
 	db 14 ; height
 	dw 502 ; weight
 

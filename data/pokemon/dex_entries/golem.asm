@@ -1,4 +1,4 @@
-	db "MEGATON@" ; species name
+	db "MEGATON@" ; "MEGATON@" species name
 	db 14 ; height
 	dw 3000 ; weight
 

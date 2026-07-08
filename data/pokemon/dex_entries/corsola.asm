@@ -1,4 +1,4 @@
-	db "KORAAL@" ; species name
+	db "KORAAL@" ; "CORAL@" species name
 	db 6 ; height
 	dw 50 ; weight
 

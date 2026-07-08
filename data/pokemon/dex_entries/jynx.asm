@@ -1,4 +1,4 @@
-	db "MENSVORM@" ; species name
+	db "MENSVORM@" ; "HUMANSHAPE@" species name
 	db 14 ; height
 	dw 406 ; weight
 

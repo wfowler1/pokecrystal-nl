@@ -1,4 +1,4 @@
-	db "NIEUW@" ; species name
+	db "NIEUW@" ; "NEW SPECIE@" species name
 	db 4 ; height
 	dw 40 ; weight
 

@@ -1,4 +1,4 @@
-	db "ZON@" ; "SUN@" ; species name
+	db "ZON@" ; "SUN@" species name
 	db 8 ; height
 	dw 85 ; weight
 

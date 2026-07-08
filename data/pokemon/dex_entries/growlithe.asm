@@ -1,4 +1,4 @@
-	db "PUPPY@" ; species name
+	db "PUPPY@" ; "PUPPY@" species name
 	db 7 ; height
 	dw 190 ; weight
 

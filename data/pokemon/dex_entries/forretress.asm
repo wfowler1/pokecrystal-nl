@@ -1,4 +1,4 @@
-	db "ZAKDRAGER@" ; species name
+	db "ZAKDRAGER@" ; "BAGWORM@" species name
 	db 12 ; height
 	dw 1258 ; weight
 

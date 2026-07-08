@@ -1,4 +1,4 @@
-	db "SLANG@" ; species name
+	db "SLANG@" ; "SNAKE@" species name
 	db 20 ; height
 	dw 69 ; weight
 

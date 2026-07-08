@@ -1,4 +1,4 @@
-	db "WOL@" ; species name
+	db "WOL@" ; "WOOL@" species name
 	db 8 ; height
 	dw 133 ; weight
 

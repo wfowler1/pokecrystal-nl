@@ -1,4 +1,4 @@
-	db "SCHAREN@" ; species name
+	db "SCHAREN@" ; "SCISSORS@" species name
 	db 18 ; height
 	dw 1180 ; weight
 

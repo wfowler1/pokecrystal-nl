@@ -1,4 +1,4 @@
-	db "KRABKAT@" ; species name
+	db "KRABKAT@" ; "SCRATCHCAT@" species name
 	db 4 ; height
 	dw 42 ; weight
 

@@ -1,4 +1,4 @@
-	db "HETE KOOL@" ; species name
+	db "HETE KOOL@" ; "LIVE COAL@" species name
 	db 7 ; height
 	dw 214 ; weight
 

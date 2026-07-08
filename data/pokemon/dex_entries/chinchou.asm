@@ -1,4 +1,4 @@
-	db "VISSER@" ; species name
+	db "VISSER@" ; "ANGLER@" species name
 	db 5 ; height
 	dw 120 ; weight
 

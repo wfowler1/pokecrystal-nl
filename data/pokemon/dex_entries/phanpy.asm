@@ -1,4 +1,4 @@
-	db "LANGNEUS@" ; species name
+	db "LANGNEUS@" ; "LONG NOSE@" species name
 	db 5 ; height
 	dw 335 ; weight
 

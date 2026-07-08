@@ -1,4 +1,4 @@
-	db "PANTSER@" ; species name
+	db "PANTSER@" ; "ARMOR@" species name
 	db 11 ; height
 	dw 1200 ; weight
 

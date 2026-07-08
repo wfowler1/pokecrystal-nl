@@ -1,4 +1,4 @@
-	db "TRANSPORT@" ; species name
+	db "TRANSPORT@" ; "TRANSPORT@" species name
 	db 25 ; height
 	dw 2200 ; weight
 	
