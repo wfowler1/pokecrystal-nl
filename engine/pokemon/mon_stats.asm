@@ -245,8 +245,8 @@ ListMovePP:
 	ld a, [wListMovesLineSpacing]
 	ld e, a
 	ld d, 0
-	ld a, $3e ; P
-	call .load_loop
+;	ld a, $3e ; P
+	call .load_ap_loop
 	ld a, b
 	and a
 	jr z, .skip
