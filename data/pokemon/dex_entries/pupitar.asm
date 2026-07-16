@@ -1,4 +1,4 @@
-	db "HARD SCHILD@" ; species name
+	db "HARD SCHILD@" ; "HARD SHELL@" species name
 	db 12 ; height
 	dw 1520 ; weight
 

@@ -1,4 +1,4 @@
-	db "VLIEGHERT@" ; species name
+	db "VLIEGHERT@" ; "STAGBEETLE@" species name
 	db 15 ; height
 	dw 550 ; weight
 

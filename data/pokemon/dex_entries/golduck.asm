@@ -1,4 +1,4 @@
-	db "EEND@" ; species name
+	db "EEND@" ; "DUCK@" species name
 	db 17 ; height
 	dw 766 ; weight
 

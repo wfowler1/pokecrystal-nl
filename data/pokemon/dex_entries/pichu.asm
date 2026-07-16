@@ -1,4 +1,4 @@
-	db "MINIMUIS@" ; species name
+	db "MINIMUIS@" ; "TINY MOUSE@" species name
 	db 3 ; height
 	dw 20 ; weight
 

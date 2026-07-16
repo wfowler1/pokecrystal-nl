@@ -1,4 +1,4 @@
-	db "GROOTKAAK@" ; "BIG JAW@" ; species name
+	db "GROOTKAAK@" ; "BIG JAW@" species name
 	db 6 ; height
 	dw 95 ; weight
 

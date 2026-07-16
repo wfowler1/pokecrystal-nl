@@ -1,4 +1,4 @@
-	db "VUURMUIS@" ; species name
+	db "VUURMUIS@" ; "FIRE MOUSE@" species name
 	db 5 ; height
 	dw 79 ; weight
 

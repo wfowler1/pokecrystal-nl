@@ -1,4 +1,4 @@
-	db "WATERVIS@" ; "WATER FISH@" ; species name
+	db "WATERVIS@" ; "WATER FISH@" species name
 	db 4 ; height
 	dw 85 ; weight
 

@@ -1,4 +1,4 @@
-	db "VERKENNER@" ; species name
+	db "VERKENNER@" ; "SCOUT@" species name
 	db 8 ; height
 	dw 60 ; weight
 

@@ -1,4 +1,4 @@
-	db "VLAM@" ; species name
+	db "VLAM@" ; "FLAME@" species name
 	db 9 ; height
 	dw 250 ; weight
 

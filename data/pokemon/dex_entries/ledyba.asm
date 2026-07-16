@@ -1,4 +1,4 @@
-	db "VIJFSTER@" ; species name
+	db "VIJFSTER@" ; "FIVE STAR@" species name
 	db 10 ; height
 	dw 108 ; weight
 

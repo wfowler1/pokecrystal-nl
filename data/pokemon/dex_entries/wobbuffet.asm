@@ -1,4 +1,4 @@
-	db "GEDULDIG@" ; "PATIENT@" ; species name
+	db "GEDULDIG@" ; "PATIENT@" species name
 	db 13 ; height
 	dw 285 ; weight
 

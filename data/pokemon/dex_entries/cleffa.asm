@@ -1,4 +1,4 @@
-	db "STERVORM@" ; species name
+	db "STERVORM@" ; "STARSHAPE@" species name
 	db 3 ; height
 	dw 30 ; weight
 

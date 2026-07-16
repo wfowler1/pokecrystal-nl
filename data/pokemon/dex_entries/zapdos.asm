@@ -1,4 +1,4 @@
-	db "ELEKTRISCH@" ; "ELECTRIC@" ; species name
+	db "ELEKTRISCH@" ; "ELECTRIC@" species name
 	db 16 ; height
 	dw 526 ; weight
 

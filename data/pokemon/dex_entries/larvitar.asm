@@ -1,4 +1,4 @@
-	db "ROTSHUID@" ; species name
+	db "ROTSHUID@" ; "ROCK SKIN@" species name
 	db 6 ; height
 	dw 720 ; weight
 

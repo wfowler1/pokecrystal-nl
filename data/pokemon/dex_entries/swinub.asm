@@ -1,4 +1,4 @@
-	db "BIG@" ; "PIG@" ; species name
+	db "BIG@" ; "PIG@" species name
 	db 4 ; height
 	dw 65 ; weight
 

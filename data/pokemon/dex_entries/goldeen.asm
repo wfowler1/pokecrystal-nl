@@ -1,4 +1,4 @@
-	db "GOUDVIS@" ; species name
+	db "GOUDVIS@" ; "GOLDFISH@" species name
 	db 6 ; height
 	dw 150 ; weight
 

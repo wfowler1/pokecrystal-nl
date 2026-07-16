@@ -1,4 +1,4 @@
-	db "ZAAD@" ; species name
+	db "ZAAD@" ; "SEED@" species name
 	db 10 ; height
 	dw 130 ; weight
 

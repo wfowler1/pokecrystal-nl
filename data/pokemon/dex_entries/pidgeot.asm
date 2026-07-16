@@ -1,4 +1,4 @@
-	db "VOGEL@" ; species name
+	db "VOGEL@" ; "BIRD@" species name
 	db 15 ; height
 	dw 395 ; weight
 

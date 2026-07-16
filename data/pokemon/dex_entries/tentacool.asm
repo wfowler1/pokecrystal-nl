@@ -1,4 +1,4 @@
-	db "KWAL@" ; "JELLYFISH@" ; species name
+	db "KWAL@" ; "JELLYFISH@" species name
 	db 9 ; height
 	dw 455 ; weight
 

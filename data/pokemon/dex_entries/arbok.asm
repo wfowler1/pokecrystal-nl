@@ -1,4 +1,4 @@
-	db "COBRA@" ; species name
+	db "COBRA@" ; "COBRA@" species name
 	db 35 ; height
 	dw 650 ; weight
 

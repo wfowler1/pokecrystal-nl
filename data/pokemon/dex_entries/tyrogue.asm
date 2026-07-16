@@ -1,4 +1,4 @@
-	db "KNOKKER@" ; "SCUFFLE@" ; species name
+	db "KNOKKER@" ; "SCUFFLE@" species name
 	db 7 ; height
 	dw 210 ; weight
 

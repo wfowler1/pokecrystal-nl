@@ -1,4 +1,4 @@
-	db "VLIEGVANGR@" ; "FLYCATCHER@" ; species name
+	db "VLIEGVANGR@" ; "FLYCATCHER@" species name
 	db 17 ; height
 	dw 155 ; weight
 

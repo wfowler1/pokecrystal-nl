@@ -1,4 +1,4 @@
-	db "SCHADUW@" ; species name
+	db "SCHADUW@" ; "SHADOW@" species name
 	db 15 ; height
 	dw 405 ; weight
 

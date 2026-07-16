@@ -1,4 +1,4 @@
-	db "COCON@" ; species name
+	db "COCON@" ; "COCOON@" species name
 	db 7 ; height
 	dw 99 ; weight
 

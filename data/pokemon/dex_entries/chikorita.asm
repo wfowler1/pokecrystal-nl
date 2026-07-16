@@ -1,4 +1,4 @@
-	db "BLAD@" ; species name
+	db "BLAD@" ; "LEAF@" species name
 	db 9 ; height
 	dw 64 ; weight
 

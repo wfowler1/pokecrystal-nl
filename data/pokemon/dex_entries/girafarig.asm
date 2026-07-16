@@ -1,4 +1,4 @@
-	db "LANGNEK@" ; species name
+	db "LANGNEK@" ; "LONG NECK@" species name
 	db 15 ; height
 	dw 415 ; weight
 

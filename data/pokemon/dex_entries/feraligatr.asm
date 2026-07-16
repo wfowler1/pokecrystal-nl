@@ -1,4 +1,4 @@
-	db "GROOTKAAK@" ; species name
+	db "GROOTKAAK@" ; "BIG JAW@" species name
 	db 23 ; height
 	dw 888 ; weight
 

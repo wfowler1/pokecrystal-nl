@@ -1,4 +1,4 @@
-	db "MAANLICHT@" ; "MOONLIGHT@" ; species name
+	db "MAANLICHT@" ; "MOONLIGHT@" species name
 	db 10 ; height
 	dw 270 ; weight
 

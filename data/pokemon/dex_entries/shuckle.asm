@@ -1,4 +1,4 @@
-	db "SCHIMMEL@" ; species name
+	db "SCHIMMEL@" ; "MOLD@" species name
 	db 6 ; height
 	dw 205 ; weight
 

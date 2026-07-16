@@ -1,4 +1,4 @@
-	db "AFSCHUW@" ; species name
+	db "AFSCHUW@" ; "ATROCIOUS@" species name
 	db 65 ; height
 	dw 2350 ; weight
 

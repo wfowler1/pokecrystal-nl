@@ -1,4 +1,4 @@
-	db "BOOR@" ; species name
+	db "BOOR@" ; "DRILL@" species name
 	db 14 ; height
 	dw 620 ; weight
 
