@@ -426,9 +426,10 @@ ChooseMoveToLearn:
 	; This prints the pp gfx before the move's pp.
 	ld bc, 6
 	add hl, bc
-	ld a, $3e
-	ld [hli], a
-	ld [hl], a
+	ld [hl], $32 ; A
+	inc hl
+	ld [hl], $3e ; P
+	dec hl
 	ret
 
 ; This adds a text box border line to the description
