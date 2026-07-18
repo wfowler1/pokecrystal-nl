@@ -61,5 +61,5 @@ BrentRematchText:
 	text "Ik wachtte op je." ; "I've been waiting."
 
 	para "Kijk, zie mijn" ; "Look, check out my"
-	line "#MON!"
+	line "#MON!" ; "#MON!"
 	done

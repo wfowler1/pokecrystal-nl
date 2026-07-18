@@ -19,11 +19,11 @@ DerekDefeatedMonText:
 	line "versloeg net een" ; "my PIKACHU beat a"
 	cont "wilde @" ; " ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 
 	para "Een @" ; "A wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text ","
+	text "," ; ","
 	line "zeg ik je!" ; "I tell you!"
 
 	para "is dat niet" ; "Don't you think"
@@ -100,7 +100,7 @@ DerekComePickUpText:
 	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Kom maar halen als" ; "Come pick this up"
 	line "je tijd hebt." ; "anytime."

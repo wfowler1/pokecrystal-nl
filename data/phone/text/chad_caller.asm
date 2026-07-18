@@ -3,7 +3,7 @@ ChadObservingWildText:
 	line "kort wilde" ; "observing wild"
 	cont "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "Ik heb allerlei" ; "I've been learning"
 	line "nieuwe dingen door" ; "all sorts of new"
@@ -40,7 +40,7 @@ ChadLostAMonText:
 
 	para "wilde @" ; "a wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text ","
+	text "," ; ","
 	line "maar die vluchtte." ; "but it got away."
 
 	para "Al ontzettend" ; "For the longest"
@@ -63,7 +63,7 @@ ChadBattleRematchText:
 	para "Ik ben op" ; "I'll be on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 ChadHangUpText:
@@ -240,7 +240,7 @@ ChadReminderText:
 	para "De plek is" ; "The place is"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Kom snel--ik sta" ; "Hurry over--I'm"
 	line "te wachten." ; "waiting."
