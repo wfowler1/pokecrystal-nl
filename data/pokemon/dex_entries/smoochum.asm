@@ -8,4 +8,4 @@
 
 	page "Die gebruikt het" ; "It uses them to"
 	next "om objecten te" ; "try to identify"
-	next "te identificeren.@" ; "unknown objects.@"
+	next "identificeren.@" ; "unknown objects.@"

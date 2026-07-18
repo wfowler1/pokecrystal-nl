@@ -1286,7 +1286,7 @@ _PlayedFluteText::
 	line "FLUTE."
 
 	para "Nou, wat een leuk" ; "Now, that's a"
-	line "leuk deuntje!" ; "catchy tune!"
+	line "deuntje!" ; "catchy tune!"
 	prompt
 
 _FluteWakeUpText::

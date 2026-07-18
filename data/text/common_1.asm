@@ -1179,7 +1179,7 @@ _BreedingIsNotPossibleText:: ; unreferenced
 
 _CompatibilityShouldTheyBreedText:: ; unreferenced
 	text "Compatibiliteit is" ; "The compatibility"
-	line "is @"
+	line "@" ; "is @"
 	text_decimal wBreedingCompatibility, 1, 3
 	text "."
 	cont "Moeten ze fokken?" ; "Should they breed?"
