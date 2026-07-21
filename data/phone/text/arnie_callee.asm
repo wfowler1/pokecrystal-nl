@@ -56,7 +56,7 @@ ArnieGreetNiteText:
 	done
 
 ArnieGenericText:
-	text "Je MON zijn nu" ; "I bet your #MON"
+	text "Je #MON zijn nu" ; "I bet your #MON"
 	line "vast veel sterker" ; "are a lot stronger"
 	cont "dan eerder." ; "than before."
 	done
