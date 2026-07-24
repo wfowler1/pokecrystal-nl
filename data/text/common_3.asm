@@ -415,7 +415,7 @@ _SeerMightyText::
 	para "Deze @" ; "This @"
 	text_ram wSeerNickname
 	text_start
-	line "heeft vele ge-" ; "must have come"
+	line "heeft vele" ; "must have come"
 
 	para "gevechten gestre-" ; "through numerous"
 	line "den." ; "#MON battles."
@@ -1282,8 +1282,8 @@ _RepelUsedEarlierIsStillInEffectText::
 	prompt
 
 _PlayedFluteText::
-	text "Speelde de #" ; "Played the #"
-	line "FLUTE."
+	text "Speelde de #-" ; "Played the #"
+	line "FLUIT." ; "FLUTE."
 
 	para "Nou, wat een leuk" ; "Now, that's a"
 	line "deuntje!" ; "catchy tune!"

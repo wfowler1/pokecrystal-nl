@@ -31,7 +31,7 @@ ErinNumberDeclinedText:
 	text "Oh… Wat droevig…" ; "Oh… I'm sad…"
 	line "Als je wil vechten" ; "If you do want to"
 
-	para "moet je naar ERIN." ; "battle, come see"
+	para "moet je naar ERIN" ; "battle, come see"
 	line "komen--dat ben ik!" ; "ERIN--that's me!"
 	done
 
