@@ -136,7 +136,7 @@ VermilionCityTeacherText:
 VermilionMachopOwnerText:
 	text "Mijn #MON" ; "My #MON is"
 	line "bereidt hier de" ; "preparing the land"
-	cont "de bouwgrond voor." ; "for construction."
+	cont "bouwgrond voor." ; "for construction."
 
 	para "Ik heb alleen geen" ; "But I have no"
 	line "geld om te starten" ; "money to start the"

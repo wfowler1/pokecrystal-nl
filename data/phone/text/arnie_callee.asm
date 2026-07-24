@@ -2,27 +2,27 @@ ArnieAnswerPhoneText:
 	text "Ja, hallo." ; "Yeah, hello."
 	line "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Huh, <PLAY_G>? Yo!" ; "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneDayText:
 	text "Ja, hallo. " ; "Yeah, hello, you"
 	line "met @" ; "got @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Huh, <PLAY_G>? Yo!" ; "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneNiteText:
 	text "Ja, hallo. " ; "Yeah, hello, you"
 	line "met @" ; "got @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Huh, <PLAY_G>? Yo!" ; "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieGreetText:
@@ -42,7 +42,7 @@ ArnieGreetDayText:
 	text " spreek je." ; " calling."
 
 	para "Waar ben je nu," ; "Where are you now,"
-	line "<PLAY_G>?"
+	line "<PLAY_G>?" ; "<PLAY_G>?"
 	done
 
 ArnieGreetNiteText:
@@ -52,7 +52,7 @@ ArnieGreetNiteText:
 	text " spreek je." ; " calling."
 
 	para "Ben je nu wakker," ; "Are you awake now,"
-	line "<PLAY_G>?"
+	line "<PLAY_G>?" ; "<PLAY_G>?"
 	done
 
 ArnieGenericText:

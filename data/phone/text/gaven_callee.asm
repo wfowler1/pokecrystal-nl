@@ -14,7 +14,7 @@ GavenAnswerPhoneDayText:
 	text_ram wStringBuffer3 ; MaxLength 5
 	text " hier…" ; " speaking…"
 
-	para "Hi, <PLAY_G>!"
+	para "Hi, <PLAY_G>!" ; "Hi, <PLAY_G>!"
 	done
 
 GavenAnswerPhoneNiteText:
@@ -33,7 +33,7 @@ GavenGreetText:
 
 	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 	line "Hoe gaat ie?" ; "How are you doing?"
 	done
 
@@ -42,7 +42,7 @@ GavenGreetDayText:
 
 	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 	line "Hoe gaat ie?" ; "How are you doing?"
 	done
 
@@ -52,7 +52,7 @@ GavenGreetNiteText:
 
 	para "Ik ben het, @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 	line "Hoe gaat ie?" ; "How are you doing?"
 	done
 

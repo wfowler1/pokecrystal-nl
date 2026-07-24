@@ -2,9 +2,9 @@ BethAnswerPhoneText:
 	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 
-	para "Oh, <PLAY_G>."
+	para "Oh, <PLAY_G>." ; "Oh, <PLAY_G>."
 	line "Goedemorgen." ; "Good morning."
 
 	para ""
@@ -14,7 +14,7 @@ BethAnswerPhoneDayText:
 	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 
 	para "Oh. Hoi, <PLAY_G>." ; "Oh. Hi, <PLAY_G>."
 	done
@@ -23,27 +23,27 @@ BethAnswerPhoneNiteText:
 	text "Hallo, met" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 
-	para "Oh, <PLAY_G>."
+	para "Oh, <PLAY_G>." ; "Oh, <PLAY_G>."
 	line "Goedenavond." ; "Good evening."
 	done
 
 BethGreetText:
 	text "Goedemorgen," ; "Good morning,"
-	line "<PLAY_G>!"
+	line "<PLAY_G>!" ; "<PLAY_G>!"
 
 	para "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 	line "Sliep je?" ; "Were you sleeping?"
 	done
 
 BethGreetDayText:
-	text "<PLAY_G>, hi!"
+	text "<PLAY_G>, hi!" ; "<PLAY_G>, hi!"
 	line "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 
 	para "Heb je eventjes" ; "Do you have some"
 	line "tijd?" ; "time?"
@@ -55,7 +55,7 @@ BethGreetNiteText:
 
 	para "Met @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 
 	para "Hopelijk was je" ; "I hope you were"
 	line "wakker." ; "awake."

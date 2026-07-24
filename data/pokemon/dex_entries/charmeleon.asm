@@ -8,4 +8,4 @@
 
 	page "raakt. Verbrandt" ; "intense flames,"
 	next "op die manier de" ; "incinerating its"
-	next "de omgeving.@" ; "surroundings.@"
+	next "omgeving.@" ; "surroundings.@"

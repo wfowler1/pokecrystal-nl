@@ -2,7 +2,7 @@ ChadAnswerPhoneText:
 	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "…"
+	text "…" ; "…"
 
 	para "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>!"
 	line "goedemorgen!" ; "Good morning!"
@@ -12,7 +12,7 @@ ChadAnswerPhoneDayText:
 	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "…"
+	text "…" ; "…"
 
 	para "Hoi, <PLAY_G>," ; "Hi, <PLAY_G>, good"
 	line "goedemiddag!" ; "day!"
@@ -22,7 +22,7 @@ ChadAnswerPhoneNiteText:
 	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "…"
+	text "…" ; "…"
 
 	para "Hoi, <PLAY_G>!" ; "Hi, <PLAY_G>, good"
 	line "Goedenavond!" ; "evening!"
@@ -34,7 +34,7 @@ ChadGreetText:
 
 	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 	line "Hoe gaat het?" ; "How are you?"
 	done
 
@@ -44,7 +44,7 @@ ChadGreetDayText:
 
 	para "Dit is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 	line "Hoe gaat het?" ; "How are you?"
 	done
 
@@ -54,7 +54,7 @@ ChadGreetNiteText:
 
 	para "Het is @" ; "It's @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "."
+	text "." ; "."
 	line "hoe gat het?" ; "How are you?"
 	done
 

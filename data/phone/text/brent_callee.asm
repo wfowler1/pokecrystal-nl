@@ -32,7 +32,7 @@ BrentGreetText:
 	para "He! Ik ben het," ; "Hey! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 	done
 
 BrentGreetDayText:
@@ -42,7 +42,7 @@ BrentGreetDayText:
 	para "He! Ik ben het," ; "Hey! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 	done
 
 BrentGreetNiteText:
@@ -52,7 +52,7 @@ BrentGreetNiteText:
 	para "He! Ik ben het," ; "Hey! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 5
-	text "."
+	text "." ; "."
 	done
 
 BrentGenericText:

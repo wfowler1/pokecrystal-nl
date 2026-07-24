@@ -17,7 +17,7 @@ MonMenuOptionStrings:
 	li "VOORWERP" ; "ITEM"
 	li "ANNULEER" ; "CANCEL"
 	li "AANVAL" ; "MOVE"
-	li "MAIL"
+	li "MAIL" ; "MAIL"
 	li "FOUT!" ; "ERROR!"
 	assert_list_length NUM_MONMENUVALUES
 

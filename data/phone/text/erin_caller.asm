@@ -1,6 +1,6 @@
 ErinMonIsMuchStrongerText:
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "'s @"
+	text "'s @" ; "'s @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text_start
 	line "is veel sterker" ; "is much stronger"
@@ -12,7 +12,7 @@ ErinDefeatedMonText:
 	line "Ik versloeg net" ; "I just battled and"
 	cont "een @" ; "beat @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 
 	para "Mijn #MON zijn" ; "I've raised my"
 	line "goed getraind!" ; "#MON properly!"
@@ -40,7 +40,7 @@ ErinBattleRematchText:
 	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 ErinHangUpText:
@@ -57,12 +57,12 @@ ErinWorkingHardText:
 	done
 
 ErinComeBattleText:
-	text "Oh, <PLAY_G>!"
+	text "Oh, <PLAY_G>!" ; "Oh, <PLAY_G>!"
 	line "Kom vechten met" ; "Come battle ERIN!"
 	cont "ERIN!"
 
 	para "Ik wacht wel op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done

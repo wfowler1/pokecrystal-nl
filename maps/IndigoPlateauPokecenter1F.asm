@@ -219,7 +219,7 @@ PlateauRivalText1:
 	text "Wacht even." ; "Hold it."
 
 	para "Ga jij nu de" ; "You're going to"
-	line "uitdaging van de" ; "take the #MON"
+	line "uitdaging van" ; "take the #MON"
 
 	para "de #MON-LEAGUE" ; "LEAGUE challenge"
 	line "aan?" ; "now?"

@@ -1,7 +1,7 @@
 DanaTakingPhotosText:
 	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " is"
+	text " is" ; " is"
 	line "mooier geworden!" ; "getting prettier!"
 
 	para "Ik maak steeds" ; "I've been taking"
@@ -13,7 +13,7 @@ DanaDefeatedMonText:
 	line "een oogwenk een" ; "instant to KO a"
 	cont "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "Dat is vast omdat" ; "It must be because"
 	line "jij me laatst wat" ; "you gave me some"
@@ -41,7 +41,7 @@ DanaBattleRematchText:
 	text "Juist, ik ben bij" ; "Right now, I'm on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Als je in de buurt" ; "If you're close"
 	line "bent, vechten?" ; "by, let's battle!"
@@ -67,7 +67,7 @@ DanaFoundItemText:
 	para "halen! Ik ben bij" ; "it! I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 DanaCanYouWaitABitLongerText:
@@ -91,7 +91,7 @@ DanaReminderText:
 	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 DanaComePickUpText:
@@ -106,5 +106,5 @@ DanaComePickUpText:
 	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done

@@ -18,7 +18,7 @@ BrentDefeatedMonText:
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 	line "Die was niet" ; "It wasn't rare"
 
 	para "zeldzaam genoeg" ; "enough to bother"
@@ -56,7 +56,7 @@ BrentBattleRematchText:
 	para "Je weet waar--" ; "You know where--"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 	done
 
 BrentHangUpText:
@@ -90,7 +90,7 @@ BrentRoute25GossipText:
 	line "Kennelijk woont" ; "BILL evidently"
 
 	para "BILL op ROUTE 25" ; "lives on ROUTE 25"
-	line "in KANTO."
+	line "in KANTO." ; "in KANTO."
 	done
 
 BrentAbraGossipText:
@@ -160,5 +160,5 @@ BrentReminderText:
 	para "Haast je naar" ; "Hurry over to"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 	done

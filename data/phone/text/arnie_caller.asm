@@ -2,7 +2,7 @@ ArnieMonIsSoCuteText:
 	text "Ik ben altijd met" ; "I'm always with my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 
 	para "Zo schattig!" ; "It's so cute!"
 	line "Ik ben er dol op!" ; "I just love it!"
@@ -26,7 +26,7 @@ ArnieLostAMonText:
 	line "heb jij wellicht" ; "do you happen to"
 	cont "een @" ; "have @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 
 	para "Het lukt me niet" ; "I can't seem to"
 	line "een te vangen. Wat" ; "catch one. What is"
@@ -48,7 +48,7 @@ ArnieBattleRematchText:
 	para "Ik wacht hier op" ; "I'll be here on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 ArnieHangUpText:
@@ -68,7 +68,7 @@ ArnieSwarmText:
 	para "verschenen rond" ; "appeared around"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 
 	para "Je moet dit echt" ; "You have to see"
 	line "zien!" ; "this!"
@@ -91,7 +91,7 @@ ArnieReminderText:
 	line "ik wacht op je" ; "be waiting for you"
 	cont "op @" ; "on @"
 	text_ram wStringBuffer5 ; MaxLength 14
-	text "!"
+	text "!" ; "!"
 	done
 
 ArnieHurryText:

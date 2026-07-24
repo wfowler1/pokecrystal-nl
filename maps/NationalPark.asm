@@ -365,9 +365,9 @@ NationalParkYoungster2Text:
 
 NationalParkTeacher2Text:
 	text "Ik wandel in het" ; "I take walks in"
-	line "het PARK, maar" ; "the PARK, but I"
+	line "PARK, maar loop" ; "the PARK, but I"
 
-	para "loop nooit in het" ; "never go into the"
+	para "nooit door het" ; "never go into the"
 	line "gras." ; "grass."
 
 	para "Trainers willen" ; "Trainers always"

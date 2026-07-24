@@ -2,30 +2,30 @@ BeverlyAnswerPhoneText:
 	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
-	text "."
+	text "." ; "."
 
 	para "Oh! Goedemorgen," ; "Oh! Good morning,"
-	line "<PLAYER>."
+	line "<PLAYER>." ; "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneDayText:
 	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
-	text "."
+	text "." ; "."
 
 	para "Oh! Goedendag," ; "Oh! Good day,"
-	line "<PLAYER>."
+	line "<PLAYER>." ; "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneNiteText:
 	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 7
-	text "."
+	text "." ; "."
 
 	para "Oh! Goedenavond," ; "Oh! Good evening,"
-	line "<PLAYER>."
+	line "<PLAYER>." ; "<PLAYER>."
 	done
 
 BeverlyGreetText:
@@ -34,7 +34,7 @@ BeverlyGreetText:
 
 	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
-	text "."
+	text "." ; "."
 	line "Sliep je?" ; "Were you asleep?"
 	done
 
@@ -42,7 +42,7 @@ BeverlyGreetDayText:
 	text "Hoi, <PLAYER>." ; "Hi, <PLAYER>."
 	line "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
-	text "."
+	text "." ; "."
 
 	para "Hoe gaat het?" ; "How are you doing?"
 	done
@@ -51,7 +51,7 @@ BeverlyGreetNiteText:
 	text "Hoi, <PLAYER>." ; "Hi, <PLAYER>."
 	line "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
-	text "."
+	text "." ; "."
 
 	para "Was je wakker?" ; "Were you awake?"
 	done
@@ -62,7 +62,7 @@ BeverlyGenericText:
 
 	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " is"
+	text " is" ; " is"
 	line "gezond. Het eet" ; "healthy. It eats a"
 	cont "iedere dag flink." ; "lot every day."
 	done
