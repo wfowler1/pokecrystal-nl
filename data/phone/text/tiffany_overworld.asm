@@ -45,7 +45,7 @@ TiffanyRematchText:
 	text "Daar ben je!" ; "There you are!"
 
 	para "CLEFAIRY, doe je" ; "CLEFAIRY, I want"
-	line "je uiterste best!" ; "you to try hard!"
+	line "uiterste best!" ; "you to try hard!"
 	done
 
 TiffanyGiftText:

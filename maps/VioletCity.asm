@@ -186,7 +186,7 @@ Text_EarlAsksIfYouBeatFalkner:
 	done
 
 Text_VeryNiceIndeed:
-	text "Ooh, la la!"
+	text "Ooh, la la!" ; "Ooh, la la!"
 	line "Erg goed gedaan!" ; "Very indeed nice!"
 	done
 

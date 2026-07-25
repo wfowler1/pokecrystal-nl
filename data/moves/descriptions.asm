@@ -265,7 +265,7 @@ MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
-	db "?@"
+	db "?@" ; "?@"
 
 PoundDescription:
 	db   "Ramt met voorpoten" ; "Pounds with fore-"

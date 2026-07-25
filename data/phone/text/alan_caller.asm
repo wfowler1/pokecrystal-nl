@@ -42,7 +42,7 @@ AlanBattleRematchText:
 	para "Ik hang rond op" ; "I'm hanging out on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Kun je langskomen" ; "Can you come down"
 	line "om te vechten?" ; "for a battle?"
@@ -81,7 +81,7 @@ AlanReminderText:
 	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 AlanComePickUpGiftText:
@@ -94,5 +94,5 @@ AlanComePickUpGiftText:
 	para "Ik wacht op" ; "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done

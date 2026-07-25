@@ -40,7 +40,7 @@ KenjiHangUpMorningText:
 	text "Ik ben van plan" ; "I plan to take a"
 	line "straks te lunchen." ; "lunch break, so"
 
-	para "kom anders dan!" ; "come see me then!"
+	para "Kom anders dan!" ; "come see me then!"
 	line "Ayiiiyah!"
 	done
 

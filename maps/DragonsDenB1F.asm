@@ -303,8 +303,8 @@ RivalText_Training1:
 	para "Ik moet discipline" ; "I have to be dis-"
 	line "hebben om de beste" ; "ciplined to become"
 
-	para "beste #MON-" ; "the greatest #-"
-	line "trainer te worden…" ; "MON trainer…"
+	para "#MON-trainer" ; "the greatest #-"
+	line "te worden…" ; "MON trainer…"
 	done
 
 RivalText_Training2:

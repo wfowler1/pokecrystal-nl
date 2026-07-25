@@ -8,4 +8,4 @@
 
 	page "'s nachts, dus tot" ; "sleeps in a hole"
 	next "dan slaapt het in" ; "in a tree until"
-	next "in een boom.@" ; "night falls.@"
+	next "een boom.@" ; "night falls.@"

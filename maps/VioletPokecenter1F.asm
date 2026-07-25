@@ -173,7 +173,7 @@ VioletPokecenterMobileAdapterText: ; unreferenced
 	line "een vriend in" ; "friend in CIANWOOD"
 	cont "CIANWOOD via link." ; "over a link."
 
-	para "als je een MOBIELE" ; "If you connect a"
+	para "Als je een MOBIELE" ; "If you connect a"
 	line "ADAPTER verbindt," ; "MOBILE ADAPTER,"
 
 	para "kun je met vriend-" ; "you can link with"

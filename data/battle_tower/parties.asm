@@ -28,7 +28,7 @@ BattleTowerMons:
 	bigdw 37 ; Spd
 	bigdw 34 ; SAtk
 	bigdw 31 ; SDef
-	dname "SANDA-SU", MON_NAME_LENGTH
+	dname "SANDA-SU", MON_NAME_LENGTH ; "SANDA-SU"
 
 	db ESPEON
 	db LEFTOVERS
@@ -54,7 +54,7 @@ BattleTowerMons:
 	bigdw 35 ; Spd
 	bigdw 38 ; SAtk
 	bigdw 31 ; SDef
-	dname "E-HUi", MON_NAME_LENGTH
+	dname "E-HUi", MON_NAME_LENGTH ; "E-HUi"
 
 	db UMBREON
 	db GOLD_BERRY
@@ -80,7 +80,7 @@ BattleTowerMons:
 	bigdw 26 ; Spd
 	bigdw 25 ; SAtk
 	bigdw 39 ; SDef
-	dname "BURAtuKI-", MON_NAME_LENGTH
+	dname "BURAtuKI-", MON_NAME_LENGTH ; "BURAtuKI-"
 
 	db WOBBUFFET
 	db FOCUS_BAND
@@ -106,7 +106,7 @@ BattleTowerMons:
 	bigdw 19 ; Spd
 	bigdw 18 ; SAtk
 	bigdw 23 ; SDef
-	dname "SO-NANSU", MON_NAME_LENGTH
+	dname "SO-NANSU", MON_NAME_LENGTH ; "SO-NANSU"
 
 	db KANGASKHAN
 	db MIRACLEBERRY
@@ -132,7 +132,7 @@ BattleTowerMons:
 	bigdw 29 ; Spd
 	bigdw 20 ; SAtk
 	bigdw 28 ; SDef
-	dname "GARU-RA", MON_NAME_LENGTH
+	dname "GARU-RA", MON_NAME_LENGTH ; "GARU-RA"
 
 	db CORSOLA
 	db SCOPE_LENS
@@ -158,7 +158,7 @@ BattleTowerMons:
 	bigdw 19 ; Spd
 	bigdw 24 ; SAtk
 	bigdw 28 ; SDef
-	dname "SANI-GO", MON_NAME_LENGTH
+	dname "SANI-GO", MON_NAME_LENGTH ; "SANI-GO"
 
 	db MILTANK
 	db GOLD_BERRY
@@ -184,7 +184,7 @@ BattleTowerMons:
 	bigdw 31 ; Spd
 	bigdw 20 ; SAtk
 	bigdw 26 ; SDef
-	dname "MIRUTANKU", MON_NAME_LENGTH
+	dname "MIRUTANKU", MON_NAME_LENGTH ; "MIRUTANKU"
 
 	db AERODACTYL
 	db LEFTOVERS
@@ -210,7 +210,7 @@ BattleTowerMons:
 	bigdw 38 ; Spd
 	bigdw 23 ; SAtk
 	bigdw 26 ; SDef
-	dname "PUTERA", MON_NAME_LENGTH
+	dname "PUTERA", MON_NAME_LENGTH ; "PUTERA"
 
 	db LAPRAS
 	db MIRACLEBERRY
@@ -236,7 +236,7 @@ BattleTowerMons:
 	bigdw 24 ; Spd
 	bigdw 28 ; SAtk
 	bigdw 30 ; SDef
-	dname "RAPURASU", MON_NAME_LENGTH
+	dname "RAPURASU", MON_NAME_LENGTH ; "RAPURASU"
 
 	db SNEASEL
 	db GOLD_BERRY
@@ -262,7 +262,7 @@ BattleTowerMons:
 	bigdw 34 ; Spd
 	bigdw 19 ; SAtk
 	bigdw 27 ; SDef
-	dname "NIyu-RA", MON_NAME_LENGTH
+	dname "NIyu-RA", MON_NAME_LENGTH ; "NIyu-RA"
 
 	db PORYGON2
 	db BRIGHTPOWDER
@@ -288,7 +288,7 @@ BattleTowerMons:
 	bigdw 23 ; Spd
 	bigdw 33 ; SAtk
 	bigdw 31 ; SDef
-	dname "PORIGON2", MON_NAME_LENGTH
+	dname "PORIGON2", MON_NAME_LENGTH ; "PORIGON2"
 
 	db MISDREAVUS
 	db FOCUS_BAND
@@ -314,7 +314,7 @@ BattleTowerMons:
 	bigdw 28 ; Spd
 	bigdw 29 ; SAtk
 	bigdw 29 ; SDef
-	dname "MUUMA", MON_NAME_LENGTH
+	dname "MUUMA", MON_NAME_LENGTH ; "MUUMA"
 
 	db HOUNDOUR
 	db GOLD_BERRY
@@ -340,7 +340,7 @@ BattleTowerMons:
 	bigdw 25 ; Spd
 	bigdw 28 ; SAtk
 	bigdw 22 ; SDef
-	dname "DERUBIRU", MON_NAME_LENGTH
+	dname "DERUBIRU", MON_NAME_LENGTH ; "DERUBIRU"
 
 	db GIRAFARIG
 	db KINGS_ROCK
@@ -366,7 +366,7 @@ BattleTowerMons:
 	bigdw 29 ; Spd
 	bigdw 29 ; SAtk
 	bigdw 24 ; SDef
-	dname "KIRINRIKI", MON_NAME_LENGTH
+	dname "KIRINRIKI", MON_NAME_LENGTH ; "KIRINRIKI"
 
 	db BLISSEY
 	db QUICK_CLAW
@@ -392,7 +392,7 @@ BattleTowerMons:
 	bigdw 22 ; Spd
 	bigdw 27 ; SAtk
 	bigdw 39 ; SDef
-	dname "HAPINASU", MON_NAME_LENGTH
+	dname "HAPINASU", MON_NAME_LENGTH ; "HAPINASU"
 
 	db SNORLAX
 	db MIRACLEBERRY
@@ -418,7 +418,7 @@ BattleTowerMons:
 	bigdw 18 ; Spd
 	bigdw 23 ; SAtk
 	bigdw 32 ; SDef
-	dname "KABIGON", MON_NAME_LENGTH
+	dname "KABIGON", MON_NAME_LENGTH ; "KABIGON"
 
 	db EXEGGUTOR
 	db KINGS_ROCK
@@ -444,7 +444,7 @@ BattleTowerMons:
 	bigdw 23 ; Spd
 	bigdw 37 ; SAtk
 	bigdw 25 ; SDef
-	dname "NAtuSI-", MON_NAME_LENGTH
+	dname "NAtuSI-", MON_NAME_LENGTH ; "NAtuSI-"
 
 	db HERACROSS
 	db GOLD_BERRY
@@ -470,7 +470,7 @@ BattleTowerMons:
 	bigdw 29 ; Spd
 	bigdw 18 ; SAtk
 	bigdw 29 ; SDef
-	dname "HERAKUROSU", MON_NAME_LENGTH
+	dname "HERAKUROSU", MON_NAME_LENGTH ; "HERAKUROSU"
 
 	db UNOWN
 	db BERRY
@@ -496,7 +496,7 @@ BattleTowerMons:
 	bigdw 21 ; Spd
 	bigdw 26 ; SAtk
 	bigdw 21 ; SDef
-	dname "ANNO-N", MON_NAME_LENGTH
+	dname "ANNO-N", MON_NAME_LENGTH ; "ANNO-N"
 
 	db TAUROS
 	db KINGS_ROCK
@@ -522,7 +522,7 @@ BattleTowerMons:
 	bigdw 32 ; Spd
 	bigdw 18 ; SAtk
 	bigdw 24 ; SDef
-	dname "KENTAROSU", MON_NAME_LENGTH
+	dname "KENTAROSU", MON_NAME_LENGTH ; "KENTAROSU"
 
 	db MR__MIME
 	db QUICK_CLAW
@@ -548,7 +548,7 @@ BattleTowerMons:
 	bigdw 28 ; Spd
 	bigdw 30 ; SAtk
 	bigdw 34 ; SDef
-	dname "BARIYA-DO", MON_NAME_LENGTH
+	dname "BARIYA-DO", MON_NAME_LENGTH ; "BARIYA-DO"
 
 
 ; BattleTowerMons group 2
@@ -577,7 +577,7 @@ BattleTowerMons:
 	bigdw 46 ; Spd
 	bigdw 44 ; SAtk
 	bigdw 72 ; SDef
-	dname "BURAtuKI-", MON_NAME_LENGTH
+	dname "BURAtuKI-", MON_NAME_LENGTH ; "BURAtuKI-"
 
 	db STARMIE
 	db GOLD_BERRY
@@ -603,7 +603,7 @@ BattleTowerMons:
 	bigdw 67 ; Spd
 	bigdw 60 ; SAtk
 	bigdw 54 ; SDef
-	dname "SUTA-MI-", MON_NAME_LENGTH
+	dname "SUTA-MI-", MON_NAME_LENGTH ; "SUTA-MI-"
 
 	db GYARADOS
 	db MIRACLEBERRY
@@ -629,7 +629,7 @@ BattleTowerMons:
 	bigdw 54 ; Spd
 	bigdw 45 ; SAtk
 	bigdw 61 ; SDef
-	dname "GIyaRADOSU", MON_NAME_LENGTH
+	dname "GIyaRADOSU", MON_NAME_LENGTH ; "GIyaRADOSU"
 
 	db STEELIX
 	db GOLD_BERRY
@@ -655,7 +655,7 @@ BattleTowerMons:
 	bigdw 31 ; Spd
 	bigdw 44 ; SAtk
 	bigdw 48 ; SDef
-	dname "HAGANE-RU", MON_NAME_LENGTH
+	dname "HAGANE-RU", MON_NAME_LENGTH ; "HAGANE-RU"
 
 	db ALAKAZAM
 	db BERRY_JUICE
@@ -681,7 +681,7 @@ BattleTowerMons:
 	bigdw 69 ; Spd
 	bigdw 75 ; SAtk
 	bigdw 55 ; SDef
-	dname "HU-DEiN", MON_NAME_LENGTH
+	dname "HU-DEiN", MON_NAME_LENGTH ; "HU-DEiN"
 
 	db ARCANINE
 	db BRIGHTPOWDER
@@ -707,7 +707,7 @@ BattleTowerMons:
 	bigdw 60 ; Spd
 	bigdw 60 ; SAtk
 	bigdw 52 ; SDef
-	dname "UINDEi", MON_NAME_LENGTH
+	dname "UINDEi", MON_NAME_LENGTH ; "UINDEi"
 
 	db HERACROSS
 	db FOCUS_BAND
@@ -733,7 +733,7 @@ BattleTowerMons:
 	bigdw 52 ; Spd
 	bigdw 37 ; SAtk
 	bigdw 59 ; SDef
-	dname "HERAKUROSU", MON_NAME_LENGTH
+	dname "HERAKUROSU", MON_NAME_LENGTH ; "HERAKUROSU"
 
 	db EXEGGUTOR
 	db LEFTOVERS
@@ -759,7 +759,7 @@ BattleTowerMons:
 	bigdw 43 ; Spd
 	bigdw 70 ; SAtk
 	bigdw 46 ; SDef
-	dname "NAtuSI-", MON_NAME_LENGTH
+	dname "NAtuSI-", MON_NAME_LENGTH ; "NAtuSI-"
 
 	db AERODACTYL
 	db GOLD_BERRY
@@ -785,7 +785,7 @@ BattleTowerMons:
 	bigdw 72 ; Spd
 	bigdw 44 ; SAtk
 	bigdw 50 ; SDef
-	dname "PUTERA", MON_NAME_LENGTH
+	dname "PUTERA", MON_NAME_LENGTH ; "PUTERA"
 
 	db BLISSEY
 	db BRIGHTPOWDER
@@ -811,7 +811,7 @@ BattleTowerMons:
 	bigdw 41 ; Spd
 	bigdw 51 ; SAtk
 	bigdw 75 ; SDef
-	dname "HAPINASU", MON_NAME_LENGTH
+	dname "HAPINASU", MON_NAME_LENGTH ; "HAPINASU"
 
 	db LAPRAS
 	db GOLD_BERRY
@@ -837,7 +837,7 @@ BattleTowerMons:
 	bigdw 45 ; Spd
 	bigdw 50 ; SAtk
 	bigdw 54 ; SDef
-	dname "RAPURASU", MON_NAME_LENGTH
+	dname "RAPURASU", MON_NAME_LENGTH ; "RAPURASU"
 
 	db PIKACHU
 	db LIGHT_BALL
@@ -863,7 +863,7 @@ BattleTowerMons:
 	bigdw 58 ; Spd
 	bigdw 41 ; SAtk
 	bigdw 37 ; SDef
-	dname "PIKATIyuU", MON_NAME_LENGTH
+	dname "PIKATIyuU", MON_NAME_LENGTH ; "PIKATIyuU"
 
 	db SCIZOR
 	db FOCUS_BAND
@@ -889,7 +889,7 @@ BattleTowerMons:
 	bigdw 47 ; Spd
 	bigdw 43 ; SAtk
 	bigdw 53 ; SDef
-	dname "HAtuSAMU", MON_NAME_LENGTH
+	dname "HAtuSAMU", MON_NAME_LENGTH ; "HAtuSAMU"
 
 	db HITMONCHAN
 	db GOLD_BERRY
@@ -915,7 +915,7 @@ BattleTowerMons:
 	bigdw 52 ; Spd
 	bigdw 32 ; SAtk
 	bigdw 62 ; SDef
-	dname "EBIWARA-", MON_NAME_LENGTH
+	dname "EBIWARA-", MON_NAME_LENGTH ; "EBIWARA-"
 
 	db TAUROS
 	db BRIGHTPOWDER
@@ -941,7 +941,7 @@ BattleTowerMons:
 	bigdw 63 ; Spd
 	bigdw 35 ; SAtk
 	bigdw 47 ; SDef
-	dname "KENTAROSU", MON_NAME_LENGTH
+	dname "KENTAROSU", MON_NAME_LENGTH ; "KENTAROSU"
 
 	db AZUMARILL
 	db MYSTIC_WATER
@@ -967,7 +967,7 @@ BattleTowerMons:
 	bigdw 41 ; Spd
 	bigdw 37 ; SAtk
 	bigdw 49 ; SDef
-	dname "MARIRURI", MON_NAME_LENGTH
+	dname "MARIRURI", MON_NAME_LENGTH ; "MARIRURI"
 
 	db MILTANK
 	db KINGS_ROCK
@@ -993,7 +993,7 @@ BattleTowerMons:
 	bigdw 61 ; Spd
 	bigdw 36 ; SAtk
 	bigdw 48 ; SDef
-	dname "MIRUTANKU", MON_NAME_LENGTH
+	dname "MIRUTANKU", MON_NAME_LENGTH ; "MIRUTANKU"
 
 	db WIGGLYTUFF
 	db GOLD_BERRY
@@ -1019,7 +1019,7 @@ BattleTowerMons:
 	bigdw 39 ; Spd
 	bigdw 50 ; SAtk
 	bigdw 40 ; SDef
-	dname "PUKURIN", MON_NAME_LENGTH
+	dname "PUKURIN", MON_NAME_LENGTH ; "PUKURIN"
 
 	db WIGGLYTUFF
 	db PINK_BOW
@@ -1045,7 +1045,7 @@ BattleTowerMons:
 	bigdw 34 ; Spd
 	bigdw 46 ; SAtk
 	bigdw 36 ; SDef
-	dname "PUKURIN", MON_NAME_LENGTH
+	dname "PUKURIN", MON_NAME_LENGTH ; "PUKURIN"
 
 	db NIDOKING
 	db BERRY
@@ -1071,7 +1071,7 @@ BattleTowerMons:
 	bigdw 49 ; Spd
 	bigdw 50 ; SAtk
 	bigdw 46 ; SDef
-	dname "NIDOKINGU", MON_NAME_LENGTH
+	dname "NIDOKINGU", MON_NAME_LENGTH ; "NIDOKINGU"
 
 	db QUAGSIRE
 	db QUICK_CLAW
@@ -1097,7 +1097,7 @@ BattleTowerMons:
 	bigdw 29 ; Spd
 	bigdw 42 ; SAtk
 	bigdw 42 ; SDef
-	dname "NUO-", MON_NAME_LENGTH
+	dname "NUO-", MON_NAME_LENGTH ; "NUO-"
 
 
 ; BattleTowerMons group 3
@@ -1126,7 +1126,7 @@ BattleTowerMons:
 	bigdw 107 ; Spd
 	bigdw 96 ; SAtk
 	bigdw 87 ; SDef
-	dname "SANDA-SU", MON_NAME_LENGTH
+	dname "SANDA-SU", MON_NAME_LENGTH ; "SANDA-SU"
 
 	db POLIWRATH
 	db BRIGHTPOWDER
@@ -1152,7 +1152,7 @@ BattleTowerMons:
 	bigdw 73 ; Spd
 	bigdw 70 ; SAtk
 	bigdw 82 ; SDef
-	dname "NIyoROBON", MON_NAME_LENGTH
+	dname "NIyoROBON", MON_NAME_LENGTH ; "NIyoROBON"
 
 	db STARMIE
 	db LEFTOVERS
@@ -1178,7 +1178,7 @@ BattleTowerMons:
 	bigdw 99 ; Spd
 	bigdw 90 ; SAtk
 	bigdw 81 ; SDef
-	dname "SUTA-MI-", MON_NAME_LENGTH
+	dname "SUTA-MI-", MON_NAME_LENGTH ; "SUTA-MI-"
 
 	db JYNX
 	db GOLD_BERRY
@@ -1204,7 +1204,7 @@ BattleTowerMons:
 	bigdw 83 ; Spd
 	bigdw 98 ; SAtk
 	bigdw 86 ; SDef
-	dname "RU-ZIyuRA", MON_NAME_LENGTH
+	dname "RU-ZIyuRA", MON_NAME_LENGTH ; "RU-ZIyuRA"
 
 	db DUGTRIO
 	db KINGS_ROCK
@@ -1230,7 +1230,7 @@ BattleTowerMons:
 	bigdw 102 ; Spd
 	bigdw 60 ; SAtk
 	bigdw 72 ; SDef
-	dname "DAGUTORIO", MON_NAME_LENGTH
+	dname "DAGUTORIO", MON_NAME_LENGTH ; "DAGUTORIO"
 
 	db BELLOSSOM
 	db BRIGHTPOWDER
@@ -1256,7 +1256,7 @@ BattleTowerMons:
 	bigdw 60 ; Spd
 	bigdw 82 ; SAtk
 	bigdw 88 ; SDef
-	dname "KIREIHANA", MON_NAME_LENGTH
+	dname "KIREIHANA", MON_NAME_LENGTH ; "KIREIHANA"
 
 	db BLISSEY
 	db LEFTOVERS
@@ -1282,7 +1282,7 @@ BattleTowerMons:
 	bigdw 59 ; Spd
 	bigdw 73 ; SAtk
 	bigdw 109 ; SDef
-	dname "HAPINASU", MON_NAME_LENGTH
+	dname "HAPINASU", MON_NAME_LENGTH ; "HAPINASU"
 
 	db HOUNDOOM
 	db CHARCOAL
@@ -1308,7 +1308,7 @@ BattleTowerMons:
 	bigdw 86 ; Spd
 	bigdw 94 ; SAtk
 	bigdw 76 ; SDef
-	dname "HERUGA-", MON_NAME_LENGTH
+	dname "HERUGA-", MON_NAME_LENGTH ; "HERUGA-"
 
 	db MACHAMP
 	db MIRACLEBERRY
@@ -1334,7 +1334,7 @@ BattleTowerMons:
 	bigdw 61 ; Spd
 	bigdw 68 ; SAtk
 	bigdw 80 ; SDef
-	dname "KAIRIKI-", MON_NAME_LENGTH
+	dname "KAIRIKI-", MON_NAME_LENGTH ; "KAIRIKI-"
 
 	db CROBAT
 	db GOLD_BERRY
@@ -1360,7 +1360,7 @@ BattleTowerMons:
 	bigdw 103 ; Spd
 	bigdw 70 ; SAtk
 	bigdw 76 ; SDef
-	dname "KUROBAtuTO", MON_NAME_LENGTH
+	dname "KUROBAtuTO", MON_NAME_LENGTH ; "KUROBAtuTO"
 
 	db PORYGON2
 	db BRIGHTPOWDER
@@ -1386,7 +1386,7 @@ BattleTowerMons:
 	bigdw 66 ; Spd
 	bigdw 87 ; SAtk
 	bigdw 81 ; SDef
-	dname "PORIGON2", MON_NAME_LENGTH
+	dname "PORIGON2", MON_NAME_LENGTH ; "PORIGON2"
 
 	db MAROWAK
 	db THICK_CLUB
@@ -1412,7 +1412,7 @@ BattleTowerMons:
 	bigdw 56 ; Spd
 	bigdw 54 ; SAtk
 	bigdw 72 ; SDef
-	dname "GARAGARA", MON_NAME_LENGTH
+	dname "GARAGARA", MON_NAME_LENGTH ; "GARAGARA"
 
 	db ELECTRODE
 	db BRIGHTPOWDER
@@ -1438,7 +1438,7 @@ BattleTowerMons:
 	bigdw 113 ; Spd
 	bigdw 78 ; SAtk
 	bigdw 78 ; SDef
-	dname "MARUMAIN", MON_NAME_LENGTH
+	dname "MARUMAIN", MON_NAME_LENGTH ; "MARUMAIN"
 
 	db LAPRAS
 	db LEFTOVERS
@@ -1464,7 +1464,7 @@ BattleTowerMons:
 	bigdw 65 ; Spd
 	bigdw 75 ; SAtk
 	bigdw 81 ; SDef
-	dname "RAPURASU", MON_NAME_LENGTH
+	dname "RAPURASU", MON_NAME_LENGTH ; "RAPURASU"
 
 	db LANTURN
 	db GOLD_BERRY
@@ -1490,7 +1490,7 @@ BattleTowerMons:
 	bigdw 66 ; Spd
 	bigdw 70 ; SAtk
 	bigdw 70 ; SDef
-	dname "RANTA-N", MON_NAME_LENGTH
+	dname "RANTA-N", MON_NAME_LENGTH ; "RANTA-N"
 
 	db ESPEON
 	db MIRACLEBERRY
@@ -1516,7 +1516,7 @@ BattleTowerMons:
 	bigdw 96 ; Spd
 	bigdw 103 ; SAtk
 	bigdw 82 ; SDef
-	dname "E-HUi", MON_NAME_LENGTH
+	dname "E-HUi", MON_NAME_LENGTH ; "E-HUi"
 
 	db TENTACRUEL
 	db KINGS_ROCK
@@ -1542,7 +1542,7 @@ BattleTowerMons:
 	bigdw 90 ; Spd
 	bigdw 77 ; SAtk
 	bigdw 101 ; SDef
-	dname "DOKUKURAGE", MON_NAME_LENGTH
+	dname "DOKUKURAGE", MON_NAME_LENGTH ; "DOKUKURAGE"
 
 	db GENGAR
 	db GOLD_BERRY
@@ -1568,7 +1568,7 @@ BattleTowerMons:
 	bigdw 96 ; Spd
 	bigdw 103 ; SAtk
 	bigdw 70 ; SDef
-	dname "GENGA-", MON_NAME_LENGTH
+	dname "GENGA-", MON_NAME_LENGTH ; "GENGA-"
 
 	db URSARING
 	db GOLD_BERRY
@@ -1594,7 +1594,7 @@ BattleTowerMons:
 	bigdw 53 ; Spd
 	bigdw 65 ; SAtk
 	bigdw 65 ; SDef
-	dname "RINGUMA", MON_NAME_LENGTH
+	dname "RINGUMA", MON_NAME_LENGTH ; "RINGUMA"
 
 	db FEAROW
 	db BRIGHTPOWDER
@@ -1620,7 +1620,7 @@ BattleTowerMons:
 	bigdw 82 ; Spd
 	bigdw 58 ; SAtk
 	bigdw 58 ; SDef
-	dname "ONIDORIRU", MON_NAME_LENGTH
+	dname "ONIDORIRU", MON_NAME_LENGTH ; "ONIDORIRU"
 
 	db PRIMEAPE
 	db MIRACLEBERRY
@@ -1646,7 +1646,7 @@ BattleTowerMons:
 	bigdw 78 ; Spd
 	bigdw 58 ; SAtk
 	bigdw 64 ; SDef
-	dname "OKORIZARU", MON_NAME_LENGTH
+	dname "OKORIZARU", MON_NAME_LENGTH ; "OKORIZARU"
 
 
 ; BattleTowerMons group 4
@@ -1675,7 +1675,7 @@ BattleTowerMons:
 	bigdw 127 ; Spd
 	bigdw 70 ; SAtk
 	bigdw 94 ; SDef
-	dname "KENTAROSU", MON_NAME_LENGTH
+	dname "KENTAROSU", MON_NAME_LENGTH ; "KENTAROSU"
 
 	db KINGDRA
 	db LEFTOVERS
@@ -1701,7 +1701,7 @@ BattleTowerMons:
 	bigdw 106 ; Spd
 	bigdw 115 ; SAtk
 	bigdw 115 ; SDef
-	dname "KINGUDORA", MON_NAME_LENGTH
+	dname "KINGUDORA", MON_NAME_LENGTH ; "KINGUDORA"
 
 	db SNORLAX
 	db QUICK_CLAW
@@ -1727,7 +1727,7 @@ BattleTowerMons:
 	bigdw 61 ; Spd
 	bigdw 89 ; SAtk
 	bigdw 125 ; SDef
-	dname "KABIGON", MON_NAME_LENGTH
+	dname "KABIGON", MON_NAME_LENGTH ; "KABIGON"
 
 	db LAPRAS
 	db LEFTOVERS
@@ -1753,7 +1753,7 @@ BattleTowerMons:
 	bigdw 86 ; Spd
 	bigdw 103 ; SAtk
 	bigdw 111 ; SDef
-	dname "RAPURASU", MON_NAME_LENGTH
+	dname "RAPURASU", MON_NAME_LENGTH ; "RAPURASU"
 
 	db STEELIX
 	db GOLD_BERRY
@@ -1779,7 +1779,7 @@ BattleTowerMons:
 	bigdw 61 ; Spd
 	bigdw 79 ; SAtk
 	bigdw 87 ; SDef
-	dname "HAGANE-RU", MON_NAME_LENGTH
+	dname "HAGANE-RU", MON_NAME_LENGTH ; "HAGANE-RU"
 
 	db ALAKAZAM
 	db KINGS_ROCK
@@ -1805,7 +1805,7 @@ BattleTowerMons:
 	bigdw 135 ; Spd
 	bigdw 147 ; SAtk
 	bigdw 107 ; SDef
-	dname "HU-DEiN", MON_NAME_LENGTH
+	dname "HU-DEiN", MON_NAME_LENGTH ; "HU-DEiN"
 
 	db STARMIE
 	db LEFTOVERS
@@ -1831,7 +1831,7 @@ BattleTowerMons:
 	bigdw 127 ; Spd
 	bigdw 117 ; SAtk
 	bigdw 105 ; SDef
-	dname "SUTA-MI-", MON_NAME_LENGTH
+	dname "SUTA-MI-", MON_NAME_LENGTH ; "SUTA-MI-"
 
 	db WOBBUFFET
 	db GOLD_BERRY
@@ -1857,7 +1857,7 @@ BattleTowerMons:
 	bigdw 64 ; Spd
 	bigdw 59 ; SAtk
 	bigdw 79 ; SDef
-	dname "SO-NANSU", MON_NAME_LENGTH
+	dname "SO-NANSU", MON_NAME_LENGTH ; "SO-NANSU"
 
 	db GOLEM
 	db FOCUS_BAND
@@ -1883,7 +1883,7 @@ BattleTowerMons:
 	bigdw 74 ; Spd
 	bigdw 80 ; SAtk
 	bigdw 88 ; SDef
-	dname "GORO-NIya", MON_NAME_LENGTH
+	dname "GORO-NIya", MON_NAME_LENGTH ; "GORO-NIya"
 
 	db SCIZOR
 	db SCOPE_LENS
@@ -1909,7 +1909,7 @@ BattleTowerMons:
 	bigdw 89 ; Spd
 	bigdw 82 ; SAtk
 	bigdw 102 ; SDef
-	dname "HAtuSAMU", MON_NAME_LENGTH
+	dname "HAtuSAMU", MON_NAME_LENGTH ; "HAtuSAMU"
 
 	db DUGTRIO
 	db KINGS_ROCK
@@ -1935,7 +1935,7 @@ BattleTowerMons:
 	bigdw 131 ; Spd
 	bigdw 75 ; SAtk
 	bigdw 91 ; SDef
-	dname "DAGUTORIO", MON_NAME_LENGTH
+	dname "DAGUTORIO", MON_NAME_LENGTH ; "DAGUTORIO"
 
 	db SLOWBRO
 	db MIRACLEBERRY
@@ -1961,7 +1961,7 @@ BattleTowerMons:
 	bigdw 60 ; Spd
 	bigdw 119 ; SAtk
 	bigdw 103 ; SDef
-	dname "YADORAN", MON_NAME_LENGTH
+	dname "YADORAN", MON_NAME_LENGTH ; "YADORAN"
 
 	db PORYGON2
 	db NO_ITEM
@@ -1987,7 +1987,7 @@ BattleTowerMons:
 	bigdw 86 ; Spd
 	bigdw 123 ; SAtk
 	bigdw 115 ; SDef
-	dname "PORIGON2", MON_NAME_LENGTH
+	dname "PORIGON2", MON_NAME_LENGTH ; "PORIGON2"
 
 	db ARCANINE
 	db CHARCOAL
@@ -2013,7 +2013,7 @@ BattleTowerMons:
 	bigdw 111 ; Spd
 	bigdw 115 ; SAtk
 	bigdw 99 ; SDef
-	dname "UINDEi", MON_NAME_LENGTH
+	dname "UINDEi", MON_NAME_LENGTH ; "UINDEi"
 
 	db FORRETRESS
 	db LEFTOVERS
@@ -2039,7 +2039,7 @@ BattleTowerMons:
 	bigdw 64 ; Spd
 	bigdw 87 ; SAtk
 	bigdw 87 ; SDef
-	dname "HUoRETOSU", MON_NAME_LENGTH
+	dname "HUoRETOSU", MON_NAME_LENGTH ; "HUoRETOSU"
 
 	db OMASTAR
 	db GOLD_BERRY
@@ -2065,7 +2065,7 @@ BattleTowerMons:
 	bigdw 83 ; Spd
 	bigdw 124 ; SAtk
 	bigdw 88 ; SDef
-	dname "OMUSUTA-", MON_NAME_LENGTH
+	dname "OMUSUTA-", MON_NAME_LENGTH ; "OMUSUTA-"
 
 	db CHARIZARD
 	db KINGS_ROCK
@@ -2091,7 +2091,7 @@ BattleTowerMons:
 	bigdw 119 ; Spd
 	bigdw 125 ; SAtk
 	bigdw 106 ; SDef
-	dname "RIZA-DON", MON_NAME_LENGTH
+	dname "RIZA-DON", MON_NAME_LENGTH ; "RIZA-DON"
 
 	db EXEGGUTOR
 	db BRIGHTPOWDER
@@ -2117,7 +2117,7 @@ BattleTowerMons:
 	bigdw 82 ; Spd
 	bigdw 132 ; SAtk
 	bigdw 84 ; SDef
-	dname "NAtuSI-", MON_NAME_LENGTH
+	dname "NAtuSI-", MON_NAME_LENGTH ; "NAtuSI-"
 
 	db HYPNO
 	db BRIGHTPOWDER
@@ -2143,7 +2143,7 @@ BattleTowerMons:
 	bigdw 81 ; Spd
 	bigdw 88 ; SAtk
 	bigdw 122 ; SDef
-	dname "SURI-PA-", MON_NAME_LENGTH
+	dname "SURI-PA-", MON_NAME_LENGTH ; "SURI-PA-"
 
 	db MUK
 	db QUICK_CLAW
@@ -2169,7 +2169,7 @@ BattleTowerMons:
 	bigdw 67 ; Spd
 	bigdw 83 ; SAtk
 	bigdw 111 ; SDef
-	dname "BETOBETON", MON_NAME_LENGTH
+	dname "BETOBETON", MON_NAME_LENGTH ; "BETOBETON"
 
 	db ELECTABUZZ
 	db KINGS_ROCK
@@ -2195,7 +2195,7 @@ BattleTowerMons:
 	bigdw 111 ; Spd
 	bigdw 103 ; SAtk
 	bigdw 95 ; SDef
-	dname "EREBU-", MON_NAME_LENGTH
+	dname "EREBU-", MON_NAME_LENGTH ; "EREBU-"
 
 
 ; BattleTowerMons group 5
@@ -2224,7 +2224,7 @@ BattleTowerMons:
 	bigdw 132 ; Spd
 	bigdw 144 ; SAtk
 	bigdw 144 ; SDef
-	dname "KINGUDORA", MON_NAME_LENGTH
+	dname "KINGUDORA", MON_NAME_LENGTH ; "KINGUDORA"
 
 	db HOUNDOOM
 	db MIRACLEBERRY
@@ -2250,7 +2250,7 @@ BattleTowerMons:
 	bigdw 145 ; Spd
 	bigdw 157 ; SAtk
 	bigdw 127 ; SDef
-	dname "HERUGA-", MON_NAME_LENGTH
+	dname "HERUGA-", MON_NAME_LENGTH ; "HERUGA-"
 
 	db SHUCKLE
 	db LEFTOVERS
@@ -2276,7 +2276,7 @@ BattleTowerMons:
 	bigdw 52 ; Spd
 	bigdw 59 ; SAtk
 	bigdw 279 ; SDef
-	dname "TUBOTUBO", MON_NAME_LENGTH
+	dname "TUBOTUBO", MON_NAME_LENGTH ; "TUBOTUBO"
 
 	db SNORLAX
 	db LEFTOVERS
@@ -2302,7 +2302,7 @@ BattleTowerMons:
 	bigdw 79 ; Spd
 	bigdw 114 ; SAtk
 	bigdw 159 ; SDef
-	dname "KABIGON", MON_NAME_LENGTH
+	dname "KABIGON", MON_NAME_LENGTH ; "KABIGON"
 
 	db LAPRAS
 	db GOLD_BERRY
@@ -2328,7 +2328,7 @@ BattleTowerMons:
 	bigdw 107 ; Spd
 	bigdw 133 ; SAtk
 	bigdw 143 ; SDef
-	dname "RAPURASU", MON_NAME_LENGTH
+	dname "RAPURASU", MON_NAME_LENGTH ; "RAPURASU"
 
 	db JOLTEON
 	db KINGS_ROCK
@@ -2354,7 +2354,7 @@ BattleTowerMons:
 	bigdw 179 ; Spd
 	bigdw 159 ; SAtk
 	bigdw 144 ; SDef
-	dname "SANDA-SU", MON_NAME_LENGTH
+	dname "SANDA-SU", MON_NAME_LENGTH ; "SANDA-SU"
 
 	db SCIZOR
 	db LEFTOVERS
@@ -2380,7 +2380,7 @@ BattleTowerMons:
 	bigdw 111 ; Spd
 	bigdw 99 ; SAtk
 	bigdw 124 ; SDef
-	dname "HAtuSAMU", MON_NAME_LENGTH
+	dname "HAtuSAMU", MON_NAME_LENGTH ; "HAtuSAMU"
 
 	db SLOWKING
 	db MINT_BERRY
@@ -2406,7 +2406,7 @@ BattleTowerMons:
 	bigdw 75 ; Spd
 	bigdw 146 ; SAtk
 	bigdw 156 ; SDef
-	dname "YADOKINGU", MON_NAME_LENGTH
+	dname "YADOKINGU", MON_NAME_LENGTH ; "YADOKINGU"
 
 	db MACHAMP
 	db GOLD_BERRY
@@ -2432,7 +2432,7 @@ BattleTowerMons:
 	bigdw 99 ; Spd
 	bigdw 108 ; SAtk
 	bigdw 128 ; SDef
-	dname "KAIRIKI-", MON_NAME_LENGTH
+	dname "KAIRIKI-", MON_NAME_LENGTH ; "KAIRIKI-"
 
 	db STARMIE
 	db SCOPE_LENS
@@ -2458,7 +2458,7 @@ BattleTowerMons:
 	bigdw 161 ; Spd
 	bigdw 145 ; SAtk
 	bigdw 130 ; SDef
-	dname "SUTA-MI-", MON_NAME_LENGTH
+	dname "SUTA-MI-", MON_NAME_LENGTH ; "SUTA-MI-"
 
 	db DUGTRIO
 	db KINGS_ROCK
@@ -2484,7 +2484,7 @@ BattleTowerMons:
 	bigdw 166 ; Spd
 	bigdw 96 ; SAtk
 	bigdw 116 ; SDef
-	dname "DAGUTORIO", MON_NAME_LENGTH
+	dname "DAGUTORIO", MON_NAME_LENGTH ; "DAGUTORIO"
 
 	db ELECTRODE
 	db MIRACLEBERRY
@@ -2510,7 +2510,7 @@ BattleTowerMons:
 	bigdw 185 ; Spd
 	bigdw 126 ; SAtk
 	bigdw 126 ; SDef
-	dname "MARUMAIN", MON_NAME_LENGTH
+	dname "MARUMAIN", MON_NAME_LENGTH ; "MARUMAIN"
 
 	db AERODACTYL
 	db KINGS_ROCK
@@ -2536,7 +2536,7 @@ BattleTowerMons:
 	bigdw 174 ; Spd
 	bigdw 104 ; SAtk
 	bigdw 119 ; SDef
-	dname "PUTERA", MON_NAME_LENGTH
+	dname "PUTERA", MON_NAME_LENGTH ; "PUTERA"
 
 	db CROBAT
 	db LEFTOVERS
@@ -2562,7 +2562,7 @@ BattleTowerMons:
 	bigdw 175 ; Spd
 	bigdw 117 ; SAtk
 	bigdw 127 ; SDef
-	dname "KUROBAtuTO", MON_NAME_LENGTH
+	dname "KUROBAtuTO", MON_NAME_LENGTH ; "KUROBAtuTO"
 
 	db ZAPDOS
 	db MIRACLEBERRY
@@ -2588,7 +2588,7 @@ BattleTowerMons:
 	bigdw 143 ; Spd
 	bigdw 171 ; SAtk
 	bigdw 136 ; SDef
-	dname "SANDA-", MON_NAME_LENGTH
+	dname "SANDA-", MON_NAME_LENGTH ; "SANDA-"
 
 	db SKARMORY
 	db GOLD_BERRY
@@ -2614,7 +2614,7 @@ BattleTowerMons:
 	bigdw 116 ; Spd
 	bigdw 83 ; SAtk
 	bigdw 113 ; SDef
-	dname "EA-MUDO", MON_NAME_LENGTH
+	dname "EA-MUDO", MON_NAME_LENGTH ; "EA-MUDO"
 
 	db FORRETRESS
 	db LEFTOVERS
@@ -2640,7 +2640,7 @@ BattleTowerMons:
 	bigdw 84 ; Spd
 	bigdw 103 ; SAtk
 	bigdw 103 ; SDef
-	dname "HUoRETOSU", MON_NAME_LENGTH
+	dname "HUoRETOSU", MON_NAME_LENGTH ; "HUoRETOSU"
 
 	db STEELIX
 	db MIRACLEBERRY
@@ -2666,7 +2666,7 @@ BattleTowerMons:
 	bigdw 73 ; Spd
 	bigdw 99 ; SAtk
 	bigdw 109 ; SDef
-	dname "HAGANE-RU", MON_NAME_LENGTH
+	dname "HAGANE-RU", MON_NAME_LENGTH ; "HAGANE-RU"
 
 	db GIRAFARIG
 	db SCOPE_LENS
@@ -2692,7 +2692,7 @@ BattleTowerMons:
 	bigdw 120 ; Spd
 	bigdw 126 ; SAtk
 	bigdw 101 ; SDef
-	dname "KIRINRIKI", MON_NAME_LENGTH
+	dname "KIRINRIKI", MON_NAME_LENGTH ; "KIRINRIKI"
 
 	db GYARADOS
 	db MIRACLEBERRY
@@ -2718,7 +2718,7 @@ BattleTowerMons:
 	bigdw 117 ; Spd
 	bigdw 95 ; SAtk
 	bigdw 135 ; SDef
-	dname "GIyaRADOSU", MON_NAME_LENGTH
+	dname "GIyaRADOSU", MON_NAME_LENGTH ; "GIyaRADOSU"
 
 	db ARTICUNO
 	db GOLD_BERRY
@@ -2744,7 +2744,7 @@ BattleTowerMons:
 	bigdw 120 ; Spd
 	bigdw 131 ; SAtk
 	bigdw 161 ; SDef
-	dname "HURI-ZA-", MON_NAME_LENGTH
+	dname "HURI-ZA-", MON_NAME_LENGTH ; "HURI-ZA-"
 
 
 ; BattleTowerMons group 6
@@ -2773,7 +2773,7 @@ BattleTowerMons:
 	bigdw 161 ; Spd
 	bigdw 172 ; SAtk
 	bigdw 172 ; SDef
-	dname "KINGUDORA", MON_NAME_LENGTH
+	dname "KINGUDORA", MON_NAME_LENGTH ; "KINGUDORA"
 
 	db TYRANITAR
 	db GOLD_BERRY
@@ -2799,7 +2799,7 @@ BattleTowerMons:
 	bigdw 131 ; Spd
 	bigdw 169 ; SAtk
 	bigdw 175 ; SDef
-	dname "BANGIRASU", MON_NAME_LENGTH
+	dname "BANGIRASU", MON_NAME_LENGTH ; "BANGIRASU"
 
 	db HOUNDOOM
 	db MIRACLEBERRY
@@ -2825,7 +2825,7 @@ BattleTowerMons:
 	bigdw 172 ; Spd
 	bigdw 189 ; SAtk
 	bigdw 153 ; SDef
-	dname "HERUGA-", MON_NAME_LENGTH
+	dname "HERUGA-", MON_NAME_LENGTH ; "HERUGA-"
 
 	db PORYGON2
 	db LEFTOVERS
@@ -2851,7 +2851,7 @@ BattleTowerMons:
 	bigdw 125 ; Spd
 	bigdw 182 ; SAtk
 	bigdw 170 ; SDef
-	dname "PORIGON2", MON_NAME_LENGTH
+	dname "PORIGON2", MON_NAME_LENGTH ; "PORIGON2"
 
 	db MACHAMP
 	db QUICK_CLAW
@@ -2877,7 +2877,7 @@ BattleTowerMons:
 	bigdw 120 ; Spd
 	bigdw 134 ; SAtk
 	bigdw 158 ; SDef
-	dname "KAIRIKI-", MON_NAME_LENGTH
+	dname "KAIRIKI-", MON_NAME_LENGTH ; "KAIRIKI-"
 
 	db ZAPDOS
 	db MINT_BERRY
@@ -2903,7 +2903,7 @@ BattleTowerMons:
 	bigdw 177 ; Spd
 	bigdw 203 ; SAtk
 	bigdw 161 ; SDef
-	dname "SANDA-", MON_NAME_LENGTH
+	dname "SANDA-", MON_NAME_LENGTH ; "SANDA-"
 
 	db WOBBUFFET
 	db GOLD_BERRY
@@ -2929,7 +2929,7 @@ BattleTowerMons:
 	bigdw 94 ; Spd
 	bigdw 92 ; SAtk
 	bigdw 122 ; SDef
-	dname "SO-NANSU", MON_NAME_LENGTH
+	dname "SO-NANSU", MON_NAME_LENGTH ; "SO-NANSU"
 
 	db AERODACTYL
 	db LEFTOVERS
@@ -2955,7 +2955,7 @@ BattleTowerMons:
 	bigdw 208 ; Spd
 	bigdw 124 ; SAtk
 	bigdw 142 ; SDef
-	dname "PUTERA", MON_NAME_LENGTH
+	dname "PUTERA", MON_NAME_LENGTH ; "PUTERA"
 
 	db DRAGONITE
 	db MIRACLEBERRY
@@ -2981,7 +2981,7 @@ BattleTowerMons:
 	bigdw 152 ; Spd
 	bigdw 172 ; SAtk
 	bigdw 172 ; SDef
-	dname "KAIRIyu-", MON_NAME_LENGTH
+	dname "KAIRIyu-", MON_NAME_LENGTH ; "KAIRIyu-"
 
 	db UMBREON
 	db GOLD_BERRY
@@ -3007,7 +3007,7 @@ BattleTowerMons:
 	bigdw 132 ; Spd
 	bigdw 128 ; SAtk
 	bigdw 212 ; SDef
-	dname "BURAtuKI-", MON_NAME_LENGTH
+	dname "BURAtuKI-", MON_NAME_LENGTH ; "BURAtuKI-"
 
 	db ARCANINE
 	db CHARCOAL
@@ -3033,7 +3033,7 @@ BattleTowerMons:
 	bigdw 170 ; Spd
 	bigdw 173 ; SAtk
 	bigdw 149 ; SDef
-	dname "UINDEi", MON_NAME_LENGTH
+	dname "UINDEi", MON_NAME_LENGTH ; "UINDEi"
 
 	db SKARMORY
 	db MIRACLEBERRY
@@ -3059,7 +3059,7 @@ BattleTowerMons:
 	bigdw 138 ; Spd
 	bigdw 99 ; SAtk
 	bigdw 135 ; SDef
-	dname "EA-MUDO", MON_NAME_LENGTH
+	dname "EA-MUDO", MON_NAME_LENGTH ; "EA-MUDO"
 
 	db BLISSEY
 	db LEFTOVERS
@@ -3085,7 +3085,7 @@ BattleTowerMons:
 	bigdw 117 ; Spd
 	bigdw 143 ; SAtk
 	bigdw 215 ; SDef
-	dname "HAPINASU", MON_NAME_LENGTH
+	dname "HAPINASU", MON_NAME_LENGTH ; "HAPINASU"
 
 	db SNORLAX
 	db PINK_BOW
@@ -3111,7 +3111,7 @@ BattleTowerMons:
 	bigdw 92 ; Spd
 	bigdw 130 ; SAtk
 	bigdw 184 ; SDef
-	dname "KABIGON", MON_NAME_LENGTH
+	dname "KABIGON", MON_NAME_LENGTH ; "KABIGON"
 
 	db HERACROSS
 	db FOCUS_BAND
@@ -3137,7 +3137,7 @@ BattleTowerMons:
 	bigdw 156 ; Spd
 	bigdw 101 ; SAtk
 	bigdw 167 ; SDef
-	dname "HERAKUROSU", MON_NAME_LENGTH
+	dname "HERAKUROSU", MON_NAME_LENGTH ; "HERAKUROSU"
 
 	db JYNX
 	db MIRACLEBERRY
@@ -3163,7 +3163,7 @@ BattleTowerMons:
 	bigdw 168 ; Spd
 	bigdw 189 ; SAtk
 	bigdw 165 ; SDef
-	dname "RU-ZIyuRA", MON_NAME_LENGTH
+	dname "RU-ZIyuRA", MON_NAME_LENGTH ; "RU-ZIyuRA"
 
 	db BLASTOISE
 	db GOLD_BERRY
@@ -3189,7 +3189,7 @@ BattleTowerMons:
 	bigdw 149 ; Spd
 	bigdw 156 ; SAtk
 	bigdw 180 ; SDef
-	dname "KAMEtuKUSU", MON_NAME_LENGTH
+	dname "KAMEtuKUSU", MON_NAME_LENGTH ; "KAMEtuKUSU"
 
 	db RHYDON
 	db QUICK_CLAW
@@ -3215,7 +3215,7 @@ BattleTowerMons:
 	bigdw 104 ; Spd
 	bigdw 104 ; SAtk
 	bigdw 104 ; SDef
-	dname "SAIDON", MON_NAME_LENGTH
+	dname "SAIDON", MON_NAME_LENGTH ; "SAIDON"
 
 	db SANDSLASH
 	db SCOPE_LENS
@@ -3241,7 +3241,7 @@ BattleTowerMons:
 	bigdw 116 ; Spd
 	bigdw 93 ; SAtk
 	bigdw 105 ; SDef
-	dname "SANDOPAN", MON_NAME_LENGTH
+	dname "SANDOPAN", MON_NAME_LENGTH ; "SANDOPAN"
 
 	db PARASECT
 	db GOLD_BERRY
@@ -3267,7 +3267,7 @@ BattleTowerMons:
 	bigdw 72 ; Spd
 	bigdw 120 ; SAtk
 	bigdw 144 ; SDef
-	dname "PARASEKUTO", MON_NAME_LENGTH
+	dname "PARASEKUTO", MON_NAME_LENGTH ; "PARASEKUTO"
 
 	db GOLEM
 	db BRIGHTPOWDER
@@ -3293,7 +3293,7 @@ BattleTowerMons:
 	bigdw 90 ; Spd
 	bigdw 105 ; SAtk
 	bigdw 117 ; SDef
-	dname "GORO-NIya", MON_NAME_LENGTH
+	dname "GORO-NIya", MON_NAME_LENGTH ; "GORO-NIya"
 
 
 ; BattleTowerMons group 7
@@ -3322,7 +3322,7 @@ BattleTowerMons:
 	bigdw 245 ; Spd
 	bigdw 222 ; SAtk
 	bigdw 201 ; SDef
-	dname "SANDA-SU", MON_NAME_LENGTH
+	dname "SANDA-SU", MON_NAME_LENGTH ; "SANDA-SU"
 
 	db VAPOREON
 	db LEFTOVERS
@@ -3348,7 +3348,7 @@ BattleTowerMons:
 	bigdw 158 ; Spd
 	bigdw 218 ; SAtk
 	bigdw 197 ; SDef
-	dname "SIyaWA-ZU", MON_NAME_LENGTH
+	dname "SIyaWA-ZU", MON_NAME_LENGTH ; "SIyaWA-ZU"
 
 	db UMBREON
 	db GOLD_BERRY
@@ -3374,7 +3374,7 @@ BattleTowerMons:
 	bigdw 152 ; Spd
 	bigdw 149 ; SAtk
 	bigdw 247 ; SDef
-	dname "BURAtuKI-", MON_NAME_LENGTH
+	dname "BURAtuKI-", MON_NAME_LENGTH ; "BURAtuKI-"
 
 	db BLISSEY
 	db GOLD_BERRY
@@ -3400,7 +3400,7 @@ BattleTowerMons:
 	bigdw 143 ; Spd
 	bigdw 166 ; SAtk
 	bigdw 250 ; SDef
-	dname "HAPINASU", MON_NAME_LENGTH
+	dname "HAPINASU", MON_NAME_LENGTH ; "HAPINASU"
 
 	db SNORLAX
 	db LEFTOVERS
@@ -3426,7 +3426,7 @@ BattleTowerMons:
 	bigdw 105 ; Spd
 	bigdw 152 ; SAtk
 	bigdw 215 ; SDef
-	dname "KABIGON", MON_NAME_LENGTH
+	dname "KABIGON", MON_NAME_LENGTH ; "KABIGON"
 
 	db HOUNDOOM
 	db KINGS_ROCK
@@ -3452,7 +3452,7 @@ BattleTowerMons:
 	bigdw 197 ; Spd
 	bigdw 217 ; SAtk
 	bigdw 175 ; SDef
-	dname "HERUGA-", MON_NAME_LENGTH
+	dname "HERUGA-", MON_NAME_LENGTH ; "HERUGA-"
 
 	db TYRANITAR
 	db LEFTOVERS
@@ -3478,7 +3478,7 @@ BattleTowerMons:
 	bigdw 147 ; Spd
 	bigdw 196 ; SAtk
 	bigdw 203 ; SDef
-	dname "BANGIRASU", MON_NAME_LENGTH
+	dname "BANGIRASU", MON_NAME_LENGTH ; "BANGIRASU"
 
 	db ZAPDOS
 	db GOLD_BERRY
@@ -3504,7 +3504,7 @@ BattleTowerMons:
 	bigdw 200 ; Spd
 	bigdw 238 ; SAtk
 	bigdw 189 ; SDef
-	dname "SANDA-", MON_NAME_LENGTH
+	dname "SANDA-", MON_NAME_LENGTH ; "SANDA-"
 
 	db EXEGGUTOR
 	db MIRACLEBERRY
@@ -3530,7 +3530,7 @@ BattleTowerMons:
 	bigdw 140 ; Spd
 	bigdw 235 ; SAtk
 	bigdw 151 ; SDef
-	dname "NAtuSI-", MON_NAME_LENGTH
+	dname "NAtuSI-", MON_NAME_LENGTH ; "NAtuSI-"
 
 	db UMBREON
 	db GOLD_BERRY
@@ -3556,7 +3556,7 @@ BattleTowerMons:
 	bigdw 152 ; Spd
 	bigdw 142 ; SAtk
 	bigdw 240 ; SDef
-	dname "BURAtuKI-", MON_NAME_LENGTH
+	dname "BURAtuKI-", MON_NAME_LENGTH ; "BURAtuKI-"
 
 	db GYARADOS
 	db BRIGHTPOWDER
@@ -3582,7 +3582,7 @@ BattleTowerMons:
 	bigdw 178 ; Spd
 	bigdw 148 ; SAtk
 	bigdw 204 ; SDef
-	dname "GIyaRADOSU", MON_NAME_LENGTH
+	dname "GIyaRADOSU", MON_NAME_LENGTH ; "GIyaRADOSU"
 
 	db QUAGSIRE
 	db MIRACLEBERRY
@@ -3608,7 +3608,7 @@ BattleTowerMons:
 	bigdw 110 ; Spd
 	bigdw 152 ; SAtk
 	bigdw 152 ; SDef
-	dname "NUO-", MON_NAME_LENGTH
+	dname "NUO-", MON_NAME_LENGTH ; "NUO-"
 
 	db URSARING
 	db SCOPE_LENS
@@ -3634,7 +3634,7 @@ BattleTowerMons:
 	bigdw 138 ; Spd
 	bigdw 166 ; SAtk
 	bigdw 166 ; SDef
-	dname "RINGUMA", MON_NAME_LENGTH
+	dname "RINGUMA", MON_NAME_LENGTH ; "RINGUMA"
 
 	db MR__MIME
 	db KINGS_ROCK
@@ -3660,7 +3660,7 @@ BattleTowerMons:
 	bigdw 190 ; Spd
 	bigdw 198 ; SAtk
 	bigdw 226 ; SDef
-	dname "BARIYA-DO", MON_NAME_LENGTH
+	dname "BARIYA-DO", MON_NAME_LENGTH ; "BARIYA-DO"
 
 	db PRIMEAPE
 	db QUICK_CLAW
@@ -3686,7 +3686,7 @@ BattleTowerMons:
 	bigdw 196 ; Spd
 	bigdw 148 ; SAtk
 	bigdw 162 ; SDef
-	dname "OKORIZARU", MON_NAME_LENGTH
+	dname "OKORIZARU", MON_NAME_LENGTH ; "OKORIZARU"
 
 	db GIRAFARIG
 	db GOLD_BERRY
@@ -3712,7 +3712,7 @@ BattleTowerMons:
 	bigdw 183 ; Spd
 	bigdw 187 ; SAtk
 	bigdw 152 ; SDef
-	dname "KIRINRIKI", MON_NAME_LENGTH
+	dname "KIRINRIKI", MON_NAME_LENGTH ; "KIRINRIKI"
 
 	db HITMONLEE
 	db FOCUS_BAND
@@ -3738,7 +3738,7 @@ BattleTowerMons:
 	bigdw 186 ; Spd
 	bigdw 112 ; SAtk
 	bigdw 217 ; SDef
-	dname "SAWAMURA-", MON_NAME_LENGTH
+	dname "SAWAMURA-", MON_NAME_LENGTH ; "SAWAMURA-"
 
 	db HERACROSS
 	db BRIGHTPOWDER
@@ -3764,7 +3764,7 @@ BattleTowerMons:
 	bigdw 183 ; Spd
 	bigdw 109 ; SAtk
 	bigdw 186 ; SDef
-	dname "HERAKUROSU", MON_NAME_LENGTH
+	dname "HERAKUROSU", MON_NAME_LENGTH ; "HERAKUROSU"
 
 	db VENUSAUR
 	db BRIGHTPOWDER
@@ -3790,7 +3790,7 @@ BattleTowerMons:
 	bigdw 152 ; Spd
 	bigdw 180 ; SAtk
 	bigdw 180 ; SDef
-	dname "HUSIGIBANA", MON_NAME_LENGTH
+	dname "HUSIGIBANA", MON_NAME_LENGTH ; "HUSIGIBANA"
 
 	db CHARIZARD
 	db SCOPE_LENS
@@ -3816,7 +3816,7 @@ BattleTowerMons:
 	bigdw 180 ; Spd
 	bigdw 193 ; SAtk
 	bigdw 159 ; SDef
-	dname "RIZA-DON", MON_NAME_LENGTH
+	dname "RIZA-DON", MON_NAME_LENGTH ; "RIZA-DON"
 
 	db BLASTOISE
 	db QUICK_CLAW
@@ -3842,7 +3842,7 @@ BattleTowerMons:
 	bigdw 152 ; Spd
 	bigdw 159 ; SAtk
 	bigdw 187 ; SDef
-	dname "KAMEtuKUSU", MON_NAME_LENGTH
+	dname "KAMEtuKUSU", MON_NAME_LENGTH ; "KAMEtuKUSU"
 
 
 ; BattleTowerMons group 8
@@ -3871,7 +3871,7 @@ BattleTowerMons:
 	bigdw 281 ; Spd
 	bigdw 245 ; SAtk
 	bigdw 221 ; SDef
-	dname "SANDA-SU", MON_NAME_LENGTH
+	dname "SANDA-SU", MON_NAME_LENGTH ; "SANDA-SU"
 
 	db SNORLAX
 	db LEFTOVERS
@@ -3897,7 +3897,7 @@ BattleTowerMons:
 	bigdw 121 ; Spd
 	bigdw 178 ; SAtk
 	bigdw 250 ; SDef
-	dname "KABIGON", MON_NAME_LENGTH
+	dname "KABIGON", MON_NAME_LENGTH ; "KABIGON"
 
 	db HOUNDOOM
 	db MINT_BERRY
@@ -3923,7 +3923,7 @@ BattleTowerMons:
 	bigdw 224 ; Spd
 	bigdw 245 ; SAtk
 	bigdw 197 ; SDef
-	dname "HERUGA-", MON_NAME_LENGTH
+	dname "HERUGA-", MON_NAME_LENGTH ; "HERUGA-"
 
 	db TAUROS
 	db GOLD_BERRY
@@ -3949,7 +3949,7 @@ BattleTowerMons:
 	bigdw 236 ; Spd
 	bigdw 135 ; SAtk
 	bigdw 183 ; SDef
-	dname "KENTAROSU", MON_NAME_LENGTH
+	dname "KENTAROSU", MON_NAME_LENGTH ; "KENTAROSU"
 
 	db LAPRAS
 	db MINT_BERRY
@@ -3975,7 +3975,7 @@ BattleTowerMons:
 	bigdw 168 ; Spd
 	bigdw 202 ; SAtk
 	bigdw 218 ; SDef
-	dname "RAPURASU", MON_NAME_LENGTH
+	dname "RAPURASU", MON_NAME_LENGTH ; "RAPURASU"
 
 	db TYRANITAR
 	db MIRACLEBERRY
@@ -4001,7 +4001,7 @@ BattleTowerMons:
 	bigdw 169 ; Spd
 	bigdw 218 ; SAtk
 	bigdw 226 ; SDef
-	dname "BANGIRASU", MON_NAME_LENGTH
+	dname "BANGIRASU", MON_NAME_LENGTH ; "BANGIRASU"
 
 	db GENGAR
 	db NO_ITEM
@@ -4027,7 +4027,7 @@ BattleTowerMons:
 	bigdw 248 ; Spd
 	bigdw 277 ; SAtk
 	bigdw 189 ; SDef
-	dname "GENGA-", MON_NAME_LENGTH
+	dname "GENGA-", MON_NAME_LENGTH ; "GENGA-"
 
 	db FORRETRESS
 	db LEFTOVERS
@@ -4053,7 +4053,7 @@ BattleTowerMons:
 	bigdw 133 ; Spd
 	bigdw 165 ; SAtk
 	bigdw 165 ; SDef
-	dname "HUoRETOSU", MON_NAME_LENGTH
+	dname "HUoRETOSU", MON_NAME_LENGTH ; "HUoRETOSU"
 
 	db KINGDRA
 	db MINT_BERRY
@@ -4079,7 +4079,7 @@ BattleTowerMons:
 	bigdw 209 ; Spd
 	bigdw 221 ; SAtk
 	bigdw 221 ; SDef
-	dname "KINGUDORA", MON_NAME_LENGTH
+	dname "KINGUDORA", MON_NAME_LENGTH ; "KINGUDORA"
 
 	db DRAGONITE
 	db GOLD_BERRY
@@ -4105,7 +4105,7 @@ BattleTowerMons:
 	bigdw 197 ; Spd
 	bigdw 228 ; SAtk
 	bigdw 228 ; SDef
-	dname "KAIRIyu-", MON_NAME_LENGTH
+	dname "KAIRIyu-", MON_NAME_LENGTH ; "KAIRIyu-"
 
 	db PORYGON2
 	db LEFTOVERS
@@ -4131,7 +4131,7 @@ BattleTowerMons:
 	bigdw 169 ; Spd
 	bigdw 237 ; SAtk
 	bigdw 221 ; SDef
-	dname "PORIGON2", MON_NAME_LENGTH
+	dname "PORIGON2", MON_NAME_LENGTH ; "PORIGON2"
 
 	db JYNX
 	db QUICK_CLAW
@@ -4157,7 +4157,7 @@ BattleTowerMons:
 	bigdw 221 ; Spd
 	bigdw 257 ; SAtk
 	bigdw 225 ; SDef
-	dname "RU-ZIyuRA", MON_NAME_LENGTH
+	dname "RU-ZIyuRA", MON_NAME_LENGTH ; "RU-ZIyuRA"
 
 	db MANTINE
 	db GOLD_BERRY
@@ -4183,7 +4183,7 @@ BattleTowerMons:
 	bigdw 180 ; Spd
 	bigdw 196 ; SAtk
 	bigdw 292 ; SDef
-	dname "MANTAIN", MON_NAME_LENGTH
+	dname "MANTAIN", MON_NAME_LENGTH ; "MANTAIN"
 
 	db SKARMORY
 	db QUICK_CLAW
@@ -4209,7 +4209,7 @@ BattleTowerMons:
 	bigdw 183 ; Spd
 	bigdw 137 ; SAtk
 	bigdw 185 ; SDef
-	dname "EA-MUDO", MON_NAME_LENGTH
+	dname "EA-MUDO", MON_NAME_LENGTH ; "EA-MUDO"
 
 	db MOLTRES
 	db CHARCOAL
@@ -4235,7 +4235,7 @@ BattleTowerMons:
 	bigdw 213 ; Spd
 	bigdw 271 ; SAtk
 	bigdw 207 ; SDef
-	dname "HUaIYA-", MON_NAME_LENGTH
+	dname "HUaIYA-", MON_NAME_LENGTH ; "HUaIYA-"
 
 	db AERODACTYL
 	db MIRACLEBERRY
@@ -4261,7 +4261,7 @@ BattleTowerMons:
 	bigdw 275 ; Spd
 	bigdw 165 ; SAtk
 	bigdw 189 ; SDef
-	dname "PUTERA", MON_NAME_LENGTH
+	dname "PUTERA", MON_NAME_LENGTH ; "PUTERA"
 
 	db ELECTRODE
 	db KINGS_ROCK
@@ -4287,7 +4287,7 @@ BattleTowerMons:
 	bigdw 291 ; Spd
 	bigdw 201 ; SAtk
 	bigdw 201 ; SDef
-	dname "MARUMAIN", MON_NAME_LENGTH
+	dname "MARUMAIN", MON_NAME_LENGTH ; "MARUMAIN"
 
 	db DUGTRIO
 	db SCOPE_LENS
@@ -4313,7 +4313,7 @@ BattleTowerMons:
 	bigdw 261 ; Spd
 	bigdw 145 ; SAtk
 	bigdw 177 ; SDef
-	dname "DAGUTORIO", MON_NAME_LENGTH
+	dname "DAGUTORIO", MON_NAME_LENGTH ; "DAGUTORIO"
 
 	db VICTREEBEL
 	db QUICK_CLAW
@@ -4339,7 +4339,7 @@ BattleTowerMons:
 	bigdw 161 ; Spd
 	bigdw 207 ; SAtk
 	bigdw 143 ; SDef
-	dname "UTUBOtuTO", MON_NAME_LENGTH
+	dname "UTUBOtuTO", MON_NAME_LENGTH ; "UTUBOtuTO"
 
 	db PINSIR
 	db GOLD_BERRY
@@ -4365,7 +4365,7 @@ BattleTowerMons:
 	bigdw 185 ; Spd
 	bigdw 133 ; SAtk
 	bigdw 157 ; SDef
-	dname "KAIROSU", MON_NAME_LENGTH
+	dname "KAIROSU", MON_NAME_LENGTH ; "KAIROSU"
 
 	db GRANBULL
 	db BRIGHTPOWDER
@@ -4391,7 +4391,7 @@ BattleTowerMons:
 	bigdw 119 ; Spd
 	bigdw 146 ; SAtk
 	bigdw 146 ; SDef
-	dname "GURANBURU", MON_NAME_LENGTH
+	dname "GURANBURU", MON_NAME_LENGTH ; "GURANBURU"
 
 
 ; BattleTowerMons group 9
@@ -4420,7 +4420,7 @@ BattleTowerMons:
 	bigdw 202 ; Spd
 	bigdw 188 ; SAtk
 	bigdw 314 ; SDef
-	dname "BURAtuKI-", MON_NAME_LENGTH
+	dname "BURAtuKI-", MON_NAME_LENGTH ; "BURAtuKI-"
 
 	db DRAGONITE
 	db QUICK_CLAW
@@ -4446,7 +4446,7 @@ BattleTowerMons:
 	bigdw 229 ; Spd
 	bigdw 263 ; SAtk
 	bigdw 263 ; SDef
-	dname "KAIRIyu-", MON_NAME_LENGTH
+	dname "KAIRIyu-", MON_NAME_LENGTH ; "KAIRIyu-"
 
 	db STARMIE
 	db LEFTOVERS
@@ -4472,7 +4472,7 @@ BattleTowerMons:
 	bigdw 287 ; Spd
 	bigdw 263 ; SAtk
 	bigdw 236 ; SDef
-	dname "SUTA-MI-", MON_NAME_LENGTH
+	dname "SUTA-MI-", MON_NAME_LENGTH ; "SUTA-MI-"
 
 	db CLOYSTER
 	db LEFTOVERS
@@ -4498,7 +4498,7 @@ BattleTowerMons:
 	bigdw 203 ; Spd
 	bigdw 234 ; SAtk
 	bigdw 162 ; SDef
-	dname "PARUSIeN", MON_NAME_LENGTH
+	dname "PARUSIeN", MON_NAME_LENGTH ; "PARUSIeN"
 
 	db CROBAT
 	db GOLD_BERRY
@@ -4524,7 +4524,7 @@ BattleTowerMons:
 	bigdw 310 ; Spd
 	bigdw 207 ; SAtk
 	bigdw 225 ; SDef
-	dname "KUROBAtuTO", MON_NAME_LENGTH
+	dname "KUROBAtuTO", MON_NAME_LENGTH ; "KUROBAtuTO"
 
 	db PORYGON2
 	db QUICK_CLAW
@@ -4550,7 +4550,7 @@ BattleTowerMons:
 	bigdw 190 ; Spd
 	bigdw 266 ; SAtk
 	bigdw 248 ; SDef
-	dname "PORIGON2", MON_NAME_LENGTH
+	dname "PORIGON2", MON_NAME_LENGTH ; "PORIGON2"
 
 	db KINGDRA
 	db LEFTOVERS
@@ -4576,7 +4576,7 @@ BattleTowerMons:
 	bigdw 230 ; Spd
 	bigdw 248 ; SAtk
 	bigdw 248 ; SDef
-	dname "KINGUDORA", MON_NAME_LENGTH
+	dname "KINGUDORA", MON_NAME_LENGTH ; "KINGUDORA"
 
 	db TYRANITAR
 	db QUICK_CLAW
@@ -4602,7 +4602,7 @@ BattleTowerMons:
 	bigdw 185 ; Spd
 	bigdw 250 ; SAtk
 	bigdw 259 ; SDef
-	dname "BANGIRASU", MON_NAME_LENGTH
+	dname "BANGIRASU", MON_NAME_LENGTH ; "BANGIRASU"
 
 	db LAPRAS
 	db MINT_BERRY
@@ -4628,7 +4628,7 @@ BattleTowerMons:
 	bigdw 187 ; Spd
 	bigdw 237 ; SAtk
 	bigdw 255 ; SDef
-	dname "RAPURASU", MON_NAME_LENGTH
+	dname "RAPURASU", MON_NAME_LENGTH ; "RAPURASU"
 
 	db ESPEON
 	db GOLD_BERRY
@@ -4654,7 +4654,7 @@ BattleTowerMons:
 	bigdw 282 ; Spd
 	bigdw 313 ; SAtk
 	bigdw 250 ; SDef
-	dname "E-HUi", MON_NAME_LENGTH
+	dname "E-HUi", MON_NAME_LENGTH ; "E-HUi"
 
 	db MACHAMP
 	db QUICK_CLAW
@@ -4680,7 +4680,7 @@ BattleTowerMons:
 	bigdw 181 ; Spd
 	bigdw 194 ; SAtk
 	bigdw 230 ; SDef
-	dname "KAIRIKI-", MON_NAME_LENGTH
+	dname "KAIRIKI-", MON_NAME_LENGTH ; "KAIRIKI-"
 
 	db SNORLAX
 	db MIRACLEBERRY
@@ -4706,7 +4706,7 @@ BattleTowerMons:
 	bigdw 135 ; Spd
 	bigdw 194 ; SAtk
 	bigdw 275 ; SDef
-	dname "KABIGON", MON_NAME_LENGTH
+	dname "KABIGON", MON_NAME_LENGTH ; "KABIGON"
 
 	db ARCANINE
 	db MINT_BERRY
@@ -4732,7 +4732,7 @@ BattleTowerMons:
 	bigdw 247 ; Spd
 	bigdw 262 ; SAtk
 	bigdw 226 ; SDef
-	dname "UINDEi", MON_NAME_LENGTH
+	dname "UINDEi", MON_NAME_LENGTH ; "UINDEi"
 
 	db BLISSEY
 	db LEFTOVERS
@@ -4758,7 +4758,7 @@ BattleTowerMons:
 	bigdw 180 ; Spd
 	bigdw 214 ; SAtk
 	bigdw 322 ; SDef
-	dname "HAPINASU", MON_NAME_LENGTH
+	dname "HAPINASU", MON_NAME_LENGTH ; "HAPINASU"
 
 	db HOUNDOOM
 	db BRIGHTPOWDER
@@ -4784,7 +4784,7 @@ BattleTowerMons:
 	bigdw 252 ; Spd
 	bigdw 277 ; SAtk
 	bigdw 223 ; SDef
-	dname "HERUGA-", MON_NAME_LENGTH
+	dname "HERUGA-", MON_NAME_LENGTH ; "HERUGA-"
 
 	db SKARMORY
 	db QUICK_CLAW
@@ -4810,7 +4810,7 @@ BattleTowerMons:
 	bigdw 207 ; Spd
 	bigdw 139 ; SAtk
 	bigdw 193 ; SDef
-	dname "EA-MUDO", MON_NAME_LENGTH
+	dname "EA-MUDO", MON_NAME_LENGTH ; "EA-MUDO"
 
 	db SHUCKLE
 	db LEFTOVERS
@@ -4836,7 +4836,7 @@ BattleTowerMons:
 	bigdw 90 ; Spd
 	bigdw 97 ; SAtk
 	bigdw 493 ; SDef
-	dname "TUBOTUBO", MON_NAME_LENGTH
+	dname "TUBOTUBO", MON_NAME_LENGTH ; "TUBOTUBO"
 
 	db FLAREON
 	db MINT_BERRY
@@ -4862,7 +4862,7 @@ BattleTowerMons:
 	bigdw 198 ; Spd
 	bigdw 238 ; SAtk
 	bigdw 265 ; SDef
-	dname "BU-SUTA-", MON_NAME_LENGTH
+	dname "BU-SUTA-", MON_NAME_LENGTH ; "BU-SUTA-"
 
 	db MILTANK
 	db LEFTOVERS
@@ -4888,7 +4888,7 @@ BattleTowerMons:
 	bigdw 232 ; Spd
 	bigdw 128 ; SAtk
 	bigdw 182 ; SDef
-	dname "MIRUTANKU", MON_NAME_LENGTH
+	dname "MIRUTANKU", MON_NAME_LENGTH ; "MIRUTANKU"
 
 	db TAUROS
 	db PINK_BOW
@@ -4914,7 +4914,7 @@ BattleTowerMons:
 	bigdw 254 ; Spd
 	bigdw 126 ; SAtk
 	bigdw 180 ; SDef
-	dname "KENTAROSU", MON_NAME_LENGTH
+	dname "KENTAROSU", MON_NAME_LENGTH ; "KENTAROSU"
 
 	db MUK
 	db QUICK_CLAW
@@ -4940,7 +4940,7 @@ BattleTowerMons:
 	bigdw 140 ; Spd
 	bigdw 167 ; SAtk
 	bigdw 230 ; SDef
-	dname "BETOBETON", MON_NAME_LENGTH
+	dname "BETOBETON", MON_NAME_LENGTH ; "BETOBETON"
 
 
 ; BattleTowerMons group 10
@@ -4969,7 +4969,7 @@ BattleTowerMons:
 	bigdw 284 ; Spd
 	bigdw 312 ; SAtk
 	bigdw 252 ; SDef
-	dname "HERUGA-", MON_NAME_LENGTH
+	dname "HERUGA-", MON_NAME_LENGTH ; "HERUGA-"
 
 	db MACHAMP
 	db QUICK_CLAW
@@ -4995,7 +4995,7 @@ BattleTowerMons:
 	bigdw 204 ; Spd
 	bigdw 226 ; SAtk
 	bigdw 266 ; SDef
-	dname "KAIRIKI-", MON_NAME_LENGTH
+	dname "KAIRIKI-", MON_NAME_LENGTH ; "KAIRIKI-"
 
 	db KINGDRA
 	db LEFTOVERS
@@ -5021,7 +5021,7 @@ BattleTowerMons:
 	bigdw 266 ; Spd
 	bigdw 284 ; SAtk
 	bigdw 284 ; SDef
-	dname "KINGUDORA", MON_NAME_LENGTH
+	dname "KINGUDORA", MON_NAME_LENGTH ; "KINGUDORA"
 
 	db JOLTEON
 	db BRIGHTPOWDER
@@ -5047,7 +5047,7 @@ BattleTowerMons:
 	bigdw 338 ; Spd
 	bigdw 308 ; SAtk
 	bigdw 278 ; SDef
-	dname "SANDA-SU", MON_NAME_LENGTH
+	dname "SANDA-SU", MON_NAME_LENGTH ; "SANDA-SU"
 
 	db TAUROS
 	db KINGS_ROCK
@@ -5073,7 +5073,7 @@ BattleTowerMons:
 	bigdw 308 ; Spd
 	bigdw 170 ; SAtk
 	bigdw 230 ; SDef
-	dname "KENTAROSU", MON_NAME_LENGTH
+	dname "KENTAROSU", MON_NAME_LENGTH ; "KENTAROSU"
 
 	db ARCANINE
 	db LEFTOVERS
@@ -5099,7 +5099,7 @@ BattleTowerMons:
 	bigdw 281 ; Spd
 	bigdw 290 ; SAtk
 	bigdw 250 ; SDef
-	dname "UINDEi", MON_NAME_LENGTH
+	dname "UINDEi", MON_NAME_LENGTH ; "UINDEi"
 
 	db CHARIZARD
 	db SCOPE_LENS
@@ -5125,7 +5125,7 @@ BattleTowerMons:
 	bigdw 289 ; Spd
 	bigdw 311 ; SAtk
 	bigdw 263 ; SDef
-	dname "RIZA-DON", MON_NAME_LENGTH
+	dname "RIZA-DON", MON_NAME_LENGTH ; "RIZA-DON"
 
 	db ELECTRODE
 	db BRIGHTPOWDER
@@ -5151,7 +5151,7 @@ BattleTowerMons:
 	bigdw 366 ; Spd
 	bigdw 248 ; SAtk
 	bigdw 248 ; SDef
-	dname "MARUMAIN", MON_NAME_LENGTH
+	dname "MARUMAIN", MON_NAME_LENGTH ; "MARUMAIN"
 
 	db RHYDON
 	db MIRACLEBERRY
@@ -5177,7 +5177,7 @@ BattleTowerMons:
 	bigdw 168 ; Spd
 	bigdw 178 ; SAtk
 	bigdw 178 ; SDef
-	dname "SAIDON", MON_NAME_LENGTH
+	dname "SAIDON", MON_NAME_LENGTH ; "SAIDON"
 
 	db STEELIX
 	db LEFTOVERS
@@ -5203,7 +5203,7 @@ BattleTowerMons:
 	bigdw 152 ; Spd
 	bigdw 198 ; SAtk
 	bigdw 218 ; SDef
-	dname "HAGANE-RU", MON_NAME_LENGTH
+	dname "HAGANE-RU", MON_NAME_LENGTH ; "HAGANE-RU"
 
 	db FEAROW
 	db KINGS_ROCK
@@ -5229,7 +5229,7 @@ BattleTowerMons:
 	bigdw 287 ; Spd
 	bigdw 212 ; SAtk
 	bigdw 212 ; SDef
-	dname "ONIDORIRU", MON_NAME_LENGTH
+	dname "ONIDORIRU", MON_NAME_LENGTH ; "ONIDORIRU"
 
 	db MISDREAVUS
 	db FOCUS_BAND
@@ -5255,7 +5255,7 @@ BattleTowerMons:
 	bigdw 258 ; Spd
 	bigdw 263 ; SAtk
 	bigdw 263 ; SDef
-	dname "MUUMA", MON_NAME_LENGTH
+	dname "MUUMA", MON_NAME_LENGTH ; "MUUMA"
 
 	db SNEASEL
 	db SCOPE_LENS
@@ -5281,7 +5281,7 @@ BattleTowerMons:
 	bigdw 316 ; Spd
 	bigdw 160 ; SAtk
 	bigdw 240 ; SDef
-	dname "NIyu-RA", MON_NAME_LENGTH
+	dname "NIyu-RA", MON_NAME_LENGTH ; "NIyu-RA"
 
 	db SCIZOR
 	db QUICK_CLAW
@@ -5307,7 +5307,7 @@ BattleTowerMons:
 	bigdw 220 ; Spd
 	bigdw 196 ; SAtk
 	bigdw 246 ; SDef
-	dname "HAtuSAMU", MON_NAME_LENGTH
+	dname "HAtuSAMU", MON_NAME_LENGTH ; "HAtuSAMU"
 
 	db BLISSEY
 	db LEFTOVERS
@@ -5333,7 +5333,7 @@ BattleTowerMons:
 	bigdw 188 ; Spd
 	bigdw 226 ; SAtk
 	bigdw 346 ; SDef
-	dname "HAPINASU", MON_NAME_LENGTH
+	dname "HAPINASU", MON_NAME_LENGTH ; "HAPINASU"
 
 	db PILOSWINE
 	db MINT_BERRY
@@ -5359,7 +5359,7 @@ BattleTowerMons:
 	bigdw 190 ; Spd
 	bigdw 194 ; SAtk
 	bigdw 194 ; SDef
-	dname "INOMU-", MON_NAME_LENGTH
+	dname "INOMU-", MON_NAME_LENGTH ; "INOMU-"
 
 	db EXEGGUTOR
 	db QUICK_CLAW
@@ -5385,7 +5385,7 @@ BattleTowerMons:
 	bigdw 200 ; Spd
 	bigdw 338 ; SAtk
 	bigdw 218 ; SDef
-	dname "NAtuSI-", MON_NAME_LENGTH
+	dname "NAtuSI-", MON_NAME_LENGTH ; "NAtuSI-"
 
 	db OMASTAR
 	db LEFTOVERS
@@ -5411,7 +5411,7 @@ BattleTowerMons:
 	bigdw 198 ; Spd
 	bigdw 304 ; SAtk
 	bigdw 214 ; SDef
-	dname "OMUSUTA-", MON_NAME_LENGTH
+	dname "OMUSUTA-", MON_NAME_LENGTH ; "OMUSUTA-"
 
 	db GOLEM
 	db BRIGHTPOWDER
@@ -5437,7 +5437,7 @@ BattleTowerMons:
 	bigdw 146 ; Spd
 	bigdw 170 ; SAtk
 	bigdw 190 ; SDef
-	dname "GORO-NIya", MON_NAME_LENGTH
+	dname "GORO-NIya", MON_NAME_LENGTH ; "GORO-NIya"
 
 	db HITMONCHAN
 	db FOCUS_BAND
@@ -5463,7 +5463,7 @@ BattleTowerMons:
 	bigdw 214 ; Spd
 	bigdw 130 ; SAtk
 	bigdw 280 ; SDef
-	dname "EBIWARA-", MON_NAME_LENGTH
+	dname "EBIWARA-", MON_NAME_LENGTH ; "EBIWARA-"
 
 	db LANTURN
 	db QUICK_CLAW
@@ -5489,6 +5489,6 @@ BattleTowerMons:
 	bigdw 192 ; Spd
 	bigdw 214 ; SAtk
 	bigdw 214 ; SDef
-	dname "RANTA-N", MON_NAME_LENGTH
+	dname "RANTA-N", MON_NAME_LENGTH ; "RANTA-N"
 
 	assert_table_length 10 * BATTLETOWER_NUM_UNIQUE_MON

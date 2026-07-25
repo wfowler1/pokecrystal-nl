@@ -101,7 +101,7 @@ JackGustTriviaText:
 	para "Als je vijand" ; "If your opponent"
 	line "VLIEGT, wordt je" ; "is FLYing, your"
 
-	para "je WINDVLAAG veel" ; "GUST becomes much"
+	para "WINDVLAAG veel" ; "GUST becomes much"
 	line "krachtiger." ; "more powerful."
 	done
 

@@ -2,7 +2,7 @@ BuenaPhoneMorningAnswerText:
 	text "He, dit is BUENA…" ; "Hi, this is BUENA…"
 
 	para "Oh! Goedemorgen," ; "Oh! Good morning,"
-	line "<PLAY_G>!"
+	line "<PLAY_G>!" ; "<PLAY_G>!"
 
 	para "Ik ben wat wazig" ; "I'm kind of foggy"
 	line "in de ochtend…" ; "in the morning…"
@@ -13,7 +13,7 @@ BuenaPhoneDayAnswerText:
 	line "Oh! Hoi, <PLAY_G>!" ; "Oh! Hi, <PLAY_G>!"
 
 	para "Luister je naar" ; "Do you tune into"
-	line "BUENA's show?"
+	line "BUENA's show?" ; "BUENA's show?"
 	done
 
 BuenaPhoneMidnightAnswerText:
@@ -45,7 +45,7 @@ BuenaPhoneNiteAnswerText:
 	done
 
 BuenaPhoneMorningText:
-	text "<PLAY_G>!"
+	text "<PLAY_G>!" ; "<PLAY_G>!"
 	line "Hoi, dit is BUENA!" ; "Hi, it's BUENA!"
 
 	para "Ik was vroeg op," ; "I got up early, so"
@@ -53,7 +53,7 @@ BuenaPhoneMorningText:
 	done
 
 BuenaPhoneDayText:
-	text "<PLAY_G>!"
+	text "<PLAY_G>!" ; "<PLAY_G>!"
 	line "Hoi, met BUENA!" ; "Hi, it's BUENA!"
 
 	para "Ik moest met" ; "I needed someone"
@@ -61,7 +61,7 @@ BuenaPhoneDayText:
 	done
 
 BuenaPhoneMidnightText:
-	text "<PLAY_G>!"
+	text "<PLAY_G>!" ; "<PLAY_G>!"
 	line "Hoi, dit is BUENA!" ; "Hi, it's BUENA!"
 
 	para "Ik heb nu eventjes" ; "I'm just on my"
@@ -69,7 +69,7 @@ BuenaPhoneMidnightText:
 	done
 
 BuenaPhoneNiteText:
-	text "<PLAY_G>!"
+	text "<PLAY_G>!" ; "<PLAY_G>!"
 	line "Hoi, dit is BUENA!" ; "Hi, it's BUENA!"
 
 	para "Ik kon niet slapen" ; "I couldn't sleep,"
@@ -181,7 +181,7 @@ BuenaPhoneStressedFromWorkText:
 
 	para "MARY eet soms…" ; "MARY weighs…"
 
-	para "Aiyee! M-MARY!"
+	para "Aiyee! M-MARY!" ; "Aiyee! M-MARY!"
 
 	para "Uh… Um… Ik… Sorry," ; "Uh… Um… I… Sorry,"
 	line "verkeerd nummer!" ; "wrong number!"
@@ -333,9 +333,9 @@ BuenaPhoneWhenDoYouRelaxText:
 	para "ik er slaperig van" ; "that it gradually"
 	line "word…" ; "makes me drowsy…"
 
-	para "<……> <……> <……>"
+	para "<……> <……> <……>" ; "<……> <……> <……>"
 
-	para "<……> <……> <……>Zzz"
+	para "<……> <……> <……>Zzz" ; "<……> <……> <……>Zzz"
 
 	para "Oeps, ik viel in" ; "Oops, I drifted"
 	line "slaap door er aan" ; "off just thinking"

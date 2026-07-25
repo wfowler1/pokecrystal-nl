@@ -16,7 +16,7 @@ JoseDefeatedMonText:
 	line "versloeg laatst" ; "FARFETCH'D KO'd"
 	cont "een @" ; "this @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "Je had FARFETCH'D" ; "You should have"
 	line "moeten zien zwiep-" ; "seen FARFETCH'D"
@@ -29,7 +29,7 @@ JoseLostAMonText:
 	text "Ik zag een wilde" ; "I ran into a wild"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "…"
+	text "…" ; "…"
 
 	para "Ik probeerde het" ; "I was trying to"
 	line "te vangen, maar 't" ; "catch it, but it"
@@ -75,7 +75,7 @@ JoseFoundItemText:
 	para "Vind me maar op" ; "Catch up to me on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text ","
+	text "," ; ","
 
 	para "dan mag je het" ; "and I'll let you"
 	line "hebben." ; "have it."
@@ -108,7 +108,7 @@ JoseReminderText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 
 	para "Kom alsjeblieft zo" ; "Please come as"
 	line "snel mogelijk!" ; "soon as you can!"
@@ -123,7 +123,7 @@ JoseComePickUpText:
 	para "Kom naar me toe op" ; "Catch up to me on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text ","
+	text "," ; ","
 
 	para "dan mag je het van" ; "and I'll let you"
 	line "mij hebben." ; "have it."

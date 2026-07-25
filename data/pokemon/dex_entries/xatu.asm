@@ -3,9 +3,9 @@
 	dw 150 ; weight
 
 	db   "Zodra het begint" ; "Once it begins to"
-	next "begint met medi-" ; "meditate at sun-"
-	next "teren bij zons-" ; "rise, the entire"
+	next "met mediteren" ; "meditate at sun-"
+	next "bij zonsopgang," ; "rise, the entire"
 
-	page "opgang, zit het" ; "day will pass"
-	next "de gehele dag" ; "before it will"
-	next "stil.@" ; "move again.@"
+	page "zit het de hele" ; "day will pass"
+	next "dag zonder te" ; "before it will"
+	next "bewegen.@" ; "move again.@"

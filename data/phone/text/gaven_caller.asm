@@ -40,7 +40,7 @@ GavenLostAMonText:
 	line "ik het op tegen 'n" ; "I tried to catch a"
 	cont "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "Maar die wist te" ; "But it managed to"
 	line "ontsnappen." ; "elude me."
@@ -58,7 +58,7 @@ GavenBattleRematchText:
 	para "Ik wacht op" ; "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Geef een gil als" ; "Give me a shout"
 	line "je er bent." ; "when you're close."
@@ -81,5 +81,5 @@ GavenReminderText:
 	para "Ik haal je neer" ; "I'll take you down"
 	line "met @" ; "with @"
 	text_ram wStringBuffer5 ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 	done

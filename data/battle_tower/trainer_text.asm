@@ -140,7 +140,7 @@ _BTWinM9Text:
 	done
 
 _BTGreetingM10Text:
-	text "Hah!"
+	text "Hah!" ; "Hah!"
 	line "Laten we rollen!" ; "Let's get rolling!"
 	done
 
@@ -155,17 +155,17 @@ _BTWinM10Text:
 	done
 
 _BTGreetingM11Text:
-	text "<……><……><……>"
+	text "<……><……><……>" ; "<……><……><……>"
 	line "<……><……>Vechten?" ; "<……><……>Battle?"
 	done
 
 _BTLossM11Text:
-	text "<……><……><……>"
+	text "<……><……><……>" ; "<……><……><……>"
 	line "<……><……>Ik won?" ; "<……><……>I won?"
 	done
 
 _BTWinM11Text:
-	text "<……><……><……>"
+	text "<……><……><……>" ; "<……><……><……>"
 	line "<……><……>Verloren?" ; "<……><……>I lost?"
 	done
 
@@ -358,7 +358,7 @@ _BTGreetingM23Text:
 	done
 
 _BTLossM23Text:
-	text "Um… Sorry…"
+	text "Um… Sorry…" ; "Um… Sorry…"
 	line "Ik won, denk ik." ; "I think I won."
 	done
 
@@ -368,7 +368,7 @@ _BTWinM23Text:
 	done
 
 _BTGreetingM24Text:
-	text "Wrrooar!"
+	text "Wrrooar!" ; "Wrrooar!"
 	line "Ik verlies niet!" ; "I won't lose!"
 	done
 
@@ -599,7 +599,7 @@ _BTGreetingF14Text:
 
 _BTLossF14Text:
 	text "Elk gevecht is een" ; "Every battle is a"
-	line "drama!"
+	line "drama!" ; "drama!"
 	done
 
 _BTWinF14Text:

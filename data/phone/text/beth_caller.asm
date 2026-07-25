@@ -2,7 +2,7 @@ BethExhilaratingRideText:
 	text "Herinner je mijn" ; "Do you remember my"
 	line "lieve @" ; "sweet @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
@@ -40,7 +40,7 @@ BethLostAMonText:
 	text "Oh, ik zag net een" ; "Oh, I just saw a"
 	line "wilde @" ; "wild @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "Ik probeerde het" ; "I was trying to"
 	line "te vangen, maar ik" ; "catch it when I"
@@ -69,7 +69,7 @@ BethBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 	line "Zoek me op, OK?" ; "Look for me, OK?"
 	done
 
@@ -83,7 +83,7 @@ BethLetsBattleAgainSometimeText:
 	done
 
 BethReminderText:
-	text "Um… <PLAY_G>?"
+	text "Um… <PLAY_G>?" ; "Um… <PLAY_G>?"
 	line "Wat is er mis?" ; "What's wrong?"
 
 	para "Ben je onze" ; "Did you forget our"
@@ -91,7 +91,7 @@ BethReminderText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Dat is waar ik op" ; "That's where I'm"
 	line "je wacht." ; "waiting."

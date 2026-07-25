@@ -10,7 +10,7 @@ ChadAskNumber1Text:
 	line "#MON-professor" ; "becoming a #MON"
 
 	para "te worden, net als" ; "researcher like"
-	line "PROF.OAK."
+	line "PROF.OAK." ; "PROF.OAK."
 
 	para "Mag ik anders je" ; "May I please have"
 	line "telefoonnummer?" ; "your phone number?"

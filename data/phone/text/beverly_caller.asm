@@ -54,7 +54,7 @@ BeverlyFoundItemText:
 	para "Je vindt me op" ; "I'll be at"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Kom alsjeblieft" ; "Please come see me"
 	line "als je tijd hebt." ; "when you can."
@@ -69,7 +69,7 @@ BeverlyLetsChatAboutMonAgainText:
 	done
 
 BeverlyComePickUpText:
-	text "Pardon?"
+	text "Pardon?" ; "Pardon?"
 	line "Oh, het KLOMPJE?" ; "Oh, the NUGGET?"
 
 	para "Haast je niet. Kom" ; "There's no need to"

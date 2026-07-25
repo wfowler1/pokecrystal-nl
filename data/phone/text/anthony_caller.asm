@@ -59,7 +59,7 @@ AnthonyBattleRematchText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength 15
-	text " is"
+	text " is" ; " is"
 	line "waar ik ben." ; "where I am."
 
 	para "Kom hierheen als" ; "Come on down if"
@@ -117,13 +117,13 @@ AnthonyReminderText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	line "Ik wacht!" ; "I'm waiting!"
 	done
 
 AnthonyHurryText:
 	text "Hallo? Wat? Waar" ; "Hello? What? Where"
-	line "is DUNSPARCE?"
+	line "is DUNSPARCE?" ; "is DUNSPARCE?"
 
 	para "DONKERE GROT! Ga!" ; "DARK CAVE! Hurry!"
 
