@@ -52,7 +52,7 @@ BeverlyGiftText:
 	done
 
 BeverlyPackFullText:
-	text "Oh?"
+	text "Oh?" ; "Oh?"
 	line "Je hebt geen plek." ; "You have no room."
 
 	para "Kom er alsjeblieft" ; "Please come back"

@@ -83,7 +83,7 @@ IrwinRisingBadgeGossipText:
 	line "geslaagd! Je hoeft" ; "passed! Aww, no"
 
 	para "niet bescheiden te" ; "need to be modest!"
-	line "te zijn!" ; "You can't fail!"
+	line "zijn!" ; "You can't fail!"
 	done
 
 IrwinEliteFourGossipText:
@@ -144,7 +144,7 @@ IrwinTrainPassGossipText:
 	para "tijd niet zouden" ; "able to see you"
 	line "zien." ; "for a while."
 
-	para "maar met die PAS" ; "But since you have"
+	para "Maar met die PAS" ; "But since you have"
 	line "kun je altijd snel" ; "that PASS, you can"
 
 	para "terugkomen! Wat" ; "zip back anytime!"

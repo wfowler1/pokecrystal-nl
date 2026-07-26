@@ -34,8 +34,8 @@ BillPhoneGenericText:
 	para "<PLAY_G>, zeg je?" ; "<PLAY_G>, is it?"
 	line "Een ogenblik…" ; "Hang on a sec…"
 
-	para "<……>"
-	line "<……>"
+	para "<……>" ; "<……>"
+	line "<……>" ; "<……>"
 	done
 
 BillPhoneNotFullText:

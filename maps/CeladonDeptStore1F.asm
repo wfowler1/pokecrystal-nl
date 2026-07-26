@@ -37,7 +37,7 @@ CeladonDeptStore1FGentlemanText:
 	line "van dezelfde keten" ; "part of the same"
 
 	para "als die in" ; "chain as the one"
-	line "in GOLDENROD CITY." ; "in GOLDENROD CITY."
+	line "GOLDENROD CITY." ; "in GOLDENROD CITY."
 
 	para "Ze zijn tegelijk" ; "They were both"
 	line "gerenoveerd." ; "renovated at the"

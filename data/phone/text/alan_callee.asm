@@ -1,7 +1,7 @@
 AlanAnswerPhoneText:
 	text "Yup, met @" ; "Yup, it's @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "!"
+	text "!" ; "!"
 
 	para "Is dit <PLAY_G>?" ; "Is this <PLAY_G>?"
 	line "Goedemorgen!" ; "Good morning!"
@@ -10,7 +10,7 @@ AlanAnswerPhoneText:
 AlanAnswerPhoneDayText:
 	text "Yup, met @" ; "Yup, it's @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "!"
+	text "!" ; "!"
 
 	para "Is dit <PLAY_G>?" ; "Is that <PLAY_G>?"
 	done
@@ -18,7 +18,7 @@ AlanAnswerPhoneDayText:
 AlanAnswerPhoneNiteText:
 	text "Yup, met @" ; "Yup, it's @"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "!"
+	text "!" ; "!"
 
 	para "Is dit <PLAY_G>?" ; "Is that <PLAY_G>?"
 	line "Goedenavond!" ; "Good evening!"
@@ -28,21 +28,21 @@ AlanGreetText:
 	text "Hallo! Met mij," ; "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "!"
+	text "!" ; "!"
 	done
 
 AlanGreetDayText:
 	text "Hallo! Met mij," ; "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "!"
+	text "!" ; "!"
 	done
 
 AlanGreetNiteText:
 	text "Hallo! Met mij," ; "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 4
-	text "!"
+	text "!" ; "!"
 	done
 
 AlanGenericText:

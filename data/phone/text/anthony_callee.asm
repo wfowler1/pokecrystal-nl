@@ -4,7 +4,7 @@ AnthonyAnswerPhoneText:
 	text " de" ; " the"
 	line "WANDELAAR hier." ; "HIKER here."
 
-	para "Ah, <PLAYER>!"
+	para "Ah, <PLAYER>!" ; "Ah, <PLAYER>!"
 	done
 
 AnthonyAnswerPhoneDayText:
@@ -13,7 +13,7 @@ AnthonyAnswerPhoneDayText:
 	text " de" ; " the"
 	line "WANDELAAR hier." ; "HIKER here."
 
-	para "Ah, <PLAYER>,"
+	para "Ah, <PLAYER>," ; "Ah, <PLAYER>,"
 	line "toch?" ; "right?"
 	done
 
@@ -28,7 +28,7 @@ AnthonyAnswerPhoneNiteText:
 	done
 
 AnthonyGreetText:
-	text "Yo, <PLAYER>?"
+	text "Yo, <PLAYER>?" ; "Yo, <PLAYER>?"
 
 	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7
@@ -38,7 +38,7 @@ AnthonyGreetText:
 
 AnthonyGreetDayText:
 	text "He, is dit" ; "Hey, is this"
-	line "<PLAYER>?"
+	line "<PLAYER>?" ; "<PLAYER>?"
 
 	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 7

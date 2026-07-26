@@ -261,7 +261,7 @@ MoveDescriptions::
 	assert_table_length $100
 
 Move00Description:
-	db "?@"
+	db "?@" ; "?@"
 
 PoundDescription:
 	db   "Ramt met voorpoten" ; "Pounds with fore-"
