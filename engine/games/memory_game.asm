@@ -1,3 +1,19 @@
+DEF GAMECORNER_MEMORYGAME_QUESTION_MARK EQU 0
+DEF GAMECORNER_MEMORYGAME_MEDKIT        EQU 1
+DEF GAMECORNER_MEMORYGAME_CANDY         EQU 2
+DEF GAMECORNER_MEMORYGAME_DOLL          EQU 3
+DEF GAMECORNER_MEMORYGAME_STAR          EQU 4
+DEF GAMECORNER_MEMORYGAME_POTION        EQU 5
+DEF GAMECORNER_MEMORYGAME_BALL          EQU 6
+DEF GAMECORNER_MEMORYGAME_SUPERBALL     EQU 7
+DEF GAMECORNER_MEMORYGAME_POKEGEAR      EQU 8
+
+DEF GAMECORNER_MEMORYGAME_CANDY_REWARD     EQU 1
+DEF GAMECORNER_MEMORYGAME_DOLL_REWARD      EQU 3
+DEF GAMECORNER_MEMORYGAME_STAR_REWARD      EQU 5
+DEF GAMECORNER_MEMORYGAME_BALL_REWARD      EQU 10
+DEF GAMECORNER_MEMORYGAME_SUPERBALL_REWARD EQU 50
+
 _MemoryGame:
 	ld hl, wOptions
 	set NO_TEXT_SCROLL, [hl]
@@ -210,7 +226,7 @@ endr
 	call MemoryGame_Card2Coord
 	call MemoryGame_PlaceCard
 	ld a, [wMemoryGameLastCardPicked]
-	cp 8
+	cp GAMECORNER_MEMORYGAME_POKEGEAR
 	jr z, .GameOverCard
 	xor a
 	ld [wMemoryGameCardChoice], a
@@ -242,7 +258,7 @@ endr
 	call MemoryGame_Card2Coord
 	call MemoryGame_PlaceCard
 	ld a, [wMemoryGameLastCardPicked]
-	cp 8
+	cp GAMECORNER_MEMORYGAME_POKEGEAR
 	jr z, .GameOverCard
 	ld a, 20
 	ld [wMemoryGameCounter], a
@@ -381,7 +397,7 @@ MemoryGame_CheckMatch:
 ; Take action based on what was matched
 .RewardMatch
 	ld a, [wMemoryGameLastCardPicked]
-	cp 1 ; "Medkit"
+	cp GAMECORNER_MEMORYGAME_MEDKIT
 	jr nz, .not_medkit
 	; Add an extra try
 	ld hl, wMemoryGameNumberTriesRemaining
@@ -394,28 +410,28 @@ MemoryGame_CheckMatch:
 	call WaitPressAorB_BlinkCursor
 	ret
 .not_medkit
-	cp 2 ; "Candy"
+	cp GAMECORNER_MEMORYGAME_CANDY
 	jr nz, .not_candy
-	; Reward 1 coin
-	ld c, 1
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_CANDY_REWARD
 	ld de, SFX_3RD_PLACE
 	jr .Payout
 .not_candy
-	cp 3 ; "Clefairy doll"
+	cp GAMECORNER_MEMORYGAME_DOLL
 	jr nz, .not_pokedoll
-	; Reward 3 coins
-	ld c, 3
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_DOLL_REWARD
 	ld de, SFX_3RD_PLACE
 	jr .Payout
 .not_pokedoll
-	cp 4 ; "Star"
+	cp GAMECORNER_MEMORYGAME_STAR
 	jr nz, .not_star
-	; Reward 5 coins
-	ld c, 5
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_STAR_REWARD
 	ld de, SFX_3RD_PLACE
 	jr .Payout
 .not_star
-	cp 5 ; "Potion/Bottle"
+	cp GAMECORNER_MEMORYGAME_POTION
 	jr nz, .not_potion
 	ld hl, .NoPrizeText
 	call PrintText
@@ -425,17 +441,17 @@ MemoryGame_CheckMatch:
 	call WaitPressAorB_BlinkCursor
 	ret
 .not_potion
-	cp 6 ; "Pokeball"
+	cp GAMECORNER_MEMORYGAME_BALL
 	jr nz, .not_pokeball
-	; Reward 10 coins
-	ld c, 10
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_BALL_REWARD
 	ld de, SFX_3RD_PLACE
 	jr .Payout
 .not_pokeball
-	cp 7 ; "Superball"
+	cp GAMECORNER_MEMORYGAME_SUPERBALL
 	ret nz ; The last icon only occurs once so we can't reward a match for it
-	; Reward 50 coins
-	ld c, 50
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_SUPERBALL_REWARD
 	ld de, SFX_1ST_PLACE
 	; Fallthrough
 
@@ -581,35 +597,35 @@ MemoryGame_InitBoard:
 	call ByteFill
 	call MemoryGame_GetDistributionOfTiles
 
-	ld c, 2
+	ld c, GAMECORNER_MEMORYGAME_CANDY
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 8
+	ld c, GAMECORNER_MEMORYGAME_POKEGEAR
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 4
+	ld c, GAMECORNER_MEMORYGAME_STAR
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 7
+	ld c, GAMECORNER_MEMORYGAME_SUPERBALL
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 3
+	ld c, GAMECORNER_MEMORYGAME_DOLL
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 6
+	ld c, GAMECORNER_MEMORYGAME_BALL
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 1
+	ld c, GAMECORNER_MEMORYGAME_MEDKIT
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 5
+	ld c, GAMECORNER_MEMORYGAME_POTION
 	ld hl, wMemoryGameCards
 	ld b, wMemoryGameCardsEnd - wMemoryGameCards
 .loop

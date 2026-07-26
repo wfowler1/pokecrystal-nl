@@ -152,6 +152,42 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 	turn_head LEFT
 	step_end
 
+CeladonGameCornerKabutoPuzzle:
+	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	iffalse CeladonGameCornerNotWorking
+	setval UNOWNPUZZLE_KABUTO
+	sjump CeladonGameCornerUnownPuzzle
+CeladonGameCornerOmanytePuzzle:
+	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	iffalse CeladonGameCornerNotWorking
+	setval UNOWNPUZZLE_OMANYTE
+	sjump CeladonGameCornerUnownPuzzle
+CeladonGameCornerAerodactylPuzzle:
+	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
+	iffalse CeladonGameCornerNotWorking
+	setval UNOWNPUZZLE_AERODACTYL
+	sjump CeladonGameCornerUnownPuzzle
+CeladonGameCornerHoohPuzzle:
+	checkevent EVENT_SOLVED_HO_OH_PUZZLE
+	iffalse CeladonGameCornerNotWorking
+	setval UNOWNPUZZLE_HO_OH
+CeladonGameCornerUnownPuzzle:
+	reanchormap
+	special UnownPuzzle
+	closetext
+;	iftrue .PuzzleComplete
+	end
+
+;.PuzzleComplete:
+;	end
+
+CeladonGameCornerNotWorking:
+	reanchormap
+	writetext CeladonGameCornerText_DoesntWork
+	waitbutton
+	closetext
+	end
+
 CeladonGameCornerReceptionistText:
 	text "Welkom!" ; "Welcome!"
 
@@ -326,6 +362,11 @@ CeladonGameCornerSodaCanText:
 	para "Huh? Leeg!" ; "Huh? It's empty!"
 	done
 
+CeladonGameCornerText_DoesntWork:
+	text "Dit werkt" ; "This doesn't seem"
+	line "nog niet." ; "to work yet."
+	done
+
 CeladonGameCorner_MapEvents:
 	db 0, 0 ; filler
 
@@ -362,16 +403,16 @@ CeladonGameCorner_MapEvents:
 	bg_event 12, 11, BGEVENT_RIGHT, CeladonGameCornerLuckySlotMachineScript
 	bg_event 13,  6, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
 	bg_event 13,  7, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
-	bg_event 13,  8, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
+	bg_event 13,  8, BGEVENT_READ, CeladonGameCornerLighterScript
 	bg_event 13,  9, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
 	bg_event 13, 10, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
 	bg_event 13, 11, BGEVENT_LEFT, CeladonGameCornerLuckySlotMachineScript
 	bg_event 18,  6, BGEVENT_READ, CeladonGameCornerMemoryGameScript
-	bg_event 18,  7, BGEVENT_READ, CeladonGameCornerMemoryGameScript
-	bg_event 18,  8, BGEVENT_READ, CeladonGameCornerLighterScript
-	bg_event 18,  9, BGEVENT_READ, CeladonGameCornerMemoryGameScript
-	bg_event 18, 10, BGEVENT_READ, CeladonGameCornerMemoryGameScript
-	bg_event 18, 11, BGEVENT_RIGHT, CeladonGameCornerMemoryGameScript
+	bg_event 18,  7, BGEVENT_READ, CeladonGameCornerOmanytePuzzle
+	bg_event 18,  8, BGEVENT_READ, CeladonGameCornerKabutoPuzzle
+	bg_event 18,  9, BGEVENT_READ, CeladonGameCornerOmanytePuzzle
+	bg_event 18, 10, BGEVENT_READ, CeladonGameCornerAerodactylPuzzle
+	bg_event 18, 11, BGEVENT_RIGHT, CeladonGameCornerHoohPuzzle
 	bg_event 15,  0, BGEVENT_READ, CeladonGameCornerPoster1Script
 	bg_event  9,  0, BGEVENT_READ, CeladonGameCornerPoster2Script
 

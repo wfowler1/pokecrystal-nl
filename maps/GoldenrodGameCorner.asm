@@ -334,6 +334,42 @@ GoldenrodGameCornerCooltrainerM2Script:
 	turnobject LAST_TALKED, LEFT
 	end
 
+GoldenrodGameCornerKabutoPuzzle:
+	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_KABUTO
+	sjump GoldenrodGameCornerUnownPuzzle
+GoldenrodGameCornerOmanytePuzzle:
+	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_OMANYTE
+	sjump GoldenrodGameCornerUnownPuzzle
+GoldenrodGameCornerAerodactylPuzzle:
+	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_AERODACTYL
+	sjump GoldenrodGameCornerUnownPuzzle
+GoldenrodGameCornerHoohPuzzle:
+	checkevent EVENT_SOLVED_HO_OH_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_HO_OH
+GoldenrodGameCornerUnownPuzzle:
+	reanchormap
+	special UnownPuzzle
+	closetext
+;	iftrue .PuzzleComplete
+	end
+
+;.PuzzleComplete:
+;	end
+
+GoldenrodGameCornerNotWorking:
+	reanchormap
+	writetext GoldenrodGameCornerText_DoesntWork
+	waitbutton
+	closetext
+	end
+
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "Welkom!" ; "Welcome!"
 
@@ -506,6 +542,11 @@ GoldenrodGameCornerCooltrainerM2Text:
 	para "Probeer ze uit!" ; "Try them out!"
 	done
 
+GoldenrodGameCornerText_DoesntWork:
+	text "Dit werkt" ; "This doesn't seem"
+	line "nog niet." ; "to work yet."
+	done
+
 GoldenrodGameCorner_MapEvents:
 	db 0, 0 ; filler
 
@@ -516,11 +557,11 @@ GoldenrodGameCorner_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event  1,  6, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
-	bg_event  1,  7, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
-	bg_event  1,  8, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
-	bg_event  1,  9, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
-	bg_event  1, 10, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
+	bg_event  1,  6, BGEVENT_READ, GoldenrodGameCornerKabutoPuzzle
+	bg_event  1,  7, BGEVENT_READ, GoldenrodGameCornerKabutoPuzzle
+	bg_event  1,  8, BGEVENT_READ, GoldenrodGameCornerOmanytePuzzle
+	bg_event  1,  9, BGEVENT_READ, GoldenrodGameCornerAerodactylPuzzle
+	bg_event  1, 10, BGEVENT_READ, GoldenrodGameCornerHoohPuzzle
 	bg_event  1, 11, BGEVENT_LEFT, GoldenrodGameCornerMemoryGameScript
 	bg_event  6,  6, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
 	bg_event  6,  7, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
