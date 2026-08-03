@@ -725,9 +725,9 @@ AfterChikoritaMovement:
 
 ElmText_Intro:
 	text "ELM: <PLAY_G>!"
-	line "Daar ben je!" ; "There you are!"
+	line "Daar ben je dan!" ; "There you are!"
 
-	para "Ik wil je om een" ; "I needed to ask"
+	para "Ik wil je een" ; "I needed to ask"
 	line "gunst vragen." ; "you a favor."
 
 	para "Ik werk op het" ; "I'm conducting new"

@@ -40,13 +40,13 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FUnusedText1: ; unreferenced
-	text "" ; "We intend to sell"
-	line "" ; "items for #MON"
-	cont "" ; "to hold."
+	text "We gaan producten" ; "We intend to sell"
+	line "bieden die #MON" ; "items for #MON"
+	cont "kunnen vasthouden." ; "to hold."
 
-	para "" ; "This is a free"
-	line "" ; "gift. Have a #-"
-	cont "" ; "MON hold it."
+	para "Dit is een gratis" ; "This is a free"
+	line "probeersel voor je" ; "gift. Have a #-"
+	cont "#MON." ; "MON hold it."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
