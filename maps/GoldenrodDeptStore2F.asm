@@ -50,12 +50,12 @@ GoldenrodDeptStore2FUnusedText1: ; unreferenced
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
-	text "" ; "By giving #MON"
-	line "" ; "items to hold, I"
+	text "Door #MON iets" ; "By giving #MON"
+	line "vast te houden," ; "items to hold, I"
 
-	para "" ; "bet trainers will"
-	line "" ; "develop new battle"
-	cont "" ; "techniques."
+	para "zullen trainers" ; "bet trainers will"
+	line "vast nieuwe ideeën" ; "develop new battle"
+	cont "ontwikkelen." ; "techniques."
 	done
 
 GoldenrodDeptStore2FYoungsterText:
