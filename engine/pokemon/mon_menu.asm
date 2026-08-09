@@ -1253,18 +1253,16 @@ PlaceMoveData:
 	call PlaceString
 
 .skip_null_chance
-	
 ; Print move accuracy
 	ld a, [wCurSpecies]
 	ld bc, MOVE_LENGTH
-	;ld hl, (Moves + MOVE_ACC) - MOVE_LENGTH
 	ld hl, (Moves + MOVE_EFFECT) - MOVE_LENGTH
 	call AddNTimes
 	ld a, BANK(Moves)
 	call GetFarByte
 	cp EFFECT_MIRROR_MOVE
 	jr nc, .perfect_accuracy
-	ld a, [wMenuSelection]
+	ld a, [wCurSpecies]
 	ld bc, MOVE_LENGTH
 	ld hl, (Moves + MOVE_ACC) - MOVE_LENGTH
 	call AddNTimes
