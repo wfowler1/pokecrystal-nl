@@ -1167,7 +1167,7 @@ FlyFunction:
 	ifequal 1, .not_in_party
 	
 	callasm GetPartyNickname
-	writetext UsedFlyText ; "used SURF!"
+	writetext UsedFlyText ; "used FLY!"
 	sjump .do_fly
 .not_in_party
 	callasm GetFieldMoveSpeciesName
@@ -1619,6 +1619,7 @@ CheckSpawnPointValid:
 	ld e, a
 	farcall IsSpawnPoint
 	ret
+
 
 ; STRENGTH field move
 

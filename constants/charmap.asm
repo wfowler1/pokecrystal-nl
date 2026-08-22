@@ -158,7 +158,7 @@
 	charmap "x",         $b7
 	charmap "y",         $b8
 	charmap "z",         $b9
-	
+
 	charmap "à",         $ba
 	charmap "è",         $bb
 	
@@ -193,7 +193,7 @@
 	charmap "'t",        $d5
 	charmap "'v",        $d6
 	charmap "'n",        $d7
-	
+
 	charmap "♣",         $db
 	charmap "♦",         $dc
 	charmap "♥",         $dd
