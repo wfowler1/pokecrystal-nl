@@ -581,7 +581,7 @@ MovementData_Farfetched_Pos5_Pos4_Right:
 	jump_step UP
 	step_sleep 8
 	step_sleep 8
-	remove_fixed_facing
+	; remove_fixed_facing
 	big_step UP
 	big_step UP
 	big_step UP

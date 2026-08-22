@@ -154,7 +154,7 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_NIDORINO ; a5 MrFujisHouse.asm
 	const SPRITE_PERSIAN ; a6 NationalPark.asm
 	const SPRITE_NIDORAN_M ; a7 PewterNidoranSpeechHouse.asm
-	const SPRITE_RATTATA ; a8 ViridianNicknameSpeechHouse.asm
+	const SPRITE_RATTATA ; a8 ViridianNicknameSpeechHouse.asm Route30.asm
 	; SPRITE_ODDISH
 	const SPRITE_BAYLEEF ; a9 PokemonFanClub.asm
 	; SPRITE_POLIWAG
@@ -184,7 +184,9 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_AMPHAROS ; b8 OlivineLightouse6F.asm
 	; SPRITE_SLOWPOKE
 	const SPRITE_SLOWBRO ; b9 CeruleanCity.asm
-	
+	; SPRITE_DRAGON
+	const SPRITE_DRAGONITE ; ba MahoganyMart1F.asm TeamRocketBaseB2F.asm
+
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

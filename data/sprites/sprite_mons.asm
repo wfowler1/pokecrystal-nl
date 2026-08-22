@@ -41,7 +41,7 @@ SpriteMons:
 	db NIDORINO ; MrFujisHouse.asm
 	db PERSIAN ; NationalPark.asm
 	db NIDORAN_M ; PewterNidoranSpeechHouse.asm
-	db RATTATA ; ViridianNicknameSpeechHouse.asm
+	db RATTATA ; ViridianNicknameSpeechHouse.asm Route30.asm
 	db BAYLEEF ; PokemonFanClub.asm
 	db POLIWRATH ; CeladonCity.asm
 	db BLISSEY ; CopycatsHouse1F.asm
@@ -59,4 +59,5 @@ SpriteMons:
 	db SPEAROW ; ViridianNicknameSpeechHouse.asm
 	db AMPHAROS ; OlivineLightouse6F.asm
 	db SLOWBRO ; CeruleanCity.asm
+	db DRAGONITE ; MahoganyMart1F.asm TeamRocketBaseB2F.asm
 	assert_table_length NUM_POKEMON_SPRITES
