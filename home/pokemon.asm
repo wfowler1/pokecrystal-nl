@@ -208,8 +208,7 @@ GetCryIndex::
 PrintLevel::
 ; Print wTempMonLevel at hl
 	ld a, [wTempMonLevel]
-	jp PrintLevelA
-
+	jr PrintLevelA
 PrintMetLevel::
 ; caught level
 ; Limited to between 1 and 63 since it's a 6-bit quantity.
@@ -217,10 +216,9 @@ PrintMetLevel::
 	and CAUGHT_LEVEL_MASK
 	ret z
 	cp CAUGHT_EGG_LEVEL ; egg marker value
-	jp nz, PrintLevelA
+	jr nz, PrintLevelA
 	ld a, EGG_LEVEL ; egg hatch level
-	jp PrintLevelA
-	
+	; fallthrough
 PrintLevelA::
 ; Print level in a at hl with leading :L
 ; For times you want PrintLevel but not with wTempMonLevel
