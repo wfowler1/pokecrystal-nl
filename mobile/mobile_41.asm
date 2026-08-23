@@ -796,22 +796,22 @@ CheckMobileAdapterStatusSpecial: ; unused
 	ld [wScriptVar], a
 	ret
 
-SetMobileAdapterStatus: ; unused
-	ret
+;SetMobileAdapterStatus: ; unused
+;	ret
 	; the instructions below are the
 	; original Japanese version code
-	ld a, BANK(sMobileAdapterStatus)
-	call OpenSRAM
-	ld a, c
-	cpl
-	ld [sMobileAdapterStatus], a
-	call CloseSRAM
-	ld a, BANK(sMobileAdapterStatus2)
-	call OpenSRAM
-	ld a, c
-	ld [sMobileAdapterStatus2], a
-	call CloseSRAM
-	ret
+;	ld a, BANK(sMobileAdapterStatus)
+;	call OpenSRAM
+;	ld a, c
+;	cpl
+;	ld [sMobileAdapterStatus], a
+;	call CloseSRAM
+;	ld a, BANK(sMobileAdapterStatus2)
+;	call OpenSRAM
+;	ld a, c
+;	ld [sMobileAdapterStatus2], a
+;	call CloseSRAM
+;	ret
 
 CheckMobileAdapterStatus: ; unused
 	or a
@@ -851,165 +851,165 @@ CheckMobileAdapterStatus: ; unused
 	ld c, a
 	ret
 
-Function10635c:
-	ld a, [wMobileCommsJumptableIndex]
-	bit JUMPTABLE_EXIT_F, a
-	ret nz
-	ld a, [wMobileCommsJumptableIndex]
-	ld hl, .Jumptable
-	rst JumpTable
-	ret
+;Function10635c:
+;	ld a, [wMobileCommsJumptableIndex]
+;	bit JUMPTABLE_EXIT_F, a
+;	ret nz
+;	ld a, [wMobileCommsJumptableIndex]
+;	ld hl, .Jumptable
+;	rst JumpTable
+;	ret
 
-.Jumptable:
-	dw .init
-	dw Function106392
-	dw Function1063cc
-	dw Function1063d8
-	dw Function1063e5
-	dw Function1063f3
-	dw Function106403
-	dw Function106442
-	dw Function106453
+;.Jumptable:
+;	dw .init
+;	dw Function106392
+;	dw Function1063cc
+;	dw Function1063d8
+;	dw Function1063e5
+;	dw Function1063f3
+;	dw Function106403
+;	dw Function106442
+;	dw Function106453
 
-.init:
-	ld de, wcd30
-	ld hl, $41
-	ld bc, $41
-	ld a, MOBILEAPI_20
-	call MobileAPI
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;.init:
+;	ld de, wcd30
+;	ld hl, $41
+;	ld bc, $41
+;	ld a, MOBILEAPI_20
+;	call MobileAPI
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-Function106392:
-	xor a
-	ld [wcf64], a
-	ld a, [wc821]
-	bit 1, a
-	jr nz, .asm_1063a2
-	bit 0, a
-	jr z, .asm_1063bf
-	ret
+;Function106392:
+;	xor a
+;	ld [wcf64], a
+;	ld a, [wc821]
+;	bit 1, a
+;	jr nz, .asm_1063a2
+;	bit 0, a
+;	jr z, .asm_1063bf
+;	ret
 
-.asm_1063a2
-	call CheckMobileAdapterStatus
-	ld a, c
-	and a
-	jr nz, .asm_1063b4
-	ld a, $b
-	ld [wcf64], a
-	ld a, $7
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;.asm_1063a2
+;	call CheckMobileAdapterStatus
+;	ld a, c
+;	and a
+;	jr nz, .asm_1063b4
+;	ld a, $b
+;	ld [wcf64], a
+;	ld a, $7
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-.asm_1063b4
-	ld a, $7
-	ld [wcf64], a
-	ld a, $7
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;.asm_1063b4
+;	ld a, $7
+;	ld [wcf64], a
+;	ld a, $7
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-.asm_1063bf
-	ld a, $1
-	ld [wcf64], a
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;.asm_1063bf
+;	ld a, $1
+;	ld [wcf64], a
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-Function1063cc:
-	ld a, $78
-	ld [wcd42], a
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
+;Function1063cc:
+;	ld a, $78
+;	ld [wcd42], a
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
 
-Function1063d8:
-	ld hl, wcd42
-	dec [hl]
-	ret nz
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;Function1063d8:
+;	ld hl, wcd42
+;	dec [hl]
+;	ret nz
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-Function1063e5:
-	ld a, [wcf64]
-	cp $3
-	ret nz
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;Function1063e5:
+;	ld a, [wcf64]
+;	cp $3
+;	ret nz
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-Function1063f3:
-	ld de, wcd31
-	ld a, MOBILEAPI_TELEPHONESTATUS
-	call MobileAPI
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;Function1063f3:
+;	ld de, wcd31
+;	ld a, MOBILEAPI_TELEPHONESTATUS
+;	call MobileAPI
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-Function106403:
-	ld a, [wc821]
-	bit 1, a
-	jr nz, .asm_106426
-	bit 0, a
-	jr z, .asm_10640f
-	ret
+;Function106403:
+;	ld a, [wc821]
+;	bit 1, a
+;	jr nz, .asm_106426
+;	bit 0, a
+;	jr z, .asm_10640f
+;	ret
 
-.asm_10640f
-	ld a, [wcd31]
-	and $80
-	ld c, a
-	ld a, [wcd30]
-	or c
-	inc a
-	ld c, a
-	call SetMobileAdapterStatus
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;.asm_10640f
+;	ld a, [wcd31]
+;	and $80
+;	ld c, a
+;	ld a, [wcd30]
+;	or c
+;	inc a
+;	ld c, a
+;	call SetMobileAdapterStatus
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-.asm_106426
-	call CheckMobileAdapterStatus
-	ld a, c
-	and a
-	jr z, .asm_106435
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;.asm_106426
+;	call CheckMobileAdapterStatus
+;	ld a, c
+;	and a
+;	jr z, .asm_106435
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-.asm_106435
-	ld c, $0
-	call SetMobileAdapterStatus
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
-	ret
+;.asm_106435
+;	ld c, $0
+;	call SetMobileAdapterStatus
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
+;	ret
 
-Function106442:
-	ld a, MOBILEAPI_1B
-	call MobileAPI
-	xor a
-	ldh [hMobile], a
-	ldh [hMobileReceive], a
-	ld a, [wMobileCommsJumptableIndex]
-	inc a
-	ld [wMobileCommsJumptableIndex], a
+;Function106442:
+;	ld a, MOBILEAPI_1B
+;	call MobileAPI
+;	xor a
+;	ldh [hMobile], a
+;	ldh [hMobileReceive], a
+;	ld a, [wMobileCommsJumptableIndex]
+;	inc a
+;	ld [wMobileCommsJumptableIndex], a
 
-Function106453:
-	ld a, [wMobileCommsJumptableIndex]
-	set JUMPTABLE_EXIT_F, a
-	ld [wMobileCommsJumptableIndex], a
-	nop
-	ld a, $4
-	ld [wcf64], a
-	ret
+;Function106453:
+;	ld a, [wMobileCommsJumptableIndex]
+;	set JUMPTABLE_EXIT_F, a
+;	ld [wMobileCommsJumptableIndex], a
+;	nop
+;	ld a, $4
+;	ld [wcf64], a
+;	ret
 
 Stubbed_Function106462:
 	ret

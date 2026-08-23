@@ -35,40 +35,40 @@ CheckEnabledMapEventsBit5:
 	bit PLAYEREVENTS_UNUSED, [hl]
 	ret
 
-DisableWarpsConnections: ; unreferenced
-	ld hl, wEnabledPlayerEvents
-	res PLAYEREVENTS_WARPS_AND_CONNECTIONS, [hl]
-	ret
+;DisableWarpsConnections: ; unreferenced
+;	ld hl, wEnabledPlayerEvents
+;	res PLAYEREVENTS_WARPS_AND_CONNECTIONS, [hl]
+;	ret
 
-DisableCoordEvents: ; unreferenced
-	ld hl, wEnabledPlayerEvents
-	res PLAYEREVENTS_COORD_EVENTS, [hl]
-	ret
+;DisableCoordEvents: ; unreferenced
+;	ld hl, wEnabledPlayerEvents
+;	res PLAYEREVENTS_COORD_EVENTS, [hl]
+;	ret
 
-DisableStepCount: ; unreferenced
-	ld hl, wEnabledPlayerEvents
-	res PLAYEREVENTS_COUNT_STEPS, [hl]
-	ret
+;DisableStepCount: ; unreferenced
+;	ld hl, wEnabledPlayerEvents
+;	res PLAYEREVENTS_COUNT_STEPS, [hl]
+;	ret
 
-DisableWildEncounters: ; unreferenced
-	ld hl, wEnabledPlayerEvents
-	res PLAYEREVENTS_WILD_ENCOUNTERS, [hl]
-	ret
+;DisableWildEncounters: ; unreferenced
+;	ld hl, wEnabledPlayerEvents
+;	res PLAYEREVENTS_WILD_ENCOUNTERS, [hl]
+;	ret
 
-EnableWarpsConnections: ; unreferenced
-	ld hl, wEnabledPlayerEvents
-	set PLAYEREVENTS_WARPS_AND_CONNECTIONS, [hl]
-	ret
+;EnableWarpsConnections: ; unreferenced
+;	ld hl, wEnabledPlayerEvents
+;	set PLAYEREVENTS_WARPS_AND_CONNECTIONS, [hl]
+;	ret
 
-EnableCoordEvents: ; unreferenced
-	ld hl, wEnabledPlayerEvents
-	set PLAYEREVENTS_COORD_EVENTS, [hl]
-	ret
+;EnableCoordEvents: ; unreferenced
+;	ld hl, wEnabledPlayerEvents
+;	set PLAYEREVENTS_COORD_EVENTS, [hl]
+;	ret
 
-EnableStepCount: ; unreferenced
-	ld hl, wEnabledPlayerEvents
-	set PLAYEREVENTS_COUNT_STEPS, [hl]
-	ret
+;EnableStepCount: ; unreferenced
+;	ld hl, wEnabledPlayerEvents
+;	set PLAYEREVENTS_COUNT_STEPS, [hl]
+;	ret
 
 EnableWildEncounters:
 	ld hl, wEnabledPlayerEvents
@@ -132,10 +132,10 @@ EnterMap:
 	ld [wMapStatus], a
 	ret
 
-UnusedWait30Frames: ; unreferenced
-	ld c, 30
-	call DelayFrames
-	ret
+;UnusedWait30Frames: ; unreferenced
+;	ld c, 30
+;	call DelayFrames
+;	ret
 
 HandleMap:
 	call ResetOverworldDelay
@@ -485,10 +485,10 @@ CheckTimeEvents:
 	scf
 	ret
 
-.hatch ; unreferenced
-	ld a, PLAYEREVENT_HATCH
-	scf
-	ret
+;.hatch ; unreferenced
+;	ld a, PLAYEREVENT_HATCH
+;	scf
+;	ret
 
 OWPlayerInput:
 	call PlayerMovement
@@ -950,10 +950,10 @@ CountStep:
 	scf
 	ret
 
-.whiteout ; unreferenced
-	ld a, PLAYEREVENT_WHITEOUT
-	scf
-	ret
+;.whiteout ; unreferenced
+;	ld a, PLAYEREVENT_WHITEOUT
+;	scf
+;	ret
 
 DoRepelStep:
 	ld a, [wRepelEffect]
@@ -1022,8 +1022,8 @@ PlayerEventScriptPointers:
 InvalidEventScript:
 	end
 
-UnusedPlayerEventScript: ; unreferenced
-	end
+;UnusedPlayerEventScript: ; unreferenced
+;	end
 
 HatchEggScript:
 	callasm OverworldHatchEgg
