@@ -300,9 +300,10 @@ DEF BUG_CONTESTANT_SIZE EQU 4
 ; HealMachineAnim setval arguments
 ; HealMachineAnim.Pointers indexes (see engine/events/heal_machine_anim.asm)
 	const_def
-	const HEALMACHINE_POKECENTER   ; 0
-	const HEALMACHINE_ELMS_LAB     ; 1
-	const HEALMACHINE_HALL_OF_FAME ; 2
+	const HEALMACHINE_POKECENTER        ; 0
+	const HEALMACHINE_ELMS_LAB          ; 1
+	const HEALMACHINE_HALL_OF_FAME      ; 2
+	const HEALMACHINE_POKECENTER_FAST   ; 3
 
 ; UnownPuzzle setval arguments
 ; LoadUnownPuzzlePiecesGFX.LZPointers indexes (see engine/games/unown_puzzle.asm)

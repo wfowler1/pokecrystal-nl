@@ -16,6 +16,7 @@ HealMachineAnim:
 	; 0: Up and left (Pokemon Center)
 	; 1: Left (Elm's Lab)
 	; 2: Up (Hall of Fame)
+	; 3: Up and left fast (Pokemon center after first time)
 	ld a, [wScriptVar]
 	ld [wHealMachineAnimType], a
 	ldh a, [rOBP1]
@@ -58,6 +59,7 @@ HealMachineAnim:
 	dw .Pokecenter
 	dw .ElmsLab
 	dw .HallOfFame
+	dw .Pokecenter
 
 MACRO healmachineanimseq
 	rept _NARG
@@ -100,20 +102,32 @@ ENDM
 .HOF_LoadBallsOntoMachine:
 	ld hl, wShadowOAMSprite32
 	ld de, .HOF_OAM
+	ld a, [wPartyCount]
+	ld b, a
+	jr .party_loop
 
 .LoadBallsOntoMachine:
 	ld a, [wPartyCount]
 	ld b, a
+	ld a, [wHealMachineAnimType]
+	cp HEALMACHINE_POKECENTER_FAST
+	jr z, .party_loop_fast
+	
 .party_loop
 	call .PlaceHealingMachineTile
-;	push de
-;	ld de, SFX_SECOND_PART_OF_ITEMFINDER
-;	call PlaySFX
-;	pop de
-;	ld c, 1
-;	call DelayFrames
+	push de
+	ld de, SFX_SECOND_PART_OF_ITEMFINDER
+	call PlaySFX
+	pop de
+	ld c, 30
+	call DelayFrames
 	dec b
 	jr nz, .party_loop
+	ret
+.party_loop_fast
+	call .PlaceHealingMachineTile
+	dec b
+	jr nz, .party_loop_fast
 	push de
 	ld de, SFX_SECOND_PART_OF_ITEMFINDER
 	call PlaySFX
