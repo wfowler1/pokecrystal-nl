@@ -105,7 +105,7 @@ PokecenterNurseScript:
 	special HealParty
 	playmusic MUSIC_NONE
 	setval HEALMACHINE_POKECENTER
-	checkevent EVENT_WELCOMED_TO_POKEMON_CENTER
+	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
 	iffalse .okcontinue
 	setval HEALMACHINE_POKECENTER_FAST
 .okcontinue
