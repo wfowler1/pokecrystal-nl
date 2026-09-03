@@ -239,7 +239,7 @@ ContestResults_PlayerWonAPrizeText:
 	line "finisher, wint" ; "finisher, wins"
 	cont "@"
 	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 ReceivedItemText:
@@ -284,7 +284,7 @@ ContestResults_PartyFullText:
 GymStatue_CityGymText:
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text_start
-	line "#MON GYM"
+	line "#MON-GYM" ; "#MON GYM"
 	done
 
 GymStatue_WinningTrainersText:
