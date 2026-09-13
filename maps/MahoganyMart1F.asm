@@ -191,13 +191,13 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "LANCE: DRAGONITE,"
+	text "LANCE: DRAGONITE," ; "LANCE: DRAGONITE,"
 	line "HYPERSTRAAL." ; "HYPER BEAM."
 	done
 
 MahoganyMart1FLanceRadioText:
 	text "Waar bleef je," ; "What took you,"
-	line "<PLAY_G>?"
+	line "<PLAY_G>?" ; "<PLAY_G>?"
 
 	para "Zoals ik dacht," ; "Just as I thought,"
 	line "dat vreemde radio-" ; "that strange radio"
@@ -212,7 +212,7 @@ MahoganyMart1FLanceStairsText:
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAY_G>, we"
+	text "LANCE: <PLAY_G>, we" ; "LANCE: <PLAY_G>, we"
 	line "moeten opsplitsen" ; "should split up to"
 
 	para "om deze plek" ; "check this place."

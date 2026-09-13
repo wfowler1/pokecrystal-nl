@@ -7,14 +7,14 @@ _HeyItsFruitText::
 	text "Hé! Het is een" ; "Hey! It's"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 _ObtainedFruitText::
 	text "Bemachtigde" ; "Obtained"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 _FruitPackIsFullText::
@@ -90,9 +90,9 @@ _RevitalizedText::
 _GrewToLevelText::
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " is nu" ; " grew to"
-	line "level @"
+	line "level @" ; "level @"
 	text_decimal wCurPartyLevel, 1, 3
-	text "!@"
+	text "!@" ; "!@"
 	sound_dex_fanfare_50_79 ; plays SFX_DEX_FANFARE_50_79, identical to SFX_LEVEL_UP
 	text_promptbutton
 	text_end
@@ -154,8 +154,8 @@ _CardFolderOpenText::
 	text_end
 
 _OakTimeWokeUpText::
-	text "<……><……><……><……><……><……>"
-	line "<……><……><……><……><……><……>"
+	text "<……><……><……><……><……><……>" ; "<……><……><……><……><……><……>"
+	line "<……><……><……><……><……><……>" ; "<……><……><……><……><……><……>"
 
 	para "Zzz… Hm? Wat…? Je" ; "Zzz… Hm? Wha…?"
 	line "maakte me wakker!" ; "You woke me up!"
@@ -174,7 +174,7 @@ _OakTimeWhatHoursText::
 	text_end
 
 _OakTimeHoursQuestionMarkText::
-	text "?"
+	text "?" ; "?"
 	done
 
 _OakTimeHowManyMinutesText::
@@ -186,23 +186,23 @@ _OakTimeWhoaMinutesText::
 	text_end
 
 _OakTimeMinutesQuestionMarkText::
-	text "?"
+	text "?" ; "?"
 	done
 
 _OakTimeOversleptText::
-	text "!"
+	text "!" ; "!"
 	line "Ik heb me" ; "I overslept!"
 	cont "verslapen!"
 	done
 
 _OakTimeYikesText::
-	text "!"
+	text "!" ; "!"
 	line "Yikes! Ik heb me" ; "Yikes! I over-"
 	cont "verslapen!" ; "slept!"
 	done
 
 _OakTimeSoDarkText::
-	text "!"
+	text "!" ; "!"
 	line "Geen wonder dat" ; "No wonder it's so"
 	cont "het zo donker is!" ; "dark!"
 	done
@@ -224,28 +224,28 @@ _ThereIsNothingConnectedText:: ; unreferenced
 
 _CheckCellPhoneAdapterText:: ; unreferenced
 	text "Check telefoon-" ; "Check cell phone"
-	line "adapter."
+	line "adapter." ; "adapter."
 	done
 
 _CheckCDMAAdapterText:: ; unreferenced
 	text "Check CDMA-" ; "Check CDMA"
-	line "adapter."
+	line "adapter." ; "adapter."
 	done
 
 _CheckDOCOMOPHSAdapterText:: ; unreferenced
 	text "Check DOCOMO PHS-" ; "Check DOCOMO PHS"
-	line "adapter."
+	line "adapter." ; "adapter."
 	done
 
 _CheckDDIPHSAdapterText:: ; unreferenced
 	text "Check DDI PHS-" ; "Check DDI PHS"
-	line "adapter."
+	line "adapter." ; "adapter."
 	done
 
 _CheckMobileAdapterText:: ; unreferenced
-	text "Check unlimited"
+	text "Check unlimited" ; "Check unlimited"
 	line "battle mobile-" ; "battle mobile"
-	cont "adapter."
+	cont "adapter." ; "adapter."
 	done
 
 ; Mobile Adapter End
@@ -288,7 +288,7 @@ _PutAwayTheDecoText::
 	text "Verwijdert" ; "Put away the"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxDecorationNameLength
-	text "."
+	text "." ; "."
 	prompt
 
 _NothingToPutAwayText::
@@ -300,7 +300,7 @@ _SetUpTheDecoText::
 	text "Plaats de" ; "Set up the"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxDecorationNameLength
-	text "."
+	text "." ; "."
 	prompt
 
 _PutAwayAndSetUpText::
@@ -312,7 +312,7 @@ _PutAwayAndSetUpText::
 	para "en plaats de" ; "and set up the"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxDecorationNameLength
-	text "."
+	text "." ; "."
 	prompt
 
 _AlreadySetUpText::
@@ -345,7 +345,7 @@ _LookAdorableDecoText::
 	line "aandoenlijke"
 	cont "@"
 	text_ram wStringBuffer3 ; MaxLength MaxDecorationNameLength
-	text "."
+	text "." ; "."
 	done
 
 _LookGiantDecoText::
@@ -389,7 +389,7 @@ _MonWasSentToText::
 	text " ging" ; " was"
 	line "naar @" ; "sent to @"
 	text_ram wOTTrademonSenderName
-	text "."
+	text "." ; "."
 	done
 
 _MonNameSentToText::
@@ -404,23 +404,23 @@ _BidsFarewellToMonText::
 
 _MonNameBidsFarewellText::
 	text_ram wOTTrademonSpeciesName
-	text "."
+	text "." ; "."
 	done
 
 _TakeGoodCareOfMonText::
 	text "Pas goed op" ; "Take good care of"
 	line "@"
 	text_ram wOTTrademonSpeciesName
-	text "."
+	text "." ; "."
 	done
 
 _ForYourMonSendsText::
 	text "Voor @" ; "For @"
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "'s" ; "'s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text ","
+	text "," ; ","
 	done
 
 _OTSendsText::
@@ -428,7 +428,7 @@ _OTSendsText::
 	text " stuurt" ; " sends"
 	line "@"
 	text_ram wOTTrademonSpeciesName
-	text "."
+	text "." ; "."
 	done
 
 _WillTradeText::
@@ -443,10 +443,10 @@ _WillTradeText::
 _ForYourMonWillTradeText::
 	text "voor @" ; "for @"
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "'s" ; "'s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text "."
+	text "." ; "."
 	done
 
 _MobilePlayerWillTradeMonText::
@@ -461,15 +461,15 @@ _MobilePlayerWillTradeMonText::
 _MobileForPartnersMonText::
 	text "voor @" ; "for @"
 	text_ram wOTTrademonSenderName
-	text "'s"
+	text "'s" ; "'s"
 	line "@"
 	text_ram wOTTrademonSpeciesName
-	text "."
+	text "." ; "."
 	done
 
 _MobilePlayersMonTradeText::
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "'s" ; "'s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
 	text " ruilen…" ; " trade…"
@@ -479,12 +479,12 @@ _MobileTakeGoodCareOfMonText::
 	text "Pas goed op" ; "Take good care of"
 	line "@"
 	text_ram wOTTrademonSpeciesName
-	text "."
+	text "." ; "."
 	done
 
 _MobilePlayersMonTrade2Text::
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "'s" ; "'s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
 	text " ruilen…" ; " trade…"
@@ -494,7 +494,7 @@ _MobileTakeGoodCareOfText::
 	text "Pas goed op" ; "Take good care of"
 	line "@"
 	text_ram wOTTrademonSpeciesName
-	text "."
+	text "." ; "."
 	done
 
 _MobileTradeCameBackText::
@@ -507,7 +507,7 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: PROF.OAK'S"
+	line "MARY: PROF.OAK'S" ; "MARY: PROF.OAK'S"
 	done
 
 _OPT_IntroText2::
@@ -522,7 +522,7 @@ _OPT_IntroText3::
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
+	line "OAK: @" ; "OAK: @"
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text_end
 
@@ -537,14 +537,14 @@ _OPT_OakText3::
 	text_start
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 	done
 
 _OPT_MaryText1::
 	text_start
-	line "MARY: @"
+	line "MARY: @" ; "MARY: @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "…"
+	text "…" ; "…"
 	done
 
 _OPT_SweetAdorablyText::
@@ -708,7 +708,7 @@ _OPT_SpeedyText::
 	done
 
 _OPT_PokemonChannelText::
-	text "#MON"
+	text "#MON" ; "#MON"
 	done
 
 _PokedexShowText::
@@ -750,7 +750,7 @@ _BenFernText1::
 	text_start
 	line "Het is @" ; "Today's @"
 	text_today
-	text ","
+	text "," ; ","
 	done
 
 _BenFernText2A::
@@ -815,7 +815,7 @@ _LC_Text8::
 	line "week is @" ; "Number is @"
 	text_pause
 	text_ram wStringBuffer1 ; MaxLength 5
-	text "!"
+	text "!" ; "!"
 	done
 
 _LC_Text9::
@@ -965,7 +965,7 @@ _RocketRadioText1::
 
 _RocketRadioText2::
 	text_start
-	line "TEAM ROCKET!"
+	line "TEAM ROCKET!" ; "TEAM ROCKET!"
 	done
 
 _RocketRadioText3::
@@ -990,7 +990,7 @@ _RocketRadioText6::
 
 _RocketRadioText7::
 	text_start
-	line "GIOVANNI! @"
+	line "GIOVANNI! @" ; "GIOVANNI! @"
 	text_pause
 	text "Hoor je" ; "Can you"
 	done
@@ -1035,7 +1035,7 @@ _BuenaRadioText4::
 	text_start
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 _BuenaRadioText5::
@@ -1098,7 +1098,7 @@ _BuenaRadioMidnightText9::
 	done
 
 _BuenaRadioMidnightText10::
-	text "…"
+	text "…" ; "…"
 	done
 
 _BuenaOffTheAirText::
@@ -1107,7 +1107,7 @@ _BuenaOffTheAirText::
 	done
 
 _EnemyWithdrewText::
-	text "<ENEMY>"
+	text "<ENEMY>" ; "<ENEMY>"
 	line "riep" ; "withdrew"
 	cont "@"
 	text_ram wEnemyMonNickname
@@ -1115,13 +1115,13 @@ _EnemyWithdrewText::
 	prompt
 
 _EnemyUsedOnText::
-	text "<ENEMY>"
+	text "<ENEMY>" ; "<ENEMY>"
 	line "deed @" ; "used @"
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxItemNameLength
 	text_start
 	cont "op @" ; "on @"
 	text_ram wEnemyMonNickname
-	text "!"
+	text "!" ; "!"
 	prompt
 
 _ThatCantBeUsedRightNowText:: ; unreferenced
@@ -1164,7 +1164,7 @@ _WillYouPlayWithMonText:: ; unreferenced
 	text "Wil je spelen met" ; "Will you play with"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 	done
 
 _YouNeedTwoMonForBreedingText:: ; unreferenced
@@ -1181,7 +1181,7 @@ _CompatibilityShouldTheyBreedText:: ; unreferenced
 	text "Compatibiliteit is" ; "The compatibility"
 	line "@" ; "is @"
 	text_decimal wBreedingCompatibility, 1, 3
-	text "."
+	text "." ; "."
 	cont "Moeten ze fokken?" ; "Should they breed?"
 	done
 
@@ -1196,14 +1196,14 @@ _ItsGoingToHatchText:: ; unreferenced
 	prompt
 
 _TestEventText:: ; unreferenced
-	text "Test event"
+	text "Test event" ; "Test event"
 	line "@"
 	text_decimal wStringBuffer2, 1, 2
-	text "?"
+	text "?" ; "?"
 	done
 
 _StartText:: ; unreferenced
-	text "Start!"
+	text "Start!" ; "Start!"
 	done
 
 _EndText:: ; unreferenced
@@ -1233,7 +1233,7 @@ _NewCardArrivedText::
 	text "Een nieuwe KAART" ; "A new CARD arrived"
 	line "kwam van @" ; "from @"
 	text_ram wStringBuffer2 ; MaxLength MaxPlayerNameLength
-	text "."
+	text "." ; "."
 	done
 
 _PutCardInCardFolderText::
@@ -1247,7 +1247,7 @@ _CardWasListedText::
 	line "toegevoegd als" ; "listed as no.@"
 	cont "nr.@"
 	text_decimal wStringBuffer1, 1, 2
-	text "."
+	text "." ; "."
 	prompt
 
 _StartingLinkText::
@@ -1283,14 +1283,14 @@ _TradingMonForOTMonText::
 	text_start
 	line "voor @" ; "for @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "…"
+	text "…" ; "…"
 	done
 
 ; Mobile Adapter End
 
 _ObtainedTheVoltorbBadgeText:: ; unreferenced
 	text "kreeg the" ; "Obtained the"
-	line "VOLTORBBADGE!"
+	line "VOLTORBBADGE!" ; "VOLTORBBADGE!"
 	done
 
 _AskFloorElevatorText::
@@ -1317,7 +1317,7 @@ _PlayerFoundItemText::
 	text "<PLAYER> vond" ; "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 _ButNoSpaceText::
@@ -1329,10 +1329,10 @@ _JustSawSomeRareMonText::
 	text "Ik zag zeldzame" ; "I just saw some"
 	line "@" ; "rare @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " in"
+	text " in" ; " in"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "Ik bel als ik nog" ; "I'll call you if I"
 	line "een zeldzame #-" ; "see another rare"
@@ -1349,7 +1349,7 @@ _ReceiveItemText::
 	text " ontving" ; " received"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	sound_item
 	text_promptbutton
 	text_end
@@ -1377,7 +1377,7 @@ Text_NPCTraded::
 	text " voor" ; " for"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text ".@"
+	text ".@" ; ".@"
 	text_end
 
 _NPCTradeFanfareText::
@@ -1392,12 +1392,12 @@ _NPCTradeIntroText1::
 	line "MON. Heb jij" ; "Do you have"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 
 	para "Wil je ruilen voor" ; "Want to trade it"
 	line "mijn @" ; "for my @"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 	done
 
 _NPCTradeCancelText1::
@@ -1409,7 +1409,7 @@ _NPCTradeWrongText1::
 	text "Huh? Dat is geen" ; "Huh? That's not"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 	cont "Teleurstellend…" ; "What a letdown…"
 	done
 
@@ -1417,7 +1417,7 @@ _NPCTradeCompleteText1::
 	text "Hoera! Ik heb een" ; "Yay! I got myself"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 	cont "Bedankt!" ; "Thanks!"
 	done
 
@@ -1440,7 +1440,7 @@ _NPCTradeIntroText2::
 	para "wil je ruilen voor" ; "you trade it for"
 	line "mijn @" ; "my @"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 	done
 
 _NPCTradeCancelText2::
@@ -1465,7 +1465,7 @@ _NPCTradeCompleteText2::
 	para "Ik heb eindelijk" ; "I finally got"
 	line "een @" ; "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 	done
 
 _NPCTradeAfterText2::
@@ -1484,12 +1484,12 @@ _NPCTradeIntroText3::
 	para "heb er geen. Heb" ; "it. Do you have"
 	line "jij @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 
 	para "Wil je ruilen voor" ; "Want to trade it"
 	line "mijn @" ; "for my @"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 	done
 
 _NPCTradeCancelText3::
@@ -1501,7 +1501,7 @@ _NPCTradeWrongText3::
 	text "Dat is niet" ; "That's not"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "Ruil alsjeblieft" ; "Please trade with"
 	line "als je een vindt." ; "me if you get one."
@@ -1512,7 +1512,7 @@ _NPCTradeCompleteText3::
 	line "Ik wilde altijd al" ; "I always wanted"
 	cont "een @" ; "@"
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 _NPCTradeAfterText3::
@@ -1547,7 +1547,7 @@ _MomLeavingText1::
 	para "Hoe kom je" ; "Where did you get"
 	line "er aan?" ; "it?"
 
-	para "…"
+	para "…" ; "…"
 
 	para "Dus, je gaat op" ; "So, you're leaving"
 	line "avontuur…" ; "on an adventure…"
@@ -1572,7 +1572,7 @@ _MomLeavingText2::
 	text "Oke, ik let op je" ; "OK, I'll take care"
 	line "geld." ; "of your money."
 
-	para "<……><……><……>"
+	para "<……><……><……>" ; "<……><……><……>"
 	prompt
 
 _MomLeavingText3::
@@ -1759,7 +1759,7 @@ _AreWeGeniusesText::
 	line "of niet? Check" ; "what? Want to see"
 	cont "je @" ; "your @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "?"
+	text "?" ; "?"
 	done
 
 _YourMonHasGrownText::
@@ -1771,13 +1771,13 @@ _YourMonHasGrownText::
 	para "Qua level is ie" ; "By level, it's"
 	line "gegroeid met @" ; "grown by @"
 	text_decimal wStringBuffer2 + 1, 1, 3
-	text "."
+	text "." ; "."
 
 	para "Als je de #MON" ; "If you want your"
 	line "terug wil, kost je" ; "#MON back, it"
 	cont "dat ¥@" ; "will cost ¥@"
 	text_decimal wStringBuffer2 + 2, 3, 4
-	text "."
+	text "." ; "."
 	done
 
 _PerfectHeresYourMonText::
