@@ -125,4 +125,4 @@ Outputs its first argument as a hexadecimal number. An optional second argument 
 
 For example, if "`{hex @}`" outputs "`0x6789`", then "`{hex @+1 5}`" outputs "`0x0678a`".
 
-This command has extra variants to reproduce inconsistent output casing: "`Hex`" prints the last three digits in lowercase and the rest uppercase; "`HEx`" prints the last two digits in lowercase and the rest uppercase; "`hEX`" prints the last three digits in uppercase and the rest lowercase; and "`heX`" prints the last two digits in uppercase and the rest lowercase.
+This command has extra variants to reproduce inconsistent output casing: "`Hex`" prints the last three digits in lowercase and the rest uppercase; "`HEx`" prints the last two digits in lowercase and the rest uppercase; "`HeX`" prints the last digit in lowercase and the rest uppercase; "`hEX`" prints the last three digits in uppercase and the rest lowercase; and "`heX`" prints the last two digits in uppercase and the rest lowercase.
