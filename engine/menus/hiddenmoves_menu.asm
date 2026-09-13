@@ -89,9 +89,12 @@ HiddenMoveMenu::
 	dw .ReturnRedraw
 
 .ExitNoFieldMoves:
+	farcall Script_refreshmap
 	call OpenText
+	ld b, BANK(.NoFieldMovesText)
 	ld hl, .NoFieldMovesText
-	call PrintText
+	call MapTextbox
+	call WaitButton
 	jp CloseText
 
 .Exit:
@@ -168,7 +171,6 @@ HiddenMoveMenu::
 	call ReloadTilesetAndPalettes
 	call DrawVariableLengthMenuBox
 	call UpdateSprites
-	call GSReloadPalettes
 	call FinishExitMenu
 	ret
 
