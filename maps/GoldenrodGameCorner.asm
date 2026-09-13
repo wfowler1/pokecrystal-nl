@@ -557,12 +557,12 @@ GoldenrodGameCorner_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event  1,  6, BGEVENT_READ, GoldenrodGameCornerKabutoPuzzle
-	bg_event  1,  7, BGEVENT_READ, GoldenrodGameCornerKabutoPuzzle
-	bg_event  1,  8, BGEVENT_READ, GoldenrodGameCornerOmanytePuzzle
-	bg_event  1,  9, BGEVENT_READ, GoldenrodGameCornerAerodactylPuzzle
-	bg_event  1, 10, BGEVENT_READ, GoldenrodGameCornerHoohPuzzle
-	bg_event  1, 11, BGEVENT_LEFT, GoldenrodGameCornerMemoryGameScript
+	bg_event  1,  6, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
+	bg_event  1,  7, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
+	bg_event  1,  8, BGEVENT_READ, GoldenrodGameCornerKabutoPuzzle
+	bg_event  1,  9, BGEVENT_READ, GoldenrodGameCornerOmanytePuzzle
+	bg_event  1, 10, BGEVENT_READ, GoldenrodGameCornerAerodactylPuzzle
+	bg_event  1, 11, BGEVENT_LEFT, GoldenrodGameCornerHoohPuzzle
 	bg_event  6,  6, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
 	bg_event  6,  7, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
 	bg_event  6,  8, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript

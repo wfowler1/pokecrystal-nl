@@ -408,7 +408,7 @@ CeladonGameCorner_MapEvents:
 	bg_event 13, 10, BGEVENT_READ, CeladonGameCornerLuckySlotMachineScript
 	bg_event 13, 11, BGEVENT_LEFT, CeladonGameCornerLuckySlotMachineScript
 	bg_event 18,  6, BGEVENT_READ, CeladonGameCornerMemoryGameScript
-	bg_event 18,  7, BGEVENT_READ, CeladonGameCornerOmanytePuzzle
+	bg_event 18,  7, BGEVENT_READ, CeladonGameCornerMemoryGameScript
 	bg_event 18,  8, BGEVENT_READ, CeladonGameCornerKabutoPuzzle
 	bg_event 18,  9, BGEVENT_READ, CeladonGameCornerOmanytePuzzle
 	bg_event 18, 10, BGEVENT_READ, CeladonGameCornerAerodactylPuzzle
