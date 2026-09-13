@@ -23,7 +23,7 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 	para "Het is een spoor-" ; "It's a railway"
 	line "lijn die naar" ; "that goes to GOL-"
 	cont "GOLDENROD in" ; "DENROD in JOHTO."
-	cont "JOHHTO gaat."
+	cont "JOHTO gaat."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
