@@ -72,22 +72,22 @@ FixDays::
 
 ; check if day count > 255 (bit 8 set)
 	ldh a, [hRTCDayHi] ; DH
-	bit B_RAMB_RTC_DH_HIGH, a
+	bit B_RTCREG_DH_HIGH, a
 	jr z, .daylo
 ; reset dh (bit 8)
-	res B_RAMB_RTC_DH_HIGH, a
+	res B_RTCREG_DH_HIGH, a
 	ldh [hRTCDayHi], a
 
 ; mod 140
 ; mod twice since bit 8 (DH) was set
 	ldh a, [hRTCDayLo]
 .modh
-	sub 140
+	sub RTC_DAY_CYCLE
 	jr nc, .modh
 .modl
-	sub 140
+	sub RTC_DAY_CYCLE
 	jr nc, .modl
-	add 140
+	add RTC_DAY_CYCLE
 
 ; update dl
 	ldh [hRTCDayLo], a
@@ -99,14 +99,14 @@ FixDays::
 .daylo
 ; quit if fewer than 140 days have passed
 	ldh a, [hRTCDayLo]
-	cp 140
+	cp RTC_DAY_CYCLE
 	jr c, .quit
 
 ; mod 140
 .mod
-	sub 140
+	sub RTC_DAY_CYCLE
 	jr nc, .mod
-	add 140
+	add RTC_DAY_CYCLE
 
 ; update dl
 	ldh [hRTCDayLo], a
@@ -227,7 +227,7 @@ SetClock::
 ; this block is totally pointless
 	ld [hl], RAMB_RTC_DH
 	ld a, [de]
-	bit B_RAMB_RTC_DH_HALT, a
+	bit B_RTCREG_DH_HALT, a
 	ld [de], a
 
 ; seconds
@@ -249,7 +249,7 @@ SetClock::
 ; day hi
 	ld [hl], RAMB_RTC_DH
 	ldh a, [hRTCDayHi]
-	res B_RAMB_RTC_DH_HALT, a ; make sure timer is active
+	res B_RTCREG_DH_HALT, a ; make sure timer is active
 	ld [de], a
 
 ; cleanup

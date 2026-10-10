@@ -873,15 +873,15 @@ InitCGBPals::
 ; CGB only
 	ld a, BANK(vTiles3)
 	ldh [rVBK], a
-	ld hl, vTiles3
-	ld bc, $200 tiles
+	ld hl, STARTOF("VRAM1")
+	ld bc, SIZEOF("VRAM1")
 	xor a
 	call ByteFill
 	ld a, BANK(vTiles0)
 	ldh [rVBK], a
 	ld a, BGPI_AUTOINC
 	ldh [rBGPI], a
-	ld c, 4 * TILE_WIDTH
+	ld c, 4 palettes
 .bgpals_loop
 	ld a, LOW(PALRGB_WHITE)
 	ldh [rBGPD], a
@@ -891,7 +891,7 @@ InitCGBPals::
 	jr nz, .bgpals_loop
 	ld a, OBPI_AUTOINC
 	ldh [rOBPI], a
-	ld c, 4 * TILE_WIDTH
+	ld c, 4 palettes
 .obpals_loop
 	ld a, LOW(PALRGB_WHITE)
 	ldh [rOBPD], a
@@ -912,7 +912,7 @@ InitCGBPals::
 	ret
 
 .LoadWhitePals:
-	ld c, 4 * 16
+	ld c, 8 palettes
 .loop
 	ld a, LOW(PALRGB_WHITE)
 	ld [hli], a
