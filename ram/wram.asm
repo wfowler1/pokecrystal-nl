@@ -3249,7 +3249,9 @@ wKenjiFightCount::   db ; unreferenced
 wParryFightCount::   db
 wErinFightCount::    db
 
-	ds 100
+	ds 99
+
+wPokerusBuffer::    db
 
 wEventFlags:: flag_array NUM_EVENTS
 

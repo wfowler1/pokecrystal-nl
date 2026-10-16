@@ -45,12 +45,12 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw DireHitDesc
-	dw TeruSama3Desc
+	dw PowerWeightDesc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw TeruSama4Desc
+	dw PowerAnkletDesc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
@@ -90,7 +90,7 @@ ItemDescriptions:
 	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
-	dw TeruSama6Desc
+	dw PowerBeltDesc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
@@ -100,7 +100,7 @@ ItemDescriptions:
 	dw WhtApricornDesc
 	dw BlackbeltDesc
 	dw BlkApricornDesc
-	dw TeruSama7Desc
+	dw PowerBracerDesc
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
@@ -120,7 +120,7 @@ ItemDescriptions:
 	dw MiracleSeedDesc
 	dw ThickClubDesc
 	dw FocusBandDesc
-	dw TeruSama8Desc
+	dw PowerLensDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -434,8 +434,9 @@ DireHitDesc:
 	db   "Verhoog kritieke" ; "Ups critical hit"
 	next "klap-ratio (1 BTL)@" ; "ratio. (1 BTL)@"
 
-TeruSama3Desc:
-	db   "?@" ; "?@"
+PowerWeightDesc:
+	db   "Halfs SPEED, but"
+	next "ups HP Growth.@"
 
 FreshWaterDesc:
 	db   "Herstel LP van" ; "Restores #MON"
@@ -453,8 +454,9 @@ XAttackDesc:
 	db   "Verhoogt AANVAL." ; "Raises ATTACK."
 	next "(1 BTL)@" ; "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@" ; "?@"
+PowerAnkletDesc:
+	db   "Halfs SPEED, but"
+	next "ups SPEED Growth.@"
 
 XDefendDesc:
 	db   "Verhoog AFWEER" ; "Raises DEFENSE."
@@ -611,8 +613,9 @@ BluApricornDesc:
 	db   "Een blauwe" ; "A blue APRICORN.@"
 	next "ABRIKHORN.@"
 
-TeruSama6Desc:
-	db   "?@" ; "?@"
+PowerBeltDesc:
+	db   "Halfs SPEED, but"
+	next "ups DEF Growth.@"
 
 AmuletCoinDesc:
 	db   "Verdubbelt geld-" ; "Doubles monetary"
@@ -650,8 +653,9 @@ BlkApricornDesc:
 	db   "Een zwarte" ; "A black APRICORN.@"
 	next "ABRIKHORN.@"
 
-TeruSama7Desc:
-	db   "?@" ; "?@"
+PowerBracerDesc:
+	db   "Halfs SPEED, but"
+	next "ups ATTACK Growth.@"
 
 PnkApricornDesc:
 	db   "Een roze"; "A pink APRICORN.@"
@@ -729,8 +733,9 @@ FocusBandDesc:
 	db   "Voorkomt soms" ; "May prevent faint-"
 	next "flauwvallen (VAST)@" ; "ing. (HOLD)@"
 
-TeruSama8Desc:
-	db   "?@" ; "?@"
+PowerLensDesc:
+	db   "Halfs SPEED, but"
+	next "ups SPCL Growth.@"
 
 EnergyPowderDesc:
 	db   "Herstelt #MON-" ; "Restores #MON"

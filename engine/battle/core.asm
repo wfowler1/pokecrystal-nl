@@ -6759,6 +6759,7 @@ ApplyStatusEffectOnEnemyStats:
 ApplyStatusEffectOnStats:
 	ldh [hBattleTurn], a
 	call ApplyPrzEffectOnSpeed
+	farcall EVItemEffectOnSpeed
 	jp ApplyBrnEffectOnAttack
 
 ApplyPrzEffectOnSpeed:
@@ -7222,18 +7223,53 @@ GiveExperiencePoints:
 	ld a, MON_POKERUS
 	call GetPartyParamLocation
 	ld a, [hl]
+	ld [wPokerusBuffer], a
 	and a
 	pop bc
 	pop hl
-	jr z, .stat_exp_awarded
+	jr z, .power_item_stat_exp
 	ld a, [de]
 	add [hl]
 	ld [de], a
-	jr nc, .stat_exp_awarded
+	jr nc, .power_item_stat_exp
 	dec de
 	ld a, [de]
 	inc a
 	jr z, .stat_exp_maxed_out
+	ld [de], a
+	inc de
+
+.power_item_stat_exp
+	push bc
+	push hl
+	ld a, MON_ITEM
+	call GetPartyParamLocation
+	ld b, [hl]
+	callfar GetItemHeldEffect
+	ld a, b
+	cp HELD_POWER_ITEM
+	ld a, c ; STAT_ constant of stat to boost
+	pop hl
+	pop bc
+	jr nz, .stat_exp_awarded
+	ld b, a
+	ld a, NUM_EXP_STATS + 1
+	sub c
+	cp b
+	jr nz, .stat_exp_awarded
+	dec de
+	ld a, [de]
+	add 8
+	jr c, .stat_exp_maxed_out
+	ld [de], a
+	ld a, [wPokerusBuffer]
+	and a
+	inc de
+	jr z, .stat_exp_awarded
+	dec de
+	ld a, [de]
+	add 8
+	jr c, .stat_exp_maxed_out
 	ld [de], a
 	inc de
 	jr .stat_exp_awarded
