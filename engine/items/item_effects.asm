@@ -1180,10 +1180,20 @@ VitaminEffect:
 
 	add hl, bc
 	ld a, [hl]
-	cp 100
-	jr nc, NoEffectMessage
+	cp $ff
+	jr nz, .not_maxed
+	inc hl
+	ld a, [hld]
+	cp $ff
+	jr z, NoEffectMessage
 
+.not_maxed
 	add 10
+	jr nc, .no_overflow
+	ld a, $ff
+	inc hl
+	ld [hld], a
+.no_overflow
 	ld [hl], a
 	call UpdateStatsAfterItem
 
