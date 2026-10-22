@@ -140,19 +140,19 @@ RunBattleAnimScript:
 
 BattleAnimClearHud:
 	call BattleAnimDelayFrame
-	call WaitTop
+	call FinishBGMapTransfer
 	call ClearActorHud
 	ld a, $1
 	ldh [hBGMapMode], a
 	call BattleAnimDelayFrame
 	call BattleAnimDelayFrame
 	call BattleAnimDelayFrame
-	call WaitTop
+	call FinishBGMapTransfer
 	ret
 
 BattleAnimRestoreHuds:
 	call BattleAnimDelayFrame
-	call WaitTop
+	call FinishBGMapTransfer
 
 	ldh a, [rWBK]
 	push af
@@ -172,7 +172,7 @@ BattleAnimRestoreHuds:
 	call BattleAnimDelayFrame
 	call BattleAnimDelayFrame
 	call BattleAnimDelayFrame
-	call WaitTop
+	call FinishBGMapTransfer
 	ret
 
 BattleAnimRequestPals:
@@ -224,17 +224,17 @@ PlaceWindowOverBattleTextbox: ; unreferenced
 	xor a
 	ldh [hBGMapMode], a
 	; bgcoord hBGMapAddress, 0, 20
-	ld a, LOW(vBGMap0 + 20 * TILEMAP_WIDTH)
+	ld a, LOW(vTilemap0 + 20 * TILEMAP_WIDTH)
 	ldh [hBGMapAddress], a
-	ld a, HIGH(vBGMap0 + 20 * TILEMAP_WIDTH)
+	ld a, HIGH(vTilemap0 + 20 * TILEMAP_WIDTH)
 	ldh [hBGMapAddress + 1], a
 	call WaitBGMap2
 	ld a, (SCREEN_HEIGHT - TEXTBOX_HEIGHT) * TILE_WIDTH
 	ldh [hWY], a
 	; bgcoord hBGMapAddress, 0, 0
-	xor a ; LOW(vBGMap0)
+	xor a ; LOW(vTilemap0)
 	ldh [hBGMapAddress], a
-	ld a, HIGH(vBGMap0)
+	ld a, HIGH(vTilemap0)
 	ldh [hBGMapAddress + 1], a
 	call BattleAnimDelayFrame
 	ret
@@ -1387,7 +1387,7 @@ ClearBattleAnims::
 	ret
 
 BattleAnim_RevertPals:
-	call WaitTop
+	call FinishBGMapTransfer
 	ld a, %11100100
 	ld [wBGP], a
 	ld [wOBP0], a

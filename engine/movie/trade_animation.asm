@@ -176,7 +176,7 @@ RunTradeAnimScript:
 
 .NotCGB:
 	hlbgcoord 0, 0
-	ld bc, STARTOF(VRAM) + SIZEOF(VRAM) - vBGMap0
+	ld bc, STARTOF(VRAM) + SIZEOF(VRAM) - vTilemap0
 	ld a, ' '
 	call ByteFill
 	ld hl, TradeGameBoyLZ
@@ -470,7 +470,7 @@ TradeAnim_TubeToPlayer8:
 	call DisableLCD
 	callfar ClearSpriteAnims
 	hlbgcoord 0, 0
-	ld bc, STARTOF(VRAM) + SIZEOF(VRAM) - vBGMap0
+	ld bc, STARTOF(VRAM) + SIZEOF(VRAM) - vTilemap0
 	ld a, ' '
 	call ByteFill
 	xor a
@@ -589,8 +589,8 @@ TradeAnim_CopyTradeGameBoyTilemap:
 TradeAnim_PlaceTrademonStatsOnTubeAnim:
 	push af
 	call ClearBGPalettes
-	call WaitTop
-	ld a, HIGH(vBGMap1)
+	call FinishBGMapTransfer
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	call ClearTilemap
 	hlcoord 0, 0
@@ -619,15 +619,15 @@ TradeAnim_PlaceTrademonStatsOnTubeAnim:
 	pop af
 	call ByteFill
 	call WaitBGMap
-	call WaitTop
-	ld a, HIGH(vBGMap0)
+	call FinishBGMapTransfer
+	ld a, HIGH(vTilemap0)
 	ldh [hBGMapAddress + 1], a
 	call ClearTilemap
 	ret
 
 TradeAnim_EnterLinkTube1:
 	call ClearTilemap
-	call WaitTop
+	call FinishBGMapTransfer
 	ld a, $a0
 	ldh [hSCX], a
 	call DelayFrame
@@ -722,8 +722,8 @@ TradeAnim_TextboxScrollStart:
 	ret
 
 TradeAnim_ScrollOutRight:
-	call WaitTop
-	ld a, HIGH(vBGMap1)
+	call FinishBGMapTransfer
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	call WaitBGMap
 	ld a, $7
@@ -731,8 +731,8 @@ TradeAnim_ScrollOutRight:
 	xor a
 	ldh [hWY], a
 	call DelayFrame
-	call WaitTop
-	ld a, HIGH(vBGMap0)
+	call FinishBGMapTransfer
+	ld a, HIGH(vTilemap0)
 	ldh [hBGMapAddress + 1], a
 	call ClearTilemap
 	call TradeAnim_IncrementJumptableIndex
@@ -747,14 +747,14 @@ TradeAnim_ScrollOutRight2:
 	ret
 
 .done
-	ld a, HIGH(vBGMap1)
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	call WaitBGMap
 	ld a, $7
 	ldh [hWX], a
 	ld a, $90
 	ldh [hWY], a
-	ld a, HIGH(vBGMap0)
+	ld a, HIGH(vTilemap0)
 	ldh [hBGMapAddress + 1], a
 	call TradeAnim_AdvanceScriptPointer
 	ret
@@ -838,7 +838,7 @@ TradeAnim_ShowFrontpic:
 	ld hl, vTiles2
 	lb bc, 10, $31
 	call Request2bpp
-	call WaitTop
+	call FinishBGMapTransfer
 	call TradeAnim_BlankTilemap
 	hlcoord 7, 2
 	xor a
@@ -923,9 +923,9 @@ ShowOTTrademonStats:
 	ret
 
 TrademonStats_MonTemplate:
-	call WaitTop
+	call FinishBGMapTransfer
 	call TradeAnim_BlankTilemap
-	ld a, HIGH(vBGMap1)
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	hlcoord 3, 0
 	ld b, $6
@@ -943,9 +943,9 @@ TrademonStats_MonTemplate:
 	next "<ID>№.@"
 
 TrademonStats_Egg:
-	call WaitTop
+	call FinishBGMapTransfer
 	call TradeAnim_BlankTilemap
-	ld a, HIGH(vBGMap1)
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	hlcoord 3, 0
 	ld b, 6
@@ -964,8 +964,8 @@ TrademonStats_Egg:
 
 TrademonStats_WaitBGMap:
 	call WaitBGMap
-	call WaitTop
-	ld a, HIGH(vBGMap0)
+	call FinishBGMapTransfer
+	ld a, HIGH(vTilemap0)
 	ldh [hBGMapAddress + 1], a
 	ret
 
@@ -1215,7 +1215,7 @@ TradeAnim_OTBidsFarewell:
 	text_end
 
 TradeAnim_TakeCareOfText:
-	call WaitTop
+	call FinishBGMapTransfer
 	hlcoord 0, 10
 	ld bc, 8 * SCREEN_WIDTH
 	ld a, ' '

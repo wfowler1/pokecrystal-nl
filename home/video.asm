@@ -96,8 +96,11 @@ endr
 	scf
 	ret
 
-WaitTop::
-; Wait until the top third of the BG Map is being updated.
+; Waits until the current BG map transfer cycle finishes,
+; and then turns off BG map transfers.
+; Can be safely called if no transfer is active.
+; Does not check that a transfer has occurred at all since being started.
+FinishBGMapTransfer::
 
 	ldh a, [hBGMapMode]
 	and a
@@ -108,7 +111,7 @@ WaitTop::
 	jr z, .done
 
 	call DelayFrame
-	jr WaitTop
+	jr FinishBGMapTransfer
 
 .done
 	xor a
@@ -137,9 +140,9 @@ UpdateBGMap::
 	ld h, a
 	push hl
 
-	xor a ; LOW(vBGMap1)
+	xor a ; LOW(vTilemap1)
 	ldh [hBGMapAddress], a
-	ld a, HIGH(vBGMap1)
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 
 	ldh a, [hBGMapMode]

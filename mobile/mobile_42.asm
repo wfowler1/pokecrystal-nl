@@ -273,7 +273,7 @@ MobileTradeAnim_ClearTiles:
 MobileTradeAnim_ClearBGMap:
 	ld a, $1
 	ldh [rVBK], a
-	hlbgcoord 0, 0 ; vBGMap2
+	hlbgcoord 0, 0 ; vAttrmap0
 	ld bc, 2 * TILEMAP_AREA
 	ld a, $0
 	call ByteFill
@@ -1188,7 +1188,7 @@ asm_108966:
 	ld hl, vTiles2
 	lb bc, BANK(TradeGameBoyLZ), $31
 	call Request2bpp
-	call WaitTop
+	call FinishBGMapTransfer
 	call MobileTradeAnim_ClearTilemap
 	hlcoord 7, 2
 	xor a
@@ -1201,7 +1201,7 @@ asm_108966:
 Function10898a:
 	ld de, vTiles2
 	call MobileTradeAnim_GetFrontpic
-	call WaitTop
+	call FinishBGMapTransfer
 	call MobileTradeAnim_ClearTilemap
 	hlcoord 7, 2
 	xor a
@@ -1248,9 +1248,9 @@ MobileTradeAnim_DisplayReceivedMon:
 	ret
 
 MobileTradeAnim_DisplayEggData:
-	call WaitTop
+	call FinishBGMapTransfer
 	call MobileTradeAnim_ClearTilemap
-	ld a, HIGH(vBGMap1)
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	hlcoord 5, 0
 	ld b, 6
@@ -1269,9 +1269,9 @@ MobileTradeAnim_DisplayEggData:
 	db   "@"
 
 Function108a33:
-	call WaitTop
+	call FinishBGMapTransfer
 	call MobileTradeAnim_ClearTilemap
-	ld a, HIGH(vBGMap1)
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	hlcoord 5, 0
 	ld b, 6
@@ -1287,9 +1287,9 @@ Function108a33:
 	db "なぞのタマゴ@"
 
 MobileTradeAnim_LoadMonTemplate:
-	call WaitTop
+	call FinishBGMapTransfer
 	call MobileTradeAnim_ClearTilemap
-	ld a, HIGH(vBGMap1)
+	ld a, HIGH(vTilemap1)
 	ldh [hBGMapAddress + 1], a
 	hlcoord 4, 0
 	ld b,  6
@@ -1309,8 +1309,8 @@ MobileTradeAnim_LoadMonTemplate:
 
 MobileTradeAnim_MonDisplay_UpdateBGMap:
 	call WaitBGMap
-	call WaitTop
-	ld a, HIGH(vBGMap0)
+	call FinishBGMapTransfer
+	ld a, HIGH(vTilemap0)
 	ldh [hBGMapAddress + 1], a
 	ret
 
@@ -1619,7 +1619,7 @@ Function108c6d:
 	debgcoord 0, 0
 	call Decompress
 	ld hl, MobileTradeTilemapLZ
-	debgcoord 0, 0, vBGMap1
+	debgcoord 0, 0, vTilemap1
 	call Decompress
 	ret
 
@@ -1627,10 +1627,10 @@ Function108c80:
 	ld a, $1
 	ldh [rVBK], a
 	ld hl, MobileTradeAttrmapLZ
-	debgcoord 0, 0 ; vBGMap2
+	debgcoord 0, 0 ; vAttrmap0
 	call Decompress
 	ld hl, MobileTradeAttrmapLZ
-	debgcoord 0, 0, vBGMap3
+	debgcoord 0, 0, vAttrmap1
 	call Decompress
 	ld a, $0
 	ldh [rVBK], a
