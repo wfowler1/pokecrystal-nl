@@ -717,7 +717,7 @@
 ;	ret
 
 ;Function16cc6e:
-;	hlbgcoord 0, 0, vBGMap1
+;	hlbgcoord 0, 0, vTilemap1
 ;	jr Function16cc73
 
 ;Function16cc73:

@@ -8313,11 +8313,11 @@ BattleIntro:
 	ld b, SCGB_BATTLE_GRAYSCALE
 	call GetSGBLayout
 	ld hl, rLCDC
-	res B_LCDC_WIN_MAP, [hl] ; select vBGMap0/vBGMap2
+	res B_LCDC_WIN_MAP, [hl] ; select vTilemap0/vAttrmap0
 	call InitBattleDisplay
 	call BattleStartMessage
 	ld hl, rLCDC
-	set B_LCDC_WIN_MAP, [hl] ; select vBGMap1/vBGMap3
+	set B_LCDC_WIN_MAP, [hl] ; select vTilemap1/vAttrmap1
 	xor a
 	ldh [hBGMapMode], a
 	call EmptyBattleTextbox
@@ -8358,7 +8358,7 @@ BackUpBGMap2:
 	ld a, BANK(wDecompressScratch)
 	ldh [rWBK], a
 	ld hl, wDecompressScratch
-	ld bc, $40 tiles ; vBGMap3 - vBGMap2
+	ld bc, $40 tiles ; vAttrmap1 - vAttrmap0
 	ld a, $2
 	call ByteFill
 	ldh a, [rVBK]
@@ -8366,7 +8366,7 @@ BackUpBGMap2:
 	ld a, $1
 	ldh [rVBK], a
 	ld de, wDecompressScratch
-	hlbgcoord 0, 0 ; vBGMap2
+	hlbgcoord 0, 0 ; vAttrmap0
 	lb bc, BANK(BackUpBGMap2), $40
 	call Request2bpp
 	pop af

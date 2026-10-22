@@ -724,7 +724,7 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
+	text "ELM: <PLAY_G>!" ; "ELM: <PLAY_G>!"
 	line "Daar ben je dan!" ; "There you are!"
 
 	para "Ik wil je een" ; "I needed to ask"
@@ -783,7 +783,7 @@ ElmText_ResearchAmbitions:
 	line "dieper in de vele" ; "deeper into the"
 
 	para "mysteries van" ; "many mysteries of"
-	line "#MON."
+	line "#MON." ; "#MON."
 
 	para "Reken daar maar" ; "You can count on"
 	line "op!" ; "it!"
@@ -793,8 +793,8 @@ ElmText_GotAnEmail:
 	text "Oh, hé! Ik kreeg" ; "Oh, hey! I got an"
 	line "een e-mail!" ; "e-mail!"
 
-	para "<……><……><……>"
-	line "Hm… Uh-huh…"
+	para "<……><……><……>" ; "<……><……><……>"
+	line "Hm… Uh-huh…" ; "Hm… Uh-huh…"
 
 	para "Oké…" ; "Okay…"
 	done
@@ -804,7 +804,7 @@ ElmText_MissionFromMrPokemon:
 
 	para "Ik heb een kennis" ; "I have an acquain-"
 	line "genaamd MR." ; "tance called MR."
-	cont "#MON."
+	cont "#MON." ; "#MON."
 
 	para "Hij ontdekt steeds" ; "He keeps finding"
 	line "rare dingen en" ; "weird things and"
@@ -975,7 +975,7 @@ ElmAfterTheftText1:
 ElmAfterTheftText2:
 	text "<PLAYER> gaf" ; "<PLAYER> handed"
 	line "MYSTERIE-EI aan" ; "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	cont "PROF.ELM." ; "PROF.ELM."
 	done
 
 ElmAfterTheftText3:
@@ -1045,7 +1045,7 @@ ElmStudyingEggText:
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAY_G>?"
+	text "ELM: <PLAY_G>?" ; "ELM: <PLAY_G>?"
 	line "Heb je gesproken" ; "Didn't you meet my"
 	cont "met m'n assistent?" ; "assistant?"
 
@@ -1070,7 +1070,7 @@ ElmThoughtEggHatchedText:
 	line "EI uit? Ja toch?" ; "the EGG hatched."
 
 	para "Waar is de" ; "Where is the"
-	line "#MON?"
+	line "#MON?" ; "#MON?"
 	done
 
 ShowElmTogepiText1:
@@ -1183,7 +1183,7 @@ ElmGiveMasterBallText2:
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAY_G>!"
+	text "ELM: <PLAY_G>!" ; "ELM: <PLAY_G>!"
 	line "Daar ben je!" ; "There you are!"
 
 	para "Ik belde omdat ik" ; "I called because I"
@@ -1209,7 +1209,7 @@ ElmGiveTicketText2:
 	cont "je #MON." ; "with your #MON."
 
 	para "Doe de groeten aan" ; "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	line "PROF.OAK in KANTO!" ; "PROF.OAK in KANTO!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
@@ -1256,7 +1256,7 @@ AideText_TheftTestimony:
 	done
 
 AideText_GiveYouBalls:
-	text "<PLAY_G>!"
+	text "<PLAY_G>!" ; "<PLAY_G>!"
 
 	para "Gebruik deze op je" ; "Use these on your"
 	line "#DEX-missie!" ; "#DEX quest!"

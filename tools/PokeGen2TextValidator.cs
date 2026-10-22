@@ -26,7 +26,7 @@ namespace PokeGen2TextValidator
 
             int currentArg = 0;
             bool stop = false;
-            for (currentArg = 0; currentArg < args.Length; )
+            for (currentArg = 0; currentArg < args.Length;)
             {
                 if (!args[currentArg].ToLowerInvariant().StartsWith("-"))
                 {
@@ -135,8 +135,12 @@ namespace PokeGen2TextValidator
 
                 if (compare)
                 {
-                    Comparer comparer = new Comparer(source, target);
-                    Console.WriteLine(comparer.Compare());
+                    Comparer comparer = new Comparer(source, target, silent);
+                    string compareMessage = comparer.Compare();
+                    if (compareMessage != null)
+                    {
+                        Console.WriteLine(compareMessage);
+                    }
                 }
                 else if (merge)
                 {
@@ -145,8 +149,12 @@ namespace PokeGen2TextValidator
 
                     if (source != null && baseSource != null && baseTarget != null)
                     {
-                        Merger merger = new Merger(source, target, baseSource, baseTarget);
-                        Console.WriteLine(merger.Merge());
+                        Merger merger = new Merger(source, target, baseSource, baseTarget, silent);
+                        string mergeMessage = merger.Merge();
+                        if (mergeMessage != null)
+                        {
+                            Console.WriteLine(mergeMessage);
+                        }
                         File.WriteAllText(target.File.FullName, target.ToString());
                     }
                 }
@@ -163,7 +171,7 @@ namespace PokeGen2TextValidator
             Console.WriteLine("    -vt, --ValidateTrainers: Validates trainer names to ensure they are not too long.");
             Console.WriteLine("    -c, --compare:           Compare Source to Target.");
             Console.WriteLine("    -m, --merge:             Compare BaseSource to BaseTarget, then merge matching blocks from Source into Target.");
-            Console.WriteLine("    -s, --silent:            Validator silent mode. Only prints a message if a check failed (error or warning).");
+            Console.WriteLine("    -s, --silent:            Silent mode. Validator only prints a message if a check failed (error or warning). Comparer and Merger only print if source doesn't fully merge into target.");
             Console.WriteLine("  Source: Primary file to operate on.");
             Console.WriteLine("  Target: Target file to compare to Source. Required for compares and merges.");
             Console.WriteLine("  BaseSource: Original version of Source to compare to BaseTarget to see if merge from Source to Target should occur.");
@@ -324,11 +332,13 @@ namespace PokeGen2TextValidator
             {
                 return FileType.Type;
             }
-            else if (path.Contains("data/maps/landmarks.asm"))
+            else if (path.Contains("data/maps/landmarks.asm") ||
+                path.Contains("data/maps/names.asm"))
             {
                 return FileType.Landmark;
             }
-            else if (path.Contains("data/trainers/class_names.asm"))
+            else if (path.Contains("data/trainers/class_names.asm") ||
+                path.Contains("data/trainers/names.asm"))
             {
                 return FileType.TrainerClass;
             }
@@ -986,6 +996,7 @@ namespace PokeGen2TextValidator
             { "<BOLD_L>", 1 },
             { "<BOLD_M>", 1 },
             { "<COLON>", 1 },
+            { "<ED>", 1 },
             { "<PO>", 1 },
             { "<KE>", 1 },
             { "<PK>", 1 },
@@ -1025,6 +1036,15 @@ namespace PokeGen2TextValidator
             { "{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}", 3 },
             { "{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}", 3 },
             { "{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}", 3 },
+            { "{4d:GOLDENRODGAMECORNER_TM14_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_TM25_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_TM38_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_ABRA_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_CUBONE_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_WOBBUFFET_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_EKANS_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_SANDSHREW_COINS}", 4 },
+            { "{4d:GOLDENRODGAMECORNER_DRATINI_COINS}", 4 },
             { "{d:MAHOGANYTOWN_RAGECANDYBAR_PRICE}", 3 },
             { "{UNOWNWORD_{d:x}}", 7 },
             { "{d:MONS_PER_BOX}", 2 },
@@ -1193,7 +1213,8 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎";
+        public const string GSCPrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎♥♦";
+        public const string RBYPrintableChars = "‘’“”…┌─┐│└┘ №′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzé'-?!.▷▶▼♂¥×/,♀0123456789";
 
         private Block _block;
         private StringBuilder output;
@@ -1472,9 +1493,19 @@ namespace PokeGen2TextValidator
                         unmappedCharactersBuilder.Clear();
                         break;
                     }
-                    if (!PrintableChars.Contains(c.ToString()))
+                    if (_block.Source <= Source.Yellow)
                     {
-                        unmappedCharactersBuilder.Append(c);
+                        if (!RBYPrintableChars.Contains(c.ToString()))
+                        {
+                            unmappedCharactersBuilder.Append(c);
+                        }
+                    }
+                    else
+                    {
+                        if (!GSCPrintableChars.Contains(c.ToString()))
+                        {
+                            unmappedCharactersBuilder.Append(c);
+                        }
                     }
                 }
                 if (unmappedCharactersBuilder.ToString() != string.Empty)
@@ -1486,13 +1517,10 @@ namespace PokeGen2TextValidator
                 {
                     if (_block.Source <= Source.Yellow)
                     {
+                        maxLength = MaxTextboxLength;
                         if (formattedText.Instruction == "line" || formattedText.Instruction == "cont" || formattedText.Instruction == "next" || formattedText.Instruction == "text_low")
                         {
                             //maxLength = MaxRBYTextboxSecondLineLength;
-                        }
-                        else
-                        {
-                            maxLength = MaxTextboxLength;
                         }
                     }
 
@@ -1553,7 +1581,16 @@ namespace PokeGen2TextValidator
 
                 if (_block.Type == FileType.Landmark)
                 {
-                    string message = GetLandmarkLineValidationMessage(formattedText, MaxLandmarkLineLength);
+                    string message;
+                    if (_block.Source >= Source.GoldSilver)
+                    {
+                        message = GetLandmarkLineValidationMessage(formattedText, MaxLandmarkLineLength);
+                    }
+                    else
+                    {
+                        message = GetLandmarkLineValidationMessage(formattedText, MaxLandmarkLength);
+                    }
+
                     if (!string.IsNullOrWhiteSpace(message))
                     {
                         output.Append(message);
@@ -1829,11 +1866,28 @@ namespace PokeGen2TextValidator
         public readonly Dictionary<Block, Block> matched;
 
         private bool canBeMergedFully = true;
+        public bool CanBeMergedFully
+        {
+            get
+            {
+                return canBeMergedFully;
+            }
+        }
+        private bool perfectMatch = true;
+        public bool PerfectMatch
+        {
+            get
+            {
+                return perfectMatch;
+            }
+        }
+        private bool silent = false;
 
-        public Comparer(ASMFile source, ASMFile target)
+        public Comparer(ASMFile source, ASMFile target, bool silent = false)
         {
             this.source = source;
             this.target = target;
+            this.silent = silent;
 
             added = new List<Block>();
             removed = new List<Block>();
@@ -1841,15 +1895,20 @@ namespace PokeGen2TextValidator
             matched = new Dictionary<Block, Block>();
         }
 
+        /// <summary>
+        /// Compares the <see cref="Block"/>s in <see cref="source"/> to those in <see cref="target"/>.
+        /// </summary>
+        /// <returns>Message of comparison results. <c>null</c> if all comparisons matched and <see cref="silent"/> is <c>true</c>.</returns>
         public string Compare()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Comparing ").Append(source.File.FullName).Append(" to ").Append(target.File.FullName).Append('\n');
+            StringBuilder output = new StringBuilder();
+            output.Append("Comparing ").Append(source.File.FullName).Append(" to ").Append(target.File.FullName).Append('\n');
             List<string> targetBlockNames = target.blocks.Keys.ToList();
 
             // Cannot modify list while iterating over it.
             foreach (string name in targetBlockNames.ToArray())
             {
+                // Remove empty blocks.
                 if (target.blocks[name].lines.Count < 1)
                 {
                     continue;
@@ -1867,12 +1926,13 @@ namespace PokeGen2TextValidator
                 if (!target.blocks.ContainsKey(pair.Key))
                 {
                     removed.Add(pair.Value);
-                    sb.Append("\t- Block ").Append(pair.Key).Append(" deleted in target.\n");
+                    perfectMatch = false;
+                    output.Append("\t- Block ").Append(pair.Key).Append(" deleted in target.\n");
                 }
                 else
                 {
                     targetBlockNames.Remove(pair.Key);
-                    sb.Append(CompareBlocks(pair.Value, target.blocks[pair.Key]));
+                    output.Append(CompareBlocks(pair.Value, target.blocks[pair.Key]));
                 }
             }
 
@@ -1880,15 +1940,21 @@ namespace PokeGen2TextValidator
             {
                 added.Add(target.blocks[name]);
                 canBeMergedFully = false;
-                sb.Append("\t+ Block ").Append(name).Append(" added in target.\n");
+                perfectMatch = false;
+                output.Append("\t+ Block ").Append(name).Append(" added in target.\n");
+            }
+
+            if (perfectMatch && silent)
+            {
+                return null;
             }
 
             if (canBeMergedFully)
             {
-                sb.Append("\tSource ").Append(source.Name).Append(" can be merged fully into target ").Append(target.Name).Append('\n');
+                output.Append("\tSource ").Append(source.Name).Append(" can be merged fully into target ").Append(target.Name).Append('\n');
             }
 
-            return sb.ToString();
+            return output.ToString();
         }
 
         private string CompareBlocks(Block sourceBlock, Block targetBlock)
@@ -1901,7 +1967,11 @@ namespace PokeGen2TextValidator
             {
                 modified.Add(sourceBlock, targetBlock);
                 canBeMergedFully = false;
-                sb.Append("\t! Block ").Append(sourceBlock.Name).Append(" has different line counts between source and target.\n");
+                perfectMatch = false;
+                if (sourceBlock.GetFormattedTexts().Count > 0 || targetBlock.GetFormattedTexts().Count > 0)
+                {
+                    sb.Append("\t! Block ").Append(sourceBlock.Name).Append(" has different line counts between source and target.\n");
+                }
             }
             else
             {
@@ -1922,18 +1992,22 @@ namespace PokeGen2TextValidator
                     }
                     if (sourceLine != targetLine)
                     {
-                        if (!changed)
+                        if (sourceBlock.GetFormattedTexts().Count > 0 || targetBlock.GetFormattedTexts().Count > 0)
                         {
-                            sb.Append("\t! Block ").Append(sourceBlock.Name).Append(" in Source content differs from ").Append(targetBlock.Name).Append(" in Target.\n");
-                            changed = true;
+                            if (!changed)
+                            {
+                                // Only print this once!
+                                sb.Append("\t! Block ").Append(sourceBlock.Name).Append(" in Source content differs from ").Append(targetBlock.Name).Append(" in Target.\n");
+                            }
+                            sb.Append("\t\t")
+                              .Append(i)
+                              .Append(":\n\t\t\t- Source: ")
+                              .Append(sourceLine)
+                              .Append("\n\t\t\t+ Target: ")
+                              .Append(targetLine)
+                              .Append('\n');
                         }
-                        sb.Append("\t\t")
-                          .Append(i)
-                          .Append(":\n\t\t\t- Source: ")
-                          .Append(sourceLine)
-                          .Append("\n\t\t\t+ Target: ")
-                          .Append(targetLine)
-                          .Append('\n');
+                        changed = true;
                     }
                 }
 
@@ -1941,11 +2015,15 @@ namespace PokeGen2TextValidator
                 {
                     modified.Add(sourceBlock, targetBlock);
                     canBeMergedFully = false;
+                    perfectMatch = false;
                 }
                 else
                 {
                     matched.Add(sourceBlock, targetBlock);
-                    sb.Append("\t= Block ").Append(sourceBlock.Name).Append(" in Source matches ").Append(targetBlock.Name).Append(" in Target.\n");
+                    if (!silent)
+                    {
+                        sb.Append("\t= Block ").Append(sourceBlock.Name).Append(" in Source matches ").Append(targetBlock.Name).Append(" in Target.\n");
+                    }
                 }
             }
             return sb.ToString();
@@ -1963,8 +2041,9 @@ namespace PokeGen2TextValidator
         private Comparer baseComparison;
 
         private StringBuilder output;
+        private bool silent;
 
-        public Merger(ASMFile source, ASMFile target, ASMFile baseSource, ASMFile baseTarget)
+        public Merger(ASMFile source, ASMFile target, ASMFile baseSource, ASMFile baseTarget, bool silent = false)
         {
             this.source = source;
             this.target = target;
@@ -1972,24 +2051,43 @@ namespace PokeGen2TextValidator
             this.baseTarget = baseTarget;
 
             output = new StringBuilder();
+            this.silent = silent;
         }
 
+        /// <summary>
+        /// Compares the <see cref="Block"/>s in <see cref="baseSource"/> to those in <see cref="baseTarget"/>, then merges
+        /// matching blocks are then merged from <see cref="source"/> into <see cref="target"/>. This allows blocks that are
+        /// the same between two bases to update blocks in target with blocks from source when the source has changed,
+        /// without changing blocks that are different between the bases.
+        /// </summary>
+        /// <returns>Message of merge results. <c>null</c> if comparison <see cref="Comparer.CanBeMergedFully"/> and <see cref="silent"/> is <c>true</c>.</returns>
         public string Merge()
         {
-            output.Append("Performing comparison between bases...\n");
-            baseComparison = new Comparer(baseSource, baseTarget);
-            output.AppendLine(baseComparison.Compare());
+            baseComparison = new Comparer(baseSource, baseTarget, silent);
+            string compareResult = baseComparison.Compare();
+            if (compareResult != null)
+            {
+                output.Append("Comparing base files: ");
+                output.Append(compareResult);
+            }
+
+            output.Append("Merging ").Append(source.Name).Append(" into ").Append(target.Name);
 
             HandleAdded();
             HandleMatched();
             HandleModified();
 
+            if (silent && baseComparison.CanBeMergedFully)
+            {
+                // CanBeMergedFully was true and merge has been performed. No need to print anything.
+                return null;
+            }
             return output.ToString();
         }
 
         /// <summary>
         /// Checks for and handles unconditional replacement annotations in blocks added in target, and if found,
-        /// raplaces text in target blocks with specified source blocks regardless of base comparisons. Otherwise does nothing.
+        /// replaces text in target blocks with specified source blocks regardless of base comparisons. Otherwise does nothing.
         /// </summary>
         private void HandleAdded()
         {
@@ -1999,16 +2097,26 @@ namespace PokeGen2TextValidator
                 {
                     Block targetBlock = target.blocks[added.Name];
                     string replacement = targetBlock.ReplaceWith;
-                    if (replacement != null && source.blocks.ContainsKey(replacement))
+                    if (replacement != null)
                     {
-                        Block sourceBlock = source.blocks[replacement];
-                        if (sourceBlock.GetFormattedTexts().Count == 0)
+                        if (source.blocks.ContainsKey(replacement))
                         {
-                            continue;
-                        }
+                            Block sourceBlock = source.blocks[replacement];
+                            if (sourceBlock.GetFormattedTexts().Count == 0)
+                            {
+                                continue;
+                            }
 
-                        CopyLines(sourceBlock, targetBlock);
-                        output.Append("Replacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source unconditionally.\n");
+                            CopyLines(sourceBlock, targetBlock);
+                            if (!silent)
+                            {
+                                output.Append("\tReplacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source unconditionally.\n");
+                            }
+                        }
+                        else
+                        {
+                            output.Append("\tBlock ").Append(targetBlock.Name).Append(" in target is marked ReplaceWith ").Append(replacement).Append(" but no such block exists in source.\n");
+                        }
                     }
                 }
             }
@@ -2031,7 +2139,10 @@ namespace PokeGen2TextValidator
                     Block targetBlock = target.blocks[match.Value.Name];
 
                     CopyLines(sourceBlock, targetBlock);
-                    output.Append("Replacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source.\n");
+                    if (!silent)
+                    {
+                        output.Append("\tReplacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source.\n");
+                    }
                 }
             }
         }
@@ -2061,11 +2172,14 @@ namespace PokeGen2TextValidator
                         }
 
                         CopyLines(sourceBlock, targetBlock);
-                        output.Append("Replacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source unconditionally.\n");
+                        if (!silent)
+                        {
+                            output.Append("\tReplacing block ").Append(targetBlock.Name).Append(" in target with ").Append(sourceBlock.Name).Append(" from source unconditionally.\n");
+                        }
                     }
                     else
                     {
-                        output.Append("Block ").Append(modifiedBlock.Key.Name).Append(" differs in base scripts. Cannot merge automatically!\n");
+                        output.Append("\tBlock ").Append(modifiedBlock.Key.Name).Append(" differs in base scripts. Cannot merge automatically!\n");
                     }
                 }
             }
