@@ -1059,6 +1059,25 @@ LoadOrangePage:
 	ld a, b
 	call .Print_Judge_String
 
+; Print stats as numbers instead of bars.
+;	ld de, wTempMonHPExp
+;	hlcoord 9, 8
+;	lb bc, 2, 5
+;	call PrintNum
+;	ld de, wTempMonAtkExp
+;	hlcoord 9, 10
+;	call PrintNum
+;	ld de, wTempMonDefExp
+;	hlcoord 9, 12
+;	call PrintNum
+;	ld de, wTempMonSpcExp
+;	hlcoord 9, 14
+;	call PrintNum
+;	ld de, wTempMonSpdExp
+;	hlcoord 9, 16
+;	call PrintNum
+;	ret
+
 ; Stat EXP bars and DV values
 	ld a, [wTempMonHPExp + 1]
 	cp $ff
@@ -1245,7 +1264,7 @@ FantasticString:
 	db "Fantastisch@" ; "Fantastic@"
 
 BestString:
-	db "Best@"
+	db "Best@" ; "Best@"
 
 PlaceStatExpBar:
 	ld a, $40

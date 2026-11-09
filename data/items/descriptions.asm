@@ -136,7 +136,7 @@ ItemDescriptions:
 	dw BasementKeyDesc
 	dw PassDesc
 	dw HeartScaleDesc ; TeruSama9Desc
-	dw TeruSama10Desc
+	dw MachoBraceDesc ; TeruSama10Desc
 	dw TeruSama11Desc
 	dw CharcoalDesc
 	dw BerryJuiceDesc
@@ -436,7 +436,7 @@ DireHitDesc:
 
 PowerWeightDesc:
 	db   "Halfs SPEED, but"
-	next "ups HP Growth.@"
+	next "ups HP growth.@"
 
 FreshWaterDesc:
 	db   "Herstel LP van" ; "Restores #MON"
@@ -456,7 +456,7 @@ XAttackDesc:
 
 PowerAnkletDesc:
 	db   "Halfs SPEED, but"
-	next "ups SPEED Growth.@"
+	next "ups SPEED growth.@"
 
 XDefendDesc:
 	db   "Verhoog AFWEER" ; "Raises DEFENSE."
@@ -615,7 +615,7 @@ BluApricornDesc:
 
 PowerBeltDesc:
 	db   "Halfs SPEED, but"
-	next "ups DEF Growth.@"
+	next "ups DEF growth.@"
 
 AmuletCoinDesc:
 	db   "Verdubbelt geld-" ; "Doubles monetary"
@@ -655,7 +655,7 @@ BlkApricornDesc:
 
 PowerBracerDesc:
 	db   "Halfs SPEED, but"
-	next "ups ATTACK Growth.@"
+	next "ups ATTACK growth.@"
 
 PnkApricornDesc:
 	db   "Een roze"; "A pink APRICORN.@"
@@ -735,7 +735,7 @@ FocusBandDesc:
 
 PowerLensDesc:
 	db   "Halfs SPEED, but"
-	next "ups SPCL Growth.@"
+	next "ups SPCL growth.@"
 
 EnergyPowderDesc:
 	db   "Herstelt #MON-" ; "Restores #MON"
@@ -796,8 +796,9 @@ HeartScaleDesc:
 	db   "A rare heart-"
 	next "shaped scale.@"
 
-TeruSama10Desc:
-	db   "?@" ; "?@"
+MachoBraceDesc:
+	db   "Halfs SPEED, but"
+	next "ups stat growth.@"
 
 TeruSama11Desc:
 	db   "?@" ; "?@"

@@ -361,19 +361,19 @@ BattleText_StringBuffer1GrewToLevel:
 
 	text_end ; unreferenced
 
-BattleText_WildMonIsEating:
-	text "Wilde @" ; "Wild @"
-	text_ram wEnemyMonNickname
-	text_start
-	line "is aan het eten!" ; "is eating!"
-	prompt
+;BattleText_WildMonIsEating:
+;	text "Wilde @" ; "Wild @"
+;	text_ram wEnemyMonNickname
+;	text_start
+;	line "is aan het eten!" ; "is eating!"
+;	prompt
 
-BattleText_WildMonIsAngry:
-	text "Wilde @" ; "Wild @"
-	text_ram wEnemyMonNickname
-	text_start
-	line "is boos!" ; "is angry!"
-	prompt
+;BattleText_WildMonIsAngry:
+;	text "Wilde @" ; "Wild @"
+;	text_ram wEnemyMonNickname
+;	text_start
+;	line "is boos!" ; "is angry!"
+;	prompt
 
 FastAsleepText:
 	text "<USER>"

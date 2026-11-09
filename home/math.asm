@@ -48,11 +48,31 @@ Divide::
 	pop hl
 	ret
 
-SubtractAbsolute:: ; unreferenced
+;SubtractAbsolute:: ; unreferenced
 ; Return |a - b|, sign in carry.
-	sub b
+;	sub b
+;	ret nc
+;	cpl
+;	add 1
+;	scf
+;	ret
+
+; Adds value in `b` to the value pointed at by [hl], carry to [hld]. If overflow,
+; sets [hl] and [hld] to $ff (65535) and sets carry.
+AddBToU16NoOverflow::
+	ld a, b
+	add [hl]
+	ld [hl], a
 	ret nc
-	cpl
+	; overflowed low byte
+	dec hl
+	ld a, [hl]
 	add 1
-	scf
+	jr c, .maxed_out
+	ld [hli], a
+	ret
+.maxed_out
+	ld a, $ff
+	ld [hli], a
+	ld [hl], a
 	ret

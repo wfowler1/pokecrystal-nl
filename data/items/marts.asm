@@ -333,12 +333,13 @@ MartCeladon4F:
 	db -1 ; end
 
 MartCeladon5F1:
-	db 10 ; # items
+	db 11 ; # items
 	db HP_UP
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
+	db MACHO_BRACE
 	db POWER_WEIGHT
 	db POWER_ANKLET
 	db POWER_BELT

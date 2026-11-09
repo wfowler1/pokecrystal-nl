@@ -5,6 +5,7 @@ BuenaPrizeItems:
 	db NUGGET,       3
 	db RARE_CANDY,   3
 	db HEART_SCALE,  3
+	db MACHO_BRACE,  3
 	db PROTEIN,      5
 	db IRON,         5
 	db CARBOS,       5

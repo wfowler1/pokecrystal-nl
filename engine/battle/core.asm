@@ -1946,24 +1946,24 @@ GetMaxHP:
 	ld c, a
 	ret
 
-GetHalfHP: ; unreferenced
-	ld hl, wBattleMonHP
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .ok
-	ld hl, wEnemyMonHP
-.ok
-	ld a, [hli]
-	ld b, a
-	ld a, [hli]
-	ld c, a
-	srl b
-	rr c
-	ld a, [hli]
-	ld [wHPBuffer1 + 1], a
-	ld a, [hl]
-	ld [wHPBuffer1], a
-	ret
+;GetHalfHP: ; unreferenced
+;	ld hl, wBattleMonHP
+;	ldh a, [hBattleTurn]
+;	and a
+;	jr z, .ok
+;	ld hl, wEnemyMonHP
+;.ok
+;	ld a, [hli]
+;	ld b, a
+;	ld a, [hli]
+;	ld c, a
+;	srl b
+;	rr c
+;	ld a, [hli]
+;	ld [wHPBuffer1 + 1], a
+;	ld a, [hl]
+;	ld [wHPBuffer1], a
+;	ret
 
 CheckUserHasEnoughHP:
 	ld hl, wBattleMonHP + 1
@@ -6678,16 +6678,16 @@ CheckUnownLetter:
 
 INCLUDE "data/wild/unlocked_unowns.asm"
 
-SwapBattlerLevels: ; unreferenced
-	push bc
-	ld a, [wBattleMonLevel]
-	ld b, a
-	ld a, [wEnemyMonLevel]
-	ld [wBattleMonLevel], a
-	ld a, b
-	ld [wEnemyMonLevel], a
-	pop bc
-	ret
+;SwapBattlerLevels: ; unreferenced
+;	push bc
+;	ld a, [wBattleMonLevel]
+;	ld b, a
+;	ld a, [wEnemyMonLevel]
+;	ld [wBattleMonLevel], a
+;	ld a, b
+;	ld [wEnemyMonLevel], a
+;	pop bc
+;	ret
 
 BattleWinSlideInEnemyTrainerFrontpic:
 	xor a
@@ -7043,19 +7043,19 @@ _LoadHPBar:
 	callfar LoadHPBar
 	ret
 
-LoadHPExpBarGFX: ; unreferenced
-	ld de, EnemyHPBarBorderGFX
-	ld hl, vTiles2 tile $6c
-	lb bc, BANK(EnemyHPBarBorderGFX), 4
-	call Get1bpp
-	ld de, HPExpBarBorderGFX
-	ld hl, vTiles2 tile $73
-	lb bc, BANK(HPExpBarBorderGFX), 6
-	call Get1bpp
-	ld de, ExpBarGFX
-	ld hl, vTiles2 tile $55
-	lb bc, BANK(ExpBarGFX), 8
-	jp Get2bpp
+;LoadHPExpBarGFX: ; unreferenced
+;	ld de, EnemyHPBarBorderGFX
+;	ld hl, vTiles2 tile $6c
+;	lb bc, BANK(EnemyHPBarBorderGFX), 4
+;	call Get1bpp
+;	ld de, HPExpBarBorderGFX
+;	ld hl, vTiles2 tile $73
+;	lb bc, BANK(HPExpBarBorderGFX), 6
+;	call Get1bpp
+;	ld de, ExpBarGFX
+;	ld hl, vTiles2 tile $55
+;	lb bc, BANK(ExpBarGFX), 8
+;	jp Get2bpp
 
 EmptyBattleTextbox:
 	ld hl, .empty
@@ -7196,6 +7196,26 @@ GiveExperiencePoints:
 	pop bc
 	jp z, .next_mon
 
+; Fill Item buffers
+	push hl
+	push bc
+	ld a, MON_ITEM
+	call GetPartyParamLocation
+	ld b, [hl]
+	callfar GetItemHeldEffect
+	ld a, b
+	ld [wHeldItemEffectBuffer], a
+	ld a, c
+	ld [wHeldItemParameterBuffer], a
+
+; Fill Pokerus buffer
+	ld a, MON_POKERUS
+	call GetPartyParamLocation
+	ld a, [hl]
+	ld [wPokerusBuffer], a
+	pop bc
+	pop hl
+
 ; give stat exp
 	ld hl, MON_STAT_EXP + 1
 	add hl, bc
@@ -7204,54 +7224,39 @@ GiveExperiencePoints:
 	ld hl, wEnemyMonBaseStats - 1
 	push bc
 	ld c, NUM_EXP_STATS
+
+; Add enemy base stat at `c` to ours
 .stat_exp_loop
 	inc hl
-	ld a, [de]
-	add [hl]
-	ld [de], a
-	jr nc, .no_carry_stat_exp
-	dec de
-	ld a, [de]
-	inc a
-	jr z, .stat_exp_maxed_out
-	ld [de], a
-	inc de
+	call .add_enemy_base_stat_to_stat_exp
+	jr c, .stat_exp_awarded
 
+; Check Pokerus
 .no_carry_stat_exp
-	push hl
-	push bc
-	ld a, MON_POKERUS
-	call GetPartyParamLocation
-	ld a, [hl]
-	ld [wPokerusBuffer], a
+	ld a, [wPokerusBuffer]
 	and a
-	pop bc
-	pop hl
-	jr z, .power_item_stat_exp
-	ld a, [de]
-	add [hl]
-	ld [de], a
-	jr nc, .power_item_stat_exp
-	dec de
-	ld a, [de]
-	inc a
-	jr z, .stat_exp_maxed_out
-	ld [de], a
-	inc de
+	jr z, .check_macho_brace
+	call .add_enemy_base_stat_to_stat_exp
+	jr c, .stat_exp_awarded
 
-.power_item_stat_exp
-	push bc
-	push hl
-	ld a, MON_ITEM
-	call GetPartyParamLocation
-	ld b, [hl]
-	callfar GetItemHeldEffect
-	ld a, b
+; Check for stat boosting items
+.check_macho_brace
+	ld a, [wHeldItemEffectBuffer]
+	cp HELD_MACHO_BRACE
+	jr nz, .check_power_item
+	call .add_enemy_base_stat_to_stat_exp
+	jr c, .stat_exp_awarded
+; Stack Pokerus
+	ld a, [wPokerusBuffer]
+	and a
+	jr z, .stat_exp_awarded
+	call .add_enemy_base_stat_to_stat_exp
+	jr .stat_exp_awarded
+
+.check_power_item
 	cp HELD_POWER_ITEM
-	ld a, c ; STAT_ constant of stat to boost
-	pop hl
-	pop bc
 	jr nz, .stat_exp_awarded
+	ld a, [wHeldItemParameterBuffer]
 	ld b, a
 	ld a, NUM_EXP_STATS + 1
 	sub c
@@ -7259,20 +7264,32 @@ GiveExperiencePoints:
 	jr nz, .stat_exp_awarded
 	dec de
 	ld a, [de]
-	add 8
+	add 4
 	jr c, .stat_exp_maxed_out
 	ld [de], a
+; Stack Pokerus
 	ld a, [wPokerusBuffer]
 	and a
 	inc de
 	jr z, .stat_exp_awarded
 	dec de
 	ld a, [de]
-	add 8
+	add 4
 	jr c, .stat_exp_maxed_out
 	ld [de], a
 	inc de
 	jr .stat_exp_awarded
+
+.add_enemy_base_stat_to_stat_exp
+	push hl
+	push bc
+	ld b, [hl]
+	ld h, d
+	ld l, e
+	call AddBToU16NoOverflow
+	pop bc
+	pop hl
+	ret
 
 .stat_exp_maxed_out
 	ld a, $ff
@@ -8025,45 +8042,45 @@ GoodComeBackText:
 	text_far _GoodComeBackText
 	text_end
 
-TextJump_ComeBack: ; unreferenced
-	ld hl, ComeBackText
-	ret
+;TextJump_ComeBack: ; unreferenced
+;	ld hl, ComeBackText
+;	ret
 
 ComeBackText:
 	text_far _ComeBackText
 	text_end
 
-HandleSafariAngerEatingStatus: ; unreferenced
-	ld hl, wSafariMonEating
-	ld a, [hl]
-	and a
-	jr z, .angry
-	dec [hl]
-	ld hl, BattleText_WildMonIsEating
-	jr .finish
+;HandleSafariAngerEatingStatus: ; unreferenced
+;	ld hl, wSafariMonEating
+;	ld a, [hl]
+;	and a
+;	jr z, .angry
+;	dec [hl]
+;	ld hl, BattleText_WildMonIsEating
+;	jr .finish
 
-.angry
-	dec hl
-	assert wSafariMonEating - 1 == wSafariMonAngerCount
-	ld a, [hl]
-	and a
-	ret z
-	dec [hl]
-	ld hl, BattleText_WildMonIsAngry
-	jr nz, .finish
-	push hl
-	ld a, [wEnemyMonSpecies]
-	ld [wCurSpecies], a
-	call GetBaseData
-	ld a, [wBaseCatchRate]
-	ld [wEnemyMonCatchRate], a
-	pop hl
+;.angry
+;	dec hl
+;	assert wSafariMonEating - 1 == wSafariMonAngerCount
+;	ld a, [hl]
+;	and a
+;	ret z
+;	dec [hl]
+;	ld hl, BattleText_WildMonIsAngry
+;	jr nz, .finish
+;	push hl
+;	ld a, [wEnemyMonSpecies]
+;	ld [wCurSpecies], a
+;	call GetBaseData
+;	ld a, [wBaseCatchRate]
+;	ld [wEnemyMonCatchRate], a
+;	pop hl
 
-.finish
-	push hl
-	call SafeLoadTempTilemapToTilemap
-	pop hl
-	jp StdBattleTextbox
+;.finish
+;	push hl
+;	call SafeLoadTempTilemapToTilemap
+;	pop hl
+;	jp StdBattleTextbox
 
 FillInExpBar:
 	push hl
@@ -8291,9 +8308,9 @@ StartBattle:
 	scf
 	ret
 
-CallDoBattle: ; unreferenced
-	call DoBattle
-	ret
+;CallDoBattle: ; unreferenced
+;	call DoBattle
+;	ret
 
 BattleIntro:
 	farcall StubbedTrainerRankings_Battles ; mobile
@@ -8464,56 +8481,56 @@ InitEnemyWildmon:
 	predef PlaceGraphic
 	ret
 
-FillEnemyMovesFromMoveIndicesBuffer: ; unreferenced
-	ld hl, wEnemyMonMoves
-	ld de, wListMoves_MoveIndicesBuffer
-	ld b, NUM_MOVES
-.loop
-	ld a, [de]
-	inc de
-	ld [hli], a
-	and a
-	jr z, .clearpp
+;FillEnemyMovesFromMoveIndicesBuffer: ; unreferenced
+;	ld hl, wEnemyMonMoves
+;	ld de, wListMoves_MoveIndicesBuffer
+;	ld b, NUM_MOVES
+;.loop
+;	ld a, [de]
+;	inc de
+;	ld [hli], a
+;	and a
+;	jr z, .clearpp
 
-	push bc
-	push hl
+;	push bc
+;	push hl
 
-	push hl
-	dec a
-	ld hl, Moves + MOVE_PP
-	ld bc, MOVE_LENGTH
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	pop hl
+;	push hl
+;	dec a
+;	ld hl, Moves + MOVE_PP
+;	ld bc, MOVE_LENGTH
+;	call AddNTimes
+;	ld a, BANK(Moves)
+;	call GetFarByte
+;	pop hl
 
-	ld bc, wEnemyMonPP - (wEnemyMonMoves + 1)
-	add hl, bc
-	ld [hl], a
+;	ld bc, wEnemyMonPP - (wEnemyMonMoves + 1)
+;	add hl, bc
+;	ld [hl], a
 
-	pop hl
-	pop bc
+;	pop hl
+;	pop bc
 
-	dec b
-	jr nz, .loop
-	ret
+;	dec b
+;	jr nz, .loop
+;	ret
 
-.clear
-	xor a
-	ld [hli], a
+;.clear
+;	xor a
+;	ld [hli], a
 
-.clearpp
-	push bc
-	push hl
-	ld bc, wEnemyMonPP - (wEnemyMonMoves + 1)
-	add hl, bc
-	xor a
-	ld [hl], a
-	pop hl
-	pop bc
-	dec b
-	jr nz, .clear
-	ret
+;.clearpp
+;	push bc
+;	push hl
+;	ld bc, wEnemyMonPP - (wEnemyMonMoves + 1)
+;	add hl, bc
+;	xor a
+;	ld [hl], a
+;	pop hl
+;	pop bc
+;	dec b
+;	jr nz, .clear
+;	ret
 
 ExitBattle:
 	call .HandleEndOfBattle
