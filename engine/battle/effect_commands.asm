@@ -2151,7 +2151,6 @@ BattleCommand_FailureText:
 	inc hl
 	ld a, [hl]
 
-; BUG: Beat Up may fail to raise Substitute (see docs/bugs_and_glitches.md)
 	cp EFFECT_MULTI_HIT
 	jr z, .multihit
 	cp EFFECT_DOUBLE_HIT
@@ -2986,7 +2985,6 @@ HitSelfInConfusion:
 
 BattleCommand_DamageCalc:
 ; Return a damage value for move power d, player level e, enemy defense c and player attack b.
-; BUG: Confusion damage is affected by type-boosting items and Explosion/Self-Destruct doubling (see docs/bugs_and_glitches.md)
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar

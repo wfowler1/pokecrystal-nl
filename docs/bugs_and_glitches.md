@@ -54,7 +54,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) "Smart" AI discourages Conversion2 after the first turn](#fixed-smart-ai-discourages-conversion2-after-the-first-turn)
   - [(FIXED) "Smart" AI does not encourage Solar Beam, Flame Wheel, or Moonlight during Sunny Day](#fixed-smart-ai-does-not-encourage-solar-beam-flame-wheel-or-moonlight-during-sunny-day)
   - [(FIXED) "Cautious" AI may fail to discourage residual moves](#fixed-cautious-ai-may-fail-to-discourage-residual-moves)
-  - [AI does not discourage Nightmare if the player has any status condition](#ai-does-not-discourage-nightmare-if-the-player-has-any-status-condition)
+  - [(FIXED) AI does not discourage Nightmare if the player has any status condition](#fixed-ai-does-not-discourage-nightmare-if-the-player-has-any-status-condition)
   - [(FIXED) AI does not discourage Future Sight when it's already been used](#fixed-ai-does-not-discourage-future-sight-when-its-already-been-used)
   - [(FIXED) AI makes a false assumption about `CheckTypeMatchup`](#fixed-ai-makes-a-false-assumption-about-checktypematchup)
   - [(FIXED) AI use of Full Heal or Full Restore does not cure Nightmare status](#fixed-ai-use-of-full-heal-or-full-restore-does-not-cure-nightmare-status)
@@ -1356,7 +1356,7 @@ AI_Cautious:
 ```
 
 
-### AI does not discourage Nightmare if the player has any status condition
+### (FIXED) AI does not discourage Nightmare if the player has any status condition
 
 **Fix** Edit `AI_Redundant.Nightmare` in [engine/battle/ai/redundant.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/redundant.asm):
 

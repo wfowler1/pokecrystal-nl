@@ -410,7 +410,6 @@ DoPlayerMovement::
 	db FACE_UP | FACE_LEFT    ; COLL_HOP_UP_LEFT
 
 .CheckWarp:
-; BUG: No bump noise if standing on tile $3E (see docs/bugs_and_glitches.md)
 
 	ld a, [wWalkingDirection]
 	cp STANDING

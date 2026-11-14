@@ -76,7 +76,6 @@ PlayBattleMusic:
 	cp RED
 	jr z, .done
 
-; BUG: Team Rocket battle music is not used for Executives or Scientists (see docs/bugs_and_glitches.md)
 	ld de, MUSIC_ROCKET_BATTLE
 	cp GRUNTM
 	jr z, .done
