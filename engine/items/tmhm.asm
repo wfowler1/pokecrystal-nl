@@ -42,6 +42,8 @@ GetTMHMItemMove:
 	ret
 
 AskTeachTMHM:
+	ld de, SFX_CHOOSE_PC_OPTION
+	call WaitPlaySFX
 	ld hl, wOptions
 	ld a, [hl]
 	push af
